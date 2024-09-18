@@ -3,7 +3,7 @@ name: Migration cron
 on:
   schedule:
     # Every hour.
-    - cron: "0 * * * *"
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: write
