@@ -1,0 +1,13 @@
+version: incident/v1
+id: 1zp9l0zmfz90
+name: Network Connectivity in SGP1 Region
+impact: minor
+systems:
+    - 2d91fg0js59k
+    - 29xvj6jck5fm
+    - kvrtqsmcph72
+    - 4yq3sg5wrzx2
+timeline:
+    - ts: "2024-09-18 23:10:52"
+      description: As of 21:35 UTC, our Engineering team is investigating reports of networking connectivity issues in our SGP1 region. Users may experience issues with DigitalOcean services including Droplets, Managed Kubernetes and App Platform. We will share an update once we have further information.
+      investigating: true
