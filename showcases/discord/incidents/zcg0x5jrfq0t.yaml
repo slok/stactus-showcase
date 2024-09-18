@@ -4,13 +4,13 @@ name: Profile Updates and Presence Status degraded
 impact: none
 systems: []
 timeline:
-    - ts: "2024-08-29 10:33:46"
+    - ts: "2024-08-29 17:33:46"
       description: We are currently investigating an issue with our presence infrastructure.  Some users may not be able to update their profiles and may show the wrong presence (online, idle, offline) until this issue is resolved.
       investigating: true
-    - ts: "2024-08-29 10:55:06"
+    - ts: "2024-08-29 17:55:06"
       description: The issue has been identified and oncall engineering is working to correct the defect.
-    - ts: "2024-08-29 11:28:48"
+    - ts: "2024-08-29 18:28:48"
       description: Fix has been applied to the infrastructure and we are monitoring recovery.
-    - ts: "2024-08-29 12:01:19"
+    - ts: "2024-08-29 19:01:19"
       description: The infrastructure is now operating as expected, if you continue to have any issues a client restart should correct your presence.
       resolved: true

@@ -6,41 +6,41 @@ systems:
     - 1w2mz2hzw0cz
     - s6jxgrkjjj6p
 timeline:
-    - ts: "2023-10-03 13:30:48"
+    - ts: "2023-10-03 17:30:48"
       description: |-
         We are actively investigating issues with Log Queries returning unexpected results.
         As a result of this issue, some users may experience issues querying logs on the web application or API, and with Logs based Monitors and Log-Based Metrics.
       investigating: true
-    - ts: "2023-10-03 14:49:55"
+    - ts: "2023-10-03 18:49:55"
       description: We are continuing to investigate these issues, and will provide an update as soon as possible.
       investigating: true
-    - ts: "2023-10-03 15:32:33"
+    - ts: "2023-10-03 19:32:33"
       description: We have identified the underlying issue and are working on a fix.
-    - ts: "2023-10-03 16:47:44"
+    - ts: "2023-10-03 20:47:44"
       description: |-
         We have deployed a fix and we are monitoring the results. We will provide another update once the issue is fully resolved.
 
         At this time, newly ingested data is properly queryable, and monitors targeting Logs sent from 2023-10-03 20:40 UTC onwards are valid.
 
         Queries targeting logs between 2023-10-02 11:40 UTC and 2023-10-03 20:40 UTC may return erroneous data.  We are evaluating a fix that will restore query correctness for this time-window.
-    - ts: "2023-10-04 05:19:11"
+    - ts: "2023-10-04 09:19:11"
       description: We're still working on a fix for historical data impacted by this incident.
-    - ts: "2023-10-04 06:26:46"
+    - ts: "2023-10-04 10:26:46"
       description: We're still working on a fix for historical data impacted by this incident.
-    - ts: "2023-10-04 07:07:01"
+    - ts: "2023-10-04 11:07:01"
       description: We're still working on a fix for historical data impacted by this incident.
-    - ts: "2023-10-04 07:41:47"
+    - ts: "2023-10-04 11:41:47"
       description: We're still working on a fix for historical data impacted by this incident.
-    - ts: "2023-10-04 08:18:40"
+    - ts: "2023-10-04 12:18:40"
       description: We're still working on a fix for historical data impacted by this incident.
-    - ts: "2023-10-04 09:04:39"
+    - ts: "2023-10-04 13:04:39"
       description: We have successfully tested a fix for this issue and are currently deploying it to resolve this incident.
-    - ts: "2023-10-04 09:54:43"
+    - ts: "2023-10-04 13:54:43"
       description: The fix rollout is currently ongoing. Once completed we will confirm resolution.
-    - ts: "2023-10-04 10:50:58"
+    - ts: "2023-10-04 14:50:58"
       description: The fix rollout is currently ongoing. Once completed we will confirm resolution.
-    - ts: "2023-10-04 11:44:28"
+    - ts: "2023-10-04 15:44:28"
       description: Fix rollout has now been completed.
-    - ts: "2023-10-04 11:44:56"
+    - ts: "2023-10-04 15:44:56"
       description: This incident has been resolved.
       resolved: true

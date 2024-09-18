@@ -5,14 +5,14 @@ impact: minor
 systems:
     - 8qjql0kqnd33
 timeline:
-    - ts: "2024-09-14 07:55:55"
+    - ts: "2024-09-14 14:55:55"
       description: Our monitoring systems have detected a potential issue with outbound (only) SMS Delivery delays to multiple networks In India. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
-    - ts: "2024-09-14 08:03:02"
+    - ts: "2024-09-14 15:03:02"
       description: We are continuing to investigate this issue.
       investigating: true
-    - ts: "2024-09-14 08:47:49"
+    - ts: "2024-09-14 15:47:49"
       description: We are observing recovery in delivery report delays when sending to multiple networks in India via a subset of Twilio Short Codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-    - ts: "2024-09-14 10:02:23"
+    - ts: "2024-09-14 17:02:23"
       description: We are no longer experiencing SMS delivery delays when sending messages to multiple networks in India via a subset of Twilio short codes. This incident has been resolved.
       resolved: true

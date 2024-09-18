@@ -9,15 +9,15 @@ systems:
     - 4s2tjjrhf4d5
     - yfp2yt5fx9cn
 timeline:
-    - ts: "2022-04-25 15:47:43"
+    - ts: "2022-04-25 22:47:43"
       description: We are currently investigating an issue with missing system metrics for a subset of status pages.
       investigating: true
-    - ts: "2022-04-25 18:54:10"
+    - ts: "2022-04-26 01:54:10"
       description: We have identified a metrics display problem for a majority of status pages due to a vendor issue. This is purely a display problem and we are not experiencing any data loss. We are working to return the service to normal operations.
-    - ts: "2022-04-27 17:50:11"
+    - ts: "2022-04-28 00:50:11"
       description: We are still actively engaged with our vendor while their engineering teams work on the issue. Unfortunately, alternative workarounds did not produce acceptable results. Once again, this is purely a display problem and we are not experiencing any data loss.
-    - ts: "2022-04-28 14:46:31"
+    - ts: "2022-04-28 21:46:31"
       description: We have released a fix for the metrics display problem. Affected metrics displays should have returned to a functioning state. We are still actively engaged with our vendor and are working with their engineering team on fixing the root cause of this issue.
-    - ts: "2022-04-29 09:08:46"
+    - ts: "2022-04-29 16:08:46"
       description: This incident has been resolved.
       resolved: true

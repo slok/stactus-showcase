@@ -5,16 +5,16 @@ impact: minor
 systems:
     - qrnng5l7z80l
 timeline:
-    - ts: "2023-09-22 11:48:22"
+    - ts: "2023-09-22 15:48:22"
       description: |-
         We are investigating increased latency processing Processing for a Subset of Metrics.
         As a result of this issue, some users may see delays or gaps for a subset of their metrics on graphs.
       investigating: true
-    - ts: "2023-09-22 11:50:16"
+    - ts: "2023-09-22 15:50:16"
       description: |-
         We are continuing to investigate the issue.
         To prevent spurious alerts, we have temporarily disabled affected monitors based on this data.
       investigating: true
-    - ts: "2023-09-22 12:07:31"
+    - ts: "2023-09-22 16:07:31"
       description: This incident has been resolved.
       resolved: true

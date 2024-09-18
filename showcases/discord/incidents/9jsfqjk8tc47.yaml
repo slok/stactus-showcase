@@ -5,14 +5,14 @@ impact: critical
 systems:
     - rhznvxg4v7yh
 timeline:
-    - ts: "2024-06-11 18:53:03"
+    - ts: "2024-06-12 01:53:03"
       description: Users may be unable to connect to discord or perform actions like sending messages. We are investigating.
       investigating: true
-    - ts: "2024-06-11 18:59:58"
+    - ts: "2024-06-12 01:59:58"
       description: We are continuing to investigate this issue.
       investigating: true
-    - ts: "2024-06-11 19:05:58"
+    - ts: "2024-06-12 02:05:58"
       description: We have rolled back a change and are monitoring the results. Everything appears operational again.
-    - ts: "2024-06-11 19:18:03"
+    - ts: "2024-06-12 02:18:03"
       description: This incident has been resolved.
       resolved: true

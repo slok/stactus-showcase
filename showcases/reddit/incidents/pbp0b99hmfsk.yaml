@@ -4,13 +4,13 @@ name: Increase in errors
 impact: none
 systems: []
 timeline:
-    - ts: "2024-03-07 11:11:11"
+    - ts: "2024-03-07 19:11:11"
       description: We're investigating an issue that's causing intermittent issues and slow loads for users.
       investigating: true
-    - ts: "2024-03-07 11:52:22"
+    - ts: "2024-03-07 19:52:22"
       description: We've identified the issue and errors have decreased, but users may still be experiencing infrequent issues. We're working to implement a fix that will fully resolve the issue.
-    - ts: "2024-03-07 12:48:35"
+    - ts: "2024-03-07 20:48:35"
       description: A fix has been implemented and we are monitoring the results.
-    - ts: "2024-03-07 13:46:32"
+    - ts: "2024-03-07 21:46:32"
       description: This incident has been resolved.
       resolved: true

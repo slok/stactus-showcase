@@ -5,7 +5,7 @@ impact: major
 systems:
     - dpdsycjtknlz
 timeline:
-    - ts: "2024-09-12 09:20:41"
+    - ts: "2024-09-12 13:20:41"
       description: |-
         Microsoft is reporting, via X, that users may be unable to access multiple Microsoft 365 services:
 
@@ -13,11 +13,11 @@ timeline:
 
         IS&T is monitoring the situation and will provide updates as they become available.
       investigating: true
-    - ts: "2024-09-12 10:25:26"
+    - ts: "2024-09-12 14:25:26"
       description: |-
         Microsoft 365 services are recovering, and they have made the following update available:
 
         "We've worked with the third-party Internet Service Provider (ISP) and confirmed that a change within their managed-environment resulted in impact. The ISP has reverted the change and we're now seeing signs of recovery. We're continuing to monitor network telemetry data to ensure a full recovery."
-    - ts: "2024-09-12 16:02:48"
+    - ts: "2024-09-12 20:02:48"
       description: This incident has been resolved.
       resolved: true

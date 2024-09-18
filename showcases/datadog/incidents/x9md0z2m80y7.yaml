@@ -5,14 +5,14 @@ impact: major
 systems:
     - s6jxgrkjjj6p
 timeline:
-    - ts: "2023-09-25 22:56:30"
+    - ts: "2023-09-26 02:56:30"
       description: We are investigating delays in Metrics Monitors Notifications, which began at 02:35 UTC.
       investigating: true
-    - ts: "2023-09-25 23:55:45"
+    - ts: "2023-09-26 03:55:45"
       description: |-
         We have identified the underlying issue and are working on a fix.
 
         It is important to note that no data has been lost, and notifications will be caught up once the service is operational again.
-    - ts: "2023-09-26 00:25:18"
+    - ts: "2023-09-26 04:25:18"
       description: This incident has been resolved.
       resolved: true

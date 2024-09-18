@@ -6,13 +6,13 @@ systems:
     - qrnng5l7z80l
     - s6jxgrkjjj6p
 timeline:
-    - ts: "2024-01-04 11:37:40"
+    - ts: "2024-01-04 16:37:40"
       description: We are actively investigating elevated errors and slow queries for metrics data. As a result of this issue, some users may see errors when trying to load data on dashboards and metrics monitors evaluation may be delayed.
       investigating: true
-    - ts: "2024-01-04 11:49:20"
+    - ts: "2024-01-04 16:49:20"
       description: The issue has been identified and a fix is being implemented.
-    - ts: "2024-01-04 11:56:44"
+    - ts: "2024-01-04 16:56:44"
       description: A fix has been implemented and we are monitoring the results.
-    - ts: "2024-01-04 12:19:59"
+    - ts: "2024-01-04 17:19:59"
       description: This incident has been resolved.
       resolved: true

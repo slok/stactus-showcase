@@ -5,13 +5,13 @@ impact: none
 systems:
     - x7rnz0t7dpnp
 timeline:
-    - ts: "2024-04-30 12:01:30"
+    - ts: "2024-04-30 19:01:30"
       description: We are investigating an issue where starting a session may fail.
       investigating: true
-    - ts: "2024-04-30 12:15:56"
+    - ts: "2024-04-30 19:15:56"
       description: Session start success rate has recovered, we are continuing to monitor.
-    - ts: "2024-04-30 12:23:43"
+    - ts: "2024-04-30 19:23:43"
       description: We've identified the problematic service and are working to add more replicas to improve session start success.
-    - ts: "2024-04-30 13:43:14"
+    - ts: "2024-04-30 20:43:14"
       description: Impact is over since 1:05pm PST.
       resolved: true

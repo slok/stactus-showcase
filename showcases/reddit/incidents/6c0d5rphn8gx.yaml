@@ -4,12 +4,12 @@ name: Reports of login issues
 impact: major
 systems: []
 timeline:
-    - ts: "2024-01-10 08:52:52"
+    - ts: "2024-01-10 16:52:52"
       description: We're currently investigating problems with logging in, related to the Oauth grant flow. Apologies to anyone stuck lurking!
       investigating: true
-    - ts: "2024-01-10 09:39:23"
+    - ts: "2024-01-10 17:39:23"
       description: We've mitigated the problem, logins should now work as normal. We're still investigating the cause and if anything related is still impacted.
       investigating: true
-    - ts: "2024-01-10 10:25:40"
+    - ts: "2024-01-10 18:25:40"
       description: Problems with logins using Oauth clients, and mobile signups (!), have been resolved.
       resolved: true

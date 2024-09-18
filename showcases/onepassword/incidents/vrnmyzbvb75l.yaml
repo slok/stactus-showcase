@@ -4,6 +4,6 @@ name: 1Password - Chrome Extension v2.4.0 Isolated Login Issue.
 impact: none
 systems: []
 timeline:
-    - ts: "2022-11-02 10:47:10"
+    - ts: "2022-11-02 14:47:10"
       description: "Incident description: After installing v.2.4.0.20225 of the 1Password Browser Extension a limited number of customers were unable to sign-in. This did not impact all customers who upgraded their extension.\n\nRoot cause: The 1Password Browser Extension version 2.4.0.20225 included code changes for Single Sign On that resulted in excessive API calls.\n \nIncident response:  The 1Password Browser extension was updated immediately to remove the excessive API calls. This issue is resolved in the 1Password Browser Extension version 2.4.1.20226 or higher."
       resolved: true

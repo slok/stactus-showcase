@@ -22,5 +22,5 @@ timeline:
       description: Actions is experiencing degraded performance. We are continuing to investigate.
       investigating: true
     - ts: "2024-09-16 22:08:39"
-      description: This incident has been resolved.
+      description: On September 16, 2024, between 21:11 UTC and 22:20 UTC, Actions and Pages services were degraded. Customers who deploy Pages from a source branch experienced delayed runs. Approximately 1,100 runs were delayed long enough to get marked as abandoned. The runs that weren't abandoned completed successfully after we recovered from the incident. Actions jobs experienced average delays of 23 minutes, with some jobs experiencing delays as high as 45 minutes. During the course of the incident, 17% of runs were delayed by more than 5 minutes. At peak, as many as 80% of runs experienced delays exceeding 5 minutes. The root cause was a misconfiguration in the service that manages runner connections, which caused CPU throttling and led to a performance degradation in that service.<br /><br />We mitigated the incident by diverting runner connections away from the misconfigured nodes. We are working to improve our internal monitoring and alerting to reduce our time to detection and mitigation of issues like this one in the future.
       resolved: true

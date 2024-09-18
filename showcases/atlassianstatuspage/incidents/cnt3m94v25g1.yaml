@@ -5,12 +5,12 @@ impact: minor
 systems:
     - fyzs60wyq01d
 timeline:
-    - ts: "2022-06-26 17:01:01"
+    - ts: "2022-06-27 00:01:01"
       description: We are currently investigating failed logins when users are accessing Statuspage's manage portal.
       investigating: true
-    - ts: "2022-06-26 17:35:07"
+    - ts: "2022-06-27 00:35:07"
       description: We are still investigating the root cause of the issue. Users who have attempted to login to manage their Statuspages, should be receiving an email with a login link which they can use to login temporarily instead of the normal login flow.
       investigating: true
-    - ts: "2022-06-26 18:31:46"
+    - ts: "2022-06-27 01:31:46"
       description: This incident has been resolved.
       resolved: true

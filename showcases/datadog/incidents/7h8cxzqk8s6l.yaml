@@ -5,16 +5,16 @@ impact: minor
 systems:
     - qrnng5l7z80l
 timeline:
-    - ts: "2023-03-02 05:56:09"
+    - ts: "2023-03-02 10:56:09"
       description: |-
         We are currently investigating an issue with our metrics collection from Google Cloud Platform.
         Metrics collected from the Google Cloud Platform may be delayed.
       investigating: true
-    - ts: "2023-03-02 05:59:22"
+    - ts: "2023-03-02 10:59:22"
       description: We are continuing to investigate this issue.
       investigating: true
-    - ts: "2023-03-02 06:28:47"
+    - ts: "2023-03-02 11:28:47"
       description: A fix has been implemented and we are monitoring the results.
-    - ts: "2023-03-02 07:03:58"
+    - ts: "2023-03-02 12:03:58"
       description: This incident has been resolved.
       resolved: true

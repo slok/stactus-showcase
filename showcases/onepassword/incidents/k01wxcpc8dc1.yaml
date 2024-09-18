@@ -4,15 +4,15 @@ name: Item usage report in 1Password.eu is impaired
 impact: none
 systems: []
 timeline:
-    - ts: "2022-09-27 12:45:04"
+    - ts: "2022-09-27 16:45:04"
       description: |-
         Users of the item usage report in the 1Password.eu web interface and the item usages feature of the Events API will see delays and gaps in available events.
 
         We are investigating.
       investigating: true
-    - ts: "2022-09-27 13:17:46"
+    - ts: "2022-09-27 17:17:46"
       description: We are continuing to investigate this issue.
       investigating: true
-    - ts: "2022-09-27 13:24:12"
+    - ts: "2022-09-27 17:24:12"
       description: This incident has been resolved.
       resolved: true

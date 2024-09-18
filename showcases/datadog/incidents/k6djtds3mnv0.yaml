@@ -6,20 +6,20 @@ systems:
     - qrnng5l7z80l
     - s6jxgrkjjj6p
 timeline:
-    - ts: "2023-02-15 12:34:02"
+    - ts: "2023-02-15 17:34:02"
       description: |-
         We are investigating elevated error rates for Metrics Submission APIs.
         As a result of this issue, submitting new metric data through the API might fail temporarily.
 
         Please note that the Datadog Agent and Client Libraries will buffer data or retry to avoid data loss.
       investigating: true
-    - ts: "2023-02-15 12:36:18"
+    - ts: "2023-02-15 17:36:18"
       description: We are continuing to investigate this issue.
       investigating: true
-    - ts: "2023-02-15 12:52:23"
+    - ts: "2023-02-15 17:52:23"
       description: The issue has been identified and a fix is being implemented.
-    - ts: "2023-02-15 13:01:11"
+    - ts: "2023-02-15 18:01:11"
       description: A fix has been implemented and we are monitoring the results.
-    - ts: "2023-02-15 13:14:57"
+    - ts: "2023-02-15 18:14:57"
       description: This incident has been resolved.
       resolved: true

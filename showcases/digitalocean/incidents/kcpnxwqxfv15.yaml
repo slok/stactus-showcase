@@ -21,3 +21,11 @@ timeline:
       investigating: true
     - ts: "2024-09-18 18:02:10"
       description: "Our Engineering team continues to monitor the ongoing issue with the upstream provider impacting DigitalOcean Spaces and App Platform services.\n\nImprovements are being seen with lower error rates and latency for App Platform deployments as well as for fetching Spaces endpoints and toggling the CDN for a Spaces Bucket. \n\nWe apologize for the inconvenience and will share further updates in the due course."
+    - ts: "2024-09-18 20:27:30"
+      description: |-
+        From 14:15 to 17:53 UTC, users may have experienced delays for App Platform deployments, as well as latency and errors when fetching Spaces endpoint information and toggling the CDN for a Spaces Bucket, due to an upstream provider issue.
+
+        Our Engineering team has confirmed the full resolution of the issue with the upstream provider. Users should now be able to deploy to App Platform and manage their Spaces Buckets as normal.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true

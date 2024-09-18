@@ -5,11 +5,11 @@ impact: major
 systems:
     - sg02vq1rbfrr
 timeline:
-    - ts: "2024-03-19 17:19:56"
+    - ts: "2024-03-20 00:19:56"
       description: We are investigating a partial outage of voice servers in Brazil. Some servers are still serving traffic, we are working on recovery and backup servers if necessary. Some sessions may be failed over to Atlanta in the meantime.
       investigating: true
-    - ts: "2024-03-19 17:34:01"
+    - ts: "2024-03-20 00:34:01"
       description: Our provider has implemented a reroute fix and we are monitoring recovery now. Traffic destined for the Brazil region is no longer failing over to Atlanta.
-    - ts: "2024-03-19 17:46:18"
+    - ts: "2024-03-20 00:46:18"
       description: This incident has been resolved.
       resolved: true

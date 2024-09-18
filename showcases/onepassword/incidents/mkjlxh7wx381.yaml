@@ -4,8 +4,8 @@ name: SSL Certificate Expired for www.1password.com
 impact: none
 systems: []
 timeline:
-    - ts: "2024-02-07 16:33:14"
+    - ts: "2024-02-07 21:33:14"
       description: We’ve identified an incorrect configuration in the certificate that supports our website. At this time, the url https://www.1password.com will show a certificate error. https://1password.com continues to work as normal. We are working to resolve the configuration issue.
-    - ts: "2024-02-07 16:57:19"
+    - ts: "2024-02-07 21:57:19"
       description: This incident has been resolved.
       resolved: true

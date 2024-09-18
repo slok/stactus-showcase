@@ -5,13 +5,13 @@ impact: major
 systems:
     - 1w2mz2hzw0cz
 timeline:
-    - ts: "2024-01-22 15:31:20"
+    - ts: "2024-01-22 20:31:20"
       description: |-
         We have identified the underlying issues for elevated error rates for Log Management
         As a result of this issue, some users may see incorrect statuses for logs from AWS Lambda
-    - ts: "2024-01-22 16:24:06"
+    - ts: "2024-01-22 21:24:06"
       description: A fix has been implemented and we are monitoring the results.
-    - ts: "2024-01-22 16:31:34"
+    - ts: "2024-01-22 21:31:34"
       description: |-
         This incident has been resolved. As a result of this incident, logs from AWS Lambda (specifically, those tagged with source:lambda) were incorrectly categorized as errors from 18:30 UTC to 20:50 UTC on 2024-01-22.
         All logs after this date are being processed as normal.

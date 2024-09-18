@@ -4,11 +4,11 @@ name: Delays in billing processing.
 impact: none
 systems: []
 timeline:
-    - ts: "2023-03-16 03:44:27"
+    - ts: "2023-03-16 07:44:27"
       description: A subset of 1password.com, 1password.ca, 1password.eu customers could be experiencing delays in having their billing actions processed.  Our engineers are actively investigating this behavior. Updates will follow accordingly.
       investigating: true
-    - ts: "2023-03-16 06:17:22"
+    - ts: "2023-03-16 10:17:22"
       description: We're seeing recovery in processing of billing actions. Our team continue monitoring the overall behavior.
-    - ts: "2023-03-16 06:42:21"
+    - ts: "2023-03-16 10:42:21"
       description: There are no longer any delays in processing any billing flows. We apologize for any inconvenience caused.
       resolved: true

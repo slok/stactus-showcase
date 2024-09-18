@@ -4,13 +4,13 @@ name: ShopMIT / Cybersource Transaction Failures
 impact: none
 systems: []
 timeline:
-    - ts: "2023-07-28 10:14:51"
+    - ts: "2023-07-28 14:14:51"
       description: IS&T is investigating an issue where transactions through the Shop MIT/Cybersource integration are failing to complete and returning a 500 error.
       investigating: true
-    - ts: "2023-07-28 10:42:07"
+    - ts: "2023-07-28 14:42:07"
       description: The issue has been identified and a fix is being implemented.
-    - ts: "2023-07-28 11:05:22"
+    - ts: "2023-07-28 15:05:22"
       description: A fix has been implemented and we are monitoring the results.
-    - ts: "2023-07-28 17:05:34"
+    - ts: "2023-07-28 21:05:34"
       description: This incident has been resolved.
       resolved: true

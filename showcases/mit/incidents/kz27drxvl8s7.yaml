@@ -5,17 +5,17 @@ impact: major
 systems:
     - pm1c4cxx88h1
 timeline:
-    - ts: "2023-06-27 09:29:09"
+    - ts: "2023-06-27 13:29:09"
       description: |-
         Microsoft is aware of and investigating an issue impacting users that access Outlook on the web (outlook.office.com) and is currently investigating. For the latest status on this issue, please go to https://twitter.com/msft365status
 
         IS&T has determined that some MIT users are impacted and may encounter an unexpected 500 error when accessing Outlook on the web.
       investigating: true
-    - ts: "2023-06-27 14:27:15"
+    - ts: "2023-06-27 18:27:15"
       description: |-
         Microsoft has identified the issue and is performing validation on a fix.  They have also reported that some mobile clients and the newest versions of Outlook may also be impacted, in addition to Outlook on the web.
 
         For the latest status on this issue, please go to https://twitter.com/msft365status
-    - ts: "2023-06-27 18:00:58"
+    - ts: "2023-06-27 22:00:58"
       description: Microsoft has applied a fix and declared the issue resolved.
       resolved: true
