@@ -1,0 +1,16 @@
+version: incident/v1
+id: 54wfy5snzm7c
+name: SSO enabled private pages are facing authentication issues
+impact: major
+systems:
+    - wnvlx7c8mfql
+    - 45b0h3k4ky7f
+timeline:
+    - ts: "2023-02-14 04:32:32"
+      description: We are currently investigating the issue.
+      investigating: true
+    - ts: "2023-02-14 06:09:55"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-02-14 06:35:22"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,15 @@
+version: incident/v1
+id: d9thznq0vf2n
+name: Delayed Monitors Notifications
+impact: major
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2024-08-29 06:22:32"
+      description: We are investigating delays in Monitors Notifications, which began at 0605 ET.
+      investigating: true
+    - ts: "2024-08-29 06:32:32"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-08-29 06:41:31"
+      description: This incident has been resolved.
+      resolved: true

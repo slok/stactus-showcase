@@ -1,0 +1,21 @@
+version: incident/v1
+id: kkv1fwx44zn7
+name: Cloud services outage
+impact: major
+systems:
+    - f4txj806xph9
+    - vqmcpp1kx7pf
+    - 50j8z65sq9pt
+    - wv2xgtj1bndn
+timeline:
+    - ts: "2021-01-09 21:35:17"
+      description: We are experiencing a widespread outage with some cloud services. We are in the process of investigating and remediating this, and will post at status.ui.com periodically with any further updates.
+      investigating: true
+    - ts: "2021-01-09 21:44:16"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2021-01-10 01:38:40"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2021-01-10 04:04:30"
+      description: This incident has been resolved.
+      resolved: true

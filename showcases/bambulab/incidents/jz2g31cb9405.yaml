@@ -1,0 +1,15 @@
+version: incident/v1
+id: jz2g31cb9405
+name: Cloud Service Outage
+impact: critical
+systems:
+    - sw5q8tgl2864
+    - 5fs3yzwktd3t
+    - 6hkfwd93hvnk
+timeline:
+    - ts: "2024-04-12 04:11:00"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-04-12 04:13:35"
+      description: This incident has been resolved.
+      resolved: true

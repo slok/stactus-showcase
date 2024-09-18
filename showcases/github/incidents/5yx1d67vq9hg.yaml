@@ -1,0 +1,53 @@
+version: incident/v1
+id: 5yx1d67vq9hg
+name: Incident with Webhooks and Actions
+impact: major
+systems:
+    - 4230lsnqdsld
+    - br0l2tvcx85d
+timeline:
+    - ts: "2024-07-05 17:04:49"
+      description: We are investigating reports of degraded performance for Webhooks
+      investigating: true
+    - ts: "2024-07-05 17:17:50"
+      description: Webhooks is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-07-05 17:20:31"
+      description: Our telemetry shows that most webhooks are failing to be delivered. We are queueing all undelivered webhooks and are working to remediate the problem.
+      investigating: true
+    - ts: "2024-07-05 17:42:21"
+      description: We are reverting a configuration change that is suspected to contribute to the problem with webhook deliveries.
+      investigating: true
+    - ts: "2024-07-05 17:55:14"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-07-05 17:57:18"
+      description: We are seeing recovery as webhooks are being delivered again. We are burning down our queue of events. No events have been lost. New webhook deliveries will be delayed while this process recovers.
+      investigating: true
+    - ts: "2024-07-05 18:07:06"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-07-05 18:09:03"
+      description: We are seeing delays in Actions runs due to the recovery with webhook deliveries. We expect this to resolve with the recovery of webhooks.
+      investigating: true
+    - ts: "2024-07-05 18:10:28"
+      description: Webhooks is operating normally.
+      investigating: true
+    - ts: "2024-07-05 18:40:11"
+      description: We have seen recovery of Actions run delays. Keeping the incident open to monitor for full recovery.
+      investigating: true
+    - ts: "2024-07-05 19:19:06"
+      description: We are seeing about 5% of Actions runs not starting within 5 minutes. We are continuing investigation.
+      investigating: true
+    - ts: "2024-07-05 19:58:24"
+      description: We are still seeing about 5% of Actions runs taking longer than 5 minutes to start. We are evaluating mitigations to increase capacity to decrease latency.
+      investigating: true
+    - ts: "2024-07-05 20:32:21"
+      description: We are still seeing about 5% of Actions runs taking longer than 5 minutes to start. We are scaling and shifting resources to encourage recovery of the problem.
+      investigating: true
+    - ts: "2024-07-05 20:44:05"
+      description: We are seeing recovery in Actions start times and are observing for any further impact.
+      investigating: true
+    - ts: "2024-07-05 20:57:33"
+      description: On July 5, 2024, between 16:31 UTC and 18:08 UTC, the Webhooks service was degraded, with customer impact of delays to all webhook delivery. On average, delivery delays were 24 minutes, with a maximum of 71 minutes. This was caused by a configuration change to the Webhooks service, which led to unauthenticated requests sent to the background job cluster. The configuration error was repaired and re-deploying the service solved the issue. However, this created a thundering herd effect which overloaded the background job queue cluster which put its API layer at max capacity, resulting in timeouts for other job clients, which presented as increased latency for API calls.<br /><br />Shortly after resolving the authentication misconfiguration, we had a separate issue in the background job processing service where health probes were failing, leading to reduced capacity in the background job API layer which magnified the effects of the thundering herd. From 18:21 UTC to 21:14 UTC, Actions runs on PRs experienced approximately 2 minutes delay and maximum of 12 minutes delay. A deployment of the background job processing service remediated the issue.<br /><br />To reduce our time to detection, we have streamlined our dashboards and added alerting for this specific runtime behavior. Additionally, we are working to reduce the blast radius of background job incidents through better workload isolation.<br />
+      resolved: true

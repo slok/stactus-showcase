@@ -1,0 +1,71 @@
+version: stactus/v1
+name: Datadog US1
+url: https://status.datadoghq.com
+systems:
+    - id: 3shj2d34rr4w
+      name: Agent Repository
+    - id: p4hwj4wsc5wf
+      name: APM
+      description: Application Performance Monitoring (services and traces)
+    - id: pnm7qvgxvpx7
+      name: Application Security Management
+    - id: 2vmy1s1xc3kt
+      name: Application Vulnerability Management
+    - id: r2djlrcw0d92
+      name: Audit Trail
+    - id: kbbhp1p4g26q
+      name: CI Visibility
+    - id: wxl8hfbylpf5
+      name: Cloud Cost Management
+    - id: cwp97nbkd47t
+      name: Cloud Security Management
+    - id: p86xlbv3q3sz
+      name: Cloud SIEM
+    - id: 2ng88yhsvb74
+      name: Database Monitoring
+    - id: fsf7586l3nld
+      name: Data Jobs Monitoring
+    - id: hk7whmvszngs
+      name: Data Streams Monitoring
+      description: APM / Data Streams Monitoring
+    - id: nypxbf5kxblr
+      name: Incident Management
+    - id: 1w2mz2hzw0cz
+      name: Log Management
+    - id: qrnng5l7z80l
+      name: Metrics and Infra Monitoring
+    - id: 6554nj56dr3v
+      name: Mobile Application
+    - id: s6jxgrkjjj6p
+      name: Monitors
+    - id: 82w45zxss1z6
+      name: NDM
+      description: Network Device Monitoring
+    - id: zf9789bp3s1k
+      name: NPM
+      description: Network Performance Monitoring
+    - id: 7t0ql8p0jwp1
+      name: Observability Pipelines
+    - id: 34qkhdj3s176
+      name: Profiling
+      description: Continuous Profiler
+    - id: wb6d6tss5zph
+      name: RUM
+      description: Real User Monitoring
+    - id: 8n1lk011yj94
+      name: Sensitive Data Scanner
+    - id: h4n1lrbsmmbd
+      name: Serverless
+      description: Serverless Workload Monitoring
+    - id: s66ymj7q3sdd
+      name: Synthetics
+      description: Synthetic Monitoring
+    - id: 5w5zbjfwzlkj
+      name: Universal Service Monitoring
+    - id: b5fx9rfn6137
+      name: Web Application
+    - id: g9s6dpk03782
+      name: Workflow Automation
+    - id: 12txp202wv5s
+      name: www.datadoghq.com
+      description: Our public site, hosting our documentation for using Datadog.

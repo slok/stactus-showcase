@@ -1,0 +1,21 @@
+version: incident/v1
+id: 9dyp7zt86rp5
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-09-05 15:55:34"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-09-05 15:56:24"
+      description: Enterprise administrators are seeing failures in the form of 404s when attempting to setup GitHub Connect for the first time. Existing Connect setups are not impacted. We are working on a fix for this issue.
+      investigating: true
+    - ts: "2024-09-05 16:15:08"
+      description: We've reverted a related change and customers can now setup GitHub Connect again. However, customers who attempted to setup GitHub Connect after September 2nd that saw a 404 will see continued failures until we complete an additional repair step. We will provide additional updates as this work progresses.
+      investigating: true
+    - ts: "2024-09-05 16:49:53"
+      description: We continue to work on making GitHub Connect setup available for customers that experienced errors since Sept 2.  We will share another update as we make progress.
+      investigating: true
+    - ts: "2024-09-05 17:24:08"
+      description: Between August 27, 2024, 15:52 UTC and September 5, 2024, 17:26 UTC the GitHub Connect service was degraded. This specifically impacted GHES customers who were enabling GitHub Connect for the first time on a GHES instance. Previously enabled GitHub Connect GHES instances were not impacted by this issue.<br /><br />Customers experiencing this issue would have received a 404 response during GitHub Connect enablement and subsequent messages about a failure to connect. This was due to a recent change in configuration to GitHub Connect which has since been rolled back. <br /><br />Subsequent enablement failures on re-attempts were caused by data corruption which has been remediated. Customers should now be able to enable GitHub Connect successfully.<br /><br />To reduce our time to detection and mitigation of such issues in the future, we are working to improve observability of GitHub Connect failures. We are also making efforts to prevent future misconfiguration of GitHub Connect.
+      resolved: true

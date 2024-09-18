@@ -1,0 +1,11 @@
+version: incident/v1
+id: 79h1kvybmthk
+name: DNS Records API Missing Fields
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-11 22:00:22"
+      description: We have identified an issue where the DNS Records API was not returning some fields that are marked as required. A fix for this issue has been applied and we are currently monitoring the results.
+    - ts: "2024-09-11 22:18:13"
+      description: This incident is now resolved.
+      resolved: true

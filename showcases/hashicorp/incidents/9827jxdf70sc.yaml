@@ -1,0 +1,21 @@
+version: incident/v1
+id: 9827jxdf70sc
+name: HCP Boundary Clusters Unaccessbile
+impact: critical
+systems:
+    - 9gzfhnxdsf93
+timeline:
+    - ts: "2024-07-20 15:32:10"
+      description: HCP Boundary clusters are failing to schedule. Causing clusters to be inaccessible. We are investigating the issue and will update shortly.
+      investigating: true
+    - ts: "2024-07-20 16:04:46"
+      description: We've identified the issue impacting HCP Boundary clusters and are performing tasks to resolve the issue.
+    - ts: "2024-07-20 18:42:08"
+      description: We are still actively working on the issue causing HCP Boundary clusters to be unavailable & will provide further updates as we make progress.
+    - ts: "2024-07-20 19:41:21"
+      description: We are working toward a solution regarding an infrastructure issue that is preventing HCP Boundary clusters from being scheduled. We will continue to provide updates at an hourly cadence.
+    - ts: "2024-07-20 20:41:59"
+      description: We have identified a solution for the outage and HCP Boundary clusters are being scheduled. We will continue to monitor until we are confident that all clusters are healthy.
+    - ts: "2024-07-20 20:59:10"
+      description: HCP Boundary clusters are operational.
+      resolved: true

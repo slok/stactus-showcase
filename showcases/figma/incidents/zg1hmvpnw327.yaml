@@ -1,0 +1,12 @@
+version: incident/v1
+id: zg1hmvpnw327
+name: FigJam AI features disruption
+impact: none
+systems:
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2023-11-08 22:43:43"
+      description: OpenAI is experiencing an issue that is preventing some users from utilizing FigJam’s AI features. We are monitoring their service’s status and will update here when the disruption is cleared.
+    - ts: "2023-11-10 06:44:42"
+      description: This incident has been resolved.
+      resolved: true

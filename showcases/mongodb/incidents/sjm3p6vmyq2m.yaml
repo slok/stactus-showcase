@@ -1,0 +1,38 @@
+version: incident/v1
+id: sjm3p6vmyq2m
+name: 'MongoDB Cloud: Login error "Too many attempts, please try again later"'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-09-02 10:13:07"
+      description: We have received higher-than-normal reports of failed logins for cloud.mongodb.com with the reason "Too many attempts, please try again later"
+      investigating: true
+    - ts: "2024-09-02 11:08:58"
+      description: "The system has recovered, users should be able to login. \n\nWe are continuing to monitor the system for any residual effects."
+    - ts: "2024-09-02 14:28:27"
+      description: This incident has been resolved.
+      resolved: true
+    - ts: "2024-09-12 14:36:37"
+      description: |-
+        ## Incident Summary
+
+        On September 2, 2024 between 8:30 UTC to 10:15 UTC, some MongoDB customers were unable to log in to MongoDB Atlas Management UI.
+
+        During that time, MongoDB experienced an abnormally high volume of traffic on our login page that caused us to hit our rate limiting thresholds which caused some customers to see their authentication requests to the MongoDB Atlas Management UI rejected.
+
+        Once login volume subsided, login availability was restored.
+
+        Note: This incident had no impact on customer Atlas Clusters. UI authentication is independent of Atlas Cluster authentication.
+
+        ## Root Cause
+
+        Our authentication services were not able to scale quickly enough to react to the sudden increase in logins.
+
+        ## MongoDB Actions
+
+        We are updating our login page to provide clearer and more actionable error messaging. We are also adding additional support to  scale better during traffic spikes.
+
+        ## Recommended Customer Actions
+
+        No further customer action required

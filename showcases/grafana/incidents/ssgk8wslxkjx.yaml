@@ -1,0 +1,15 @@
+version: incident/v1
+id: ssgk8wslxkjx
+name: Some Grafana Cloud Instances Intermittently Unavailable
+impact: minor
+systems:
+    - m7cr9xxllhpn
+timeline:
+    - ts: "2024-06-03 20:26:08"
+      description: We are currently investigating an issue where some Grafana Cloud instances may be intermittently unavailable in prod-us-central-3.
+      investigating: true
+    - ts: "2024-06-04 00:11:03"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-06-11 17:56:50"
+      description: This incident has been resolved.
+      resolved: true

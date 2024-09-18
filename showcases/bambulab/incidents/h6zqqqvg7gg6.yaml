@@ -1,0 +1,17 @@
+version: incident/v1
+id: h6zqqqvg7gg6
+name: User Login Fault
+impact: minor
+systems:
+    - tlk3750f34v2
+timeline:
+    - ts: "2024-01-16 05:41:56"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-01-16 05:46:52"
+      description: A subset of users are experiencing difficulties logging into their Bambu accounts due to a fault in the login module
+    - ts: "2024-01-16 05:48:31"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-01-16 05:57:55"
+      description: This incident has been resolved.
+      resolved: true

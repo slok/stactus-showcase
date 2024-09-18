@@ -1,0 +1,15 @@
+version: incident/v1
+id: 779mthsx9zx2
+name: Issue with session starts
+impact: major
+systems:
+    - rhznvxg4v7yh
+    - x7rnz0t7dpnp
+timeline:
+    - ts: "2024-07-29 16:10:28"
+      description: We're aware of an issue that is impacting user's ability to start new sessions. We're currently working on reverting the change responsible.
+    - ts: "2024-07-29 16:34:17"
+      description: We've reverted the change in our backend system and have observed recovery. We're continuing to monitor to ensure everything fully recovers.
+    - ts: "2024-07-29 16:48:33"
+      description: Availability of all systems has fully recovered.
+      resolved: true

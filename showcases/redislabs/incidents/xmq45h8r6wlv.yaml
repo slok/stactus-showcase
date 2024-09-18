@@ -1,0 +1,12 @@
+version: incident/v1
+id: xmq45h8r6wlv
+name: Network Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-08 00:58:43"
+      description: 'We are experiencing some network issues. This may affect resources that have the following pattern in their endpoint: cls-prod40'
+      investigating: true
+    - ts: "2024-09-08 01:02:55"
+      description: This incident has been resolved.
+      resolved: true

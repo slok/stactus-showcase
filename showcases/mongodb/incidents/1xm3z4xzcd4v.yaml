@@ -1,0 +1,17 @@
+version: incident/v1
+id: 1xm3z4xzcd4v
+name: Legacy realm.mongodb.com API currently unavailable
+impact: major
+systems:
+    - crrq7qqlqfsh
+timeline:
+    - ts: "2024-09-18 12:50:54"
+      description: We are currently investigating the issue. Any API call to realm.mongodb.com is returning 401. The new services.cloud.mongodb.com API works as expected.
+      investigating: true
+    - ts: "2024-09-18 14:31:12"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-18 15:19:01"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-18 16:56:51"
+      description: This incident has been resolved.
+      resolved: true

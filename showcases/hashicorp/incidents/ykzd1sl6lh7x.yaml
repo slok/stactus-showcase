@@ -1,0 +1,15 @@
+version: incident/v1
+id: ykzd1sl6lh7x
+name: HCP Terraform - some runs might be processed slowly
+impact: minor
+systems:
+    - 7cgbxrw10wgr
+timeline:
+    - ts: "2024-08-21 10:12:40"
+      description: We are investigating an issue in HCP Terraform - a small subset of customers are experiencing some performance degradation when executing runs
+      investigating: true
+    - ts: "2024-08-21 10:42:38"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-08-21 11:17:58"
+      description: This incident has been resolved.
+      resolved: true

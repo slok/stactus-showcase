@@ -1,0 +1,38 @@
+version: incident/v1
+id: yqjv7c5yn7lw
+name: Managed Databases Control Plane
+impact: minor
+systems:
+    - msbt8b9p1p0q
+    - ttltt91ldz3g
+    - l8lxzfpgpc39
+    - 79j9sw2l27cv
+    - d2m7jh32j7z1
+    - vzxxv27h45m4
+    - gt78t0v1dx9k
+    - qkrqphz8r8d0
+    - 2cvhn89gxfk8
+    - 29xvj6jck5fm
+    - y24751gr0df8
+    - 5v01jvb2gwjz
+timeline:
+    - ts: "2024-06-14 17:27:42"
+      description: Our Engineering team is investigating an issue impacting new Managed Database creations. During this time, users may receive failures while creating new Managed Database clusters across all regions. We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2024-06-14 17:39:45"
+      description: "During the course of investigation, our Engineering team has identified additional operations are impacted by this incident. \n\nUsers may experience errors with creating, resizing, or updating trusted sources for PostgreSQL, MySQL, Redis, and Kafka clusters, in all regions, as well as Mongo clusters in NYC regions. \n\nDue to updates to trusted sources being impacted, connections to Database clusters from newly added trusted sources will fail. This includes new Managed Kubernetes nodes, Droplets, and Apps using Databases. \n\nOur team is working to deploy a fix and we will provide another update soon."
+    - ts: "2024-06-14 19:22:53"
+      description: "Our Engineering team continues work to address the root cause of this issue and remediate customer impact. \n\nWe apologize for the continued interruption to the Managed Databases Control Plane and will provide another update as soon as we have more information."
+    - ts: "2024-06-14 22:48:56"
+      description: |-
+        Our Engineering team has been able to partially mitigate impact from this incident. Creating, resizing, forking, and updates to trusted sources of PostgreSQL, MySQL, Redis, and Kafka clusters, in all regions, is now working as expected. Operations previously attempted on clusters, such as firewall rule attempts, will need to be resubmitted or have a relevant event (i.e. k8s node changes, tag events, etc.) occur from now on. Users should start to see recovery and be able to initiate new operations normally.
+
+        Operations for Mongo clusters remain affected at this time.
+    - ts: "2024-06-15 00:11:55"
+      description: "Our Engineering team has implemented a fix to fully resolve the issue with our Managed Databases services. At this time, users should no longer face issues creating, resizing, forking, or updating trusted sources for PostgreSQL, MySQL, Redis, and Kafka clusters, in any region, as well as Mongo clusters in NYC regions. \n\nWe are monitoring the situation closely and will post an update as soon as we confirm the issue is fully resolved."
+    - ts: "2024-06-15 02:56:01"
+      description: |-
+        Our Engineering team has confirmed that this incident has been fully resolved.
+
+        We appreciate your patience throughout this process and if you continue to experience problems, please open a ticket with our support team for further review.
+      resolved: true

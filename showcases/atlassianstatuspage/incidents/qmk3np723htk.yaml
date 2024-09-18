@@ -1,0 +1,12 @@
+version: incident/v1
+id: qmk3np723htk
+name: Some Statuspage users are experiencing difficulties in creating/editing incidents
+impact: minor
+systems:
+    - fyzs60wyq01d
+timeline:
+    - ts: "2023-05-31 01:20:35"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2023-05-31 03:17:40"
+      description: This incident has been resolved.
+      resolved: true

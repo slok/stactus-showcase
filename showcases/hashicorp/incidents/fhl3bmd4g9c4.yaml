@@ -1,0 +1,15 @@
+version: incident/v1
+id: fhl3bmd4g9c4
+name: HCP Boundary - elevated errors and degraded performance
+impact: major
+systems:
+    - 9gzfhnxdsf93
+timeline:
+    - ts: "2024-07-07 07:42:21"
+      description: Our engineering team is investigating an issue affecting HCP Boundary. Some users may experience elevated latency or degraded performance. We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-07-07 08:50:23"
+      description: We've implemented a fix to resolve the issue and are monitoring the situation closely. We will post an update as soon as the issue is fully resolved.
+    - ts: "2024-07-07 09:06:44"
+      description: Our Engineering team has resolved the issue. All clusters should now be operating normally. If you continue to experience any problems, please open a ticket with our support team.
+      resolved: true

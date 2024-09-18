@@ -1,0 +1,15 @@
+version: incident/v1
+id: c79lz37ft8q6
+name: discord.com marketing site unreachable in some regions
+impact: minor
+systems:
+    - gvg1c6688r5y
+timeline:
+    - ts: "2024-09-06 13:43:58"
+      description: We are currently investigating an issue causing the main marketing site (discord.com) to be unreachable in some regions.
+      investigating: true
+    - ts: "2024-09-06 14:24:35"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-06 16:32:55"
+      description: This incident has been resolved.
+      resolved: true

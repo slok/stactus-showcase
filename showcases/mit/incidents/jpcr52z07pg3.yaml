@@ -1,0 +1,25 @@
+version: incident/v1
+id: jpcr52z07pg3
+name: Amazon Web Services (AWS) Outage affecting access to some MIT applications
+impact: major
+systems:
+    - dpdsycjtknlz
+timeline:
+    - ts: "2023-06-13 15:34:31"
+      description: |-
+        A widespread outage for Amazon Web Services (AWS) is affecting access to the MIT Atlas app, FRC, Physical Security Dashboard and several other applications using AWS services. IS&T is in touch AWS and will restore services as soon as AWS is back up and stable.
+
+        As more information becomes available, we will send an update.
+
+        You can view current AWS service status information at https://status.aws.amazon.com.
+      investigating: true
+    - ts: "2023-06-13 17:11:47"
+      description: |-
+        Amazon has identified and implemented a fix for the issues. Application service to have recovered and are back online.
+
+        IS&T will be monitoring our applications to confirm full resolution.
+
+        You can view current AWS service status information at https://status.aws.amazon.com.
+    - ts: "2023-06-14 11:01:19"
+      description: AWS has confirmed that this issue has been resolved.
+      resolved: true

@@ -1,0 +1,16 @@
+version: incident/v1
+id: 8d7nypy41p9v
+name: Possible DNS degraded service
+impact: minor
+systems:
+    - b1mvm9ctzkdb
+    - 4zqk2hwhfmvb
+    - 47rnb5s6s8mq
+    - psk6740r111k
+timeline:
+    - ts: "2024-07-18 15:19:21"
+      description: We're investigating a possible degradation of service with DNS on some hosts in MAD and LAX, and GPU hosts in SEA
+      investigating: true
+    - ts: "2024-07-18 17:32:27"
+      description: All conditions have returned to normal.
+      resolved: true

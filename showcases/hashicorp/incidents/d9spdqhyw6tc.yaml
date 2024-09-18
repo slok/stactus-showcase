@@ -1,0 +1,31 @@
+version: incident/v1
+id: d9spdqhyw6tc
+name: HCP Platform Scheduled Maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2024-02-09 19:09:33"
+      description: The HCP Platform will undergo planned maintenance in three phases. Maintenance will take place at 15:00 UTC on February 24, March 9, and March 16. We expect maintenance to complete within 3 hours during each window. During maintenance, operations that create, modify, or delete HCP clusters may be unavailable. We will post updates throughout each phase.
+      investigating: true
+    - ts: "2024-02-24 15:10:59"
+      description: The first phase maintenance is now beginning. We anticipate all work will be complete within 3 hours. During this time, expect interruption to operations that would create, modify, or delete HCP resources. We will post an update once the maintenance is complete.
+    - ts: "2024-02-24 16:29:04"
+      description: |-
+        Today's maintenance has been completed successfully. All affected services have been fully restored.
+
+        The second phase of this maintenance will take place on March 9 at 15:00 UTC. During that time, HCP platform users may be unable to log into the portal. The work on March 9 is expected to complete within 3 hours.
+    - ts: "2024-03-09 15:03:06"
+      description: |-
+        The second phase of this maintenance is now beginning. During this time, you may experience interruption to the HCP Portal and API endpoints. In addition, some email notifications may be delayed or may fail to send. Existing HCP clusters will be unaffected and will continue to operate normally.
+
+        We anticipate all work will be complete within 3 hours. We will post another update once the maintenance is complete.
+    - ts: "2024-03-09 16:09:05"
+      description: "Today's maintenance has been completed successfully. All affected services have been fully restored.\n\nThe third and final phase of this maintenance will take place next week on March 16 at 15:00 UTC. During that time, you may experience interruption to the HCP Portal and API endpoints. Operations that create, modify, or delete HCP clusters may not be available. Existing HCP clusters will continue to operate normally. \n\nThe work on March 16 is expected to complete within 3 hours."
+    - ts: "2024-03-16 14:58:17"
+      description: |-
+        The third and final phase of this maintenance is now beginning. During this time, users may be unable to log into the HCP Portal and calls to HCP APIs may fail. This may impact the ability to create, modify, or delete clusters. Existing HCP Clusters will continue to operate normally.
+
+        We anticipate that all work will be complete within 3 hours. We will post another update once the maintenance has been completed.
+    - ts: "2024-03-16 16:18:55"
+      description: All three phases of HCP Platform Maintenance have been completed successfully. All systems are operational and affected services have been fully restored.
+      resolved: true

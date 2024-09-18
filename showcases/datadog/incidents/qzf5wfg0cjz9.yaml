@@ -1,0 +1,15 @@
+version: incident/v1
+id: qzf5wfg0cjz9
+name: Monitor notifications are delayed for all customers
+impact: major
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2023-02-05 07:54:08"
+      description: Monitor notifications to 3rd party services are delayed to up to 30min and we are investigating the issue.
+      investigating: true
+    - ts: "2023-02-05 08:05:10"
+      description: A fix has been implemented and we are catching up.
+    - ts: "2023-02-05 08:10:02"
+      description: There is no notification lag anymore, the issue is fully resolved.
+      resolved: true

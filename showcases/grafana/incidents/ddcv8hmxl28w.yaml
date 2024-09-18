@@ -1,0 +1,13 @@
+version: incident/v1
+id: ddcv8hmxl28w
+name: Issue with on-call permissions
+impact: major
+systems:
+    - h3wg1km0qxwv
+timeline:
+    - ts: "2024-08-26 19:25:29"
+      description: We are currently investigating an issue that is causing some users to receive a " you do not have permission to perform this action" error when attempting to access on call schedules.
+      investigating: true
+    - ts: "2024-08-26 21:45:23"
+      description: This incident has been resolved.
+      resolved: true

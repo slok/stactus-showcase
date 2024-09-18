@@ -1,0 +1,17 @@
+version: incident/v1
+id: vs0lcsln6nmp
+name: Bot Management Issues
+impact: minor
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2024-09-10 08:43:32"
+      description: |-
+        Cloudflare has identified an issue with certain Bot Management rulesets features. Customers may observe Bot Management rules not behaving as expected. We are working to mitigate this problem. More updates to follow shortly.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+    - ts: "2024-09-10 09:14:01"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-10 09:56:25"
+      description: This incident has been resolved.
+      resolved: true

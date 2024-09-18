@@ -1,0 +1,36 @@
+version: incident/v1
+id: 345t4sjty6q3
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-08-28 22:02:25"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-08-28 22:06:35"
+      description: We are seeing elevated traffic in some of our regions that we are in process of investigating.
+      investigating: true
+    - ts: "2024-08-28 22:19:51"
+      description: We are seeing cases of user impact in some locations are continuing to investigate.
+      investigating: true
+    - ts: "2024-08-28 22:37:11"
+      description: We are continuing to investigate.
+      investigating: true
+    - ts: "2024-08-28 22:53:32"
+      description: We are continuing to see customer impact and are still investigating.
+      investigating: true
+    - ts: "2024-08-28 23:14:41"
+      description: We are experiencing reduced overall impact, but continue to see a continued small impact to unauthenticated requests. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-08-28 23:33:47"
+      description: We have identified a potential mitigation and are currently testing.
+      investigating: true
+    - ts: "2024-08-28 23:38:25"
+      description: Our mitigation is in place and we are seeing a reduction in overall impact. We are continuing to monitor until we are confident that the issue has been resolved.
+      investigating: true
+    - ts: "2024-08-28 23:43:42"
+      description: Our mitigation has taken effect and impact is resolved.
+      investigating: true
+    - ts: "2024-08-28 23:43:57"
+      description: On August 28, 2024, from 21:40 to 23:43 UTC, up to 25% of unauthenticated dotcom traffic in SE Asia (representing <1% of global traffic) encountered HTTP 500 errors. We observed elevated error rates at one of our global points of presence, where geo-DNS health checks were failing. We identified unhealthy cloud hardware in the region, indicated by abnormal CPU utilization patterns. As a result, we drained the site at 23:26 UTC, which promptly restored normal traffic operations.
+      resolved: true

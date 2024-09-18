@@ -1,0 +1,12 @@
+version: incident/v1
+id: kxtbcqsd3mtc
+name: Network Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2024-08-19 23:33:16"
+      description: 'We are experiencing some network issues. This may affect resources that have the following pattern in their endpoint: c287'
+      investigating: true
+    - ts: "2024-08-19 23:39:15"
+      description: This incident has been resolved.
+      resolved: true

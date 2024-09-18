@@ -1,0 +1,17 @@
+version: incident/v1
+id: kplcpnjhk7wh
+name: Timeouts accessing manage portal
+impact: minor
+systems:
+    - fyzs60wyq01d
+timeline:
+    - ts: "2021-11-18 09:16:11"
+      description: We are currently investigating a small percentage of timeouts when accessing the Manage portal.
+      investigating: true
+    - ts: "2021-11-18 10:00:54"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2021-11-18 11:29:15"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2021-11-18 12:15:25"
+      description: This incident has been resolved.
+      resolved: true

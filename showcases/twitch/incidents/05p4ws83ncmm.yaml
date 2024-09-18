@@ -1,0 +1,20 @@
+version: incident/v1
+id: 05p4ws83ncmm
+name: Identified Web Issues
+impact: minor
+systems:
+    - j6dkmwm0h3k2
+    - 4qrh4gj6bgt2
+    - ys9m23jjzpg0
+timeline:
+    - ts: "2021-08-31 18:32:35"
+      description: "\U0001F6E0 We have identified an issue causing Twitch to fail to load in some cases."
+    - ts: "2021-08-31 19:08:48"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2021-08-31 23:17:25"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2021-09-01 00:49:24"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2021-09-01 07:09:00"
+      description: This incident has been resolved.
+      resolved: true

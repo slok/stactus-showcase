@@ -1,0 +1,9 @@
+version: incident/v1
+id: k8pbcdf01nx6
+name: Cloud Printing Failure
+impact: critical
+systems: []
+timeline:
+    - ts: "2023-05-19 08:27:02"
+      description: From 2023/05/19 06:50 - 07:20 UTC, Some print jobs cannot be sent to the printer due to a cloud service update.
+      resolved: true

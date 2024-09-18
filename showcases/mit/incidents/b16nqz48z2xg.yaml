@@ -1,0 +1,13 @@
+version: incident/v1
+id: b16nqz48z2xg
+name: Instructure
+impact: major
+systems:
+    - nnqd6kx93rnc
+timeline:
+    - ts: "2024-01-11 23:45:35"
+      description: Partial System Outage
+      investigating: true
+    - ts: "2024-01-12 09:49:15"
+      description: This incident has been resolved.
+      resolved: true

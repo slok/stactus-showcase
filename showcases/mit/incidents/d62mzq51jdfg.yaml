@@ -1,0 +1,15 @@
+version: incident/v1
+id: d62mzq51jdfg
+name: DNS Resolution Issues
+impact: major
+systems:
+    - qbxg9tr9gslw
+timeline:
+    - ts: "2024-08-26 15:58:12"
+      description: IS&T is aware of DNS resolution issues that are affecting multiple services and systems at MIT. We are currently looking into this and will have an update as soon as possible.
+      investigating: true
+    - ts: "2024-08-26 16:25:36"
+      description: A fix to DNS has been implemented and we are monitoring to confirm resolution. Any lingering issues may be a result of a local cache and should recover shortly.
+    - ts: "2024-08-28 12:56:18"
+      description: This incident has been resolved.
+      resolved: true

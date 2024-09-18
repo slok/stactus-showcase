@@ -1,0 +1,15 @@
+version: incident/v1
+id: 25tddbbh7hxl
+name: UniFi Protect Push Notification Outage
+impact: major
+systems:
+    - 50j8z65sq9pt
+timeline:
+    - ts: "2021-05-17 21:47:40"
+      description: |-
+        An issue has been identified where some UniFi Protect users may not be receiving push notifications. Email notifications are unaffected.
+
+        Our teams are investigating the issue and will provide periodic updates on status.ui.com. We apologize for any inconvenience and are working to restore service as quickly as possible.
+    - ts: "2021-05-17 22:00:59"
+      description: The Protect push notification partial outage has been resolved. Users who are still having issues receiving push notifications with the Protect mobile app are advised to log out and log back in to resolve the issue.
+      resolved: true

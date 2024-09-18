@@ -1,0 +1,24 @@
+version: incident/v1
+id: 62h0h1gbtg12
+name: Partial Outage
+impact: major
+systems:
+    - f4txj806xph9
+    - kyb5xddvtwvg
+    - 50j8z65sq9pt
+timeline:
+    - ts: "2021-12-15 16:17:36"
+      description: We’ve identified the current AWS service availability issues as a potential cause of the connectivity issues. Our team is closely monitoring the situation and continuing to investigate.
+    - ts: "2021-12-15 19:40:18"
+      description: We’ve identified the current AWS service availability issues as a potential cause of the connectivity issues. Our team is closely monitoring the situation and continuing to investigate.
+    - ts: "2021-12-16 10:46:48"
+      description: We are continuing to investigate this issue. We are working diligently and expect this to be resolved soon.
+    - ts: "2021-12-16 14:25:13"
+      description: Service has been partially restored, though some users may still experience connection issues. We are working diligently and expect this to be resolved soon. We will continue to monitor and provide updates.
+    - ts: "2021-12-16 19:55:12"
+      description: Remote access is gradually being restored. We are working on ways to reduce AWS dependencies to improve resiliency performance in case of a similar future event
+    - ts: "2021-12-17 23:42:04"
+      description: Remote access has been restored. We will continue monitoring the situation to verify that there are no residual impacts.
+    - ts: "2021-12-17 23:55:25"
+      description: This incident has been resolved.
+      resolved: true

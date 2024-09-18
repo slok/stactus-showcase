@@ -1,0 +1,26 @@
+version: incident/v1
+id: smdzw6d3sgwz
+name: Alert Delays in the US Region
+impact: minor
+systems:
+    - rbts0zzw73dl
+    - 5x10l9g2z3t6
+    - 028b05n94my0
+    - 5p33lkzzqm0z
+    - ymfwncrn2dnh
+    - 9jndj4kfv59w
+    - lm2qpsbfggh7
+    - prjgs1mvmqg9
+timeline:
+    - ts: "2023-08-17 17:49:00"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-08-17 17:52:50"
+      description: We're investigating an issue impacting alerting. Some customers in the US region may be experiencing delayed or missing alert notifications.
+      investigating: true
+    - ts: "2023-08-17 18:05:52"
+      description: |-
+        Between 17:15 UTC and 17:55 UTC on August 17th, some customers in the US region may have experienced delayed or missing alert notifications.
+
+        We have investigated and resolved this service interruption and impacted services have returned to normal operations.
+      resolved: true

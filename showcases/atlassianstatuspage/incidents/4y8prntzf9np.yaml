@@ -1,0 +1,17 @@
+version: incident/v1
+id: 4y8prntzf9np
+name: Statuspage notifications are not being sent out
+impact: critical
+systems:
+    - 0j0dpr5q595q
+    - hdj6sbn26g26
+    - bv7ffhfxmsx0
+    - dsvt60wpqw23
+timeline:
+    - ts: "2022-11-09 14:58:14"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2022-11-09 14:59:41"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2022-11-09 15:10:28"
+      description: This incident has been resolved. All notifications have been processed. No notifications were lost.
+      resolved: true

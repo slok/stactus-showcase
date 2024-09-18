@@ -1,0 +1,13 @@
+version: incident/v1
+id: qdt2ttkhqt5r
+name: MakerWorld is currently experiencing a massive of traffic and is under investigation.
+impact: minor
+systems:
+    - 6hkfwd93hvnk
+timeline:
+    - ts: "2023-09-22 06:14:35"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2023-09-22 07:30:09"
+      description: This incident has been resolved.
+      resolved: true

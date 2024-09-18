@@ -1,0 +1,16 @@
+version: incident/v1
+id: 210s0bvmhqr3
+name: Degraded run and policy performance
+impact: none
+systems:
+    - 7cgbxrw10wgr
+timeline:
+    - ts: "2024-03-14 17:30:39"
+      description: We have identified and are currently monitoring some degraded performance for pre-apply and policy stages.
+    - ts: "2024-03-14 17:38:18"
+      description: We've spotted that something has gone wrong. We're currently investigating the issue, and will provide an update soon.
+    - ts: "2024-03-14 18:24:21"
+      description: User impact should be mitigated, and we are continuing to monitor the system closely.
+    - ts: "2024-03-14 19:54:26"
+      description: All systems nominal.
+      resolved: true

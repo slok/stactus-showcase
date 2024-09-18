@@ -1,0 +1,15 @@
+version: incident/v1
+id: dtrx7v0x3zhb
+name: 'MongoDB Cloud: Pages are slow to load'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-09-09 15:59:31"
+      description: We have received reports of extremely slow page loads. We are investigating the issue.
+      investigating: true
+    - ts: "2024-09-09 16:26:42"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-09 17:54:06"
+      description: This incident has been resolved.
+      resolved: true

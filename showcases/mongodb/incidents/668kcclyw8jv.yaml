@@ -1,0 +1,12 @@
+version: incident/v1
+id: 668kcclyw8jv
+name: 'MongoDB Cloud: Some Organizations and Projects will result in "500 Server Error" messages'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-04-23 18:10:26"
+      description: We have identified an issue for MongoDB Atlas and Cloud Manager Organizations and Projects created during a certain timeframe will result in "500 Server Error" error pages. We are working to correct this. Cluster health is unaffected.
+    - ts: "2024-04-23 22:12:56"
+      description: This incident has been resolved.
+      resolved: true

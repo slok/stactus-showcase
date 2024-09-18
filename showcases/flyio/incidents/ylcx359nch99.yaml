@@ -1,0 +1,16 @@
+version: incident/v1
+id: ylcx359nch99
+name: Network issues in JNB
+impact: major
+systems:
+    - r8cxv07rm0h4
+timeline:
+    - ts: "2024-09-05 23:43:46"
+      description: We are currently investigating this issue. Access to apps hosted there may be affected.
+      investigating: true
+    - ts: "2024-09-06 00:02:09"
+      description: Our JNB datacenter is performing an emergency network maintenance. The maintenance is currently in progress. We will provide updates as necessary.
+      investigating: true
+    - ts: "2024-09-06 01:04:29"
+      description: The maintenance has been completed.
+      resolved: true

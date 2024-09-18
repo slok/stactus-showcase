@@ -1,0 +1,12 @@
+version: incident/v1
+id: 29yl11d40l48
+name: Instance failure
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-01 01:14:09"
+      description: 'We are experiencing an instance failure. This may affect resources that have the following pattern in their endpoint: c84'
+      investigating: true
+    - ts: "2024-09-01 01:49:36"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,17 @@
+version: incident/v1
+id: kqwygxf722mp
+name: Issue with Zoom Contact Center Reporting
+impact: minor
+systems:
+    - 33vmdfk84f1d
+timeline:
+    - ts: "2024-08-08 13:06:08"
+      description: We are investigating an issue with viewing historical reporting data for Zoom Contact Center.  We will provide updates as we have them.
+      investigating: true
+    - ts: "2024-08-08 14:47:04"
+      description: We have identified the issue with viewing historical reporting data for Zoom Contact Center.  We will continue to provide update as we have them.
+    - ts: "2024-08-08 15:38:02"
+      description: We have resolved the issue with viewing historical reporting data for Zoom Contact Center.  We will continue to monitor and provide updates as we have them.
+    - ts: "2024-08-08 15:50:53"
+      description: This incident has been resolved.
+      resolved: true

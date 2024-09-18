@@ -1,0 +1,16 @@
+version: incident/v1
+id: 9tk3c8xmqfmw
+name: This is an example incident
+impact: none
+systems: []
+timeline:
+    - ts: "2020-10-28 05:52:38"
+      description: When your product or service isn’t functioning as expected, let your customers know by creating an incident. Communicate early, even if you don’t know exactly what’s going on.
+      investigating: true
+    - ts: "2020-10-28 05:52:38"
+      description: As you continue to work through the incident, update your customers frequently.
+    - ts: "2020-10-28 05:52:38"
+      description: Let your users know once a fix is in place, and keep communication clear and precise.
+    - ts: "2020-10-28 05:52:39"
+      description: Empathize with those affected and let them know everything is operating as normal.
+      resolved: true

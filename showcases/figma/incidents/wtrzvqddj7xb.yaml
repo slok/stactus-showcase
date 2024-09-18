@@ -1,0 +1,15 @@
+version: incident/v1
+id: wtrzvqddj7xb
+name: Service disruption
+impact: major
+systems:
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2023-01-05 15:39:31"
+      description: We are currently investigating an issue with loading Figma
+      investigating: true
+    - ts: "2023-01-05 16:07:13"
+      description: A fix has been implemented and Figma should now be operational. We are continuing to monitor.
+    - ts: "2023-01-05 17:30:49"
+      description: This incident has been resolved.
+      resolved: true

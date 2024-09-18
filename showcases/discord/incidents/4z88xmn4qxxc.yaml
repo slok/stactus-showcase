@@ -1,0 +1,18 @@
+version: incident/v1
+id: 4z88xmn4qxxc
+name: General issues with Discord service availability and API
+impact: major
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-05-03 15:22:05"
+      description: We are experiencing increased error rates and latency on our APIs, impacting many app features.
+    - ts: "2024-05-03 15:22:12"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2024-05-03 15:34:55"
+      description: A fix has been deployed and API availability is recovering
+    - ts: "2024-05-03 15:39:36"
+      description: API availability and latency have recovered. We are continuing to monitor for additional impacts.
+    - ts: "2024-05-03 16:16:36"
+      description: This incident has been resolved.
+      resolved: true

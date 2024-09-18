@@ -1,0 +1,17 @@
+version: incident/v1
+id: 0lywfvrls1xn
+name: Atlas Cluster Operations Delayed
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-08-29 10:21:35"
+      description: We are investigating an issue delaying certain cluster operations caused by an AWS STS outage (https://health.aws.amazon.com/health/status).
+      investigating: true
+    - ts: "2024-08-29 10:31:51"
+      description: AWS has identified and mitigated a networking issue impacting multiple AWS services. Delays in Atlas Cluster operations caused by this issue are now also recovering.
+    - ts: "2024-08-29 10:49:05"
+      description: The system has recovered and Atlas Cluster operations are no longer delayed. We will continue to monitor the system for any residual effects.
+    - ts: "2024-08-29 10:56:44"
+      description: This issue has been resolved.
+      resolved: true

@@ -1,0 +1,11 @@
+version: incident/v1
+id: rz0f3czknmc3
+name: Scheduled Maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2024-08-26 16:00:58"
+      description: 'Service maintenance applies to all of the resources with the following pattern in their endpoint : c1.asia-northeast'
+    - ts: "2024-08-26 17:51:30"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,14 @@
+version: incident/v1
+id: 0nt2rj3ktr6k
+name: Minor Login Issues with the Manage Portal
+impact: none
+systems:
+    - fyzs60wyq01d
+timeline:
+    - ts: "2021-11-05 17:34:24"
+      description: Due to a problem with our authentication layer, we had a brief service degradation between 5:05 and 5:10 PM PDT that prevented some users from logging into the manage portal. We have implemented a fix and we are now monitoring the system.
+    - ts: "2021-11-05 17:37:29"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2021-11-05 19:06:24"
+      description: This incident has been resolved.
+      resolved: true

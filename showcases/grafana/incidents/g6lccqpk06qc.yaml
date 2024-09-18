@@ -1,0 +1,37 @@
+version: incident/v1
+id: g6lccqpk06qc
+name: Hosted services unavailable in us-central2
+impact: critical
+systems:
+    - 7hzxytvzk3mz
+    - tpk4cdhtsm82
+    - wb63bdf311zx
+    - h6c5t69fh0lr
+    - mvjcv18gtsbb
+    - 0s84b5yjppwy
+    - fs80tlfpb7kx
+    - 6f1xs7c89lnx
+    - yptj3h8fdn8j
+    - ql2hwfkmnyrr
+    - m8lw9yjt4jvh
+    - d1qqwsst6by9
+    - j0ldhc4ytmxq
+    - bwz6jth8r6qk
+    - 43fvknltd9m1
+    - 23wmy7zb3076
+    - tpvdjr2xyb7x
+    - y5ymzvw0c99f
+    - hrz0zytmsvzw
+    - k4x5wpztwzcq
+    - 3lqbsd6gbn1r
+timeline:
+    - ts: "2024-07-18 23:13:09"
+      description: We are currently investigating issues with hosted services in us-central2.
+      investigating: true
+    - ts: "2024-07-19 02:22:49"
+      description: Our cloud service provider has identified the cause of the outage and are applying mitigations. We expect to see signs of improvement as this fix rolls out across their services.
+    - ts: "2024-07-19 04:49:44"
+      description: As of 4:45 UTC, we have observed marked improvement with Prometheus, Loki, and Tempo components. We are continuing to monitor for signs of improvement in other components as this fix rolls out across our cloud service provider's services.
+    - ts: "2024-07-19 17:46:29"
+      description: Engineering has released a fix and as of 10:30 UTC, customers should no longer experience hosted services issues. At this time, we are considering this issue resolved. No further updates.
+      resolved: true

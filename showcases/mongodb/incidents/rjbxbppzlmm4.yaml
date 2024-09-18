@@ -1,0 +1,20 @@
+version: incident/v1
+id: rjbxbppzlmm4
+name: 'Microsoft Azure Incident: Degraded Cluster Health - Several Regions Impacted (UAE North Most Impacted)'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-07-30 17:10:29"
+      description: |-
+        Microsoft Azure is experiencing an issue with networking globally--we're seeing issues in UAE North in particular. This is causing degraded health of some Atlas Clusters globally. In some cases, the cluster may not be accessible.
+
+        Further incident details may be found in the Service Health Dashboard in your Microsoft Azure Portal.
+      investigating: true
+    - ts: "2024-07-30 17:17:09"
+      description: We are monitoring cluster health during the ongoing incident.
+    - ts: "2024-07-30 20:41:40"
+      description: Cluster health incidents are resolving; still monitoring.
+    - ts: "2024-07-31 00:06:04"
+      description: This incident has largely been resolved, however some nodes remain affected. Your logged-in Azure Portal may have more details on resolution.
+      resolved: true

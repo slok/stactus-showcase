@@ -1,0 +1,16 @@
+version: incident/v1
+id: t7q37bxzk79b
+name: Remote Management Partial Outage
+impact: minor
+systems:
+    - f4txj806xph9
+    - 50j8z65sq9pt
+timeline:
+    - ts: "2024-02-16 08:59:59"
+      description: We are aware that some users are unable to access their UniFi Console through unifi.ui.com. Our team is prioritizing a fix to be applied as soon as possible.
+      investigating: true
+    - ts: "2024-02-16 11:15:40"
+      description: We are continuing to monitor for any further issues
+    - ts: "2024-02-16 12:05:21"
+      description: This incident has been resolved.
+      resolved: true

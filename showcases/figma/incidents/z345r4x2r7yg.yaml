@@ -1,0 +1,13 @@
+version: incident/v1
+id: z345r4x2r7yg
+name: Service disruption
+impact: none
+systems: []
+timeline:
+    - ts: "2023-05-11 19:12:46"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2023-05-11 19:13:26"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-05-11 19:28:00"
+      description: This incident has been resolved.
+      resolved: true

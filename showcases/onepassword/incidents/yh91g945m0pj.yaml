@@ -1,0 +1,27 @@
+version: incident/v1
+id: yh91g945m0pj
+name: Billing events processing delay
+impact: critical
+systems:
+    - dd7j6hgdy98l
+    - cnzy869d6qf1
+    - l8gxmc6nwwws
+    - 7lv4d69lfr5x
+timeline:
+    - ts: "2023-11-09 13:53:20"
+      description: |-
+        We are currently experiencing a delay in processing all billing events, including adding payment methods, processing invoices and renewals.
+
+        Our engineers are actively investigating and updates will follow accordingly.
+      investigating: true
+    - ts: "2023-11-09 14:54:14"
+      description: We have identified the issue and we are working on deploying a fix.
+    - ts: "2023-11-09 17:06:08"
+      description: The issue blocking the processing of events was resolved. We are working through the backlog of billing events. We will continue to monitor and provide further updates.
+    - ts: "2023-11-09 21:18:36"
+      description: The Billing service has returned to a degraded state, currently impacting all billing events. Engineers are working to restore full service. We are prioritizing restoring full billing capabilities to customers subscribed via Apple and directly in the web application via credit card and then will follow up with Google Play Store subscribers.
+    - ts: "2023-11-10 10:38:49"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-11-10 16:37:13"
+      description: This incident is resolved.
+      resolved: true

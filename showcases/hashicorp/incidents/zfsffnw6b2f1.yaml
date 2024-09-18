@@ -1,0 +1,19 @@
+version: incident/v1
+id: zfsffnw6b2f1
+name: HCP UI Experiencing Intermittent Unavailability In Several Products
+impact: major
+systems:
+    - hk67zg2j2rkd
+timeline:
+    - ts: "2024-07-26 22:14:12"
+      description: |-
+        Customers are likely unable to access the current state and events within Hashicorp Vault Secrets.
+        We're currently investigating the issue, and will provide an update soon.
+      investigating: true
+    - ts: "2024-07-26 23:10:36"
+      description: "We have determined the cause of the issues and are testing the fixes within our development environments\n\nCustomers will experience intermittent UI unavailability within \n- Cloud Boundary\n- Cloud Vault (dedicated)\n- Vault Radar\n- HVN"
+    - ts: "2024-07-26 23:30:28"
+      description: We are seeing the recovery of the issues with UI availability around the services mentioned above. Our engineers will continue to monitor the state to verify the changes
+    - ts: "2024-07-27 00:00:52"
+      description: We have verified that functionality has returned
+      resolved: true

@@ -1,0 +1,11 @@
+version: incident/v1
+id: tk5d0z8gkqvr
+name: Decrease in site availability due to errant database migration
+impact: none
+systems: []
+timeline:
+    - ts: "2022-01-05 15:39:58"
+      description: A data migration erroneously dropped indexes that were still in use, causing decrease in availability for a subset of all inbound requests.
+    - ts: "2022-01-05 16:11:00"
+      description: This incident has been resolved.
+      resolved: true

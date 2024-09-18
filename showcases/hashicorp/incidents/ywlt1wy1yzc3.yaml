@@ -1,0 +1,15 @@
+version: incident/v1
+id: ywlt1wy1yzc3
+name: Investigating HCP Boundary
+impact: minor
+systems:
+    - 9gzfhnxdsf93
+timeline:
+    - ts: "2024-07-04 04:11:23"
+      description: Our engineering team is investigating an issue affecting HCP Boundary. Some users may experience elevated latency or degraded performance. We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-07-04 06:09:53"
+      description: A fix has been implemented and we are seeing normal performance return to impacted clusters. We are continuing to monitor the incident and will provide an update when we have more information.
+    - ts: "2024-07-04 06:36:22"
+      description: HCP Boundary should now be operating normally. If you continue to experience any problems, please open a ticket with our support team
+      resolved: true

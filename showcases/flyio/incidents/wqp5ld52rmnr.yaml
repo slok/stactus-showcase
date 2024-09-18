@@ -1,0 +1,19 @@
+version: incident/v1
+id: wqp5ld52rmnr
+name: Network outage
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-01 19:31:45"
+      description: We're currently investigating an outage based on alerts and customer reports. This affects the Fly dashboard and some customer apps, as well as the API.
+      investigating: true
+    - ts: "2024-09-01 19:58:52"
+      description: We are continuing to investigate this issue.  Networking to some customer apps, Fly API operations, and access to Fly.io Dashboard pages continues to be impacted.
+      investigating: true
+    - ts: "2024-09-01 20:12:02"
+      description: We have applied a fix for this problem, all services should be back online. We're still monitoring to ensure things remain stable.
+    - ts: "2024-09-01 20:16:04"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2024-09-01 23:06:46"
+      description: The issue was resolved, the platform is now working properly and is stable.
+      resolved: true

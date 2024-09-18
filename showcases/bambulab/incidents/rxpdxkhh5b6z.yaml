@@ -1,0 +1,9 @@
+version: incident/v1
+id: rxpdxkhh5b6z
+name: Cloud Slice Service Outage
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-01-16 04:06:21"
+      description: The cloud slice service experienced a disruption due to an abnormal restart of the Redis service
+      resolved: true

@@ -1,0 +1,50 @@
+version: incident/v1
+id: scgjv6ld3f0s
+name: Alert Irregularities in US and EU Regions
+impact: minor
+systems:
+    - rbts0zzw73dl
+    - d9pwhb6snl77
+    - k4c77k6bzcl7
+    - ssdh7xpzvw1l
+    - 5x10l9g2z3t6
+    - tpj67jyc58sb
+    - 028b05n94my0
+    - zj32brg420jm
+    - 5p33lkzzqm0z
+    - hymb519q08z0
+    - ymfwncrn2dnh
+    - fp51bfh70sht
+    - 9jndj4kfv59w
+    - 5ny464vz0n83
+    - lm2qpsbfggh7
+    - xzllc95t20c2
+    - prjgs1mvmqg9
+    - 8h442mvws6w7
+timeline:
+    - ts: "2023-09-11 18:30:50"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-09-11 18:32:26"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-09-11 18:48:55"
+      description: We are investigating an issue impacting alerting. Some customers in the US and EU regions may experience missing alert notifications for all data sources. Additionally customers may experience errors accessing the Alerts UI.
+      investigating: true
+    - ts: "2023-09-11 19:07:29"
+      description: "New Relic teams are continuing to investigate this issue with our cloud provider. We have identified the root cause and are working to resolve the issue. \n\nCustomers in the US and EU region may be experiencing issues accessing various portions of the New Relic UI and missing alert notifications. Data ingest does not appear to be impacted at this time"
+    - ts: "2023-09-11 19:36:57"
+      description: New Relic teams are continuing to investigate the issue with our cloud provider.
+    - ts: "2023-09-11 20:29:17"
+      description: New Relic has concluded the investigation with our cloud provider and are now working and investigating on how to return our services back to normal operation.
+    - ts: "2023-09-11 21:03:01"
+      description: New Relic is continuing to work to restore services to normal operation.
+    - ts: "2023-09-11 21:31:02"
+      description: New Relic is continuing to work to restore services to normal operation.
+    - ts: "2023-09-11 22:01:29"
+      description: New Relic is continuing to work to restore services to normal operation.
+    - ts: "2023-09-11 22:18:13"
+      description: Alert notifications and errors in the UI are recovering. We will notify once all services have completely returned to normal operation.
+    - ts: "2023-09-11 22:29:25"
+      description: Between 17:48 UTC and 22:27 UTC on Monday, September 11, 2023, some customers in the US and EU region may have experienced missing alert notifications and errors accessing the Alerts UI. We have investigated and resolved a service interruption and impacted services have returned to normal operations.
+      resolved: true

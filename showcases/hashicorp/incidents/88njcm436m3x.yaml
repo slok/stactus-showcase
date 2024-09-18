@@ -1,0 +1,40 @@
+version: incident/v1
+id: 88njcm436m3x
+name: Identified an incident with IAM Group Management
+impact: minor
+systems:
+    - mgv1p2j9x444
+timeline:
+    - ts: "2024-05-06 17:03:02"
+      description: |-
+        Our engineering team is investigating an issue with the following:
+
+        HCP Portal IAM Group Editing
+
+        During this time, users may experience the following:
+
+        Some users may be experiencing problems editing IAM Groups or changing project assignments of IAM Groups.
+
+        We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-05-06 17:19:15"
+      description: "Our Engineering team has identified the cause for the following incident: \n\nA feature flag conflict is preventing some users from editing IAM Groups or changing project assignments of IAM Groups.\n\nWe are actively working on a fix. Once we have additional information, we will share another update."
+    - ts: "2024-05-06 18:35:27"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue with:
+
+        Management of IAM Groups
+
+        We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-05-06 19:44:56"
+      description: "Our Engineering team has identified the cause for the following incident: \n\nIAM Group members cannot be removed from an IAM Group.\n\nWe are actively working on a fix. Once we have additional information, we will share another update."
+    - ts: "2024-05-06 20:47:57"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue with:
+
+        Removal of members from an IAM Group.
+
+        We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-05-06 22:01:08"
+      description: "Our Engineering team has resolved the following issue: \n\nIAM Group Management Broken\n\nYou can now manage groups and group membership. Groups can also once again be added and removed from Projects.\n\nThese systems should now be operating normally. If you continue to experience any problems, please open a ticket with our support team."
+      resolved: true

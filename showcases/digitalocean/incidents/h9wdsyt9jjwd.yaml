@@ -1,0 +1,14 @@
+version: incident/v1
+id: h9wdsyt9jjwd
+name: Removing Team Members
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2024-07-03 20:34:18"
+      description: "Our Engineering team has identified an issue with removing team members from active DigitalOcean accounts and is currently working on a fix. During this time, users (team owners) will see an error when attempting to remove team members from their accounts. \n\nWe apologize for the inconvenience and will post an update as soon as the fix is in place."
+    - ts: "2024-07-03 20:53:47"
+      description: "Our Engineering team has completed the rollout of the fix to resolve the issue with team owners being unable to remove users from their team accounts. \n\nWe are currently monitoring the situation and will post an update as soon as the issue is fully resolved."
+    - ts: "2024-07-03 21:16:01"
+      description: "Beginning July 2nd, 20:55 UTC, team account owners may have seen an issue with removing other users from their team accounts.  As of July 3rd 20:47 UTC, a fix was deployed and our Engineering team has confirmed full resolution of the issue. Team owners should be able to remove other users from their teams without issue. \n\nThank you for your patience. If you continue to experience any problems, please open a support ticket from within your account."
+      resolved: true

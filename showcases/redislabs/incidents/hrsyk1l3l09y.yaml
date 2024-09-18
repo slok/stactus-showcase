@@ -1,0 +1,11 @@
+version: incident/v1
+id: hrsyk1l3l09y
+name: Scheduled Maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2024-08-20 21:39:38"
+      description: 'Service maintenance applies to all of the resources with the following pattern in their endpoint : c1.ap-southeast-1-1'
+    - ts: "2024-08-21 00:07:06"
+      description: This incident has been resolved.
+      resolved: true

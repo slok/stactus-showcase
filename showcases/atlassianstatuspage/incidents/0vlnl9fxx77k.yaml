@@ -1,0 +1,9 @@
+version: incident/v1
+id: 0vlnl9fxx77k
+name: Abnormal API Timeouts
+impact: none
+systems: []
+timeline:
+    - ts: "2022-11-22 14:13:59"
+      description: Our API service experienced an abnormal number of timeouts affecting 0.6% of total traffic due to DNS errors between 12:30-1:10 pm PST.
+      resolved: true

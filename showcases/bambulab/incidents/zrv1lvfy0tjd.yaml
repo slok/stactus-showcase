@@ -1,0 +1,22 @@
+version: incident/v1
+id: zrv1lvfy0tjd
+name: MakerWorld Outage
+impact: major
+systems:
+    - 6hkfwd93hvnk
+timeline:
+    - ts: "2023-11-02 12:09:10"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2023-11-02 12:12:02"
+      description: Outage occurs in our cloud service provider, we can not access the dashboard to fix this issue. This only influence the website through with browser.
+      investigating: true
+    - ts: "2023-11-02 13:01:43"
+      description: We apply a hotfix to bypass the cache policy, the website is okay now, but users can not download the model file through with browser.
+    - ts: "2023-11-02 13:10:18"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-11-02 13:43:07"
+      description: Under maintenance to fix website issue.
+    - ts: "2023-11-02 15:37:32"
+      description: This incident has been resolved.
+      resolved: true

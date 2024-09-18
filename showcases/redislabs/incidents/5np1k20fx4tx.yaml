@@ -1,0 +1,11 @@
+version: incident/v1
+id: 5np1k20fx4tx
+name: Urgent maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-04 05:23:16"
+      description: 'Urgent maintenance applies to all of the resources with the following pattern in their endpoint: cls-prod18'
+    - ts: "2024-09-04 08:16:11"
+      description: This incident has been resolved.
+      resolved: true

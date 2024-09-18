@@ -1,0 +1,25 @@
+version: incident/v1
+id: q6tgyl1y12gj
+name: SMS Delivery Delays to Glo Network in Nigeria
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2024-09-16 07:26:01"
+      description: We are experiencing SMS Delivery Delays to Glo Network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-16 08:17:19"
+      description: We continue experiencing SMS Delivery Delays to Glo Network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-16 10:11:37"
+      description: We continue experiencing SMS Delivery Delays to Glo Network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-16 14:11:18"
+      description: We continue experiencing SMS Delivery Delays to Glo Network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-16 21:57:08"
+      description: We continue to experience SMS Delivery Delays to Glo Network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-17 10:30:50"
+      description: We are no longer experiencing SMS delivery delays when sending messages to Glo Network in Nigeria. This incident has been resolved.
+      resolved: true

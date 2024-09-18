@@ -1,0 +1,16 @@
+version: stactus/v1
+name: Twitch
+url: https://status.twitch.com
+systems:
+    - id: yz28x40y5mq2
+      name: Login
+    - id: j6dkmwm0h3k2
+      name: Web
+    - id: 4qrh4gj6bgt2
+      name: Chat
+    - id: wkdq12ctv52c
+      name: Video (Watching)
+    - id: 6pr6psm3s003
+      name: Video (Broadcasting)
+    - id: ys9m23jjzpg0
+      name: Purchases

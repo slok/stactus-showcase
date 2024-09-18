@@ -1,0 +1,36 @@
+version: incident/v1
+id: jmj2wx0y78q3
+name: Creates/Resizes in SGP & SYD Regions
+impact: minor
+systems:
+    - 2d91fg0js59k
+    - q9wrfk6yn5m8
+    - 29xvj6jck5fm
+    - y24751gr0df8
+    - kvrtqsmcph72
+    - crftxywml4sx
+    - k0svklf2hmb4
+    - fp3yv6vdqkxt
+    - sf15v29bzqg2
+    - xmjmwjbpgls5
+timeline:
+    - ts: "2024-08-28 15:06:02"
+      description: |-
+        Our Engineering team is currently investigating an issue impacting operations in our SGP1 and SYD1 regions.
+
+        During this time, users may experience errors when trying to create new Droplets and Droplet-based resources, or when resizing their existing resources via our Cloud Control Panel and API.
+
+        We apologize for any inconvenience, and we'll share more information as soon as it's available.
+      investigating: true
+    - ts: "2024-08-28 15:17:55"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-08-28 15:21:20"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-08-28 16:05:08"
+      description: "Our Engineering team has now put mitigations in place for failing create and resize operations in SYD1 and SGP1 and we are seeing creates and resizes of Droplets and Droplet-based products succeeding. \n\nOur Engineering team continues to investigate the root cause of the issue and work on a full fix, and users may still experience errors until a full fix is in place. We will post a further update when more information is available."
+      investigating: true
+    - ts: "2024-08-28 23:45:21"
+      description: "Our Engineering team has identified the root cause of the issue with creating and resizing Droplets and Droplet-based resources in our SGP1 and SYD1 regions. \n\nNo further user impact has occurred since our last update. \n\nIn order to fully remediate this issue, our Engineering team has scheduled emergency maintenance, which will take place from 14:00 - 22:00 UTC on August 29th. \n\nPlease visit the below maintenance link to know more :\nlink:https://status.digitalocean.com/incidents/np0zw6m04jm1\n\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience."
+      resolved: true

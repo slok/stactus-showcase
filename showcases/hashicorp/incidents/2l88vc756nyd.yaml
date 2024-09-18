@@ -1,0 +1,14 @@
+version: incident/v1
+id: 2l88vc756nyd
+name: Emergency Maintenance
+impact: minor
+systems:
+    - 9gzfhnxdsf93
+timeline:
+    - ts: "2024-03-27 20:30:39"
+      description: HCP Boundary will undergo emergency maintenance on 27, March, 2024 beginning at 20:30 UTC . We expect this maintenance to be complete within three hours. During this time, HCP Boundary sessions may disconnect unexpectedly, but reconnecting will be possible. We will post updates as necessary throughout the maintenance period.
+    - ts: "2024-03-27 23:29:36"
+      description: HCP Boundary Maintenance is still ongoing and is expected to complete in 1 hour 00:30 UTC. During this time, HCP Boundary sessions may disconnect unexpectedly, but reconnecting will be possible. We will continue to post updates as necessary throughout the maintenance period.
+    - ts: "2024-03-28 00:18:28"
+      description: HCP Emergency Maintenance is now complete.
+      resolved: true

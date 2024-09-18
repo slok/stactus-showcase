@@ -1,0 +1,24 @@
+version: incident/v1
+id: m11tql1g4kj1
+name: Project Creation Errors
+impact: minor
+systems:
+    - 7cgbxrw10wgr
+timeline:
+    - ts: "2024-07-16 14:07:20"
+      description: |-
+        Our engineering team is investigating an increase in errors when creating new projects in HCP Terraform. Customers may experience 500 errors when creating new projects.
+
+        We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-07-16 15:00:26"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue with new project creation.
+
+        We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-07-16 15:15:21"
+      description: |-
+        Our Engineering team has resolved the issue.
+
+        These systems should now be operating normally. If you continue to experience any problems, please open a ticket with our support team.
+      resolved: true

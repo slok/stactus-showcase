@@ -1,0 +1,25 @@
+version: incident/v1
+id: 0bj61vc1958l
+name: New Customer Sign Ups
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2024-09-10 19:18:19"
+      description: |-
+        Our Engineering team is investigating an issue with users attempting to sign up for new cloud.digitalocean.com accounts. At this time, users attempting to sign up are unable to complete registration.
+
+        Existing users are unaffected and should be able to sign in normally.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2024-09-10 19:50:35"
+      description: |-
+        Our Engineering team has identified the issue impacting new account sign-ups. Users should no longer encounter errors and should be able to sign up again.
+
+        Our Engineering team continues to monitor the situation and we will post an update as soon as additional information is available.
+    - ts: "2024-09-10 20:48:19"
+      description: "Our Engineering team has confirmed there was an upstream outage that affected a component of the sign up flow for cloud.digitalocean.com accounts. The outage has been resolved by the provider. \n\nWe are monitoring the situation and will post an update shortly."
+    - ts: "2024-09-10 21:06:14"
+      description: "From 18:23 to 19:21 UTC, users were unable to complete registration of new cloud.digitalocean.com accounts, due to an upstream outage. \n\nThis issue is now fully resolved and users should be able to sign up normally. \n\nWe apologize for the inconvenience and invite users to retry any failed attempts. If you continue to experience issues or have any questions, please reach out to Support from within your account."
+      resolved: true

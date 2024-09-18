@@ -1,0 +1,9 @@
+version: incident/v1
+id: q2d98y2qv54j
+name: Elevated Errors for API Key Validation
+impact: none
+systems: []
+timeline:
+    - ts: "2024-03-06 14:45:45"
+      description: From 12:45-1:15 PM US EST Datadog’s endpoint to validate Datadog API keys was unavailable. During this window Datadog Agents would be unable to validate their API key. In all cases Agents would continue to send data. Some Agents running in Kubernetes may be marked unhealthy until restarted. Newly started Agents would fail to start. Build jobs using our CI Visibility product would be missing custom tags and measures.
+      resolved: true

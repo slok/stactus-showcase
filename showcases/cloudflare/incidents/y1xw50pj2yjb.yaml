@@ -1,0 +1,15 @@
+version: incident/v1
+id: y1xw50pj2yjb
+name: Issue with accessing Cloudflare Support Portal
+impact: minor
+systems:
+    - jzcwkvrc4w4q
+timeline:
+    - ts: "2024-09-10 03:23:54"
+      description: |-
+        We have identified an issue that some customers may be unable to access some parts of the Cloudflare Support Portal.
+
+        Further detail will be provided as more information becomes available.
+    - ts: "2024-09-10 03:27:31"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,50 @@
+version: incident/v1
+id: 3g6tgp5z8164
+name: HCP Consul unable to create, update, and delete clusters
+impact: major
+systems:
+    - qd90lhs11h3t
+    - sl2x510l6l2l
+    - x54tpcrmrlv4
+    - gngnzl7vq7v9
+    - 57bpn8mmz92p
+    - trb6p97hq44l
+    - 3ck06ybbq9rk
+    - l19qcn7gwfmh
+    - 2hthcsg7s6n2
+    - xmd3rgq35mzz
+    - qnhzxd3vghb9
+    - ghbwl1z50f7v
+    - 8nlq25qx2x6w
+    - y1tttb462kn7
+    - 8qtxwq5gwzkn
+    - d48d1n3mpcnd
+    - d3g7tzfrq2vx
+    - 4p4qw9rlhr5g
+    - f0q2p9zds6kg
+    - rvf4jvy09gtn
+    - 5g7xxqgmjwr8
+    - hddnf9931cjf
+timeline:
+    - ts: "2024-02-26 13:42:55"
+      description: |-
+        Our engineering team is investigating an issue with the following:
+
+        HCP Consul operations are failing to complete.
+
+        During this time, users may experience the following:
+
+        Users are unable to create, update, or delete clusters.
+
+        We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-02-26 14:23:41"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue with:
+
+        Impacted HCP Consul services were manually restarted.
+
+        We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-02-26 14:41:32"
+      description: "Our Engineering team has resolved the following issue: \n\nHCP Consul users are unable to create, update, and delete clusters.\n\nThese systems should now be operating normally. If you continue to experience any problems, please open a ticket with our support team."
+      resolved: true

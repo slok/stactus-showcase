@@ -1,0 +1,20 @@
+version: incident/v1
+id: pzqcy0m307zm
+name: Google SSO login issues for web application
+impact: minor
+systems:
+    - b5fx9rfn6137
+timeline:
+    - ts: "2024-03-05 11:27:43"
+      description: |-
+        We are investigating user login issues with the web application via Google SSO. Users switching orgs might also be affected.
+
+        Please note that data processing and alerts are not affected by this incident.
+      investigating: true
+    - ts: "2024-03-05 11:43:50"
+      description: We are seeing signs of recovery and are continuing to monitor progress. We will post further updates when we have them.
+    - ts: "2024-03-05 12:14:56"
+      description: We are continuing to monitor progress. We will post further updates when we have them.
+    - ts: "2024-03-05 12:37:18"
+      description: This incident has been resolved.
+      resolved: true

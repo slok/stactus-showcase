@@ -1,0 +1,12 @@
+version: incident/v1
+id: xhrzjw2bdrlj
+name: degraded voice quality in rotterdam
+impact: minor
+systems:
+    - fc8y53dfg85y
+timeline:
+    - ts: "2024-03-07 14:27:06"
+      description: We are investigating degraded voice quality in our rotterdam voice region. We will likely start moving that traffic to a different location in western europe.
+    - ts: "2024-03-07 17:46:04"
+      description: We're serving Rotterdam Traffic out of a different provider and user impact should be ended.
+      resolved: true

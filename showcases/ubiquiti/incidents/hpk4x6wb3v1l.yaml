@@ -1,0 +1,15 @@
+version: incident/v1
+id: hpk4x6wb3v1l
+name: Creating new UniFi Cloud instances is disabled
+impact: major
+systems:
+    - lxk7tg6cz19c
+timeline:
+    - ts: "2022-11-15 13:45:18"
+      description: We have disabled creating new UniFi Cloud instances while we investigate an issue that prevents new instances from registering with the cloud access service.
+      investigating: true
+    - ts: "2022-11-15 17:32:11"
+      description: We have re-enabled provisioning of new UniFi Cloud instances with new monitoring in place to alert us in case of problems with cloud access registration.
+    - ts: "2022-11-15 23:04:21"
+      description: This incident has been resolved.
+      resolved: true

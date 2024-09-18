@@ -1,0 +1,15 @@
+version: incident/v1
+id: 0lzx4khsvx9l
+name: Saved plugin disruption
+impact: minor
+systems:
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2022-12-07 21:38:23"
+      description: Saved plugins are not starting when ran from menus or quick-actions. We are investigating this issue.
+      investigating: true
+    - ts: "2022-12-07 22:17:29"
+      description: We've identified the issue and are working toward a fix for it now.
+    - ts: "2022-12-07 22:58:30"
+      description: The issue has been resolved. Saved plugins are now running as expected from menus and quick-actions.
+      resolved: true

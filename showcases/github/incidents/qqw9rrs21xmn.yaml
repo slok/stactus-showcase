@@ -1,0 +1,41 @@
+version: incident/v1
+id: qqw9rrs21xmn
+name: Incident with Issues and Pages
+impact: minor
+systems:
+    - kr09ddfgbfsf
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2024-07-08 19:01:31"
+      description: We are investigating reports of degraded performance for Issues and Pages
+      investigating: true
+    - ts: "2024-07-08 19:02:04"
+      description: We are investigating issues with loading assets, including JavaScript assets, on various parts of the site for some users.
+      investigating: true
+    - ts: "2024-07-08 19:12:22"
+      description: githubstatus.com may not be available or may be degraded for some users in some regions.
+      investigating: true
+    - ts: "2024-07-08 19:16:53"
+      description: We are beginning to see recovery of our assets and are monitoring for additional impact.
+      investigating: true
+    - ts: "2024-07-08 19:44:15"
+      description: Our assets are serving normally again and all impact is resolved.
+      investigating: true
+    - ts: "2024-07-08 19:44:19"
+      description: Pages and Issues are operating normally.
+      investigating: true
+    - ts: "2024-07-08 19:44:24"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-07-08 19:44:25"
+      description: Issues is operating normally.
+      investigating: true
+    - ts: "2024-07-08 19:44:29"
+      description: Issues and Pages are experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-07-08 19:44:36"
+      description: Issues and Pages are operating normally.
+      investigating: true
+    - ts: "2024-07-08 19:45:19"
+      description: On July 8th, 2024, between 18:18 UTC and 19:11 UTC, various services relying on static assets were degraded, including user uploaded content on github.com, access to docs.github.com and Pages sites, and downloads of Release assets and Packages. <br /><br />The outage primarily affected users in the vicinity of New York City, USA, due to a local CDN disruption. <br /><br />Service was restored without our intervention.<br /><br />We are working to improve our external monitoring, which failed to detect the issue and will be evaluating a backup mechanism to keep critical services available, such as being able to load assets on GitHub.com, in the event of an outage with our CDN.<br />
+      resolved: true

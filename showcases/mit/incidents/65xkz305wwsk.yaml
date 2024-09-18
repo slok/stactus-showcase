@@ -1,0 +1,19 @@
+version: incident/v1
+id: 65xkz305wwsk
+name: 'OC40 (MGHPCC): Power Outage'
+impact: major
+systems:
+    - dpdsycjtknlz
+timeline:
+    - ts: "2023-10-15 12:51:20"
+      description: |-
+        MGHPCC experienced a major power outage Saturday October 14. Power has since been restored and equipment is currently being powered back on.
+
+        Connectivity to MITnet has recovered, and all IS&T network infrastructure is once again operating as normal.
+
+        Remaining systems at MGHPCC are currently unavailable, but staff continues to work to bring everything back. Updates will follow.
+    - ts: "2023-10-16 08:56:45"
+      description: Systems at MGHPCC have been restored. Please contact orcd-help@mit.edu for any support related items.
+    - ts: "2023-10-26 09:18:52"
+      description: This incident has been resolved.
+      resolved: true

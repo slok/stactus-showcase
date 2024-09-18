@@ -1,0 +1,22 @@
+version: incident/v1
+id: 5zhsjd9y966q
+name: Trace UI Errors in US and EU Regions
+impact: minor
+systems:
+    - ty1004s644gq
+    - gmn0nk8bzns7
+    - 1mwh21hqrxlw
+    - zhbggrqh2xl6
+    - g3mtj9z8c1cq
+    - vr1305kd0fnz
+    - mc4f9x2xl1zg
+    - 5wk3qb87hk5h
+    - 7yqy1ctsjw35
+    - zbbfpr0656gw
+timeline:
+    - ts: "2023-09-05 18:08:33"
+      description: We are investigating an issue where some customers in the US and EU regions may be receiving errors when attempting to view trace details in the UI.
+      investigating: true
+    - ts: "2023-09-05 18:37:17"
+      description: "Between 17:00 UTC and 18:34 UTC on September 5th, some customers in the US and EU regions may have experienced receiving errors when attempting to view trace details within the UI. \n\nWe have investigated and resolved this service interruption and impacted services have returned to normal operations."
+      resolved: true

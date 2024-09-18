@@ -1,0 +1,9 @@
+version: incident/v1
+id: gmwr9kywbjwz
+name: Elevated Errors for New Email Subscriptions
+impact: none
+systems: []
+timeline:
+    - ts: "2022-08-01 22:37:56"
+      description: Between 4:55pm and 10:10pm PST, users were not able to subscribe via email to statuspages. We have identified the root cause and have resolved the issue.
+      resolved: true

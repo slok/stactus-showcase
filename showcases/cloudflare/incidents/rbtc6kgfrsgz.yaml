@@ -1,0 +1,15 @@
+version: incident/v1
+id: rbtc6kgfrsgz
+name: New Zone Creation Errors
+impact: minor
+systems:
+    - 8qwmwg7ytljv
+timeline:
+    - ts: "2024-08-29 21:35:48"
+      description: We are currently investigating an issue where a subset of customers are not able to add new zones to their accounts.
+      investigating: true
+    - ts: "2024-08-29 21:46:02"
+      description: The issue was identified and a fix was implemented. We are currently monitoring the results.
+    - ts: "2024-08-29 22:00:28"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,19 @@
+version: incident/v1
+id: pn0gfh64qr61
+name: Logpush Job Creation Issue
+impact: minor
+systems:
+    - k0mgxrls5y1b
+timeline:
+    - ts: "2024-08-28 18:17:51"
+      description: We are investigating reports from a subset of customers who are currently not able to create new Logpush jobs via the Cloudflare Dashboard. Account Super Administrators do not appear to be affected by this issue.
+      investigating: true
+    - ts: "2024-08-28 18:37:44"
+      description: The cause of the reported issue has been identified and a fix is in progress.
+    - ts: "2024-08-28 20:05:15"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-08-28 20:05:26"
+      description: The fix has been implemented and we are monitoring the results.
+    - ts: "2024-08-28 20:11:02"
+      description: This incident has been resolved.
+      resolved: true

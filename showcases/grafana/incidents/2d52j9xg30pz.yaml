@@ -1,0 +1,12 @@
+version: incident/v1
+id: 2d52j9xg30pz
+name: Synthetic Probe Checks Failing in Bangalore
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-05-29 15:09:57"
+      description: We are currently experiencing issues with synthetic monitoring in the Bangalore probe location. This is resulting in synthetic monitoring checks being unable to complete.  Other probe locations are unaffected.
+      investigating: true
+    - ts: "2024-05-29 15:48:02"
+      description: This issue in Bangalore has been resolved, synthetics checks from this probe location are working normally.
+      resolved: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: p2xbtkqt01lq
+name: FRA Network Maintenance
+impact: minor
+systems:
+    - wf7mhv85lyhv
+timeline:
+    - ts: "2024-07-16 03:28:12"
+      description: Network maintenance is occurring in FRA and machines in that region may experience connection issues.
+    - ts: "2024-07-16 07:43:01"
+      description: This incident has been resolved.
+      resolved: true

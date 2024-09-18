@@ -1,0 +1,23 @@
+version: incident/v1
+id: qv3lktdplwyw
+name: Spectrum Protect (TSM) issue with oc11-bk-ent-1
+impact: minor
+systems:
+    - 21mphp99021l
+timeline:
+    - ts: "2023-08-13 09:49:44"
+      description: We are investigating an issue with the Spectrum Protect (formerly known as TSM) backup server oc11-bk-ent-1 that results in connection failures with an SSL error.
+      investigating: true
+    - ts: "2023-08-13 16:27:45"
+      description: |-
+        This issue was caused by an SSL certificate internal to Spectrum Protect, that expired this morning.  The certificate has been updated on the server, but the clients still need to be updated to trust the new certificate.  Unfortunately, Spectrum Protect does not provide a complete way to centrally communicate out to the clients about the new certificate.  At this point owners of nodes that backup to oc11-bk-ent-1 must remove the old server certificate, in order to allow the new one to be installed on the client.  To do this
+        1. Find the folder that contains the dsmcert.idx, dsmcert.kdb, and dsmcert.sth files. This is probably /opt/tivoli/tsm/client/ba/bin on Linux servers,  C:\Program Files\Tivoli\TSM\baclient on windows servers, and '/Library/Application Support/tivoli/tsm/client/ba/bin' on OSX servers.  However, it is possible it may be in another location.
+        2. Save a copy of dsmcert.idx, dsmcert.kdb, and dsmcert.sth in an alternate location, and remove them from their original location
+        3. Restart the TSM scheduler service
+        You can verify that things are working properly by looking at the end of the dsmsched.log file, or starting the client manually and confirming that you can connect.
+        NOTE: We currently believe that this does not apply to version 6 and earlier clients, because they are so old that they do not use SSL encryption, and are not affected by this certificate.  They also have not been supported for years (only version 8 clients are currently supported).
+    - ts: "2023-08-14 12:45:54"
+      description: All server-side work is complete, but owners of machines that back up to oc11-bk-ent-1 must take the steps outlined yesterday, if they have not already done so.
+    - ts: "2023-08-24 16:29:08"
+      description: Users who have not yet performed the steps to truest the new certificate should still do so.
+      resolved: true

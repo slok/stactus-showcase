@@ -1,0 +1,21 @@
+version: incident/v1
+id: cr44n0knc7xj
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-07-31 20:38:06"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-07-31 20:45:12"
+      description: We are investigating reports of users seeing some errors in Billing functionality and Billing pages.
+      investigating: true
+    - ts: "2024-07-31 21:00:58"
+      description: We have identified the issue is caused by a service outage to a partner, and we are working with the partner to resolve the incident.
+      investigating: true
+    - ts: "2024-07-31 21:20:59"
+      description: Our partner service outage has been resolved, and our service has recovered.
+      investigating: true
+    - ts: "2024-07-31 21:21:29"
+      description: Beginning at 8:38 PM UTC on July 31, 2024 and lasting until 9:28 PM UTC on July 31, 2024, some customers of github.com saw errors when navigating to the Billing pages and/or when updating their payment method. These errors were caused due to a degradation in one of our partner services. A fix was deployed by the partner services and the Billing pages are back to being functional. <br /><br />For improved detection of such issues in future, we will work with the partner service to identify levers we can use to get an earlier indication of issues.
+      resolved: true

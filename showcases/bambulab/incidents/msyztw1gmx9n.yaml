@@ -1,0 +1,15 @@
+version: incident/v1
+id: msyztw1gmx9n
+name: Can't submit support ticket for general-inquiry
+impact: minor
+systems:
+    - nfd5mclwftjw
+timeline:
+    - ts: "2024-01-02 07:57:49"
+      description: From 14:20 (UTC+08:00), Users can not submit support tickets for general-inquiry.
+      investigating: true
+    - ts: "2024-01-02 08:25:31"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-01-02 08:50:01"
+      description: This incident has been resolved.
+      resolved: true

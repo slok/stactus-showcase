@@ -1,0 +1,77 @@
+version: stactus/v1
+name: Discord
+url: https://discordstatus.com
+systems:
+    - id: rhznvxg4v7yh
+      name: API
+      description: The API is responsible for sending and receiving messages, and general operations on the platform. If this is down, chances are you'll have trouble connecting and/or sending messages.
+    - id: gvg1c6688r5y
+      name: Third-party / CloudFlare
+      description: CloudFlare is our DDoS protection provider and proxies all of our traffic through their network.
+    - id: ly7bf56hshjc
+      name: Client / Desktop
+      description: The desktop (Windows/Mac/Linux) client
+    - id: gqhmm9t47wcw
+      name: Voice / Atlanta
+    - id: sg02vq1rbfrr
+      name: Voice / Brazil
+    - id: r3wq1zsx72bz
+      name: Media Proxy
+      description: Service responsible for resizing images for thumbnail display
+    - id: 2b4f947c43gg
+      name: Third-party / Tax Calculation Service
+    - id: dmyjqtpgpjkr
+      name: Client / iOS
+      description: The iOS native client
+    - id: fc8y53dfg85y
+      name: Voice / Rotterdam
+    - id: 1krn5438nd7m
+      name: Third-party / Creator Payouts
+      description: Onboarding, KYC, administration and payouts for Creators
+    - id: x7rnz0t7dpnp
+      name: Gateway
+      description: If this is down, you may be unable to connect to Discord, or your client may not display up-to-date information.
+    - id: 8r4xqnt9jslk
+      name: Client / Android
+      description: The Android native client
+    - id: 0ysw0jy8hnsr
+      name: Voice / Hong Kong
+    - id: 354mn7xfxz1h
+      name: Push Notifications
+      description: System for sending push notifications to users.
+    - id: 6j5lgxtyjfc2
+      name: Client / Web
+      description: The web (in-browser) client
+    - id: tl31gd6tc86r
+      name: Voice / India
+    - id: 3y468xdr1st2
+      name: Search
+    - id: xggnf9hnngkt
+      name: Voice / Japan
+    - id: ccgfj3l84lvt
+      name: Voice / Russia
+    - id: q0lbnfc59j35
+      name: Voice / Singapore
+    - id: b5v9r9bdppvm
+      name: Voice / South Africa
+    - id: 9dydj1xgtnht
+      name: Server Web Pages
+      description: Landing pages and public information for Servers
+    - id: qk867vbbh84x
+      name: Voice / South Korea
+    - id: tvztr8rd74jp
+      name: Payments
+      description: Ability to process payments for Nitro, gifts, and other products.
+    - id: qbt7ryjc5tcd
+      name: Voice / Sydney
+    - id: hnlsj1g5vn1n
+      name: Marketing Site
+      description: The main discord.com marketing site.
+    - id: nhlpbmmcffcl
+      name: Voice / US Central
+    - id: kdz8bp5dp08v
+      name: Voice / US East
+    - id: gmppldfdghcd
+      name: Voice / US South
+    - id: 334vzyzzwlfs
+      name: Voice / US West

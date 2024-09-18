@@ -1,0 +1,12 @@
+version: incident/v1
+id: w6vjrwn95bqx
+name: Tempo Querier Read Instability
+impact: minor
+systems:
+    - 9xz0880z67zl
+timeline:
+    - ts: "2024-08-19 21:35:47"
+      description: We are currently monitoring an issue affecting Tempo queriers in the Prod-US-Central-0 region, first identified around 20:30 UTC. Our team is actively addressing the read instability, and we will provide updates as more information becomes available.
+    - ts: "2024-08-20 13:38:53"
+      description: This incident has been resolved.
+      resolved: true

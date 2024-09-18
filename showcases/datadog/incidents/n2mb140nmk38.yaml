@@ -1,0 +1,20 @@
+version: incident/v1
+id: n2mb140nmk38
+name: Delays Ingesting Custom Metrics Generated from Logs, Spans, and RUM events
+impact: major
+systems:
+    - qrnng5l7z80l
+timeline:
+    - ts: "2023-06-22 15:42:27"
+      description: We are investigating an issue resulting in delays for the ingestion of custom metrics generated from logs, spans, and RUM events.
+      investigating: true
+    - ts: "2023-06-22 16:13:33"
+      description: We are continuing to investigate the issue.
+      investigating: true
+    - ts: "2023-06-22 17:12:13"
+      description: We have applied several mitigations and are beginning to see early signs of recovery.
+    - ts: "2023-06-22 17:28:50"
+      description: We are continuing to monitor the results of the mitigations and expect the incident to be resolved shortly.
+    - ts: "2023-06-22 17:38:41"
+      description: This incident has been resolved.
+      resolved: true

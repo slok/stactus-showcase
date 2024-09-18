@@ -1,0 +1,17 @@
+version: incident/v1
+id: kdvnxvcxg282
+name: Possible AWS Cluster Creation / Modification Delays in AWS region "eu-north-1"
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-03-20 21:45:25"
+      description: We are currently investigating a networking issue between AWS eu-north-1 clusters and our control plane. This could result in a modifications being delayed for a set of clusters.
+      investigating: true
+    - ts: "2024-03-20 22:43:18"
+      description: We have identified the issue, and have implemented a fix. The system is recovering and operations are returning to normal.
+    - ts: "2024-03-20 23:41:44"
+      description: The issue has been remediated. We are monitoring closely to ensure stability.
+    - ts: "2024-03-21 00:48:06"
+      description: The issue has been fully resolved.
+      resolved: true

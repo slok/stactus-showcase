@@ -1,0 +1,20 @@
+version: incident/v1
+id: 7bcskf3988lf
+name: Elevated errors for dynamic provider credentials
+impact: none
+systems:
+    - 7cgbxrw10wgr
+timeline:
+    - ts: "2024-07-08 02:47:56"
+      description: Our engineering team are investigating an increase of errors related to dynamic credential provisioning for AWS.
+      investigating: true
+    - ts: "2024-07-08 06:04:43"
+      description: The engineers have continued their investigation of the issue and have identified a change to the public signing key that occurred prior to the elevated error rates.
+    - ts: "2024-07-08 06:16:54"
+      description: The engineers have made a change to the public signing key and have confirmed that dynamic provider credentials is working again. We will be monitoring this further to ensure the fix is successful for everyone.
+    - ts: "2024-07-08 06:45:13"
+      description: |-
+        The engineering team has resolved the issue. Dynamic provider credentials should now be operating normally.
+
+        If you continue to experience any issues, please open a ticket with our support team.
+      resolved: true

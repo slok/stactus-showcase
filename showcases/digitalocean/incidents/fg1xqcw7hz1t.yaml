@@ -1,0 +1,20 @@
+version: incident/v1
+id: fg1xqcw7hz1t
+name: Connectivity issues to cloud panel, API, and other endpoints
+impact: none
+systems:
+    - txysr8r0gn1n
+    - czck17wcspr5
+timeline:
+    - ts: "2024-09-16 07:00:38"
+      description: |-
+        Our Engineering team identified an issue with accessing Cloud Panel and Application deployment which is due to the increased level of HTTP 499 errors rates at Upstream Provider end.
+
+        From 04:21 - 06:06 UTC, users may have experienced issues while accessing Cloud Panel and Application deployments.
+
+        Our Upstream provider and the Engineering team closely worked together to resolve the issue.
+
+        The impact has completely subsided and users should no longer see any issues with the impacted services.
+
+        If you continue to experience problems, please open a ticket with our support team from your Cloud Control Panel. Thank you for your patience, and we apologize for any inconvenience.
+      resolved: true

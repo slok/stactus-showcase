@@ -1,0 +1,23 @@
+version: incident/v1
+id: b1m207rdy50s
+name: Hosted Grafana - US-central
+impact: major
+systems:
+    - qqj6ssvvsqmq
+    - m7cr9xxllhpn
+    - jky8f03q6zfj
+timeline:
+    - ts: "2024-05-22 14:59:17"
+      description: At approximately 14:40 UTC May 22, 2024, our team noticed an issue with the Hosted Grafana API. We are currently investigating; this may cause issues with new and restarting instances. We will provide further information once available.
+      investigating: true
+    - ts: "2024-05-22 15:29:20"
+      description: Our team has identified the issue and is actively working to resolve it. During this time, there was a brief interruption to instance access. Access has been restored and we are currently working to resolve the root cause. We will provide further updates as soon as they become available.
+    - ts: "2024-05-22 17:55:40"
+      description: A fix has been implemented, and we are currently monitoring the results. Instances on prod-us-central-3 may still experience issues as the full remediation takes effect. We will continue to provide updates as the situation progresses.
+    - ts: "2024-05-22 22:02:53"
+      description: A fix has been implemented, and all services are expected to be fully restored. We are continuing to monitor the situation to prevent any further disruption.
+    - ts: "2024-05-22 22:02:56"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2024-05-22 22:03:33"
+      description: This incident has been resolved.
+      resolved: true

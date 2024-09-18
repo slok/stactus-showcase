@@ -1,0 +1,19 @@
+version: incident/v1
+id: zgv8wq8rvsdr
+name: Issues Querying Hosted Logs
+impact: major
+systems:
+    - l72f5c7651n5
+timeline:
+    - ts: "2024-07-31 20:50:28"
+      description: We are currently investigating an issue impacting queries to Hosted Logs in https://logs-prod3.grafana.net / loki-prod-us-central-0
+      investigating: true
+    - ts: "2024-07-31 21:08:46"
+      description: Our team continues to investigate this issue. At this time, both reads and writes to https://logs-prod3.grafana.net / loki-prod-us-central-0 are affected.
+      investigating: true
+    - ts: "2024-07-31 21:36:25"
+      description: We are still investigating this issue, but reads and writes have stabilized and are not currently impacted.
+      investigating: true
+    - ts: "2024-07-31 22:03:52"
+      description: This incident has been resolved.
+      resolved: true

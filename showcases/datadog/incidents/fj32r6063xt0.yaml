@@ -1,0 +1,20 @@
+version: incident/v1
+id: fj32r6063xt0
+name: We are investigating user login issues with the web application
+impact: major
+systems:
+    - b5fx9rfn6137
+timeline:
+    - ts: "2024-07-03 10:34:35"
+      description: |-
+        We are investigating user login issues with the web application login by email.
+
+        Please note that data processing and alerts are not affected by this incident.
+      investigating: true
+    - ts: "2024-07-03 11:25:42"
+      description: We have identified the underlying issue and are working on a fix.
+    - ts: "2024-07-03 12:02:28"
+      description: We have deployed a fix and we are monitoring the results. We will provide another update once the issue is fully resolved.
+    - ts: "2024-07-03 12:13:22"
+      description: This incident has been resolved.
+      resolved: true

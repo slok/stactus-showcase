@@ -1,0 +1,25 @@
+version: incident/v1
+id: stbk0hr7x1vp
+name: Alerts & AI Irregularities in US Region
+impact: minor
+systems:
+    - rbts0zzw73dl
+    - 5x10l9g2z3t6
+    - 028b05n94my0
+    - 5p33lkzzqm0z
+    - ymfwncrn2dnh
+    - 9jndj4kfv59w
+    - lm2qpsbfggh7
+    - prjgs1mvmqg9
+timeline:
+    - ts: "2023-07-10 22:56:16"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-07-10 23:05:04"
+      description: Some customers in the US region may experience alert violations and incidents intermittently failing to open or close as expected. Impacted customers may additionally experience missing alert notifications. We're investigating and will provide updates as they become available.
+      investigating: true
+    - ts: "2023-07-10 23:35:05"
+      description: Customers in the US region may notice recovery for affected services at this time. We're continuing to monitor as services return to normal operation and will continue to provide updates as they become available.
+    - ts: "2023-07-11 01:25:05"
+      description: Between 22:02 UTC July 10th and 00:42 UTC July 11th, some customers in the US region may have experienced alert violations not opening and closing as expected, leading to delayed or missing alert notifications. We've resolved this service interruption and affected services have returned to normal operation.
+      resolved: true

@@ -1,0 +1,37 @@
+version: incident/v1
+id: nj47vccwm2zj
+name: Incident with Actions
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2024-05-21 12:45:17"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2024-05-21 13:58:09"
+      description: We are investigating delayed updates to Actions job statuses.
+      investigating: true
+    - ts: "2024-05-21 14:34:07"
+      description: We have identified network connectivity issues causing delays in Actions Workflow Runs, Workflow Job Runs, and Check Steps. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-05-21 15:00:31"
+      description: We have identified a change in a third party network configuration and are working with the provider to address the issue. We will continue to provide updates as we learn more.
+      investigating: true
+    - ts: "2024-05-21 16:02:27"
+      description: We are continuing to investigate delays to Actions Workflow Runs, Workflow Job Runs, and Check Steps and will provide further updates as we learn more.
+      investigating: true
+    - ts: "2024-05-21 17:14:49"
+      description: We are continuing to investigate delays to status updates to Actions Workflow Runs, Workflow Job Runs, and Check Steps. Customers may see that their Actions workflows may have completed, but the run may appear to be hung waiting for its status to update. This is also impacting GitHub Enterprise Importer migrations. Migrations may take longer to complete. We are are working with our provider to address the issue and will continue to provide updates as we learn more.
+      investigating: true
+    - ts: "2024-05-21 17:41:54"
+      description: We are continuing to investigate delays to status updates to Actions Workflow Runs, Workflow Job Runs, and Check Steps. This is impacting 100% of customers using these features, with an average delay of 20 minutes and P99 delay of 1 hour. Customers may see that their Actions workflows may have completed, but the run may appear to be hung waiting for its status to update. This is also impacting GitHub Enterprise Importer migrations. Migrations may take longer to complete. We are are working with our provider to address the issue and will continue to provide updates as we learn more.
+      investigating: true
+    - ts: "2024-05-21 18:03:51"
+      description: We are beginning to see recovery for any delays to Actions Workflow Runs, Workflow Job Runs, and Check Steps. Customers who are still experiencing jobs which appear to be stuck may re-run the workflow in order to see a completed state. We are also seeing recovery for GitHub Enterprise Importer migrations. We are continuing to monitor recovery.
+      investigating: true
+    - ts: "2024-05-21 18:14:52"
+      description: Actions is operating normally.
+      investigating: true
+    - ts: "2024-05-21 19:06:05"
+      description: On May 21, 2024, between 11:40 UTC and 19:06 UTC various services experienced elevated latency due to a configuration change in an upstream cloud provider.<br /><br />GitHub Copilot Chat experienced P50 latency of up to 2.5s and P95 latency of up to 6s. GitHub Actions was degraded with 20 - 60 minute delays for workflow run updates. GitHub Enterprise Importer customers experienced longer migration run times due to GitHub Actions delays. Additionally, billing related metrics for budget notifications and UI reporting were delayed leading to outdated billing details. No data was lost and systems caught up after the incident. <br /><br />At 12:31 UTC, we detected increased latency to cloud hosts. At 14:09 UTC, non-critical traffic was paused, which did not result in restoration of service. At 14:27 UTC, we identified high CPU load within a network gateway cluster caused by a scheduled operating system upgrade that resulted in unintended, uneven distribution of traffic within the cluster. We initiated deployment of additional hosts at 16:35 UTC. Rebalancing completed by 17:58 UTC with system recovery observed at 18:03 UTC and completion at 19:06 UTC.<br /><br />We have identified gaps in our monitoring and alerting for load thresholds. We have prioritized these fixes to improve time to detection and mitigation of this class of issues.
+      resolved: true

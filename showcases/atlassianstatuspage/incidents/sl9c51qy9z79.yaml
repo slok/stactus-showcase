@@ -1,0 +1,23 @@
+version: incident/v1
+id: sl9c51qy9z79
+name: Delay in System Metrics
+impact: minor
+systems:
+    - 3218pv5ggw0q
+    - hsc388fhkjnv
+    - xw42ff1v5rmm
+    - 4s2tjjrhf4d5
+    - yfp2yt5fx9cn
+timeline:
+    - ts: "2022-03-30 15:07:02"
+      description: System metrics is experiencing a delay of up to 5 to 10 minutes. We are currently investigating this issue.
+      investigating: true
+    - ts: "2022-03-30 17:05:17"
+      description: We have identified the issue and we’re working with our vendor to return the service to normal operations.
+    - ts: "2022-03-31 12:18:36"
+      description: Based on additional reporting and investigation, we have found that System Metrics is experiencing delays between 5 to 30 minutes. We are continuing to work with our vendor to return the service to normal operations.
+    - ts: "2022-03-31 16:18:19"
+      description: We have identified and resolved all issues with third-parties and we are now monitoring and continuing to process any delayed metrics.
+    - ts: "2022-03-31 17:51:04"
+      description: This incident has been resolved.
+      resolved: true

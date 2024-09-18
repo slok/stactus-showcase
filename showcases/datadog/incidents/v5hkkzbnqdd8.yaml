@@ -1,0 +1,17 @@
+version: incident/v1
+id: v5hkkzbnqdd8
+name: Partial outage of metrics query
+impact: major
+systems:
+    - qrnng5l7z80l
+timeline:
+    - ts: "2024-05-02 16:00:42"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-05-02 16:04:46"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-05-02 16:21:10"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-05-02 16:55:23"
+      description: This incident has been resolved.
+      resolved: true

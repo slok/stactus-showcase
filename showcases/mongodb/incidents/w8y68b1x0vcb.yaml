@@ -1,0 +1,20 @@
+version: incident/v1
+id: w8y68b1x0vcb
+name: Delayed Autoscaling on Sharded Clusters
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-07-10 17:36:40"
+      description: We're currently investigating an issue where we are seeing delays in our auto-scaling system for sharded clusters on all cloud providers.   Replica sets are unaffected.
+      investigating: true
+    - ts: "2024-07-10 17:57:40"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-07-10 17:59:01"
+      description: We've isolated the auto-scaling delays to global write clusters only.  Sharded and replica set clusters are unaffected.  We're actively working on a fix at this time.
+    - ts: "2024-07-10 18:48:38"
+      description: We are deploying a fix and are monitoring it now.
+    - ts: "2024-07-10 19:15:21"
+      description: This incident has been resolved.
+      resolved: true

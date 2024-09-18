@@ -1,0 +1,19 @@
+version: incident/v1
+id: 1h1dtbk70kwd
+name: UniFi Protect Mobile - Push Notification Partial Outage
+impact: major
+systems:
+    - srxrnrly7lqz
+timeline:
+    - ts: "2020-12-04 15:36:33"
+      description: "We have identified an issue delivering push notifications for a subset of Protect customers running controller versions 1.13.0 - 1.15.0. Currently, email notifications are not being impacted. \nOur teams are investigating the issue and will provide periodic updates on status.ui.com. We apologize for any inconvenience and are working to restore service as quickly as possible."
+      investigating: true
+    - ts: "2020-12-04 22:19:15"
+      description: An incident has been identified with UniFi Protect users who may be unable to launch Protect mobile app. Our teams are investigating the issue and will provide periodic updates on status.ui.com. We apologize for any inconvenience and are working to restore service as quickly as possible.
+    - ts: "2020-12-04 23:48:45"
+      description: |-
+        Update: Issue opening UniFi Protect app has been restored.
+        We are still investigating the issue with some users not receiving push notifications on mobile, and will continue to post updates to status.ui.com until this is resolved. Thank you for your patience.
+    - ts: "2020-12-05 05:41:38"
+      description: Push notification service has been restored.
+      resolved: true

@@ -1,0 +1,14 @@
+version: incident/v1
+id: j4smpmgrlln3
+name: 'MongoDB Atlas Triggers: Delayed Processing of Events'
+impact: major
+systems:
+    - crrq7qqlqfsh
+timeline:
+    - ts: "2024-08-23 21:54:03"
+      description: We identified Triggers in us-east-1 unable to process events. A mitigation has been deployed and processing of events has resumed. We're monitoring the results.
+    - ts: "2024-08-26 14:10:45"
+      description: Atlas Triggers in us-east-1 continue to work as expected. We continue to monitor the results of the mitigation.
+    - ts: "2024-08-27 15:53:30"
+      description: This incident has been resolved.
+      resolved: true

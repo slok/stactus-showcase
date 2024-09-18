@@ -1,0 +1,15 @@
+version: incident/v1
+id: n2969465tx0b
+name: Events are delayed across GitHub
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-07-25 18:44:56"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-07-25 19:16:46"
+      description: 'We have applied a fix and are seeing recovery. (Point of clarification: Impact was constrained to Audit Log Events, not all categories of events.)'
+      investigating: true
+    - ts: "2024-07-25 19:20:55"
+      description: On July 25th, 2024, between 15:30 and 19:10 UTC, the Audit Log service experienced degraded write performance. During this period, Audit Log reads remained unaffected, but customers would have encountered delays in the availability of their current audit log data. There was no data loss as a result of this incident.<br /><br />The issue was isolated to a single partition within the Audit Log datastore. Upon restarting the primary partition, we observed an immediate recovery and a subsequent increase in successful writes. The backlog of log messages was fully processed by approximately 00:40 UTC on July 26th.<br /><br />We are working with our datastore team to ensure mitigation is in place to prevent future impact. Additionally, we will investigate whether there are any actions we can take on our end to reduce the impact and time to mitigate in the future.
+      resolved: true

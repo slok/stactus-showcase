@@ -1,0 +1,25 @@
+version: stactus/v1
+name: MongoDB Cloud
+url: https://status.mongodb.com
+systems:
+    - id: 98lbmdz85yp0
+      name: MongoDB Cloud
+      description: This includes MongoDB Cloud Manager and MongoDB Atlas
+    - id: kb8k7qml7npt
+      name: MongoDB Support Portal
+      description: The MongoDB Support Portal provides access to MongoDB Technical Services Engineers who can help subscribers with their issues with MongoDB or MongoDB Cloud.
+    - id: crrq7qqlqfsh
+      name: MongoDB Atlas App Services and Device Sync
+      description: This includes Atlas Triggers, Device Sync, and the Atlas Data API
+    - id: lh7m7lhnf3rj
+      name: MongoDB Atlas Data Federation and Online Archive
+      description: This includes Atlas Data Federation, Atlas Online Archive, Atlas Data Lake, and Atlas SQL
+    - id: 7wbvh4zlbmmh
+      name: MongoDB Charts
+      description: MongoDB Charts is MongoDB's native visualization tool. It is tightly integrated into MongoDB Atlas.
+    - id: prk6bb5j7h4l
+      name: MongoDB Atlas Stream Processing
+      description: Atlas Stream Processing enables processing streams of complex data using the same data model and Query API used in Atlas databases.
+    - id: q57ng8brt2td
+      name: MongoDB Atlas for Government
+      description: A FedRAMP Ready environment for MongoDB Atlas

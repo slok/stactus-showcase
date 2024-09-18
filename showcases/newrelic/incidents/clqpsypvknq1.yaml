@@ -1,0 +1,35 @@
+version: incident/v1
+id: clqpsypvknq1
+name: Data and Alert Irregularities in the US Region
+impact: minor
+systems:
+    - rbts0zzw73dl
+    - 2vkckmpm1kh6
+    - 5x10l9g2z3t6
+    - 1ccpnwlhg6xx
+    - 028b05n94my0
+    - 45zc1fn1w80h
+    - 5p33lkzzqm0z
+    - 5kywhg5j0l21
+    - ymfwncrn2dnh
+    - 2jrn08x58ps2
+    - 9jndj4kfv59w
+    - pmtvnzg1dzfm
+    - lm2qpsbfggh7
+    - s27h21w34qhk
+    - prjgs1mvmqg9
+    - 6x8hq64xfvwl
+    - 833c8h98qq4g
+    - czn9jxzshjxn
+timeline:
+    - ts: "2023-10-11 00:53:05"
+      description: |-
+        Some customers in the US region may be experiencing delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data.
+
+        We have identified an issue with Alerts in the US region that may cause false-positive alert notifications. To reduce noise, alert notifications are being temporarily suppressed for applicable customers. We are working to resolve the underlying issue and will re-enable alert notifications upon resolution.
+      investigating: true
+    - ts: "2023-10-11 01:16:43"
+      description: |-
+        Between 22:00 UTC October 10 and 00:55 October 11 UTC, some customers experienced irregularities in query results and dashboards. Notifications were impacted for some customers between 00:05 UTC and 00:55 October 11 UTC.
+        We’ve resolved the issue in the US region. Services have returned to their normal operation.
+      resolved: true

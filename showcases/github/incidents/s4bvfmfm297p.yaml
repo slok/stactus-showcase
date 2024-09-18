@@ -1,0 +1,25 @@
+version: incident/v1
+id: s4bvfmfm297p
+name: Incident with Codespaces
+impact: minor
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2024-07-31 00:52:57"
+      description: We are investigating reports of degraded performance for Codespaces
+      investigating: true
+    - ts: "2024-07-31 00:53:02"
+      description: We are investigating reports of degraded performance for Codespaces.
+      investigating: true
+    - ts: "2024-07-31 01:23:52"
+      description: We are investigating issues with Codespaces in multiple regions. Some users may not be able to connect to their Codespaces at this time. We will update you on mitigation progress.
+      investigating: true
+    - ts: "2024-07-31 01:49:15"
+      description: We continue investigating issues with Codespaces in multiple regions. Impact is limited to non-web clients. Customers receiving errors on desktop clients are encouraged to use the web client as a temporary workaround.
+      investigating: true
+    - ts: "2024-07-31 02:55:42"
+      description: The team is currently investigating a fix for issues with Codespaces. Impact continues to be limited to non-web clients. Customers receiving errors on desktop clients are encouraged to use the web client as a temporary workaround.
+      investigating: true
+    - ts: "2024-07-31 03:37:48"
+      description: On July 31st, 2024, between 00:31 UTC and 03:37 UTC the Codespaces service was degraded and connecting through non-web flows such as VS Code or the GitHub CLI were unavailable. Using Codespaces via the web portal was not impacted. This was due to a code change resulting in authentication failures from the Codespaces public API.<br /><br />We mitigated the incident by reverting the change upon discovering the cause of the issue.<br /><br />We are working to improve testing, monitoring, and rollout of new features to reduce our time to detection and mitigation of issues like this one in the future.
+      resolved: true

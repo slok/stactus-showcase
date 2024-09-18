@@ -1,0 +1,26 @@
+version: incident/v1
+id: 8g02l7tkp6lw
+name: Investigating HVD Azure Central US cluster unavailability
+impact: critical
+systems:
+    - 0gzbx9wshf0l
+timeline:
+    - ts: "2024-07-18 23:08:16"
+      description: |-
+        Our engineering team is investigating an issue with multiple HCP Vault Dedicated clusters in Azure Central US. Azure Service Health shows there is an ongoing incident with Microsoft Virtual Machines in this region.
+
+        During this time, users with HCP Vault Dedicated clusters in Azure Central US may experience unavailability.
+
+        We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-07-18 23:53:35"
+      description: We're continuing to investigate the Azure Central US issue with Microsoft and will provide an update when we have one.
+      investigating: true
+    - ts: "2024-07-19 02:28:34"
+      description: "We have received the latest update from Azure confirming that they have found the issue and have started incremental mitigation which could be observed in the next 90 minutes. \n\nWe have also already seen recovery of HCP Vault clusters in Azure Central US affected by this."
+      investigating: true
+    - ts: "2024-07-19 04:07:15"
+      description: "We have received the latest update from Azure confirming that they have identified the underlying root of the issue on their end and have started implementing mitigation. \n\nWe have already seen recovery of our affected Azure clusters in the Central US region and by now have verified that all impacted clusters are restored and are back healthy. We have left the incident open until we have formally received final green lights from Azure provider. All the affected clusters are healthy as of now."
+    - ts: "2024-07-19 04:26:51"
+      description: We have received another update from Azure provider verifying that all the Azure Storage clusters are recovered with their mitigation. On our side, all the impacted clusters are back up and healthy too.
+      resolved: true

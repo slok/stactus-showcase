@@ -1,0 +1,15 @@
+version: incident/v1
+id: nf04qbsq0nbg
+name: Missing Logs on fly-metrics.net
+impact: none
+systems:
+    - 6sckg8qmrnzz
+timeline:
+    - ts: "2024-09-10 01:16:15"
+      description: "We are investigating reports of missing logs in customer's fly-metrics dashboards. \n\nOnly log search in the fly-metrics hosted Grafana instance is impacted. Checking logs using `flyctl logs`, the live logs page in the dashboard, or using a Fly-Log-Shipper app continues to work as expected."
+      investigating: true
+    - ts: "2024-09-10 02:40:14"
+      description: "We have applied a fix and are now seeing logs flow through to user's fly-metrics dashboards. \n\nWe are containing to monitor the dashboard to ensure recovery."
+    - ts: "2024-09-10 03:24:09"
+      description: This incident has been resolved.
+      resolved: true

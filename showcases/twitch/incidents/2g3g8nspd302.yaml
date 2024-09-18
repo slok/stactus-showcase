@@ -1,0 +1,17 @@
+version: incident/v1
+id: 2g3g8nspd302
+name: Identified Video (Watching) Issues
+impact: none
+systems:
+    - wkdq12ctv52c
+timeline:
+    - ts: "2023-07-25 14:22:42"
+      description: "\U0001F6E0 We have identified an issue preventing people from watching streams on Twitch. We're currently working to resolve this issue."
+    - ts: "2023-07-25 14:54:40"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-07-25 15:24:02"
+      description: "\U0001F6E0 We've resolved all known issues of Vods not playing across Twitch."
+      investigating: true
+    - ts: "2023-07-25 17:24:22"
+      description: "\U0001F6E0 We've resolved all known issues of Vods not playing across Twitch."
+      resolved: true

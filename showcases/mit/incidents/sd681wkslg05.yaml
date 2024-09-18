@@ -1,0 +1,14 @@
+version: incident/v1
+id: sd681wkslg05
+name: Dropbox Access Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2024-05-28 12:02:47"
+      description: MIT's Dropbox environment is unavailable from some Dropbox clients. IS&T has reported this issue to Dropbox support and is monitoring the situation.  Further details and status can be found at the Dropbox status page (https://status.dropbox.com/).
+      investigating: true
+    - ts: "2024-05-28 12:30:45"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-07-22 09:36:22"
+      description: This incident has been resolved.
+      resolved: true

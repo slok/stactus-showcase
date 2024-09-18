@@ -1,0 +1,14 @@
+version: incident/v1
+id: s1h99j5t6h6n
+name: Azure Cluster Delays Removing Nodes and Terminating Clusters
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-04-17 16:09:53"
+      description: We are experiencing an issue that is causing delays in removing nodes and terminating Azure clusters. We are actively working on the issue and will provide an update shortly.
+    - ts: "2024-04-17 16:54:42"
+      description: A fix has been deployed, and we are monitoring. The system is currently behaving as expected.
+    - ts: "2024-04-17 17:16:18"
+      description: The issue has been resolved. Thank you for your patience.
+      resolved: true

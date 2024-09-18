@@ -1,0 +1,15 @@
+version: incident/v1
+id: 6zm2kmz2gwzn
+name: Service disruption
+impact: minor
+systems:
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2023-11-15 20:55:20"
+      description: We are currently investigating an issue where some users are unable to load Figma
+      investigating: true
+    - ts: "2023-11-15 21:02:10"
+      description: A fix has been implemented and we're monitoring the results
+    - ts: "2023-11-15 22:33:27"
+      description: This incident has been resolved
+      resolved: true

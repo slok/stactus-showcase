@@ -1,0 +1,31 @@
+version: incident/v1
+id: d8ldj5ktl5vd
+name: Alert Delays in US Region
+impact: minor
+systems:
+    - rbts0zzw73dl
+    - 5x10l9g2z3t6
+    - 028b05n94my0
+    - 5p33lkzzqm0z
+    - ymfwncrn2dnh
+    - 9jndj4kfv59w
+    - lm2qpsbfggh7
+    - prjgs1mvmqg9
+timeline:
+    - ts: "2024-02-13 16:17:55"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-02-13 16:20:47"
+      description: Some customers in the US region may experience delayed alert notifications for all data types.
+      investigating: true
+    - ts: "2024-02-13 16:51:38"
+      description: We are investigating alert processing latency contributing to some US customers experiencing delayed or false alert notifications for all data types.
+      investigating: true
+    - ts: "2024-02-13 17:23:53"
+      description: We are continuing to investigate alert processing latency contributing to some customers in the US region experiencing delayed or false alert notifications for all data types.
+      investigating: true
+    - ts: "2024-02-13 17:58:29"
+      description: We are seeing some recovery for impacted services and are monitoring for stability. Some customers in the US region may see improved alert notification performance at this time.
+    - ts: "2024-02-13 18:20:48"
+      description: "Between 15:30 UTC and 17:52 UTC on February 13th, some customers in the US region may have experienced delayed or false alert notifications for all data types.\n \nWe have investigated and resolved this interruption and the above services have returned to normal operation."
+      resolved: true

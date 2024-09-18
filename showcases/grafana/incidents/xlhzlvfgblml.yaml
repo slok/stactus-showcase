@@ -1,0 +1,9 @@
+version: incident/v1
+id: xlhzlvfgblml
+name: Newly Created API Keys
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-07-22 22:48:31"
+      description: We recently encountered an issue where newly-created Grafana Cloud API keys were not authenticating correctly with backend gateway services (e.g., Mimir, Loki, Tempo). This was due to a change implemented late last week. A hotfix has been applied and this issue is fully resolved.
+      resolved: true

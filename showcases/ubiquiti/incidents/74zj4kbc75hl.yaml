@@ -1,0 +1,17 @@
+version: incident/v1
+id: 74zj4kbc75hl
+name: Remote Management Service Outage
+impact: critical
+systems:
+    - f4txj806xph9
+    - 50j8z65sq9pt
+timeline:
+    - ts: "2023-09-18 18:56:12"
+      description: We are currently investigating and will provide an update as soon as possible.
+      investigating: true
+    - ts: "2023-09-18 20:23:49"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-09-18 20:24:07"
+      description: This incident has been resolved.
+      resolved: true

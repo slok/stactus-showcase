@@ -1,0 +1,12 @@
+version: incident/v1
+id: z80hpdd30nrf
+name: Issues with Library Panels
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-06-27 17:36:00"
+      description: We are currently experiencing issues with Library Panels within dashboards on Grafana Cloud. As a result, you may encounter a "permissions error" when accessing the Library Panels page in your instance.  Our team is aware of this issue and is actively working to resolve it.
+      investigating: true
+    - ts: "2024-07-02 21:58:25"
+      description: This incident has been resolved.
+      resolved: true

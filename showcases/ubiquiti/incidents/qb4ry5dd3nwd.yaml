@@ -1,0 +1,17 @@
+version: incident/v1
+id: qb4ry5dd3nwd
+name: Partial Remote Management Service Outage
+impact: major
+systems:
+    - f4txj806xph9
+    - 50j8z65sq9pt
+timeline:
+    - ts: "2023-09-18 21:15:05"
+      description: We are continuing to investigate and will provide an update as soon as possible.
+      investigating: true
+    - ts: "2023-09-19 06:38:24"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-09-19 06:40:57"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,17 @@
+version: incident/v1
+id: lqdgfjv8jwxk
+name: Issues with Support Cases
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-04 12:21:51"
+      description: |-
+        Our support system is currently experiencing issues - you may not receive a confirmation email when submitting a case. Enterprise & Business customers can use our live chat system to reach us for urgent issues while we work to resolve this. Additionally, Enterprise customers can call the Enterprise telephone support hotline to reach a member of our Support team.
+
+        We will issue further updates on this status page as we work with our providers to resolve this issue.
+      investigating: true
+    - ts: "2024-09-04 13:25:20"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-05 05:41:49"
+      description: This incident has been resolved.
+      resolved: true

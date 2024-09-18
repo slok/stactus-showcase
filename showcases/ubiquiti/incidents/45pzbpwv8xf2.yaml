@@ -1,0 +1,16 @@
+version: incident/v1
+id: 45pzbpwv8xf2
+name: Cannot create new UISP Cloud instances
+impact: major
+systems:
+    - kyb5xddvtwvg
+timeline:
+    - ts: "2022-09-29 17:29:47"
+      description: It is currently not possible to create new UISP Cloud consoles. The root cause has been identified and we are working on a fix.
+    - ts: "2022-09-29 18:55:56"
+      description: New UISP Cloud Consoles are now available in the Americas. Other parts of the world are in progress.
+    - ts: "2022-09-29 19:42:56"
+      description: New UISP Cloud Consoles are now available in America, Asia and Australia. Europe is still in progress.
+    - ts: "2022-09-29 20:35:08"
+      description: This incident has been resolved.
+      resolved: true

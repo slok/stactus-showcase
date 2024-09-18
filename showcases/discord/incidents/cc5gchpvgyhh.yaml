@@ -1,0 +1,12 @@
+version: incident/v1
+id: cc5gchpvgyhh
+name: Issue with Polls Ending Properly
+impact: minor
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-08-16 15:18:38"
+      description: We're aware of an issue that is causing ending polls to trigger duplicate messages to users. We're currently rolling back the change.
+    - ts: "2024-08-16 15:37:34"
+      description: We've rolled back the change and polls should now end as expected.
+      resolved: true

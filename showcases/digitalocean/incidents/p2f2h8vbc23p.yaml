@@ -1,0 +1,30 @@
+version: incident/v1
+id: p2f2h8vbc23p
+name: Snapshots and Backups in TOR1
+impact: minor
+systems:
+    - myqfd21mmbh9
+timeline:
+    - ts: "2024-07-29 04:27:43"
+      description: |-
+        As of 03:14 UTC, our Engineering team is investigating an issue with Snapshot and Backup failures in our TOR1 region. Users may experience errors when creating or restoring Snapshots and Backups images.
+
+        Creating droplets from Snapshots and Backup images in this region is also affected.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2024-07-29 05:33:59"
+      description: |-
+        As of 04:30 UTC, our Engineering team was able to take action to mitigate the impact of this issue. Snapshot and Backup events will be processed normally in the TOR1 region. Users may no longer experience errors when creating or restoring Snapshots and Backups images.
+
+        Creating Droplets from snapshots and backup images in this region should also be processed without any issues.
+
+        We apologize for any inconvenience caused and will post an update once the issue is fully resolved.
+    - ts: "2024-07-29 05:52:12"
+      description: |-
+        As of 05:05 UTC, our Engineering team has confirmed the full resolution of the issue impacting Snapshot and Backup Images in the TOR1 region. We have verified that the Snapshot and Backup events in the region are processing without any failures.
+
+        Users should also be able to create Droplets from Snapshot and Backup images in this region without any issues.
+
+        Thank you for your patience and understanding. If you should encounter any further issues at all, then please open a ticket with our Support team.
+      resolved: true

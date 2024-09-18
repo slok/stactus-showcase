@@ -1,0 +1,22 @@
+version: incident/v1
+id: f8vykmp7klkr
+name: Degraded read/write path for cloud metrics & traces in us-central2
+impact: minor
+systems:
+    - ql2hwfkmnyrr
+    - d1qqwsst6by9
+timeline:
+    - ts: "2024-07-19 09:06:40"
+      description: "Starting with 08:20 UTC we've see degraded read/write path on us-central2  cloud metrics & traces. \nWe're currently investigating the issue."
+      investigating: true
+    - ts: "2024-07-19 10:46:58"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-07-19 10:48:19"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-07-19 15:07:18"
+      description: A fix has been implemented and we are currently monitoring the results.
+    - ts: "2024-07-19 17:48:34"
+      description: Engineering has released a fix and as of 16:07 UTC, customers should no longer experience read/write path degradation on us-central2 cloud metrics and traces. At this time, we are considering this issue resolved. No further updates.
+      resolved: true

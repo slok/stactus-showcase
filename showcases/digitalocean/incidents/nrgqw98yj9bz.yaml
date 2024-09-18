@@ -1,0 +1,26 @@
+version: incident/v1
+id: nrgqw98yj9bz
+name: Spaces in NYC3
+impact: minor
+systems:
+    - tz43j53blsmy
+timeline:
+    - ts: "2024-06-28 19:04:58"
+      description: "Beginning around 17:40 UTC, Our Engineering team is investigating an issue impacting Spaces in our NYC3 region. During this time, users may encounter intermittent request failures for Spaces in NYC3. Additionally, load times for objects in that region may be slower. \n\nWe apologize for any inconvenience caused and will provide further updates as soon as possible."
+      investigating: true
+    - ts: "2024-06-28 20:37:30"
+      description: "Our Engineering team is continuing to investigate the root cause of the issue with intermittent request failures for Spaces in NYC3. Observed error rates are trending down to pre-incident levels, but may spike again. \n\nWe will provide an update as soon as we have additional information."
+      investigating: true
+    - ts: "2024-06-28 21:18:09"
+      description: |-
+        Our Engineering team has taken actions to mitigate the issue affecting intermittent request failures for Spaces in NYC3 and is monitoring the situation.
+
+        The impact has subsided and users should be able to interact with Spaces normally.
+
+        We will post an update once we confirm this incident is fully resolved.
+    - ts: "2024-06-28 21:57:04"
+      description: |-
+        Our Engineering team has confirmed that this incident has been fully resolved.
+
+        We appreciate your patience throughout this process and if you continue to experience problems, please open a ticket with our support team for further review.
+      resolved: true

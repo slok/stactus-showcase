@@ -1,0 +1,12 @@
+version: incident/v1
+id: nydx49ybfmrt
+name: Cloud Printing Failure
+impact: none
+systems: []
+timeline:
+    - ts: "2023-09-05 07:07:46"
+      description: From 2023/09/5 06:30 - 07:03 UTC, Some print jobs cannot be sent to the printer due to a cloud service update.
+      investigating: true
+    - ts: "2023-09-05 07:38:43"
+      description: From 2023/09/5 06:30 - 07:03 UTC, Users may failed to initiate printing due to a cloud service updated to wrong parameter.
+      resolved: true

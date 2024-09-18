@@ -1,0 +1,17 @@
+version: incident/v1
+id: 58jnld8j24qq
+name: Service disruption
+impact: minor
+systems:
+    - pn57gvt7sjmx
+timeline:
+    - ts: "2023-09-13 20:35:21"
+      description: We are investigating a slowdown some users are experiencing when using Figma.
+      investigating: true
+    - ts: "2023-09-13 21:07:55"
+      description: We've identified the slowdown's cause and are working toward a solution.
+    - ts: "2023-09-13 21:39:39"
+      description: A fix has been implemented and we are working towards a full mitigation of the slowdown. We have resolved the issue in all areas of Figma except for search. We are actively working to resolve this last product area.
+    - ts: "2023-09-14 00:32:20"
+      description: From 20:00 to 00:21 UTC, some Figma users experienced a slowdown around specific areas of the application, including search and comments. This has been resolved.
+      resolved: true

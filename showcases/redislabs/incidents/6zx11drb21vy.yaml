@@ -1,0 +1,11 @@
+version: incident/v1
+id: 6zx11drb21vy
+name: Urgent maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-16 23:29:40"
+      description: 'Urgent maintenance applies to all of the resources with the following pattern in their endpoint: c8.us-east-1-4'
+    - ts: "2024-09-16 23:42:41"
+      description: This incident has been resolved.
+      resolved: true

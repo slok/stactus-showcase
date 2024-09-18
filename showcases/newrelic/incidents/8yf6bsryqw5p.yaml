@@ -1,0 +1,33 @@
+version: incident/v1
+id: 8yf6bsryqw5p
+name: Login and UI Irregularities in US Region
+impact: minor
+systems:
+    - k4c77k6bzcl7
+    - ty1004s644gq
+    - k2c0hnpnmgqn
+    - j6v4tzmw08t4
+    - 1mwh21hqrxlw
+    - nw4g7754n7tl
+    - x87lk2mkvdtx
+    - g3mtj9z8c1cq
+    - q94v4hz14v0f
+    - xrzsz1k79xbd
+    - 5qhzckvc2ncn
+    - mc4f9x2xl1zg
+    - 927km3k58wgb
+    - 8k5pmrjbl1w0
+    - 7yqy1ctsjw35
+    - 5kj1rklxtgzg
+timeline:
+    - ts: "2024-01-30 16:17:44"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-01-30 16:24:33"
+      description: We are investigating issues contributing to login and UI errors. Some customers in the US region may experience errors when attempting to login as well as intermittent errors when navigating the UI.
+      investigating: true
+    - ts: "2024-01-30 16:41:46"
+      description: "We are continuing to investigate issues contributing to login and UI errors. Some customers in the US region may experience errors when attempting to login and intermittent permissions or account-related errors when navigating the UI. \n\nWe are seeing recovery for affected services at this time and will continue to provide updates as they become available."
+    - ts: "2024-01-30 17:15:09"
+      description: "Between 15:55 UTC and 16:22 UTC on January 30th, some customers in the US region may have experienced errors during login and intermittent permissions or account-related errors when navigating the UI. \n\nWe have investigated and resolved this interruption and the above services have returned to normal operation."
+      resolved: true

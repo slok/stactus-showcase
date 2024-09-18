@@ -1,0 +1,12 @@
+version: incident/v1
+id: sxf0c8gsm4p5
+name: Application Commands Missing for Some Users
+impact: none
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-02-21 15:33:29"
+      description: We have identified a defect in a recent software change and have rolled it back. Reloading or restarting your Discord client should alleviate any remaining issues.
+    - ts: "2024-02-21 15:35:18"
+      description: This incident has been resolved.
+      resolved: true

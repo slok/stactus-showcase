@@ -1,0 +1,28 @@
+version: incident/v1
+id: dy0rbtrxtwlh
+name: Disruption in service with some Redis clusters
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2024-07-31 07:59:48"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-07-31 08:02:34"
+      description: We are investigating reports of degraded performance in some Redis clusters.
+      investigating: true
+    - ts: "2024-07-31 08:07:49"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-07-31 08:28:35"
+      description: We've applied a mitigation to fix the issues with queuing and running Actions jobs. We are seeing improvements in telemetry and are monitoring for full recovery.
+      investigating: true
+    - ts: "2024-07-31 09:13:47"
+      description: We are continuing to see improvements in queuing and running Actions jobs and are monitoring for full recovery.
+      investigating: true
+    - ts: "2024-07-31 09:20:09"
+      description: Actions is operating normally.
+      investigating: true
+    - ts: "2024-07-31 09:20:09"
+      description: On July 31, 2024, between 07:05 UTC and 09:01 UTC the Actions service experienced degradation, preventing it from processing API requests and executing jobs, in particular Pages builds. On average, 2% of jobs run during the incident window were affected. This was due to some nodes in one of our partner services experiencing connectivity issues in the East US2 region. We mitigated the incident by failing over the impacted service and re-routing the service’s traffic out of that region.<br /><br />We are working to improve monitoring and processes of failover to reduce our time to detection and mitigation of issues like this one in the future.
+      resolved: true

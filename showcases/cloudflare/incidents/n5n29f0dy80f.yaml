@@ -1,0 +1,9 @@
+version: incident/v1
+id: n5n29f0dy80f
+name: DNS/Health Check/Cache Purge Services Impacted
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-11 17:01:24"
+      description: Propagation of updates to a subset of Cloudflare-managed DNS records, updates to Health Checks, and requests for Cache Purge may have been delayed between approximately 16:18 and 16:33 UTC today, 2024-09-11.
+      resolved: true

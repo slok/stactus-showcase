@@ -1,0 +1,17 @@
+version: incident/v1
+id: wsqv56rmx3g0
+name: Snapshots and Backups Failures in NYC3
+impact: none
+systems:
+    - mrdxgk8b9l9m
+timeline:
+    - ts: "2024-07-03 21:36:44"
+      description: |-
+        Our Engineering team identified and resolved an issue with creation of Snapshots and Backups in the NYC3 region.
+
+        From 20:11 UTC to 21:04 UTC, users may have experienced errors while taking Snapshots of Droplets in NYC3. Backup creation was also failing, however, Backups will be retried automatically.
+
+        Our Engineering team quickly identified the root cause of the incident to be related to capacity on internal storage clusters and were able to rebalance capacity, allowing creations to succeed.
+
+        We apologize for the disruption. If you continue to experience any issues, please open a Support ticket from within your account.
+      resolved: true

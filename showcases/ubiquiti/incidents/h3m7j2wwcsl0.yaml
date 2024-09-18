@@ -1,0 +1,12 @@
+version: incident/v1
+id: h3m7j2wwcsl0
+name: Elevated API Errors
+impact: none
+systems: []
+timeline:
+    - ts: "2020-07-29 20:14:19"
+      description: We're experiencing an elevated level of API errors and are currently looking into the issue.
+      investigating: true
+    - ts: "2020-07-29 20:50:51"
+      description: This incident has been resolved.
+      resolved: true

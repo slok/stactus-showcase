@@ -1,0 +1,16 @@
+version: incident/v1
+id: 4c1vjlptgddq
+name: Comment Processing is Delayed
+impact: major
+systems: []
+timeline:
+    - ts: "2024-07-13 17:24:33"
+      description: We are aware of increased error rates with newly posted comments. We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-07-13 18:25:57"
+      description: We've identified the issue and are deploying mitigations. Hang tight as delayed comments are being processed.
+    - ts: "2024-07-13 18:41:27"
+      description: We've eaten through the backlog of comments. We should be operating as normal.
+    - ts: "2024-07-13 18:51:41"
+      description: We're confident things are as normal as can be, back to posting!
+      resolved: true

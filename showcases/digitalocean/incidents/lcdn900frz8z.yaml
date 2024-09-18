@@ -1,0 +1,15 @@
+version: incident/v1
+id: lcdn900frz8z
+name: 503 errors in SGP1 region
+impact: minor
+systems:
+    - rf1h8gfz4ts6
+timeline:
+    - ts: "2024-06-17 18:49:02"
+      description: Our Engineering team is investigating an issue with spaces in SGP1 region. During this time, users may experience 503 errors while accessing bucket operations. We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2024-06-17 19:07:11"
+      description: Our Engineering team has identified and implemented a fix for an issue impacting Spaces SGP1 region. We are now monitoring the situation closely and will post an update as soon as the issue is fully resolved. Thank you for your patience!
+    - ts: "2024-06-17 19:37:36"
+      description: "From 17:02 - 18:44 UTC, the Spaces API experienced availability dips. These dips caused Spaces bucket operations in SGP1 for a subset of users to experience latency or 503 errors. \n\nThe fix implemented by our Engineering team has been monitored and availability for the Spaces API is stable. Users should be able to interact with their Spaces buckets successfully. \n\nIf you continue to experience any issues, please reach out to the Support team from within your account."
+      resolved: true

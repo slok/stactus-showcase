@@ -1,0 +1,14 @@
+version: incident/v1
+id: cq3rtj41nrzt
+name: 'MongoDB Atlas: Invoice summaries are not loading'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-05-06 17:19:26"
+      description: We have identified an issue where invoice summaries in the billing overview page and the individual invoice pages are not loading. This also affects PDF and CSV downloads of invoices.
+    - ts: "2024-05-06 17:43:04"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-05-06 17:54:01"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,20 @@
+version: incident/v1
+id: s8p372y81z28
+name: Cloudflare D1 Issues
+impact: minor
+systems:
+    - z0yd3sxqjqdm
+timeline:
+    - ts: "2024-09-04 12:54:58"
+      description: |-
+        Cloudflare is investigating an increased level of errors for customers using D1.
+
+        We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2024-09-04 14:03:11"
+      description: |-
+        Cloudflare is seeing a slightly elevated error rate below our target.
+        We have identified the cause and a fix is being implemented.
+    - ts: "2024-09-05 10:07:15"
+      description: This incident has been resolved.
+      resolved: true

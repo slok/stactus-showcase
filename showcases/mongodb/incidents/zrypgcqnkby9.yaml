@@ -1,0 +1,19 @@
+version: incident/v1
+id: zrypgcqnkby9
+name: 'MongoDB Atlas: Capacity constraints in Azure US East'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-06-19 08:01:21"
+      description: |-
+        We are experiencing issues with restricted Azure capacity in US East. As a result, cluster creation, scaling, and updates for clusters in this region may encounter delays.
+
+        We are working with Azure to resolve the issue at the highest priority.
+      investigating: true
+    - ts: "2024-06-19 11:24:24"
+      description: We are continuing to investigate this issue with Azure.
+      investigating: true
+    - ts: "2024-06-21 20:48:39"
+      description: This incident post has been resolved. However, Azure remains constrained in East US and Central US, which can affect cluster creation, modification, and certain healing operations. Please check your own personalized Azure status page for updates. Clusters will spin up faster in other regions.
+      resolved: true

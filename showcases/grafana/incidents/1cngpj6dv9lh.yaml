@@ -1,0 +1,16 @@
+version: incident/v1
+id: 1cngpj6dv9lh
+name: Pyroscope is unavailable in Azure US Central
+impact: critical
+systems:
+    - wb63bdf311zx
+timeline:
+    - ts: "2024-06-13 07:42:24"
+      description: |-
+        As of 6:20 UTC, we were alerted to an infrastructure issue with Pyroscope in the Azure US Central cluster. Users experiencing this issue are unable to access Pyroscope at all.
+
+        Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
+      investigating: true
+    - ts: "2024-06-13 08:12:54"
+      description: As of 8:10 UTC, we have observed marked improvement with the availability of Pyroscope. Customers should be able to access Pyroscope in the Azure US Central cluster now.
+      resolved: true

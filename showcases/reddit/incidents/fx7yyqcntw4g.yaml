@@ -1,0 +1,19 @@
+version: incident/v1
+id: fx7yyqcntw4g
+name: reddit.com degraded
+impact: none
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2024-01-24 09:52:21"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-01-24 10:02:59"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-01-24 10:22:07"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-01-24 10:33:29"
+      description: This incident has been resolved.
+      resolved: true

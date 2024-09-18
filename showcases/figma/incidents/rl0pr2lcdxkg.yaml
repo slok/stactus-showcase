@@ -1,0 +1,10 @@
+version: incident/v1
+id: rl0pr2lcdxkg
+name: Checkout disruption
+impact: none
+systems:
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2023-08-01 16:36:47"
+      description: From 15:35 to 16:35 UTC some users encountered an error when upgrading their accounts. This has been resolved.
+      resolved: true

@@ -1,0 +1,21 @@
+version: incident/v1
+id: 9lym261crjlv
+name: Issues with Service Accounts (beta)
+impact: minor
+systems: []
+timeline:
+    - ts: "2023-04-10 14:28:43"
+      description: We have detected an issue impacting our beta customers for Service Accounts. We are investigating and will post another update as soon as we learn more.
+      investigating: true
+    - ts: "2023-04-10 14:56:54"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-04-10 15:14:33"
+      description: The issue has been identified and a fix is currently in progress.
+    - ts: "2023-04-10 15:43:34"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2023-04-10 16:02:02"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-04-10 16:31:32"
+      description: This incident has been resolved. We apologize for any inconvenience caused.
+      resolved: true

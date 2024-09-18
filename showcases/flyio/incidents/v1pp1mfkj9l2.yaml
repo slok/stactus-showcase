@@ -1,0 +1,16 @@
+version: incident/v1
+id: v1pp1mfkj9l2
+name: Elevated LiteFS Cloud Errors
+impact: none
+systems: []
+timeline:
+    - ts: "2024-07-04 22:53:14"
+      description: We are investigating issues connecting to the IAD cluster of LiteFS Cloud.
+      investigating: true
+    - ts: "2024-07-04 23:38:59"
+      description: We have found the issue and are implementing a fix.
+    - ts: "2024-07-05 00:14:26"
+      description: We have implemented a fix and are monitoring the service.
+    - ts: "2024-07-05 03:55:22"
+      description: We have fixed the issue.
+      resolved: true

@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9ptsvbcx6cf0
+name: App Deployments in SFO3
+impact: none
+systems:
+    - dn73yck15rk9
+timeline:
+    - ts: "2024-07-18 21:34:32"
+      description: "From 19:33 on to 21:02 UTC on July 18th, App Platform users may have experienced delays when deploying new Apps or when deploying updates to existing Apps in SFO3. \n\nOur engineering team has deployed a fix for this issue. The impact has been resolved and users should no longer see any issues with the impacted services.\n\nIf you continue to experience problems, please open a ticket with our support team from your Cloud Control Panel. Thank you for your patience, and we apologize for any inconvenience."
+      resolved: true

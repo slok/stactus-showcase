@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5kstbl48792c
+name: Cloud Printing Failure
+impact: none
+systems: []
+timeline:
+    - ts: "2023-08-15 11:53:41"
+      description: From 2023/08/15 10:03 to 11:10, and 12:11 to 12:23 UTC, due to abnormal network traffic, some users are experiencing login and cloud printing issues.
+      investigating: true
+    - ts: "2023-08-15 11:53:53"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,38 @@
+version: incident/v1
+id: s6dlc7cjg102
+name: UI Irregularities in EU Region
+impact: major
+systems:
+    - ssdh7xpzvw1l
+    - gmn0nk8bzns7
+    - dgtbt0fh397m
+    - fpds3wrx84c0
+    - zhbggrqh2xl6
+    - 6qh38lgrdr8v
+    - 5ptd99lkyfbn
+    - vr1305kd0fnz
+    - dw81gfk0f10y
+    - r6fg75bj1j7h
+    - 36218xs1zbvy
+    - 5wk3qb87hk5h
+    - s7j157s900c3
+    - jgl5xywwz8l3
+    - zbbfpr0656gw
+    - 0zhztcy8gf0v
+timeline:
+    - ts: "2024-07-31 08:55:26"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-07-31 09:26:03"
+      description: |-
+        We are investigating an issue that may impact the UI for customer accounts in the EU region.
+        Data ingest and alert notifications are not impacted at this time
+    - ts: "2024-07-31 10:21:42"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-07-31 11:12:32"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-07-31 11:29:13"
+      description: |-
+        Between 07:30 UTC and 11:10 UTC on July 31st, some customers in the EU region may have experienced UI Irregularities.
+        We have investigated and resolved this service interruption and impacted services have returned to normal operations.
+      resolved: true

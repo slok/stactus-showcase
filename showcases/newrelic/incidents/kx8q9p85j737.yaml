@@ -1,0 +1,69 @@
+version: incident/v1
+id: kx8q9p85j737
+name: New Relic UI Delays and Irregularities in the EU and US Regions
+impact: minor
+systems:
+    - 2vkckmpm1kh6
+    - y3p11yl1yr8m
+    - k4c77k6bzcl7
+    - ssdh7xpzvw1l
+    - ty1004s644gq
+    - gmn0nk8bzns7
+    - 1ccpnwlhg6xx
+    - zsjcl7zv5sn2
+    - 45zc1fn1w80h
+    - yqcw0krmvwj5
+    - k2c0hnpnmgqn
+    - dgtbt0fh397m
+    - j6v4tzmw08t4
+    - fpds3wrx84c0
+    - 5kywhg5j0l21
+    - jk2k3ln898rx
+    - 1mwh21hqrxlw
+    - zhbggrqh2xl6
+    - 2jrn08x58ps2
+    - hm4r9fn1gr93
+    - nw4g7754n7tl
+    - 6qh38lgrdr8v
+    - pmtvnzg1dzfm
+    - 858xlnc93b96
+    - x87lk2mkvdtx
+    - s27h21w34qhk
+    - 5ptd99lkyfbn
+    - vdkznxzlr7nn
+    - g3mtj9z8c1cq
+    - vr1305kd0fnz
+    - 6x8hq64xfvwl
+    - jdszr85tpvd1
+    - 833c8h98qq4g
+    - 0ggq3l63l1sh
+    - q94v4hz14v0f
+    - dw81gfk0f10y
+    - xrzsz1k79xbd
+    - r6fg75bj1j7h
+    - czn9jxzshjxn
+    - 15b9hc4j611g
+    - 5qhzckvc2ncn
+    - 36218xs1zbvy
+    - xlzs28xhd8bw
+    - 64hk5ch1ww5b
+    - mc4f9x2xl1zg
+    - 5wk3qb87hk5h
+    - 927km3k58wgb
+    - s7j157s900c3
+    - 8k5pmrjbl1w0
+    - jgl5xywwz8l3
+    - 7yqy1ctsjw35
+    - zbbfpr0656gw
+    - 5kj1rklxtgzg
+    - 0zhztcy8gf0v
+timeline:
+    - ts: "2024-02-14 18:07:47"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-02-14 18:18:06"
+      description: We are investigating an issue that may impact New Relic UI for customer accounts in the US and EU regions.
+      investigating: true
+    - ts: "2024-02-14 18:50:10"
+      description: "Between 16:47 UTC and 17:57 UTC on February 14, some customers in the US and EU regions may have experienced New Relic UI Delays and Irregularities \n \nWe have investigated and resolved this service interruption and impacted services have returned to normal operations."
+      resolved: true

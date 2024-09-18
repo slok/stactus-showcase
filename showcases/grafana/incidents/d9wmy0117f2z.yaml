@@ -1,0 +1,17 @@
+version: incident/v1
+id: d9wmy0117f2z
+name: Investigating issue with Grafana Incident Insights not displaying data
+impact: minor
+systems:
+    - 1mxpk7q1bkb6
+timeline:
+    - ts: "2024-05-22 12:56:37"
+      description: This affects a small number of customers only. We are investigating this issue. Currently analyzing root cause; suspecting timeout issue; working on fix to improve label fetching.
+      investigating: true
+    - ts: "2024-05-22 13:53:42"
+      description: The issue was resolved by updating our data collection process, ensuring the service works properly again. We've implemented measures to prevent this from happening in the future and are currently monitoring the fix.
+    - ts: "2024-05-22 19:14:45"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2024-05-23 08:10:35"
+      description: This incident has been resolved.
+      resolved: true

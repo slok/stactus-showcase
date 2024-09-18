@@ -1,0 +1,9 @@
+version: incident/v1
+id: jpymdjx29s2k
+name: Synthetic monitoring connectivity issue between AWS US West (us-west-0) region and Singapore probe
+impact: none
+systems: []
+timeline:
+    - ts: "2024-06-19 13:46:46"
+      description: Today between 07:45 UTC and 08:50 UTC,  the Singapore probe experienced a regional networking issue and lost connectivity with the AWS US West region.  During this time Singapore was unable to publish metric and log results from synthetic test executions to AWS US West (us-west-0).  Synthetic tests targeting that region also saw elevated error rates.  We haven’t observed any connectivity issues since 08:50AM UTC consider this incident resolved. If you continue to experience problems, please open a Support ticket for assistance.
+      resolved: true

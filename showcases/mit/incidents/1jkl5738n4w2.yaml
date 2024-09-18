@@ -1,0 +1,16 @@
+version: incident/v1
+id: 1jkl5738n4w2
+name: Wikis Space Permissions
+impact: none
+systems: []
+timeline:
+    - ts: "2024-01-18 13:38:42"
+      description: IS&T is investigating an issue related to space permissions and access on wikis.mit.edu.
+      investigating: true
+    - ts: "2024-01-19 09:03:50"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-01-22 10:39:14"
+      description: A fix has been implemented.  If you continue to have permissions issues with MIT Wikis, please contact the IS&T Service Desk.
+    - ts: "2024-02-15 12:49:47"
+      description: This incident has been resolved.
+      resolved: true

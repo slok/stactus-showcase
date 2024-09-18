@@ -1,0 +1,31 @@
+version: incident/v1
+id: wlf7gks7nb1m
+name: Increased API Latency
+impact: minor
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-08-27 13:15:35"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-08-27 13:33:51"
+      description: We are actively investigating database performance issues
+      investigating: true
+    - ts: "2024-08-27 13:38:54"
+      description: Currently, apps are down and message sends and other API endpoints have degraded performance
+      investigating: true
+    - ts: "2024-08-27 13:47:10"
+      description: A fix has been identified and is being implemented
+      investigating: true
+    - ts: "2024-08-27 13:57:45"
+      description: We've deployed mitigations and are seeing recovery
+      investigating: true
+    - ts: "2024-08-27 14:36:58"
+      description: Service back to normal, monitoring
+      investigating: true
+    - ts: "2024-08-27 15:01:36"
+      description: All services back to normal except the activities shelf which has been temporarily disabled
+      investigating: true
+    - ts: "2024-08-27 18:11:34"
+      description: This incident has been resolved.
+      resolved: true

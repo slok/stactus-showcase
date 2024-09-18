@@ -1,0 +1,17 @@
+version: incident/v1
+id: 82j0qym29nz6
+name: Web UI features maybe hidden
+impact: minor
+systems:
+    - b5fx9rfn6137
+timeline:
+    - ts: "2024-08-30 10:55:44"
+      description: We are currently investigating an issue, that is causing certain features to be hidden from our UI. There is no data loss or monitoring impact.
+      investigating: true
+    - ts: "2024-08-30 11:09:34"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-08-30 11:14:48"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-08-30 11:21:07"
+      description: This incident has been resolved. Please refresh your Datadog web page to resolve the issue completely.
+      resolved: true

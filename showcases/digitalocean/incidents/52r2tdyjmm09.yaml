@@ -1,0 +1,21 @@
+version: incident/v1
+id: 52r2tdyjmm09
+name: 2FA SMS Code Deliverability Issues
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2024-07-09 22:34:23"
+      description: "Our Engineering team has been investigating customer reports of 2FA SMS codes failing to deliver, beginning on July 8. After an extensive review, our team has identified that there is an issue with the message deliverability of an upstream provider. We are closely monitoring the situation and as soon as we have more information to share we will provide further updates. \n\nIn the meantime, customers are suggested to reach out to our support team for assistance in accessing their account if they are encountering issues receiving 2FA codes, via the link here:\nhttps://www.digitalocean.com/company/contact/support"
+    - ts: "2024-07-10 06:32:22"
+      description: |-
+        We are continuing to investigate the issue of 2FA SMS codes failing to deliver. We are closely working with our upstream provider to resolve the issue, we will provide an update when we have more significant information to share.
+
+        In the meantime, if you are experiencing issues receiving 2FA codes, please reach out to our support team for assistance in accessing your account via the link here: https://www.digitalocean.com/company/contact/support
+
+        We apologize for the inconvenience and thank you for your patience and continued support.
+    - ts: "2024-07-10 16:43:36"
+      description: "We are continuing to monitor the issue of 2FA SMS codes failing to deliver. Since our last update, we have observed higher success rates in terms of SMS deliverability for two-factor authentication. Our Engineering team has been in close contact with the upstream provider, who has also noted recovery for their services. We will continue to monitor the situation. \n\nIn the meantime, if you are experiencing issues receiving 2FA codes, please reach out to our support team for assistance in accessing your account via the link here: https://www.digitalocean.com/company/contact/support\n\nWe apologize for the inconvenience."
+    - ts: "2024-07-11 19:44:02"
+      description: "Our Engineering team has confirmed the issue with SMS delivery report delays when sending messages has been fully resolved. \n\nWe appreciate your patience throughout this process and if you continue to experience problems, please open a ticket with our support team for further review."
+      resolved: true

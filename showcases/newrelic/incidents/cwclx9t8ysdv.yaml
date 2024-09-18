@@ -1,0 +1,38 @@
+version: incident/v1
+id: cwclx9t8ysdv
+name: New Relic UI Irregularities in US Region
+impact: major
+systems:
+    - k4c77k6bzcl7
+    - ty1004s644gq
+    - k2c0hnpnmgqn
+    - j6v4tzmw08t4
+    - 1mwh21hqrxlw
+    - nw4g7754n7tl
+    - x87lk2mkvdtx
+    - g3mtj9z8c1cq
+    - q94v4hz14v0f
+    - xrzsz1k79xbd
+    - 5qhzckvc2ncn
+    - mc4f9x2xl1zg
+    - 927km3k58wgb
+    - 8k5pmrjbl1w0
+    - 7yqy1ctsjw35
+    - 5kj1rklxtgzg
+timeline:
+    - ts: "2024-02-13 06:33:00"
+      description: Some customers in the US region may be experiencing the New Relic One UI returning errors or not loading as expected.
+      investigating: true
+    - ts: "2024-02-13 06:37:11"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-02-13 06:46:56"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-02-13 06:58:52"
+      description: We are seeing recovery of impacted services and monitoring for stability of the environment.
+    - ts: "2024-02-13 07:44:19"
+      description: |-
+        Between 06:07 UTC and 06:35 UTC on February 13th, some customers in the US region may have experienced the New Relic One UI returning errors or not loading as expected.
+
+        We have investigated and resolved this service interruption and impacted services have returned to normal operations.
+      resolved: true

@@ -1,0 +1,19 @@
+version: incident/v1
+id: 6mjlx463qsj6
+name: Services Degraded or Unavailable
+impact: major
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2023-12-11 09:47:30"
+      description: We're investigating an issue that's left many of our web and mobile platforms unavailable. Responders are working to restore service.
+      investigating: true
+    - ts: "2023-12-11 10:22:49"
+      description: We identified the issue and we're bringing services back online.
+    - ts: "2023-12-11 11:17:11"
+      description: We've restored services to users and will be taking steps to ensure a full, sustained recovery.
+    - ts: "2023-12-11 13:08:54"
+      description: This incident has been resolved.
+      resolved: true

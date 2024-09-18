@@ -1,0 +1,49 @@
+version: incident/v1
+id: 3483v9fw5pm3
+name: Incident with Copilot
+impact: major
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2024-07-13 00:18:23"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2024-07-13 00:18:29"
+      description: Copilot API chat experiencing significant failures to backend services
+      investigating: true
+    - ts: "2024-07-13 00:29:30"
+      description: Copilot is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-07-13 00:49:51"
+      description: Copilot chat is currently experiencing degraded performance, impacting up to 60% of all chat requests. We are investigating the issue.
+      investigating: true
+    - ts: "2024-07-13 01:32:00"
+      description: Copilot chat is experiencing degraded performance, impacting up to 60% of all chat requests. We are continuing to investigate the issue with our upstream provider.
+      investigating: true
+    - ts: "2024-07-13 02:19:40"
+      description: We have applied several mitigations to Copilot chat, reducing errors to less than 10% of all chat requests. We are continuing to investigate the issue with our upstream provider.
+      investigating: true
+    - ts: "2024-07-13 02:20:10"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-07-13 03:20:37"
+      description: The error rate for Copilot chat requests remains steady at less than 10%. We are continuing to investigate with our upstream provider.
+      investigating: true
+    - ts: "2024-07-13 03:50:03"
+      description: We are continuing to wait on our upstream provider to see full recovery. We will provide another update at 11:00 UTC
+      investigating: true
+    - ts: "2024-07-13 11:18:49"
+      description: Our upstream provider is gradually recovering the service. We will provide another update at 23:00 UTC.
+      investigating: true
+    - ts: "2024-07-13 16:09:40"
+      description: Our upstream provider is making good progress recovering and we are validating that services are nearing normal operations. We will provide another update by 18:00 UTC.
+      investigating: true
+    - ts: "2024-07-13 18:01:45"
+      description: Our upstream provider continues to recover and we expect services to return to normal as more progress is made. We will provide another update by 20:00 UTC.
+      investigating: true
+    - ts: "2024-07-13 19:26:54"
+      description: Copilot is operating normally.
+      investigating: true
+    - ts: "2024-07-13 19:27:03"
+      description: On July 13, 2024 between 00:01 and 19:27 UTC the Copilot service was degraded. During this time period, Copilot code completions error rate peaked at 1.16% and Copilot Chat error rate peaked at 63%. Between 01:00 and 02:00 UTC we were able to reroute traffic for Chat to bring error rates below 6%. During the time of impact customers would have seen delayed responses, errors, or timeouts during requests. GitHub code scanning autofix jobs were also delayed during this incident. <br /><br />A resource cleanup job was scheduled by <a href="https://azure.status.microsoft/en-us/status/history?trackingid=4L44-3F0">Azure OpenAI (AOAI) service early July 13th</a> targeting a resource group thought to only contain unused resources. This resource group unintentionally contained critical, still in use, resources that were then removed. The cleanup job was halted before removing all resources in the resource group. Enough resources remained that GitHub was able to mitigate while resources were reconstructed.<br /><br />We are working with AOAI to ensure mitigation is in place to prevent future impact. In addition, we will improve traffic rerouting processes to reduce time to mitigate in the future.
+      resolved: true

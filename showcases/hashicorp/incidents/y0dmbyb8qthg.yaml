@@ -1,0 +1,24 @@
+version: incident/v1
+id: y0dmbyb8qthg
+name: Payment Receipts may not be received
+impact: minor
+systems:
+    - mgv1p2j9x444
+timeline:
+    - ts: "2024-07-22 18:56:45"
+      description: We're currently addressing an issue where some customers have not been receiving payment receipts. It appears that certain emails are being filtered as spam by Gmail. We're working on a solution to ensure that all emails are delivered properly. For any immediate assistance with payment receipts, please reach out to our support team.
+    - ts: "2024-08-02 18:36:38"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue regarding customer reports of not receiving emailed payment receipts.
+
+        We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-08-14 21:41:21"
+      description: |-
+        Our Engineering team has resolved the issue where some customers have not been receiving payment receipts. To mitigate this issue in the future, we recommend customers take the following actions:
+
+        Check your junk/spam folders. If you find the email there, mark it as "not spam". You can also save HashiCorp's email address, invoice+statements@cloud.hashicorp.com, to your contacts to prevent future occurrences.
+
+        Check for third-party filtering. If you use a corporate or business email address, your IT department may be using third-party services that are blocking the message. Your company's IT department or mail provider can confirm this. If so, they may need to specifically allow @cloud.hashicorp.com and @hashicorp.com to prevent future occurrences.
+
+        These systems should be operating normally. If you continue to experience any problems, please open a ticket with our support team.
+      resolved: true

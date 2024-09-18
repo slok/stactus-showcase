@@ -1,0 +1,20 @@
+version: incident/v1
+id: bdy15gr1l3qz
+name: Zoom add-on issue syncing scheduled meetings from Google Calendar
+impact: minor
+systems:
+    - 08fp2rr1spx0
+timeline:
+    - ts: "2024-07-23 12:00:59"
+      description: We are investigating reports of users experiencing an issue with the Zoom Add-on not syncing meetings scheduled from Google Calendar. We will provide updates as we have them.
+      investigating: true
+    - ts: "2024-07-23 13:10:49"
+      description: We continue to investigate reports of users experiencing an issue with the Zoom Add-on not syncing meetings scheduled from Google Calendar. We will provide updates as we have them.
+      investigating: true
+    - ts: "2024-07-23 14:41:54"
+      description: We have identified the issue of users experiencing  Zoom Add-on not syncing meetings scheduled from Google Calendar. We will continue to provide updates as we have them.
+    - ts: "2024-07-23 21:38:59"
+      description: We have resolved the issue of users experiencing Zoom Add-on not syncing meetings scheduled from Google Calendar. We will continue to monitor and provide updates as we have them.
+    - ts: "2024-07-23 22:17:34"
+      description: This incident has been resolved.
+      resolved: true

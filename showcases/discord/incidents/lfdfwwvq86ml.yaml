@@ -1,0 +1,13 @@
+version: incident/v1
+id: lfdfwwvq86ml
+name: Soundboard Upload Errors
+impact: none
+systems:
+    - rhznvxg4v7yh
+    - r3wq1zsx72bz
+timeline:
+    - ts: "2024-03-12 19:04:22"
+      description: We identified an issue preventing users form uploading new soundboard effects and are working on a fix.
+    - ts: "2024-03-12 19:50:47"
+      description: This incident has been resolved.
+      resolved: true

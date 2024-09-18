@@ -1,0 +1,26 @@
+version: incident/v1
+id: m7y8dwgq2c93
+name: Degraded platform performance
+impact: minor
+systems: []
+timeline:
+    - ts: "2022-07-28 13:29:05"
+      description: We are aware some subset of customers are experiencing issues connecting to our ent.1Password.com service and our team is investigating.
+      investigating: true
+    - ts: "2022-07-28 13:43:28"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2022-07-28 14:20:31"
+      description: We are continuing to monitor the situation.
+      investigating: true
+    - ts: "2022-07-28 14:43:12"
+      description: We are continuing to monitor the situation.
+    - ts: "2022-07-28 15:01:50"
+      description: We are continuing to monitor the situation.
+    - ts: "2022-07-28 15:27:22"
+      description: We are continuing to monitor the situation.
+    - ts: "2022-07-28 16:01:34"
+      description: We are continuing to monitor the situation.
+    - ts: "2022-07-28 16:34:48"
+      description: The issue has been resolved and all services are operating normally.
+      resolved: true

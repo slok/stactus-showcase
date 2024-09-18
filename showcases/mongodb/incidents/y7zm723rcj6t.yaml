@@ -1,0 +1,16 @@
+version: incident/v1
+id: y7zm723rcj6t
+name: 'MongoDB Cloud: PayPal charges may fail'
+impact: none
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-07-02 15:57:59"
+      description: |-
+        We have received higher-than-normal reports of failed PayPal transactions. Affected users will have been notified via email and may see a WARNING state on their Organization. This mostly has impacted Organizations with billing addresses outside of the USA.
+
+        We are investigating with our upstream partners to correct the issue.
+      investigating: true
+    - ts: "2024-07-05 15:30:58"
+      description: This incident has been resolved.
+      resolved: true

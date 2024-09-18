@@ -1,0 +1,14 @@
+version: incident/v1
+id: 1dznfwp4q812
+name: New stickers failing to load
+impact: minor
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-07-16 13:35:36"
+      description: An issue with a recent deploy caused new stickers to not upload or display properly. A fix is now being deployed.
+    - ts: "2024-07-16 14:38:06"
+      description: This issue has been resolved.
+    - ts: "2024-07-16 14:39:04"
+      description: This incident has been resolved.
+      resolved: true

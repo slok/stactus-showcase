@@ -1,0 +1,20 @@
+version: incident/v1
+id: tzc6lj0dfjkg
+name: cloud.mongodb.com slow response times
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-02-17 06:41:34"
+      description: |-
+        We are investigating reports of slow response times for cloud.mongodb.com.
+
+        Users may experience difficulties logging in to cloud.mongodb.com, and slow response times from the Atlas Administrative API. Requests for changes to Atlas Clusters including adding new IPs to the Access List may experience a delay in processing.
+
+        There is no impact to running Atlas Clusters.
+      investigating: true
+    - ts: "2024-02-17 06:56:48"
+      description: We have identified the issue, stabilized the system and are monitoring the results.
+    - ts: "2024-02-17 07:39:59"
+      description: Slow response times began around 6:27 UTC and end around 6:47 AM UTC.  During this time, users may have experienced issues logging in to cloud.mongodb.com and slow response times from the Atlas Administrative API. Requests for changes to Atlas Clusters including adding new IPs to the Access List experienced short delays in processing.  There was no impact to running Atlas Clusters.
+      resolved: true

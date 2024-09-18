@@ -1,0 +1,12 @@
+version: incident/v1
+id: xsdz47chkzyq
+name: HVS Audit Logs Failures
+impact: minor
+systems:
+    - hk67zg2j2rkd
+timeline:
+    - ts: "2024-06-24 21:21:34"
+      description: "Our Engineering team has identified the cause for the following incident: \n\n### HVS Audit Logs are failing to load on the HVS UI\n\nWe are actively working on a fix. Once we have additional information, we will share another update."
+    - ts: "2024-06-24 22:06:33"
+      description: "Our Engineering team has resolved the following issue: \n\nHVS Audit Logs are now visible on the HVS UI\n\nThese systems should now be operating normally. If you continue to experience any problems, please open a ticket with our support team."
+      resolved: true

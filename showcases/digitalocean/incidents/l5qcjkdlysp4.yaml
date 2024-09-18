@@ -1,0 +1,23 @@
+version: incident/v1
+id: l5qcjkdlysp4
+name: Spaces Availability in NYC3
+impact: minor
+systems:
+    - tz43j53blsmy
+timeline:
+    - ts: "2024-08-22 17:55:43"
+      description: "Our Engineering team is investigating an issue with Spaces availability in the NYC3 region. During this time users may encounter errors when accessing Spaces objects or managing existing buckets in the NYC3 region. \n\nWe apologize for the inconvenience and will share an update once we have more information."
+      investigating: true
+    - ts: "2024-08-22 18:13:46"
+      description: "Our Engineering team is continuing to investigate this issue, but has taken action to mitigate the impact. Spaces API availability has returned to pre-incident levels and users' requests should succeed at this time. \n\n We will post an update once we have further information."
+      investigating: true
+    - ts: "2024-08-22 22:11:08"
+      description: Our Engineering team has confirmed the mitigations put in place have resolved the impact to Spaces availability in NYC3. We are currently monitoring the situation and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-08-22 22:43:41"
+      description: |-
+        From 17:18 UTC until 17:58 UTC, users may have experienced issues when attempting to access Spaces in the NYC3 region.
+
+        Our Engineering team has confirmed full resolution of the issue, and users should now be able to access Spaces normally.
+
+        Thank you for your patience. If you continue to experience any problems, please open a ticket with our support team for further review.
+      resolved: true

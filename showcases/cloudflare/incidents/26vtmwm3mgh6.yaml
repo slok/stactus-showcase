@@ -1,0 +1,15 @@
+version: incident/v1
+id: 26vtmwm3mgh6
+name: Rate Limiting Rule Configuration Errors
+impact: minor
+systems:
+    - d1r0plwsl5qb
+timeline:
+    - ts: "2024-09-10 00:30:04"
+      description: We are investigating reports of increased rates of errors for customers attempting to configure new or existing Rate Limiting rules. Existing rules are continuing to function normally.
+      investigating: true
+    - ts: "2024-09-10 08:37:42"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-10 08:46:23"
+      description: This incident has been resolved.
+      resolved: true

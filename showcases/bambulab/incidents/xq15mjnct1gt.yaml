@@ -1,0 +1,9 @@
+version: incident/v1
+id: xq15mjnct1gt
+name: The official website is down because it is experiencing a large amount of traffic.
+impact: major
+systems: []
+timeline:
+    - ts: "2023-09-21 01:33:21"
+      description: The official website encountered a significant increase in traffic when we published a product page for A1 mini, and as a result, the website experienced downtime for approximately 10 minutes.
+      resolved: true

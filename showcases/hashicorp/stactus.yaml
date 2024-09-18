@@ -1,0 +1,126 @@
+version: stactus/v1
+name: HashiCorp Services
+url: https://status.hashicorp.com
+systems:
+    - id: mgv1p2j9x444
+      name: HCP Portal
+    - id: 0ttdztfknzpt
+      name: Releases / APT Repository
+    - id: lpr0x22clvpy
+      name: HCP Vault Dedicated / AWS-ap-northeast-1
+    - id: qd90lhs11h3t
+      name: HCP Consul Dedicated / AWS-ap-northeast-1
+    - id: 0q55nwmxngkc
+      name: HCP API
+    - id: ht546qczr988
+      name: Releases / Helm Chart Repository
+    - id: 75q3wwnszlr7
+      name: HCP Vault Dedicated / AWS-ap-southeast-1
+    - id: sl2x510l6l2l
+      name: HCP Consul Dedicated / AWS-ap-southeast-1
+    - id: cg6sxxmpwtyy
+      name: HCP Vault Dedicated / AWS-ap-southeast-2
+    - id: rxp0gwv6r7yk
+      name: Releases / RPM Repository
+    - id: x54tpcrmrlv4
+      name: HCP Consul Dedicated / AWS-ap-southeast-2
+    - id: 9gzfhnxdsf93
+      name: HCP Boundary
+    - id: 1z2wnyt2qcnl
+      name: Releases / Releases Site
+    - id: 4llt6mr48zdf
+      name: HCP Vault Dedicated / AWS-ca-central-1
+    - id: gngnzl7vq7v9
+      name: HCP Consul Dedicated / AWS-ca-central-1
+    - id: 0mbkqnrzg33w
+      name: HCP Packer
+    - id: z0c1m0r15jk0
+      name: HCP Vault Dedicated / AWS-eu-central-1
+    - id: 57bpn8mmz92p
+      name: HCP Consul Dedicated / AWS-eu-central-1
+    - id: d9dnhpxzq65d
+      name: Releases / Private Container Registry
+    - id: 71bbcw2ysbv5
+      name: HCP Vault Dedicated / AWS-eu-west-1
+    - id: trb6p97hq44l
+      name: HCP Consul Dedicated / AWS-eu-west-1
+    - id: m1m4wndpkmmw
+      name: Releases / Linux Package Archive Site
+    - id: sgzly5m447mt
+      name: HCP Vault Dedicated / AWS-eu-west-2
+    - id: 3ck06ybbq9rk
+      name: HCP Consul Dedicated / AWS-eu-west-2
+    - id: hk67zg2j2rkd
+      name: HCP Vault Secrets
+    - id: mmlrjdnctj09
+      name: HCP Vault Dedicated / AWS-us-east-1
+    - id: l19qcn7gwfmh
+      name: HCP Consul Dedicated / AWS-us-east-1
+    - id: tdn1b728glpr
+      name: HCP Vault Radar
+    - id: 1zyf32pwbfmz
+      name: HCP Waypoint
+    - id: gg8gjqb42vsy
+      name: HCP Vault Dedicated / AWS-us-east-2
+    - id: 2hthcsg7s6n2
+      name: HCP Consul Dedicated / AWS-us-east-2
+    - id: 7cgbxrw10wgr
+      name: HCP Terraform
+    - id: h4k95x7cd36k
+      name: HCP Vault Dedicated / AWS-us-west-2
+    - id: xmd3rgq35mzz
+      name: HCP Consul Dedicated / AWS-us-west-2
+    - id: l8mnm91h3s7v
+      name: Terraform Registry
+    - id: qnhzxd3vghb9
+      name: HCP Consul Dedicated / Azure-Australia Southeast
+    - id: 67l1stcs3zk1
+      name: HCP Vault Dedicated / Azure-Australia Southeast
+    - id: 1mdm36t0fkx1
+      name: Vagrant Cloud
+    - id: hm5bfg0b2jlb
+      name: HCP Vault Dedicated / Azure-Canada Central
+    - id: ghbwl1z50f7v
+      name: HCP Consul Dedicated / Azure-Canada Central
+    - id: cpn6w07r5f2y
+      name: Waypoint URL Service
+    - id: 8nlq25qx2x6w
+      name: HCP Consul Dedicated / Azure-Central US
+    - id: 0gzbx9wshf0l
+      name: HCP Vault Dedicated / Azure-Central US
+    - id: y1tttb462kn7
+      name: HCP Consul Dedicated / Azure-East US
+    - id: 0yw6jtfrrwmq
+      name: HCP Vault Dedicated / Azure-East US
+    - id: 8qtxwq5gwzkn
+      name: HCP Consul Dedicated / Azure-East US 2
+    - id: 9dwj52zv6j30
+      name: HCP Vault Dedicated / Azure-East US 2
+    - id: d48d1n3mpcnd
+      name: HCP Consul Dedicated / Azure-France Central
+    - id: nk3x061s9zyn
+      name: HCP Vault Dedicated / Azure-France Central
+    - id: fskhmcn1z2yx
+      name: HCP Vault Dedicated / Azure-Japan East
+    - id: d3g7tzfrq2vx
+      name: HCP Consul Dedicated / Azure-Japan East
+    - id: 4p4qw9rlhr5g
+      name: HCP Consul Dedicated / Azure-North Europe
+    - id: tsxl98v56jgm
+      name: HCP Vault Dedicated / Azure-North Europe
+    - id: f0q2p9zds6kg
+      name: HCP Consul Dedicated / Azure-Southeast Asia
+    - id: zdz8wb23kvt8
+      name: HCP Vault Dedicated / Azure-Southeast Asia
+    - id: rvf4jvy09gtn
+      name: HCP Consul Dedicated / Azure-UK South
+    - id: hsg8y5dwfts8
+      name: HCP Vault Dedicated / Azure-UK South
+    - id: 5g7xxqgmjwr8
+      name: HCP Consul Dedicated / Azure-West Europe
+    - id: tw1yt17pltxp
+      name: HCP Vault Dedicated / Azure-West Europe
+    - id: hddnf9931cjf
+      name: HCP Consul Dedicated / Azure-West US 2
+    - id: rsmtc2yqpp0f
+      name: HCP Vault Dedicated / Azure-West US 2

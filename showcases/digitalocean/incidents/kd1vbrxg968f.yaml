@@ -1,0 +1,21 @@
+version: incident/v1
+id: kd1vbrxg968f
+name: Uptime Check Creates on the Cloud Panel
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2024-05-23 23:26:18"
+      description: |-
+        Our Engineering team is investigating an issue with creating new Uptime checks in the Monitoring section of the Cloud Control Panel. From 15:00 UTC on the 21st, customers may experience errors while creating new Uptime checks on the Monitoring page.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2024-05-24 00:07:25"
+      description: "Our Engineering team has implemented a fix regarding the issue with creating new Uptime checks in the Monitoring section of the Cloud Control Panel. We are monitoring the situation to ensure there is no recurrence. \n\nWe will post another update once we confirm the issue is fully resolved."
+    - ts: "2024-05-24 00:41:08"
+      description: |-
+        Our engineering team has resolved the issue issue with creating new Uptime checks in the Monitoring section of the Cloud Control Panel.
+
+        Thank you for your patience. If you continue to experience any problems, please open a support ticket from within your account.
+      resolved: true

@@ -1,0 +1,16 @@
+version: incident/v1
+id: tb24q35zw7g3
+name: Delayed monitor notifications
+impact: minor
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2023-08-24 14:04:47"
+      description: |-
+        We are investigating delays in Monitors Notifications, which began at 17:15 UTC.
+
+        We have identified the underlying issue and are working on a fix.
+      investigating: true
+    - ts: "2023-08-24 14:18:07"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,21 @@
+version: incident/v1
+id: x05mbqs5r48y
+name: Increased Timeouts for Queries
+impact: major
+systems:
+    - l72f5c7651n5
+timeline:
+    - ts: "2024-06-11 21:06:35"
+      description: Related to our previous 15:40 UTC status page. Users may experience degraded query performance. We are actively working to resolve this and will provide updates as they become available.
+      investigating: true
+    - ts: "2024-06-12 13:30:04"
+      description: Our engineering team is working on mitigation methods while we work with our vendor to identify root cause(s).
+      investigating: true
+    - ts: "2024-06-12 15:26:22"
+      description: We are not seeing any current impact after initial mitigation efforts; we continue to investigate additional mitigations as well as root causes with our vendors
+      investigating: true
+    - ts: "2024-06-12 18:52:01"
+      description: We have worked with our vendor and identified an underlying issue which is now 95% mitigated, we will continue to monitor closely.
+    - ts: "2024-06-14 22:15:17"
+      description: This incident has been resolved. All queries should perform as expected.
+      resolved: true

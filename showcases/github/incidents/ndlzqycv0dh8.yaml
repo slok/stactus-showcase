@@ -1,0 +1,22 @@
+version: incident/v1
+id: ndlzqycv0dh8
+name: Incident with Webhooks
+impact: minor
+systems:
+    - 4230lsnqdsld
+timeline:
+    - ts: "2024-08-12 14:09:16"
+      description: We are investigating reports of degraded performance for Webhooks
+      investigating: true
+    - ts: "2024-08-12 14:32:05"
+      description: Some customers may see failures calling the webhooks API or running queries for enterprise or organization audit logs. We have started mitigating the issue and are watching recovery. We will provide an update within the next 30 minutes.
+      investigating: true
+    - ts: "2024-08-12 14:41:04"
+      description: Webhooks is operating normally.
+      investigating: true
+    - ts: "2024-08-12 14:41:05"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-08-12 14:41:06"
+      description: On August 12, 2024 from 13:39 to 14:28 UTC some users experienced an elevated rate of errors of up to 0.45% from the GitHub API. Less than 5% of webhooks interactions failed and less than 0.5% of Actions runs were delayed.<br /><br />This impact was caused by internal networking instances being insufficiently scaled.<br /><br />We mitigated the incident by provisioning additional instances. We are working to enhance the sizing strategy for the relevant infrastructure to prevent similar issues and to also improve monitoring and processes to reduce our time to detection and mitigation of issues like this one in the future.
+      resolved: true

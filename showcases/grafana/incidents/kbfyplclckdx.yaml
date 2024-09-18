@@ -1,0 +1,34 @@
+version: incident/v1
+id: kbfyplclckdx
+name: Multi-http checks failing to run in Tokyo probe location
+impact: minor
+systems:
+    - gqmrtkv44snw
+    - w2sv65flwjyg
+    - vdp8ff0sncsj
+    - 72cbdqh1qfxk
+    - 1dqyw0njnkxv
+    - 6xm6mc51pr03
+    - sq2b0zbgtbwn
+    - r5nqbrqbw0k2
+    - wlk38l1st21f
+    - pz96v0pznswg
+    - gsb4scg45ndq
+    - dcwlkh9jb6xh
+    - 43fvknltd9m1
+    - b6vy9syblc9x
+    - dpny9b8qb952
+    - czpt94dvn18t
+    - 191t9x68nj8s
+    - fh680ftdss7w
+    - tcskx9mfsz1c
+    - 7p6gpdprypb9
+timeline:
+    - ts: "2024-08-13 19:04:32"
+      description: We are currently investigating and issue in the Tokyo location where scripted and multihttp checks are failling to run. All other check types (http, dns, ping, traceroute, tcp) are working normally.
+      investigating: true
+    - ts: "2024-08-13 19:55:02"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-08-13 23:23:14"
+      description: The incident began at UTC 18:35 Tokyo probe was fully operational again as of UTC 19:05 and has been operating normally since then. Resolving the incident.
+      resolved: true

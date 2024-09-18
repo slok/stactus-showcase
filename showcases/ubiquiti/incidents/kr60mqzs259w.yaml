@@ -1,0 +1,21 @@
+version: incident/v1
+id: kr60mqzs259w
+name: Remote Access Connectivity Issues
+impact: major
+systems:
+    - f4txj806xph9
+    - 50j8z65sq9pt
+timeline:
+    - ts: "2021-09-29 18:06:08"
+      description: |-
+        An issue has been identified where users may not be able to connect remotely to devices via unifi.ui.com or through the UniFi mobile apps.
+        Our teams are investigating the issue and will provide periodic updates on status.ui.com. We apologize for any inconvenience and are working to restore service as quickly as possible.
+      investigating: true
+    - ts: "2021-09-29 19:41:23"
+      description: Service has been partially restored, though some users may still experience connection issues. We are working diligently and expect this to be resolved soon. We will continue to monitor and provide updates.
+      investigating: true
+    - ts: "2021-09-29 19:41:29"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2021-09-30 04:23:36"
+      description: Service has been fully restored and we are monitoring the results.
+      resolved: true

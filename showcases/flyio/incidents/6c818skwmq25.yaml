@@ -1,0 +1,14 @@
+version: incident/v1
+id: 6c818skwmq25
+name: Increased network latency in CDG
+impact: minor
+systems:
+    - 1d32j80lw7xs
+    - 15knchzwl5np
+    - 266zqs63006k
+timeline:
+    - ts: "2024-08-15 13:19:07"
+      description: We've identified an issue on some servers in CDG causing 1-200ms latency for apps and Upstash Redis requests. Our team is working on a remedy.
+    - ts: "2024-08-15 14:27:23"
+      description: This incident has been resolved.
+      resolved: true

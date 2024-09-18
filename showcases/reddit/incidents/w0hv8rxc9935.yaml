@@ -1,0 +1,17 @@
+version: incident/v1
+id: w0hv8rxc9935
+name: Issues loading Reddit
+impact: major
+systems:
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2023-04-12 10:51:47"
+      description: We are currently investigating issues loading Reddit primarily affecting iOS devices.
+      investigating: true
+    - ts: "2023-04-12 11:37:42"
+      description: We identified the problem and working to rectify it currently.
+    - ts: "2023-04-12 12:07:18"
+      description: This incident has been fixed and moving it to monitoring for now.
+    - ts: "2023-04-12 14:01:37"
+      description: This incident has been now resolved.
+      resolved: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: wdcw13p4g3fp
+name: Identified Checkout Issues
+impact: minor
+systems:
+    - ys9m23jjzpg0
+timeline:
+    - ts: "2023-04-25 06:54:06"
+      description: "\U0001F6E0 We have identified an issue causing some users to be unable to checkout. We're currently working to resolve this issue."
+    - ts: "2023-04-25 09:13:06"
+      description: This incident has been resolved.
+      resolved: true

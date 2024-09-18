@@ -1,0 +1,12 @@
+version: stactus/v1
+name: Figma
+url: https://status.figma.com
+systems:
+    - id: pn57gvt7sjmx
+      name: Real-time collaboration server
+      description: Allows users to see other people collaborating on files in real time.
+    - id: bcf4b8z76zqr
+      name: APIs & Web Application
+    - id: 2wghgbfmnn54
+      name: AWS Infrastructure
+      description: Figma services run on AWS. AWS outages can cause temporary unavailability of certain Figma services.

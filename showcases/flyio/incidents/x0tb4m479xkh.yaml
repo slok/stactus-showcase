@@ -1,0 +1,15 @@
+version: incident/v1
+id: x0tb4m479xkh
+name: OTP Region Offline
+impact: none
+systems:
+    - mrcyzlkkw8z9
+timeline:
+    - ts: "2024-06-02 09:50:23"
+      description: We are investigating network problems for our OTP (Bucharest) hosts.
+      investigating: true
+    - ts: "2024-06-02 11:23:58"
+      description: Network hardware in the OTP (Bucharest) region has failed. Work to replace the hardware is underway.
+    - ts: "2024-06-02 12:37:42"
+      description: Failed hardware has been replaced
+      resolved: true

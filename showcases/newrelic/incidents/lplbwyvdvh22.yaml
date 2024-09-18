@@ -1,0 +1,45 @@
+version: incident/v1
+id: lplbwyvdvh22
+name: Data Delays in US Region
+impact: minor
+systems:
+    - rbts0zzw73dl
+    - 2vkckmpm1kh6
+    - 5x10l9g2z3t6
+    - 1ccpnwlhg6xx
+    - 028b05n94my0
+    - 45zc1fn1w80h
+    - 5p33lkzzqm0z
+    - 5kywhg5j0l21
+    - ymfwncrn2dnh
+    - 2jrn08x58ps2
+    - 9jndj4kfv59w
+    - pmtvnzg1dzfm
+    - lm2qpsbfggh7
+    - s27h21w34qhk
+    - prjgs1mvmqg9
+    - 6x8hq64xfvwl
+    - 833c8h98qq4g
+    - czn9jxzshjxn
+timeline:
+    - ts: "2023-06-30 15:57:06"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-06-30 16:18:07"
+      description: We are investigating a potential interruption with one of our cloud providers. Customers in the US region may be experiencing issues viewing and querying data. Alert notifications may be missing or delayed.
+      investigating: true
+    - ts: "2023-06-30 16:34:50"
+      description: We have confirmed an interruption with our cloud provider and our teams are investigating various mitigation efforts.
+    - ts: "2023-06-30 17:03:38"
+      description: Our cloud provider is actively working on restoring impacted services. New Relic teams are continuing to investigate opportunities to mitigate or reduce impact for our customers. Customers in the US region may be experiencing issues viewing and querying data, as well as delayed or missing alert notifications.
+    - ts: "2023-06-30 17:58:04"
+      description: We are working with our cloud provider to expedite recovery of impacted services. Customers in the US region may be experiencing issues viewing and querying data, as well as delayed or missing alert notifications.
+    - ts: "2023-06-30 18:28:55"
+      description: We are continuing to work on restoring impacted services. Customers may begin to see improvements in data visibility and delayed alerts, we will update again once all services have returned to normal operation.
+    - ts: "2023-06-30 19:33:07"
+      description: We are continuing to see recovery of impacted services.
+    - ts: "2023-06-30 19:56:19"
+      description: Data ingest, processing, and alert notifications have returned to normal operation. We are monitoring for stability of the environment.
+    - ts: "2023-06-30 21:39:41"
+      description: Between 15:38 UTC and 19:56 UTC on June 30th, some customers in the US region may have experienced issues viewing and querying data. Alert notifications may have been delayed or missing for impacted customers.
+      resolved: true

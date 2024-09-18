@@ -1,0 +1,21 @@
+version: incident/v1
+id: hd261m2q40tj
+name: Delayed Synthetics check results
+impact: minor
+systems:
+    - 8h442mvws6w7
+    - 64hk5ch1ww5b
+timeline:
+    - ts: "2024-07-06 20:16:24"
+      description: Some customers in the EU region may experience delayed Synthetics check results and delayed alert notifications.
+      investigating: true
+    - ts: "2024-07-06 20:21:08"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-07-06 20:21:51"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2024-07-06 20:34:49"
+      description: |-
+        Between 19:00 UTC and 20:20 UTC on July 6th, some customers in the EU region may have experienced delayed Synthetics check results and delayed alert notifications.
+
+        We have investigated and resolved this service interruption and impacted services have returned to normal operations.
+      resolved: true

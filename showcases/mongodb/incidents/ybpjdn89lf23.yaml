@@ -1,0 +1,18 @@
+version: incident/v1
+id: ybpjdn89lf23
+name: Chat support is currently unavailable
+impact: major
+systems:
+    - kb8k7qml7npt
+timeline:
+    - ts: "2024-02-22 10:47:02"
+      description: Chat support is currently unavailable, please standby while we work on the issue. Atlas clusters are not impacted
+      investigating: true
+    - ts: "2024-02-22 10:52:01"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-02-22 11:09:27"
+      description: Issue has been identified and services are returning to normal.
+    - ts: "2024-02-22 15:38:34"
+      description: Issue has been identified and resolved
+      resolved: true

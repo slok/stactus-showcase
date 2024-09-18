@@ -1,0 +1,13 @@
+version: incident/v1
+id: 2bglpcjvg7xb
+name: Incident with Actions
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2024-05-16 04:43:42"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2024-05-16 05:15:35"
+      description: On May 16, 2024, between 4:10 UTC and 5:02 UTC customers experienced various delays in background jobs, primarily UI updates for Actions. This issue was due to degradation in our background job service affecting 22.4% of total jobs.  Across all affected services, the average job delay was 2m 22s.  Actions jobs themselves were unaffected, this issue affected the timeliness of UI updates, with an average delay of 11m 40s and a maximum of 20m 14s.<br /><br />This incident was due to a performance problem on a single processing node, where Actions UI updates were being processed.  Additionally, a misconfigured monitor did not alert immediately, resulting in a 25m late detection time and a 37m total increase in time to mitigate.   <br /><br />We mitigated the incident by removing the problem node from the cluster and service was restored.  No data was lost, and all jobs executed successfully.<br /><br />To reduce our time to detection and mitigation of issues like this one in the future, we have repaired our misconfigured monitor and added additional monitoring to this service. <br />
+      resolved: true

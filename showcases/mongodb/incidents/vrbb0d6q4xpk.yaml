@@ -1,0 +1,25 @@
+version: incident/v1
+id: vrbb0d6q4xpk
+name: Atlas App Services & Atlas Device Sync Outage for Globally deployed apps
+impact: major
+systems:
+    - crrq7qqlqfsh
+timeline:
+    - ts: "2024-03-18 22:00:52"
+      description: |-
+        We are investigating issues with Globally deployed apps.
+
+        Users may experience slow load times in the UI.
+        Some Atlas Triggers may stop running.
+        Triggers & Device Sync workloads may experience delays.
+      investigating: true
+    - ts: "2024-03-18 22:17:23"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-03-18 22:42:39"
+      description: |-
+        A fix has been implemented and we are monitoring the results.
+
+        Triggers that suspended because of this issue were restarted & resumed processing.
+    - ts: "2024-03-18 23:06:40"
+      description: This incident has been resolved.
+      resolved: true

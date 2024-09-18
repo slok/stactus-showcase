@@ -1,0 +1,20 @@
+version: incident/v1
+id: r12170kp75rs
+name: Zoom Phone Service Outage
+impact: major
+systems:
+    - qjs9m5p5wmkn
+timeline:
+    - ts: "2023-09-07 16:26:49"
+      description: |-
+        Zoom Phone is experiencing a service outage.
+
+        Zoom is aware of this outage and is working to restore services. Further updates on the service outage can be found at https://status.zoom.us.
+
+        IS&T will communicate any service status changes on https://atlas-alerts.mit.edu/incidents/fx657dpzc48l
+      investigating: true
+    - ts: "2023-09-07 18:05:15"
+      description: "Zoom has restored Zoom Phone services. \n\nIS&T is monitoring the service for any additional interruptions."
+    - ts: "2023-09-07 22:44:00"
+      description: This incident has been resolved.
+      resolved: true

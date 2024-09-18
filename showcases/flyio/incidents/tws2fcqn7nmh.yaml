@@ -1,0 +1,17 @@
+version: incident/v1
+id: tws2fcqn7nmh
+name: Network issues in DFW
+impact: minor
+systems:
+    - 3y5pzyxr1cbz
+timeline:
+    - ts: "2024-08-13 09:09:34"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-08-13 09:44:37"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-08-13 10:19:35"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-08-13 10:41:52"
+      description: This incident has been resolved.
+      resolved: true

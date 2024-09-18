@@ -1,0 +1,15 @@
+version: incident/v1
+id: cqjq63d7gr13
+name: HCP Boundary - Increased latency and degraded performance
+impact: major
+systems:
+    - 9gzfhnxdsf93
+timeline:
+    - ts: "2024-07-08 06:47:20"
+      description: HCP Boundary is currently experiencing increased latency with is resulting in partial outage for some customers. Engineers are aware and actively investigating the issue.  Further updates will be posted as they are available.
+      investigating: true
+    - ts: "2024-07-08 07:26:48"
+      description: Engineering have identified the issue, and restarted the impacted service. We are currently monitoring and expect services to return to normal shortly.
+    - ts: "2024-07-08 07:33:13"
+      description: We have confirmed that service has resumed, and latency and performance has returned to normal levels.
+      resolved: true

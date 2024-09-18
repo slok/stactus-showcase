@@ -1,0 +1,12 @@
+version: incident/v1
+id: 0ydcvvwtjfp6
+name: Identified an incident
+impact: minor
+systems:
+    - mgv1p2j9x444
+timeline:
+    - ts: "2024-05-17 09:23:44"
+      description: "Our Engineering team has identified the cause for the following incident: \n\n### New User Sign-ups are currently not working\n\nWe are actively working on a fix. Once we have additional information, we will share another update."
+    - ts: "2024-05-17 09:42:38"
+      description: "Our Engineering team has resolved the following issue: \n\n### New User Sign-ups are currently not working\n\nThese systems should now be operating normally. If you continue to experience any problems, please open a ticket with our support team."
+      resolved: true

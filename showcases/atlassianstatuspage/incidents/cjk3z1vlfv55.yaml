@@ -1,0 +1,43 @@
+version: incident/v1
+id: cjk3z1vlfv55
+name: Intermittent errors while accessing public Statuspages
+impact: major
+systems:
+    - rkld00070vm9
+    - 3bg3nq9mm436
+    - s0p4y2k09klc
+timeline:
+    - ts: "2023-10-28 00:36:24"
+      description: We are currently seeing intermittent errors in viewing public Statuspages. We are investigating this problem and will provide updates shortly
+      investigating: true
+    - ts: "2023-10-28 00:55:42"
+      description: 'Update: We have fixed the issue and are monitoring actively'
+    - ts: "2023-10-28 01:01:08"
+      description: Issue is now resolved and everything is back to normal working state.
+      resolved: true
+    - ts: "2023-11-06 01:25:25"
+      description: |-
+        ### **SUMMARY**
+
+        From 06:00 UTC to 07:45 UTC on October 28, 2023, Atlassian customers using Statuspage had intermittent issues with all Statuspage functionality. The event occurred due to a database performance issue during a [scheduled database maintenance](https://metastatuspage.com/incidents/s21b66328h9j). This impacted customers in all regions. The incident was detected within one minute by monitoring the upgrade process and mitigated by rolling back to a known good snapshot which put Statuspage systems into a known good state. The total time to resolution was about one hour and 45 minutes.
+
+        ### **IMPACT**
+
+        The overall impact was between 06:00 UTC and 07:45 UTC October 28, 2023. This incident affected Statuspage customers from all regions and caused intermittent backend errors on all Statuspage activity including viewing pages, adding subscribers, and creating/updating events. We performed a rollback operation during recovery to return to a known good state.
+
+        ### **ROOT CAUSE**
+
+        The issue was caused by database performance issues after a routine database maintenance and upgrade. As a result, our backends returned intermittent errors to several user requests.
+
+        ### **REMEDIAL ACTIONS PLAN & NEXT STEPS**
+
+        We take the utmost care to provide a highly reliable service. We will pursue several preventive measures to ensure that this situation does not occur in the future, including:
+
+        * Fixing the cause of the performance issues before future upgrades; and
+        * Improving our testing process for database upgrades to catch potential performance issues.
+
+        We apologize to customers whose services were impacted during this incident; we are taking immediate steps to improve the platform’s performance and availability.
+
+        Thanks,
+
+        Atlassian Customer Support

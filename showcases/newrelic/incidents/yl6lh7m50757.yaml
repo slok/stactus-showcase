@@ -1,0 +1,14 @@
+version: incident/v1
+id: yl6lh7m50757
+name: Browser Data and Alert Irregularities in the US Region
+impact: minor
+systems:
+    - 5x10l9g2z3t6
+    - 1ccpnwlhg6xx
+timeline:
+    - ts: "2023-10-18 19:49:22"
+      description: Some customers in the US region may be experiencing delayed browser data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data. To prevent our customers from receiving a high volume of false positive alert notifications, we have temporarily suppressed notifications for affected data.
+      investigating: true
+    - ts: "2023-10-18 20:23:13"
+      description: "Between 18:04 UTC and 18:20 UTC and again from 19:04 UTC to 19:36 UTC on October 18th, some customers in the US regions may have experienced delayed browser data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data. To prevent our customers from receiving a high volume of false positive alert notifications, notifications for affected data were temporarily suppressed between 19:49 UTC and 20:01 UTC. \n \nWe have investigated and resolved this interruption and the above services have returned to normal operation."
+      resolved: true

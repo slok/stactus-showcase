@@ -1,0 +1,25 @@
+version: incident/v1
+id: s3m5n57g368s
+name: Deployment of Serverless Functions on App platform
+impact: minor
+systems:
+    - txysr8r0gn1n
+timeline:
+    - ts: "2024-05-21 08:26:21"
+      description: |-
+        As of 06:38 UTC, our Engineering team is investigating an issue with Serverless Functions.
+
+        Users may see errors when attempting to deploy Serverless Functions from the App UI.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2024-05-21 09:12:20"
+      description: |-
+        Our Engineering team has deployed a fix to resolve an issue with Serverless Functions. All users should be able to deploy Serverless Functions from the App UI.
+
+        We are monitoring the situation closely and will share an update once the issue is resolved completely.
+    - ts: "2024-05-21 09:18:14"
+      description: "We are still monitoring the issue impacting Serverless Functions. From the App UI, Serverless Functions should be deployable by all users.  \n\nApologies for the inconvenience caused. We will post an update as soon as the issue is fully resolved."
+    - ts: "2024-05-21 09:47:28"
+      description: "As of 09:05 UTC, our Engineering team has confirmed the full resolution of this issue. All users should be able to deploy Serverless Functions from the App UI without any issues. \n\nIf you continue to experience problems, please open a ticket with our support team. Thank you for being so patient and we apologize for any inconvenience."
+      resolved: true

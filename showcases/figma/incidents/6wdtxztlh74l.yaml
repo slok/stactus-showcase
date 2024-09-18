@@ -1,0 +1,15 @@
+version: incident/v1
+id: 6wdtxztlh74l
+name: Service Disruption
+impact: minor
+systems:
+    - pn57gvt7sjmx
+timeline:
+    - ts: "2024-09-09 12:02:28"
+      description: We are currently investigating an issue related to the opening of a small set of files. We expect it to be resolved shortly.
+      investigating: true
+    - ts: "2024-09-09 12:28:37"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-09 13:30:57"
+      description: This issue has been resolved.
+      resolved: true

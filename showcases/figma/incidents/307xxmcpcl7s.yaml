@@ -1,0 +1,22 @@
+version: incident/v1
+id: 307xxmcpcl7s
+name: Incident
+impact: none
+systems:
+    - pn57gvt7sjmx
+    - bcf4b8z76zqr
+    - 2wghgbfmnn54
+timeline:
+    - ts: "2023-06-12 09:45:33"
+      description: We are experiencing issues. We are investigating and will keep you updated.
+      investigating: true
+    - ts: "2023-06-12 09:58:27"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-06-12 09:58:48"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-06-12 09:59:28"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2023-06-12 10:19:23"
+      description: This incident has been resolved.
+      resolved: true

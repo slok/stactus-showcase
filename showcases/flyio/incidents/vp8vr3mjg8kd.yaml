@@ -1,0 +1,17 @@
+version: incident/v1
+id: vp8vr3mjg8kd
+name: Elevated 502 Errors in `GRU` region
+impact: minor
+systems:
+    - 5cmbhyzyb3lr
+timeline:
+    - ts: "2024-06-28 20:56:59"
+      description: We are investigating elevated rates of 502 errors from users in the GRU region (Sao Paulo, Brazil) when accessing Fly.io hosted apps. Apps continue to be accessible from other regions.
+      investigating: true
+    - ts: "2024-06-28 21:43:59"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-06-28 22:47:07"
+      description: A fix has been implemented and our monitoring shows a significant improvement. We're continuing to monitor the GRU region for further issues.
+    - ts: "2024-06-28 23:40:50"
+      description: This issue has been resolved.
+      resolved: true

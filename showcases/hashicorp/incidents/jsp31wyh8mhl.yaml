@@ -1,0 +1,23 @@
+version: incident/v1
+id: jsp31wyh8mhl
+name: Publishing Delays for New Module/Provider Versions
+impact: minor
+systems:
+    - l8mnm91h3s7v
+timeline:
+    - ts: "2024-03-04 16:46:45"
+      description: |-
+        Our engineering team is investigating an issue with the Terraform Registry that is causing delays in publishing new module and provider versions.
+
+        During this time, users may experience not immediately see new versions of public providers and modules that have been published.
+
+        We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-03-04 18:40:34"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue. New public module and provider versions are publishing as expected.
+
+        We are continuing to monitor the situation closely and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-03-04 19:14:45"
+      description: This incident has been resolved.
+      resolved: true

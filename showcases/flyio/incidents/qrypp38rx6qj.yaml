@@ -1,0 +1,15 @@
+version: incident/v1
+id: qrypp38rx6qj
+name: Network issues in CDG
+impact: minor
+systems:
+    - 266zqs63006k
+timeline:
+    - ts: "2024-07-19 05:41:16"
+      description: Traffic to CDG may be dropped due to a routing issue outside our network. You may experience elevated packet loss and increased latency in CDG.
+      investigating: true
+    - ts: "2024-07-19 06:05:56"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-07-19 07:14:35"
+      description: This incident has been resolved.
+      resolved: true

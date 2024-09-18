@@ -1,0 +1,14 @@
+version: incident/v1
+id: 6zsdzqcsyvfz
+name: UI Account Login Partial Outage
+impact: minor
+systems:
+    - vqmcpp1kx7pf
+    - wv2xgtj1bndn
+timeline:
+    - ts: "2024-08-29 09:28:25"
+      description: An issue has been identified, and some users may be unable to log in to account.ui.com. Our teams are investigating the issue and will provide periodic updates on status.ui.com. We apologize for any inconvenience and are working to restore service as quickly as possible.
+      investigating: true
+    - ts: "2024-08-29 10:32:16"
+      description: This incident has been resolved.
+      resolved: true

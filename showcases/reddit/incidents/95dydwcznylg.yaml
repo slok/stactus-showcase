@@ -1,0 +1,13 @@
+version: incident/v1
+id: 95dydwcznylg
+name: ads.reddit.com is down
+impact: critical
+systems:
+    - 2kyn2wrh7xdk
+timeline:
+    - ts: "2024-01-22 17:56:09"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-01-22 19:27:56"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,15 @@
+version: incident/v1
+id: 1k39vcw7kl90
+name: API Errors
+impact: none
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-08-19 11:50:51"
+      description: We are currently investigating an issue impacting session starts.
+      investigating: true
+    - ts: "2024-08-19 12:02:48"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-08-19 12:23:47"
+      description: This incident has been resolved.
+      resolved: true

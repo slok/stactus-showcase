@@ -1,0 +1,21 @@
+version: incident/v1
+id: kcpnxwqxfv15
+name: App Platform Deployments &  Spaces
+impact: minor
+systems:
+    - z2cshz8pdgwj
+    - txysr8r0gn1n
+    - 66wjtpd8ngvx
+    - tz43j53blsmy
+    - w4m98sdz3szn
+    - lf2rrgctn54t
+    - rf1h8gfz4ts6
+    - bpchszdrvvc5
+    - b44h3yhj3jy5
+timeline:
+    - ts: "2024-09-18 15:02:07"
+      description: "Our Engineering team is aware of an upstream provider issue that is causing impact to some DigitalOcean services. More details are being gathered. \n\nAt this time, users may experience delayed App Platform deployments. \n\nWe apologize for the inconvenience and will provide another update as soon as possible."
+      investigating: true
+    - ts: "2024-09-18 15:30:43"
+      description: "Our Engineering team has identified that the ongoing issue with the upstream provider is also impacting DigitalOcean Spaces. During this time users may experience errors or delays when attempting to fetch the endpoints for a Spaces Buckets, or when enabling/disabling the CDN for a particular bucket. \n\nWe apologize for the inconvenience and will share an update when we have additional information."
+      investigating: true

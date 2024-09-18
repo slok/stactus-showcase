@@ -1,0 +1,16 @@
+version: incident/v1
+id: r4kxht3jcf1p
+name: Search is experiencing elevated error rates
+impact: minor
+systems: []
+timeline:
+    - ts: "2023-07-17 14:14:13"
+      description: We are currently investigating elevated search error rates
+      investigating: true
+    - ts: "2023-07-17 15:21:08"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-07-17 15:35:04"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2023-07-17 17:25:52"
+      description: This incident has been resolved.
+      resolved: true

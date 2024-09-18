@@ -1,0 +1,72 @@
+version: incident/v1
+id: n8z3pb2ty51h
+name: Data Irregularities in the EU Region
+impact: minor
+systems:
+    - d9pwhb6snl77
+    - y3p11yl1yr8m
+    - tpj67jyc58sb
+    - zsjcl7zv5sn2
+    - zj32brg420jm
+    - yqcw0krmvwj5
+    - hymb519q08z0
+    - jk2k3ln898rx
+    - fp51bfh70sht
+    - hm4r9fn1gr93
+    - 5ny464vz0n83
+    - 858xlnc93b96
+    - xzllc95t20c2
+    - vdkznxzlr7nn
+    - 8h442mvws6w7
+    - jdszr85tpvd1
+    - 0ggq3l63l1sh
+    - 15b9hc4j611g
+    - 64hk5ch1ww5b
+timeline:
+    - ts: "2023-12-05 16:03:54"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-12-05 16:09:30"
+      description: We are investigating an issue with data ingest for multiple data types. Some customers in the EU region may experience errors when sending data to New Relic, issues viewing real time data, and delayed or missing alert notifications related to real time data.
+      investigating: true
+    - ts: "2023-12-05 16:40:25"
+      description: We are continuing to investigate an issue with data ingest for multiple data types. Some customers in the EU region may experience errors when sending data to New Relic, issues viewing real time data, and delayed or missing alert notifications related to real time data. To prevent our customers from receiving a high volume of false positive alert notifications, we have temporarily suppressed notifications for affected data.
+      investigating: true
+    - ts: "2023-12-05 17:10:21"
+      description: |-
+        We are continuing to investigate an issue with data ingest for multiple data types. Some customers in the EU region may experience errors when sending data to New Relic, issues viewing real time data, and delayed or missing alert notifications related to real time data. To prevent our customers from receiving a high volume of false positive alert notifications, we have temporarily suppressed notifications for affected data.
+
+        Some customers may begin seeing the recovery of impacted services as we continue working to resolve this interruption.
+      investigating: true
+    - ts: "2023-12-05 17:28:28"
+      description: |-
+        We are continuing to investigate an issue with data ingest for multiple data types. Some customers in the EU region may experience errors when sending data to New Relic, issues viewing real time data, and delayed or missing alert notifications related to real time data. To prevent our customers from receiving a high volume of false positive alert notifications, we have temporarily suppressed notifications for affected data.
+
+        Infrastructure and metric data remain impacted, but customers may now see recovery for all other ingested data types.
+      investigating: true
+    - ts: "2023-12-05 18:00:07"
+      description: We are continuing to investigate an issue with data ingest for infrastructure data. Some customers in the EU region may experience errors when sending data to New Relic, issues viewing real time data, and delayed or missing alert notifications related to real time infrastructure data. To prevent our customers from receiving a high volume of false positive alert notifications, we have temporarily suppressed notifications for affected data.
+      investigating: true
+    - ts: "2023-12-05 18:42:56"
+      description: |-
+        We are continuing to investigate an issue with data ingest for infrastructure data. Some customers in the EU region may experience errors when sending data to New Relic, issues viewing real time data, and delayed or missing alert notifications related to real time infrastructure data. To prevent our customers from receiving a high volume of false positive alert notifications, we have temporarily suppressed notifications for affected data.
+
+        Customers may continue to see improvement as we work to recover impacted services.
+      investigating: true
+    - ts: "2023-12-05 19:15:45"
+      description: "We are continuing to investigate an issue with data ingest for infrastructure data. Updates for this interruption are suspended for one hour pending significant change in status as our teams continue their investigation. \n\nSome customers in the EU region may continue to experience errors when sending infrastructure data to New Relic, issues viewing real time infrastructure data, and delayed or missing alert notifications related to real time infrastructure data. To prevent our customers from receiving a high volume of false positive alert notifications, we have temporarily suppressed notifications for affected data."
+      investigating: true
+    - ts: "2023-12-05 20:28:36"
+      description: Customers may continue to see improvement of impacted services as we work to investigate issues impacting ingested infrastructure data in the EU region. To prevent our customers from receiving a high volume of false positive alert notifications, notifications for impacted data will remain temporarily suppressed. Updates for this interruption are suspended for one hour pending significant change in status as our teams continue their investigation.
+      investigating: true
+    - ts: "2023-12-05 21:28:01"
+      description: |-
+        Our teams are continuing to investigate issues with data ingest for multiple data types. Some customers in the EU region may experience intermittent errors when sending data to New Relic, issues viewing real time data, and delayed or missing alert notifications related to real time data. To prevent our customers from receiving a high volume of false positive alert notifications, we have temporarily suppressed notifications for affected data.
+
+        Updates for this interruption are suspended for one hour pending significant change in status as our teams continue their investigation.
+      investigating: true
+    - ts: "2023-12-05 22:08:22"
+      description: "Our teams are continuing to investigate issues with data ingest for multiple data types. Some customers in the EU region may experience intermittent errors when sending data to New Relic, issues viewing real time data, and delayed or missing alert notifications related to real time data. \n\nWe are seeing recovery of affected services at this time and have disabled alert notification suppression as a result. We're monitoring as services recover and will provide an additional update once we've fully validated that all affected services have returned to normal operation."
+    - ts: "2023-12-05 22:48:28"
+      description: "Between 15:23 UTC and 22:07 UTC on December 5th, some customers in the EU region may have experienced errors when sending data to New Relic, issues viewing real time data, and delayed or missing alert notifications related to real time data. To prevent our customers from receiving a high volume of false positive alert notifications, we temporarily suppressed notifications for affected data intermittently during this timeframe. \n\nWe have investigated and resolved this service interruption and impacted services have returned to normal operations."
+      resolved: true

@@ -1,0 +1,15 @@
+version: incident/v1
+id: 3tsgxlp8hqzc
+name: Machines API lease acquisition failures
+impact: minor
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2024-08-26 10:29:10"
+      description: We are currently investigating an issue whereby some users may be experiencing trouble related to Machine leases. This affects Machines API users as well Fly CLI users.
+      investigating: true
+    - ts: "2024-08-26 16:02:58"
+      description: "We have identified the issue affecting Machine leases, which was impacting both Machines API and Fly CLI users. The problem has now been mitigated, and services are returning to normal. \nWe will continue to monitor the situation to ensure full stability."
+    - ts: "2024-08-26 17:14:45"
+      description: The issue affecting Machine leases for API and CLI users is now resolved. All systems are back to normal.
+      resolved: true

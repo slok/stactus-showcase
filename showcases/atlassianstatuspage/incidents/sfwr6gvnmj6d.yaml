@@ -1,0 +1,9 @@
+version: incident/v1
+id: sfwr6gvnmj6d
+name: Errant deploy. Successfully rolled back to previous version.
+impact: major
+systems: []
+timeline:
+    - ts: "2021-12-10 08:28:12"
+      description: A recent deploy was found to contain errors or significant performance degradations. Our infrastructure has been successfully rolled back to a previous version of the code, and traffic is being served as normal again.
+      resolved: true

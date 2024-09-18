@@ -1,0 +1,21 @@
+version: incident/v1
+id: l146ld4zyx19
+name: canvas.mit.edu - Some users may be experiencing slowness
+impact: minor
+systems:
+    - nnqd6kx93rnc
+timeline:
+    - ts: "2024-08-26 11:10:23"
+      description: |-
+        Some users may experience slowness when accessing https://canvas.mit.edu. Instructure is continuing to investigate this issue with the Canvas service. Any updates from Instructure can be found at https://status.instructure.com.
+
+        MIT will update 3down as we receive additional information from Instructure.
+      investigating: true
+    - ts: "2024-08-26 12:54:32"
+      description: |-
+        Instructure has implemented a fix and we are monitoring the results to verify that Canvas access is no longer impacted.
+
+        Any updates from Instructure can be found at https://status.instructure.com.
+    - ts: "2024-08-26 16:26:30"
+      description: Instructure has resolved this issue successfully.
+      resolved: true

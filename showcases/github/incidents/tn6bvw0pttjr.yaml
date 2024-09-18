@@ -1,0 +1,16 @@
+version: incident/v1
+id: tn6bvw0pttjr
+name: Incident with Codespaces
+impact: minor
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2024-05-23 15:31:50"
+      description: We are investigating reports of degraded performance for Codespaces
+      investigating: true
+    - ts: "2024-05-23 15:41:59"
+      description: We are investigating increased error rates for customers attempting to start Codespaces across all regions, around 15% of attempts are affected. Any affected customers may attempt to retry starting their Codespace. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-05-23 16:02:48"
+      description: On May 23, 2024 between 15:31 and 16:02 the Codespaces service reported a degraded experience in codespaces across all regions. Upon further investigation this was found to be an error reporting issue and did not have user facing impact. The new error reporting that was implemented began raising on existing non-user facing errors that are handled further in the flow, at the controller level, which do not cause user impact. We are working to improve our reporting roll out process to reduce issues like this in the future which includes updating monitors and dashboards to exclude this class of error. We are also reclassifying and correcting internal API responses to better represent when errors are user facing for more accurate reporting.
+      resolved: true

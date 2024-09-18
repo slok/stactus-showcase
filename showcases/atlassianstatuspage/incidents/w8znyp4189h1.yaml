@@ -1,0 +1,12 @@
+version: incident/v1
+id: w8znyp4189h1
+name: Error responses across multiple Cloud products
+impact: minor
+systems:
+    - wgxgj3x4gjyy
+timeline:
+    - ts: "2024-06-03 16:26:21"
+      description: We are investigating an issue with error responses for some Cloud customers across multiple products. We have identified the root cause and expect recovery shortly. In the meantime, we have enabled the alternative login option for Statuspage, so that our customer can still log in to their Statuspages.
+    - ts: "2024-06-03 17:14:00"
+      description: This incident has been resolved.
+      resolved: true

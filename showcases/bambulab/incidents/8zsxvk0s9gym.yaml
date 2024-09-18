@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8zsxvk0s9gym
+name: 3rd Party Login Failure
+impact: major
+systems: []
+timeline:
+    - ts: "2023-09-07 04:35:57"
+      description: From 2023/09/06 16:40 to 2023/09/07 01:08 UTC, Users may not be able to login through google or facebook caused by fault of 3rd party login component.
+      resolved: true

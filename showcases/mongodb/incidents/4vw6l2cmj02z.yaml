@@ -1,0 +1,17 @@
+version: incident/v1
+id: 4vw6l2cmj02z
+name: 'MongoDB Atlas for Government: Cluster Operations Delayed'
+impact: minor
+systems:
+    - q57ng8brt2td
+timeline:
+    - ts: "2024-05-13 15:21:03"
+      description: We are currently investigating an issue causing delays to all cluster operations including, but not limited to create, update, and delete in MongoDB Atlas for Government.
+      investigating: true
+    - ts: "2024-05-13 15:22:12"
+      description: We have identified the cause of the issue and are in the process of remediation.
+    - ts: "2024-05-13 15:39:24"
+      description: A fix has been put in place, and we are monitoring closely.
+    - ts: "2024-05-13 15:47:03"
+      description: This issue has been fully resolved. Thank you for your patience.
+      resolved: true

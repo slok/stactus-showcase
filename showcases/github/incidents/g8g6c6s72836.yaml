@@ -1,0 +1,25 @@
+version: incident/v1
+id: g8g6c6s72836
+name: Incident with Copilot
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2024-05-30 17:14:05"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-05-30 17:14:27"
+      description: Our CoPilot API is currently experiencing back-end connectivity issues and we are actively engaged in mitigation steps.
+      investigating: true
+    - ts: "2024-05-30 17:14:52"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-05-30 17:22:37"
+      description: We have rolled out mitigation and fixes appear to be stable. This incident has been resolved.
+      investigating: true
+    - ts: "2024-05-30 17:22:55"
+      description: Copilot is operating normally.
+      investigating: true
+    - ts: "2024-05-30 17:22:55"
+      description: On May 30th, 2024, between 03:37 PM UTC and 05:14 PM UTC Copilot chat conversations on github.com saw degraded availability, where chat requests referencing files from a repository failed. This was due to an expired security certificate, which required communication to an internal service. Overall, the error rate was 40% on average. Other Copilot chat experiences were unaffected during this time.<br /><br />The incident was mitigated by rotating the certificate in question.<br /><br />To prevent future incidents, we are working to reduce our time to detect and have removed certificate-based dependencies between these internal systems in the process.<br />
+      resolved: true

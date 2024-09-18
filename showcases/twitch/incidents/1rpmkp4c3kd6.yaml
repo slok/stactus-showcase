@@ -1,0 +1,12 @@
+version: incident/v1
+id: 1rpmkp4c3kd6
+name: Identified Chat Issues
+impact: minor
+systems:
+    - 4qrh4gj6bgt2
+timeline:
+    - ts: "2022-05-20 20:42:09"
+      description: "\U0001F6E0 We have identified an issue causing chat to not work for some users. We're currently working to resolve this issue."
+    - ts: "2022-05-20 21:28:12"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,13 @@
+version: incident/v1
+id: 5s12c7mbdh28
+name: Advertiser dashboard issue
+impact: major
+systems:
+    - 2kyn2wrh7xdk
+timeline:
+    - ts: "2023-09-20 09:15:34"
+      description: We are investigating intermittent failures for dashboard visualizations
+      investigating: true
+    - ts: "2023-09-20 10:07:17"
+      description: This incident has been resolved.
+      resolved: true

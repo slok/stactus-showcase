@@ -1,0 +1,9 @@
+version: incident/v1
+id: q3rsk1fqxlzd
+name: Synthetics MultiHTTP checks failing in Sao Paulo, Seoul, and Mumbai probe locations
+impact: none
+systems: []
+timeline:
+    - ts: "2024-07-19 16:35:31"
+      description: The incident began at 01:30 UTC.  We saw a 100% failure rate for multiHTTP checks in Sao Paulo, Seoul, and Mumbai.  All other check types are running normally.  The incident was resolved at 15:00 UTC
+      resolved: true

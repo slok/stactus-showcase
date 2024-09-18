@@ -1,0 +1,15 @@
+version: incident/v1
+id: 00tnd0jq9zzc
+name: DNS Analytics Delays
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2024-09-09 20:20:41"
+      description: Cloudflare DNS Analytics processing is running behind. This affects timely delivery of customer data.
+      investigating: true
+    - ts: "2024-09-09 20:35:13"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-09 20:48:52"
+      description: The fix was implemented and confirmed effective. This incident is now resolved.
+      resolved: true

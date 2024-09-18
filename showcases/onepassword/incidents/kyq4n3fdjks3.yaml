@@ -1,0 +1,12 @@
+version: incident/v1
+id: kyq4n3fdjks3
+name: Service degradation
+impact: none
+systems: []
+timeline:
+    - ts: "2017-10-31 16:52:37"
+      description: We are experiencing service degradation for 1password.com. Investigating.
+      investigating: true
+    - ts: "2017-10-31 19:18:42"
+      description: we are back, the service was down between 16:40 and 18:22 Eastern time. We are continuing to work hard on the solution.
+      resolved: true

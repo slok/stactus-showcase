@@ -1,0 +1,16 @@
+version: incident/v1
+id: fdnqx6wd1h0g
+name: Identified Purchases Issues
+impact: none
+systems:
+    - ys9m23jjzpg0
+timeline:
+    - ts: "2022-01-25 20:01:56"
+      description: "\U0001F6E0 We have identified an issue causing some users to be unable to make purchases. We're currently working to resolve this issue."
+    - ts: "2022-01-25 21:30:33"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2022-01-25 22:29:53"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2022-01-25 22:30:04"
+      description: This incident has been resolved.
+      resolved: true

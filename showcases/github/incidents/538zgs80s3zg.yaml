@@ -1,0 +1,15 @@
+version: incident/v1
+id: 538zgs80s3zg
+name: Disruption with GitHub services
+impact: major
+systems: []
+timeline:
+    - ts: "2024-06-27 21:16:08"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-06-27 21:20:23"
+      description: Some GitHub Enterprise Importer migrations are failing. We have identified a root cause and are rolling out a fix.
+      investigating: true
+    - ts: "2024-06-27 21:42:14"
+      description: Between June 27th, 2024 at 20:39 UTC and 21:37 UTC the Migrations service was unable to process migrations. This was due to a invalid infrastructure credential. <br /><br />We mitigated the issue by updating the credential and deploying the service. <br /><br />Mechanisms and automation will be implemented to detect and prevent this issue again in the future.
+      resolved: true

@@ -1,0 +1,17 @@
+version: incident/v1
+id: 2l28kb9h9gbg
+name: Atlas Cluster creation and metrics delay for Atlas For Government
+impact: minor
+systems:
+    - q57ng8brt2td
+timeline:
+    - ts: "2024-03-11 22:08:30"
+      description: Our Atlas for Government environment is experiencing delays in cluster creation and monitoring metrics.
+      investigating: true
+    - ts: "2024-03-11 22:10:09"
+      description: We have identified the issue, and expect a full recovery within 15 minutes.
+    - ts: "2024-03-11 22:23:27"
+      description: A fix has been implemented as we are monitoring the results.
+    - ts: "2024-03-11 22:39:30"
+      description: This incident has been resolved.
+      resolved: true

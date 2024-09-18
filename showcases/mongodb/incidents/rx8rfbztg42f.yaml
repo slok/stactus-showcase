@@ -1,0 +1,14 @@
+version: incident/v1
+id: rx8rfbztg42f
+name: Data Federation errors when querying user-owned Azure containers
+impact: minor
+systems:
+    - lh7m7lhnf3rj
+timeline:
+    - ts: "2024-05-02 19:58:25"
+      description: We've identified an issue that may cause Data Federation queries against data in user-owned Azure containers to fail and are working on a fix. Queries against Atlas clusters and Online Archives are unaffected.
+    - ts: "2024-05-02 20:14:51"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-05-02 20:25:17"
+      description: This incident has been resolved.
+      resolved: true

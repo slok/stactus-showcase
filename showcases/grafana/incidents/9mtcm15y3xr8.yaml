@@ -1,0 +1,9 @@
+version: incident/v1
+id: 9mtcm15y3xr8
+name: Synthetic monitoring scripted and multihttp tests not executing (all public probes)
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-07-05 13:50:17"
+      description: Between 10:45 UTC and 11:05 UTC we experienced an outage with scripted and multi-http test executions across all public probe locations.  These two check types were not executing tests, so you may see gaps in the synthetics metrics and logs in that window.   Protocol-level test executions (ping, dns, tcp, http, traceroute) were unaffected.  As of 11:05 UTC the incident is resolved and all check types are executing normally.
+      resolved: true

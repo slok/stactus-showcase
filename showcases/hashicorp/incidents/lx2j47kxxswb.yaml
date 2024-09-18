@@ -1,0 +1,20 @@
+version: incident/v1
+id: lx2j47kxxswb
+name: HCP Terraform Latency Degradation
+impact: major
+systems:
+    - 7cgbxrw10wgr
+timeline:
+    - ts: "2024-09-04 22:36:33"
+      description: |-
+        Our engineering team is investigating an issue with TFC Agents experiencing elevated latency and increased errors.
+
+        During this time customers may experience Terraform Runs getting stuck, and we ask that you do not retry them at this time.
+
+        We will share another update as soon as we have more information or in 30 minutes.
+      investigating: true
+    - ts: "2024-09-04 23:01:07"
+      description: The systems are beginning to show resolution and return to health. Our engineering team will continue to monitor
+    - ts: "2024-09-04 23:33:52"
+      description: Our engineers have validated the healthy state of our systems
+      resolved: true

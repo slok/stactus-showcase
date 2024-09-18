@@ -1,0 +1,55 @@
+version: incident/v1
+id: mm3qq4z5q9rf
+name: Creation of Load Balancers and Mongo Managed Databases
+impact: minor
+systems:
+    - xmrt3s9p9lw7
+    - msbt8b9p1p0q
+    - q332gmv27njg
+    - tzjfd82zn341
+    - k3lz9cdfxr5h
+    - ttltt91ldz3g
+    - 566bp0vk7mwx
+    - 76vqxw3xnwh9
+    - l8lxzfpgpc39
+    - ymz9qzqj9rxv
+    - 2tfqdy27151t
+    - 79j9sw2l27cv
+    - jzv4wms5qc33
+    - dthxlw365zmm
+    - d2m7jh32j7z1
+    - dzkmyxfh1rf0
+    - 2vpzq3ytx996
+    - vzxxv27h45m4
+    - 12w0d51pyjvh
+    - gt78t0v1dx9k
+    - 83tzdysp693h
+    - s9txl6g88v1z
+    - x94k17yvyvj7
+    - qkrqphz8r8d0
+    - 2d91fg0js59k
+    - 2cvhn89gxfk8
+    - 40f2th6p044g
+    - q9wrfk6yn5m8
+    - 29xvj6jck5fm
+    - qpfd9tcp5dp7
+    - xr6mrvgw7q9c
+    - 9mrvzmdgkksr
+    - y24751gr0df8
+    - k0svklf2hmb4
+    - 5v01jvb2gwjz
+    - xmjmwjbpgls5
+    - 3k1h85kh76zy
+timeline:
+    - ts: "2024-07-10 18:02:02"
+      description: Our Engineering team is investigating an issue with creation of Load Balancers, Managed Databases, and Managed Kubernetes clusters in all regions, via both the Cloud Control Panel and API. During this time, users may see success messages when initially creating resources, but those requests will not complete. We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2024-07-10 18:14:55"
+      description: "After further investigation, our Engineering team has confirmed that only Mongo Managed Database creates are impacted, along with Load Balancers. Managed Kubernetes is not impacted by this incident. \nA potential fix is currently in progress. We will provide another update as soon as possible."
+    - ts: "2024-07-10 19:02:52"
+      description: The potential fix has completed deployment and has been confirmed to address the root cause of this incident. Users should now be able to create Load Balancers and Mongo Managed Database. Our Engineering team is monitoring the situation and we will post an update as soon as we confirm the issue is fully resolved.
+    - ts: "2024-07-10 19:50:42"
+      description: "From 16:24 - 18:44 UTC, Load Balancers and Mongo Managed Databases failed to create successfully. Users experienced success messages, but the create processes did not complete as expected. \n\nAs of 18:44 UTC, users are able to create Load Balancers and Mongo clusters normally. \n\nAs of 19:00 UTC, all stalled Load Balancer creation operations were completed. \n\nOur Engineering team is working to remediate a small number of stalled Mongo cluster creation attempts from the incident impact period. Users may await these remediation efforts, or simply create a new cluster, which will be successful. \n\nWe will post a final update once all stalled clusters have been remediated."
+    - ts: "2024-07-10 20:26:24"
+      description: "Our Engineering team has completed remediation of the previously stalled Mongo clusters and those clusters are now online. \n\nThis incident is now fully resolved. If you have any questions or continue to experience issues, please reach out to Support from within your account. \n\nThank you for your patience throughout this incident."
+      resolved: true

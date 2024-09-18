@@ -1,0 +1,9 @@
+version: incident/v1
+id: g2026dmwcx0v
+name: Grafana Instance Outage
+impact: none
+systems: []
+timeline:
+    - ts: "2024-05-14 15:52:20"
+      description: From approximately 15:15-15:30, Grafana Cloud users may have experienced issues accessing their instance. This has been resolved and users in all Grafana Cloud regions should no longer experience this behavior.
+      resolved: true

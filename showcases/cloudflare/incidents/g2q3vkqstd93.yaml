@@ -1,0 +1,19 @@
+version: incident/v1
+id: g2q3vkqstd93
+name: Issues with Cloudflare Notifications
+impact: minor
+systems:
+    - 5xvn0m7tthlf
+timeline:
+    - ts: "2024-08-30 15:46:05"
+      description: |-
+        Cloudflare is investigating issues where customers may be unable to create certain alert types for Cloudflare notifications, or fail to receive them.
+        These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+      investigating: true
+    - ts: "2024-08-30 15:54:15"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-08-30 16:09:20"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-08-30 16:15:42"
+      description: This incident has been resolved.
+      resolved: true

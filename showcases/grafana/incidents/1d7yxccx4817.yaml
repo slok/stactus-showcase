@@ -1,0 +1,14 @@
+version: incident/v1
+id: 1d7yxccx4817
+name: Span and Service Graph Metrics delayed in AWS Singapore (prod-ap-southeast-1)
+impact: minor
+systems:
+    - 22ys7hx3f2xw
+    - cj4g0jqw7q18
+    - ldbq9842dl0v
+timeline:
+    - ts: "2024-06-24 22:55:11"
+      description: We are currently investigating this issue.
+    - ts: "2024-06-25 13:27:54"
+      description: We continue to observe a continued period of recovery. At this time, we are considering this issue resolved. No further updates.
+      resolved: true

@@ -1,0 +1,30 @@
+version: incident/v1
+id: glscmk7cty68
+name: 'Microsoft Azure Incident: Delayed Cluster Operations'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-06-14 22:02:10"
+      description: |-
+        Microsoft Azure is experiencing an issue with the Azure Resource Manager for Virtual Machines in East US 2 region. As a result, users may experience delays creating, updating or deleting clusters in this region.
+
+        Further incident details may be found in the Service Health Dashboard in your Microsoft Azure Portal.
+      investigating: true
+    - ts: "2024-06-14 22:02:44"
+      description: We are monitoring the service issue.
+    - ts: "2024-06-14 23:35:37"
+      description: "Microsoft Azure updated the Service Health Dashboard to indicate Azure Resource Manager errors in East US 2 region may also be experienced globally for resources hosted on that service.\n\nThey are working on a mitigation strategy for this incident. \n\nWe will continue to monitor the service issue and provide updates when possible."
+    - ts: "2024-06-15 02:56:44"
+      description: |-
+        Microsoft Azure updated the Service Health Dashboard to indicate they expect full mitigation within the next hour.
+
+        We will continue to monitor the service issue and provide updates when possible.
+    - ts: "2024-06-15 03:20:41"
+      description: |-
+        Microsoft Azure updated the Service Health Dashboard to indicate they confirm the infrastructure issue is resolved but continue to monitor before declaring full mitigation.
+
+        We are monitoring Atlas cluster deployments for any residual effects and will mitigate any issues if necessary.
+    - ts: "2024-06-15 04:25:56"
+      description: This incident has been resolved.
+      resolved: true

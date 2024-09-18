@@ -1,0 +1,15 @@
+version: incident/v1
+id: vp6j98c6k5yj
+name: Degraded metrics for some customers.
+impact: minor
+systems:
+    - 76gd22w5ys6c
+timeline:
+    - ts: "2024-05-21 19:09:24"
+      description: At approximately 5:52pm UTC our team noticed that some customers were experiencing metrics degradation. All writes/traceql searches are still operational. We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-05-21 19:22:12"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-05-21 21:04:46"
+      description: This incident has been resolved.
+      resolved: true

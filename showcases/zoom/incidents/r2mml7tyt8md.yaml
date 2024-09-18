@@ -1,0 +1,21 @@
+version: incident/v1
+id: r2mml7tyt8md
+name: Issue with Smart Notes feature in the Zoom Contact Center
+impact: minor
+systems:
+    - jmnt9sm0q4b2
+timeline:
+    - ts: "2024-08-13 09:03:49"
+      description: Our monitoring has detected an issue with the Smart Notes feature in Zoom Contact Center system.  We are currently investigating and will provide updates as we have them.
+      investigating: true
+    - ts: "2024-08-13 09:57:42"
+      description: We continue to investigate an issue with the Smart Notes feature in Zoom Contact Center system.  We will continue to provide updates as we have them.
+      investigating: true
+    - ts: "2024-08-13 11:22:30"
+      description: We continue to investigate an issue with the Smart Notes feature in Zoom Contact Center system.  We will continue to provide updates as we have them.
+      investigating: true
+    - ts: "2024-08-13 12:13:02"
+      description: We have resolved the issue with the Smart Notes feature in Zoom Contact Center system. We will continue to monitor and provide updates as we have them.
+    - ts: "2024-08-13 12:24:49"
+      description: This incident has been resolved.
+      resolved: true

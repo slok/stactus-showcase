@@ -1,0 +1,18 @@
+version: incident/v1
+id: nw0v2q6qqkrh
+name: Partial Outage of Admin Console Affecting Multiple Regions and Enterprise Customers
+impact: major
+systems:
+    - nb2s2j09f6sc
+    - nz7h9pkyk9k9
+    - gvwljrxrbrbl
+    - 89gvq67r0l5m
+timeline:
+    - ts: "2024-05-29 10:26:50"
+      description: The incident affects the admin console functionality for customers in various regions, including the USA, Canada, Europe, and Enterprise customers. The issue is causing a partial outage of the admin console, impacting users' ability to access key administrative features and functionalities, such as managing groups, users, and activity logs. The team has identified several customers who have reported encountering this issue, which appears to be affecting a subset of users.
+      investigating: true
+    - ts: "2024-05-29 11:14:43"
+      description: The team has identified a fix for this issue.
+    - ts: "2024-05-29 14:03:50"
+      description: This incident has been resolved.
+      resolved: true

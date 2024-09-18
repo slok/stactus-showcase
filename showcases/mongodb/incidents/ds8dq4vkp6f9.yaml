@@ -1,0 +1,53 @@
+version: incident/v1
+id: ds8dq4vkp6f9
+name: Delayed cluster modifications
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-06-03 18:45:26"
+      description: We are currently investigating an issue that is causing delays in all cluster updates across all cloud providers.
+      investigating: true
+    - ts: "2024-06-03 19:22:37"
+      description: We have identified that usages of Data Explorer may be delayed or unresponsive during this time. Additionally, certain operations in the Real-Time Performance Panel may not work. Lower granularities of metrics for recent time periods may also be unavailable.
+      investigating: true
+    - ts: "2024-06-03 20:21:32"
+      description: We are continuing to investigate and will post another update in 30 minutes
+      investigating: true
+    - ts: "2024-06-03 20:55:04"
+      description: We are continuing to investigate and will post another update in 30 minutes.
+      investigating: true
+    - ts: "2024-06-03 21:31:40"
+      description: We have identified the root cause and have begun the recovery procedure. We will post another update within the next 30 minutes.
+      investigating: true
+    - ts: "2024-06-03 21:44:42"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-06-03 22:11:30"
+      description: We are continuing to execute recovery procedures. Data Explorer and Real Time Performance Panel are fully operational. Cluster operations are recovering but still delayed. Lower granularities of metrics for recent time periods may continue to be unavailable. We will post another update in 30 minutes.
+    - ts: "2024-06-03 23:07:52"
+      description: We continue to recover. Cluster operations submitted between 18:45 UTC and 21:55 UTC may continue to be delayed or delay subsequent changes. All other cluster operations submitted from this point forward should execute normally. Normal cluster operation is expected to resume within the next hour (by 00:00 UTC). Lower granularities of metrics for recent time periods may continue to be unavailable for the next five hours (until 04:00 UTC).
+    - ts: "2024-06-04 00:09:58"
+      description: Recovery procedures are complete, and we are continuing to monitor closely.
+    - ts: "2024-06-04 02:11:07"
+      description: This incident has been resolved.
+      resolved: true
+    - ts: "2024-06-11 18:39:00"
+      description: |-
+        ### **Incident Summary**
+
+        Between June 3rd 2024, 18:24 UTC and June 4th, 1:21 UTC, MongoDB Atlas customers across all commercial regions experienced degradation of the following functionalities.
+
+        Changes to cluster configuration, both in response to API calls and automated triggers \(e.g., auto-scaling or node replacement\) were executed with delays varying between a few minutes and several hours. Similar delays applied to Alert processing, impacting both the Atlas built-in Alert functionality and integrations such as Datadog and PagerDuty. Part of the daily cost tabulation for compute, storage and data transfer on June 3rd will be delayed to June 6th or June 7th. Lower granularities of cluster metrics were unavailable until up to 1:56 UTC. Finally, the Data Explorer and Realtime Performance Panel UIs were impaired for several hours.
+
+        ### **Root Cause**
+
+        The root cause of this incident was an unexpected failure during an Atlas internal maintenance activity. A planned migration of metadata for an internal workflow management system that backs the Atlas control plane resulted in unexpected resource congestion on the target database cluster as traffic was redirected to the target. This issue did not occur during pre-production testing. The rollback process required complex reconciliation of data in the source and target databases, delaying recovery.
+
+        ### **MongoDB Actions**
+
+        The MongoDB Atlas team is designing a new metadata migration strategy for future maintenance activities. This process will allow for rollback within less than 15 minutes of detecting a potential issue. We will not execute similar maintenance activities until this procedure is implemented and thoroughly tested.
+
+        ### Recommended Customer Actions
+
+        This issue was fully eliminated by the MongoDB Atlas team and does not require customer action.

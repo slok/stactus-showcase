@@ -1,0 +1,23 @@
+version: incident/v1
+id: qnym3bvnhshj
+name: TFC Degredation and partial VCS outage
+impact: minor
+systems:
+    - 7cgbxrw10wgr
+timeline:
+    - ts: "2024-03-08 17:03:03"
+      description: |-
+        Our engineering team is investigating an issue with elevated 500 errors in Terraform Cloud, particularly for VCS integrated resources.
+
+        During this time, users may experience the following: 500 errors for requests on VCS integrated resources (workspaces, modules, policy sets) and failure to ingest those resources when triggered from webhooks.
+
+        We will share another update in 30 minutes.
+      investigating: true
+    - ts: "2024-03-08 17:23:32"
+      description: 'We''ve identified the issue: a routine database migration caused elevated application errors. It has completed, and Terraform Cloud appears to have recovered. We''re monitoring the situation.'
+    - ts: "2024-03-08 17:39:50"
+      description: |-
+        Terraform Cloud systems have returned to normal operations.
+
+        Customers may note that some VCS connected resources (Workspaces, Policy Sets, Registry Modules) have failed to ingest into Terraform Cloud, and may need to be retried now that the incident has passed.
+      resolved: true

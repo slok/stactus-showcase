@@ -1,0 +1,19 @@
+version: incident/v1
+id: 968gxmyk3zdb
+name: Degraded Web Application Performance
+impact: minor
+systems:
+    - qrnng5l7z80l
+    - b5fx9rfn6137
+timeline:
+    - ts: "2024-09-11 15:17:09"
+      description: We are investigating degraded performance with the web application related to metrics-based widgets.
+      investigating: true
+    - ts: "2024-09-11 15:28:29"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-09-11 15:46:50"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-11 15:57:26"
+      description: This incident has been resolved.
+      resolved: true

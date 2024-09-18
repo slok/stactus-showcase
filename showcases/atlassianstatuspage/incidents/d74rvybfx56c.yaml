@@ -1,0 +1,18 @@
+version: incident/v1
+id: d74rvybfx56c
+name: Login failures
+impact: minor
+systems:
+    - 0y0vb583m5g9
+    - fyzs60wyq01d
+timeline:
+    - ts: "2022-05-14 12:16:15"
+      description: We are currently investigating failed logins when users are accessing Statuspage
+      investigating: true
+    - ts: "2022-05-14 12:32:04"
+      description: We have identified the issue and are working on a resolution now
+    - ts: "2022-05-14 12:48:06"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2022-05-14 13:16:03"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,19 @@
+version: incident/v1
+id: 1702htcwwhq0
+name: Degraded performance on 1password.com
+impact: minor
+systems: []
+timeline:
+    - ts: "2023-02-21 14:37:15"
+      description: |-
+        We are seeing multiple reports of failed connections and issues with login to 1password.com.
+        Our team is currently investigating the cause.
+      investigating: true
+    - ts: "2023-02-21 14:40:41"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-02-21 14:47:47"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-02-21 15:04:51"
+      description: This incident has been resolved.
+      resolved: true

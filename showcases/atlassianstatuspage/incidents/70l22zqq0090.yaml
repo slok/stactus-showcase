@@ -1,0 +1,50 @@
+version: incident/v1
+id: 70l22zqq0090
+name: Issues With Login
+impact: minor
+systems:
+    - 0y0vb583m5g9
+timeline:
+    - ts: "2022-03-14 07:10:31"
+      description: We have identified and mitigated an issue with users logging in to Statuspage starting at 6:05am PST and ending at 6:46am PST and are monitoring the results.
+    - ts: "2022-03-14 07:28:08"
+      description: This incident has been resolved.
+      resolved: true
+    - ts: "2022-03-22 08:58:19"
+      description: |-
+        ### **SUMMARY**
+
+        On March 14, 2022, between 01:05pm and 01:47pm UTC, some Atlassian customers were unable to login to our products including Trello and Statuspage, and could not access some services including the ability to create support tickets. The underlying cause was a newly introduced configuration data store that did not scale up properly due to a misconfiguration of autoscaling.
+
+        The incident was detected by Atlassian's automated monitoring system and mitigated by disabling the use of the new configuration datastore which put our systems into a known good state. The total time to resolution was approximately 42 minutes.
+
+        ### **IMPACT**
+
+        The overall impact was between March 14 2022, 01:05 PM UTC and March 14, 2022, 01:47 PM UTC across seven products and services. The bug impacted several of the key dependent services which resulted in an outage for end users, leading to failed logins across the following products and services:
+
+        * [**getsupport.atlassian.com**](http://getsupport.atlassian.com)
+        * [**confluence.atlassian.com**](http://confluence.atlassian.com)
+        * [**jira.atlassian.com**](http://jira.atlassian.com)
+        * [**partners-jira.atlassian.com**](http://partners-jira.atlassian.com)
+        * [**community.atlassian.com**](http://community.atlassian.com)
+        * [**manage.statuspage.io**](http://manage.statuspage.io)
+        * [**trello.com**](http://trello.com)
+        * [**university.atlassian.com**](http://university.atlassian.com)
+
+        ### **ROOT CAUSE**
+
+        The issue was caused by an underlying configuration data store based on AWS DynamoDB failing to scale up. During post-setup fine-tuning it was identified that initial values for the read capacity units \(RCUs\) and write capacity units \(RCUs\) were over-provisioned. As a result a decision was made to decrease them however the resulting values proved to be insufficient to handle the increased traffic in our system.
+
+        ### **REMEDIAL ACTIONS PLAN & NEXT STEPS**
+
+        We're prioritizing the following improvement actions to avoid repeating this type of incident:
+
+        * Fix the configuration so that the new configuration data store dynamically scales-up regardless of the size of the incoming traffic.
+        * Conduct more thorough capacity planning and load testing.
+        * Improve the resilience of the system by adding fallbacks to our secondary data store.
+
+        We apologize to customers whose services were impacted during this incident; we are taking immediate steps to improve the platform’s performance and availability.
+
+        Thanks,
+
+        Atlassian Customer Support

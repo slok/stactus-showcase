@@ -1,0 +1,13 @@
+version: incident/v1
+id: l0kxtksncqk8
+name: File sharing disruption
+impact: minor
+systems:
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2023-05-30 18:51:48"
+      description: We are investigating an issue some users are experiencing when trying to share Figma and FigJam files.
+      investigating: true
+    - ts: "2023-05-30 19:17:14"
+      description: We've implemented a fix for the sharing experience. If you are still experiencing an issue, please close the Share window and re-open it.
+      resolved: true

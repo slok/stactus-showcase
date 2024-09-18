@@ -1,0 +1,21 @@
+version: incident/v1
+id: 987wcn83fm3k
+name: SMS Delivery Delays to TelCel Network in Mexico
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2024-09-09 19:07:31"
+      description: We are experiencing SMS delivery delays when sending messages to TelCel network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-09 20:00:25"
+      description: We continue to experience SMS delivery delays when sending messages to TelCel network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-09 21:53:48"
+      description: We are still experiencing SMS delivery delays when sending messages to TelCel network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-10 00:04:59"
+      description: We are observing recovery in SMS delivery delays when sending messages to TelCel network in Mexico. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-09-10 01:58:48"
+      description: We are no longer experiencing SMS delivery delays when sending messages to TelCel Network in Mexico. This incident has been resolved.
+      resolved: true

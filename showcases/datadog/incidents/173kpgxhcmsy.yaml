@@ -1,0 +1,27 @@
+version: incident/v1
+id: 173kpgxhcmsy
+name: Delayed Synthetics tests results
+impact: minor
+systems:
+    - s66ymj7q3sdd
+timeline:
+    - ts: "2023-04-17 06:04:01"
+      description: |-
+        We have identified an issue that resulted in an increased latency processing Synthetics tests results and are working on a fix.
+        As a result of this issue, some users may see delays with test results and in notifications based on this test data.
+    - ts: "2023-04-17 06:25:27"
+      description: |-
+        We have deployed a fix and we are monitoring the results.
+        It is important to note that no data has been lost, and it will be backfilled and available once the service is operational again.	
+
+        We will provide another update once the issue is fully resolved.
+    - ts: "2023-04-17 08:34:59"
+      description: |-
+        All services are fully operational and processing live data.
+
+        We have started to backfill Synthetics tests results and will provide another update once the backfills are finished.
+    - ts: "2023-04-17 09:55:48"
+      description: |-
+        Backfill is finished.
+        This incident has been resolved.
+      resolved: true

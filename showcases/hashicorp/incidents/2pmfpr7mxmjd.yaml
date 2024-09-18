@@ -1,0 +1,19 @@
+version: incident/v1
+id: 2pmfpr7mxmjd
+name: Identified an incident
+impact: minor
+systems:
+    - mgv1p2j9x444
+timeline:
+    - ts: "2024-07-23 11:58:47"
+      description: "Our Engineering team has identified the cause for the following incident: \n\nSome users may experience issues deleting SAML configurations. \n\nWe are actively working on a fix. Once we have additional information, we will share another update."
+    - ts: "2024-07-23 13:57:05"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue with:
+
+        User may have experienced issues with deleting SAML configurations. The issues has been resolved and deleting SAML configurations should work again.
+
+        We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-07-23 17:15:28"
+      description: "Our Engineering team has resolved the following issue: \n\nSome user might have experienced issues while deleting SAML configurations. \n\nThese systems should now be operating normally. If you continue to experience any problems, please open a ticket with our support team."
+      resolved: true

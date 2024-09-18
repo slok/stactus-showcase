@@ -1,0 +1,15 @@
+version: incident/v1
+id: jnj1y9f5c1r8
+name: Network Issues Affecting Service Reachability
+impact: minor
+systems:
+    - 8qwmwg7ytljv
+timeline:
+    - ts: "2024-09-17 18:48:21"
+      description: We are currently investigating reports of certain IPv4 prefixes being unreachable, which is affecting certain Cloudflare CDN and application security services.
+      investigating: true
+    - ts: "2024-09-17 18:55:34"
+      description: The cause of this issue was identified and a fix has been implemented. We are currently monitoring the results.
+    - ts: "2024-09-17 19:03:25"
+      description: This incident is now resolved.
+      resolved: true

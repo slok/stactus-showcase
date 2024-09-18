@@ -1,0 +1,21 @@
+version: incident/v1
+id: rj3ns0671t8z
+name: Payments via PayPal
+impact: minor
+systems:
+    - xbsdwfbb4xx0
+timeline:
+    - ts: "2024-07-16 10:08:13"
+      description: Our Engineering team is investigating an issue with payments using PayPal. During this time, users may experience timeouts/failures when trying to use PayPal. We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2024-07-16 10:34:44"
+      description: Our Engineering team has identified the cause of the issue with processing payments via PayPal on our platform, and has implemented a fix. We are currently monitoring the situation and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-07-16 11:12:20"
+      description: Our Engineering team continues to monitor the issue with processing payments via PayPal on our platform. The impact is mitigated and users should not see any issues when trying to use PayPal. We will post another update once we confirm the full resolution. We apologize for the inconvenience and will share an update once we have more information.
+    - ts: "2024-07-16 11:15:46"
+      description: |-
+        Our Engineering team has monitored and confirmed that the impact of processing payments via PayPal has subsided. Users should not see any issues with making payments via PayPal on our platform.
+        We will post an update as soon as the issue is fully resolved.
+    - ts: "2024-07-16 11:48:03"
+      description: "Our Engineering team has resolved the issue with processing payments via PayPal on our platform. Services should now be operating normally. \nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience."
+      resolved: true

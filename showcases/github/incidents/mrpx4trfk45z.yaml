@@ -1,0 +1,16 @@
+version: incident/v1
+id: mrpx4trfk45z
+name: Incident with starting Action Workflows
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2024-08-15 13:35:40"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2024-08-15 13:45:30"
+      description: Approximately 10-15% of customers may be experiencing problems executing new GitHub Actions runs. The problem is currently being investigated by our teams.
+      investigating: true
+    - ts: "2024-08-15 13:59:49"
+      description: On August 15, 2024, between 13:14 UTC and 13:43 UTC, the Actions service was degraded and resulted in failures to start new workflow runs for customers of github.com. On average, 10% of Actions workflow runs failed to start with the failure rate peaking at 15%. This was due to an infrastructure change that enabled a network proxy for requests between the Actions service and an internal API which caused requests to fail.<br /><br />We mitigated the incident by rolling back the change. We are working to improve our monitoring and deployment practices to reduce our time to detection and mitigation of issues like this one in the future.
+      resolved: true

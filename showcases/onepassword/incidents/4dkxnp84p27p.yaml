@@ -1,0 +1,56 @@
+version: incident/v1
+id: 4dkxnp84p27p
+name: Degraded performance on 1password.com
+impact: critical
+systems: []
+timeline:
+    - ts: "2022-04-27 10:42:25"
+      description: |-
+        We are seeing multiple reports of failed connections and issues with login to 1password.com.
+        Our team is currently investigating the cause.
+        We will keep updating you every 30 minutes
+        This issue _does_ _not_ affect 1password.eu or 1password.ca
+      investigating: true
+    - ts: "2022-04-27 11:56:09"
+      description: We are continue to investigate the issue. Will update you again in 30 minutes
+      investigating: true
+    - ts: "2022-04-27 12:24:27"
+      description: |-
+        We are still seeing high amounts of failed connections with the 1password.com platform.
+        We are investigating.
+        Thank you for your patience, we will update you as soon as possible.
+      investigating: true
+    - ts: "2022-04-27 12:52:40"
+      description: "We are investigating an ongoing issue with the 1password.com platform. \nThis does not affect 1password.eu, ent.1password.com, or 1password.ca.\nWe are reducing availability further for our investigation.\nThank you for your patience."
+      investigating: true
+    - ts: "2022-04-27 13:29:26"
+      description: "We continue to investigate an ongoing performance degradation with the 1password.com service.\n\nThis does not affect 1password.ca, 1password.eu, or ent.1password.com. \n\nThis also does not affect installed clients existing offline data. It does affect client sync of new items. These will sync once the degradation is resolved."
+      investigating: true
+    - ts: "2022-04-27 14:06:54"
+      description: |-
+        We are currently investigating an outage with 1Password.com that affects customers' ability to sync their data and access certain elements of 1Password.com.
+
+        1Password was designed to keep locally synced passwords on your device safe.
+
+        We will continue updating you as we investigate.
+      investigating: true
+    - ts: "2022-04-27 14:54:51"
+      description: "Thank you for your patience.\n\nWe have stabilized the system while we investigate the performance regression.\n\nYour devices should be syncing all data currently. \n\nWe'll provide an update here when we have more details"
+      investigating: true
+    - ts: "2022-04-28 10:47:30"
+      description: |-
+        While 1Password.com is currently stable and operational, we will be continuing our investigations into the performance regression throughout the day. There may be further service disruption as part of our investigation. However, all passwords and customer data will remain accessible locally on your devices.
+
+        We will continue to provide updates on the situation throughout the day, and thank you for your continued patience.
+      investigating: true
+    - ts: "2022-04-28 13:42:12"
+      description: |-
+        Thank you for your patience.
+
+        We've completed our investigation into the performance regression and are confident the current issue has been resolved.
+
+        We will continue monitoring.
+      investigating: true
+    - ts: "2022-04-28 14:42:41"
+      description: This incident has been resolved.
+      resolved: true

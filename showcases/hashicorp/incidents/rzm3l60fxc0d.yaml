@@ -1,0 +1,41 @@
+version: incident/v1
+id: rzm3l60fxc0d
+name: Investigating an issue with new project creation
+impact: minor
+systems:
+    - mgv1p2j9x444
+timeline:
+    - ts: "2024-07-31 00:21:02"
+      description: Our engineering team is investigating an issue with creating new HashiCorp Cloud Platform projects. New projects created during this time may also have issues and errors and fail to show information like billing details. We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-07-31 00:44:57"
+      description: We have disabled new project creation while we continue to investigate why some project operations are failing.
+      investigating: true
+    - ts: "2024-07-31 01:43:53"
+      description: |-
+        We have confirmed that our project creation issues are related to an underlying cloud provider issue. At this time, we're keeping project creation disabled.
+
+        We also identified less than 20 projects affected during the course of this incident, up to our disabling of new project creation.
+
+        We will be investigating additional mitigation options and monitoring the situation, and you can expect additional regular updates or as needed updates if there's a status change.
+    - ts: "2024-07-31 02:17:10"
+      description: We are continuing to monitor the situation, as well as investigate workarounds to unpause project creation. We will post additional updates every 30 minutes or if the situation changes.
+    - ts: "2024-07-31 02:38:02"
+      description: While we continue to monitor the underlying cloud provider incident, we're also deploying some workarounds so that we can re-enable functionality like new project creation. We hope to report that we have workarounds in place and can consider the impact mitigated soon.
+    - ts: "2024-07-31 03:04:54"
+      description: We're continuing to work on mitigation for this incident so that we may restore project creation and other HCP capabilities, as we also monitor the underlying cloud provider recovery as well.
+    - ts: "2024-07-31 03:17:03"
+      description: |-
+        We have deployed some workarounds and re-enabled new project creation. Some existing projects that were created during this incident may be affected, but we will be working to remediate those in the next day.
+
+        We are also continuing to monitor underlying cloud provider recovery and will restore workarounds to normal state once that occurs.
+    - ts: "2024-07-31 03:29:20"
+      description: |-
+        We are continuing to monitor recovery, but we believe the impact to HashiCorp customers from this incident has concluded. We have deployed a workaround and will restore fully service once our cloud provider has recovered as well.
+
+        We are aware of a small number of projects (<20) that will need to be fixed before they are usable; we recommend creating a new project if you encounter any trouble with an existing project that was created during this incident as a workaround. Please contact your support team if you have any questions on how to do this.
+
+        We will post another update in approximately 12 hours, to wrap up our communications on this issue.
+    - ts: "2024-07-31 14:35:34"
+      description: We believe this issue has been resolved, and we'll be discontinuing updates at this time. If you need further help or information, please contact your HashiCorp Support team.
+      resolved: true

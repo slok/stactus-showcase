@@ -1,0 +1,14 @@
+version: incident/v1
+id: ckg67qmbgvq7
+name: Elevated Error Rates on Multiple Services
+impact: minor
+systems:
+    - g4tb35rs9yw7
+    - y98zlwj1d7zh
+timeline:
+    - ts: "2024-09-18 14:31:06"
+      description: Cloudflare is investigating an elevated error rate on DNS record API endpoints. We are working to understand the full impact and mitigate this problem.  More updates to follow shortly.
+      investigating: true
+    - ts: "2024-09-18 17:18:57"
+      description: We are continuing to investigate this issue. At this time, we have determined that this issue affects new Cloudflare Tunnel configuration as well. Existing Tunnel configurations are not affected.
+      investigating: true

@@ -1,0 +1,15 @@
+version: incident/v1
+id: 2s7yd2wtdcfl
+name: Increased WebSocket Errors
+impact: minor
+systems:
+    - 411nh1g3zgx8
+timeline:
+    - ts: "2024-09-12 13:56:04"
+      description: Cloudflare is aware of, and investigating increased Websocket Errors for a subset of customers. Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2024-09-12 15:21:31"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-12 15:35:13"
+      description: This incident has been resolved.
+      resolved: true

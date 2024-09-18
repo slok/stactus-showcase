@@ -1,0 +1,23 @@
+version: incident/v1
+id: 4161n9w685bf
+name: Issues in prod-us-east-0 with Alertmanager and Rule Evaluations
+impact: major
+systems:
+    - r4t5cjg79lkv
+    - 72qxjs1p29q7
+    - 5270kl9kd6l2
+    - 33nzwl8kffd6
+    - hzw0yd89s9ny
+timeline:
+    - ts: "2024-06-25 18:45:22"
+      description: |-
+        Engineering has identified the issue and is currently exploring remediation options. At this time, users will continue to experience issues with alert evaluations and queries.
+
+        We will continue to provide updates as more information is shared.
+    - ts: "2024-06-25 18:50:37"
+      description: Engineering has released a fix and as of 18:42 UTC, customers should no longer experience issues related to this incident. We will continue to monitor for recurrence and provide updates accordingly.
+    - ts: "2024-06-25 18:53:58"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2024-06-25 19:45:59"
+      description: We continue to observe a continued period of recovery. At this time, we are considering this issue resolved.
+      resolved: true

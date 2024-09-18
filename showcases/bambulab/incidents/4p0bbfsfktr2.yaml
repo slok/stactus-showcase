@@ -1,0 +1,13 @@
+version: incident/v1
+id: 4p0bbfsfktr2
+name: IoT Service is Blocking
+impact: major
+systems:
+    - sw5q8tgl2864
+    - 5fs3yzwktd3t
+    - w7ycvnq5lw8s
+    - k1z8m42c0d7r
+timeline:
+    - ts: "2023-03-30 08:15:07"
+      description: "From 2023/3/30 7:50 - 8:00 UTC, part of our IoT services stopped processing for maintenance. \nPrinter binding, remote printing, and remote video did not work as expected during this period."
+      resolved: true

@@ -1,0 +1,28 @@
+version: incident/v1
+id: k8nz2ljtvzv4
+name: Incident with Codespaces
+impact: minor
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2024-05-28 20:17:33"
+      description: We are investigating reports of degraded performance for Codespaces
+      investigating: true
+    - ts: "2024-05-28 20:23:15"
+      description: Some Codespaces are currently failing to be properly created for images hosted by DockerHub. Other registries should be unaffected. We are investigating root cause and will report back shortly.
+      investigating: true
+    - ts: "2024-05-28 20:53:12"
+      description: <i>Duplicate update, same as above</i>
+      investigating: true
+    - ts: "2024-05-28 20:53:48"
+      description: 'We are still investigating root cause and remediation options. In the meantime, here is a workaround to be able to pull images from DockerHub:<br /><br />1. Make a free DockerHub account at https://hub.docker.com (or use an existing account if you have one).<br />2. Create a DockerHub secret/PAT from https://hub.docker.com/settings/security (Read permission should be sufficient).<br />3. Go to https://github.com/settings/codespaces<br /><br />Add three Codespace secrets:<br /><br />- DOCKERHUB_CONTAINER_REGISTRY_PASSWORD (equal to the DockerHub PAT you created)<br />- DOCKERHUB_CONTAINER_REGISTRY_SERVER (equal to https://index.docker.io/v1/)<br />- DOCKERHUB_CONTAINER_REGISTRY_USER (equal to your DockerHub username)<br /><br />4. Make sure these secrets are set as visible to the target repo.<br />5. Create/rebuild your Codespace<br /><br />Steps above are distilled from the official docs: https://docs.github.com/en/codespaces/reference/allowing-your-codespace-to-access-a-private-registry#example-secrets'
+      investigating: true
+    - ts: "2024-05-28 21:19:58"
+      description: A fix has been applied and we are seeing some recovery. We will continue to monitor for a bit before marking this issue resolved.
+      investigating: true
+    - ts: "2024-05-28 21:24:34"
+      description: This incident has been resolved.
+      resolved: true
+    - ts: "2024-05-28 21:24:34"
+      description: On 2024-05-28 between 18:30 and 21:30 UTC, the Codespaces service was degraded. Users with dev container configurations that depended on the DockerHub container registry were unable to create new codespaces unless they provided their own DockerHub registry credentials. We observed a rise of at most 6% of creations entering recovery mode due to this incident.<br /><br />The GitHub Codespaces team worked directly with Docker to mitigate and has engaged with Docker to prevent similar issues in the future.
+      investigating: true

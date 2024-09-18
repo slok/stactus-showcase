@@ -1,0 +1,17 @@
+version: incident/v1
+id: 9hk7kps7s6fz
+name: IPv6 networking in BLR1
+impact: none
+systems:
+    - lmgn764lq04q
+timeline:
+    - ts: "2024-07-05 16:43:06"
+      description: |-
+        Our Engineering team identified and resolved an issue with IPv6 networking in the BLR1 region.
+
+        From 12:15 UTC - 15:32 UTC, users may have experienced issues connecting to Droplets and Droplet-based services in the BLR1 region using IPv6 addresses.
+
+        Our Engineering team quickly identified the root cause of the incident to be related to a recent maintenance in that region and implemented a fix.
+
+        We apologize for the disruption. If you continue to experience any issues, please open a Support ticket from within your account.
+      resolved: true

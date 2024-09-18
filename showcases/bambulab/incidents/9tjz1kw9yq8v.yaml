@@ -1,0 +1,18 @@
+version: incident/v1
+id: 9tjz1kw9yq8v
+name: MakerWorld loads slowly
+impact: minor
+systems:
+    - 6hkfwd93hvnk
+timeline:
+    - ts: "2024-08-28 15:41:38"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-08-28 15:41:52"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-08-28 16:19:55"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-08-28 16:27:00"
+      description: This incident has been resolved.
+      resolved: true

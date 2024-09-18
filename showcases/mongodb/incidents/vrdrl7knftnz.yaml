@@ -1,0 +1,17 @@
+version: incident/v1
+id: vrdrl7knftnz
+name: Delayed Cluster Operations in Azure
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-06-13 20:17:02"
+      description: We are currently investigating an issue with increased latency in Azure which is causing a delay in cluster modifications.
+      investigating: true
+    - ts: "2024-06-13 21:15:19"
+      description: We have identified increased response times from Azure APIs and are taking steps to mitigate the impact on the system.  Azure cluster modifications will continue to see delays. AWS and GCP remain unaffected.
+    - ts: "2024-06-13 23:33:33"
+      description: We have deployed a code fix and are monitoring behavior of the system.
+    - ts: "2024-06-13 23:52:14"
+      description: This incident has been resolved.
+      resolved: true

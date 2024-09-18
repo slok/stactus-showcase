@@ -1,0 +1,16 @@
+version: incident/v1
+id: 5fqtrk3txn3x
+name: Service Negatively Impacted
+impact: critical
+systems:
+    - yz28x40y5mq2
+    - j6dkmwm0h3k2
+    - wkdq12ctv52c
+    - 6pr6psm3s003
+timeline:
+    - ts: "2023-01-03 18:44:33"
+      description: We have received reports of impacted services.  This could manifest in chat not working, login difficulties, search impaired, etc.  We're looking into the issue.
+      investigating: true
+    - ts: "2023-01-03 19:23:46"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,20 @@
+version: incident/v1
+id: dxx6vzmypw56
+name: Network Performance Issues in Seattle
+impact: minor
+systems:
+    - bvtc2f85ft3p
+timeline:
+    - ts: "2024-09-13 04:29:02"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in Seattle.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2024-09-13 04:31:08"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-13 04:55:14"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-13 05:51:30"
+      description: This incident has been resolved.
+      resolved: true

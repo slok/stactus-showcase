@@ -1,0 +1,14 @@
+version: incident/v1
+id: mcgvz4xctdy6
+name: Network Performance Issues in Singapore
+impact: minor
+systems:
+    - 18p6r93swmbl
+timeline:
+    - ts: "2024-09-16 00:05:15"
+      description: "Cloudflare is investigating issues with Network Performance in the Singapore Region. \n\nWe are working to analyze and mitigate this problem. More updates to follow shortly."
+    - ts: "2024-09-16 02:25:11"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-16 03:40:19"
+      description: This incident has been resolved.
+      resolved: true

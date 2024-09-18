@@ -1,0 +1,18 @@
+version: incident/v1
+id: hgnkxk6t28wr
+name: Delayed AWS, GCP, Azure, and SaaS Integration Metrics
+impact: minor
+systems:
+    - qrnng5l7z80l
+timeline:
+    - ts: "2024-07-22 17:17:39"
+      description: |-
+        We are investigating increased latency processing some AWS, GCP, Azure and SaaS Integration Metrics.
+        As a result of this issue, some users may see delays or gaps in graphs that contain these metrics.
+        To prevent spurious alerts, we have temporarily disabled monitors based on this data.
+      investigating: true
+    - ts: "2024-07-22 17:39:29"
+      description: We have deployed a fix and we are monitoring the results. We will provide another update once the issue is fully resolved.
+    - ts: "2024-07-22 17:46:48"
+      description: This incident has been resolved.
+      resolved: true

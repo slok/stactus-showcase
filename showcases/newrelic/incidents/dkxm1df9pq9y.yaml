@@ -1,0 +1,24 @@
+version: incident/v1
+id: dkxm1df9pq9y
+name: Alerts Irregularities in US Region
+impact: minor
+systems:
+    - rbts0zzw73dl
+    - 5x10l9g2z3t6
+    - ymfwncrn2dnh
+    - prjgs1mvmqg9
+timeline:
+    - ts: "2023-07-13 20:40:02"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-07-13 20:44:01"
+      description: Some customers in the US region may experience delayed or missing alert notifications related to metric timeslice, mobile trace, browser trace, and synthetics data. We are investigating this issue and will provide updates as they become available.
+      investigating: true
+    - ts: "2023-07-13 21:18:05"
+      description: Some customers in the US region may experience delayed or missing alert notifications related to metric timeslice, mobile trace, browser trace, and synthetics data. Some customers may also experience data drops for Lambda error data. We are continuing to investigate this issue and will provide updates as they become available.
+      investigating: true
+    - ts: "2023-07-13 21:43:39"
+      description: 'We have identified and corrected an issue with our data streaming platform which caused some customers in the US region to experience delayed or missing alert notification related to the following data types: metric timeslice, mobile trace, browser trace, synthetics, Lambda errors, and AWS X-Ray traces. Customers may see recovery of affected services at this time. We are continuing to monitor these services to ensure a complete recovery.'
+    - ts: "2023-07-13 22:37:04"
+      description: "Between 20:15 UTC and 22:10 UTC on July 13th, some customers in the US region may have experienced delayed time-to-glass and delayed or missing alert notifications for the following data types: metric timeslice, mobile trace, browser trace, synthetics, Lambda errors, and AWS X-Ray traces. Impacted customers may have experienced drops in ingested data for mobile and browser data types. \n\nWe have investigated and resolved this service interruption and impacted services have returned to normal operation."
+      resolved: true

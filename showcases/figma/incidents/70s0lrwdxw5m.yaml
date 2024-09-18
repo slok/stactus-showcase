@@ -1,0 +1,17 @@
+version: incident/v1
+id: 70s0lrwdxw5m
+name: Service disruption
+impact: major
+systems:
+    - pn57gvt7sjmx
+timeline:
+    - ts: "2024-09-10 07:57:52"
+      description: We've received reports of issues related to file access permissions. We believe the issue should be fixed and are monitoring the make sure the issue is resolved.
+    - ts: "2024-09-10 08:12:57"
+      description: We are still seeing some intermittent error rates that could cause file access permission errors and are continuing to investigate.
+      investigating: true
+    - ts: "2024-09-10 10:17:59"
+      description: We've implemented a fix and are monitoring results.
+    - ts: "2024-09-10 11:24:00"
+      description: This issue has been resolved.
+      resolved: true

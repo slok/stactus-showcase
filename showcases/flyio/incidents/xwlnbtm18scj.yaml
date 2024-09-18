@@ -1,0 +1,15 @@
+version: incident/v1
+id: xwlnbtm18scj
+name: Some GitHub OAuth logins failing
+impact: none
+systems:
+    - 66r6rhq3hn9n
+timeline:
+    - ts: "2024-08-20 17:57:36"
+      description: We are investigating reports of failing logins using GitHub OAuth.
+      investigating: true
+    - ts: "2024-08-20 18:07:06"
+      description: We have identified the issue and working to deploy a fix.
+    - ts: "2024-08-20 18:22:47"
+      description: We have deployed the fix and confirmed GitHub OAuth logins are operational again.
+      resolved: true

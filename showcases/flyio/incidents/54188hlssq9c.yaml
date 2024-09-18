@@ -1,0 +1,16 @@
+version: incident/v1
+id: 54188hlssq9c
+name: Slowness / Timeout in API
+impact: minor
+systems:
+    - 80ykv2p95qgy
+    - qyh8qlklk7mx
+timeline:
+    - ts: "2024-09-09 13:13:24"
+      description: We are currently investigating increased response times from the Machines API.
+      investigating: true
+    - ts: "2024-09-09 15:28:29"
+      description: The issue has been identified and we are working on a fix.
+    - ts: "2024-09-09 15:35:45"
+      description: This incident has been resolved.
+      resolved: true

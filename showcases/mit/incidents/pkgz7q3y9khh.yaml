@@ -1,0 +1,15 @@
+version: incident/v1
+id: pkgz7q3y9khh
+name: MIT Guest network unavailable
+impact: major
+systems:
+    - qbxg9tr9gslw
+timeline:
+    - ts: "2024-08-12 12:40:37"
+      description: The MIT Guest wireless network is down campus-wide. IS&T is actively working to isolate the issue and restore service.
+      investigating: true
+    - ts: "2024-08-12 13:07:06"
+      description: IS&T's infrastructure team has identified the issue and deployed a fix. MIT Guest should now accept connections, and IS&T will actively monitor the network's performance.
+    - ts: "2024-08-12 15:45:20"
+      description: This incident has been resolved.
+      resolved: true

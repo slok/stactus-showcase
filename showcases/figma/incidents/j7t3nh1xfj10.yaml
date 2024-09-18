@@ -1,0 +1,20 @@
+version: incident/v1
+id: j7t3nh1xfj10
+name: Service disruption
+impact: critical
+systems:
+    - pn57gvt7sjmx
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2023-07-10 17:42:27"
+      description: We are investigating an issue some users are experiencing when opening Figma
+      investigating: true
+    - ts: "2023-07-10 17:52:34"
+      description: We've identified the issue impacting Figma and are working toward a solution.
+    - ts: "2023-07-10 17:58:51"
+      description: A fix has been implemented and Figma should now be operational. We are continuing to monitor.
+    - ts: "2023-07-10 17:59:06"
+      description: We've identified and resolved the root cause for this service disruption. We are continuing to monitor for any further issues.
+    - ts: "2023-07-10 18:54:17"
+      description: From 17:36 to 17:58 UTC, Figma was available in a limited capacity for users. This has been resolved.
+      resolved: true

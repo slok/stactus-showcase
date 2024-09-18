@@ -1,0 +1,33 @@
+version: incident/v1
+id: lzlv9c5bjp1v
+name: Load Balancers associated with Managed Kubernetes Clusters and App Platform
+impact: none
+systems:
+    - txysr8r0gn1n
+    - q332gmv27njg
+    - k3lz9cdfxr5h
+    - 76vqxw3xnwh9
+    - 2tfqdy27151t
+    - dthxlw365zmm
+    - 2vpzq3ytx996
+    - 12w0d51pyjvh
+    - x94k17yvyvj7
+    - 40f2th6p044g
+    - qpfd9tcp5dp7
+    - 9mrvzmdgkksr
+    - k0svklf2hmb4
+    - xmjmwjbpgls5
+    - 3k1h85kh76zy
+timeline:
+    - ts: "2024-06-11 09:59:07"
+      description: |-
+        Our Engineering team has identified and resolved an issue that impacted the Load Balancers associated with Kubernetes Clusters for a brief duration.
+
+        From 05:25 - 07:54 UTC, a subset of users may have experienced issues with accessing and connecting to Load Balancers associated with Kubernetes Clusters and may have noticed failed health checks for the Load Balancers.
+
+        Also from 7:50 - 8:40 UTC, our Engineering team observed an issue with the App Platform. A subset of users may have faced issues with connecting to outbound dependencies from the App platform.
+
+        Swift action was taken by our Engineering team that restored service and all services are operating correctly.
+
+        We apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.
+      resolved: true

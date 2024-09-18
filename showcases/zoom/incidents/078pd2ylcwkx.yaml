@@ -1,0 +1,20 @@
+version: incident/v1
+id: 078pd2ylcwkx
+name: Issue with Integration services
+impact: minor
+systems:
+    - 08fp2rr1spx0
+timeline:
+    - ts: "2024-06-20 15:57:42"
+      description: We are investigating an issue causing intermittent errors for Integration services.  We will continue to provide updates as we have them.
+      investigating: true
+    - ts: "2024-06-20 16:41:50"
+      description: We continue to investigate an issue causing intermittent errors for Integration services.  We will continue to provide updates as we have them.
+      investigating: true
+    - ts: "2024-06-20 17:12:28"
+      description: We have identified the issue causing intermittent errors for Integration services.  We will continue to provide updates as we have them.
+    - ts: "2024-06-20 17:20:08"
+      description: We have resolved the issue causing intermittent errors for Integration services.  We will continue to monitor and provide updates as we have them.
+    - ts: "2024-06-20 17:29:08"
+      description: This incident has been resolved.
+      resolved: true

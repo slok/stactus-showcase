@@ -1,0 +1,17 @@
+version: incident/v1
+id: q253lrzvgglg
+name: Cloudflare Access API delays
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2024-09-16 14:58:46"
+      description: "Cloudflare is investigating an increased latency with configuration changes to Cloudflare Access. \n\nExisting Cloudflare Access configurations are unaffected.\n\nWe are working to mitigate this problem.  More updates to follow shortly."
+      investigating: true
+    - ts: "2024-09-16 15:04:54"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-16 15:06:50"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-16 15:23:01"
+      description: This incident has been resolved.
+      resolved: true

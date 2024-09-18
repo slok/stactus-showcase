@@ -1,0 +1,22 @@
+version: incident/v1
+id: 66jd7k7vspck
+name: Synthetics Delays in US Region
+impact: minor
+systems:
+    - prjgs1mvmqg9
+timeline:
+    - ts: "2023-08-11 16:26:29"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-08-11 16:27:27"
+      description: Some customers in the US region may experience delays for synthetics checks results and delayed or missing synthetics-related alert notifications.
+      investigating: true
+    - ts: "2023-08-11 16:57:48"
+      description: We are continuing to investigate latency in the synthetics processing pipeline contributing to delayed synthetics check results and related alert notifications.
+      investigating: true
+    - ts: "2023-08-11 17:23:42"
+      description: |-
+        Between 15:05 UTC and 16:55 UTC on August 11th, some customers in the US region may have experienced delays for synthetics checks results and delayed or missing synthetics-related alert notifications.
+
+        We have investigated and resolved this service interruption and impacted services have returned to normal operations.
+      resolved: true

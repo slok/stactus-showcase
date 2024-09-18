@@ -1,0 +1,19 @@
+version: incident/v1
+id: ylzw0j4d49q5
+name: Delayed AWS Metrics and Logs
+impact: minor
+systems: []
+timeline:
+    - ts: "2023-04-03 16:42:46"
+      description: |-
+        We are investigating increased latency processing AWS Metrics and Logs.
+        As a result of this issue, some users may see delays or gaps in graphs that contain these metrics or in their log streams.
+        This may result in some spurious alerts on affected metrics and log streams.
+      investigating: true
+    - ts: "2023-04-03 16:44:54"
+      description: The issue has been identified and a mitigation is being rolled out.
+    - ts: "2023-04-03 16:52:46"
+      description: The mitigation has been rolled out and we are monitoring the backfill of affected AWS metrics and logs.
+    - ts: "2023-04-03 16:58:42"
+      description: This incident has been resolved and all data has been backfilled.
+      resolved: true

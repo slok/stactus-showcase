@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5s7kxkc0vv01
+name: 'Grafana Cloud Tempo: Intermittent Read Failure'
+impact: minor
+systems:
+    - 9xz0880z67zl
+timeline:
+    - ts: "2024-08-13 22:27:52"
+      description: We are currently experiencing intermittent read failures with Grafana Cloud Tempo in the us-central-0 cluster. Our engineering team is actively investigating the situation and working towards a resolution. We appreciate your patience and will continue to provide updates as more information becomes available.
+    - ts: "2024-08-14 18:29:37"
+      description: Our engineering team has implemented a fix, and this incident is resolved.
+      resolved: true

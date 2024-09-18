@@ -1,0 +1,20 @@
+version: incident/v1
+id: pm9hy3s6gvyz
+name: 'HCP Boundary Maintenance:  March 2024'
+impact: minor
+systems:
+    - 9gzfhnxdsf93
+timeline:
+    - ts: "2024-03-13 20:32:36"
+      description: |-
+        HCP Boundary will undergo planned database maintenance on Saturday, March 30th beginning at 14:00 UTC. We expect this maintenance to be completed within 1 hour.
+
+        During this time, HCP Boundary and all Boundary clusters will be unavailable. Sessions will be dropped and session establishment will fail until the maintenance completes. We will post updates as necessary throughout the maintenance period.
+    - ts: "2024-03-30 14:00:09"
+      description: |-
+        The HCP Boundary maintenance is now beginning. We expect the maintenance will be completed within 1 hour.
+
+        During this time, HCP Boundary and all Boundary clusters will be unavailable. Sessions will be dropped and session establishment will fail until the maintenance completes. We will post updates as necessary throughout the maintenance period.
+    - ts: "2024-03-30 14:57:14"
+      description: All maintenance was completed successfully. Service has been fully restored.
+      resolved: true

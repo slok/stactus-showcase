@@ -1,0 +1,16 @@
+version: incident/v1
+id: yfjypz7sgwl9
+name: Confluent integration issues in all regions
+impact: major
+systems:
+    - z5ysrlvblv9t
+timeline:
+    - ts: "2024-07-15 21:31:52"
+      description: |-
+        ConfluentCloud API is having high error rates and latencies, affecting the Confluent integration in all regions. The issue was detected on their side and a fix is being implemented.
+
+        Confluent Status Page - https://status.confluent.cloud/incidents/415ndt9pgj3x
+      investigating: true
+    - ts: "2024-07-15 22:28:39"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,15 @@
+version: incident/v1
+id: 8t9thttnfms3
+name: Subscriptions Issues - Identified
+impact: major
+systems:
+    - ys9m23jjzpg0
+timeline:
+    - ts: "2021-08-06 21:26:57"
+      description: "\U0001F6E0 We have identified an issue with Subscriptions. We're currently working to resolve this issue."
+      investigating: true
+    - ts: "2021-08-06 21:40:02"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2021-08-06 21:57:21"
+      description: This incident has been resolved.
+      resolved: true

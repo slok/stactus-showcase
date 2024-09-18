@@ -1,0 +1,11 @@
+version: incident/v1
+id: 6t0fsstr5wl4
+name: SMS-based two-factor authentication disruption
+impact: none
+systems: []
+timeline:
+    - ts: "2022-10-13 22:37:43"
+      description: We’ve identified an issue that is preventing some users from receiving two-factor authentication codes via SMS. A fix is being implemented.
+    - ts: "2022-10-13 23:12:23"
+      description: This incident has been resolved.
+      resolved: true
