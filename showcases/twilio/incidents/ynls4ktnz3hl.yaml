@@ -1,0 +1,9 @@
+version: incident/v1
+id: ynls4ktnz3hl
+name: SMS Delivery Delays to T-Mobile Network in United States via a Subset of Short Codes
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-18 22:48:47"
+      description: Twilio Short Code SMS deliverability was degraded for 50 minutes between 14:15 and 15:05 Pacific Time on 09/18/2024. During this period of time customers may have experienced SMS delivery delays to T-Mobile network in the United States via a specific subset of short codes. The issue has now been resolved.
+      resolved: true
