@@ -1,0 +1,15 @@
+version: incident/v1
+id: 0kb5fgb6ms23
+name: Partial outage on components of RUM product
+impact: major
+systems:
+    - wb6d6tss5zph
+timeline:
+    - ts: "2024-08-08 11:41:43"
+      description: We have identified an issue which affects the use of Sankey and Cohorts Analysis in the RUM product, the team is working on a fix.
+      investigating: true
+    - ts: "2024-08-08 12:05:28"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-08-08 12:13:00"
+      description: This incident has been resolved.
+      resolved: true

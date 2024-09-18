@@ -1,0 +1,14 @@
+version: incident/v1
+id: 1nspk5c8hjwd
+name: Increased response latency in FRA
+impact: minor
+systems:
+    - zb68fzjgtq5s
+timeline:
+    - ts: "2024-05-23 13:20:02"
+      description: We are adding more edges to the region to deal with increased traffic
+    - ts: "2024-05-23 15:16:12"
+      description: We've added new edge hosts to FRA region and will keep monitoring the network.
+    - ts: "2024-05-23 16:26:44"
+      description: Network is back to baseline and stable in the region.
+      resolved: true

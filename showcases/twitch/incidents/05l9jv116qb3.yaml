@@ -1,0 +1,14 @@
+version: incident/v1
+id: 05l9jv116qb3
+name: Identified Login Issues
+impact: none
+systems:
+    - yz28x40y5mq2
+timeline:
+    - ts: "2022-11-04 20:44:14"
+      description: "\U0001F6E0 We have identified an issue where some users are unable to log in.  We're currently working to resolve this issue."
+    - ts: "2022-11-04 21:32:08"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2022-11-04 21:39:51"
+      description: This incident has been resolved.
+      resolved: true

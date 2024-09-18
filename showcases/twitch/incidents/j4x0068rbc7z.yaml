@@ -1,0 +1,13 @@
+version: incident/v1
+id: j4x0068rbc7z
+name: Identified Login Issues
+impact: none
+systems:
+    - yz28x40y5mq2
+timeline:
+    - ts: "2021-08-21 20:11:02"
+      description: "\U0001F50E We are aware of an issue causing some Twitch users to be unable to log in using Facebook.  We're currently working to resolve this issue."
+      investigating: true
+    - ts: "2021-08-26 20:36:58"
+      description: "\U0001F6E0 We have resolved all known login issues."
+      resolved: true

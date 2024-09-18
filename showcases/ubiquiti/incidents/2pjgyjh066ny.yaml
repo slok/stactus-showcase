@@ -1,0 +1,22 @@
+version: incident/v1
+id: 2pjgyjh066ny
+name: Remote Access Connectivity Issues
+impact: major
+systems:
+    - f4txj806xph9
+    - s78xyt2hftwd
+    - 50j8z65sq9pt
+timeline:
+    - ts: "2022-09-28 18:01:08"
+      description: An issue has been identified where some users may be unable to connect remotely to their devices. Our teams are investigating the issue and will provide periodic updates on status.ui.com. We apologize for any inconvenience and are working to restore service as quickly as possible.
+      investigating: true
+    - ts: "2022-09-28 18:58:17"
+      description: An issue has been identified where voicemail and call transcriptions may fail. Our teams are investigating the issue and will provide periodic updates on status.ui.com. We apologize for any inconvenience and are working to restore service as quickly as possible.
+      investigating: true
+    - ts: "2022-09-28 20:05:56"
+      description: We have managed to identify and fix the root cause of the outage. There is still a small group of affected users, however we expect this to completely resolve within the next few hours.
+    - ts: "2022-09-28 20:07:27"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2022-09-28 21:12:25"
+      description: This incident has been resolved.
+      resolved: true

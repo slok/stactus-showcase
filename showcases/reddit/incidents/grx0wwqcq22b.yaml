@@ -1,0 +1,15 @@
+version: incident/v1
+id: grx0wwqcq22b
+name: Issues with new post creation
+impact: minor
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2024-05-16 13:12:55"
+      description: We are investigating reports that new posts with media are not being created correctly.
+      investigating: true
+    - ts: "2024-05-16 13:43:37"
+      description: We have identified the underlying issue and implemented a fix. Posts which were missing media when created should have that media restored now.
+      resolved: true

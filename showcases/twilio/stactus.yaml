@@ -1,0 +1,217 @@
+version: stactus/v1
+name: Twilio
+url: https://status.twilio.com
+systems:
+    - id: b9z92qjr2p04
+      name: FLEX / TaskRouter
+      description: Twilio TaskRouter service
+    - id: f7f727f39kx3
+      name: ELASTIC SIP TRUNKING / Origination
+      description: Elastic SIP Trunking
+    - id: g4hs7h64k9fv
+      name: DEVELOPER TOOLS / Console
+    - id: mq9q3ytpkyfz
+      name: ACCOUNT SECURITY / Authy 2FA
+    - id: g2dt752kwqs0
+      name: PROGRAMMABLE VOICE / PSTN
+    - id: 7c6yv3vctfqv
+      name: SERVERLESS / Studio
+    - id: 7d8w22hqrh6s
+      name: CARRIER NETWORK / SMS Long Code, North America
+    - id: ys1jhy2ys04z
+      name: PROGRAMMABLE VIDEO / Group Rooms
+    - id: lfqp74267l0t
+      name: INTERNET OF THINGS / Programmable Wireless
+    - id: w7nxj548smhd
+      name: PROGRAMMABLE VOICE / SIP Interface
+    - id: q015c7mrst1s
+      name: PROGRAMMABLE VIDEO / Peer-to-Peer Rooms
+    - id: b3tl520cz8tc
+      name: SERVERLESS / Functions
+    - id: q4d7rj555ljl
+      name: FLEX / Flex Application Platform
+    - id: whldrk77jnm4
+      name: ACCOUNT SECURITY / Verify
+      description: May be impacted by SMS delivery issues
+    - id: 8vdlvw3dsq8h
+      name: CARRIER NETWORK / MMS Long Code, North America
+    - id: zxhmy448yyn3
+      name: DEVELOPER TOOLS / Event Streams
+    - id: mn1wpm35k4s4
+      name: ELASTIC SIP TRUNKING / Termination
+    - id: 919qx43ks4dx
+      name: INTERNET OF THINGS / Super SIM
+    - id: 39mb8cmw8y2v
+      name: CARRIER NETWORK / SMS Short Code, North America
+    - id: 6ltxq62mkxd0
+      name: DEVELOPER TOOLS / Debugger & Alarms
+    - id: x6drb5vw27bs
+      name: PROGRAMMABLE VOICE / Client Web
+    - id: txt6v4g6pv74
+      name: ACCOUNT SECURITY / Authy App
+    - id: lv1md8v28lhr
+      name: FLEX / Flex Insights
+    - id: ld8ss4pqqskp
+      name: SERVERLESS / Assets
+    - id: vd76z27sk12v
+      name: PROGRAMMABLE VIDEO / Recordings
+    - id: 2cmnnkzsplk8
+      name: INTERNET OF THINGS / Wireless Insights
+    - id: xk8z50jy8hcs
+      name: ACCOUNT SECURITY / Lookup
+      description: Twilio's phone number lookup service
+    - id: jw9dh2mf4392
+      name: TWILIO PLATFORM / Billing
+    - id: 6f5zbh4rqx3m
+      name: PROGRAMMABLE VOICE / Client Mobile
+      description: Twilio Client Mobile SDK
+    - id: b81y83zrvglj
+      name: DEVELOPER TOOLS / Documentation
+    - id: vyjjd8kdb7vq
+      name: SERVERLESS / TwiML Bins
+    - id: h0fl7prwfhvm
+      name: CARRIER NETWORK / MMS Short Code, North America
+    - id: 0xfc03jgk5g4
+      name: PROGRAMMABLE VIDEO / Compositions
+    - id: vw9w2zyv9nk5
+      name: FLEX / Flex Agent Desktop
+    - id: 4rv9xfxmdjg9
+      name: DEVELOPER TOOLS / REST API
+    - id: l2p2s96tdsf4
+      name: PROGRAMMABLE VOICE / Conference
+      description: Conference calls
+    - id: jncbcddlmbhn
+      name: PROGRAMMABLE VIDEO / Network Traversal Service
+      description: Network Traversal Service
+    - id: qf1ppcsw1jvh
+      name: SERVERLESS / Sync
+    - id: 32f2bm54nkvv
+      name: CARRIER NETWORK / SMS Toll-Free, North America
+    - id: fhrcxjv8wcjs
+      name: FLEX / Flex Queue Stats
+    - id: frxynt0ffp5w
+      name: PROGRAMMABLE VOICE / Recording
+      description: Recording
+    - id: by1b8ylwwgs6
+      name: PROGRAMMABLE VIDEO / Go Rooms
+    - id: tvjwfvczkf46
+      name: CARRIER NETWORK / MMS Toll-Free, North America
+    - id: y0thq9hlt5m8
+      name: DEVELOPER TOOLS / Bulk Export
+    - id: yk293200bcps
+      name: FLEX / Flex Teams View
+    - id: tfdww2zxylgd
+      name: PROGRAMMABLE VOICE / Queue
+      description: Queue
+    - id: hjfntfyhnn4l
+      name: INTERCONNECT
+    - id: 2v3v92mz2m4h
+      name: CARRIER NETWORK / Voice, North America
+    - id: mw3ktpy92305
+      name: FLEX / Flex Admin Console
+    - id: 45nc391hhv9v
+      name: PROGRAMMABLE VIDEO / Video Insights
+    - id: dv0j99s68yxn
+      name: PROGRAMMABLE VOICE / Text-to-Speech
+      description: Text-to-Speech
+    - id: pv5w18vrltfl
+      name: PHONE NUMBERS
+      description: Buying and searching
+    - id: fbtv2g9t3z25
+      name: CARRIER NETWORK / Voice, Latin America
+    - id: vxjqr22fbl36
+      name: FLEX / Flex Routing
+    - id: 86c0cvzk43pv
+      name: PROGRAMMABLE VOICE / Recording Transcriptions
+    - id: rk4qzxxbwj7t
+      name: PROGRAMMABLE CHAT
+    - id: 42zx9w2kmtvf
+      name: CARRIER NETWORK / SMS, Latin America
+    - id: 7ypw8tsmyr78
+      name: FLEX / Flex Conversations
+    - id: xnzrm2zg4qbv
+      name: PROGRAMMABLE VOICE / TwiML
+    - id: xv01vfp8wvs4
+      name: TWILIO PLATFORM / Customer Support Center
+      description: This includes services related to reaching support via phone, email, and chat.
+    - id: 50pr269zqrwj
+      name: CARRIER NETWORK / Voice, APAC
+    - id: lzm53c2kjxkh
+      name: FLEX / Flex Programmable Chat
+    - id: d1j2nx64rpq3
+      name: PROGRAMMABLE MESSAGING / MMS
+    - id: yf5px6tdl6yt
+      name: PROGRAMMABLE VOICE / Voice Insights
+    - id: 8qjql0kqnd33
+      name: CARRIER NETWORK / SMS, APAC
+    - id: m5b6twz4h52d
+      name: TWILIO PLATFORM / Other
+    - id: h056tfqk3q97
+      name: FLEX / Flex Programmable Voice
+    - id: yvvy3vlp4djf
+      name: PROGRAMMABLE MESSAGING / SMS
+    - id: 361mb56zmf8z
+      name: PROGRAMMABLE VOICE / Speech Recognition
+    - id: 54ft7xt1tqmm
+      name: PROXY
+    - id: kvyjw7lg97l1
+      name: TWILIO PLATFORM / Account Insights
+    - id: b1n7jklp0rv4
+      name: FLEX / Proxy
+    - id: 2nd0jdj36wpq
+      name: CARRIER NETWORK / MMS, APAC
+    - id: pf1lb8dq2g3b
+      name: PROGRAMMABLE MESSAGING / SMPP
+    - id: bnzggd37p61w
+      name: CARRIER NETWORK / Voice, Europe
+    - id: gk7b1lwzf93x
+      name: TWILIO PLATFORM / Trust Hub
+    - id: qphgn531prd5
+      name: PROGRAMMABLE VOICE / Intelligence
+    - id: z6wf7g459vzh
+      name: FLEX / Flex Plugins
+    - id: 1gkv0mxhzsjv
+      name: PROGRAMMABLE MESSAGING / Messaging Channels
+    - id: llgdln3dcs6p
+      name: CARRIER NETWORK / SMS, Europe
+    - id: 622gcfj89fsh
+      name: PROGRAMMABLE VOICE / Pay
+    - id: v95b6qqhp58v
+      name: FLEX / Flex Billing
+    - id: 3mryzdr7rssr
+      name: TWILIO PLATFORM / Organization
+    - id: 5bv1plmydbzf
+      name: PROGRAMMABLE MESSAGING / Notify
+    - id: 6ns22g89f6g9
+      name: CARRIER NETWORK / Voice, Middle East & Africa
+    - id: sxwbmz83d77t
+      name: PROGRAMMABLE VOICE / Media Streams
+    - id: 2vs63pk0qq23
+      name: PROGRAMMABLE MESSAGING / Conversations
+    - id: 9z5gsqyjs4rl
+      name: CARRIER NETWORK / SMS, Middle East & Africa
+    - id: s91kksd3hqjp
+      name: PROGRAMMABLE VOICE / Dialogflow
+    - id: dgkv7yc7sqdg
+      name: PROGRAMMABLE MESSAGING / Messaging Insights
+    - id: 48ytpcq9mbrd
+      name: FRONTLINE
+    - id: trrz5ztt7pl8
+      name: CARRIER NETWORK / Verify Silent Network Auth
+    - id: fsxs9n9yf4m7
+      name: CARRIER NETWORK / Lookup Identity Match
+    - id: 6cn0g627h62p
+      name: PROGRAMMABLE MESSAGING / Messaging Services
+    - id: t4bxfcg2ppvb
+      name: CARRIER NETWORK / Lookup Line Type Intelligence [Legacy API]
+    - id: 3p1q1qbw970c
+      name: PROGRAMMABLE MESSAGING / Content API
+    - id: cfy5cxrly95b
+      name: CARRIER NETWORK / Lookup Line Type Intelligence [Twilio API]
+    - id: brty2vw4qv6v
+      name: PROGRAMMABLE MESSAGING / Toll-free verification
+      description: Toll-free verification
+    - id: q0hp6vfr4vvh
+      name: CARRIER NETWORK / Lookup SIM Swap
+    - id: qt4vzyg2g7b4
+      name: CARRIER NETWORK / Legacy Identity MatchAndAttributes

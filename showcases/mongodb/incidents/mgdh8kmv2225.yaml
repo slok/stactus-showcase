@@ -1,0 +1,17 @@
+version: incident/v1
+id: mgdh8kmv2225
+name: Azure Cluster Operation Delays
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-04-18 20:16:00"
+      description: We are experiencing delays in cluster operations for some Azure clusters. This includes cluster creation, modification, termination and backup. We are actively investigating the issue.
+      investigating: true
+    - ts: "2024-04-18 20:22:17"
+      description: We have identified the cause of the issue and are actively remediating it.
+    - ts: "2024-04-18 21:41:41"
+      description: The issue has been resolved, and the system has returned to normal operations. We are monitoring closely.
+    - ts: "2024-04-18 22:25:36"
+      description: The issue has been fully resolved. Thank you for your patience.
+      resolved: true

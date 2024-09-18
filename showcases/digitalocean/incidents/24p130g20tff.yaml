@@ -1,0 +1,28 @@
+version: incident/v1
+id: 24p130g20tff
+name: Event processing and Droplet Creates in TOR1
+impact: minor
+systems:
+    - xr6mrvgw7q9c
+    - 5v01jvb2gwjz
+    - h4ktbyxsxssg
+    - myqfd21mmbh9
+    - 3k1h85kh76zy
+timeline:
+    - ts: "2024-08-15 04:29:06"
+      description: |-
+        As of 02:11 UTC, our Engineering team is investigating an issue with creation failure of Droplet and Snapshots in TOR1 region. Users may experience errors when rebuilding or restoring Droplets and Snapshots. Creating Droplets from Snapshots is also affected.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2024-08-15 04:47:12"
+      description: |-
+        Our Engineering team is continuing to investigate the issue with Droplet creates and Snapshots. A subset of users may also encounter errors with creating Droplet based products such as Managed Databases, Load Balancers, Managed Kubernetes in TOR1 region
+
+        We will post another update once we have more information.
+      investigating: true
+    - ts: "2024-08-15 05:11:39"
+      description: Our Engineering team has identified the cause of the issue with Droplet creates and Snapshots, and has implemented a fix. We are currently monitoring the situation and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-08-15 05:40:22"
+      description: "Our Engineering team has resolved the issue with Droplet creates and Snapshots. As of 05:30 UTC, users should be able to create Droplets, Snapshots and process events. Droplet backed services should also be operating normally. \n\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience."
+      resolved: true

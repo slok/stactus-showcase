@@ -1,0 +1,28 @@
+version: incident/v1
+id: hky2hdws0stq
+name: Delays in billing processing
+impact: none
+systems: []
+timeline:
+    - ts: "2023-03-31 15:17:41"
+      description: A subset of 1password.com customers could be experiencing delays in having their billing actions processed . All other customers remain unaffected. Our engineers are actively investigating this behavior. Updates will follow accordingly.
+      investigating: true
+    - ts: "2023-03-31 15:45:21"
+      description: The issue has been identified and a fix is currently being tested. Updates will follow accordingly.
+    - ts: "2023-03-31 16:15:21"
+      description: The issue has been identified and a fix is currently being tested. Updates will follow accordingly.
+    - ts: "2023-03-31 16:40:57"
+      description: We're seeing recovery in processing of billing actions. Our team continue monitoring the overall behavior.
+    - ts: "2023-03-31 17:09:34"
+      description: We're seeing recovery in processing of billing actions. Our team continue monitoring the overall behavior.
+    - ts: "2023-03-31 17:38:07"
+      description: The issue has been identified and a fix is currently being tested.
+    - ts: "2023-03-31 18:05:19"
+      description: The issue has been identified and a fix is currently being tested.
+    - ts: "2023-03-31 18:33:43"
+      description: The issue has been identified and a fix is currently being tested.
+    - ts: "2023-03-31 18:47:58"
+      description: We're seeing recovery in processing of billing actions. Our team continue monitoring the overall behavior.
+    - ts: "2023-03-31 19:17:04"
+      description: Incident has been resolved. There are no longer any delays in processing any billing flows.
+      resolved: true

@@ -1,0 +1,17 @@
+version: incident/v1
+id: zrpq61c0jwtl
+name: Add Funds Page Currently Unaccessible on Twilio Billing Console
+impact: minor
+systems:
+    - jw9dh2mf4392
+timeline:
+    - ts: "2024-09-17 05:00:52"
+      description: 'Currently we are experiencing an issue with links in Console to the Add Funds experience. A workaround for this issue is possible by using this link: https://console.twilio.com/us1/billing/manage-billing/billing-overview?frameUrl=%2Fconsole%2Fbilling%2Fadd-funds%3Fx-target-region%3Dus1. We have identified the issue and are working on fixing this issue.'
+      investigating: true
+    - ts: "2024-09-17 05:01:19"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-17 06:04:36"
+      description: A fix has been implemented, and we are monitoring the results. We will continue monitoring the Twilio Billing Console Page to ensure a full recovery. We will provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2024-09-17 06:33:04"
+      description: The issue related to the Add Fund Page on the Twilio Billing Console has been resolved, and the page is functioning normally at this time.
+      resolved: true

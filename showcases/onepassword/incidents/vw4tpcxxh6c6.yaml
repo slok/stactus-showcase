@@ -1,0 +1,16 @@
+version: incident/v1
+id: vw4tpcxxh6c6
+name: We are investigating reports of users having issues with the 1Password browser extension.
+impact: none
+systems: []
+timeline:
+    - ts: "2024-04-29 12:08:36"
+      description: We are investigating an issue where 1Password browser extensions are not able to fill on insecure http sites.
+      investigating: true
+    - ts: "2024-04-29 13:57:09"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-04-29 18:44:07"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-04-30 09:35:50"
+      description: This incident has been resolved.
+      resolved: true

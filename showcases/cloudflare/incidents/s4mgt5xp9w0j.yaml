@@ -1,0 +1,21 @@
+version: incident/v1
+id: s4mgt5xp9w0j
+name: Cloudflare Dashboard service issues in Japan region
+impact: minor
+systems:
+    - g4tb35rs9yw7
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2024-09-11 10:11:10"
+      description: |-
+        Cloudflare is investigating issues with accessing the Cloudflare Dashboard in Japan region.
+
+        These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+
+        Customers using the Dashboard are impacted as requests might see sporadic failures accessing the Dashboard.
+      investigating: true
+    - ts: "2024-09-11 10:47:40"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-11 11:03:01"
+      description: This incident has been resolved.
+      resolved: true

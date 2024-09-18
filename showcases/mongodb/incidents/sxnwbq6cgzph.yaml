@@ -1,0 +1,14 @@
+version: incident/v1
+id: sxnwbq6cgzph
+name: 'MongoDB Atlas & Cloud Manager: PagerDuty alerts not being delivered'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-07-26 14:59:28"
+      description: Due to an issue at an upstream provider, MongoDB Cloud users may not get PagerDuty notifications promptly or at all. We encourage customers to set up and/or monitor alternative channels for their alert needs at this time.
+    - ts: "2024-07-26 16:29:35"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-07-26 21:10:05"
+      description: This incident has been resolved.
+      resolved: true

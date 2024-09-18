@@ -1,0 +1,25 @@
+version: incident/v1
+id: fbl6lsxt8yzp
+name: Issue with Zoom Live Dashboard
+impact: minor
+systems:
+    - cn1j8pttz0wy
+timeline:
+    - ts: "2024-08-19 11:15:42"
+      description: We are investigating an issue with Zoom Live meeting Dashboard displaying data for a subset of meetings.  We will provide updates as we have them.
+      investigating: true
+    - ts: "2024-08-19 11:55:42"
+      description: We continue to investigate an issue with Zoom Live Meeting Dashboard displaying data for a subset of meetings.  We will provide updates as we have them.
+      investigating: true
+    - ts: "2024-08-19 12:26:25"
+      description: We continue to investigate an issue with Zoom Live Meeting Dashboard displaying data for a subset of meetings.  We will provide updates as we have them.
+      investigating: true
+    - ts: "2024-08-19 12:54:59"
+      description: We have identified the issue with Zoom Live Meeting Dashboard displaying data for a subset of meetings.  We will provide updates as we have them.
+    - ts: "2024-08-19 14:03:59"
+      description: We continue to work to resolve the issue with Zoom Live Meeting Dashboard displaying data for a subset of meetings.  We will continue to provide updates as we have them.
+    - ts: "2024-08-19 14:27:50"
+      description: We have resolved the issue with Zoom Live Meeting Dashboard displaying data for a subset of meetings.  We will continue to monitor and provide updates as we have them.
+    - ts: "2024-08-19 14:47:12"
+      description: This incident has been resolved.
+      resolved: true

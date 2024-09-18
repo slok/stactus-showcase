@@ -1,0 +1,19 @@
+version: incident/v1
+id: rzqy51mc72dx
+name: Incident with Pull Requests
+impact: minor
+systems:
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2024-09-14 22:10:52"
+      description: We are investigating reports of degraded performance for Pull Requests
+      investigating: true
+    - ts: "2024-09-14 22:41:40"
+      description: we believe we have mitigated and are confirming recovery.
+      investigating: true
+    - ts: "2024-09-14 22:43:03"
+      description: Pull Requests is operating normally.
+      investigating: true
+    - ts: "2024-09-14 22:43:08"
+      description: This incident has been resolved.
+      resolved: true

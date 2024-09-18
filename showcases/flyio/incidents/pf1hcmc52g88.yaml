@@ -1,0 +1,15 @@
+version: incident/v1
+id: pf1hcmc52g88
+name: Machines API issues in EWR
+impact: minor
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2024-08-15 13:37:06"
+      description: We're investigating reports of slow responses from the Machines API in ewr.
+      investigating: true
+    - ts: "2024-08-15 15:20:40"
+      description: The problematic Machines API instance is healthy again. We are continuing to monitor it.
+    - ts: "2024-08-15 15:39:51"
+      description: The Machines API instance is remaining healthy.
+      resolved: true

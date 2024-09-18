@@ -1,0 +1,17 @@
+version: incident/v1
+id: dnl722gtxdkw
+name: Login Issues
+impact: minor
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-06-11 14:16:13"
+      description: Users having trouble logging in, or may be asked to verify their phone erroneously
+      investigating: true
+    - ts: "2024-06-11 14:53:00"
+      description: We've isolated the issue and have applied a fix.  We're currently monitoring to make sure we're resolved.
+    - ts: "2024-06-11 14:55:08"
+      description: We're currently unflagging accounts that were erroneously flagged
+    - ts: "2024-06-11 15:48:10"
+      description: We've finished unflagging affected users!  Everything should be operational again!
+      resolved: true

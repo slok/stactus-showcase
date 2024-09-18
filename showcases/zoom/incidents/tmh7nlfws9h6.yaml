@@ -1,0 +1,22 @@
+version: incident/v1
+id: tmh7nlfws9h6
+name: Issue with AI Companion's Team chat compose and thread summary in USA
+impact: minor
+systems:
+    - 07fc2bfpjgct
+    - 8vtcg8np4n8c
+timeline:
+    - ts: "2024-09-17 23:00:03"
+      description: Our monitoring has detected service degradation where a subset of users in USA are experiencing issues with AI Companion Chat Compose and thread summary, Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
+    - ts: "2024-09-17 23:38:58"
+      description: We continue to investigate service degradation affecting a subset of users in the USA who are experiencing issues with AI Companion Chat Compose, thread summaries,content generation for the AI Companion whiteboard service and Live transcription with Zoom meetings. Our engineers are currently assessing the impact and root cause. Zoom will provide updates as soon as more information is available.
+      investigating: true
+    - ts: "2024-09-18 00:36:27"
+      description: We continue to investigate service degradation affecting a subset of users in the USA who are experiencing issues with AI Companion Chat Compose, thread summaries, and content generation for the AI Companion whiteboard service. Please note that live transcription during Zoom meetings is functioning normally and is not impacted. Our engineers are currently assessing the impact and root cause of the other services. Zoom will provide updates as soon as more information is available
+      investigating: true
+    - ts: "2024-09-18 01:23:33"
+      description: We have resolved the issue, We will continue to monitor and provide updates as we have them.
+    - ts: "2024-09-18 01:39:42"
+      description: This incident has been resolved.
+      resolved: true

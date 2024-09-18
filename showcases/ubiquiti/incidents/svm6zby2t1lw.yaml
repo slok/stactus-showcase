@@ -1,0 +1,12 @@
+version: incident/v1
+id: svm6zby2t1lw
+name: UNMS Cloud backend outage
+impact: major
+systems:
+    - kyb5xddvtwvg
+timeline:
+    - ts: "2021-02-04 10:21:48"
+      description: |-
+        UNMS Cloud backend had an outage because SSO credential rotation was not reflected on UNMS side.
+        Users were unable to create new controllers and existing controllers could not be managed by the backend (restarts, password resets).
+      resolved: true

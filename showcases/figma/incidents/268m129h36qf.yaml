@@ -1,0 +1,12 @@
+version: incident/v1
+id: 268m129h36qf
+name: Figma Mirror disruption
+impact: none
+systems:
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2022-08-30 22:25:23"
+      description: We've identified an issue that is preventing some users from utilizing Figma Mirror and are working toward a fix.
+    - ts: "2022-08-30 22:47:28"
+      description: A fix for the issue has been released and believe the disruption has been resolved.
+      resolved: true

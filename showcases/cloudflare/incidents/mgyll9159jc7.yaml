@@ -1,0 +1,13 @@
+version: incident/v1
+id: mgyll9159jc7
+name: Increase in HTTP 5XX Errors from Houston
+impact: minor
+systems:
+    - dk64qkf6mlmk
+timeline:
+    - ts: "2024-09-09 23:57:57"
+      description: We are investigating reports of an increase in HTTP 5XX errors associated with our Houston (IAH) datacenter.
+      investigating: true
+    - ts: "2024-09-10 01:40:29"
+      description: This incident has been resolved.
+      resolved: true

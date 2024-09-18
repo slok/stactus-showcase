@@ -1,0 +1,18 @@
+version: incident/v1
+id: 915nn7rmqth9
+name: We are investigating reports of degraded performance.
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-05-20 16:47:10"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-05-20 16:50:34"
+      description: Customers may experience errors viewing rendered Jupyter notebooks from PR diff pages or the files tab
+      investigating: true
+    - ts: "2024-05-20 17:01:01"
+      description: We are beginning to see recovery rendering Jupyter notebooks and are continuing to monitor.
+      investigating: true
+    - ts: "2024-05-20 17:05:48"
+      description: Between May 19th 3:40AM UTC and May 20th 5:40PM UTC the service responsible for rendering Jupyter notebooks was degraded. During this time customers were unable to render Jupyter Notebooks.<br /><br />This occurred due to an issue with a Redis dependency which was mitigated by restarting. An issue with our monitoring led to a delay in our response. We are working to improve the quality and accuracy of our monitors to reduce the time to detection.
+      resolved: true

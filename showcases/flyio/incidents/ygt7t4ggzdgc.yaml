@@ -1,0 +1,9 @@
+version: incident/v1
+id: ygt7t4ggzdgc
+name: Machines API incorrectly returning 200 instead of 201
+impact: none
+systems: []
+timeline:
+    - ts: "2024-07-29 20:04:12"
+      description: A change was deployed around tracking status codes but it incorrectly handled the case where a 201 was written and then later a 200 would overwrite it. The change has been reverted back to the original/correct behavior.
+      resolved: true

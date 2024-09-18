@@ -1,0 +1,13 @@
+version: incident/v1
+id: d6b7q0cst06q
+name: Issue with R2 signups via S3-compatible API
+impact: none
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2024-09-02 14:11:50"
+      description: New customers signing up for R2 will be temporarily unable to use the S3-compatible API.
+      investigating: true
+    - ts: "2024-09-02 14:53:58"
+      description: This incident has been resolved.
+      resolved: true

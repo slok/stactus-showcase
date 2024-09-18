@@ -1,0 +1,9 @@
+version: incident/v1
+id: 7n0xtdmvlzd3
+name: Intermittent errors accessing public pages due to elevated traffic
+impact: none
+systems: []
+timeline:
+    - ts: "2022-01-26 15:15:35"
+      description: "Due to elevated traffic, we experienced intermittent timeouts and errors in serving public pages between 5:57 and 5:58 AM PST. \nWe have made updates to our services to prevent similar problems from happening."
+      resolved: true

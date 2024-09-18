@@ -1,0 +1,49 @@
+version: incident/v1
+id: 8z3tkdptn326
+name: Data Ingest and Alert Delays in US Region
+impact: major
+systems:
+    - rbts0zzw73dl
+    - 2vkckmpm1kh6
+    - 5x10l9g2z3t6
+    - 1ccpnwlhg6xx
+    - 028b05n94my0
+    - 45zc1fn1w80h
+    - 5p33lkzzqm0z
+    - 5kywhg5j0l21
+    - ymfwncrn2dnh
+    - 2jrn08x58ps2
+    - 9jndj4kfv59w
+    - pmtvnzg1dzfm
+    - lm2qpsbfggh7
+    - s27h21w34qhk
+    - prjgs1mvmqg9
+    - 6x8hq64xfvwl
+    - 833c8h98qq4g
+    - czn9jxzshjxn
+timeline:
+    - ts: "2023-09-06 02:24:55"
+      description: Some customers in the US region may be experiencing  delayed or missing alert notifications. We have engaged all necessary resources as we investigate this issue.
+      investigating: true
+    - ts: "2023-09-06 02:31:28"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-09-06 03:18:01"
+      description: We are continuing to investigate an issue. Some customers in the US region may experience impact to data collection and delayed or missing alert notifications.
+      investigating: true
+    - ts: "2023-09-06 03:49:03"
+      description: We have engaged our Cloud provider to assist with further investigation and are evaluating additional mitigation efforts. Some customers in the US region may experience impact to data collection and delayed or missing alert notifications.
+      investigating: true
+    - ts: "2023-09-06 04:20:02"
+      description: We have engaged our Cloud provider to assist with further investigation and are evaluating additional mitigation efforts. Some customers in the US region may experience impact to data collection and delayed or missing alert notifications.
+      investigating: true
+    - ts: "2023-09-06 04:56:45"
+      description: A fix has been implemented and we are monitoring the results. Some customers in the US region have reported recovery from the impact to data collection and delayed or missing alert notifications.
+    - ts: "2023-09-06 05:57:10"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2023-09-06 06:37:13"
+      description: |-
+        Between 02:03 UTC and 05:45 UTC on Wednesday, September 6, 2023, some customers in the US region may have experienced an impact to data collection and delayed or missing alert notifications. To prevent our customers from receiving a high volume of false-positive alert notifications during this interruption, alerts were temporarily suppressed for applicable customers between 02:20 UTC and 04:52 UTC.
+
+        We have investigated and resolved a service interruption with our Cloud Service Provider and impacted services have returned to normal operations.
+      resolved: true

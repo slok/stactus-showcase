@@ -1,0 +1,24 @@
+version: incident/v1
+id: 36q3lhpc48ql
+name: Upstash Redis Connectivity issues in IAD
+impact: none
+systems: []
+timeline:
+    - ts: "2024-07-03 15:57:57"
+      description: We are investigating customer issues connecting to Upstash Redis primaries in the IAD region
+      investigating: true
+    - ts: "2024-07-03 15:58:12"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-07-03 16:16:14"
+      description: |-
+        We have identified the cause of the issues to a host hardware failure that is impacting the Upstash Redis cluster. We are working to restore the failed hardware.
+
+        Upstash Redis Databases with primaries in regions other than IAD are not impacted.
+    - ts: "2024-07-03 19:24:24"
+      description: "Some existing Upstash Redis databases in the IAD region are still experiencing connection issues. We are continuing to work on restoring the impacted host to restore these. \nThe ability to create new Upstash Redis databases in the IAD has been restored. Newly created databases are not impacted by the current issue."
+    - ts: "2024-07-03 22:32:28"
+      description: The host has been brought back online and work is being done to restore the Upstash Redis Cluster in IAD.
+    - ts: "2024-07-03 23:55:39"
+      description: This issue has been resolved.
+      resolved: true

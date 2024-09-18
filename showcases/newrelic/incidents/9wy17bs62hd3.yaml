@@ -1,0 +1,17 @@
+version: incident/v1
+id: 9wy17bs62hd3
+name: New User Verification Email Issues in US and EU Regions
+impact: none
+systems: []
+timeline:
+    - ts: "2023-07-25 07:22:24"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-07-25 11:38:18"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-07-25 11:38:24"
+      description: |-
+        Between 07:03 UTC and 08:56 UTC on July 25 2023, all customers may have experienced email notifications failures while verifying the new user accounts emails.
+
+        We resolved this issue and the above services have returned to normal operation.
+      resolved: true

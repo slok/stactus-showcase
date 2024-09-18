@@ -1,0 +1,14 @@
+version: incident/v1
+id: bqm909t1jgbz
+name: Billing system errors
+impact: major
+systems:
+    - vws6fvs1j3x6
+timeline:
+    - ts: "2024-06-21 08:44:25"
+      description: Due to an upstream outage, our billing system is experiencing a partial outage. Invoices may fail to load and/or be missing lines, and credits (including purchased credits) may fail to load.If you previously purchased credits and your credit balance is now showing $0.00, please be aware that this is a UI outage only - your credit balance will show the correct figure once the outage is resolved.
+    - ts: "2024-06-21 08:46:48"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2024-06-22 20:36:29"
+      description: Our billing provider has resolved their incident and our systems confirm we are resolved as well.
+      resolved: true

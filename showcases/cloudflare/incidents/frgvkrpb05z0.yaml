@@ -1,0 +1,23 @@
+version: incident/v1
+id: frgvkrpb05z0
+name: Issue with Stream's Business/Pro allocation
+impact: none
+systems:
+    - 47xg28c02lnk
+timeline:
+    - ts: "2024-09-06 03:44:33"
+      description: Cloudflare is investigating issues with Stream for accounts using it as part of Business/Pro subscription plan allocation. Accounts using Stream with a Stream subscription or on Enterprise subscription plan are not impacted. Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2024-09-06 03:53:37"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-09-06 04:01:34"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-09-06 04:32:12"
+      description: The team has identified the issue and deploying a fix.
+    - ts: "2024-09-06 05:13:42"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-06 05:25:12"
+      description: This incident has been resolved.
+      resolved: true

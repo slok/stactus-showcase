@@ -1,0 +1,67 @@
+version: incident/v1
+id: pgqj808pvcmh
+name: New Relic UI Irregularities in US/EU Region
+impact: critical
+systems:
+    - k4c77k6bzcl7
+    - ssdh7xpzvw1l
+    - ty1004s644gq
+    - gmn0nk8bzns7
+    - k2c0hnpnmgqn
+    - dgtbt0fh397m
+    - j6v4tzmw08t4
+    - fpds3wrx84c0
+    - 1mwh21hqrxlw
+    - zhbggrqh2xl6
+    - nw4g7754n7tl
+    - 6qh38lgrdr8v
+    - x87lk2mkvdtx
+    - 5ptd99lkyfbn
+    - g3mtj9z8c1cq
+    - vr1305kd0fnz
+    - q94v4hz14v0f
+    - dw81gfk0f10y
+    - xrzsz1k79xbd
+    - r6fg75bj1j7h
+    - 5qhzckvc2ncn
+    - 36218xs1zbvy
+    - mc4f9x2xl1zg
+    - 5wk3qb87hk5h
+    - 927km3k58wgb
+    - s7j157s900c3
+    - 8k5pmrjbl1w0
+    - jgl5xywwz8l3
+    - 7yqy1ctsjw35
+    - zbbfpr0656gw
+    - 5kj1rklxtgzg
+    - 0zhztcy8gf0v
+timeline:
+    - ts: "2024-08-03 19:09:37"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-08-03 19:22:31"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-08-03 19:46:52"
+      description: We are continuing to investigate the issue.
+      investigating: true
+    - ts: "2024-08-03 20:15:27"
+      description: We are continuing to investigate the issue. No actions are required by customers as we work to resolve this. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-08-03 20:43:58"
+      description: Our teams are working to resolve an issue with login services. Customers in the US and EU regions may experience errors accessing the New Relic UI. Data ingest and alert notifications are not impacted at this time. Please continue to monitor this page for updates.
+    - ts: "2024-08-03 21:24:58"
+      description: Our teams are working to resolve an issue with login services. Customers in the US and EU regions may experience errors accessing the New Relic UI. Data ingest and alert notifications are not impacted at this time. Please continue to monitor this page for updates.
+    - ts: "2024-08-03 22:03:47"
+      description: We are seeing recovery for the login service at this time. We're monitoring as services recover and will provide an additional update once we've fully validated that all affected services have returned to normal operation.
+    - ts: "2024-08-03 22:28:54"
+      description: We are seeing recovery for the login service at this time. We're monitoring as services recover and will provide an additional update once we've fully validated that all affected services have returned to normal operation.
+    - ts: "2024-08-03 22:54:34"
+      description: We are continuing to see recovery for the login service at this time. We're monitoring as services recover and will provide an additional update once we've fully validated that all affected services have returned to normal operation.
+    - ts: "2024-08-03 23:18:13"
+      description: We are continuing to see recovery for the login service at this time. We're monitoring as services recover and will provide an additional update once we've fully validated that all affected services have returned to normal operation.
+    - ts: "2024-08-03 23:31:49"
+      description: We're continuing to monitor as services recover and are validating that all affected services have returned to normal operation.
+    - ts: "2024-08-03 23:44:55"
+      description: Between 18:37 UTC and 22:27 UTC on August 3rd, 2024, customers in the US and EU region may have encountered errors when attempting to log in to the New Relic platform. We investigated and resolved an issue with the login service and impacted services have returned to normal operations.
+      resolved: true

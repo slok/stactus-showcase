@@ -1,0 +1,18 @@
+version: incident/v1
+id: nxr3p3ghd3c3
+name: Some Grafana Instances Unavailable
+impact: major
+systems:
+    - hbqgpzmf8h9k
+timeline:
+    - ts: "2024-05-24 22:01:59"
+      description: |-
+        We are currently experiencing disruptions in access to instances in the us-east-0 region. Our team is actively investigating the issue and working to restore normal service as quickly as possible.
+
+        We apologize for any inconvenience this may cause and appreciate your patience. Further updates will be provided as we have more information.
+      investigating: true
+    - ts: "2024-05-24 22:15:59"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-05-24 22:34:56"
+      description: Engineering has released a fix and as of 22:30 UTC, customers should no longer experience errors accessing instance us-east-0. At this time, we are considering this issue resolved. No further updates.
+      resolved: true

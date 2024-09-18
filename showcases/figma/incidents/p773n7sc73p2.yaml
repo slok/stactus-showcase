@@ -1,0 +1,14 @@
+version: incident/v1
+id: p773n7sc73p2
+name: Service disruption
+impact: minor
+systems:
+    - pn57gvt7sjmx
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2023-06-12 22:36:28"
+      description: We are investigating an issue that is causing intermittent loading issues for some users
+      investigating: true
+    - ts: "2023-06-12 23:21:05"
+      description: We've mitigated the impact of this issue.
+      resolved: true

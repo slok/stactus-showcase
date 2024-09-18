@@ -1,0 +1,11 @@
+version: incident/v1
+id: jrffw54w9vpc
+name: Scheduled Maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2024-08-28 17:28:45"
+      description: 'Service maintenance applies to all of the resources with the following pattern in their endpoint : c302'
+    - ts: "2024-08-28 19:03:16"
+      description: This incident has been resolved.
+      resolved: true

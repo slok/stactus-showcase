@@ -1,0 +1,26 @@
+version: incident/v1
+id: 69sb0f8lydp4
+name: Incident with Pages and Actions
+impact: major
+systems:
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2024-09-16 21:31:02"
+      description: We are investigating reports of degraded performance for Actions and Pages
+      investigating: true
+    - ts: "2024-09-16 21:37:26"
+      description: Actions is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-09-16 21:52:44"
+      description: Pages is operating normally.
+      investigating: true
+    - ts: "2024-09-16 21:53:48"
+      description: The team is investigating issues with some Actions jobs being queued for a long time and a percentage of jobs failing. A mitigation has been applied and jobs are starting to recover.
+      investigating: true
+    - ts: "2024-09-16 21:55:28"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-09-16 22:08:39"
+      description: This incident has been resolved.
+      resolved: true

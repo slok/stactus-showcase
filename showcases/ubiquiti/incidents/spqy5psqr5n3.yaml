@@ -1,0 +1,16 @@
+version: incident/v1
+id: spqy5psqr5n3
+name: AmpliFi remote connectivity issues
+impact: major
+systems:
+    - srxrnrly7lqz
+timeline:
+    - ts: "2020-10-27 07:47:34"
+      description: "Remote AmpliFi routers are not accessible using the iOS version of AmpliFi WiFi mobile application. \nThe issue has been identified and we are working on a fix."
+    - ts: "2020-10-27 10:53:54"
+      description: We are currently deploying a fix for this issue and we are seeing that some requests to access AmpliFi routers through the iOS application are completed successfully.
+    - ts: "2020-10-27 12:31:24"
+      description: A fix has been fully deployed and we are monitoring the results.
+    - ts: "2020-10-27 13:43:02"
+      description: The incident has been resolved.
+      resolved: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: vq5xjdll9b3h
+name: Low Capacity in SJC
+impact: major
+systems:
+    - 49qj4qjyzlzn
+timeline:
+    - ts: "2024-07-18 20:29:06"
+      description: The SJC region is currently very low on capacity. New deploys to the region may fail, and stopped Machines may fail to start. We are preparing to add capacity.
+    - ts: "2024-07-18 21:12:31"
+      description: Capacity has been added and all functionality has returned to normal.
+      resolved: true

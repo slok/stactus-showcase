@@ -1,0 +1,17 @@
+version: incident/v1
+id: q1rslpclnfrm
+name: Intermittent errors during login for some customers
+impact: minor
+systems:
+    - fyzs60wyq01d
+timeline:
+    - ts: "2023-07-06 02:18:49"
+      description: We are investigating reports of intermittent errors during login for some customers using Statuspage. We will provide more details once we identify the root cause.
+      investigating: true
+    - ts: "2023-07-06 02:28:37"
+      description: We have identified issues with our login system. To unblock customer login we have temporarily enabled alternate login flows for the manage portal. We will continue to monitor the situation and provide further details as we investigate further.
+    - ts: "2023-07-06 06:14:41"
+      description: A fix has been implemented, we are seeing recovery and continuing to monitor the incident.
+    - ts: "2023-07-06 06:26:59"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: fpbz33jbq351
+name: Network Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2024-08-19 02:15:11"
+      description: 'We are experiencing some network issues. This may affect resources that have the following pattern in their endpoint: c309'
+      investigating: true
+    - ts: "2024-08-19 02:58:36"
+      description: This incident has been resolved.
+      resolved: true

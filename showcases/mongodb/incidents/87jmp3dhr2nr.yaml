@@ -1,0 +1,23 @@
+version: incident/v1
+id: 87jmp3dhr2nr
+name: 'MongoDB Cloud: Blank pages and "An error occurred"'
+impact: critical
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-03-27 18:23:43"
+      description: We have received reports of blank page loads as well as "An error occurred" pages. We are investigating, but at this time we have no evidence of any impacts to cluster health.
+      investigating: true
+    - ts: "2024-03-27 18:32:21"
+      description: We have received reports of blank page loads as well as "An error occurred" pages. Admin API queries may also fail or timeout. We are investigating, but at this time we have no evidence of any impacts to cluster health.
+      investigating: true
+    - ts: "2024-03-27 18:51:36"
+      description: |-
+        While the web UI and API access has been restored, we are still actively working on the system. As such, users may still get occasional timeouts.
+
+        Cluster health is unaffected.
+    - ts: "2024-03-27 18:52:44"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-03-27 19:19:13"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,146 @@
+version: stactus/v1
+name: New Relic
+url: https://status.newrelic.com
+systems:
+    - id: rbts0zzw73dl
+      name: 'Alert Notifications : US / APM : US'
+    - id: d9pwhb6snl77
+      name: 'Alert Notifications : Europe / APM : Europe'
+    - id: 2vkckmpm1kh6
+      name: 'Data Ingest : US / APM Agent : US'
+    - id: y3p11yl1yr8m
+      name: 'Data Ingest : Europe / APM Agent : Europe'
+    - id: k4c77k6bzcl7
+      name: 'UI : US / Alerts : US'
+    - id: ssdh7xpzvw1l
+      name: 'UI : Europe / Alerts : Europe'
+    - id: ty1004s644gq
+      name: 'UI : US / APM : US'
+    - id: 5x10l9g2z3t6
+      name: 'Alert Notifications : US / Browser : US'
+    - id: gmn0nk8bzns7
+      name: 'UI : Europe / APM : Europe'
+    - id: tpj67jyc58sb
+      name: 'Alert Notifications : Europe / Browser : Europe'
+    - id: 1ccpnwlhg6xx
+      name: 'Data Ingest : US / Browser Agent : US'
+    - id: zsjcl7zv5sn2
+      name: 'Data Ingest : Europe / Browser Agent : Europe'
+    - id: 028b05n94my0
+      name: 'Alert Notifications : US / Infrastructure : US'
+    - id: zj32brg420jm
+      name: 'Alert Notifications : Europe / Infrastructure : Europe'
+    - id: 45zc1fn1w80h
+      name: 'Data Ingest : US / Event API : US'
+    - id: yqcw0krmvwj5
+      name: 'Data Ingest : Europe / Event API : Europe'
+    - id: k2c0hnpnmgqn
+      name: 'UI : US / Auto-Telemetry with Pixie : US'
+    - id: dgtbt0fh397m
+      name: 'UI : Europe / Auto-Telemetry with Pixie : Europe'
+    - id: 5p33lkzzqm0z
+      name: 'Alert Notifications : US / Logs : US'
+    - id: j6v4tzmw08t4
+      name: 'UI : US / AWS Lambda Integration : US'
+    - id: hymb519q08z0
+      name: 'Alert Notifications : Europe / Logs : Europe'
+    - id: fpds3wrx84c0
+      name: 'UI : Europe / AWS Lambda Integration : Europe'
+    - id: 5kywhg5j0l21
+      name: 'Data Ingest : US / Incident Intelligence API : US'
+    - id: jk2k3ln898rx
+      name: 'Data Ingest : Europe / Incident Intelligence API : Europe'
+    - id: 1mwh21hqrxlw
+      name: 'UI : US / Browser : US'
+    - id: ymfwncrn2dnh
+      name: 'Alert Notifications : US / Mobile : US'
+    - id: zhbggrqh2xl6
+      name: 'UI : Europe / Browser : Europe'
+    - id: fp51bfh70sht
+      name: 'Alert Notifications : Europe / Mobile : Europe'
+    - id: 2jrn08x58ps2
+      name: 'Data Ingest : US / Infrastructure Agent : US'
+    - id: hm4r9fn1gr93
+      name: 'Data Ingest : Europe / Infrastructure Agent : Europe'
+    - id: nw4g7754n7tl
+      name: 'UI : US / Dashboards : US'
+    - id: 6qh38lgrdr8v
+      name: 'UI : Europe / Dashboards : Europe'
+    - id: 9jndj4kfv59w
+      name: 'Alert Notifications : US / NRQL : US'
+    - id: 5ny464vz0n83
+      name: 'Alert Notifications : Europe / NRQL : Europe'
+    - id: pmtvnzg1dzfm
+      name: 'Data Ingest : US / Log API : US'
+    - id: 858xlnc93b96
+      name: 'Data Ingest : Europe / Log API : Europe'
+    - id: yhld3kylj6fn
+      name: isNewUser
+    - id: lm2qpsbfggh7
+      name: 'Alert Notifications : US / Serverless : US'
+    - id: xzllc95t20c2
+      name: 'Alert Notifications : Europe / Serverless : Europe'
+    - id: x87lk2mkvdtx
+      name: 'UI : US / Incident Intelligence : US'
+    - id: s27h21w34qhk
+      name: 'Data Ingest : US / Metric API : US'
+    - id: 5ptd99lkyfbn
+      name: 'UI : Europe / Incident Intelligence : Europe'
+    - id: vdkznxzlr7nn
+      name: 'Data Ingest : Europe / Metric API : Europe'
+    - id: prjgs1mvmqg9
+      name: 'Alert Notifications : US / Synthetics : US'
+    - id: g3mtj9z8c1cq
+      name: 'UI : US / Infrastructure : US'
+    - id: 8h442mvws6w7
+      name: 'Alert Notifications : Europe / Synthetics : Europe'
+    - id: vr1305kd0fnz
+      name: 'UI : Europe / Infrastructure : Europe'
+    - id: 6x8hq64xfvwl
+      name: 'Data Ingest : US / Mobile Agent : US'
+    - id: jdszr85tpvd1
+      name: 'Data Ingest : Europe / Mobile Agent : Europe'
+    - id: 833c8h98qq4g
+      name: 'Data Ingest : US / OTLP API : US'
+    - id: 0ggq3l63l1sh
+      name: 'Data Ingest : Europe / OTLP API : Europe'
+    - id: q94v4hz14v0f
+      name: 'UI : US / Infrastructure Integrations : US'
+    - id: dw81gfk0f10y
+      name: 'UI : Europe / Infrastructure Integrations : Europe'
+    - id: xrzsz1k79xbd
+      name: 'UI : US / Logs : US'
+    - id: r6fg75bj1j7h
+      name: 'UI : Europe / Logs : Europe'
+    - id: czn9jxzshjxn
+      name: 'Data Ingest : US / Trace API : US'
+    - id: 15b9hc4j611g
+      name: 'Data Ingest : Europe / Trace API : Europe'
+    - id: 5qhzckvc2ncn
+      name: 'UI : US / Lookout : US'
+    - id: 36218xs1zbvy
+      name: 'UI : Europe / Lookout : Europe'
+    - id: xlzs28xhd8bw
+      name: 'Data Ingest : US / Synthetics : US'
+    - id: 64hk5ch1ww5b
+      name: 'Data Ingest : Europe / Synthetics : Europe'
+    - id: mc4f9x2xl1zg
+      name: 'UI : US / Mobile : US'
+    - id: 5wk3qb87hk5h
+      name: 'UI : Europe / Mobile : Europe'
+    - id: 927km3k58wgb
+      name: 'UI : US / Open Instrumentation : US'
+    - id: s7j157s900c3
+      name: 'UI : Europe / Open Instrumentation : Europe'
+    - id: 8k5pmrjbl1w0
+      name: 'UI : US / Proactive Detection : US'
+    - id: jgl5xywwz8l3
+      name: 'UI : Europe / Proactive Detection : Europe'
+    - id: 7yqy1ctsjw35
+      name: 'UI : US / Serverless : US'
+    - id: zbbfpr0656gw
+      name: 'UI : Europe / Serverless : Europe'
+    - id: 5kj1rklxtgzg
+      name: 'UI : US / Synthetics : US'
+    - id: 0zhztcy8gf0v
+      name: 'UI : Europe / Synthetics : Europe'

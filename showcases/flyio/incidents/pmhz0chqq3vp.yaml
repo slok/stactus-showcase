@@ -1,0 +1,12 @@
+version: incident/v1
+id: pmhz0chqq3vp
+name: Brief network interruption in IAD
+impact: none
+systems:
+    - qyh8qlklk7mx
+timeline:
+    - ts: "2024-07-02 19:10:32"
+      description: Network connectivity was briefly lost in IAD, immediately noticed, and immediately restored. Continuing to monitor the situation.
+    - ts: "2024-07-02 19:34:15"
+      description: This incident has been resolved. a BGP routing change had briefly interrupted service but was immediately fixed.
+      resolved: true

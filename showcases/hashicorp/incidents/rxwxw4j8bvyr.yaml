@@ -1,0 +1,25 @@
+version: incident/v1
+id: rxwxw4j8bvyr
+name: HCP Portal Audit Log Viewer Errors
+impact: minor
+systems:
+    - mgv1p2j9x444
+timeline:
+    - ts: "2024-08-19 02:21:10"
+      description: We're investigating increased latency for viewing consul cluster and HVS app audit events through the Portal.
+      investigating: true
+    - ts: "2024-08-19 03:57:23"
+      description: Audit event search remains degraded at this time. Events are continuing to be processed in the meanwhile.
+      investigating: true
+    - ts: "2024-08-22 16:44:06"
+      description: Our engineering team is continuing to investigate an issue with audit log viewing. During this time, users may experience intermittent audit log viewing failures, however audit log events are still being recorded. We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-08-22 18:35:20"
+      description: Our Engineering team has implemented a fix to resolve audit log viewing and is monitoring the situation. Users may see intermittent audit log viewing failures as the system is recovering. We will post an update as soon as the issue is fully resolved.
+    - ts: "2024-09-03 21:59:24"
+      description: Our Engineering team has identified the cause for audit log viewing errors. We will provide an update once this issue is fully resolved.
+    - ts: "2024-09-04 23:57:47"
+      description: Our Engineering team has identified the cause for audit log viewing errors. We plan to perform a maintenance activity by 9/18 to resolve this issue.
+    - ts: "2024-09-05 00:00:24"
+      description: This incident has been resolved.
+      resolved: true

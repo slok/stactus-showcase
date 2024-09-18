@@ -1,0 +1,33 @@
+version: incident/v1
+id: y0gqch2dhw5l
+name: Actions runs using large hosted runners delayed for some customers
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-07-30 18:19:10"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-07-30 18:23:38"
+      description: We are seeing run delays for larger hosted runners for a limited number of customers. We are deploying mitigations to address these delays.
+      investigating: true
+    - ts: "2024-07-30 19:04:00"
+      description: We are seeing improvements to the job start times for larger hosted runners for customers. In the last 30 minutes no customer jobs are delayed more than 5 minutes. We will continue monitoring for full recovery.
+      investigating: true
+    - ts: "2024-07-30 19:40:55"
+      description: We are still investigating delays in customer’s larger hosted runner job starts. Nearly all jobs are starting under 5 minutes. Only 1 customer larger hosted runner job was delayed by more than 5 minutes in the past 30 minutes.
+      investigating: true
+    - ts: "2024-07-30 20:17:05"
+      description: Over the past 30 minutes, all larger hosted runner jobs have started in less than 5 minutes. We are continuing to investigate delays in larger hosted runner job starts
+      investigating: true
+    - ts: "2024-07-30 21:00:06"
+      description: Larger hosted runners job starts are stable and starting within expected timeframes. We are monitoring job start times in preparation to resolve this incident. No enqueued larger hosted runner jobs were dropped during this incident.
+      investigating: true
+    - ts: "2024-07-30 21:44:35"
+      description: We are continuing to hold this incident open while the team ensures that mitigation put in place is stable.
+      investigating: true
+    - ts: "2024-07-30 22:09:56"
+      description: The mitigation for larger hosted runners has continued to be stable and all job delays are less than 5 minutes. We will be resolving this incident.
+      investigating: true
+    - ts: "2024-07-30 22:10:20"
+      description: On July 30th, 2024, between 13:25 UTC and 18:15 UTC, customers using Larger Hosted Runners may have experienced extended queue times for jobs that depended on a Runner with VNet Injection enabled in a virtual network within the East US 2 region. Runners without VNet Injection or those with VNet Injection in other regions were not affected. The issue was caused due to an outage in a third party provider blocking a large percentage of VM allocations in the East US 2 region. Once the underlying issue with the third party provider was resolved, job queue times went back to normal. We are exploring the addition of support for customers to define VNet Injection Runners with VNets across multiple regions to minimize the impact of outages in a single region.
+      resolved: true

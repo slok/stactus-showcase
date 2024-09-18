@@ -1,0 +1,21 @@
+version: incident/v1
+id: f5k61h3mw6p9
+name: 'MongoDB Atlas and Cloud Manager: Degraded Performance for Atlas and Cloud Manager UI and API Operations'
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-05-06 16:38:44"
+      description: |-
+        We are seeing degraded performance with our UI and API operations. Users may experience longer page load times as well as delays in responses from API calls.
+
+        Users attempting to login to Atlas, Cloud Manager, the Support Portal, or University may encounter errors.
+
+        Customer clusters appear unaffected at this time.
+
+        We are actively investigating the issue.
+    - ts: "2024-05-06 16:49:48"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-05-06 17:01:47"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,14 @@
+version: incident/v1
+id: j79jfv4j0wlj
+name: Elevated Client Disconnects
+impact: none
+systems: []
+timeline:
+    - ts: "2024-02-03 16:32:59"
+      description: We're investigation an issue that has been identified to be causing clients to disconnect
+      investigating: true
+    - ts: "2024-02-03 16:49:04"
+      description: We are applying a mitigation for this issue.
+    - ts: "2024-02-03 16:56:45"
+      description: Fix has been fully rolled out, and the issue is now resolved.
+      resolved: true

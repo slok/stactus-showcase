@@ -1,0 +1,16 @@
+version: incident/v1
+id: rvqztqvyd872
+name: MIT Sites Authentication
+impact: none
+systems: []
+timeline:
+    - ts: "2024-07-12 09:46:05"
+      description: A login issue is impacting the MIT Sites service (https://sites.mit.edu). IS&T has opened a ticket with the vendor, who is investigating. Public content that does not require touchstone authentication is unaffected.
+      investigating: true
+    - ts: "2024-07-12 10:26:43"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-07-12 11:25:48"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-07-12 11:41:36"
+      description: This incident has been resolved.
+      resolved: true

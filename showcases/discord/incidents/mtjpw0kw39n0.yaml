@@ -1,0 +1,15 @@
+version: incident/v1
+id: mtjpw0kw39n0
+name: Issues with Spotify integration
+impact: minor
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-07-17 05:09:40"
+      description: We are currently investigating an issue with the Spotify integration.
+      investigating: true
+    - ts: "2024-07-17 05:40:27"
+      description: The Spotify API used by Discord is no longer returning errors, and we're continuing to monitor.
+    - ts: "2024-07-17 05:54:56"
+      description: This incident has been resolved.
+      resolved: true

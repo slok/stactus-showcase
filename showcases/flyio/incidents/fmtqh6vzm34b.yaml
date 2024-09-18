@@ -1,0 +1,14 @@
+version: incident/v1
+id: fmtqh6vzm34b
+name: Reports of missing statuspage messages for incidents
+impact: none
+systems: []
+timeline:
+    - ts: "2024-07-02 22:17:24"
+      description: We're investigating reports that some internal tooling that should create public statuspage records is not doing so.
+      investigating: true
+    - ts: "2024-07-02 22:25:27"
+      description: We have identified the cause
+    - ts: "2024-07-02 22:32:09"
+      description: We've determined the error is no longer occurring.
+      resolved: true

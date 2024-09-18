@@ -1,0 +1,32 @@
+version: incident/v1
+id: 9s4yrv36x7g8
+name: Data Ingest Irregularities in EU and US Regions
+impact: minor
+systems:
+    - 2vkckmpm1kh6
+    - y3p11yl1yr8m
+    - 1ccpnwlhg6xx
+    - zsjcl7zv5sn2
+    - 45zc1fn1w80h
+    - yqcw0krmvwj5
+    - 5kywhg5j0l21
+    - jk2k3ln898rx
+    - 2jrn08x58ps2
+    - hm4r9fn1gr93
+    - pmtvnzg1dzfm
+    - 858xlnc93b96
+    - s27h21w34qhk
+    - vdkznxzlr7nn
+    - 6x8hq64xfvwl
+    - jdszr85tpvd1
+    - 833c8h98qq4g
+    - 0ggq3l63l1sh
+    - czn9jxzshjxn
+    - 15b9hc4j611g
+timeline:
+    - ts: "2023-11-08 16:52:51"
+      description: We are investigating an issue affecting data ingest for all data types. Some customers in the EU region as well as a small percentage of US customers may experience errors when sending data to New Relic, issues in viewing data in real time, and delayed or missing alert notifications related to real time data.
+      investigating: true
+    - ts: "2023-11-08 17:03:07"
+      description: "Between 16:05 UTC and 16:47 UTC on November 8th, some customers in the EU region as well as a small percentage of US customers may have experienced errors when sending data to New Relic, issues in viewing data in real time, and delayed or missing alert notifications related to real time data. \n\nWe have investigated and resolved this interruption and the above services have returned to normal operation."
+      resolved: true

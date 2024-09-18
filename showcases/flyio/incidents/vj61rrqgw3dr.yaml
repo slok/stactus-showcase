@@ -1,0 +1,14 @@
+version: incident/v1
+id: vj61rrqgw3dr
+name: Investigating elevated wg failures
+impact: major
+systems:
+    - 80ykv2p95qgy
+    - 49yq6v65b33l
+timeline:
+    - ts: "2024-06-11 18:14:23"
+      description: We are currently investigating reports of elevated WireGuard connection failures. Users may see errors while connecting over WireGuard, such as via fly ssh console.
+      investigating: true
+    - ts: "2024-06-11 19:52:47"
+      description: This incident has been resolved.
+      resolved: true

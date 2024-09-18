@@ -1,0 +1,38 @@
+version: incident/v1
+id: l2gm98y38w5k
+name: Some cloud services encounter an fatal issue
+impact: major
+systems:
+    - sw5q8tgl2864
+    - nfd5mclwftjw
+    - 5fs3yzwktd3t
+    - w7ycvnq5lw8s
+    - k1z8m42c0d7r
+    - tlk3750f34v2
+    - 6hkfwd93hvnk
+timeline:
+    - ts: "2024-09-10 09:59:52"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-09-10 10:00:50"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-09-10 10:01:10"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-10 10:15:29"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2024-09-10 10:18:34"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2024-09-10 11:45:03"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2024-09-10 12:30:11"
+      description: Now Official Website is back. We are continuing to work on a fix for other issues.
+    - ts: "2024-09-10 14:01:50"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-10 14:11:41"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2024-09-10 14:34:56"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2024-09-10 14:54:47"
+      description: This incident has been resolved.
+      resolved: true

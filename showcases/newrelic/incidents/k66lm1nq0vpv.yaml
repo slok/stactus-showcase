@@ -1,0 +1,37 @@
+version: incident/v1
+id: k66lm1nq0vpv
+name: Alert Delays in the US Region
+impact: minor
+systems:
+    - rbts0zzw73dl
+    - 2vkckmpm1kh6
+    - 5x10l9g2z3t6
+    - 1ccpnwlhg6xx
+    - 028b05n94my0
+    - 45zc1fn1w80h
+    - 5p33lkzzqm0z
+    - 5kywhg5j0l21
+    - ymfwncrn2dnh
+    - 2jrn08x58ps2
+    - 9jndj4kfv59w
+    - pmtvnzg1dzfm
+    - lm2qpsbfggh7
+    - s27h21w34qhk
+    - prjgs1mvmqg9
+    - 6x8hq64xfvwl
+    - 833c8h98qq4g
+    - czn9jxzshjxn
+    - xlzs28xhd8bw
+timeline:
+    - ts: "2024-06-08 01:44:46"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-06-08 01:56:39"
+      description: Some customers in the US region may be experiencing delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data.
+      investigating: true
+    - ts: "2024-06-08 02:46:33"
+      description: |-
+        Between 12:36 UTC and 2:45 UTC on June 8th, some customers in the US region may have experienced delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data.
+
+        We have investigated and resolved this service interruption and impacted services have returned to normal operations.
+      resolved: true

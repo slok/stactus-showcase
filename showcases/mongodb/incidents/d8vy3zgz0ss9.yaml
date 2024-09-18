@@ -1,0 +1,17 @@
+version: incident/v1
+id: d8vy3zgz0ss9
+name: Unable to create new Identity Providers for Federated Authentication
+impact: none
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-02-09 14:49:04"
+      description: We are currently aware of reports that creating new Identity Providers for Federated Authentication is failing. We are investigating this issue.
+      investigating: true
+    - ts: "2024-02-09 18:18:21"
+      description: The fix has been identified and we're working with our upstream provider on implementing a fix.
+    - ts: "2024-02-11 02:11:36"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-02-11 03:40:18"
+      description: This incident has been resolved.
+      resolved: true

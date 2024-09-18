@@ -1,0 +1,15 @@
+version: incident/v1
+id: 7zq47gsmslvn
+name: Webhook Processing Delays
+impact: none
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-02-07 08:35:30"
+      description: We're are investigating delays processing some asynchronous tasks, such as bulk message deletions and image data in webhooks.
+      investigating: true
+    - ts: "2024-02-07 09:16:28"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-02-07 10:24:36"
+      description: This incident has been resolved.
+      resolved: true

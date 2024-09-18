@@ -1,0 +1,12 @@
+version: incident/v1
+id: pch7l558kbsr
+name: Hosted Logs prod-ap-northeast-0 region full read path outage.
+impact: major
+systems:
+    - nfll10wmx61f
+timeline:
+    - ts: "2024-07-09 10:26:13"
+      description: Cell loki-prod-030 inside prod-ap-northeast-0 region was facing a full read path outage. The outage lasted from ~9:35 UTC to until 10:17 UTC. The fix was applied - we're monitoring.
+    - ts: "2024-07-09 11:36:54"
+      description: The incident is fully resolved now, root cause was determined and mitigated. The particular cell affected had a legacy config present, which caused a panic during the regular rollout. The cell was rolled back as a precaution and the mentioned config is now corrected.
+      resolved: true

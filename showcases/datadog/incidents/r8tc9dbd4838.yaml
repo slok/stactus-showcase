@@ -1,0 +1,21 @@
+version: incident/v1
+id: r8tc9dbd4838
+name: Delayed Monitors Notifications
+impact: critical
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2024-09-11 16:59:26"
+      description: We are investigating delays in Monitors Notifications for distribution metrics, which began at 20:00 UTC.
+      investigating: true
+    - ts: "2024-09-11 16:59:36"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-11 17:51:33"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2024-09-11 18:12:37"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2024-09-11 18:12:58"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-11 18:28:13"
+      description: This incident has been resolved.
+      resolved: true

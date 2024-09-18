@@ -1,0 +1,15 @@
+version: incident/v1
+id: g93xb86x1zt2
+name: MIT's Buy2Pay system (Coupa) is down
+impact: none
+systems:
+    - dpdsycjtknlz
+timeline:
+    - ts: "2024-05-14 09:33:37"
+      description: MIT’s Buy2Pay system (Coupa) is down. IS&T and Coupa resources are investigating.  We will provide an update when more information becomes available.
+      investigating: true
+    - ts: "2024-05-14 09:42:51"
+      description: Services are beginning to restore and we are actively monitoring the situation.
+    - ts: "2024-05-14 10:02:11"
+      description: This incident has been resolved.
+      resolved: true

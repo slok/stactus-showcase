@@ -1,0 +1,14 @@
+version: incident/v1
+id: nls9yk96p826
+name: Video attachment thumbnails distorted on mobile
+impact: minor
+systems:
+    - r3wq1zsx72bz
+timeline:
+    - ts: "2024-07-17 14:41:43"
+      description: We have identified an issue with media proxy that has led to distorted video attachment thumbnails on mobile. A fix is being deployed at this time.
+    - ts: "2024-07-17 15:08:40"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-07-17 15:29:03"
+      description: This incident has been resolved. Preview images for all new video attachments will be rendered correctly.
+      resolved: true

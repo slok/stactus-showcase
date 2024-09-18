@@ -1,0 +1,22 @@
+version: incident/v1
+id: q83wbrxcsynw
+name: Stream Upload Delays
+impact: minor
+systems:
+    - 47xg28c02lnk
+timeline:
+    - ts: "2024-09-18 10:44:14"
+      description: |-
+        Cloudflare is investigating issues with uploading videos to Stream. There is no impact to playback of existing videos or other system functionality.
+
+        We are working to understand the full impact and mitigate this problem.  More updates to follow shortly
+      investigating: true
+    - ts: "2024-09-18 12:46:44"
+      description: |-
+        Stream on-demand encoding for new uploads may be delayed in finishing its highest quality variants due to high utilisation, but new videos should still be ready to stream within expected time.
+
+        There is no impact to existing videos, live streams, or other operations. The team is continuing to investigate.
+      investigating: true
+    - ts: "2024-09-18 14:30:09"
+      description: This incident has been resolved.
+      resolved: true

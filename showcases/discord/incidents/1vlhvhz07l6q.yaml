@@ -1,0 +1,12 @@
+version: incident/v1
+id: 1vlhvhz07l6q
+name: Bots unable to send messages
+impact: major
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-04-08 13:26:52"
+      description: We're aware of an issue that is affecting any bot interactions with channels in Discord (message send, thread creation)
+    - ts: "2024-04-08 14:30:40"
+      description: We've rolled back the change that was responsible for this issue.
+      resolved: true

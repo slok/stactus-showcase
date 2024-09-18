@@ -1,0 +1,16 @@
+version: incident/v1
+id: xv83d93yh0dl
+name: Issues with Zoom Phone
+impact: minor
+systems:
+    - qjs9m5p5wmkn
+timeline:
+    - ts: "2023-10-22 01:07:23"
+      description: "IS&T has received reports of some users experiencing issues with Zoom Phone. \n\nThe issue has been reported by Zoom: https://status.zoom.us/incidents/p1vc2p33vs61  \n\nIS&T will continue to monitor the situation and provide updates when available."
+      investigating: true
+    - ts: "2023-10-22 07:55:09"
+      description: |-
+        Zoom has identified and resolved the issue with their infrastructure: https://status.zoom.us/incidents/p1vc2p33vs61
+
+        If you continue to experience any issues with Zoom Phone, please contact the ServiceDesk at 617-253-1101 or servicedesk@mit.edu
+      resolved: true

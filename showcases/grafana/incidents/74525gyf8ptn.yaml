@@ -1,0 +1,9 @@
+version: incident/v1
+id: 74525gyf8ptn
+name: Latency and connectivity issues, synthetic monitoring, Seoul probe location
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-07 01:24:13"
+      description: From 21:30-22:45 UTC, the Seoul public probe location experienced connectivity problems.  We observed failure rates of 10-15% across PING, DNS, HTTP, multiHTTP and k6 scripted checks due to connection timeouts.  The issue has cleared but we continue to monitor.
+      resolved: true

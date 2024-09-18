@@ -1,0 +1,25 @@
+version: incident/v1
+id: 5dvz23w3gl38
+name: Disruption with GitHub services
+impact: minor
+systems:
+    - brv1bkgrwx7q
+timeline:
+    - ts: "2024-07-02 18:45:23"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-07-02 18:47:47"
+      description: API Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-07-02 19:18:56"
+      description: An issue with faulty data in an in-memory storage causes around one third of code search requests to fail. The team has identified the issue and is working on rolling out a fix.
+      investigating: true
+    - ts: "2024-07-02 19:22:52"
+      description: The fix has been rolled out and our telemetry indicates that the errors with code search have resolved.
+      investigating: true
+    - ts: "2024-07-02 19:24:48"
+      description: API Requests is operating normally.
+      investigating: true
+    - ts: "2024-07-02 19:24:49"
+      description: On July 02, 2024, between 18:21 UTC and 19:24 UTC the code search service was degraded and returned elevated 500 HTTP status responses. On average, the error rate was 38% of code search requests. This was due to a bad deployment causing some user's rate limit calculations to error while processing code search requests. This impacted approximately 2,000 users.<br />We mitigated the incident by rolling back the bad deployment along with resetting rate limits for all users.<br />We have identified and implemented updates in the testing of rate limit calculations to prevent this problem from happening again, and clarified deployment processes for verification before a full production rollout to minimize impact in the future.
+      resolved: true

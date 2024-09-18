@@ -1,0 +1,15 @@
+version: incident/v1
+id: mcqxl8st7pmy
+name: CNI health check failures in Singapore
+impact: minor
+systems:
+    - vn1h2pfctsvn
+    - 18p6r93swmbl
+timeline:
+    - ts: "2024-09-17 04:18:00"
+      description: Some CNI customers in Singapore may be experiencing health check failures. We are currently putting in place a fix to resolve this issue.
+    - ts: "2024-09-17 04:41:41"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-17 05:43:33"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,38 @@
+version: incident/v1
+id: 767nqf71jn93
+name: Delayed monitor notifications & metrics graphing issues
+impact: minor
+systems:
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2023-09-11 14:47:06"
+      description: |-
+        We are investigating delays in Monitors Notifications for monitors which rely on distribution metrics, which began at 17:58 UTC.
+
+        Users may also experience some issues with graphs not loading in the web application.
+
+        Please note that data ingest is not affected by this incident.
+      investigating: true
+    - ts: "2023-09-11 15:36:59"
+      description: We are continuing to investigate the issue.
+      investigating: true
+    - ts: "2023-09-11 16:42:25"
+      description: We are continuing to investigate the issue.
+      investigating: true
+    - ts: "2023-09-11 17:30:10"
+      description: We have deployed a fix and we are monitoring the results. We will provide another update once the issue is fully resolved.
+    - ts: "2023-09-11 17:59:21"
+      description: |-
+        Issues with monitor notifications have been resolved.
+
+        Users may still be experiencing some issues with graphs not loading in the web application.  We will provide another update once the issue is fully resolved.
+    - ts: "2023-09-11 19:01:26"
+      description: Users may still be experiencing some issues with graphs not loading in the web application.  We will provide another update once the issue is fully resolved.
+    - ts: "2023-09-11 20:07:45"
+      description: Users may still be experiencing some issues with graphs not loading in the web application.  We will provide another update once the issue is fully resolved.
+    - ts: "2023-09-11 21:16:53"
+      description: Users may still be experiencing some issues with graphs not loading in the web application.  We will provide another update once the issue is fully resolved.
+    - ts: "2023-09-11 22:13:31"
+      description: This incident has been resolved.
+      resolved: true

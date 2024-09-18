@@ -1,0 +1,13 @@
+version: incident/v1
+id: 99hzsnf0cwhx
+name: 'Synthetic Monitoring: networking issues with the Singapore probe'
+impact: none
+systems:
+    - fh680ftdss7w
+timeline:
+    - ts: "2024-06-03 13:31:32"
+      description: We are investigating issues with the Singapore probe location,  with several Grafana Cloud regions having trouble connecting to the probe.  Existing checks in Singapore continue to run, but any configuration updates to checks may be delayed reaching the Singapore probe location.
+      investigating: true
+    - ts: "2024-06-04 14:42:42"
+      description: Connection issues between Grafana Cloud regions and the Singapore probe are resolved.
+      resolved: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: s4xvpx95n3xq
+name: HCP Vault Dedicated with reports of degraded state notifications
+impact: none
+systems: []
+timeline:
+    - ts: "2024-07-19 15:37:40"
+      description: Our engineering team is investigating an issue with HCP Vault Dedicated with reports of degraded state notifications (email).  Users may experience failed operations related to creating, managing, or updating existing clusters, however HCP Vault clusters remain operational.  We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-07-19 16:30:58"
+      description: We have verified that the fix we have implemented before has caused recovery of all the impacted clusters. Currently, all the impacted clusters should be back up and healthy.
+      resolved: true

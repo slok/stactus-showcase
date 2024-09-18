@@ -1,0 +1,18 @@
+version: incident/v1
+id: 8532wfbvwqgr
+name: Disruption with GitHub Docs
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-07-03 15:24:29"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-07-03 15:59:56"
+      description: We have identified a likely cause of the errors with GitHub Docs and are working on a mitigation.
+      investigating: true
+    - ts: "2024-07-03 16:37:34"
+      description: Mitigation measures have been rolled out and we're seeing errors disappear in our telemetry. We'll continue to monitor our services closely to ensure the docs site is fully healthy.
+      investigating: true
+    - ts: "2024-07-03 16:40:03"
+      description: On July 3, 2024, between 1:34 PM UTC and 4:42 PM UTC the GitHub documentation was degraded and showed a 500 on non-cached pages. On average, the error rate was 2-5% and peaked at 5% of requests to the service. This was due to an observability misconfiguration. We mitigated the incident by updating the observability configuration and redeploying. We are working to reduce our time to detection and mitigation of issues like this one in the future.
+      resolved: true

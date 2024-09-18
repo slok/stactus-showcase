@@ -1,0 +1,19 @@
+version: incident/v1
+id: 9q27hq4vfz22
+name: Service disruption
+impact: none
+systems:
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2023-02-09 20:07:15"
+      description: We are investigating an issue some users are experiencing when using the styles picker
+      investigating: true
+    - ts: "2023-02-09 20:24:11"
+      description: We've identified the issue and a fix is being implemented.
+    - ts: "2023-02-09 20:44:13"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2023-02-09 21:02:44"
+      description: A fix has been implemented and we're rolling it out to users now.
+    - ts: "2023-02-09 21:30:46"
+      description: The fix has been fully rolled out and the styles picker should be working as expected. If you’re still experiencing this issue, please refresh your tab.
+      resolved: true

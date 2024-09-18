@@ -1,0 +1,11 @@
+version: incident/v1
+id: d820m45xy9nb
+name: Cloud Printing Failure
+impact: critical
+systems: []
+timeline:
+    - ts: "2023-03-20 12:02:14"
+      description: |-
+        From 2023/3/15 11:43 - 12:27 UTC, in order to fix the problem with Apple's third-party login, we upgraded the cloud service. During the upgrade process, there were some failures/delays when starting print tasks.
+        After the upgrade process was finished, the service returned to normal.
+      resolved: true

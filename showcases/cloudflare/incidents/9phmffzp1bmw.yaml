@@ -1,0 +1,15 @@
+version: incident/v1
+id: 9phmffzp1bmw
+name: Cloudflare One connectivity issues
+impact: minor
+systems:
+    - q3t6mnpmpgt8
+timeline:
+    - ts: "2024-09-03 10:29:52"
+      description: Cloudflare is investigating connectivity issues that affect some Magic WAN and WARP Connector customers.
+      investigating: true
+    - ts: "2024-09-03 13:10:07"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-03 13:56:37"
+      description: This incident has been resolved.
+      resolved: true

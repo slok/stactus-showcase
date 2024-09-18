@@ -1,0 +1,17 @@
+version: incident/v1
+id: y7dwvhn4c03v
+name: Identified Video Issues
+impact: minor
+systems:
+    - wkdq12ctv52c
+    - 6pr6psm3s003
+timeline:
+    - ts: "2021-08-25 22:35:53"
+      description: We are aware of an issue with Twitch video. We're currently investigating and working to resolve the issue.
+      investigating: true
+    - ts: "2021-08-27 05:40:52"
+      description: We have resolved all known issues.
+      investigating: true
+    - ts: "2021-08-27 05:43:33"
+      description: This incident has been resolved.
+      resolved: true

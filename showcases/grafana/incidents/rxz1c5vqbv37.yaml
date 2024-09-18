@@ -1,0 +1,13 @@
+version: incident/v1
+id: rxz1c5vqbv37
+name: Degraded read performance for Hosted Logs prod-us-central-5 cluster.
+impact: minor
+systems:
+    - 98skfgrdgchf
+timeline:
+    - ts: "2024-08-21 09:52:30"
+      description: We're currently observing degraded read performance for Hosted Logs prod-us-central-5 cluster. We're currently looking into this.
+      investigating: true
+    - ts: "2024-08-21 11:39:52"
+      description: The incident was resolved and the affected cell is back to normal. We've identified the root cause of the high latencies and took counter-measures to mitigate the performance problems.
+      resolved: true

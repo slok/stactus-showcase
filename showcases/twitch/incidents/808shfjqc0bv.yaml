@@ -1,0 +1,12 @@
+version: incident/v1
+id: 808shfjqc0bv
+name: Identified Web Issues
+impact: none
+systems:
+    - j6dkmwm0h3k2
+timeline:
+    - ts: "2022-03-21 11:15:19"
+      description: "\U0001F6E0 We have identified an issue causing Twitch to fail to load in some cases."
+    - ts: "2022-03-21 12:01:11"
+      description: This incident has been resolved.
+      resolved: true

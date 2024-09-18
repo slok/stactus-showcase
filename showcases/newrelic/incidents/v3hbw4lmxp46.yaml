@@ -1,0 +1,23 @@
+version: incident/v1
+id: v3hbw4lmxp46
+name: Alerts & AI Irregularities in US Region
+impact: none
+systems:
+    - rbts0zzw73dl
+    - 5x10l9g2z3t6
+    - 028b05n94my0
+    - 5p33lkzzqm0z
+    - ymfwncrn2dnh
+    - 9jndj4kfv59w
+    - lm2qpsbfggh7
+    - prjgs1mvmqg9
+timeline:
+    - ts: "2023-08-10 23:09:48"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-08-10 23:28:25"
+      description: |-
+        Between 22:30 UTC and 23:20 UTC on August 10th, some customers in the US region may have experienced latency for incident and issue creation and delayed or missing alert notifications.
+
+        We have investigated and resolved this service interruption and impacted services have returned to normal operation.
+      resolved: true

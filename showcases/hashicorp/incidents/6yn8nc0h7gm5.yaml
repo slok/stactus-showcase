@@ -1,0 +1,12 @@
+version: incident/v1
+id: 6yn8nc0h7gm5
+name: HCP Boundary - Partial Service restart (informational, no downtime)
+impact: none
+systems:
+    - 9gzfhnxdsf93
+timeline:
+    - ts: "2024-05-30 19:50:18"
+      description: Some services on HCP boundary will undergo a staggered restart starting May 30th, 2024 at 20:00 UTC. The process should take no longer than 30 minutes. No downtime is expected  from this activity, and session and other functionality is expected to function as normal during the process.
+    - ts: "2024-05-30 20:28:04"
+      description: Partial service restart has been completed.
+      resolved: true

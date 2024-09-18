@@ -1,0 +1,14 @@
+version: incident/v1
+id: 7c3pdn9hb9xc
+name: Billing operations delayed
+impact: none
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-04-23 23:33:08"
+      description: Atlas is currently experiencing an issue with billing, so daily updates to bills will be delayed. Additionally, any changes to payment methods made on April 23, 2024 between 1:15pm ET and 2:50pm ET may not be visible. Fixes for both are in progress, and normal operation is expected to resume within 24 hours.
+    - ts: "2024-04-24 19:57:06"
+      description: We are continuing to work on a fix for this issue and expect normal billing operation to resume by 11:00am ET on Thursday, April 25, 2024.
+    - ts: "2024-04-25 19:58:11"
+      description: All billing operations have resumed normal operation. Thank you for your patience.
+      resolved: true

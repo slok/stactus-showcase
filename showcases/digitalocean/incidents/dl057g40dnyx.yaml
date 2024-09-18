@@ -1,0 +1,24 @@
+version: incident/v1
+id: dl057g40dnyx
+name: Elevated Failure Rate for Droplet Creates
+impact: minor
+systems:
+    - mrdxgk8b9l9m
+timeline:
+    - ts: "2024-08-13 00:27:46"
+      description: Our Engineering team is investigating an issue with Droplet creation in NYC3. During this time, users will see an elevated failure rate for the creation of Droplets and other Droplet-based products, such as Load Balancers, Managed Databases, or Kubernetes, in NYC3.
+      investigating: true
+    - ts: "2024-08-13 01:01:52"
+      description: |-
+        Our Engineering team is continuing to investigate issues with creating Droplets and other Droplet-based products in the NYC3 region. At this time, customers may also encounter errors when powering on some existing Droplets, creating new Droplets, or restoring a backup or snapshot.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2024-08-13 01:49:20"
+      description: "Multiple Engineering teams are continuing to investigate errors with creating Droplets, other Droplet-based products, and events such as power/restore in the NYC3 region.\n\nUsers should no longer encounter errors when performing these operations, as mitigations are now in place, and teams have observed error rates returning to normal. \n\nWe apologize for the inconvenience and will share another update once we have more information."
+      investigating: true
+    - ts: "2024-08-13 02:25:16"
+      description: Our Engineering team has implemented mitigations to stop the Droplet creation failures in the NYC3 region. The team is monitoring the situation to ensure that everything is fully resolved. We apologize for the inconvenience and will share an update if there are any new developments.
+    - ts: "2024-08-13 03:10:14"
+      description: "From 23:08 August 12 to 01:26 August 13 UTC, customers may have experienced failures with Droplet creation, power on events, and restore events in the NYC3 region. \n\nOur Engineering team has confirmed resolution of this issue. Thank you for your patience. \n\nIf you continue to experience any problems, please open a support ticket from within your account."
+      resolved: true

@@ -1,0 +1,14 @@
+version: incident/v1
+id: l1rk40xm4nnn
+name: Identified Purchases Issues
+impact: major
+systems:
+    - ys9m23jjzpg0
+timeline:
+    - ts: "2021-03-31 16:45:53"
+      description: "\U0001F6E0 We have identified an issue causing some users to be unable to make purchases. We're currently working to resolve this issue."
+    - ts: "2021-03-31 17:27:28"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2021-03-31 19:25:17"
+      description: "\U0001F6E0 We have resolved all known issues causing people to be unable to make purchases."
+      resolved: true

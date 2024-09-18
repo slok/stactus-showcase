@@ -1,0 +1,14 @@
+version: incident/v1
+id: kqkc19cytx5r
+name: 'MongoDB Cloud: Occasional page load errors'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-05-23 21:26:59"
+      description: We have identified an issue where certain web UI pages in MongoDB Atlas and Cloud Manager will result in "An Error Occurred" messages. Backup health as well as cluster health is unaffected. The API will have similar results and thus is not a valid workaround. We ask that users retry periodically until this is resolved.
+    - ts: "2024-05-23 21:35:25"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-05-23 21:39:18"
+      description: This incident has been resolved.
+      resolved: true

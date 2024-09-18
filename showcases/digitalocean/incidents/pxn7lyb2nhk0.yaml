@@ -1,0 +1,27 @@
+version: incident/v1
+id: pxn7lyb2nhk0
+name: Resizing Droplet Attached Block Storage Volumes
+impact: minor
+systems:
+    - p1x9rv4137gx
+    - g8rttgsgxr37
+    - czck17wcspr5
+timeline:
+    - ts: "2024-09-09 21:15:27"
+      description: |-
+        Our Engineering team is investigating an issue with resizing Droplet-attached Block Storage Volumes in all regions. Beginning at 17:04 UTC, users may not see the option to resize the Volume via the Cloud Control Panel, as well as see errors when attempting to resize attached Volumes via the API.
+
+        At this time, unattached Volumes are able to be resized correctly.
+
+        We will post an update once further information is available.
+      investigating: true
+    - ts: "2024-09-09 21:58:24"
+      description: Our Engineering team have implemented a fix for the issue of resizing Droplet-attached Block Storage Volumes in all regions and are monitoring the situation closely. We will post another update once we're confident that the issue is fully resolved.
+    - ts: "2024-09-09 22:59:35"
+      description: |-
+        From 17:04 UTC to 21:43 UTC, users may not have seen the option to resize an attached Block Storage Volume via the Cloud Control Panel, or may have encountered errors when attempting to resize attached Volumes via the API.
+
+        Our Engineering team has confirmed the resolution of the issue and Volume resizes should now be functioning normally in all regions.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true

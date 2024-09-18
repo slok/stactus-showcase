@@ -1,0 +1,35 @@
+version: incident/v1
+id: j5250rh60h0g
+name: Outlook on the web access issues (outlook.office.com)
+impact: major
+systems:
+    - pm1c4cxx88h1
+timeline:
+    - ts: "2023-06-05 11:06:17"
+      description: Microsoft is aware of an issue impacting users of outlook.office.com and is currently investigating. https://twitter.com/MSFT365Status
+      investigating: true
+    - ts: "2023-06-05 11:14:23"
+      description: Microsoft is investigating what appears to be a widespread issue with Outlook web access to Office 365. Errors and system slowness are occurring sporadically. Mobile devices and desktop clients appear to still be working at this time. For the latest status on this issue, please go to https://twitter.com/MSFT365Status.
+      investigating: true
+    - ts: "2023-06-05 12:36:12"
+      description: "Microsoft has also informed us of potential downstream issues with Microsoft Teams, Sharepoint online, and OneDrive. \n\nFor the latest updates from Microsoft on this issue, please go to https://twitter.com/MSFT365Status."
+      investigating: true
+    - ts: "2023-06-05 13:40:48"
+      description: |-
+        Microsoft has confirmed recovery for affected Microsoft 365 services and is monitoring their services to ensure performance stability.
+
+        For further updates from Microsoft on this issue, please go to https://twitter.com/MSFT365Status.
+    - ts: "2023-06-05 16:48:22"
+      description: |-
+        Microsoft has determined that impact has reoccurred and are investigating the cause.
+
+        For the latest updates from Microsoft on this issue, please go to https://twitter.com/MSFT365Status.
+      investigating: true
+    - ts: "2023-06-05 22:25:06"
+      description: |-
+        Microsoft has confirmed that service availability has returned to healthy levels. Microsoft will continue to monitor service health while they analyze system logs to determine the cause of the problem.
+
+        For the latest updates from Microsoft on this issue, please go to https://twitter.com/MSFT365Status.
+    - ts: "2023-06-13 15:24:51"
+      description: This incident has been resolved.
+      resolved: true

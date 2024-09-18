@@ -1,0 +1,13 @@
+version: incident/v1
+id: krnnqx5r5bl5
+name: Networking in SFO3 Region
+impact: none
+systems:
+    - pkldx6th5q38
+timeline:
+    - ts: "2024-08-30 12:19:42"
+      description: |-
+        Our Engineering team identified and resolved an issue affecting the networking in our SFO3 region. There were multiple impacts between 08:48 and 08:52 UTC, 09:08 and 09:12 UTC, and 10:51 and 10:55 UTC. During these periods, users may have experienced timeouts with network connections to and from the SFO3 region.
+
+        Our Engineering team was able to take quick action to mitigate the impact and resolve the issue. All services are now functioning as expected. Thank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket for further analysis.
+      resolved: true

@@ -1,0 +1,22 @@
+version: incident/v1
+id: 7731557dj7lz
+name: Issue with Zoom Phone
+impact: minor
+systems:
+    - q8chr9lrz757
+timeline:
+    - ts: "2024-07-12 10:43:11"
+      description: We have detected an issue with users being unable to make and receive calls using Zoom Phone. We are currently investigating and will provide updates as we have them.
+      investigating: true
+    - ts: "2024-07-12 11:17:04"
+      description: We are still investigating the issue with users being unable to make and receive calls using Zoom Phone. We will provide updates as we have them.
+      investigating: true
+    - ts: "2024-07-12 11:31:12"
+      description: We have identified the issue with users being unable to make and receive calls using Zoom Phone. We will provide updates as we have them.
+    - ts: "2024-07-12 11:44:22"
+      description: We have resolved the issue around 18:22 UTC, we will continue to monitor and provide updates as we have them.
+    - ts: "2024-07-12 11:45:17"
+      description: We have resolved the issue around 18:22 UTC, we will continue to monitor and provide updates as we have them.
+    - ts: "2024-07-12 12:00:26"
+      description: This incident has been resolved.
+      resolved: true

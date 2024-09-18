@@ -1,0 +1,32 @@
+version: stactus/v1
+name: Reddit
+url: https://www.redditstatus.com
+systems:
+    - id: 0wf8j1vtry0v
+      name: reddit.com / Desktop Web
+    - id: 2kyn2wrh7xdk
+      name: ads.reddit.com / Reddit Ads
+    - id: yk5b49px4hk8
+      name: Reddit Infrastructure
+      description: The underlying servers that support Reddit.
+    - id: jx663dxlwgdt
+      name: reddit.com / Mobile Web
+      description: m.reddit.com
+    - id: jtcwwb8fzd0k
+      name: Reddit Media Storage
+      description: Where thumbnails, images, and videos are stored.
+    - id: jk8d05fz3nwg
+      name: reddit.com / Native Mobile Apps
+      description: The API used by our native mobile applications
+    - id: gjdprysbvnjm
+      name: reddit.com / Vote Processing
+      description: Tallying of votes on posts or comments.
+    - id: fggy4fg1hdmj
+      name: reddit.com / Comment Processing
+      description: Addition of new comments to posts.
+    - id: pnwfnm4nljtr
+      name: reddit.com / Spam Processing
+      description: Removal of spam.
+    - id: jqv4qjdzx23l
+      name: reddit.com / Modmail
+      description: Modmail accessed through https://mod.reddit.com/

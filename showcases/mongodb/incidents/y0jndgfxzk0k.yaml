@@ -1,0 +1,13 @@
+version: incident/v1
+id: y0jndgfxzk0k
+name: 'Microsoft Azure Incident: Degraded performance for Atlas Device Sync'
+impact: none
+systems: []
+timeline:
+    - ts: "2024-07-19 17:03:07"
+      description: |-
+        An Azure outage impacted Sync users, causing very delayed syncing during the outage and the system auto-recovered once the outage was resolved.
+
+
+        Updates from Azure can be tracked at https://azure.status.microsoft/en-us/status and in the Service Health Dashboard in your Microsoft Azure Portal.
+      resolved: true

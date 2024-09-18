@@ -1,0 +1,33 @@
+version: incident/v1
+id: j63zsxzfd6g6
+name: Synthetics MultiHTTP checks failing in Bangalore and Newark probe locations
+impact: minor
+systems:
+    - gqmrtkv44snw
+    - w2sv65flwjyg
+    - vdp8ff0sncsj
+    - 72cbdqh1qfxk
+    - 1dqyw0njnkxv
+    - 6xm6mc51pr03
+    - sq2b0zbgtbwn
+    - r5nqbrqbw0k2
+    - wlk38l1st21f
+    - pz96v0pznswg
+    - gsb4scg45ndq
+    - dcwlkh9jb6xh
+    - 43fvknltd9m1
+    - b6vy9syblc9x
+    - dpny9b8qb952
+    - czpt94dvn18t
+    - 191t9x68nj8s
+    - fh680ftdss7w
+    - tcskx9mfsz1c
+    - 7p6gpdprypb9
+timeline:
+    - ts: "2024-07-19 00:30:26"
+      description: We are seeing failures on synthetic monitoring MultiHTTP checks running out of Bangalore and Newark.  Test executions for all other check types are functioning normally.
+    - ts: "2024-07-19 00:51:50"
+      description: The incident began at 16:17 UTC.  We are seeing a 100% failure rate for multiHTTP checks in Bangalore and Newark.  All other check types in Bangalore and Newark are running normally.    We have identified the problem and are working to resolve it.
+    - ts: "2024-07-19 01:45:50"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,27 @@
+version: incident/v1
+id: zdy3msqfqfjv
+name: Reports of telephone services not working on campus
+impact: critical
+systems:
+    - qjs9m5p5wmkn
+timeline:
+    - ts: "2023-06-14 11:23:21"
+      description: IS&T is investigating reports of a VoIP telephony outage. We will update this incident with further details.
+      investigating: true
+    - ts: "2023-06-14 11:31:48"
+      description: |-
+        Zoom has reported issues with their telephone service: https://status.zoom.us/incidents/33976wp3r7t2
+
+        IS&T will continue to monitor the situation and coordinate with Zoom to provide updates as they restore service.
+      investigating: true
+    - ts: "2023-06-14 11:32:17"
+      description: 'Zoom has reported an issue affecting Zoom Phones in North America. They are investigating: https://status.zoom.us/incidents/33976wp3r7t2'
+      investigating: true
+    - ts: "2023-06-14 11:56:51"
+      description: The MIT phone system is currently down, due to a nationwide Zoom Phone outage. In the case of an emergency, dial 911 from your cell phone. MIT is working with Zoom to investigate the issue, and we will update this banner as details become available. This outage is not impacting Zoom videoconferencing. Current Zoom status can be found at https://status.zoom.us.
+      investigating: true
+    - ts: "2023-06-14 12:52:53"
+      description: MIT phone service has been restored. Zoom is reporting that the issue causing the nationwide Zoom Phone outage has been resolved. Current Zoom status can be found at https://status.zoom.us.
+    - ts: "2023-06-16 19:11:38"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: 98pg486zr2mm
+name: Discord marketing site unavailable
+impact: minor
+systems:
+    - 9dydj1xgtnht
+timeline:
+    - ts: "2024-08-12 15:58:50"
+      description: The Discord marketing site was unavailable from 3:43P Pacific to 3:52P Pacific due to a bad deploy. We have since rolled back, confirmed the site is available, and are monitoring.
+    - ts: "2024-08-12 16:34:43"
+      description: This incident has been resolved.
+      resolved: true

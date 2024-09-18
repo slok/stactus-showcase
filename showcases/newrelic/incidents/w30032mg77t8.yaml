@@ -1,0 +1,43 @@
+version: incident/v1
+id: w30032mg77t8
+name: Infrastructure Entity Irregularities - US and EU Region
+impact: minor
+systems:
+    - g3mtj9z8c1cq
+    - vr1305kd0fnz
+timeline:
+    - ts: "2024-09-11 13:09:42"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-09-11 13:56:46"
+      description: We are investigating an issue that may impact infrastructure entities for customers in the US and EU region.
+      investigating: true
+    - ts: "2024-09-11 15:55:30"
+      description: |-
+        Some customers in the US and EU region may experience issues viewing entities related to infrastructure cloud integrations, on-host integrations, and Kubernetes. Data ingest and alert notifications are not impacted.
+
+        We have initiated a re-indexing process, which may take time and should restore visibility of affected entities as our teams continue their investigation.
+      investigating: true
+    - ts: "2024-09-11 17:59:44"
+      description: |-
+        The re-indexing process has completed for the EU region and visibility of affected entities has been restored. The re-indexing process for the US region is still in progress, which may take time.
+
+        Some customers in the US region may experience issues viewing entities related to infrastructure cloud integrations, on-host integrations, and Kubernetes. Data ingest and alert notifications remain unaffected.
+    - ts: "2024-09-11 22:25:32"
+      description: |-
+        The re-indexing process for the US region is still in progress, which will take time to complete. Our teams are investigating opportunities to expedite the process, we will provide our next update at 13:00 UTC on September 12th or upon significant change.
+
+        Some customers in the US region may experience issues viewing entities related to infrastructure cloud integrations, on-host integrations, and Kubernetes. Visibility of affected entities in the EU region has been restored. Data ingest and alert notifications remain unaffected.
+    - ts: "2024-09-12 14:41:22"
+      description: |-
+        The re-indexing process for the US region is nearly complete and we are seeing recovery of most affected entities.
+
+        Some customers in the US region may experience issues viewing entities related to infrastructure cloud integrations, on-host integrations, and Kubernetes. Data ingest and alert notifications remain unaffected.
+    - ts: "2024-09-12 17:50:13"
+      description: "As the re-indexing process for the US region nears completion and we continue to see recovery of affected entities, we will provide our next update at 22:00 UTC today, September 12th or upon significant change. \n\nSome customers in the US region may experience issues viewing entities related to infrastructure cloud integrations, on-host integrations, and Kubernetes. Data ingest and alert notifications remain unaffected."
+    - ts: "2024-09-12 21:12:00"
+      description: |-
+        We identified and resolved an issue with entity metadata which affected the visibility of some infrastructure entities in the New Relic UI. Data ingest and alert notifications were not impacted.
+
+        After resolving the issue, we initiated a re-indexing process which has completed for the US and EU region restoring visibility of affected entities.
+      resolved: true

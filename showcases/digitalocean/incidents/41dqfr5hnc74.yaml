@@ -1,0 +1,13 @@
+version: incident/v1
+id: 41dqfr5hnc74
+name: DockerHub Reachability in SGP1
+impact: none
+systems:
+    - m9ky4d5d3q4g
+    - 2d91fg0js59k
+    - kvrtqsmcph72
+    - 4yq3sg5wrzx2
+timeline:
+    - ts: "2024-09-10 05:11:44"
+      description: "Our Engineering team identified a networking issue with our upstream provider in the SGP1 region. From 00:25 to 04:00 UTC, users may have experienced connectivity issues to DockerHub from Droplets, App Platform and Managed Kubernetes in the SGP1 region.\n\nOur Engineering team has confirmed there is no longer any impact and connectivity should be restored for all customers. \n\nWe apologize for the inconvenience. If you continue to experience any issues, please open a support ticket from within your account."
+      resolved: true

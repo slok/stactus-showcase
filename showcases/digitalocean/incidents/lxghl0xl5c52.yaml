@@ -1,0 +1,81 @@
+version: incident/v1
+id: lxghl0xl5c52
+name: Networking in Multiple Regions
+impact: minor
+systems:
+    - 9q2dq7jc5bk9
+    - nz589c69ymyy
+    - 4q7lkrddxdnn
+    - kkg2cfkqkwj1
+    - dzbtk2fkytv5
+    - 7f592f0nhxhs
+    - btv040v4xbdn
+    - 062037558j7d
+    - rwfv6j4jpn2y
+    - fb63qt9f69m0
+    - t2sr3808q4ry
+    - dhcf7lpc5q3z
+    - kvrtqsmcph72
+    - crftxywml4sx
+    - 4yq3sg5wrzx2
+timeline:
+    - ts: "2024-07-25 00:33:56"
+      description: "Our Engineering team is currently investigating an issue impacting networking in multiple regions, especially FRA1 and AMS3. Users may experience network connectivity loss to Droplets and Droplet-based services, like Managed Kubernetes and Database Clusters, as well as encounter errors when trying to process events like power off/on, etc. \n\nWe apologize for the inconvenience and will share an update once we have more information."
+      investigating: true
+    - ts: "2024-07-25 01:47:38"
+      description: "Multiple Engineering teams are continuing to investigate the cause of the issue impacting networking in multiple regions. At this time, we have identified that the issue impacts FRA1, AMS3, LON1, SGP1, and NYC1. We are actively remediating hypervisors in order to restore connectivity to customer resources, while working on determining root cause and a long-term remediation. \n\nUsers who have resources on affected hypervisors (Droplets and Droplet-based services) may continue to experience loss of network connectivity, loss of monitoring graphs, errors when processing events like power off/on, and/or inability to access the recovery console for Droplets. \n\nWe will post another update soon."
+      investigating: true
+    - ts: "2024-07-25 02:57:45"
+      description: |-
+        Our Engineering teams have identified the cause of the issue with network connectivity in multiple regions and are actively working on a fix.
+
+        We apologize for any inconvenience, and we will share more information as soon as it's available.
+    - ts: "2024-07-25 04:55:10"
+      description: |-
+        Our Engineering teams have applied a fix to all impacted hypervisors. Customers should no longer see networking issues with their Droplets and other Droplet-based resources.
+
+        We continue to monitor the situation closely and will post another update once we're confident that the issue is fully resolved.
+    - ts: "2024-07-25 05:48:17"
+      description: |-
+        As of 04:49 UTC our Engineering team has confirmed full resolution of the issue impacting network connectivity in multiple regions. Users should now be able to process events normally for Droplets and Droplet-based services like Load Balancers, Kubernetes or Database clusters, etc.
+
+        If you continue to experience problems, please open a ticket with our support team from your Cloud Control Panel.
+
+        Thank you for your patience and we apologize for any inconvenience.
+      resolved: true
+    - ts: "2024-07-26 20:41:27"
+      description: |-
+        ### **Incident Summary**
+
+        On July 24, 2024, DigitalOcean experienced downtime from near-simultaneous crashes affecting multiple hypervisors \(ref: [https://docs.digitalocean.com/glossary/hypervisor/](https://docs.digitalocean.com/glossary/hypervisor/)\) in several regions. In total, fourteen hypervisors crashed, the majority of which were in the FRA1 and AMS3 regions, the remaining being in LON1, SGP1, and NYC1. A routine kernel fix to improve platform stability was being deployed to a subset of hypervisors across the fleet, and that kernel fix had an unexpected conflict with a separate automated maintenance routine, causing those hypervisors to experience kernel panics and become unresponsive. This led to an interruption in service for customer Droplets, and other Droplet-based services until the affected hypervisors were rebooted and restored to a functional state.
+
+        ### **Incident Details**
+
+        * **Root Cause**: A kernel fix being rolled out to some hypervisors through an incremental process conflicted with a periodic maintenance operation which was in progress on a subset of those hypervisors.
+        * **Impact**: The affected hypervisors crashed, causing Droplets \(including other Droplet-based services\) running on these hypervisors to become unresponsive. Customers were unable to reach them via networking, process events like power off/on, or see monitoring. 
+        * **Response**: After gathering diagnostic information and determining the root cause, we rebooted the affected hypervisors in order to safely restore service. Manual remediation was done on hypervisors that received the kernel fix to ensure it was applied while the maintenance operation was not in progress.
+
+        ### **Timeline of Events \(UTC\)**
+
+        July 24 22:55 - Rollout of the kernel fix begins. 
+
+        July 24 23:10 - First hypervisor crash occurs and the Operations team begins investigating.
+
+        July 24 23:55 - Rollout of the kernel fix ends. 
+
+        July 25 00:14 - Internal incident response begins, following further crash alerts firing. 
+
+        July 25 00:35 - Diagnostic tests are run on impacted hypervisors to gather information.
+
+        July 25 00:47 - Kernel panic messages are observed on impacted hypervisors. Additional Engineering teams are paged for investigation.
+
+        July 25 01:42 - Operations team begins coordinated effort to reboot all impacted hypervisors to restore customer services.
+
+        July 25 01:50 - Root cause for the crashes is determined to be the conflict between the kernel fix and maintenance operation. 
+
+        July 25 03:22 - Reboots of all impacted hypervisors complete, all services are restored to normal operation.
+
+        ### **Remediation Actions**
+
+        * The continued rollout of this specific kernel fix, as well as future rollouts of this type of fix, will not be done on hypervisors while the maintenance operation is in progress, to avoid any possible conflicts.
+        * Further investigation will be conducted to understand how the kernel fix and the maintenance operation conflicted to cause a kernel crash to help avoid similar problems in the future.

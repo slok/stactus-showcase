@@ -1,0 +1,17 @@
+version: incident/v1
+id: t5l26s7mtl9k
+name: Elevated Machines API errors
+impact: none
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2024-07-31 23:25:56"
+      description: We're investigating an increase in Machines API operations like machine creations and starts/stops, affecting some apps and Fly builders.
+      investigating: true
+    - ts: "2024-08-01 00:37:08"
+      description: "We've identified the cause of the errors and have released a preliminary fix. We are seeing machines API error rates decrease. \nWe are continuing to assess."
+    - ts: "2024-08-01 02:36:11"
+      description: We have applied a fix and are no longer seeing elevated error rates. We are continuing to monitor API status.
+    - ts: "2024-08-01 12:02:20"
+      description: This incident has been resolved.
+      resolved: true

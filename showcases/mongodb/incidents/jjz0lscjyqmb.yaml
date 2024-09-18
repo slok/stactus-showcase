@@ -1,0 +1,20 @@
+version: incident/v1
+id: jjz0lscjyqmb
+name: 'MongoDB Atlas App Services: App listing slow to load'
+impact: minor
+systems:
+    - crrq7qqlqfsh
+timeline:
+    - ts: "2024-06-11 21:07:45"
+      description: We are investigating reports of blank pages loading when users navigate to their MongoDB Atlas App Services apps listing page.
+      investigating: true
+    - ts: "2024-06-11 21:18:55"
+      description: We are investigating reports of extremely slow page loads when users navigate to their MongoDB Atlas App Services apps listing page. Users are encouraged to be patient and wait for the page to load if they need access to their apps at this time.
+      investigating: true
+    - ts: "2024-06-11 22:00:48"
+      description: We have identified an issue causing extremely slow page loads when users navigate to their MongoDB Atlas App Services apps listing page. Users are encouraged to be patient and wait for the page to load if they need access to their apps at this time.
+    - ts: "2024-06-11 22:28:47"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-06-11 22:51:43"
+      description: This incident has been resolved.
+      resolved: true

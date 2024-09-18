@@ -1,0 +1,15 @@
+version: incident/v1
+id: qz3xd855s7nd
+name: UniFi Talk Cloud Partial Outage
+impact: major
+systems:
+    - s78xyt2hftwd
+timeline:
+    - ts: "2021-12-17 17:05:50"
+      description: We have identified an issue with a third party service that may prevent some users from making or receiving calls. Some pages of the Talk application may also be inaccessible. We are working diligently to restore service.
+      investigating: true
+    - ts: "2021-12-17 20:13:48"
+      description: We have restored service and will continue to monitor and provide updates.
+    - ts: "2021-12-17 21:28:00"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,52 @@
+version: incident/v1
+id: cs1jp683p9d3
+name: New Relic Inaccessible in EU Region
+impact: minor
+systems:
+    - d9pwhb6snl77
+    - y3p11yl1yr8m
+    - ssdh7xpzvw1l
+    - gmn0nk8bzns7
+    - tpj67jyc58sb
+    - zsjcl7zv5sn2
+    - zj32brg420jm
+    - yqcw0krmvwj5
+    - dgtbt0fh397m
+    - hymb519q08z0
+    - fpds3wrx84c0
+    - jk2k3ln898rx
+    - zhbggrqh2xl6
+    - fp51bfh70sht
+    - hm4r9fn1gr93
+    - 6qh38lgrdr8v
+    - 5ny464vz0n83
+    - 858xlnc93b96
+    - xzllc95t20c2
+    - 5ptd99lkyfbn
+    - vdkznxzlr7nn
+    - 8h442mvws6w7
+    - vr1305kd0fnz
+    - jdszr85tpvd1
+    - 0ggq3l63l1sh
+    - dw81gfk0f10y
+    - r6fg75bj1j7h
+    - 15b9hc4j611g
+    - 36218xs1zbvy
+    - 5wk3qb87hk5h
+    - s7j157s900c3
+    - jgl5xywwz8l3
+    - zbbfpr0656gw
+    - 0zhztcy8gf0v
+timeline:
+    - ts: "2023-07-17 21:25:57"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-07-17 21:30:29"
+      description: Some customers in the EU region may be experiencing difficulties logging into the New Relic platform and viewing various UI components. We're investigating and will provide updates as they become available.
+      investigating: true
+    - ts: "2023-07-17 22:16:57"
+      description: Some customers in the EU region may be experiencing difficulties logging into the New Relic platform and viewing various UI components, data drops for mobile and browser data, and delayed or missing alert notifications. We're investigating and will provide updates as they become available.
+      investigating: true
+    - ts: "2023-07-17 22:58:14"
+      description: Between 21:16 UTC to 22:57 UTC on July 17th, 2023, some customers in the EU region may have experienced difficulties logging into the New Relic platform and viewing various UI components, data drops for mobile and browser data, and delayed or missing alert notifications. We have resolved this service interruption and impacted services have returned to normal operation.
+      resolved: true

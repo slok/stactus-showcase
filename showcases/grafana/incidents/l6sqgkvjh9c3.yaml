@@ -1,0 +1,13 @@
+version: incident/v1
+id: l6sqgkvjh9c3
+name: Increased Timeouts for Queries
+impact: minor
+systems:
+    - hqf81r9207h6
+timeline:
+    - ts: "2024-06-11 16:16:48"
+      description: Since 15:40 UTC, our team has been investigating an issue that is causing increased timeouts for queries in prod-eu-west-3. We are actively working to resolve this and will provide updates as they become available.
+      investigating: true
+    - ts: "2024-06-11 16:43:07"
+      description: This incident has been resolved.
+      resolved: true

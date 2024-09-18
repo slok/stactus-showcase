@@ -1,0 +1,16 @@
+version: incident/v1
+id: jk6gww0764g8
+name: Cloudflare Billing Issues
+impact: minor
+systems:
+    - ll1x88wwz4fq
+timeline:
+    - ts: "2024-09-11 04:10:30"
+      description: |-
+        Cloudflare is investigating an issue where some customers may see duplicated charges. All other services are operating normally.
+
+        We will provide an update once more information becomes available.
+      investigating: true
+    - ts: "2024-09-11 05:32:50"
+      description: This incident has been resolved.
+      resolved: true

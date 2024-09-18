@@ -1,0 +1,15 @@
+version: incident/v1
+id: yvvv2z5rtlpj
+name: Cannot create new UISP Cloud Consoles
+impact: major
+systems:
+    - kyb5xddvtwvg
+timeline:
+    - ts: "2021-12-07 17:07:46"
+      description: It is currently not possible to create new UISP Cloud Consoles. Existing consoles are not affected.
+      investigating: true
+    - ts: "2021-12-07 21:55:17"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2021-12-07 22:21:27"
+      description: This incident has been resolved.
+      resolved: true

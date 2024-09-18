@@ -1,0 +1,25 @@
+version: incident/v1
+id: kzm9615fb333
+name: 'MongoDB Cloud: Unable to create new Identity Providers for Federated Authentication'
+impact: none
+systems: []
+timeline:
+    - ts: "2024-02-23 16:49:56"
+      description: |-
+        We are currently aware of reports that creating new Identity Providers for Federated Authentication is failing. The fix has been identified and we're working with our upstream provider on implementing a fix.
+
+        Existing federations are unaffected.
+    - ts: "2024-02-23 21:05:17"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-02-23 22:24:11"
+      description: |-
+        Our attempted fix has not resolved the issue. We will resume investigations Monday morning with our upstream provider to identify the root cause.
+
+        Existing federations are unaffected.
+    - ts: "2024-02-26 15:44:09"
+      description: We've isolated the issue and are working with our upstream provider on a fix.
+    - ts: "2024-02-27 20:46:53"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-02-27 20:48:12"
+      description: This incident has been resolved.
+      resolved: true

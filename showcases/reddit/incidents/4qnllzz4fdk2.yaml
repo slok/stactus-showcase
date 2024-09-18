@@ -1,0 +1,14 @@
+version: incident/v1
+id: 4qnllzz4fdk2
+name: Reports of inaccurate active user counting
+impact: none
+systems: []
+timeline:
+    - ts: "2023-07-03 11:53:23"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2023-07-03 12:23:47"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-07-03 13:16:42"
+      description: This incident has been resolved.
+      resolved: true

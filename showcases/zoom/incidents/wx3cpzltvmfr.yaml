@@ -1,0 +1,16 @@
+version: incident/v1
+id: wx3cpzltvmfr
+name: Issue with Zoom CRC and Zoom Phone recordings/call logs in Brazil
+impact: minor
+systems:
+    - jymc5csz9t56
+    - 3ml2fn8g0psv
+timeline:
+    - ts: "2024-09-16 15:49:48"
+      description: We are investigating an issue causing intermittent issues with Zoom Conference Room Connector, and an intermittent delay with Zoom Phone recordings and call logs in Brazil.  We will provide updates as we have them.
+      investigating: true
+    - ts: "2024-09-16 17:00:24"
+      description: The issue causing intermittent issues with Zoom Conference Room Connector, and an intermittent delay with Zoom Phone recordings and call logs in Brazil has been resolved.  We will continue to monitor and provide updates as we have them.
+    - ts: "2024-09-16 17:18:19"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,23 @@
+version: incident/v1
+id: 5lz3mk588548
+name: Droplet creates in LON1
+impact: minor
+systems:
+    - ymz9qzqj9rxv
+    - 79j9sw2l27cv
+    - btv040v4xbdn
+    - dthxlw365zmm
+timeline:
+    - ts: "2024-09-11 23:45:43"
+      description: Our Engineering team is investigating an issue with Droplet creation in LON1. During this time, users may see an elevated failure rate for the creation of Droplets and other Droplet-based products, such as Load Balancers, Managed Databases, or Kubernetes, in LON1.
+      investigating: true
+    - ts: "2024-09-12 00:23:34"
+      description: Our Engineering team has implemented mitigations for the intermittent issues with Droplet creates in LON1. The team is monitoring the situation, and we will share an update once this is fully resolved.
+    - ts: "2024-09-12 00:56:40"
+      description: |-
+        From 22:03 September 11 to 00:13 September 12 UTC, users may have experienced failures with creating Droplets in the LON1 region.
+
+        Our Engineering team has confirmed resolution of this issue with users now being able to create Droplets in LON1. Thank you for your patience.
+
+        If you continue to experience any problems, please open a support ticket from within your account.
+      resolved: true

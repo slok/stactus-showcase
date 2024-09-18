@@ -1,0 +1,13 @@
+version: incident/v1
+id: 3f54lbrzjt0n
+name: Delayed Synthetic Browser Test Results
+impact: minor
+systems:
+    - s66ymj7q3sdd
+timeline:
+    - ts: "2023-08-23 13:47:14"
+      description: We have identified an issue that resulted in an increased latency executing Synthetics browser tests. As a result of this issue, some users may experience delays in receiving test results and notifications.
+      investigating: true
+    - ts: "2023-08-23 14:26:43"
+      description: We have scaled up the underlying system and we no longer observe latency in synthetic browser test results.
+      resolved: true

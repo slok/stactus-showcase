@@ -1,0 +1,15 @@
+version: incident/v1
+id: k7ndd3tc9jwp
+name: Elevated Rate of Image Delivery Errors
+impact: minor
+systems:
+    - 3lbj8lp3d750
+timeline:
+    - ts: "2024-09-11 19:04:41"
+      description: We are investigating reports of an elevated level of errors serving images.
+      investigating: true
+    - ts: "2024-09-11 22:16:17"
+      description: The cause of this issue has been identified and a fix was implemented. We are currently monitoring the results.
+    - ts: "2024-09-11 22:34:43"
+      description: This incident is now resolved.
+      resolved: true

@@ -1,0 +1,9 @@
+version: incident/v1
+id: 5sxgfj6462v5
+name: Public API experiencing increased errors
+impact: major
+systems: []
+timeline:
+    - ts: "2022-02-07 10:41:05"
+      description: Increased load caused API service to experience errors from 10:03 - 10:15 PST.
+      resolved: true

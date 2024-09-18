@@ -1,0 +1,12 @@
+version: incident/v1
+id: 1kn4kywmvgz4
+name: '[Retroactive] Incident with Pull Requests'
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-08-06 20:22:34"
+      description: |-
+        Beginning at 6:52 PM UTC on August 6, 2024 and lasting until 6:59 PM UTC, some customers of github.com saw errors when navigating to a Pull Request. The error rate peaked at ~5% for logged in users. This was due to a change which was rolled back after alerts fired during the deployment.
+
+        We did not status before we completed the rollback, and the incident is currently resolved. We are sorry for the delayed post on githubstatus.com.
+      resolved: true

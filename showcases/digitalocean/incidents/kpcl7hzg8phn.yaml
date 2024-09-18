@@ -1,0 +1,21 @@
+version: incident/v1
+id: kpcl7hzg8phn
+name: Event processing in TOR1
+impact: minor
+systems:
+    - ty601myjf6cj
+    - myqfd21mmbh9
+timeline:
+    - ts: "2024-05-30 19:42:56"
+      description: "Our Engineering team is investigating an uptick in reports of issues with Power on, Power off, and Power cycle events in our TOR1 and NYC3 regions. During this period, customers might experience errors and/or delays in powering on, powering off, or rebooting Droplets. \n\nWe will post an update as soon as additional information is available."
+      investigating: true
+    - ts: "2024-05-30 20:16:21"
+      description: "After further investigation, our Engineering team has determined the scope of this issue to be limited to two physical nodes in our TOR1 datacenter. Power event errors seen in NYC3 are not related to this incident and are a result of a single hypervisor issue, which is being remediated separately. \n\nThe root cause for event issues in TOR1 has been identified and a fix is underway. We will update the title of this incident shortly to accurately reflect the scope and will post an update as soon as the fix has rolled out or there is additional information to share."
+    - ts: "2024-05-30 20:51:59"
+      description: "Our Engineering team has implemented a fix to resolve the issue with event processing on the two nodes in TOR1. At this time, users should no longer face issues with powering on, powering off, and power cycling Droplets. \n\nWe are monitoring the situation closely and will post an update as soon as we confirm the issue is fully resolved."
+    - ts: "2024-05-30 22:07:37"
+      description: |-
+        Our Engineering team has confirmed that this incident has been fully resolved.
+
+        Thank you for your patience. If you continue to experience any problems, please open a ticket with our support team for further review.
+      resolved: true

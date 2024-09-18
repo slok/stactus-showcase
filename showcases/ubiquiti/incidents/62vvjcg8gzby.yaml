@@ -1,0 +1,17 @@
+version: incident/v1
+id: 62vvjcg8gzby
+name: Remote Access Connectivity Issues
+impact: major
+systems:
+    - 50j8z65sq9pt
+timeline:
+    - ts: "2021-07-15 18:34:57"
+      description: |-
+        An issue has been identified where some users may not be able to connect to devices via network.unifi.ui.com.
+        Our teams are investigating the issue and will provide periodic updates on status.ui.com. We apologize for any inconvenience and are working to restore service as quickly as possible.
+      investigating: true
+    - ts: "2021-07-15 19:24:49"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2021-07-15 19:51:31"
+      description: This incident has been resolved.
+      resolved: true

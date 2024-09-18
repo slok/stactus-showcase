@@ -1,0 +1,27 @@
+version: incident/v1
+id: 1fmnt05g7vqd
+name: Azure Integrations Data and Alerts Missing or Delayed in US and EU Regions
+impact: major
+systems:
+    - 028b05n94my0
+    - zj32brg420jm
+    - s27h21w34qhk
+    - vdkznxzlr7nn
+timeline:
+    - ts: "2024-01-21 05:29:16"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-01-21 05:34:57"
+      description: Some customers in the US and EU regions may experience delayed alert notifications and missing or delayed infra-metrics from Azure integrations.
+      investigating: true
+    - ts: "2024-01-21 05:44:37"
+      description: Azure integrations are recovering, alert notifications still impacted.
+    - ts: "2024-01-21 06:18:18"
+      description: We are continuing to monitor the recovery. Alert notifications for infra-metrics are still impacted.
+    - ts: "2024-01-21 06:56:16"
+      description: We are continuing to monitor the recovery. Alert notifications for infra-metrics are still impacted.
+    - ts: "2024-01-21 07:20:23"
+      description: Azure integration data and alerts have recovered for the EU region. The US region is recovering.
+    - ts: "2024-01-21 08:00:10"
+      description: "Between 01:00 UTC and 08:00 UTC on January 21st, some customers in the US and EU regions may have experienced missing or delayed infra-metrics for Azure integrations as well as delayed or missing alert notifications for related data. \n\nTo prevent our customers from receiving a high volume of false positive alert notifications, notifications for affected data were temporarily suppressed during this time."
+      resolved: true

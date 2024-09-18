@@ -1,0 +1,18 @@
+version: incident/v1
+id: wtpkr8hhwwdm
+name: Monitoring Alerts Creation
+impact: minor
+systems:
+    - yht2qc1zfp6x
+timeline:
+    - ts: "2024-06-19 19:25:21"
+      description: "Our Engineering team is investigating an issue impacting our Monitoring Alerts service. \n\nDuring this time, users may have been experiencing errors or unexpected delays while trying to create monitoring alerts via Cloud Control Panel. \n\nWe apologize for the inconvenience and will post an update as soon as we have additional information."
+      investigating: true
+    - ts: "2024-06-19 22:22:03"
+      description: "Our Engineering team has implemented a fix regarding the issue with creating a monitoring alert in the Monitoring section of the Cloud Control Panel. We are monitoring the situation to ensure there is no recurrence. \n\nWe will post another update once we confirm the issue is fully resolved."
+    - ts: "2024-06-19 23:04:07"
+      description: |-
+        Our engineering team has resolved the issue with creating a monitoring alert in the Monitoring section of the Cloud Control Panel.
+
+        Thank you for your patience. If you continue to experience any problems, please open a support ticket from within your account.
+      resolved: true

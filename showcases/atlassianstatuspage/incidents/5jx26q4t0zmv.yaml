@@ -1,0 +1,14 @@
+version: incident/v1
+id: 5jx26q4t0zmv
+name: Intermittent errors during login for some customers
+impact: minor
+systems:
+    - fyzs60wyq01d
+    - v9dcxzcs9ypj
+    - wgxgj3x4gjyy
+timeline:
+    - ts: "2023-08-29 22:03:20"
+      description: We have identified issues with our login system. To unblock customer login we have temporarily enabled alternate login flows for the manage portal. We will continue to monitor the situation and provide further details as we investigate further.
+    - ts: "2023-08-29 23:16:10"
+      description: This incident has been resolved.
+      resolved: true

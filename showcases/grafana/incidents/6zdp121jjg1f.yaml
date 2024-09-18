@@ -1,0 +1,18 @@
+version: incident/v1
+id: 6zdp121jjg1f
+name: Some Grafana Cloud Instances Intermittently Unavailable
+impact: none
+systems:
+    - qqj6ssvvsqmq
+timeline:
+    - ts: "2024-08-23 03:01:53"
+      description: |-
+        At approximately 02:30 UTC, we were alerted to an issue with some Hosted Grafana instances. Users experiencing this issue may have encountered an error connecting to their instance for 15 minutes.
+
+        At this time, there is no widespread outage, but we are continuing to monitor for stability.
+      investigating: true
+    - ts: "2024-08-23 03:02:20"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-08-23 09:16:18"
+      description: This incident has been resolved.
+      resolved: true

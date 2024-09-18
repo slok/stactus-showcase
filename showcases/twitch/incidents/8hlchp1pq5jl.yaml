@@ -1,0 +1,14 @@
+version: incident/v1
+id: 8hlchp1pq5jl
+name: Identified Video (Broadcasting) Issues
+impact: major
+systems:
+    - 6pr6psm3s003
+timeline:
+    - ts: "2022-08-24 21:34:27"
+      description: "\U0001F6E0 We have identified an issue preventing people from broadcasting on Twitch. We're currently working to resolve this issue."
+    - ts: "2022-08-24 23:06:05"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2022-08-24 23:17:22"
+      description: "\U0001F6E0 We've resolved all known issues of broadcasters not being able to stream on Twitch."
+      resolved: true

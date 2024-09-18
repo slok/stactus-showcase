@@ -1,0 +1,17 @@
+version: incident/v1
+id: 06jzb2grj8pt
+name: HCP Terraform Latency Degredation
+impact: major
+systems:
+    - 7cgbxrw10wgr
+timeline:
+    - ts: "2024-07-17 14:55:00"
+      description: Our Engineering team has identified and is currently attempting to mitigate a change that has increased latency on HCP Terraform. Customers are likely experiencing large increases in latency across Workspace and Run api endpoints.
+    - ts: "2024-07-17 15:38:03"
+      description: Engineers have rolled back the problematic change, and have observed signs of recovery. We are currently monitoring the application to ensure a return to normal operation.
+    - ts: "2024-07-17 16:22:24"
+      description: |-
+        The applied mitigations have successfully resolved the issue.
+
+        During the incident customers may have noticed Terraform Runs failing due to the increased latency: those can now be retried.
+      resolved: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: tfz7qf11z7th
+name: Issues setting up UniFi Talk emergency services
+impact: minor
+systems:
+    - s78xyt2hftwd
+timeline:
+    - ts: "2021-03-15 00:23:37"
+      description: There is a third-party system outage impacting the emergency address step of the UniFi Talk setup process, causing setups to fail. This impacts new setups only and has no impact on existing deployments.
+    - ts: "2021-03-15 08:59:51"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,20 @@
+version: incident/v1
+id: qw34dy4q5jr8
+name: HCP Terraform Elevated Latency
+impact: none
+systems:
+    - 7cgbxrw10wgr
+timeline:
+    - ts: "2024-08-19 22:05:04"
+      description: |-
+        Our engineering team is investigating an elevated latency issue with HCP Terraform.
+
+        We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-08-19 22:34:39"
+      description: HCP Terraform performance and availability has been restored. We are continuing to monitor the results.
+    - ts: "2024-08-19 22:54:50"
+      description: Our engineers have identified the underlying causes of the performance degradation and are putting mitigations into place.
+    - ts: "2024-08-19 23:07:14"
+      description: Our engineering team has resolved the incident. and all systems should now be operating normally. If you continue to experience any problems, please open a ticket with our support team.
+      resolved: true

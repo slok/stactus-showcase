@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8rzxcxnpqpj3
+name: Network testing in Building E90
+impact: major
+systems:
+    - qbxg9tr9gslw
+timeline:
+    - ts: "2023-09-20 14:44:59"
+      description: We are currently investigating a network connectivity issue at Building E90. There will be testing by our fiber optic provider taking place shortly after 5pm, which may result in an outage.
+      investigating: true
+    - ts: "2023-09-20 17:58:42"
+      description: This incident has been resolved.
+      resolved: true

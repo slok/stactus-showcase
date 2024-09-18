@@ -1,0 +1,15 @@
+version: incident/v1
+id: wmjl5h8pvn69
+name: 'Microsoft Azure Incident in West Europe: Delayed Cluster Operations'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-03-26 03:56:05"
+      description: |-
+        Microsoft Azure is experiencing an issue with the Azure Resource Manager in the West Europe region. As a result, users may experience delays creating, updating or deleting clusters in this region.
+
+        Further incident details may be found in the Service Health Dashboard in your Microsoft Azure Portal.
+    - ts: "2024-03-26 11:54:11"
+      description: The issue has been resolved, and the system is now operating as expected.
+      resolved: true

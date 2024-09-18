@@ -1,0 +1,14 @@
+version: incident/v1
+id: 6wd3ttjntyt6
+name: Failure to connect
+impact: none
+systems:
+    - x7rnz0t7dpnp
+timeline:
+    - ts: "2024-07-23 05:51:38"
+      description: About 10% of new connections to Discord are failing. Cause is identified and we are resolving
+    - ts: "2024-07-23 05:54:30"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-07-23 05:59:05"
+      description: This incident has been resolved.
+      resolved: true

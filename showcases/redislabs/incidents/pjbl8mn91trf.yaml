@@ -1,0 +1,12 @@
+version: incident/v1
+id: pjbl8mn91trf
+name: Instance failure
+impact: none
+systems: []
+timeline:
+    - ts: "2024-08-21 06:03:43"
+      description: 'We are experiencing an instance failure. This may affect resources that have the following pattern in their endpoint: c6'
+      investigating: true
+    - ts: "2024-08-21 06:55:24"
+      description: This incident has been resolved.
+      resolved: true

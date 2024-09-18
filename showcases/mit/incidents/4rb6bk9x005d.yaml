@@ -1,0 +1,14 @@
+version: incident/v1
+id: 4rb6bk9x005d
+name: MIT Touchstone to be powered by Okta starting June 17
+impact: major
+systems:
+    - dpdsycjtknlz
+timeline:
+    - ts: "2024-06-06 16:00:48"
+      description: 'IS&T will update MIT’s Touchstone single sign-on (SSO) service configuration on June 17 so that all Touchstone-enabled systems will use the new version of the service, now powered by Okta. Learn more: https://ist.mit.edu/news/touchstone-okta'
+    - ts: "2024-06-17 18:24:08"
+      description: This change has been implemented and we are monitoring the results.
+    - ts: "2024-08-12 08:34:05"
+      description: This incident has been resolved.
+      resolved: true

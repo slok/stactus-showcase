@@ -1,0 +1,93 @@
+version: incident/v1
+id: l76m9nxrqf9k
+name: SMS Delivery Delays to Dish Network in the US for a Subset of Short Codes and Twilio Toll-Free Numbers
+impact: minor
+systems:
+    - 32f2bm54nkvv
+timeline:
+    - ts: "2024-09-04 00:31:18"
+      description: We are experiencing SMS delivery delay to Dish Network in US via subset of Longcode. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-04 01:26:22"
+      description: We are still experiencing SMS delivery delay to Dish Network in US via subset of Longcode. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-04 03:21:19"
+      description: We are still experiencing SMS delivery delay to Dish Network in US via subset of Longcode. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-04 07:17:55"
+      description: We are still experiencing SMS delivery delay to Dish Network in US via subset of Longcode. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-04 11:10:24"
+      description: We are still experiencing SMS delivery delay to Dish Network in US via subset of Longcode. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-04 15:27:57"
+      description: We are still experiencing SMS delivery delay to Dish Network in US via subset of Longcode. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-04 23:27:13"
+      description: We are still experiencing SMS delivery delay to Dish Network in US via subset of Longcode. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-05 16:12:08"
+      description: We are still experiencing SMS delivery delay to Dish Network in US via subset of Longcode. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-05 21:38:30"
+      description: We are experiencing SMS delivery delay to Dish Network in US via Twilio Toll-Free Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available
+      investigating: true
+    - ts: "2024-09-05 22:30:41"
+      description: We are experiencing SMS delivery delay to Dish Network in US via Twilio Toll-Free Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available
+      investigating: true
+    - ts: "2024-09-06 22:30:10"
+      description: We are still experiencing SMS delivery delay to Dish Network in US via Twilio Toll-Free Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-07 22:23:32"
+      description: We are still experiencing SMS delivery delay to Dish Network in US via Twilio Toll-Free Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-08 22:22:59"
+      description: We are still experiencing SMS delivery delay to Dish Network in US via Twilio Toll-Free Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-09 00:17:21"
+      description: We are still experiencing SMS delivery delay to Dish Network in US via Twilio Toll-Free Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-09 22:20:09"
+      description: We are still experiencing SMS delivery delay to Dish Network via Twilio Toll-Free Numbers and a Subset Of Short Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-10 10:10:28"
+      description: We continue to experience SMS delivery delay to Dish Network over a subset of Twilio Toll-Free Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-11 09:55:01"
+      description: We continue to experience SMS delivery delay to Dish Network in the US over a subset of Toll-Free Numbers. We have identified that a subset of Short Codes started to be impacted by this situation. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-11 17:32:48"
+      description: We are observing recovery in SMS delivery delay to Dish Network in the US over a subset of Toll-Free Numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-09-11 18:23:31"
+      description: We are observing recovery in SMS delivery via a subset of Short Codes, however, we are still experiencing SMS delivery delay via Twilio Toll-Free Numbers to Dish network in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-11 20:44:39"
+      description: The issue with SMS delivery via a subset of Short Codes is now resolved, however, we continue to experience SMS delivery delays via Twilio Toll-Free Numbers to Dish network in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-12 00:44:22"
+      description: The issue with SMS delivery via a subset of Short Codes is now resolved, however, we continue to experience SMS delivery delays via Twilio Toll-Free Numbers to Dish network in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-12 08:44:55"
+      description: The issue with SMS delivery via a subset of Short Codes is now resolved, however, we continue to experience SMS delivery delays via Twilio Toll-Free Numbers to Dish network in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-13 00:45:38"
+      description: The issue with SMS delivery via a subset of Short Codes is now resolved, however, we continue to experience SMS delivery delays via Twilio Toll-Free Numbers to Dish network in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-13 13:42:44"
+      description: We have identified that this incident is impacting the Delivery Reports for messages sent to Dish Network in the US, we can confirm that the Message Delivery is no longer impacted. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-14 13:47:31"
+      description: We continue experiencing Delivery Reports delays for messages sent to Dish network in the US. We can confirm the Message Delivery is no longer impacted. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-15 13:35:09"
+      description: We continue experiencing Delivery Reports delays for messages sent to Dish network in the US. We can confirm the Message Delivery is no longer impacted. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-16 13:39:16"
+      description: We continue experiencing Delivery Reports delays for messages sent to Dish network in the US. We can confirm the Message Delivery is no longer impacted. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-17 13:30:58"
+      description: We continue experiencing Delivery Reports delays for messages sent to Dish network in the US. We can confirm the Message Delivery is no longer impacted. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-17 15:22:00"
+      description: We are continuing to experience Delivery Report delays for messages sent to Dish network in the US for a subset of Toll Free Numbers, however we will instead be contacting impacted customers individually in order to provide further updates on this incident. This post can be considered resolved.
+      resolved: true

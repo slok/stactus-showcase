@@ -1,0 +1,28 @@
+version: incident/v1
+id: syk7gjvjmwkp
+name: Investigating an incident affecting HVD Azure cluster creation and updates
+impact: major
+systems:
+    - 67l1stcs3zk1
+    - hm5bfg0b2jlb
+    - 0gzbx9wshf0l
+    - 0yw6jtfrrwmq
+    - 9dwj52zv6j30
+    - nk3x061s9zyn
+    - fskhmcn1z2yx
+    - tsxl98v56jgm
+    - zdz8wb23kvt8
+    - hsg8y5dwfts8
+    - tw1yt17pltxp
+    - rsmtc2yqpp0f
+timeline:
+    - ts: "2024-07-09 17:38:21"
+      description: Our engineering team is investigating an issue with HCP Vault Dedicated. During this time, users may experience that creating HCP Vault  Dedicated clusters on Azure as well as any attempted update. We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-07-09 18:31:09"
+      description: We've identified the issue to be an expired credential and are looking into renewing it. Until then HVD cluster creation and updates on Azure will continue failing.
+    - ts: "2024-07-09 19:36:44"
+      description: The credentials have been rotated, we are now monitoring the system to ensure everything is back to normal.
+    - ts: "2024-07-09 20:02:29"
+      description: Azure cluster creation and update is now working normally once again. Please delete and re-create any clusters left in "failed" state after they failed to deploy, and retry any cluster updates that failed in the last 6 h 30 min.
+      resolved: true

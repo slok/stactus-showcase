@@ -1,0 +1,16 @@
+version: incident/v1
+id: vj1wzh4m7f6n
+name: Some subreddits/posts are failing to load
+impact: minor
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2024-08-06 11:36:21"
+      description: Some posts/subreddits are currently failing to load for web and mobile users. We've identified a likely culprit and are currently working to address it.
+    - ts: "2024-08-06 12:13:59"
+      description: A fix is in the process of rolling out, we should be back to normal in 15-20 minutes.
+    - ts: "2024-08-06 12:27:50"
+      description: The fix has rolled out completely, and things are back to normal.
+      resolved: true

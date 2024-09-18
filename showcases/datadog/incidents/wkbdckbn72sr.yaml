@@ -1,0 +1,26 @@
+version: incident/v1
+id: wkbdckbn72sr
+name: Metrics historical data failed queries
+impact: minor
+systems:
+    - wxl8hfbylpf5
+    - qrnng5l7z80l
+timeline:
+    - ts: "2024-05-13 13:59:44"
+      description: |-
+        We are investigating queries failing for historical data for metrics, impacting timeframes more than one day ago.
+        Queries for recent data are not affected by this incident.
+      investigating: true
+    - ts: "2024-05-13 14:14:12"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-05-13 14:41:26"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2024-05-13 15:40:05"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2024-05-13 16:17:10"
+      description: A fix has been implemented. While the system continues to recover, data will be available but some results may be slow or incomplete until full recovery is complete.
+    - ts: "2024-05-13 17:18:14"
+      description: The system continues to recover. Data is available, but some results may be slow or incomplete until full recovery. Our teams continue to monitor the incident.
+    - ts: "2024-05-13 17:55:11"
+      description: Our metrics system has recovered and all historical metrics are now queryable.
+      resolved: true

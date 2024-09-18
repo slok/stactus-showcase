@@ -1,0 +1,14 @@
+version: incident/v1
+id: 2c9lfrc898tb
+name: HCP portal experiencing instability
+impact: major
+systems:
+    - mgv1p2j9x444
+timeline:
+    - ts: "2024-02-22 00:50:42"
+      description: "Our Engineering team has identified the cause for the following incident: \n\nThe HCP portal is being affected by an upstream provider that is having a major outage.\n\nOnce we have additional information, we will share another update."
+    - ts: "2024-02-22 01:36:08"
+      description: The upstream provider has resolved their major outage. The HashiCorp Cloud Platform and other HashiCorp services should now be operating normally. If you continue to experience any problems, please open a ticket with our support team.
+    - ts: "2024-02-22 01:39:31"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,30 @@
+version: incident/v1
+id: 0qhrx0jbsdmx
+name: Alert Delays for the US Region
+impact: major
+systems:
+    - rbts0zzw73dl
+    - 5x10l9g2z3t6
+    - 028b05n94my0
+    - 5p33lkzzqm0z
+    - ymfwncrn2dnh
+    - 9jndj4kfv59w
+    - lm2qpsbfggh7
+    - prjgs1mvmqg9
+timeline:
+    - ts: "2023-08-17 03:08:47"
+      description: We are investigating an issue that may impact Alerts for customer accounts in the US region.
+      investigating: true
+    - ts: "2023-08-17 03:18:06"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-08-17 03:38:30"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2023-08-17 03:47:16"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-08-17 04:14:57"
+      description: |-
+        Between 02:21 UTC and 03:47 UTC on August 17th, some customers in the US region may have experienced delay or dropped alerts for alert notifications, and possible delays in distributed trace data. To prevent our customers from receiving a high volume of false-positive alert notifications during this interruption, alerts were temporarily suppressed for applicable customers between 02:55 UTC and 03:49UTC.
+
+        We have investigated and resolved this service interruption and impacted services have returned to normal operations.
+      resolved: true

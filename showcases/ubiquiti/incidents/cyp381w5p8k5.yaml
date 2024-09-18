@@ -1,0 +1,15 @@
+version: incident/v1
+id: cyp381w5p8k5
+name: Teleport VPN partial outage
+impact: major
+systems:
+    - zcxp48kb64sd
+timeline:
+    - ts: "2023-02-01 06:28:15"
+      description: An issue has been identified where some users may be unable to connect to their consoles via Teleport VPN. Our teams are investigating the issue and will provide periodic updates on status.ui.com. We apologize for any inconvenience and are working to restore service as quickly as possible.
+      investigating: true
+    - ts: "2023-02-01 15:16:25"
+      description: |-
+        An issue has been fixed where some users could not connect to their consoles via Teleport VPN.
+        Please make sure to update your WifiMan mobile applications to the latest versions (iOS 0.21.2 or newer /  Android 1.17.5 or newer).
+      resolved: true

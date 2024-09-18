@@ -1,0 +1,14 @@
+version: incident/v1
+id: 1x8xpn32qzfk
+name: Atlas Cluster Operations Delayed
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-02-16 11:19:39"
+      description: A small subset of customers using AWS regions may experience delays with operations to their clusters. The issue started at approximately 0120 UTC. The issue has already been identified and a remediation is in progress.
+    - ts: "2024-02-16 11:32:22"
+      description: The remediation has been completed and we are monitoring the results.
+    - ts: "2024-02-16 11:46:39"
+      description: This incident has been resolved.
+      resolved: true

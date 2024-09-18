@@ -1,0 +1,18 @@
+version: incident/v1
+id: 3bmrp5qpdx2m
+name: Firewall Analytics Delays
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2024-09-12 10:01:35"
+      description: |-
+        Reporting and analytics for Cloudflare's Firewall features are delayed for a subset of customers. These services are still fully operational, just analytics are delayed.
+
+        We are working to mitigate this problem.  More updates to follow shortly.
+      investigating: true
+    - ts: "2024-09-12 10:21:59"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-12 10:36:29"
+      description: This incident has been resolved.
+      resolved: true

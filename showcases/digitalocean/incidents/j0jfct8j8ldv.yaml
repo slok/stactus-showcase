@@ -1,0 +1,23 @@
+version: incident/v1
+id: j0jfct8j8ldv
+name: Droplet connectivity and Event processing in NYC1
+impact: minor
+systems:
+    - fb63qt9f69m0
+    - t2sr3808q4ry
+    - dhcf7lpc5q3z
+timeline:
+    - ts: "2024-08-26 08:13:28"
+      description: "As of 01:00 UTC, our Engineering team is currently investigating reports of an issue with our Droplet-based services in the NYC1 region. \n\nAt this time, users may experience issues reaching their Droplet via network requests and also see errors or stuck events when attempting Droplet actions such as power cycles, resizes, rebuilds, etc. Our team is working to mitigate the issue. \n\nWe realize how impacting this is and will provide an update as soon as possible. Thank you for your patience."
+      investigating: true
+    - ts: "2024-08-26 09:36:30"
+      description: |-
+        As of 09:30 UTC, our Engineering team has identified the cause of the issue impacting our Droplet-based services in the NYC1 region and applied a fix. The impact has started to mitigate and users should be able to connect to their Droplets and also start to see events getting processed successfully.
+
+        We're now monitoring the fix for stability and will post an update once we are confident it is successful.
+    - ts: "2024-08-26 10:40:55"
+      description: |-
+        Our Engineering team has confirmed that the issue impacting our Droplet-based services in the NYC1 region has been completely mitigated. Users should no longer see issues with their Droplets and Droplet-related services.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true

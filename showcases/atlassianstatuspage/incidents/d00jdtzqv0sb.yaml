@@ -1,0 +1,13 @@
+version: incident/v1
+id: d00jdtzqv0sb
+name: Intermittent issues in incidents shown in Status embed frame
+impact: major
+systems:
+    - 2k3fhq6zhd4j
+timeline:
+    - ts: "2023-11-17 08:37:26"
+      description: We are investigating an intermittent issue reported by a few customers about wrong data shown in the status embed frame in their sites. We are investigating this issue currently and will share updates soon.
+      investigating: true
+    - ts: "2023-11-17 09:25:26"
+      description: There was an intermittent error with status embed page where cached responses were incorrectly being shown to a few customers. This is resolved as of now.
+      resolved: true

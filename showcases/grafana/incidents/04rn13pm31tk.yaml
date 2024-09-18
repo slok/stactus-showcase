@@ -1,0 +1,35 @@
+version: incident/v1
+id: 04rn13pm31tk
+name: Synthetic monitoring connectivity issue in Toronto probe
+impact: minor
+systems:
+    - gqmrtkv44snw
+    - w2sv65flwjyg
+    - vdp8ff0sncsj
+    - 72cbdqh1qfxk
+    - 1dqyw0njnkxv
+    - 6xm6mc51pr03
+    - sq2b0zbgtbwn
+    - r5nqbrqbw0k2
+    - wlk38l1st21f
+    - pz96v0pznswg
+    - gsb4scg45ndq
+    - dcwlkh9jb6xh
+    - 43fvknltd9m1
+    - b6vy9syblc9x
+    - dpny9b8qb952
+    - czpt94dvn18t
+    - 191t9x68nj8s
+    - fh680ftdss7w
+    - tcskx9mfsz1c
+    - 7p6gpdprypb9
+timeline:
+    - ts: "2024-06-25 18:27:10"
+      description: Starting at 17:45 UTC the Toronto probe disconnected from all Grafana Cloud regions and some tests failed to execute. Test executions and connection to all Grafana Cloud regions were fully restored at 18:05 UTC.  We continue to monitor the probe.
+    - ts: "2024-06-25 18:50:05"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2024-06-25 18:50:47"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2024-06-25 18:52:17"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,9 @@
+version: incident/v1
+id: fb4wk0vrfgmn
+name: Elevated errors for EU based users.
+impact: none
+systems: []
+timeline:
+    - ts: "2024-07-22 21:08:04"
+      description: From approximately 8:58 PM CET until 9:19 PM CET 1Password's European region experienced elevated error rates, affecting users ability to sign in with SSO, sync across devices, or use other functionality on the 1Password.eu website.
+      resolved: true

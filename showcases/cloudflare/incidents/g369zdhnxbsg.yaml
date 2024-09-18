@@ -1,0 +1,9 @@
+version: incident/v1
+id: g369zdhnxbsg
+name: Increased 500 errors for some customers using Load Balancing
+impact: none
+systems: []
+timeline:
+    - ts: "2024-08-29 21:22:14"
+      description: Cloudflare observed an increase in HTTP 500 errors for customers on Free plans using Load Balancing between approximately 2024-08-28 21:40 UTC to 2024-08-29 21:06 UTC.
+      resolved: true

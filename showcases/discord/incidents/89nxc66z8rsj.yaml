@@ -1,0 +1,13 @@
+version: incident/v1
+id: 89nxc66z8rsj
+name: Increased API Errors (including errors sending DMs)
+impact: none
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-02-14 11:45:11"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-02-14 11:57:13"
+      description: The issue has been resolved.
+      resolved: true

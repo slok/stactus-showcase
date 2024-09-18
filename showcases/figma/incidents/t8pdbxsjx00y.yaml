@@ -1,0 +1,16 @@
+version: incident/v1
+id: t8pdbxsjx00y
+name: Service disruption
+impact: major
+systems:
+    - pn57gvt7sjmx
+    - bcf4b8z76zqr
+    - 2wghgbfmnn54
+timeline:
+    - ts: "2024-07-22 13:58:30"
+      description: Figma had a 10 minute partial availability issue on Monday July 22nd between 13:38 and 13:48 UTC. We have identified and addressed the root cause and we are actively monitoring.
+    - ts: "2024-07-22 14:02:29"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2024-07-22 14:58:29"
+      description: This incident has been resolved.
+      resolved: true

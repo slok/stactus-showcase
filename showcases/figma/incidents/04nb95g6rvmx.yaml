@@ -1,0 +1,15 @@
+version: incident/v1
+id: 04nb95g6rvmx
+name: Service degradation - Some users experienced a service disruption loading files on mobile devices
+impact: none
+systems: []
+timeline:
+    - ts: "2023-08-02 22:10:54"
+      description: From 20:03 UTC to 21:56 UTC, some users experienced a service disruption loading files on mobile devices
+      investigating: true
+    - ts: "2023-08-02 22:10:59"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-08-02 22:11:09"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,17 @@
+version: incident/v1
+id: rgy9yn840fb3
+name: HCP Audit Log Viewer - high latency
+impact: minor
+systems:
+    - mgv1p2j9x444
+timeline:
+    - ts: "2024-08-15 17:46:14"
+      description: "Our Engineering team has identified the cause for the following incident: \n\nUsers may not be able to see platform audit logs in the HCP Portal.\n\nWe are actively working on a fix. Once we have additional information, we will share another update."
+    - ts: "2024-08-15 20:01:41"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue.
+
+        We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-08-15 22:20:36"
+      description: Users should be able to see all their audit logs in the HCP Portal.
+      resolved: true

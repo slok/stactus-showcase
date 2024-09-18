@@ -1,0 +1,14 @@
+version: incident/v1
+id: 2ms22lbx1yy6
+name: Possible inability to create or modify DDoS overrides via Dashboard
+impact: none
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2024-09-10 13:27:59"
+      description: |-
+        Cloudflare has identified an issue on which customers might be unable to create or modify DDoS overrides via Dashboard.
+        A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-10 13:37:39"
+      description: This incident has been resolved.
+      resolved: true

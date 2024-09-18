@@ -1,0 +1,14 @@
+version: incident/v1
+id: r18d823cq6h8
+name: Elevated API Latency
+impact: minor
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-01-30 13:01:49"
+      description: We have identified an issue that is causing elevated latency for some clients.
+    - ts: "2024-01-30 13:09:02"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-01-30 13:18:13"
+      description: This incident has been resolved.
+      resolved: true

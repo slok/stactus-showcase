@@ -1,0 +1,14 @@
+version: incident/v1
+id: l9b719nkdnkf
+name: Cloudflare WAF Managed Rule issue
+impact: minor
+systems:
+    - d1r0plwsl5qb
+timeline:
+    - ts: "2024-09-11 01:26:28"
+      description: Cloudflare has identified issues with the unexpected application of a single WAF managed rule causing false positives in some cases.
+    - ts: "2024-09-11 01:43:35"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-11 02:13:45"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,20 @@
+version: incident/v1
+id: mp8mwmcy6c5y
+name: Intermittent errors reported on multiple 1password sites
+impact: minor
+systems:
+    - bhm9mb16131r
+    - xgs4k9r41xf6
+    - cgltwfnt80mm
+    - 44mr9pvxy2h1
+    - 5mb7qcyd6jtf
+    - rlmyjkj2cs9k
+timeline:
+    - ts: "2023-09-13 18:27:30"
+      description: |-
+        We are currently investigating reports of intermittent errors with multiple 1Password websites.
+        The issue is currently impacting users who access 1password.com, 1password.ca , 1password.eu and my.1password.com
+      investigating: true
+    - ts: "2023-09-13 21:14:44"
+      description: We have resolved the issue which was causing users to experience intermittent errors.
+      resolved: true

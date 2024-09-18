@@ -1,0 +1,14 @@
+version: incident/v1
+id: kd01p329h51p
+name: FigJam disruption for Organizations with an approved widgets list
+impact: major
+systems:
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2023-02-28 22:11:57"
+      description: We've identified an issue with FigJam being inaccessible for Organizations utilizing an approved list of widgets.
+    - ts: "2023-02-28 22:27:08"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-02-28 22:29:08"
+      description: This incident has been resolved.
+      resolved: true

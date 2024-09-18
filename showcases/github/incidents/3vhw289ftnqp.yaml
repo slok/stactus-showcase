@@ -1,0 +1,22 @@
+version: incident/v1
+id: 3vhw289ftnqp
+name: Incident with Actions
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2024-08-21 14:09:30"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2024-08-21 14:15:53"
+      description: We are investigating reports of users seeing delays for Actions workflow runs to get triggered.
+      investigating: true
+    - ts: "2024-08-21 14:51:36"
+      description: We are seeing reduced delays for Actions workflow runs to get triggered. We are continuing to investigate how to further reduce impact on customers and recover more quickly.
+      investigating: true
+    - ts: "2024-08-21 15:10:57"
+      description: We have seen recovery and Actions workflow runs are now running as expected.
+      investigating: true
+    - ts: "2024-08-21 15:11:06"
+      description: On August 21, 2024, between 13:48 UTC and 15:00 UTC, Actions experienced degraded performance, leading to delays in workflow runs. On average, 25% of workflow runs were delayed by 8 minutes. Less than 1% of workflow runs exhausted retries and failed to start. The issue stemmed from a backlog of Pull Request events which caused delays in Actions processing the event queues that trigger workflow runs.<br /><br />We mitigated the incident by disabling the process that led to the sudden spike in Pull Request events. We are working to improve our monitoring and deployment practices to reduce our time to detection and mitigation of issues like this one in the future. We are also identifying appropriate changes to rate limits and reserved capacity to reduce the breadth of impact.
+      resolved: true

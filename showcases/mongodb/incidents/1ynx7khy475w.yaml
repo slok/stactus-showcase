@@ -1,0 +1,14 @@
+version: incident/v1
+id: 1ynx7khy475w
+name: Changes to Atlas Serverless Instances Delayed
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-01-26 18:39:57"
+      description: We have identified an issue that is causing delays to modification requests to Atlas Serverless instances across multiple regions. This includes creation of new instances and deletion of existing instances. The instances themselves should continue to be fully available and responsive to queries. We are working toward remediation and will provide updates as we have more information.
+    - ts: "2024-01-26 20:35:42"
+      description: We have implemented a fix and is observing that the system is recovering.
+    - ts: "2024-01-26 22:28:34"
+      description: This incident has been resolved.
+      resolved: true

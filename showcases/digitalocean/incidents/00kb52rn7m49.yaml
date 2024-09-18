@@ -1,0 +1,16 @@
+version: incident/v1
+id: 00kb52rn7m49
+name: Cloud Control Panel and API
+impact: none
+systems:
+    - p1x9rv4137gx
+    - czck17wcspr5
+timeline:
+    - ts: "2024-07-23 19:20:16"
+      description: |-
+        From 17:22 UTC to 17:27 UTC, we experienced an issue with requests to the Cloud Control Panel and API
+
+        During that timeframe, users may have experienced an increase in 5xx errors for Cloud/API requests. The issue self-resolved quickly and our Engineering team is continuing to investigate root cause to ensure it does not occur again.
+
+        Thank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket for further analysis.
+      resolved: true

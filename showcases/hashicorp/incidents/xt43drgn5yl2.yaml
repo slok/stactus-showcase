@@ -1,0 +1,21 @@
+version: incident/v1
+id: xt43drgn5yl2
+name: HCP Terraform Dynamic Credentials failure to assume role based on run phase
+impact: major
+systems: []
+timeline:
+    - ts: "2024-09-10 19:14:13"
+      description: |-
+        Our engineering team is investigating an issue with HCP Terraform Dynamic Provider Credentials containing the incorrect run phase in the subject claim.
+        Dynamic Provider Credentials users who rely on run-phase based matching to assume roles in their cloud providers may see authentication errors in their HCP Terraform runs
+      investigating: true
+    - ts: "2024-09-10 19:48:15"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue assuming roles with Dynamic Provider Credentials based on plan vs apply run phases.
+
+        We are monitoring to ensure that this issue is resolved
+    - ts: "2024-09-10 22:03:38"
+      description: |-
+        Our Engineering team has resolved an issue assuming roles with Dynamic Provider Credentials based on plan vs apply run phases
+        If you continue to experience any problems, please open a ticket with our support team.
+      resolved: true

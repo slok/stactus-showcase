@@ -1,0 +1,20 @@
+version: incident/v1
+id: 8371sz1t8s3v
+name: HCP Vault Secrets unable to create new secrets
+impact: major
+systems:
+    - hk67zg2j2rkd
+timeline:
+    - ts: "2024-07-30 23:16:44"
+      description: HCP Vault Secrets is failing to write secrets, reading secrets is experiencing higher than usual latency. The issue has been identified and engineers are working to solve the problem.
+    - ts: "2024-07-31 01:37:59"
+      description: |-
+        This issue is caused by the ongoing AWS incident, which is leading to degradation of CloudWatch log service.
+
+        We have successfully deployed a fix to address this issue. As a result, the errors related to creating new secrets as well as the latency issues have both been resolved.
+    - ts: "2024-07-31 19:12:01"
+      description: |-
+        Our Engineering team has fully resolved the issue causing errors for secret writes and increased latency for secret reads in HCP Vault Secrets. The issue was related to the AWS CloudWatch log service degradation which has been resolved as well.
+
+        HCP Vault Secrets should now be operating normally. If you continue to experience any problems, please open a ticket with our support team.
+      resolved: true

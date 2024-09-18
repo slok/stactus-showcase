@@ -1,0 +1,23 @@
+version: incident/v1
+id: 0tfts1jbv8mt
+name: Microsoft 365 services unavailable
+impact: major
+systems:
+    - dpdsycjtknlz
+timeline:
+    - ts: "2024-09-12 09:20:41"
+      description: |-
+        Microsoft is reporting, via X, that users may be unable to access multiple Microsoft 365 services:
+
+        https://x.com/msft365status/status/1834209876379042186?s=46&t=plkhHK12y7WoKRX_fWu9Yw
+
+        IS&T is monitoring the situation and will provide updates as they become available.
+      investigating: true
+    - ts: "2024-09-12 10:25:26"
+      description: |-
+        Microsoft 365 services are recovering, and they have made the following update available:
+
+        "We've worked with the third-party Internet Service Provider (ISP) and confirmed that a change within their managed-environment resulted in impact. The ISP has reverted the change and we're now seeing signs of recovery. We're continuing to monitor network telemetry data to ensure a full recovery."
+    - ts: "2024-09-12 16:02:48"
+      description: This incident has been resolved.
+      resolved: true

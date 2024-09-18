@@ -1,0 +1,23 @@
+version: incident/v1
+id: h5zfwy6wrvfk
+name: Fly machines API slow/unresponsive
+impact: none
+systems:
+    - 80ykv2p95qgy
+    - ffsz24mbcxfz
+timeline:
+    - ts: "2024-09-13 17:47:14"
+      description: |-
+        Fly API operations are currently slow or failing, we're investigating the cause.
+
+        This will affect most operations that rely in the machines API, including starting Fly builders, deploying, creating/destroying machines, querying machine or volume data via the API.
+
+        Existing, running apps and machines are not affected and continue to serve normally.
+      investigating: true
+    - ts: "2024-09-13 17:56:03"
+      description: We've identified the problematic change and are performing a rollback to restore service.
+    - ts: "2024-09-13 18:04:12"
+      description: After reverting the suspect changes, our metrics indicate service recovery.  The Machines API is now operating normally. We are monitoring for any lingering issues.
+    - ts: "2024-09-13 18:34:30"
+      description: This incident is now resolved.
+      resolved: true

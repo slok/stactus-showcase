@@ -1,0 +1,15 @@
+version: incident/v1
+id: 4v93sclktp70
+name: Possible issues when adding a domain on Cloudflare
+impact: none
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2024-09-09 08:19:46"
+      description: |-
+        Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: a transient error upon attempting to add a domain via Dashboard.
+        Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2024-09-09 09:26:40"
+      description: This incident has been resolved.
+      resolved: true

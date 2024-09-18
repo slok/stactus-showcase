@@ -1,0 +1,23 @@
+version: incident/v1
+id: lfrlwdg67fn8
+name: Incident with Actions
+impact: minor
+systems:
+    - brv1bkgrwx7q
+    - br0l2tvcx85d
+timeline:
+    - ts: "2024-06-11 20:33:20"
+      description: We are investigating reports of degraded performance for Actions and API Requests
+      investigating: true
+    - ts: "2024-06-11 20:34:16"
+      description: Customers may see issues running Actions
+      investigating: true
+    - ts: "2024-06-11 21:16:24"
+      description: Customers may see issues running Actions, we are in the process of applying a mitigation to restore our service.
+      investigating: true
+    - ts: "2024-06-11 21:35:39"
+      description: We've applied a mitigation to unblock running Actions and are seeing an improvement in our service availability.
+      investigating: true
+    - ts: "2024-06-11 21:39:47"
+      description: On June 11th, 2024 between 20:13 UTC and 21:39 UTC, the GitHub Actions service was degraded. A security-related change applied by one of our third-party providers prevented new customers from onboarding to GitHub Actions and caused an average 28% of Actions jobs to fail.<br /><br />We mitigated the incident by working with the third-party provider to revert the change and are working with their engineering team to fully understand the root cause. Additionally, we are improving communication between GitHub and our service providers to reduce the time needed to resolve similar issues in the future.
+      resolved: true

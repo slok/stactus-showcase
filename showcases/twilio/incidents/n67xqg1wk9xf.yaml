@@ -1,0 +1,18 @@
+version: incident/v1
+id: n67xqg1wk9xf
+name: Inbound Call Failures to a Subset of Twilio Phone Numbers in Denmark
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2024-09-14 21:25:20"
+      description: We are observing Inbound Call Failures to a Subset of Twilio Phone Numbers in Denmark. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-14 22:25:21"
+      description: We are continuing to investigate on the Inbound Call Failures to a Subset of Twilio Phone Numbers in Denmark. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-15 00:25:19"
+      description: We have started seeing recovery for inbound calls to a subset of Twilio phone numbers in Denmark. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-09-15 02:21:23"
+      description: The issue affecting inbound calls to a subset of Twilio phone numbers in Denmark has been resolved, and the service is functioning normally at this time.
+      resolved: true

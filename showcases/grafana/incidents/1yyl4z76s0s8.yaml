@@ -1,0 +1,9 @@
+version: incident/v1
+id: 1yyl4z76s0s8
+name: Temporary disruption of service for MultiHTTP and Scripted Synthetic monitoring checks on all regions.
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-18 10:11:52"
+      description: A transient error in our infrastructure caused all public probes to report MultiHTTP and Scripted checks as failures for roughly 5 minutes, from 9:55 UTC to 10:00 UTC. The error has been addressed and all probes should now be operating normally.
+      resolved: true

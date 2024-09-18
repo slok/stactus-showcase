@@ -1,0 +1,14 @@
+version: incident/v1
+id: tspdw14txz0n
+name: Deployment issues in LAX
+impact: minor
+systems:
+    - 4zqk2hwhfmvb
+timeline:
+    - ts: "2024-07-11 13:19:22"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-07-11 13:26:32"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-07-11 13:34:25"
+      description: This incident has been resolved.
+      resolved: true

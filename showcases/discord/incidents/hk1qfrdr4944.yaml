@@ -1,0 +1,14 @@
+version: incident/v1
+id: hk1qfrdr4944
+name: Issues with deleting guilds
+impact: major
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-03-28 11:54:31"
+      description: We've identified an issue with guild deletions. We've identified the issue and are currently working on getting a fix out
+    - ts: "2024-03-28 12:53:21"
+      description: A fix has been rolled out to our API and we're monitoring to ensure resolution
+    - ts: "2024-03-28 13:08:42"
+      description: We've confirmed that this issue has been resolved.
+      resolved: true

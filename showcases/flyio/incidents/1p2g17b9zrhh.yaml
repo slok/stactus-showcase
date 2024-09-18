@@ -1,0 +1,13 @@
+version: incident/v1
+id: 1p2g17b9zrhh
+name: IPv6 connectivity in EZE
+impact: minor
+systems:
+    - gjyfpty295z6
+timeline:
+    - ts: "2024-09-13 04:54:49"
+      description: Machines deployed in EZE have lost IPv6 connectivity due to an upstream issue. We are actively working with our upstream provider to get this resolved.
+      investigating: true
+    - ts: "2024-09-13 04:58:56"
+      description: This incident has been resolved.
+      resolved: true

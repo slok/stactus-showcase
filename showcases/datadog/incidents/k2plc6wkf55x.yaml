@@ -1,0 +1,32 @@
+version: incident/v1
+id: k2plc6wkf55x
+name: Delayed Monitors Notifications
+impact: critical
+systems:
+    - p4hwj4wsc5wf
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2024-07-05 11:00:34"
+      description: We are investigating delays in Monitors Notifications, which began at 14:40 UTC.
+      investigating: true
+    - ts: "2024-07-05 11:11:58"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-07-05 11:23:41"
+      description: We are investigating issues in metrics processing, leading to impact on monitors evaluation, dashboards as well as other products.
+      investigating: true
+    - ts: "2024-07-05 11:46:54"
+      description: We are seeing improvements on metrics processing. Distribution metrics remain delayed and associated monitors evaluation are currently skipped.
+      investigating: true
+    - ts: "2024-07-05 12:10:22"
+      description: We are seeing continuing improvements. Distribution metrics remain delayed and associated monitors evaluation are currently skipped.
+    - ts: "2024-07-05 12:11:27"
+      description: We are seeing continuing improvements. Distribution metrics remain delayed and associated monitors evaluation are currently skipped.
+    - ts: "2024-07-05 12:57:20"
+      description: We are seeing continuing improvements and recovering as quickly as possible while maintaining system stability. Distribution metrics remain delayed and associated monitors evaluation are currently skipped. Point metrics and associated monitors are fully recovered.
+    - ts: "2024-07-05 13:14:38"
+      description: We are finalizing our recovery and at this time expect customers should see no further impact. We will continue to monitor for issues.
+    - ts: "2024-07-05 14:20:59"
+      description: This incident has been resolved.
+      resolved: true

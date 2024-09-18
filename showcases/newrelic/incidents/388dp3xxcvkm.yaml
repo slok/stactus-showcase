@@ -1,0 +1,14 @@
+version: incident/v1
+id: 388dp3xxcvkm
+name: Data Ingest US Region
+impact: none
+systems: []
+timeline:
+    - ts: "2023-08-11 11:09:18"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-08-11 11:38:17"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-08-11 11:48:48"
+      description: Between 10:29 UTC and 11:30 UTC on August 11th, 2023, some customers in the US region may have experienced 503 errors when sending data to New Relic. We resolved an issue with data ingest and impacted services have returned to normal operation. Alert notifications during these times may be missing or delayed.
+      resolved: true

@@ -1,0 +1,15 @@
+version: incident/v1
+id: gzrrpw23fmcs
+name: Elevated API Errors
+impact: none
+systems:
+    - srxrnrly7lqz
+timeline:
+    - ts: "2020-08-25 13:12:03"
+      description: We're experiencing an elevated level of API errors and are currently looking into the issue.
+      investigating: true
+    - ts: "2020-08-25 15:40:19"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2020-08-25 15:42:27"
+      description: This incident has been resolved.
+      resolved: true

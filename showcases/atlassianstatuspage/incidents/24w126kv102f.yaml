@@ -1,0 +1,16 @@
+version: incident/v1
+id: 24w126kv102f
+name: Increased error rate while SMS Subscription signups
+impact: major
+systems:
+    - hdj6sbn26g26
+timeline:
+    - ts: "2023-04-06 08:52:48"
+      description: We are currently investigating the issue.
+      investigating: true
+    - ts: "2023-04-06 11:24:11"
+      description: Issue seems intermittent and we are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-04-06 12:17:02"
+      description: This incident is resolved.
+      resolved: true

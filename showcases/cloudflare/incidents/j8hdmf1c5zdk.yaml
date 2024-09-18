@@ -1,0 +1,23 @@
+version: incident/v1
+id: j8hdmf1c5zdk
+name: Cloudflare R2 - Event Notifications experiencing issues
+impact: minor
+systems:
+    - 5xvn0m7tthlf
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2024-08-30 14:20:30"
+      description: |-
+        Cloudflare is investigating issues with the Cloudflare R2 Event Notifications.
+
+        Impact is restricted to the notification functionality and it does not affect any connectivity, security, CDN or Area1 functionality.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2024-08-30 14:49:38"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-08-30 15:36:03"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-08-30 15:52:25"
+      description: This incident has been resolved.
+      resolved: true

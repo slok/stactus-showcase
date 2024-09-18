@@ -1,0 +1,15 @@
+version: incident/v1
+id: ft0c9v3x028q
+name: HCP Vault cluster availability degradation in Azure Central US
+impact: major
+systems:
+    - 0gzbx9wshf0l
+timeline:
+    - ts: "2024-04-23 21:33:18"
+      description: |-
+        Our engineering team is investigating an availability outage affecting some HCP Vault clusters in the Azure Central US region. We have identified a corresponding Azure Central US region incident as the cause and we are working towards a resolution.
+
+        Once we have additional information, we will share another update.
+    - ts: "2024-04-24 13:28:24"
+      description: "Our Engineering team has resolved the following issue: \n\nAn availability outage affecting some HCP Vault clusters in the Azure Central US region\n\nThese systems should now be operating normally. If you continue to experience any problems, please open a ticket with our support team."
+      resolved: true

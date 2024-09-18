@@ -1,0 +1,14 @@
+version: incident/v1
+id: tn1qrn5xvlf6
+name: Network connectivity issues in ‘gig’
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-04 07:25:02"
+      description: We are currently investigating network connectivity issues in the ‘gig’ region. Access to apps hosted there may be affected.
+      investigating: true
+    - ts: "2024-09-04 07:49:45"
+      description: Connectivity has been restored and we’re monitoring the situation
+    - ts: "2024-09-04 09:32:54"
+      description: This incident has been resolved.
+      resolved: true

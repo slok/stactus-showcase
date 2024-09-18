@@ -1,0 +1,15 @@
+version: incident/v1
+id: 549912mn685f
+name: Intermittent deployment failures
+impact: minor
+systems:
+    - 49yq6v65b33l
+timeline:
+    - ts: "2024-07-26 07:05:59"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-07-26 07:26:54"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-07-26 07:39:13"
+      description: This incident has been resolved.
+      resolved: true

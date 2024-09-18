@@ -1,0 +1,14 @@
+version: incident/v1
+id: 43jdylcz5rl1
+name: Delays in Mobile data for US customers
+impact: minor
+systems:
+    - 6x8hq64xfvwl
+timeline:
+    - ts: "2023-07-05 02:24:52"
+      description: We have identified and are working to resolve delays for a small percentage of customer's Mobile crash data visibility for accounts in the US region.
+    - ts: "2023-07-05 02:57:39"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-07-05 03:40:04"
+      description: "Between 1:22 UTC and 3:39 UTC on July 5, some customers in the US region may have experienced a lag in Mobile crash data visibility.\n\n \n\nWe have investigated and resolved this service interruption and impacted services have returned to normal operations."
+      resolved: true

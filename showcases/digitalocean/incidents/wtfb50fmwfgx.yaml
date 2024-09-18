@@ -1,0 +1,79 @@
+version: incident/v1
+id: wtfb50fmwfgx
+name: Control Plane for Multiple Services
+impact: none
+systems:
+    - z2cshz8pdgwj
+    - txysr8r0gn1n
+    - 558h1l1q0c2w
+    - 66wjtpd8ngvx
+    - msbt8b9p1p0q
+    - xbsdwfbb4xx0
+    - q332gmv27njg
+    - y8xkcw7m31k5
+    - 9q2dq7jc5bk9
+    - k3lz9cdfxr5h
+    - tz43j53blsmy
+    - ttltt91ldz3g
+    - czck17wcspr5
+    - 5wjrpc0lf1qc
+    - 76vqxw3xnwh9
+    - l8lxzfpgpc39
+    - w4m98sdz3szn
+    - kkg2cfkqkwj1
+    - 2tfqdy27151t
+    - lf2rrgctn54t
+    - 79j9sw2l27cv
+    - btv040v4xbdn
+    - dthxlw365zmm
+    - rf1h8gfz4ts6
+    - d2m7jh32j7z1
+    - fb63qt9f69m0
+    - 2vpzq3ytx996
+    - bpchszdrvvc5
+    - vzxxv27h45m4
+    - 9czvz44l7dp3
+    - 12w0d51pyjvh
+    - gt78t0v1dx9k
+    - b44h3yhj3jy5
+    - mrdxgk8b9l9m
+    - x94k17yvyvj7
+    - qkrqphz8r8d0
+    - 2cvhn89gxfk8
+    - 40f2th6p044g
+    - 86hpqb7crkzg
+    - 29xvj6jck5fm
+    - d28g0q5tjlnf
+    - qpfd9tcp5dp7
+    - 2zv8zdysz98p
+    - 9mrvzmdgkksr
+    - y24751gr0df8
+    - kvrtqsmcph72
+    - k0svklf2hmb4
+    - 5v01jvb2gwjz
+    - fp3yv6vdqkxt
+    - xmjmwjbpgls5
+    - h4ktbyxsxssg
+    - 3k1h85kh76zy
+timeline:
+    - ts: "2024-07-02 21:09:45"
+      description: |-
+        Our Engineering team identified and resolved an issue impacting multiple services, in multiple regions.
+
+        From 19:53 - 20:22 UTC, users may have experienced errors with the following operations, for all regions:
+        Droplet creates with a root password
+        Droplet root password resets
+        Droplet Snapshots
+        MongoDB cluster creates
+        Let’sEncrypt certificate creation (for Load Balancers and Spaces)
+        LoadBalancer creation with certificates
+        Spaces bucket and key creations
+        Fetching CSV invoices
+        Bulk actions in the Spaces UI
+
+        Additionally, users could have seen latency while creating and updating Apps.
+
+        Our Engineering team quickly identified the root cause of the incident to be an incorrect firewall policy applied to core infrastructure and rolled back the change.
+
+        We apologize for the disruption. If you continue to experience any issues, please open a Support ticket from within your account.
+      resolved: true

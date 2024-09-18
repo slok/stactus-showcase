@@ -1,0 +1,37 @@
+version: incident/v1
+id: fndmy1th4yry
+name: UniFi Remote Access Outage
+impact: minor
+systems:
+    - f4txj806xph9
+    - 50j8z65sq9pt
+timeline:
+    - ts: "2020-12-19 10:46:49"
+      description: |-
+        An incident has been identified with UniFi remote access where a small amount of users may be unable to see an accurate representation of the device state and are unable to connect when utilizing the mobile applications or unifi.ui.com.
+        Local access to devices is unaffected.
+        Our teams are investigating the issue and will provide periodic updates on status.ui.com. We apologize for any inconvenience and are working to restore service as quickly as possible.
+    - ts: "2020-12-19 11:41:21"
+      description: |-
+        Our teams are working to resolve the incident with UniFi remote access where some users may be unable to see an accurate representation of the device state and connect to devices when using mobile applications or unifi.ui.com.
+
+        Local access to devices is unaffected.
+
+        If you are experiencing issues with device access, please try one of the following workarounds:
+        * switch to grid view on unifi.ui.com, right click on the device that is offline and select "open link in new tab"
+        * temporarily change the device name
+        * reboot the device
+
+        Our teams are investigating the issue and working to restore the service as soon as possible.
+    - ts: "2020-12-19 14:40:24"
+      description: |-
+        Our teams have implemented a fix and are monitoring results for incident with UniFi remote access where some users may be unable to see an accurate representation of the device state and connect to devices when using mobile applications or unifi.ui.com.
+        Local access to devices is unaffected.
+
+        If you are experiencing issues with device access, please try one of the following workarounds:
+        * switch to grid view on unifi.ui.com, right click on the device that is offline and select "open link in new tab"
+        * temporarily change the device name
+        * reboot the device
+    - ts: "2020-12-19 15:12:58"
+      description: Service has been restored to UniFi remote access. We apologize for the inconvenience.
+      resolved: true

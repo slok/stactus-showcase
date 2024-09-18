@@ -1,0 +1,21 @@
+version: incident/v1
+id: f116htkkp7hn
+name: Elevated 499 and 5XX Error Rates
+impact: major
+systems:
+    - 5wnz34mhfhrk
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2024-09-16 04:37:24"
+      description: |-
+        Cloudflare is investigating an increased level of HTTP 5XX/499 errors rates. Additionally, some customers may have experienced network performance and connectivity issues in multiple locations.
+
+        We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2024-09-16 05:04:19"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-16 06:26:53"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-16 09:55:26"
+      description: This incident has been resolved.
+      resolved: true

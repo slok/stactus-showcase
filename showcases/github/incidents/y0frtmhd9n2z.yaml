@@ -1,0 +1,19 @@
+version: incident/v1
+id: y0frtmhd9n2z
+name: Incident with Codespaces
+impact: minor
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2024-06-27 23:34:48"
+      description: We are investigating reports of degraded performance for Codespaces
+      investigating: true
+    - ts: "2024-06-27 23:34:54"
+      description: A subset of customers are currently experiencing issues creating and resuming Codespaces in the West US region.
+      investigating: true
+    - ts: "2024-06-27 23:43:11"
+      description: We have identified a root cause for Codespaces issue in the West US region and are rolling out a fix.
+      investigating: true
+    - ts: "2024-06-27 23:44:21"
+      description: On June 27th, 2024, between 22:38 UTC and 23:44 UTC some Codespaces customers in the West US region were unable to create and/or resume their Codespaces. This was due to a configuration change that affected customers with a large number of Codespace secrets defined.<br /><br />We mitigated the incident by reverting the change.<br /><br />We are working to improve monitoring and testing processes to reduce our time to detection and mitigation of issues like this one in the future.
+      resolved: true

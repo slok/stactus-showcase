@@ -1,0 +1,17 @@
+version: incident/v1
+id: k2rgjh56bddy
+name: Service Disruption
+impact: minor
+systems:
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2023-09-25 12:46:48"
+      description: We are currently investigating an issue where users may have issues loading Figma or saving files
+      investigating: true
+    - ts: "2023-09-25 14:21:39"
+      description: The issue has been identified and we're working on a fix.
+    - ts: "2023-09-25 14:51:39"
+      description: A fix has been implemented and we're monitoring the result.
+    - ts: "2023-09-25 15:29:28"
+      description: This incident has been resolved
+      resolved: true

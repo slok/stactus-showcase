@@ -1,0 +1,14 @@
+version: incident/v1
+id: 6dllngpt62xv
+name: SLS not working in Safari
+impact: major
+systems: []
+timeline:
+    - ts: "2024-09-01 17:10:52"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-09-01 20:55:44"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-04 10:15:10"
+      description: We have released version 8.10.44 which includes a fix to address SLS not working in Safari.  This incident has been resolved.
+      resolved: true

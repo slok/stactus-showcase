@@ -1,0 +1,14 @@
+version: incident/v1
+id: 4smkkp3fp2tm
+name: ads.reddit.com degraded for some users
+impact: none
+systems:
+    - 2kyn2wrh7xdk
+timeline:
+    - ts: "2024-04-25 09:02:48"
+      description: We have found a cause, and are currenting remediating the situation. Expected duration, 30 mins.
+    - ts: "2024-04-25 09:06:18"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-04-25 09:38:56"
+      description: This incident has been resolved.
+      resolved: true

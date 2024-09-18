@@ -1,0 +1,9 @@
+version: incident/v1
+id: tpwyk5ddq13n
+name: Server errors from the Manage Portal
+impact: none
+systems: []
+timeline:
+    - ts: "2022-01-10 17:04:59"
+      description: Between 5:20 to 5:24 AM PST, a slow performing API query resulted in an elevated number of 500 errors on the manage portal. The root cause of the degraded performance has been identified and a fix has been deployed. The manage portal is now operating normally.
+      resolved: true

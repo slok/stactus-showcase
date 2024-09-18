@@ -1,0 +1,33 @@
+version: incident/v1
+id: p7d4dxqbc95w
+name: Connectivity issues in IAD and ORD
+impact: major
+systems:
+    - 80ykv2p95qgy
+    - 49yq6v65b33l
+    - k2zhkw7wryv2
+    - kqq3npxl7rcq
+    - qyh8qlklk7mx
+    - h9pwlnm1f75j
+    - vfq82tp9wp5r
+timeline:
+    - ts: "2024-07-16 11:29:11"
+      description: We're aware of connectivity issues between IAD and ORD and are investigating whether this is affecting other regions.
+      investigating: true
+    - ts: "2024-07-16 11:31:11"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-07-16 11:51:39"
+      description: We're seeing unidirectional connectivity issues from IAD to ORD and also from IAD to a metrics host, which is affecting metrics for Machines in IAD.
+      investigating: true
+    - ts: "2024-07-16 12:10:15"
+      description: The connectivity issue is causing degraded performance for deployments, our API, and our registry.
+      investigating: true
+    - ts: "2024-07-16 14:20:41"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-07-16 14:46:58"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-07-16 16:34:32"
+      description: This incident has been resolved.
+      resolved: true

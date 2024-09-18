@@ -1,0 +1,19 @@
+version: incident/v1
+id: 7qcvfvfmy7cy
+name: Account Security API Errors over EE Network in UK
+impact: minor
+systems:
+    - trrz5ztt7pl8
+    - fsxs9n9yf4m7
+    - q0hp6vfr4vvh
+    - qt4vzyg2g7b4
+timeline:
+    - ts: "2024-09-17 16:11:51"
+      description: Our monitoring systems have detected a potential issue with Security API over EE network in the UK. Our engineering team has been alerted and is actively investigating. We will update in 1 hour or as soon as we have more information.
+      investigating: true
+    - ts: "2024-09-17 17:10:59"
+      description: We are continuing to investigate intermittent errors with Security API over EE network in the UK. Our engineering team has been alerted and is actively investigating. We will update in 1 hour or as soon as we have more information.
+      investigating: true
+    - ts: "2024-09-17 19:24:45"
+      description: The issue affecting intermittent errors with Security API over EE network in the UK has been resolved, and the service is functioning normally at this time.
+      resolved: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: 37x65rk2fp6m
+name: Lookup API Returning Inconsistent Results
+impact: none
+systems:
+    - xk8z50jy8hcs
+timeline:
+    - ts: "2024-09-17 10:00:59"
+      description: Our engineers are currently investigating the customer impact of a retroactive issue with Lookup. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2024-09-17 11:06:05"
+      description: Twilio Lookup API was degraded for 47 days between June 8th 12:00 PM and July 25th 1:50 AM Pacific Time. During this period of time, customers may have experienced issues retrieving information in around 0.1% of API calls. The issue has now been resolved.
+      resolved: true

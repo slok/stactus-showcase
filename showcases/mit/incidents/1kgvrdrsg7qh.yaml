@@ -1,0 +1,17 @@
+version: incident/v1
+id: 1kgvrdrsg7qh
+name: ServiceNow service interruption
+impact: none
+systems: []
+timeline:
+    - ts: "2024-08-15 14:54:05"
+      description: |-
+        IS&T has received reports that some community members cannot log in to the ServiceNow platform. We have confirmed that this service interruption is impacting multiple ServiceNow customers.
+
+        We are closely following the event and will provide updates as they become available.
+      investigating: true
+    - ts: "2024-08-15 16:35:39"
+      description: ServiceNow service has been restored. IS&T will continue to monitor the situation.
+    - ts: "2024-08-16 08:02:20"
+      description: This incident has been resolved.
+      resolved: true

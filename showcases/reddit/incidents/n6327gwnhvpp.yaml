@@ -1,0 +1,17 @@
+version: incident/v1
+id: n6327gwnhvpp
+name: Increased Errors and Slowness
+impact: minor
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2023-07-25 14:23:10"
+      description: We're investigating an issue where users are experiencing periodic issues loading Reddit.
+      investigating: true
+    - ts: "2023-07-25 14:42:06"
+      description: Things have settled down. We're confident we understand what happened and have mitigated the issue, but will monitor for a brief period before resolving this incident.
+    - ts: "2023-07-25 15:09:36"
+      description: This incident has been resolved.
+      resolved: true

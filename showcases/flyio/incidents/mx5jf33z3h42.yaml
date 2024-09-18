@@ -1,0 +1,25 @@
+version: incident/v1
+id: mx5jf33z3h42
+name: Elevated 502 Errors
+impact: minor
+systems:
+    - 66r6rhq3hn9n
+    - 80ykv2p95qgy
+    - k2zhkw7wryv2
+    - 8fj04n9b4v6c
+    - ws3nmzf32kyd
+timeline:
+    - ts: "2024-06-27 17:09:03"
+      description: We are currently investigating elevated rates of 502 errors when accessing applications hosted on Fly.io, including the Fly.io homepage, dashboard, and fly-metrics pages.
+      investigating: true
+    - ts: "2024-06-27 17:41:44"
+      description: We have identified the cause of the issue and are working on a fix.
+    - ts: "2024-06-27 17:46:52"
+      description: A fix has been deployed and The Fly.io homepage, dashboard, API and metrics pages are back online and operational. A small number of customer apps may still be seeing elevated 502 errors. We are working to address this currently.
+    - ts: "2024-06-27 18:06:33"
+      description: A full fix has been implemented and we continue to monitor platform status. Impacted customer apps should be operational shortly, if they are not already.
+    - ts: "2024-06-27 19:50:40"
+      description: A small number of customer apps may still be seeing 502 errors due to stale state information. We are working to address this. For any apps still experiencing the error, re-deploying with `fly deploy` will correct the state information and resolve the errors.
+    - ts: "2024-06-27 21:22:35"
+      description: "This incident has been resolved. \n\nSome of our edges received incorrect state data for a small number of apps that used the bluegreen deploy strategy. This resulted in 502 errors when attempting to reach those apps. We identified approximately 36 apps that were impacted, including the Fly.io homepage and dashboard."
+      resolved: true

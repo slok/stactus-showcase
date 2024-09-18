@@ -1,0 +1,15 @@
+version: incident/v1
+id: kh8kdm31vm5p
+name: Elevated Errors loading Comments
+impact: major
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2023-11-29 15:23:46"
+      description: We're experiencing an elevated level of errors loading comments and are currently looking into the issue.
+      investigating: true
+    - ts: "2023-11-29 18:55:03"
+      description: This incident has been resolved.
+      resolved: true

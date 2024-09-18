@@ -1,0 +1,25 @@
+version: incident/v1
+id: 4dq0ww5d0q7j
+name: Incident with Git Operations
+impact: minor
+systems:
+    - 8l4ygp009s5s
+timeline:
+    - ts: "2024-07-01 22:59:52"
+      description: We are investigating reports of degraded performance for Git Operations
+      investigating: true
+    - ts: "2024-07-01 23:32:21"
+      description: We're investigating reports of intermittent timeouts and connection errors for git clone operations.
+      investigating: true
+    - ts: "2024-07-02 00:15:26"
+      description: We are investigating intermittent network connection issues. These issues appear to be limited to customers hosted on AWS that are connecting to GitHub's network.
+      investigating: true
+    - ts: "2024-07-02 00:52:54"
+      description: We are investigating connection issues with one of our network links. We are working to reroute traffic.
+      investigating: true
+    - ts: "2024-07-02 01:14:18"
+      description: As a result of rerouting traffic, we have seen overall network link health return to normal.
+      investigating: true
+    - ts: "2024-07-02 01:14:44"
+      description: At approximately 19:20 UTC on July 1st, 2024, one of GitHub’s peering links to a public cloud provider began experiencing 5 - 20% packet loss. This resulted in intermittent network timeouts running Git operations for customers who run their own environments with that specific provider.<br /><br />Investigation pointed to an issue with the physical link. At 01:14 UTC we rerouted traffic away from the problematic link to other connections to resolve the incident. <br />
+      resolved: true

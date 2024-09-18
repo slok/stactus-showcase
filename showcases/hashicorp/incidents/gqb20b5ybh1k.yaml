@@ -1,0 +1,26 @@
+version: incident/v1
+id: gqb20b5ybh1k
+name: Viewing HCP billing information may be impacted
+impact: minor
+systems:
+    - mgv1p2j9x444
+timeline:
+    - ts: "2024-04-05 17:56:48"
+      description: |-
+        Our engineering team is investigating an issue affecting customer's abilities to view their billing information in the portal.
+
+        During this time, users may see an error message indicating that they can't view their most recent billing usage, and may be unable to perform other billing related tasks.
+
+        We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-04-05 18:07:45"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue with viewing billing information in the portal.
+
+        We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-04-05 19:32:41"
+      description: |-
+        Our Engineering team has resolved the issue affecting user's ability to view their billing information in the portal.
+
+        These systems should now be operating normally. If you continue to experience any problems, please open a ticket with our support team.
+      resolved: true

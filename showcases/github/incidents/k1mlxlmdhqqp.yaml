@@ -1,0 +1,21 @@
+version: incident/v1
+id: k1mlxlmdhqqp
+name: We are investigating degraded performance for GitHub Enterprise Importer migrations
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-06-18 17:14:49"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-06-18 17:15:06"
+      description: We are investigating degraded performance for GitHub Enterprise Importer migrations. Some customers may see an increase in failed migrations. Investigation is ongoing.
+      investigating: true
+    - ts: "2024-06-18 17:48:53"
+      description: We have identified what we believe to be the source of the migration errors and are applying a mitigation, which we expect will begin improving migration success rate.
+      investigating: true
+    - ts: "2024-06-18 18:04:15"
+      description: We have applied a configuration change to our migration service as a mitigation and are beginning to see recovery and in increase in successful migration runs. We are continuing to monitor.
+      investigating: true
+    - ts: "2024-06-18 18:09:43"
+      description: Starting on June 18th from 4:59pm UTC to 6:06pm UTC, customer migrations were unavailable and failing. This impacted all in-progress migration during that time. This issue was due to an incorrect configuration on our Database cluster. We mitigated the issue by remediating the database configuration and are working with stakeholders to ensure safeguards are in place to prevent the issue going forward.
+      resolved: true

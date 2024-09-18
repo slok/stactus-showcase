@@ -1,0 +1,19 @@
+version: incident/v1
+id: qg86chss85f8
+name: Issue starting sessions, loading guilds
+impact: minor
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-03-05 07:53:16"
+      description: We are investigating this issue
+      investigating: true
+    - ts: "2024-03-05 08:07:34"
+      description: We have identified the internal rate-limit and are temporarily bypassing it to allow pending sessions to start
+    - ts: "2024-03-05 08:18:01"
+      description: We are scaling up an internal service which is delaying the loading of guilds. Session starting should no longer be impacted, but you may see some unavailable guilds while we process the influx of guild load requests.
+    - ts: "2024-03-05 08:22:18"
+      description: We are hands off and are monitoring the recovery of multiple systems
+    - ts: "2024-03-05 08:27:40"
+      description: "This incident has been resolved. \n\nWe are reviewing the updated rate limiting that triggered the initial session start issues, as well as the scaling targets for the internal service which limited guild loading during initial recovery."
+      resolved: true

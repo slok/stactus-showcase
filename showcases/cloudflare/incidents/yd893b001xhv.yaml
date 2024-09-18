@@ -1,0 +1,17 @@
+version: incident/v1
+id: yd893b001xhv
+name: Cloudflare Images Errors
+impact: minor
+systems:
+    - 3lbj8lp3d750
+timeline:
+    - ts: "2024-09-11 00:16:12"
+      description: We are investigating reports of errors being returned when attempting to view images in Cloudflare Images via Cloudflare Dashboard or serving Cloudflare hosted images.
+      investigating: true
+    - ts: "2024-09-11 02:19:38"
+      description: Team has identified the issue with loading images using the Dashboard and is working on a fix. Delivery of images outside of the Dashboard are not impacted.
+    - ts: "2024-09-11 03:27:30"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-11 04:06:27"
+      description: This incident has been resolved.
+      resolved: true

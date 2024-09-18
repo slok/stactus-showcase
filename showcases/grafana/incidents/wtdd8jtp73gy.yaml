@@ -1,0 +1,33 @@
+version: incident/v1
+id: wtdd8jtp73gy
+name: 'Synthetic Monitoring: New York probe service degradation'
+impact: minor
+systems:
+    - gqmrtkv44snw
+    - w2sv65flwjyg
+    - vdp8ff0sncsj
+    - 72cbdqh1qfxk
+    - 1dqyw0njnkxv
+    - 6xm6mc51pr03
+    - sq2b0zbgtbwn
+    - r5nqbrqbw0k2
+    - wlk38l1st21f
+    - pz96v0pznswg
+    - gsb4scg45ndq
+    - dcwlkh9jb6xh
+    - 43fvknltd9m1
+    - b6vy9syblc9x
+    - dpny9b8qb952
+    - czpt94dvn18t
+    - 191t9x68nj8s
+    - fh680ftdss7w
+    - tcskx9mfsz1c
+    - 7p6gpdprypb9
+timeline:
+    - ts: "2024-08-26 09:06:12"
+      description: Due to the Digital Ocean incident (https://status.digitalocean.com/incidents/j0jfct8j8ldv) that is affecting our New York probe, users are currently not able to add new checks for the New York region and some existing checks may intermittently fail in the New York region.
+    - ts: "2024-08-26 09:35:43"
+      description: We're seeing signs of service recovery but we're still actively monitoring this probe as Digital Ocean keeps investigating issues on their side.
+    - ts: "2024-08-26 10:44:29"
+      description: This incident has been resolved.
+      resolved: true

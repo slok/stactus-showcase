@@ -1,0 +1,15 @@
+version: incident/v1
+id: ctdxb961c6wy
+name: Terraform Cloud degradation
+impact: minor
+systems:
+    - 7cgbxrw10wgr
+timeline:
+    - ts: "2024-02-22 14:52:39"
+      description: We are currently investigating an issue in Terraform Cloud where some runs are being queued up and processed slowly.
+      investigating: true
+    - ts: "2024-02-22 15:05:18"
+      description: The issue has been identified, a fix has been implemented, and we are monitoring the results.
+    - ts: "2024-02-22 15:36:41"
+      description: This incident has been resolved.
+      resolved: true

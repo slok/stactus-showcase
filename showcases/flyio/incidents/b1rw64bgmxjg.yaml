@@ -1,0 +1,15 @@
+version: incident/v1
+id: b1rw64bgmxjg
+name: Packet loss, Machines API and deployment errors in Singapore
+impact: none
+systems:
+    - b97pv9yxbzv7
+timeline:
+    - ts: "2024-06-13 16:26:40"
+      description: We're investigating reports of deployment failures and machines API timeouts in the `sin` region, as well as elevated packet loss which might impact deployed applications.
+      investigating: true
+    - ts: "2024-06-13 16:52:10"
+      description: We have updated regional routing configuration to circumvent network faults experienced by some of our upstream providers and are continuing to monitor.
+    - ts: "2024-06-13 18:18:50"
+      description: Network metrics in SIN have returned to baseline following routing configuration updates. The issues were caused by network faults experienced by some of our upstream providers.
+      resolved: true

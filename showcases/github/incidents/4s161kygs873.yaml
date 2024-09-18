@@ -1,0 +1,18 @@
+version: incident/v1
+id: 4s161kygs873
+name: Disruption with GitHub Copilot Chat
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-07-23 21:40:28"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-07-23 21:52:34"
+      description: We are seeing failures for the Copilot Chat for users in some regions. We are seeing about 20% of Copilot Chat requests fail.
+      investigating: true
+    - ts: "2024-07-23 22:25:08"
+      description: We have mitigated the issue with Copilot Chat returning failures in some regions. Functionality has recovered for all Copilot Chat users.<br />
+      investigating: true
+    - ts: "2024-07-23 22:38:34"
+      description: On July 23, 2024, between 21:40 UTC and 22:00 UTC, Copilot Chat experienced errors and service degradation. During this time, the global error rate peaked at 20% of Chat requests.<br /><br />This was due to a faulty deployment in a service provider that caused server errors from a single region. Traffic was routed away from this region at 22:00 UTC which restored functionality while the upstream service provider rolled back their change. The rollback was completed at 22:38 UTC.<br /><br />We are working to improve our ability to respond more quickly to similar issues through faster regional redirection and working with our upstream provider on improved monitoring.<br />
+      resolved: true

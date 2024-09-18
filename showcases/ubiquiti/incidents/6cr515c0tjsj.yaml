@@ -1,0 +1,20 @@
+version: incident/v1
+id: 6cr515c0tjsj
+name: UniFi Remote Access Outage
+impact: major
+systems:
+    - f4txj806xph9
+    - 50j8z65sq9pt
+timeline:
+    - ts: "2021-01-14 16:08:55"
+      description: |-
+        An incident has been identified with UniFi remote access, causing connection issues for some users trying to access their controllers via unifi.ui.com or from their mobile applications.
+        Local access to devices is unaffected.
+        Our teams are investigating the issue and will provide periodic updates on status.ui.com. We apologize for any inconvenience and are working to restore service as quickly as possible.
+    - ts: "2021-01-14 18:48:01"
+      description: |-
+        Our teams have implemented a fix and are monitoring results for the incident with UniFi remote access where some users may be unable to connect to devices when using mobile applications or unifi.ui.com.
+        Local access to devices is unaffected.
+    - ts: "2021-01-14 20:43:49"
+      description: Service has been restored to UniFi remote access. We apologize for the inconvenience.
+      resolved: true

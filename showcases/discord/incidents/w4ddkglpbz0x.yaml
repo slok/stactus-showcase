@@ -1,0 +1,19 @@
+version: incident/v1
+id: w4ddkglpbz0x
+name: Elevated Users and Bots Disconnections
+impact: none
+systems:
+    - x7rnz0t7dpnp
+timeline:
+    - ts: "2024-03-01 13:32:49"
+      description: |-
+        We have identified an issue causing some users and bots to disconnect and are implementing a fix.
+        Affected users and bots can reconnect with a fresh IDENTIFY.
+      investigating: true
+    - ts: "2024-03-01 13:32:56"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-03-01 14:10:17"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-03-01 14:30:29"
+      description: Service is operating as expected at this time.
+      resolved: true

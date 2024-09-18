@@ -1,0 +1,21 @@
+version: incident/v1
+id: 24714nw9b7jt
+name: Droplet Rebuild and Restore Event Processing
+impact: minor
+systems:
+    - 558h1l1q0c2w
+timeline:
+    - ts: "2024-08-06 19:19:03"
+      description: "Our Engineering team is investigating an issue with processing of rebuild and restore events for Droplets, in all regions. During this time, users may experience long delays or errors when restoring or rebuilding a Droplet. \n\nWe apologize for the inconvenience and will share an update once we have more information."
+      investigating: true
+    - ts: "2024-08-06 19:57:17"
+      description: |-
+        Our Engineering team identified the root cause and performed a service rollback to resolve the issue that was causing failure in Droplet rebuild and restore events in all regions. We are actively monitoring the situation to ensure stability and will provide an update once the incident has been fully resolved.
+
+        Thank you for your patience and we apologize for the inconvenience.
+    - ts: "2024-08-06 20:40:19"
+      description: |-
+        From 09:52 UTC to 19:32 UTC, customers may have experienced failures with Droplet rebuild and restore events in all regions. Our Engineering team has confirmed full resolution of this issue.
+
+        Thank you for your patience. If you continue to experience any problems, please open a support ticket from within your account.
+      resolved: true

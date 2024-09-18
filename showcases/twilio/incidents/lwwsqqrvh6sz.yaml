@@ -1,0 +1,16 @@
+version: incident/v1
+id: lwwsqqrvh6sz
+name: Inbound SMS Delivery Delays to the Subset of Twilio Phone Numbers and Outbound SMS Delivery Delays to Smart Network in Philippines
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2024-09-18 03:53:44"
+      description: We continue experiencing inbound SMS delivery delay to the subset of Twilio phone numbers and outbound SMS delivery delays when sending messages to Smart Network in the Philippines. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-18 04:53:36"
+      description: We continue experiencing inbound SMS delivery delay to the subset of Twilio phone numbers and outbound SMS delivery delays when sending messages to Smart Network in the Philippines. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-18 06:46:39"
+      description: We continue experiencing inbound SMS delivery delay to the subset of Twilio phone numbers and outbound SMS delivery delays when sending messages to Smart Network in the Philippines. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true

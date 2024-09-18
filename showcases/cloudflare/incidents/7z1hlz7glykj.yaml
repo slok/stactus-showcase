@@ -1,0 +1,14 @@
+version: incident/v1
+id: 7z1hlz7glykj
+name: Cloudflare Dashboard UI Bug
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-12 06:23:01"
+      description: |-
+        Some customers may have encountered an issue where changes made to the OWASP Managed Rulesets are not accurately reflected in the Cloudflare Dashboard User Interface.
+
+        This is a cosmetic issue with the Cloudflare Dashboard, and refreshing the page will reflect the correct value set. The Cloudflare API is not affected.
+
+        This issue is expected to be fixed before 15th September 2024.
+      resolved: true

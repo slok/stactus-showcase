@@ -1,0 +1,23 @@
+version: incident/v1
+id: bcbmw7dyzlst
+name: Networking in SFO2 and SFO3 region
+impact: minor
+systems:
+    - 83tzdysp693h
+    - s9txl6g88v1z
+    - qkrqphz8r8d0
+    - 2cvhn89gxfk8
+    - r59jnkcnpy5w
+    - pkldx6th5q38
+timeline:
+    - ts: "2024-08-15 10:02:29"
+      description: |-
+        As of 08:00 UTC, our Engineering team is currently investigating an issue impacting networking in SFO2 and SFO3 regions. Users may experience network connectivity loss to Droplets and Droplet-based services, like Managed Kubernetes and Database Clusters.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2024-08-15 11:21:20"
+      description: Our Engineering team has identified the cause of the issue with networking in SFO2 and SFO3 regions, and has implemented a fix. We are currently monitoring the situation and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-08-15 11:48:47"
+      description: As of 10:45 UTC, our engineering team has resolved the issue with networking in SFO2 and SFO3 regions, and networking in the regions should now be operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true

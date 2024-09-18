@@ -1,0 +1,70 @@
+version: incident/v1
+id: 5sscvdfgw6m1
+name: Administrative tasks against Vault and Consul clusters are degraded
+impact: minor
+systems:
+    - lpr0x22clvpy
+    - qd90lhs11h3t
+    - 75q3wwnszlr7
+    - sl2x510l6l2l
+    - cg6sxxmpwtyy
+    - x54tpcrmrlv4
+    - 4llt6mr48zdf
+    - gngnzl7vq7v9
+    - z0c1m0r15jk0
+    - 57bpn8mmz92p
+    - 71bbcw2ysbv5
+    - trb6p97hq44l
+    - sgzly5m447mt
+    - 3ck06ybbq9rk
+    - mmlrjdnctj09
+    - l19qcn7gwfmh
+    - gg8gjqb42vsy
+    - 2hthcsg7s6n2
+    - h4k95x7cd36k
+    - xmd3rgq35mzz
+    - qnhzxd3vghb9
+    - 67l1stcs3zk1
+    - hm5bfg0b2jlb
+    - ghbwl1z50f7v
+    - 8nlq25qx2x6w
+    - 0gzbx9wshf0l
+    - y1tttb462kn7
+    - 0yw6jtfrrwmq
+    - 8qtxwq5gwzkn
+    - 9dwj52zv6j30
+    - d48d1n3mpcnd
+    - nk3x061s9zyn
+    - fskhmcn1z2yx
+    - d3g7tzfrq2vx
+    - 4p4qw9rlhr5g
+    - tsxl98v56jgm
+    - f0q2p9zds6kg
+    - zdz8wb23kvt8
+    - rvf4jvy09gtn
+    - hsg8y5dwfts8
+    - 5g7xxqgmjwr8
+    - tw1yt17pltxp
+    - hddnf9931cjf
+    - rsmtc2yqpp0f
+timeline:
+    - ts: "2024-02-22 21:45:55"
+      description: "Our engineering team is investigating an issue with the following:\n\nHCP Vault cluster creation and admin token generation is degraded. \n\nDuring this time, users may experience the following:\n\nFailure to create new HCP Vault clusters\nFailure to generate admin tokens\n\nWe will share another update as soon as we have more information."
+      investigating: true
+    - ts: "2024-02-22 22:20:23"
+      description: "Our Engineering team has identified the cause for the following incident: \n\nAdministrative tasks against Vault and Consul clusters are degraded (cluster creation, deletion, generation of admin tokens, snapshot operations, etc).\n\nExisting Vault and Consul clusters will continue to operate without issue.\n\nWe are actively working on a fix. Once we have additional information, we will share another update."
+    - ts: "2024-02-22 23:13:09"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue of degraded administrative tasks against HCP Vault and HCP Consul clusters.
+
+        We are beginning to see recovery and are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-02-22 23:21:41"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2024-02-23 01:27:55"
+      description: |-
+        Our Engineering team has resolve the issues causing degraded administrative actions against HCP Consul and HCP Vault clusters.
+
+        All operations are healthy.
+
+        These systems should now be operating normally. If you continue to experience any problems, please open a ticket with our support team.
+      resolved: true

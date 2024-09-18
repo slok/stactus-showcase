@@ -1,0 +1,15 @@
+version: incident/v1
+id: 0jnz53cz1ztp
+name: A subset of metrics based monitors are not being evaluated
+impact: major
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2023-04-11 14:17:22"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2023-04-11 14:32:39"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2023-04-11 14:42:29"
+      description: This incident has been resolved.
+      resolved: true

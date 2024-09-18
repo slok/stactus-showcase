@@ -1,0 +1,13 @@
+version: incident/v1
+id: 7pv5g1mprtgc
+name: Service disruption
+impact: minor
+systems:
+    - 2wghgbfmnn54
+timeline:
+    - ts: "2023-12-10 04:18:25"
+      description: We experienced a brief disruption due to an underlying AWS issue. The issue has been resolved and we're monitoring the results.
+      investigating: true
+    - ts: "2023-12-10 04:18:33"
+      description: This incident has been resolved.
+      resolved: true

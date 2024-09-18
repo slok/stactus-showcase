@@ -1,0 +1,28 @@
+version: incident/v1
+id: 9zxft4pnrhbt
+name: Incident with Issues
+impact: major
+systems:
+    - kr09ddfgbfsf
+timeline:
+    - ts: "2024-06-05 17:22:49"
+      description: We are investigating reports of degraded availability for Issues
+      investigating: true
+    - ts: "2024-06-05 17:26:13"
+      description: We're seeing issues related to the issues timeline service, we're investigating and we will continue to keep users updated on progress towards mitigation.
+      investigating: true
+    - ts: "2024-06-05 18:01:19"
+      description: We're continuing to investigate the problem.
+      investigating: true
+    - ts: "2024-06-05 18:47:07"
+      description: We continue to troubleshoot the problem with issues timeline.
+      investigating: true
+    - ts: "2024-06-05 19:19:52"
+      description: We continue to troubleshoot the problem with issues timeline.
+      investigating: true
+    - ts: "2024-06-05 19:27:14"
+      description: Issues is operating normally.
+      investigating: true
+    - ts: "2024-06-05 19:27:21"
+      description: On June 5, 2024, between 17:05 UTC and 19:27 UTC, the GitHub Issues service was degraded. During that time, no events related to projects were displayed on issue timelines. These events indicate when an issue was added to or removed from a project and when their status changed within a project. The data couldn’t be loaded due to a misconfiguration of the service backing these events. This happened after a scheduled secret rotation when the wrongly configured service continued using the old secrets which had expired. <br /><br />We mitigated the incident by remediating the service configuration and have started simplifying the configuration to avoid similar misconfigurations in the future.
+      resolved: true

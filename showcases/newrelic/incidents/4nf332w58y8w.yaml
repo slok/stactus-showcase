@@ -1,0 +1,24 @@
+version: incident/v1
+id: 4nf332w58y8w
+name: Data Irregularities in the EU Region
+impact: minor
+systems:
+    - y3p11yl1yr8m
+    - zsjcl7zv5sn2
+    - yqcw0krmvwj5
+    - jk2k3ln898rx
+    - hm4r9fn1gr93
+    - 858xlnc93b96
+    - vdkznxzlr7nn
+    - jdszr85tpvd1
+    - 0ggq3l63l1sh
+    - 15b9hc4j611g
+timeline:
+    - ts: "2023-11-08 05:08:55"
+      description: Some customers in the EU region may experience errors when sending data to New Relic, issues in viewing data in real time, and delayed or missing alert notifications related to real time data.
+    - ts: "2023-11-08 05:13:01"
+      description: |-
+        Between 04:15 UTC and 04:20 UTC on November 8, some customers in the EU region may have experienced errors when sending data to New Relic, issues in viewing data in real time, and delayed or missing alert notifications related to real time data.
+
+        We have investigated and resolved this interruption and the above services have returned to normal operation.
+      resolved: true

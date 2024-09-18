@@ -1,0 +1,18 @@
+version: incident/v1
+id: 3jyzy40p1c3b
+name: AmpliFi Remote Access Connectivity Issues
+impact: critical
+systems:
+    - srxrnrly7lqz
+timeline:
+    - ts: "2023-04-20 17:21:25"
+      description: An issue has been identified where some users may be unable to connect remotely to their devices or use AmpliFi Teleport service. Our teams are investigating the issue and will provide periodic updates on status.ui.com. We apologize for any inconvenience and are working to restore service as quickly as possible.
+      investigating: true
+    - ts: "2023-04-20 17:23:16"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-04-20 18:13:35"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2023-04-20 18:31:09"
+      description: This incident has been resolved.
+      resolved: true

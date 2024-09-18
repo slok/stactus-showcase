@@ -1,0 +1,15 @@
+version: incident/v1
+id: 21mtvd1jkgyf
+name: Platform disruption
+impact: major
+systems:
+    - 15knchzwl5np
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2024-08-07 19:11:05"
+      description: We have identified a bad commit that has disrupted some of our platform operations and are working to roll back quickly.
+    - ts: "2024-08-07 19:34:23"
+      description: A new deploy has been rolled out with an apparent fix; now monitoring.
+    - ts: "2024-08-07 20:45:23"
+      description: This incident has been resolved.
+      resolved: true

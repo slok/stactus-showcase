@@ -1,0 +1,9 @@
+version: incident/v1
+id: v6xfz2k10g6f
+name: API service disruption
+impact: none
+systems: []
+timeline:
+    - ts: "2023-03-12 19:22:17"
+      description: From 4:00AM to 10:45AM PDT, Figma's REST API saw an increase in error rates.
+      resolved: true

@@ -1,0 +1,19 @@
+version: incident/v1
+id: 7r6br9vsyynf
+name: Delayed Infrastructure Updates
+impact: minor
+systems:
+    - qrnng5l7z80l
+timeline:
+    - ts: "2024-01-22 14:04:17"
+      description: |-
+        We are investigating increased latency processing host updates.
+        As a result of this issue, some users may see delays in host activity status updates on the infrastructure list.
+      investigating: true
+    - ts: "2024-01-22 14:46:50"
+      description: |-
+        We have deployed a fix and we are monitoring the results.
+        We will provide another update in 30 minutes once the service is fully operational.
+    - ts: "2024-01-22 15:38:02"
+      description: This incident has been resolved.
+      resolved: true

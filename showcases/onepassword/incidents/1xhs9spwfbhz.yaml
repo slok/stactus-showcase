@@ -1,0 +1,14 @@
+version: incident/v1
+id: 1xhs9spwfbhz
+name: Error launching desktop app on nightly version 8.10.46-21 and higher
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-11 16:58:50"
+      description: |-
+        There is an issue when upgrading from nightly versions 8.10.46-14 through 8.10.46-20 to 8.10.46-21 and higher, leaving the application unable to open and resulting in a "the database is newer version" error. To resolve, make sure you can access all your 1Password data on another device or on 1Password.com before you follow the steps under "To remove your 1Password data":
+
+        Mac: https://support.1password.com/uninstall-1password/#to-remove-your-1password-data-mac
+        Windows: https://support.1password.com/uninstall-1password/#to-remove-your-1password-data-windows
+
+        Please reach out to support@1Password.com if you do not have another trusted device where you are signed in.

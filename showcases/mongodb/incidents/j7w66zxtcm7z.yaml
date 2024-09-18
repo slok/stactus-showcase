@@ -1,0 +1,9 @@
+version: incident/v1
+id: j7w66zxtcm7z
+name: Increased error rate in App Services Functions using deprecated 3rd Party Services
+impact: none
+systems: []
+timeline:
+    - ts: "2024-02-22 19:09:06"
+      description: Users accessing 3rd Party Services in App Services Functions between 2:00PM EST and 4:30PM EST in Mumbai, APAC, and Europe regions may have experienced a higher rate of errors. The cause of the issue has been identified and resolved.
+      resolved: true

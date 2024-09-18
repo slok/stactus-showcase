@@ -1,0 +1,17 @@
+version: incident/v1
+id: vskgrpncgy34
+name: Service degradation with Zoom for Outlook Extension
+impact: minor
+systems:
+    - 08fp2rr1spx0
+timeline:
+    - ts: "2024-07-30 07:08:59"
+      description: Our monitoring has detected service degradation with Zoom for Outlook Extension. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
+    - ts: "2024-07-30 07:44:59"
+      description: We have identified the issue causing service degradation with Zoom for Outlook Extension. We will continue to provide updates as we have them.
+    - ts: "2024-07-30 08:37:45"
+      description: The issue causing service degradation with Zoom for Outlook Extension has been resolved.  We will keep monitoring and provide updates as we have them.
+    - ts: "2024-07-30 15:02:39"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,11 @@
+version: incident/v1
+id: nwjfc62lfkyk
+name: Scheduled Maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-11 08:49:08"
+      description: 'Service maintenance applies to all of the resources with the following pattern in their endpoint : cls-prod37'
+    - ts: "2024-09-11 09:35:12"
+      description: This incident has been resolved.
+      resolved: true

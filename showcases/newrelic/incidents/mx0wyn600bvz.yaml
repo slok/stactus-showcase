@@ -1,0 +1,33 @@
+version: incident/v1
+id: mx0wyn600bvz
+name: Delays for Data Processing in US Region
+impact: minor
+systems:
+    - rbts0zzw73dl
+    - 2vkckmpm1kh6
+    - 5x10l9g2z3t6
+    - 1ccpnwlhg6xx
+    - 028b05n94my0
+    - 45zc1fn1w80h
+    - 5p33lkzzqm0z
+    - 5kywhg5j0l21
+    - ymfwncrn2dnh
+    - 2jrn08x58ps2
+    - 9jndj4kfv59w
+    - pmtvnzg1dzfm
+    - lm2qpsbfggh7
+    - s27h21w34qhk
+    - prjgs1mvmqg9
+    - 6x8hq64xfvwl
+    - 833c8h98qq4g
+    - czn9jxzshjxn
+timeline:
+    - ts: "2023-09-20 21:40:16"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-09-20 21:48:53"
+      description: We are investigating delays for data processing related to multiple data types. Some customers in the US region may be experiencing delays for data and for related alert notifications.
+      investigating: true
+    - ts: "2023-09-20 22:40:52"
+      description: "Between 21:08 UTC to 22:12 UTC on September 20th, some customers in the US region may have experienced delays for data and for related alert notifications. \n\nThe service interruption has been resolved and impacted services have returned to normal operations."
+      resolved: true

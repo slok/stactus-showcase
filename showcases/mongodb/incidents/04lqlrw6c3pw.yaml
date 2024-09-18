@@ -1,0 +1,14 @@
+version: incident/v1
+id: 04lqlrw6c3pw
+name: 'MongoDB Atlas Online Archive: Users may not be able to access Online Archive data'
+impact: none
+systems:
+    - lh7m7lhnf3rj
+timeline:
+    - ts: "2024-06-04 16:42:40"
+      description: Users may see timeouts or failures when using Data Federation to access Online Archive and Data Lake Pipelines + Snapshots. The outage started around Jun 04 2024 04:15 PM GMT+0000.
+    - ts: "2024-06-04 17:21:37"
+      description: A fix has been implemented and we are monitoring for stability.
+    - ts: "2024-06-04 18:33:13"
+      description: This incident has been resolved.
+      resolved: true

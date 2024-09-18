@@ -1,0 +1,18 @@
+version: incident/v1
+id: yzl464rhsqrg
+name: Kubernetes and App Platform Pages in the Cloud Control Panel for New Users
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2024-05-29 07:19:46"
+      description: |-
+        Our Engineering team is investigating an issue where newly signed up users are unable to access Kubernetes and App platform pages in our Cloud Control Panel. Beginning at 07:00 UTC on May 29th, new users may see "Oops, you do not have access to view this resource or page" in our Cloud Control Panel.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2024-05-29 10:47:42"
+      description: "Our Engineering team has identified the root cause and deployed a fix for the issue impacting access to Kubernetes and App platform pages for new users. New users should now be able to access Kubernetes and App platform in our Cloud Control Panel successfully. \n\nWe will continue to monitor this at our end and will share an update once the problem is resolved completely."
+    - ts: "2024-05-29 11:47:38"
+      description: "Our Engineering team has confirmed that the issue with accessing Kubernetes and App Platform for new users has been completely resolved. New users should now be able to access all aspects in the Cloud Control Panel. \n\nIf you continue to experience problems, please open a ticket with our support team.\n\nThank you for your patience and we apologize for any inconvenience."
+      resolved: true

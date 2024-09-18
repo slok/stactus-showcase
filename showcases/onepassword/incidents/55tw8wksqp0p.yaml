@@ -1,0 +1,14 @@
+version: incident/v1
+id: 55tw8wksqp0p
+name: my.1password.ca website unavailable.
+impact: critical
+systems: []
+timeline:
+    - ts: "2023-03-16 18:47:03"
+      description: Customers are unable to access the my.1password.ca website. The other existing websites(.com, .eu) and tenants remain unaffected.
+      investigating: true
+    - ts: "2023-03-16 18:55:21"
+      description: Issue has been identified and corrected. Support engineers are currently monitoring the service availability.
+    - ts: "2023-03-16 19:17:20"
+      description: No service impact observed during the monitoring period. We apologize for any inconvenience caused.
+      resolved: true

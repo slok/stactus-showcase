@@ -1,0 +1,15 @@
+version: incident/v1
+id: 1qg0nvvpkbcg
+name: Unable to import secrets in HCP Vault Secrets UI
+impact: minor
+systems:
+    - hk67zg2j2rkd
+timeline:
+    - ts: "2024-05-01 15:28:11"
+      description: "Our Engineering team has identified the cause for the following incident: \n\nUsers are unable to bulk import secrets in the UI. To workaround, please add secrets individually.\n\nWe are actively working on a fix. Once we have additional information, we will share another update."
+    - ts: "2024-05-01 16:10:32"
+      description: |-
+        Our Engineering team has resolved an issue blocking the ability to bulk import secrets in the Vault Secrets UI.
+
+        These systems should now be operating normally. If you continue to experience any problems, please open a ticket with our support team.
+      resolved: true

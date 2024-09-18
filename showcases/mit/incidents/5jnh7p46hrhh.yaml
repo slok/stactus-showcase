@@ -1,0 +1,14 @@
+version: incident/v1
+id: 5jnh7p46hrhh
+name: Atlas timesheet access unavailable
+impact: none
+systems:
+    - dpdsycjtknlz
+timeline:
+    - ts: "2024-07-29 10:53:50"
+      description: "Timesheet access through Atlas is currently available. Users will encounter an error indicating the certificate for http://hecps1web01.mit.edu has expired. \n\nIS&T is actively working on resolving the issue."
+    - ts: "2024-07-29 11:54:18"
+      description: 'Update: The certificate for http://hecps1web01.mit.edu has been renewed. Users should now be able to access timesheets via Atlas. If you still experience an error, please contact the IS&T Service Desk: servicedesk@mit.edu or 617-253-1101'
+    - ts: "2024-07-30 09:35:48"
+      description: This incident has been resolved.
+      resolved: true

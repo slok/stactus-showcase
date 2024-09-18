@@ -1,0 +1,35 @@
+version: incident/v1
+id: 449n8d04vst3
+name: Events for Droplets with Reserved IP's in Multiple Regions
+impact: minor
+systems:
+    - p1x9rv4137gx
+    - y8xkcw7m31k5
+    - 9q2dq7jc5bk9
+    - czck17wcspr5
+    - 5wjrpc0lf1qc
+    - kkg2cfkqkwj1
+    - btv040v4xbdn
+    - fb63qt9f69m0
+    - 9czvz44l7dp3
+    - yvh4g97h7mk7
+    - mrdxgk8b9l9m
+    - 86hpqb7crkzg
+    - d28g0q5tjlnf
+    - 2zv8zdysz98p
+    - kvrtqsmcph72
+    - fp3yv6vdqkxt
+    - h4ktbyxsxssg
+timeline:
+    - ts: "2024-06-27 20:54:11"
+      description: "Beginning around 16:00 UTC, our Engineering team identified an uptick in event errors for Droplets that utilize a Reserved IP in multiple regions. A subset of users are experiencing errors in processing events, especially \"power on\", via both API and the Cloud Control Panel. \n\nOur team has identified the root cause of the issue and a fix is currently in progress. \n\nWe will provide another update once the fix is confirmed."
+    - ts: "2024-06-27 21:12:35"
+      description: "Our Engineering team has completed deployment of the fix. No additional users should now experience event failures. \n\nDroplets that experienced failed events are now being remediated to fix their event state, so that future events can succeed normally. \n\nWe will provide another update once the remediation step is complete."
+    - ts: "2024-06-27 23:22:54"
+      description: "Our Engineering team has confirmed that the issue for Droplets with previously failed events has been remediated, and further events should now successfully complete. \n\nWe are continuing to monitor this situation and will post an update as soon as the issue is fully resolved."
+    - ts: "2024-06-27 23:57:01"
+      description: |-
+        Our Engineering team has confirmed that this incident has been fully resolved.
+
+        Thank you for your patience. If you continue to experience any problems, please open a ticket with our support team for further review.
+      resolved: true

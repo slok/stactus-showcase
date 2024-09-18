@@ -1,0 +1,23 @@
+version: incident/v1
+id: w2msn8g85r4s
+name: Delays Creating / Modifying Clusters in the Azure "East US 2" Region
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-02-28 16:28:28"
+      description: |-
+        Azure is experiencing an issue provisioning compute resources in the "East US 2" region. As a result, customers creating or modifying clusters with nodes in Azure "East US 2" may experience delays. Users may experience delays with the "blue bar" persisting longer than normal.
+
+        We are monitoring this issue closely and will provide an update when more information is available.
+    - ts: "2024-02-28 19:35:59"
+      description: The Azure issue is ongoing, and we continue to monitor closely.
+    - ts: "2024-02-28 20:48:47"
+      description: We continue to monitor the Azure situation, but do not have any new information at this time. Azure continues to investigate and work through the issue.
+    - ts: "2024-02-28 22:55:12"
+      description: Azure is in the process of mitigating the issue and is working to restore operations to normal. We expect delays in Atlas for Azure clusters in "East US 2" to continue while the remediation is in progress.
+    - ts: "2024-02-29 12:56:09"
+      description: The issue has been mitigated by Azure, and cluster operations in the Azure "East US 2" are returning to normal. We are monitoring closely.
+    - ts: "2024-02-29 15:05:31"
+      description: We have conformed that the system is no longer encountering issues related to the Azure "East US 2" outage.
+      resolved: true

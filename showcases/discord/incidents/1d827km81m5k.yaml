@@ -1,0 +1,15 @@
+version: incident/v1
+id: 1d827km81m5k
+name: Increased API Latency, Issues with processing payments
+impact: none
+systems: []
+timeline:
+    - ts: "2024-06-04 11:56:28"
+      description: We are currently investigating an issue impacting API latency
+      investigating: true
+    - ts: "2024-06-04 12:40:43"
+      description: We are investigating a related issue with processing payments as well.
+      investigating: true
+    - ts: "2024-06-04 13:15:48"
+      description: This incident is now resolved.
+      resolved: true

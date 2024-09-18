@@ -1,0 +1,18 @@
+version: incident/v1
+id: 8tn4xrbjg8tz
+name: Zero Trust Gateway Log Issues
+impact: minor
+systems:
+    - gyx2yygg7lmd
+timeline:
+    - ts: "2024-09-12 14:49:46"
+      description: |-
+        Cloudflare is investigating issues with Zero Trust Gateway HTTP Logs not populating with new data.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2024-09-12 14:58:13"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-12 15:13:33"
+      description: This incident has been resolved.
+      resolved: true

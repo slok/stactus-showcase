@@ -1,0 +1,15 @@
+version: incident/v1
+id: ybbhvxyyyfqm
+name: Media unable to load
+impact: none
+systems:
+    - r3wq1zsx72bz
+timeline:
+    - ts: "2024-03-14 11:52:22"
+      description: We are currently investigating an issue that is preventing embedded media from loading.
+      investigating: true
+    - ts: "2024-03-14 12:18:09"
+      description: We are seeing recovery and will continue monitoring the system
+    - ts: "2024-03-14 13:07:32"
+      description: This incident is fully resolved.
+      resolved: true

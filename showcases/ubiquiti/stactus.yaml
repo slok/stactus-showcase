@@ -1,0 +1,42 @@
+version: stactus/v1
+name: Ubiquiti System
+url: https://status.ui.com
+systems:
+    - id: f4txj806xph9
+      name: UniFi Remote Access / unifi.ui.com
+    - id: 2lgwfrmtmdw8
+      name: Online Support / Help Center
+    - id: r3g9q6y97kpr
+      name: Community / Community
+    - id: srxrnrly7lqz
+      name: AmpliFi Remote Access / AmpliFi Cloud Production API
+      description: "Production facing AmpliFi cloud API endpoint\r\nhttps://cloud.amplifi.com\r\nhttps://client.amplifi.com\r\nhttps://device.amplifi.com"
+    - id: kyb5xddvtwvg
+      name: UISP Cloud Console / UISP Cloud
+    - id: tnsxmcnssfj8
+      name: Speedtest / Speedtest Service
+    - id: s78xyt2hftwd
+      name: UniFi Talk / UniFi Talk
+    - id: vqmcpp1kx7pf
+      name: UI Account Management / SSO Service
+      description: Ubiquiti Cloud SSO API
+    - id: 50j8z65sq9pt
+      name: UniFi Remote Access / Remote Access Service
+      description: Remote Access Service
+    - id: j6g30kb0yfgn
+      name: Online Support / Live Chat
+    - id: wv2xgtj1bndn
+      name: UI Account Management / Account Service
+      description: Ubiquiti Cloud Account API
+    - id: lxk7tg6cz19c
+      name: Official UniFi Hosting
+      description: Official UniFi Hosting instances and the UniFi Hosting API.
+    - id: qmd5v6wv9lkg
+      name: UniFi Design Center
+      description: UniFi Deployment Planning Portal
+    - id: wfpz3f8ds992
+      name: UniFi Mobility Cloud
+      description: Mobility portal for cloud application
+    - id: zcxp48kb64sd
+      name: Teleport VPN Service
+      description: UniFi Network Teleport VPN feature

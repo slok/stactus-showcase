@@ -1,0 +1,21 @@
+version: incident/v1
+id: p55k2jdgsrgc
+name: Disruption with some GitHub services
+impact: major
+systems: []
+timeline:
+    - ts: "2024-07-16 00:53:08"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-07-16 01:35:07"
+      description: Copilot chat is experiencing elevated error rates and we are currently investigating the issue.
+      investigating: true
+    - ts: "2024-07-16 02:10:25"
+      description: Copilot chat is experiencing elevated error rates. We have identified the root cause and are working on remediation.
+      investigating: true
+    - ts: "2024-07-16 02:56:15"
+      description: Copilot chat is error rates are improving and we are continuing to monitor system health.
+      investigating: true
+    - ts: "2024-07-16 03:07:48"
+      description: On July 16th, 2024, between 00:30 UTC and 03:07 UTC, Copilot Chat was degraded and rejected all requests. The error rate was close to 100% during this time period and customers would have received errors when attempting to use Copilot Chat. <br /><br />This was triggered during routine maintenance from a service provider, when GitHub services were disconnected and overwhelmed the dependent service during reconnections. <br /><br />To mitigate the issue in the future, we are working to improve our reconnection and circuit-breaking logic to dependent services to recover from this kind of event seamlessly, without overwhelming the other service.<br />
+      resolved: true

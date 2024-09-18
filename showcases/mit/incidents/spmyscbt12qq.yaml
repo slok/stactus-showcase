@@ -1,0 +1,14 @@
+version: incident/v1
+id: spmyscbt12qq
+name: Forwarded Email Delays
+impact: none
+systems:
+    - pm1c4cxx88h1
+timeline:
+    - ts: "2024-03-20 14:28:07"
+      description: IS&T has identified an issue causing delays in delivery of some forwarded email.
+    - ts: "2024-03-20 14:54:21"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-03-20 19:50:30"
+      description: This incident has been resolved.
+      resolved: true

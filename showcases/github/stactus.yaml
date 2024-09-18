@@ -1,0 +1,35 @@
+version: stactus/v1
+name: GitHub
+url: https://www.githubstatus.com
+systems:
+    - id: 8l4ygp009s5s
+      name: Git Operations
+      description: Performance of git clones, pulls, pushes, and associated operations
+    - id: 4230lsnqdsld
+      name: Webhooks
+      description: Real time HTTP callbacks of user-generated and system events
+    - id: 0l2p9nhqnxpd
+      name: Visit www.githubstatus.com for more information
+    - id: brv1bkgrwx7q
+      name: API Requests
+      description: Requests for GitHub APIs
+    - id: kr09ddfgbfsf
+      name: Issues
+      description: Requests for Issues on GitHub.com
+    - id: hhtssxt0f5v2
+      name: Pull Requests
+      description: Requests for Pull Requests on GitHub.com
+    - id: br0l2tvcx85d
+      name: Actions
+      description: Workflows, Compute and Orchestration for GitHub Actions
+    - id: st3j38cctv9l
+      name: Packages
+      description: API requests and webhook delivery for GitHub Packages
+    - id: vg70hn9s2tyj
+      name: Pages
+      description: Frontend application and API servers for Pages builds
+    - id: h2ftsgbw7kmk
+      name: Codespaces
+      description: Orchestration and Compute for GitHub Codespaces
+    - id: pjmpxvq2cmr2
+      name: Copilot

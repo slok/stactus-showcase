@@ -1,0 +1,13 @@
+version: incident/v1
+id: lzyq3tjy07yq
+name: Incident with Codespaces
+impact: minor
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2024-07-17 17:56:46"
+      description: We are investigating reports of degraded performance for Codespaces
+      investigating: true
+    - ts: "2024-07-17 18:13:11"
+      description: On July 17th, 2024 between 17:56 and 18:13 UTC the Codespaces service was degraded and 5% of codespaces were failing to start after creation. After analyzing the failing codespaces, we realized that all of them had reached the 1 hour timeout allocated for starting. Further, we realized that the root cause of the timeouts was the <a href="https://status.githubapp.com/incidents/1886?viewTimeOption=UTC">larger incident earlier in the day due to updating github’s network hardware</a>.<br />We realized this incident was already mitigated by the mitigation of the earlier incident.<br />We are working to see if we can improve our incident response process to better understand the connection between incidents in the future and avoid unnecessary incident noise for customers.<br />
+      resolved: true

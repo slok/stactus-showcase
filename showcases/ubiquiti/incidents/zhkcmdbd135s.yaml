@@ -1,0 +1,14 @@
+version: incident/v1
+id: zhkcmdbd135s
+name: Delayed emails sending
+impact: none
+systems:
+    - vqmcpp1kx7pf
+    - wv2xgtj1bndn
+timeline:
+    - ts: "2021-01-12 00:15:28"
+      description: We are currently experiencing delays with our email sending provider due to volume.  Password reset emails (amongst others) may be delayed at this time.
+      investigating: true
+    - ts: "2021-01-12 01:40:22"
+      description: Email sending is currently proceeding in realtime, and any backlog has sent.
+      resolved: true

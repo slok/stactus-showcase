@@ -1,0 +1,15 @@
+version: incident/v1
+id: cpb12qjp2k6w
+name: Issues creating R2 API Tokens
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2024-09-03 09:29:10"
+      description: Cloudflare is aware that some customers may see errors when creating Scoped R2 API Tokens. We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-09-03 10:54:01"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-03 11:22:17"
+      description: This incident has been resolved.
+      resolved: true

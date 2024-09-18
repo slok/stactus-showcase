@@ -1,0 +1,14 @@
+version: incident/v1
+id: 6zqmd4fymzfv
+name: Billing metrics unavailable in all regions.
+impact: major
+systems:
+    - 0s4n2mv9hwv9
+timeline:
+    - ts: "2024-05-20 12:00:29"
+      description: There's a delay processing billing metrics, it may take a while until most recent billing metrics are shown. The issue started at 10:10 UTC - we've identified the root cause and working on solving it.
+    - ts: "2024-05-20 13:37:42"
+      description: After applying a fix, billing metrics are being processed again. We're working on recovering the missing ones from the incident right now and monitoring current behaviour.
+    - ts: "2024-05-23 15:46:31"
+      description: This incident has been resolved.
+      resolved: true

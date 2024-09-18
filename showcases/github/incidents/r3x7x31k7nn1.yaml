@@ -1,0 +1,24 @@
+version: incident/v1
+id: r3x7x31k7nn1
+name: Disruption with Git SSH
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-09-16 13:29:47"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-09-16 13:30:07"
+      description: We are investigating failed connections for Git SSH.  Customers may be experiencing failed SSH connections both in CI and interactively.  Retrying the connection may be successful.  Git HTTP connections appear to be unaffected.
+      investigating: true
+    - ts: "2024-09-16 13:38:25"
+      description: We are seeing up to 2% of Git SSH connections failing.<br /><br />We have taken suspected problematic hosts out of rotation and are monitoring for recovery and continuing to investigate.
+      investigating: true
+    - ts: "2024-09-16 14:11:07"
+      description: We have taken suspected hosts out of rotation and have not seen any impact in the last 20 minutes.  We are continuing to monitor to ensure the problem is resolved and are investigating the cause.
+      investigating: true
+    - ts: "2024-09-16 14:27:52"
+      description: We are no longer seeing dropped Git SSH connections and believe we have mitigated the incident.  We are continuing to monitor and investigate to prevent reoccurrence.
+      investigating: true
+    - ts: "2024-09-16 14:28:03"
+      description: This incident has been resolved.
+      resolved: true

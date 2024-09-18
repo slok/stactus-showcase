@@ -1,0 +1,14 @@
+version: incident/v1
+id: zsycfz31tf9n
+name: Issues accessing SLO's, ops-labels, and log export configs
+impact: major
+systems:
+    - 0m5030zr6qdz
+timeline:
+    - ts: "2024-08-27 16:40:42"
+      description: Our team has identified an issue in prod-us-east-0 that impacts customers' ability to create, update, delete and read SLOs, ops-labels, and log export configs. We are in the process of rolling out a fix and will provide further updates as they become available.
+    - ts: "2024-08-27 16:53:49"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2024-08-27 18:38:24"
+      description: This incident has been resolved.
+      resolved: true

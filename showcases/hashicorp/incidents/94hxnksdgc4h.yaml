@@ -1,0 +1,9 @@
+version: incident/v1
+id: 94hxnksdgc4h
+name: Terraform Cloud Degradation
+impact: none
+systems: []
+timeline:
+    - ts: "2024-03-25 20:48:05"
+      description: Terraform Cloud engineers deployed a routine database migration that renamed an unused column. While the engineering team believed the change to be safe, it resulted in application errors during the deployment window. During this time there was an increase in error rates and latency. The issue has since been resolved.
+      resolved: true

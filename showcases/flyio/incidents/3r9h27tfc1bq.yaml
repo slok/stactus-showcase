@@ -1,0 +1,14 @@
+version: incident/v1
+id: 3r9h27tfc1bq
+name: Elevated error rate with API
+impact: minor
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2024-08-20 23:14:18"
+      description: Users may see higher rates of 504 and 408 HTTP errors when accessing the Fly Platform API. These may occur particularly with the deploy, scale, and destroy commands. These errors will only occur in relation to specific Fly Machines. Recommended work arounds include ignoring affected Machines during a deploy with --exclude-machines, or destroying an affected Machine with fly m destroy. The problem only involves API operations; Fly Machines themselves function normally.
+    - ts: "2024-08-20 23:17:38"
+      description: A fix is being deployed slowly across the fleet. While a fix is being deployed to a host server, API operations on the Fly Machines on that server may fail. Fly Machines themselves will continue to function normally.
+    - ts: "2024-08-21 10:27:45"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,14 @@
+version: incident/v1
+id: l2l8q7wlbzzs
+name: Monitors Notifications Delayed
+impact: major
+systems:
+    - qrnng5l7z80l
+timeline:
+    - ts: "2023-09-25 17:14:48"
+      description: We are aware of delays in Metric Monitors Notifications, which began at 20:55 UTC.  We have identified the underlying issue and are working on a fix.
+    - ts: "2023-09-25 17:48:33"
+      description: We have deployed a fix and we are monitoring the results. We will provide another update once the issue is fully resolved.
+    - ts: "2023-09-25 17:55:20"
+      description: This incident has been resolved.
+      resolved: true

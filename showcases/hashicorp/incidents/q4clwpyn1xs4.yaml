@@ -1,0 +1,22 @@
+version: incident/v1
+id: q4clwpyn1xs4
+name: HCP Boundary September Scheduled Maintenance
+impact: minor
+systems:
+    - 9gzfhnxdsf93
+timeline:
+    - ts: "2024-09-05 20:41:51"
+      description: HCP Boundary will undergo planned maintenance on Saturday, September 14th beginning at 14:00 UTC. We expect this maintenance to be complete within four hours. During this time, HCP Boundary sessions may disconnect unexpectedly and new sessions may not be created. We will post updates as necessary throughout the maintenance period.
+      investigating: true
+    - ts: "2024-09-06 20:58:20"
+      description: HCP Boundary will undergo planned maintenance on Saturday, September 14th beginning at 16:00 UTC. We expect this maintenance to be complete within four hours. During this time, HCP Boundary sessions may disconnect unexpectedly and new sessions may not be created. We will post updates as necessary throughout the maintenance period.
+      investigating: true
+    - ts: "2024-09-06 21:19:15"
+      description: HCP Boundary will undergo planned maintenance on Saturday, September 14th beginning at 14:00 UTC. We expect this maintenance to be complete within four hours. During this time, HCP Boundary sessions may disconnect unexpectedly and new sessions may not be created. We will post updates as necessary throughout the maintenance period.
+      investigating: true
+    - ts: "2024-09-14 14:05:52"
+      description: Scheduled maintenance for HCP Boundary is beginning. We anticipate the window will last until 18:00 UTC. Boundary sessions may drop and may not be able to be established.
+      investigating: true
+    - ts: "2024-09-14 16:11:10"
+      description: Scheduled maintenance for HCP Boundary has completed.
+      resolved: true

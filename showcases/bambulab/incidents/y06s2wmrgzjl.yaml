@@ -1,0 +1,9 @@
+version: incident/v1
+id: y06s2wmrgzjl
+name: Cloud Printing Failure
+impact: none
+systems: []
+timeline:
+    - ts: "2023-04-27 09:42:59"
+      description: From 2023/4/26 19:46 - 4/27 1:10 UTC, Cloud printing services encounter internal message sending failures, which cause printing requests to fail during this period.
+      resolved: true

@@ -1,0 +1,9 @@
+version: incident/v1
+id: v2kqfb9306wl
+name: Loki-prod Write and Read Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2024-07-16 21:49:05"
+      description: Starting at ~21:11 UTC, Loki had a brief outage. Users may have experienced degraded write path performance for approximately 10 minutes, and 2-3 minutes of total write and read outage. This has since been resolved.
+      resolved: true

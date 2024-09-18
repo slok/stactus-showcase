@@ -1,0 +1,21 @@
+version: incident/v1
+id: kp0wrtw9s6mc
+name: Cloud service restart abnormally
+impact: major
+systems:
+    - sw5q8tgl2864
+    - 5fs3yzwktd3t
+    - w7ycvnq5lw8s
+    - k1z8m42c0d7r
+    - 6hkfwd93hvnk
+timeline:
+    - ts: "2024-05-14 19:24:05"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-05-14 19:46:19"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-05-14 20:11:38"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-05-14 20:45:17"
+      description: This incident has been resolved.
+      resolved: true

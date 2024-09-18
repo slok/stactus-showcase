@@ -1,0 +1,12 @@
+version: incident/v1
+id: k4nxyjtyb1lb
+name: Increased error rate
+impact: minor
+systems:
+    - srxrnrly7lqz
+timeline:
+    - ts: "2021-07-12 01:42:05"
+      description: Amplifi Cloud is an experiencing an increased error rate while a security update is being applied.
+    - ts: "2021-07-12 03:11:10"
+      description: This incident has been resolved.
+      resolved: true

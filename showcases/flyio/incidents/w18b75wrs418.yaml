@@ -1,0 +1,15 @@
+version: incident/v1
+id: w18b75wrs418
+name: Network issues in QRO
+impact: critical
+systems:
+    - fkzdxp2fyzn3
+timeline:
+    - ts: "2024-08-13 21:23:58"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-08-13 21:33:33"
+      description: Our qro region suffered a brief network outage. Network connectivity is back to normal. We'll continue monitoring and update when we have more information.
+    - ts: "2024-08-13 22:44:43"
+      description: This incident has been resolved.
+      resolved: true

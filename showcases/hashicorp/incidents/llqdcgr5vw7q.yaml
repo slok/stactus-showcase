@@ -1,0 +1,29 @@
+version: incident/v1
+id: llqdcgr5vw7q
+name: Investigating an incident with private VCS providers on HCP Terraform
+impact: minor
+systems:
+    - 7cgbxrw10wgr
+timeline:
+    - ts: "2024-09-02 12:58:24"
+      description: |-
+        Our engineering team is investigating an issue with using private VCS providers on HCP Terraform.
+
+        We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-09-02 14:07:36"
+      description: |-
+        Our engineering team is continuing to investigate an issue with using private VCS providers on HCP Terraform.
+
+        We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-09-02 14:36:00"
+      description: |-
+        Our Engineering team has implemented a fix to resolve issues with using private VCS providers on HCP Terraform and is monitoring the situation.
+
+        We will share another update as soon as we have more information.
+    - ts: "2024-09-02 14:50:35"
+      description: Our Engineering team has implemented a fix to resolve issues with using private VCS providers on HCP Terraform and is monitoring the situation.
+    - ts: "2024-09-03 06:03:02"
+      description: Our Engineering team has resolved the issue. HCP Terraform private VCS providers should now be operating normally. If you continue to experience any problems, please open a ticket with our support team.
+      resolved: true

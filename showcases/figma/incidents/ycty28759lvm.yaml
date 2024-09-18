@@ -1,0 +1,19 @@
+version: incident/v1
+id: ycty28759lvm
+name: Service disruption
+impact: minor
+systems:
+    - pn57gvt7sjmx
+    - bcf4b8z76zqr
+    - 2wghgbfmnn54
+timeline:
+    - ts: "2023-02-17 22:49:48"
+      description: We are investigating an issue where Figma is unavailable for some users.
+      investigating: true
+    - ts: "2023-02-17 22:56:46"
+      description: We've identified the issue impacting availability and are working toward a solution.
+    - ts: "2023-02-17 23:25:54"
+      description: For most users the incident has been resolved and we are continuing to monitor.
+    - ts: "2023-02-17 23:31:18"
+      description: This incident has been resolved.
+      resolved: true

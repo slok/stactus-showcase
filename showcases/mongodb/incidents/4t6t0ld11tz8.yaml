@@ -1,0 +1,14 @@
+version: incident/v1
+id: 4t6t0ld11tz8
+name: 'MongoDB Atlas: Cluster creation and certain healing operations delayed'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-07-30 21:56:57"
+      description: We have identified an issue which is causing new cluster node creation to be delayed. This will impact new cluster creation, cluster expansion, as well as backup restores. Affected systems will see the "blue bar" for an extended period of time as well as messages about failed plans in the "blue bar".
+    - ts: "2024-07-31 00:06:17"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2024-07-31 00:31:21"
+      description: This incident has been resolved.
+      resolved: true

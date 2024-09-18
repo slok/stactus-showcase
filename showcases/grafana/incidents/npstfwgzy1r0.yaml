@@ -1,0 +1,33 @@
+version: incident/v1
+id: npstfwgzy1r0
+name: Rule Performance Degradation
+impact: minor
+systems:
+    - l72f5c7651n5
+    - 98skfgrdgchf
+timeline:
+    - ts: "2024-07-19 22:06:26"
+      description: |-
+        We are currently investigating an issue with degraded performance with rule evaluation in us-central-0.loki.
+        We will continue to investigate and provide updates as more information becomes available.
+      investigating: true
+    - ts: "2024-07-19 22:30:49"
+      description: |-
+        Around 17:00 UTC we had noticed an impact that we are currently investigating with degraded performance with rule evaluation in the following clusters:
+        us-central-0/loki-prod
+        us-central-5/loki-prod-017
+        us-central-5/loki-prod3
+
+        We will continue to investigate and provide updates as more information becomes available.
+      investigating: true
+    - ts: "2024-07-19 23:18:44"
+      description: |-
+        If you are experiencing queries taking longer to complete than expected, please cancel and retry them.
+
+        We will continue to investigate and provide updates as more information becomes available.
+      investigating: true
+    - ts: "2024-07-20 00:25:13"
+      description: "Systems are stable again and we are continuing to monitor. \n\nWe will provide another status update if there are any changes."
+    - ts: "2024-07-22 21:46:24"
+      description: There were no observed instances of this issue today. We're considering the incident resolved. Please contact our Support team if you believe you're impacted by this incident.
+      resolved: true

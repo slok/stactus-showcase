@@ -1,0 +1,9 @@
+version: incident/v1
+id: vswjcgcv619p
+name: Some Rule Alert Evaluation Failures
+impact: none
+systems: []
+timeline:
+    - ts: "2024-06-07 15:05:53"
+      description: From approximately 13:32 UTC to 14:14 UTC, there was a partial read outage of Loki-managed recording rules. Customers in the prod-us-west-0 region may have experienced gaps in recording rules and alerts configured with Loki.
+      resolved: true

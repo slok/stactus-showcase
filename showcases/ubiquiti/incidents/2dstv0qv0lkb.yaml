@@ -1,0 +1,15 @@
+version: incident/v1
+id: 2dstv0qv0lkb
+name: uisp.com is inaccessible
+impact: major
+systems:
+    - kyb5xddvtwvg
+timeline:
+    - ts: "2022-06-10 10:09:04"
+      description: Website https://uisp.com is inaccessible. Existing cloud consoles are not affected. We are investigating the issue.
+      investigating: true
+    - ts: "2022-06-10 10:18:42"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2022-06-10 11:53:16"
+      description: This incident has been resolved.
+      resolved: true

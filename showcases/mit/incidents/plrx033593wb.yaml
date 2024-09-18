@@ -1,0 +1,13 @@
+version: incident/v1
+id: plrx033593wb
+name: Citrix applications are currently unavailable.
+impact: none
+systems:
+    - dpdsycjtknlz
+timeline:
+    - ts: "2023-08-18 10:18:53"
+      description: Citrix applications are currently unavailable.
+      investigating: true
+    - ts: "2023-08-18 13:57:43"
+      description: This incident has been resolved.
+      resolved: true

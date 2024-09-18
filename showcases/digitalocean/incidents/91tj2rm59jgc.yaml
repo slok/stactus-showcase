@@ -1,0 +1,32 @@
+version: incident/v1
+id: 91tj2rm59jgc
+name: Spaces Bucket Creates
+impact: minor
+systems:
+    - z2cshz8pdgwj
+    - 66wjtpd8ngvx
+    - tz43j53blsmy
+    - w4m98sdz3szn
+    - lf2rrgctn54t
+    - rf1h8gfz4ts6
+    - bpchszdrvvc5
+    - b44h3yhj3jy5
+timeline:
+    - ts: "2024-05-07 14:07:43"
+      description: |-
+        Our Engineering team is investigating an uptick in error rates for users creating Spaces Buckets in multiple regions, starting May 3.
+
+        We have rolled back a recent change in our systems in an effort to address the issue. However, we are still investigating and users may still experience errors when attempting to create Spaces Buckets, both through the cloud control panel and via API.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2024-05-07 19:06:35"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue affecting creation of Spaces Buckets in multiple regions and is monitoring the situation closely.
+
+        The impact has subsided and users should no longer experience issues creating Spaces Bucket both through the cloud control panel and via API.
+
+        We will post an update as soon as the issue is fully resolved.
+    - ts: "2024-05-07 20:03:29"
+      description: "Our Engineering team has confirmed that the issue with Spaces Buckets creates in multiple regions has been fully resolved. \n\nIf you continue to experience any problems, please open a support ticket from within your account. Thank you for your patience and we apologize for the inconvenience."
+      resolved: true

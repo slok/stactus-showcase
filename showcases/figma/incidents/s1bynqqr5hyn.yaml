@@ -1,0 +1,22 @@
+version: incident/v1
+id: s1bynqqr5hyn
+name: Service Disruption
+impact: minor
+systems:
+    - pn57gvt7sjmx
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2022-12-09 16:49:33"
+      description: We are currently investigating an issue where Figma may be slow to load
+      investigating: true
+    - ts: "2022-12-09 16:52:46"
+      description: We are continuing to monitor, but Figma should be loading as normal now
+    - ts: "2022-12-09 18:29:13"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2022-12-09 19:31:07"
+      description: We're continuing to actively monitor our servers for any issues. The impact for a majority of users should be minimal at this point.
+    - ts: "2022-12-09 21:49:32"
+      description: Figma has continued to be operational for some time now. We are still actively investigating and monitoring for any further issues.
+    - ts: "2022-12-10 02:45:06"
+      description: This incident has been resolved.
+      resolved: true

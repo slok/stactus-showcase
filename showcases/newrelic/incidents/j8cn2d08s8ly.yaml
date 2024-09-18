@@ -1,0 +1,20 @@
+version: incident/v1
+id: j8cn2d08s8ly
+name: Synthetics Irregularities for the EU and US regions
+impact: minor
+systems:
+    - xlzs28xhd8bw
+    - 64hk5ch1ww5b
+timeline:
+    - ts: "2024-05-14 12:27:16"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-05-14 12:37:02"
+      description: We are investigating an issue that may impact Synthetics for customer accounts in the US and EU regions.
+      investigating: true
+    - ts: "2024-05-14 13:43:50"
+      description: We are continuing to investigate an issue that may impact Synthetics for customer accounts in the US and EU regions.
+      investigating: true
+    - ts: "2024-05-14 14:34:06"
+      description: "Between 23:15 UTC May 13 and 14:30 UTC May 14, some customers in the US and EU regions may have experienced Synthetics irregularities. \n \nWe have investigated and resolved this service interruption and impacted services have returned to normal operations."
+      resolved: true

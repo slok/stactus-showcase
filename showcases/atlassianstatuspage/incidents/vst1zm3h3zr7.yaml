@@ -1,0 +1,9 @@
+version: incident/v1
+id: vst1zm3h3zr7
+name: Errors accessing manage portal
+impact: major
+systems: []
+timeline:
+    - ts: "2022-07-21 10:46:04"
+      description: A recent deploy was found to contain errors. Our infrastructure has been successfully rolled back to a previous version of the code, and traffic is being served as normal again.
+      resolved: true

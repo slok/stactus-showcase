@@ -1,0 +1,16 @@
+version: incident/v1
+id: 7g27m3kdb2rw
+name: Network Performance Issues in Frankfurt
+impact: minor
+systems:
+    - rbnhbzgld936
+timeline:
+    - ts: "2024-09-14 10:56:22"
+      description: We are investigating an issue resulting in degraded network performance affecting our Frankfurt datacenters. We are working to mitigate this problem. More updates to follow shortly.
+    - ts: "2024-09-14 10:57:18"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-14 13:20:14"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-14 13:55:21"
+      description: This incident has been resolved.
+      resolved: true

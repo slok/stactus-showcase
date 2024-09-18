@@ -1,0 +1,87 @@
+version: stactus/v1
+name: Atlassian Statuspage
+url: http://metastatuspage.com
+systems:
+    - id: rkld00070vm9
+      name: Hosted Pages / HTTP Pages
+    - id: 0y0vb583m5g9
+      name: Authentication / Admin User+Pass
+    - id: fyzs60wyq01d
+      name: Management / Web Portal
+    - id: 5bflqtmq8jn6
+      name: Third Party Components / Statuspage
+    - id: vlr309x00nm7
+      name: Automation / Pingdom Email
+    - id: 0j0dpr5q595q
+      name: Notifications / Email
+    - id: 3218pv5ggw0q
+      name: System Metrics / Pingdom Integration
+    - id: l30vy16dqpkn
+      name: Support Sites / Ticketing
+    - id: 3bg3nq9mm436
+      name: Hosted Pages / HTTPS Pages
+    - id: cj7ylrcthmdz
+      name: Authentication / Admin Google Auth
+    - id: 3g0c0h5n5cp1
+      name: Management / Authenticated API
+    - id: pht8mbkmkb7t
+      name: Third Party Components / External
+    - id: c60q7bnhphdv
+      name: Automation / New Relic Email
+    - id: lhzq37ts0ppj
+      name: Chat Integrations / Slack
+    - id: hdj6sbn26g26
+      name: Notifications / SMS
+    - id: hsc388fhkjnv
+      name: System Metrics / Librato Integration
+    - id: 95l8v513nw1q
+      name: Support Sites / Knowledge Base
+    - id: 2k3fhq6zhd4j
+      name: Hosted Pages / Status Embed Widget
+    - id: 2516dq72k9lj
+      name: Authentication / Admin SAML 2.0
+    - id: zfvjppljf2bm
+      name: Management / DNS Validation
+    - id: gs5jy8lqszlt
+      name: Automation / Generic Email
+    - id: bv7ffhfxmsx0
+      name: Notifications / Webhook
+    - id: xw42ff1v5rmm
+      name: System Metrics / New Relic Integration
+    - id: l8q89tvjrf66
+      name: Support Sites / API Documentation
+    - id: ff2cz0c51928
+      name: Management / SSL Provisioning
+    - id: s0p4y2k09klc
+      name: Hosted Pages / Public API
+    - id: 0kr0wdlqs7h8
+      name: Authentication / Page Access Users
+    - id: 2267qzw6yfc0
+      name: Automation / PagerDuty Webhook
+    - id: dsvt60wpqw23
+      name: Notifications / Twitter
+    - id: 4s2tjjrhf4d5
+      name: System Metrics / Datadog Integration
+    - id: 9n71kgx29snq
+      name: Support Sites / Metastatuspage
+      description: The statuspage for Statuspage itself, at www.metastatuspage.com
+    - id: wnvlx7c8mfql
+      name: Authentication / Page Google Auth
+    - id: v9dcxzcs9ypj
+      name: Management / Billing
+    - id: yfp2yt5fx9cn
+      name: System Metrics / Custom Integration
+    - id: tpvwg6y7ltx2
+      name: Hosted Pages / Shortlinks
+    - id: f3kzxwdmmy7q
+      name: Automation / Jira Software Integration
+    - id: p1sx4gq857t2
+      name: Support Sites / Marketing Site (www.statuspage.io)
+    - id: 45b0h3k4ky7f
+      name: Authentication / Page SAML 2.0
+    - id: 7x37zxqc4gq0
+      name: Hosted Pages / SMS Subscription
+    - id: kc0l63y8v8r5
+      name: Authentication / Page IP Restriction
+    - id: wgxgj3x4gjyy
+      name: Signup

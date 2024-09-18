@@ -1,0 +1,12 @@
+version: incident/v1
+id: lfp9c4n5f1nk
+name: Service Disruption
+impact: none
+systems:
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2022-08-17 16:02:38"
+      description: We're currently monitoring an incident where Figma was briefly unavailable.
+    - ts: "2022-08-17 19:09:37"
+      description: This incident has been resolved
+      resolved: true

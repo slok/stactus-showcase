@@ -1,0 +1,14 @@
+version: incident/v1
+id: jgrspznkxstg
+name: Service Disruption
+impact: none
+systems: []
+timeline:
+    - ts: "2023-09-27 16:07:31"
+      description: The brief outage has been resolved, and Figma is now fully available. We are closely monitoring the situation to mitigate further issues.
+      investigating: true
+    - ts: "2023-09-27 16:07:40"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-09-27 17:48:10"
+      description: This incident has been resolved.
+      resolved: true

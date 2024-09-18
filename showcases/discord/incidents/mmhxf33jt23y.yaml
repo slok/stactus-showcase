@@ -1,0 +1,16 @@
+version: incident/v1
+id: mmhxf33jt23y
+name: Voice and Video Latency
+impact: none
+systems: []
+timeline:
+    - ts: "2024-06-23 12:10:52"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-06-23 12:29:53"
+      description: We are bringing additional capacity online and working with our partners to troubleshoot the existing issues.
+    - ts: "2024-06-23 12:49:19"
+      description: If still seeing degraded performance, restarting your call should improve latency.
+    - ts: "2024-06-23 13:23:17"
+      description: The impact has been resolved
+      resolved: true

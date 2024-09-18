@@ -1,0 +1,16 @@
+version: incident/v1
+id: h6t87xx3tw9b
+name: MIT Travel / Concur
+impact: minor
+systems:
+    - 21mphp99021l
+timeline:
+    - ts: "2024-03-04 10:26:03"
+      description: |-
+        Intermittent issues occurring with logins through the SAP Concur website and SAP Concur mobile app. Affected users may receive the following error: “An error occurred while processing your request”, when attempting to log in.
+
+        The Concur Incident Response Team (IRT) is currently investigating and will provide an update in one hour or sooner should a significant change occur.  Current status can be found on open.concur.com.
+      investigating: true
+    - ts: "2024-03-04 17:21:35"
+      description: This issue has been resolved.
+      resolved: true

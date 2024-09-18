@@ -1,0 +1,16 @@
+version: incident/v1
+id: 4701x3gf49r8
+name: Remote Access and UI Account Service Outage
+impact: critical
+systems:
+    - vqmcpp1kx7pf
+    - 50j8z65sq9pt
+timeline:
+    - ts: "2023-04-24 20:32:25"
+      description: We are aware of an outage and are investigating with the highest priority. We appreciate your patience and hope to get systems online as soon as possible.
+      investigating: true
+    - ts: "2023-04-24 21:11:21"
+      description: Our services are once again operational and we are continuing to monitor for any lingering effects.
+    - ts: "2023-04-24 21:16:03"
+      description: This incident has been resolved.
+      resolved: true

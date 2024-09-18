@@ -1,0 +1,28 @@
+version: incident/v1
+id: 259gtn3rlsxf
+name: Managed Kubernetes Cluster Creation
+impact: minor
+systems:
+    - xmrt3s9p9lw7
+    - tzjfd82zn341
+    - 566bp0vk7mwx
+    - ymz9qzqj9rxv
+    - jzv4wms5qc33
+    - dzkmyxfh1rf0
+    - 83tzdysp693h
+    - s9txl6g88v1z
+    - 2d91fg0js59k
+    - q9wrfk6yn5m8
+    - xr6mrvgw7q9c
+timeline:
+    - ts: "2024-06-26 12:05:02"
+      description: |-
+        Our Engineering team is investigating an issue impacting our Managed Kubernetes service in all regions. Beginning 11:10 UTC, users may have experienced errors while creating new clusters using Control panel and API.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2024-06-26 13:36:29"
+      description: "Our Engineering team has deployed a fix for the issue impacting the Managed Kubernetes cluster creation across all regions. The impact has been mitigated and users should no longer experience any issues deploying new clusters via Cloud Control panel and API. \n\nWe are monitoring the situation and will post an update once the incident is completely resolved."
+    - ts: "2024-06-26 14:10:32"
+      description: "Our Engineering team has confirmed the full resolution of the issue impacting the Managed Kubernetes cluster creation. As of 12:18 UTC the functionality has been restored completely and users should be able to deploy new clusters via Cloud Control Panel and API. \n\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience."
+      resolved: true

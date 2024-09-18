@@ -1,0 +1,15 @@
+version: incident/v1
+id: 7dbhb178rlmm
+name: Azure SSO Login
+impact: minor
+systems:
+    - mxh1682h05hp
+    - 4p0mdlpx000t
+    - ghylvjjv10f0
+    - zccw05jw7qs0
+timeline:
+    - ts: "2024-09-12 10:10:28"
+      description: At approximately 8:28AM EDT, Microsoft reported an Azure issue that impacted Azure SSO login capabilities. We started to see resolution around 9:32AM EDT. We are continuing to actively monitor.
+    - ts: "2024-09-12 10:15:09"
+      description: This incident has been resolved.
+      resolved: true

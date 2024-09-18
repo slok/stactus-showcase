@@ -1,0 +1,19 @@
+version: incident/v1
+id: 4f1kdd47zsbf
+name: OCE Service Negatively Impacted
+impact: none
+systems:
+    - yz28x40y5mq2
+    - j6dkmwm0h3k2
+    - 4qrh4gj6bgt2
+    - wkdq12ctv52c
+    - 6pr6psm3s003
+    - ys9m23jjzpg0
+timeline:
+    - ts: "2022-09-14 11:41:43"
+      description: We have received reports of impacted service in Oceania. This could manifest in video not loading, search impaired, etc. We're looking into the issue.
+    - ts: "2022-09-14 12:38:37"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2022-09-14 13:02:27"
+      description: This incident has been resolved.
+      resolved: true

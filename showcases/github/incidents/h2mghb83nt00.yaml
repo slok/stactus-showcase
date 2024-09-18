@@ -1,0 +1,22 @@
+version: incident/v1
+id: h2mghb83nt00
+name: Incident with Codespaces
+impact: minor
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2024-07-30 13:36:52"
+      description: We are investigating reports of degraded performance for Codespaces
+      investigating: true
+    - ts: "2024-07-30 13:47:31"
+      description: We are seeing increased failure rates for creation and resumption of Codespaces in the UK South and West Europe regions.<br /><br />We are working to resolve this issue and will update again soon.
+      investigating: true
+    - ts: "2024-07-30 14:09:56"
+      description: We have correlated the impact on Codespaces to an outage with a third party service. We are continuing to investigate ways to reduce impact on our customers while we wait for that outage to be resolved.
+      investigating: true
+    - ts: "2024-07-30 14:16:36"
+      description: We are starting to see recovery for this issue and are monitoring things closely. We will keep this incident open for now until we are fully confident on complete recovery.
+      investigating: true
+    - ts: "2024-07-30 14:22:15"
+      description: On July 30th, 2024, between 12:15 UTC and 14:22 UTC the Codespaces service was degraded in the UK South and West Europe regions. During this time, approximately 75% of attempts to create or resume Codespaces in these regions were failing.<br /><br />We mitigated the incident by resolving networking stability issues in these regions.<br /><br />We are working to improve network resiliency to reduce our time to detection and mitigation of issues like this one in the future.
+      resolved: true

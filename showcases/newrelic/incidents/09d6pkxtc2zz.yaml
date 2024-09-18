@@ -1,0 +1,12 @@
+version: incident/v1
+id: 09d6pkxtc2zz
+name: Alert Delays in US Region
+impact: none
+systems: []
+timeline:
+    - ts: "2023-07-02 15:34:04"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-07-02 15:45:46"
+      description: Between 15:04 UTC and 15:30 UTC on July 2nd 2023, some customers in the US region may have experienced delays in Alert notifications. Alert notifications have returned to normal operation
+      resolved: true

@@ -1,0 +1,21 @@
+version: incident/v1
+id: vx7np5mvlxn6
+name: Issues Accessing some Grafana Cloud Instances
+impact: major
+systems:
+    - hbqgpzmf8h9k
+    - m7cr9xxllhpn
+timeline:
+    - ts: "2024-06-03 10:35:37"
+      description: We are investigating an issue where some users are unable to access their Grafana Instances.
+      investigating: true
+    - ts: "2024-06-03 10:36:37"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-06-03 10:56:32"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-06-03 11:22:29"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-06-03 12:03:00"
+      description: This incident has been resolved.
+      resolved: true

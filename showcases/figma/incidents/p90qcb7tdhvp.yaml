@@ -1,0 +1,11 @@
+version: incident/v1
+id: p90qcb7tdhvp
+name: Service Disruption
+impact: none
+systems:
+    - pn57gvt7sjmx
+    - bcf4b8z76zqr
+timeline:
+    - ts: "2023-01-24 10:05:48"
+      description: Figma experienced a service disruption from 08:48 UTC to 09:24 UTC.  A fix was implemented and it is now fully operational.
+      resolved: true

@@ -1,0 +1,22 @@
+version: incident/v1
+id: 9bkwk5w162f4
+name: 'Degraded Performance: Atlas UI and API Operations'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-03-06 16:44:59"
+      description: |-
+        We are seeing degraded performance with our UI and API operations. Users may experience longer page load times as well as delays in responses from API calls.
+
+        We are actively investigating the issue.
+      investigating: true
+    - ts: "2024-03-06 17:08:01"
+      description: The issue has been identified, and we are working on implementing a fix. We will provide an update once the fix is in place.
+    - ts: "2024-03-06 17:46:27"
+      description: The fix has been deployed and system performance has returned to normal. We are actively monitoring to ensure the system remains stable.
+    - ts: "2024-03-06 17:47:52"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2024-03-06 19:34:09"
+      description: The issue has been resolved, and the system is operating normally. Thank you for your patience.
+      resolved: true

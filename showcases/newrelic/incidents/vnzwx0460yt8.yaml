@@ -1,0 +1,24 @@
+version: incident/v1
+id: vnzwx0460yt8
+name: Entity Data Delayed for US/EU Region
+impact: minor
+systems:
+    - 45zc1fn1w80h
+    - yqcw0krmvwj5
+timeline:
+    - ts: "2024-01-24 13:36:49"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-01-24 13:39:24"
+      description: We have identified the issue and working to resolve
+    - ts: "2024-01-24 14:05:56"
+      description: We are continuing to monitor the recovery.
+    - ts: "2024-01-24 14:23:28"
+      description: We are continuing to monitor the recovery.
+    - ts: "2024-01-24 14:24:38"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2024-01-24 14:42:46"
+      description: |-
+        Between 11:50 UTC - 13:24 UTC on January 24th, some customers in the US and EU regions may have experienced a delay in the display of data for new Entities reporting data to New Relic for the first time.
+        We have investigated and resolved this service interruption and impacted services have returned to normal operations.
+      resolved: true

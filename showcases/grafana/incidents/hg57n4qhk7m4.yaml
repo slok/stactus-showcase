@@ -1,0 +1,20 @@
+version: incident/v1
+id: hg57n4qhk7m4
+name: Degraded Performance in prod-us-central-5
+impact: minor
+systems:
+    - 98skfgrdgchf
+timeline:
+    - ts: "2024-08-08 16:08:47"
+      description: We are seeing some degraded performance for Loki in prod-us-central-5 starting around 1400 UTC today. We're currently looking into this.
+      investigating: true
+    - ts: "2024-08-08 18:24:27"
+      description: Loki is now stable again and we are monitoring performance.
+      investigating: true
+    - ts: "2024-08-08 19:14:25"
+      description: Loki is stable and we are continuing to monitor for the next 24 hours.
+    - ts: "2024-08-08 19:15:09"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2024-08-09 17:56:50"
+      description: There are been no marked degradation over the last 24 hours. At this time, we are considering this issue resolved. There will be no further updates.
+      resolved: true

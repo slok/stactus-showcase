@@ -1,0 +1,12 @@
+version: incident/v1
+id: nq9y0y28drbg
+name: Network Connectivity in BLR1
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-11 17:22:37"
+      description: |-
+        From 15:20 - 16:10 UTC, our Engineering team observed an issue with network connectivity in the BLR1 region. During this time, users might have experienced varying amounts of packet loss and high latency with network connections going in or out of the BLR1 region, resulting in issues connecting to DigitalOcean services.
+
+        As of 16:10 UTC, the impact has subsided and users should no longer be facing network connectivity issues. We apologize for the inconvenience and if you are still experiencing issues or have any additional questions then please open a support ticket from within your account.
+      resolved: true

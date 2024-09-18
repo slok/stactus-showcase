@@ -1,0 +1,14 @@
+version: incident/v1
+id: xtvcf0c2dz7t
+name: Identified an incident
+impact: none
+systems: []
+timeline:
+    - ts: "2024-06-27 21:14:28"
+      description: |-
+        Our Engineering team has identified the cause for some API related issues.
+
+        We are actively working on a fix. Once we have additional information, we will share another update.
+    - ts: "2024-06-28 15:28:14"
+      description: "Our Engineering team has resolved the following issue: \n\nPreviously identified API issues have been resolved.\n\nThese systems should now be operating normally. If you continue to experience any problems, please open a ticket with our support team."
+      resolved: true

@@ -1,0 +1,14 @@
+version: incident/v1
+id: d2fxx8509tyt
+name: “Data Warehouse – Status of SAP Data”
+impact: none
+systems: []
+timeline:
+    - ts: "2023-12-04 15:54:38"
+      description: "To: All Data Warehouse users,\n \nThis is a notification that some of the data we receive from SAP has not been refreshed since the SAP Support Pack Upgrade that occurred this weekend. During the scheduled maintenance outage, SAP’s Year-End Support Packages were installed, bringing MIT’s SAP implementation up to the support package level required for annual Accounts Payable and HR/Payroll system compliance, however there were changes made that impacted the extract process.\n \nThe data that has been impacted includes, but may not be limited to:\n \n-\tFinancial data – cost objects, fund centers, project wbs, etc\n-\tRoles data\n-\tPayroll\n-\tSAP Lookups / additional master data\n-\tPurchasing / change log\n-\tBalances / Budgets\n \nThe SAP teams are working to resolve this issue. \n \nPlease visit http://3down.mit.edu/ for updates during the outage. If you have any questions about this system outage or the maintenance being performed, please feel free to contact Kevin Lyons at klyons@mit.edu\n \nThank you for your patience and understanding during this scheduled system maintenance."
+      investigating: true
+    - ts: "2023-12-04 21:07:57"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-12-06 14:01:26"
+      description: This incident has been resolved.
+      resolved: true

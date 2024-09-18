@@ -1,0 +1,23 @@
+version: incident/v1
+id: vb15s6y1vfs4
+name: Call issues with Voice JS SDK
+impact: minor
+systems:
+    - x6drb5vw27bs
+timeline:
+    - ts: "2024-09-10 18:47:08"
+      description: We've become aware of a potential issue with Voice SDK. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-09-10 19:12:41"
+      description: We are experiencing potential issue with Voice SDK. Our engineering team has been alerted and is actively investigating. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-10 19:15:47"
+      description: We are experiencing potential issue with Voice JS SDK. Our engineering team has been alerted and is actively investigating. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-10 19:47:50"
+      description: We are observing recovery in the issue related to Voice JS SDK.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2024-09-10 20:16:42"
+      description: We are observing recovery in the issue related to Voice JS SDK.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-09-10 20:45:40"
+      description: We are no longer experiencing issues related to Voice JS SDK. This incident has been resolved.
+      resolved: true

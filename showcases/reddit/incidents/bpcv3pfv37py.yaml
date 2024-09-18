@@ -1,0 +1,14 @@
+version: incident/v1
+id: bpcv3pfv37py
+name: Slow Loading Times
+impact: none
+systems: []
+timeline:
+    - ts: "2024-03-07 15:59:09"
+      description: Users may be experiencing slower than normal load times.
+      investigating: true
+    - ts: "2024-03-07 16:42:05"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-03-07 16:59:31"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,22 @@
+version: incident/v1
+id: dvxbr8lm3qrb
+name: We are investigating reports of users having issues when trying to login to 1Password using the app and the web interface.
+impact: minor
+systems:
+    - xgs4k9r41xf6
+    - cgltwfnt80mm
+    - 5mb7qcyd6jtf
+timeline:
+    - ts: "2024-04-15 13:50:08"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-04-15 14:23:20"
+      description: We are continuing to investigate intermittent login issues when logging in to the 1Password app or web interface. We will provide further updates as more information becomes available.
+      investigating: true
+    - ts: "2024-04-15 15:55:43"
+      description: The issue has been identified and a fix is being worked on.
+    - ts: "2024-04-15 18:01:26"
+      description: The incident response team have mitigated the issue by deploying a fix and are continuing to monitor.
+    - ts: "2024-04-15 18:26:08"
+      description: The incident response team have determined that the issue is now resolved.
+      resolved: true

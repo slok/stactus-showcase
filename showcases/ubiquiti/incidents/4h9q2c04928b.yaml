@@ -1,0 +1,22 @@
+version: incident/v1
+id: 4h9q2c04928b
+name: Elevated API Errors
+impact: critical
+systems:
+    - srxrnrly7lqz
+timeline:
+    - ts: "2020-08-25 15:53:38"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2020-08-25 17:47:33"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2020-08-25 19:49:04"
+      description: Rolling out fixes for the issue.
+    - ts: "2020-08-25 23:44:57"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2020-08-25 23:46:53"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2020-08-26 04:02:07"
+      description: AmpliFi Cloud & UniFi Protect remote connectivity service has been restored globally.
+    - ts: "2020-08-26 04:02:19"
+      description: This incident has been resolved.
+      resolved: true

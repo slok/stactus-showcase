@@ -1,0 +1,31 @@
+version: incident/v1
+id: 9lmrb0ch7cnn
+name: Incident with Copilot
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2024-07-11 13:02:10"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2024-07-11 13:02:17"
+      description: Copilot's Chat functionality is experiencing intermittent timeouts, we are investigating the issue.
+      investigating: true
+    - ts: "2024-07-11 13:32:07"
+      description: We continue to investigate the cause of intermittent timeouts impacting Copilot’s Chat functionality. This is impacting a small fraction of customers. We will provide further updates as we continue resolving the issue.
+      investigating: true
+    - ts: "2024-07-11 14:14:23"
+      description: We continue to investigate the cause of intermittent timeouts impacting Copilot’s Chat functionality. This is impacting a small fraction of customers. We will provide further updates as we continue resolving the issue.
+      investigating: true
+    - ts: "2024-07-11 15:04:42"
+      description: We continue to investigate the cause of intermittent timeouts impacting Copilot’s Chat functionality. This is impacting a small fraction of customers. The timeout errors we are seeing has reduced back to healthy levels for the last 60 minutes but we are monitoring closely.
+      investigating: true
+    - ts: "2024-07-11 15:19:49"
+      description: We have mitigated the intermittent timeout errors impacting Copilot’s Chat functionality and expect the incident to be resolved shortly.
+      investigating: true
+    - ts: "2024-07-11 15:21:16"
+      description: Copilot is operating normally.
+      investigating: true
+    - ts: "2024-07-11 15:21:17"
+      description: On July 11, 2024, between 10:20 UTC and 14:00 UTC Copilot Chat was degraded and experienced intermittent timeouts. This only impacted requests routed to one of our service region providers. The error rate peaked at 10% for all requests and 9% of users. This was due to host upgrades in an upstream service provider. While this was a planned event, processes and tooling was not in place to anticipate and mitigate this downtime. <br /><br /><br />We are working to improve our processes and tooling for future planned events and escalation paths with our upstream providers.<br />
+      resolved: true

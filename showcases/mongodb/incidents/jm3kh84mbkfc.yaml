@@ -1,0 +1,17 @@
+version: incident/v1
+id: jm3kh84mbkfc
+name: Increased Atlas Data Federation and Online Archive query latency
+impact: minor
+systems:
+    - lh7m7lhnf3rj
+timeline:
+    - ts: "2024-02-13 14:23:25"
+      description: Users of Atlas Data Federation and Online Archive may see increased query latency for some queries.
+      investigating: true
+    - ts: "2024-02-13 14:49:07"
+      description: A fix has been implemented and we are monitoring results.
+    - ts: "2024-02-13 14:52:41"
+      description: Atlas Data Federation and Online Archive is back to being operational and stable.
+    - ts: "2024-02-13 17:47:30"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,22 @@
+version: incident/v1
+id: c1cpwgm27fwp
+name: Degraded Functions Service in TOR1
+impact: minor
+systems:
+    - d3j48w1r55sx
+timeline:
+    - ts: "2024-07-17 17:24:10"
+      description: |-
+        Our Engineering team has identified an issue with Functions in our TOR1 region and a fix is currently being deployed.
+
+        During this time, users may experience errors while creating or editing Functions, triggers, and related settings via the Cloud Control Panel and API.
+
+        We apologize for the disruption and will post an update once the fix has finished rolling out.
+    - ts: "2024-07-17 17:46:32"
+      description: "The fix was deployed successfully and the impact appears to have subsided. Users should now be able to create and update functions, triggers and related settings via Cloud Control Panel and API. \n\nWe are monitoring the situation and will post an update once we can fully confirm resolution."
+    - ts: "2024-07-17 18:49:55"
+      description: |-
+        Our Engineering team has confirmed the full resolution of the issue impacting the ability to create and manage Functions through the Cloud Control Panel and API in our TOR1 region. We appreciate your patience throughout the process.
+
+        If you continue to see errors please open a ticket with our Support team and we will be glad to assist you further.
+      resolved: true

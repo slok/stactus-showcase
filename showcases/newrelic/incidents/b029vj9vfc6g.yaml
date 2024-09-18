@@ -1,0 +1,42 @@
+version: incident/v1
+id: b029vj9vfc6g
+name: NRQL Query Errors in US Region
+impact: minor
+systems:
+    - 2vkckmpm1kh6
+    - k4c77k6bzcl7
+    - ty1004s644gq
+    - 1ccpnwlhg6xx
+    - 45zc1fn1w80h
+    - k2c0hnpnmgqn
+    - j6v4tzmw08t4
+    - 5kywhg5j0l21
+    - 1mwh21hqrxlw
+    - 2jrn08x58ps2
+    - nw4g7754n7tl
+    - pmtvnzg1dzfm
+    - x87lk2mkvdtx
+    - s27h21w34qhk
+    - g3mtj9z8c1cq
+    - 6x8hq64xfvwl
+    - 833c8h98qq4g
+    - q94v4hz14v0f
+    - xrzsz1k79xbd
+    - czn9jxzshjxn
+    - 5qhzckvc2ncn
+    - xlzs28xhd8bw
+    - mc4f9x2xl1zg
+    - 927km3k58wgb
+    - 8k5pmrjbl1w0
+    - 7yqy1ctsjw35
+    - 5kj1rklxtgzg
+timeline:
+    - ts: "2024-02-23 17:31:51"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-02-23 17:45:53"
+      description: |-
+        Between 16:15 UTC and 17:25 UTC on February 23rd, some customers in the US region may have experienced errors when running NRQL queries or when accessing reports or parts of the New Relic UI.
+
+        We have investigated and resolved this interruption and the above services have returned to normal operation.
+      resolved: true

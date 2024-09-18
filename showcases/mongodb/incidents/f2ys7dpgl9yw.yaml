@@ -1,0 +1,15 @@
+version: incident/v1
+id: f2ys7dpgl9yw
+name: 'MongoDB Atlas: Networking issues in some Azure regions'
+impact: none
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-03-14 13:56:23"
+      description: |-
+        We have detected effects from increased network latency and packet drops in the Azure regions South Africa North and South Africa West. Affected users may have difficulties creating or expanding clusters in these regions. Additionally, metrics and logs may be delayed for existing clusters in the region. Effects from this issue were detected starting around 10:30am UTC.
+
+        We invite users to follow Azure's status blog for further updates: https://azure.status.microsoft/en-us/status
+    - ts: "2024-03-18 17:03:59"
+      description: This incident has been resolved.
+      resolved: true

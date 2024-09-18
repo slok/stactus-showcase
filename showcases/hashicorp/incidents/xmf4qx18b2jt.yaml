@@ -1,0 +1,14 @@
+version: incident/v1
+id: xmf4qx18b2jt
+name: GitHub App webhooks not being processed
+impact: minor
+systems:
+    - 7cgbxrw10wgr
+timeline:
+    - ts: "2024-04-11 14:34:20"
+      description: GitHub App webhooks are not currently being processed. We have identified a fix and are in the process of remediating.
+    - ts: "2024-04-11 14:54:59"
+      description: Fix is deployed and we are currently monitoring.
+    - ts: "2024-04-11 15:07:56"
+      description: The issue has been resolved. Customers with a GitHub App who may have been impacted can retry now that the incident has passed by pushing a new commit.
+      resolved: true

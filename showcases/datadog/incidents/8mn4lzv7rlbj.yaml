@@ -1,0 +1,15 @@
+version: incident/v1
+id: 8mn4lzv7rlbj
+name: Delayed Monitor Notifications
+impact: minor
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2023-04-17 13:25:02"
+      description: We are investigating delays in Monitors Notifications, which began at 16:27 UTC
+      investigating: true
+    - ts: "2023-04-17 13:36:57"
+      description: The issue has been identified and a fix has been rolled out. Monitor notifications are now current again
+    - ts: "2023-04-17 13:51:25"
+      description: This incident has been resolved.
+      resolved: true

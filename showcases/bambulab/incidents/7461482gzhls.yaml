@@ -1,0 +1,11 @@
+version: incident/v1
+id: 7461482gzhls
+name: Liveview is Abnormal
+impact: none
+systems: []
+timeline:
+    - ts: "2023-08-25 04:55:21"
+      description: From 2023/08/24 15:10 to 17:07 UTC, due to printer communication issue, some users are experiencing live-view (remove video) fail issues.
+    - ts: "2023-08-25 04:55:47"
+      description: This incident has been resolved.
+      resolved: true

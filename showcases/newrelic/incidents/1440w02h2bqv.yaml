@@ -1,0 +1,15 @@
+version: incident/v1
+id: 1440w02h2bqv
+name: Browser Data and Alert Delays in US region
+impact: minor
+systems:
+    - 5x10l9g2z3t6
+    - 1ccpnwlhg6xx
+    - 1mwh21hqrxlw
+timeline:
+    - ts: "2024-07-17 21:51:52"
+      description: Some customers may be experiencing issues with browser data availability in queries, charts, and dashboards as well as delayed or missing alert notifications for related data. To prevent our customers from receiving a high volume of false alert notifications, alerts are temporarily suppressed for impacted customers.
+      investigating: true
+    - ts: "2024-07-17 22:18:52"
+      description: "Between 21:30 UTC and 22:12 UTC on July 17th, some customers in the US region may have experienced with browser data availability in queries, charts, and dashboards as well as delayed or missing alert notifications for related data. \n\nWe have investigated and resolved this service interruption and impacted services have returned to normal operations."
+      resolved: true

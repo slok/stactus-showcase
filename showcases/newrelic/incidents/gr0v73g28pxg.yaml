@@ -1,0 +1,26 @@
+version: incident/v1
+id: gr0v73g28pxg
+name: Data Delays for US Region
+impact: none
+systems:
+    - k4c77k6bzcl7
+    - 2jrn08x58ps2
+    - pmtvnzg1dzfm
+    - s27h21w34qhk
+    - 6x8hq64xfvwl
+timeline:
+    - ts: "2023-07-01 21:32:01"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2023-07-01 21:54:57"
+      description: We are investigating a potential interruption with one of our cloud providers. Some customers in the US region may be experiencing issues viewing and querying data. Alert notifications may be missing or delayed for impacted accounts.
+      investigating: true
+    - ts: "2023-07-01 22:42:48"
+      description: New Relic teams are continuing to work with our cloud provider, as well as investigating opportunities to mitigate or reduce impact for our customers. Some customers in the US region may be experiencing issues viewing and querying data, as well as delayed or missing alert notifications.
+      investigating: true
+    - ts: "2023-07-01 22:52:25"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-07-01 23:45:03"
+      description: Between 20:17 UTC and 23:14 UTC on July 1, some customers in the US region may have experienced issues viewing and querying data. Alert notifications may have been delayed or missing for impacted customers. We investigated and resolved an interruption with our cloud provider.
+      resolved: true

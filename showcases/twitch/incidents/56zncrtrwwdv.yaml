@@ -1,0 +1,12 @@
+version: incident/v1
+id: 56zncrtrwwdv
+name: Identified Video (Watching) Issues
+impact: minor
+systems:
+    - wkdq12ctv52c
+timeline:
+    - ts: "2021-06-25 18:53:06"
+      description: "\U0001F6E0 We have identified an issue preventing people from watching streams on Twitch. We're currently working to resolve this issue."
+    - ts: "2021-06-25 19:42:32"
+      description: "\U0001F6E0 We've resolved all known issues of streams not playing across Twitch."
+      resolved: true

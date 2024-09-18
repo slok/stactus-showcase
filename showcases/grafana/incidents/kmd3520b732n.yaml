@@ -1,0 +1,32 @@
+version: incident/v1
+id: kmd3520b732n
+name: Some Loki Queries Failing
+impact: minor
+systems:
+    - bg6nnf5n3pjx
+    - 1cj80yl7f6dy
+    - 9z18xdj3j8c7
+    - gx6m1v8jy475
+    - 318npch70m7f
+    - nfll10wmx61f
+    - dy7xwydh5kv3
+    - k21kfy4lhmdw
+    - 2lyhl59mn4dl
+    - 6rlxmdg0t6v3
+    - hqf81r9207h6
+    - tpk4cdhtsm82
+    - d6hp5brmvsbt
+    - rwvs9fvrnhp2
+    - x40g7bxm0q2d
+    - v3g3j6krw8rp
+    - gp2m13gyj6x2
+    - 662yyglvgqpm
+    - l72f5c7651n5
+    - 98skfgrdgchf
+timeline:
+    - ts: "2024-07-25 14:59:15"
+      description: We are currently investigating an issue that is causing the Loki read path to experience periodic panics on certain queries. Users may notice some queries failing. Our team is actively working to identify the root cause as well as a resolution.
+      investigating: true
+    - ts: "2024-07-29 20:16:26"
+      description: This incident has been resolved. All query function should work as expected.
+      resolved: true

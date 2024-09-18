@@ -1,0 +1,33 @@
+version: incident/v1
+id: t84yclf9w2b2
+name: Datasource API Server Outage
+impact: major
+systems:
+    - z5ysrlvblv9t
+timeline:
+    - ts: "2024-07-17 19:18:17"
+      description: |-
+        At approximately 18:19 UTC, our team identified an issue with our datasource API servers, which required us to restart a number of clusters which may have affected the follow datasources:
+
+        abodbeanalytics
+        astra
+        azure data explorer
+        catchpoint
+        clickhouse
+        cloudflare
+        falcon log scale
+        github
+        gitlab
+        googlesheets
+        infinity
+        jira
+        mongodb
+        pagerduty
+        salesforce
+        sentry
+        surreal
+
+        Users may experience outages for the above until the clusters have all been restarted.
+    - ts: "2024-07-17 20:29:13"
+      description: All clusters have been restarted and datasources should be fully operational.
+      resolved: true

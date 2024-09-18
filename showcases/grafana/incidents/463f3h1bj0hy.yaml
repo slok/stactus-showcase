@@ -1,0 +1,9 @@
+version: incident/v1
+id: 463f3h1bj0hy
+name: Synthetic monitoring DNS failures, Frankfurt probe location
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-09 22:54:37"
+      description: From 13:49 - 13:54 UTC a deployment to the Frankfurt probe location caused DNS resolution timeouts affecting  DNS, HTTP, MultiHTTP, and Scripted checks with failure rates of 20-50% during this time.  After a rollback by 13:54 synthetics tests returned to normal.
+      resolved: true

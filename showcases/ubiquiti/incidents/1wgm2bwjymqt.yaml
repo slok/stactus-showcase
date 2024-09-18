@@ -1,0 +1,16 @@
+version: incident/v1
+id: 1wgm2bwjymqt
+name: Remote Access Connectivity Issues
+impact: major
+systems:
+    - f4txj806xph9
+    - 50j8z65sq9pt
+timeline:
+    - ts: "2022-04-07 15:12:09"
+      description: An issue has been identified where some users may be unable to connect remotely to their devices. Our teams are investigating the issue and will provide periodic updates on status.ui.com. We apologize for any inconvenience and are working to restore service as quickly as possible.
+      investigating: true
+    - ts: "2022-04-07 15:19:09"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2022-04-07 16:16:35"
+      description: This incident has been resolved.
+      resolved: true

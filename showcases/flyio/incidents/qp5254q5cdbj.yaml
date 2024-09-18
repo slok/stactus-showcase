@@ -1,0 +1,17 @@
+version: incident/v1
+id: qp5254q5cdbj
+name: Elevated errors for new machines
+impact: none
+systems:
+    - 49yq6v65b33l
+timeline:
+    - ts: "2024-06-05 15:50:54"
+      description: We are investigating an issue causing elevated errors involving new Machine creation.
+      investigating: true
+    - ts: "2024-06-05 16:00:23"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-06-05 16:33:58"
+      description: A fix has been deployed and we are monitoring for any further issues. If you are still experiencing any errors with machine deployments, please try redeploying the machine.
+    - ts: "2024-06-05 17:26:06"
+      description: This incident has been resolved.
+      resolved: true

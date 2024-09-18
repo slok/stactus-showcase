@@ -1,0 +1,25 @@
+version: incident/v1
+id: v677w7xlvkss
+name: Processing delays to some Issues, Pull Requests and Webhooks
+impact: minor
+systems:
+    - 4230lsnqdsld
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+timeline:
+    - ts: "2024-09-13 05:42:41"
+      description: We are investigating reports of degraded performance for Issues, Pull Requests and Webhooks
+      investigating: true
+    - ts: "2024-09-13 05:59:16"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-09-13 06:23:57"
+      description: We've applied a mitigation to fix the issues being experienced in some cases with delays to webhook deliveries, and the delayed reporting of the outcome of some running Actions jobs. We are monitoring for full recovery.
+      investigating: true
+    - ts: "2024-09-13 06:49:33"
+      description: We are seeing improvements in telemetry and are monitoring the delivery of delayed Webhooks and Actions job statuses.
+      investigating: true
+    - ts: "2024-09-13 07:13:24"
+      description: On Sep 13, 2024, between 05:03 UTC and 07:13 UTC, the Webhooks and Actions services were degraded resulting in some customers experiencing delayed processing of Webhooks and Actions Runs. 0.5% of Webhook deliveries were delayed more than 2 minutes during the incident. 15% of Actions Runs started between 05:03 and 05:24 UTC saw run start delays or failures. At 05:24 UTC, we implemented a mitigation to shift traffic to healthy infrastructure and new Actions Runs resumed normal operations. During the rest of the incident window, Actions runs started before 05:24 UTC continued to see delays publishing logs or job results.  No Actions runs or Webhook deliveries were lost, only delayed.<br /><br />We mitigated the incident by immediately shifting traffic to a healthy cluster while investigating. The incident was caused by an erroneous configuration change on our eventing platform. A permanent fix was deployed at 06:22 UTC after which services began to recover and burn down their backed up queues, with full recovery by 07:13 UTC.<br /><br />We are working to reduce our time to detection and develop test automation to prevent issues like this one in the future.<br />
+      resolved: true

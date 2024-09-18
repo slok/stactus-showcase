@@ -1,0 +1,32 @@
+version: incident/v1
+id: 7q9mvr469jp3
+name: 'Microsoft Azure Incident: Degraded Cluster Health - Azure Central US'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-07-18 23:02:14"
+      description: |-
+        Microsoft Azure is experiencing an issue with VMs in the Central US region. This is causing degraded health of some Atlas Clusters hosted in the Azure Central US region. In some cases, the cluster may not be accessible.
+
+        Further incident details may be found in the Service Health Dashboard in your Microsoft Azure Portal.
+      investigating: true
+    - ts: "2024-07-18 23:46:16"
+      description: |-
+        An Azure outage impacting Central US VMs has caused some Atlas Clusters hosted in that region to be in a degraded or unreachable state.
+
+        Updates from Azure can be tracked at https://azure.status.microsoft/en-us/status and in the Service Health Dashboard in your Microsoft Azure Portal.
+    - ts: "2024-07-19 00:48:59"
+      description: We are continuing to monitor the service issue and provide updates when possible.
+    - ts: "2024-07-19 02:50:50"
+      description: We are beginning to see impacted Atlas Clusters heal and reach a healthy state. We will continue to monitor Microsoft Azure's status post (https://azure.status.microsoft/en-us/status) to indicate the issue is fully resolved.
+    - ts: "2024-07-19 03:39:57"
+      description: Impacted Atlas Clusters have healed and are now in a healthy state. Microsoft Azure's status post indicates their incident is still active. We are monitoring Atlas Clusters for any residual effects and will mitigate any issues if necessary.
+    - ts: "2024-07-19 12:23:47"
+      description: |-
+        Microsoft Azure updated their status post (https://azure.status.microsoft/en-us/status) to give information on the cause of the incident and communicated that a majority of their services are now recovered.
+
+        Atlas Clusters in the impacted Azure Central US region remain in a healthy state. We are continuing to track Azure's investigation.
+    - ts: "2024-07-19 15:11:06"
+      description: "Microsoft Azure has updated their status history (https://azure.status.microsoft/en-us/status/history/) and indicated that impacted services have returned to their expected availability levels. \n\nThis incident has been resolved."
+      resolved: true

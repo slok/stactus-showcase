@@ -1,0 +1,16 @@
+version: incident/v1
+id: 36q5r1pm75kk
+name: Remote Access and UI Account Service Degraded Performance
+impact: minor
+systems:
+    - f4txj806xph9
+    - vqmcpp1kx7pf
+    - 50j8z65sq9pt
+    - wv2xgtj1bndn
+timeline:
+    - ts: "2023-12-20 13:09:14"
+      description: We are aware of a degraded performance and are investigating with the highest priority.
+      investigating: true
+    - ts: "2023-12-20 14:10:48"
+      description: This incident has been resolved.
+      resolved: true

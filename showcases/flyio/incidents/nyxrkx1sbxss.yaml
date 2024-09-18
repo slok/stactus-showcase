@@ -1,0 +1,21 @@
+version: incident/v1
+id: nyxrkx1sbxss
+name: US Regional Routing Issue
+impact: minor
+systems:
+    - 0n06d5z1tsfw
+    - qpc9br6drs4d
+    - 3y5pzyxr1cbz
+    - gjyfpty295z6
+    - qyh8qlklk7mx
+    - 4zqk2hwhfmvb
+    - 90c4gtltx29n
+    - vfq82tp9wp5r
+    - psk6740r111k
+    - 49qj4qjyzlzn
+timeline:
+    - ts: "2024-07-16 17:43:32"
+      description: Some cross-region traffic is being dropped due to a routing misconfiguration outside of our network. We're actively working with our upstream providers to resolve this. You may experience elevated packet loss and/or increased latency for the effected regions.
+    - ts: "2024-07-17 15:21:58"
+      description: This incident has been resolved.
+      resolved: true

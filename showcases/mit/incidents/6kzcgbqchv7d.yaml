@@ -1,0 +1,31 @@
+version: incident/v1
+id: 6kzcgbqchv7d
+name: “Data Warehouse – Status of SAP Data”
+impact: none
+systems: []
+timeline:
+    - ts: "2024-01-12 12:51:25"
+      description: |-
+        To: All Data Warehouse users,
+
+        This is a notification that some of the January 11th data received from various data sources is not yet available in the warehouse.
+        The data that has been impacted includes, but may not be limited to:
+
+        -	Financial data – cost objects, fund centers, project wbs, etc
+        -	Roles data
+        -	Payroll data
+        -	SAP Lookups / additional master data
+        -	Purchasing / change log data
+        -	Balances / Budgets data
+        -       MITSIS data
+        -       COEUS data
+        -       Budget data
+
+        There was a database resource allocation issue that caused the problem. This has been addressed and technical resources are working on refreshing the warehouse with additional January 11th data. The warehouse data is expected to be up to date this evening.
+
+        Please visit http://3down.mit.edu/ for updates during the outage. If you have any questions about this system outage please feel free to reach out to warehouse@mit.edu.
+
+        Thank you for your patience and understanding during this time.
+    - ts: "2024-01-13 12:55:02"
+      description: This incident has been resolved.
+      resolved: true

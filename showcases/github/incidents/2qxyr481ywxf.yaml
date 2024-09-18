@@ -1,0 +1,16 @@
+version: incident/v1
+id: 2qxyr481ywxf
+name: Disruption with some GitHub services
+impact: minor
+systems:
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2024-08-13 13:11:56"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-08-13 13:16:16"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-08-13 13:23:55"
+      description: On August 13, 2024, between 13:00 UTC and 13:23 UTC the Copilot service and some parts of the GitHub UI were degraded. This impacted about 25% of GitHub.com users. This was due to a partial rollout of a caching layer for Copilot licensing checks. During the rollout, connections to the caching layer were overwhelmed causing the licensing checks to timeout. Many pages were impacted by this failure due to a lack of resiliency to the timeouts.<br /><br />We mitigated the incident by reverting the rollout of the caching layer 11 minutes after initial detection. This immediately restored functionality for affected users.<br /><br />We are working to gracefully degrade experiences during these types of failures and reduce dependencies across services that may cause these types of failures in the future.<br />
+      resolved: true

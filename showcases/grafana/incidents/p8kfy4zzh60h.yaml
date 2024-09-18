@@ -1,0 +1,16 @@
+version: incident/v1
+id: p8kfy4zzh60h
+name: Tempo Instability in Prod-us-central-0
+impact: major
+systems:
+    - 9xz0880z67zl
+    - t7pbglh025rz
+timeline:
+    - ts: "2024-06-18 20:42:04"
+      description: We are currently investigating an issue that may cause problems for some customers with reads and writes in Tempo prod-us-central-0
+      investigating: true
+    - ts: "2024-06-18 21:55:13"
+      description: The system is stable now. We are continuing to monitor this Incident.
+    - ts: "2024-06-24 22:38:08"
+      description: We continue to observe a continued period of recovery. At this time, we are considering this issue resolved. No further updates.
+      resolved: true

@@ -1,0 +1,71 @@
+version: incident/v1
+id: b50r6spb516k
+name: Monitors - UI
+impact: minor
+systems:
+    - s6jxgrkjjj6p
+    - s66ymj7q3sdd
+timeline:
+    - ts: "2023-04-16 03:10:18"
+      description: We are investigating issues with creating and updating monitors in the Monitoring UI, which began at 5:10 UTC.
+      investigating: true
+    - ts: "2023-04-16 06:17:31"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2023-04-16 08:02:53"
+      description: Monitor search functionality has been restored. Fixes for updating monitor state and monitor groups are still in progress.
+    - ts: "2023-04-16 08:45:47"
+      description: |-
+        The issue is currently affecting the display of monitors, monitor groups and monitor state in the Monitoring UI for all types of monitors. Fixes are still in progress.
+        Monitor evaluation, creation, updates and alerting are unaffected.
+    - ts: "2023-04-16 09:15:11"
+      description: |-
+        We have confirmed that the issue impacts the Monitors UI and the Synthetics UI and is limited to the display of state in the UI.  We are working on a resolution and will provide an ETA once available.
+        Monitor and synthetics creation, updates, evaluation and alerting are operating normally.
+    - ts: "2023-04-16 10:32:08"
+      description: |-
+        We continue to work on the resolution of the problem affecting the Monitors and Synthetics UIs.
+        Monitor and Synthetic test states are reported accurately via the individual monitors and synthetic test status pages.
+    - ts: "2023-04-16 11:17:26"
+      description: |-
+        Fixes for the issue affecting the Monitors and Synthetics UIs are undergoing verifications and we will share additional details and a resolution timeline in our next update.
+        Monitor and Synthetic test states are reported accurately via the individual monitors and synthetic test status pages.
+    - ts: "2023-04-16 12:18:36"
+      description: The fix for the Monitors and Synthetics UIs is now deployed and we are in the process of re-enabling the search pages functionality. Monitor groups are being backfilled with a completion ETA of 90 minutes. Muted monitor state and monitor suggestions will remain out-of-date in search pages. This only affects the status reported in the UI.
+    - ts: "2023-04-16 12:59:01"
+      description: |-
+        Monitors and Synthetics UI search pages are now fully operational.
+        We continue to backfill the Monitor groups state and expect this activity to complete within the next one hour. Muted monitors state will remain out-of-date in search pages without that affecting their operation while backfilling is in progress. New monitor suggestions remain unavailable.
+    - ts: "2023-04-16 13:42:52"
+      description: |-
+        Monitors, Monitor groups and Synthetics UI are fully operational.
+
+        Muted monitors state will remain out-of-date in search pages without that affecting their operation while backfilling is in progress. New monitor suggestions remain unavailable. We will continue to provide regular updates while resolving these remaining issues.
+    - ts: "2023-04-16 15:20:30"
+      description: Muted monitors state is stale in search pages and new monitor suggestions are unavailable. All monitors are fully operational while we continue working on the remaining issues.
+    - ts: "2023-04-16 16:36:23"
+      description: Muted monitors state is stale in search pages and new monitor suggestions are unavailable. All monitors are fully operational while we continue working on the remaining issues.
+    - ts: "2023-04-16 18:16:29"
+      description: Muted monitors state is stale in search pages and new monitor suggestions are unavailable. All monitors are fully operational while we continue working on the remaining issues.
+    - ts: "2023-04-16 20:08:57"
+      description: Muted monitors state is stale in search pages and new monitor suggestions are unavailable. All monitors are fully operational while we continue working on the remaining issues.
+    - ts: "2023-04-16 22:10:02"
+      description: Muted monitors state is stale in search pages and new monitor suggestions are unavailable. All monitors are fully operational while we continue working on the remaining issues.
+    - ts: "2023-04-17 00:03:43"
+      description: Muted monitors state is stale in search pages and new monitor suggestions are unavailable. All monitors are fully operational while we continue working on the remaining issues.
+    - ts: "2023-04-17 02:16:58"
+      description: Muted monitors state is stale in search pages and new monitor suggestions are unavailable. All monitors are fully operational while we continue working on the remaining issues.
+    - ts: "2023-04-17 04:06:04"
+      description: Muted monitors state is stale in search pages and new monitor suggestions are unavailable. All monitors are fully operational while we continue working on the remaining issues.
+    - ts: "2023-04-17 06:41:51"
+      description: |-
+        All monitors are fully operational, and we are processing monitor data in real time. Muted monitors state may be inconsistent while backfilling is in progress.
+        We will provide another update once the backfill is fully done.
+    - ts: "2023-04-17 06:53:16"
+      description: |-
+        All monitors are fully operational, and we are processing monitor data in real time. Muted monitors state may be stale while viewed on the "Manage Monitor" page, but up to date when viewed on the monitor status page.
+        Backfilling is in progress. We will provide another update once the backfill is fully done.
+    - ts: "2023-04-17 10:19:56"
+      description: |-
+        Backfill of monitor data has been done. Monitors are fully operational.
+        This incident has been resolved.
+      resolved: true

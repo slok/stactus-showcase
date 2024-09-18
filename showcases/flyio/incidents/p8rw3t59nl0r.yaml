@@ -1,0 +1,24 @@
+version: incident/v1
+id: p8rw3t59nl0r
+name: Builders are having issues being created in gru region
+impact: none
+systems: []
+timeline:
+    - ts: "2024-06-18 14:03:56"
+      description: We are currently investigating this issue
+      investigating: true
+    - ts: "2024-06-18 14:51:09"
+      description: |-
+        We have identified the issue and are actively working on a fix. In the meantime, you may work around by destroying your remote builder app and recreating it in another region nearby, e.g Rio de Janeiro (gig).
+
+        Identify the name of your builder app (prefixed with "fly-builder-"):
+        fly apps list
+
+        Destroy the builder:
+        fly apps destroy <builder-app-name>
+
+        Redeploy with a builder app in another region:
+        FLY_REMOTE_BUILDER_REGION=gig fly deploy
+    - ts: "2024-06-18 15:30:02"
+      description: We have deployed a fix to the issue.
+      resolved: true

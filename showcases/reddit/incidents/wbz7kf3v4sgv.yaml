@@ -1,0 +1,18 @@
+version: incident/v1
+id: wbz7kf3v4sgv
+name: Increased Error Rates Detected
+impact: major
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+    - jqv4qjdzx23l
+timeline:
+    - ts: "2023-09-07 10:29:51"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2023-09-07 11:40:28"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2023-09-07 13:26:39"
+      description: This incident has been resolved.
+      resolved: true

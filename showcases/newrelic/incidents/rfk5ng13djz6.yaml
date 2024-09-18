@@ -1,0 +1,52 @@
+version: incident/v1
+id: rfk5ng13djz6
+name: Login and UI Irregularities in US and EU Regions
+impact: minor
+systems:
+    - k4c77k6bzcl7
+    - ssdh7xpzvw1l
+    - ty1004s644gq
+    - gmn0nk8bzns7
+    - k2c0hnpnmgqn
+    - dgtbt0fh397m
+    - j6v4tzmw08t4
+    - fpds3wrx84c0
+    - 1mwh21hqrxlw
+    - zhbggrqh2xl6
+    - nw4g7754n7tl
+    - 6qh38lgrdr8v
+    - x87lk2mkvdtx
+    - 5ptd99lkyfbn
+    - g3mtj9z8c1cq
+    - vr1305kd0fnz
+    - q94v4hz14v0f
+    - dw81gfk0f10y
+    - xrzsz1k79xbd
+    - r6fg75bj1j7h
+    - 5qhzckvc2ncn
+    - 36218xs1zbvy
+    - mc4f9x2xl1zg
+    - 5wk3qb87hk5h
+    - 927km3k58wgb
+    - s7j157s900c3
+    - 8k5pmrjbl1w0
+    - jgl5xywwz8l3
+    - 7yqy1ctsjw35
+    - zbbfpr0656gw
+    - 5kj1rklxtgzg
+    - 0zhztcy8gf0v
+timeline:
+    - ts: "2023-08-08 18:38:51"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-08-08 18:49:39"
+      description: Some customers in the US and EU regions may be encountering errors when attempting to log in to the New Relic platform or load some pages in the UI.
+      investigating: true
+    - ts: "2023-08-08 19:04:54"
+      description: Some customers may notice recovery of affected services at this time, including login and UI. Some customers may continue to experience residual issues loading UI elements while services return to normal operation.
+    - ts: "2023-08-08 19:17:32"
+      description: |-
+        Between 18:28 UTC and 19:00 UTC on August 8th, some customers in the US and EU regions may have encountered errors when attempting to log in to the New Relic platform or load some pages in the UI.
+         
+        We have investigated and resolved this issue and the above services have returned to normal operation.
+      resolved: true

@@ -1,0 +1,71 @@
+version: incident/v1
+id: bh9kdyrlfc1t
+name: Alert Delays in US Region
+impact: major
+systems:
+    - rbts0zzw73dl
+    - 5x10l9g2z3t6
+    - 028b05n94my0
+    - 5p33lkzzqm0z
+    - ymfwncrn2dnh
+    - 9jndj4kfv59w
+    - lm2qpsbfggh7
+    - prjgs1mvmqg9
+timeline:
+    - ts: "2023-08-26 15:31:29"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2023-08-26 15:48:36"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-08-26 15:56:13"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2023-08-26 16:10:10"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-08-26 16:58:31"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2023-08-26 17:06:42"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2023-08-26 17:39:47"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-08-26 18:10:57"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-08-26 18:45:13"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-08-26 19:17:12"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-08-26 19:47:38"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-08-26 20:18:02"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2023-08-26 20:49:55"
+      description: |-
+        We are continuing to investigate an issue with alerts. Some customers in the US region may be experiencing delayed or missing alert notifications, as well as intermittent false positive alerts.
+        We have engaged all necessary resources and have completed various actions to reduce or mitigate impact while we work to identify the root cause for the interruption.
+    - ts: "2023-08-26 22:00:53"
+      description: We are still investigating this interruption. Some customers in the US region may be experiencing delayed or missing alert notifications, as well as intermittent false positive alerts.
+    - ts: "2023-08-26 23:10:36"
+      description: |-
+        Some customers in the US region may be experiencing delayed or missing alert notifications, as well as intermittent false positive alerts.
+        We are still actively engaged on this issue. Our teams have scaled the system and tried to reduce traffic where appropriate, as well as implemented additional targeted monitoring to assist with the investigation.
+    - ts: "2023-08-27 00:23:53"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2023-08-27 01:45:30"
+      description: We are continuing to work toward resolution on this issue.
+    - ts: "2023-08-27 03:20:27"
+      description: We are continuing to work toward resolution on this issue.
+    - ts: "2023-08-27 04:17:11"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2023-08-27 04:46:31"
+      description: |-
+        Between approximately 14:30 UTC on August 26th and 03:59 UTC on August 27th, some customers in the US region may have experienced missing, delayed, or false alert notifications.
+
+        We investigated and resolved this interruption. Impacted services have returned to normal operation.
+      resolved: true

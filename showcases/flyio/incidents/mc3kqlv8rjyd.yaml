@@ -1,0 +1,15 @@
+version: incident/v1
+id: mc3kqlv8rjyd
+name: Network issue in SCL
+impact: critical
+systems:
+    - gdnn4nszzcn8
+timeline:
+    - ts: "2024-08-20 11:32:28"
+      description: We're investigating a network disconnection affecting the SCL region.
+      investigating: true
+    - ts: "2024-08-20 13:19:48"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-08-20 13:49:17"
+      description: This incident has been resolved.
+      resolved: true
