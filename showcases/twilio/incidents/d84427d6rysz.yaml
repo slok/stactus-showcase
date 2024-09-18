@@ -1,7 +1,7 @@
 version: incident/v1
 id: d84427d6rysz
-name: On Call Engineers are Investigating an issue with Functions & Assets
-impact: none
+name: Issue With Severless Functions and Assets
+impact: minor
 systems:
     - b3tl520cz8tc
     - ld8ss4pqqskp
@@ -9,3 +9,10 @@ timeline:
     - ts: "2024-09-18 19:20:41"
       description: Our monitoring systems have detected a potential issue with Functions & Assets. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2024-09-18 20:11:56"
+      description: Our engineers have identified the issue with Functions & Assets and are working to deploy a fix. At this time, customers might see issues when opening the editor in Function & Assets. We expect to provide another update in 15 minutes, or as soon as more information becomes available.
+    - ts: "2024-09-18 20:34:00"
+      description: Our engineers have identified the issue with Functions & Assets and are working to deploy a fix. At this time, customers might see issues when opening the editor in Function & Assets. We expect to provide another update in 30 minutes, or as soon as more information becomes available.
+    - ts: "2024-09-18 20:54:45"
+      description: Our engineers have investigated the reported issue with Functions & Assets, and this issue has been confirmed to not be a widespread impact to customers. Functions & Assets is operating normally and this issue is resolved.
+      resolved: true
