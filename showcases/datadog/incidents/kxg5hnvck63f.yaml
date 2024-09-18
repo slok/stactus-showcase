@@ -5,15 +5,15 @@ impact: minor
 systems:
     - s6jxgrkjjj6p
 timeline:
-    - ts: "2024-08-28 17:00:02"
+    - ts: "2024-08-28 21:00:02"
       description: We are investigating increased metrics based monitor delays for some customers.
       investigating: true
-    - ts: "2024-08-28 17:38:21"
+    - ts: "2024-08-28 21:38:21"
       description: We have identified the issue and deployed a fix, we are monitoring the recovery.
       investigating: true
-    - ts: "2024-08-28 18:13:15"
+    - ts: "2024-08-28 22:13:15"
       description: Monitors with long intervals may still be delayed but the service is recovered.
       investigating: true
-    - ts: "2024-08-28 18:40:47"
+    - ts: "2024-08-28 22:40:47"
       description: This incident has been resolved.
       resolved: true

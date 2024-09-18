@@ -5,13 +5,13 @@ impact: critical
 systems:
     - dpdsycjtknlz
 timeline:
-    - ts: "2024-01-05 06:47:27"
+    - ts: "2024-01-05 11:47:27"
       description: IS&T is aware and is currently investigating an issue that is preventing DNS resolution of some Internet sites. This issue appears to be impacting a number of services.
       investigating: true
-    - ts: "2024-01-05 07:06:45"
+    - ts: "2024-01-05 12:06:45"
       description: The issue has been identified and a fix is being implemented.
-    - ts: "2024-01-05 08:07:37"
+    - ts: "2024-01-05 13:07:37"
       description: A fix has been implemented and we are monitoring the results.
-    - ts: "2024-01-05 19:13:35"
+    - ts: "2024-01-06 00:13:35"
       description: An issue related to a vendor's maintenance resulted in the inability to resolve various hostnames served by that vendor's DNS. This impacted multiple services on MITnet that relied upon resolving those hostnames. Action was taken by IS&T to remedy the issue while the vendor's maintenance was completed.
       resolved: true

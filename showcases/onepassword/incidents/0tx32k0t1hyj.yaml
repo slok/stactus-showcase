@@ -4,37 +4,37 @@ name: MFA login issues
 impact: none
 systems: []
 timeline:
-    - ts: "2023-11-21 21:02:19"
+    - ts: "2023-11-22 02:02:19"
       description: We are aware of an issue with MFA logins impacting the ability to log into 1Password on iOS for some users. Our engineers are actively investigating and updates will follow accordingly.
       investigating: true
-    - ts: "2023-11-21 23:09:37"
+    - ts: "2023-11-22 04:09:37"
       description: We think we have identified the issue and are testing a fix.
-    - ts: "2023-11-21 23:42:23"
+    - ts: "2023-11-22 04:42:23"
       description: We are continuing to investigate the issue and will update accordingly.
       investigating: true
-    - ts: "2023-11-22 11:51:43"
+    - ts: "2023-11-22 16:51:43"
       description: We continue to investigate and narrow down the issues some users are experiencing with  MFA logins  We will continue to provide updates as more information becomes available.
       investigating: true
-    - ts: "2023-11-22 12:29:23"
+    - ts: "2023-11-22 17:29:23"
       description: We believe we have identified the source of the ongoing MFA login issues and our engineers are working on testing and implementing a fix. We will provide another update within the next 60 minutes.
       investigating: true
-    - ts: "2023-11-22 13:29:09"
+    - ts: "2023-11-22 18:29:09"
       description: We continue to investigate this issue with our technical staff. We will provide another update within the next 60 minutes.
       investigating: true
-    - ts: "2023-11-22 14:27:33"
+    - ts: "2023-11-22 19:27:33"
       description: While investigating the issue we discovered certain scenarios that would occur when sending 1Password to the background, causing the sign-in and unlock process to be aborted. We are internally testing fixes to those scenarios at this time. We will provide another update within the next 60 minutes.
       investigating: true
-    - ts: "2023-11-22 15:17:56"
+    - ts: "2023-11-22 20:17:56"
       description: We have confirmed fixes for several issues with our development team and are proceeding to test with our QA team.
       investigating: true
-    - ts: "2023-11-22 15:19:54"
+    - ts: "2023-11-22 20:19:54"
       description: The issue has been identified and a fix is being implemented.
-    - ts: "2023-11-22 16:04:23"
+    - ts: "2023-11-22 21:04:23"
       description: We have put together a fix for the SSO/MFA issues and are working on releasing an update to our iOS and iPad apps
-    - ts: "2023-11-22 16:34:48"
+    - ts: "2023-11-22 21:34:48"
       description: We have verified our fixes and have submitted them to Apple for review.  We have requested an expedited review from Apple.  The release will go out as soon as Apple has reviewed it
-    - ts: "2023-11-22 16:53:34"
+    - ts: "2023-11-22 21:53:34"
       description: Our iOS and iPad apps should now be updated in the App Store and available for download. We will continue to monitor for new reports.
-    - ts: "2023-11-23 08:59:10"
+    - ts: "2023-11-23 13:59:10"
       description: This incident has been resolved.
       resolved: true

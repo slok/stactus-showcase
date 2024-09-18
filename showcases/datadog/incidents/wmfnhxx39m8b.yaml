@@ -4,11 +4,11 @@ name: User actions like user creation/user edits intermittently failing/slow
 impact: minor
 systems: []
 timeline:
-    - ts: "2023-07-28 14:53:31"
+    - ts: "2023-07-28 18:53:31"
       description: User specific actions like user creation or edits to users are intermittently slow/failing
       investigating: true
-    - ts: "2023-07-28 14:57:56"
+    - ts: "2023-07-28 18:57:56"
       description: A fix has been implemented and we are monitoring the results.
-    - ts: "2023-07-28 14:59:09"
+    - ts: "2023-07-28 18:59:09"
       description: This incident has been resolved.
       resolved: true

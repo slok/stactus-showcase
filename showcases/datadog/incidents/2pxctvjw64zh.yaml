@@ -9,29 +9,29 @@ systems:
     - wb6d6tss5zph
     - s66ymj7q3sdd
 timeline:
-    - ts: "2023-08-01 17:05:29"
+    - ts: "2023-08-01 21:05:29"
       description: |-
         We are investigating increased latency processing Processing for Distribution Metrics coming from the agent.
         As a result of this issue, some users may see delays or gaps for a subset of their metrics on graphs.
         RUM/Synthetics/Logs/Processes measures that depend on distribution metrics will also see delays.
         To prevent spurious alerts, we have temporarily disabled monitors based on this data.
       investigating: true
-    - ts: "2023-08-01 17:07:31"
+    - ts: "2023-08-01 21:07:31"
       description: We are continuing to investigate this issue.
       investigating: true
-    - ts: "2023-08-01 17:37:08"
+    - ts: "2023-08-01 21:37:08"
       description: We are continuing to investigate this issue.
       investigating: true
-    - ts: "2023-08-01 17:37:33"
+    - ts: "2023-08-01 21:37:33"
       description: The issue has been identified and a fix is being implemented.
-    - ts: "2023-08-01 17:42:37"
+    - ts: "2023-08-01 21:42:37"
       description: A fix has been implemented and we are monitoring the results.
-    - ts: "2023-08-01 18:57:22"
+    - ts: "2023-08-01 22:57:22"
       description: We continue to process the lag on distribution metrics
-    - ts: "2023-08-01 20:43:43"
+    - ts: "2023-08-02 00:43:43"
       description: We continue to make progress on processing the lag on distribution metrics and are monitoring any further issues.
-    - ts: "2023-08-01 23:08:53"
+    - ts: "2023-08-02 03:08:53"
       description: Distribution metrics lag has been resolved. As a result of the issue, some users may see gaps for distribution metrics on graphs. Monitors evaluation is now re-enabled for monitors based on this data.
-    - ts: "2023-08-02 01:45:33"
+    - ts: "2023-08-02 05:45:33"
       description: This incident has been resolved.
       resolved: true

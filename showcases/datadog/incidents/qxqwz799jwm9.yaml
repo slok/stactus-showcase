@@ -4,12 +4,12 @@ name: APM Traces Delayed, Flamegraphs created during this outage may have incomp
 impact: minor
 systems: []
 timeline:
-    - ts: "2023-02-22 16:49:53"
+    - ts: "2023-02-22 21:49:53"
       description: We have identified the underlying issue and are working on a fix.  Traces will be available but Flamegraphs captured during the time window of the outage may contain incomplete data.
-    - ts: "2023-02-22 16:50:34"
+    - ts: "2023-02-22 21:50:34"
       description: We are continuing to work on a fix for this issue.
-    - ts: "2023-02-22 17:17:54"
+    - ts: "2023-02-22 22:17:54"
       description: A fix has been implemented and we are monitoring the results.  Captured Flamegraphs will no longer contain incomplete data.
-    - ts: "2023-02-22 17:24:05"
+    - ts: "2023-02-22 22:24:05"
       description: This incident has been resolved.
       resolved: true

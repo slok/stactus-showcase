@@ -4,14 +4,14 @@ name: Delayed Events
 impact: minor
 systems: []
 timeline:
-    - ts: "2023-02-20 11:41:56"
+    - ts: "2023-02-20 16:41:56"
       description: |-
         We have identified the underlying issue and are working on a fix.
         It is important to note that no data has been lost, and it will be backfilled and available once the service is operational again.
-    - ts: "2023-02-20 12:35:31"
+    - ts: "2023-02-20 17:35:31"
       description: A fix has been implemented and we are monitoring the results. Recent data are being processed normally, older data impacted by the incident are currently being backfilled.
-    - ts: "2023-02-20 15:09:56"
+    - ts: "2023-02-20 20:09:56"
       description: We are continuing to monitor for any further issues. Backfilling is still in progress.
-    - ts: "2023-02-20 15:59:49"
+    - ts: "2023-02-20 20:59:49"
       description: This incident has been resolved. Remaining data are being processed.
       resolved: true

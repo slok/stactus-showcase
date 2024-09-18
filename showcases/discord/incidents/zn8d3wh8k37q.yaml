@@ -4,13 +4,13 @@ name: Issues connecting to voice
 impact: none
 systems: []
 timeline:
-    - ts: "2024-04-26 10:54:06"
+    - ts: "2024-04-26 17:54:06"
       description: We are investigating an issue connecting to Voice, manifesting as "Awaiting Endpoint" when joining a voice channel.
       investigating: true
-    - ts: "2024-04-26 11:15:12"
+    - ts: "2024-04-26 18:15:12"
       description: We've isolated the issue to a deployment of new code of our "voice server syncer" service. We're currently in the process of doing a rollback, and as well, provisioning more capacity on these machines.
-    - ts: "2024-04-26 11:54:24"
+    - ts: "2024-04-26 18:54:24"
       description: We implemented a fix and are seeing some recovery for part of our traffic. We think more and more people should be able to connect to voice in the next 10-15min.
-    - ts: "2024-04-26 11:57:14"
+    - ts: "2024-04-26 18:57:14"
       description: The issue is now resolved. Thank you for your patience and happy Friday Gaming!
       resolved: true

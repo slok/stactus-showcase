@@ -4,13 +4,13 @@ name: Spurious disconnects from voice servers
 impact: minor
 systems: []
 timeline:
-    - ts: "2024-09-13 15:04:57"
+    - ts: "2024-09-13 22:04:57"
       description: |-
         An issue in our previous release of the voice gateway software can cause backend crashes when users disconnect from voice (causing any remaining call members to also disconnect).
 
         We have already partially rolled out a fix for this, but are going to complete that rollout now. Rolling out the fix unfortunately itself requires a reconnect, but once that is complete we expect the spurious disconnects some users have been experiencing to be fully resolved.
-    - ts: "2024-09-13 15:59:42"
+    - ts: "2024-09-13 22:59:42"
       description: The fix has been fully deployed and we are monitoring our analytics to confirm that these disconnects subside.
-    - ts: "2024-09-13 16:16:20"
+    - ts: "2024-09-13 23:16:20"
       description: This incident has been resolved.
       resolved: true

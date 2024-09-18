@@ -5,14 +5,14 @@ impact: minor
 systems:
     - 39mb8cmw8y2v
 timeline:
-    - ts: "2024-09-15 16:44:36"
+    - ts: "2024-09-15 23:44:36"
       description: Our monitoring systems have detected a potential issue with SMS Delivery Reporting Delays To Multiple Networks In US Via A Subset Of Twilio Shortcodes . Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
-    - ts: "2024-09-15 17:06:16"
+    - ts: "2024-09-16 00:06:16"
       description: We were experiencing SMS delivery receipt delays to multiple networks in US via a subset of Twilio short codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available
       investigating: true
-    - ts: "2024-09-15 17:53:44"
+    - ts: "2024-09-16 00:53:44"
       description: We have started seeing recovery for intermittent SMS delivery receipt delays to multiple networks in US via a subset of Twilio short codes. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-    - ts: "2024-09-15 19:50:48"
+    - ts: "2024-09-16 02:50:48"
       description: We are no longer experiencing SMS delivery receipt delays to multiple networks in US via a subset of Twilio short codes. This incident has been resolved.
       resolved: true

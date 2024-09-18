@@ -7,16 +7,16 @@ systems:
     - nhlpbmmcffcl
     - gmppldfdghcd
 timeline:
-    - ts: "2024-02-27 17:21:31"
+    - ts: "2024-02-28 01:21:31"
       description: We are investigating an issue between specific ISPs and our us-central and atlanta voice regions. We have temporarily disabled new sessions to these regions.
       investigating: true
-    - ts: "2024-02-27 17:22:56"
+    - ts: "2024-02-28 01:22:56"
       description: We are continuing to investigate this issue.
       investigating: true
-    - ts: "2024-02-27 20:21:34"
+    - ts: "2024-02-28 04:21:34"
       description: We're continuing to work with our provider to restore service in Atlanta and US Central. In the meantime, we're continuing to redirect the traffic to other regions in the US.
-    - ts: "2024-02-27 20:21:43"
+    - ts: "2024-02-28 04:21:43"
       description: We are continuing to work on a fix for this issue.
-    - ts: "2024-02-27 21:56:19"
+    - ts: "2024-02-28 05:56:19"
       description: We're continuing to serve traffic in US Central and Atlanta out of a different provider, but user impact should have ended as of an hour ago.
       resolved: true

@@ -5,16 +5,16 @@ impact: minor
 systems:
     - s6jxgrkjjj6p
 timeline:
-    - ts: "2023-01-25 03:02:25"
+    - ts: "2023-01-25 08:02:25"
       description: We are investigating delays in Monitors Notifications which impacts a subset of customers. It began at 07:10am UTC on 25th of Jan 2023.
       investigating: true
-    - ts: "2023-01-25 03:32:35"
+    - ts: "2023-01-25 08:32:35"
       description: We are continuing to investigate the issue. Notifications are back to normal for all users, except for the ones sent to Microsoft Teams.
       investigating: true
-    - ts: "2023-01-25 04:11:06"
+    - ts: "2023-01-25 09:11:06"
       description: The issue has been identified and a fix is being implemented.
-    - ts: "2023-01-25 04:45:44"
+    - ts: "2023-01-25 09:45:44"
       description: A fix has been implemented and we are monitoring the results.
-    - ts: "2023-01-25 05:41:52"
+    - ts: "2023-01-25 10:41:52"
       description: This incident has been resolved.
       resolved: true

@@ -5,13 +5,13 @@ impact: minor
 systems:
     - pht8mbkmkb7t
 timeline:
-    - ts: "2022-05-16 12:00:58"
+    - ts: "2022-05-16 19:00:58"
       description: A number of incorrect emails were sent out saying AWS third party components will no longer receive updates. These components have not been impacted and we are investigating the root cause of the emails now.
       investigating: true
-    - ts: "2022-05-16 12:41:22"
+    - ts: "2022-05-16 19:41:22"
       description: We have identified the cause of the emails and are working on a resolution now
-    - ts: "2022-05-16 13:45:46"
+    - ts: "2022-05-16 20:45:46"
       description: We are continuing to work on a fix for the incorrect emails. If any other emails are received about AWS components please disregard them
-    - ts: "2022-05-16 15:31:26"
+    - ts: "2022-05-16 22:31:26"
       description: This incident has been resolved.
       resolved: true

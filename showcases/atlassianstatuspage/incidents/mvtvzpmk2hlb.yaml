@@ -5,12 +5,12 @@ impact: minor
 systems:
     - rkld00070vm9
 timeline:
-    - ts: "2023-06-15 01:09:33"
+    - ts: "2023-06-15 08:09:33"
       description: |-
         We have identified an unintended issue with redirecting http to https for a tiny cohort of customers on SSL-enabled custom domains.
         This does not affect the availability of any Statuspage on a custom domain with SSL enabled - they are available via https:// .
-    - ts: "2023-06-16 01:50:57"
+    - ts: "2023-06-16 08:50:57"
       description: We are in the process of rolling out a fix for impacted domains.
-    - ts: "2023-06-16 10:31:05"
+    - ts: "2023-06-16 17:31:05"
       description: This incident has been resolved.
       resolved: true

@@ -4,12 +4,12 @@ name: Partially dropping Xbox statuses
 impact: none
 systems: []
 timeline:
-    - ts: "2024-07-01 15:25:52"
+    - ts: "2024-07-01 22:25:52"
       description: Roughly 1/3rd of Xbox statuses are being dropped. We are working on a fix.
-    - ts: "2024-07-01 16:27:22"
+    - ts: "2024-07-01 23:27:22"
       description: A fix is currently rolling out to production.
-    - ts: "2024-07-01 17:04:08"
+    - ts: "2024-07-02 00:04:08"
       description: The fix has been deployed to the impacted nodes and appears stable.  We will continue to monitor its recovery.
-    - ts: "2024-07-01 18:07:02"
+    - ts: "2024-07-02 01:07:02"
       description: The system is operating as expected at this time
       resolved: true

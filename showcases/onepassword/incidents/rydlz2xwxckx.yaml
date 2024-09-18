@@ -4,15 +4,15 @@ name: Delays in billing processing.
 impact: none
 systems: []
 timeline:
-    - ts: "2023-01-11 14:17:04"
+    - ts: "2023-01-11 19:17:04"
       description: Customers using Stripe payment flows could be experiencing delays in having their billing actions processed. All other customers remain unaffected. Our engineers are actively investigating this behaviour. Updates will follow accordingly.
       investigating: true
-    - ts: "2023-01-11 15:11:22"
+    - ts: "2023-01-11 20:11:22"
       description: The issue has been identified and potential corrective measures are currently being tested. Updates will follow accordingly.
-    - ts: "2023-01-11 17:01:26"
+    - ts: "2023-01-11 22:01:26"
       description: A fix has been deployed. Engineering team continue monitoring the overall behaviour. Updates will follow accordingly.
-    - ts: "2023-01-12 10:01:57"
+    - ts: "2023-01-12 15:01:57"
       description: Deployed fix continues to run without any issue and with performance within the normal trends. Engineering team will continue monitoring the overall behaviour. Updates will follow accordingly.
-    - ts: "2023-01-12 13:43:25"
+    - ts: "2023-01-12 18:43:25"
       description: Incident has been resolved. There are no longer any delays in processing any Stripe payment flows.
       resolved: true

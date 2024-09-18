@@ -5,10 +5,10 @@ impact: major
 systems:
     - dpdsycjtknlz
 timeline:
-    - ts: "2024-07-19 03:39:34"
+    - ts: "2024-07-19 07:39:34"
       description: "A recent worldwide Crowdstrike update is causing a Windows OS blue screen error on all versions of the Windows operating system running the Crowdstrike software. \n\nCrowdstrike has released an update to resolve the issue. To apply the update to an impacted machine, restart it.\n\nIf you continue to experience difficulty following a restart, the following steps are a workaround solution:\n\n1.  Boot Windows into Safe Mode or the Windows Recovery Environment\n2. Navigate to the C:\\Windows\\System32\\drivers\\CrowdStrike directory\n3. Locate the file matching “C-00000291*.sys”, and delete it. \n4. Boot the host normally.   \n\nThe steps above require administrative access to complete.\n\nIS&T is working to restore central services that rely on Microsoft Windows. \n\nCrowdstrike has posted a statement on the incident: https://www.crowdstrike.com/blog/statement-on-falcon-content-update-for-windows-hosts/\n\nIf you require assistance with the workaround, obtaining admin credentials, or a Bitlocker recovery key, please contact the Service Desk at 617-253-1101 or servicedesk@mit.edu."
-    - ts: "2024-07-22 09:35:36"
+    - ts: "2024-07-22 13:35:36"
       description: A fix has been implemented and we are monitoring the results.
-    - ts: "2024-07-29 10:51:09"
+    - ts: "2024-07-29 14:51:09"
       description: This incident has been resolved.
       resolved: true

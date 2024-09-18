@@ -5,9 +5,9 @@ impact: major
 systems:
     - f3kzxwdmmy7q
 timeline:
-    - ts: "2021-12-07 19:58:15"
+    - ts: "2021-12-08 03:58:15"
       description: We are currently investigating this issue.
       investigating: true
-    - ts: "2021-12-07 20:14:25"
+    - ts: "2021-12-08 04:14:25"
       description: The elevated server errors were due to a faulty certificate deployment in an upstream service. We have fixed the issue and returned the service to normal operations.
       resolved: true

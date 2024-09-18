@@ -4,10 +4,10 @@ name: Problem with Gmail email delivery
 impact: minor
 systems: []
 timeline:
-    - ts: "2020-12-15 17:30:27"
+    - ts: "2020-12-15 22:30:27"
       description: Emails sent to customers with gmail.com addresses are not being delivered. Some addresses hosted by Google Workspace accounts are also affected. We’re working with AWS to resolve this.
-    - ts: "2020-12-15 18:50:30"
+    - ts: "2020-12-15 23:50:30"
       description: Google confirmed service restoration. We continue to monitor email flow.
-    - ts: "2020-12-15 20:35:43"
+    - ts: "2020-12-16 01:35:43"
       description: We do not see this issue anymore. Bounce levels have normalized and AWS confirmed resolution from their side as well.
       resolved: true
