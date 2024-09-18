@@ -1,6 +1,9 @@
-name: CI
+name: Migration cron
 
-on: [push]
+on:
+  schedule:
+    # Every hour.
+    - cron: "0 * * * *"
 
 permissions:
   contents: write
