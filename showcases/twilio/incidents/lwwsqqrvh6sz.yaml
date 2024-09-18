@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2024-09-18 17:33:59"
       description: We have started seeing recovery for the issue causing inbound SMS delivery delay to the subset of Twilio phone numbers and outbound SMS delivery delays when sending messages to Smart Network in the Philippines. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-09-18 19:36:27"
+      description: We are no longer experiencing SMS delivery delays when sending messages to Smart Network in Philippines. This incident has been resolved.
+      resolved: true
