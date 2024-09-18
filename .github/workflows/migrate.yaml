@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }} # We need to use a PAT, so pushes from this workflow execute github actions too.
 
       - name: Install Stactus
         run: |
