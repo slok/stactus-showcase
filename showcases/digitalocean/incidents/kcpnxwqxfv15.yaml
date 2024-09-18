@@ -19,3 +19,5 @@ timeline:
     - ts: "2024-09-18 15:30:43"
       description: "Our Engineering team has identified that the ongoing issue with the upstream provider is also impacting DigitalOcean Spaces. During this time users may experience errors or delays when attempting to fetch the endpoints for a Spaces Buckets, or when enabling/disabling the CDN for a particular bucket. \n\nWe apologize for the inconvenience and will share an update when we have additional information."
       investigating: true
+    - ts: "2024-09-18 18:02:10"
+      description: "Our Engineering team continues to monitor the ongoing issue with the upstream provider impacting DigitalOcean Spaces and App Platform services.\n\nImprovements are being seen with lower error rates and latency for App Platform deployments as well as for fetching Spaces endpoints and toggling the CDN for a Spaces Bucket. \n\nWe apologize for the inconvenience and will share further updates in the due course."
