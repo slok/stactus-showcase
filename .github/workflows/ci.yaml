@@ -1,0 +1,53 @@
+# name: CI
+
+# on: [push, pull_request]
+
+# # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# permissions:
+#   contents: read
+#   pages: write
+#   id-token: write
+
+# # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# concurrency:
+#   group: "pages"
+#   cancel-in-progress: false
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     if: github.ref == 'refs/heads/main'
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v4
+#       - name: Setup Pages
+#         uses: actions/configure-pages@v5
+#       - name: Install Stactus
+#         run: |
+#           # Create container from image.
+#           container_id=$(docker create docker.io/slok/stactus:dd6567a-amd64)
+
+#           # Extract binary from container.
+#           docker cp ${container_id}:/usr/local/bin/stactus /tmp/stactus
+#           docker rm ${container_id}
+#       - name: Build pages with Stactus
+#         run: |
+#           /tmp/stactus -i ./showcases -o ./out -u https://slok.github.io/stactus-showcase
+#       - name: Upload Artifact
+#         if: github.ref == 'refs/heads/main'
+#         uses: actions/upload-pages-artifact@v3
+#         with:
+#           path: "./out"
+
+#   deploy:
+#     runs-on: ubuntu-latest
+#     needs: build
+#     if: github.ref == 'refs/heads/main'
+#     environment:
+#       name: github-pages # environment created automatically by GitHub
+#       url: ${{ steps.deployment.outputs.page_url }}
+#     steps:
+#       - name: Deploy to GitHub Pages
+#         id: deployment
+#         uses: actions/deploy-pages@v4
