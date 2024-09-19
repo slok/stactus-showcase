@@ -24,3 +24,6 @@ timeline:
       description: "Our Engineering teams have identified the cause of connectivity and deploy issues in App Platform. \n\nOur teams are actively deploying a fix across all regions, however, users may still experience connection and deployment errors with Apps until that process is complete. We will continue to post updates as we have more information. Thank you for your patience."
     - ts: "2024-09-19 22:22:30"
       description: Our Engineering team has implemented a fix to resolve the App Platform connectivity and deployment issues in all regions. Users should now be able to connect to and deploy Apps as normal. Our team is monitoring the situation, and we will post an update as soon as the issue is fully resolved.
+    - ts: "2024-09-19 22:48:39"
+      description: "Our Engineering team has confirmed the full resolution of this incident. \n\nFrom 20:14 to 22:03 UTC, users may have experienced errors when connecting to their Apps or with their Apps connecting to other services, as well as delays in deploying Apps. Users should now be able to connect to their Apps normally, and any delayed deployments should complete successfully.\n\nIf you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel."
+      resolved: true

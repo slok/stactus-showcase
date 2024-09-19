@@ -1,0 +1,10 @@
+version: incident/v1
+id: xn3gr702cvbj
+name: On Call Engineers are Investigating an issue
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2024-09-19 23:04:39"
+      description: Our monitoring systems have detected a potential issue affecting the SMS Delivery times to Claro Network in Colombia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
