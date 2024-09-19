@@ -1,0 +1,13 @@
+version: incident/v1
+id: tgjj50jq0qwk
+name: Cloudflare Billing Issues
+impact: major
+systems:
+    - ll1x88wwz4fq
+timeline:
+    - ts: "2024-09-19 13:56:52"
+      description: |-
+        Cloudflare is analyzing reports of customers possibly experiencing problems in processing changes through our billing service.
+
+        All other services are operating normally. We will provide an update once further information becomes available.
+      investigating: true
