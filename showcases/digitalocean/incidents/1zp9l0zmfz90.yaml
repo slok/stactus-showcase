@@ -13,3 +13,5 @@ timeline:
       investigating: true
     - ts: "2024-09-19 00:35:58"
       description: Our Engineering team has identified the cause of impacting networking connectivity issues with DigitalOcean services including Droplets, Managed Kubernetes and App Platform in the SGP1 region and is actively working on a fix. Once we have additional information, we will share another update.
+    - ts: "2024-09-19 01:00:17"
+      description: "Our Engineering team has implemented a fix to resolve the issue with networking in our SGP1 region, which impacted a subset of DigitalOcean services. \n\nUsers should be able to access all resources correctly at this time. \n\nWe are currently monitoring the situation and will post an update as soon as we confirm the issue is fully resolved."
