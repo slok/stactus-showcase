@@ -3,9 +3,7 @@ id: jl76cw5xjq9c
 name: App Platform Connectivity
 impact: minor
 systems:
-    - 56cjsvgf3vk4
-    - fkf61qj12vby
-    - wzgnsrflzlr5
+    - txysr8r0gn1n
 timeline:
     - ts: "2024-09-19 21:07:07"
       description: "Our Engineering team is currently investigating an issue potentially impacting DigitalOcean services. \n\nAt this time, we're seeing reports of App Platform Apps unable to connect to other DigitalOcean resources, such as Spaces buckets and Managed Databases. Users may see connection errors or be unable to access Apps correctly. \n\nWe are working to understand the issue that is occurring, as well as what services and regions are impacted. We will provide another update as soon as we have further information."
@@ -16,3 +14,13 @@ timeline:
 
         Our team is actively working to identify and fix the issue impacting connectivity for TOR and LON Apps, and we will post an update as soon as we have more information.
       investigating: true
+    - ts: "2024-09-19 21:53:19"
+      description: |-
+        Our Engineering teams continue to investigate the issue impacting App Platform. At this time, our teams believe that Apps in all regions may be impacted by connectivity issues, as well as users seeing delays in Apps deployments.
+
+        We have engaged multiple teams to investigate the issue, and we apologize for the continued inconvenience. We will share more updates as soon as we have more information.
+      investigating: true
+    - ts: "2024-09-19 22:03:24"
+      description: "Our Engineering teams have identified the cause of connectivity and deploy issues in App Platform. \n\nOur teams are actively deploying a fix across all regions, however, users may still experience connection and deployment errors with Apps until that process is complete. We will continue to post updates as we have more information. Thank you for your patience."
+    - ts: "2024-09-19 22:22:30"
+      description: Our Engineering team has implemented a fix to resolve the App Platform connectivity and deployment issues in all regions. Users should now be able to connect to and deploy Apps as normal. Our team is monitoring the situation, and we will post an update as soon as the issue is fully resolved.
