@@ -1,0 +1,11 @@
+version: incident/v1
+id: jl76cw5xjq9c
+name: App Platform Connectivity
+impact: minor
+systems:
+    - fkf61qj12vby
+    - wzgnsrflzlr5
+timeline:
+    - ts: "2024-09-19 21:07:07"
+      description: "Our Engineering team is currently investigating an issue potentially impacting DigitalOcean services. \n\nAt this time, we're seeing reports of App Platform Apps unable to connect to other DigitalOcean resources, such as Spaces buckets and Managed Databases. Users may see connection errors or be unable to access Apps correctly. \n\nWe are working to understand the issue that is occurring, as well as what services and regions are impacted. We will provide another update as soon as we have further information."
+      investigating: true
