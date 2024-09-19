@@ -1,0 +1,13 @@
+version: incident/v1
+id: 6q0f533mw49b
+name: Network Performance Issues in IAD (Ashburn)
+impact: minor
+systems:
+    - 3t0npclljyyg
+timeline:
+    - ts: "2024-09-19 08:44:34"
+      description: |-
+        Cloudflare is investigating issues with Network Performance that might be affecting CNI customers on our IAD (Ashburn) datacenter.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
