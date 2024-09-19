@@ -3,9 +3,16 @@ id: jl76cw5xjq9c
 name: App Platform Connectivity
 impact: minor
 systems:
+    - 56cjsvgf3vk4
     - fkf61qj12vby
     - wzgnsrflzlr5
 timeline:
     - ts: "2024-09-19 21:07:07"
       description: "Our Engineering team is currently investigating an issue potentially impacting DigitalOcean services. \n\nAt this time, we're seeing reports of App Platform Apps unable to connect to other DigitalOcean resources, such as Spaces buckets and Managed Databases. Users may see connection errors or be unable to access Apps correctly. \n\nWe are working to understand the issue that is occurring, as well as what services and regions are impacted. We will provide another update as soon as we have further information."
+      investigating: true
+    - ts: "2024-09-19 21:24:19"
+      description: |-
+        Our Engineering team is seeing App connectivity improvement in NYC, although we have confirmed that the LON region is affected as well.
+
+        Our team is actively working to identify and fix the issue impacting connectivity for TOR and LON Apps, and we will post an update as soon as we have more information.
       investigating: true
