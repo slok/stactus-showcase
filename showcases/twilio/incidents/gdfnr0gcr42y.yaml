@@ -1,10 +1,13 @@
 version: incident/v1
 id: gdfnr0gcr42y
-name: Increased Gap in Voice Insights Call Summaries
+name: Gap in Voice Insights Call Summaries
 impact: minor
 systems:
     - yf5px6tdl6yt
 timeline:
     - ts: "2024-09-19 13:34:39"
       description: Voice insights Customers are not able to access call summaries from 4:30 am - 5:00 am PDT using API, console or eventstream.
+      investigating: true
+    - ts: "2024-09-19 15:53:35"
+      description: Our engineers are continuing to work on backfilling the data between 4:30am and 5am PDT.
       investigating: true
