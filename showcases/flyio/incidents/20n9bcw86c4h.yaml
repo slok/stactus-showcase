@@ -1,0 +1,14 @@
+version: incident/v1
+id: 20n9bcw86c4h
+name: Capacity issues in IAD, BOS, EWR
+impact: minor
+systems:
+    - 6sckg8qmrnzz
+    - k2zhkw7wryv2
+    - qyh8qlklk7mx
+timeline:
+    - ts: "2024-09-19 17:22:10"
+      description: |-
+        We are investigating regional capacity issues in `iad`, `bos`, and `ewr`. Existing applications in these regions may experience reduced performance or elevated latency, and new deployments may fail. We are working on balancing resources to free up capacity.
+        This issue is also impacting metrics and log ingestion services, so you may see some delay in metrics and app logs.
+      investigating: true
