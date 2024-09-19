@@ -1,6 +1,6 @@
 version: incident/v1
 id: qlzmp7d9y67x
-name: SMS Delivery Delays to Wind Tre Network in Italy for a Subset of Long Codes
+name: SMS Delivery Delays to Wind Tre and TIM Networks in Italy for a Subset of Long Codes
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -16,4 +16,7 @@ timeline:
       investigating: true
     - ts: "2024-09-18 21:34:01"
       description: We are continuing to experience SMS delivery delays when sending messages to Wind Tre network in Italy for a subset of long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-19 04:50:20"
+      description: We continue to experience SMS delivery delays when sending messages to Wind Tre network in Italy for a subset of long codes. In addition, TIM network in Italy is also affected. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
       investigating: true
