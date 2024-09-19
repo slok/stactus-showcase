@@ -1,0 +1,11 @@
+version: incident/v1
+id: kctp6zf5w8jh
+name: TrustHub, Regulatory Compliance, A2P Compliance, Toll-Free Verification and Short Codes systems are down
+impact: minor
+systems:
+    - m5b6twz4h52d
+    - gk7b1lwzf93x
+timeline:
+    - ts: "2024-09-19 10:38:11"
+      description: Customers attempting to access TrustHub, Regulatory Compliance, A2P Compliance, Toll-Free Verification, and Short Codes systems will receive 5xx in the console and API. We will update in the next 1 hour or as soon as we have more information.
+      investigating: true
