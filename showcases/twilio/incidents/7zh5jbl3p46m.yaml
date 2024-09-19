@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7zh5jbl3p46m
+name: Voice Quality Issues to a Subset of Twilio Taiwan Numbers
+impact: minor
+systems:
+    - 50pr269zqrwj
+timeline:
+    - ts: "2024-09-19 08:14:26"
+      description: We are observing voice quality issues with subset of Twilio Taiwan numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
