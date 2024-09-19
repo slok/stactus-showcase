@@ -1,0 +1,16 @@
+version: incident/v1
+id: mfl61ttsvmwf
+name: Elevated Error Rate on Ruleset Engine API Endpoints
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-19 19:19:50"
+      description: |-
+        Cloudflare is investigating an issue that may have caused customer requests to the Ruleset Engine API endpoints to fail between 18:11 and 18:25 UTC. This issue also impacted the Dashboard UI that utilizes these API endpoints. You can find more information about these endpoints in the official documentation:
+
+        https://developers.cloudflare.com/ruleset-engine/rulesets-api/endpoints/
+
+        Customer traffic, edge services, CDN functionality and other products have not been affected.
+
+        This issue is now resolved. We apologize for any inconvenience this may have caused.
+      resolved: true
