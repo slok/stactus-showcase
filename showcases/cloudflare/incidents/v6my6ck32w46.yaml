@@ -1,0 +1,10 @@
+version: incident/v1
+id: v6my6ck32w46
+name: Cloudflare Pages — Issues with GitHub
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2024-09-19 15:45:59"
+      description: "Cloudflare is aware of and investigating an issue with Cloudflare Pages which potentially impacts multiple customers.\nCloudflare Pages users are currently unable to create new connections to GitHub. \nThis issue only impacts new connections, existing sites and traffic to those sites are not affected and users with existing GitHub connections can continue to create new Pages projects."
+      investigating: true
