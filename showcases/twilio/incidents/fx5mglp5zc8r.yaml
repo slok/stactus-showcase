@@ -1,12 +1,16 @@
 version: incident/v1
 id: fx5mglp5zc8r
-name: On Call Engineers are Investigating an issue with Apple Push Notifications
+name: 'Automated Alert: No Customer Impact'
 impact: none
 systems:
     - whldrk77jnm4
     - 6f5zbh4rqx3m
     - 5bv1plmydbzf
+    - 2vs63pk0qq23
 timeline:
     - ts: "2024-09-19 04:37:30"
       description: Our monitoring systems have detected a potential issue with Apple Push Notifications. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2024-09-19 05:58:44"
+      description: We have fully investigated the Apple Push Notification issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
