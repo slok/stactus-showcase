@@ -1,6 +1,6 @@
 version: incident/v1
 id: 8k1v12zqkrq2
-name: TrustHub, Regulatory Compliance, A2P Compliance, Toll-Free Verification and Short Codes, PN Provisioning and Flex Studio Systems are Impacted
+name: TrustHub, Regulatory Compliance, A2P Compliance, Toll-Free Verification and Short Codes, PN Provisioning, Pricing Page API and Flex Studio Systems are Impacted
 impact: minor
 systems:
     - m5b6twz4h52d
@@ -10,8 +10,8 @@ timeline:
       description: Our monitoring systems have detected a potential issue with Twilio Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2024-09-20 11:06:21"
-      description: Customers attempting to access TrustHub, Regulatory Compliance, A2P Compliance, Toll-Free Verification, and Short Codes systems will receive 5xx in the console and API. Additionally, PN provisioning and Flex Studio are also impacted. Our engineers are working to resolve the issue. We will provide another update in 30 minutes or as soon as more information becomes available.
+      description: Customers attempting to access TrustHub, Regulatory Compliance, A2P Compliance, Toll-Free Verification, Pricing Page API, and Short Codes systems will receive 5xx in the console and API. Additionally, PN provisioning and Flex Studio are also impacted. Our engineers are working to resolve the issue. We will provide another update in 30 minutes or as soon as more information becomes available.
       investigating: true
     - ts: "2024-09-20 11:36:06"
-      description: Customers attempting to access TrustHub, Regulatory Compliance, A2P Compliance, Toll-Free Verification, and Short Codes systems will receive 5xx in the console and API. Additionally, PN provisioning and Flex Studio are also impacted. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      description: Customers attempting to access TrustHub, Regulatory Compliance, A2P Compliance, Toll-Free Verification, Pricing Page API, and Short Codes systems will receive 5xx in the console and API. Additionally, PN provisioning and Flex Studio are also impacted. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
