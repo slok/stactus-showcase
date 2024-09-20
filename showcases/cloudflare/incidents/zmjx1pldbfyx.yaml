@@ -1,0 +1,16 @@
+version: incident/v1
+id: zmjx1pldbfyx
+name: Cloudflare Dashboard and API service issues showing Load Balancing rules
+impact: minor
+systems:
+    - g4tb35rs9yw7
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2024-09-20 09:09:37"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Dashboard and related APIs, causing Load Balancing rules not being shown.
+
+        These issues do not affect the Load Balancing service and their respective rules.
+      investigating: true
+    - ts: "2024-09-20 09:12:03"
+      description: The issue has been identified and a fix is being implemented.
