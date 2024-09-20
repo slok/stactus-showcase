@@ -3,6 +3,7 @@ id: v2v1gjjbg31s
 name: SMS Delivery Failures on MobiFone Network in Vietnam
 impact: minor
 systems:
+    - 8qjql0kqnd33
     - yvvy3vlp4djf
 timeline:
     - ts: "2024-09-20 18:53:56"
@@ -10,4 +11,7 @@ timeline:
       investigating: true
     - ts: "2024-09-20 18:59:10"
       description: We are experiencing SMS delivery failures sending to MobiFone Network in Vietnam. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-20 19:50:15"
+      description: We continue to experience SMS delivery failures sending to MobiFone Network in Vietnam. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
