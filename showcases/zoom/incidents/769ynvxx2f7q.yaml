@@ -1,0 +1,10 @@
+version: incident/v1
+id: 769ynvxx2f7q
+name: A subset of users are experiencing issues with Cloud Meetings Recording service in APAC region.
+impact: minor
+systems:
+    - gkx8x46kw77h
+timeline:
+    - ts: "2024-09-21 04:03:53"
+      description: We have detected service degradation where a subset of users are experiencing issues with Cloud Meetings Recording service in APAC region. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
