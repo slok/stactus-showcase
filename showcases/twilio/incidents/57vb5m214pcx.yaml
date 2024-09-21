@@ -1,9 +1,13 @@
 version: incident/v1
 id: 57vb5m214pcx
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: SMS Delivery Delays to Glo Mobile Network in Nigeria
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
 timeline:
     - ts: "2024-09-21 15:43:33"
       description: Our monitoring systems have detected a potential issue SMS Delivery Delays To Glo Mobile Network In Nigeria. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-09-21 15:50:08"
+      description: We are experiencing SMS delivery delays when sending messages to Glo Mobile Network In Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
