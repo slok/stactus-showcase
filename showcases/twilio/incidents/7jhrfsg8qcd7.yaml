@@ -1,0 +1,13 @@
+version: incident/v1
+id: 7jhrfsg8qcd7
+name: Call Failures to Subset of Portugal Twilio's Phone Numbers
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2024-09-21 16:26:25"
+      description: Our monitoring systems have detected a potential issue with call failures to subset of Portugal Twilio's phone numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-09-21 16:36:29"
+      description: We are observing call failures to a subset of Twilio Portugal phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
