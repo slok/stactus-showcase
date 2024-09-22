@@ -12,3 +12,8 @@ timeline:
         We are investigating regional capacity issues in `iad`, `bos`, and `ewr`. Existing applications in these regions may experience reduced performance or elevated latency, and new deployments may fail. We are working on balancing resources to free up capacity.
         This issue is also impacting metrics and log ingestion services, so you may see some delay in metrics and app logs.
       investigating: true
+    - ts: "2024-09-19 18:22:55"
+      description: We've freed up some capacity in the affected regions and are starting to see recovery in metrics and app logs services.
+    - ts: "2024-09-19 19:33:58"
+      description: This incident has been resolved.
+      resolved: true

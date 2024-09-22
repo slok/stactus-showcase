@@ -1,0 +1,22 @@
+version: incident/v1
+id: 9qs9wg2y26s0
+name: Increased API Latency
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-20 20:11:23"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-09-20 20:36:34"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-09-20 21:00:46"
+      description: We are investigating a variety of issues, including being unable to open the client or authenticate for bots.
+      investigating: true
+    - ts: "2024-09-20 21:07:32"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-20 21:15:18"
+      description: A fix has been implemented and we are monitoring results. We are seeing some remaining issues with SMS verifications that we're continuing to remediate.
+    - ts: "2024-09-20 21:23:20"
+      description: This incident has been resolved.
+      resolved: true

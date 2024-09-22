@@ -1,0 +1,37 @@
+version: incident/v1
+id: x1kb0m8kv943
+name: SMS Delivery Delays To Kyivstar Network In Ukraine
+impact: minor
+systems:
+    - yvvy3vlp4djf
+    - llgdln3dcs6p
+timeline:
+    - ts: "2024-09-20 00:19:51"
+      description: Our monitoring systems have detected a potential issue causing SMS delivery delays to Kyivstar network In Ukraine. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-09-20 00:25:34"
+      description: We are experiencing SMS delivery delays when sending messages to Kyivstar Network In Ukraine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-20 00:27:03"
+      description: We are experiencing SMS delivery delays when sending messages to Kyivstar Network In Ukraine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-20 00:31:33"
+      description: We are experiencing SMS delivery delays when sending messages to Kyivstar Network In Ukraine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-20 00:40:55"
+      description: We continue to experience SMS delivery delays when sending messages to Kyivstar Network In Ukraine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-20 01:20:47"
+      description: We continue to experience SMS delivery delays when sending messages to Kyivstar Network In Ukraine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-20 03:10:34"
+      description: We continue to experience SMS delivery delays when sending messages to Kyivstar Network In Ukraine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-20 06:53:38"
+      description: We continue to experience SMS delivery delays when sending messages to Kyivstar Network In Ukraine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-20 14:20:03"
+      description: We are observing recovery in SMS delivery delays when sending messages to Kyivstar network In Ukraine. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-09-20 16:18:23"
+      description: We are no longer experiencing SMS delivery delays when sending messages to Kyivstar network In Ukraine. This incident has been resolved.
+      resolved: true

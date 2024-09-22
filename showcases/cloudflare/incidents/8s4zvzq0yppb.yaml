@@ -1,0 +1,15 @@
+version: incident/v1
+id: 8s4zvzq0yppb
+name: Network Congestion in Sydney
+impact: minor
+systems:
+    - fvqfrchfl8yc
+timeline:
+    - ts: "2024-09-21 00:30:09"
+      description: |-
+        Cloudflare has identified possible network congestion in Sydney, NSW, Australia.
+
+        We are working to mitigate the issue. More updates to follow up.
+    - ts: "2024-09-21 01:37:47"
+      description: This incident has been resolved.
+      resolved: true

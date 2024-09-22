@@ -1,0 +1,26 @@
+version: incident/v1
+id: xn3gr702cvbj
+name: SMS Delivery Delays To and From a Subset of Shortcode Numbers in Colombia
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2024-09-19 23:04:39"
+      description: Our monitoring systems have detected a potential issue affecting the SMS Delivery times to Claro Network in Colombia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-09-19 23:16:23"
+      description: We are experiencing SMS delivery delays when sending messages to Claro Network in Colombia for a Subset of Shortcode Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-20 00:10:37"
+      description: We continue to experience SMS delivery delays when sending and receiving messages to Twilio Shortcode Numbers in Colombia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-20 02:00:38"
+      description: We continue to experience SMS delivery delays when sending and receiving messages to Twilio Shortcode Numbers in Colombia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-20 05:46:22"
+      description: We are observing recovery in SMS delivery delays when sending and receiving messages to Twilio Shortcode Numbers in Colombia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-09-20 07:46:17"
+      description: We are observing recovery in SMS delivery delays when sending and receiving messages to Twilio Shortcode Numbers in Colombia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 1 hours or as soon as more information becomes available.
+    - ts: "2024-09-20 08:46:34"
+      description: We are no longer experiencing SMS delivery delays when sending and receiving messages to Twilio Shortcode Numbers in Colombia. This incident has been resolved.
+      resolved: true

@@ -1,0 +1,17 @@
+version: incident/v1
+id: rbt03h453rsp
+name: Issues passing Challenge Pages and Turnstile
+impact: minor
+systems:
+    - x0tkn0hzrtw7
+timeline:
+    - ts: "2024-09-20 06:26:22"
+      description: Some visitors may have experienced issues passing Challenge Pages and Turnstile challenges from some browser. Users may have been unable to complete a challenge, resulting in failure to proceed.
+      investigating: true
+    - ts: "2024-09-20 06:55:31"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-09-20 06:57:03"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-09-20 07:07:13"
+      description: This incident has been resolved.
+      resolved: true

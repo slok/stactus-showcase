@@ -1,0 +1,27 @@
+version: incident/v1
+id: v2v1gjjbg31s
+name: SMS Delivery Failures on MobiFone Network in Vietnam
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2024-09-20 18:53:56"
+      description: We are experiencing SMS delivery failures sending to MobiFone Network in Vietnam. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-20 18:59:10"
+      description: We are experiencing SMS delivery failures sending to MobiFone Network in Vietnam. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-20 19:50:15"
+      description: We continue to experience SMS delivery failures sending to MobiFone Network in Vietnam. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-20 21:50:24"
+      description: We are still experiencing SMS delivery failures sending to MobiFone Network in Vietnam. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-21 01:50:22"
+      description: We are still experiencing SMS delivery failures sending to MobiFone Network in Vietnam. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-21 06:33:48"
+      description: We are observing successful SMS delivery to MobiFone Network in Vietnam. We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-09-21 08:07:33"
+      description: We are no longer experiencing SMS delivery failures sending to MobiFone Network in Vietnam. This incident has been resolved.
+      resolved: true

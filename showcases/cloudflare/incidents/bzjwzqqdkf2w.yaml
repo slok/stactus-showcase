@@ -1,0 +1,17 @@
+version: incident/v1
+id: bzjwzqqdkf2w
+name: New Workers and Pages configuration UI pages broke the ability to configure some settings
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-20 19:01:01"
+      description: |-
+        A few high impact bugs were identified, including:
+        - Some Workers and Pages projects would not load in dash, showing an "Internal Error" page
+        - Not all custom domains showed up for a Worker
+        - Users could not change the git branch in their Pages project environment
+
+        The duration of this impact was from September, 19th 16:45  UTC through September, 20th 18:45 UTC.
+
+        No production traffic to Workers or Pages was affected. Workers and Pages APIs were also not affected.
+      resolved: true
