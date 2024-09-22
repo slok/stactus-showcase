@@ -1,0 +1,11 @@
+version: incident/v1
+id: kb9bmgx98fcd
+name: Urgent maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-22 20:01:02"
+      description: 'Urgent maintenance applies to all of the resources with the following pattern in their endpoint: c277'
+    - ts: "2024-09-22 20:03:51"
+      description: This incident has been resolved.
+      resolved: true
