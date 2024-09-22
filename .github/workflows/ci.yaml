@@ -28,7 +28,7 @@ jobs:
       - name: Install Stactus
         run: |
           # Create container from image.
-          container_id=$(docker create docker.io/slok/stactus:36841cd-amd64)
+          container_id=$(docker create docker.io/slok/stactus:2ee193a-amd64)
 
           # Extract binary from container.
           docker cp ${container_id}:/usr/local/bin/stactus /tmp/stactus
