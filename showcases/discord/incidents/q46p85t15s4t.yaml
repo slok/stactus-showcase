@@ -1,0 +1,10 @@
+version: incident/v1
+id: q46p85t15s4t
+name: Media Proxy instability
+impact: major
+systems:
+    - r3wq1zsx72bz
+timeline:
+    - ts: "2024-09-23 17:38:27"
+      description: We are currently investigating instability in Media Proxy that's affecting processing of Discord attachments.
+      investigating: true
