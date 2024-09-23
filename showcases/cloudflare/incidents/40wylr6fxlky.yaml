@@ -1,6 +1,6 @@
 version: incident/v1
 id: 40wylr6fxlky
-name: Internal Server Errors when Adding Zones
+name: Internal Server Errors when Updating Subscriptions
 impact: minor
 systems:
     - 3sq3s4d20ywk
@@ -8,3 +8,7 @@ timeline:
     - ts: "2024-09-23 18:18:01"
       description: We are investigating reports of an increase in Internal Server Errors being reported on the Cloudflare Dashboard for a subset of customers attempting to add new Free plan zones to their accounts.
       investigating: true
+    - ts: "2024-09-23 18:53:23"
+      description: The cause of this issue has been identified and we are working to apply a fix.
+    - ts: "2024-09-23 19:03:40"
+      description: We have determined this issue is affecting updates to subscriptions as well as new zone additions. We are continuing to work on implementing a fix.
