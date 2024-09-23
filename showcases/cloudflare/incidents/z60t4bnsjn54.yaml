@@ -1,0 +1,9 @@
+version: incident/v1
+id: z60t4bnsjn54
+name: SSL for SaaS Custom Hostnames API Availability Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-23 16:42:56"
+      description: A portion of the PATCH and POST API requests for the Custom Hostnames API that powers SSL for SaaS incurred 500 errors between 2024-09-23 15:38 UTC to 2024-09-23 16:05 UTC.
+      resolved: true
