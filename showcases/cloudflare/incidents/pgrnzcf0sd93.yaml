@@ -1,0 +1,10 @@
+version: incident/v1
+id: pgrnzcf0sd93
+name: Reduced capacity on @cf/google/gemma-7b-it-lora
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2024-09-23 21:46:12"
+      description: We are currently experiencing reduced capacity on the @cf/google/gemma-7b-it-lora model and are investigating the cause.
+      investigating: true
