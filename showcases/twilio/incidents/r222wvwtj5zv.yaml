@@ -1,0 +1,9 @@
+version: incident/v1
+id: r222wvwtj5zv
+name: Incoming Call Drops in UK on 20th Sept around 9:51 AM BST
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-23 08:58:02"
+      description: Incoming calls were dropped for customers using Twilio Programmable Voice in the UK region for 39 minutes between 20 September 2023, 9:51 AM BST and 10:30 AM BST. During this period, customers may have experienced disruptions in their calls. The incident has been resolved now.
+      resolved: true
