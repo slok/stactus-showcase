@@ -1,0 +1,25 @@
+version: incident/v1
+id: 2dxdzc3fdgdx
+name: Incident with Codespaces start and creation
+impact: major
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2024-09-24 20:54:42"
+      description: We are investigating reports of degraded availability for Codespaces
+      investigating: true
+    - ts: "2024-09-24 20:56:27"
+      description: We are investigating issues with Codespaces in the US East geographic area. Some users may not be able to create or start their Codespaces at this time. We will update you on mitigation progress.
+      investigating: true
+    - ts: "2024-09-24 21:00:18"
+      description: Codespaces is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-09-24 21:01:44"
+      description: We have successfully mitigated the issue affecting create and resume requests for Codespaces. Early signs of recovery are being observed in the impacted region.
+      investigating: true
+    - ts: "2024-09-24 21:04:52"
+      description: Codespaces is operating normally.
+      investigating: true
+    - ts: "2024-09-24 21:04:59"
+      description: This incident has been resolved.
+      resolved: true
