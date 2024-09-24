@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3bfks6nhd0zp
+name: SMS Delivery Delays to Multiple Networks in Philippines
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2024-09-24 02:13:17"
+      description: We are experiencing SMS delivery delays when sending messages to multiple networks in Philippines from Twilio Philippines phone Number. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
