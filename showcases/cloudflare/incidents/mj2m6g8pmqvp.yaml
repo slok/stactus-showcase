@@ -1,0 +1,13 @@
+version: incident/v1
+id: mj2m6g8pmqvp
+name: Cloudflare Speed Brain possibly impacting Cloudflare Pages
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2024-09-24 12:36:18"
+      description: |-
+        Cloudflare is aware of, and investigating an issue with Speed Brain (Beta) which potentially impacts multiple Pages customers.
+        Some Pages customers might still see Speed Brain running on their deployments even if they have disabled this feature.
+        Further detail will be provided as more information becomes available.
+      investigating: true
