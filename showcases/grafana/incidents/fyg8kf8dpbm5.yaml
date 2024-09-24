@@ -10,3 +10,6 @@ timeline:
         Our underlying infrastructure is experiencing some difficulties, where some of the new nodes are not fully booting
         We are currently investigating the issue.
       investigating: true
+    - ts: "2024-09-24 16:04:32"
+      description: Engineering deployed something which broke a component managed by one our cloud service providers. We rolled that back and the component now works. Customers should no longer experience nodes not fully booting. The cloud service provider is still trying to figure out why it broke. At this time, we are considering this issue resolved. No further updates.
+      resolved: true
