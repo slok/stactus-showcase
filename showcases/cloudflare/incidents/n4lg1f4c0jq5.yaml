@@ -1,0 +1,10 @@
+version: incident/v1
+id: n4lg1f4c0jq5
+name: Workers Preview Issues
+impact: minor
+systems:
+    - wjvmzdf21d4l
+timeline:
+    - ts: "2024-09-24 21:29:24"
+      description: Cloudflare is investigating an issue with customers using `wrangler dev --remote` and Node.js compatibility.
+      investigating: true
