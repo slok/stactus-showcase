@@ -1,0 +1,12 @@
+version: incident/v1
+id: bqh7w3j7gcs6
+name: Cloudflare Workers KV elevated time to consistency
+impact: minor
+systems:
+    - tmh50tx2nprs
+timeline:
+    - ts: "2024-09-24 13:41:42"
+      description: |-
+        Cloudflare is investigating elevated time to consistency for Workers KV, impacting keys uploaded and deleted via the bulk API endpoint.
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
