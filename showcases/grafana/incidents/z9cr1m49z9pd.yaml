@@ -1,0 +1,12 @@
+version: incident/v1
+id: z9cr1m49z9pd
+name: Grafana Cloud k6 Outage
+impact: critical
+systems: []
+timeline:
+    - ts: "2024-09-24 09:07:51"
+      description: |-
+        From 15:15 to 15:31 UTC, the Grafana Cloud k6 App could not load. New tests could not be started from the App nor the k6 CLI and already running tests were aborted or timed out.
+
+        The immediate issue has been resolved. We are investigating the root cause.
+      resolved: true
