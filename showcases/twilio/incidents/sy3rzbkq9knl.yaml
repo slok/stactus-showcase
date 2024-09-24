@@ -1,9 +1,16 @@
 version: incident/v1
 id: sy3rzbkq9knl
 name: On Call Engineers are Investigating an Issue with AI Chat Experience Degraded
-impact: none
-systems: []
+impact: minor
+systems:
+    - m5b6twz4h52d
 timeline:
     - ts: "2024-09-24 16:57:24"
       description: Our monitoring systems have detected a potential issue with AI Chat Experience Degraded. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-09-24 17:12:14"
+      description: We are experiencing issue with Help Center Assistant and Intelligent Discovery Assistant. Our engineers are actively working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-24 17:14:56"
+      description: We are experiencing issue with Help Center Assistant and Intelligent Discovery Assistant. Our engineers are actively working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
