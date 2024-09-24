@@ -1,0 +1,12 @@
+version: incident/v1
+id: fyg8kf8dpbm5
+name: Grafan Cloud Partial Outage
+impact: major
+systems:
+    - qqj6ssvvsqmq
+timeline:
+    - ts: "2024-09-24 14:45:09"
+      description: |-
+        Our underlying infrastructure is experiencing some difficulties, where some of the new nodes are not fully booting
+        We are currently investigating the issue.
+      investigating: true
