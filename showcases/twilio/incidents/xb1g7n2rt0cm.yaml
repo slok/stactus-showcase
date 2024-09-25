@@ -1,0 +1,9 @@
+version: incident/v1
+id: xb1g7n2rt0cm
+name: Programmable Messaging affected
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-25 17:30:08"
+      description: Twilio Programmable Messaging was affected for 1 hour and 22 minutes between 06:41 and 08:03 Pacific Time on 08/25/2024. During this period of time customers may have experienced SMS Delivery Delays and Failures to KDDI Network in Japan for a Subset of Longcodes and Alphanumeric Sender IDs. The issue has now been resolved.
+      resolved: true

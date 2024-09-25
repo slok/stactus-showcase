@@ -1,0 +1,10 @@
+version: incident/v1
+id: y6k4rq3jvfwx
+name: Reduced Capacity on @cf/stabilityai/stable-diffusion-xl-base-1.0
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2024-09-25 17:27:15"
+      description: We are currently experiencing reduced capacity on the @cf/stabilityai/stable-diffusion-xl-base-1.0 model and are investigating the cause.
+      investigating: true
