@@ -4,8 +4,9 @@ name: Identified Web Issues
 impact: major
 systems:
     - j6dkmwm0h3k2
-    - 4qrh4gj6bgt2
-    - ys9m23jjzpg0
 timeline:
     - ts: "2024-09-25 20:16:19"
       description: "\U0001F6E0 We have identified an issue causing Twitch to fail to load in some cases."
+    - ts: "2024-09-25 21:23:56"
+      description: "\U0001F6E0 We have resolved all known issues causing the Twitch website to fail to load for some users."
+      resolved: true
