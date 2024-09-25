@@ -1,0 +1,10 @@
+version: incident/v1
+id: nh7t0yb3cpct
+name: SMS Delivery Delay to Rogers Wireless Network in Canada via subset of Longcodes (302-370)
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2024-09-25 00:50:08"
+      description: We are experiencing SMS delivery delay to Rogers Wireless Network in Canada via subset of Longcodes (302-370). Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
