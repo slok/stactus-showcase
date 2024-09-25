@@ -1,0 +1,20 @@
+version: incident/v1
+id: vppxx4qdz1mq
+name: Droplet Event Processing and API Availability
+impact: none
+systems:
+    - p1x9rv4137gx
+    - 558h1l1q0c2w
+    - dkbfnt2ghbw4
+    - czck17wcspr5
+timeline:
+    - ts: "2024-09-25 22:59:37"
+      description: |-
+        Our Engineering team has identified and resolved an issue that impacted the ability to resize Droplets via both the API and UI from 18:15 until 21:55 UTC. During this time, users might have experienced errors when attempting to resize their Droplets through the API or the UI.
+
+        Additionally, in an effort to resolve the issue with resizes, a secondary issue affected all event processing and some API calls for Droplets and related services from 21:50 until 22:00 UTC.
+
+        Swift action was taken by our Engineering team to restore full functionality, and now everything is operating normally.
+
+        We apologize for any inconvenience this may have caused. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.
+      resolved: true
