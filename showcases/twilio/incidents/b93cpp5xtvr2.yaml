@@ -1,0 +1,9 @@
+version: incident/v1
+id: b93cpp5xtvr2
+name: SMS Delivery Delays to Claro Network in Brazil
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-25 21:14:55"
+      description: Twilio SMS was degraded for 33 minutes between 12:15 and 12:45 Pacific Time on 09/25/2024. During this period of time customers may have experienced SMS Delivery Delays to Claro Network in Brazil. The issue has now been resolved.
+      resolved: true
