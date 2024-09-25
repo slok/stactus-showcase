@@ -1,0 +1,11 @@
+version: incident/v1
+id: 5stm09v5yzd1
+name: Issue with Zoom AIC impacting email compose and virtual background
+impact: minor
+systems:
+    - 32tsmw7szk49
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2024-09-25 08:26:29"
+      description: Our monitoring has detected issues with Zoom AIC impacting email compose and virtual background, we are currently investigating and will provide updates as we have them.
+      investigating: true
