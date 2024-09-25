@@ -13,3 +13,6 @@ timeline:
       investigating: true
     - ts: "2024-09-25 15:36:00"
       description: "Our Engineering team has implemented a fix to resolve the issues impacting the resizing of Managed Database Clusters. Users should now be able to resize their existing MongoDB clusters without any issues. \n\nWe are actively monitoring the situation and will post an update as soon as the issue is fully resolved."
+    - ts: "2024-09-25 16:10:11"
+      description: "From 00:01 to 15:15 UTC, users may have experienced errors when attempting to resize their MongoDB Managed Database clusters.\n\nOur Engineering team has confirmed the full resolution of issue. Users should now be able to resize their MongoDB clusters normally. \n\nIf you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel."
+      resolved: true
