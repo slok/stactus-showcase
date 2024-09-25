@@ -1,0 +1,13 @@
+version: incident/v1
+id: zp4gzrqfzhrq
+name: Degraded performance for some Copilot users
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2024-09-25 23:39:51"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2024-09-25 23:40:17"
+      description: We have noticed a degradation in performance of Copilot API in some regions. This may result in latency or failed responses to requests to Copilot. We are investigating mitigation options.<br />
+      investigating: true
