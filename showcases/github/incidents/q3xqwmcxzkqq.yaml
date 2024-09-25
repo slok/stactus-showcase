@@ -1,0 +1,13 @@
+version: incident/v1
+id: q3xqwmcxzkqq
+name: Incident with Git Operations
+impact: minor
+systems:
+    - 8l4ygp009s5s
+timeline:
+    - ts: "2024-09-25 15:25:28"
+      description: We are investigating reports of degraded performance for Git Operations
+      investigating: true
+    - ts: "2024-09-25 15:34:08"
+      description: We are investigating reports of issues with both Actions and Packages, related to a brief period of time where specific Git Operations were failing. We will continue to keep users updated on progress towards mitigation.
+      investigating: true
