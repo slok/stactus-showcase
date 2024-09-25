@@ -1,0 +1,9 @@
+version: incident/v1
+id: j1jldc6r59g6
+name: SMS Delivery Delays to Multiple Networks in Taiwan for a Subset of Long code
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-25 22:05:40"
+      description: Twilio SMS was degraded for 171 minutes between 09:15 and 12:05 Pacific Time on 09/25/2024. During this period of time customers may have experienced delivery Delays to Multiple Networks in Taiwan for a Subset of Long code. The issue has now been resolved.
+      resolved: true
