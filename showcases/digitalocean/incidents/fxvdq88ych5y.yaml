@@ -20,3 +20,6 @@ timeline:
       description: Our Engineering team has identified the cause of the networking connectivity issues with Managed Kubernetes clusters in the SFO3 region and is actively working on rolling out a fix. Once we have additional information, we will share another update.
     - ts: "2024-09-26 02:15:13"
       description: Our Engineering team has implemented a fix to resolve the issue affecting networking connectivity with Managed Kubernetes clusters in the SFO3 region and is closely monitoring the situation. We will provide an update as soon as the issue is fully resolved.
+    - ts: "2024-09-26 02:45:02"
+      description: "From 22:25 to 22:50 UTC, users may have experienced network connectivity issues with all DigitalOcean services deployed in the SFO3 region. Additionally, from 22:25 until 01:40 UTC, users may have encountered network connectivity issues affecting their Managed Kubernetes clusters in the SFO3 region.\n\nOur Engineering team has fully resolved the issues impacting connectivity in the region, and all services are now operating normally. \n\nIf you continue to experience any problems, please open a ticket with our Support team. We apologize for any inconvenience caused."
+      resolved: true
