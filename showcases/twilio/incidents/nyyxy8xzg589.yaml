@@ -1,0 +1,13 @@
+version: incident/v1
+id: nyyxy8xzg589
+name: SMS Delivery Delays to Airtel Network In Nigeria
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2024-09-26 19:21:11"
+      description: Our monitoring systems have detected a potential issue with SMS delivery delays. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-09-26 19:29:44"
+      description: We are currently experiencing SMS delivery delays when sending messages to Airtel Network In Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
