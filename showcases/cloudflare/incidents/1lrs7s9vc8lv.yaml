@@ -1,10 +1,16 @@
 version: incident/v1
 id: 1lrs7s9vc8lv
-name: Workers Apps is Reportedly Having Trouble Hitting the Observability API
+name: Workers issues on workers.dev domains
 impact: minor
 systems:
     - 57srcl8zcn7c
 timeline:
     - ts: "2024-09-26 20:25:24"
-      description: Cloudflare is investigating reports of Workers Apps failing to reach the observability API. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      description: |-
+        Cloudflare is investigating an issue invoking Workers on workers.dev subdomains. At this time, we do not see any impact on normal routes/custom domains.
+
+        We will update when we have more information
+      investigating: true
+    - ts: "2024-09-26 20:46:57"
+      description: We are continuing to investigate this issue.
       investigating: true
