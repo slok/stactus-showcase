@@ -12,5 +12,5 @@ timeline:
       description: We are investigating reports of issues with both Actions and Packages, related to a brief period of time where specific Git Operations were failing. We will continue to keep users updated on progress towards mitigation.
       investigating: true
     - ts: "2024-09-25 16:03:30"
-      description: This incident has been resolved.
+      description: On September 25, 2024 from 14:31 UTC to 15:06 UTC the Git Operations service experienced a degradation, leading to 1,381,993 failed git operations. The overall error rate during this period was 4.2%, with a peak error rate of 12.5%. <br /><br />The root cause was traced to a bug in a build script for a component that runs on the file servers that host git repository data. The build script incurred an error that did not cause the overall build process to fail, resulting in a faulty set of artifacts being deployed to production.<br /><br />To mitigate the impact, we rolled back the affecting deployment.  <br /><br />To prevent further occurrences of this cause in the future, we will be addressing the underlying cause of the ignored build failure and improving metrics and alerting for the resulting production failure scenarios.
       resolved: true
