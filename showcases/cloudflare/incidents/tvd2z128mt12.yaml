@@ -1,0 +1,11 @@
+version: incident/v1
+id: tvd2z128mt12
+name: Ashburn, VA Network Performance Issues
+impact: minor
+systems:
+    - 3t0npclljyyg
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2024-09-26 17:35:29"
+      description: We are investigating an issue resulting in degraded network performance in our Ashburn, VA (IAD) facility.
+      investigating: true
