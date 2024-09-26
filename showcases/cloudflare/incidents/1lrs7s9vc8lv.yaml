@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1lrs7s9vc8lv
+name: Workers Apps is Reportedly Having Trouble Hitting the Observability API
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2024-09-26 20:25:24"
+      description: Cloudflare is investigating reports of Workers Apps failing to reach the observability API. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
