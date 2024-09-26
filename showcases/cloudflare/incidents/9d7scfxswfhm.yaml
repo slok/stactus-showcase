@@ -1,10 +1,17 @@
 version: incident/v1
 id: 9d7scfxswfhm
 name: Intermittent DNS issues when using Cloudflare WARP
-impact: minor
+impact: critical
 systems:
+    - gyx2yygg7lmd
     - k04jkcpzxn94
 timeline:
     - ts: "2024-09-26 02:05:59"
-      description: We are currently investigating an issue where users on Cloudflare WARP may intermittently have issues resolving DNS addresses.
+      description: We are currently investigating an issue where users on WARP Gateway may intermittently have issues resolving DNS addresses. This does not impact 1.1.1.1
+      investigating: true
+    - ts: "2024-09-26 02:37:34"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-09-26 02:38:18"
+      description: We are continuing to investigate this issue.
       investigating: true
