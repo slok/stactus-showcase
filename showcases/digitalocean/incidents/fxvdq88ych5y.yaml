@@ -1,6 +1,6 @@
 version: incident/v1
 id: fxvdq88ych5y
-name: Managed Kubernetes Clusters in SFO3
+name: Network Connectivity in SFO3 Region
 impact: minor
 systems:
     - s9txl6g88v1z
@@ -16,3 +16,5 @@ timeline:
 
         At this time, some Managed Kubernetes clusters may continue experiencing network connectivity issues, but all other services in the region should be accessible as normal.
       investigating: true
+    - ts: "2024-09-26 01:27:36"
+      description: Our Engineering team has identified the cause of the networking connectivity issues with Managed Kubernetes clusters in the SFO3 region and is actively working on rolling out a fix. Once we have additional information, we will share another update.
