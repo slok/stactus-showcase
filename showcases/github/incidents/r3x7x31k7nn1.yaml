@@ -20,5 +20,10 @@ timeline:
       description: We are no longer seeing dropped Git SSH connections and believe we have mitigated the incident.  We are continuing to monitor and investigate to prevent reoccurrence.
       investigating: true
     - ts: "2024-09-16 14:28:03"
-      description: This incident has been resolved.
+      description: |-
+        On September 16, 2024, between 13:24 UTC and 14:28 UTC, the Git Operations service experienced a degradation, leading to intermittent SSH connection drops. The overall SSH error rate during this period was 0.0005%, with a peak error rate of 0.3%.
+
+        The root cause was traced to a regression in the service reload mechanism, which resulted in SSH hosts dropping connections on an hourly basis. As SSH hosts were rebooted for routine security updates, the issue progressively affected more hosts.
+
+        To mitigate the impact, we removed the affected hosts from production traffic. The SSH regression has since been identified and resolved, with all SSH hosts fully restored. Additionally, we have implemented new monitoring to alert us of any SSH connection refusals moving forward.
       resolved: true
