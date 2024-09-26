@@ -1,0 +1,15 @@
+version: incident/v1
+id: r2dk8spt4xk9
+name: Control Plane in SYD1
+impact: minor
+systems:
+    - pvrxw08f1wxj
+timeline:
+    - ts: "2024-09-26 19:08:18"
+      description: |-
+        As of 18:24 UTC, our Engineering team is investigating an issue impacting the control plane in the SYD1 region. At this time customers may encounter errors when attempting to create or modify DigitalOcean services deployed in the SYD1 region. Connectivity to existing services should not be impacted.
+
+        This is believed to be related to earlier network maintenance being carried out in the region: https://status.digitalocean.com/incidents/1sf8jl4s1sp4
+
+        We apologize for the inconvenience and will share an update once we have further information.
+      investigating: true
