@@ -11,3 +11,6 @@ timeline:
     - ts: "2024-09-25 23:40:17"
       description: We have noticed a degradation in performance of Copilot API in some regions. This may result in latency or failed responses to requests to Copilot. We are investigating mitigation options.<br />
       investigating: true
+    - ts: "2024-09-25 23:55:25"
+      description: We are seeing recovery for requests to Copilot API in affected regions, and are continuing to investigate to ensure the experience remains stable.
+      investigating: true
