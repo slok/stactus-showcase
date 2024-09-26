@@ -1,0 +1,13 @@
+version: incident/v1
+id: ydsnnnhhq83l
+name: Cloudflare Workers AI Issues
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2024-09-26 13:36:08"
+      description: |-
+        Cloudflare has identified an issue where Workers AI users might experience errors for the model @cf/meta/llama-3.1-8b-instruct
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
