@@ -1,0 +1,9 @@
+version: incident/v1
+id: 5z3nvc9qdhpg
+name: Delayed cluster provisioning
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-09-27 21:39:06"
+      description: We are currently investigating an issue that may result in some customers experiencing delayed cluster provisioning operations.
