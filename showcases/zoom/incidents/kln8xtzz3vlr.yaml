@@ -1,0 +1,10 @@
+version: incident/v1
+id: kln8xtzz3vlr
+name: A subset of users experiencing issues with AI Chat compose service
+impact: minor
+systems:
+    - 07fc2bfpjgct
+timeline:
+    - ts: "2024-09-27 06:32:23"
+      description: We have detected service degradation where a subset of users would be experiencing issues with AI Chat compose service . Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
