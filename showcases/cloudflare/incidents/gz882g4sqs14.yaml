@@ -1,0 +1,17 @@
+version: incident/v1
+id: gz882g4sqs14
+name: WARP Connectivity issue
+impact: minor
+systems:
+    - vhpdc0y3qty9
+    - dk64qkf6mlmk
+    - qshn45g5q59m
+    - hr78s04g1r5b
+    - 3cg9wbk5hzg4
+    - k04jkcpzxn94
+timeline:
+    - ts: "2024-09-27 20:06:39"
+      description: Some users may be unable to connect to WARP, the team is investigating.
+      investigating: true
+    - ts: "2024-09-27 20:21:06"
+      description: The issue has been identified and a fix is being implemented.
