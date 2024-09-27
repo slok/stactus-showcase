@@ -1,11 +1,15 @@
 version: incident/v1
 id: g7g6q4nn9djc
-name: SMS Delivery Delays to North Carolina RSA 3 Network in the US for a Subset of Short Codes and Long Codes
+name: SMS Delivery Delays to North Carolina RSA 3 Network in the US
 impact: minor
 systems:
     - 7d8w22hqrh6s
     - 39mb8cmw8y2v
+    - 32f2bm54nkvv
 timeline:
     - ts: "2024-09-27 17:17:18"
       description: We are experiencing SMS delivery delays when sending messages to North Carolina RSA 3 Network in the US for a subset of short codes and long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-27 17:56:46"
+      description: We are experiencing SMS delivery delays when sending messages to North Carolina RSA 3 Network in the US . Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
