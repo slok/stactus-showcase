@@ -10,3 +10,9 @@ timeline:
       investigating: true
     - ts: "2024-09-27 06:08:10"
       description: This has been stable as of 05:27 UTC and we are continuing to monitor.
+    - ts: "2024-09-27 09:07:48"
+      description: |-
+        Between 0016Z and 0120Z and 0433Z and 0530Z a cloud networking component facilitating cross-region communication to and from this region experienced an outage. Users experienced errors modifying access policies in addition to elevated error rates for those who had recently modified an access policy. This also resulted in false positive synthetic monitoring alerts for probes in this region.
+
+        We're continuing to work with our cloud service provider to determine a root cause for the outage of this component.
+      resolved: true
