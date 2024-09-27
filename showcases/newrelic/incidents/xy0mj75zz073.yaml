@@ -1,24 +1,40 @@
 version: incident/v1
 id: xy0mj75zz073
-name: Intermittent API and UI Irregularities
+name: Intermittent API and UI Irregularities - US and EU Region
 impact: major
 systems:
     - k4c77k6bzcl7
+    - ssdh7xpzvw1l
     - ty1004s644gq
+    - gmn0nk8bzns7
     - k2c0hnpnmgqn
+    - dgtbt0fh397m
     - j6v4tzmw08t4
+    - fpds3wrx84c0
     - 1mwh21hqrxlw
+    - zhbggrqh2xl6
     - nw4g7754n7tl
+    - 6qh38lgrdr8v
     - x87lk2mkvdtx
+    - 5ptd99lkyfbn
     - g3mtj9z8c1cq
+    - vr1305kd0fnz
     - q94v4hz14v0f
+    - dw81gfk0f10y
     - xrzsz1k79xbd
+    - r6fg75bj1j7h
     - 5qhzckvc2ncn
+    - 36218xs1zbvy
     - mc4f9x2xl1zg
+    - 5wk3qb87hk5h
     - 927km3k58wgb
+    - s7j157s900c3
     - 8k5pmrjbl1w0
+    - jgl5xywwz8l3
     - 7yqy1ctsjw35
+    - zbbfpr0656gw
     - 5kj1rklxtgzg
+    - 0zhztcy8gf0v
 timeline:
     - ts: "2024-09-26 19:40:42"
       description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
@@ -34,4 +50,7 @@ timeline:
       investigating: true
     - ts: "2024-09-26 23:07:15"
       description: We are continuing to investigate an issue where some customers in the US region may experience intermittent API errors and irregularities rendering the New Relic UI. Data ingest and alert notifications are not impacted at this time. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-09-27 00:32:56"
+      description: "We are starting to see signs of recovery and teams are continuing to monitor.  \n\nSome customers in the US and EU region may have experienced intermittent API errors and irregularities rendering the New Relic UI. Data ingest and alert notifications are not impacted at this time."
       investigating: true
