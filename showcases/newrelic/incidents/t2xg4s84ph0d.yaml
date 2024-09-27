@@ -4,25 +4,56 @@ name: Intermittent API and UI Irregularities - US and EU Region
 impact: minor
 systems:
     - rbts0zzw73dl
+    - 2vkckmpm1kh6
     - k4c77k6bzcl7
+    - ssdh7xpzvw1l
     - ty1004s644gq
     - 5x10l9g2z3t6
+    - gmn0nk8bzns7
     - 1ccpnwlhg6xx
     - 028b05n94my0
     - 45zc1fn1w80h
+    - k2c0hnpnmgqn
+    - dgtbt0fh397m
     - 5p33lkzzqm0z
+    - j6v4tzmw08t4
+    - fpds3wrx84c0
+    - 5kywhg5j0l21
     - 1mwh21hqrxlw
     - ymfwncrn2dnh
+    - zhbggrqh2xl6
+    - 2jrn08x58ps2
     - nw4g7754n7tl
+    - 6qh38lgrdr8v
     - 9jndj4kfv59w
+    - pmtvnzg1dzfm
     - lm2qpsbfggh7
+    - x87lk2mkvdtx
     - s27h21w34qhk
+    - 5ptd99lkyfbn
     - prjgs1mvmqg9
     - g3mtj9z8c1cq
+    - vr1305kd0fnz
     - 6x8hq64xfvwl
+    - 833c8h98qq4g
+    - q94v4hz14v0f
+    - dw81gfk0f10y
+    - xrzsz1k79xbd
+    - r6fg75bj1j7h
+    - czn9jxzshjxn
+    - 5qhzckvc2ncn
+    - 36218xs1zbvy
     - xlzs28xhd8bw
     - mc4f9x2xl1zg
+    - 5wk3qb87hk5h
+    - 927km3k58wgb
+    - s7j157s900c3
+    - 8k5pmrjbl1w0
+    - jgl5xywwz8l3
+    - 7yqy1ctsjw35
+    - zbbfpr0656gw
     - 5kj1rklxtgzg
+    - 0zhztcy8gf0v
 timeline:
     - ts: "2024-09-27 06:13:53"
       description: Some customers in the US region may be experiencing login Irregularities in the US region
@@ -32,4 +63,12 @@ timeline:
       investigating: true
     - ts: "2024-09-27 06:44:10"
       description: Some customers in the US region may have experienced intermittent Login issues to create support cases and irregularities in the New Relic UI, Mobile, Synthetics Monitors and alerts notifications
+      investigating: true
+    - ts: "2024-09-27 07:22:52"
+      description: |-
+        We are investigating intermittent connectivity issues between some New Relic services.
+        Customers in the US and EU regions may be experiencing intermittent issues rendering the New Relic UI and connecting to various APIs. Customers in the US region may be experiencing intermittent latency for data processing for some data types, resulting in delayed or false alert notifications.
+      investigating: true
+    - ts: "2024-09-27 07:25:26"
+      description: We are continuing to investigate this issue.
       investigating: true
