@@ -13,5 +13,5 @@ timeline:
       description: We're seeing issues related to Actions runs failing to download actions at the start of a job. We're investigating the cause and working on mitigations for customers impacted by this issue.
       investigating: true
     - ts: "2024-09-25 19:19:01"
-      description: This incident has been resolved.
+      description: On September 25th, 2024 from 18:32 UTC to 19:13 UTC, Actions service experienced a degradation during a production deployment, leading to actions failing to be downloaded at the start of a job. On average, 21% of Actions workflow runs failed to start during the course of the incident. The issue was traced back to a bug in an internal service responsible for generating the URLs used by the Actions runner to download actions.<br /><br />To mitigate the impact, we rolled back the affecting deployment. We are implementing new monitors to improve our detection and response time for this class of issues in the future.
       resolved: true

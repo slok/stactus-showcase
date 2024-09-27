@@ -1,0 +1,13 @@
+version: incident/v1
+id: pblqrsghyv3z
+name: MMS Delivery Delays to Vodafone Network in Australia
+impact: minor
+systems:
+    - 2nd0jdj36wpq
+timeline:
+    - ts: "2024-09-27 21:09:36"
+      description: Our monitoring systems have detected a potential issue with MMS Delivery Delays to Vodafone Network in Australia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-09-27 21:18:19"
+      description: We are experiencing MMS delivery delays when sending messages to Vodafone Network in Australia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
