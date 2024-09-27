@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7xtqvmhn7njy
+name: On Call Engineers are Investigating an Issue With Bundle Creation
+impact: none
+systems:
+    - gk7b1lwzf93x
+timeline:
+    - ts: "2024-09-27 16:03:26"
+      description: Our monitoring systems have detected a potential issue with selecting a country when creating a bundle. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
