@@ -1,6 +1,6 @@
 version: incident/v1
 id: 8hg1zxn80ytq
-name: SMS Delivery Delays to MTM Network in Nigeria
+name: SMS Delivery Delays and Failures to the MTM Network in Nigeria
 impact: minor
 systems:
     - 9z5gsqyjs4rl
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2024-09-27 15:36:11"
       description: We continue to experience SMS delivery delays when sending messages to the MTM Network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-09-27 16:31:58"
+      description: We continue to experience SMS delivery delays when sending messages to the MTM Network in Nigeria. We are also observing SMS delivery failures when sending to the MTM Network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
