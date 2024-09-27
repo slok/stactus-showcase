@@ -1,7 +1,7 @@
 version: incident/v1
 id: xy0mj75zz073
 name: Intermittent API and UI Irregularities - US and EU Region
-impact: major
+impact: none
 systems:
     - k4c77k6bzcl7
     - ssdh7xpzvw1l
@@ -54,3 +54,6 @@ timeline:
     - ts: "2024-09-27 00:32:56"
       description: "We are starting to see signs of recovery and teams are continuing to monitor.  \n\nSome customers in the US and EU region may have experienced intermittent API errors and irregularities rendering the New Relic UI. Data ingest and alert notifications are not impacted at this time."
       investigating: true
+    - ts: "2024-09-27 02:20:01"
+      description: Between 18:54 UTC on September 26th and 00:14 UTC on September 27th , some customers in the US and EU region using may have experienced intermittent API errors and irregularities rendering the New Relic UI. We resolved this issue and services have returned to normal operations. Data ingest and alert notifications were not impacted.
+      resolved: true
