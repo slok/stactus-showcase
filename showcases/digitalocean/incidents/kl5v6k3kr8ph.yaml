@@ -1,0 +1,13 @@
+version: incident/v1
+id: kl5v6k3kr8ph
+name: New Customer Sign Ups
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2024-09-27 16:41:24"
+      description: |-
+        Our Engineering team is currently investigating an issue affecting registering for a new account at cloud.digitalocean.com. Since 00:00 UTC, some users may encounter errors and be unable to complete the registration process.
+
+        We apologize for any inconvenience this may cause and will provide an update as soon as we have more information.
+      investigating: true
