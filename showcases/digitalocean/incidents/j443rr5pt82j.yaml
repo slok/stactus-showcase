@@ -1,0 +1,15 @@
+version: incident/v1
+id: j443rr5pt82j
+name: Networking in NYC region
+impact: none
+systems:
+    - dhcf7lpc5q3z
+    - r2cw20w0r9zx
+    - 4lc0zwg56npx
+timeline:
+    - ts: "2024-09-28 08:29:09"
+      description: |-
+        As of 09:45 UTC, our Engineering team is currently investigating an issue impacting networking in NYC region. Users may experience network connectivity loss to Droplets and Droplet-based services, like Managed Kubernetes and Database Clusters.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
