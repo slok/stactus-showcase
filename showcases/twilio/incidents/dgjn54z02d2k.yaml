@@ -1,0 +1,10 @@
+version: incident/v1
+id: dgjn54z02d2k
+name: 'Automated Alert: Minimal Customer Impact'
+impact: none
+systems:
+    - h0fl7prwfhvm
+timeline:
+    - ts: "2024-09-28 20:04:25"
+      description: We have fully investigated the MMS delivery delays to US Networks, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
