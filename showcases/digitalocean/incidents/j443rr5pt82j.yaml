@@ -1,7 +1,7 @@
 version: incident/v1
 id: j443rr5pt82j
 name: Networking in NYC region
-impact: none
+impact: minor
 systems:
     - dhcf7lpc5q3z
     - r2cw20w0r9zx
@@ -13,3 +13,5 @@ timeline:
 
         We apologize for the inconvenience and will share an update once we have more information.
       investigating: true
+    - ts: "2024-09-28 08:43:36"
+      description: Our Engineering team has identified the cause of the issue impacting networking connectivity in NYC to be with our upstream provider. Our team is actively working on remediation steps. We will post an update as soon as we have more information.
