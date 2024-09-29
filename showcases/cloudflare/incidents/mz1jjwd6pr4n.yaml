@@ -1,0 +1,12 @@
+version: incident/v1
+id: mz1jjwd6pr4n
+name: Increase in API errors for Images
+impact: minor
+systems:
+    - 3lbj8lp3d750
+timeline:
+    - ts: "2024-09-29 17:54:27"
+      description: Cloudflare is investigating an increase of API errors and latency for Cloudflare Images.
+      investigating: true
+    - ts: "2024-09-29 18:02:11"
+      description: A fix has been implemented and we are monitoring the results.
