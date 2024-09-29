@@ -1,0 +1,12 @@
+version: incident/v1
+id: zj3v593csbb3
+name: Connection Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2024-09-29 23:44:01"
+      description: 'We are currently investigating connectivity issues to some resources that have the following pattern in their endpoint: cls-prod40'
+      investigating: true
+    - ts: "2024-09-29 23:46:19"
+      description: This incident has been resolved.
+      resolved: true
