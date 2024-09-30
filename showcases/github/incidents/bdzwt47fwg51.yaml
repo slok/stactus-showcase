@@ -1,0 +1,13 @@
+version: incident/v1
+id: bdzwt47fwg51
+name: Incident with Codespaces
+impact: major
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2024-09-30 11:08:08"
+      description: We are investigating reports of degraded availability for Codespaces
+      investigating: true
+    - ts: "2024-09-30 11:09:04"
+      description: We are investigating a high number of errors in Codespaces creation and start.
+      investigating: true
