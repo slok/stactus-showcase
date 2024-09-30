@@ -5,5 +5,7 @@ impact: none
 systems: []
 timeline:
     - ts: "2024-09-30 16:37:41"
-      description: We are seeing some intermittent error rates that could cause file access permission errors and errors loading the recent files page. We are continuing to investigate.
+      description: We are seeing some intermittent error rates that could cause file access errors and errors loading the recent files page. We are continuing to investigate.
       investigating: true
+    - ts: "2024-09-30 16:49:34"
+      description: We have resolved the issue and are monitoring for further issues
