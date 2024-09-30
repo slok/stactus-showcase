@@ -4,8 +4,13 @@ name: Elevated HTTP 500 Errors for Twilio APIs
 impact: minor
 systems:
     - b9z92qjr2p04
+    - m5b6twz4h52d
     - h056tfqk3q97
+    - yvvy3vlp4djf
 timeline:
     - ts: "2024-09-30 17:49:33"
       description: Our engineers are currently investigating the customer impact of a retroactive issue affecting multiple Twilio APIs. We will follow up and provide customer impact details within 2 hours.
       investigating: true
+    - ts: "2024-09-30 18:09:29"
+      description: Twilio APIs were degraded for 10 minutes between 17:35 and 17:45 UTC on 09/30/2024. During this period of time customers may have experienced HTTP 5XX errors on various APIs.
+      resolved: true
