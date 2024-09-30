@@ -11,3 +11,15 @@ timeline:
     - ts: "2024-09-30 11:09:04"
       description: We are investigating a high number of errors in Codespaces creation and start.
       investigating: true
+    - ts: "2024-09-30 11:24:49"
+      description: Codespaces is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-09-30 11:25:36"
+      description: We are seeing signs of recovery in Codespaces creations and starts. We are continuing to monitor for full recovery.
+      investigating: true
+    - ts: "2024-09-30 11:26:49"
+      description: Codespaces is operating normally.
+      investigating: true
+    - ts: "2024-09-30 11:26:53"
+      description: This incident has been resolved.
+      resolved: true
