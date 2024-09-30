@@ -1,0 +1,10 @@
+version: incident/v1
+id: 69m1xq8y1zt3
+name: SMS Delivery Delays to North Carolina RSA 3 Network in the US
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2024-09-30 19:47:47"
+      description: We are experiencing SMS delivery delays when sending messages to North Carolina RSA 3 Network in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
