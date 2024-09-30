@@ -1,0 +1,10 @@
+version: incident/v1
+id: z76yczj3bjz1
+name: Connectivity Lost on ~20% of Super SIM Devices
+impact: minor
+systems:
+    - 919qx43ks4dx
+timeline:
+    - ts: "2024-09-30 05:42:45"
+      description: Our monitoring systems have detected a potential issue  with regards to Super SIM Connectivity Data Session Drop. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
