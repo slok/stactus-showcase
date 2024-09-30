@@ -1,0 +1,10 @@
+version: incident/v1
+id: fdglhx43l34q
+name: Atlas Data Federation and Online Archive users may see increased query timeouts in Azure/westeurope
+impact: minor
+systems:
+    - lh7m7lhnf3rj
+timeline:
+    - ts: "2024-09-30 13:29:36"
+      description: We are currently investigating query timeouts when connecting to Azure westeurope Atlas Data Federation instances.
+      investigating: true
