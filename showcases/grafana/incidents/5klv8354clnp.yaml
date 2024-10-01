@@ -1,0 +1,14 @@
+version: incident/v1
+id: 5klv8354clnp
+name: 'Synthetic Monitoring: London and Mumbai probes temporary disruption of service'
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-01 11:14:37"
+      description: |-
+        A transient stability issue in our infrastructure caused public probes to report MultiHTTP and Scripted checks as failures in:
+        - Mumbai between September 28th ~15:30 UTC to ~17:00 UTC
+        - London between September 30th ~23:30 UTC to October 1st ~02:30 UTC
+
+        The error has been addressed and all probes should now be operating normally.
+      resolved: true
