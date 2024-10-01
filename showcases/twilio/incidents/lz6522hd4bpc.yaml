@@ -18,3 +18,6 @@ timeline:
       investigating: true
     - ts: "2024-09-30 22:13:20"
       description: Verizon Network has confirmed recovery on their services. We continue to monitor the situation, with no major impact on Twilio's Services due to this particular issue. Our engineers are working with Verizon Network to follow up with a resolution for this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-10-01 00:12:35"
+      description: As per confirmation from Verizon Network, they have resolved the problems on their platform. We can also confirm stability in Twilio SMS and Voice services at this time. This incident has been resolved.
+      resolved: true
