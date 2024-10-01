@@ -1,9 +1,12 @@
 version: incident/v1
 id: byxs7kf21ffx
-name: Our Engineers are Investigating a Retroactive Issue with 5XX Errors and Latency on Twilio Messaging API
+name: 'Automated Alert: Minimal Customer Impact'
 impact: none
 systems:
     - yvvy3vlp4djf
 timeline:
     - ts: "2024-10-01 15:01:20"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with 5XX errors and latency on Twilio Messaging API. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2024-10-01 15:10:21"
+      description: We have fully investigated the issue with 5XX errors and latency on Twilio Messaging API, and it was determined that the impact was limited to a small set of customers. All systems are operational.
+      resolved: true
