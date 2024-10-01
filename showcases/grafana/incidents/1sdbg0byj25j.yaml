@@ -8,3 +8,8 @@ timeline:
     - ts: "2024-10-01 19:45:41"
       description: "As of 17:30 UTC, we became aware of an issue affecting Hosted Grafana instances in the prod-us-east-0 region. Users experiencing this issue may encounter intermittent downtime. \n\nEngineering is actively engaged and assessing the issue. We will provide updates accordingly."
       investigating: true
+    - ts: "2024-10-01 20:22:28"
+      description: |-
+        Engineering has identified a correlation between this issue and one of our Cloud Service Providers and is currently exploring remediation options. At this time, users will continue to experience intermittent downtime.
+
+        We will continue to provide updates as more information is shared.
