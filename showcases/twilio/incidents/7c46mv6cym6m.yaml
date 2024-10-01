@@ -1,10 +1,13 @@
 version: incident/v1
 id: 7c46mv6cym6m
-name: On Call Engineers are Investigating a Potential Issue with Flex Insights
+name: Subset of Customers Unable To Access Flex Insights Historical Reports
 impact: minor
 systems:
     - lv1md8v28lhr
 timeline:
     - ts: "2024-10-01 13:21:48"
       description: We've become aware of a potential issue with a subset of customers accessing Flex Insights. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-10-01 13:37:49"
+      description: We are investigating 401 errors accessing Flex Insights historical reports for a subset of customers. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
