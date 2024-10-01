@@ -1,0 +1,13 @@
+version: incident/v1
+id: 3qym1cb29rh6
+name: Cache Purging Delays in Some Regions
+impact: minor
+systems:
+    - fbvx0hxhhdj0
+timeline:
+    - ts: "2024-10-01 14:15:43"
+      description: |-
+        Cloudflare's cache purging called via the Dashboard/API is running up to 60 minutes behind in some regions.
+
+        We are working to resolve this issue as soon as possible. More updates to follow.
+      investigating: true
