@@ -1,0 +1,10 @@
+version: incident/v1
+id: rj6r0s848v79
+name: Workers Smart Placement Causing Request Failures in Eastern Europe
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2024-10-01 22:08:40"
+      description: Cloudflare Workers with the Smart Placement feature enabled will have failing requests in the OTP colo (Eastern Europe) since Oct 1, 18:00 UTC. We are working on a fix, but impact can be immediately mitigated by turning off Smart Placement https://developers.cloudflare.com/workers/configuration/smart-placement/
+      investigating: true
