@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1sdbg0byj25j
+name: Grafana Cloud Partial Outage
+impact: major
+systems:
+    - hbqgpzmf8h9k
+timeline:
+    - ts: "2024-10-01 19:45:41"
+      description: "As of 17:30 UTC, we became aware of an issue affecting Hosted Grafana instances in the prod-us-east-0 region. Users experiencing this issue may encounter intermittent downtime. \n\nEngineering is actively engaged and assessing the issue. We will provide updates accordingly."
+      investigating: true
