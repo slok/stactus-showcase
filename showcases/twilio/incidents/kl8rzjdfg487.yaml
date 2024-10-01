@@ -1,0 +1,10 @@
+version: incident/v1
+id: kl8rzjdfg487
+name: SMS Delivery Delays to Megafon Network in Russia
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2024-10-01 07:42:37"
+      description: We are experiencing SMS delivery delays when sending messages to Megafon Network in Russia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
