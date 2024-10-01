@@ -1,0 +1,10 @@
+version: incident/v1
+id: g9jx9c5c0nnl
+name: Elevated errors for Stream Generated Captions and Workers AI whisper-tiny model
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2024-10-01 22:27:30"
+      description: Workers AI is experiencing elevated error rate for @cf/openai/whisper-tiny-en, impacting users of Stream Generated Captions. We are currently investigating the cause of this issue.
+      investigating: true
