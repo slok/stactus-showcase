@@ -1,0 +1,14 @@
+version: incident/v1
+id: hhkclwtsdzkp
+name: Redis Cloud - Delay in subscription provisioning in Admin Console
+impact: none
+systems:
+    - nn6rqzz85xg5
+timeline:
+    - ts: "2024-10-02 00:54:37"
+      description: |-
+        We’re currently investigating delays in provisioning new Redis Cloud Essentials subscriptions (cloud.redis.io).
+        Your database’s connectivity is not affected.
+
+        We will provide an update shortly.
+      investigating: true

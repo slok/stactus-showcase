@@ -1,0 +1,10 @@
+version: incident/v1
+id: t8yhdkhl1zl7
+name: Push Notifications for @everyones and roles are degraded
+impact: none
+systems:
+    - 354mn7xfxz1h
+timeline:
+    - ts: "2024-10-02 01:21:54"
+      description: We are investigating an issue where push notifications @everyone and role pings are degraded for servers over 2500 members.
+      investigating: true
