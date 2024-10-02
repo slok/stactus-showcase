@@ -15,5 +15,5 @@ timeline:
       description: Pull Requests is operating normally.
       investigating: true
     - ts: "2024-09-14 22:43:08"
-      description: This incident has been resolved.
+      description: On September 14th, 2024 from 20:45 UTC to 22:31 UTC commit creation operations, most commonly Pull Request merges, failed for some repositories. 226 repositories were impacted.<br /><br />The root cause was a hardware fault in a Git file server, where merge commits are calculated. To mitigate the issue we marked the file server as offline.<br /><br />Detection was slower than is typical because of lower weekend traffic. We’re making improvements to monitoring to decrease time to detection in future.
       resolved: true
