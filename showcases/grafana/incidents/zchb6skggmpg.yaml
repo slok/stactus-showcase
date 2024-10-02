@@ -1,0 +1,32 @@
+version: incident/v1
+id: zchb6skggmpg
+name: Synthetic monitoring failures, London probe location
+impact: minor
+systems:
+    - gqmrtkv44snw
+    - w2sv65flwjyg
+    - vdp8ff0sncsj
+    - 72cbdqh1qfxk
+    - 1dqyw0njnkxv
+    - 6xm6mc51pr03
+    - sq2b0zbgtbwn
+    - r5nqbrqbw0k2
+    - wlk38l1st21f
+    - pz96v0pznswg
+    - gsb4scg45ndq
+    - dcwlkh9jb6xh
+    - 43fvknltd9m1
+    - b6vy9syblc9x
+    - dpny9b8qb952
+    - czpt94dvn18t
+    - 191t9x68nj8s
+    - fh680ftdss7w
+    - tcskx9mfsz1c
+    - 7p6gpdprypb9
+timeline:
+    - ts: "2024-10-02 03:24:02"
+      description: A node in our London probe location is experiencing connectivity issues, affecting approximately 25% of synthetics running out that location.  We are investigating the issue.
+      investigating: true
+    - ts: "2024-10-02 03:24:46"
+      description: We are continuing to investigate this issue.
+      investigating: true
