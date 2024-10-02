@@ -1,0 +1,9 @@
+version: incident/v1
+id: 64wplrvtkbx2
+name: SMS Delivery Failures to Multiple Networks in Slovakia for a Subset of Alphanumeric Sender Id and Long Codes
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-02 22:00:01"
+      description: Twilio SMS delivery failures to multiple networks in Slovakia for a subset of alphanumeric sender Id and long codes was degraded for 60 minutes between 11:50 AM and 12:50 PM Pacific Time on 10/02/2024. During this period of time customers may have experienced SMS delivery failures. The issue has now been resolved.
+      resolved: true
