@@ -1,0 +1,11 @@
+version: incident/v1
+id: zyjx1c7lkf4y
+name: Machine API Validation Errors
+impact: none
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2024-10-02 18:51:47"
+      description: We're working to resolve a validation error being returned when creating or updating machines.
+    - ts: "2024-10-02 19:01:34"
+      description: A fix has been deployed and we're continuing to monitor API errors.
