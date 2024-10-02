@@ -36,5 +36,5 @@ timeline:
       description: Monitors continue to see improvements. We are declaring full recovery.
       investigating: true
     - ts: "2024-09-26 05:08:45"
-      description: This incident has been resolved.
+      description: Between September 25, 2024, 22:20 UTC and September 26, 2024, 5:00 UTC the Copilot service was degraded. During this time Copilot chat requests failed at an average rate of 15%.<br /><br />This was due to a faulty deployment in a service provider that caused server errors from multiple regions. Traffic was routed away from those regions at 22:28 UTC and 23:39 UTC, which partially restored functionality, while the upstream service provider rolled back their change. The rollback was completed at 04:41 UTC.<br /><br />We are continuing to improve our ability to respond more quickly to similar issues through faster regional redirection and working with our upstream provider on improved monitoring.<br />
       resolved: true
