@@ -1,0 +1,10 @@
+version: incident/v1
+id: pl5dwdvwzk4n
+name: Slow access to OnCall UI and delayed notifications for prod-us-central-0 cluster
+impact: minor
+systems:
+    - h3wg1km0qxwv
+timeline:
+    - ts: "2024-10-02 21:22:50"
+      description: We are currently investigating this issue.
+      investigating: true
