@@ -1,10 +1,12 @@
 version: incident/v1
 id: vth7hbt0z3vk
-name: On Call Engineers are Investigating a Potential Issue with Expired Twilio CLI Keys
-impact: none
+name: Expired GPG Keys on Twilio CLI
+impact: minor
 systems:
-    - m5b6twz4h52d
+    - 4rv9xfxmdjg9
 timeline:
     - ts: "2024-10-03 13:49:27"
       description: We've become aware of a potential issue with Expired Twilio CLI Keys. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2024-10-03 14:35:13"
+      description: We are currently experiencing an issue with expired GPG Keys on Twilio CLI. All customers who install the Twilio CLI using the APT package manager in their CI pipelines are affected by the expired GPG key. Our engineers are in the process of generating new GPG keys to resolve the issue. The team will need to release a new version of the Twilio CLI package with the updated GPG keys to restore functionality for customers. We will provide another update in 1 hour or as soon as more information becomes available.
