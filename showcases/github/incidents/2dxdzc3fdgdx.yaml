@@ -21,5 +21,5 @@ timeline:
       description: Codespaces is operating normally.
       investigating: true
     - ts: "2024-09-24 21:04:59"
-      description: This incident has been resolved.
+      description: On September 24th, 2024 from 08:20 UTC to 09:04 UTC the Codespaces service experienced an interruption in network connectivity, leading to 175 codespaces being unable to be created or resumed. The overall error rate during this period was 25%. <br /><br />The cause was traced to an interruption in network connectivity caused by SNAT port exhaustion following a deployment, causing individual Codespaces to lose their connection to the service.<br /><br />To mitigate the impact, we increased port allocations to give enough buffer for increased outbound connections shortly after deployments, and will be scaling up our outbound connectivity in the near future, as well as adding improved monitoring of network capacity to prevent future regressions.
       resolved: true
