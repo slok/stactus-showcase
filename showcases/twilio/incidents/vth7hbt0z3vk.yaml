@@ -10,3 +10,5 @@ timeline:
       investigating: true
     - ts: "2024-10-03 14:35:13"
       description: We are currently experiencing an issue with expired GPG Keys on Twilio CLI. All customers who install the Twilio CLI using the APT package manager in their CI pipelines are affected by the expired GPG key. Our engineers are in the process of generating new GPG keys to resolve the issue. The team will need to release a new version of the Twilio CLI package with the updated GPG keys to restore functionality for customers. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2024-10-03 14:37:13"
+      description: We are currently experiencing an issue with expired GPG Keys on Twilio CLI. All customers who install the Twilio CLI using the APT or RPM package manager in their CI pipelines are affected by the expired GPG key. Our engineers are in the process of generating new GPG keys to resolve the issue. The team will need to release a new version of the Twilio CLI package with the updated GPG keys to restore functionality for customers. We will provide another update in 1 hour or as soon as more information becomes available.

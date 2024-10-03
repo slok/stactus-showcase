@@ -10,3 +10,5 @@ timeline:
     - ts: "2024-10-02 23:41:33"
       description: "An issue is preventing us from sending account confirmation emails to SCIM-provisioned users after they accept their invitation. \n\nUsers are still confirmed automatically by the 1Password SCIM Bridge and you can continue to provision users normally. \n\nYou may want to proactively distribute communications to your teams letting them know they may not receive a confirmation email. They should be able to sign into their new 1Password account approximately five minutes after accepting their invitation. \n\nMembers of the Owners or Administrators group in 1Password can check the status of provisioned users on the People page of your 1Password account. \n\nWe are still investigating the cause and will provide an update when we have more information."
       investigating: true
+    - ts: "2024-10-03 14:44:53"
+      description: The issue has been identified and a fix is being implemented.
