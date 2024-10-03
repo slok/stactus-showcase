@@ -1,0 +1,10 @@
+version: incident/v1
+id: l17spzjm538p
+name: Some users unable to purchase Workers via Credit Card
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2024-10-03 16:16:52"
+      description: Customers unable to add new Credit Card to pay for Workers from Free.
+      investigating: true
