@@ -1,0 +1,10 @@
+version: incident/v1
+id: 028x7r5gq2wr
+name: Inbound Call Failures to a Subset of Twilio US Phone Numbers from Canada or US roamers in Canada
+impact: minor
+systems:
+    - 2v3v92mz2m4h
+timeline:
+    - ts: "2024-10-03 08:58:09"
+      description: We are observing call failures to a subset of Twilio US phone numbers from Canada or US roamers in Canada. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
