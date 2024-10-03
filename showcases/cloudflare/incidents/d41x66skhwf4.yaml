@@ -1,0 +1,13 @@
+version: incident/v1
+id: d41x66skhwf4
+name: R2 Billing Issues
+impact: minor
+systems:
+    - ll1x88wwz4fq
+timeline:
+    - ts: "2024-10-03 00:33:06"
+      description: |-
+        We’re currently experiencing a billing issue preventing customers who have had payment issues and resolved them from re-accessing and subscribing to R2. All other services are operating normally.
+
+        More updates to follow up.
+      investigating: true
