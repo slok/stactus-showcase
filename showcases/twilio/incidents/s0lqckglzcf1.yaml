@@ -1,0 +1,10 @@
+version: incident/v1
+id: s0lqckglzcf1
+name: SMS Delivery Failures to MCI Network in Iran
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2024-10-03 07:20:35"
+      description: We are experiencing SMS delivery failures to MCI Network in Iran. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
