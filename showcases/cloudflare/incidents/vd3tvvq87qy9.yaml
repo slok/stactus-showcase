@@ -1,0 +1,12 @@
+version: incident/v1
+id: vd3tvvq87qy9
+name: Connectivity Issues for Specific Nameservers
+impact: minor
+systems:
+    - 7j656z7tqk7f
+timeline:
+    - ts: "2024-10-04 14:28:02"
+      description: Cloudflare is investigating connectivity issues to our standard nameservers "rose" and "violet". More updates to follow shortly.
+      investigating: true
+    - ts: "2024-10-04 14:28:17"
+      description: The issue has been identified and a fix is being implemented.
