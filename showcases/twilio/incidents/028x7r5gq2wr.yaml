@@ -25,3 +25,6 @@ timeline:
       investigating: true
     - ts: "2024-10-04 17:05:51"
       description: We have started seeing recovery for inbound calls to Twilio US phone numbers  from Bell Canada numbers and roamers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-10-04 19:00:12"
+      description: The issue affecting inbound calls to Twilio US phone numbers from Canada or US roamers in Canada has been resolved, and the service is functioning normally at this time.
+      resolved: true
