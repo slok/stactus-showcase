@@ -1,0 +1,10 @@
+version: incident/v1
+id: xhg2h81cskg3
+name: Duplicate and Delayed Alert Notifications
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-10-05 18:08:57"
+      description: We are currently investigating an issue that results in sending duplicate notifications for alerts, as well as delays in alert notifications.
+      investigating: true
