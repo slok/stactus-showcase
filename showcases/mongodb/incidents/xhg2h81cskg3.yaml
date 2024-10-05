@@ -14,3 +14,6 @@ timeline:
       description: We are validating a bug fix that will eliminate duplicate notifications and notification delays for alerts. We expect to deploy this fix by ~23:00 UTC.
     - ts: "2024-10-05 23:06:25"
       description: We have started deploying a fix that will eliminate duplicate alert notifications and notification delays. We are monitoring recovery.
+    - ts: "2024-10-05 23:40:06"
+      description: A bug fix to eliminate duplicate alert notifications and notification delays has been successfully deployed. Alerting is now functioning as expected.
+      resolved: true
