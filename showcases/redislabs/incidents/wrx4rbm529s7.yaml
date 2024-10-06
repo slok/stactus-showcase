@@ -1,0 +1,9 @@
+version: incident/v1
+id: wrx4rbm529s7
+name: Instance failure
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-06 15:02:03"
+      description: 'We are experiencing an instance failure. This may affect resources that have the following pattern in their endpoint: cls-prod30'
+      investigating: true
