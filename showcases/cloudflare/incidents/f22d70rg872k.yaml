@@ -17,3 +17,6 @@ timeline:
       description: A fix has been implemented and we are monitoring the results.
     - ts: "2024-10-07 16:24:56"
       description: We have determined that this issue also affected Cloudflare Images and Cloudflare Logpull. Logpull requests issued between 14:23 and 15:45 UTC should be re-tried.
+    - ts: "2024-10-07 18:00:24"
+      description: This incident is now resolved.
+      resolved: true
