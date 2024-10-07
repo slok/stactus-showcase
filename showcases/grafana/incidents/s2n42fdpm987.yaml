@@ -13,3 +13,6 @@ systems:
 timeline:
     - ts: "2024-10-07 20:03:04"
       description: Our cloud provider is currently experiencing issues. These may cause k6 test-runs to abort or errors using the UI.
+    - ts: "2024-10-07 20:35:57"
+      description: This incident has been resolved.
+      resolved: true
