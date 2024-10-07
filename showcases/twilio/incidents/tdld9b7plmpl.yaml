@@ -1,0 +1,10 @@
+version: incident/v1
+id: tdld9b7plmpl
+name: Issue In Accessing Alphanumeric Sender Id Registration Page On Twilio Console
+impact: critical
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2024-10-07 05:15:59"
+      description: We are investigating an issue where the users are unable to access the Alphanumeric Sender ID registration page on the Twilio Console. We expect to provide another update in an hour or as soon as more information becomes available
+      investigating: true
