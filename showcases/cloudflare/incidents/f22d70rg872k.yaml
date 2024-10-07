@@ -1,0 +1,13 @@
+version: incident/v1
+id: f22d70rg872k
+name: Stream Availability and Upload Issues
+impact: minor
+systems:
+    - 47xg28c02lnk
+timeline:
+    - ts: "2024-10-07 15:34:25"
+      description: |-
+        Cloudflare is investigating issues with Stream. Uploading videos to Stream and video playback may be impacted.
+
+        We are working to understand the full impact and mitigate this problem.  More updates to follow shortly
+      investigating: true
