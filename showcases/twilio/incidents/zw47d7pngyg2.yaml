@@ -1,0 +1,10 @@
+version: incident/v1
+id: zw47d7pngyg2
+name: Inbound Call Failure to a Subset of Thailand Phone Numbers
+impact: none
+systems:
+    - pv5w18vrltfl
+timeline:
+    - ts: "2024-10-07 05:38:19"
+      description: Inbound calls to Twilio phone numbers were degraded for 3 hours and 18 minutes between 18:46 and 22:04 Pacific Time on 10/06/2024. During this period of time, customers may have experienced inbound call failure to a subset of Thailand phone numbers. The issue has now been resolved.
+      resolved: true
