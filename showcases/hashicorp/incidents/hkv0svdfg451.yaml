@@ -1,0 +1,12 @@
+version: incident/v1
+id: hkv0svdfg451
+name: Error Creating Service Principal Keys
+impact: major
+systems:
+    - mgv1p2j9x444
+timeline:
+    - ts: "2024-10-08 20:37:57"
+      description: The team is aware of an issue with creating service principal keys. A fix has been deployed and is being monitored.
+    - ts: "2024-10-08 20:42:54"
+      description: We think the impact from the issue is over. Users will be able to create service principal keys.
+      resolved: true
