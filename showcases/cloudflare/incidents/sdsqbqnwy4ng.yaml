@@ -1,0 +1,12 @@
+version: incident/v1
+id: sdsqbqnwy4ng
+name: Issues with Cloudflare Registrar domains transfer list
+impact: minor
+systems:
+    - kn2xkt469vyh
+timeline:
+    - ts: "2024-10-08 12:42:15"
+      description: |-
+        Cloudflare is aware of, and investigating an issue where the transfer domains list on Cloudflare Registrar does not show any domains.
+        Further detail will be provided as more information becomes available.
+      investigating: true
