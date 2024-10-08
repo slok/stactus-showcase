@@ -1,0 +1,9 @@
+version: incident/v1
+id: x6154lldg5yx
+name: Some customers that have purchased Workers for Platforms may see incorrect billing
+impact: minor
+systems:
+    - ll1x88wwz4fq
+timeline:
+    - ts: "2024-10-08 16:53:09"
+      description: We have identified an issue with Workers for Platforms where some customers may have been over-billed. We are implementing a fix and auditing invoices to ensure accurate billing.
