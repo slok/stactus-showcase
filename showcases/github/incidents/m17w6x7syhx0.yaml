@@ -1,6 +1,6 @@
 version: incident/v1
 id: m17w6x7syhx0
-name: Disruption with some GitHub services
+name: Isolated Codespaces creation failures in the West Europe region
 impact: minor
 systems:
     - h2ftsgbw7kmk
@@ -13,4 +13,7 @@ timeline:
       investigating: true
     - ts: "2024-10-08 17:11:21"
       description: Some Codespaces are failing to create successfully in the Western EU region. Investigating is ongoing.
+      investigating: true
+    - ts: "2024-10-08 17:43:14"
+      description: We have identified a possible root cause and are working on the fix.
       investigating: true
