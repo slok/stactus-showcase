@@ -1,0 +1,9 @@
+version: incident/v1
+id: cnpddyclrtpm
+name: Instance failure
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-08 15:03:04"
+      description: 'We are experiencing an instance failure. This may affect resources that have the following pattern in their endpoint: cls-prod41'
+      investigating: true
