@@ -1,0 +1,15 @@
+version: incident/v1
+id: 1z9l2fpdbdsb
+name: Cloudflare Billing Issues
+impact: minor
+systems:
+    - ll1x88wwz4fq
+timeline:
+    - ts: "2024-10-08 23:49:27"
+      description: |-
+        Cloudflare is experiencing problems in processing changes through our billing subscription service. All other services are operating normally.
+
+        We will provide an update once billing subscription services return to normal.
+      investigating: true
+    - ts: "2024-10-09 00:14:16"
+      description: The issue has been identified and a fix is being implemented.
