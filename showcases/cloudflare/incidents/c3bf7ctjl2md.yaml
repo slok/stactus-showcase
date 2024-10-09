@@ -1,0 +1,12 @@
+version: incident/v1
+id: c3bf7ctjl2md
+name: Network Performance Issues in China
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-10-09 11:57:01"
+      description: |-
+        Cloudflare is investigating a sudden spike in organic load in China that is causing performance degradations.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
