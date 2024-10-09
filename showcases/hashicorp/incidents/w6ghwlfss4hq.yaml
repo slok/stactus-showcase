@@ -1,0 +1,9 @@
+version: incident/v1
+id: w6ghwlfss4hq
+name: HCP Terraform - Sporadic Cost Estimation Failures
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-09 23:21:33"
+      description: Between 19:41 UTC and 20:03 UTC, a subset of HCP Terraform customers may have encountered issues with Cost Estimation, potentially causing runs to become unresponsive. The issue has been resolved. If you are still experiencing unresponsive runs that cannot be force-canceled, please contact HashiCorp Support for assistance.
+      resolved: true
