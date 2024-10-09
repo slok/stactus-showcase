@@ -1,0 +1,14 @@
+version: incident/v1
+id: ccn5q9m0tb2y
+name: Issues enabling Email Routing
+impact: minor
+systems:
+    - gjb0yzvvrpf6
+timeline:
+    - ts: "2024-10-09 21:42:22"
+      description: Cloudflare is investigating an issue where users cannot enable Email Routing.
+      investigating: true
+    - ts: "2024-10-09 21:43:11"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-10-09 21:47:16"
+      description: A fix has been implemented and we are monitoring the results.
