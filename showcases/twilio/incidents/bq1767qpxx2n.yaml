@@ -1,6 +1,6 @@
 version: incident/v1
 id: bq1767qpxx2n
-name: Billing information for Super SIM and Programmable Wireless is delayed via API and UI
+name: Billing Information for Super SIM and Programmable Wireless is Delayed via API and UI
 impact: minor
 systems:
     - lfqp74267l0t
@@ -14,4 +14,7 @@ timeline:
       investigating: true
     - ts: "2024-10-09 17:27:54"
       description: We are still experiencing the issue with the billing pipeline. The bug in software caused the billing information to be delayed on the UI and API. The team is still working to identify the issue. We will post the update in the next 2 hours or sooner if more information will become available.
+      investigating: true
+    - ts: "2024-10-09 19:24:11"
+      description: We are still experiencing the issue with the billing pipeline. The bug in software caused the billing information to be delayed on the UI and API. The team is still working to identify the issue. We will post the update in the next 4 hours or sooner if more information will become available.
       investigating: true
