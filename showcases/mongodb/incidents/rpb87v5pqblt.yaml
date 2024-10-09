@@ -1,0 +1,9 @@
+version: incident/v1
+id: rpb87v5pqblt
+name: Cluster operations delayed
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-10-09 18:36:35"
+      description: Some types of cluster operations have been delayed as of 17:15 UTC, 2024-10-09, including cluster provisioning. We are working on a fix.
