@@ -5,5 +5,10 @@ impact: none
 systems: []
 timeline:
     - ts: "2024-10-03 17:37:07"
-      description: On September 27th, 2024 from 10:26 to 10:34 UTC, some users listing project releases may have encountered a 500 error.
+      description: |-
+        Between September 27, 2024, 15:26 UTC and September 27, 2024, 15:34 UTC the Repositories Releases service was degraded. During this time 9% of requests to list releases via API or the webpage received a `500 Internal Server` error.
+
+        This was due to a bug in our software roll out strategy. The rollout was reverted starting at 15:30 UTC, which began to restore functionality. The rollback was completed at 15:34 UTC.
+
+        We are continuing to improve our testing infrastructure to ensure that bugs such as this one can be detected before they make their way into production.
       resolved: true
