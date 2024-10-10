@@ -1,0 +1,11 @@
+version: incident/v1
+id: pv0nck3mdtrk
+name: Inbound SMS delivery failures to a subset of phone numbers.
+impact: major
+systems:
+    - 7d8w22hqrh6s
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2024-10-10 06:43:41"
+      description: We are experiencing US inbound SMS delivery failures to a subset of phone numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
