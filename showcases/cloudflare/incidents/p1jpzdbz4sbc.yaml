@@ -1,0 +1,10 @@
+version: incident/v1
+id: p1jpzdbz4sbc
+name: D1 API Performance issues - Increased Errors
+impact: minor
+systems:
+    - z0yd3sxqjqdm
+timeline:
+    - ts: "2024-10-10 17:48:04"
+      description: Cloudflare is investigating the D1 API which supports wrangler and the dashboard is seeing an elevated number of internal errors globally. More updates to follow.
+      investigating: true
