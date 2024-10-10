@@ -24,3 +24,13 @@ timeline:
     - ts: "2024-10-10 07:14:26"
       description: We are still experiencing the issue with the billing pipeline. The bug in software caused the billing information to be delayed on the UI and API. The team is still working to identify the issue. We will post the update in the next 16 hours or sooner if more information will become available.
       investigating: true
+    - ts: "2024-10-10 17:49:36"
+      description: |-
+        As of Wednesday, October 9th, 4:00 PM UTC, we have resumed near-real-time processing for the amount billed fields in the Usage API and Console insights for both Programmable Wireless and Super SIM.
+        However, we are still facing issues with missing billed amounts for the following intervals:
+        Monday, October 7th, 8:00 AM UTC – Tuesday, October 8th, 9:30 AM UTC: 30% of usage events are missing.
+        Tuesday, October 8th, 9:30 AM UTC – Wednesday, October 9th, 4:10 PM UTC: 100% of usage events are missing.
+        The team has identified the issue and is working on a fix. The missing usage events and billed amounts for these intervals will be reprocessed and backfilled early next week.
+
+        We will post the update in the next 24 hours or sooner if more information will become available.
+      investigating: true

@@ -1,0 +1,10 @@
+version: incident/v1
+id: k4fdnq0h142l
+name: DEX Device Status delayed
+impact: minor
+systems:
+    - nmp96vgn1hpl
+timeline:
+    - ts: "2024-10-10 18:00:43"
+      description: DEX Device Status has seen a multi-hour delay in device_state consumption that is impacting all DEX users. Work is ongoing to discover the performance degradation and implement a fix.
+      investigating: true
