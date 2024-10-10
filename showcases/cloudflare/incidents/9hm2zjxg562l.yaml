@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9hm2zjxg562l
+name: Investigating reports of Zero Trust TLS Decryption cert being removed
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2024-10-10 18:20:54"
+      description: We are investigating reports from customers with the WARP setting "Install CA to system certificate store" enabled that the root CA is being incorrectly removed from Windows devices.
+      investigating: true
