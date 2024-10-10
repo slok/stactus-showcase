@@ -7,3 +7,14 @@ systems:
 timeline:
     - ts: "2024-10-10 17:39:26"
       description: 'Microsoft''s Outlook email service is experiencing significant performance issues. Microsoft believes it has identified the problem and is preparing to apply a potential solution. More information from Microsoft is available here: https://x.com/MSFT365Status/status/1844429360909988135.'
+    - ts: "2024-10-10 18:47:26"
+      description: |-
+        Microsoft has applied a fix and shared the following update. Please take note of the action users need to take to resolve the trouble:
+
+        "We've applied a configuration update and our testing indicates that this action has successfully mitigated impact. However, affected users will need to take action to apply the changes we've made and remediate the problem:
+
+        -	Outlook client and app users should restart their client or app to apply our changes. Outlook desktop client users may need to perform this action twice due to caching issues.
+
+        -	Outlook on the web users should refresh their sessions. If that does not mitigate the issue, users are encouraged to clear their browser cache and refresh their Outlook on the web session.
+
+        We're working with impacted customers and are continuing to perform tests across the affected infrastructure to confirm that impact has been successfully addressed."
