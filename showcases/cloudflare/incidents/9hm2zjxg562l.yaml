@@ -8,3 +8,6 @@ timeline:
     - ts: "2024-10-10 18:20:54"
       description: We are investigating reports from customers with the WARP setting "Install CA to system certificate store" enabled that the root CA is being incorrectly removed from Windows devices.
       investigating: true
+    - ts: "2024-10-10 21:54:56"
+      description: We were able to identify the cause of this issue and apply an effective fix. This incident is now resolved.
+      resolved: true
