@@ -1,10 +1,10 @@
 version: incident/v1
 id: 9m3dnnmtf5k2
-name: Possible inability to edit Magic Transit GRE tunnel IP addresses
+name: Possible inability to edit Magic Transit GRE tunnel IP addresses via GUI
 impact: none
 systems:
     - bjlxcss20fsl
 timeline:
     - ts: "2024-10-10 14:01:09"
-      description: 'Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: Users might not be able to modify Magic Transit GRE tunnel IP addresses via GUI. Further detail will be provided as more information becomes available.'
+      description: 'Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: Users might not be able to modify Magic Transit GRE tunnel IP addresses via GUI. Nevertheless, such modification is still available via API. Further detail will be provided as more information becomes available.'
       investigating: true
