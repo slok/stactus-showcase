@@ -1,6 +1,6 @@
 version: incident/v1
 id: m3wvrhc1vn5r
-name: MMS Delivery Failures to Multiple Networks in the US from a Subset of Shortcodes
+name: MMS Delivery Delays to Multiple Networks in the US from a Subset of Shortcodes
 impact: minor
 systems:
     - h0fl7prwfhvm
@@ -9,5 +9,5 @@ timeline:
       description: We are experiencing MMS delivery failures to Multiple Networks in the US from a Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2024-10-10 23:00:15"
-      description: We are experiencing MMS delivery failures to Multiple Networks in the US from a Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      description: We are experiencing MMS delivery delays to Multiple Networks in the US from a Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
