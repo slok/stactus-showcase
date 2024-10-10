@@ -3,10 +3,19 @@ id: rw82y36f2bc9
 name: Cloudflare Redirect Rules UI issues
 impact: minor
 systems:
-    - ch3mwx0hr4k6
+    - 3sq3s4d20ywk
 timeline:
     - ts: "2024-10-10 10:38:49"
       description: Cloudflare is currently investigating an issue affecting the display of the Wildcard Pattern interface in the Redirect Rules builder. Users may experience unavailability or encounter unexpected errors. This issue does not affect the deployment of new rules via custom filter expressions, and existing rules continue to function as expected. We will provide updates as more information becomes available.
       investigating: true
     - ts: "2024-10-10 10:58:11"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-10-10 11:21:59"
+      description: |-
+        We are actively investigating an issue impacting the display of the Wildcard Pattern UI for Single Redirect Rules when using templates or editing existing rules. Here's what you need to know:
+
+        1) The simple UI is currently not shown for templated or existing rules.
+        2) You can still create new rules from scratch using the simple UI without issue.
+        3) For templated and existing rules, the system correctly falls back to custom filter expressions, and the underlying functions are pre-populated. This allows you to edit and deploy these rules successfully.
+
+        We will continue to provide updates as we work on resolving the issue.
