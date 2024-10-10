@@ -1,0 +1,9 @@
+version: incident/v1
+id: fb3w2qzn1z06
+name: Zipwhip Provisioning Eligibility Check Failures
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-10 20:53:12"
+      description: Requests made to the Zipwhip Provisioning API (https://provision.zipwhip.com/api) may have failed during this incident which is now resolved.  Time affected was 8:05 PM PT Oct 9 through 9:45 AM PT Oct 10.  The issue has now been resolved.
+      resolved: true
