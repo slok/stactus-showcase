@@ -1,0 +1,12 @@
+version: incident/v1
+id: b528pxnn3lxr
+name: Grafana OnCall degraded perfomance
+impact: minor
+systems:
+    - h3wg1km0qxwv
+timeline:
+    - ts: "2024-10-11 13:15:30"
+      description: "We are aware of an issue affecting the Grafana OnCall service in the prod-eu-west-0 region. Users may experience some slight performance degradation with alert ingestion and notifications. \n\nEngineering is actively engaged and assessing the issue. We will provide updates accordingly."
+      investigating: true
+    - ts: "2024-10-11 13:18:56"
+      description: A fix has been implemented and we are monitoring the results.

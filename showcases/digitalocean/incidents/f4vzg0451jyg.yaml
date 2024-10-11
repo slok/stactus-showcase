@@ -1,0 +1,11 @@
+version: incident/v1
+id: f4vzg0451jyg
+name: Spaces and Container Registry in SYD1 region
+impact: minor
+systems:
+    - 7z4k9k6wgbsq
+    - bpchszdrvvc5
+timeline:
+    - ts: "2024-10-11 13:18:08"
+      description: Our Engineering team is currently investigating an issue with Spaces and the Container Registry in the SYD1 region. During this time, users may experience intermittent errors when accessing Spaces endpoints or interacting with the Container Registry. We apologize for the inconvenience and will provide an update as soon as we have more information.
+      investigating: true
