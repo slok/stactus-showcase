@@ -1,0 +1,9 @@
+version: incident/v1
+id: wshfr4c5vl27
+name: Degraded Reads in Loki
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-11 16:15:48"
+      description: At approximately ~11:30 UTC some customers in the prod-us-east-0 region experienced either extremely slow Loki queries, or Loki queries not returning at all. This lasted until ~ 15:30 UTC when the fix was rolled out.
+      resolved: true
