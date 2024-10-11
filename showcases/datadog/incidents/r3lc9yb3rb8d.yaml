@@ -1,0 +1,16 @@
+version: incident/v1
+id: r3lc9yb3rb8d
+name: Delayed Distribution Metrics
+impact: major
+systems:
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2024-10-11 19:52:05"
+      description: |-
+        We are investigating increased latency processing Distribution Metrics.
+        As a result of this issue, some users may see delays or gaps for distribution metrics on graphs.
+        To prevent spurious alerts, we have temporarily disabled monitors based on distribution metrics.
+      investigating: true
+    - ts: "2024-10-11 19:57:27"
+      description: The issue has been identified and remediation steps are underway.

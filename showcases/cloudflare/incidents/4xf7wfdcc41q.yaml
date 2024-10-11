@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4xf7wfdcc41q
+name: Free tier Workers are hitting request rate limits lower than what is documented
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2024-10-11 19:51:41"
+      description: 'Workers with a free tier plan are getting request rate limited sooner than the documented 100,000 requests/day limit: https://developers.cloudflare.com/workers/platform/limits/ . Workers hitting this limit will either return a Cloudflare 1027 error page or fail open to an origin (depending on what''s configured). Impact started at 2024-10-10 18:13:00 UTC and could continue until 2024-10-12 19:00:00 UTC.'
+      investigating: true
