@@ -1,0 +1,16 @@
+version: incident/v1
+id: myvz2tsj2dh8
+name: Disruption with some GitHub services
+impact: major
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2024-10-11 17:53:28"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-10-11 17:56:54"
+      description: Copilot is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-10-11 17:58:55"
+      description: 'We are investigating reports of issues with service(s): Copilot. We will continue to keep users updated on progress towards mitigation.'
+      investigating: true
