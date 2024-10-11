@@ -11,3 +11,9 @@ timeline:
       investigating: true
     - ts: "2024-10-11 14:10:58"
       description: Our Engineering team has implemented a fix to resolve the issue with Spaces and the Container Registry in the SYD1 region and is monitoring the situation closely. All services have been restored and are functioning as expected. We will post an update as soon as the issue is fully resolved.
+    - ts: "2024-10-11 15:50:50"
+      description: |-
+        From 23:00 UTC on October 10th until 13:28 UTC on October 11th, users may have encountered intermittent errors when accessing Spaces endpoints or using the Container Registry in the SYD1 region. Our Engineering team has successfully resolved the issue affecting the functionality of Spaces and the Container Registry.
+
+        All services have been fully restored and are now functioning normally. If you continue to experience any problems, please open a ticket with our support team. We apologize for any inconvenience caused.
+      resolved: true
