@@ -20,3 +20,6 @@ timeline:
     - ts: "2024-10-11 18:41:13"
       description: We have identified the problem is related to maintenance performed in our networking infrastructure. We are working to bring back the connectivity.<br /><br />Copilot users in organizations or enterprises that have opted into the Content Exclusions feature will experience disabled completions in their editors.<br /><br />Customer migrations remain paused as well.
       investigating: true
+    - ts: "2024-10-11 19:05:36"
+      description: We have identified the problem and are working on mitigations. In addition to previously listed impact, new Artifact Attestations cannot be created.
+      investigating: true
