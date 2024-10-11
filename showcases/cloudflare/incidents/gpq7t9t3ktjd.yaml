@@ -1,0 +1,15 @@
+version: incident/v1
+id: gpq7t9t3ktjd
+name: Issues creating R2 buckets
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2024-10-11 00:55:51"
+      description: Cloudflare is investigating an issue where some R2 users cannot create new buckets.
+      investigating: true
+    - ts: "2024-10-11 00:56:31"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-10-11 01:24:02"
+      description: The issue has been identified and a fix is being implemented.
