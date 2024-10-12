@@ -1,0 +1,9 @@
+version: incident/v1
+id: jnnqqht64k94
+name: Tempo Query Failures in AWS Clusters
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-12 11:16:24"
+      description: AWS Tempo cells currently do not support the ALPN protocol on our HTTP/2 endpoint, leading to failures in queries sent through hosted Grafana. This issue manifests as failed ALPN checks, resulting in authentication handshake errors when accessing Tempo data. We are currently investigating this issue.
+      investigating: true
