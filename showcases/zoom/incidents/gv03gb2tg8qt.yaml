@@ -1,0 +1,10 @@
+version: incident/v1
+id: gv03gb2tg8qt
+name: Issue with Zoom Clips
+impact: minor
+systems:
+    - zhgjct3grx1z
+timeline:
+    - ts: "2024-10-12 05:19:40"
+      description: Our monitoring has detected service degradation with Zoom Clips. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
