@@ -1,0 +1,9 @@
+version: incident/v1
+id: 9tbctnzg6462
+name: Twilio Conversations and Sync Affected
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-14 15:38:35"
+      description: Twilio Conversations and Sync were degraded for 6 minutes between 07:56 and 08:02 Pacific Time on 10/14/2024. During this period of time customers may have experienced increased amount of errors and increased latencies. The issue has now been resolved.
+      resolved: true
