@@ -1,9 +1,12 @@
 version: incident/v1
 id: 5gsytnl8vjt9
 name: On Call Engineers Are Investigating an Issue With Whatsapp Messages Stuck in Queue
-impact: none
-systems: []
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
 timeline:
     - ts: "2024-10-14 17:18:54"
       description: Our monitoring systems have detected a potential issue with Whatsapp Messages stuck in Queue. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2024-10-14 17:34:55"
+      description: Our engineers have identified the issue causing WhatsApp Messages stuck in Queue status and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
