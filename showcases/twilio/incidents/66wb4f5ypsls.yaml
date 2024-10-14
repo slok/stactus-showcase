@@ -1,0 +1,10 @@
+version: incident/v1
+id: 66wb4f5ypsls
+name: SuperSim DataLimit and ReadySimActivation Functionality Degraded
+impact: minor
+systems:
+    - 919qx43ks4dx
+timeline:
+    - ts: "2024-10-14 07:12:18"
+      description: We have detected a potential issue with SuperSim (DataLimit and ReadySimActivation functionalities are 100% down since Friday 11th October). Our engineering team has been alerted and is actively investigating. We will provide the update in 1 hour.
+      investigating: true
