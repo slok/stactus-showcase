@@ -1,0 +1,14 @@
+version: incident/v1
+id: kplhqf5z90br
+name: 'Cloudflare Dashboard: Editing DNS records'
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2024-10-14 14:01:10"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Dashboard: Attempts to switch from CNAME to A record (or vice versa) via Dashboard UI are not working at the moment.
+
+        These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+
+        The issue has been identified and we are working on implementing a fix.
