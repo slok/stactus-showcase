@@ -1,0 +1,15 @@
+version: incident/v1
+id: y1kncvf8q1vr
+name: Cloudflare Dashboard service issues
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2024-10-15 09:25:09"
+      description: |-
+        Cloudflare is currently investigating issues with the Cloudflare Dashboard that are preventing some customers from accessing the SSL/TLS tab.
+
+        These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+
+        Customers using the Dashboard are impacted as requests might fail and/or errors may be displayed.
+      investigating: true
