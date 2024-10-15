@@ -1,0 +1,9 @@
+version: incident/v1
+id: jj0l1cvvk897
+name: Delays in transactional email delivery
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2024-10-15 15:18:04"
+      description: Cloudflare is investigating an issue causing transactional emails including password resets, 2fa codes and Access One Time Pins to be delayed.
