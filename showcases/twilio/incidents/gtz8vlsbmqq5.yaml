@@ -10,3 +10,6 @@ timeline:
       description: Our on-call engineers have identified an issue with message creation requests using content templates encountering 5xx errors. This impacts products like Programmable Messaging, Conversations, etc. Our engineering team has been alerted and is actively investigating. We will provide an update in 1 hour or as soon as more information becomes available.
     - ts: "2024-10-15 09:56:08"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-10-15 10:29:27"
+      description: This incident has been resolved.
+      resolved: true
