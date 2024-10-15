@@ -1,0 +1,9 @@
+version: incident/v1
+id: gtz8vlsbmqq5
+name: Message Creation Using Content Templates Impacted
+impact: minor
+systems:
+    - 2vs63pk0qq23
+timeline:
+    - ts: "2024-10-15 09:18:34"
+      description: Our on-call engineers have identified an issue with message creation requests using content templates encountering 5xx errors. This impacts products like Programmable Messaging, Conversations, etc. Our engineering team has been alerted and is actively investigating. We will provide an update in 1 hour or as soon as more information becomes available.
