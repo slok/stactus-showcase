@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8j22jjz7x4jb
+name: Spaces Page in Control Panel
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2024-10-15 17:56:06"
+      description: "Our Engineering team has identified a display issues with Spaces Object Storage in the Cloud control panel and a fix is currently being deployed. During this time, some users may see 400 errors or be unable to access the page when accessing Spaces through the Cloud Control Panel. \n\nWe apologize for the inconvenience and will share an update once the fix has finished deploying."
