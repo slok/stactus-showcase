@@ -1,0 +1,9 @@
+version: incident/v1
+id: dpq43jpxmb1m
+name: Twilio Messaging Affected
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-15 15:58:06"
+      description: Twilio Messaging was degraded for 4 minutes between 08:00 and 08:04 Pacific Time on 10/15/2024. During this period of time customers may have experienced 500 errors after a timeout when sending messages.  The issue has now been resolved.
+      resolved: true

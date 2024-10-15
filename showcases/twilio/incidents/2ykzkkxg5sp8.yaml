@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2ykzkkxg5sp8
+name: SMS Delivery Delays From Denmark Numbers to Subset of Twilio Numbers
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2024-10-15 15:55:11"
+      description: We are experiencing SMS delivery delays when sending messages from Denmark numbers to a subset of Twilio Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

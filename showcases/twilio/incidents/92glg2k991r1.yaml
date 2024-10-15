@@ -19,3 +19,6 @@ timeline:
       investigating: true
     - ts: "2024-10-15 13:57:41"
       description: We are observing recovery in SMS delivery delays when sending messages to Twilio Phone Numbers in Puerto Rico over a subset of Long Codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-10-15 15:49:06"
+      description: We are no longer experiencing SMS delivery delays when sending messages to Twilio Phone Numbers in Puerto Rico over a subset of Long Code. This incident has been resolved.
+      resolved: true
