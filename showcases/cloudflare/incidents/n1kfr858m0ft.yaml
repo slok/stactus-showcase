@@ -1,0 +1,9 @@
+version: incident/v1
+id: n1kfr858m0ft
+name: Resolved Failing Event Notification Requests
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-15 21:10:50"
+      description: Requests from our R2 event notifications settings UI were failing, impacting functionality for customer using event notifications from the Cloudflare Dash. API usage and Wrangler usage unaffected.
+      resolved: true
