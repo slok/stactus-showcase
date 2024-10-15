@@ -1,0 +1,11 @@
+version: incident/v1
+id: dl9d78hny5g2
+name: Network performance issues around Miami
+impact: minor
+systems:
+    - mvbjk0vw3krv
+timeline:
+    - ts: "2024-10-15 16:14:35"
+      description: We have identified an issue leading to network performance problems affecting our Miami (MIA) facility.
+    - ts: "2024-10-15 16:19:45"
+      description: A fix has been implemented and we are monitoring the results.
