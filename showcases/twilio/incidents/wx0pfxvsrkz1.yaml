@@ -3,11 +3,14 @@ id: wx0pfxvsrkz1
 name: Meta’s WhatsApp Cloud API Outage Affecting Outbound Message Statuses and Inbound Messages
 impact: minor
 systems:
-    - yvvy3vlp4djf
+    - 1gkv0mxhzsjv
 timeline:
     - ts: "2024-10-15 05:07:21"
       description: Our monitoring systems have detected a potential issue in increase of WhatsApp Outbound Messages in Delivery_Unkown or Sent Status. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2024-10-15 06:06:54"
+      description: We are investigating a service interruption from Meta that is disrupting WhatsApp messaging. Customers may experience their message status remaining in a SENT or “DELIVERY UNKNOWN” status. However, the actual outbound message may be delivered, and inbound messages may be delayed. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-10-15 06:12:33"
       description: We are investigating a service interruption from Meta that is disrupting WhatsApp messaging. Customers may experience their message status remaining in a SENT or “DELIVERY UNKNOWN” status. However, the actual outbound message may be delivered, and inbound messages may be delayed. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
