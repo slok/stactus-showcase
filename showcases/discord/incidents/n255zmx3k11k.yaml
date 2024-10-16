@@ -1,0 +1,13 @@
+version: incident/v1
+id: n255zmx3k11k
+name: Elevated API Latency, multiple endpoints impacted
+impact: major
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-10-16 15:53:18"
+      description: We are investigating elevated API latency. We believe this may impacting logins, application updates, interactions, and registrations.
+      investigating: true
+    - ts: "2024-10-16 15:56:05"
+      description: We are continuing to investigate this issue.
+      investigating: true
