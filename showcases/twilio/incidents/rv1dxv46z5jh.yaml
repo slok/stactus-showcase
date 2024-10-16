@@ -1,0 +1,10 @@
+version: incident/v1
+id: rv1dxv46z5jh
+name: SMS Delivery Failure to Altan Redes Network in Mexico for a Subset of Twilio Numbers
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2024-10-16 22:54:34"
+      description: We are experiencing SMS delivery failures to Altan Redes Network in Mexico for a Subset of Twilio Numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
