@@ -1,0 +1,9 @@
+version: incident/v1
+id: x5mkcj768dgr
+name: On Call Engineers are Investigating an issue
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-17 07:47:31"
+      description: Our monitoring systems have detected a potential issue with accessing newly created Twilio accounts from console due to Phone verification failure. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
