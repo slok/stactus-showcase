@@ -1,0 +1,11 @@
+version: incident/v1
+id: w49kstk1y7jy
+name: Delayed distribution metrics & monitor notifications
+impact: minor
+systems:
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2024-10-17 18:16:09"
+      description: We are investigating delays in distribution metrics, and on monitors notifications for monitors based on these metrics, which began at 17:40 UTC.
+      investigating: true
