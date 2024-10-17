@@ -1,0 +1,16 @@
+version: incident/v1
+id: ftd07gnytjl4
+name: Flycast Private Networking Issues
+impact: none
+systems:
+    - 15knchzwl5np
+    - 49yq6v65b33l
+timeline:
+    - ts: "2024-10-17 15:55:18"
+      description: We are investigating increased proxy errors for apps communicating over Flycast internal networking
+      investigating: true
+    - ts: "2024-10-17 15:56:24"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-10-17 16:04:16"
+      description: We have identified the issue and deployed a fix. We are seeing recovery in affected apps, with proxy error levels returning to normal. We are continuing to monitor for full recovery.
