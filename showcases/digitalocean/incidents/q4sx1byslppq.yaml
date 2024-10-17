@@ -1,0 +1,14 @@
+version: incident/v1
+id: q4sx1byslppq
+name: Intermittent Snapshot and Custom Image Uploads in LON1
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-17 06:01:15"
+      description: |-
+        From 04:28 - 05:13 UTC, our Engineering team observed an intermittent issue with uploading Custom Images in LON1 region. During this time, users might have experienced an issue with uploading Custom Images and few Snapshot create failures.
+
+        Swift action was taken by our Engineering team to restore full functionality, and now everything is operating normally.
+
+        We apologize for any inconvenience this may have caused. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.
+      resolved: true
