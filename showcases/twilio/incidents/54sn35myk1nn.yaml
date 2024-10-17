@@ -1,0 +1,10 @@
+version: incident/v1
+id: 54sn35myk1nn
+name: SMS Delivery Delays to Spectrum Network in the US for a Subset of Short Codes
+impact: minor
+systems:
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2024-10-17 18:44:06"
+      description: We are experiencing SMS delivery delays when sending messages to Spectrum Network in the US for a Subset of Short Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 or as soon as more information becomes available.
+      investigating: true
