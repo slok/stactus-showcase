@@ -8,3 +8,6 @@ timeline:
       description: |-
         As of 14.50UTC, we became aware of an issue with the MS SQL plugin released to Grafana Cloud instances running daily or instant release schedule.
         Engineering is actively engaged and has identified the issue. We will provide updates accordingly.
+    - ts: "2024-10-17 19:21:41"
+      description: Engineering has released a fix and as of 19:20 UTC, customers should no longer experience any issues with the MS SQL plugin. At this time, we are considering this issue resolved. No further updates.
+      resolved: true
