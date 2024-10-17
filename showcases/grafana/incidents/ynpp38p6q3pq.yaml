@@ -1,0 +1,10 @@
+version: incident/v1
+id: ynpp38p6q3pq
+name: MS SQL Data source unavailable for production instances on Daily or Instant RRC
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-17 15:01:20"
+      description: |-
+        As of 14.50UTC, we became aware of an issue with the MS SQL plugin released to Grafana Cloud instances running daily or instant release schedule.
+        Engineering is actively engaged and has identified the issue. We will provide updates accordingly.
