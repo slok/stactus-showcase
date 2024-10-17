@@ -1,0 +1,12 @@
+version: incident/v1
+id: l36r44ndkvd2
+name: Cloudflare Dashboard slow response
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-17 08:54:24"
+      description: |-
+        Cloudflare is investigating issues with slow response from the Dashboard during the affected period
+
+        These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+      resolved: true
