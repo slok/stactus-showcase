@@ -1,0 +1,13 @@
+version: incident/v1
+id: px0s58ccqcx5
+name: Elevated 5xx response from Meta for Messenger.
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2024-10-17 06:08:18"
+      description: Our monitoring systems have detected a potential issue that elevated 5xx response from Meta for Messenger. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-10-17 06:19:50"
+      description: Our monitoring systems have detected a potential issue that elevated 5xx response from Meta for Messenger. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
