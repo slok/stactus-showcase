@@ -1,7 +1,7 @@
 version: incident/v1
 id: w0999trd9byx
 name: Increased lag in receiving events through Event Streams
-impact: none
+impact: minor
 systems:
     - zxhmy448yyn3
 timeline:
@@ -11,3 +11,5 @@ timeline:
     - ts: "2024-10-17 15:20:31"
       description: We are investigating lag in receiving events through Event Streams. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2024-10-17 15:41:49"
+      description: Our engineers have identified the issue causing lag in delivering Events through Event Streams for Several products e.g., Events from Voice Insights, Taskrouter, Voice, Studio are potentially impacted with lag. and are working to deploy a fix. We expect to provide another update in 2 hours or as soon as more information becomes available.
