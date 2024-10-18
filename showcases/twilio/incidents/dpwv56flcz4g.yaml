@@ -4,11 +4,14 @@ name: Unable to Submit Toll-Free Verification via Twilio Console
 impact: minor
 systems:
     - g4hs7h64k9fv
-    - pv5w18vrltfl
+    - brty2vw4qv6v
 timeline:
     - ts: "2024-10-18 03:57:39"
       description: We've become aware of a potential issue with the submission for Toll-Free verification via Twilio console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2024-10-18 04:08:41"
       description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-10-18 05:44:41"
+      description: We are currently seeing degraded performance for the submission of Toll-Free verification via Twilio console. Our engineering team is looking into the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
