@@ -1,0 +1,12 @@
+version: incident/v1
+id: rpnypvzttxdr
+name: Cloudflare Dashboard and Cloudflare API service issues
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-18 22:06:05"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Dashboard and related APIs. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed. At this time, services have been restored
+
+        This would have impacted customers from approximately 21:47 - 21:53 UTC.
+      resolved: true
