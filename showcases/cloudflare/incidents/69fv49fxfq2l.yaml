@@ -1,0 +1,10 @@
+version: incident/v1
+id: 69fv49fxfq2l
+name: Delays in Page Rules propagation
+impact: minor
+systems:
+    - ch3mwx0hr4k6
+timeline:
+    - ts: "2024-10-18 03:30:34"
+      description: Page Rules propagation is delayed at the moment. We are currently investigating the issue.
+      investigating: true
