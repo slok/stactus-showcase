@@ -1,7 +1,7 @@
 version: incident/v1
 id: p6bp65w8y7wj
 name: DEN network issues
-impact: major
+impact: critical
 systems:
     - qpc9br6drs4d
 timeline:
@@ -10,3 +10,5 @@ timeline:
       investigating: true
     - ts: "2024-10-19 05:08:11"
       description: A piece of faulty networking equipment has been identified, we are in constant communication with our upstream to resolve this issue.
+    - ts: "2024-10-19 07:52:40"
+      description: We are working with our upstream providers to expedite the installation of replacement network hardware.
