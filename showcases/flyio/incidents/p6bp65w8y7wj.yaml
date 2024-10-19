@@ -1,0 +1,10 @@
+version: incident/v1
+id: p6bp65w8y7wj
+name: DEN network issues
+impact: major
+systems:
+    - qpc9br6drs4d
+timeline:
+    - ts: "2024-10-19 04:48:22"
+      description: We are working with our upstream providers to identify the root cause of a networking failure in DEN
+      investigating: true
