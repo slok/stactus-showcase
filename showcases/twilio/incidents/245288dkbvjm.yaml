@@ -14,3 +14,9 @@ timeline:
     - ts: "2024-10-21 11:02:31"
       description: We are continuing our investigation and have discovered Twilio Toll-free is affected by the issue.
       investigating: true
+    - ts: "2024-10-21 11:54:33"
+      description: We are experiencing SMS delivery delays from Twilio Tollfree numbers to AT&T Network in the US. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-10-21 11:59:57"
+      description: 'Our Engineers have detected multiple network degradations over AT&T in the US. For that reason, we have merged this incident with the one for failures via Short codes. For the latest updates, please refer to our ongoing Status updates here: https://status.twilio.com/incidents/jnf8mp4mfj1b'
+      resolved: true
