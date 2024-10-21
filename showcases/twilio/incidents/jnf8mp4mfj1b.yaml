@@ -23,3 +23,6 @@ timeline:
       investigating: true
     - ts: "2024-10-21 17:44:04"
       description: We are observing successful SMS delivery from Twilio Short Codes to AT&T Network in the US.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-10-21 19:41:33"
+      description: We are no longer experiencing the issue causing SMS delivery failures from Twilio Short Codes and Toll Free numbers to the AT&T Network in the US. This incident has been resolved.
+      resolved: true
