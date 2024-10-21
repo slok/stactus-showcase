@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6k66d8b8by6y
+name: Inbound SMS Failures to a Subset of Twilio Sweden Phone Numbers
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2024-10-21 12:46:40"
+      description: We are experiencing SMS failures to a subset of Twilio Sweden Phone Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
