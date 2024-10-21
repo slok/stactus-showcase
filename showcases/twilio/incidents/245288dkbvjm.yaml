@@ -1,10 +1,16 @@
 version: incident/v1
 id: 245288dkbvjm
-name: On Call Engineers are Investigating an issue
-impact: none
+name: SMS Delivery Delays from Twilio Tollfree Numbers to AT&T Network in the US
+impact: minor
 systems:
     - 32f2bm54nkvv
 timeline:
     - ts: "2024-10-21 10:43:58"
       description: Our monitoring systems have detected a potential issue with Toll Free messaging in the US. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-10-21 11:01:28"
+      description: We are experiencing SMS delivery delays from Twilio Tollfree numbers to AT&T Network in the US. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-10-21 11:02:31"
+      description: We are continuing our investigation and have discovered Twilio Toll-free is affected by the issue.
       investigating: true

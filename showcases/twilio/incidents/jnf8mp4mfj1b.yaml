@@ -1,10 +1,13 @@
 version: incident/v1
 id: jnf8mp4mfj1b
-name: On Call Engineers are Investigating an issue
-impact: none
+name: SMS Delivery Failures from Twilio Short Codes to AT&T Network in the US
+impact: minor
 systems:
     - 39mb8cmw8y2v
 timeline:
     - ts: "2024-10-21 10:24:06"
       description: Our monitoring systems have detected a potential issue with Programmable Messaging. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-10-21 10:59:14"
+      description: We are experiencing SMS delivery failures from Twilio Short Codes to AT&T Network in the US. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
