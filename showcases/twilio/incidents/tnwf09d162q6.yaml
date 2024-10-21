@@ -1,0 +1,10 @@
+version: incident/v1
+id: tnwf09d162q6
+name: On Call Engineers are Investigating an issue
+impact: none
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2024-10-21 23:48:15"
+      description: Our monitoring systems have detected a potential issue with SMS delivery failures to multiple networks in Bahrain. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
