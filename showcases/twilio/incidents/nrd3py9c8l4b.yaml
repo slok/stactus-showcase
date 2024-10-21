@@ -1,6 +1,6 @@
 version: incident/v1
 id: nrd3py9c8l4b
-name: SMS Delivery Delays and Failures to CDMA Network in Yemen
+name: SMS Delivery Delays and Failures to Yemen Mobile Network in Yemen
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -34,4 +34,7 @@ timeline:
       investigating: true
     - ts: "2024-10-21 01:19:58"
       description: We are still experiencing SMS delivery delays and failures when sending messages to CDMA Network in Yemen. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-10-21 07:39:04"
+      description: We are still experiencing SMS delivery delays and failures when sending messages to Yemen Mobile Network in Yemen. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
       investigating: true
