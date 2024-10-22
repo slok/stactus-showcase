@@ -13,3 +13,5 @@ timeline:
       description: We are continuing to work on a fix for this issue. Apps with autostart/autostop configured might also see an increased number of request errors.
     - ts: "2024-10-22 19:25:14"
       description: We are currently in the process of rolling out a fix across our fleet.
+    - ts: "2024-10-22 20:28:00"
+      description: We are continuing to apply the fix to all hosts in the fleet. Some hosts continue to see elevated API errors at this time.
