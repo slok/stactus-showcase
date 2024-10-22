@@ -1,0 +1,19 @@
+version: incident/v1
+id: 43rlrzckd86r
+name: Cloud printing encountered an issue.
+impact: major
+systems:
+    - sw5q8tgl2864
+    - 5fs3yzwktd3t
+    - w7ycvnq5lw8s
+    - k1z8m42c0d7r
+timeline:
+    - ts: "2024-10-22 02:28:41"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-10-22 02:29:03"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-10-22 02:29:30"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2024-10-22 02:41:20"
+      description: A fix has been implemented and we are monitoring the results.
