@@ -1,0 +1,10 @@
+version: incident/v1
+id: n69b19v0x3w7
+name: Datadog Integration Degraded Experience
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-10-22 20:41:56"
+      description: We are currently experiencing degraded performance with our Datadog integration. This may result in delayed metrics, incomplete metrics, or issues with alerting for customers using the Datadog integration.
+      investigating: true
