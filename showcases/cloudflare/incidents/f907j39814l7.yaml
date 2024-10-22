@@ -1,0 +1,9 @@
+version: incident/v1
+id: f907j39814l7
+name: Errors Deploying Workers with D1 Database Bindings
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-22 22:37:45"
+      description: A recent change resulted in issues generating d1-workers bindings between approximately 20:19 and 22:20 UTC today. Workers deployments that depended on D1 bindings may have failed during this window.
+      resolved: true

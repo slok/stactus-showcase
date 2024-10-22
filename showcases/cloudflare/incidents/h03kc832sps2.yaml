@@ -1,0 +1,13 @@
+version: incident/v1
+id: h03kc832sps2
+name: Cloudflare Access API Availability Issues
+impact: minor
+systems:
+    - g4tb35rs9yw7
+timeline:
+    - ts: "2024-10-22 22:45:28"
+      description: |-
+        Cloudflare is investigating issues with the Cloudflare Access API.
+
+        We are working to understand the full impact and mitigate this problem.  More updates to follow shortly.
+      investigating: true
