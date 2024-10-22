@@ -9,3 +9,6 @@ timeline:
       description: Atlas is seeing elevated errors from our certificate authority LetsEncrypt.  Customers will see delayed operations when provisioning new nodes.
     - ts: "2024-10-22 19:00:52"
       description: Atlas is seeing errors rates from LetsEncrypt subsiding.  Please see LetsEncrypt status page https://letsencrypt.status.io/pages/55957a99e800baa4470002da for more information.  Cluster operations should return to normal.
+    - ts: "2024-10-22 19:47:24"
+      description: This incident has been resolved.
+      resolved: true
