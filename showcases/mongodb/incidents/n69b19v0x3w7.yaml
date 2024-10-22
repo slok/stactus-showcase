@@ -8,3 +8,8 @@ timeline:
     - ts: "2024-10-22 20:41:56"
       description: We are currently experiencing degraded performance with our Datadog integration. This may result in delayed metrics, incomplete metrics, or issues with alerting for customers using the Datadog integration.
       investigating: true
+    - ts: "2024-10-22 20:49:58"
+      description: We have identified a fix and are monitoring.
+    - ts: "2024-10-22 21:04:55"
+      description: This incident has been resolved.
+      resolved: true

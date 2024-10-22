@@ -1,0 +1,9 @@
+version: incident/v1
+id: r0gcl276hmym
+name: Concatenated SMS Traffic Towards US Cellular for a Subset of Short Codes was Garbled
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-22 20:59:33"
+      description: Between 10:00 AM PT until 12:34 PM PT today, concatenated SMS traffic towards US Cellular for a subset of short codes was inadvertently affected after work was performed by the mobile operator. Some messages may have arrived garbled. In order to mitigate the issue, the concatenation feature was disabled on traffic towards US Cellular, for impacted shortcodes. We are actively working with US Cellular to resolve this issue as quickly as possible, so concatenation can be re-enabled.
+      resolved: true
