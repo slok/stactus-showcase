@@ -1,10 +1,13 @@
 version: incident/v1
 id: j3610m921p24
-name: Increated API failures
+name: Increased API failures
 impact: none
 systems:
+    - 15knchzwl5np
     - 80ykv2p95qgy
     - 49yq6v65b33l
 timeline:
     - ts: "2024-10-22 18:06:19"
       description: We have identified the cause of an increase in API errors across the platform and are working on a fix.
+    - ts: "2024-10-22 18:19:05"
+      description: We are continuing to work on a fix for this issue. Apps with autostart/autostop configured might also see an increased number of request errors.
