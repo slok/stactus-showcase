@@ -1,0 +1,12 @@
+version: incident/v1
+id: sfdh5px3fzr6
+name: Atlas App Services and Device Sync Degraded Performance
+impact: minor
+systems:
+    - crrq7qqlqfsh
+timeline:
+    - ts: "2024-10-22 10:07:18"
+      description: We are currently investigating an issue affecting customers using Atlas Triggers and Atlas Device Sync.
+      investigating: true
+    - ts: "2024-10-22 10:20:57"
+      description: The issue has been identified and a fix is being deployed. Users of Atlas Triggers and Atlas Device Sync may experience delays in processing events.
