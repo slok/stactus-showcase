@@ -1,0 +1,12 @@
+version: incident/v1
+id: k5nk32knlb0q
+name: SMS Delivery Failures to AT&T Network in the US from a Subset of Longcodes
+impact: minor
+systems:
+    - 8vdlvw3dsq8h
+timeline:
+    - ts: "2024-10-22 19:27:39"
+      description: |-
+        This incident causing SMS Delivery Failures to AT&T Network in the US from a Subset of Longcodes was prematurely resolved in one of our previous posts. Please refer to https://status.twilio.com/incidents/wzjmpthblxjp for previous updates. We continue to investigate the issue causing SMS delivery failures to the AT&T Network in the US from a subset of long codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+        . We apologize for the inconvenience and for any confusion this may have caused
+      investigating: true
