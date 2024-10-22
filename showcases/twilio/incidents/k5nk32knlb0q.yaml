@@ -3,7 +3,7 @@ id: k5nk32knlb0q
 name: SMS Delivery Failures to AT&T Network in the US from a Subset of Longcodes
 impact: minor
 systems:
-    - 8vdlvw3dsq8h
+    - 7d8w22hqrh6s
 timeline:
     - ts: "2024-10-22 19:27:39"
       description: |-
@@ -13,4 +13,10 @@ timeline:
       investigating: true
     - ts: "2024-10-22 20:27:05"
       description: We continue to investigate the issue causing SMS delivery failures to the AT&T Network in the US from a subset of long codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-10-22 22:29:09"
+      description: We are continuing our investigation and are updating the affected component to 'Carrier Network - SMS Long Code, North America' in order to match the description of the issue.  The affected component was incorrectly listed previously as 'Carrier Network - MMS Long Code, North America'.  We apologize for any confusion this caused.  We expect to provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-10-22 22:29:44"
+      description: We are continuing to investigate this issue.
       investigating: true
