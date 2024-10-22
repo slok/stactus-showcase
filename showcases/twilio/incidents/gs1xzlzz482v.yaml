@@ -1,0 +1,13 @@
+version: incident/v1
+id: gs1xzlzz482v
+name: SMS Delivery Receipt Delays to the Beeline Network in Russia
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2024-10-22 00:32:06"
+      description: Our monitoring systems have detected a potential issue with SMS delivery receipt delays when sending to the Beeline Network Russia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-10-22 00:33:17"
+      description: We are experiencing delays in receiving message delivery reports when sending to the Beeline Network Russia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
