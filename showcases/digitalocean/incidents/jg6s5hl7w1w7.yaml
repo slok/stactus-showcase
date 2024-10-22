@@ -1,0 +1,16 @@
+version: incident/v1
+id: jg6s5hl7w1w7
+name: NYC1 Snapshot Transfers
+impact: none
+systems:
+    - fb63qt9f69m0
+    - t2sr3808q4ry
+timeline:
+    - ts: "2024-10-22 01:01:31"
+      description: |-
+        Our Engineering team identified an issue with NYC1 Snapshot Image Transfers. From Oct 17, 15:09 to Oct 21, 23:08 UTC, users may have experienced issues with transferring images to NYC1 region.
+
+        A fix was deployed at Oct 21, 23:08 UTC by our Engineering team and all the pending image transfer events were settled. Users should now be able to transfer Snapshot images to NYC1.
+
+        We apologize for the inconvenience. If you continue to experience any issues, please open a support ticket from within your account.
+      resolved: true
