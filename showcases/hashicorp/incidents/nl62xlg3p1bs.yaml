@@ -1,0 +1,9 @@
+version: incident/v1
+id: nl62xlg3p1bs
+name: HCP Terraform - brief service disruption for a small subset of requests
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-10-23 08:58:13"
+      description: A brief service disruption occurred in HCP Terraform when a misconfigured server joined one of our clusters, causing a small percentage of requests to fail. The issue was fixed within seconds.
+      resolved: true
