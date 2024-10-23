@@ -1,0 +1,13 @@
+version: incident/v1
+id: ff3jn7sm34cj
+name: SMS Delivery Failures to Orange Network in Israel
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2024-10-23 21:52:48"
+      description: Our monitoring systems have detected a potential issue with SMS Delivery Failures to Orange Network in Israel. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-10-23 21:54:04"
+      description: We are experiencing SMS Delivery Failures when sending to the Orange Network in Israel. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
