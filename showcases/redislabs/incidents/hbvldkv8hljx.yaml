@@ -1,0 +1,11 @@
+version: incident/v1
+id: hbvldkv8hljx
+name: Scheduled Maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-23 00:00:33"
+      description: 'Service maintenance applies to all of the resources with the following pattern in their endpoint : c327'
+    - ts: "2024-10-23 00:01:54"
+      description: This incident has been resolved.
+      resolved: true

@@ -21,3 +21,5 @@ timeline:
       description: We are continuing to work on a fix for this issue.
     - ts: "2024-10-22 23:08:03"
       description: Our state propagation system is significantly delayed. To speed up recovery, we will restore the system from the snapshot to clear the backlog. Your machine may be missing from fly m list and some other APIs, but all of your started machines will still be running. The state will re-synchronize back to latest once restoration is completed.
+    - ts: "2024-10-23 00:07:12"
+      description: Restoration of our state propagation system is complete. The system is now processing updates to re-synchronize back to the latest state. Services and APIs should start to recover once this process is completed.
