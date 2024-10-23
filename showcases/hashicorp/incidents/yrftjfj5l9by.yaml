@@ -1,0 +1,18 @@
+version: incident/v1
+id: yrftjfj5l9by
+name: HCP Terraform - Runs Not Progressing For Some Customers
+impact: minor
+systems:
+    - 7cgbxrw10wgr
+timeline:
+    - ts: "2024-10-23 19:06:30"
+      description: |-
+        Our engineering team is investigating an issue that is leading to runs not progressing for a subset of customers.
+
+        We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-10-23 19:13:31"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue with runs not progressing for a subset of customers.
+
+        We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
