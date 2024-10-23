@@ -1,0 +1,10 @@
+version: incident/v1
+id: sk04s1qz5wty
+name: Cloudflare WARP connectivity issues
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2024-10-23 13:36:17"
+      description: 'Cloudflare is investigating issues with Cloudflare WARP: users may experience connectivity issues with Streaming and ZSTD compression.  Further detail will be provided as more information becomes available.'
+      investigating: true
