@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6pmysndlq93s
+name: SMS Delivery Failures to 365 Wireless in the United States Over a Subset of Short Codes
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2024-10-23 15:53:30"
+      description: We are experiencing SMS delivery failures to the 365 Wireless network in the United States over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
