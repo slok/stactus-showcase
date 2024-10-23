@@ -39,3 +39,6 @@ timeline:
     - ts: "2024-10-23 17:32:58"
       description: We continue to investigate the issue causing MMS delivery failures when sending to multiple networks in Australia over a subset of long codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 24 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2024-10-23 20:50:56"
+      description: After investigation with carrier partners and verification of correct performance on our routes, we are classifying this incident as invalid and are marking it resolved.  We apologize for the incorrect categorization of the incident.
+      resolved: true
