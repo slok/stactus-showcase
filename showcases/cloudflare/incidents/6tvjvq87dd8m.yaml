@@ -1,0 +1,12 @@
+version: incident/v1
+id: 6tvjvq87dd8m
+name: Cloudflare Workers Issues
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2024-10-24 01:48:52"
+      description: "Cloudflare is investigating an increased level of 503 errors for customers running Workers scripts at some locations. \n\nWe are working to analyse and mitigate this problem. More updates to follow shortly."
+      investigating: true
+    - ts: "2024-10-24 01:56:11"
+      description: The issue has been identified and a fix is being implemented.
