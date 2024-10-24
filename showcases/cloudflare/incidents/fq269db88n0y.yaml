@@ -1,0 +1,10 @@
+version: incident/v1
+id: fq269db88n0y
+name: Unwanted minification of cached content
+impact: major
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2024-10-24 18:46:13"
+      description: Some customers may experience issues with cached content because Cloudflare is auto-minifying their JS files.
+      investigating: true
