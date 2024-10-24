@@ -1,0 +1,11 @@
+version: incident/v1
+id: dsv8j8fq2stq
+name: Cloudflare Data Loss Prevention Failure to Sync Microsoft Labels
+impact: minor
+systems:
+    - h2p0jj4ltvcq
+    - rppy995xymxv
+timeline:
+    - ts: "2024-10-24 19:37:47"
+      description: Cloudflare is investigation issues with DLP integration with Microsoft Sensitivity Labels.
+      investigating: true
