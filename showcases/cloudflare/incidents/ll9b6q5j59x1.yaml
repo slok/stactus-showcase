@@ -1,0 +1,10 @@
+version: incident/v1
+id: ll9b6q5j59x1
+name: Cloudflare Security Center Availability Issues
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+    - 18qkc83zzmxb
+timeline:
+    - ts: "2024-10-24 03:21:10"
+      description: "Users may experince errors when accessing Cloudflare Security Center > Events.\n\nCloudflare has identified the issue and a fix is being implemented. \n\nMore updates to follow shortly."
