@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1yf7btmmyjwr
+name: Atlas Login functionality degraded
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-10-24 16:33:29"
+      description: "We have detected issues for customers connecting to account.mongodb.com and are actively investigating. \n\nCustomers may experience issues logging into Atlas. \n\nAtlas Clusters are not impacted"
+      investigating: true
