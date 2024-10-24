@@ -1,0 +1,9 @@
+version: incident/v1
+id: q9lyqdkntsxg
+name: Cloudflare configuration delays
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-24 10:40:33"
+      description: Cloudflare was aware of, and resolved an issue which potentially could have impacted multiple customers where configuration changes on Cloudflare Dashboard or through the API took some minutes to propagate. This is is now solved.
+      resolved: true
