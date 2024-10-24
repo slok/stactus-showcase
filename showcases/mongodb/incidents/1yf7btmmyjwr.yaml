@@ -8,3 +8,5 @@ timeline:
     - ts: "2024-10-24 16:33:29"
       description: "We have detected issues for customers connecting to account.mongodb.com and are actively investigating. \n\nCustomers may experience issues logging into Atlas. \n\nAtlas Clusters are not impacted"
       investigating: true
+    - ts: "2024-10-24 16:53:47"
+      description: We’ve identified the root cause as timeouts from an upstream service provider and are actively working on a mitigation
