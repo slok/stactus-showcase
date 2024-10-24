@@ -2,9 +2,6 @@ version: stactus/v1
 name: Twilio
 url: https://status.twilio.com
 systems:
-    - id: b9z92qjr2p04
-      name: FLEX / TaskRouter
-      description: Twilio TaskRouter service
     - id: f7f727f39kx3
       name: ELASTIC SIP TRUNKING / Origination
       description: Elastic SIP Trunking
@@ -16,20 +13,23 @@ systems:
       name: PROGRAMMABLE VOICE / PSTN
     - id: 7c6yv3vctfqv
       name: SERVERLESS / Studio
+    - id: q4d7rj555ljl
+      name: FLEX / Flex Application Platform
     - id: 7d8w22hqrh6s
       name: CARRIER NETWORK / SMS Long Code, North America
     - id: ys1jhy2ys04z
       name: PROGRAMMABLE VIDEO / Group Rooms
     - id: lfqp74267l0t
       name: INTERNET OF THINGS / Programmable Wireless
+    - id: b9z92qjr2p04
+      name: FLEX / TaskRouter
+      description: Twilio TaskRouter service
     - id: w7nxj548smhd
       name: PROGRAMMABLE VOICE / SIP Interface
     - id: q015c7mrst1s
       name: PROGRAMMABLE VIDEO / Peer-to-Peer Rooms
     - id: b3tl520cz8tc
       name: SERVERLESS / Functions
-    - id: q4d7rj555ljl
-      name: FLEX / Flex Application Platform
     - id: whldrk77jnm4
       name: ACCOUNT SECURITY / Verify
     - id: 8vdlvw3dsq8h
