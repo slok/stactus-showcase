@@ -1,0 +1,10 @@
+version: incident/v1
+id: sn6jc431ftd7
+name: D1 is experiencing network connectivity issues
+impact: minor
+systems:
+    - z0yd3sxqjqdm
+timeline:
+    - ts: "2024-10-24 20:00:00"
+      description: Requests to D1 databases may fail due to network connectivity issues beginning at 19:30 UTC.
+      investigating: true
