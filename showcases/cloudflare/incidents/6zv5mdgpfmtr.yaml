@@ -1,0 +1,14 @@
+version: incident/v1
+id: 6zv5mdgpfmtr
+name: Stream Live
+impact: minor
+systems:
+    - 47xg28c02lnk
+timeline:
+    - ts: "2024-10-25 04:25:12"
+      description: |-
+        Cloudflare has identified an issue with Stream Live.
+
+        Some customers may experience interruptions to live video streams.
+    - ts: "2024-10-25 04:26:56"
+      description: We are continuing to work on a fix for this issue.
