@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9c2wbzt3lvms
+name: Droplet Creation
+impact: none
+systems:
+    - dkbfnt2ghbw4
+timeline:
+    - ts: "2024-10-25 22:03:54"
+      description: "Our Engineering team identified an issue with new Droplet creates and rebuilds using Ubuntu 24.10 based Snapshot and Backup Images. From Oct 10 13:33 to Oct 25 19:58 UTC, users may have experienced issues while creating new Droplets using Ubuntu 24.10 based Snapshots and Backup Images in all of our regions. \n\nWe have disabled new Droplet creates and rebuilds using Ubuntu 24.10 based Image until new image has been published. Users who are still running Ubuntu 24.10 based Droplets should create offline Snapshots. \n\nWe apologize for the inconvenience. If you continue to experience any issues, please open a support ticket from within your account."
+      resolved: true
