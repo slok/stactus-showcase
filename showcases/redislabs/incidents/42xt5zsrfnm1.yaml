@@ -1,0 +1,12 @@
+version: incident/v1
+id: 42xt5zsrfnm1
+name: Connection Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-25 04:10:11"
+      description: 'We are currently investigating connectivity issues to some resources that have the following pattern in their endpoint: c8'
+      investigating: true
+    - ts: "2024-10-25 04:15:29"
+      description: This incident has been resolved.
+      resolved: true
