@@ -1,0 +1,13 @@
+version: incident/v1
+id: xdh6jxc8zpww
+name: Cloudflare Zone Hold issues
+impact: minor
+systems:
+    - g4tb35rs9yw7
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2024-10-25 02:06:24"
+      description: |-
+        Cloudflare is investigating the error on Zone Hold.
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
