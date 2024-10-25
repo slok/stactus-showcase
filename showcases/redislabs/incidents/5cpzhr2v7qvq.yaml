@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5cpzhr2v7qvq
+name: Network Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-25 03:57:30"
+      description: 'We are experiencing some network issues. This may affect resources that have the following pattern in their endpoint: c277'
+      investigating: true
+    - ts: "2024-10-25 04:05:42"
+      description: This incident has been resolved.
+      resolved: true
