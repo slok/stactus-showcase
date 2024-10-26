@@ -1,0 +1,10 @@
+version: incident/v1
+id: jcwsf1gyx9bx
+name: Verify Traffic in China Service Disruption
+impact: minor
+systems:
+    - whldrk77jnm4
+timeline:
+    - ts: "2024-10-26 16:15:55"
+      description: We are experiencing service disruption with Verify Traffic towards China. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
