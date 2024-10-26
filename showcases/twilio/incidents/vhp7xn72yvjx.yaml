@@ -11,3 +11,6 @@ timeline:
       investigating: true
     - ts: "2024-10-26 20:23:18"
       description: We are observing successful SMS and MMS delivery delays when sending messages to T-Mobile and Verizon Wireless Network in US via Subset of Shortcodes. We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-10-26 22:24:30"
+      description: We are no longer experiencing SMS and MMS delivery delays when sending messages to T-Mobile and Verizon Wireless Network in US via Subset of Shortcodes. This incident has been resolved.
+      resolved: true
