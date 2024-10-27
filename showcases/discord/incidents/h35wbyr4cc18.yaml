@@ -1,0 +1,10 @@
+version: incident/v1
+id: h35wbyr4cc18
+name: Message search indexing behind
+impact: minor
+systems:
+    - 3y468xdr1st2
+timeline:
+    - ts: "2024-10-27 21:14:12"
+      description: We are currently investigating an issue with message search indexing falling behind
+      investigating: true
