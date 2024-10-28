@@ -1,6 +1,6 @@
 version: incident/v1
 id: 5yy954ktyd9d
-name: Unable to see the projects in the My Accounts section in Console
+name: Console users unable to access the My Accounts and Project Summary pages
 impact: none
 systems: []
 timeline:
@@ -9,3 +9,6 @@ timeline:
       investigating: true
     - ts: "2024-10-28 16:05:20"
       description: Twilio Console is now operating normally; view and navigate to their accounts in the My Accounts and Project Summary pages. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2024-10-28 16:39:05"
+      description: Console users unable to access the My Accounts and Project Summary pages issue has been resolved and Twilio Console is operating normally at this time.
+      resolved: true
