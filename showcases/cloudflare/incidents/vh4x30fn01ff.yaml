@@ -1,0 +1,10 @@
+version: incident/v1
+id: vh4x30fn01ff
+name: Elevated errors in Turnstile
+impact: minor
+systems:
+    - m4jywscr0n0k
+timeline:
+    - ts: "2024-10-28 23:17:25"
+      description: We are currently investigating an issue where a small number of requests to Turnstile get a "400" status code with the body "invalid-sitekey", resulting in a broken Turnstile widget.
+      investigating: true
