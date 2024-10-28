@@ -1,0 +1,11 @@
+version: incident/v1
+id: rdkyhwgj83gj
+name: 'Cloudflare Cloud Connector: Issues with Google Cloud Storage'
+impact: minor
+systems:
+    - 99thfnz1q9kr
+timeline:
+    - ts: "2024-10-28 09:30:55"
+      description: |-
+        Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: Cloud Connector users will not be able to configure new rules for Google Cloud Storage. Nevertheless, existing rules will work as expected.
+        We have identified the issue and a fix is being implemented.
