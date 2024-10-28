@@ -1,0 +1,9 @@
+version: incident/v1
+id: fhqlmg6f5jq8
+name: Synthetic Monitoring Outage
+impact: major
+systems: []
+timeline:
+    - ts: "2024-10-28 21:11:35"
+      description: "On October 28, 2024, from 10:35 UTC to 11:25 UTC, our engineering team detected a major outage affecting Synthetic monitoring in the GCP US Central region. \n\nDuring this time, users may have noticed gaps in their synthetic logs and metrics. \n\nWe’re happy to confirm that the issue has been resolved as of 11:25 UTC. Thank you for your patience."
+      resolved: true
