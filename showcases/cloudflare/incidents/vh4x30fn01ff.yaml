@@ -8,3 +8,5 @@ timeline:
     - ts: "2024-10-28 23:17:25"
       description: We are currently investigating an issue where a small number of requests to Turnstile get a "400" status code with the body "invalid-sitekey", resulting in a broken Turnstile widget.
       investigating: true
+    - ts: "2024-10-28 23:23:50"
+      description: The cause of this issue has been identified and a fix is being implemented.
