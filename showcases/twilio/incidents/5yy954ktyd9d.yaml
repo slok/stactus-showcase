@@ -1,0 +1,11 @@
+version: incident/v1
+id: 5yy954ktyd9d
+name: 'On Call Engineers are Investigating an issue: Unable to see the projects in the My Accounts section in Console'
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-28 15:48:49"
+      description: 'Our monitoring systems have detected a potential issue: unable to see the projects in the my accounts section in Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.'
+      investigating: true
+    - ts: "2024-10-28 16:05:20"
+      description: Twilio Console is now operating normally; view and navigate to their accounts in the My Accounts and Project Summary pages. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
