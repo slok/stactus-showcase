@@ -6,3 +6,6 @@ systems: []
 timeline:
     - ts: "2024-10-28 16:24:01"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with Authy API; Increased number of 500 errors . We will follow up and provide customer impact details within 2 hours.
+    - ts: "2024-10-28 16:48:12"
+      description: Twilio Authy API was degraded for 40 seconds between 09:13:09 and 09:13:49 Pacific Time on 10/26/2025. During this period of time customers may have experienced increased number of 500 errors. The issue has now been resolved.
+      resolved: true
