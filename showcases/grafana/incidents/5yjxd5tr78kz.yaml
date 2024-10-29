@@ -25,3 +25,5 @@ systems:
 timeline:
     - ts: "2024-10-28 12:49:42"
       description: All Grafana Cloud instances using a datasource with PDC enabled, which are attempting to connect to a localhost address are receiving 403 status responses - queries using these datasources will fail with 403 status error. We've identified the issue and working on resolving it.
+    - ts: "2024-10-29 09:29:30"
+      description: A fix has been implemented and we are monitoring the results.
