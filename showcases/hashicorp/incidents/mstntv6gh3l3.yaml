@@ -1,0 +1,16 @@
+version: incident/v1
+id: mstntv6gh3l3
+name: Terraform Registry UI Errors
+impact: major
+systems:
+    - l8mnm91h3s7v
+timeline:
+    - ts: "2024-10-29 14:36:55"
+      description: |-
+        Our engineering team is investigating an issue that is causing the Terraform Registry UI to not return content to users. The Registry API is unaffected.
+
+        We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2024-10-29 14:38:53"
+      description: We are continuing to investigate this issue.
+      investigating: true
