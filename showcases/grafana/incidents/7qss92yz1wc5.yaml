@@ -8,3 +8,7 @@ timeline:
     - ts: "2024-10-29 21:28:58"
       description: We're currently observing degraded read performance for Hosted Metrics (Prometheus) prod-us-east-0. We're currently looking into this.
       investigating: true
+    - ts: "2024-10-29 21:47:33"
+      description: |-
+        We've identified the root cause of the performance degradation and took counter-measures to mitigate the performance problems.
+        We will keep monitoring the performance on this.
