@@ -1,0 +1,9 @@
+version: incident/v1
+id: jkspj3fhhmr7
+name: Cron Triggers are not invoking for some Workers
+impact: major
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2024-10-29 19:53:56"
+      description: Some workers with cron schedules that were expected to invoke between now and 2024-10-29 14:00 UTC have not run because of a colo outage. We are working to move these Workers off the affected colo which will resume cron schedules as normal.
