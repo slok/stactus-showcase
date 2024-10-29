@@ -12,3 +12,6 @@ timeline:
       description: |-
         We've identified the root cause of the performance degradation and took counter-measures to mitigate the performance problems.
         We will keep monitoring the performance on this.
+    - ts: "2024-10-29 22:43:21"
+      description: At this time, we are considering this issue resolved since the read path has remained stable after the mitigation.
+      resolved: true
