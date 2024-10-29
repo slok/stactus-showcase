@@ -1,0 +1,13 @@
+version: incident/v1
+id: f91lw2g68qyn
+name: Delays retrieving call logs via API since 15:00:00 UTC 28 Oct
+impact: minor
+systems:
+    - 4rv9xfxmdjg9
+timeline:
+    - ts: "2024-10-29 17:55:55"
+      description: We've become aware of a potential issue with delays accessing webhook event logs via API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-10-29 18:06:07"
+      description: We are investigating delays retrieving call logs via API since 15:00:00 UTC 28 Oct. Our engineers are working on the issue, and we will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
