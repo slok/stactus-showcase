@@ -1,0 +1,17 @@
+version: incident/v1
+id: xd857x2skcb4
+name: Container Registry and App Platform in BLR1
+impact: none
+systems:
+    - 1c2vrfy9qbvv
+timeline:
+    - ts: "2024-10-29 07:27:23"
+      description: |-
+        From 01:56 to 06:36 UTC, our Engineering team observed an issue with Container Registry and App Platform builds in the BLR1 region.
+
+        During this time, users may have experienced delays while building their Apps and could have potentially experienced timeout errors in builds as a result. Additionally, a subset of customers may have experienced latency while interacting with the Container Registries.
+
+        Our Engineering team was able to take action to mitigate the impact and resolve the issue. All services are now functioning as expected. Thank you for your patience, and we apologize for any inconvenience.
+
+        If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.
+      resolved: true
