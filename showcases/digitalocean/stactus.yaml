@@ -36,8 +36,6 @@ systems:
       name: GPU Droplets / Global
     - id: 65brl8m428rn
       name: App Platform / Amsterdam
-    - id: sk01cyydqy7b
-      name: Container Registry / FRA1
     - id: xmrt3s9p9lw7
       name: Kubernetes / AMS3
     - id: 66wjtpd8ngvx
@@ -66,10 +64,12 @@ systems:
       name: Functions / AMS3
     - id: 2m55tfz8n656
       name: GPU Droplets / NYC2
+    - id: ggjq7y0mqt4y
+      name: Container Registry / BLR1
     - id: 1c2vrfy9qbvv
       name: App Platform / Bangalore
-    - id: hnqx47tg75cw
-      name: Container Registry / NYC3
+    - id: sk01cyydqy7b
+      name: Container Registry / FRA1
     - id: 9q2dq7jc5bk9
       name: Droplets / AMS3
     - id: nz589c69ymyy
@@ -102,10 +102,10 @@ systems:
       name: App Platform / Frankfurt
     - id: 6xz356g340vj
       name: Volumes / BLR1
-    - id: zfnbgvbvc6bd
-      name: Container Registry / SFO3
     - id: 5wjrpc0lf1qc
       name: Droplets / BLR1
+    - id: hnqx47tg75cw
+      name: Container Registry / NYC3
     - id: ytggjm2hdb5y
       name: Event Processing / BLR1
     - id: 566bp0vk7mwx
@@ -130,8 +130,6 @@ systems:
       name: Spaces / SFO2
     - id: 56cjsvgf3vk4
       name: App Platform / London
-    - id: k3xwyjfy34vw
-      name: Container Registry / SGP1
     - id: kkg2cfkqkwj1
       name: Droplets / FRA1
     - id: dzbtk2fkytv5
@@ -158,12 +156,14 @@ systems:
       name: Volumes / FRA1
     - id: 2p17zg8kmsyc
       name: Community
+    - id: 8pntc51v5prb
+      name: Container Registry / SFO2
     - id: ffghd7w93zbw
       name: Volumes / LON1
+    - id: zfnbgvbvc6bd
+      name: Container Registry / SFO3
     - id: btv040v4xbdn
       name: Droplets / LON1
-    - id: 7z4k9k6wgbsq
-      name: Container Registry / SYD1
     - id: 062037558j7d
       name: Event Processing / LON1
     - id: jzv4wms5qc33
@@ -194,6 +194,8 @@ systems:
       name: App Platform / San Francisco
     - id: fb63qt9f69m0
       name: Droplets / NYC1
+    - id: k3xwyjfy34vw
+      name: Container Registry / SGP1
     - id: t2sr3808q4ry
       name: Event Processing / NYC1
     - id: dzkmyxfh1rf0
@@ -218,6 +220,8 @@ systems:
       name: App Platform / Singapore
     - id: hlr2gdtmpmxs
       name: Volumes / NYC2
+    - id: 7z4k9k6wgbsq
+      name: Container Registry / SYD1
     - id: 9czvz44l7dp3
       name: Droplets / NYC2
     - id: f61lqt7r9fg5
