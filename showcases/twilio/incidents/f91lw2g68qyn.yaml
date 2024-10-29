@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2024-10-29 20:24:17"
       description: We have started seeing recovery on delays retrieving call logs via API. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-10-29 20:35:54"
+      description: The issue causing delays retrieving call logs via API since 15:00:00 UTC 28 Oct has been resolved, and the service is functioning normally at this time.
+      resolved: true
