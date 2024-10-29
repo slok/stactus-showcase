@@ -1,0 +1,9 @@
+version: incident/v1
+id: s2nx1p3bdx5x
+name: Instance failure
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-29 10:37:58"
+      description: 'We are experiencing an instance failure. This may affect resources that have the following pattern in their endpoint: c301'
+      investigating: true
