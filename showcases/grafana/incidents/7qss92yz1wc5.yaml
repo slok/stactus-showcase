@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7qss92yz1wc5
+name: Degraded read performance for Hosted Metrics prod-us-east-0 cluster.
+impact: minor
+systems:
+    - 5270kl9kd6l2
+timeline:
+    - ts: "2024-10-29 21:28:58"
+      description: We're currently observing degraded read performance for Hosted Metrics (Prometheus) prod-us-east-0. We're currently looking into this.
+      investigating: true
