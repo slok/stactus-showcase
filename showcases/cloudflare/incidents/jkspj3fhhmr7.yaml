@@ -9,3 +9,6 @@ timeline:
       description: Some workers with cron schedules that were expected to invoke between now and 2024-10-29 14:00 UTC have not run because of a colo outage. We are working to move these Workers off the affected colo which will resume cron schedules as normal.
     - ts: "2024-10-29 21:01:54"
       description: The fix has been implemented and we are currently monitoring the results.
+    - ts: "2024-10-29 22:30:07"
+      description: This incident has been resolved.
+      resolved: true
