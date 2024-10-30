@@ -13,3 +13,11 @@ timeline:
       investigating: true
     - ts: "2024-10-30 05:07:40"
       description: "Our Engineering team has implemented a fix to resolve the issues impacting the creation of Managed Database Clusters. Users should now be able to create Managed Database clusters without any issues. \n\nWe are actively monitoring the situation and will post an update as soon as the issue is fully resolved."
+    - ts: "2024-10-30 05:27:39"
+      description: |-
+        From 04:36 to 04:51 UTC, users may have experienced errors when attempting to create Managed Database clusters.
+
+        Our Engineering team has confirmed the full resolution of the issue. Users should now be able to create Managed Database clusters normally.
+
+        If you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel.
+      resolved: true
