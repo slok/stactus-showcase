@@ -1,8 +1,10 @@
 version: incident/v1
 id: dmyn6rv4y2b1
-name: SMS Delivery Delays to Verizon Network in the US for a subset of Toll Free Numbers
+name: SMS Delivery Delays to Verizon Network in the US for a subset of Toll Free and Short Code Numbers
 impact: minor
 systems:
+    - 39mb8cmw8y2v
+    - 32f2bm54nkvv
     - yvvy3vlp4djf
 timeline:
     - ts: "2024-10-30 16:05:34"
@@ -16,4 +18,7 @@ timeline:
       investigating: true
     - ts: "2024-10-30 19:41:52"
       description: We are still experiencing SMS delivery report delays when sending messages to Verizon Network in the US for a subset of Toll Free Numbers.  Our engineers are working with our carrier partner to resolve the issue. We can confirm that SMS delivery is not impacted by this incident. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-10-30 21:47:40"
+      description: We are still experiencing SMS delivery report delays when sending messages to Verizon Network in the US for a subset of Toll Free and short code Numbers.  Our engineers are working with our carrier partner to resolve the issue. We can confirm that SMS delivery is not impacted by this incident. We will provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
