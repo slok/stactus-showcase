@@ -31,3 +31,5 @@ timeline:
     - ts: "2024-10-30 11:11:50"
       description: New and recently unpaused/unarchived Grafana Cloud instances are failing to start being in a crashloop. We're currently investigating the issue.
       investigating: true
+    - ts: "2024-10-30 12:21:30"
+      description: We identified the issue and applied the fix. We're currently monitoring the situation - there should be no issue with creating and unpausing/unarchiving instances anymore.
