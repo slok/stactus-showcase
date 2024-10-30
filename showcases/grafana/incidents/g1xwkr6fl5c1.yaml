@@ -29,7 +29,10 @@ systems:
     - 2yn7w8rnphcp
 timeline:
     - ts: "2024-10-30 11:11:50"
-      description: New and recently unpaused/unarchived Grafana Cloud instances are failing to start being in a crashloop. We're currently investigating the issue.
+      description: Users may see slower startup times for new, or previously inactive Grafana Cloud instances in all clusters. We're currently investigating the issue.
       investigating: true
     - ts: "2024-10-30 12:21:30"
       description: We identified the issue and applied the fix. We're currently monitoring the situation - there should be no issue with creating and unpausing/unarchiving instances anymore.
+    - ts: "2024-10-30 15:28:55"
+      description: The incident has been resolved. We applied an update to all Grafana Cloud instances, which inadvertently restarted instances regardless of whether they were active or not. This caused heavy load on our control plane, causing slower startup times.
+      resolved: true
