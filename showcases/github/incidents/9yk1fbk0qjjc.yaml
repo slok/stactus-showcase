@@ -11,3 +11,6 @@ timeline:
     - ts: "2024-10-30 08:05:07"
       description: We have identified connectivity issues with an internal service causing delays in Actions Workflow Runs, Workflow Job Runs, and Check Steps. We are continuing to investigate.
       investigating: true
+    - ts: "2024-10-30 08:48:11"
+      description: We are continuing to investigate delays to status updates to Actions Workflow Runs, Workflow Job Runs, and Check Steps. Customers may see that their Actions workflows have completed, but the run appears to be waiting for its status to update. We will continue providing updates on the progress towards mitigation.
+      investigating: true
