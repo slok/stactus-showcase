@@ -3,8 +3,11 @@ id: j77jf34hk67q
 name: On Call Engineers are Investigating an issue with elevated number of 5xx errors when trying to create a new entity or factor.
 impact: none
 systems:
-    - 54ft7xt1tqmm
+    - whldrk77jnm4
 timeline:
     - ts: "2024-10-30 15:14:44"
       description: Our monitoring systems have detected a potential issue with elevated number of 5xx errors when trying to create a new entity or factor. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2024-10-30 15:37:24"
+      description: Verify Push and TOTP were degraded for 9 minutes between 07:50 and 07:59 Pacific Time on 10/30/2024. During this period of time customers may have experienced issues with elevated number of 5xx errors when trying to create a new entity or factor. The issue has now been resolved.
+      resolved: true
