@@ -1,0 +1,10 @@
+version: incident/v1
+id: hj9ft5199kx1
+name: Degradation Of Rest API Voice Calls
+impact: none
+systems:
+    - 4rv9xfxmdjg9
+timeline:
+    - ts: "2024-10-30 11:04:20"
+      description: Twilio Rest API Voice Calls was degraded for 52 sec between 22:13:30 to 23:14:22 UTC on 10/29/2024. During this period of time customers may have experienced error code 502. The issue has now been resolved.
+      resolved: true
