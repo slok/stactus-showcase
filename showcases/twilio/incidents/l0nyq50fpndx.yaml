@@ -1,10 +1,13 @@
 version: incident/v1
 id: l0nyq50fpndx
-name: SMS Delivery Failures to Multiple Networks in United Arab Emirates
+name: SMS Delivery Failures to Multiple Networks in United Arab Emirates via a subset of Alphanumeric Sender IDs
 impact: minor
 systems:
     - 8qjql0kqnd33
 timeline:
     - ts: "2024-10-31 19:04:30"
       description: We are experiencing SMS Delivery Failures to Multiple Networks in United Arab Emirates. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-10-31 20:04:14"
+      description: We are still experiencing SMS Delivery Failures to Multiple Networks in United Arab Emirates. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
