@@ -8,3 +8,5 @@ timeline:
     - ts: "2024-10-31 16:59:11"
       description: "Our Engineering team is currently investigating issues with Managed Kubernetes clusters. During this time, some users may experience delays when reconciling or adding nodes to their Kubernetes clusters. \n\nWe apologize for the inconvenience and will provide an update as soon as we have more information."
       investigating: true
+    - ts: "2024-10-31 17:17:29"
+      description: "Our Engineering team has identified the cause of the issue and is working on implementing a fix to make sure no delays are observed when reconciling the Kubernetes Clusters. \n\nWe apologize for the inconvenience and will post an update as soon as additional information is available."
