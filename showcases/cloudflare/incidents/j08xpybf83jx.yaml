@@ -1,0 +1,12 @@
+version: incident/v1
+id: j08xpybf83jx
+name: Issues with Worker AI Responses
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2024-10-31 14:09:37"
+      description: Cloudflare is aware of, and investigating an issue with Workers AI where model responses are truncated on @cf/meta/llama-3.1-8b-instruct. Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2024-10-31 14:14:00"
+      description: The issue has been identified and a fix is being implemented.
