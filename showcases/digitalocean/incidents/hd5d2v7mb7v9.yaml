@@ -10,3 +10,8 @@ timeline:
       investigating: true
     - ts: "2024-10-31 17:17:29"
       description: "Our Engineering team has identified the cause of the issue and is working on implementing a fix to make sure no delays are observed when reconciling the Kubernetes Clusters. \n\nWe apologize for the inconvenience and will post an update as soon as additional information is available."
+    - ts: "2024-10-31 18:04:17"
+      description: |-
+        Our Engineering team has confirmed that some backend changes caused this issue and as of now, there are no delays observed when reconciling or adding new nodes to the Clusters. At this time, users should be able to add new nodes or reconcile their Clusters without any delay.
+
+        We are monitoring the situation closely and will post an update as soon as we confirm the issue is fully resolved.
