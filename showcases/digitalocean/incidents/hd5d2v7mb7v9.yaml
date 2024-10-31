@@ -15,3 +15,11 @@ timeline:
         Our Engineering team has confirmed that some backend changes caused this issue and as of now, there are no delays observed when reconciling or adding new nodes to the Clusters. At this time, users should be able to add new nodes or reconcile their Clusters without any delay.
 
         We are monitoring the situation closely and will post an update as soon as we confirm the issue is fully resolved.
+    - ts: "2024-10-31 18:56:59"
+      description: |-
+        From 10:30 UTC to 18:04 UTC, users may have experienced delays when adding new nodes to the Cluster or reconciling the Kubernetes Clusters.
+
+        Our Engineering team has confirmed the full resolution of the issue. Users should now be able to add new nodes or reconcile Kubernetes Clusters without any delays.
+
+        If you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel.
+      resolved: true

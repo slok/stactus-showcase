@@ -1,0 +1,9 @@
+version: incident/v1
+id: 3dkx73c6mqnc
+name: SMS Delivery Failures to T-Mobile in Czech Republic
+impact: none
+systems: []
+timeline:
+    - ts: "2024-10-31 18:55:13"
+      description: Twilio Network was degraded between 10:12 AM and 11:25 AM Pacific Time on 31/10/2024. During this period of time, customers may have experienced delivery failure and delays to T-Mobile in Czech Republic. The issue has now been resolved.
+      resolved: true
