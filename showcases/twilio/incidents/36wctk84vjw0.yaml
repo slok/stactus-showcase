@@ -1,0 +1,10 @@
+version: incident/v1
+id: 36wctk84vjw0
+name: SMS Delivery Failures to a Subset of Long Codes from US Network Subscribers
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2024-10-31 17:44:29"
+      description: We are experiencing SMS delivery failures when sending messages to a subset of Long Codes from US Network Subscribers. Our engineers continue to work with our carrier partner to resolve the issue. We expect to provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
