@@ -1,0 +1,12 @@
+version: incident/v1
+id: 8mtjgtg5zfy4
+name: Elevated errors from LetsEncrypt certificate authority
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-11-01 01:01:48"
+      description: 'Atlas is seeing elevated errors from our certificate authority Let''s Encrypt (see their status post: https://letsencrypt.status.io/pages/55957a99e800baa4470002da). Customers may see delayed operations when provisioning new nodes.'
+      investigating: true
+    - ts: "2024-11-01 01:08:54"
+      description: Let's Encrypt has identified an issue with their infrastructure causing elevated error rates. Please see the Let's Encrypt status page https://letsencrypt.status.io/pages/55957a99e800baa4470002da for more information.

@@ -1,0 +1,18 @@
+version: incident/v1
+id: g2cctkd5yd1y
+name: Data Processing and Alerts Delays in EU Region
+impact: minor
+systems:
+    - d9pwhb6snl77
+    - tpj67jyc58sb
+    - zj32brg420jm
+    - hymb519q08z0
+    - fp51bfh70sht
+    - 6qh38lgrdr8v
+    - 5ny464vz0n83
+    - xzllc95t20c2
+    - 8h442mvws6w7
+timeline:
+    - ts: "2024-11-01 01:09:32"
+      description: "Some customers in the EU region may be experiencing data visibility irregularities and delayed alert notifications for affected data. \n\nWe are investigating this interruption and have escalated to our cloud provider."
+      investigating: true
