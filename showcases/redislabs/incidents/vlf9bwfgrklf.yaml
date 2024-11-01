@@ -1,0 +1,12 @@
+version: incident/v1
+id: vlf9bwfgrklf
+name: Instance failure
+impact: none
+systems: []
+timeline:
+    - ts: "2024-11-01 09:03:09"
+      description: 'We are experiencing an instance failure. This may affect resources that have the following pattern in their endpoint: c271'
+      investigating: true
+    - ts: "2024-11-01 09:05:07"
+      description: This incident has been resolved.
+      resolved: true
