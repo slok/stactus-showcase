@@ -23,3 +23,6 @@ timeline:
       description: Our cloud provider has confirmed an interruption and is working to resolve the issue impacting New Relic services.
     - ts: "2024-11-01 02:34:03"
       description: We are seeing signs of recovery and will continue to monitor affected services.
+    - ts: "2024-11-01 03:11:40"
+      description: "Between 00:36 UTC and 02:35 UTC on November 1st, 2024, some customers in the EU region may have experienced data visibility irregularities and delayed alert notifications for affected data. \n\nThe interruption with our cloud provider has been resolved and affected services have returned to normal operations."
+      resolved: true
