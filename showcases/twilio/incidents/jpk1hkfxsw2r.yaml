@@ -1,0 +1,13 @@
+version: incident/v1
+id: jpk1hkfxsw2r
+name: MMS Delivery Delays From Australian Numbers to Subset of Twilio Australian Numbers
+impact: minor
+systems:
+    - d1j2nx64rpq3
+timeline:
+    - ts: "2024-11-01 11:46:04"
+      description: We are experiencing SMS delivery delays when messages are being sent from Australian Numbers to Subset of Twilio Australian Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 30 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-11-01 11:48:22"
+      description: We are experiencing MMS delivery delays when messages are being sent from Australian Numbers to Subset of Twilio Australian Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 30 minutes or as soon as more information becomes available.
+      investigating: true
