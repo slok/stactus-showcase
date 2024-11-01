@@ -10,3 +10,6 @@ timeline:
       description: Our Engineers are currently monitoring an issue related to event processing and Droplet creates in our NYC2 region. Between 12:34 UTC and 13:09, users may have experienced failures with events such as creating, destroying, or rebuilding Droplets and Droplet-backed products. Our team has mitigated the impact and is monitoring the situation closely. We will post another update as soon as we can confirm the issue to be fully resolved.
     - ts: "2024-11-01 13:39:11"
       description: We are continuing to monitor for any further issues.
+    - ts: "2024-11-01 17:37:40"
+      description: Our Engineering team has confirmed resolution of the issue impacting Droplet creation events and event processing and all services should now be operating normally. If you continue to experience any problems, please open a ticket with our Support team. Thank you for your patience and we apologize for any inconvenience.
+      resolved: true
