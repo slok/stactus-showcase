@@ -2,7 +2,8 @@ version: incident/v1
 id: 2wzgw8hkx813
 name: 5XX Errors in the Rest API
 impact: minor
-systems: []
+systems:
+    - 4rv9xfxmdjg9
 timeline:
     - ts: "2024-11-01 14:58:21"
       description: Our monitoring systems have detected a potential issue with Traffic and 500 Error Spike At API Edge. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
@@ -10,3 +11,5 @@ timeline:
     - ts: "2024-11-01 15:33:26"
       description: We are investigating an issue with Twilio REST APIs where customers may experience an increase in 5xx errors. We expect to provide another update in 30 minutes or as soon as more information becomes available
       investigating: true
+    - ts: "2024-11-01 15:42:59"
+      description: REST API is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
