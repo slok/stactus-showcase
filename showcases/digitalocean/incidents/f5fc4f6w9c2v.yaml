@@ -1,0 +1,12 @@
+version: incident/v1
+id: f5fc4f6w9c2v
+name: Event Processing in NYC2 Region
+impact: minor
+systems:
+    - f61lqt7r9fg5
+    - r2cw20w0r9zx
+timeline:
+    - ts: "2024-11-01 13:36:47"
+      description: Our Engineers are currently monitoring an issue related to event processing and Droplet creates in our NYC2 region. Between 12:34 UTC and 13:09, users may have experienced failures with events such as creating, destroying, or rebuilding Droplets and Droplet-backed products. Our team has mitigated the impact and is monitoring the situation closely. We will post another update as soon as we can confirm the issue to be fully resolved.
+    - ts: "2024-11-01 13:39:11"
+      description: We are continuing to monitor for any further issues.
