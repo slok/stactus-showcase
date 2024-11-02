@@ -1,0 +1,11 @@
+version: incident/v1
+id: m8zssw9bzs64
+name: Temporary unavailability of some individual Durable Objects
+impact: minor
+systems:
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2024-11-02 10:10:49"
+      description: 'Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: Some Individual Durable Objects might see brief periods during which the Durable Object cannot be reached. We have identified the issue and are actively rolling out a fix.'
+    - ts: "2024-11-02 10:22:08"
+      description: A fix has been implemented and we are monitoring the results.
