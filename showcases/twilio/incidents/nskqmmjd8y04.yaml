@@ -1,16 +1,16 @@
 version: incident/v1
 id: nskqmmjd8y04
-name: SMS Delivery Delays to Small US Networks From a Subset of Shortcodes 311-910, 313-981, 312-810
+name: SMS Delivery Delays to Small US Networks From a Subset of Shortcodes
 impact: minor
 systems:
     - 39mb8cmw8y2v
 timeline:
     - ts: "2024-11-02 17:33:01"
-      description: We are experiencing SMS delivery delays when sending messages to small US networks from a subset of shortcodes 311-910, 313-981, 312-810. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      description: We are experiencing SMS delivery delays when sending messages to small US networks from a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2024-11-02 18:30:05"
-      description: We continue experiencing SMS delivery delays when sending messages to small US networks from a subset of shortcodes 311-910, 313-981, 312-810. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      description: We continue experiencing SMS delivery delays when sending messages to small US networks from a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
     - ts: "2024-11-02 20:30:06"
-      description: We continue experiencing SMS delivery delays when sending messages to small US networks from a subset of shortcodes 311-910, 313-981, 312-810. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      description: We continue experiencing SMS delivery delays when sending messages to small US networks from a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
