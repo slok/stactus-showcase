@@ -1,0 +1,10 @@
+version: incident/v1
+id: dw9b45kv2c0l
+name: SMS Delivery Delays to 2degrees in New Zealand
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2024-11-03 05:09:03"
+      description: We are experiencing SMS delivery delays when sending messages to 2degrees in New Zealand. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
