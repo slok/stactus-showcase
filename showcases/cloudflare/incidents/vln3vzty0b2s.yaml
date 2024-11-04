@@ -1,0 +1,11 @@
+version: incident/v1
+id: vln3vzty0b2s
+name: Warp Egress IPv6 GeoIP Data
+impact: minor
+systems:
+    - k04jkcpzxn94
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2024-11-04 18:19:02"
+      description: Cloudflare is investigating issues with Cloudflare WARP and Cloudflare Zero Trust. Cloudflare WARP and Zero Trust users may experience incorrect GeoIP data for IPv6 connections.
+      investigating: true

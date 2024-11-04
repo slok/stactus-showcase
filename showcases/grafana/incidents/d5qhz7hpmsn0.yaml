@@ -1,0 +1,9 @@
+version: incident/v1
+id: d5qhz7hpmsn0
+name: Confluent Cloud Latency and High Error Rates
+impact: major
+systems:
+    - z5ysrlvblv9t
+timeline:
+    - ts: "2024-11-04 18:23:20"
+      description: Beginning at 17:10 UTC, our team became aware of an incident declared by Confluent Cloud. Users of the confluent cloud integration will see gaps in their metric data starting from 17:10 UTC. These gaps are caused by the increased latency and error rates of Confluent's Metrics API.
