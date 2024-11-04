@@ -6,3 +6,6 @@ systems: []
 timeline:
     - ts: "2024-11-04 18:25:49"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with Twilio Conferences. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2024-11-04 18:38:03"
+      description: Twilio Conferences was degraded for 15 minutes between 10:09 am - 10:24 am Pacific Time on 11/04/2024. During this period of time, customers were unable to get Conference meta-data from the APIs.  The issue has now been resolved.
+      resolved: true
