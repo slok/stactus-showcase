@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7vc21frdt3r8
+name: Elevated errors from LetsEncrypt certificate authority
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-11-04 18:29:51"
+      description: Atlas is seeing elevated errors from our certificate authority Let's Encrypt. Customers may see delayed operations when provisioning new nodes.
+      investigating: true
