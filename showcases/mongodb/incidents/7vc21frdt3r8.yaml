@@ -8,3 +8,8 @@ timeline:
     - ts: "2024-11-04 18:29:51"
       description: Atlas is seeing elevated errors from our certificate authority Let's Encrypt. Customers may see delayed operations when provisioning new nodes.
       investigating: true
+    - ts: "2024-11-04 18:56:36"
+      description: The issue has been identified as a momentary slowdown in an internal Atlas system. Atlas operations are now recovering.
+    - ts: "2024-11-04 19:05:07"
+      description: This incident has been resolved.
+      resolved: true
