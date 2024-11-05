@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2024-11-04 18:23:20"
       description: Beginning at 17:10 UTC, our team became aware of an incident declared by Confluent Cloud. Users of the confluent cloud integration will see gaps in their metric data starting from 17:10 UTC. These gaps are caused by the increased latency and error rates of Confluent's Metrics API.
+    - ts: "2024-11-05 09:29:19"
+      description: Confluent Cloud has resolved the issue with their Metrics API, which was causing gaps in our metric data. As a result, our service is now fully restored, and data flow is back to normal. Thank you for your patience.
+      resolved: true
