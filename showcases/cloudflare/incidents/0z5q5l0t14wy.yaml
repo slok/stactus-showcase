@@ -1,0 +1,17 @@
+version: incident/v1
+id: 0z5q5l0t14wy
+name: Cloudflare Zero Trust Access change delay
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2024-11-05 11:40:25"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Zero Trust Access change delay.
+
+        Delays are taking 15-20 minutes. This only affects Customer configuration changes in the Cloudflare Zero Trust Access API and Cloudflare Zero Trust Access dashboard.
+
+        We are working to understand the full impact and mitigate this problem.  More updates to follow shortly.
+      investigating: true
+    - ts: "2024-11-05 11:43:00"
+      description: A fix has been implemented and we are monitoring the results.
