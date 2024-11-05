@@ -1,8 +1,11 @@
 version: incident/v1
 id: sk92lpvth89x
-name: Our Engineers are Investigating an Issue with CallServices Via API Edge
+name: 'Automated Alert: No Customer Impact'
 impact: none
 systems: []
 timeline:
     - ts: "2024-11-05 17:38:29"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with CallServices via API Edge. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2024-11-05 18:00:53"
+      description: We have fully investigated the CallServices issue triggered by our automated alert, and it was determined that there is no customer impact. All systems are operational.
+      resolved: true
