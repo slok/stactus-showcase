@@ -1,9 +1,13 @@
 version: incident/v1
 id: xnpzjrcnpwy6
-name: On Call Engineers Are Investigating an Issue With Phone Numbers Purchases in the Console
-impact: none
-systems: []
+name: Errors When Purchasing Numbers in the Console
+impact: minor
+systems:
+    - pv5w18vrltfl
 timeline:
     - ts: "2024-11-05 19:03:05"
       description: Our monitoring systems have detected a potential issue phone number purchases in the Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-11-05 19:25:22"
+      description: We are seeing errors processing purchases in the Console for a subset of customers. Customers may experience 5XX errors when trying to purchase phone numbers over the API, or see Internal server error occurred when using the Console. We expect to provide another update in 1 hour or as soon as more information becomes available
       investigating: true

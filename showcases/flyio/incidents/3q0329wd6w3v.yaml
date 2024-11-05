@@ -8,3 +8,5 @@ timeline:
     - ts: "2024-11-05 18:51:37"
       description: Fly Metrics's ingestion is stopped working. While you can access https://fly-metrics.net/, you may not able to see new data points since around 06:50 PM UTC. We are actively working on the issue.
       investigating: true
+    - ts: "2024-11-05 19:30:29"
+      description: The issue is in our Victoria Metrics cluster's storage nodes. We've upgraded and rebooted the nodes.
