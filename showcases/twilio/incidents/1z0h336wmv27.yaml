@@ -1,6 +1,6 @@
 version: incident/v1
 id: 1z0h336wmv27
-name: SMS Delivery Delays to Brisanet Network in Brazil
+name: SMS Delivery Report Delays to Brisanet Network in Brazil
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -15,3 +15,6 @@ timeline:
       description: We are observing recovery in SMS delivery delays when sending messages to Brisanet Network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2024-11-05 17:08:04"
       description: We continue observing recovery in SMS delivery delays when sending messages to Brisanet Network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-11-05 19:47:59"
+      description: We are making a correction to the previous communications on this StatusPage post. After some investigation, we've identified that SMS delivery delays were not impacted, but we experienced SMS delivery report delays to Brisanet Network in Brazil. This services is now fully recovered and we're resolving this incident. We apologize for the delays and any inconvenience this may have caused.
+      resolved: true
