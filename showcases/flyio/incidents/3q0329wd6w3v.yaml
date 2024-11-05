@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3q0329wd6w3v
+name: Fly Metrics' ingestion is stopped working
+impact: major
+systems:
+    - k2zhkw7wryv2
+timeline:
+    - ts: "2024-11-05 18:51:37"
+      description: Fly Metrics's ingestion is stopped working. While you can access https://fly-metrics.net/, you may not able to see new data points since around 06:50 PM UTC. We are actively working on the issue.
+      investigating: true
