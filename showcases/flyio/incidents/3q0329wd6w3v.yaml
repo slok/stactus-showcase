@@ -10,3 +10,5 @@ timeline:
       investigating: true
     - ts: "2024-11-05 19:30:29"
       description: The issue is in our Victoria Metrics cluster's storage nodes. We've upgraded and rebooted the nodes.
+    - ts: "2024-11-05 21:25:09"
+      description: Metrics writes have been queued and we are still processing them. We are going to scale up the cluster to catch up the backlog.
