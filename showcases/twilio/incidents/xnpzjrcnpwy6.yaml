@@ -11,3 +11,5 @@ timeline:
     - ts: "2024-11-05 19:25:22"
       description: We are seeing errors processing purchases in the Console for a subset of customers. Customers may experience 5XX errors when trying to purchase phone numbers over the API, or see Internal server error occurred when using the Console. We expect to provide another update in 1 hour or as soon as more information becomes available
       investigating: true
+    - ts: "2024-11-05 20:34:14"
+      description: Our engineers have identified the 5XX errors when trying to purchase phone numbers over the API in the Console for a subset of customers and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
