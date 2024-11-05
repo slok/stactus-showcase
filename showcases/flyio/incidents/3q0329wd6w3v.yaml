@@ -14,3 +14,6 @@ timeline:
       description: Metrics writes have been queued and we are still processing them. We are going to scale up the cluster to catch up the backlog.
     - ts: "2024-11-05 23:11:12"
       description: We are processing the backlog and metrics are mostly backfilled.
+    - ts: "2024-11-05 23:47:43"
+      description: This incident has been resolved.
+      resolved: true
