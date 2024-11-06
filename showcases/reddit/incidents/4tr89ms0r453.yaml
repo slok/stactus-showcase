@@ -1,0 +1,13 @@
+version: incident/v1
+id: 4tr89ms0r453
+name: Degraded performance for reddit.com
+impact: major
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+    - gjdprysbvnjm
+timeline:
+    - ts: "2024-11-06 04:07:09"
+      description: We are currently investigated degraded performance on reddit.com
+      investigating: true
