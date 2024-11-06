@@ -1,9 +1,13 @@
 version: incident/v1
 id: ln3xv6xxlqt9
-name: On Call Engineers Are Investigating an Issue With Shortcode Payments
-impact: none
-systems: []
+name: Short-Code Payment Issues
+impact: minor
+systems:
+    - jw9dh2mf4392
 timeline:
     - ts: "2024-11-06 16:36:31"
       description: Our monitoring systems have detected a potential issue short-code payments. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-11-06 16:56:09"
+      description: We are investigating an issue with short-code payments. Customers may experience duplicates in short-code payments. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
