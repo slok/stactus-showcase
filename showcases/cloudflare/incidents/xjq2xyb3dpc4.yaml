@@ -1,0 +1,15 @@
+version: incident/v1
+id: xjq2xyb3dpc4
+name: WARP connectivity issue
+impact: none
+systems:
+    - vhpdc0y3qty9
+    - dk64qkf6mlmk
+    - qshn45g5q59m
+    - hr78s04g1r5b
+    - 3cg9wbk5hzg4
+    - k04jkcpzxn94
+timeline:
+    - ts: "2024-11-06 03:55:17"
+      description: Cloudflare experienced WARP connectivity issues between 21:04 UTC and 22:13 UTC on 2024-11-04. The issue was caused by a new release, which was quickly identified and reverted to mitigate the impact. Cloudflare is currently investigating the root cause.
+      resolved: true
