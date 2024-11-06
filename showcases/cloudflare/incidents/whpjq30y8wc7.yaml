@@ -1,0 +1,13 @@
+version: incident/v1
+id: whpjq30y8wc7
+name: Cloudflare Workers AI Issues
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2024-11-06 14:46:26"
+      description: "Cloudflare is aware of, and investigating issues with Workers AI experiencing elevated errors to all models. \n\nWe are working to mitigate this problem. Further details will be provided as more information becomes available."
+      investigating: true
+    - ts: "2024-11-06 14:47:05"
+      description: We are continuing to investigate this issue.
+      investigating: true
