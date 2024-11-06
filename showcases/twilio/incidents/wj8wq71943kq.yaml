@@ -1,8 +1,12 @@
 version: incident/v1
 id: wj8wq71943kq
-name: Our Engineers are Investigating an Issue with Event Streams
+name: Event Streams Subscriptions Issues
 impact: none
-systems: []
+systems:
+    - zxhmy448yyn3
 timeline:
     - ts: "2024-11-06 15:03:26"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with Event Streams. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2024-11-06 15:13:31"
+      description: Twilio Event Streams subscriptions were degraded for 1 hour and 10 minutes between 05:38AM and 06:48AM Pacific Time on 11/06/2024. During this period of time, newly created subscriptions did not start to receive events until 06:48AM Pacific Time. The issue has now been resolved.
+      resolved: true
