@@ -1,0 +1,9 @@
+version: incident/v1
+id: y7gdktkv6j2g
+name: SMS Delivery Failures to Multiple Networks in Spain for a Subset of Twilio Numbers
+impact: none
+systems: []
+timeline:
+    - ts: "2024-11-06 19:53:03"
+      description: We experienced an SMS delivery issue for 2 hours between 08:50AM and 10:50AM Pacific Time on 11/06/2024. During this period of time, customers may have experienced delivery failures to multiple networks in Spain for a subset of Twilio numbers. The issue has now been resolved.
+      resolved: true
