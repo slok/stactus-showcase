@@ -14,3 +14,5 @@ timeline:
     - ts: "2024-11-06 17:59:15"
       description: We are still investigating an issue with short-code payments. Customers may experience duplicates in short-code payments. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2024-11-06 20:06:52"
+      description: Our engineers have identified the issue causing the duplicate charges and are working to deploy a fix. Current workaround is running our integration tests after which we will deploy to production. We expect to provide another update in 1 hour or as soon as more information becomes available.
