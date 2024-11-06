@@ -1,9 +1,13 @@
 version: incident/v1
 id: 9h8zhzc51twj
-name: On Call Engineers Are Investigating an Issue With SMS Delivery Delay in Mexico
-impact: none
-systems: []
+name: SMS Delivery Delays to AT&T Network in Mexico
+impact: minor
+systems:
+    - 42zx9w2kmtvf
 timeline:
     - ts: "2024-11-06 17:42:18"
       description: Our monitoring systems have detected a potential issue, with SMS delivery delay in Mexico. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-11-06 17:52:54"
+      description: We are experiencing SMS delivery delays towards the AT&T network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
