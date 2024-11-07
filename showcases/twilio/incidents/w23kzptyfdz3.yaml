@@ -16,3 +16,6 @@ timeline:
     - ts: "2024-11-07 22:23:12"
       description: After monitoring for some time, we started seeing a degradation of the service. We're experiencing SMS delivery delays when sending messages to AT&T Network in Mexico. Our engineers are working with our carrier partners to resolve the issue. We expect to provide another update in 1 hour, or as soon as more information becomes
       investigating: true
+    - ts: "2024-11-07 23:23:15"
+      description: We are observing recovery in SMS delivery delays when sending messages to AT&T Mexico in Mexico. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
