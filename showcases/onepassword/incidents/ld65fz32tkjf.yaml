@@ -1,0 +1,18 @@
+version: incident/v1
+id: ld65fz32tkjf
+name: Issues processing Apple and Google Subscriptions
+impact: minor
+systems:
+    - dd7j6hgdy98l
+    - cnzy869d6qf1
+    - l8gxmc6nwwws
+timeline:
+    - ts: "2024-11-07 19:25:18"
+      description: We are investigating an issue affecting our billing system and impacting our ability to process subscription events from Apple and Google.
+      investigating: true
+    - ts: "2024-11-07 19:25:36"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-11-07 19:26:24"
+      description: We are continuing to investigate this issue.
+      investigating: true
