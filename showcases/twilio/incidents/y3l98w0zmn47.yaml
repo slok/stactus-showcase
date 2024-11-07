@@ -1,0 +1,10 @@
+version: incident/v1
+id: y3l98w0zmn47
+name: MX call dropping at 30 seconds mark.
+impact: minor
+systems:
+    - 2v3v92mz2m4h
+timeline:
+    - ts: "2024-11-07 05:31:50"
+      description: We are experiencing call drops in Mexico at the 30 second mark. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
