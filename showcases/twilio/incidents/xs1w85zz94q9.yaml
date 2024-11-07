@@ -1,0 +1,10 @@
+version: incident/v1
+id: xs1w85zz94q9
+name: China customers unable to receive 2FA OTP into Twilio Console
+impact: major
+systems:
+    - mq9q3ytpkyfz
+timeline:
+    - ts: "2024-11-07 02:27:22"
+      description: Our monitoring systems have detected a potential issue that China customers unable to receive 2FA OTP into Twilio Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
