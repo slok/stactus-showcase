@@ -1,0 +1,14 @@
+version: incident/v1
+id: 75w8h9q7zg0w
+name: Cloudflare Zero Trust availability issues
+impact: minor
+systems:
+    - kf0ktv29xrfy
+    - 276xk3r83js7
+timeline:
+    - ts: "2024-11-07 13:09:27"
+      description: |-
+        Some customers with Zero Trust paid plans may not be able to create more than one DNS location.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
