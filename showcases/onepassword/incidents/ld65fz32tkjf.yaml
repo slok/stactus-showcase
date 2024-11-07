@@ -1,7 +1,7 @@
 version: incident/v1
 id: ld65fz32tkjf
 name: Issues processing Apple and Google Subscriptions
-impact: minor
+impact: none
 systems:
     - dd7j6hgdy98l
     - cnzy869d6qf1
@@ -16,3 +16,8 @@ timeline:
     - ts: "2024-11-07 19:26:24"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2024-11-07 19:50:54"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-11-07 19:52:38"
+      description: This incident has been resolved.
+      resolved: true

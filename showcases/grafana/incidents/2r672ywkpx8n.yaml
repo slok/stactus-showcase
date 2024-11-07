@@ -1,0 +1,15 @@
+version: incident/v1
+id: 2r672ywkpx8n
+name: Grafana Cloud Prometheus - Unhealthy Ingesters
+impact: critical
+systems:
+    - ql2hwfkmnyrr
+    - d1qqwsst6by9
+timeline:
+    - ts: "2024-11-07 19:54:11"
+      description: As of 18:40 UTC, our engineering team became aware an issue with some unhealthy ingesters within the us-central2 region of Cloud Metrics. Users in this region may be experiencing ingestion and/or query failures.
+    - ts: "2024-11-07 19:54:54"
+      description: Engineering has released a fix and as of 19:40 UTC, customers should no longer experience query or ingestion failures. We will continue to monitor for recurrence and provide updates accordingly.
+    - ts: "2024-11-07 20:03:30"
+      description: We continue to observe a continued period of recovery. At this time, we are considering this issue resolved. No further updates.
+      resolved: true
