@@ -1,0 +1,9 @@
+version: incident/v1
+id: d3dq46nj96ps
+name: Cloudflare Workers AI - Issues with specific model
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2024-11-07 21:17:01"
+      description: Cloudflare is aware of, and investigating reports of errors when using Workers AI model Llama 3.1-70B. Other models are not impacted at this time. Further details will be provided as more information becomes available.
