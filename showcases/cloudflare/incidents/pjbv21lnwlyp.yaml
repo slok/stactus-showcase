@@ -1,0 +1,15 @@
+version: incident/v1
+id: pjbv21lnwlyp
+name: Cloudflare Pages Availability Issues
+impact: major
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2024-11-08 10:41:59"
+      description: |-
+        Cloudflare is investigating availability issues with Cloudflare Pages. Visitors may encounter errors when attempting to load Cloudflare Pages based sites.  This issue does not affect any other Cloudflare services.
+
+        We are working to mitigate this problem.  More updates to follow shortly.
+      investigating: true
+    - ts: "2024-11-08 10:45:52"
+      description: The issue has been identified and a fix is being implemented.
