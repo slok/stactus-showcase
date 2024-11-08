@@ -1,0 +1,13 @@
+version: incident/v1
+id: 3l3z97jc6d7h
+name: Potential Service Interruption
+impact: minor
+systems:
+    - k4c77k6bzcl7
+timeline:
+    - ts: "2024-11-08 15:49:51"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-11-08 15:53:18"
+      description: We are continuing to investigate this issue.
+      investigating: true
