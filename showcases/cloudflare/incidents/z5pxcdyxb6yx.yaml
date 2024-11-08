@@ -1,0 +1,10 @@
+version: incident/v1
+id: z5pxcdyxb6yx
+name: HTTP Analytics Delays
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2024-11-08 15:34:08"
+      description: Cloudflare HTTP Analytics processing is running behind for US-only customers since 15:00 UTC. This affects timely delivery of customer data. These delays do not impact analytics for DNS and Rate Limiting.
+      investigating: true
