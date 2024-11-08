@@ -1,0 +1,30 @@
+version: incident/v1
+id: 1xnc8xf3d0st
+name: Scaling and config updates failing for HCP Vault clusters
+impact: major
+systems:
+    - lpr0x22clvpy
+    - 75q3wwnszlr7
+    - cg6sxxmpwtyy
+    - 4llt6mr48zdf
+    - z0c1m0r15jk0
+    - 71bbcw2ysbv5
+    - sgzly5m447mt
+    - mmlrjdnctj09
+    - gg8gjqb42vsy
+    - h4k95x7cd36k
+    - 67l1stcs3zk1
+    - hm5bfg0b2jlb
+    - 0gzbx9wshf0l
+    - 0yw6jtfrrwmq
+    - 9dwj52zv6j30
+    - nk3x061s9zyn
+    - fskhmcn1z2yx
+    - tsxl98v56jgm
+    - zdz8wb23kvt8
+    - hsg8y5dwfts8
+    - tw1yt17pltxp
+    - rsmtc2yqpp0f
+timeline:
+    - ts: "2024-11-07 23:51:06"
+      description: Our Engineering team has implemented a fix which is being rolled out for all customers within the next 24 hours. If you fail to execute a cluster scaling or configuration update and need it done urgently please open a ticket and we will deploy the fix to your cluster as soon as possible.
