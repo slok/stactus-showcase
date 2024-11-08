@@ -11,3 +11,9 @@ timeline:
     - ts: "2024-11-08 15:53:18"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2024-11-08 16:25:53"
+      description: |-
+        Between 13:56 UTC and 16:16 UTC on November 8th, some customers in the US region may have experienced a persistent error after visiting the ‘Destinations’ tab within the Alerts UI.
+        Alert notifications were not impacted
+        This issue has been resolved and impacted services have returned to normal operations.
+      resolved: true
