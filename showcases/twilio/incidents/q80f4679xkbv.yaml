@@ -1,9 +1,13 @@
 version: incident/v1
 id: q80f4679xkbv
-name: On Call Engineers are Investigating an issue with SMS Delivery Delays to 9mobile Network in Nigeria
-impact: none
-systems: []
+name: SMS Delivery Delays to 9mobile Network in Nigeria
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
 timeline:
     - ts: "2024-11-08 16:27:10"
       description: Our monitoring systems have detected a potential issue with SMS delivery delays to 9mobile network in Nigeria. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-11-08 16:39:26"
+      description: We are experiencing SMS delivery delays to 9mobile network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
