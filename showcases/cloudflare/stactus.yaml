@@ -1,6 +1,6 @@
 version: stactus/v1
 name: Cloudflare
-url: http://www.cloudflarestatus.com
+url: https://www.cloudflarestatus.com
 systems:
     - id: 57ctn3f2qsyj
       name: Europe / Amsterdam, Netherlands - (AMS)
@@ -252,8 +252,6 @@ systems:
       name: Latin America & the Caribbean / Florianopolis, Brazil - (FLN)
     - id: 4cfsv1jrd7d3
       name: Middle East / Najaf, Iraq - (NJF)
-    - id: 86zyv94m6mcf
-      name: Oceania / Adelaide, Australia - (ADL)
     - id: yst1cfbj49q2
       name: North America / Jacksonville, FL, United States - (JAX)
     - id: 5s83x498wyqw
@@ -268,8 +266,6 @@ systems:
       name: Asia / Foshan, China - (FUO)
     - id: d8yztxmdkcc0
       name: Middle East / Nasiriyah, Iraq - (XNH)
-    - id: ykgwkgl96m3k
-      name: Oceania / Melbourne, Australia - (MEL)
     - id: sbk2cql7ktgz
       name: Africa / Mombasa, Kenya - (MBA)
     - id: t6hj728hzf16
@@ -285,8 +281,6 @@ systems:
       description: Bot Management provides sophisticated bot protection for your domain. Customers can identify automated traffic, take appropriate action, and view detailed analytics within the dashboard. Bot Management also supports custom solutions via Workers and Logs.
     - id: 4shr6kl4nszm
       name: Asia / Fukuoka, Japan - (FUK)
-    - id: fh1lfvlw4vc3
-      name: Oceania / Canberra, Australia - (CBR)
     - id: dwmgwrxg7cx3
       name: Europe / Hamburg, Germany - (HAM)
     - id: wtc1p207n9kv
@@ -521,8 +515,6 @@ systems:
     - id: nmp96vgn1hpl
       name: Cloudflare Sites and Services / Digital Experience Monitoring (DEX)
       description: Digital Experience Monitoring (DEX) enables Zero Trust administrators to pinpoint and resolve issues impacting end-user connectivity and performance.
-    - id: 68pwpgzvwspg
-      name: Africa / Antananarivo, Madagascar - (TNR)
     - id: w1br383gmlwj
       name: Europe / Paris, France - (CDG)
     - id: 0n209sgnr1dp
@@ -581,8 +573,6 @@ systems:
     - id: bty1yz6dhh0v
       name: Cloudflare Sites and Services / Durable Objects
       description: Durable Objects provide low-latency coordination and consistent permanent storage for the Workers platform.
-    - id: hzf2k338rcm4
-      name: Africa / Algiers, Algeria - (ALG)
     - id: 4xvd68d7k70c
       name: North America / San Jose, CA, United States - (SJC)
     - id: ks6zgqry9c1p
@@ -607,8 +597,6 @@ systems:
     - id: 7yyjz9qdsjbx
       name: Cloudflare Sites and Services / Ethereum Gateway
       description: https://developers.cloudflare.com/web3/ethereum-gateway/
-    - id: v655vydr00ss
-      name: Africa / Accra, Ghana - (ACC)
     - id: bvtc2f85ft3p
       name: North America / Seattle, WA, United States - (SEA)
     - id: 755n430pjn1s
@@ -665,8 +653,6 @@ systems:
     - id: d0x62dsm4c9n
       name: Cloudflare Sites and Services / Hyperdrive
       description: Hyperdrive is a service that accelerates queries you make to existing databases, making it faster to access your data from across the globe, irrespective of your users’ location.
-    - id: 2lq2m5ky4fjy
-      name: Africa / Dakar, Senegal - (DKR)
     - id: wz31ss8nrw89
       name: North America / Toronto, ON, Canada - (YYZ)
     - id: t3d07wlg67nl
@@ -751,8 +737,6 @@ systems:
       name: North America / Austin, United States - (AUS)
     - id: fdl9z4gyspjc
       name: Latin America & the Caribbean / Santiago de los Caballeros, Dominican Republic - (STI)
-    - id: hk19qx65xbqb
-      name: Africa / Cape Town, South Africa - (CPT)
     - id: 5bxql2d0yylc
       name: Europe / Zürich, Switzerland - (ZRH)
     - id: bjlxcss20fsl
@@ -774,6 +758,8 @@ systems:
       name: Europe / Lyon, France - (LYS)
     - id: wnbl5c6vrmv6
       name: North America / Guadalajara, Mexico - (GDL)
+    - id: d4f5lwvl032w
+      name: Africa / Cairo, Egypt - (CAI)
     - id: wpgrmfwn36kf
       name: Asia / Shanghai, China - (SHA)
     - id: x3f20ycsm3n5
@@ -784,6 +770,8 @@ systems:
       name: Cloudflare Sites and Services / Magic WAN Connector
     - id: fqmg9rhvkswq
       name: Latin America & the Caribbean / San Juan, Puerto Rico - (SJU)
+    - id: s70lzswx2kd4
+      name: Africa / Mombasa, Kenya - (MBA)
     - id: 18p6r93swmbl
       name: Asia / Singapore, Singapore - (SIN)
     - id: 6239kkkfzfnf
@@ -795,6 +783,8 @@ systems:
       name: Latin America & the Caribbean / Barranquilla, Colombia - (BAQ)
     - id: 4rpfj8cc2h46
       name: Europe / Skopje, North Macedonia - (SKP)
+    - id: 1h9f8thgxpb9
+      name: Africa / Tunis, Tunisia - (TUN)
     - id: p0kyqpgsp6p9
       name: Asia / Surat Thani, Thailand - (URT)
     - id: j9jl2gb9zywx
@@ -806,6 +796,8 @@ systems:
       name: Latin America & the Caribbean / Palmas, Brazil - (PMW)
     - id: f3ym6ttfc82g
       name: Europe / Sofia, Bulgaria - (SOF)
+    - id: 76595590gwgn
+      name: Africa / Port Louis, Mauritius - (MRU)
     - id: hk319v924h0m
       name: Asia / Taipei, Taiwan - (TPE)
     - id: 4n0gb0kh02gf
@@ -816,6 +808,8 @@ systems:
       name: Latin America & the Caribbean / Aracatuba, Brazil - (ARU)
     - id: w7r936zbmqlj
       name: Europe / Marseille, France - (MRS)
+    - id: jx99s4twvnzr
+      name: Africa / Ouagadougou, Burkina Faso - (OUA)
     - id: 3txd44719yr9
       name: Asia / Tashkent, Uzbekistan - (TAS)
     - id: 5xvn0m7tthlf
@@ -826,6 +820,8 @@ systems:
       name: Latin America & the Caribbean / Port of Spain, Trinidad and Tobago - (POS)
     - id: qbky6psr4rkd
       name: Europe / Frankfurt, Germany - (FRA)
+    - id: l12179ffxzn1
+      name: Africa / Nairobi, Kenya - (NBO)
     - id: mfty6kskddpf
       name: Cloudflare Sites and Services / Observatory
       description: Observatory uses synthetic tests and real user data from browsers to assess the performance of your website. These data sources produce metrics that provide different types of insights into your website’s performance.
@@ -835,6 +831,8 @@ systems:
       name: Latin America & the Caribbean / Salvador, Brazil - (SSA)
     - id: 2h5lbrp928gh
       name: Europe / Nicosia, Cyprus - (LCA)
+    - id: rj4v2wch285f
+      name: Africa / Maputo, Mozambique - (MPM)
     - id: 38w9dn5m8n4p
       name: Asia / Tianjin, China - (TSN)
     - id: hk5dqm69klkp
@@ -842,6 +840,8 @@ systems:
       description: Page Shield simplifies external script management by tracking loaded resources like scripts and providing alerts when it detects new resources or malicious scripts. Page Shield also tracks the connections made by scripts on your domain’s pages and checks if they are malicious based on their destination.
     - id: mgjvb6hy1chr
       name: North America / Halifax, Canada - (YHZ)
+    - id: h788gz3457q2
+      name: Africa / Kigali, Rwanda - (KGL)
     - id: rmjk2n758yzc
       name: Asia / Tokyo, Japan - (NRT)
     - id: vgxj684rcw7t
@@ -852,6 +852,8 @@ systems:
       name: North America / Sacramento, United States - (SMF)
     - id: nmj12hrhv1mg
       name: Europe / Vienna, Austria - (VIE)
+    - id: gwm58v3nsr56
+      name: Africa / Yamoussoukro, Ivory Coast - (ASK)
     - id: xk1sjvzmjp6t
       name: Asia / Ulaanbaatar, Mongolia - (ULN)
     - id: hb7g5sq2zz0h
@@ -859,6 +861,8 @@ systems:
       description: High-performance storage for files and objects with zero egress charges
     - id: wdd536msjx4c
       name: North America / Las Vegas, United States - (LAS)
+    - id: rbrvyjhhx10v
+      name: Africa / Windhoek, Namibia - (WDH)
     - id: 5ynnmbhcqkv2
       name: Asia / Vientiane, Laos - (VTE)
     - id: 0fw91jq1bzxx
@@ -886,8 +890,6 @@ systems:
       name: Asia / Xinyu, China - (KHN)
     - id: hgfpgyp6sngk
       name: Latin America & the Caribbean / Barranquilla, Colombia - (BAQ)
-    - id: 3mc152lqd6zn
-      name: North America / Buffalo, United States - (BUF)
     - id: p0vwymxm6wy0
       name: Asia / Yangon, Myanmar - (RGN)
     - id: vsj8h17tq59r
@@ -933,8 +935,6 @@ systems:
     - id: 6dd6ssg7plt0
       name: Cloudflare Sites and Services / Spectrum
       description: Spectrum allows you to route MQTT, email, file transfer, version control, games, and more over TCP or UDP through Cloudflare to mask the origin and protect it from DDoS attacks
-    - id: 1hdjfgrwthtj
-      name: Latin America & the Caribbean / Belém, Brazil - (BEL)
     - id: bdk9h3kl53h2
       name: North America / Durham, United States - (RDU)
     - id: 82094dp7l5vx
@@ -982,8 +982,6 @@ systems:
       name: Latin America & the Caribbean / São José dos Campos, Brazil - (SJK)
     - id: ndllfvwm93z8
       name: Europe / Tirana, Albania - (TIA)
-    - id: tbn5384fsh1f
-      name: North America / Atlanta, United States - (ATL)
     - id: jzcwkvrc4w4q
       name: Cloudflare Sites and Services / Support Site
       description: Knowledge base and support ticket portal at https://support.cloudflare.com
@@ -1038,8 +1036,6 @@ systems:
     - id: b92xct6jm48g
       name: Cloudflare Sites and Services / User Profiles
       description: Changes to the My Profile area of the Cloudflare Dashboard or New Sign Ups
-    - id: tb1nb2mdm32w
-      name: Latin America & the Caribbean / Blumenau, Brazil - (BNU)
     - id: zsjqh8pt6lhm
       name: Europe / Edinburgh, United Kingdom - (EDI)
     - id: jz2lxrjmlr3h
@@ -1059,8 +1055,6 @@ systems:
       name: Asia / Denpasar, Indonesia - (DPS)
     - id: vgnrg72ppglr
       name: Latin America & the Caribbean / Curitiba, Brazil - (CWB)
-    - id: nsjr2r9fh1t9
-      name: Europe / Budapest, Hungary - (BUD)
     - id: vhdds79v65hx
       name: North America / Tallahassee, United States - (TLH)
     - id: bn06brrnz2n2
@@ -1070,10 +1064,6 @@ systems:
       description: Cloudflare Web Analytics provides free, privacy-first analytics for your website without changing your DNS or using Cloudflare’s proxy. Cloudflare Web Analytics helps you understand the performance of your web pages as experienced by your site visitors.
     - id: xlgpnzrpm0w2
       name: Latin America & the Caribbean / Santiago de los Caballeros, Dominican Republic - (STI)
-    - id: cp8r9cjx311v
-      name: Europe / Brussels, Belgium - (BRU)
-    - id: r0n83kby215x
-      name: North America / Calgary, Canada - (YYC)
     - id: 411nh1g3zgx8
       name: Cloudflare Sites and Services / WebSockets
       description: Cloudflare proxied WebSocket connections.
@@ -1090,8 +1080,6 @@ systems:
       name: Latin America & the Caribbean / Manaus, Brazil - (MAO)
     - id: 0r576k7sfqkp
       name: Europe / Rome, Italy - (FCO)
-    - id: 4h98ttl78xgw
-      name: North America / Boston, United States - (BOS)
     - id: zvm7mqn92xzc
       name: Cloudflare Sites and Services / Workers AI
       description: Workers AI allows you to run machine learning models, on the Cloudflare network, from your own code – whether that be from Workers, Pages, or anywhere via REST API.
@@ -1142,8 +1130,6 @@ systems:
       name: Latin America & the Caribbean / São Paulo, Brazil - (GRU)
     - id: py0fmwkz3tgh
       name: Europe / Prague, Czechia - (PRG)
-    - id: lbzkzbds05q3
-      name: North America / Ashburn, United States - (IAD)
     - id: 4tv81hqpt2jt
       name: Cloudflare Sites and Services / Zone Versioning
       description: Version Management allows you test, deploy, and roll back changes to your zone configuration settings.
@@ -1161,8 +1147,6 @@ systems:
       name: North America / San Antonio, United States - (SAT)
     - id: fbrfz0lxsdk1
       name: Latin America & the Caribbean / Uberlandia, Brazil - (UDI)
-    - id: 55wt2v73bgbt
-      name: Europe / Belgrade, Serbia - (BEG)
     - id: vltvwrb8w2nj
       name: North America / Las Vegas, United States - (LAS)
     - id: mfl5236npfk7
@@ -1173,8 +1157,6 @@ systems:
       name: North America / Seattle, United States - (SEA)
     - id: 2kn4d8wzq350
       name: Latin America & the Caribbean / San Juan, Puerto Rico - (SJU)
-    - id: m0gs8xgbyswr
-      name: Europe / Barcelona, Spain - (BCN)
     - id: npmvn0sttc5m
       name: North America / Newark, United States - (EWR)
     - id: 77h6bb5025cr
@@ -1185,8 +1167,6 @@ systems:
       name: North America / Detroit, United States - (DTW)
     - id: wc2qm30brrn2
       name: Latin America & the Caribbean / Joinville, Brazil - (JOI)
-    - id: hxmz59kp1944
-      name: Europe / Amsterdam, Netherlands - (AMS)
     - id: zh9ysrgzxdsp
       name: North America / Dallas, United States - (DFW)
     - id: twxr71x66vzs
@@ -1205,14 +1185,90 @@ systems:
       name: Latin America & the Caribbean / Aracatuba, Brazil - (ARU)
     - id: bk603n00b120
       name: Europe / Zagreb, Croatia - (ZAG)
+    - id: blz3m1gzfkdq
+      name: North America / Memphis, United States - (MEM)
     - id: cxgjjpw6s0kr
       name: Latin America & the Caribbean / Itajai, Brazil - (ITJ)
     - id: bm1t5j2323rf
       name: Europe / London, United Kingdom - (LHR)
-    - id: d2rzwjrpm650
-      name: Latin America & the Caribbean / Belo Horizonte, Brazil - (CNF)
+    - id: 15ggcv1ngn0s
+      name: North America / Pittsburgh, United States - (PIT)
     - id: b6jz7hd8pzmc
       name: Europe / Helsinki, Finland - (HEL)
+    - id: dkzgr28mdcnk
+      name: North America / Bangor, United States - (BGR)
+    - id: sxvbsyb9n4yl
+      name: Latin America & the Caribbean / Neuquen, Argentina - (NQN)
+    - id: b8f4672v8mzs
+      name: North America / Las Vegas, United States - (LAS)
+    - id: 4nkzbn59t6qh
+      name: Europe / Luxembourg City, Luxembourg - (LUX)
+    - id: 34677b7mj5jc
+      name: Latin America & the Caribbean / Córdoba, Argentina - (COR)
+    - id: ysydbs5c941k
+      name: North America / Seattle, United States - (SEA)
+    - id: cxq0wdtmv1xb
+      name: Europe / Milan, Italy - (MXP)
+    - id: sds16506zpm0
+      name: Latin America & the Caribbean / Barranquilla, Colombia - (BAQ)
+    - id: 7y49z31lh64c
+      name: North America / Newark, United States - (EWR)
+    - id: nrt2n9nwvx2d
+      name: Europe / Edinburgh, United Kingdom - (EDI)
+    - id: z5vhnsgq3qqj
+      name: Latin America & the Caribbean / Rio de Janeiro, Brazil - (GIG)
+    - id: gxxv3bjt3gnn
+      name: North America / Detroit, United States - (DTW)
+    - id: 0z8lncmnnygh
+      name: Europe / Düsseldorf, Germany - (DUS)
+    - id: g0qxc3f3b29b
+      name: Latin America & the Caribbean / Juazeiro do Norte, Brazil - (JDO)
+    - id: y4njjw31xnz2
+      name: North America / Montgomery, United States - (MGM)
+    - id: lgm93svtck3r
+      name: Latin America & the Caribbean / Aracatuba, Brazil - (ARU)
+    - id: tktt0cfwgr49
+      name: Europe / Vienna, Austria - (VIE)
+    - id: cyl3t3mfdtks
+      name: North America / Saskatoon, Canada - (YXE)
+    - id: z7tzgkw08syr
+      name: Europe / Thessaloniki, Greece - (SKG)
+    - id: 7nttkj24pswz
+      name: Latin America & the Caribbean / Lima, Peru - (LIM)
+    - id: 0pgww09yzpm2
+      name: North America / Philadelphia, United States - (PHL)
+    - id: mc1pd861cg5d
+      name: Europe / Stuttgart, Germany - (STR)
+    - id: jbwf93n14ltf
+      name: North America / Halifax, Canada - (YHZ)
+    - id: 2d2bys83rq17
+      name: Latin America & the Caribbean / Guayaquil, Ecuador - (GYE)
+    - id: 3ng360fyg9l7
+      name: Europe / Hamburg, Germany - (HAM)
+    - id: jjw0tqtrj492
+      name: North America / Guadalajara, Mexico - (GDL)
+    - id: d9rqpr8fw9bj
+      name: Latin America & the Caribbean / Cuiaba, Brazil - (CGB)
+    - id: mjt4st69trts
+      name: Europe / Lyon, France - (LYS)
+    - id: g12b7yntwtf3
+      name: Latin America & the Caribbean / Sorocaba, Brazil - (SOD)
+    - id: q09tn4fj0wbj
+      name: North America / Houston, United States - (IAH)
+    - id: rjbn11t1lxwj
+      name: Europe / Tirana, Albania - (TIA)
+    - id: 0gy20711h1jh
+      name: North America / Albuquerque, United States - (ABQ)
+    - id: 2qkxbjlmp42s
+      name: Latin America & the Caribbean / São José dos Campos, Brazil - (SJK)
+    - id: 6k558qrqq2hy
+      name: Europe / Geneva, Switzerland - (GVA)
+    - id: ybnkr2x0lkj1
+      name: North America / Nashville, United States - (BNA)
+    - id: hwzcb4jjfvx4
+      name: North America / Cleveland, United States - (CLE)
+    - id: q66mn1k6rgvb
+      name: Europe / Krasnoyarsk, Russia - (KJA)
     - id: nbvb8842jnn0
       name: Asia / Shenzhen, China - (SZX)
     - id: 5b3kdlcn246d
@@ -1321,8 +1377,6 @@ systems:
       name: Asia / Phnom Penh, Cambodia - (PNH)
     - id: gyw0bzmgp71d
       name: Asia / Mumbai, India - (BOM)
-    - id: h2972xznq261
-      name: Asia / Almaty, Kazakhstan - (ALA)
     - id: vp2qybln0nvs
       name: Asia / Nagpur, India - (NAG)
     - id: 1py2h4704r0x
@@ -1331,10 +1385,6 @@ systems:
       name: Asia / Nasiriyah, Iraq - (XNH)
     - id: 5l8sydr6sykr
       name: Asia / Sulaymaniyah, Iraq - (ISU)
-    - id: v5tjc3pvbzb2
-      name: Asia / Basra, Iraq - (BSR)
-    - id: tyhpbg2z7fp3
-      name: Asia / Cebu, Philippines - (CEB)
     - id: pmpz0694y5xl
       name: Asia / Changzhou, China - (CZX)
     - id: vbx1kxvdk674
@@ -1389,20 +1439,14 @@ systems:
       name: Asia / Yerevan, Armenia - (EVN)
     - id: 45kw1j8xydn8
       name: Asia / Osaka, Japan - (KIX)
-    - id: gs27mm9x161t
-      name: Asia / Bhubaneswar, India - (BBI)
     - id: 4hd3yrgwxjvr
       name: Asia / Taipei - (TPE)
     - id: bh9xvjn2msqq
       name: Asia / Chandigarh, India - (IXC)
     - id: 2r7n18t8swtj
       name: Asia / Da Nang, Vietnam - (DAD)
-    - id: c2p3q1bqxvmp
-      name: Asia / Beirut, Lebanon - (BEY)
     - id: 8c7vbyd9f0xz
       name: Asia / Yogyakarta, Indonesia - (JOG)
-    - id: l5p3x3406scv
-      name: Asia / Baku, Azerbaijan - (GYD)
     - id: xp6l0njmpjkl
       name: Asia / Yangon, Myanmar - (RGN)
     - id: wcyhdvq9yybk
@@ -1415,14 +1459,10 @@ systems:
       name: Asia / Changzhou, China - (CZX)
     - id: 87ytt1mklx7m
       name: Asia / Lanzhou, China - (LHW)
-    - id: lwvlw27rykqr
-      name: Asia / Dubai, United Arab Emirates - (DXB)
     - id: wk419dw036m3
       name: Asia / Manama, Bahrain - (BAH)
     - id: yfrx12l02jym
       name: Asia / Dalian, China - (DLC)
-    - id: lbtqjbz0hmr6
-      name: Asia / Bandar Seri Begawan, Brunei - (BWN)
     - id: p2zkvd5pm00n
       name: Asia / Tashkent, Uzbekistan - (TAS)
     - id: 08z18y1j597d
@@ -1439,10 +1479,6 @@ systems:
       name: Asia / Hanoi, Vietnam - (HAN)
     - id: 4jh0k3clz5b6
       name: Asia / Male, Maldives - (MLE)
-    - id: 6chyvwgb3td6
-      name: Asia / Dammam, Saudi Arabia - (DMM)
-    - id: h38fh0l6rjv7
-      name: Asia / Astara, Azerbaijan - (LLK)
     - id: srq6f0d9kyfg
       name: Asia / Kanpur, India - (KNU)
     - id: 8ycwpd4ft133
@@ -1465,15 +1501,85 @@ systems:
       name: Asia / Guiyang, China - (KWE)
     - id: yw51c6jn511n
       name: Asia / Mumbai, India - (BOM)
-    - id: c0vk9m2zmgry
-      name: Asia / Almaty, Kazakhstan - (ALA)
     - id: qsfwlvj9mqnb
       name: Asia / Tokyo, Japan - (NRT)
     - id: bycszkcxwlwc
       name: Asia / Nagpur, India - (NAG)
     - id: 6hqmg38wwf0d
       name: Asia / Hanoi, Vietnam - (HAN)
-    - id: hklsw3t7cmnn
-      name: Asia / Amman, Jordan - (AMM)
     - id: vwznn31334nk
       name: Asia / Kolkata, India - (CCU)
+    - id: ztn2fhcp0z8f
+      name: Asia / Huainan, China - (HFE)
+    - id: mkyzgkk7kb7t
+      name: Asia / Kannur, India - (CNN)
+    - id: 5hdxd38ppdnp
+      name: Asia / Foshan, China - (FUO)
+    - id: mthq3n69n7v2
+      name: Asia / Qingdao, China - (TAO)
+    - id: 9jflwgwqzkd4
+      name: Asia / Phnom Penh, Cambodia - (PNH)
+    - id: cwb680b2qx3x
+      name: Asia / Mumbai, India - (BOM)
+    - id: q7gnh0blptpn
+      name: Asia / Kaohsiung City, Taiwan - (KHH)
+    - id: 3122qhthcc9q
+      name: Asia / Chittagong, Bangladesh - (CGP)
+    - id: pwz7xfmk1n1d
+      name: Asia / Hyderabad, India - (HYD)
+    - id: cld7bq4tc064
+      name: Asia / Guangzhou, China - (CAN)
+    - id: 3g0gw126f7dv
+      name: Asia / Tokyo, Japan - (NRT)
+    - id: dlqc9tgmp3b7
+      name: Asia / New Delhi, India - (DEL)
+    - id: 4rc9j4l62j5q
+      name: Asia / Kuching, Malaysia - (KCH)
+    - id: pw7zwgtnfn4c
+      name: Asia / Chengmai, China - (HAK)
+    - id: p7698ybsrt42
+      name: Asia / Ulaanbaatar, Mongolia - (ULN)
+    - id: stspnk5lby0z
+      name: Asia / Manila, Philippines - (MNL)
+    - id: knrjx8wj53zk
+      name: Asia / Ho Chi Minh City, Vietnam - (SGN)
+    - id: ptbb4blywq0w
+      name: Asia / Jakarta, Indonesia - (CGK)
+    - id: 69b7smg973d7
+      name: Asia / Fuzhou, China - (FOC)
+    - id: f1876sq76h1g
+      name: Asia / Shanghai, China - (SHA)
+    - id: mnc36tcxqvyd
+      name: Asia / Denpasar, Indonesia - (DPS)
+    - id: 2rpz98s8vtfn
+      name: Asia / Mandalay, Myanmar - (MDL)
+    - id: 69q9mpgb5xty
+      name: Asia / Hengshui, China - (SJW)
+    - id: hh6nq0nfxr0x
+      name: Asia / Kuala Lumpur, Malaysia - (KUL)
+    - id: g9fngj95tjrm
+      name: Asia / Yerevan, Armenia - (EVN)
+    - id: cbtqwm0h8y9s
+      name: Asia / Karachi, Pakistan - (KHI)
+    - id: jtcx4x2ldvdm
+      name: Asia / Osaka, Japan - (KIX)
+    - id: 5k6bp6fvvssr
+      name: Asia / Taipei - (TPE)
+    - id: 94157xnppqr8
+      name: Asia / Chiang Mai, Thailand - (CNX)
+    - id: mdljg6xnzx25
+      name: Asia / Tel Aviv, Israel - (TLV)
+    - id: 85g56kdj3tkr
+      name: Asia / Najaf, Iraq - (NJF)
+    - id: 57ytpnf9qywv
+      name: Asia / Yangquan, China - (TYN)
+    - id: vvy7dmncrn8n
+      name: Asia / Kanpur, India - (KNU)
+    - id: 438mwdylp0k5
+      name: Asia / Qingdao, China - (TAO)
+    - id: g7wfxgt6krjy
+      name: Asia / Macau - (MFM)
+    - id: qk1lbtzl3cyv
+      name: Asia / Chongqing, China - (CKG)
+    - id: 2n87kc22b45p
+      name: Asia / Fukuoka, Japan - (FUK)
