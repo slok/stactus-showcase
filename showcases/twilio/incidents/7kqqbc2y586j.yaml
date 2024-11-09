@@ -5,4 +5,4 @@ impact: none
 systems: []
 timeline:
     - ts: "2024-11-09 03:23:20"
-      description: Our engineers have identified the issue high volume of INBOUND_RECEIPT events with invalid remoteId values, causing a spike in "Invalid recipient" errors and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: Our engineers have identified the issue as a high volume of INBOUND_RECEIPT events with invalid remoteId values, which is causing a spike in "Invalid recipient" errors. They are actively working on deploying a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
