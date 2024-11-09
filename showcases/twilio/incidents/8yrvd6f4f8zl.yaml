@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8yrvd6f4f8zl
+name: SMS Delivery Delays and Failures to Altan Redes in Mexico
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2024-11-09 18:26:51"
+      description: We are experiencing MMS/SMS delivery delays when sending messages to Altan Redes in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
