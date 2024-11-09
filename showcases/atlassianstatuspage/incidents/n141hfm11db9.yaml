@@ -1,0 +1,23 @@
+version: incident/v1
+id: n141hfm11db9
+name: Elevated Server Errors across Statuspage Services
+impact: minor
+systems:
+    - rkld00070vm9
+    - fyzs60wyq01d
+    - 0j0dpr5q595q
+    - 3bg3nq9mm436
+    - 3g0c0h5n5cp1
+    - hdj6sbn26g26
+    - 2k3fhq6zhd4j
+    - zfvjppljf2bm
+    - bv7ffhfxmsx0
+    - ff2cz0c51928
+    - s0p4y2k09klc
+    - dsvt60wpqw23
+    - v9dcxzcs9ypj
+    - tpvwg6y7ltx2
+    - 7x37zxqc4gq0
+timeline:
+    - ts: "2024-11-09 09:28:06"
+      description: We are investigating server errors. We have isolated the problem and applied the fix.
