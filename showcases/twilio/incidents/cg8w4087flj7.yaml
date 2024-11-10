@@ -1,6 +1,6 @@
 version: incident/v1
 id: cg8w4087flj7
-name: On Call Engineers are Investigating an issue with SMS Delivery Delays to SMS Delivery Delays To Telenor Network In Pakistan.
+name: On Call Engineers Are Investigating an Issue With SMS Delivery Delays to Telenor Network in Pakistan.
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -17,3 +17,8 @@ timeline:
     - ts: "2024-11-10 17:10:14"
       description: We are experiencing SMS Delivery Delays to SMS Delivery Delays To Telenor Network In Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2024-11-10 21:13:37"
+      description: We continue to experience SMS Delivery Delays to SMS Delivery Delays To Telenor Network In Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-11-10 21:17:24"
+      description: We are observing recovery in SMS delivery delays when sending messages to Telenor Network In Pakistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 8 hours or as soon as more information becomes available.
