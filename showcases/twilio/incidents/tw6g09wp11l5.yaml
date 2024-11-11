@@ -1,0 +1,10 @@
+version: incident/v1
+id: tw6g09wp11l5
+name: SMS Delivery Delays and Failures to Ufone in Pakistan
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2024-11-11 23:44:13"
+      description: We are experiencing SMS delivery delays and failures when sending messages to Ufone in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
