@@ -1,0 +1,12 @@
+version: incident/v1
+id: xp7zbf2ykyrp
+name: 'Issues with D1: APAC and WNAM region'
+impact: minor
+systems:
+    - z0yd3sxqjqdm
+timeline:
+    - ts: "2024-11-12 16:43:32"
+      description: Cloudflare is aware of, and investigating an issue where D1 database users within APAC and WNAM regions might be experiencing elevated rates of database server errors. Further detail will be provided as more information becomes available
+      investigating: true
+    - ts: "2024-11-12 16:49:22"
+      description: A fix has been implemented and we are monitoring the results.
