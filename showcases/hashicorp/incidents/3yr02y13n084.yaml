@@ -1,0 +1,14 @@
+version: incident/v1
+id: 3yr02y13n084
+name: Monitoring Frontend Issue in the Public Registry
+impact: minor
+systems:
+    - l8mnm91h3s7v
+timeline:
+    - ts: "2024-11-12 10:49:42"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue with:
+
+        Registry.terraform.io was not loading properly.
+
+        We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
