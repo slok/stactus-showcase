@@ -1,0 +1,13 @@
+version: incident/v1
+id: qtbkgbs8csdb
+name: Multiple Services in NYC3
+impact: none
+systems:
+    - czck17wcspr5
+    - fkf61qj12vby
+    - dzkmyxfh1rf0
+    - gt78t0v1dx9k
+timeline:
+    - ts: "2024-11-12 22:06:43"
+      description: "From 20:03 - 20:08 UTC, our Engineering team observed an issue with internal DigitalOcean network connectivity in the NYC3 region. During this time, users might have experienced errors for control plane operations for services in NYC3, such as creating and deleting services, or issuing updates to existing services for products like App Platform Apps, DOKS & Managed Databases. \n\nThe incident did not impact public or private network connectivity for customer services.\n\nWe apologize for the inconvenience and if you are still experiencing issues or have any additional questions,  please open a support ticket from within your account."
+      resolved: true
