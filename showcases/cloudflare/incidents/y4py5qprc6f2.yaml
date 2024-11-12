@@ -1,0 +1,10 @@
+version: incident/v1
+id: y4py5qprc6f2
+name: Issues with classification of some verified bot traffic
+impact: minor
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2024-11-12 19:39:44"
+      description: We are currently observing an issue accurately verifying some verified bot traffic. We are investigating the root cause of this issue.
+      investigating: true
