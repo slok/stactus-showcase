@@ -1,0 +1,10 @@
+version: incident/v1
+id: zh7sgrwh4bpl
+name: Issues with DNS record scanner for new zones
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2024-11-12 21:59:38"
+      description: We are currently investigating reports that the service which scans for existing domain DNS records for new zones is incorrectly reporting results in some cases.
+      investigating: true
