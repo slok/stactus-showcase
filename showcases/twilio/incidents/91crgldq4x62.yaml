@@ -1,0 +1,10 @@
+version: incident/v1
+id: 91crgldq4x62
+name: SMS Delivery Delays to a Subset of Australia Twilio Numbers
+impact: major
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2024-11-12 18:44:35"
+      description: We are experiencing message delays to a subset of Twilio Australia Phone Numbers. Customers may experience latency in receiving SMS messages from various mobile networks in Australia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 30 minutes or as soon as more information becomes available.
+      investigating: true
