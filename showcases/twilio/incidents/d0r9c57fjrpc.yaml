@@ -1,0 +1,10 @@
+version: incident/v1
+id: d0r9c57fjrpc
+name: Outbound SMS Delivery Delays to Vodafone Network in New Zealand
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2024-11-12 09:48:19"
+      description: We are experiencing outbound only SMS delivery delays when sending messages to Vodafone network in New Zealand. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
