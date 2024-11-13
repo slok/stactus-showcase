@@ -7,3 +7,5 @@ systems:
 timeline:
     - ts: "2024-11-13 16:43:40"
       description: We are currently experiencing degraded performance with our Datadog integration and have identified its source. During this time we expect customers will experience missing metrics and issues with alerting for customers using the Datadog integration. A fix is in development and will be released shortly.
+    - ts: "2024-11-13 18:18:08"
+      description: A fix has been deployed. We are monitoring to confirm the issue is resolved.
