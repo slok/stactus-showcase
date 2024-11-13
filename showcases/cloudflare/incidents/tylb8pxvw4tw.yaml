@@ -1,0 +1,9 @@
+version: incident/v1
+id: tylb8pxvw4tw
+name: Cloudflare API service issues
+impact: minor
+systems:
+    - g4tb35rs9yw7
+timeline:
+    - ts: "2024-11-13 03:46:17"
+      description: "Cloudflare is investigating issues with Cloudflare related APIs. \n\nThese issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.\n\nCustomers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed."
