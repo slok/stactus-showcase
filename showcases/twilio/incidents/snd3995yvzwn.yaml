@@ -1,0 +1,9 @@
+version: incident/v1
+id: snd3995yvzwn
+name: We were seeing duplicate webhooks being sent across various accounts
+impact: none
+systems: []
+timeline:
+    - ts: "2024-11-13 11:53:35"
+      description: We were seeing duplicate webhooks being sent across various accounts between 2024-11-07T14:48 and 2024-11-12T22:14 UTC. Please note this issue is no longer occuring
+      resolved: true
