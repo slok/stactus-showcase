@@ -1,0 +1,9 @@
+version: incident/v1
+id: c6tmj15lc3f5
+name: Authoritative DNS Resolution
+impact: none
+systems: []
+timeline:
+    - ts: "2024-11-13 20:44:24"
+      description: "From 19:06 - 19:14 UTC, our Engineering team observed an issue impacting Authoritative DNS Resolution globally. During this time, users might have experienced latency or resolution issues while querying DNS records hosted on our authoritative DNS infrastructure. \n\nThe Engineering team swiftly identified and resolved the issue, and as of 19:14 UTC, all DNS queries should now be resolving normally.\n\nWe apologize for the inconvenience and if you are still experiencing issues or have any additional questions,  please open a support ticket from within your account."
+      resolved: true
