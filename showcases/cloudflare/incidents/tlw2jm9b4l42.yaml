@@ -1,0 +1,12 @@
+version: incident/v1
+id: tlw2jm9b4l42
+name: Connectivity issue with WARP client 2024.11.143.0 on macOS
+impact: none
+systems: []
+timeline:
+    - ts: "2024-11-13 10:54:58"
+      description: |-
+        Cloudflare released a WARP Client update on 2024-11-11 for Linux, macOS, and Windows. Due to reports from several customers that a portion of their fleets could not connect to WARP after upgrading to this new version, a decision was made on 2024-11-12 at 15:39 to pull the problematic macOS GA build (2024.11.143.0). Windows and Linux releases are not affected by this.
+
+        Customers are advised to revert to the previous stable release (2024.9.346.0) if they experience issues with macOS devices unable to connect.
+      resolved: true
