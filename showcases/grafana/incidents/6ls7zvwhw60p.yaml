@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6ls7zvwhw60p
+name: k6 browser tests aborted by system
+impact: major
+systems:
+    - m79yjv169r06
+timeline:
+    - ts: "2024-11-13 16:58:56"
+      description: We're observing the significant amount of k6 browser tests being aborted by system and/or timed out.
+      investigating: true
