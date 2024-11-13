@@ -1,0 +1,10 @@
+version: incident/v1
+id: kngd49dcjd7y
+name: SMS Delivery Report Delays to NUR Telecom in Kyrgyzstan
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2024-11-13 06:11:37"
+      description: We are experiencing SMS delivery report delays when sending messages to NUR Telecom in Kyrgyzstan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
