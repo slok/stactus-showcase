@@ -1,0 +1,9 @@
+version: incident/v1
+id: 1hmz421prqbl
+name: Instance failure
+impact: none
+systems: []
+timeline:
+    - ts: "2024-11-14 10:49:24"
+      description: 'We are experiencing an instance failure. This may affect resources that have the following pattern in their endpoint: c295'
+      investigating: true
