@@ -1,0 +1,10 @@
+version: incident/v1
+id: zrbd61bhhpy6
+name: Degraded IPv6 connectivity in IAD
+impact: minor
+systems:
+    - qyh8qlklk7mx
+timeline:
+    - ts: "2024-11-14 09:16:31"
+      description: Our upstream provider has degraded IPv6 connectivity in IAD. We are actively working with them to resolve this.
+      investigating: true
