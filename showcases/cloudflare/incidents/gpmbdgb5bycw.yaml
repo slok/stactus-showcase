@@ -1,0 +1,10 @@
+version: incident/v1
+id: gpmbdgb5bycw
+name: Cloudflare Logs Delays
+impact: minor
+systems:
+    - k0mgxrls5y1b
+timeline:
+    - ts: "2024-11-14 15:43:15"
+      description: "Cloudflare is observing delays in our processing Cloudflare logs (formerly ELS). \n\nWe are currently working on a resolution. More updates to follow shortly."
+      investigating: true
