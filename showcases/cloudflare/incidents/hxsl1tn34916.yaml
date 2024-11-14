@@ -9,3 +9,6 @@ timeline:
       description: Cloudflare is investigating issues with newly created Page Shield Policy. Existing Page Shield Policy created or modified prior to November 11 are not impacted. We will provide an update once the issue is resolved.
     - ts: "2024-11-14 21:59:15"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-11-14 22:27:09"
+      description: This incident has been resolved. For customers impacted since November 11, please redeploy affected Page Shield Policies removing the double forward slashes "//" leading to each domains/resources.
+      resolved: true
