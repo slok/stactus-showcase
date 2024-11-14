@@ -1,9 +1,8 @@
 version: incident/v1
 id: w3vpy8zl5rx8
-name: On Call Engineers are Investigating an issue Call Failure To Twilio Phone Numbers In Bulgaria
+name: On Call Engineers are Investigating an issue with inbound Call Failure To Twilio Phone Numbers In Bulgaria
 impact: major
 systems:
-    - g2dt752kwqs0
     - bnzggd37p61w
 timeline:
     - ts: "2024-11-14 12:09:14"
@@ -11,3 +10,9 @@ timeline:
       investigating: true
     - ts: "2024-11-14 12:13:52"
       description: The issue causing inbound call failures to Twilio Bulgari phone numbers has been identified. We are actively working with our carrier partner to resolve the issue. We expect to provide another update in 30mins or as soon as more information becomes available.
+    - ts: "2024-11-14 12:29:43"
+      description: Our engineering team are investigating inbound call failures to Twilio Bulgaria phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-11-14 12:39:49"
+      description: Our engineering team are continuing to investigate inbound call failures to Twilio Bulgaria phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
