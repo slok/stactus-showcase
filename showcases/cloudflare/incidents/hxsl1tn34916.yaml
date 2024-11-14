@@ -1,0 +1,9 @@
+version: incident/v1
+id: hxsl1tn34916
+name: Page Shield Policy Issues
+impact: minor
+systems:
+    - hk5dqm69klkp
+timeline:
+    - ts: "2024-11-14 20:41:13"
+      description: Cloudflare is investigating issues with newly created Page Shield Policy when wildcard domains are used. Existing Page Shield Policy created or modified prior to October 15 are not impacted. We will provide an update once the issue is resolved.
