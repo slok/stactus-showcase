@@ -8,3 +8,6 @@ timeline:
     - ts: "2024-11-14 14:11:49"
       description: At approximately 13:45 UTC we became aware of an issue currently affecting the prod-us-east 0 region. Users may experience a brief interruption, as well as potential data loss in their Tempo environment. Our team is working towards a resolution and will provide updates as we have more to share.
       investigating: true
+    - ts: "2024-11-14 14:44:13"
+      description: This incident has been resolved.
+      resolved: true
