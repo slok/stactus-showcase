@@ -9,3 +9,8 @@ timeline:
       description: Cloudflare is investigating reports of increased latency for some D1 queries. The issue has been identified, and a fix is being implemented.
     - ts: "2024-11-14 23:19:36"
       description: We are rolling out a fix, customers should be starting to see lower latencies.
+    - ts: "2024-11-15 01:02:04"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-11-15 01:15:42"
+      description: This incident has been resolved.
+      resolved: true
