@@ -13,3 +13,5 @@ timeline:
       investigating: true
     - ts: "2024-11-15 16:02:15"
       description: We've identified what has caused processing delays in HCP audit log streaming, and some messages should now be coming through to streaming destinations. We are working on a permanent fix and we'll post another update as we begin to catch up on messages significantly.
+    - ts: "2024-11-15 16:29:39"
+      description: We believe in the next 30 minutes that that all streaming messages will be caught up and all audit log streaming will be fully restored. The majority have already fully caught up and we have a fix in place to prevent further delays.
