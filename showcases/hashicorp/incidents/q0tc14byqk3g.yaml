@@ -1,0 +1,13 @@
+version: incident/v1
+id: q0tc14byqk3g
+name: HCP audit log streaming beta users may see delays
+impact: minor
+systems:
+    - 0q55nwmxngkc
+timeline:
+    - ts: "2024-11-15 15:41:27"
+      description: |-
+        We have encountered a problem in processing and externally streaming new HCP audit logs since 8:49am UTC.  These logs have not been dropped, and we are investigating why logs aren't being delivered at this time.
+
+        HCP Boundary, HCP Vault Secrets, and HCP Audit Log Streaming beta users will not be able to create, update, or delete new streaming destinations. Existing destinations are still in place and will continue to be used for streaming once we resolve this issue.
+      investigating: true
