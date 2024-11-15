@@ -17,3 +17,6 @@ timeline:
       description: We believe in the next 30 minutes that that all streaming messages will be caught up and all audit log streaming will be fully restored. The majority have already fully caught up and we have a fix in place to prevent further delays.
     - ts: "2024-11-15 17:10:18"
       description: We're more than halfway through delivery of the the backed up audit log streaming messages. We'll continue to monitor and post a final update once HCP audit log streaming destinations are all completely caught up.
+    - ts: "2024-11-15 18:01:55"
+      description: This issue has been fully resolved as of 1800 UTC. We are seeing full recovery of HCP audit log streaming to all destinations. If you have further questions about this incident or need additional assistance, please contact your support team. Thank you.
+      resolved: true
