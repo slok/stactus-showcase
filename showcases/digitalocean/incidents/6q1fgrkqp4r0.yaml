@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6q1fgrkqp4r0
+name: DNS Resolution in Multiple Regions
+impact: minor
+systems:
+    - qdnryq0lymfk
+timeline:
+    - ts: "2024-11-15 04:03:43"
+      description: "Our Engineering team is investigating an issue with intermittent failures and increased latency in DNS resolution across multiple regions. \n\nDuring this time, users may experience issues with DNS resolution, or see errors returned when querying DNS records which are hosted on the DigitalOcean authoritative DNS infrastructure. \n\nWe apologize for the inconvenience and will share an update once we have more information."
+      investigating: true
