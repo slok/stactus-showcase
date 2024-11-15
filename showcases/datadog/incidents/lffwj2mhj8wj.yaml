@@ -1,0 +1,14 @@
+version: incident/v1
+id: lffwj2mhj8wj
+name: Delayed Distribution Metrics
+impact: major
+systems:
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2024-11-15 13:33:24"
+      description: We are investigating increased latency processing Distribution Metrics. As a result, some users may see delays or gaps for distribution metrics on graphs, including APM pages. Monitors based on this data may also be delayed. We have identified the problem and are actively working to resolve the issue.
+      investigating: true
+    - ts: "2024-11-15 13:33:48"
+      description: We are continuing to investigate this issue.
+      investigating: true
