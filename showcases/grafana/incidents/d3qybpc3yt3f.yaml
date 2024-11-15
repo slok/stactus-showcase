@@ -31,3 +31,6 @@ systems:
 timeline:
     - ts: "2024-11-15 12:21:35"
       description: We have introduced an erroneous security policy (CSP) that can break user dashboards. We are rolling back the update now.
+    - ts: "2024-11-15 17:23:02"
+      description: Rollback has been completed as of 17:20 UTC. At this time, we are considering this issue resolved. No further updates.
+      resolved: true
