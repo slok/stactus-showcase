@@ -11,3 +11,5 @@ timeline:
 
         HCP Boundary, HCP Vault Secrets, and HCP Audit Log Streaming beta users will not be able to create, update, or delete new streaming destinations. Existing destinations are still in place and will continue to be used for streaming once we resolve this issue.
       investigating: true
+    - ts: "2024-11-15 16:02:15"
+      description: We've identified what has caused processing delays in HCP audit log streaming, and some messages should now be coming through to streaming destinations. We are working on a permanent fix and we'll post another update as we begin to catch up on messages significantly.
