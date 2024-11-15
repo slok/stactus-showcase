@@ -1,0 +1,9 @@
+version: incident/v1
+id: 5yx9rwddy330
+name: 5xx Responses Attempting to Fetch Voice Insights Data
+impact: none
+systems: []
+timeline:
+    - ts: "2024-11-15 19:32:56"
+      description: Twilio Voice Insights was degraded for 5 minutes between 9:24am and 9:29am Pacific Time on 11/15/2024. During this period of time customers may have experienced 5xx responses when fetching insights data. The issue has now been resolved.
+      resolved: true
