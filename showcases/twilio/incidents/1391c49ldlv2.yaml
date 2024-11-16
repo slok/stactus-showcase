@@ -1,0 +1,13 @@
+version: incident/v1
+id: 1391c49ldlv2
+name: 'Retroactive: SMS Delivery Delays To AT&T in United state of America'
+impact: none
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2024-11-16 13:37:00"
+      description: |-
+        Our engineers are currently investigating the customer impact of a retroactive issue with SMS delivery delays to AT&T in United state of America. This was degraded for 4 Hours between 14:50-18:10 PT on 16/11/2024.
+
+        During this period, customers may have experienced SMS Delivery Delays To AT&T in United state of America.
+      resolved: true
