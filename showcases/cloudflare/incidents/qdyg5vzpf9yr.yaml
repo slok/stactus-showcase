@@ -1,0 +1,10 @@
+version: incident/v1
+id: qdyg5vzpf9yr
+name: Cloudflare for SaaS certificates and custom hostname provisioning delays
+impact: minor
+systems:
+    - 9p2qlpt19nqb
+timeline:
+    - ts: "2024-11-16 17:09:18"
+      description: Cloudflare for SaaS SSL certificates and custom hostname verification provisioning are delayed. New custom hostname orders are accepted. Existing SSL/TLS certificates and custom hostnames proxying at Cloudflare's edge is not impacted.
+      investigating: true
