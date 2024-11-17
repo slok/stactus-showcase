@@ -1,10 +1,13 @@
 version: incident/v1
 id: 5dthvyhbs866
 name: API Errors
-impact: none
+impact: major
 systems:
     - rhznvxg4v7yh
 timeline:
     - ts: "2024-11-17 05:03:20"
       description: We are currently investigating an issue affecting latency and errors on various API endpoints.
+      investigating: true
+    - ts: "2024-11-17 05:38:34"
+      description: Our team is actively investigating this issue
       investigating: true
