@@ -1,0 +1,10 @@
+version: incident/v1
+id: rtmw6srlbdk9
+name: Service degradation with Zoom's services in Saudi Arabia
+impact: minor
+systems:
+    - 5nb7nq17c6g5
+timeline:
+    - ts: "2024-11-17 14:27:15"
+      description: Our monitoring has detected service degradation with Zoom's services in Saudi Arabia. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
