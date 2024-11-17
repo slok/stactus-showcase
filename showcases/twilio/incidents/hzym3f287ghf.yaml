@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2024-11-17 11:25:16"
       description: We are observing successful SMS delivery to multiple networks in Mexico via a subset of Twilio numbers.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-11-17 12:58:46"
+      description: We are no longer experiencing SMS delivery failures to multiple networks in Mexico via a subset of Twilio numbers. This incident has been resolved.
+      resolved: true
