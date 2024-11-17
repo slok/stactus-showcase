@@ -8,3 +8,6 @@ timeline:
     - ts: "2024-11-17 15:37:07"
       description: We are experiencing SMS delivery failures to Telefonica O2 in Germany via a subset of Twilio alphanumeric sender ID's. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2024-11-17 16:37:04"
+      description: We have fully investigated the SMS delivery failures to Telefonica O2 in Germany via a subset of Twilio alphanumeric Sender ID's, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
