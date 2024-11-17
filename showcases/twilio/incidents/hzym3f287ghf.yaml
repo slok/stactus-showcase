@@ -1,0 +1,10 @@
+version: incident/v1
+id: hzym3f287ghf
+name: SMS Delivery Failure to Multiple Networks in Mexico via a Subset of Twilio Numbers
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2024-11-17 10:29:47"
+      description: We are experiencing SMS delivery failure to multiple networks in Mexico via a subset of Twilio numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
