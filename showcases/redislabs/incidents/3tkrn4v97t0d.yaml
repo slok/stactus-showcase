@@ -1,0 +1,13 @@
+version: incident/v1
+id: 3tkrn4v97t0d
+name: Redis Cloud - temporary issues with our cloud REST API
+impact: minor
+systems:
+    - jp7zzppvbk0x
+timeline:
+    - ts: "2024-11-17 17:24:48"
+      description: |-
+        We’re currently investigating issues with our cloud REST API.
+        We will provide an update shortly.
+        Your database's connectivity is not affected.
+      investigating: true
