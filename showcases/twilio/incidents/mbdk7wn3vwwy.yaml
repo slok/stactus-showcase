@@ -1,10 +1,10 @@
 version: incident/v1
 id: mbdk7wn3vwwy
-name: MMS Delivery Delays to AT&T Network in the US for a Subset of Short Code and Toll Free Numbers
+name: MMS Delivery Failures to AT&T Network in the US for a Subset of Short Code and Toll Free Numbers
 impact: major
 systems:
     - tvjwfvczkf46
 timeline:
     - ts: "2024-11-18 17:19:54"
-      description: We are experiencing MMS delivery failures when sending to the AT&T network. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: We are experiencing MMS delivery failures when sending to the AT&T network in the US for a subset of Short Codes and Toll-Free numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
