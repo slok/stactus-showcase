@@ -1,0 +1,37 @@
+version: incident/v1
+id: pyzx6s7l8270
+name: Adaptive Metrics Degraded Performance
+impact: minor
+systems:
+    - mq4kzr2pd50j
+    - skxdrgdgcyj5
+    - k35y6dyjyn4l
+    - pf66h72bhm61
+    - 8dwfj1hb5tj3
+    - fdx4sw6zv5m8
+    - kl09tfsxs2h4
+    - hbrnp71v4t2r
+    - p37k51n12cxw
+    - dxhz5k4mxdp9
+    - jzfcstdl2fl6
+    - lf5g1lygh69v
+    - g4nw45zccmh0
+    - tqjvcqg0z9mh
+    - yptj3h8fdn8j
+    - stwknb1f6v5n
+    - pq526gk92s44
+    - hx6nqhhypfrp
+    - xm5bbn27cwwh
+    - rpkhxz445zq7
+    - wyky9jpy6n4k
+    - djjv8h5nh3jp
+    - 4dd0yqb74jpn
+    - 991yg38dlv8j
+    - k6z6k6fhz17p
+timeline:
+    - ts: "2024-11-18 16:01:26"
+      description: |-
+        As of 14:49 UTC, we became aware of an issue with Adaptive Metrics. Users may experience that recent queries are not taken into account when we generate recommendations for Adaptive Metrics.
+
+        Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
+      investigating: true
