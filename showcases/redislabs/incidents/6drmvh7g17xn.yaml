@@ -1,0 +1,12 @@
+version: incident/v1
+id: 6drmvh7g17xn
+name: Instance failure
+impact: none
+systems: []
+timeline:
+    - ts: "2024-11-18 01:13:43"
+      description: 'We are experiencing an instance failure. This may affect resources that have the following pattern in their endpoint: cls-prod41'
+      investigating: true
+    - ts: "2024-11-18 01:20:30"
+      description: This incident has been resolved.
+      resolved: true
