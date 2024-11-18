@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1cglpjj491sk
+name: SMS Delivery Delays to NRJ in France
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2024-11-18 07:27:10"
+      description: We are experiencing SMS delivery delays when sending messages to NRJ in France. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
