@@ -1,0 +1,9 @@
+version: incident/v1
+id: lt352npxlf25
+name: CDN mTLS certificate issue
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2024-11-18 19:05:09"
+      description: Custom certificates used for mTLS with customer origins fails to load. This issue will cause customer's origin servers to reject these connections due to lack of certificates. We are currently working on a fix for this issue.
