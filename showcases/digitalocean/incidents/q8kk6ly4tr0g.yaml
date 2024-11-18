@@ -3,26 +3,29 @@ id: q8kk6ly4tr0g
 name: Spaces Object Storage, DigitalOcean Container Registry & App Platform
 impact: minor
 systems:
-    - z2cshz8pdgwj
     - txysr8r0gn1n
     - glhj9rkw3mp8
+    - z2cshz8pdgwj
     - 66wjtpd8ngvx
-    - tz43j53blsmy
     - ggjq7y0mqt4y
     - sk01cyydqy7b
-    - w4m98sdz3szn
+    - tz43j53blsmy
     - hnqx47tg75cw
+    - w4m98sdz3szn
     - lf2rrgctn54t
-    - rf1h8gfz4ts6
     - 8pntc51v5prb
     - zfnbgvbvc6bd
-    - bpchszdrvvc5
+    - rf1h8gfz4ts6
     - k3xwyjfy34vw
-    - b44h3yhj3jy5
+    - bpchszdrvvc5
     - 7z4k9k6wgbsq
+    - b44h3yhj3jy5
 timeline:
     - ts: "2024-11-18 18:32:35"
       description: "Our Engineering team is investigating an issue impacting Spaces Object Storage, DigitalOcean Container Registry, and App Platform, across all regions. \n\nBeginning at 16:52 UTC, users may have started experiencing 500 errors when trying to access and perform operations with their Spaces bucket, as well as increased failure rates when pushing to Container Registries and creating/deploying Apps. \n\nOur team has started to apply mitigations to correct the issue, which are rolling out across all regions. \n\nWe'll provide another update once that process has completed."
       investigating: true
     - ts: "2024-11-18 19:07:11"
       description: "Our Engineering team has completed the mitigation efforts and a fix is now deployed in all regions. \n\nAs of 18:41 UTC, error rates have returned to normal and users should no longer experience issues accessing, creating, or performing updates on their existing services with the impacted products. \n\nWe are monitoring the situation and will provide an update shortly."
+    - ts: "2024-11-18 19:33:03"
+      description: "Our Engineering team has confirmed complete resolution of the issue that was impacting Spaces Object Storage, DigitalOcean Container Registry, and App Platform, across all regions.\n\nFrom 16:52 UTC - 18:41 UTC, users may have experienced increased error rates when accessing Spaces objects, interacting with the DigitalOcean Container Registry and while creating/deploying Apps with App Platform. Functionality is completely restored and all operations are succeeding normally. \n\nIf you continue to experience any issues with these services please submit a ticket to our customer support team for assistance. Thank you for your patience."
+      resolved: true

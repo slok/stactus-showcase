@@ -2,10 +2,6 @@ version: stactus/v1
 name: DigitalOcean
 url: http://status.digitalocean.com
 systems:
-    - id: z2cshz8pdgwj
-      name: Spaces / AMS3
-    - id: vpsyj9648bv2
-      name: Spaces CDN / AMS3
     - id: p1x9rv4137gx
       name: API
     - id: yht2qc1zfp6x
@@ -32,20 +28,24 @@ systems:
       name: Volumes / Global
     - id: q2c5475x69cz
       name: GPU Droplets / Global
+    - id: nkx0nmdx9vrs
+      name: Spaces / Global
     - id: 3xz669qnng8n
       name: Container Registry / Global
+    - id: 8cp93lvtlh32
+      name: Spaces CDN / Global
     - id: 65brl8m428rn
       name: App Platform / Amsterdam
     - id: glhj9rkw3mp8
       name: Container Registry / AMS3
     - id: xmrt3s9p9lw7
       name: Kubernetes / AMS3
-    - id: 66wjtpd8ngvx
-      name: Spaces / FRA1
-    - id: gpcbys3n2v21
-      name: Spaces CDN / FRA1
+    - id: z2cshz8pdgwj
+      name: Spaces / AMS3
     - id: msbt8b9p1p0q
       name: Managed Databases / AMS3
+    - id: vpsyj9648bv2
+      name: Spaces CDN / AMS3
     - id: xbsdwfbb4xx0
       name: Billing
     - id: dv1m7pg1ckqb
@@ -76,10 +76,10 @@ systems:
       name: Kubernetes / BLR1
     - id: k3lz9cdfxr5h
       name: Load Balancers / AMS3
-    - id: tz43j53blsmy
-      name: Spaces / NYC3
-    - id: ydgcz5twlr1m
-      name: Spaces CDN / NYC3
+    - id: 66wjtpd8ngvx
+      name: Spaces / FRA1
+    - id: gpcbys3n2v21
+      name: Spaces CDN / FRA1
     - id: 8lq3tm0cbjbs
       name: Functions / BLR1
     - id: ttltt91ldz3g
@@ -112,22 +112,22 @@ systems:
       name: Kubernetes / FRA1
     - id: 76vqxw3xnwh9
       name: Load Balancers / BLR1
+    - id: tz43j53blsmy
+      name: Spaces / NYC3
     - id: bkv5k5hnlg3q
       name: Monitoring / BLR1
+    - id: ydgcz5twlr1m
+      name: Spaces CDN / NYC3
     - id: l8lxzfpgpc39
       name: Managed Databases / FRA1
     - id: pxjg9r3mkxn7
       name: Functions / FRA1
-    - id: 5108wr792q5m
-      name: Spaces CDN / SFO3
     - id: x111j8zrmwrd
       name: VPC / BLR1
     - id: lmgn764lq04q
       name: Networking / BLR1
     - id: pg9zc33244c7
       name: Cloud Firewall
-    - id: w4m98sdz3szn
-      name: Spaces / SFO2
     - id: 56cjsvgf3vk4
       name: App Platform / London
     - id: hnqx47tg75cw
@@ -140,24 +140,24 @@ systems:
       name: Kubernetes / LON1
     - id: 2tfqdy27151t
       name: Load Balancers / FRA1
-    - id: lf2rrgctn54t
-      name: Spaces / SFO3
     - id: jd3kx416ss80
       name: VPC / FRA1
     - id: tf7m45473hzd
       name: Monitoring / FRA1
-    - id: 23yr3tv35ld7
-      name: Spaces CDN / SGP1
     - id: t5yvzbwj9snn
       name: Functions / LON1
     - id: 7f592f0nhxhs
       name: Networking / FRA1
     - id: 79j9sw2l27cv
       name: Managed Databases / LON1
+    - id: 5108wr792q5m
+      name: Spaces CDN / SFO3
     - id: 8zd85sg0nhnc
       name: Volumes / FRA1
     - id: 2p17zg8kmsyc
       name: Community
+    - id: w4m98sdz3szn
+      name: Spaces / SFO2
     - id: ffghd7w93zbw
       name: Volumes / LON1
     - id: btv040v4xbdn
@@ -170,14 +170,14 @@ systems:
       name: Load Balancers / LON1
     - id: chy7qdrqy3tn
       name: Monitoring / LON1
-    - id: rf1h8gfz4ts6
-      name: Spaces / SGP1
+    - id: lf2rrgctn54t
+      name: Spaces / SFO3
     - id: vsnnjcmt3dhg
       name: VPC / LON1
     - id: rwfv6j4jpn2y
       name: Networking / LON1
-    - id: mv6lb3084t43
-      name: Spaces CDN / SYD1
+    - id: 23yr3tv35ld7
+      name: Spaces CDN / SGP1
     - id: d2m7jh32j7z1
       name: Managed Databases / NYC1
     - id: py0tr7dkb36t
@@ -204,20 +204,20 @@ systems:
       name: Load Balancers / NYC1
     - id: kgt6s4ckl9fh
       name: Monitoring / NYC1
-    - id: bpchszdrvvc5
-      name: Spaces / SYD1
+    - id: rf1h8gfz4ts6
+      name: Spaces / SGP1
     - id: vzxxv27h45m4
       name: Managed Databases / NYC2
     - id: d1cvx1qj7f1n
       name: Functions / SFO3
+    - id: mv6lb3084t43
+      name: Spaces CDN / SYD1
     - id: dhcf7lpc5q3z
       name: Networking / NYC1
     - id: tvs6bwzfdc2j
       name: VPC / NYC1
     - id: hklgsphcrjq4
       name: Support Center
-    - id: 8cp93lvtlh32
-      name: Spaces CDN / Global
     - id: m9ky4d5d3q4g
       name: App Platform / Singapore
     - id: hlr2gdtmpmxs
@@ -234,6 +234,8 @@ systems:
       name: Monitoring / NYC2
     - id: r2cw20w0r9zx
       name: Networking / NYC2
+    - id: bpchszdrvvc5
+      name: Spaces / SYD1
     - id: rpk174pnyr42
       name: VPC / NYC2
     - id: gt78t0v1dx9k
@@ -244,8 +246,6 @@ systems:
       name: Reserved IP
     - id: 83tzdysp693h
       name: Kubernetes / SFO2
-    - id: b44h3yhj3jy5
-      name: Spaces / BLR1
     - id: sz7nt917qrd8
       name: App Platform / Sydney
     - id: fkzl92xwpwc9
@@ -272,8 +272,8 @@ systems:
       name: WWW
     - id: qkrqphz8r8d0
       name: Managed Databases / SFO2
-    - id: nkx0nmdx9vrs
-      name: Spaces / Global
+    - id: b44h3yhj3jy5
+      name: Spaces / BLR1
     - id: wzgnsrflzlr5
       name: App Platform / Toronto
     - id: 2d91fg0js59k
