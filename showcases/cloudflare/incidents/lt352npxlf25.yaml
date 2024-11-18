@@ -7,3 +7,5 @@ systems:
 timeline:
     - ts: "2024-11-18 19:05:09"
       description: Custom certificates used for mTLS with customer origins fails to load. This issue will cause customer's origin servers to reject these connections due to lack of certificates. We are currently working on a fix for this issue.
+    - ts: "2024-11-18 19:15:42"
+      description: A fix for this issue has been applied and we are currently monitoring the results.

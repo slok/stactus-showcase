@@ -3,24 +3,26 @@ id: q8kk6ly4tr0g
 name: Spaces Object Storage, DigitalOcean Container Registry & App Platform
 impact: minor
 systems:
-    - glhj9rkw3mp8
     - z2cshz8pdgwj
     - txysr8r0gn1n
+    - glhj9rkw3mp8
     - 66wjtpd8ngvx
+    - tz43j53blsmy
     - ggjq7y0mqt4y
     - sk01cyydqy7b
-    - tz43j53blsmy
-    - hnqx47tg75cw
     - w4m98sdz3szn
+    - hnqx47tg75cw
     - lf2rrgctn54t
+    - rf1h8gfz4ts6
     - 8pntc51v5prb
     - zfnbgvbvc6bd
-    - rf1h8gfz4ts6
-    - k3xwyjfy34vw
     - bpchszdrvvc5
-    - 7z4k9k6wgbsq
+    - k3xwyjfy34vw
     - b44h3yhj3jy5
+    - 7z4k9k6wgbsq
 timeline:
     - ts: "2024-11-18 18:32:35"
       description: "Our Engineering team is investigating an issue impacting Spaces Object Storage, DigitalOcean Container Registry, and App Platform, across all regions. \n\nBeginning at 16:52 UTC, users may have started experiencing 500 errors when trying to access and perform operations with their Spaces bucket, as well as increased failure rates when pushing to Container Registries and creating/deploying Apps. \n\nOur team has started to apply mitigations to correct the issue, which are rolling out across all regions. \n\nWe'll provide another update once that process has completed."
       investigating: true
+    - ts: "2024-11-18 19:07:11"
+      description: "Our Engineering team has completed the mitigation efforts and a fix is now deployed in all regions. \n\nAs of 18:41 UTC, error rates have returned to normal and users should no longer experience issues accessing, creating, or performing updates on their existing services with the impacted products. \n\nWe are monitoring the situation and will provide an update shortly."

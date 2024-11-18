@@ -3,10 +3,10 @@ id: 1lhs6n3vrjcz
 name: Container Registry and App Platform in AMS3/FRA1
 impact: none
 systems:
-    - glhj9rkw3mp8
     - 65brl8m428rn
-    - sk01cyydqy7b
+    - glhj9rkw3mp8
     - ttzvwy2wf0k3
+    - sk01cyydqy7b
 timeline:
     - ts: "2024-08-22 15:04:36"
       description: "From 10:30 to 11:35 UTC, our Engineering team observed an issue with Container Registry and App Platform builds in the AMS3 and FRA1 regions. \n\nDuring this time, users may have experienced delays while building their Apps and could have potentially experienced timeout errors in builds as a result. Additionally, a subset of customers may have experienced latency while interacting with the Container Registries. \n\nOur Engineering team found that a backing component of the Container Registry was experiencing high memory usage. They were able to remediate that component at 11:35 UTC, which resolved the issue.\n\nWe apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account."

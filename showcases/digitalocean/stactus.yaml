@@ -2,8 +2,6 @@ version: stactus/v1
 name: DigitalOcean
 url: http://status.digitalocean.com
 systems:
-    - id: glhj9rkw3mp8
-      name: Container Registry / AMS3
     - id: z2cshz8pdgwj
       name: Spaces / AMS3
     - id: vpsyj9648bv2
@@ -34,8 +32,12 @@ systems:
       name: Volumes / Global
     - id: q2c5475x69cz
       name: GPU Droplets / Global
+    - id: 3xz669qnng8n
+      name: Container Registry / Global
     - id: 65brl8m428rn
       name: App Platform / Amsterdam
+    - id: glhj9rkw3mp8
+      name: Container Registry / AMS3
     - id: xmrt3s9p9lw7
       name: Kubernetes / AMS3
     - id: 66wjtpd8ngvx
@@ -64,12 +66,8 @@ systems:
       name: Functions / AMS3
     - id: 2m55tfz8n656
       name: GPU Droplets / NYC2
-    - id: ggjq7y0mqt4y
-      name: Container Registry / BLR1
     - id: 1c2vrfy9qbvv
       name: App Platform / Bangalore
-    - id: sk01cyydqy7b
-      name: Container Registry / FRA1
     - id: 9q2dq7jc5bk9
       name: Droplets / AMS3
     - id: nz589c69ymyy
@@ -98,14 +96,16 @@ systems:
       name: Volumes / AMS3
     - id: r5sr0pyxn1kb
       name: GPU Droplets / TOR1
+    - id: ggjq7y0mqt4y
+      name: Container Registry / BLR1
     - id: ttzvwy2wf0k3
       name: App Platform / Frankfurt
     - id: 6xz356g340vj
       name: Volumes / BLR1
     - id: 5wjrpc0lf1qc
       name: Droplets / BLR1
-    - id: hnqx47tg75cw
-      name: Container Registry / NYC3
+    - id: sk01cyydqy7b
+      name: Container Registry / FRA1
     - id: ytggjm2hdb5y
       name: Event Processing / BLR1
     - id: 566bp0vk7mwx
@@ -130,6 +130,8 @@ systems:
       name: Spaces / SFO2
     - id: 56cjsvgf3vk4
       name: App Platform / London
+    - id: hnqx47tg75cw
+      name: Container Registry / NYC3
     - id: kkg2cfkqkwj1
       name: Droplets / FRA1
     - id: dzbtk2fkytv5
@@ -156,12 +158,8 @@ systems:
       name: Volumes / FRA1
     - id: 2p17zg8kmsyc
       name: Community
-    - id: 8pntc51v5prb
-      name: Container Registry / SFO2
     - id: ffghd7w93zbw
       name: Volumes / LON1
-    - id: zfnbgvbvc6bd
-      name: Container Registry / SFO3
     - id: btv040v4xbdn
       name: Droplets / LON1
     - id: 062037558j7d
@@ -188,14 +186,16 @@ systems:
       name: DNS
     - id: fkf61qj12vby
       name: App Platform / New York
+    - id: 8pntc51v5prb
+      name: Container Registry / SFO2
     - id: p4l05gv4bg18
       name: Volumes / NYC1
     - id: dn73yck15rk9
       name: App Platform / San Francisco
+    - id: zfnbgvbvc6bd
+      name: Container Registry / SFO3
     - id: fb63qt9f69m0
       name: Droplets / NYC1
-    - id: k3xwyjfy34vw
-      name: Container Registry / SGP1
     - id: t2sr3808q4ry
       name: Event Processing / NYC1
     - id: dzkmyxfh1rf0
@@ -216,12 +216,14 @@ systems:
       name: VPC / NYC1
     - id: hklgsphcrjq4
       name: Support Center
+    - id: 8cp93lvtlh32
+      name: Spaces CDN / Global
     - id: m9ky4d5d3q4g
       name: App Platform / Singapore
     - id: hlr2gdtmpmxs
       name: Volumes / NYC2
-    - id: 7z4k9k6wgbsq
-      name: Container Registry / SYD1
+    - id: k3xwyjfy34vw
+      name: Container Registry / SGP1
     - id: 9czvz44l7dp3
       name: Droplets / NYC2
     - id: f61lqt7r9fg5
@@ -248,6 +250,8 @@ systems:
       name: App Platform / Sydney
     - id: fkzl92xwpwc9
       name: Volumes / NYC3
+    - id: 7z4k9k6wgbsq
+      name: Container Registry / SYD1
     - id: mrdxgk8b9l9m
       name: Droplets / NYC3
     - id: ty601myjf6cj
@@ -268,6 +272,8 @@ systems:
       name: WWW
     - id: qkrqphz8r8d0
       name: Managed Databases / SFO2
+    - id: nkx0nmdx9vrs
+      name: Spaces / Global
     - id: wzgnsrflzlr5
       name: App Platform / Toronto
     - id: 2d91fg0js59k
