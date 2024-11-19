@@ -1,0 +1,12 @@
+version: incident/v1
+id: mgw1p0y4fsqc
+name: k6 test data processing severely degraded
+impact: critical
+systems:
+    - m79yjv169r06
+    - wbhrnd130mb0
+    - z9074fpyx6sb
+timeline:
+    - ts: "2024-11-19 21:45:46"
+      description: We are currently investigating this issue.
+      investigating: true
