@@ -1,0 +1,13 @@
+version: incident/v1
+id: n9fn0shp7wcj
+name: On Call Engineers are Investigating an ZW VPN Outage globally
+impact: minor
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2024-11-19 08:41:09"
+      description: Our monitoring systems have detected a potential issue ZW VPN Outage globally. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-11-19 08:50:36"
+      description: We are continuing to investigate this issue.
+      investigating: true
