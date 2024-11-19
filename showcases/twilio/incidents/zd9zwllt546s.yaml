@@ -1,0 +1,10 @@
+version: incident/v1
+id: zd9zwllt546s
+name: SMS Delivery Delays to the Claro Network in Colombia
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2024-11-19 15:53:47"
+      description: We are experiencing SMS delivery delays to the Claro network in Colombia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
