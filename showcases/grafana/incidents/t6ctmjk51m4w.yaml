@@ -1,0 +1,12 @@
+version: incident/v1
+id: t6ctmjk51m4w
+name: Write path outage in us-central1 region
+impact: critical
+systems: []
+timeline:
+    - ts: "2024-11-19 17:12:33"
+      description: |-
+        Due to the bug reported in kubernetes/kubernetes#127370, we were affected by an issue causing K8S service endpoints not getting updated when pods are stopped/started if there are more than pods matching the service.
+        This caused a temporary outage in Mimir gossiping services, which further resulted in failures to ingest and query metrics for a short time.
+        This issue has been resolved.
+      resolved: true
