@@ -1,0 +1,12 @@
+version: incident/v1
+id: b85tj3x6n4vz
+name: Disruption with some GitHub services
+impact: major
+systems: []
+timeline:
+    - ts: "2024-11-19 11:36:36"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-11-19 11:38:13"
+      description: We're investigating an issue with two-factor authentication in the GitHub mobile app
+      investigating: true
