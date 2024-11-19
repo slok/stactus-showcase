@@ -1,7 +1,7 @@
 version: incident/v1
 id: l2g3bg6rs7w6
 name: Log Search unavailable
-impact: major
+impact: minor
 systems:
     - 6sckg8qmrnzz
 timeline:
@@ -11,3 +11,5 @@ timeline:
 
         Streaming logs using `fly logs`, the Live Logs page in the dashboard, and Fly Log Shipper services continue to work as expected.
       investigating: true
+    - ts: "2024-11-19 19:04:39"
+      description: A fix has been implemented and we are monitoring the results.
