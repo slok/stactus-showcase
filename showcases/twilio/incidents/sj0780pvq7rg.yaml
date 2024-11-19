@@ -1,0 +1,10 @@
+version: incident/v1
+id: sj0780pvq7rg
+name: Sms Delivery Delays to Multiple Networks in New Zealand
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2024-11-19 01:47:59"
+      description: We are experiencing SMS delivery delays when sending messages to Spark in New Zealand. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
