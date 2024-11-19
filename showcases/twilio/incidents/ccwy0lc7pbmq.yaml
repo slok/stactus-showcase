@@ -1,0 +1,10 @@
+version: incident/v1
+id: ccwy0lc7pbmq
+name: SMS Delivery Delays to the Claro Network in Ecuador
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2024-11-19 14:55:16"
+      description: We are experiencing SMS delivery delays to the Claro network in Ecuador. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
