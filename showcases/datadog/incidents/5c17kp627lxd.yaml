@@ -11,3 +11,5 @@ timeline:
     - ts: "2024-11-20 16:46:58"
       description: We are investigating delays in monitor evaluations for monitors based on distribution metrics, starting at 15h35UTC. This is causing a delay in notifications.
       investigating: true
+    - ts: "2024-11-20 17:07:02"
+      description: The root cause has been identified. We are working on a fix so that distribution metric monitor evaluations are up to date.
