@@ -1,0 +1,14 @@
+version: incident/v1
+id: l5pq67x0pvtv
+name: Severe degradation of certain tests
+impact: major
+systems:
+    - m79yjv169r06
+    - wbhrnd130mb0
+timeline:
+    - ts: "2024-11-20 07:41:50"
+      description: Certain tests are showing degradation in ingestion, causing timeouts. We are investigating.
+      investigating: true
+    - ts: "2024-11-20 07:43:02"
+      description: We are continuing to investigate this issue.
+      investigating: true
