@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5c17kp627lxd
+name: Monitors - Delayed Evaluation for Distribution Metric Monitors
+impact: minor
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2024-11-20 16:16:44"
+      description: We are investigating delays in Distribution Metric Monitors Evaluation, which began at 15h35UTC.
+      investigating: true
