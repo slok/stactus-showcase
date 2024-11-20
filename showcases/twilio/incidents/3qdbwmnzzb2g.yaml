@@ -1,9 +1,17 @@
 version: incident/v1
 id: 3qdbwmnzzb2g
-name: On Call Engineers are Investigating an issue of FWO - Conversations returning 500s
-impact: none
-systems: []
+name: HTTP 500 errors from the Conversations API, customers may not be able to create Flex Web Chats in Flex Conversations.
+impact: minor
+systems:
+    - 7ypw8tsmyr78
+    - 2vs63pk0qq23
 timeline:
     - ts: "2024-11-20 23:04:48"
       description: Our monitoring systems have detected a potential issue of FWO - Conversations returning 500s. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-11-20 23:25:43"
+      description: We are investigating an error where customers may be seeing HTTP 500 errors from the Conversations API and may not be able to create Flex Web Chats in Flex Conversations. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-11-20 23:26:14"
+      description: We are investigating an error where customers may be seeing HTTP 500 errors from the Conversations API and may not be able to create Flex Web Chats in Flex Conversations. We expect to provide another update in 30 minutes or as soon as more information becomes available.
       investigating: true
