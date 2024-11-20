@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2041sgfg34xv
+name: 503 Service Unavailable Errors on Twilio Chat Services
+impact: minor
+systems:
+    - rk4qzxxbwj7t
+timeline:
+    - ts: "2024-11-20 15:35:09"
+      description: We've become aware of a potential issue with 503 Service Unavailable Errors on Twilio Chat Services. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
