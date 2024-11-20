@@ -1,0 +1,10 @@
+version: incident/v1
+id: s9fs8k11xqpp
+name: SMS Delivery Delays to Brisanet Network in Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2024-11-20 15:57:33"
+      description: We are experiencing MMS/SMS delivery delays when sending messages to Brisanet Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

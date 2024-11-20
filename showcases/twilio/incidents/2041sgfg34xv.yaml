@@ -6,5 +6,5 @@ systems:
     - rk4qzxxbwj7t
 timeline:
     - ts: "2024-11-20 15:35:09"
-      description: We've become aware of a potential issue with 503 Service Unavailable Errors on Twilio Chat Services. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      description: Customers using older versions of the Programmable Chat Sync client SDKs may experience HTTP 503 errors when trying to initialize the SDK client. Our engineering team has been alerted and is actively investigating. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
