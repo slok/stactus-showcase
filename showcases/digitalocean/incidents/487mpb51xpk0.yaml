@@ -1,0 +1,10 @@
+version: incident/v1
+id: 487mpb51xpk0
+name: User Creation for PostgreSQL Managed Databases via Cloud Control Panel
+impact: minor
+systems:
+    - mzkgffp35tq4
+timeline:
+    - ts: "2024-11-20 00:50:21"
+      description: "Our Engineering team is investigating an issue with displaying users for PostgreSQL Managed Databases across all regions.\n\nDuring this time, users are unable to see existing users in the Cloud Control Panel. Additionally, when creating users in the Cloud Control Panel, an error will be displayed, despite the user being created successfully. \n\nCreating and listing users for PostgreSQL clusters via the API remains functional. \n\nWe apologize for the inconvenience and will share an update once we have more information."
+      investigating: true

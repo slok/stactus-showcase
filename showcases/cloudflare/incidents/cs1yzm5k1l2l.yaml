@@ -1,0 +1,12 @@
+version: incident/v1
+id: cs1yzm5k1l2l
+name: High cache hit time in specific IAD/ORD
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2024-11-20 01:09:45"
+      description: |-
+        We are currently investigating increased request latency for a subset of requests in IAD and ORD.
+        More updates to follow shortly.
+      investigating: true
