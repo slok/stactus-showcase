@@ -1,0 +1,9 @@
+version: incident/v1
+id: lbpysdqch672
+name: Issue preventing some bot interactions
+impact: major
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2024-11-21 20:15:39"
+      description: An issue is causing some bot interactions to fail. You may see errors such as "Interaction Failed" when attempting to interact with a bot. We've identified the issue and are working on a fix.
