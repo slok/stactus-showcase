@@ -1,0 +1,13 @@
+version: incident/v1
+id: nppr1l1hkdxl
+name: Issues with Workers Smart Placement
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2024-11-21 16:14:11"
+      description: |-
+        Since 2024-11-21 13:00, Workers Smart Placement is not analyzing Workers and potentially running them in non-optimal locations. This mainly affects Workers that just turned Smart Placement on. If a Worker already has Smart Placement on, it will continue with the last analyzed placement.
+
+        Workers traffic is not affected.
+      investigating: true
