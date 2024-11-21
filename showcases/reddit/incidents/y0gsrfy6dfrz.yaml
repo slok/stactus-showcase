@@ -1,0 +1,12 @@
+version: incident/v1
+id: y0gsrfy6dfrz
+name: Degraded performance for reddit.com
+impact: minor
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2024-11-21 15:51:25"
+      description: We are currently investigating a problem with our site.
+      investigating: true
