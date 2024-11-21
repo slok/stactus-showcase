@@ -3,7 +3,7 @@ id: 7y8tz8h5lsbh
 name: SMS Delivery Report Delays to Multiple Network in Brazil Over a Subset of Short Code
 impact: minor
 systems:
-    - 39mb8cmw8y2v
+    - 42zx9w2kmtvf
 timeline:
     - ts: "2024-11-21 07:07:42"
       description: We are experiencing SMS delivery report delays when sending messages to Claro Network in Brazil over a subset of Short Code. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
@@ -20,3 +20,5 @@ timeline:
     - ts: "2024-11-21 14:07:06"
       description: We continue to experience SMS delivery report delays when sending messages to Multiple Network in Brazil over a subset of Short Code. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2024-11-21 21:33:10"
+      description: We are observing recovery in SMS delivery delays when sending messages to Multiple Network in Brazil over a subset of Short Code. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
