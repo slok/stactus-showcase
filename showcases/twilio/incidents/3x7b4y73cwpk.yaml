@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3x7b4y73cwpk
+name: MMS Short Code Messages Incorrectly Failing With 30500 Error Code
+impact: minor
+systems:
+    - d1j2nx64rpq3
+timeline:
+    - ts: "2024-11-21 12:52:15"
+      description: We are investigating intermittent issues with MMS Short Code messages incorrectly failing with 30500 error code. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
