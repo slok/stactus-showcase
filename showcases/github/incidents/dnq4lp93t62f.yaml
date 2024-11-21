@@ -1,0 +1,12 @@
+version: incident/v1
+id: dnq4lp93t62f
+name: Repository searches not working for some users
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-11-21 15:30:09"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-11-21 15:33:58"
+      description: Users will notice that loading an organization profile will sometimes not work. Additionally, the site-wide search is affected, too.<br />This issue does not affect code or issues and pull requests searches.
+      investigating: true
