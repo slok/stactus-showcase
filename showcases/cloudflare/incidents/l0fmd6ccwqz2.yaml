@@ -1,0 +1,11 @@
+version: incident/v1
+id: l0fmd6ccwqz2
+name: Issues with IP Geolocation
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-11-21 10:12:02"
+      description: Cloudflare is investigating an issue with geolocation reporting. Customers may see stale data in geolocation reports
+      investigating: true
+    - ts: "2024-11-21 10:18:17"
+      description: The issue has been identified and a fix is being implemented.
