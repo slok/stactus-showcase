@@ -1,0 +1,10 @@
+version: incident/v1
+id: cyrjt8r8pj2r
+name: Tempo Write Path Failing
+impact: major
+systems:
+    - bg7pryvvh19l
+timeline:
+    - ts: "2024-11-22 15:18:35"
+      description: At approximately 15:00 UTC we noticed a number of Tempo write path failures in prod-eu-west-2 region. Our team is currently working on stabilizing the cell. Customers may experience some data loss and downtime.
+      investigating: true
