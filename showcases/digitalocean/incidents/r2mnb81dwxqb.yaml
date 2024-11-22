@@ -1,0 +1,10 @@
+version: incident/v1
+id: r2mnb81dwxqb
+name: Droplet creates in NYC3
+impact: none
+systems:
+    - mrdxgk8b9l9m
+timeline:
+    - ts: "2024-11-22 17:44:00"
+      description: "From 09:05 to 09:50 UTC (November 21), our Engineering team observed an issue with Droplet creation.\n \nDuring this time, users may have experienced intermittent errors while creating the Droplets via the Cloud Panel and API. Users should no longer be experiencing these issues.\n\nWe apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account."
+      resolved: true
