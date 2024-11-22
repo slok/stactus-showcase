@@ -14,5 +14,5 @@ timeline:
       description: We are seeing recovery across all searches. The team continues to closely monitor our search system and is working to fully mitigate the cause of the problems.
       investigating: true
     - ts: "2024-11-21 16:48:37"
-      description: This incident has been resolved.
+      description: On November 21, 2024, between 14:30 UTC and 15:53 UTC search services at GitHub were degraded and CPU load on some nodes hit 100%. On average, the error rate was 22 requests/second and peaked at 83 requests/second. During this incident Enterprise Profile pages were slow to load and searches may have returned low quality results.<br /><br />The CPU load was mitigated by redeploying portions of our web infrastructure.<br /><br />We are still working to identify the cause of the increase in CPU usage and are improving our observability tooling to better expose the cause of an incident like this in the future.
       resolved: true
