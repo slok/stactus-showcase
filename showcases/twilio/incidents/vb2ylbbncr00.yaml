@@ -1,0 +1,9 @@
+version: incident/v1
+id: vb2ylbbncr00
+name: Verify Insights affected
+impact: none
+systems: []
+timeline:
+    - ts: "2024-11-22 05:22:11"
+      description: Twilio Verify Insights was incomplete between 20 Nov 11:47 AM PST and 21 Nov 8:36 PM PST. During this period of time customers may have experienced missing Verify Insights of their traffic on fraud activity. The issue has now been resolved.
+      resolved: true
