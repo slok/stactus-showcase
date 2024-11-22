@@ -8,3 +8,6 @@ timeline:
     - ts: "2024-11-22 15:18:35"
       description: At approximately 15:00 UTC we noticed a number of Tempo write path failures in prod-eu-west-2 region. Our team is currently working on stabilizing the cell. Customers may experience some data loss and downtime.
       investigating: true
+    - ts: "2024-11-22 18:03:25"
+      description: This incident has been resolved.
+      resolved: true
