@@ -1,0 +1,9 @@
+version: incident/v1
+id: kpszjmbsv1qt
+name: PrivateLink Outage for Some Customers
+impact: none
+systems: []
+timeline:
+    - ts: "2024-11-22 19:25:20"
+      description: We were made aware of an issue affecting a significant subset of PrivateLink customers not supporting HTTP/2. This issue persisted from ~14:45 UTC to 18:20 UTC. Customers affected may notice a gap in their data during this time.
+      resolved: true
