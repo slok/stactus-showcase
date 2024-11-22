@@ -1,0 +1,12 @@
+version: incident/v1
+id: l8d19r009qcc
+name: Duplicate email notices sent regarding upgrades from Automatic SSL/TLS service
+impact: minor
+systems:
+    - 5xvn0m7tthlf
+timeline:
+    - ts: "2024-11-22 06:01:19"
+      description: Users may receive multiple email notifications on Automatic SSL/TLS service.
+      investigating: true
+    - ts: "2024-11-22 06:05:53"
+      description: A fix has been implemented and we are monitoring the results.
