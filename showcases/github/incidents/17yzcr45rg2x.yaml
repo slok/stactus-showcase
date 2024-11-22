@@ -1,0 +1,14 @@
+version: incident/v1
+id: 17yzcr45rg2x
+name: '[Retroactive] Merge Queues not processing queued Pull Requests in some repositories'
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-11-22 16:25:32"
+      description: |-
+        Between 2024-11-06 11:14 UTC and 2024-11-08 at 18:15 UTC, pull requests added to merge queues in some repositories were not processed. This was caused by a bug in a new version of the merge queue code, and was mitigated by rolling back a feature flag. Around 1% of enqueued PRs were affected, with around 7% of repositories that use a merge queue being impacted at some time during the incident.
+
+        Queues were impacted if their target branch had the “require status checks” setting enabled, but did not have any individual required checks configured. Our monitoring strategy only covered PRs automatically removed from the queue, which was insufficient to detect this issue.
+
+        We are improving our monitors to cover anomalous manual queue entry removal rates, which will allow us to detect this class of issue much sooner.
+      resolved: true
