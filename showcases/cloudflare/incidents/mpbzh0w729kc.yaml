@@ -1,0 +1,13 @@
+version: incident/v1
+id: mpbzh0w729kc
+name: D1 elevated errors
+impact: minor
+systems:
+    - z0yd3sxqjqdm
+timeline:
+    - ts: "2024-11-23 03:04:28"
+      description: "Cloudflare is investigating elevated errors for some D1 databases. \n\nWe are working to mitigate this problem. More updates to follow shortly."
+      investigating: true
+    - ts: "2024-11-23 03:21:32"
+      description: This incident has been resolved.
+      resolved: true
