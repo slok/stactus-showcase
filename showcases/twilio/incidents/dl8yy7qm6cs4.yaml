@@ -1,0 +1,12 @@
+version: incident/v1
+id: dl8yy7qm6cs4
+name: Issues When Adding Participants to Conference Calls in App Connect
+impact: minor
+systems:
+    - vw9w2zyv9nk5
+    - l2p2s96tdsf4
+    - h056tfqk3q97
+timeline:
+    - ts: "2024-11-23 16:40:03"
+      description: 'We are investigating an issue with Voice conference, where Application Connect is configured for voice call flows: https://www.twilio.com/en-us/blog/introducing-twilio-application-connect-programmable-voice. Customers are unable to add participants to conferences while using ApplicationId as “from” number. We expect to provide another update in 15 minutes or as soon as more information becomes available.'
+      investigating: true
