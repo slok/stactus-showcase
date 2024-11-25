@@ -1,0 +1,15 @@
+version: incident/v1
+id: dtl6cxg5zwzn
+name: Degraded API Performance
+impact: minor
+systems:
+    - 15knchzwl5np
+    - 66r6rhq3hn9n
+    - 80ykv2p95qgy
+    - ws3nmzf32kyd
+timeline:
+    - ts: "2024-11-25 20:10:15"
+      description: We are investigating degraded API performance
+      investigating: true
+    - ts: "2024-11-25 20:20:37"
+      description: The issue has been identified and a fix is being implemented.
