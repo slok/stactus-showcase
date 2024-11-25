@@ -1,0 +1,18 @@
+version: incident/v1
+id: nz9lwl328ppy
+name: Block Storage in SFO3
+impact: none
+systems:
+    - s9txl6g88v1z
+    - kzjfhwmlkw4b
+timeline:
+    - ts: "2024-11-25 22:05:41"
+      description: |-
+        Our Engineering team is investigating an issue related to our ongoing SFO3 maintenance here: https://status.digitalocean.com/incidents/4kj7krrpyg3k
+
+        From 20:23 - 20:25 UTC, some services were impacted by a drop in networking. During that time, some Managed Kubernetes clusters experienced errors from the Kubernetes API and/or an increase in 5xx errors. Communication between other services and Block Storage Volumes may have been impacted as well.
+
+        The impact has been mitigated and services should be working normally at this time.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true

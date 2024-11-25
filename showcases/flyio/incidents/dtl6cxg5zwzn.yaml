@@ -13,3 +13,10 @@ timeline:
       investigating: true
     - ts: "2024-11-25 20:20:37"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-11-25 22:15:49"
+      description: |-
+        The Machines API issues stem from a propagation delay in our global state store, Corrosion.
+
+        We have completed deploying a configuration change to our Corrosion cluster and will be applying these changes to each node shortly. We expect improvement once the changes are applied.
+
+        In the meantime users may still see degraded machines API and proxy performance, especially with newly created machines
