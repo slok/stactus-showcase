@@ -1,0 +1,13 @@
+version: incident/v1
+id: rr43qlfhgwqp
+name: Super Bot Fight Mode configuration issue
+impact: minor
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2024-11-25 07:29:35"
+      description: |-
+        Cloudflare is investigating issues where the Super Bot Fight Mode Dashboard might not reflect the actual configured state.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
