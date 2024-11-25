@@ -23,5 +23,5 @@ timeline:
       description: Search is now operating normally. We are declaring this issue resolved.
       investigating: true
     - ts: "2024-11-25 15:25:10"
-      description: This incident has been resolved.
+      description: Between 13:30 and 15:00 UTC, repository searches were timing out for most users. The ongoing efforts from the <a href="https://www.githubstatus.com/incidents/dnq4lp93t62f">similar incident last week</a> helped uncover the main contributing factors. We have deployed short-term mitigations and identified longer term work to proactively identify and limit resource-intensive searches.
       resolved: true
