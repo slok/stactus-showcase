@@ -1,0 +1,12 @@
+version: incident/v1
+id: 36p62h1gw4dx
+name: Business accounts will find the Activity Log via the Admin Console unavailable
+impact: minor
+systems:
+    - nb2s2j09f6sc
+    - nz7h9pkyk9k9
+    - gvwljrxrbrbl
+    - 89gvq67r0l5m
+timeline:
+    - ts: "2024-11-25 18:05:17"
+      description: Business accounts will find the Activity Log via the Admin Console unavailable—403 (feature_disabled) error. Our engineering teams have identified the cause of this issue and are working on remediation.
