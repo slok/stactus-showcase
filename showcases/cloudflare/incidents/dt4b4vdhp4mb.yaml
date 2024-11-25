@@ -1,0 +1,10 @@
+version: incident/v1
+id: dt4b4vdhp4mb
+name: Workers AI model @cf/meta/llama-3.1-8b-instruct returning empty responses
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2024-11-25 23:02:26"
+      description: We are currently investigating an issue where the Workers AI model @cf/meta/llama-3.1-8b-instruct is returning empty responses under specific prompts.
+      investigating: true
