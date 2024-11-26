@@ -20,3 +20,8 @@ timeline:
         We have completed deploying a configuration change to our Corrosion cluster and will be applying these changes to each node shortly. We expect improvement once the changes are applied.
 
         In the meantime users may still see degraded machines API and proxy performance, especially with newly created machines
+    - ts: "2024-11-25 23:58:09"
+      description: |-
+        The updates have been applied, however we are still not seeing recovery on all Corrosion nodes. We are continuing to work on a fix.
+
+        The machines API and proxy performance remains in a degraded state, especially with newly created and updated machines.
