@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2pzgnd20vdbf
+name: Elevated API Errors
+impact: none
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2024-11-26 20:23:39"
+      description: "We are currently investigating elevated error rates with our Machines and Graphql APIs. \n\nUsers may experience slower responses or timeouts using the Machines API and flyctl commands"
+      investigating: true
