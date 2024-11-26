@@ -7,3 +7,6 @@ timeline:
     - ts: "2024-11-26 14:30:41"
       description: We are aware of customer-reported issues with internal networking and are investigating.
       investigating: true
+    - ts: "2024-11-26 16:11:46"
+      description: We have determined that some customers' machines are being throttled due to our full rollout of CPU quotas, separate from the incident yesterday. This in turn caused apparent networking issues. We have now temporarily rolled back these changes while we work with customers to better adapt to CPU quotas.
+      resolved: true
