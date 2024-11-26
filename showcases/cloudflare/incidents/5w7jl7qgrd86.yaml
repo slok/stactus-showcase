@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5w7jl7qgrd86
+name: Elevated number of 503 errors associated with the Speed Brain feature
+impact: minor
+systems:
+    - fcx388ss9k9x
+timeline:
+    - ts: "2024-11-26 09:56:49"
+      description: Cloudflare is aware of and investigating an increased number of 503 errors associated with the Speed Brain feature. Further details will be provided as more information becomes available.
+      investigating: true
+    - ts: "2024-11-26 10:00:29"
+      description: A fix has been implemented and we are monitoring the results.
