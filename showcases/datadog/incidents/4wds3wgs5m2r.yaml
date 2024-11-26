@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4wds3wgs5m2r
+name: Delayed APM data ingestion
+impact: major
+systems:
+    - p4hwj4wsc5wf
+timeline:
+    - ts: "2024-11-26 19:12:01"
+      description: We are investigating increased ingestion latency of APM data.
+      investigating: true
