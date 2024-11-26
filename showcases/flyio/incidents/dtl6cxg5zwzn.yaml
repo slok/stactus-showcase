@@ -25,3 +25,5 @@ timeline:
         The updates have been applied, however we are still not seeing recovery on all Corrosion nodes. We are continuing to work on a fix.
 
         The machines API and proxy performance remains in a degraded state, especially with newly created and updated machines.
+    - ts: "2024-11-26 02:06:05"
+      description: "We are running a restoration and reseed process to bring the Corrosion cluster back to a healthy, current state. \nDuring this restoration process, you may see elevated error rates on machines or apps that have been recently updated."
