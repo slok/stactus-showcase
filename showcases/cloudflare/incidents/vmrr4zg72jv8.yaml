@@ -1,0 +1,9 @@
+version: incident/v1
+id: vmrr4zg72jv8
+name: Advanced security events and security events showing 0 events.
+impact: none
+systems: []
+timeline:
+    - ts: "2024-11-26 23:01:42"
+      description: "Some customers may have received notifications for advanced security events and security events showing 0 events beginning Friday the 22nd. \n\nThis number is an error, but the alert is correct. Please refer to the dashboard to check for the correct value.\n\nThis is now resolved."
+      resolved: true
