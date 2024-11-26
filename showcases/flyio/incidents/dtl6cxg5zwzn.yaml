@@ -27,3 +27,8 @@ timeline:
         The machines API and proxy performance remains in a degraded state, especially with newly created and updated machines.
     - ts: "2024-11-26 02:06:05"
       description: "We are running a restoration and reseed process to bring the Corrosion cluster back to a healthy, current state. \nDuring this restoration process, you may see elevated error rates on machines or apps that have been recently updated."
+    - ts: "2024-11-26 02:31:08"
+      description: |-
+        The restore process has completed on the majority of hosts in our fleet and we are seeing overall Corrosion cluster health and performance return to normal.
+
+        There are a small number of hosts that are still being worked on, we aim to have them restored shortly.
