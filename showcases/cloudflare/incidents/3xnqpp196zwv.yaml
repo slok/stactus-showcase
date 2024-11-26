@@ -1,0 +1,9 @@
+version: incident/v1
+id: 3xnqpp196zwv
+name: Network Route Leak
+impact: none
+systems: []
+timeline:
+    - ts: "2024-11-26 23:06:24"
+      description: One of Cloudflare's upstream transit providers experienced a route leak, affecting network performance in Saudi Arabia from 21:38 to 22:39 UTC. This has since been resolved.
+      resolved: true
