@@ -34,3 +34,5 @@ timeline:
         There are a small number of hosts that are still being worked on, we aim to have them restored shortly.
     - ts: "2024-11-26 03:42:13"
       description: "All hosts have completed the restoration process and we are seeing our overall Corrosion cluster health and performance return to normal. \n\nMachine API and GraphQL API error rates are improving, but some users may still see elevated rates of request timeouts and/or 504 errors when using the Machines API or Flyctl commands. We are continuing to monitor these services as they recover."
+    - ts: "2024-11-26 05:43:35"
+      description: We are scaling up our systems to handle the increased traffic
