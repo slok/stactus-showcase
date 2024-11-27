@@ -1,0 +1,13 @@
+version: incident/v1
+id: 2tlhgktsxq6z
+name: Increased HTTP 522 Errors in Chennai, India
+impact: none
+systems:
+    - d9znrq17k6ny
+timeline:
+    - ts: "2024-11-27 14:25:33"
+      description: |-
+        Cloudflare is investigating an increased level of HTTP 522 errors in Chennai, India region.
+
+        We are working to analyze and mitigate this problem.  More updates to follow shortly.
+      investigating: true
