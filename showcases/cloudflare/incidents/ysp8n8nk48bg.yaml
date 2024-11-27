@@ -1,0 +1,14 @@
+version: incident/v1
+id: ysp8n8nk48bg
+name: Cloudflare Pages and Workers issues
+impact: minor
+systems:
+    - vgxj684rcw7t
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2024-11-27 14:18:35"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Pages and Cloudflare Workers: Customers may encounter errors when attempting to create new Cloudflare Pages based sites, as well as new Cloudflare Workers.  This issue does not affect any other Cloudflare services.
+
+        We are working to mitigate this problem.  More updates to follow shortly.
+      investigating: true
