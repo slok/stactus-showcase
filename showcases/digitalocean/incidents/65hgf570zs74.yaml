@@ -1,0 +1,12 @@
+version: incident/v1
+id: 65hgf570zs74
+name: Network Connectivity in SFO3 Region
+impact: minor
+systems:
+    - dn73yck15rk9
+    - 2zv8zdysz98p
+    - pkldx6th5q38
+timeline:
+    - ts: "2024-11-27 11:03:43"
+      description: "As of 10.02 UTC, our Engineering team is investigating an issue related to the SFO3 network maintenance here: https://status.digitalocean.com/incidents/rk0qtczt9j1c\n\nDuring this time users may experience connectivity issues, latency, and timeout errors while interacting with Droplet-based services and App Platform. \n\nWe apologize for the inconvenience and will share an update once we have more information."
+      investigating: true
