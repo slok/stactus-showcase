@@ -1,0 +1,10 @@
+version: incident/v1
+id: yf32mns63s8v
+name: SMS Delivery Delays to OneNZ/Vodafone in New Zealand via Subset of Short Codes
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2024-11-26 23:59:47"
+      description: We are experiencing SMS delivery delays when sending messages to OneNZ/Vodafone in New Zealand via subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
