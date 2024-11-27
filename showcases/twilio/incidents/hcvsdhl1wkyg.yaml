@@ -1,0 +1,10 @@
+version: incident/v1
+id: hcvsdhl1wkyg
+name: Authy API unavailable for 40 seconds
+impact: none
+systems:
+    - txt6v4g6pv74
+timeline:
+    - ts: "2024-11-27 17:54:17"
+      description: The Twilio Authy API was degraded for 40 seconds between 11:10:49 PM and 11:11:29 PM Pacific Time on November 22, 2024. During this time, customers may have experienced 500 errors when connecting to the API Level. This issue has now been resolved.
+      resolved: true
