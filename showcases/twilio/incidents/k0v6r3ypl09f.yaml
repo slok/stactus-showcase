@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2024-11-27 20:07:00"
       description: We are observing recovery in SMS delivery delays when sending messages to AT&T in the US from a subset of Shortcodes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2024-11-27 22:00:09"
+      description: We are no longer experiencing SMS delivery delays when sending messages to AT&T in the US from a subset of Shortcodes. This incident has been resolved.
+      resolved: true
