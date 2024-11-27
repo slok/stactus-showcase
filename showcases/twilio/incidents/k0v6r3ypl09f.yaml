@@ -1,0 +1,10 @@
+version: incident/v1
+id: k0v6r3ypl09f
+name: SMS delivery delays to AT&T in the US from a subset of Shortcodes
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2024-11-27 19:34:37"
+      description: We are experiencing SMS delivery delays when sending messages to AT&T in the US from a subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
