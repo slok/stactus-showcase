@@ -1,0 +1,13 @@
+version: incident/v1
+id: grs313fvsk6n
+name: 'Cloudflare Dashboard service issues: Password reset failures'
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2024-11-27 11:33:27"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Dashboard: Some customers attempting to perform password resets will observe error responses, and emails are not being sent.
+        These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+        We are currently working on a resolution. More updates to follow shortly.
+      investigating: true
