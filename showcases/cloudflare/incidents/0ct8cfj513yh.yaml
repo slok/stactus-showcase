@@ -1,0 +1,10 @@
+version: incident/v1
+id: 0ct8cfj513yh
+name: Load Balancing Session Affinity Issues
+impact: minor
+systems:
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2024-11-28 23:17:12"
+      description: Cloudflare is investigating intermittent issues with Load Balancing Session Affinity. Users may see requests not respect the selected Session Affinity setting and be directed to an alternate origin.
+      investigating: true
