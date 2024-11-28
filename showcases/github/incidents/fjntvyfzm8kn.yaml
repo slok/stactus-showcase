@@ -1,0 +1,13 @@
+version: incident/v1
+id: fjntvyfzm8kn
+name: Incident with Codespaces
+impact: minor
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2024-11-28 06:27:01"
+      description: We are investigating reports of degraded performance for Codespaces
+      investigating: true
+    - ts: "2024-11-28 06:36:23"
+      description: We are investigating issues with timeouts in some requests in Codespaces. We will update you on mitigation progress.
+      investigating: true
