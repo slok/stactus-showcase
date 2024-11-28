@@ -11,3 +11,9 @@ timeline:
     - ts: "2024-11-28 06:36:23"
       description: We are investigating issues with timeouts in some requests in Codespaces. We will update you on mitigation progress.
       investigating: true
+    - ts: "2024-11-28 07:00:37"
+      description: We identified the issue and applied a mitigation, resulting in the cessation of timeouts. While we are considering this incident resolved for now, we are continuing to investigate the root cause and plan to implement a permanent fix. Updates will follow as we progress.
+      investigating: true
+    - ts: "2024-11-28 07:01:12"
+      description: This incident has been resolved.
+      resolved: true
