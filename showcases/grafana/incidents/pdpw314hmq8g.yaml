@@ -1,0 +1,12 @@
+version: incident/v1
+id: pdpw314hmq8g
+name: Metric processing lag in Grafana Cloud k6
+impact: major
+systems:
+    - m79yjv169r06
+    - wbhrnd130mb0
+    - z9074fpyx6sb
+timeline:
+    - ts: "2024-11-29 16:05:56"
+      description: We are currently investigating this issue.
+      investigating: true
