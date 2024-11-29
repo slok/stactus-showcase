@@ -1,9 +1,11 @@
 version: incident/v1
 id: jm44h02t22ck
-name: Cloud Control Panel Multiple Services
+name: Spaces, Spaces CDN, DOCR, LBaaS, App Platform and Mongo Backups
 impact: major
 systems:
+    - txysr8r0gn1n
     - mzkgffp35tq4
+    - ctwhml01vvw1
     - nkx0nmdx9vrs
     - 3xz669qnng8n
     - 8cp93lvtlh32
@@ -64,3 +66,5 @@ timeline:
         We understand these are critical issues for our customers and are working as quickly as possible to resolve this.
     - ts: "2024-11-29 03:04:44"
       description: "Spaces accessibility in all regions continues to be impacted and users will experience errors when attempting to interact with objects hosted under digitaloceanspaces.com. Container Registries are also impacted and users will experience errors when attempting to create, push, or pull containers. Backups for the Mongo Managed Databases product are also not successfully uploading, so users attempting to use those backups will see errors. \n\nWe are in active contact with our vendor to resolve this as quickly as possible. Any DNS record under digitaloceanspaces.com will continue to fail until this incident is resolved.\n\nWe will continue to provide updates as we have new information."
+    - ts: "2024-11-29 03:36:48"
+      description: "Our Engineering team has identified additional downstream services seeing elevated failure rates and broken functionality. At this time, the following services are impacted: \n\n- Spaces object accessibility in all regions with objects hosted under digitaloceanspaces.com. \n\n- Requests to create, push, or pull to/from Container Registries\n\n- Backups for the Mongo Managed Databases product are not successfully uploading, so users attempting to use those backups will see errors. \n\n- Creates and resizes for Load Balancers in all regions\n\n- New builds for the App Platform in all regions\n\nWe are in active contact with our vendor to resolve this as quickly as possible. Any DNS record under digitaloceanspaces.com will continue to fail until this incident is resolved.\n\nWe will continue to provide updates as we have new information."
