@@ -8,3 +8,8 @@ timeline:
     - ts: "2024-11-28 23:17:12"
       description: Cloudflare is investigating intermittent issues with Load Balancing Session Affinity. Users may see requests not respect the selected Session Affinity setting and be directed to an alternate origin.
       investigating: true
+    - ts: "2024-11-29 00:57:14"
+      description: The cause of this issue has been identified and a fix is being implemented.
+    - ts: "2024-11-29 01:24:40"
+      description: This incident has been resolved.
+      resolved: true

@@ -16,3 +16,13 @@ timeline:
     - ts: "2024-11-29 00:34:33"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2024-11-29 01:10:49"
+      description: "Our Engineering team is continuing to investigate this issue and all possible paths to remediation, as well as confirm if this issue is related to an upstream provider outage. We understand this is a critical issue for our customers. \n\nDue to the Cloud Control Panel being down, if users need to submit a support ticket, they may do so here: https://www.digitalocean.com/company/contact/support"
+      investigating: true
+    - ts: "2024-11-29 01:31:31"
+      description: |-
+        Our Engineering team has identified this as a domain registrar issue for the entire digitaloceanspaces.com domain. We are engaging with our upstream vendor to resolve this incident as quickly as possible. Any DNS record under digitaloceanspaces.com will continue to fail until this incident is resolved. We understand this is a critical issue for our customers.
+
+        Our Cloud Control Panel is dependent on our Spaces product and is also experiencing an outage due to this issue.
+
+        Due to the Cloud Control Panel being down, if users need to submit a support ticket, they may do so here: https://www.digitalocean.com/company/contact/support
