@@ -1,6 +1,6 @@
 version: incident/v1
 id: 5vyy0c9yzhyc
-name: SMS Delivery Delays From Twilio Long-Code Numbers to US Carriers
+name: MMS Delivery Delays From Twilio Long-Code Numbers to US Carriers
 impact: minor
 systems:
     - 8vdlvw3dsq8h
@@ -11,13 +11,12 @@ timeline:
 
         Please find the current delivery status for the major carriers below:
 
-
         AT&T (status - Operational)
-        T-Mobile (status -  Operational)
+        T-Mobile (status - Operational)
         Verizon (status - Operational)
         MetroPCS (status - Operational)
-        US Cellular (status -  Operational)
-        CSpire (status - Delayed)
+        US Cellular (status - Operational)
+        CSpire (status - Delayed) Small Networks
 
         We are actively working with our carrier partners to resolve the issue, and we will provide another update in 2 hours or as soon as we have any new information to share.
       investigating: true
