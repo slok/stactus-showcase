@@ -1,0 +1,22 @@
+version: incident/v1
+id: qct1jn7dyn2f
+name: MMS Delivery Delays from Twilio Toll-Free Numbers to US Carriers
+impact: minor
+systems:
+    - tvjwfvczkf46
+timeline:
+    - ts: "2024-11-29 16:54:42"
+      description: |-
+        Due to sustained high traffic on the US carrier networks, we are currently experiencing MMS delivery delays from Twilio Toll-Free numbers. Messages are queued due to capacity shortage, and customers may see delays when sending to certain US carriers.
+
+        Please find the current delivery status for the major carriers below:
+
+        For US Networks, use the following:
+        AT&T (status -  Operational)
+        T-Mobile (status -  Operational)
+        Verizon (status -  Delayed)
+        MetroPCS (status -  Operational)
+        US Cellular (status -  Operational)
+
+        We are actively working with our carrier partners to resolve the issue, and we will provide another update in 2 hours or as soon as we have any new information to share
+      investigating: true
