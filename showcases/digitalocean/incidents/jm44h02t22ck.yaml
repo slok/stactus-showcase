@@ -1,0 +1,15 @@
+version: incident/v1
+id: jm44h02t22ck
+name: Cloud Control Panel and Spaces
+impact: minor
+systems:
+    - nkx0nmdx9vrs
+    - 8cp93lvtlh32
+    - czck17wcspr5
+timeline:
+    - ts: "2024-11-29 00:21:30"
+      description: |-
+        Our Engineering team is currently investigating an issue affecting portions of the Cloud Panel across all regions. Additionally, some Space Buckets may be inaccessible via the CDN. Users may experience difficulties accessing the cloud control panel, encounter DNS-related problems, or face interruptions when managing or accessing Spaces and Spaces CDN through.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
