@@ -1,8 +1,9 @@
 version: incident/v1
 id: jm44h02t22ck
 name: Cloud Control Panel and Spaces
-impact: minor
+impact: major
 systems:
+    - mzkgffp35tq4
     - nkx0nmdx9vrs
     - 8cp93lvtlh32
     - czck17wcspr5
@@ -31,3 +32,10 @@ timeline:
         Our Engineering team has successfully deployed a solution to bring the Cloud Control Panel back online. Please refresh the page a few times to clear your cache.
 
         However, we are still experiencing issues with Spaces. We are engaging with our upstream vendor to resolve this incident as quickly as possible. Any DNS record under digitaloceanspaces.com will continue to fail until this incident is resolved. We understand this is a critical issue for our customers and are working as quickly as possible to resolve this.
+    - ts: "2024-11-29 02:38:38"
+      description: |-
+        Spaces accessibility in all regions continues to be impacted and users will experience errors when attempting to interact with objects hosted under digitaloceanspaces.com. Backups for the Mongo Managed Databases product are also not successfully uploading, so users attempting to use those backups will see errors.
+
+        We have engaged with our upstream vendor to resolve this incident as quickly as possible and are awaiting a further update. Any DNS record under digitaloceanspaces.com will continue to fail until this incident is resolved.
+
+        We understand these are critical issues for our customers and are working as quickly as possible to resolve this.
