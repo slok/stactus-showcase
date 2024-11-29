@@ -1,0 +1,11 @@
+version: incident/v1
+id: v3ly68n6xqn8
+name: Messaging Callback Failures
+impact: none
+systems: []
+timeline:
+    - ts: "2024-11-29 18:51:40"
+      description: Our engineers are currently investigating the customer impact of a retroactive issue with Status Callbacks. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2024-11-29 19:00:35"
+      description: Twilio Messaging Callback was degraded for 18 minutes between 10:04 am and 10:22 am Pacific Time on 11/29/2024. During this period of time customers may have experienced status callbacks failures. The issue has now been resolved.
+      resolved: true
