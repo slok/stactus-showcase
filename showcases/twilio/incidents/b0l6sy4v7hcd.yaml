@@ -1,0 +1,10 @@
+version: incident/v1
+id: b0l6sy4v7hcd
+name: SMS Delivery Report Delays To Tele2 Network in Sweden
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2024-11-29 09:15:19"
+      description: We are experiencing delays in receiving message delivery reports when sending to Tele2 network in Sweden. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
