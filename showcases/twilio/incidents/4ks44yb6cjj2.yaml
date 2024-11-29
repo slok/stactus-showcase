@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4ks44yb6cjj2
+name: SMS Delivery Receipt Delays to Multiple Networks in Multiple Countries in Europe
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2024-11-29 12:57:31"
+      description: We are experiencing SMS delivery receipt delays when sending messages to multiple networks in multiple countries in Europe. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
