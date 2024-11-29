@@ -1,10 +1,27 @@
 version: incident/v1
 id: pvsx41c9hz3h
-name: SMS Delivery Delays To Digi and Celcom Networks in Malaysia
+name: SMS Delivery Delays and Failures to Multiple Networks in Malaysia and African Countries
 impact: minor
 systems:
     - 8qjql0kqnd33
+    - 9z5gsqyjs4rl
 timeline:
     - ts: "2024-11-29 01:57:25"
       description: We are experiencing SMS delivery delays to Digi and Celcom Networks in Malaysia. Our engineers are working with our carrier partner to resolve the issue. We will provide an update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-11-29 02:55:31"
+      description: |-
+        We are experiencing SMS delivery delays and failures to multiple networks in Malaysia and African countries. Our engineers are working with our carrier partner to resolve the issue. We will provide an update in 2 hours or as soon as more information becomes available.
+
+        List of Impacted Networks:
+         - Malaysia Digi Network
+         - Malaysia Celcom Network
+         - Malaysia Red One (XOX) Network
+         - Angola Movicel Network
+         - Comoros Telma Network
+         - Tanzania Tigo Network
+         - Tanzania Zantel Network
+         - Central African Republic Telecel Centraf Network
+         - Ghana Vodafone Network
+         - Mali Telecel Network
       investigating: true

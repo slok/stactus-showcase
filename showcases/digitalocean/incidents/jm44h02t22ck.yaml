@@ -1,12 +1,35 @@
 version: incident/v1
 id: jm44h02t22ck
-name: Cloud Control Panel and Spaces
+name: Cloud Control Panel Multiple Services
 impact: major
 systems:
     - mzkgffp35tq4
     - nkx0nmdx9vrs
+    - 3xz669qnng8n
     - 8cp93lvtlh32
+    - glhj9rkw3mp8
+    - z2cshz8pdgwj
+    - vpsyj9648bv2
+    - 66wjtpd8ngvx
+    - gpcbys3n2v21
     - czck17wcspr5
+    - ggjq7y0mqt4y
+    - sk01cyydqy7b
+    - tz43j53blsmy
+    - ydgcz5twlr1m
+    - hnqx47tg75cw
+    - 5108wr792q5m
+    - w4m98sdz3szn
+    - lf2rrgctn54t
+    - 23yr3tv35ld7
+    - 8pntc51v5prb
+    - zfnbgvbvc6bd
+    - rf1h8gfz4ts6
+    - mv6lb3084t43
+    - k3xwyjfy34vw
+    - bpchszdrvvc5
+    - 7z4k9k6wgbsq
+    - b44h3yhj3jy5
 timeline:
     - ts: "2024-11-29 00:21:30"
       description: |-
@@ -39,3 +62,5 @@ timeline:
         We have engaged with our upstream vendor to resolve this incident as quickly as possible and are awaiting a further update. Any DNS record under digitaloceanspaces.com will continue to fail until this incident is resolved.
 
         We understand these are critical issues for our customers and are working as quickly as possible to resolve this.
+    - ts: "2024-11-29 03:04:44"
+      description: "Spaces accessibility in all regions continues to be impacted and users will experience errors when attempting to interact with objects hosted under digitaloceanspaces.com. Container Registries are also impacted and users will experience errors when attempting to create, push, or pull containers. Backups for the Mongo Managed Databases product are also not successfully uploading, so users attempting to use those backups will see errors. \n\nWe are in active contact with our vendor to resolve this as quickly as possible. Any DNS record under digitaloceanspaces.com will continue to fail until this incident is resolved.\n\nWe will continue to provide updates as we have new information."
