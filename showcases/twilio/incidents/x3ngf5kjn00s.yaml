@@ -1,9 +1,13 @@
 version: incident/v1
 id: x3ngf5kjn00s
-name: On Call Engineers are Investigating an issue with Flex Agent
-impact: none
-systems: []
+name: Errors When Transferring Conversations in Digital Channels
+impact: minor
+systems:
+    - vw9w2zyv9nk5
 timeline:
     - ts: "2024-11-29 17:09:14"
       description: Our monitoring systems have detected a potential issue Flex Agent. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-11-29 17:23:33"
+      description: We are investigating a service interruption with Flex Agent Desktop. Customers trying to transfer a conversation using digital channels transfer will experience an error. We expect to provide another update in 1 hour or as soon as more information becomes available
       investigating: true
