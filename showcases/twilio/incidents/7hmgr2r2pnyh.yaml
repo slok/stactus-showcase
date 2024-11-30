@@ -1,0 +1,12 @@
+version: incident/v1
+id: 7hmgr2r2pnyh
+name: SMS Delivery Delays to Multiple Network in United Kingdom of Great Britain and Northern Ireland
+impact: none
+systems: []
+timeline:
+    - ts: "2024-11-30 01:45:28"
+      description: Our monitoring systems have detected a potential issue with SMS delivery delays to multiple network in United Kingdom of Great Britain and Northern Ireland. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-11-30 02:05:51"
+      description: We have fully investigated the SMS delivery delays to multiple network in United Kingdom of Great Britain and Northern Ireland, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
