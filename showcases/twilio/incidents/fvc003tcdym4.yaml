@@ -1,9 +1,16 @@
 version: incident/v1
 id: fvc003tcdym4
-name: On Call Engineers are Investigating an issue in the Console
-impact: none
-systems: []
+name: Errors in the Console
+impact: minor
+systems:
+    - g4hs7h64k9fv
 timeline:
     - ts: "2024-11-30 16:49:40"
       description: Our monitoring systems have detected a potential issue in the account settings page, in the Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-11-30 16:54:04"
+      description: We are investigating a service interruption with the account settings page in the Console. Customers may receive the error ‘We are having trouble loading this page due to a server error. Please try again in a few minutes’. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
+    - ts: "2024-11-30 17:04:43"
+      description: We are investigating a service interruption in the Console. Customers may receive the error ‘We are having trouble loading this page due to a server error. Please try again in a few minutes’. We expect to provide another update in 1 hour or as soon as more information becomes available
       investigating: true
