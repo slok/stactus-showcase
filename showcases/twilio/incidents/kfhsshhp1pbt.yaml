@@ -1,0 +1,13 @@
+version: incident/v1
+id: kfhsshhp1pbt
+name: SMS Delivery Delays From and to Twilio Philippines Phone Numbers
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2024-12-01 11:35:30"
+      description: We are experiencing SMS delivery delays From and To Twilio Philippines Phone Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-12-01 12:14:45"
+      description: We continue to experience SMS delivery delays From and To Twilio Philippines Phone Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
