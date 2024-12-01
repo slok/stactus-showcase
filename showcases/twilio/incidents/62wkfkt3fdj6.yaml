@@ -1,6 +1,6 @@
 version: incident/v1
 id: 62wkfkt3fdj6
-name: SMS Delivery Failures to Ditto Network in Philippines 515-66 via International Pre-Registered Sender ID
+name: SMS Delivery Report Delays to Ditto Network in Philippines via International Pre-Registered Sender ID
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -19,4 +19,7 @@ timeline:
       investigating: true
     - ts: "2024-12-01 01:48:07"
       description: We are still experiencing SMS delivery failures to Ditto network in Philippines 515-66 via International Pre-Registered Sender ID. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-12-01 16:56:32"
+      description: We are no longer experiencing SMS delivery failures to Ditto network in Philippines via International Pre-Registered Sender ID. However, we are seeing delivery reports delays. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
       investigating: true
