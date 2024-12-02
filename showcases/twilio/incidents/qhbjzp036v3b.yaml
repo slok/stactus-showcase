@@ -1,0 +1,20 @@
+version: incident/v1
+id: qhbjzp036v3b
+name: SMS Delivery Delays From Twilio Toll-Free Numbers to Small US Carriers
+impact: minor
+systems:
+    - 32f2bm54nkvv
+timeline:
+    - ts: "2024-12-02 15:40:11"
+      description: |-
+        Due to sustained high traffic on the Small US carrier networks, we are currently experiencing SMS delivery delays from Twilio Toll-Free numbers. Messages are queued due to capacity shortage, and customers may see delays when sending to certain US carriers.
+        Please find the current delivery status for the major carriers below:
+        For US Networks, use the following:
+        AT&T (status - Operational)
+        T-Mobile (status -  Operational)
+        Verizon (status -  Operational)
+        MetroPCS (status -  Operational)
+        US Cellular (status -  Operational)
+        Altice (status -  Delayed)
+        We are actively working with our carrier partners to resolve the issue, and we will provide another update in 2 hours or as soon as we have any new information to share.
+      investigating: true

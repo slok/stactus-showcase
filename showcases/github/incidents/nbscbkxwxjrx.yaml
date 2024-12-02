@@ -17,5 +17,5 @@ timeline:
       description: This incident has been mitigated; we are now seeing requests succeeding to the Claude 3.5 Sonnet model in Copilot.
       investigating: true
     - ts: "2024-11-25 12:17:35"
-      description: This incident has been resolved.
+      description: On November 25th, 2024 between 10:38 UTC and 12:00 UTC the Claude model for GitHub Copilot Chat experienced degraded performance. During the impact, all requests to Claude would result in an immediate error to the user. This was due to upstream errors with one of our infrastructure providers, which have since been mitigated.<br /><br />We are working with our infrastructure providers to reduce time to detection and implement additional failover options to mitigate issues like this one in the future.
       resolved: true
