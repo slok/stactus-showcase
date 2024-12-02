@@ -1,0 +1,13 @@
+version: incident/v1
+id: 913f8l5759hx
+name: k6 cloud test data processing issues
+impact: major
+systems:
+    - m79yjv169r06
+    - wbhrnd130mb0
+    - z9074fpyx6sb
+timeline:
+    - ts: "2024-12-02 22:20:43"
+      description: Some tests may time out or be aborted.
+    - ts: "2024-12-02 22:21:51"
+      description: We are continuing to work on a fix for this issue.
