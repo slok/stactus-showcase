@@ -11,3 +11,6 @@ timeline:
     - ts: "2024-12-02 16:14:54"
       description: 'Beginning at 5:00 Pacific Time, we began experiencing delays in devices connecting to the network due to issues with the primary IMSIs on Super SIM. Devices may experience a connection delay (between 3 and 9 minutes) as they transition to back up IMSIs to restore full connectivity.  Our engineering team is actively working with the affected network provider to resolve the issue. We will provide another update in 1 hour or sooner if more information becomes available. For further updates, please visit Super SIM’s new home on KORE’s status page: https://korewireless.service-now.com/csm?id=service_status&service=cb4ae2ca479f0610ab11f92c016d43f1#current_status_degradation'
       investigating: true
+    - ts: "2024-12-02 17:14:18"
+      description: We observed recovery starting around 08:00 Pacific Time, and IMSI switching by impacted SIMs have stopped. Customers that had their SIM cards change IMSI may remain on the alternative IMSI for up to 24 hours before it switches back. At this time, engineers are monitoring recovery. Any further updates will be posted to the KORE status page. https://korewireless.service-now.com/csm?id=service_status&service=cb4ae2ca479f0610ab11f92c016d43f1#current_status_degradation
+      resolved: true
