@@ -1,6 +1,6 @@
 version: incident/v1
 id: cl05dsxgsx2n
-name: SMS Delivery Delays From Twilio Short-Code Numbers to Small US Carriers
+name: SMS Delivery Delays From Twilio Short-Code Numbers to US Carriers
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -11,6 +11,19 @@ timeline:
         Please find the current delivery status for the major carriers below:
         For US Networks, use the following:
         AT&T (status - Operational)
+        T-Mobile (status -  Operational)
+        Verizon (status -  Operational)
+        MetroPCS (status -  Operational)
+        US Cellular (status -  Operational)
+        Altice (status -  Delayed)
+        We are actively working with our carrier partners to resolve the issue, and we will provide another update in 2 hours or as soon as we have any new information to share.
+      investigating: true
+    - ts: "2024-12-02 17:39:31"
+      description: |-
+        Due to sustained high traffic on the US carrier networks, we are currently experiencing SMS delivery delays from Twilio Short-Code numbers. Messages are queued due to capacity shortage, and customers may see delays when sending to certain US carriers.
+        Please find the current delivery status for the major carriers below:
+        For US Networks, use the following:
+        AT&T (status - Delayed)
         T-Mobile (status -  Operational)
         Verizon (status -  Operational)
         MetroPCS (status -  Operational)
