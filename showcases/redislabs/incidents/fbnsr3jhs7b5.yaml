@@ -1,0 +1,11 @@
+version: incident/v1
+id: fbnsr3jhs7b5
+name: Urgent maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-02 21:17:35"
+      description: 'Urgent maintenance applies to all of the resources with the following pattern in their endpoint: c308'
+    - ts: "2024-12-02 21:19:58"
+      description: This incident has been resolved.
+      resolved: true
