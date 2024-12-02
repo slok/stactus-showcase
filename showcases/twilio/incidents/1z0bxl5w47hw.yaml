@@ -22,3 +22,6 @@ timeline:
       investigating: true
     - ts: "2024-12-02 17:48:43"
       description: After monitoring for some time, we started seeing a degradation of the service. We're experiencing SMS delivery report delays to Verizon Wireless in the US via a Subset of short codes. We expect to provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2024-12-02 18:18:57"
+      description: We are still experiencing SMS delivery report delays to Verizon Wireless in the US via subset of Short-code numbers, however, since there are several networks impacted, we’re resolving this post, and we’re consolidating all impacted networks into one post. You can check the status of this at https://status.twilio.com/incidents/cl05dsxgsx2n.
+      resolved: true

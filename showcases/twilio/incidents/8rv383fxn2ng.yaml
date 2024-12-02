@@ -23,8 +23,11 @@ timeline:
     - ts: "2024-12-02 13:00:45"
       description: We are observing recovery in delivery report delays when sending to Verizon network in the US for a subset of toll-free numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2024-12-02 15:00:15"
-      description: After monitoring for some time, we started seeing a degradation of the service. We're experiencing SMS delivery report delays to Verizon Wireless in the United States of America via a Subset of long codes. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: After monitoring for some time, we started seeing a degradation of the service. We're experiencing SMS delivery report delays to Verizon Wireless in the United States of America via a Subset of toll-free. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2024-12-02 16:10:05"
-      description: We are observing SMS Delivery Report Delays to Verizon Wireless in the US via Subset of Long-Code numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      description: We are observing SMS Delivery Report Delays to Verizon Wireless in the US via Subset of Toll-Free numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2024-12-02 18:15:51"
+      description: We are still experiencing SMS delivery report delays to Verizon Wireless in the US via subset of Toll-Free numbers, however, since there are several networks impacted, we're resolving this post, and we're consolidating all impacted networks into one post. You can check the status of this at https://status.twilio.com/incidents/qhbjzp036v3b.
+      resolved: true

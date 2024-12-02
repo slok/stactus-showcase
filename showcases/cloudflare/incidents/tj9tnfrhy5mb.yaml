@@ -1,6 +1,6 @@
 version: incident/v1
 id: tj9tnfrhy5mb
-name: Performance issues
+name: Network Performance Issues in ARN, AMS, ATL, EWR, ORD, DFW, FRA, GRU, MXP.
 impact: minor
 systems:
     - 57ctn3f2qsyj
@@ -15,5 +15,5 @@ systems:
     - hb7g5sq2zz0h
 timeline:
     - ts: "2024-12-02 18:05:40"
-      description: Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers. Further detail will be provided as more information becomes available.
+      description: Cloudflare is investigating issues with network performance in ARN, AMS, ATL, EWR, ORD, DFW, FRA, GRU, MXP. We are working to analyse and mitigate this problem. More updates to follow shortly.
       investigating: true
