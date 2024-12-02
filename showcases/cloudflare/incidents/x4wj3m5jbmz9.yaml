@@ -1,0 +1,10 @@
+version: incident/v1
+id: x4wj3m5jbmz9
+name: Cloudflare Calls analytics issues
+impact: minor
+systems:
+    - 22w40048dzd1
+timeline:
+    - ts: "2024-12-02 22:50:47"
+      description: Cloudflare Calls analytics data after 22:40 UTC on 2024-12-02 is unavailable. Global SFU and TURN services continue to work.
+      investigating: true

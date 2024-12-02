@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9rlvqrkzt4br
+name: Alerts UI Irregularities - US region
+impact: minor
+systems:
+    - k4c77k6bzcl7
+timeline:
+    - ts: "2024-12-02 23:00:10"
+      description: Some customers in the US region may experience issues creating or editing alert conditions through the New Relic UI or API. Data ingest and alert notifications are not impacted at this time. We are investigating and will continue to provide updates here as more information is available.
+      investigating: true
