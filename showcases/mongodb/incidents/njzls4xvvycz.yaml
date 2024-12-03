@@ -1,10 +1,10 @@
 version: incident/v1
 id: njzls4xvvycz
-name: Metrics Ingestion Is Degraded Across All Services
+name: Metrics Ingestion Is Degraded Across Atlas Services. Alerts processing is also delayed.
 impact: minor
 systems:
     - 98lbmdz85yp0
 timeline:
     - ts: "2024-12-03 16:43:51"
-      description: We are currently investigating an issue with metrics ingestion.
+      description: We are currently investigating an issue with metrics ingestion. Alerts processing is also delayed.
       investigating: true

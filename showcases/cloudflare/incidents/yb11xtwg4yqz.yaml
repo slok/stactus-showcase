@@ -1,0 +1,11 @@
+version: incident/v1
+id: yb11xtwg4yqz
+name: Issues with registering new Cloudflare Tunnel, WARP Clients and IPSec Tunnel connections.
+impact: minor
+systems:
+    - y98zlwj1d7zh
+    - k04jkcpzxn94
+timeline:
+    - ts: "2024-12-03 17:22:52"
+      description: Cloudflare is investigating issues impacting new connection registrations of Cloudflare Tunnel, WARP Clients and IPSec Tunnels.
+      investigating: true
