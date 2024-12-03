@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1c5bgl5wqddc
+name: Grafana oncall error 500 and retrying tasks
+impact: minor
+systems:
+    - h3wg1km0qxwv
+timeline:
+    - ts: "2024-12-03 00:10:28"
+      description: We’re currently experiencing degraded user experience with our Slack app (acknowledging, resolving, etc alert groups from Slack)
+      investigating: true
