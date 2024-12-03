@@ -1,0 +1,13 @@
+version: incident/v1
+id: 6txhf8jl9py6
+name: SMS Delivery Delivery Receipts delays to Multiple networks in Italy
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2024-12-03 14:53:05"
+      description: We are experiencing SMS delivery delays when sending messages to multiple networks in Italy. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-12-03 14:55:55"
+      description: We are experiencing SMS Delivery Receipts delays when sending messages to multiple networks in Italy. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
