@@ -1,0 +1,10 @@
+version: incident/v1
+id: njzls4xvvycz
+name: Metrics Ingestion Is Degraded Across All Services
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2024-12-03 16:43:51"
+      description: We are currently investigating an issue with metrics ingestion.
+      investigating: true
