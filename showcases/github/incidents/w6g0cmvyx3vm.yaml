@@ -1,0 +1,30 @@
+version: incident/v1
+id: w6g0cmvyx3vm
+name: Incident with Pull Requests and API Requests
+impact: minor
+systems:
+    - brv1bkgrwx7q
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+timeline:
+    - ts: "2024-12-03 19:48:52"
+      description: We are investigating reports of degraded performance for API Requests, Actions and Pull Requests
+      investigating: true
+    - ts: "2024-12-03 19:54:04"
+      description: Some users will experience problems with certain features of pull requests, actions, issues and other areas. We are aware of the issue, know the cause, and are working on a mitigation.
+      investigating: true
+    - ts: "2024-12-03 19:59:48"
+      description: We have taken mitigating actions and are starting to see recovery but are continuing to monitor and ensure full recovery. Some users may still see errors.
+      investigating: true
+    - ts: "2024-12-03 20:02:07"
+      description: API Requests is operating normally.
+      investigating: true
+    - ts: "2024-12-03 20:04:59"
+      description: Actions is operating normally.
+      investigating: true
+    - ts: "2024-12-03 20:05:02"
+      description: Pull Requests is operating normally.
+      investigating: true
+    - ts: "2024-12-03 20:05:05"
+      description: This incident has been resolved.
+      resolved: true
