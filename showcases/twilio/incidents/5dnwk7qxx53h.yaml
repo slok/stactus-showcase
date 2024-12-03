@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5dnwk7qxx53h
+name: SMS Delivery Delays to MyTel in Myanmar
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2024-12-03 14:46:17"
+      description: We are experiencing SMS delivery delays when sending messages to MyTel network in Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
