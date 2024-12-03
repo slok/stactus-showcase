@@ -1,0 +1,9 @@
+version: incident/v1
+id: r6ltkr1t0vkr
+name: Hyperdrive local development results in connection errors
+impact: minor
+systems:
+    - d0x62dsm4c9n
+timeline:
+    - ts: "2024-12-03 03:29:07"
+      description: "Hyperdrive versions 3.84.1 and up result in connectivity errors during local development. \n\nPlease downgrade to 3.83.0 while we work on a fix."
