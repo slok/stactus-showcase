@@ -1,0 +1,10 @@
+version: incident/v1
+id: gvk5dlnbmy37
+name: SMS Delivery Failures to Globe in Philippines Over A Subset Of Domestic Long Code
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2024-12-03 03:50:40"
+      description: We are experiencing SMS delivery failures to Globe in Philippines over a subset of Domestic Long Code. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
