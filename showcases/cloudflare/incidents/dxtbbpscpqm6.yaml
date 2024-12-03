@@ -1,13 +1,17 @@
 version: incident/v1
 id: dxtbbpscpqm6
 name: Network Performance Issues in Frankfurt, Germany
-impact: none
+impact: minor
 systems:
     - rbnhbzgld936
+    - hb7g5sq2zz0h
 timeline:
     - ts: "2024-12-03 14:16:21"
       description: |-
         Cloudflare is investigating issues with Network Performance in Frankfurt, Germany
 
         We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2024-12-03 15:30:44"
+      description: We are continuing to investigate this issue. Cloudflare R2 users might observe 500 or 524 error responses.
       investigating: true
