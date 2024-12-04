@@ -5,6 +5,8 @@ impact: minor
 systems:
     - 4230lsnqdsld
     - brv1bkgrwx7q
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
 timeline:
     - ts: "2024-12-04 18:58:40"
       description: We are currently investigating this issue.
@@ -14,4 +16,22 @@ timeline:
       investigating: true
     - ts: "2024-12-04 19:05:31"
       description: API Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-12-04 19:07:56"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-12-04 19:11:44"
+      description: We have identified the cause of timeouts impacting users across multiple services. This change was rolled back and we are seeing recovery. We will continue to monitor for complete recovery.
+      investigating: true
+    - ts: "2024-12-04 19:17:24"
+      description: Webhooks is operating normally.
+      investigating: true
+    - ts: "2024-12-04 19:18:19"
+      description: API Requests is operating normally.
+      investigating: true
+    - ts: "2024-12-04 19:20:23"
+      description: Issues is operating normally.
+      investigating: true
+    - ts: "2024-12-04 19:21:22"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
       investigating: true
