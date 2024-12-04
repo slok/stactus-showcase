@@ -1,9 +1,13 @@
 version: incident/v1
 id: 4gr4zpy0swnj
-name: Investigating an Issue with Conversations API Returning 400
-impact: none
-systems: []
+name: Elevated 400 Errors on Conversations API for Requests Without Service SID
+impact: minor
+systems:
+    - 4rv9xfxmdjg9
 timeline:
     - ts: "2024-12-04 11:30:15"
       description: Our monitoring systems have detected a potential issue with Twilio Conversations. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-04 11:51:48"
+      description: We are currently investigating an issue with the Conversations API that resulted in some customers receiving responses with status code 400 and Twilio Error Code 20160. This issue impacts requests made without a Service SID in the URL. We expect to provide another update in 1 hour or as soon as more information becomes available. For more information on Error Code 20160, please refer to the https://www.twilio.com/docs/api/errors/20160
       investigating: true
