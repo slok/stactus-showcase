@@ -8,7 +8,11 @@ systems:
     - s6jxgrkjjj6p
 timeline:
     - ts: "2024-12-04 18:48:43"
-      description: We are investigating increased latency in processing APM Distribution Metrics and Data Streams Monitoring Metrics as well as monitors notifications based on these metrics, which began at 12:47 PM EST. As a result of this issue, some users may see delays or gaps for these metrics on graphs, including APM pages as well as delayed monitor notifications.
+      description: We are investigating increased latency in processing APM Distribution Metrics and Data Streams Monitoring Metrics as well as monitors notifications based on these metrics, which began at 17h47 UTC. As a result of this issue, some users may see delays or gaps for these metrics on graphs, including APM pages as well as delayed monitor notifications.
       investigating: true
     - ts: "2024-12-04 18:49:09"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2024-12-04 18:53:28"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2024-12-04 19:05:33"
+      description: Data Streams Monitoring metrics and associated monitor notifications based on these metrics have recovered.

@@ -1,0 +1,17 @@
+version: incident/v1
+id: 4349zxvb8stp
+name: Disruption with some GitHub services
+impact: minor
+systems:
+    - 4230lsnqdsld
+    - brv1bkgrwx7q
+timeline:
+    - ts: "2024-12-04 18:58:40"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2024-12-04 19:05:13"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2024-12-04 19:05:31"
+      description: API Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
