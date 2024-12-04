@@ -1,10 +1,16 @@
 version: incident/v1
 id: d433fb6q0nl1
 name: Intermittent Availability Issues with Hosted Grafana in prod-eu-west-2
-impact: major
+impact: minor
 systems:
     - 6wgslg1s3bzr
 timeline:
     - ts: "2024-12-04 18:24:23"
       description: We are currently investigating an issue impacting the availability of hosted Grafana instances in the prod-eu-west-2 region.
       investigating: true
+    - ts: "2024-12-04 18:32:44"
+      description: Issue has been identified and a fix is being implemented.
+    - ts: "2024-12-04 18:33:45"
+      description: A fix has been implemented and we are monitoring the results. All affected instances should now be online and functioning normally.
+    - ts: "2024-12-04 18:35:00"
+      description: We are continuing to monitor for any further issues.
