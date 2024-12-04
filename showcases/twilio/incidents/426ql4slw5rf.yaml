@@ -1,0 +1,13 @@
+version: incident/v1
+id: 426ql4slw5rf
+name: AWS Kinesis Event Stream Delivery Interruption
+impact: minor
+systems:
+    - zxhmy448yyn3
+timeline:
+    - ts: "2024-12-04 03:16:02"
+      description: We've become aware of a potential issue delivering events through Kineses in the Event Streams. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-04 03:18:13"
+      description: We are continuing to investigate this issue.
+      investigating: true
