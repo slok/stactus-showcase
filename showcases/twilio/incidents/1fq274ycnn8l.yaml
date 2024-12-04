@@ -1,0 +1,11 @@
+version: incident/v1
+id: 1fq274ycnn8l
+name: SMS Delivery Delay & Failure To Sercomtel Network In Brazil
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2024-12-04 07:09:37"
+      description: We are experiencing SMS Delivery Delay & Failure To Sercomtel Network In Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1X hour or as soon as more information becomes available.
+      investigating: true
