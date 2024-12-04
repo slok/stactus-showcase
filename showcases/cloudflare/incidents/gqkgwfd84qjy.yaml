@@ -1,0 +1,12 @@
+version: incident/v1
+id: gqkgwfd84qjy
+name: Increased Errors for R2 and Durable Objects in the Asia-Pacific (APAC) region
+impact: minor
+systems:
+    - bty1yz6dhh0v
+    - 18p6r93swmbl
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2024-12-04 14:17:26"
+      description: Cloudflare is aware of, and investigating an issue with R2 and Durable Objects which potentially impacts multiple customers in the Singapore region. Durable Objects are experiencing an elevated level of overload errors in the aforementioned region. We are currently investigating this issue.
+      investigating: true
