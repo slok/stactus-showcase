@@ -26,5 +26,5 @@ timeline:
       description: Pull Requests is operating normally.
       investigating: true
     - ts: "2024-12-03 20:05:05"
-      description: This incident has been resolved.
+      description: On December 3, 2024, between 19:35 UTC and 20:05 UTC API requests, Actions, Pull Requests and Issues were degraded. Web and API requests for Pull Requests experienced a 3.5% error rate and Issues had a 1.2% error rate. The highest impact was for users who experienced errors while creating and commenting on Pull Requests and Issues. Actions had a 3.3% error rate in jobs and delays on some updates during this time.<br /><br />This was due to an erroneous database credential change impacting write access to Issues and Pull Requests data. We mitigated the incident by reverting the credential change at 19:52 UTC. We continued to monitor service recovery before resolving the incident at 20:05 UTC. <br /><br />There are a few improvements we are making in response to this. We are investing in safe guards to the change management process in order to prevent erroneous database credential changes. Additionally, the initial rollback attempt was unsuccessful which led to a longer time to mitigate. We were able to revert through an alternative method and are updating our playbooks to document this mitigation strategy.
       resolved: true
