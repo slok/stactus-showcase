@@ -1,0 +1,9 @@
+version: incident/v1
+id: l5nmhxz2pzmv
+name: Increased 5xx error rate affecting Studio API endpoints.
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-04 17:50:27"
+      description: Our engineers have identified an issue with the Twilio API Gateway that caused an increased rate of 5xx errors impacting Studio API endpoints from 8:47:52 PT to 9:02:46 PT.  The impacted service has been rolled back and impact mitigated.
+      resolved: true
