@@ -1,0 +1,10 @@
+version: incident/v1
+id: wr7bysll516w
+name: SMS Delivery Delays To and From Hungary, Austria and Czech Republic Via Subset Of Domestic Sender IDs
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2024-12-05 12:16:18"
+      description: We are experiencing SMS delivery delays to and from Hungary, Austria and Czech Republic subset of domestic Sender IDs. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
