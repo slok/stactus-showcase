@@ -1,6 +1,6 @@
 version: incident/v1
 id: 3c2wfrnsbjkz
-name: Delayed alert notifications for the EU region.
+name: Delayed alert notifications for the EU region
 impact: minor
 systems:
     - d9pwhb6snl77
@@ -14,4 +14,10 @@ systems:
 timeline:
     - ts: "2024-12-05 23:20:30"
       description: Some customers in the EU region may intermittently experience delayed alert notifications. Data ingest is not impacted at this time.
+      investigating: true
+    - ts: "2024-12-05 23:25:06"
+      description: |-
+        Some customers in the EU region may intermittently experience delayed alert notifications. Data ingest is not impacted at this time.
+
+        We are continuing to investigate this issue.
       investigating: true
