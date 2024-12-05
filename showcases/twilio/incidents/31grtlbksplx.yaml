@@ -1,6 +1,6 @@
 version: incident/v1
 id: 31grtlbksplx
-name: Voice Failures Fetching Media for <Say> and <Play>
+name: Voice Failures With <Say> Basic Voices
 impact: minor
 systems:
     - dv0j99s68yxn
@@ -11,3 +11,7 @@ timeline:
     - ts: "2024-12-05 17:20:09"
       description: Our engineers have identified an issue with voice call functionalities, customers may experience significant service degradation, specifically with media fetching capabilities through <Say> Basic Voices and <Play>. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2024-12-05 17:30:03"
+      description: |-
+        Our engineers have identified an issue with Voice <Say> Basic Voices and customers may see intermittent issues.
+        This is issue has now been mitigated and our engineering team is monitoring for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
