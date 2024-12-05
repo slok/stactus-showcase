@@ -1,0 +1,9 @@
+version: incident/v1
+id: 41sj47j4508f
+name: Increased HTTP 503 errors for Workers requests
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2024-12-05 19:37:57"
+      description: Cloudflare is investigating increased levels of HTTP 503 errors for Workers requests.
