@@ -1,0 +1,9 @@
+version: incident/v1
+id: f3l1n5ccwx7y
+name: Cloudflare Access Infrastructure SSH applications not emitting command logs
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2024-12-05 18:41:42"
+      description: Cloudflare is investigating an issue causing SSH Infrastructure Application command logging to not emit command logs. All Access authentication, including infrastructure apps, and all other application type logging are not impacted at this time.
