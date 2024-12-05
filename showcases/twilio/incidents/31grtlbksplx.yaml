@@ -1,9 +1,13 @@
 version: incident/v1
 id: 31grtlbksplx
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Voice Failures Fetching Media for <Say> and <Play>
+impact: minor
+systems:
+    - dv0j99s68yxn
 timeline:
     - ts: "2024-12-05 16:59:43"
       description: Our monitoring systems have detected a potential issue with Programmable Voice fetching media. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-05 17:20:09"
+      description: Our engineers have identified an issue with voice call functionalities, customers may experience significant service degradation, specifically with media fetching capabilities through <Say> Basic Voices and <Play>. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
