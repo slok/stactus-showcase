@@ -1,0 +1,13 @@
+version: incident/v1
+id: n9zcbtq474y2
+name: WhatsApp Sender Onboarding Failures When Using Senders API
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2024-12-05 17:50:35"
+      description: Our monitoring systems have detected a potential issue with WhatsApp Onboarding. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-05 17:58:53"
+      description: Our engineers are investigating an issue with WhatsApp onboarding when using the Senders API blocking customers from onboarding to WhatsApp. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
