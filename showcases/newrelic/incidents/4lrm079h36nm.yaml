@@ -1,0 +1,13 @@
+version: incident/v1
+id: 4lrm079h36nm
+name: Potential Service Interruption
+impact: major
+systems:
+    - ty1004s644gq
+timeline:
+    - ts: "2024-12-05 09:38:10"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-12-05 09:42:12"
+      description: We are investigating a potential service interruption that may impact some customers. Some customers may be experiencing issues with APM monitoring/tools not displaying data. Please continue to monitor this page for updates.
+      investigating: true
