@@ -79,3 +79,50 @@ timeline:
     - ts: "2024-11-29 05:35:22"
       description: Our Engineering team has confirmed the full resolution of this issue. If you continue to experience problems, please open a ticket with our support team. Thank you for being so patient, and we apologize for any inconvenience.
       resolved: true
+    - ts: "2024-12-05 01:36:06"
+      description: |-
+        # Incident Summary
+
+        On Thursday, November 28, 2024, our domain registrar, Network Solutions, made an update to our [digitaloceanspaces.com](http://digitaloceanspaces.com) domain. The change made at 22:38 UTC \(5:38:40PM ET\) added an Extensible Provisioning Protocol \(EPP\) [clientHold](https://icann.org/epp#clientHold) status code to our domain.
+
+        The code prevents DNS resolution until a customer contacts Network Solutions to clear the hold. The impact of the hold resulted in DigitalOcean customers being unable to sign-up/log-in via the Cloud Control Panel at the beginning of the incident and experiencing errors with Spaces buckets and dependent services, such as DigitalOcean Container Registry, App Platform, Functions, Load Balancers, and Mongo Managed Database Backups for the duration of the incident. 
+
+        # Incident Summary
+
+        **Root Cause:** Domain registrar erroneously placed a clientHold on the [digitaloceanspaces.com](http://digitaloceanspaces.com) domain, impacting DNS resolution and causing an outage.
+
+        **Impact:** Traffic to DigitalOcean products \(e.g. Cloud Control Panel, Spaces, App Platform, etc.\) began to see intermittent failures between 11/28 22:38 UTC and 04:03 UTC, with the worst failures happening between 03:00 and 04:03 UTC as DNS cache and TTLs began expiring.
+
+        **Response:** DigitalOcean escalated to the domain registrar, as well as Verisign \(as the authoritative domain registry for .com domains\), to have the clientHold removed. 
+
+        # Timeline of Events
+
+        November 28, 2024 \(UTC\)
+
+        * 22:38 - Incident declared based on monitoring and customer reports of our Cloud Control Panel not loading.
+        * 22:44 -  Issue detected by an internal alert
+        * 22:57 - 1st customer contact regarding Cloud Control Panel impact
+        * 23:57 - We noticed that our whois information for the domain had been updated on November 28 22:38 UTC.
+
+        November 29, 2024 \(UTC\)
+
+        * 01:06 - We identified the clientHold status in the EPP section of our whois for [digitaloceanspaces.com](http://digitaloceanspaces.com) and confirmed in our Network Solutions account that the domain had been marked inactive.
+        * 01:08 - We initiated contact with Network Solutions to have the clientHold removed.
+        * 01:30 - Reached out to Verisign executives to assistance 
+        * 01:42 - **Cloud Control Panel functionality restored**. 
+        * 02:40 - Conference call with Verisign executive to brief them on the issue\(s\) we have encountered attempting to resolve the clientHold status.
+        * 02:44 - Email chain established with Verisign executives. A recap of all work done, problems, and a clear issue resolution request were sent.
+        * 02:44 - 04:03 - Multiple escalations between Verisign executives leading to clientHold being removed.
+        * 03:00 - As DNS caches and recursive DNS server TTLs began to expire, we saw the most severe service disruptions to our customers until resolution
+        * 04:03 - clientHold removed from domain
+        * 04:03 - 5:38:40 - Monitoring all infrastructure to ensure healthy and full recovery. **DigitalOcean functionality fully restored.**
+
+        # Remediation Actions
+
+        DigitalOcean teams are working on multiple types of remediation to prevent a similar incident from happening.
+
+        DigitalOcean is working with Network Solutions to understand what happened on their end that resulted in the clientHold being applied to our domain incorrectly.
+
+        In addition, we are reviewing other domain registrars as possible new homes for our domains.
+
+        Teams are also reviewing our monitoring and alerting to reduce our time to detect incidents related to registrar imposed changes and/or DNS resolution.
