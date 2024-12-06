@@ -1,0 +1,9 @@
+version: incident/v1
+id: v1f1jv1fv0xp
+name: High latency and amount of errors on Sync Insights direct orchestration
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-06 16:41:05"
+      description: The infrastructure powering Flex Teams View had temporary network issues. The impact window was 14:30-15:25 UTC. Flex customers may have experienced issues/slowness on realtime updates for Flex Teams View.
+      resolved: true
