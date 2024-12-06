@@ -1,9 +1,13 @@
 version: incident/v1
 id: 0cnq58lkd1t4
-name: On Call Engineers are Investigating an Issue with SMS Delivery Failures to Multiple Networks in Japan
+name: SMS Delivery Failures to Multiple Networks in Japan for a subset of Twilio Numbers
 impact: none
-systems: []
+systems:
+    - yvvy3vlp4djf
 timeline:
     - ts: "2024-12-06 21:30:14"
       description: Our monitoring systems have detected a potential issue with SMS delivery failures to multiple networks in Japan. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-06 22:19:10"
+      description: We are experiencing SMS delivery delays when sending messages to multiple networks in Japan for a subset of Twilio numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
