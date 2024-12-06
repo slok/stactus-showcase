@@ -11,5 +11,5 @@ timeline:
       description: Migrations are failing for a subset of users in the EU region with data residency. We believe we have resolved the issue and are monitoring for resolution.
       investigating: true
     - ts: "2024-12-06 17:17:36"
-      description: This incident has been resolved.
+      description: Upon further investigation, the degradation in migrations in the EU was caused by an internal configuration issue, which was promptly identified and resolved. No customer migrations were impacted during this time and the issue only affected GitHub Enterprise Cloud - EU and had no impact on Github.com. The service is now fully operational. We are following up by improving our processes for these internal configuration changes to prevent a recurrence, and to have incidents that affect GitHub Enterprise Cloud - EU be reported on https://eu.githubstatus.com/.
       resolved: true
