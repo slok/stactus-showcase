@@ -1,0 +1,9 @@
+version: incident/v1
+id: sw3qlv382m6j
+name: Machine Creates and Updates currently failing
+impact: none
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2024-12-06 15:02:12"
+      description: We were alerted to elevated error rates for machine creates and updates. A deploy caused a validation error which is not being reverted.
