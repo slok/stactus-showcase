@@ -26,3 +26,6 @@ timeline:
       investigating: true
     - ts: "2024-12-06 01:35:59"
       description: "The issue has been identified and a fix is being implemented. \n\nSome customers in the EU region may experience delayed or missing alert notifications. Data ingest is not impacted at this time."
+    - ts: "2024-12-06 02:19:30"
+      description: "Between 22:51 UTC on Wednesday, December 5th and 02:16 UTC on December 6th, some customers in the EU region may have experienced delayed or missing alert notifications. Data processing for affected data may have been impacted. \n\nWe have investigated and resolved this service interruption and impacted services have returned to normal operations."
+      resolved: true
