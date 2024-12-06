@@ -1,9 +1,13 @@
 version: incident/v1
 id: 1lzz9n9sxvqj
 name: On Call Engineers are Investigating an issue with US and CA Emergency Address Registration and Unregistration
-impact: none
-systems: []
+impact: minor
+systems:
+    - m5b6twz4h52d
 timeline:
     - ts: "2024-12-06 20:39:07"
       description: Our monitoring systems have detected a potential issue with US and CA emergency address registration and unregistration. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-06 20:53:45"
+      description: We are investigating an issue with US and CA emergency address registration and unregistration . We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
