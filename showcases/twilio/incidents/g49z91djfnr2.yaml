@@ -1,0 +1,10 @@
+version: incident/v1
+id: g49z91djfnr2
+name: Inbound Call Failure to a Subset of Twilio Phone Numbers in Philippines
+impact: minor
+systems:
+    - 50pr269zqrwj
+timeline:
+    - ts: "2024-12-06 09:22:06"
+      description: We are observing call failures to a subset of Twilio phone numbers in Philippines. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
