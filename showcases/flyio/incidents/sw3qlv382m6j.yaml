@@ -6,4 +6,6 @@ systems:
     - 80ykv2p95qgy
 timeline:
     - ts: "2024-12-06 15:02:12"
-      description: We were alerted to elevated error rates for machine creates and updates. A deploy caused a validation error which is not being reverted.
+      description: We were alerted to elevated error rates for machine creates and updates. A deploy caused a validation error which is now being reverted.
+    - ts: "2024-12-06 15:12:18"
+      description: The validation fix has been deployed and our monitoring has resolved for the API error rate.
