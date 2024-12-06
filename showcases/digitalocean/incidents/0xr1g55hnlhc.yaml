@@ -1,0 +1,10 @@
+version: incident/v1
+id: 0xr1g55hnlhc
+name: App Platform Deployments
+impact: none
+systems:
+    - txysr8r0gn1n
+timeline:
+    - ts: "2024-12-06 18:38:50"
+      description: "Our Engineering team identified an issue affecting App Platform deployments across all regions. The deploy-on-push functionality may not have triggered new builds between 15:45 and 18:15 UTC. \n\nA fix has been implemented, and as of 18:15 UTC, deployments have been functioning successfully. If you continue to experience problems, please open a ticket with our support team. . We apologize for any inconvenience."
+      resolved: true
