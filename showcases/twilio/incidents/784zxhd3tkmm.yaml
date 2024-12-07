@@ -1,0 +1,10 @@
+version: incident/v1
+id: 784zxhd3tkmm
+name: SMS Delivery Delays and Failures to Vodafone in Germany
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2024-12-07 06:44:58"
+      description: We are experiencing SMS delivery delays and failures to Vodafone in Germany. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
