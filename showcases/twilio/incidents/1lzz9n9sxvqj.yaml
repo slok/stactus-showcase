@@ -14,3 +14,8 @@ timeline:
     - ts: "2024-12-06 21:52:36"
       description: Our monitoring systems have detected a potential issue with our emergency services third party provider. Our engineering team has been alerted and is actively investigating. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2024-12-06 23:49:18"
+      description: US and CA emergency address registration and unregistration are now operating normally. We will continue to monitor for system stability. We'll provide another update in 15 minutes or as soon as more information becomes available.
+    - ts: "2024-12-07 00:04:28"
+      description: Our monitoring systems do not detect any errors from our third party emergency services provider. We are no longer experiencing failures for emergency address registration/unregistration.
+      resolved: true

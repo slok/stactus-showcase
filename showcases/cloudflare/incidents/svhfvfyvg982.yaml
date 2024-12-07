@@ -1,0 +1,10 @@
+version: incident/v1
+id: svhfvfyvg982
+name: Increased Durable Objects errors in WNAM
+impact: minor
+systems:
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2024-12-06 23:52:54"
+      description: Cloudflare is investigating an increased level of errors for customers running Durable Objects. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
