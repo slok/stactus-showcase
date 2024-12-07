@@ -1,0 +1,22 @@
+version: incident/v1
+id: 3z4nfcncqyxl
+name: Possible Network Congestion in EU and Asia Colos
+impact: minor
+systems:
+    - 57ctn3f2qsyj
+    - 7h95kvc52rn6
+    - shcqh0p22750
+    - wf2gdmxg7cv3
+    - qwrpqdwqxy7r
+    - 7z1q346n4s38
+    - 3wk2ykcwwd76
+    - k8q1kmz4gfms
+    - 03jl43mg92tk
+    - w1br383gmlwj
+    - hr78s04g1r5b
+    - 0gh2jr9mdr7v
+    - x3f20ycsm3n5
+timeline:
+    - ts: "2024-12-07 17:40:24"
+      description: "Cloudflare is observing possible network congestion in Europe and Asia. \n\nWe are working to mitigate impact to Internet users in this region."
+      investigating: true
