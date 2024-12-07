@@ -7,3 +7,6 @@ timeline:
     - ts: "2024-12-06 21:28:41"
       description: Our monitoring systems have detected a potential issue with SMS delivery failures to multiple networks in Japan for a subset of long codes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2024-12-07 12:03:23"
+      description: We have fully investigated the SMS delivery failures to multiple networks in Japan for a subset of long codes and it was determined that the impact was limited, Our engineers are working with our carrier partner to resolve the issue and updates are posted in the Twilio Status Page.
+      resolved: true
