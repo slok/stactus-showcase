@@ -1,9 +1,12 @@
 version: incident/v1
 id: 9fv5fp6kst45
-name: On Call Engineers are Investigating an issue of private ai license expired and its preventing pii extraction
-impact: none
-systems: []
+name: Redaction Failing for Twilio Conversations in Flex Conversational Insights
+impact: minor
+systems:
+    - lv1md8v28lhr
 timeline:
     - ts: "2024-12-08 02:43:12"
       description: Our monitoring systems have detected a potential issue of of private ai license expired and its preventing pii extraction. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2024-12-08 03:12:11"
+      description: We are experiencing an issue with Redaction failing for Twilio conversations in Flex Conversational Insights due to which data is not getting ingested in our third party vendor, which has now been identified. We are actively working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
