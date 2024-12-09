@@ -1,0 +1,11 @@
+version: incident/v1
+id: 79yf8jngx43q
+name: WARP release page not available
+impact: minor
+systems:
+    - k04jkcpzxn94
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2024-12-09 16:12:44"
+      description: Cloudflare is aware of issues with downloading the Cloudflare WARP Client for Windows and macOS due to Microsoft App Center issues.
+      investigating: true

@@ -1,9 +1,12 @@
 version: incident/v1
 id: y0nyp431b6cr
-name: On Call Engineers Are Investigating an Issue With Porting APIs
-impact: none
-systems: []
+name: Increased Latency to Portability API
+impact: minor
+systems:
+    - pv5w18vrltfl
 timeline:
     - ts: "2024-12-09 15:56:53"
       description: We've become aware of a potential issue with Porting APIs. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2024-12-09 16:17:44"
+      description: Our engineers have identified an issue with increased latency in Portability API, which may cause delays in automated porting of a phone number. We expect to provide another update in 1 hour or as soon as more information becomes available.
