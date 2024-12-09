@@ -1,10 +1,13 @@
 version: incident/v1
 id: gfml47lfndwy
-name: SMS Delivery Failures To Sberbank Telecom Network in Russia Via Subset of Alphanumeric Sender ID
+name: SMS Delivery Failures to Sberbank Telecom Network in Russia Via Subset of Alphanumeric Sender ID
 impact: minor
 systems:
     - llgdln3dcs6p
 timeline:
     - ts: "2024-12-09 05:31:47"
       description: We are experiencing SMS delivery failures to Sberbank Telecom Network in Russia via a subset of Alphanumeric Sender ID. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-12-09 06:31:06"
+      description: We are continuing to experience SMS delivery failures to Sberbank Telecom Network in Russia via a subset of Alphanumeric Sender ID. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hour or as soon as more information becomes available.
       investigating: true
