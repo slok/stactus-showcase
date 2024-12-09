@@ -1,10 +1,13 @@
 version: incident/v1
 id: 5jhfmp8ngt4t
-name: On Call Engineers Are Investigating SMS Delivery Failures to a Subset of Twilio's Numbers in Australia
-impact: none
+name: SMS Delivery Failures to a Subset of Numbers in Australia
+impact: minor
 systems:
     - 8qjql0kqnd33
 timeline:
     - ts: "2024-12-09 19:16:40"
       description: We've become aware of a potential issue with SMS delivery delays failures to a subset of Twilio's numbers in Australia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-09 19:38:42"
+      description: We are experiencing SMS delivery delays failures to a subset of numbers in Australia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
