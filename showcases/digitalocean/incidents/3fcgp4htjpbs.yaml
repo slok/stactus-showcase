@@ -1,0 +1,15 @@
+version: incident/v1
+id: 3fcgp4htjpbs
+name: Managed Databases Creation
+impact: minor
+systems:
+    - mzkgffp35tq4
+timeline:
+    - ts: "2024-12-10 19:22:44"
+      description: |-
+        Our Engineering team is investigating an issue causing Managed Database clusters to take longer than usual to be created. Our team is currently assessing the root cause and working to resolve the issue as quickly as possible.
+
+        Existing database clusters are not affected, and all other services are operating normally.
+
+        We apologize for any inconvenience this may cause and will share an update as soon as we have more information.
+      investigating: true
