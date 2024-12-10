@@ -8,3 +8,5 @@ timeline:
     - ts: "2024-12-10 22:27:08"
       description: At approximately 22:00 UTC our team was alerted to an issue causing elevated errors in some tenants in the prod-us-east-0 region. Users in the impacted region may experience errors while attempting to query metrics. We are actively taking steps to mitigate and resolve this issue.
       investigating: true
+    - ts: "2024-12-10 23:07:56"
+      description: A fix has been implemented, and we are monitoring the results.
