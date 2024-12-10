@@ -1,0 +1,17 @@
+version: incident/v1
+id: 2ps97pjyky9c
+name: Potential Service Interruption
+impact: minor
+systems:
+    - nw4g7754n7tl
+    - 6qh38lgrdr8v
+timeline:
+    - ts: "2024-12-10 10:50:43"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2024-12-10 10:53:27"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-12-10 10:57:22"
+      description: We are investigating an issue that may impact the creation of new dashboards for customer accounts in the US and EU regions
+      investigating: true
