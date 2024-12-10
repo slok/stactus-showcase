@@ -14,5 +14,5 @@ timeline:
       description: We have resolved the issue but are waiting for queues to catch up.
       investigating: true
     - ts: "2024-11-19 12:03:43"
-      description: This incident has been resolved.
+      description: On November 19, 2024, between 10:56:00 UTC and 12:03:00 UTC the notifications service was degraded and stopped sending notifications. On average, notifications delivery was delayed about 1 hour. This was due to a database host coming out of a regular maintenance process in read only-mode.<br />We mitigated the incident by making the host writable again. After that the notifications delivery recovered and any delivery job that had failed during the incident was successfully retried.<br />We are working to improve our observability across database clusters to reduce our time to detection and mitigation of issues like this one in the future.
       resolved: true
