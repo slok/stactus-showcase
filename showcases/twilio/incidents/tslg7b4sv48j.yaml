@@ -1,0 +1,10 @@
+version: incident/v1
+id: tslg7b4sv48j
+name: Lookup V2 Reassigned Number Latency Spike
+impact: none
+systems:
+    - pv5w18vrltfl
+timeline:
+    - ts: "2024-12-10 16:30:45"
+      description: Twilio Lookup V2 Reassigned Number Latency Spike was degraded for 20 minutes between 22:55 and 23:40Pacific Time on 12/02/2024. During this period of time customers may have experienced a large increase in traffic where our provider started failing. The issue has now been resolved.
+      resolved: true
