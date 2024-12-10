@@ -1,6 +1,6 @@
 version: incident/v1
 id: 5mtblgt1b3lq
-name: Degraded performance of Rendering service for instances on us-east-0
+name: Degraded performance of Rendering service for instances in us-east-0
 impact: minor
 systems:
     - hbqgpzmf8h9k
@@ -8,3 +8,8 @@ timeline:
     - ts: "2024-12-10 14:54:10"
       description: "We are observing degraded performance on the rendering service on instances on cluster US East \n\n You may experience issues when generating reports, PDF exports and alert images, among other features.\n\nCurrently, our engineers are investigating and working to reestablish the service."
       investigating: true
+    - ts: "2024-12-10 15:27:40"
+      description: |-
+        Our team has identified the cause of the issue, and has applied measurement to restore the service.
+
+        We are currently monitoring the performance until full stabilization.
