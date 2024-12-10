@@ -1,8 +1,11 @@
 version: incident/v1
 id: wvt42c8khwzy
-name: Our Engineers are Investigating an Issue with call dip service from portability-api
+name: Inaccurate Portability API Responses
 impact: none
-systems: []
+systems:
+    - m5b6twz4h52d
 timeline:
     - ts: "2024-12-10 19:55:08"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with call dip service from portability-api. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2024-12-10 23:05:22"
+      description: The portability API was degraded between 10:00 and 6:30 Pacific Time on 12/04/2024. During this period of time, the API may have returned incorrect portability responses indicating that a number was not portable to Twilio. The not portable reason code would have been 22130. The issue has now been resolved, please retry your request if you believe your phone number should have been portable.
