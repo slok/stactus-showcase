@@ -1,0 +1,10 @@
+version: incident/v1
+id: l3qvgmt92wtp
+name: SMS Delivery Delays to Orange / Altice Network in Dominican Republic
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2024-12-10 12:01:43"
+      description: We are experiencing SMS delivery delays when sending messages to Orange / Altice network in Dominican Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
