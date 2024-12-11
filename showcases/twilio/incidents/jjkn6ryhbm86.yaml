@@ -1,0 +1,10 @@
+version: incident/v1
+id: jjkn6ryhbm86
+name: On Call Engineers are Investigating a Call Quality Issue to a Subset of Twilio's Numbers in Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2024-12-11 19:04:38"
+      description: Our monitoring systems have detected a potential Call Quality Issue to a Subset of Twilio's Numbers in Brazil. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true

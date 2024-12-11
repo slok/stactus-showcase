@@ -1,0 +1,11 @@
+version: incident/v1
+id: 5s1mzd6cwz2c
+name: 'Cloudflare Zero Trust: Gateway Issues'
+impact: major
+systems:
+    - q0dfbn0p6hyt
+    - gyx2yygg7lmd
+timeline:
+    - ts: "2024-12-11 19:03:55"
+      description: Cloudflare is investigating issues with the HTTP proxy traffic component within Gateway resulting in increased 502 errors. Performance and connectivity through Gateway may be impacted. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
