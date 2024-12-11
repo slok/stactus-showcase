@@ -11,3 +11,6 @@ timeline:
       investigating: true
     - ts: "2024-12-11 20:45:43"
       description: Cloudflare has identified and working on a fix for issues with the HTTP proxy traffic within Gateway resulting in increased 502 and SSL errors. This will only impact customers using the default Zero Trust certificate and Browser Isolation. Accounts using BYOKPI  or a Cloudflare generated certificate are not impacted.
+    - ts: "2024-12-11 22:18:36"
+      description: This incident has been resolved.
+      resolved: true
