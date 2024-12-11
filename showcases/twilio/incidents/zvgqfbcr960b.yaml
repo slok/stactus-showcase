@@ -16,3 +16,6 @@ timeline:
     - ts: "2024-12-11 18:43:48"
       description: We have detected a potential issue with outbound WhatsApp messages failing with error 500. This is also affecting Flex and Verify. This is impacting outbound WhatsApp tasks which will be created but will have a delay in message sent to customer. Also, any active WhatsApp tasks will lose the ability to communicate with agent and customer. The issue appears to be related to the Meta platform. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2024-12-11 19:10:58"
+      description: We have detected an issue with outbound WhatsApp messages failing with error 500. This is also affecting Flex and Verify. This is impacting outbound WhatsApp tasks which will be created but will have a delay in message sent to customer. Also, any active WhatsApp tasks will lose the ability to communicate with agent and customer. The issue is related to the Meta platform. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
