@@ -1,0 +1,9 @@
+version: incident/v1
+id: f3r29frtqvps
+name: Cloud Portal failing to load for some users
+impact: minor
+systems:
+    - mgv1p2j9x444
+timeline:
+    - ts: "2024-12-11 12:33:16"
+      description: "Our Engineering team has identified the cause for the following incident: \n\nUnder certain circumstances the HCP Portal UI will show an error on first load. If you encounter this behavior, please navigate to the home page. From there you should be able to use the portal as normal.\n\nWe have identified the root cause and are actively working on a fix. Once we have additional information, we will share another update."
