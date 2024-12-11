@@ -1,0 +1,13 @@
+version: incident/v1
+id: zvgqfbcr960b
+name: Outbound WhatsApp messages failing with error 500
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2024-12-11 18:28:05"
+      description: Our monitoring systems have detected a potential issue with outbound WhatsApp messages failing with error 500. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-11 18:36:49"
+      description: We have detected a potential issue with outbound WhatsApp messages failing with error 500. The issue appears to be related to the Meta platform. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
