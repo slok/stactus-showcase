@@ -1,8 +1,10 @@
 version: incident/v1
 id: zvgqfbcr960b
-name: Outbound WhatsApp messages failing with error 500
+name: Outbound WhatsApp Messages Failing With Error 500 Impacting Flex and Twilio Verify
 impact: minor
 systems:
+    - whldrk77jnm4
+    - 7ypw8tsmyr78
     - 1gkv0mxhzsjv
 timeline:
     - ts: "2024-12-11 18:28:05"
@@ -10,4 +12,7 @@ timeline:
       investigating: true
     - ts: "2024-12-11 18:36:49"
       description: We have detected a potential issue with outbound WhatsApp messages failing with error 500. The issue appears to be related to the Meta platform. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-11 18:43:48"
+      description: We have detected a potential issue with outbound WhatsApp messages failing with error 500. This is also affecting Flex and Verify. This is impacting outbound WhatsApp tasks which will be created but will have a delay in message sent to customer. Also, any active WhatsApp tasks will lose the ability to communicate with agent and customer. The issue appears to be related to the Meta platform. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
