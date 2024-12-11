@@ -1,0 +1,15 @@
+version: incident/v1
+id: b80crgqdz6rp
+name: Cloud Control Panel Connectivity
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2024-12-11 19:33:16"
+      description: |-
+        Our Engineering team is currently investigating an issue prohibiting users from logging in if they are flagged for an additional security challenge.
+
+        We are actively reviewing the root cause and working closely to resolve the issue as quickly as possible.
+
+        We apologize for the inconvenience and will provide updates as more information becomes available. Thank you for your patience.
+      investigating: true
