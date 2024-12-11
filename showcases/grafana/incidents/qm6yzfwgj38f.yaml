@@ -1,0 +1,9 @@
+version: incident/v1
+id: qm6yzfwgj38f
+name: Degraded Performance in Loki
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-11 22:58:11"
+      description: Today from 20:15-21:30 UTC a small sub-set of customers in the prod-us-east-0 region could see missing recording rule samples from this time period. This incident is currently resolved.
+      resolved: true
