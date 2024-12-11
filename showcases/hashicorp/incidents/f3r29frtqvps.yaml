@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2024-12-11 12:33:16"
       description: "Our Engineering team has identified the cause for the following incident: \n\nUnder certain circumstances the HCP Portal UI will show an error on first load. If you encounter this behavior, please navigate to the home page. From there you should be able to use the portal as normal.\n\nWe have identified the root cause and are actively working on a fix. Once we have additional information, we will share another update."
+    - ts: "2024-12-11 16:42:16"
+      description: "Our Engineering team has resolved the following issue: \n\nUnder certain circumstances the HCP Portal UI would show an error on first load. We have deployed a fix for this issue. You may need to clear your browser cache.\n\nThese systems should now be operating normally. If you continue to experience any problems, please open a ticket with our support team."
+      resolved: true

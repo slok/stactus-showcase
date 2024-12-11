@@ -1,6 +1,6 @@
 version: incident/v1
 id: 7tsp59s22dz6
-name: SMS Delivery Delays To Beeline / ZET Mobile Network In Tajikistan
+name: SMS Delivery Delays to Beeline / ZET Mobile Network in Tajikistan
 impact: minor
 systems:
     - yvvy3vlp4djf
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2024-12-11 16:30:36"
       description: We are experiencing SMS delivery delays when sending messages to Beeline / ZET Mobile Network In Tajikistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-12-11 16:49:40"
+      description: Upon further investigation, we have confirmed that Programmable Messaging is not affected by the ongoing incident. We are actively investigating SMS delivery delays to Beeline / ZET Mobile Network in Tajikistan and will provide another update in 1 hour.
       investigating: true
