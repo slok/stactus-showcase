@@ -1,0 +1,19 @@
+version: incident/v1
+id: bhrl3gsmfb71
+name: SMS Delivery Delays and Failures to Telefonica in Nicaragua
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2024-12-11 17:20:53"
+      description: Our monitoring systems have detected a potential issue with SMS Delivery Delays and Failures to Telefonica in Nicaragua. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-11 17:21:12"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-12-11 17:21:56"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2024-12-11 17:23:15"
+      description: We are experiencing SMS delivery delays and failures sending to Telefonica in Nicaragua. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+      investigating: true
