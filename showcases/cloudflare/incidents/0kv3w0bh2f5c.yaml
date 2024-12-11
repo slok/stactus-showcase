@@ -1,0 +1,10 @@
+version: incident/v1
+id: 0kv3w0bh2f5c
+name: Reduced availability for Durable Objects in WEUR.
+impact: minor
+systems:
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2024-12-11 21:33:39"
+      description: Customers connecting to their durable objects in WEUR may see elevated error levels. We are investigating the issue.
+      investigating: true
