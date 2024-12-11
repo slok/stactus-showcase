@@ -12,3 +12,6 @@ timeline:
       description: The issue has been identified and the fix is being implemented. Majority of stacks should be accessible again.
     - ts: "2024-12-11 11:02:10"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2024-12-11 11:49:38"
+      description: The incident has been resolved. The cause was one database server being under heavy CPU load - that caused database queries to either take a long time to complete or fail altogether for Grafana Cloud instances using that specific database server. As an outcome, it made some instances unavailable, and it also made new instance startups fail.
+      resolved: true
