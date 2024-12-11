@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2bvh83zyc6k0
+name: Issue with Zoom Portal sign-in and live streaming
+impact: minor
+systems:
+    - 8gftm750nwzm
+    - rhmrtnvc7xrt
+timeline:
+    - ts: "2024-12-11 20:40:14"
+      description: We have detected an issue impacting our customer’s ability to login if they are using their Facebook credentials to login and live streaming.  If you do have a username and password to login directly to Zoom we do recommend to use this alternative method to login.
