@@ -23,3 +23,12 @@ timeline:
       description: "Our Engineering team has identified the cause of the issue that is impacting Managed Database CRUD Operations and is actively working on a fix. \n\nTo avoid potential downtime, we continue to ask users to refrain from performing operations that trigger node rotations, such as upgrades, resizes, forking, and ad-hoc maintenance patches.\n\nExisting database clusters remain unaffected as long as no node rotation occurs due to DNS issues, and all other services are functioning as expected.\n\nWe apologize for any inconvenience caused and appreciate your patience as we work diligently to address the situation. Further updates will be shared as soon as they become available."
     - ts: "2024-12-10 22:54:25"
       description: Our Engineering team has implemented a fix for the issue impacting Managed Database CRUD Operations. The team is monitoring the situation, and we will share an update once this is fully resolved.
+    - ts: "2024-12-11 00:56:24"
+      description: |-
+        From 16:10 UTC to 22:46 UTC, users may have experienced issues while executing Managed Database CRUD Operations.
+
+        Our Engineering team has confirmed the full resolution of the issue impacting Managed Database CRUD Operations, and all systems are now operating normally.
+        Users may safely resume operations, including upgrades, resizes, forking, and ad-hoc maintenance patches.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true

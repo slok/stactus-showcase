@@ -1,0 +1,13 @@
+version: incident/v1
+id: zp9hbzpbncjp
+name: SMS Delivery Failures To Smartfren Telecom Network In Indonesia
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2024-12-11 01:24:07"
+      description: Our monitoring systems have detected a potential issue SMS Delivery Failures To Smartfren Telecom Network In Indonesia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-11 01:26:01"
+      description: We are experiencing SMS delivery delays when sending messages to Smartfren Telecom Network in Indonesia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
