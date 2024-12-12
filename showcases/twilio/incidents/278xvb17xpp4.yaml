@@ -6,5 +6,8 @@ systems:
     - fbtv2g9t3z25
 timeline:
     - ts: "2024-12-12 12:00:30"
-      description: Our monitoring systems have detected a potential call quality issue to a subset of Twilio's phone numbers in Brazil. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      description: Our monitoring systems have detected a potential call quality issue to a subset of Twilio's phone numbers in Brazil. Our engineering team has been alerted and is actively investigating. We will update in 1 hour or as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-12 12:54:00"
+      description: We are continuing to investigate a call Quality Issue to a Subset of Twilio's Numbers in Brazil. Our engineering team has been alerted and is actively investigating. We will provide an update in 2 hours or as soon as more information becomes available.
       investigating: true
