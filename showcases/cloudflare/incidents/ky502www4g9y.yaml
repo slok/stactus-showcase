@@ -1,0 +1,11 @@
+version: incident/v1
+id: ky502www4g9y
+name: WARP Users unable to re-authenticate
+impact: minor
+systems:
+    - k04jkcpzxn94
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2024-12-12 16:07:56"
+      description: We are investigating reports of Zero Trust WARP users unable to re-authenticate their session.
+      investigating: true
