@@ -1,0 +1,12 @@
+version: incident/v1
+id: j2z4mcnd24pc
+name: Browser Extension Login Access Degraded
+impact: major
+systems:
+    - xgs4k9r41xf6
+    - bc33bxyk1phv
+    - cgltwfnt80mm
+    - 5mb7qcyd6jtf
+timeline:
+    - ts: "2024-12-12 17:36:07"
+      description: We have identified an issue impacting the browser extension (for users on the nightly channel) and accessing vaults on the web. A fix is being implemented.
