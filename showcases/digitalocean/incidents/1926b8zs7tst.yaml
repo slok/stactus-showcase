@@ -1,0 +1,15 @@
+version: incident/v1
+id: 1926b8zs7tst
+name: Managed Database Operations
+impact: minor
+systems:
+    - mzkgffp35tq4
+timeline:
+    - ts: "2024-12-12 18:34:13"
+      description: |-
+        Our Engineering team is investigating an issue with the Managed Database clusters which is causing forks, restores and new creates to fail. The Mongo clusters are unaffected and should be operating normally.
+
+        Our team is currently assessing the root cause and working to resolve the issue as quickly as possible.
+
+        We apologize for any inconvenience this may cause and will share an update as soon as we have more information.
+      investigating: true
