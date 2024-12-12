@@ -1,0 +1,10 @@
+version: incident/v1
+id: z5d2vgwss91b
+name: SMS Delivery Delays and Failures to to TriMob In Ukraine
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2024-12-12 00:42:53"
+      description: We are experiencing SMS delivery delays and failures when sending messages to TriMob In Ukraine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
