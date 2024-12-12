@@ -1,0 +1,10 @@
+version: incident/v1
+id: tjxsp7y0rr5d
+name: WARP Connection failures
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2024-12-12 01:12:39"
+      description: Cloudflare is investigating an issue with a high rate of WARP Connection tests failing that may prevent devices from connecting
+      investigating: true
