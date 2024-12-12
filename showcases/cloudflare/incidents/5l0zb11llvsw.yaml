@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5l0zb11llvsw
+name: Workers Logs events not coming through
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2024-12-12 22:23:17"
+      description: Cloudflare is investigating an issue where Workers Logs are not coming through. Requests to these Workers are still working as expected and customers can use Wrangler tail as a workaround. Further information shortly.
+      investigating: true
