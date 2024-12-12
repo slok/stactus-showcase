@@ -1,0 +1,15 @@
+version: incident/v1
+id: 3nr5v3xl29t4
+name: Increased error rate in Terraform operations
+impact: minor
+systems:
+    - 7cgbxrw10wgr
+timeline:
+    - ts: "2024-12-12 21:51:54"
+      description: |-
+        Our engineering team is investigating an issue with Terraform operations in HCP Terraform.
+
+        During this time, users may experience errors with Terraform operations including failures.
+
+        We will share another update as soon as we have more information.
+      investigating: true
