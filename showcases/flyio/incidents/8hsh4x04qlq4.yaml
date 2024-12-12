@@ -6,3 +6,5 @@ systems: []
 timeline:
     - ts: "2024-12-12 16:55:44"
       description: We have noticed a temporary blip in our upstream network(s) between 16:38-16:40 UTC that affected our platform. This has been resolving and we are monitoring for any continuing effects.
+    - ts: "2024-12-12 18:02:06"
+      description: We have identified the cause of the network blip to be  a bug in our Fly proxy and we're applying a fix.
