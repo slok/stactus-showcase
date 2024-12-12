@@ -1,0 +1,9 @@
+version: incident/v1
+id: kjc56l4r579x
+name: Issue with message delivery for Zoom Contact Center
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-12 20:02:28"
+      description: On 12/11/1024, from 17:58 UTC to 12/12/2024 0:40 UTC, a subset of customers may have experienced major disruptions in message delivery for Facebook Messenger and WhatsApp within Zoom Contact Center. The root cause of the issue was an outage within the Meta platform.  This issue has since been resolved.
+      resolved: true
