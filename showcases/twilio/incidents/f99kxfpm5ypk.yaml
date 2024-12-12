@@ -1,0 +1,14 @@
+version: incident/v1
+id: f99kxfpm5ypk
+name: Voice Intelligence Operator Results Delayed
+impact: minor
+systems:
+    - q4d7rj555ljl
+    - qphgn531prd5
+timeline:
+    - ts: "2024-12-11 23:51:47"
+      description: Voice Intelligence Results for Summary and Sentiment Analysis are delayed. The team is working on resolving the issue. We will provide an update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-12-12 00:15:32"
+      description: Flex Copilot and Voice Intelligence Results for Summary and Sentiment Analysis are delayed. The team is working on resolving the issue. We will provide an update in 1 hour or as soon as more information becomes available.
+      investigating: true
