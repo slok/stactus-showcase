@@ -13,3 +13,11 @@ timeline:
 
         We apologize for any inconvenience this may cause and will share an update as soon as we have more information.
       investigating: true
+    - ts: "2024-12-12 19:35:09"
+      description: |-
+        During our investigation, we identified that operations triggering node rotation, such as upgrades, resizes, forking and ad-hoc maintenance patches, may cause issues connecting to the cluster.
+
+        To prevent potential downtime, we recommend avoiding these operations until the issue is fully resolved.
+
+        We apologize for the inconvenience and appreciate your patience as we work to address the situation.
+      investigating: true
