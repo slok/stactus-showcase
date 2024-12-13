@@ -1,0 +1,13 @@
+version: incident/v1
+id: tz7n91f5qh9n
+name: Spaces CDN
+impact: minor
+systems:
+    - 8cp93lvtlh32
+timeline:
+    - ts: "2024-12-13 09:55:33"
+      description: |-
+        Our Engineering team is investigating an issue affecting Spaces CDN functionality globally. During this time, users may experience issues when enabling Spaces CDN and with existing CDN services.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
