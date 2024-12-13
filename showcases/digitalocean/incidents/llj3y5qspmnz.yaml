@@ -1,0 +1,11 @@
+version: incident/v1
+id: llj3y5qspmnz
+name: Retro - VPC Connectivity Issue in NYC3
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-13 15:39:36"
+      description: |-
+        From 13:25 to 14:45 UTC, our Engineering team observed a Networking issue in our NYC3 region. During this time, users may have experienced Droplet and VPC connectivity issue, Users should no longer be experiencing these issues.
+        We apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.
+      resolved: true
