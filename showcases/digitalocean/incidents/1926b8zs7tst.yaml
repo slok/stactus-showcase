@@ -26,3 +26,9 @@ timeline:
       investigating: true
     - ts: "2024-12-13 03:13:50"
       description: Our Engineering team has implemented a fix for the issue impacting Managed Database Operations. The team is monitoring the situation, and we will share an update once this is fully resolved.
+    - ts: "2024-12-13 04:05:45"
+      description: |-
+        Our Engineering team has confirmed the full resolution of the issue impacting Managed Database Operations, and all systems are now operating normally. Users may safely resume operations, including upgrades, resizes, forking, and ad-hoc maintenance patches.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true
