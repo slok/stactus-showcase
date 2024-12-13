@@ -1,0 +1,12 @@
+version: incident/v1
+id: 2bnhjmtdy5db
+name: Sms Delivery Failures On Rogers Wireless In Canada
+impact: major
+systems:
+    - 7d8w22hqrh6s
+    - 39mb8cmw8y2v
+    - 32f2bm54nkvv
+timeline:
+    - ts: "2024-12-13 21:34:49"
+      description: We are experiencing SMS delivery failures on Rogers Wireless In Canada. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
