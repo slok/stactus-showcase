@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4g5mdg35j1c6
+name: Using Okta Group selector with SSH with Access for Infrastructure resulting in users having unauthorized access to infrastructure targets
+impact: none
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2024-12-13 21:20:07"
+      description: When an Okta Group selector is used, all SSH policies will match to users having unauthorized access to infrastructure targets. Users must still pass all other components of the policy. Infrastructure Access applications without the Okta Group Selector and all other Access application types are not impacted.
+      investigating: true
