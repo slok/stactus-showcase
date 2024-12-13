@@ -24,3 +24,5 @@ timeline:
     - ts: "2024-12-12 22:03:12"
       description: "Our Engineering team is continuing to work on investigating the root cause of the issue affecting Managed Database Operations. At this time, we are seeing improvement and some new cluster creations are completing successfully. \n\nTo avoid potential downtime, we continue to ask users to refrain from performing operations that trigger node rotations, such as upgrades, resizes, forking, and ad-hoc maintenance patches.\n\nWe apologize for any inconvenience caused and appreciate your patience. We will post further updates as soon we have more information."
       investigating: true
+    - ts: "2024-12-13 03:13:50"
+      description: Our Engineering team has implemented a fix for the issue impacting Managed Database Operations. The team is monitoring the situation, and we will share an update once this is fully resolved.
