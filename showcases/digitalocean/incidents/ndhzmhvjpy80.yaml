@@ -8,3 +8,8 @@ timeline:
     - ts: "2024-12-12 23:20:34"
       description: "Our Engineering team is investigating an issue with intermittent failures and increased latency in DNS resolution in NYC1. \n\nDuring this time, a subset of users may experience issues with DNS resolution, or see errors returned when querying DNS records which are hosted on the DigitalOcean authoritative DNS infrastructure. \n\nWe apologize for the inconvenience and will share an update once we have more information."
       investigating: true
+    - ts: "2024-12-13 01:10:29"
+      description: "Our Engineering team has implemented a fix to resolve the issues with Authoritative DNS Resolution in NYC1 and is currently monitoring the situation. \n\nWe will continue to monitor this at our end and will share an update once the issue is resolved completely."
+    - ts: "2024-12-13 01:24:22"
+      description: "Our Engineering team has confirmed that the issues with Authoritative DNS resolution in NYC1 has been fully resolved. DNS queries should now be resolving normally. \n\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience."
+      resolved: true
