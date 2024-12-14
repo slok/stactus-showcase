@@ -1,6 +1,6 @@
 version: incident/v1
 id: rky9h02t842h
-name: Network Degradation - Impacting multiple services
+name: Increased Durable Objects errors in ENAM
 impact: minor
 systems:
     - bty1yz6dhh0v
@@ -17,3 +17,6 @@ timeline:
     - ts: "2024-12-14 13:32:26"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2024-12-14 14:52:03"
+      description: This incident has been resolved. The impact was observed from 09:19 to 09:42 UTC.
+      resolved: true
