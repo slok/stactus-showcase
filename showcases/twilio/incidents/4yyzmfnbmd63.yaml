@@ -1,0 +1,13 @@
+version: incident/v1
+id: 4yyzmfnbmd63
+name: SMS Delivery Delays to Sinch Network in the United States
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2024-12-14 15:07:03"
+      description: Our monitoring systems have detected a potential delivery issue to Sinch network in the United States. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-14 15:10:11"
+      description: We are experiencing SMS delivery delays when sending messages to Sinch network in the United States. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
