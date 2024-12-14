@@ -1,0 +1,10 @@
+version: incident/v1
+id: rky9h02t842h
+name: Increased Durable Objects errors in the Eastern North America (ENAM) Region
+impact: minor
+systems:
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2024-12-14 10:43:19"
+      description: Cloudflare is investigating an increased level of errors for customers running Durable Objects in ENAM. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
