@@ -1,0 +1,15 @@
+version: incident/v1
+id: 68jzsth2599b
+name: Network Performance Issues in Baghdad region
+impact: minor
+systems:
+    - gxjcfyf5pht1
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2024-12-16 12:03:29"
+      description: |-
+        Cloudflare is currently investigating network connectivity issues in the Baghdad region that occurred between 07:40 and 10:50 UTC, resulting in an increased number of 5xx errors.
+
+
+        We are working to analyze and mitigate this problem.  More updates to follow shortly.
+      investigating: true
