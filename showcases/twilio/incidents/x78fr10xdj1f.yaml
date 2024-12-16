@@ -1,0 +1,9 @@
+version: incident/v1
+id: x78fr10xdj1f
+name: Kudu cluster down in PROD
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-16 23:00:55"
+      description: All Twilio products that rely on Kudu failed for 11 minutes between 21:58 and 22:09 Pacific Time on 12/16/2024. During this period of time customers may have experienced returned errors trying to retrieve data. The issue has now been resolved.
+      resolved: true
