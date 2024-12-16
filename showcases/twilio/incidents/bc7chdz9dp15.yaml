@@ -1,0 +1,10 @@
+version: incident/v1
+id: bc7chdz9dp15
+name: SMS Delivery Failures to AT&T Network in Mexico for a Subset of Twilio Short Codes
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2024-12-16 17:56:02"
+      description: We are experiencing SMS delivery failures to AT&T network in Mexico for a subset of Twilio short codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
