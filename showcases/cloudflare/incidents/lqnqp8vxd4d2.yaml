@@ -1,0 +1,9 @@
+version: incident/v1
+id: lqnqp8vxd4d2
+name: Magic Transit / Magic WAN Issues in ORD02 Colo
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-16 18:36:39"
+      description: A small set of machines had exhausted memory for a control plane service. This may have impacted a subset of user traffic that had gone through that particular colo.
+      resolved: true
