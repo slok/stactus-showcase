@@ -1,0 +1,15 @@
+version: incident/v1
+id: zggyp64vxf85
+name: Network Performance Issues in Manila
+impact: minor
+systems:
+    - ss09y7v3wzwd
+timeline:
+    - ts: "2024-12-16 17:44:24"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in our Manila (MNL) datacenter.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2024-12-16 17:48:21"
+      description: The cause of this issue was identified and a fix was implemented. We are currently monitoring the results.
