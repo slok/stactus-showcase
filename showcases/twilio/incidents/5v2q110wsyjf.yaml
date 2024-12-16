@@ -1,0 +1,9 @@
+version: incident/v1
+id: 5v2q110wsyjf
+name: On Call Engineers are Investigating an issue
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-16 17:09:16"
+      description: Our monitoring systems have detected a potential issue with call quality issue to a subset of Twilio's numbers in Colombia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
