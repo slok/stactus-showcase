@@ -1,0 +1,10 @@
+version: incident/v1
+id: ky4ggy42ncrq
+name: 'Cloudflare Zero Trust: Gateway & Device Postures Issues'
+impact: none
+systems:
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2024-12-16 14:23:50"
+      description: "Cloudflare is investigating issues with the Device Posture component within Gateway. Performance and connectivity through Gateway may be impacted. \n\nWe are working to understand the full impact and mitigate this problem. More updates to follow shortly."
+      investigating: true
