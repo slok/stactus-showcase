@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4n39clcdm491
+name: Increasing of purge failure and performance degradation in R2
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2024-12-17 08:28:37"
+      description: "Cloudflare is investigating the issue. \nUsers may experience 500 errors when purge failed and performance degradation in R2."
+      investigating: true
