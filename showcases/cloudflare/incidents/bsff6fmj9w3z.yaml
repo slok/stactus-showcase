@@ -1,0 +1,9 @@
+version: incident/v1
+id: bsff6fmj9w3z
+name: Issue with Workers Assets
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-17 20:45:52"
+      description: Some customers using Workers Assets may have seen a portion of traffic return a "1104 Script Not Found" error page between 19:26 and 20:08 UTC.
+      resolved: true
