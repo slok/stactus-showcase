@@ -1,0 +1,9 @@
+version: incident/v1
+id: vqkspxsq60j6
+name: Brief degradation to several Twilio services
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-17 00:16:24"
+      description: Between 1:58 PM and 2:06 PM Pacific on 16 December, customers accessing Messaging Insights, Audit Insights, Billing Insights, Alarms, Intelligent Alerts, Monitor Events, and the Numbers Console may have received errors. This issue has been resolved.
+      resolved: true
