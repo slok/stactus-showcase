@@ -1,0 +1,16 @@
+version: incident/v1
+id: fnq063tqh7cc
+name: Live updates on pages not loading reliably
+impact: major
+systems:
+    - kr09ddfgbfsf
+timeline:
+    - ts: "2024-12-17 14:51:28"
+      description: We are investigating reports of degraded performance for Issues
+      investigating: true
+    - ts: "2024-12-17 14:53:02"
+      description: We are currently seeing live updates on some pages not working. This can impact features such as status checks and the merge button for PRs.<br /><br />Current mitigation is to refresh pages manually to see latest details.<br /><br />We are working to mitigate this and will continue to provide updates as the team makes progress.
+      investigating: true
+    - ts: "2024-12-17 15:05:58"
+      description: Issues is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
