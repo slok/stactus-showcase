@@ -1,0 +1,10 @@
+version: incident/v1
+id: 0qnfq4pr9mlb
+name: Call Quality Issues to a subset of Twilio's Numbers in Puerto Rico
+impact: none
+systems:
+    - g2dt752kwqs0
+timeline:
+    - ts: "2024-12-17 16:51:35"
+      description: Our engineers have identified the issue with call quality issue to a subset of Twilio's numbers in Puerto Rico. We are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
