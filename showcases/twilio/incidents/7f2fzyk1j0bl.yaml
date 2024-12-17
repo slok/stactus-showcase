@@ -1,0 +1,14 @@
+version: incident/v1
+id: 7f2fzyk1j0bl
+name: SMS Delivery Failures to Multiple Countries via Longcodes & Pre-Registered Sender ID
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - 42zx9w2kmtvf
+    - 8qjql0kqnd33
+    - 9z5gsqyjs4rl
+    - kj97j77088bh
+timeline:
+    - ts: "2024-12-17 02:54:59"
+      description: We are experiencing SMS delivery failures to multiple countries via long codes & pre-registered sender IDs. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in one hour or as soon as more information becomes available.
+      investigating: true
