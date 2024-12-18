@@ -1,9 +1,12 @@
 version: incident/v1
 id: rclqw06qd35y
-name: On Call Engineers are Investigating an issue with Twilio REST API
+name: AccSec API Errors to the Netherlands
 impact: none
 systems: []
 timeline:
     - ts: "2024-12-18 19:53:27"
       description: Our engineers have identified the issue with Twilio REST API and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2024-12-18 20:27:42"
+      description: Twilio AccSec API was degraded for 30 minutes between 09:10 PST - 09:40 PST Pacific Time on 12/18/2024. During this period of time customers may have experienced issues with our AccSec API in the Netherlands. The issue has now been resolved.
+      resolved: true
