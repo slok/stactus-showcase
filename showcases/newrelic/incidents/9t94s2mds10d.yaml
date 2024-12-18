@@ -2,23 +2,7 @@ version: incident/v1
 id: 9t94s2mds10d
 name: UI Irregularities
 impact: major
-systems:
-    - k4c77k6bzcl7
-    - ty1004s644gq
-    - k2c0hnpnmgqn
-    - j6v4tzmw08t4
-    - 1mwh21hqrxlw
-    - nw4g7754n7tl
-    - x87lk2mkvdtx
-    - g3mtj9z8c1cq
-    - q94v4hz14v0f
-    - xrzsz1k79xbd
-    - 5qhzckvc2ncn
-    - mc4f9x2xl1zg
-    - 927km3k58wgb
-    - 8k5pmrjbl1w0
-    - 7yqy1ctsjw35
-    - 5kj1rklxtgzg
+systems: []
 timeline:
     - ts: "2024-12-18 09:18:15"
       description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
@@ -27,5 +11,14 @@ timeline:
       description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
       investigating: true
     - ts: "2024-12-18 09:34:12"
-      description: Some customers in the US region may be experiencing the UI returning errors or not loading as expected. Data ingest and alert notifications are not impacted at this time.
+      description: |-
+        Some customers in the US region may be experiencing the UI returning errors or not loading as expected. Data ingest and alert notifications are not impacted at this time.
+
+        If you would like to create a support case linked to this issue please send an email to servicestatus@newrelic.com and a support case will be created for you.
       investigating: true
+    - ts: "2024-12-18 09:47:22"
+      description: |-
+        Between 9:11 UTC and 9:42 UTC on December 18th, some customers in the US regions may have experienced issues accessing the UI.
+
+        We have investigated and resolved this service interruption and impacted services have returned to normal operations.
+      resolved: true
