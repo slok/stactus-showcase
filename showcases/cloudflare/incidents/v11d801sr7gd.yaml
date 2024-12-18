@@ -1,0 +1,11 @@
+version: incident/v1
+id: v11d801sr7gd
+name: Load Balancing China Health Check Region Issues
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2024-12-18 18:39:09"
+      description: Cloudflare is investigating issues related to Load Balancing and the China Network. Customers without China Network access who attempt to set 'China' as a Health Check region may experience an error.
+      investigating: true
