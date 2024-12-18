@@ -1,6 +1,6 @@
 version: incident/v1
 id: y3h4k9tvr3w4
-name: Magic Transit Analytics Delays
+name: Magic Transit and API Shield Analytics Delays
 impact: minor
 systems:
     - 4c231tkdlpcl
@@ -10,3 +10,5 @@ timeline:
       investigating: true
     - ts: "2024-12-18 17:55:32"
       description: The cause of this issue has been identified and a fix is being implemented.
+    - ts: "2024-12-18 20:19:42"
+      description: Our investigation determined that API discovery and rate limiting recommendation for API shield customers were also delayed by this issue. A fix has been implemented and we are currently monitoring the results.
