@@ -1,0 +1,12 @@
+version: incident/v1
+id: bh42fc3zlbfw
+name: Network Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-18 20:53:13"
+      description: 'We are experiencing some network issues. This may affect resources that have the following pattern in their endpoint: c228'
+      investigating: true
+    - ts: "2024-12-18 20:58:08"
+      description: This incident has been resolved.
+      resolved: true
