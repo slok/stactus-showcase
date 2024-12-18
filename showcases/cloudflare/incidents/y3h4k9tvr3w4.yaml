@@ -1,0 +1,10 @@
+version: incident/v1
+id: y3h4k9tvr3w4
+name: Magic Transit Analytics Delays
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2024-12-18 17:21:28"
+      description: We are investigating an issue resulting in delayed updates to Magic Tunnel Health Checks analytics and alerting. No impact to edge traffic is being observed at this time.
+      investigating: true
