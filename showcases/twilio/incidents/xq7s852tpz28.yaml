@@ -1,6 +1,6 @@
 version: incident/v1
 id: xq7s852tpz28
-name: SMS Delivery Delays to Multiple Network in China Over Pre Registered Sender ID
+name: SMS Delivery Delays to Multiple Networks in China Over Pre Registered Sender ID
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -17,3 +17,5 @@ timeline:
     - ts: "2024-12-18 07:43:35"
       description: We are experiencing SMS delivery delays when sending messages to multiple networks in China over pre-registered sender ID. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2024-12-18 11:33:49"
+      description: We are observing recovery in SMS delivery delays when sending messages to multiple networks in China over pre-registered sender ID. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
