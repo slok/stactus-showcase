@@ -7,3 +7,6 @@ timeline:
     - ts: "2024-12-18 07:51:06"
       description: Our monitoring systems have detected a potential issue on Voice Conference. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2024-12-18 08:24:42"
+      description: Twilio Voice was degraded for 15 minutes between 11:34 and 11:49 Pacific Time on 12/18/2024. During this period of time customers may have experienced higher than normal packet loss that may have impacted some calls using the AU1 home region or Sydney edge, degraded audio quality or calls failing to connect. The issue has now been resolved.
+      resolved: true
