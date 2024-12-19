@@ -39,5 +39,5 @@ timeline:
       description: Pull Requests is operating normally.
       investigating: true
     - ts: "2024-12-04 19:27:34"
-      description: This incident has been resolved.
+      description: On December 4th, 2024 between 18:52 UTC and 19:11 UTC, several GitHub services were degraded with an average error rate of 8%.<br /><br />The incident was caused by a change to a centralized authorization service that contained an unoptimized database query. This led to an increase in overall load on a shared database cluster, resulting in a cascading effect on multiple services and specifically affecting repository access authorization checks. We mitigated the incident after rolling back the change at 19:07 UTC, fully recovering within 4 minutes. <br /><br />While this incident was caught and remedied quickly, we are implementing process improvements around recognizing and reducing risk of changes involving high volume authorization checks. We are investing in broad improvements to our safe rollout process, such as improving early detection mechanisms.
       resolved: true
