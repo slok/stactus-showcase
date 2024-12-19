@@ -8,3 +8,6 @@ timeline:
     - ts: "2024-12-19 01:45:43"
       description: "Our Engineering team is investigating an issue impacting Droplet event processing in multiple regions.\n\nAt this time, users may experience issues with events appearing to be stuck or delayed, such as powering on/off, and resizing Droplets in NYC3, AMS2, BLR1, SGP1, and SYD1 regions. Additionally, Managed Database creates are delayed in all regions. \n\nWe apologize for the inconvenience and will share an update once we have more information."
       investigating: true
+    - ts: "2024-12-19 02:42:18"
+      description: "Our Engineering team continues to work to mitigate the issue with event processing in multiple regions. \n\nTo help address the issue, we are temporarily disabling all Droplet-related actions in the NYC3 region for a period of 20 minutes. During this time, users in NYC3 will not be able to submit actions, such as creating, resizing, powering on/off, etc. \n\nWe apologize for the inconvenience and appreciate your patience as we work to resolve this issue. Further updates will be shared as they become available."
+      investigating: true
