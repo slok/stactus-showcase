@@ -1,0 +1,13 @@
+version: incident/v1
+id: 2htknnh093z4
+name: Issues creating/modifying Worker Routes on Dashboard
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2024-12-19 07:24:57"
+      description: |-
+        Cloudflare is investigating an issue where users may experience issues creating new Worker Routes or modifying Worker Routes from the Dashboard.
+
+        We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
