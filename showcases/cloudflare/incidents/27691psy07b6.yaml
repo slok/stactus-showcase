@@ -1,0 +1,9 @@
+version: incident/v1
+id: 27691psy07b6
+name: Issues with Magic Transit and WAN IPsec tunnels
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-19 15:13:39"
+      description: "Cloudflare observed a disruption in our IPsec control plane service on Wed Dec 18, at 17:33 UTC, lasting approximately 15 minutes.  \n\nSome IPsec tunnels may have experienced loss of traffic following establishment or rekey event during the impact time. There was no impact to data plane forwarding or to other types of Magic tunnels"
+      resolved: true
