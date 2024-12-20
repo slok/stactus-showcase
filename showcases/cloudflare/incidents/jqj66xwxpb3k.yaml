@@ -1,12 +1,12 @@
 version: incident/v1
 id: jqj66xwxpb3k
-name: Issues updating of waiting room
+name: Issues with Waiting Room
 impact: minor
 systems:
     - 9c7cbxnhk1dq
 timeline:
     - ts: "2024-12-20 08:31:42"
-      description: |-
-        Cloudflare is investigating issues related to an update of waiting room.
-        More updates to follow shortly.
+      description: Cloudflare is investigating issues related to Waiting Room configurations where customers cannot update existing Waiting Room settings. This does not affect active working Waiting Rooms configurations.
       investigating: true
+    - ts: "2024-12-20 09:13:31"
+      description: The issue has been identified and a fix is being implemented.
