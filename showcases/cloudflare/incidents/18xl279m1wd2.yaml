@@ -1,0 +1,12 @@
+version: incident/v1
+id: 18xl279m1wd2
+name: 1.1.1.1 Unavailable due to 'Error 1013 - Edge IP Restricted'
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-20 15:23:24"
+      description: |-
+        Cloudflare is aware of an issue which potentially impacted multiple users that use 1.1.1.1. This impacted the landing page, documentation, and cache purge functionality provided by the page. The public DNS resolver was not impacted.
+
+        The impact was observed from 14:05 to 15:08 UTC.
+      resolved: true
