@@ -1,0 +1,8 @@
+version: incident/v1
+id: 5j1x0xf108gh
+name: IPv6 Networking Issue in SCL
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-20 07:19:51"
+      description: We are aware of a temporary IPv6 networking issue in SCL when accessing certain IPv6 ranges / providers caused by an upstream maintenance and are working with our upstream for a fix. IPv6 request originating from your machines in SCL may see increased error rates.
