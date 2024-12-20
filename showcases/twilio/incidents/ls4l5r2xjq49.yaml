@@ -1,10 +1,13 @@
 version: incident/v1
 id: ls4l5r2xjq49
-name: Potential Delays With Responses to Support Tickets
+name: Delays With Responses to Support Tickets
 impact: none
 systems:
     - g4hs7h64k9fv
 timeline:
     - ts: "2024-12-20 16:35:50"
       description: Our monitoring systems have detected a potential issue with our internal ticketing system which may cause a delay in response. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-20 16:57:39"
+      description: We are experiencing an issue with our internal ticketing system, which may result in delays responding to tickets. Our team is actively working to resolve the issue. We will provide an update in 1 hour or as soon as more information becomes available.
       investigating: true
