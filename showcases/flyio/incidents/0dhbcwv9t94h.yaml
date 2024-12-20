@@ -1,0 +1,9 @@
+version: incident/v1
+id: 0dhbcwv9t94h
+name: Transient networking issue in FRA
+impact: none
+systems:
+    - zb68fzjgtq5s
+timeline:
+    - ts: "2024-12-20 14:55:59"
+      description: We have noticed a spike in packet loss across the FRA region at around 14:44 UTC caused by an upstream issue. This has recovered since 14:47 UTC, and we are currently monitoring the situation along with our upstream providers.
