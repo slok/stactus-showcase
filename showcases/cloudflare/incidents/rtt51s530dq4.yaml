@@ -1,0 +1,10 @@
+version: incident/v1
+id: rtt51s530dq4
+name: Issues with Custom Error Pages Upload and Preview
+impact: minor
+systems:
+    - 4sfd950kf38n
+timeline:
+    - ts: "2024-12-20 23:00:43"
+      description: Cloudflare is investigating issues with custom error pages. Customers using the Dashboard or APIs to upload or preview custom error pages may experience failed requests or errors. We are actively working to resolve this issue and will provide updates shortly.
+      investigating: true
