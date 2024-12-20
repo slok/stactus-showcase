@@ -1,6 +1,6 @@
 version: incident/v1
 id: 5ttkj044sr0b
-name: On Call Engineers Are Investigating an Issue Preventing Users From Searching for Subaccounts by Name in the Console
+name: Users Unable to Search for Subaccounts by Name in the Console
 impact: minor
 systems:
     - m5b6twz4h52d
@@ -8,3 +8,5 @@ timeline:
     - ts: "2024-12-20 22:58:22"
       description: Our monitoring systems have detected a potential issue preventing users from searching for subaccounts by name in the console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2024-12-20 23:13:09"
+      description: Our engineers have identified the issue causing the issue preventing users from searching for subaccounts by name in the console and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
