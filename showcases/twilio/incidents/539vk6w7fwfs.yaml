@@ -14,3 +14,6 @@ timeline:
     - ts: "2024-12-20 13:36:28"
       description: We are still experiencing SMS delivery delays to Twilio Croatia Phone Numbers via subset of longcode numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2024-12-20 17:14:21"
+      description: We have fully investigated the SMS delivery delays to Twilio Croatia Phone Numbers via subset of longcode numbers issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
