@@ -1,0 +1,15 @@
+version: incident/v1
+id: z8m1256z5bbq
+name: HCP Vault workflow issues
+impact: major
+systems:
+    - hk67zg2j2rkd
+timeline:
+    - ts: "2024-12-21 17:00:50"
+      description: |-
+        Our engineering team is investigating an issue with HCP Vault.
+
+        During this time, users may experience issues with normal user features like creating admin tokens. Reading secrets is unaffected.
+
+        We will share another update as soon as we have more information.
+      investigating: true
