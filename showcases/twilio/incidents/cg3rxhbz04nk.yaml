@@ -1,0 +1,10 @@
+version: incident/v1
+id: cg3rxhbz04nk
+name: SMS Delivery Delay To Telenor Network In Pakistan
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2024-12-21 06:57:35"
+      description: We are experiencing SMS delivery delays when sending messages to Telenor Network in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
