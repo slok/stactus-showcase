@@ -1,9 +1,13 @@
 version: incident/v1
 id: z8m1256z5bbq
-name: HCP Vault workflow issues
+name: HCP Vault Dedicated workflow issues
 impact: major
 systems:
     - hk67zg2j2rkd
+    - mmlrjdnctj09
+    - h4k95x7cd36k
+    - 0yw6jtfrrwmq
+    - hddnf9931cjf
 timeline:
     - ts: "2024-12-21 17:00:50"
       description: |-
@@ -14,6 +18,13 @@ timeline:
         We will share another update as soon as we have more information.
       investigating: true
     - ts: "2024-12-21 17:16:54"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue with vault workflows.
+
+        We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
+    - ts: "2024-12-21 17:26:07"
+      description: We've spotted that something has gone wrong. We're currently investigating the issue, and will provide an update soon.
+    - ts: "2024-12-21 17:29:03"
       description: |-
         Our Engineering team has implemented a fix to resolve the issue with vault workflows.
 
