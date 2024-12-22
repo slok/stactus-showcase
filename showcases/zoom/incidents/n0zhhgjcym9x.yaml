@@ -1,0 +1,12 @@
+version: incident/v1
+id: n0zhhgjcym9x
+name: Zoom Phone maintenance rollback
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-22 01:44:38"
+      description: |-
+        From 01:00 12/21 UTC - 01:00 12/22 UTC, Zoom has successfully completed the Zoom Phone maintenance to route additional Zoom Phone & Zoom Contact Center traffic across our new Data Centers (https://status.zoom.us/incidents/1xtdkft6972m).  Due to internal monitoring detection and a few customers’ feedback, there are possible misconfigurations in some customers’ firewall side, Zoom has decided to rollback these changes and work directly with customers to confirm all services are working correctly for them.
+
+        In order for customers to avoid any potential issues in the future, please allow Zoom Traffic to all subnets located on our Zoom Network Firewall page including signaling and media (https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060548)
+      resolved: true
