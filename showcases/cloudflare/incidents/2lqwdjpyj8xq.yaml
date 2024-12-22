@@ -1,0 +1,11 @@
+version: incident/v1
+id: 2lqwdjpyj8xq
+name: Cloudflare Load Balancing Billing Issues
+impact: minor
+systems:
+    - ll1x88wwz4fq
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2024-12-22 14:23:41"
+      description: "Cloudflare is investigating an issue in which users may experience errors when attempting to modify Load Balancing subscriptions in the Dashboard. \n\nFurther detail will be provided as more information becomes available."
+      investigating: true
