@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3v2kxyb6vqw1
+name: SMS Delivery Delays to Multiple Networks in UK via Subset of Pre-Registered Sender ID
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2024-12-22 00:43:20"
+      description: We are experiencing SMS delivery delays to multiple networks in UK via subset of pre-registered Sender ID. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
