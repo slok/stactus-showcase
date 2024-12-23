@@ -1,0 +1,13 @@
+version: incident/v1
+id: gvfk4vrdsvv3
+name: Performance issues with R2
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2024-12-23 07:37:50"
+      description: |-
+        Cloudflare is investigating issues with R2. Impacted users may experience performance degradation.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
