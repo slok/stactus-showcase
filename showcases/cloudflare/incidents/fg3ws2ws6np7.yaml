@@ -1,0 +1,9 @@
+version: incident/v1
+id: fg3ws2ws6np7
+name: Cloudflare Dashboard and Cloudflare API service issues
+impact: minor
+systems: []
+timeline:
+    - ts: "2024-12-23 00:31:37"
+      description: "There was an issue introduced on Thursday, December 19th in the Cloudflare dashboard that caused an error to appear for users who did not have any R2 buckets created and who accessed the R2 page on the dashboard.  \n\nWe identified the root cause of this error and have fixed it at 2024-12-22 20:38 UTC."
+      resolved: true
