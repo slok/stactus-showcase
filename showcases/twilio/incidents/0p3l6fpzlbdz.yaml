@@ -1,0 +1,13 @@
+version: incident/v1
+id: 0p3l6fpzlbdz
+name: On Call Engineers are Investigating an issue with SMS Delivery Delays To Africell Network in Angola
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2024-12-23 19:08:49"
+      description: Our monitoring systems have detected a potential issue with SMS Delivery Delays To Africell Network in Angola. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-23 19:19:22"
+      description: This is a duplicate incident and we already have an issue under investigation for SMS Delivery Delays and Failures to Movicel & Africell network in Angola.
+      resolved: true
