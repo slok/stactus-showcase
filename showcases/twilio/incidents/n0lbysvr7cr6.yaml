@@ -1,10 +1,13 @@
 version: incident/v1
 id: n0lbysvr7cr6
-name: On Call Engineers are Investigating an issue with Historical Reporting not available for Flex users of customers with enabled Flex Insights.
-impact: none
+name: Historical Reporting is not Available for some Flex Users of Customers with Enabled Flex Insights
+impact: minor
 systems:
     - lv1md8v28lhr
 timeline:
     - ts: "2024-12-23 14:25:29"
       description: Our monitoring systems have detected a potential issue with Flex Insights. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2024-12-23 15:27:13"
+      description: We are continuing to investigate intermittent issues with Historical Reporting not Available for some Flex Users of Customers with Enabled Flex Insights. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
