@@ -1,6 +1,6 @@
 version: incident/v1
 id: wvj3y3vp4qrl
-name: SMS Delivery Delays And Failures To Movicel in Angola
+name: SMS Delivery Delays and Failures to Movicel & Africell Network in Angola
 impact: minor
 systems:
     - 9z5gsqyjs4rl
@@ -42,4 +42,7 @@ timeline:
       investigating: true
     - ts: "2024-12-23 06:59:41"
       description: We still continue to experience SMS delivery delays and failures when sending messages to Movicel network in Angola. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2024-12-23 19:21:56"
+      description: We still continue to experience SMS delivery delays and failures when sending messages to Movicel network in Angola. We are also now experiencing the same issue when sending SMS to Movicel Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
       investigating: true
