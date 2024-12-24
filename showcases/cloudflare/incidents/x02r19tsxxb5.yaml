@@ -1,0 +1,10 @@
+version: incident/v1
+id: x02r19tsxxb5
+name: R2 Network Performance Issues
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2024-12-24 19:44:54"
+      description: Cloudflare is investigating issues with Cloudflare R2  being unreachable in some locations. We are working to analyze and mitigate this problem.
+      investigating: true
