@@ -14,5 +14,5 @@ timeline:
       description: This issue is related to a partner who is working the problem, they in partial recovery.
       investigating: true
     - ts: "2024-12-20 16:44:36"
-      description: This incident has been resolved.
+      description: On December 20th, 2024, between 15:57 UTC and 16:39 UTC some of our marketing pages became inaccessible and users attempting to access the pages would have received 500 errors. There was no impact to any operational product or service area. This issue was due to a partial outage with one of our service providers. At 16:39 UTC the service provider resolved the outage, restoring access to the affected pages. We are investigating methods to improve error handling and gracefully degrade these pages in case of future outages.
       resolved: true
