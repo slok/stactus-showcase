@@ -1,0 +1,10 @@
+version: incident/v1
+id: 0dk2pkyxy7jd
+name: SMS Delivery Delays to all Networks in Canada via Toll Free Numbers
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2024-12-26 23:44:31"
+      description: We are experiencing SMS delivery delays when sending messages to all networks in Canada via Toll Free Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
