@@ -1,0 +1,9 @@
+version: incident/v1
+id: rf9gm93ftl8h
+name: Degraded availability for @cf/meta/llama-3.2-3b-instruct
+impact: none
+systems: []
+timeline:
+    - ts: "2024-12-26 18:47:00"
+      description: For 2.5 hours starting from 15:35 UTC users may have seen errors when trying to make requests to @cf/meta/llama-3.2-3b-instruct. The model has since recovered.
+      resolved: true
