@@ -1,0 +1,13 @@
+version: incident/v1
+id: ckcwxj8b34f5
+name: Issues with Cloudflare Registrar
+impact: minor
+systems:
+    - kn2xkt469vyh
+timeline:
+    - ts: "2025-01-01 13:25:53"
+      description: |-
+        Cloudflare is currently investigating an issue affecting customers using Cloudflare Registrar. This issue may cause disruptions with domains not auto-expiring, domains not auto-renewing, prolonged domain transfer wait times and certain notifications not being sent.
+
+        Further detail will be provided as more information becomes available.
+      investigating: true
