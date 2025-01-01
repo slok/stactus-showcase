@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5w758d5gtntp
+name: Customers Unable To Purchase Package Plans
+impact: minor
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2025-01-01 10:35:04"
+      description: We are experiencing an issue when trying to purchase package plans from Twilio console. Our engineers are working with the concern team to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
