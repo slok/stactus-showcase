@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-01-02 23:19:14"
       description: Cloudflare is investigating issues deploying Workers that rely on the binding to Workers AI. This specifically impacts deploying new Workers or changing existing Workers. Workers already in production that rely on the Workers AI binding are not impacted.
       investigating: true
+    - ts: "2025-01-02 23:29:44"
+      description: The cause of this issue has been identified and a fix is being implemented.
