@@ -3,6 +3,7 @@ id: 6ddp6v8g5t72
 name: Incident with Actions
 impact: minor
 systems:
+    - hhtssxt0f5v2
     - br0l2tvcx85d
 timeline:
     - ts: "2025-01-02 22:09:21"
@@ -10,4 +11,7 @@ timeline:
       investigating: true
     - ts: "2025-01-02 22:30:40"
       description: We have identified and begun to remediate the issue preventing Actions from triggering on closed pull requests. We are beginning to see recovery.
+      investigating: true
+    - ts: "2025-01-02 23:05:16"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
       investigating: true
