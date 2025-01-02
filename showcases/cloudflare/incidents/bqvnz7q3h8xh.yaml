@@ -1,0 +1,12 @@
+version: incident/v1
+id: bqvnz7q3h8xh
+name: Degrading Load Balancing Regional Health Monitoring
+impact: minor
+systems:
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2025-01-02 19:57:04"
+      description: We are investigating an issue where Load Balancing regional health monitoring and steering is degraded for a subset of customers. Impacted customer pools with regional monitoring enable may see delays in response to changes in origin health.
+      investigating: true
+    - ts: "2025-01-02 20:00:58"
+      description: The cause of this issue has been identified and a fix has been applied. We are currently monitoring the results.
