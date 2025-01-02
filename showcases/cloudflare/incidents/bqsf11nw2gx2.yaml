@@ -1,0 +1,10 @@
+version: incident/v1
+id: bqsf11nw2gx2
+name: Issues deploying Cloudflare Workers that use the Workers AI binding
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2025-01-02 23:19:14"
+      description: Cloudflare is investigating issues deploying Workers that rely on the binding to Workers AI. This specifically impacts deploying new Workers or changing existing Workers. Workers already in production that rely on the Workers AI binding are not impacted.
+      investigating: true

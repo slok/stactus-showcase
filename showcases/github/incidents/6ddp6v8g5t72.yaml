@@ -15,3 +15,6 @@ timeline:
     - ts: "2025-01-02 23:05:16"
       description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
       investigating: true
+    - ts: "2025-01-02 23:11:28"
+      description: We have remediated the issue impacting Actions workflows. During investigation and remediation, we realized there were also issues with recording metadata around merge commits. No git data or code has been lost. PRs merged today between 20:06 UTC and 22:15 UTC are impacted. We are working on a plan to regenerate the missing metadata and will provide an update once we have one in place.
+      investigating: true
