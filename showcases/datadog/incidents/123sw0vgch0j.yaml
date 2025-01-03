@@ -10,3 +10,8 @@ timeline:
       investigating: true
     - ts: "2025-01-03 05:15:51"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-01-03 05:28:18"
+      description: We have mitigated the cause of transient agent submission errors for APM and customers should no longer observe these errors. The Datadog Agent automatically retries these errors and succeeded on retry; this incident did not result in any data loss
+    - ts: "2025-01-03 05:34:17"
+      description: This incident has been resolved.
+      resolved: true
