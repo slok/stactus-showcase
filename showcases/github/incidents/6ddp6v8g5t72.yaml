@@ -18,3 +18,9 @@ timeline:
     - ts: "2025-01-02 23:11:28"
       description: We have remediated the issue impacting Actions workflows. During investigation and remediation, we realized there were also issues with recording metadata around merge commits. No git data or code has been lost. PRs merged today between 20:06 UTC and 22:15 UTC are impacted. We are working on a plan to regenerate the missing metadata and will provide an update once we have one in place.
       investigating: true
+    - ts: "2025-01-03 00:19:04"
+      description: All systems are operational, and we have a plan to backfill the missing metadata. In total, 139,000 PRs were impacted across 45,000 repositories. The backfilled metadata will be available in a few days.<br /><br />Until the backfill is complete, there are several actions you can take to ensure an Action runs:<br />- Any Actions that should have run on closed but not merged PRs can be triggered by re-opening and re-closing the PR.<br />- Actions that should have run on PR merge can be re-run from the main branch of your repository.<br /><br />The only Actions that cannot be re-run at this time are ones that specifically use the merge commit.<br /><br />Additionally, the `merge_commit_sha` field on an impacted Pull Request will be `null` when queried via our API until the backfill completes.<br /><br />We appreciate the error reports we received, and thank you for your patience. We mitigated the initial impact quickly by rolling back a feature flag. We will be improving the monitoring of our feature flag rollouts in the future to better catch these scenarios.
+      investigating: true
+    - ts: "2025-01-03 00:19:10"
+      description: This incident has been resolved.
+      resolved: true
