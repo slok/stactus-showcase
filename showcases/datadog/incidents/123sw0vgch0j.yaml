@@ -1,0 +1,12 @@
+version: incident/v1
+id: 123sw0vgch0j
+name: APM connections retrying
+impact: minor
+systems:
+    - p4hwj4wsc5wf
+timeline:
+    - ts: "2025-01-03 05:13:14"
+      description: Some US1 customers experiencing degraded performance for APM. Customers may see transient errors, but these should resolve with an automatic retry from the Datadog agent.
+      investigating: true
+    - ts: "2025-01-03 05:15:51"
+      description: The issue has been identified and a fix is being implemented.
