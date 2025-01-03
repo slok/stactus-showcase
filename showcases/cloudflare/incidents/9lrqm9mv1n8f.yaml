@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9lrqm9mv1n8f
+name: 'Cloudflare Zero Trust: Posture Check issues'
+impact: minor
+systems:
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2025-01-03 10:30:50"
+      description: Cloudflare is investigating issues with the Service to Service Posture Checks component within Cloudflare One.  Customers using Service to Service Posture Checks might observe failures. More updates to follow shortly.
+      investigating: true
