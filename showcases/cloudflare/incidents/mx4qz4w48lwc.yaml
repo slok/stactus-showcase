@@ -1,0 +1,9 @@
+version: incident/v1
+id: mx4qz4w48lwc
+name: Cloudflare D1 - API Availability Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-03 16:29:44"
+      description: Between approximately 15:40 and 16:05 UTC, Cloudflare detected and mitigated an issue with Cloudflare D1 where customers might have observed unexpected errors whilst performing API calls.
+      resolved: true
