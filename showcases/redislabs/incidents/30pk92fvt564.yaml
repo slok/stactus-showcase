@@ -1,0 +1,12 @@
+version: incident/v1
+id: 30pk92fvt564
+name: Redis  Cloud - Periodic maintenance for the admin console
+impact: none
+systems:
+    - nn6rqzz85xg5
+    - jp7zzppvbk0x
+timeline:
+    - ts: "2025-01-05 09:39:47"
+      description: |-
+        We’re currently performing periodic maintenance for the Redis Cloud admin console, which may impact your access to it (cloud.redis.io).
+        Your database’s connectivity is not affected.
