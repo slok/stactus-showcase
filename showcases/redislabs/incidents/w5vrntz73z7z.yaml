@@ -1,0 +1,11 @@
+version: incident/v1
+id: w5vrntz73z7z
+name: Urgent maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-06 00:57:51"
+      description: 'Urgent maintenance applies to all of the resources with the following pattern in their endpoint: c73'
+    - ts: "2025-01-06 01:25:58"
+      description: This incident has been resolved.
+      resolved: true
