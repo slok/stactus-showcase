@@ -1,9 +1,12 @@
 version: incident/v1
 id: ql37fw9x0pvs
-name: On Call Engineers are Investigating an issue
+name: SMS Delivery Delays to MTS Network in Russian Federation
 impact: none
 systems: []
 timeline:
     - ts: "2025-01-06 17:59:56"
       description: Our monitoring systems have detected a potential issue SMS Delivery Delays and Failures to MTS in Russian Federation. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-01-06 18:11:13"
+      description: 'We are still experiencing SMS delivery delays to MTS in Russian Federation. However, we have consolidated all impacting products in to one incident. You can check the status of this here: https://status.twilio.com/incidents/2yxcwb5kmh8b'
+      resolved: true
