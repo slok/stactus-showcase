@@ -1,0 +1,10 @@
+version: incident/v1
+id: rj8pskv1j5n8
+name: Network Connectivity in SFO3 Region
+impact: minor
+systems:
+    - pkldx6th5q38
+timeline:
+    - ts: "2025-01-07 13:35:38"
+      description: "Our engineering team is investigating an issue related to the SFO3 network maintenance here: https://status.digitalocean.com/incidents/lf0njg8ysj0w\n\nDuring this time users may experience connectivity issues, latency, and timeout errors while interacting with resources in the SFO3 data center. \n\nWe apologize for the inconvenience and will share an update once we have more information."
+      investigating: true
