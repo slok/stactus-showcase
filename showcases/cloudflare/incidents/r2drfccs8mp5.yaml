@@ -1,0 +1,11 @@
+version: incident/v1
+id: r2drfccs8mp5
+name: Start Up Program Billing Issue
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-01-07 18:42:45"
+      description: Cloudflare is investigating an issue where Start Up program users with credits are being incorrectly billed and losing access due to credits being incorrectly applied.
+      investigating: true
+    - ts: "2025-01-07 18:45:52"
+      description: The cause of this issue has been identified and we are working toward a fix.
