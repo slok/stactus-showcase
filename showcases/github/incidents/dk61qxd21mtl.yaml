@@ -3,6 +3,8 @@ id: dk61qxd21mtl
 name: Incident with Actions resulting in degraded performance
 impact: minor
 systems:
+    - 4230lsnqdsld
+    - kr09ddfgbfsf
     - br0l2tvcx85d
 timeline:
     - ts: "2025-01-07 14:49:42"
@@ -10,4 +12,13 @@ timeline:
       investigating: true
     - ts: "2025-01-07 15:17:08"
       description: Users may see delays with Action workflow jobs in the UI and API responses. Additionally, several endpoints, including some Pull Request pages are experiencing increased latency. We are continuing to investigate the issue.
+      investigating: true
+    - ts: "2025-01-07 15:51:55"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-01-07 15:59:37"
+      description: We have identified a configuration issue that we believe is the source of the Action workflow job delays and page latency increases. We are continuing to investigate and mitigate the issue.
+      investigating: true
+    - ts: "2025-01-07 16:09:46"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
       investigating: true
