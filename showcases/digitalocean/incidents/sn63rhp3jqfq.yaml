@@ -1,0 +1,10 @@
+version: incident/v1
+id: sn63rhp3jqfq
+name: Error adding card details
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2025-01-07 13:24:46"
+      description: "Our engineering team is investigating reports of issues occurring when users attempt to add a new credit card in the billing settings page of the Cloud Control Panel. \n\nDuring this time, some users may be unable to input card information. We apologize for the inconvenience and will share an update once we have more information."
+      investigating: true
