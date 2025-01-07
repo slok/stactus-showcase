@@ -21,3 +21,11 @@ timeline:
         Our engineering team has implemented a fix to resolve the networking issue in our SFO3 region. Users should no longer encounter connectivity issues, provisioning Load Balancers, latency, and timeout errors while interacting with resources in the SFO3 region.
 
         We will post an update as soon as the issue is fully resolved.
+    - ts: "2025-01-07 16:43:08"
+      description: |-
+        From 13:09 - 14:48 UTC, we experienced an issue with IPv6 network connectivity in our SFO3 region. Our Engineering team was able to identify the root cause, revert changes, and resolve the issue.
+
+        During that time, connectivity via IPv6 to services in SFO3 was impacted. This included, in particular, connectivity to and provisioning of Load Balancers, control plane connectivity to Kubernetes clusters, and connectivity to App Platform Apps.
+
+        If you continue to experience problems, please open a ticket with our support team. Thank you for your patience and we apologize for any inconvenience.
+      resolved: true
