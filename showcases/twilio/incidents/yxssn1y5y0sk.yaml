@@ -1,0 +1,9 @@
+version: incident/v1
+id: yxssn1y5y0sk
+name: Attempts to Create and Update TwiML Applications via the Console and REST API Failed with 5xx Errors
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-08 01:32:34"
+      description: Twilio TwiML Applications were degraded for approximately 12 minutes between 7 January 4:48PM PDT and 7 January 5:00PM PDT. During this period of time, customers who attempted to create or update TwiML applications, both via the REST API and Console, may have experienced HTTP 5XX errors preventing their actions from succeeding. The issue has now been resolved.
+      resolved: true
