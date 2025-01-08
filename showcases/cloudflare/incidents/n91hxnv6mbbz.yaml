@@ -1,0 +1,9 @@
+version: incident/v1
+id: n91hxnv6mbbz
+name: Increased Reports of QUIC Errors
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-01-08 20:18:22"
+      description: We have an increased number of reports of QUIC protocol errors when calling Cloudflare services. We will provide more information soon on services or regions that may be affected.
+      investigating: true
