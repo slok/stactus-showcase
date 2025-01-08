@@ -1,9 +1,13 @@
 version: incident/v1
 id: nmgd0pzfhgfv
 name: WhatsApp Outbound Messages Failing with Error Code 63005
-impact: none
-systems: []
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
 timeline:
     - ts: "2025-01-08 20:14:49"
       description: Our monitoring systems have detected a potential issue with outbound WhatsApp messages failing. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-01-08 20:36:39"
+      description: Since December 21, 2024, Twilio has noticed a higher occurrence of 63005 errors when sending outbound WhatsApp messages, confirmed by Meta to be an internal WhatsApp issue where Twilio receives an unexpected error code (135000) when sending the message to Meta servers. The root cause has been identified by Meta and their team is working on a fix with Twilio supporting.  We will provide an update in 1 hour or as soon as we have more information.
       investigating: true
