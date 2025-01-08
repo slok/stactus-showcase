@@ -10,3 +10,5 @@ timeline:
     - ts: "2025-01-08 20:34:02"
       description: We have seen cases of connection failures affecting requests coming from both HTTP/2 and HTTP/3 clients for affected customers. We are continuing to investigate the root cause, and will have more information soon on specific services or regions that may be affected.
       investigating: true
+    - ts: "2025-01-08 21:17:29"
+      description: We have identified the issue causing sporadic HTTP connection errors into Cloudflare, and we are rolling back the affected web serving systems to the last good state.
