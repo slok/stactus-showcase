@@ -1,0 +1,12 @@
+version: incident/v1
+id: ptv1wwgypzt6
+name: Synthetic monitoring connectivity issues between Linode public probes and Grafana Cloud stacks in Singapore and Indonesia
+impact: none
+systems:
+    - sq2b0zbgtbwn
+timeline:
+    - ts: "2025-01-08 15:51:11"
+      description: |-
+        Between 11:00 and 14:50 UTC Grafana Cloud regions in Singapore ( prod-ap-southeast-1 ) and Indonesia ( prod-ap-southeast-2 ) experienced issues connecting to synthetic monitoring public probes hosted in Linode:  Atlanta, Toronto, Dallas, Newark.
+
+        Synthetic monitor changes were delayed propagating to Atlanta, Toronto, Dallas, Newark by up to 30 minutes.  This affected customers in our  prod-ap-southeast-1 (Singapore) and prod-ap-southeast-2 (Indonesia) regions. As of 14:50 UTC these regions have maintained continuous connection to Linode probes. We continue to monitor these regions.
