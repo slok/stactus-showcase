@@ -1,0 +1,11 @@
+version: incident/v1
+id: 41xtl5znmt2h
+name: Blank screen when loading desktop/web app
+impact: minor
+systems:
+    - ly7bf56hshjc
+    - 6j5lgxtyjfc2
+timeline:
+    - ts: "2025-01-08 18:02:45"
+      description: We are currently investigating an issue where the desktop/web app may fail to launch and display a blank screen. Reloading the client (CTRL/CMD + R) may fix the issue in some instances.
+      investigating: true
