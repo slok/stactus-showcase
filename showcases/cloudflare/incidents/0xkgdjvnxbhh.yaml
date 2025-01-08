@@ -1,0 +1,15 @@
+version: incident/v1
+id: 0xkgdjvnxbhh
+name: Gateway File Sandboxing Issue
+impact: minor
+systems:
+    - gyx2yygg7lmd
+timeline:
+    - ts: "2025-01-08 19:38:20"
+      description: |-
+        Cloudflare has identified and applied a fix for an issue where Gateway File Sandboxing was not being applied as expected.  We are currently monitoring the results.
+
+        The observed impact of this issue is that Sandboxing account setting are applied, if your account is set to fail open users will be able to download a file without Sandboxing applied. If set to fail closed, users will not be able to download the file.
+    - ts: "2025-01-08 19:47:53"
+      description: This issue is now resolved.
+      resolved: true
