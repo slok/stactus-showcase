@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-01-08 20:36:39"
       description: Since December 31, 2024, Twilio has noticed a higher occurrence of 63005 errors when sending outbound WhatsApp messages, confirmed by Meta to be an internal WhatsApp issue where Twilio receives an unexpected error code (135000) when sending the message to Meta servers. The root cause has been identified by Meta and their team is working on a fix with Twilio supporting.  We will provide an update in 1 hour or as soon as we have more information.
       investigating: true
+    - ts: "2025-01-08 21:35:24"
+      description: We are continuing to investigate the issue causing 63005 errors when sending outbound WhatsApp messages.  We will provide an update in 2 hours or as soon as more information is available.
+      investigating: true
