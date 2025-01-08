@@ -1,0 +1,13 @@
+version: incident/v1
+id: 9l42drtyqpjf
+name: R2 degraded availability in APAC region
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2025-01-08 16:14:34"
+      description: "We're currently investigating an increase in response errors from the R2 service hitting buckets in the APAC region. \n\nImpacted users will see increases in HTTP 500 response codes on requests."
+      investigating: true
+    - ts: "2025-01-08 16:17:59"
+      description: We are continuing to investigate this issue.
+      investigating: true
