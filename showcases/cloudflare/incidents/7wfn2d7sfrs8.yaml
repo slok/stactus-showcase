@@ -12,4 +12,7 @@ timeline:
       description: We are continuing to investigate this issue.
       investigating: true
     - ts: "2025-01-09 13:35:45"
-      description: 'The issue has been identified: An external vendor''s API is deterministically failing some request for specific integrations. We are reaching the vendor for a fix.'
+      description: 'The issue has been identified: An external vendor''s API is deterministically failing some requests for specific integrations. We are reaching the vendor for a fix.'
+    - ts: "2025-01-09 15:58:25"
+      description: The 3rd party vendor has solved their API issue, and the incident has been resolved.
+      resolved: true
