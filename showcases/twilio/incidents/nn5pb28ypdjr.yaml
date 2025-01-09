@@ -1,0 +1,12 @@
+version: incident/v1
+id: nn5pb28ypdjr
+name: 'Automated Alert:  Combined with Existing Incident'
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-09 01:56:35"
+      description: Our monitoring systems have detected a potential issue with MMS Delivery Delays to Verizon Network in United States of America. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-01-09 02:09:43"
+      description: We have fully investigated the issue with MMS delays to the Verizon network in the United States of America that was triggered by our automated alert system, and we have decided to combine this incident with our existing status page entry for SMS delays to the same network.
+      resolved: true

@@ -1,0 +1,84 @@
+version: incident/v1
+id: plgzz71xn6zq
+name: Incident with Webhooks
+impact: major
+systems:
+    - 8l4ygp009s5s
+    - 4230lsnqdsld
+    - brv1bkgrwx7q
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+    - h2ftsgbw7kmk
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2025-01-09 01:36:36"
+      description: We are investigating reports of degraded availability for Webhooks
+      investigating: true
+    - ts: "2025-01-09 01:37:46"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-01-09 01:41:02"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-01-09 01:42:16"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-01-09 01:43:31"
+      description: Git Operations is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-01-09 01:44:19"
+      description: Pages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-01-09 01:46:40"
+      description: We are investigating reports of issues with multiple services including authentication, PRs, codespaces, pages, git operation, and apis. We will continue to keep users updated on progress towards mitigation.
+      investigating: true
+    - ts: "2025-01-09 01:49:08"
+      description: Git Operations is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-01-09 01:51:07"
+      description: Codespaces is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-01-09 01:51:31"
+      description: Codespaces is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-01-09 01:53:08"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-01-09 01:59:53"
+      description: We are continuing the investigation of multiple service issues. We will continue to keep users updated on progress towards mitigation.
+      investigating: true
+    - ts: "2025-01-09 02:01:44"
+      description: API Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-01-09 02:09:23"
+      description: We have identified the root cause and have deployed a fix. Service are recovering.
+      investigating: true
+    - ts: "2025-01-09 02:11:51"
+      description: Codespaces is operating normally.
+      investigating: true
+    - ts: "2025-01-09 02:12:34"
+      description: Pull Requests is operating normally.
+      investigating: true
+    - ts: "2025-01-09 02:12:44"
+      description: Webhooks is operating normally.
+      investigating: true
+    - ts: "2025-01-09 02:12:55"
+      description: Git Operations is operating normally.
+      investigating: true
+    - ts: "2025-01-09 02:13:03"
+      description: Pages is operating normally.
+      investigating: true
+    - ts: "2025-01-09 02:13:41"
+      description: Issues is operating normally.
+      investigating: true
+    - ts: "2025-01-09 02:14:12"
+      description: Copilot is operating normally.
+      investigating: true
+    - ts: "2025-01-09 02:19:22"
+      description: We have identified the root cause and have deployed a fix. Majority of the services have recovered. Actions service is in the process of being recovered.
+      investigating: true
+    - ts: "2025-01-09 02:27:04"
+      description: This incident has been resolved.
+      resolved: true

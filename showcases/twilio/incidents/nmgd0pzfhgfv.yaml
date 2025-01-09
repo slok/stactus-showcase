@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2025-01-08 23:35:28"
       description: We are observing recovery from the issue causing 63005 errors when sending outbound WhatsApp messages.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-01-09 01:35:04"
+      description: We are no longer experiencing 63005 errors when sending outbound WhatsApp messages. This incident has been resolved.
+      resolved: true
