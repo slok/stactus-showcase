@@ -1,0 +1,9 @@
+version: incident/v1
+id: 448s6btd3sbd
+name: Loki Read Outage
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-09 22:46:17"
+      description: Loki experienced a read outage from ~14:40-15:00 UTC today. We identified the issue, applied remediation, and continue to monitor for any further disruptions. At this time, we are considering this issue resolved.
+      resolved: true
