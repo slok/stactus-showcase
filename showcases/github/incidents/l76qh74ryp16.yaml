@@ -1,0 +1,16 @@
+version: incident/v1
+id: l76qh74ryp16
+name: Some GitHub Actions may not run
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2025-01-09 07:15:19"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2025-01-09 07:17:45"
+      description: 1-2% of repositories may have Actions jobs that are blocked and are not running or will be delayed. We have identified a potential cause. We are confirming and will be working on remediation.
+      investigating: true
+    - ts: "2025-01-09 07:47:15"
+      description: We have identified the problem and are proceeding with a fail-over remediation. We anticipate this will allow Actions Runs to proceed for affected repositories.
+      investigating: true
