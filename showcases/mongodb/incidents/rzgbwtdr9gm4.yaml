@@ -1,0 +1,12 @@
+version: incident/v1
+id: rzgbwtdr9gm4
+name: Atlas Cluster Creation and Modification Delays in Azure East US2
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-01-09 04:03:41"
+      description: |-
+        Due to Azure networking issues in the East US2 region, customers may experience delays creating and modifying Atlas clusters hosted in this region.
+
+        For details, please visit your Azure Service Health Dashboard.
