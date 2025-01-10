@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2yl1vht60441
+name: Duplicate "Your Friend is Streaming" notifications being received by users
+impact: minor
+systems:
+    - 354mn7xfxz1h
+timeline:
+    - ts: "2025-01-10 18:54:11"
+      description: The team received reports of users getting duplicated "Your friend is streaming in <Server>" notifications. We are actively investigating to identify the cause.
+      investigating: true
