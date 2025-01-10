@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-01-10 18:54:11"
       description: The team received reports of users getting duplicated "Your friend is streaming in <Server>" notifications. We are actively investigating to identify the cause.
       investigating: true
+    - ts: "2025-01-10 19:20:41"
+      description: We've put a mitigation in place that should prevent these notifications from being sent out while we put longer term fixes in place.
+      investigating: true
