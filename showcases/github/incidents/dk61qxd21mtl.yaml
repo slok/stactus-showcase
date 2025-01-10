@@ -32,5 +32,5 @@ timeline:
       description: Issues is operating normally.
       investigating: true
     - ts: "2025-01-07 16:39:23"
-      description: This incident has been resolved.
+      description: On January 7th, 2025 between 11:54:00 and 16:39 UTC, degraded performance was observed in Actions, Webhooks, and Issues, caused by an internal Certificate Authority configuration change that disrupted our event infrastructure. The configuration issue was promptly identified and resolved by rolling the change back on impacted hosts and re-issuing certificates.<br /><br />We have identified what services need updates to support the current PKI architecture and are working on implementing those changes to prevent a future recurrence.
       resolved: true
