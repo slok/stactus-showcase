@@ -1,0 +1,12 @@
+version: incident/v1
+id: gr6tr26xnmt7
+name: On Call Engineers are Investigating an issue with Conference API Reads Impacted in AU1
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-10 20:08:37"
+      description: Our monitoring systems have detected a potential issue with conference API reads impacted in AU1. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-01-10 20:23:32"
+      description: We have fully investigated the Conference API reads impacted in AU1 issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
