@@ -1,0 +1,12 @@
+version: incident/v1
+id: h4jy131wgqfh
+name: Confluent Cloud Integration disruption
+impact: major
+systems:
+    - z5ysrlvblv9t
+timeline:
+    - ts: "2025-01-10 18:17:40"
+      description: |-
+        Starting at approximately 10:40 UTC today, we began receiving reports of degraded performance for the Confluent Cloud integration in Grafana Cloud. Users may experience gaps in metric data or encounter 500 errors when querying Confluent. We've identified the issue with the Confluent Cloud API, who have launched their own status page to track the ongoing concern: https://status.confluent.cloud/incidents/1kywc5qb2hv2
+
+        We will continue to monitor the situation and apply remediation if necessary.
