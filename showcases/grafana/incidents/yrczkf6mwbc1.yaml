@@ -1,0 +1,13 @@
+version: incident/v1
+id: yrczkf6mwbc1
+name: Logins to environments failing on AzureAD
+impact: minor
+systems:
+    - m0qkgdzwyr6l
+timeline:
+    - ts: "2025-01-10 08:51:16"
+      description: |-
+        As of 9:20pm UTC on Jan 9, we were alerted to an issue with logins to environments failing on AzureAD. Users with instances on the "fast" rolling release channel may see "Failed to get token from provider" when attempting to log in.
+
+        Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
+      investigating: true
