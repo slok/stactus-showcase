@@ -1,0 +1,13 @@
+version: incident/v1
+id: k23zjzz5595s
+name: Cloudflare Access - Audit Logs Availability Issues
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+    - 2469qcw8rvjp
+timeline:
+    - ts: "2025-01-10 16:13:55"
+      description: Cloudflare Engineering is investigating an issue causing Access Request audit logs to fail to return in the dashboard and API. Log collection is not impacted at this time. We are working to understand the full impact and mitigate this problem.  More updates to follow shortly.
+      investigating: true
+    - ts: "2025-01-10 16:20:43"
+      description: A fix has been implemented and we are monitoring the results.
