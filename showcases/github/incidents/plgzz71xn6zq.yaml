@@ -80,5 +80,5 @@ timeline:
       description: We have identified the root cause and have deployed a fix. Majority of the services have recovered. Actions service is in the process of being recovered.
       investigating: true
     - ts: "2025-01-09 02:27:04"
-      description: This incident has been resolved.
+      description: On January 9, 2025, between 01:26 UTC and 01:56 UTC GitHub experienced widespread disruption to many services, with users receiving 500 responses when trying to access various functionality. This was due to a deployment which introduced a query that saturated a primary database server. On average, the error rate was 6% and peaked at 6.85% of update requests.<br /><br />We mitigated the incident by identifying the source of the problematic query and rolling back the deployment.<br /><br />We are investigating methods to detect problematic queries prior to deployment to prevent, and to reduce our time to detection and mitigation of issues like this one in the future.
       resolved: true
