@@ -9,3 +9,5 @@ timeline:
       description: Cloudflare is aware of and investigating an issue with new Wrangler installs failing, because of a change in a dependency. An update with the fix is being made.
     - ts: "2025-01-11 17:43:59"
       description: To workaround the issue, affected users can pin the 'readdirp' transitive dependency to a version earlier than 4.1 via npm/pnpm overrides, and additionally in Worker projects created by Wrangler.
+    - ts: "2025-01-11 17:59:51"
+      description: New installs are working again. We are continuing to monitor for any further issues.
