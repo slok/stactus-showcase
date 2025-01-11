@@ -1,6 +1,6 @@
 version: incident/v1
 id: 61471l0pmx7x
-name: Workers AI API Incorrect HTTP Status Response Codes
+name: Workers AI Compatibility API Returning Incorrect HTTP Status Codes
 impact: minor
 systems:
     - zvm7mqn92xzc
@@ -8,3 +8,8 @@ timeline:
     - ts: "2025-01-10 22:20:31"
       description: We are currently investigating an issue where requests to Workers AI performed via api.cloudflare.com may have incorrect HTTP status codes returned. Response status may be reported as 500 instead of other status codes e.g. 400, 401, 429, etc. in some cases.
       investigating: true
+    - ts: "2025-01-10 23:50:54"
+      description: |-
+        Requests to Workers AI performed via api.cloudflare.com using OpenAI compatibility may have incorrect HTTP status code returned, being reported as 500 instead of other status codes e.g. 400, 401, 429, etc.
+
+        The cause of this issue has been identified and we are working to apply a fix.
