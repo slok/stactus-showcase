@@ -7,3 +7,5 @@ systems:
 timeline:
     - ts: "2025-01-11 04:47:50"
       description: Automated refreshes are broken on some waiting rooms. The bug has been identified and we are working on a fix. In the meantime, affected customers can fix their waiting room by setting "turnstile_mode":"off" via the Cloudflare API.
+    - ts: "2025-01-11 09:12:18"
+      description: A fix has been implemented and we are monitoring the results.
