@@ -11,3 +11,6 @@ timeline:
       description: To workaround the issue, affected users can pin the 'readdirp' transitive dependency to a version earlier than 4.1 via npm/pnpm overrides, and additionally in Worker projects created by Wrangler.
     - ts: "2025-01-11 17:59:51"
       description: New installs are working again. We are continuing to monitor for any further issues.
+    - ts: "2025-01-11 18:07:22"
+      description: This incident has been resolved.
+      resolved: true
