@@ -8,3 +8,11 @@ timeline:
     - ts: "2025-01-11 18:29:27"
       description: "Our Engineering team is currently investigating an issue with Managed Kubernetes clusters. During this time, some users may experience delays when provisioning Kubernetes clusters, specifically version 1.31.1-5. \n\nWe apologize for the inconvenience and will provide an update as soon as we have more information."
       investigating: true
+    - ts: "2025-01-11 21:12:49"
+      description: |-
+        As of 18:55 UTC, our Engineering team has confirmed the full resolution of the issue that impacted Managed Kubernetes Clusters in all of our regions. All of the services should now be working normally.
+
+        If you continue to experience problems, please open a ticket with our Support team from within your Cloud Control Panel.
+
+        Thank you for your patience and we apologise for any inconvenience.
+      resolved: true
