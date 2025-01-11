@@ -1,0 +1,9 @@
+version: incident/v1
+id: y759xkkv88lz
+name: Waiting Room Refresh Issue
+impact: minor
+systems:
+    - 9c7cbxnhk1dq
+timeline:
+    - ts: "2025-01-11 04:47:50"
+      description: Automated refreshes are broken on some waiting rooms. The bug has been identified and we are working on a fix. In the meantime, affected customers can fix their waiting room by setting "turnstile_mode":"off" via the Cloudflare API.
