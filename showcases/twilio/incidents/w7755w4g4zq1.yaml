@@ -1,7 +1,7 @@
 version: incident/v1
 id: w7755w4g4zq1
-name: SMS / MMS Delivery Failures to Multiple Networks in the US for a Subset of Long Code and Toll free Numbers
-impact: minor
+name: SMS / MMS Delivery Failures to Multiple Networks in the US and Canada for a Subset of Long Code and Toll free Numbers
+impact: major
 systems:
     - 7d8w22hqrh6s
     - 8vdlvw3dsq8h
@@ -14,5 +14,5 @@ timeline:
       description: We are experiencing MMS/SMS delivery failures affecting Multiple Networks in the US for a Subset of Long Code and Toll free Numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2025-01-13 21:54:42"
-      description: We are experiencing MMS/SMS delivery failures affecting Multiple Networks in the US for a Subset of Long Code and Toll free Numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: We are experiencing MMS/SMS delivery failures affecting Multiple Networks in the US and Canada for a Subset of Long Code and Toll free Numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true

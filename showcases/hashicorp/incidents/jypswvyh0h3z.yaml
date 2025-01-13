@@ -1,0 +1,13 @@
+version: incident/v1
+id: jypswvyh0h3z
+name: Investigating reports of slowness
+impact: minor
+systems:
+    - 7cgbxrw10wgr
+timeline:
+    - ts: "2025-01-13 22:21:01"
+      description: |-
+        Our engineering team is investigating reports of slowness and stuck runs with HCP Terraform.
+
+        We will share another update as soon as we have more information.
+      investigating: true
