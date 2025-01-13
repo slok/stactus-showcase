@@ -1,0 +1,11 @@
+version: incident/v1
+id: mdw4gz66c3c3
+name: Voice Insights Conference API Return 500 Http Error Code
+impact: minor
+systems:
+    - g4hs7h64k9fv
+    - kvyjw7lg97l1
+timeline:
+    - ts: "2025-01-13 22:48:24"
+      description: We are currently seeing degraded performance on our account portal (Voice Insights). Our engineering team is looking into the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
