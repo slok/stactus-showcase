@@ -1,11 +1,16 @@
 version: incident/v1
 id: mdw4gz66c3c3
-name: Voice Insights Conference API Return 500 Http Error Code
+name: Conference Insights API Returns 5xx for Conferences in US2 Region
 impact: minor
 systems:
-    - g4hs7h64k9fv
-    - kvyjw7lg97l1
+    - l2p2s96tdsf4
 timeline:
     - ts: "2025-01-13 22:48:24"
-      description: We are currently seeing degraded performance on our account portal (Voice Insights). Our engineering team is looking into the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: Customers using Conference Insights API are seeing 5xx only for conferences created in the us2 region. We have identified the issue and working on the fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-01-13 22:56:04"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-01-13 22:57:47"
+      description: We are continuing to investigate this issue.
       investigating: true
