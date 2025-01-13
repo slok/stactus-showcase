@@ -21,5 +21,5 @@ timeline:
       description: Actions is operating normally.
       investigating: true
     - ts: "2025-01-09 08:30:41"
-      description: This incident has been resolved.
+      description: On January 9, 2025, between 06:26 and 07:49 UTC, Actions experienced degraded performance, leading to failures in about 1% of workflow runs across ~10k repositories. The failures occurred due to an outage in a dependent service, which disrupted Redis connectivity in the East US 2 region. We mitigated the incident by re-routing Redis traffic out of that region at 07:49 UTC. We continued to monitor service recovery before resolving the incident at 08:30 UTC. We are working to improve our monitoring to reduce our time to detection and mitigation of issues like this one in the future.
       resolved: true

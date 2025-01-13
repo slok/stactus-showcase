@@ -1,0 +1,9 @@
+version: incident/v1
+id: ly9k9qqpk5hn
+name: Some Low Cache TTL values not being respected
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2025-01-13 20:15:15"
+      description: Cloudflare has identified an issue with Low Edge Cache TTL during assets revalidation. Cached requests TTL might intermittently not be respected.
