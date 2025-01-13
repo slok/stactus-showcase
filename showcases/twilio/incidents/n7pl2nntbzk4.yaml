@@ -1,0 +1,10 @@
+version: incident/v1
+id: n7pl2nntbzk4
+name: SMS Delivery Delays to Surf Telecom Network in Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-01-13 16:56:57"
+      description: We are experiencing SMS delivery delays when sending messages to Surf Telecom network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
