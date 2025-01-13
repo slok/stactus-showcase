@@ -1,0 +1,10 @@
+version: incident/v1
+id: p5q1gr6x6xqd
+name: SMS Delivery Delays to Telefonica Network in Mexico
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-01-13 00:38:04"
+      description: We are experiencing SMS delivery delays when sending messages to Telefonica network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
