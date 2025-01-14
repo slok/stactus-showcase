@@ -14,3 +14,8 @@ timeline:
     - ts: "2025-01-14 00:01:52"
       description: "We are continuing to narrow in on the issue causing the slow and failing HCP Terraform runs. \n\nWe will share another update as soon as we have more information."
       investigating: true
+    - ts: "2025-01-14 02:30:25"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue with some runs getting stuck while fetching configuration versions and intermittent run errors.
+
+        We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
