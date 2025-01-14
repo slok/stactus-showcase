@@ -1,0 +1,21 @@
+version: incident/v1
+id: qd96yfgvmcf9
+name: Incident with Git Operations
+impact: major
+systems:
+    - 8l4ygp009s5s
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2025-01-13 23:44:35"
+      description: We are investigating reports of degraded availability for Git Operations
+      investigating: true
+    - ts: "2025-01-13 23:46:52"
+      description: Pages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-01-13 23:57:10"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-01-14 00:15:52"
+      description: We've identified a cause of degraded git operations, which may affect other GitHub services that rely upon git. We're working to remediate.
+      investigating: true
