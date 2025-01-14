@@ -1,0 +1,19 @@
+version: incident/v1
+id: yfh7v67cvn3n
+name: K6 Ingest Tests degradation
+impact: major
+systems:
+    - 3gvy1n7fg4x4
+    - m79yjv169r06
+    - wbhrnd130mb0
+    - z9074fpyx6sb
+    - 236539c2nt69
+    - qwkkscbddtdw
+    - 8n34hh3y2yd0
+timeline:
+    - ts: "2025-01-14 13:03:28"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-01-14 13:05:42"
+      description: Monitoring - A fix has been implemented and we are monitoring the results.
+      investigating: true

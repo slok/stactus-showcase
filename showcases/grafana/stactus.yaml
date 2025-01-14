@@ -104,6 +104,7 @@ systems:
       name: 'Grafana Cloud: Tempo / AWS Australia - prod-au-southeast-1: Metrics Generator'
     - id: wbhrnd130mb0
       name: 'Grafana Cloud: k6 / Cloud Output Test Runs'
+      description: Certain tests are showing degradation in ingestion and causing timeouts. We are investigating.
     - id: 6wgslg1s3bzr
       name: 'Grafana Cloud: Hosted Grafana / AWS Germany - prod-eu-west-2'
     - id: 14rfvnlhlt5n
