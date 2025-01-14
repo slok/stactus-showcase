@@ -1,0 +1,9 @@
+version: incident/v1
+id: h3sfvtt6dxsf
+name: Call Failures to a subset of Twilio Singapore Phone Numbers
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-14 17:52:08"
+      description: Twilio Voice was degraded for 21 minutes between 09:09 and 09:30 Pacific Time on 01/14/2024. During this period of time, customers may have experienced call failures to a subset of Twilio Singapore phone numbers. The issue has now been resolved.
+      resolved: true
