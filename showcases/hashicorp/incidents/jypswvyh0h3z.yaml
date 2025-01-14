@@ -19,3 +19,5 @@ timeline:
         Our Engineering team has implemented a fix to resolve the issue with some runs getting stuck while fetching configuration versions and intermittent run errors.
 
         We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
+    - ts: "2025-01-14 17:00:04"
+      description: "We are continuing to resolve the long-tail of runs affected by this issue. \n\nAs a mitigation, impacted customers should cancel all \"fetching\" runs, and push a new commit on your VCS repo. This will ingress a new configuration version and trigger a new run."
