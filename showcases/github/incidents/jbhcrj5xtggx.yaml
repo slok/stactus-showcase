@@ -23,5 +23,5 @@ timeline:
       description: The impact to Large Runners has been mitigated.  The third party incident has not been fully mitigated but is being actively monitored at https://azure.status.microsoft/en-us/status in case of reoccurrence.
       investigating: true
     - ts: "2025-01-09 20:00:26"
-      description: This incident has been resolved.
+      description: 'On January 9, 2025, larger hosted runners configured with Azure private networking in East US 2 were degraded, causing delayed job starts for ~2,300 jobs between 16:00 and 20:00 UTC.  There was also an earlier period of impact from 2025-01-08 22:00 UTC to 2025-01-09 4:10 UTC with 488 jobs impacted.  The cause of both these delays was an incident in East US 2 impacting provisioning and network connectivity of Azure resources.  More details on that incident are visible at https://azure.status.microsoft/en-us/status/history (Tracking ID: PLP3-1W8). Because these runners are reliant on private networking with networks in the East US 2 region, there were no immediate mitigations available other than restoring network connectivity.  Going forward, we will continue evaluating options to provide better resilience to 3rd party regional outages that affect private networking customers.'
       resolved: true

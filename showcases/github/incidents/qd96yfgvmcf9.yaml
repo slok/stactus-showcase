@@ -20,5 +20,5 @@ timeline:
       description: We've identified a cause of degraded git operations, which may affect other GitHub services that rely upon git. We're working to remediate.
       investigating: true
     - ts: "2025-01-14 00:28:58"
-      description: This incident has been resolved.
+      description: On January 13, 2025, between 23:35 UTC and 00:24 UTC all Git operations were unavailable due to a configuration change causing our internal load balancer to drop requests between services that Git relies upon.<br /><br />We mitigated the incident by rolling back the configuration change.<br /><br />We are improving our monitoring and deployment practices to reduce our time to detection and automated mitigation for issues like this in the future.
       resolved: true
