@@ -11,3 +11,9 @@ timeline:
     - ts: "2025-01-14 20:55:37"
       description: We are investigating reports of timeouts for Codespaces users creating new or connecting to existing Codespaces. We will continue to keep users updated on progress towards mitigation.
       investigating: true
+    - ts: "2025-01-14 21:19:57"
+      description: We are beginning to see recovery for users connecting to Codespaces. Any users continuing to see impact should attempt a restart.
+      investigating: true
+    - ts: "2025-01-14 21:20:19"
+      description: This incident has been resolved.
+      resolved: true
