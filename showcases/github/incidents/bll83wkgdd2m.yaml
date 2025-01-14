@@ -1,0 +1,13 @@
+version: incident/v1
+id: bll83wkgdd2m
+name: Disruption connecting to Codespaces
+impact: minor
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2025-01-14 20:55:07"
+      description: We are investigating reports of degraded performance for Codespaces
+      investigating: true
+    - ts: "2025-01-14 20:55:37"
+      description: We are investigating reports of timeouts for Codespaces users creating new or connecting to existing Codespaces. We will continue to keep users updated on progress towards mitigation.
+      investigating: true
