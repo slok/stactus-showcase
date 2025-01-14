@@ -1,0 +1,9 @@
+version: incident/v1
+id: r26tb60h9t8g
+name: Delayed SMS/MMS Towards T-Mobile Network in the United States
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-14 21:47:56"
+      description: Twilio SMS/MMS was degraded for 20 minutes between 12:21 and 12:40 Pacific Time on 01/14/2025. During this period of time customers may have experienced Delayed SMS/MMS Delivery to T-Mobile Numbers when sent from Long Codes, Short Codes and Toll-Free Senders. The issue has now been resolved.
+      resolved: true
