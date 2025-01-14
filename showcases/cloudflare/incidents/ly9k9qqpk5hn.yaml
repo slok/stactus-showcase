@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2025-01-13 20:15:15"
       description: Cloudflare has identified an issue with Low Edge Cache TTL during assets revalidation. Cached requests TTL might intermittently not be respected.
+    - ts: "2025-01-14 04:47:19"
+      description: This incident has been resolved.
+      resolved: true
