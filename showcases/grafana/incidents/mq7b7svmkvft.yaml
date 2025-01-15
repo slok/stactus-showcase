@@ -1,0 +1,13 @@
+version: incident/v1
+id: mq7b7svmkvft
+name: Hosted Grafana API Partial Outage
+impact: major
+systems:
+    - m7cr9xxllhpn
+timeline:
+    - ts: "2025-01-15 23:23:24"
+      description: |-
+        As of 21:10 UTC, our engineering team became aware of an issue with the Hosted Grafana API within the GCP US Central region. Users experiencing this issue may encounter unsuccessful pod restarts. Users experiencing this issue may encounter a loading screen on their instance.
+
+        Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
+      investigating: true
