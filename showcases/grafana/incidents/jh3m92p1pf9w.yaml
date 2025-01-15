@@ -9,3 +9,6 @@ timeline:
     - ts: "2025-01-15 17:33:14"
       description: We are currently investigating an issue that is impacting the prod-eu-west-2 and prod-us-east-0 regions. Apps which use app platform in newly created stacks will experience errors when a user attempts to interact with them. Our team is actively working to mitigate and resolve these errors.
       investigating: true
+    - ts: "2025-01-15 17:56:59"
+      description: We are still investigating this issue that is impacting the prod-eu-west-2 and prod-us-east-0 regions. This is impacting the ability to create new instances, as well as accessing some existing instances. Our team is actively working to mitigate and resolve these errors.
+      investigating: true
