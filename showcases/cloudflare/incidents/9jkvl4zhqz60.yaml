@@ -1,0 +1,9 @@
+version: incident/v1
+id: 9jkvl4zhqz60
+name: Network Route Leak
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-15 15:57:49"
+      description: Cloudflare was affected by a route leak, impacting performance for some customers in Europe. This may have lead to higher latency or timeouts between 09:24 and 15:42 UTC.
+      resolved: true
