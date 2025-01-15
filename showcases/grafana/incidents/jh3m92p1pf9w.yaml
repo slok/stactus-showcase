@@ -1,0 +1,11 @@
+version: incident/v1
+id: jh3m92p1pf9w
+name: Errors in Newly Created Stacks
+impact: major
+systems:
+    - 6wgslg1s3bzr
+    - hbqgpzmf8h9k
+timeline:
+    - ts: "2025-01-15 17:33:14"
+      description: We are currently investigating an issue that is impacting the prod-eu-west-2 and prod-us-east-0 regions. Apps which use app platform in newly created stacks will experience errors when a user attempts to interact with them. Our team is actively working to mitigate and resolve these errors.
+      investigating: true
