@@ -1,0 +1,23 @@
+version: incident/v1
+id: 60rjg8bnqk95
+name: Machine creation errors in LHR
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-15 18:43:54"
+      description: |-
+        We observed several periods where Machine creations in LHR resulted in authentication errors from 11 Jan to 15 Jan 2025. Customers creating new Machines in the region may have seen failures with:
+
+        failed to launch VM: permission_denied: bolt token: failed to verify service token: no verified tokens; token <token>: verify: context deadline exceeded
+
+        The disruptions were caused by degraded connectivity to our token creation service from three hosts.
+
+        We deployed a preventative fix for the network issues on 15 Jan 2025 at 12:58 UTC.
+
+        Timestamps of occurrences (UTC):
+
+        2025-01-11 03:32 to 2025-01-11 04:11
+        2025-01-11 17:07 to 2025-01-11 17:54
+        2025-01-14 11:36 to 2025-01-14 12:14
+        2025-01-15 07:46 to 2025-01-15 09:49
+      resolved: true
