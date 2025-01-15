@@ -1,0 +1,12 @@
+version: incident/v1
+id: qjfyz63lzbjv
+name: Bluegreen healthchecks not passing
+impact: none
+systems:
+    - 49yq6v65b33l
+timeline:
+    - ts: "2025-01-15 13:28:49"
+      description: |-
+        When deploying with bluegreen strategy some green machines (new app version) won't pass healthchecks.
+        Temporary workaround: unless bluegreen is a must for your app you can temporarily deploy using a different strategy by `fly deploy --strategy NAME`.
+      investigating: true
