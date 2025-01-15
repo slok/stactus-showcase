@@ -1,0 +1,11 @@
+version: incident/v1
+id: rxf08k1rxqvm
+name: Elevated errors when using workers on the Singapore colo
+impact: minor
+systems:
+    - 18p6r93swmbl
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-01-15 07:01:12"
+      description: We are currently investigating potential issues that might affect workers running on our Singapore colo.
+      investigating: true
