@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-01-15 15:30:18"
       description: We are investigating cloud.mongodb.com returning 500 errors when users navigate to the page. Clusters are not impacted.
       investigating: true
+    - ts: "2025-01-15 15:44:37"
+      description: We've identified and corrected the issue. Cloud.mongodb.com is no longer returning 500 errors.
