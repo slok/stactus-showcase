@@ -16,3 +16,8 @@ timeline:
     - ts: "2025-01-15 14:41:52"
       description: 'A temporary workaround for new deployments is to use rolling strategy: `fly deploy --strategy rolling`.'
       investigating: true
+    - ts: "2025-01-15 18:11:28"
+      description: "We are seeing signs of recovery, with Bluegreen deployments succeeding for many customers. We are continuing to investigate the root cause of the issue. \n\nCustomers who still experience a Bluegreen deployment failure can retry using the rolling strategy with `fly deploy --strategy rolling`."
+      investigating: true
+    - ts: "2025-01-15 18:19:28"
+      description: The issue has been identified and a fix is being implemented.
