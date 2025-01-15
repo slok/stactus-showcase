@@ -1,0 +1,17 @@
+version: incident/v1
+id: q7jh42z19rtj
+name: Billing Infrastructure update has led to some degraded flows
+impact: major
+systems:
+    - dd7j6hgdy98l
+    - cnzy869d6qf1
+    - l8gxmc6nwwws
+timeline:
+    - ts: "2025-01-15 17:10:58"
+      description: |-
+        We've identified an issue with our Billing Service. This is affecting:
+        - Partnerships API
+        - Apple Subscription events
+        - Google Subscription events
+
+        The cause of this incident has been identified and is under remediation
