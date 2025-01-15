@@ -1,8 +1,11 @@
 version: incident/v1
 id: w6zq0q8nck5s
-name: Our Engineers Are Investigating an Issue With Phone Numbers Integration
+name: 'Automated Alert: No Customer Impact'
 impact: none
 systems: []
 timeline:
     - ts: "2025-01-15 17:12:49"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with Numbers Integration. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-01-15 18:34:41"
+      description: We have fully investigated the issue with Numbers Integration issue triggered by our automated alert, and it was determined that there is no customer impact. All systems are operational.
+      resolved: true
