@@ -1,9 +1,13 @@
 version: incident/v1
 id: twzsby8mbcml
-name: On Call Engineers are Investigating an issue On Denmark Tiwlio Phone Numbers
-impact: none
-systems: []
+name: Call Failures to a Subset of Twilio Numbers From Denmark
+impact: minor
+systems:
+    - bnzggd37p61w
 timeline:
     - ts: "2025-01-15 14:48:18"
       description: Our monitoring systems have detected a potential issue on Denmark Twilio phone numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-01-15 15:08:17"
+      description: We are observing a subset of call failures to Twilio numbers from Denmark. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
