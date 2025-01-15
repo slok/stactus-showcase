@@ -1,0 +1,10 @@
+version: incident/v1
+id: wd59z6d866qz
+name: Cloud.mongodb.com is returning 500 errors
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-01-15 15:30:18"
+      description: We are investigating cloud.mongodb.com returning 500 errors when users navigate to the page. Clusters are not impacted.
+      investigating: true
