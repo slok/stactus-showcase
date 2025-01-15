@@ -1,0 +1,15 @@
+version: incident/v1
+id: 1nwh6c6jgv1v
+name: Network Connectivity in BLR and SFO Region
+impact: none
+systems:
+    - lmgn764lq04q
+    - btbzvrcdfjb3
+    - r59jnkcnpy5w
+    - pkldx6th5q38
+timeline:
+    - ts: "2025-01-15 12:54:05"
+      description: |-
+        From 11:29 to 12:31 UTC, our Engineering team observed a Networking issue in our BLR and SFO regions. During this time, users may have experienced Droplet connectivity issue, Users should no longer be experiencing these issues.
+        We apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.
+      resolved: true
