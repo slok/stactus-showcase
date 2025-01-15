@@ -1,0 +1,12 @@
+version: incident/v1
+id: bljh1vy4qnbw
+name: Issues with "Ignore Query String" Cache Settings
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2025-01-15 15:02:43"
+      description: Cloudflare is aware of, and investigating an issue with changing the "Ignore Query String" cache settings. Existing configurations are working as expected. Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2025-01-15 15:03:15"
+      description: The issue has been identified and a fix is being implemented.
