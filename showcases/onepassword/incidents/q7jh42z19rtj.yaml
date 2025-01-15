@@ -1,7 +1,7 @@
 version: incident/v1
 id: q7jh42z19rtj
 name: Billing Infrastructure update has led to some degraded flows
-impact: major
+impact: minor
 systems:
     - dd7j6hgdy98l
     - cnzy869d6qf1
@@ -17,3 +17,6 @@ timeline:
         The cause of this incident has been identified and is under remediation
     - ts: "2025-01-15 17:34:07"
       description: A fix has been implemented and we are monitoring the results
+    - ts: "2025-01-15 17:39:31"
+      description: This incident has been resolved.
+      resolved: true
