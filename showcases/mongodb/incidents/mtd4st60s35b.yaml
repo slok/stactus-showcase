@@ -1,0 +1,9 @@
+version: incident/v1
+id: mtd4st60s35b
+name: Atlas Serverless Outage in AWS Singapore (ap-southeast-1)
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-01-15 01:58:29"
+      description: Starting at 2025-01-15T01:02:00 UTC some Atlas Serverless instances in AWS Singapore region (ap-southeast-1) experienced downtime. The issue was due to unexpected memory exhaustion of the system that caused outage for a subset of the Atlas infrastructure in that region. A small number of serverless instances running on those infrastructure would have experienced downtime. Our engineers were alerted and the system was restored to health around 2025-01-15T01:44:00 UTC.
+      resolved: true
