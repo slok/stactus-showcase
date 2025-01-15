@@ -10,3 +10,9 @@ timeline:
         When deploying with bluegreen strategy some green machines (new app version) won't pass healthchecks.
         Temporary workaround: unless bluegreen is a must for your app you can temporarily deploy using a different strategy by `fly deploy --strategy NAME`.
       investigating: true
+    - ts: "2025-01-15 14:35:29"
+      description: We are still investigating the issue.
+      investigating: true
+    - ts: "2025-01-15 14:41:52"
+      description: 'A temporary workaround for new deployments is to use rolling strategy: `fly deploy --strategy rolling`.'
+      investigating: true
