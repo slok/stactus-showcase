@@ -17,3 +17,6 @@ timeline:
     - ts: "2025-01-16 08:37:53"
       description: We believe to have found a root cause, and in the process of verifying the mitigation.
       investigating: true
+    - ts: "2025-01-16 09:18:58"
+      description: We have mitigated the incident, and any new pull request rebase merges should be recovered. We are working on recovery steps for any pull requests that attempted to merge during this incident.
+      investigating: true
