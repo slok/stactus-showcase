@@ -20,3 +20,9 @@ timeline:
     - ts: "2025-01-16 09:18:58"
       description: We have mitigated the incident, and any new pull request rebase merges should be recovered. We are working on recovery steps for any pull requests that attempted to merge during this incident.
       investigating: true
+    - ts: "2025-01-16 09:39:54"
+      description: The incident has been resolved, but please note affected pull requests will self repair when any commits are pushed to the pull requests' base branch or head branch. If you encounter problems with a rebase and merge, either click the "update branch" button or push a commit to the PR's branch.
+      investigating: true
+    - ts: "2025-01-16 09:40:06"
+      description: This incident has been resolved.
+      resolved: true
