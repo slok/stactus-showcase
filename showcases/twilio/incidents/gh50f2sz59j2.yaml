@@ -1,9 +1,12 @@
 version: incident/v1
 id: gh50f2sz59j2
 name: Inbound SMS Delivery Failures in UK Twilio Numbers
-impact: none
-systems: []
+impact: minor
+systems:
+    - yvvy3vlp4djf
 timeline:
     - ts: "2025-01-16 22:58:00"
       description: Our monitoring systems have detected a potential issue with Inbound SMS Delivery Failures in UK Twilio Numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-01-16 23:13:56"
+      description: The issue causing intermittent Inbound SMS Delivery Failures in UK Twilio Numbers. We are actively working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
