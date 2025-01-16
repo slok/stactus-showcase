@@ -29,3 +29,48 @@ timeline:
 
         If you continue to experience problems, please open a ticket with our support team. Thank you for your patience and we apologize for any inconvenience.
       resolved: true
+    - ts: "2025-01-16 04:55:26"
+      description: |-
+        # Postmortem
+
+        We post updates on incidents regularly to cover the details of our findings, learnings and corresponding actions to prevent recurrence. For this update, we will cover a recent incident related to network maintenance. Maintenance is an essential part of ensuring service stability at DigitalOcean, through scheduled upgrades, patches, and more. We work hard to plan for no interruptions from maintenance activities and we recognize the impact that maintenance can have on our customers if there is downtime. We apologize for the disruption that occurred and have identified action items to ensure maintenance activities are planned with minimal downtime and that we have plans to minimize impact, even when unforeseen errors occur. We go into detail about this below.
+
+        ## **Incident Summary**
+
+        On Jan. 7, 2025 12:10 UTC, DigitalOcean experienced a loss of network connectivity for Regional External Load Balancers, DOKS, and AppPlatform products in the SFO3 region. This impact was the result of an unexpected effect of scheduled maintenance work to upgrade our infrastructure and enhance network performance. The maintenance work to complete the network change was designed to be seamless, with the worst expected case being dropped packets. The resolution rollout began Jan. 7th at 13:15 UTC and was fully completed with all services reported operational Jan. 7th at 14:30 UTC.
+
+        ## **Incident Details**
+
+        The DigitalOcean Networking team started performing scheduled maintenance to enhance network performance at 10:00 UTC. As part of this maintenance, a routing change was rolled out at 12:10 UTC that would redirect the traffic over to a new path in the datacenter. There was an old routing configuration present on the Core switches that did not get updated. This resulted in traffic being dropped for products relying on Regional External Load Balancers \(e.g. Droplets, DOKS, AppPlatform\). As soon as we detected the drop in traffic, we reverted the changes to mitigate the impact. 
+
+        ## **Timeline of Events**
+
+        12:12 UTC - Flip to the new workflow was started and the impact began 
+
+        12:40 UTC - Alert fired for Load Balancers
+
+        13:00 UTC - First report from customers was received
+
+        13:13 UTC - Revert of the new code was started
+
+        13:21 UTC - Incident was spun up
+
+        14:19 UTC - Routing configuration was updated on Core Switches 
+
+        14:30 UTC - Code revert was completed and service functionality was restored
+
+        ## **Remediation Actions**
+
+        Following a full internal postmortem, DigitalOcean engineers identified several areas of learning to prevent similar incidents. These include updating maintenance processes, increasing monitoring and alerting, and improving observability of network services. 
+
+        Key Learnings:
+
+        1. Learning: Gaps in our automated validation of Network configuration setup for the rollout of this enhancement were identified. While our new, upgraded network results in a simpler state, we have inherited interim complexity as we transition from old to new.
+
+        * Actions: The gaps in validation automation that resulted in this incident have been addressed. In addition, automated audit processes to further harden the validation process across all network configurations will be applied.
+
+        ‌
+
+        1. Learning: Gaps in our incremental rollout process for network datapath changes for both pre- and post-deployment were identified. The process for these changes allowed for quicker rollouts for small changes that passed validation. We recognize that "small changes" can have a high impact.
+
+        * Actions: All network changes will follow an incremental rollout plan, regardless of whether or not validation processes determine that it is a minor change. Runbooks have been updated with reachability tests to encompass Load Balancers and Kubernetes clusters for this type of maintenance. Additional testing steps in both pre-maintenance and post-maintenance procedures to confirm the success of the maintenance have also been implemented.
