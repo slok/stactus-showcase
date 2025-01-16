@@ -14,3 +14,5 @@ timeline:
     - ts: "2025-01-16 17:48:56"
       description: We are still investigating an issue preventing some customers from accessing pages within the Twilio Console to self-serve creation of additional accounts and reset their MFA enrollment. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-01-16 18:30:45"
+      description: We have identified the root cause of the issue preventing some customers from accessing pages within the Twilio Console to self-serve creation of additional accounts and reset their MFA enrollment. We are working with our vendor partner to resolve the issue. We recommend that any customer using Chrome as the browser to log-in retry using Edge as the browser. We expect to provide another update in 2 hours or as soon as more information becomes available.
