@@ -1,9 +1,13 @@
 version: incident/v1
 id: 8yncrdyf3ljm
-name: On Call Engineers are Investigating an issue with the Twilio Console account page.
-impact: none
-systems: []
+name: Customers Unexpectedly Redirected to Twilio Login Page
+impact: minor
+systems:
+    - g4hs7h64k9fv
 timeline:
     - ts: "2025-01-16 16:12:27"
       description: Our monitoring systems have detected potential Failures in Twilio sessions creation. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-01-16 16:45:59"
+      description: We are investigating a service interruption where customers may experience being unexpectedly redirected to the Twilio Console login page. This experience may impact new user signups as well as existing customers with established sessions within the Twilio Console.
       investigating: true
