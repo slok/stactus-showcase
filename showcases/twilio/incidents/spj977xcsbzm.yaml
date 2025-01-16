@@ -1,8 +1,12 @@
 version: incident/v1
 id: spj977xcsbzm
-name: Our Engineers are Investigating an Issue with Content Editor Template Creation Functionality Broken
+name: Content Template Builder Functionality Disruption
 impact: none
-systems: []
+systems:
+    - 1gkv0mxhzsjv
 timeline:
     - ts: "2025-01-16 22:39:29"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with Content Editor Template Creation Functionality Broken. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-01-16 23:28:31"
+      description: Template creation was degraded for 5 hours and 17 minutes between 09:01AM and 02:18PM Pacific Time on January 16th/2025. During this period of time, customers experienced 400 errors while trying to create templates through Console Builder UI. The issue has now been resolved.
+      resolved: true
