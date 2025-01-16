@@ -1,9 +1,13 @@
 version: incident/v1
 id: cc4gz67vx6b1
 name: Customers Unable to Access New Account Creation and MFA Reset Pages in Console
-impact: none
-systems: []
+impact: minor
+systems:
+    - g4hs7h64k9fv
 timeline:
     - ts: "2025-01-16 16:24:03"
       description: Our monitoring systems have detected a potential issue with additional account creation. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-01-16 16:49:20"
+      description: We are investigating an issue preventing some customers from accessing pages within the Twilio Console to self-serve creation of additional accounts and reset their MFA enrollment. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
