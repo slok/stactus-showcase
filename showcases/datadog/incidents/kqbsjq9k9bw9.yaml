@@ -1,0 +1,19 @@
+version: incident/v1
+id: kqbsjq9k9bw9
+name: Increased delay processing events
+impact: minor
+systems:
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2025-01-17 13:42:49"
+      description: |-
+        We are investigating increased latency processing Events.
+
+        As a result of this issue, some users may see delays in the event stream or for event queries on dashboards, and event alert evaluation is delayed.
+
+        This issue also caused a delay in the processing of alerts across other products. We've implemented a fix for this, and are monitoring the recovery of the alert evaluation pipeline. As a result, a subset alerts may be delayed while the system recovers.
+      investigating: true
+    - ts: "2025-01-17 13:46:47"
+      description: We are continuing to investigate this issue.
+      investigating: true
