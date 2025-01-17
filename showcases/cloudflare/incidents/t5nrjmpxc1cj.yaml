@@ -7,3 +7,5 @@ systems:
 timeline:
     - ts: "2025-01-17 03:20:52"
       description: "AWS recently updated their SDKs to enable CRC32 checksums on multiple object operations by default. \nR2 does not currently support CRC32 checksums, and the default configurations will return header related errors such as Header 'x-amz-checksum-algorithm' with value 'CRC32' not implemented. \n\nImpacted users can either pin AWS SDKs to a prior version or modify the configuration to restore the prior default behavior of not checking checksums on upload. \n\nFor more details, see the examples section of the R2 Docs for the relevant SDK: \nhttps://developers.cloudflare.com/r2/examples/aws/"
+    - ts: "2025-01-17 11:23:58"
+      description: We are continuing to work on a fix for this issue.
