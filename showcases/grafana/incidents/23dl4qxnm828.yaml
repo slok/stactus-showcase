@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-01-17 00:19:24"
       description: "As of 20:45 UTC, our engineering team became aware of an issue with pattern degradation/delay in recognizing patterns in Explore Logs. Users experiencing this issue may encounter degraded performance using Explore Logs. \n\nEngineering is actively engaged and assessing the issue. We will provide updates accordingly."
       investigating: true
+    - ts: "2025-01-17 00:56:59"
+      description: Engineering has released a fix and as of 1:30 UTC 2025-01-17. Customers should no longer experience issues with pattern degradation or delay in Explore Logs. At this time, we are considering this issue resolved. No further updates.
+      resolved: true
