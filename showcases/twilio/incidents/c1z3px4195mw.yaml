@@ -1,0 +1,13 @@
+version: incident/v1
+id: c1z3px4195mw
+name: Accsec Canada API Error
+impact: minor
+systems:
+    - mq9q3ytpkyfz
+    - whldrk77jnm4
+    - txt6v4g6pv74
+    - xk8z50jy8hcs
+timeline:
+    - ts: "2025-01-17 09:03:23"
+      description: 'We are currently investigating errors for Twilio Rest API, impacting following Twilio services: Gateway API-Lookup Identity Match, Lookup SIM Swap, Legacy Identity MatchAndAttributes. Our engineering team is actively working on the issue, and we will provide another update as soon as more information becomes available.'
+      investigating: true
