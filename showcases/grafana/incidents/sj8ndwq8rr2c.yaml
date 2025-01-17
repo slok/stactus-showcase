@@ -1,0 +1,36 @@
+version: incident/v1
+id: sj8ndwq8rr2c
+name: Rare intermittent write failures in Tempo
+impact: none
+systems:
+    - xyk75c1r8p0t
+    - dtbllf9ktd0j
+    - xg70bm8hjp1m
+    - bg7pryvvh19l
+    - 6j07ly9d19dc
+    - lby6cltd7c4s
+    - cj4g0jqw7q18
+    - z11bv109lgfb
+    - h6zfv84tzkd3
+    - l502n5x60s2m
+    - fqw5kyd5qknh
+    - cm40jcy1klhh
+    - k4x5wpztwzcq
+    - 80zb3lxqcxvk
+    - wy292mxvxhxv
+    - jc8jdgzs32sj
+    - jn3knsdtkxky
+    - 9mzvpj5nz0k1
+    - t9ytx3trjw7h
+    - t7pbglh025rz
+timeline:
+    - ts: "2025-01-17 19:56:36"
+      description: |-
+        Users may receive internet write failures on collectors stating:
+        "Exporting failed. Will retry the request after interval. {"kind": "exporter", "data_type": "traces", "name": "otlp/cloud", "error": "rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 502 (Bad Gateway)"
+
+        The agent/collector will automatically retry the write attempt and succeed, so there is no loss in data collection.
+      investigating: true
+    - ts: "2025-01-17 19:56:45"
+      description: We are continuing to investigate this issue.
+      investigating: true
