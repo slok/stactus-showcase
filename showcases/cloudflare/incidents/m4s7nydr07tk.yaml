@@ -8,5 +8,5 @@ timeline:
     - ts: "2025-01-17 09:34:07"
       description: |-
         Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: A recent deployment of the Cloudflare API is breaking the state of customers that use specific actions on Terraform: "security_level", "minify" or "server_side_exclude" in a "cloudflare_page_rule" resource currently cannot apply Terraform.
-         Further detail will be provided as more information becomes available.
+        Further details will be provided as more information becomes available.
       investigating: true
