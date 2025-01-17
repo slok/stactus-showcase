@@ -1,8 +1,11 @@
 version: incident/v1
 id: 6rf3qc92682h
-name: Retroactive - SMS Delivery Delays to Orange Network in Congo
+name: SMS Delivery Delays to Orange Network in Congo
 impact: none
 systems: []
 timeline:
     - ts: "2025-01-17 16:19:41"
       description: Our engineers are currently investigating the customer impact of a retroactive issue causing SMS delivery delays to the Orange network in Congo. We will provide an update with customer impact details within the next two hours.
+    - ts: "2025-01-17 16:26:44"
+      description: Twilio SMS experienced degradation for 290 minutes on January 17, 2025, from 2:50 AM PST to 7:40 AM PST. During this time, customers may have encountered SMS delivery delays to the Orange network in Congo. The issue has since been resolved.
+      resolved: true
