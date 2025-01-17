@@ -1,7 +1,7 @@
 version: incident/v1
 id: 31g36k8g8dcz
 name: SMS Delivery Delays to Claro in Brazil
-impact: none
+impact: minor
 systems:
     - yvvy3vlp4djf
 timeline:
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-01-17 01:58:25"
       description: We are investigating intermittent SMS Delivery Delays to Claro in Brazil. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-01-17 02:47:12"
+      description: We are investigating intermittent SMS Delivery Delays to Claro in Brazil. We expect to provide another update in 2 hour or as soon as more information becomes available.
       investigating: true
