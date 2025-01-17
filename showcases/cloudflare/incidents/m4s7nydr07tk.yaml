@@ -10,3 +10,5 @@ timeline:
         Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: A recent deployment of the Cloudflare API is breaking specific actions in Zone settings: "security_level", "minify" ,"server_side_exclude" and "cloudflare_page_rule" resources currently cannot be modified.
         Further details will be provided as more information becomes available.
       investigating: true
+    - ts: "2025-01-17 10:05:58"
+      description: The issue has been identified and a fix is being implemented.
