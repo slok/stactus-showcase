@@ -1,12 +1,12 @@
 version: incident/v1
 id: m4s7nydr07tk
-name: 'Cloudflare API: Recent deployment causing issues in Terraform'
+name: 'Cloudflare API: Recent deployment causing issues in certain zone settings'
 impact: minor
 systems:
     - g4tb35rs9yw7
 timeline:
     - ts: "2025-01-17 09:34:07"
       description: |-
-        Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: A recent deployment of the Cloudflare API is breaking the state of customers that use specific actions on Terraform: "security_level", "minify" or "server_side_exclude" in a "cloudflare_page_rule" resource currently cannot apply Terraform.
+        Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: A recent deployment of the Cloudflare API is breaking specific actions in Zone settings: "security_level", "minify" ,"server_side_exclude" and "cloudflare_page_rule" resources currently cannot be modified.
         Further details will be provided as more information becomes available.
       investigating: true
