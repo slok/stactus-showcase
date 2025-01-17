@@ -23,3 +23,6 @@ timeline:
     - ts: "2025-01-17 06:13:45"
       description: We are still investigating a service interruption where customers may experience being unexpectedly redirected to the Twilio Console login page. This experience may impact new user signups as well as existing customers with established sessions within the Twilio Console. We expect to provide another update in 16 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-01-17 23:43:43"
+      description: Our Engineering team has determined that this issue does not have a major impact for customers and will be continuing to investigate and remediate the full root cause. If customers experience errors, we recommend that they try to clear cookies and retry to log in.
+      resolved: true
