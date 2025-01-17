@@ -1,0 +1,10 @@
+version: incident/v1
+id: 23dl4qxnm828
+name: Pattern Degradation/Delay in Recognizing Patterns in Explore Logs
+impact: minor
+systems:
+    - l72f5c7651n5
+timeline:
+    - ts: "2025-01-17 00:19:24"
+      description: "As of 20:45 UTC, our engineering team became aware of an issue with pattern degradation/delay in recognizing patterns in Explore Logs. Users experiencing this issue may encounter degraded performance using Explore Logs. \n\nEngineering is actively engaged and assessing the issue. We will provide updates accordingly."
+      investigating: true
