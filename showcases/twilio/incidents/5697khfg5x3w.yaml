@@ -1,9 +1,12 @@
 version: incident/v1
 id: 5697khfg5x3w
-name: Our Engineers are Investigating an Issue with Conversations
+name: Conversations Temporary Sync Issues in ie1
 impact: none
 systems:
     - 2vs63pk0qq23
 timeline:
     - ts: "2025-01-19 22:36:28"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with Converstations. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-01-19 22:53:42"
+      description: Twilio Conversations in ie1 was degraded for 7 minutes between 21:28:30 and 21:36:30 UTC, on 01/20/2025. During this period of time customers may have experienced delayed/missed real-time updates. The issue has now been resolved.
+      resolved: true
