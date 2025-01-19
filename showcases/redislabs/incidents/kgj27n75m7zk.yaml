@@ -1,12 +1,12 @@
 version: incident/v1
 id: kgj27n75m7zk
-name: Redis Cloud - temporary connectivity issues to Admin console
+name: Redis Cloud - Provisioning and Updating of Subscriptions Impacted
 impact: none
 systems:
     - nn6rqzz85xg5
 timeline:
     - ts: "2025-01-19 09:39:19"
       description: |-
-        We’re currently investigating issues with connecting to Redis Cloud admin console (cloud.redis.io).
-        We will provide an update shortly.
-        Your database’s connectivity is not affected.
+        We are currently experiencing an issue which may affect the provisioning of new subscriptions and the updating of existing subscriptions. As a result, users may observe their clusters appearing under maintenance. However, there is no impact to database functionality, and all existing clusters are operating as expected.
+
+        Our engineering team is actively investigating the issue and working to resolve it as soon as possible. We will provide further updates as progress is made.
