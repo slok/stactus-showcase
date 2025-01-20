@@ -1,6 +1,6 @@
 version: incident/v1
 id: d6bk7b1fbytz
-name: On Call Engineers are Investigating an issue
+name: Functions and Assets Page Returning HTTP Error
 impact: minor
 systems:
     - 7c6yv3vctfqv
@@ -8,3 +8,8 @@ timeline:
     - ts: "2025-01-20 13:46:32"
       description: Our monitoring systems have detected a potential issue with Studio. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-01-20 14:11:21"
+      description: Our monitoring systems have detected a potential issue with Functions and Assets. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-01-20 14:22:12"
+      description: Functions and Assets page is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
