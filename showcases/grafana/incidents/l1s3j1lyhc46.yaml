@@ -1,0 +1,9 @@
+version: incident/v1
+id: l1s3j1lyhc46
+name: Synthetic Monitoring Outage in AWS US East ( prod-us-east-0)
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-20 17:25:02"
+      description: On Thursday January 16th between 17:05 and 18:05 UTC,  there was a Synthetic Monitoring outage in the AWS US East ( prod-us-east-0) Grafana Cloud region.  During this window you will notice gaps in your synthetics logs and metrics, as data from synthetic monitoring checks were not published from any probe locations.  The incident is resolved but we continue to investigate the root cause.
+      resolved: true
