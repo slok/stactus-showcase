@@ -1,0 +1,10 @@
+version: incident/v1
+id: d6bk7b1fbytz
+name: On Call Engineers are Investigating an issue
+impact: minor
+systems:
+    - 7c6yv3vctfqv
+timeline:
+    - ts: "2025-01-20 13:46:32"
+      description: Our monitoring systems have detected a potential issue with Studio. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
