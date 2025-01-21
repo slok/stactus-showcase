@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2025-01-21 17:59:31"
       description: Cloudflare Calls TURN credential generation endpoint was returning errors, preventing new credentials from being generated. Existing TURN connections are unaffected. Existing TURN credentials continue to work. We have identified and applied a fix for this issue and we are currently monitoring the results.
+    - ts: "2025-01-21 18:54:26"
+      description: This incident is now resolved.
+      resolved: true
