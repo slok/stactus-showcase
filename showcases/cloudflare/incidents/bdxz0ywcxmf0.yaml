@@ -1,0 +1,11 @@
+version: incident/v1
+id: bdxz0ywcxmf0
+name: Cloudflare Pages Build Issues
+impact: major
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2025-01-21 17:38:35"
+      description: Cloudflare is has identified an issue where Pages builds are failing. We are currently working on a fix for this issue.
+    - ts: "2025-01-21 17:44:20"
+      description: The fix has been implemented and we are currently monitoring the results.
