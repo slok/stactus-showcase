@@ -18,3 +18,5 @@ timeline:
       description: We have identified an issue that is affecting the availability of cloud.mongodb.com, the Atlas Administration API, and alerts. Affected users may see an error page or may take an excessive amount of time to login. Atlas clusters themselves are unaffected, although it might not be possible to create or modify clusters and certain healing operations may be delayed.
     - ts: "2025-01-21 18:58:30"
       description: While the Atlas UI and API have returned, metrics data is delayed. Alerts remain paused.
+    - ts: "2025-01-21 19:53:20"
+      description: A fix has been implemented and we are monitoring the results. Some clusters may be missing metrics data, which will not be refilled. Alerts have been re-enabled.
