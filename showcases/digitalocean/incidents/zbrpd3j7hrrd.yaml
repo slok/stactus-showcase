@@ -7,3 +7,13 @@ systems:
 timeline:
     - ts: "2025-01-16 19:14:42"
       description: "DigitalOcean Spaces Customers using the latest versions (released on Jan 15, 2025) of the AWS CLI or any AWS SDK, or relying on a tool or application that depends on any of these versions of the AWS CLI or an AWS SDK, are experiencing failed uploads to Spaces buckets in all regions.\n\nThis is caused by a change made by AWS on January 15, 2024 to the AWS CLI and almost all AWS SDKs (including boto3) to require use of “Data Integrity Protections for Amazon S3” (https://docs.aws.amazon.com/sdkref/latest/guide/feature-dataintegrity.html). \n\nThe currently recommended solution is to downgrade (roll back) to a version of the AWS CLI or AWS SDK released prior to January 15, 2025, or to an earlier version of tools or applications that do not depend on one of these versions of the AWS CLI or AWS SDK. The list of known impacted AWS client tools are:\nAWS CLI v2.23.0 (workaround - move to last known good version: v2.22.35)\nAWS SDK for Python (boto3) v1.36.0 (workaround - move to last known good version: 1.35.99)\nAWS SDK for Go 2025-01-15 release (workaround - move to last known good release: 2025-01-14)"
+    - ts: "2025-01-21 22:21:56"
+      description: |-
+        Prior to Tuesday, January 21, 2025 at 19:20 UTC, customers that used an AWS CLI or AWS SDK version released on or after January 15, 2025 may have experienced issues with uploading files to a Spaces bucket. This impacted PutObject and UploadPart requests initiated by recent versions of the AWS CLI and AWS SDKs.
+
+        Our Engineering team has confirmed resolution of this issue for almost all Spaces buckets (including all new Spaces buckets), which are now compatible with the latest versions of the AWS CLI and AWS SDKs (and tools and applications that depend on these versions).
+
+        Note that Spaces does not currently verify data integrity checksums sent by the AWS CLI and AWS SDKs as part of upload requests (see Data Integrity Protections for Amazon S3 - https://docs.aws.amazon.com/sdkref/latest/guide/feature-dataintegrity.html).
+
+        Customers with a bucket that is still incompatible will receive an email from DigitalOcean with follow up steps. If you continue to experience problems, please open a ticket with our Support team. Thank you for your patience through this issue.
+      resolved: true
