@@ -14,3 +14,5 @@ timeline:
     - ts: "2025-01-21 17:59:06"
       description: We have received reports and can reproduce cloud.mongodb.com failing to load for many users. Atlas Administrative API requests are also failing. Alerts have been paused. We are investigating and will post updates shortly.
       investigating: true
+    - ts: "2025-01-21 18:35:28"
+      description: We have identified an issue that is affecting the availability of cloud.mongodb.com, the Atlas Administration API, and alerts. Affected users may see an error page or may take an excessive amount of time to login. Atlas clusters themselves are unaffected, although it might not be possible to create or modify clusters and certain healing operations may be delayed.
