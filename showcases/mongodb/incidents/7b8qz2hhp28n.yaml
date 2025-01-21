@@ -1,0 +1,16 @@
+version: incident/v1
+id: 7b8qz2hhp28n
+name: 'MongoDB Cloud: Cloud web UI fails to load'
+impact: critical
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-01-21 17:55:07"
+      description: We have received reports and can reproduce cloud.mongodb.com failing to load for some users. We are investigating and will post updates shortly.
+      investigating: true
+    - ts: "2025-01-21 17:57:58"
+      description: We have received reports and can reproduce cloud.mongodb.com failing to load for many users. Atlas Administrative API requests are also failing. We are investigating and will post updates shortly.
+      investigating: true
+    - ts: "2025-01-21 17:59:06"
+      description: We have received reports and can reproduce cloud.mongodb.com failing to load for many users. Atlas Administrative API requests are also failing. Alerts have been paused. We are investigating and will post updates shortly.
+      investigating: true
