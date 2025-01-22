@@ -1,0 +1,11 @@
+version: incident/v1
+id: lbg8rcj073bk
+name: Issue with Zoom Phone One Way Audio Outbound Call Quality in LATAM
+impact: minor
+systems:
+    - l4vp694cdst7
+    - y8ktp5pnbwt3
+timeline:
+    - ts: "2025-01-22 18:57:15"
+      description: We are investigating an issue affecting a subset of users with Zoom Phone one way audio outbound call quality in LATAM.  We will provide updates as we have them.
+      investigating: true
