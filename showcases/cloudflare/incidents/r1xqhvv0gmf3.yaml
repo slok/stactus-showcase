@@ -1,0 +1,10 @@
+version: incident/v1
+id: r1xqhvv0gmf3
+name: Analytics Delays
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2025-01-22 17:11:40"
+      description: We are investigating an issue where customers in US region using Cloudflare's analytics may observe delayed data. Other Cloudflare services are still fully operational. We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
