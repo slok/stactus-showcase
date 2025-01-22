@@ -1,0 +1,11 @@
+version: incident/v1
+id: 2pwyvdxf633t
+name: Serverless Invocation | 500 errors
+impact: minor
+systems:
+    - b3tl520cz8tc
+    - ld8ss4pqqskp
+timeline:
+    - ts: "2025-01-22 16:36:13"
+      description: Our engineers have identified the issue causing 500 errors on Serverless Invocation and are working to deploy a fix. We expect to provide another update in 1 Hour or as soon as more information becomes available.
+      investigating: true
