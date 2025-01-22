@@ -1,0 +1,12 @@
+version: incident/v1
+id: 20ds23388dt9
+name: Serverless Invocation | 500 errors
+impact: minor
+systems:
+    - b3tl520cz8tc
+timeline:
+    - ts: "2025-01-22 01:33:40"
+      description: Our monitoring systems have detected a potential issue as Serverless Invocations were failing for 13 minutes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-01-22 01:58:41"
+      description: Our engineers have identified and resolved the issue resulting in 500 errors on Serverless Invocation from 00:44 to 00:57 UTC.  We are continuing to monitor for the next 1 hour.
