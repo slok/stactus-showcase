@@ -1,0 +1,13 @@
+version: incident/v1
+id: 430klsg5vf53
+name: Intermittent instance unavailability in prod-eu-west-2
+impact: minor
+systems:
+    - 6wgslg1s3bzr
+timeline:
+    - ts: "2025-01-22 05:38:36"
+      description: |-
+        As of 05:30 UTC, we were alerted to an issue with Grafana stacks hosted in the prod-eu-west-2 cluster. Users experiencing this issue may experience periods of disruption where their hosted Grafana stacks will not be accessible.
+
+        Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
+      investigating: true
