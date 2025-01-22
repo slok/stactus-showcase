@@ -38,3 +38,7 @@ timeline:
       description: The issue has been identified and a fix is being implemented.
     - ts: "2025-01-22 19:52:12"
       description: We are continuing to diagnose and improve this situation.  Fixes have been rolled out on Monday January 20th, and today, Wednesday January 22nd, to reduce drops during rollouts.
+    - ts: "2025-01-22 22:11:47"
+      description: |-
+        Multiple issues were identified with our rollout process that caused instability on the write path.
+        We have pushed out three fixes that drastically reduce the number of dropped writes and make all failed writes retryable.  We will continue to closely monitor this issue and make improvements where necessary.
