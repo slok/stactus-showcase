@@ -1,0 +1,11 @@
+version: incident/v1
+id: 4nm0sccqk9q3
+name: Issue with inbound call failures for US region
+impact: minor
+systems:
+    - jh6w5p8b9yv9
+    - yh2t02zm6fhq
+timeline:
+    - ts: "2025-01-22 20:08:21"
+      description: We are investigating a subset of customers that use a specific carrier that may experience inbound call failures for US region. We are engaged with the carrier and will provide regular updates.
+      investigating: true
