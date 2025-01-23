@@ -1,9 +1,13 @@
 version: incident/v1
 id: bqhg732m9lwj
 name: Email and SMS Outbound Message Delays
-impact: none
-systems: []
+impact: minor
+systems:
+    - yvvy3vlp4djf
 timeline:
     - ts: "2025-01-23 04:10:59"
       description: Our monitoring systems have detected a potential issue with Conversation API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-01-23 05:09:52"
+      description: We are currently investigating an issue causing delays in some Email and SMS outbound messages. We will provide another update within 1 hour or sooner if more information becomes available.
       investigating: true
