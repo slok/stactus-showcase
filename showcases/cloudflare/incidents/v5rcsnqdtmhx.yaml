@@ -6,10 +6,7 @@ systems:
     - fbvx0hxhhdj0
 timeline:
     - ts: "2025-01-23 15:21:03"
-      description: |-
-        Cloudflare single-file cache purging (purge by URL) called via the Dashboard/API is running behind. This also affects the "Always Online" feature.
-
-        We are working to resolve this issue as soon as possible. Until then you may use the Purge Everything feature but do be aware it may cause a surge in traffic to your origin server(s). More updates to follow.
+      description: Cloudflare cache purging called via the Dashboard/API operations and configuration updates are failing with 403 and 500 error codes. We are working to resolve this issue as soon as possible. More updates to follow.
       investigating: true
     - ts: "2025-01-23 15:24:41"
       description: The issue has been identified and a fix is being implemented.
