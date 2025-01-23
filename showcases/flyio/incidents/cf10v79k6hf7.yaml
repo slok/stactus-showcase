@@ -13,3 +13,8 @@ timeline:
         The Depot service is currently degraded due to a database outage. We're continuing to monitor for recovery. Customers can also follow the Depot status page at https://status.depot.dev/ for updates.
 
         Customers can still deploy using Fly.io hosted builders with `fly deploy --depot=false`
+    - ts: "2025-01-23 18:28:43"
+      description: "The Depot builder service is partially recovered and we are seeing deploys using Depot builders succeed again. Some customers may still experience degraded performance using Depot builders at this time. We're continuing to monitor for full recovery. \n\nCustomers can still deploy using Fly.io hosted builders with `fly deploy --depot=false`"
+    - ts: "2025-01-23 18:35:46"
+      description: This issue has been resolved, deploys using Depot Builders are succeeding as expected.
+      resolved: true
