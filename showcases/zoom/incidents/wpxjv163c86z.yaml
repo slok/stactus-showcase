@@ -1,0 +1,10 @@
+version: incident/v1
+id: wpxjv163c86z
+name: A subset of users would be experiencing issues with Inbound / Outbound calls in UK.
+impact: minor
+systems:
+    - hx06zxqdrsxl
+timeline:
+    - ts: "2025-01-23 09:35:30"
+      description: We have detected service degradation where a subset of users would be experiencing issues with Inbound / Outbound calls in UK. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
