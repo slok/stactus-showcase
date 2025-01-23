@@ -1,0 +1,11 @@
+version: incident/v1
+id: c8zdwh47551k
+name: Account Suspension From High Level
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-23 18:55:08"
+      description: |-
+        On January 17, 2025, at 5:11 PM PST, Twilio executed a bulk suspension for High Level involving 16,702 subaccounts, mistakenly including some active customer parent accounts. This error disrupted SMS and Voice services for those affected. Initial ad hoc reactivations began within 12-18 hours, but complete restoration took 39 hours, concluding on January 20 at 8:01 AM PST.
+        The issue has now been resolved.
+      resolved: true
