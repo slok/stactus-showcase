@@ -1,0 +1,10 @@
+version: incident/v1
+id: xdj64r9f2w34
+name: Cloud Access Security Broker (CASB) Logpush Issue
+impact: minor
+systems:
+    - h2p0jj4ltvcq
+timeline:
+    - ts: "2025-01-23 21:38:09"
+      description: Cloudflare is investigating a possible issue where Cloud Access Security Broker (CASB) logs are not sending via configured Logpush jobs.
+      investigating: true
