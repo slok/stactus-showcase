@@ -8,3 +8,8 @@ timeline:
     - ts: "2025-01-23 18:05:41"
       description: "We are investigating increased error rates when deploying apps using the default Depot Builders. \n\nCustomers who experience this issue can work around it by using `fly deploy --depot=false` to deploy your image with a Fly.io hosted builder."
       investigating: true
+    - ts: "2025-01-23 18:21:13"
+      description: |-
+        The Depot service is currently degraded due to a database outage. We're continuing to monitor for recovery. Customers can also follow the Depot status page at https://status.depot.dev/ for updates.
+
+        Customers can still deploy using Fly.io hosted builders with `fly deploy --depot=false`
