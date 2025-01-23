@@ -42,3 +42,6 @@ timeline:
       description: |-
         Multiple issues were identified with our rollout process that caused instability on the write path.
         We have pushed out three fixes that drastically reduce the number of dropped writes and make all failed writes retryable.  We will continue to closely monitor this issue and make improvements where necessary.
+    - ts: "2025-01-23 23:04:17"
+      description: This incident has been resolved.
+      resolved: true
