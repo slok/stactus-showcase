@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8rqmk3gvpjmy
+name: Service Disruption
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-23 04:09:35"
+      description: From 2:30 AM - 6:30 AM UTC some users experienced slow performance loading the Figma file browser view as well as features like comments. We have since resolved the underlying issue and are monitoring closely.
+      resolved: true
