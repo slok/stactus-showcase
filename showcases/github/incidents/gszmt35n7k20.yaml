@@ -35,3 +35,6 @@ timeline:
     - ts: "2025-01-23 15:33:37"
       description: We are still actively investigating a slowdown in larger runner assignment and are working to apply additional mitigations.
       investigating: true
+    - ts: "2025-01-23 16:25:44"
+      description: We are actively applying mitigations to help improve larger runner start times. We are currently seeing delays starting about 25% of larger runner jobs.
+      investigating: true
