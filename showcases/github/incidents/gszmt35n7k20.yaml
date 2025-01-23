@@ -41,3 +41,6 @@ timeline:
     - ts: "2025-01-23 17:03:27"
       description: We are seeing recovery with the latest mitigation. Queue time for a very small percentage of larger runner jobs are still longer than expected so we are monitoring those for full recovery before going green.
       investigating: true
+    - ts: "2025-01-23 17:27:02"
+      description: This incident has been resolved.
+      resolved: true
