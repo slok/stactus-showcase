@@ -1,0 +1,10 @@
+version: incident/v1
+id: z9h0vhl0yp16
+name: Cloudflare Dashboard issues
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-01-23 21:01:35"
+      description: Cloudflare is investigating issues with Cloudflare Dashboard These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Dashboard are impacted as requests might fail and/or errors may be displayed.
+      investigating: true
