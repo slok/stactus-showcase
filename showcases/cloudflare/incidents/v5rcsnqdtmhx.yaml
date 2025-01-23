@@ -1,0 +1,13 @@
+version: incident/v1
+id: v5rcsnqdtmhx
+name: Cache Purging Delays
+impact: critical
+systems:
+    - fbvx0hxhhdj0
+timeline:
+    - ts: "2025-01-23 15:21:03"
+      description: |-
+        Cloudflare single-file cache purging (purge by URL) called via the Dashboard/API is running behind. This also affects the "Always Online" feature.
+
+        We are working to resolve this issue as soon as possible. Until then you may use the Purge Everything feature but do be aware it may cause a surge in traffic to your origin server(s). More updates to follow.
+      investigating: true
