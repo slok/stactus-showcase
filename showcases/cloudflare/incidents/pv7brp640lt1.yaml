@@ -1,0 +1,12 @@
+version: incident/v1
+id: pv7brp640lt1
+name: 'Cloudflare WARP: Issues in processing Device Management'
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2025-01-24 15:14:02"
+      description: |-
+        Cloudflare is investigating issues with WARP Device Management: Customers may experience processing delays when attempting to remove, revoke or unrevoke devices.
+        We are working to understand the full impact and mitigate this problem.  More updates to follow shortly.
+      investigating: true
