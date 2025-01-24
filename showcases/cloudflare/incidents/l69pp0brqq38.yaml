@@ -1,0 +1,9 @@
+version: incident/v1
+id: l69pp0brqq38
+name: Network Performance Issues in São Paulo, BR
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-24 21:23:17"
+      description: Between 1:20-1:40 UTC on 1/19/2025, customers reaching São Paulo, BR would have experienced degraded network performance, including elevated error rates (5xx, 499s) and latency. This issue did not impact specific services but affected general traffic routing in the region.
+      resolved: true
