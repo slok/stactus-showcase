@@ -1,9 +1,12 @@
 version: incident/v1
 id: mqt75md56rky
-name: On Call Engineers are Investigating an issue
+name: Call Failures to a subset of Twilio's Phone numbers in Brazil
 impact: none
 systems: []
 timeline:
     - ts: "2025-01-24 17:48:38"
       description: Our monitoring systems have detected a potential issue with Calls to Brazil in a subset of Twilio's Brazilian numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-01-24 18:31:39"
+      description: We have fully investigated the Call Failures to a subset of Twilio's Phone numbers in Brazil issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
