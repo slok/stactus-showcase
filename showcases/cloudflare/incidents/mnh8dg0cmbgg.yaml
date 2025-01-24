@@ -1,0 +1,9 @@
+version: incident/v1
+id: mnh8dg0cmbgg
+name: Network Performance Issues in Chicago (ORD)
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-24 11:53:35"
+      description: Cloudflare detected and mitigated issues with Network Performance in Chicago (ORD) from 11:28 to 11:45 UTC. Customers may have experienced unexpected 5xx errors during this timeframe.
+      resolved: true
