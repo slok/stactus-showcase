@@ -1,0 +1,13 @@
+version: incident/v1
+id: zl1fh817qghq
+name: SMS Delivery Delays and Failures to Networks in India from a Subset of Twilio Short Codes
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-01-24 01:42:11"
+      description: Our monitoring systems have detected a potential issue of SMS delivery delays and failures to network in India from a subset of Twilio Shortcodes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-01-24 01:46:49"
+      description: We are experiencing SMS delivery delays and failures to networks in India from a subset of Twilio short codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
