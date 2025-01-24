@@ -1,0 +1,13 @@
+version: incident/v1
+id: r3xdvvw7tdm6
+name: Newly created Bulk Redirect list issues
+impact: minor
+systems:
+    - ch3mwx0hr4k6
+timeline:
+    - ts: "2025-01-24 21:40:18"
+      description: Cloudflare is investigating an issue with newly created Bulk Redirect lists not correctly serving redirects.
+      investigating: true
+    - ts: "2025-01-24 21:41:06"
+      description: We are continuing to investigate this issue.
+      investigating: true
