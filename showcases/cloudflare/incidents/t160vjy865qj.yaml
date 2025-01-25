@@ -1,0 +1,10 @@
+version: incident/v1
+id: t160vjy865qj
+name: Intermittent DNS failures in Kuala, Malaysia
+impact: none
+systems:
+    - 8w536gxk7dvq
+timeline:
+    - ts: "2025-01-25 10:16:49"
+      description: Cloudflare is aware of, and investigating an issue regarding intermittent DNS failures in Kuala, Malaysia, which potentially impacts multiple customers. Further detail will be provided as more information becomes available.
+      investigating: true
