@@ -1,0 +1,12 @@
+version: incident/v1
+id: wzkh9tcght5n
+name: Intermittent DNS failures in Kuala Lumpur, Malaysia
+impact: minor
+systems:
+    - dp8ppfycqxcs
+timeline:
+    - ts: "2025-01-25 15:05:59"
+      description: Cloudflare continues to see intermittent DNS failures in Kuala Lumpur, Malaysia. An additional fix has been implemented and we are monitoring the results.
+    - ts: "2025-01-25 15:20:33"
+      description: This incident has been resolved.
+      resolved: true
