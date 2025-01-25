@@ -6,10 +6,13 @@ systems:
     - ch3mwx0hr4k6
 timeline:
     - ts: "2025-01-24 21:40:18"
-      description: Cloudflare is investigating an issue with newly created Bulk Redirect lists not correctly serving redirects.
+      description: Cloudflare is investigating an issue with newly created Lists not publishing changes to the Edge.
       investigating: true
     - ts: "2025-01-24 21:41:06"
       description: We are continuing to investigate this issue.
       investigating: true
     - ts: "2025-01-25 00:18:42"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-01-25 00:39:30"
+      description: This incident has been resolved.
+      resolved: true
