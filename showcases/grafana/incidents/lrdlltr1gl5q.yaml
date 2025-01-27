@@ -1,0 +1,13 @@
+version: incident/v1
+id: lrdlltr1gl5q
+name: Outage of k6 Cloud Insights
+impact: critical
+systems:
+    - z9074fpyx6sb
+timeline:
+    - ts: "2025-01-27 05:50:18"
+      description: k6 Cloud Insights (https://grafana.com/docs/grafana-cloud/testing/k6/analyze-results/get-cloud-insights/) is currently broken. We are investigating the issue.
+      investigating: true
+    - ts: "2025-01-27 06:03:08"
+      description: This incident has been resolved.
+      resolved: true
