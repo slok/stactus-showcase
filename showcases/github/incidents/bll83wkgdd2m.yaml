@@ -15,5 +15,5 @@ timeline:
       description: We are beginning to see recovery for users connecting to Codespaces. Any users continuing to see impact should attempt a restart.
       investigating: true
     - ts: "2025-01-14 21:20:19"
-      description: This incident has been resolved.
+      description: On January 14, 2025, between 19:13 UTC and 21:210 UTC the Codespaces service was degraded and led to connection failures with running codespaces, with a 7.6% failure rate for connections during the degradation. Users with bad connections could not use impacted codespaces until they were stopped and restarted.<br /><br />This was caused by bad connections left behind after a deployment in an upstream dependency that the Codespaces service still provided to clients. The incident self-mitigated as new connections replaced stale ones. We are coordinating to ensure connection stability with future deployments of this nature.
       resolved: true
