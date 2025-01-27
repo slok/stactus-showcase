@@ -1,0 +1,14 @@
+version: incident/v1
+id: 7zqt207m4gyd
+name: Cloudflare Workers AI Issues in Tokyo, Japan (NRT)
+impact: none
+systems:
+    - rmjk2n758yzc
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2025-01-27 09:43:03"
+      description: |-
+        Cloudflare has identified an issue whereby customers might experience errors from inference requests to certain models using Workers AI in the Tokyo region, Japan (NRT).
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
