@@ -1,0 +1,12 @@
+version: incident/v1
+id: 198jcys48nh4
+name: On Call Engineers are Investigating a Possible issue with SMS
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-27 18:22:12"
+      description: We've become aware of a potential issue with SMS delivery. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-01-27 18:24:11"
+      description: We have fully investigated the SMS issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
