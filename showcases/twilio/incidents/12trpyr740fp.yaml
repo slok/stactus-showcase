@@ -1,10 +1,13 @@
 version: incident/v1
 id: 12trpyr740fp
-name: On Call Engineers are Investigating an issue
+name: Inbound Message Delivery Delays to a Subset of Phone Numbers in Switzerland
 impact: minor
 systems:
     - llgdln3dcs6p
 timeline:
     - ts: "2025-01-27 11:11:28"
       description: Our monitoring systems have detected a potential issue with Programmable Messaging. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-01-27 11:26:04"
+      description: We are experiencing message delays to a subset of Twilio Switzerland Phone Numbers. Customers may experience latency in receiving SMS messages from various mobile networks in Switzerland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
