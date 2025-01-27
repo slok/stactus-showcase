@@ -1,0 +1,9 @@
+version: incident/v1
+id: bjyd4fc265jn
+name: Cloudflare Access configuration changes delays
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-27 21:06:02"
+      description: Cloudflare engineering is investigating an issue causing Access configuration changes made via the dashboard or API to be delayed. Policy enforcement of existing applications is not impacted.
+      investigating: true
