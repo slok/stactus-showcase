@@ -1,0 +1,9 @@
+version: incident/v1
+id: 7p05r5610bqd
+name: Incident With Migration Service
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-28 14:43:18"
+      description: "Between Sunday 20:50 UTC and Monday 15:20 UTC the Migrations service was unable to process migrations. This was due to a invalid infrastructure credential. \n\nWe mitigated the issue by updating the credential internally.\n\nMechanisms and automation will be implemented to detect and prevent this issue again in the future."
+      resolved: true
