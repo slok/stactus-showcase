@@ -7,3 +7,5 @@ systems:
 timeline:
     - ts: "2025-01-28 20:23:14"
       description: We have identified an issue where Cloudflare Workers and Durable Objects Analytics processing is running behind. This affects timely delivery of customer data. These delays do not impact analytics for DNS and Rate Limiting. We are currently working on a fix for this issue.
+    - ts: "2025-01-28 21:28:46"
+      description: A fix has been implemented and we are monitoring the results.
