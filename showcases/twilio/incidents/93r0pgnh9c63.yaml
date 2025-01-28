@@ -1,0 +1,12 @@
+version: incident/v1
+id: 93r0pgnh9c63
+name: Our Engineers are Investigating an Issue with Retro Edge 503 errors impacting Studio
+impact: none
+systems:
+    - 7c6yv3vctfqv
+timeline:
+    - ts: "2025-01-28 18:55:04"
+      description: Our engineers are currently investigating the customer impact of a retroactive issue with retro edge 503 errors impacting Studio. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-01-28 19:01:56"
+      description: Twilio Studio was degraded for 2 minutes between 10:31 and 10:32 Pacific Time on 01/28/2025. During this period of time customers may have experienced 503 errors. The issue has now been resolved.
+      resolved: true
