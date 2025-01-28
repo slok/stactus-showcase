@@ -1,0 +1,9 @@
+version: incident/v1
+id: ggg05wcthck2
+name: Analytics Delays for Workers/Durable Objects
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2025-01-28 20:23:14"
+      description: We have identified an issue where Cloudflare Workers and Durable Objects Analytics processing is running behind. This affects timely delivery of customer data. These delays do not impact analytics for DNS and Rate Limiting. We are currently working on a fix for this issue.
