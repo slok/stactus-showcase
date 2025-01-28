@@ -1,0 +1,10 @@
+version: incident/v1
+id: jwxdzrmbgyn9
+name: Workers Logs dashboard availability
+impact: minor
+systems:
+    - pqt7t1dwt0dz
+timeline:
+    - ts: "2025-01-28 07:09:54"
+      description: "Cloudflare is investigating reports of the Workers Logs being unavailable within the Cloudflare dashboard. \nUsers may be seeing a \"Something went wrong\" page attempting to access Logs."
+      investigating: true
