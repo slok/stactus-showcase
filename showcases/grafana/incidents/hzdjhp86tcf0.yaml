@@ -3,7 +3,24 @@ id: hzdjhp86tcf0
 name: influx Metrics ingesters endpoints respond with 404 Not Found
 impact: critical
 systems:
+    - fm6ngm716ftw
+    - pg6f8jh5jmw1
+    - 9cnglb70hqhk
+    - kywjchj50pzs
+    - 1pvkyb8n3wjg
+    - mcrkfm4my3ks
+    - 0zbn3g1ngjfs
+    - xsn3y4zb9fdb
     - zqsjp5p0d8n7
+    - k8k4wprtwgz9
+    - 82s7r3tjyb6n
+    - d1qqwsst6by9
+    - vc52wtjdh6db
+    - d2vdtkjjdzjy
+    - ly7gqcr2bm3m
+    - b74p2737fm3r
+    - 24jq47r3m6gj
+    - 993qpty6gv9f
     - 1tt4gx4t4q87
 timeline:
     - ts: "2025-01-28 20:30:24"
@@ -13,3 +30,7 @@ timeline:
 
         Affected customers may experience a gap in their metrics.
       investigating: true
+    - ts: "2025-01-28 20:35:03"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-01-28 20:37:53"
+      description: A fix has been implemented and we are monitoring the results.
