@@ -1,6 +1,6 @@
 version: incident/v1
 id: 2889t7xqd728
-name: Backup and Snapshot Access in cloud control panel
+name: Backups and Snapshots Access
 impact: minor
 systems:
     - czck17wcspr5
@@ -8,3 +8,8 @@ timeline:
     - ts: "2025-01-29 15:40:30"
       description: Our Engineering team is investigating an issue with Backups and Snapshots on Cloud Control Panel. During this time, users may experience error while accessing Backups and Snapshot webpage. We apologize for the inconvenience and will share an update once we have more information.
       investigating: true
+    - ts: "2025-01-29 15:49:22"
+      description: |-
+        Our Engineering team have implemented a fix for the issue affecting Snapshots and Backups access from the DigitalOcean Cloud Panel. Services are now recovering, and we are closely monitoring the situation to ensure stability.
+
+        If you continue to experience any issues, please open a ticket from your account for further review.
