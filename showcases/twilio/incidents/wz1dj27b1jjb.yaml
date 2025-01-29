@@ -1,0 +1,13 @@
+version: incident/v1
+id: wz1dj27b1jjb
+name: Call Failures to a Subset of Twilio Spain Phone Numbers
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2025-01-29 20:38:18"
+      description: Our monitoring systems have detected a potential issue with Calls Failures to Twilio Spain Phone Numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-01-29 20:48:00"
+      description: We are experiencing call failures to a subset of Twilio Spain phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
