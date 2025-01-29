@@ -1,6 +1,6 @@
 version: incident/v1
 id: 0c1trflljn9v
-name: Unable To Receive Messages from Subscribers in United States of America and Canada
+name: SMS Delivery Failures To and From Subscribers in United States of America and Canada
 impact: minor
 systems:
     - 7d8w22hqrh6s
@@ -8,4 +8,7 @@ systems:
 timeline:
     - ts: "2025-01-29 06:23:12"
       description: We are experiencing message delays in receiving messages from Subscribers in the United States of America and Canada. Customers may experience latency in receiving SMS messages from various mobile networks in the United States of America and Canada. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-01-29 07:18:40"
+      description: We are experiencing SMS Delivery Failures To and From Subscribers in the United States of America and Canada Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
