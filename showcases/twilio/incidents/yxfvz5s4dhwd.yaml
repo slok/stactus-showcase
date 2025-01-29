@@ -1,0 +1,9 @@
+version: incident/v1
+id: yxfvz5s4dhwd
+name: Twilio Programmable Messaging Affected
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-24 15:09:47"
+      description: Twilio Programmable Messaging was degraded for 23 hours between Jan 13th 2025, 2:20AM PST until Jan 14th 2025, 1:26AM PST. During this period of time customers may have experienced a small number of messages sent were not properly updated to a finalized status (FAILED or DELIVERY_UNKNOWN). Consequently, callbacks and EventStream events for these status updates were not triggered. Messages sent after January 14 are unaffected. The issue has now been resolved.
+      resolved: true
