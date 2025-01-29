@@ -1,0 +1,12 @@
+version: incident/v1
+id: wg7n9ns64dsd
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-01-29 14:52:56"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-01-29 15:04:42"
+      description: We're seeing issues related to Copilot chat on GitHub.com
+      investigating: true
