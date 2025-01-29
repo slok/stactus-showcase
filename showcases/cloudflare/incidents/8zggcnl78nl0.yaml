@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-01-29 17:44:35"
       description: We are currently experiencing an issue with the Snippets API, which is returning 502 errors both in the Cloudflare dashboard and for direct API calls. As a result, users are unable to create, modify, delete, or retrieve snippet code and rules. However, existing snippets continue to be served correctly from the edge. Our engineering team is actively investigating the issue, and we will provide updates as soon as possible.
       investigating: true
+    - ts: "2025-01-29 17:59:14"
+      description: The cause of this issue has been identified and a fix is being implemented.
