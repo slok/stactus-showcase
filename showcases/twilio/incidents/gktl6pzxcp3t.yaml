@@ -1,10 +1,13 @@
 version: incident/v1
 id: gktl6pzxcp3t
-name: On Call Engineers are Investigating an issue with BICS Sweden number inbound call failing
-impact: none
+name: BICS Sweden Number Inbound Call Failing
+impact: minor
 systems:
     - bnzggd37p61w
 timeline:
     - ts: "2025-01-29 15:04:28"
       description: Our monitoring systems have detected a potential issue with BICS Sweden number inbound call failing. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-01-29 15:14:58"
+      description: We are experiencing a failure with BICS Sweden number inbound call failing. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 15 minutes or as soon as more information becomes available.
       investigating: true
