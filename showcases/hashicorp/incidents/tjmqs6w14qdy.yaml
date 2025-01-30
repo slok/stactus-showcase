@@ -1,0 +1,16 @@
+version: incident/v1
+id: tjmqs6w14qdy
+name: HCP Consul - Create Cluster operation failing
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-01-30 11:43:19"
+      description: |-
+        Our engineering team is investigating an issue with the following:
+
+        Problem: All HCP Consul cluster creation operations are failing across AWS and Azure for all tiers.
+
+        Impact: Customers are unable to create new HCP Consul clusters.  There is no impact to the existing clusters.
+
+        We will share another update as soon as we have more information.
+      investigating: true
