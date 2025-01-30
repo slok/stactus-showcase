@@ -4,8 +4,11 @@ name: SMS and MMS Delivery Report Delay to T-Mobile Network in US Over a Subset 
 impact: minor
 systems:
     - 7d8w22hqrh6s
+    - 8vdlvw3dsq8h
     - 39mb8cmw8y2v
+    - h0fl7prwfhvm
     - 32f2bm54nkvv
+    - tvjwfvczkf46
 timeline:
     - ts: "2025-01-30 04:25:37"
       description: We've become aware of a potential issue with SMS Delivery Report Delay To T-Mobile Network In US Over A Subset Of Toll Free & Long Code. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
@@ -18,4 +21,7 @@ timeline:
       investigating: true
     - ts: "2025-01-30 05:40:09"
       description: We are continuing to investigate SMS and MMS Delivery Report Delay to T-Mobile Network in US Over a Subset of Short Code,Toll Free & Long Code. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-01-30 07:40:09"
+      description: We are continuing to investigate SMS and MMS Delivery Report Delays to T-Mobile Network in US Over a Subset of Short Code,Toll Free & Long Code. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
