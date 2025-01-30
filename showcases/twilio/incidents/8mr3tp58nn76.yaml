@@ -1,9 +1,16 @@
 version: incident/v1
 id: 8mr3tp58nn76
-name: On Call Engineers are Investigating
+name: SMS Delivery Failures to United States Cellular Corp in United States of America Over a Subset of Shortcode
 impact: none
-systems: []
+systems:
+    - 39mb8cmw8y2v
 timeline:
     - ts: "2025-01-30 05:01:06"
       description: We've become aware of a potential issue with SMS Delivery Failures to United States Cellular Corp in United States of America Over A Subset Of Shortcode. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-01-30 05:06:45"
+      description: We are experiencing SMS Delivery Failures to United States Cellular Corp in United States of America Over a Subset of Shortcode. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-01-30 05:18:07"
+      description: We are experiencing SMS Delivery Failures to United States Cellular Corp in United States of America Over a Subset of Shortcode. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
