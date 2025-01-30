@@ -32,3 +32,5 @@ timeline:
     - ts: "2025-01-30 12:03:08"
       description: We've detected an issue with Zabbix plugin having problems with failing connections, making it unable to query and connect. We're investigating the issue.
       investigating: true
+    - ts: "2025-01-30 12:31:28"
+      description: The fix has been deployed and the issue appears to be fixed. We're monitoring to make sure that no further problems appear.

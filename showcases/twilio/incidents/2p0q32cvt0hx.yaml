@@ -1,6 +1,6 @@
 version: incident/v1
 id: 2p0q32cvt0hx
-name: On Call Engineers are Investigating an issue
+name: Degraded Messaging Logs Functionality in the Console and in the API
 impact: minor
 systems:
     - yvvy3vlp4djf
@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-01-30 12:18:10"
       description: Our monitoring systems have detected a potential issue with Programmable Messaging. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-01-30 12:45:47"
+      description: Twilio Programmable Messaging Logs was degraded for 13 minutes between 03:59 and 04:12 Pacific Time on 01/30/2025. During this period of time Messaging Logs functionality in the Console and in the API was degraded. The issue has now been resolved.
+      resolved: true
