@@ -18,3 +18,9 @@ timeline:
     - ts: "2025-01-30 15:29:50"
       description: We will be failing over one of our primary caching hosts to complete our mitigation of the problem. Users will experience some temporary service disruptions until that event is complete.
       investigating: true
+    - ts: "2025-01-30 15:39:23"
+      description: We have completed the fail over. Services are operating as normal.
+      investigating: true
+    - ts: "2025-01-30 15:39:53"
+      description: This incident has been resolved.
+      resolved: true
