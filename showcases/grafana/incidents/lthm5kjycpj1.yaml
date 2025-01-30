@@ -1,0 +1,18 @@
+version: incident/v1
+id: lthm5kjycpj1
+name: Connection issues with data sources in prod-gb-south-0
+impact: major
+systems:
+    - yt6pjkj14lvk
+timeline:
+    - ts: "2025-01-30 18:33:42"
+      description: |-
+        We are currently investigating this issue with data sources using the newer API server approach are impacted.
+        Known impacted data source types are:
+        Infinity
+        Jira
+        Adobe Analytics
+        Catchpoint
+        Netlify
+        Atlassian Status Page
+      investigating: true
