@@ -1,0 +1,9 @@
+version: incident/v1
+id: 02pyvddpc5gl
+name: Impact to MMS and OTT messages between 1:31p.m. PST and 1:38p.m. PST
+impact: none
+systems: []
+timeline:
+    - ts: "2025-01-30 22:13:21"
+      description: Twilio MMS and OTT messages were degraded for 8 minutes between 1:31 p.m. and 1:38 p.m. Pacific Time on January 30, 2025. During this time approximately 110k message requests errored with "5xx". The issue has now been resolved.
+      resolved: true
