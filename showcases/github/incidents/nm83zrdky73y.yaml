@@ -22,5 +22,5 @@ timeline:
       description: We have completed the fail over. Services are operating as normal.
       investigating: true
     - ts: "2025-01-30 15:39:53"
-      description: This incident has been resolved.
+      description: On January 30th, 2025 from 14:22 UTC to 14:48 UTC, web requests to GitHub.com experienced failures (at peak the error rate was 44%), with the average successful request taking over 3 seconds to complete.<br /><br />This outage was caused by a hardware failure in the caching layer that supports rate limiting. In addition, the impact was prolonged due to a lack of automated failover for the caching layer. A manual failover of the primary to trusted hardware was performed following recovery to ensure that the issue would not reoccur under similar circumstances.<br /><br />As a result of this incident, we will be moving to a high availability cache configuration and adding resilience to cache failures at this layer to ensure requests are able to be handled should similar circumstances happen in the future.
       resolved: true
