@@ -1,0 +1,16 @@
+version: incident/v1
+id: qy8wn44tb7xw
+name: Network Connectivity Issues in Brazil
+impact: minor
+systems:
+    - 504hxt9xvdth
+timeline:
+    - ts: "2025-01-30 01:28:04"
+      description: |-
+        Cloudflare is investigating issues with network connectivity issues in Brazil.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-01-30 01:29:19"
+      description: We are continuing to investigate this issue.
+      investigating: true
