@@ -1,6 +1,6 @@
 version: incident/v1
 id: fqcx24j93t6p
-name: SMS Delivery Delays to Multiple Networks in Brazil
+name: SMS Delivery Delays to Brisanet Network in Brazil
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-01-31 12:10:10"
       description: We are experiencing SMS Delivery Delays to Multiple Networks in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-01-31 13:05:35"
+      description: We are experiencing SMS delivery delays to Brisanet Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
