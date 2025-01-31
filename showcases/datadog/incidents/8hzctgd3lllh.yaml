@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8hzctgd3lllh
+name: Degraded Web Application Performance
+impact: minor
+systems:
+    - b5fx9rfn6137
+timeline:
+    - ts: "2025-01-31 16:03:52"
+      description: We are investigating degraded performance with the web application.
+      investigating: true
