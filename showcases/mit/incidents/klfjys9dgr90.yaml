@@ -1,0 +1,9 @@
+version: incident/v1
+id: klfjys9dgr90
+name: ServiceNow Ticket Generation
+impact: none
+systems:
+    - dpdsycjtknlz
+timeline:
+    - ts: "2025-01-31 15:05:04"
+      description: Emails sent to teams using ServiceNow ticketing queues on Thursday, January 30, between 7:30 p.m. and 9:55 a.m. Friday, January 31 EST, were not generating tickets as expected. Ticket generation for newly received emails has been restored. Any emails sent during the outage window (that did not generate ServiceNow tickets) are being reprocessed to generate their respective ServiceNow tickets. IS&T is continuing to monitor the situation.
