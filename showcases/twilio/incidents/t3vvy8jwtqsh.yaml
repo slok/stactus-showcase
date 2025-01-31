@@ -1,0 +1,10 @@
+version: incident/v1
+id: t3vvy8jwtqsh
+name: SMS Delivery Delays to Malitel Mali
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-01-31 14:31:36"
+      description: We are experiencing SMS delivery delays when sending messages to Malitel Mali. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
