@@ -1,0 +1,10 @@
+version: incident/v1
+id: x0cmrsp701jw
+name: SMS Delivery Delays to Ditto Network in Philippines Over a Subset of International Pre Registered Sender ID
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-02-01 07:37:05"
+      description: We are experiencing SMS delivery delays when sending messages to Ditto network in Philippines over a subset of International pre registered Sender ID. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
