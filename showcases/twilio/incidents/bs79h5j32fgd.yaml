@@ -1,9 +1,13 @@
 version: incident/v1
 id: bs79h5j32fgd
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Issue purchasing Japan National numbers (+8150 prefix) via Console and API.
+impact: minor
+systems:
+    - g4hs7h64k9fv
 timeline:
     - ts: "2025-02-02 09:33:57"
       description: Our monitoring systems have detected a potential issue Customers are not able to purchase Japan National numbers (+8150 prefix) via Console and API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-02-02 09:43:45"
+      description: Our monitoring systems have detected a potential issue, customers are unable to purchase Japan National numbers (+8150 prefix) via the Console and API. Our engineering team has been alerted and is actively investigating the issue. We will provide an update within the next hour or as soon as more information becomes available.
       investigating: true
