@@ -1,10 +1,13 @@
 version: incident/v1
 id: j43kjk8cf7mv
-name: SMS Delivery Delays to in United Kingdom of Great Britain and Northern Ireland Subset of Twilio numbers
+name: SMS Delivery Delays to United Kingdom of Great Britain and Northern Ireland Subset of Twilio numbers
 impact: minor
 systems:
     - llgdln3dcs6p
 timeline:
     - ts: "2025-02-02 11:10:09"
       description: We are experiencing SMS Delivery Delays to United Kingdom of Great Britain and Northern Ireland Subset of Twilio numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-02-02 12:08:59"
+      description: We are experiencing SMS Delivery Delays to United Kingdom of Great Britain and Northern Ireland Subset of Twilio numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
