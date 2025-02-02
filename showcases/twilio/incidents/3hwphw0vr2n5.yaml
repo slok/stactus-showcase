@@ -1,0 +1,21 @@
+version: incident/v1
+id: 3hwphw0vr2n5
+name: AccSec US API Issue
+impact: minor
+systems:
+    - xk8z50jy8hcs
+    - fsxs9n9yf4m7
+    - qt4vzyg2g7b4
+timeline:
+    - ts: "2025-02-02 00:52:15"
+      description: Our monitoring systems have detected a potential issue with AccSec - US API Errors. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-02-02 00:55:59"
+      description: "Our monitoring systems have detected a potential issue with AccSec - US API Errors. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information. \nThis post was made to update the affected products."
+      investigating: true
+    - ts: "2025-02-02 01:15:14"
+      description: Upon further investigation, we have confirmed that Lookup is not affected by the ongoing incident. We are actively investigating the potential issue with AccSec - US API Errors and will provide another update as soon as possible.
+      investigating: true
+    - ts: "2025-02-02 01:32:37"
+      description: We are experiencing errors with AccSec - US API. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
