@@ -1,8 +1,11 @@
 version: incident/v1
 id: mzmxlmgyrzsr
-name: Our Engineers are Investigating an Issue with Flex Insights
+name: '[Retro Sync Insights failures] Affected'
 impact: none
 systems: []
 timeline:
     - ts: "2025-02-03 13:05:58"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with Flex Insights. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-02-03 13:26:27"
+      description: Flex UI Teams View was degraded for 11 minutes between 12:05 and 12:16 UTC Time on 03/02/2025. During this period of time customers wouldn't be able to create filters on Flex UI Teams View. However, there was no impact on already existing filters and UI would have worked as expected, unless there was any new filter created by the supervisor.
+      resolved: true
