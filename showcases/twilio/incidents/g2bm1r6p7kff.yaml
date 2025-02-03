@@ -1,0 +1,9 @@
+version: incident/v1
+id: g2bm1r6p7kff
+name: SMS Delivery Failures to AT&T Network in the US for a Subset of Long codes
+impact: none
+systems: []
+timeline:
+    - ts: "2025-02-03 19:37:21"
+      description: Twilio SMS was degraded for 86 minutes between 03:44 and 05:17 Pacific Time on 02/03/2024. During this period of time customers may have experienced failures to ATT network. The issue has now been resolved.
+      resolved: true

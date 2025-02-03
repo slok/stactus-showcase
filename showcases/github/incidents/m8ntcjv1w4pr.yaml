@@ -1,0 +1,9 @@
+version: incident/v1
+id: m8ntcjv1w4pr
+name: '[Retroactive] Incident with some GitHub services'
+impact: major
+systems: []
+timeline:
+    - ts: "2025-02-03 19:37:49"
+      description: A component that imports external git repositories into GitHub had an incident that was caused by the improper internal configuration of a gem. We have since rolled back to a stable version, and all migrations are able to resume.
+      resolved: true
