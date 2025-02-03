@@ -1,0 +1,16 @@
+version: incident/v1
+id: 0kb0qt3hyjby
+name: Droplet and Managed Kubernetes creation failure in BLR region
+impact: minor
+systems:
+    - tzjfd82zn341
+    - 5wjrpc0lf1qc
+timeline:
+    - ts: "2025-02-03 04:28:20"
+      description: |-
+        As of 3:16 AM UTC, our Engineering team is investigating an issue affecting Droplet creation and delays in Managed Kubernetes creation in the BLR region.
+
+        Users may experience delays or issues with events related to Droplet creation in the BLR1 region. Additionally, there are delays in Managed Kubernetes cluster creation.
+
+        We apologize for the inconvenience and will provide an update as soon as more information becomes available.
+      investigating: true
