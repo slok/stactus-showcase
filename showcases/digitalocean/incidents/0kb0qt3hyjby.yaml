@@ -4,7 +4,9 @@ name: Droplet, Managed Database and Managed Kubernetes creation failure in BLR r
 impact: minor
 systems:
     - tzjfd82zn341
+    - ttltt91ldz3g
     - 5wjrpc0lf1qc
+    - ytggjm2hdb5y
 timeline:
     - ts: "2025-02-03 04:28:20"
       description: |-
@@ -14,3 +16,17 @@ timeline:
 
         We apologize for the inconvenience and will provide an update as soon as more information becomes available.
       investigating: true
+    - ts: "2025-02-03 05:49:54"
+      description: |-
+        As of 5:40 AM UTC, our Engineering team has identified the cause of the issue affecting Droplet, Managed Kubernetes, and Managed Database creation in the BLR region and is actively implementing a fix.
+
+        Users should begin to see improvements in Droplet creation and event processing. Additionally, the successful creation and provisioning of Managed Kubernetes and Managed Database clusters should also resume shortly.
+
+        We apologize for the inconvenience and will provide further updates as more information becomes available.
+    - ts: "2025-02-03 06:06:48"
+      description: |-
+        Our Engineering team has deployed a fix for the issue affecting Droplet, Managed Kubernetes, and Managed Database creation in the BLR region. As of 6:00 AM UTC, the issue has been fully mitigated, and users should no longer experience any disruptions.
+
+        Droplet creation, event processing, and the creation and provisioning of Managed Kubernetes and Managed Database clusters should now function as expected.
+
+        We are actively monitoring the situation and will provide an update once we confirm the incident is completely resolved.
