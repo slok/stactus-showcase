@@ -11,3 +11,6 @@ timeline:
       description: We are continuing to work on a fix for this issue.
     - ts: "2025-01-22 16:33:53"
       description: 'We are continuing to work on a fix for native CRC32 checksum handling in R2 APIs. If you run into an issue, please see the documentation for workarounds based on the SDK that you are using: https://developers.cloudflare.com/r2/examples/aws/'
+    - ts: "2025-02-03 21:38:45"
+      description: An effective fix for this issue was identified and implemented. This incident is now resolved.
+      resolved: true
