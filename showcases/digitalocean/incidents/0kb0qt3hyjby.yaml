@@ -30,3 +30,6 @@ timeline:
         Droplet creation, event processing, and the creation and provisioning of Managed Kubernetes and Managed Database clusters should now function as expected.
 
         We are actively monitoring the situation and will provide an update once we confirm the incident is completely resolved.
+    - ts: "2025-02-03 10:00:31"
+      description: "Our Engineering team has confirmed the full resolution of the issue affecting Droplet, Managed Kubernetes, and Managed Database creation in the BLR region. All our services in the region should now be functioning normally. \n\nUsers should no longer experience any issues with Droplet creation, event processing, and the creation and provisioning of Managed Kubernetes and Managed Database clusters.\n\nIf you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel. Thank you for your patience and we apologize for any inconvenience."
+      resolved: true
