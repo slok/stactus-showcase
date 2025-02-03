@@ -1,0 +1,9 @@
+version: incident/v1
+id: 6wv1rz226v1f
+name: Tempo - Elevated Read Failures
+impact: major
+systems:
+    - hp6lb56782c9
+timeline:
+    - ts: "2025-02-03 17:01:31"
+      description: From 16:16 - 16:50 UTC, our engineering team became aware of elevated read failures in the eu-west-0 cluster. Our engineering team investigated the issue, and has implemented a fix. We will continue to monitor for recurrence and provide updates accordingly.
