@@ -11,3 +11,8 @@ timeline:
     - ts: "2025-02-04 19:46:16"
       description: As of this morning (Feb 4, 2025), Twilio is observing a small subset of Twilio 10DLC numbers generating intermittent 30024 errors towards Verizon and T-Mobile destinations in the United States. This is mostly impacting Hosted or Ported numbers. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-02-04 20:59:16"
+      description: |-
+        We observing a recovery on small subset of Twilio 10DLC numbers that were generating intermittent 30024 errors towards Verizon and T-Mobile destinations in the United States. This is mostly impacting Hosted or Ported numbers. We are monitoring this and expect to provide another update in 2 hours or as soon as more information becomes available.
+
+        If you are still seeing traffic failing with 30024 towards AT&T and Verizon for the majority of traffic sent from your Twilio 10DLC numbers, kindly open a Support Ticket.
