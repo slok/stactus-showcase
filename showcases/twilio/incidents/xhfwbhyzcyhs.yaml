@@ -1,10 +1,12 @@
 version: incident/v1
 id: xhfwbhyzcyhs
-name: MMS Delivery Delays to T-Mobile Network in United States of America
+name: MMS Delivery Report Delays to T-Mobile Network in United States of America
 impact: minor
 systems:
     - 8vdlvw3dsq8h
+    - llqd4rmn8k8y
     - h0fl7prwfhvm
+    - 5cv0b6y86d2f
 timeline:
     - ts: "2025-02-04 13:56:06"
       description: We are experiencing MMS delivery delays when sending messages to T-Mobile Network in United States of America via subset of longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
@@ -14,4 +16,7 @@ timeline:
       investigating: true
     - ts: "2025-02-04 14:55:22"
       description: We are experiencing MMS delivery delays when sending messages to T-Mobile Network in United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-02-04 16:47:01"
+      description: We have detected that this incident is only associated with Delivery Reports and we can confirm that MMS Delivery is not impacted. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
