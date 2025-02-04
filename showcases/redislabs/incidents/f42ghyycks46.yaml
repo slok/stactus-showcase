@@ -1,0 +1,12 @@
+version: incident/v1
+id: f42ghyycks46
+name: Connection Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2025-02-04 02:18:21"
+      description: 'We are currently investigating connectivity issues to some resources that have the following pattern in their endpoint: cls-prod30'
+      investigating: true
+    - ts: "2025-02-04 02:19:29"
+      description: This incident has been resolved.
+      resolved: true
