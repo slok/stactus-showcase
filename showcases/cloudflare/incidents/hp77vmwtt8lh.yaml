@@ -1,0 +1,9 @@
+version: incident/v1
+id: hp77vmwtt8lh
+name: Increase of delayed deliveries for Cloudflare transactional emails
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-02-04 14:06:56"
+      description: Cloudflare is observing an increased delay in the delivery of transactional emails to specific email providers. This does not affect any Cloudflare Email Security products. We are currently investigating this issue.
+      investigating: true
