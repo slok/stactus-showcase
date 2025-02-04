@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1y6phhpzxlc7
+name: Degraded performance in Korea, ICN.
+impact: minor
+systems:
+    - v4s7np92f0dh
+timeline:
+    - ts: "2025-02-04 11:16:24"
+      description: Cloudflare is investigating issues with network connectivity in Korea, ICN. We are seeing degraded performance. More updates to follow shortly.
+      investigating: true
