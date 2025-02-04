@@ -1,0 +1,10 @@
+version: incident/v1
+id: b26y435696yn
+name: Issue with ticketing system
+impact: minor
+systems:
+    - jzcwkvrc4w4q
+timeline:
+    - ts: "2025-02-04 06:58:57"
+      description: "An internal issue with our ticketing system may cause delays with receiving responses from our support team on existing support cases.  Furthermore, some active chats or calls may drop.  \n\nThis does not impact case creation, or viewing existing cases in our support portal."
+      investigating: true
