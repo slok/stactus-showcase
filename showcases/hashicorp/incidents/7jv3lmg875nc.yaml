@@ -11,3 +11,5 @@ timeline:
     - ts: "2025-02-04 00:03:28"
       description: Our engineering team is continuing to investigate. At this time, only workspaces using the Run Tasks feature appear to be affected. If you are experiencing slow Terraform runs and are not using Run Tasks, please open a ticket with our support team.
       investigating: true
+    - ts: "2025-02-04 16:17:02"
+      description: We have deployed a fix to improve Run Task performance and we are monitoring the system for any further degradation.

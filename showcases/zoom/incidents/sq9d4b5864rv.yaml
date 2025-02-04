@@ -1,6 +1,6 @@
 version: incident/v1
 id: sq9d4b5864rv
-name: Zoom Service’s degradation in Saudi Arabia region Intermittently
+name: Zoom Intermittent Service Degradation in Saudi Arabia Region
 impact: minor
 systems:
     - 3z7b6jks10hm
@@ -27,5 +27,5 @@ systems:
     - gtf6dl08hrk1
 timeline:
     - ts: "2025-02-04 15:57:57"
-      description: We have identified possible network issues in Saudi Arabia impacting Zoom services intermittently. We will provide updates as we have them.
+      description: We have identified intermittent network issues in Saudi Arabia impacting Zoom services in the region. We will provide regular updates.
       investigating: true
