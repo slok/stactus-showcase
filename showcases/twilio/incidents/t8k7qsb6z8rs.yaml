@@ -1,0 +1,13 @@
+version: incident/v1
+id: t8k7qsb6z8rs
+name: Intermittent 30024 Errors to Verizon and T-Mobile in the United States of America
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2025-02-04 19:34:31"
+      description: Our monitoring systems have detected a potential issue with SMS. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-02-04 19:46:16"
+      description: As of this morning (Feb 4, 2025), Twilio is observing a small subset of Twilio 10DLC numbers generating intermittent 30024 errors towards Verizon and T-Mobile destinations in the United States. This is mostly impacting Hosted or Ported numbers. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
