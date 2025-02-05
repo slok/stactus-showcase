@@ -1,0 +1,10 @@
+version: incident/v1
+id: 089x67sm1f5p
+name: SMS Delivery Failures to Subset of Twilio Numbers in Croatia
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-02-05 11:10:58"
+      description: We are experiencing SMS delivery failures sending to Subset of Twilio numbers in Croatia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
