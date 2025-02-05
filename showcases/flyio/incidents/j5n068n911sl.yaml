@@ -1,0 +1,9 @@
+version: incident/v1
+id: j5n068n911sl
+name: Elevated network latency in FRA
+impact: none
+systems:
+    - zb68fzjgtq5s
+timeline:
+    - ts: "2025-02-05 14:44:10"
+      description: We're addressing elevated network latency and saturation affecting the FRA region. Apps with machines in this region might experience longer response times and possible timeouts (502 errors).
