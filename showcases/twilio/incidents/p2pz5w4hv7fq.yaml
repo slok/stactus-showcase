@@ -1,9 +1,13 @@
 version: incident/v1
 id: p2pz5w4hv7fq
-name: Multiple Binds Down Twilio US & Twilio Sweden Providers
-impact: none
-systems: []
+name: SMS Delivery Delays To a subset of Twilio Australia Phone Numbers
+impact: minor
+systems:
+    - 8qjql0kqnd33
 timeline:
     - ts: "2025-02-05 03:30:46"
       description: We've become aware of a potential issue with Multiple Binds Down Twilio US & Twilio Sweden Providers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-02-05 03:54:30"
+      description: We are experiencing SMS Delivery Delays To a subset of Twilio Australia Phone Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
