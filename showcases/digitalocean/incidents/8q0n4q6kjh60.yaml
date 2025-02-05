@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8q0n4q6kjh60
+name: Reserved IP assignment
+impact: none
+systems:
+    - yvh4g97h7mk7
+timeline:
+    - ts: "2025-02-05 04:21:07"
+      description: |-
+        Our Engineering team identified an issue affecting Reserved IP assignments across all regions. From 00:26 to 03:26 UTC, users may have experienced issues with assigning Reserved IPs to Droplets.
+
+        A fix has been implemented and as of 03:26 UTC, all Reserved IP assignments have been successful. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true
