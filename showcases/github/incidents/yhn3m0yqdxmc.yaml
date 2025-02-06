@@ -17,3 +17,9 @@ timeline:
     - ts: "2025-02-06 11:05:18"
       description: We have scaled out database resources and rolled back recent changes and are seeing signs of mitigation, but are monitoring to ensure complete recovery.
       investigating: true
+    - ts: "2025-02-06 11:13:34"
+      description: This issue has been mitigated.  We will continue to investigate root causes to ensure this does not reoccur.
+      investigating: true
+    - ts: "2025-02-06 11:13:43"
+      description: This incident has been resolved.
+      resolved: true
