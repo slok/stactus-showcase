@@ -1,0 +1,27 @@
+version: incident/v1
+id: m90shgg0k4dd
+name: Network Performance Issues
+impact: major
+systems:
+    - 8qwmwg7ytljv
+timeline:
+    - ts: "2025-02-05 17:05:38"
+      description: |-
+        Cloudflare is investigating issues with Network Performance.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-02-05 17:40:57"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-02-05 18:16:05"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-02-05 18:47:25"
+      description: Cloudflare is seeing a potential recurrence of errors related to this issue and is investigating. We will continue to provide updates as they become available.
+      investigating: true
+    - ts: "2025-02-05 19:11:44"
+      description: An additional fix has been implemented and we are monitoring the results.
+    - ts: "2025-02-05 21:20:30"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2025-02-05 21:30:29"
+      description: Impact has been mitigated. Cloudflare will continue monitoring, and shift focus to investigating the root cause. This incident is now closed.
+      resolved: true

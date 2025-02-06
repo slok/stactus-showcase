@@ -1,0 +1,22 @@
+version: incident/v1
+id: q9wh0q0sgd4z
+name: Toll Free Verifications Timeout
+impact: minor
+systems:
+    - brty2vw4qv6v
+timeline:
+    - ts: "2025-02-05 22:54:31"
+      description: Our monitoring systems have detected a potential issue . Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-02-05 23:01:45"
+      description: We are investigating a service interruption with Programmable Messaging, Toll Free Verification. 408 instances of Toll Free Verifications timing out since Jan 25. These verifications were eventually rejected and customers were notified. We are working on resubmitting these effected verifications.  We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-02-05 23:57:45"
+      description: We continue to investigate a service interruption with Programmable Messaging, Toll Free Verification. 408 instances of Toll Free Verifications timing out since Jan 25. These verifications were eventually rejected and customers were notified. We are working on resubmitting these effected verifications.  We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-02-06 01:52:31"
+      description: We continue to investigate a service interruption with Programmable Messaging, Toll Free Verification. 408 instances of Toll Free Verifications timing out since Jan 25. These verifications were eventually rejected and customers were notified. We are working on resubmitting these effected verifications.  We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-02-06 05:52:09"
+      description: We continue to investigate a service interruption with Programmable Messaging, Toll Free Verification.408 instances of Toll Free Verifications timing out since Jan 25.These verifications were eventually rejected and customers were notified.We are working on resubmitting these effected verifications.We will provide another update in 8 hours or as soon as more information becomes available.
+      investigating: true

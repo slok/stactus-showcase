@@ -1,0 +1,36 @@
+version: incident/v1
+id: 57jhx9vk2kbl
+name: Cloud Control Panel and API
+impact: major
+systems:
+    - p1x9rv4137gx
+    - 558h1l1q0c2w
+    - czck17wcspr5
+timeline:
+    - ts: "2025-02-06 00:26:39"
+      description: |-
+        As of 00:16 UTC, our Engineering team is investigating an issue impacting our Cloud Control Panel and API.
+
+        During this time, users will experience errors when trying to use the public API at api.digitalocean.com or while accessing our Cloud Control Panel at https://cloud.digitalocean.com. Users may also see issues with processing Droplet and Kubernetes cluster creations along with Droplet based events.
+
+        We are now confirming the full impact. We regret any inconvenience and will let you know as soon as more information is available.
+      investigating: true
+    - ts: "2025-02-06 00:27:23"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-02-06 00:37:07"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-02-06 01:01:07"
+      description: |-
+        Our Engineering team has implemented a fix regarding the issue impacting our Cloud Control Panel and API. We are monitoring the situation to ensure there is no recurrence.
+
+        We will post another update once we confirm the issue is fully resolved.
+    - ts: "2025-02-06 01:29:29"
+      description: |-
+        From 00:04 UTC to 00:41 UTC, users experienced issues accessing the Cloud Control Panel and API as well as experienced event failures.
+
+        Our Engineering team has resolved the issue, and Cloud Control Panel, API and events should now be functioning normally.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true

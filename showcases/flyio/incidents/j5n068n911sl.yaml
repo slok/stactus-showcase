@@ -7,3 +7,8 @@ systems:
 timeline:
     - ts: "2025-02-05 14:44:10"
       description: We're addressing elevated network latency and saturation affecting the FRA region. Apps with machines in this region might experience longer response times and possible timeouts (502 errors).
+    - ts: "2025-02-05 15:06:57"
+      description: We've deployed a fix for this incident and we are monitoring while network latency and bandwidth return to normal. All user apps should start seeing improved and normal response times.
+    - ts: "2025-02-05 16:11:10"
+      description: Network functionality is fully restored in FRA.
+      resolved: true

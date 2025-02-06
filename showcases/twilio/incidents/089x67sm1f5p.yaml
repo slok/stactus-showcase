@@ -14,3 +14,6 @@ timeline:
     - ts: "2025-02-05 14:10:06"
       description: We continue to experience SMS delivery failures sending to Subset of Twilio numbers in Croatia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-02-05 17:39:49"
+      description: We have fully investigated the SMS delivery failures sending to Subset of Twilio numbers in Croatia issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true

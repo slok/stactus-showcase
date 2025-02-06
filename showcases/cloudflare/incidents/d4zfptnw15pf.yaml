@@ -1,0 +1,15 @@
+version: incident/v1
+id: d4zfptnw15pf
+name: Magic Tunnel Health Checks Analytics Delayed
+impact: minor
+systems:
+    - bjlxcss20fsl
+    - qgnxz00j1f2v
+timeline:
+    - ts: "2025-02-05 20:51:02"
+      description: We have identified and are working to fix an issue where Tunnel Health Check Analytics for some tunnels are delayed in the UI. No data has been lost and data plane behavior is unaffected.
+    - ts: "2025-02-05 21:36:12"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-02-05 22:03:23"
+      description: This incident has been resolved.
+      resolved: true
