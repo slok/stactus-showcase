@@ -14,3 +14,6 @@ timeline:
     - ts: "2025-02-06 10:29:19"
       description: We are attempting to scale databases to handle observed load spikes, as well as investigating other mitigation approaches.<br /><br />Customers may intermittently experience failures to fetch repositories with LFS, as well as increased latency and errors across the API.
       investigating: true
+    - ts: "2025-02-06 11:05:18"
+      description: We have scaled out database resources and rolled back recent changes and are seeing signs of mitigation, but are monitoring to ensure complete recovery.
+      investigating: true
