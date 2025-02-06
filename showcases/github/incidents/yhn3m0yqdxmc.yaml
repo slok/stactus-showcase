@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-02-06 09:52:03"
       description: We are investigating failed Git LFS requests and potentially slow API requests.<br /><br />Customers may experience failures to fetch repositories with LFS.
       investigating: true
+    - ts: "2025-02-06 10:29:19"
+      description: We are attempting to scale databases to handle observed load spikes, as well as investigating other mitigation approaches.<br /><br />Customers may intermittently experience failures to fetch repositories with LFS, as well as increased latency and errors across the API.
+      investigating: true
