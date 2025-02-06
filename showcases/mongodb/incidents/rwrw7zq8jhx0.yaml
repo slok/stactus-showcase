@@ -7,7 +7,10 @@ systems:
     - 7wbvh4zlbmmh
 timeline:
     - ts: "2025-02-06 09:19:19"
-      description: We have identified an issue with Database Triggers and Data APIs unable to connect to their backing cluster.
+      description: |-
+        We have identified an issue with Database Triggers and Data APIs being unable to connect to their backing cluster.
+
+        Affected users will find errors in the Charts UI during this time as well as triggers did not complete during this time.
     - ts: "2025-02-06 10:27:13"
       description: We are continuing to work on a fix for this issue.
     - ts: "2025-02-06 12:41:19"
