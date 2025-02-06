@@ -1,0 +1,13 @@
+version: incident/v1
+id: pgz7g5xlpxzr
+name: Cloudflare R2 Availability Issues
+impact: major
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2025-02-06 08:34:44"
+      description: |-
+        Cloudflare is observing issues with Cloudflare R2 service.
+
+        We are currently working on a resolution. More updates to follow shortly.
+      investigating: true
