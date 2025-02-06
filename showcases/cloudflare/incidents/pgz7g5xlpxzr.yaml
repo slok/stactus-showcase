@@ -3,11 +3,19 @@ id: pgz7g5xlpxzr
 name: Cloudflare R2 Availability Issues
 impact: major
 systems:
+    - bty1yz6dhh0v
     - hb7g5sq2zz0h
+    - 47xg28c02lnk
 timeline:
     - ts: "2025-02-06 08:34:44"
       description: |-
         Cloudflare is observing issues with Cloudflare R2 service.
 
         We are currently working on a resolution. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-02-06 08:46:03"
+      description: |-
+        This incident is impacting R2, Durable Objects, Cache Reserve, Key Transparency Auditor and Stream.
+
+        More updates to follow shortly.
       investigating: true
