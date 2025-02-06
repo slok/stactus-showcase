@@ -1,10 +1,12 @@
 version: incident/v1
 id: kcf9xvxdwcwv
-name: Delays in logs delivery via Logpush
+name: Updates to Logpush jobs not applied
 impact: minor
 systems:
     - k0mgxrls5y1b
 timeline:
     - ts: "2025-02-06 19:36:39"
-      description: Log delivery via Logpush is delayed for some customers, Cloudflare is investigating.
+      description: Changes (create, update, delete) to Logpush jobs are not being applied for some customers since Feb 4th.
       investigating: true
+    - ts: "2025-02-06 20:01:52"
+      description: The issue has been identified and a fix is being implemented.
