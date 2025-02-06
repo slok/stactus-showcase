@@ -1,0 +1,10 @@
+version: incident/v1
+id: kcf9xvxdwcwv
+name: Delays in logs delivery via Logpush
+impact: minor
+systems:
+    - k0mgxrls5y1b
+timeline:
+    - ts: "2025-02-06 19:36:39"
+      description: Log delivery via Logpush is delayed for some customers, Cloudflare is investigating.
+      investigating: true
