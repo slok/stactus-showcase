@@ -1,9 +1,13 @@
 version: incident/v1
 id: 0cw20th4ptrs
 name: Customers Unable to Upload XLSX to Alphanumeric Sender ID Application
-impact: none
-systems: []
+impact: minor
+systems:
+    - g4hs7h64k9fv
 timeline:
     - ts: "2025-02-06 20:04:57"
       description: We've become aware of a potential issue with uploading xlsx. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-02-06 20:25:03"
+      description: We are investigating an issue where customers are unable to upload required .xlsx files for Ireland pre-reg Sender IDs. They see a "File upload failed" message. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
