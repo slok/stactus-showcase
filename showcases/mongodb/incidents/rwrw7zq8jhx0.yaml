@@ -1,0 +1,9 @@
+version: incident/v1
+id: rwrw7zq8jhx0
+name: App Services Database Triggers may be unable to execute in us-east-1
+impact: major
+systems:
+    - crrq7qqlqfsh
+timeline:
+    - ts: "2025-02-06 09:19:19"
+      description: We have identified an issue with Database Triggers unable to connect to their backing cluster in us-east-1.
