@@ -4,6 +4,8 @@ name: Cloudflare R2 Availability Issues
 impact: major
 systems:
     - bty1yz6dhh0v
+    - 3lbj8lp3d750
+    - k0mgxrls5y1b
     - hb7g5sq2zz0h
     - 47xg28c02lnk
 timeline:
@@ -16,6 +18,12 @@ timeline:
     - ts: "2025-02-06 08:46:03"
       description: |-
         This incident is impacting R2, Durable Objects, Cache Reserve, Key Transparency Auditor and Stream.
+
+        More updates to follow shortly.
+      investigating: true
+    - ts: "2025-02-06 08:52:09"
+      description: |-
+        This incident is impacting R2, Durable Objects, Cache Reserve, Key Transparency Auditor, Stream, Logpush and Images.
 
         More updates to follow shortly.
       investigating: true
