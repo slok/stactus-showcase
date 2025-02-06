@@ -1,0 +1,16 @@
+version: incident/v1
+id: y92669x1wm3r
+name: MongoDB Atlas Free/M2/M5/Flex/Serverless clusters modification delayed
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-02-06 18:54:06"
+      description: |-
+        We are currently investigating an issue that can cause delay to create/delete/modification of MongoDB Atlas Free/M2/M5/Flex/Serverless clusters. The cluster themselves are unaffected and should still be accessible.
+
+        We will provide more information as they are available.
+      investigating: true
+    - ts: "2025-02-06 18:54:18"
+      description: We are continuing to investigate this issue.
+      investigating: true
