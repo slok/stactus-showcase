@@ -39,3 +39,7 @@ timeline:
       investigating: true
     - ts: "2025-02-06 09:21:23"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-02-06 09:36:21"
+      description: We identified and remediated the availability issues seen by customers on most requests. We're tracking down a few edge cases that should be resolved shortly. Impacted customers will see HTTP 500 responses on requests to the R2 service.
+    - ts: "2025-02-06 09:47:32"
+      description: A fix has been implemented and we are monitoring the results.
