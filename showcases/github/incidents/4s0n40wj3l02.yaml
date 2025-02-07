@@ -20,5 +20,5 @@ timeline:
       description: We have identified a configuration change that we believe may be related. We are working to mitigate.
       investigating: true
     - ts: "2025-02-05 11:44:32"
-      description: This incident has been resolved.
+      description: Between Feb 5, 2025 00:34 UTC and 11:16 UTC, up to 7% of organizations using GitHub-hosted larger runners with public IP addresses had those jobs fail to start during the impact window. The issue was caused by a backend migration in the public IP management system, which caused certain public IP address runners to be placed in a non-functioning state.<br /><br />We have improved the rollback steps for this migration to reduce the time to mitigate any future recurrences, are working to improve automated detection of this error state, and are improving the resiliency of runners to handle this error state without customer impact.
       resolved: true
