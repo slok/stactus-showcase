@@ -8,3 +8,6 @@ systems:
 timeline:
     - ts: "2025-02-07 00:01:07"
       description: OnCall and Incident are performing maintenance on the Grafana IRM slack application. Users may experience a few minutes where messages are delayed or interactivity is interrupted.
+    - ts: "2025-02-07 00:24:58"
+      description: Maintenance has been completed. Grafana Incident and Grafana OnCall are fully operational, and user should experience no further service disruption.
+      resolved: true
