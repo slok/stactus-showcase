@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-02-08 20:44:50"
       description: We are experiencing SMS delivery report delays to multiple networks in United States of America via subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-02-08 21:07:16"
+      description: We have fully investigated the issue with SMS delivery reports to multiple networks in United States of America via subset of shortcodes triggered by our automated alert, and it was determined that there is no customer impact. This incident has been resolved.
+      resolved: true
