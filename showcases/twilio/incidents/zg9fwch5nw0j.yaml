@@ -1,0 +1,10 @@
+version: incident/v1
+id: zg9fwch5nw0j
+name: Inbound SMS Delivery Delays to the Subset of Twilio Phone Numbers and Outbound SMS Delivery Delays and Failures Over Domestic Long Codes in Philippines
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-02-09 02:01:32"
+      description: We are experiencing inbound SMS delivery delays to the subset of Twilio phone numbers and outbound SMS delivery delays and failures over domestic Long Codes in Philippines. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
