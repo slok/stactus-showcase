@@ -23,3 +23,6 @@ timeline:
     - ts: "2025-02-10 02:45:57"
       description: We continue experiencing SMS delivery delays when sending messages to Bouygues Telecom in France via Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-02-10 19:25:18"
+      description: We have fully investigated the SMS delivery delays when sending messages to Bouygues Telecom in France via Subset of Longcodes issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
