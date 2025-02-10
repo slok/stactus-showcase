@@ -15,3 +15,6 @@ timeline:
         This issue has been fixed, newly created machines will have working SSH.
 
         Machines created during this incident will need to be updated (`fly machine update --yes <id>`) or deleted/recreated to fix SSH.
+    - ts: "2025-02-10 22:53:50"
+      description: This incident has been resolved.
+      resolved: true

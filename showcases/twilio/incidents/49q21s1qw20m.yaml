@@ -1,6 +1,6 @@
 version: incident/v1
 id: 49q21s1qw20m
-name: SMS Delivery Delays to Multiple Networks in United States for a  Subset of Short Codes
+name: SMS Delivery Delays Reports to Multiple Networks in United States for a  Subset of Short Codes
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -11,3 +11,5 @@ timeline:
     - ts: "2025-02-10 21:53:55"
       description: We are experiencing SMS delivery delays when sending messages to Multiple Networks in United States for a  subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-02-10 22:56:35"
+      description: We have identified the issue is delays in receiving message delivery reports when sending to Multiple Networks in United States for a subset of short codes. Message delivers are not impacted. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
