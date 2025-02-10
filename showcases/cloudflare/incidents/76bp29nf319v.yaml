@@ -1,0 +1,13 @@
+version: incident/v1
+id: 76bp29nf319v
+name: Cloudflare Billing - Issues with Registrar transactions
+impact: minor
+systems:
+    - ll1x88wwz4fq
+timeline:
+    - ts: "2025-02-10 17:05:24"
+      description: |-
+        Cloudflare is experiencing problems in processing changes through our billing subscription service for Registrar services. All other services are operating normally.
+
+        We will provide an update once billing subscription services return to normal.
+      investigating: true
