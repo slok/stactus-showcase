@@ -1,0 +1,10 @@
+version: incident/v1
+id: ddqhwls6fs3c
+name: Depot builders failing with internal error
+impact: none
+systems:
+    - ffsz24mbcxfz
+timeline:
+    - ts: "2025-02-10 23:21:55"
+      description: "We are investigating failures when trying to build using the default Depot builders. \n\nThe recommended workaround is to use `--depot=false` with `fly deploy`.\n\nThe error from Depot builders is `Error: failed to fetch an image or build from source: error building: input:3: ensureDepotRemoteBuilder {\"code\"=>\"internal\", \"message\"=>\"internal error\"}`"
+      investigating: true
