@@ -10,3 +10,8 @@ timeline:
     - ts: "2025-02-10 21:47:33"
       description: As a workaround, run the `fly ssh console` command with `--pty --command /bin/sh` flags.
       investigating: true
+    - ts: "2025-02-10 21:59:56"
+      description: |-
+        This issue has been fixed, newly created machines will have working SSH.
+
+        Machines created during this incident will need to be updated (`fly machine update --yes <id>`) or deleted/recreated to fix SSH.
