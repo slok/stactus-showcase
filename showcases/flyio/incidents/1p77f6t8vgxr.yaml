@@ -1,0 +1,12 @@
+version: incident/v1
+id: 1p77f6t8vgxr
+name: SSH failing for newly created machines
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-02-10 21:39:21"
+      description: We are investigating reports that connecting to newly created machines via SSH (`fly ssh console`) may fail.
+      investigating: true
+    - ts: "2025-02-10 21:47:33"
+      description: As a workaround, run the `fly ssh console` command with `--pty --command /bin/sh` flags.
+      investigating: true
