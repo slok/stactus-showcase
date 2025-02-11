@@ -8,3 +8,10 @@ timeline:
     - ts: "2025-02-10 23:21:55"
       description: "We are investigating failures when trying to build using the default Depot builders. \n\nThe recommended workaround is to use `--depot=false` with `fly deploy`.\n\nThe error from Depot builders is `Error: failed to fetch an image or build from source: error building: input:3: ensureDepotRemoteBuilder {\"code\"=>\"internal\", \"message\"=>\"internal error\"}`"
       investigating: true
+    - ts: "2025-02-10 23:52:00"
+      description: |-
+        The Depot service is currently degraded due to a database outage. We're continuing to monitor for recovery. Customers can also follow the Depot status page at https://status.depot.dev/ for updates.
+
+        Customers that need to deploy can use legacy Fly.io hosted builders with `fly deploy --depot=false`
+    - ts: "2025-02-11 00:10:40"
+      description: A fix has been implemented on Depot side. https://status.depot.dev/cm6zolsn40009f2dj5ss7lrd7
