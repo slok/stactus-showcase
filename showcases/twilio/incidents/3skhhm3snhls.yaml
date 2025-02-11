@@ -1,0 +1,17 @@
+version: incident/v1
+id: 3skhhm3snhls
+name: Intermittent 500 Errors with A2P 10DLC in UsAppToPersonUsecase Resource
+impact: minor
+systems:
+    - 6cn0g627h62p
+timeline:
+    - ts: "2025-02-11 19:43:30"
+      description: |-
+        We are having problems with the A2P 10DLC - UsAppToPersonUsecase Resource, which prevents retrieving the list of A2P 10DLC Use Cases. Customers registering for A2P 10DLC will encounter errors with this endpoint. We’re actively working on a fix
+        We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
+    - ts: "2025-02-11 19:48:34"
+      description: |-
+        We are having problems with the A2P 10DLC - UsAppToPersonUsecase Resource, which prevents retrieving the list of A2P 10DLC Use Cases. Customers registering for A2P 10DLC with this endpoint will experience failures. We’re actively working on a fix
+        We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
