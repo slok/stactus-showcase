@@ -1,0 +1,15 @@
+version: incident/v1
+id: k07cn9nrghzn
+name: Spaces and App Platform Deployments in BLR1 region
+impact: minor
+systems:
+    - 1c2vrfy9qbvv
+    - ggjq7y0mqt4y
+    - b44h3yhj3jy5
+timeline:
+    - ts: "2025-02-11 09:07:40"
+      description: |-
+        As of 08:32 UTC, our Engineering team is investigating an issue affecting the creation of Spaces Buckets in BLR1. During this period, users may also have experienced errors in DigitalOcean Container Registry creations and App Platform application creations and deployments.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
