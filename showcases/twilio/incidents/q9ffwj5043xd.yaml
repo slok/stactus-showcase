@@ -1,10 +1,13 @@
 version: incident/v1
 id: q9ffwj5043xd
-name: On Call Engineers are Investigating
-impact: none
+name: Voice Insights Call Summaries Missing Branded Calling Related Fields
+impact: minor
 systems:
     - yf5px6tdl6yt
 timeline:
     - ts: "2025-02-11 07:59:25"
       description: We've become aware of a potential issue with Voice Insights. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-02-11 08:41:13"
+      description: Voice Insights call summaries for Branded Calling calls that ended after 10:39pm PST are missing Branded Calling-related fields. Our engineers are investigating the issue. We will provide you with an update in the next 1 hour or as soon as more information becomes available.
       investigating: true
