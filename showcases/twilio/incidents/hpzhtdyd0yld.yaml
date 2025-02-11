@@ -1,0 +1,9 @@
+version: incident/v1
+id: hpzhtdyd0yld
+name: On Call Engineers are Investigating an issue affecting user and chat services in one of our support centers
+impact: none
+systems: []
+timeline:
+    - ts: "2025-02-11 21:53:44"
+      description: Our monitoring systems have detected an issue affecting user and chat services in one of our support centers, resulting in elevated 5xx errors. Our engineering team has been alerted and is actively investigating. We will provide updates as soon as more information becomes available.
+      investigating: true
