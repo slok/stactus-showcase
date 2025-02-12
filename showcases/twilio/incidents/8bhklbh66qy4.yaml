@@ -1,10 +1,13 @@
 version: incident/v1
 id: 8bhklbh66qy4
-name: On Call Engineers are Investigating an issue with A2P and line provisioning
-impact: none
+name: A2P 10DLC Line Provisioning is Degraded
+impact: minor
 systems:
     - qj606bzkg4s8
 timeline:
     - ts: "2025-02-12 20:12:22"
       description: Our monitoring systems have detected a potential issue with A2P and line provisioning. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-02-12 20:29:10"
+      description: We are investigating an issue affecting A2P 10DLC line provisioning. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
