@@ -1,0 +1,10 @@
+version: incident/v1
+id: cnmzxptysccc
+name: SMS Delivery Delay and Failures to ENTEL PCS Network in Bolivia
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-02-12 13:04:53"
+      description: We are experiencing SMS delivery delays and failures when sending messages to ENTEL PCS Network in Bolivia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
