@@ -24,5 +24,5 @@ timeline:
       description: The incident has been resolved, but please note affected pull requests will self repair when any commits are pushed to the pull requests' base branch or head branch. If you encounter problems with a rebase and merge, either click the "update branch" button or push a commit to the PR's branch.
       investigating: true
     - ts: "2025-01-16 09:40:06"
-      description: This incident has been resolved.
+      description: On January 16, 2025, between 00:45 UTC and 09:40 UTC the Pull Requests service was degraded and failed to generate rebase merge commits. This was due to a configuration change that introduced disagreements between replicas. These disagreements caused a secondary job to run, triggering timeouts while computing rebase merge commits. <br /><br />We mitigated the incident by rolling back the configuration change.<br /><br />We are working on improving our monitoring and deployment practices to reduce our time to detection and mitigation of issues like this one in the future.
       resolved: true
