@@ -1,0 +1,16 @@
+version: incident/v1
+id: 6g38m7fyc324
+name: Claude Sonnet unavailable in GitHub Copilot
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2025-02-12 21:51:42"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-02-12 21:52:45"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-02-12 21:59:21"
+      description: Claude Sonnet is currently not working in GitHub Copilot. Please switch to an alternate model while we're working on resolving the issue.
+      investigating: true
