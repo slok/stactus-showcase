@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-02-12 19:47:25"
       description: There is an issue with an upstream network provider in JNB. Apps are still running but may observe network issues. New deploys for apps may fail.
       investigating: true
+    - ts: "2025-02-12 20:07:24"
+      description: We have implemented a workaround for the network issue and are monitoring the situation.
