@@ -1,10 +1,12 @@
 version: incident/v1
 id: gc6gz4npkthm
 name: HTTP Errors in Jakarta
-impact: minor
+impact: major
 systems:
     - gdywyg76bgy3
 timeline:
     - ts: "2025-02-12 00:48:49"
       description: We are investigating an increased rate of HTTP 5xx error responses originating from our Jakarta (CGK) facility.
       investigating: true
+    - ts: "2025-02-12 01:09:02"
+      description: A fix has been implemented and we are monitoring the results.
