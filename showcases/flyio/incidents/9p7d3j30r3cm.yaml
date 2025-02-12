@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9p7d3j30r3cm
+name: Network issues in JNB
+impact: minor
+systems:
+    - r8cxv07rm0h4
+timeline:
+    - ts: "2025-02-12 19:47:25"
+      description: There is an issue with an upstream network provider in JNB. Apps are still running but may observe network issues. New deploys for apps may fail.
+      investigating: true
