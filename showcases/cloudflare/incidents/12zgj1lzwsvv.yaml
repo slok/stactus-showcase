@@ -1,0 +1,10 @@
+version: incident/v1
+id: 12zgj1lzwsvv
+name: 1.1.1.1 (resolver) is degraded in LHR
+impact: minor
+systems:
+    - 8w536gxk7dvq
+timeline:
+    - ts: "2025-02-13 02:52:05"
+      description: Cloudflare is aware of, and investigating, an issue which potentially impacts users in London using public resolver . Further details will be provided as more information becomes available.
+      investigating: true
