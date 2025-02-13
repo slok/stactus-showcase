@@ -1,0 +1,12 @@
+version: incident/v1
+id: wpflwft5dd2v
+name: Pages 1104/403 errors
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2025-02-13 20:25:28"
+      description: Cloudflare is investigating reports of Cloudflare Pages returning 403 1104 CNAME Cross-User Banned errors. We are working to mitigate the problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-02-13 20:31:10"
+      description: The issue has been identified and a fix is being implemented.

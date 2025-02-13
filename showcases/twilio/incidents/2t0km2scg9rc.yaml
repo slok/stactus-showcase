@@ -1,14 +1,19 @@
 version: incident/v1
 id: 2t0km2scg9rc
-name: SMS and MMS Delivery Delays to AT&T Network in United States
+name: SMS and MMS Delivery Delays to AT&T Network in United States for a Subset of Short Codes and Toll Free Numbers
 impact: minor
 systems:
     - 7d8w22hqrh6s
     - 8vdlvw3dsq8h
+    - k7rg1rqk2nwk
+    - 5cv0b6y86d2f
 timeline:
     - ts: "2025-02-13 20:09:48"
       description: Our monitoring systems have detected a potential issue of SMS and MMS Delivery Delays To AT&T Network in United States. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2025-02-13 20:16:21"
-      description: We are experiencing MMS/SMS delivery delays when sending messages to AT&T Network in United States from a subset of toll-free phone numbers and short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      description: We are experiencing MMS/SMS delivery delays when sending messages to AT&T Network in United States for a subset of short codes and toll-free phone numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-02-13 20:25:23"
+      description: We are continuing to investigate this issue.
       investigating: true
