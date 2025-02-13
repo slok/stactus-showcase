@@ -1,8 +1,9 @@
 version: incident/v1
 id: 12zgj1lzwsvv
-name: 1.1.1.1 (resolver) is degraded in LHR
+name: 1.1.1.1 (resolver) and Cache Reserve is degraded in LHR
 impact: minor
 systems:
+    - 3q1jnbdbn845
     - 8w536gxk7dvq
 timeline:
     - ts: "2025-02-13 02:52:05"
@@ -10,3 +11,5 @@ timeline:
       investigating: true
     - ts: "2025-02-13 03:18:10"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-02-13 04:23:54"
+      description: Additionally, Cache Reserve operations were failing which may have resulted in increased cache misses for customers using LHR as an upper tier. Standard CDN is unaffected. We will continue to monitor the impact and update.
