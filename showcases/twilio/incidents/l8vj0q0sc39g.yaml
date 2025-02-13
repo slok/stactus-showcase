@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-02-12 23:39:08"
       description: Our monitoring systems have detected a potential issue with Trust Hub URL's Redirecting to A2P Overview in Twilio Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-02-12 23:56:34"
+      description: We have fully investigated the issue affecting the links for the Trust Hub in the Twilio Console, triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
