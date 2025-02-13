@@ -1,0 +1,11 @@
+version: incident/v1
+id: 8tclbccy2bxg
+name: D1 API failures
+impact: minor
+systems:
+    - z0yd3sxqjqdm
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-02-13 17:53:31"
+      description: Cloudflare is investigating an issue with the D1 API, this may be impacting the dashboard and Worker uploads with D1 bindings.
+      investigating: true
