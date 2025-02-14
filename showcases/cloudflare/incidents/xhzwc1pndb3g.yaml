@@ -1,0 +1,16 @@
+version: incident/v1
+id: xhzwc1pndb3g
+name: Network Performance Issues in Portland
+impact: minor
+systems:
+    - 9b9tyrd9x3xr
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-02-14 12:17:47"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in Portland.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-02-14 12:23:58"
+      description: A fix has been implemented and we are monitoring the results.
