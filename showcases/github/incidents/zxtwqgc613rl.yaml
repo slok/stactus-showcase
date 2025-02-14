@@ -2,8 +2,15 @@ version: incident/v1
 id: zxtwqgc613rl
 name: Disruption with some GitHub services
 impact: minor
-systems: []
+systems:
+    - h2ftsgbw7kmk
 timeline:
     - ts: "2025-02-14 20:06:05"
       description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-02-14 20:12:10"
+      description: Some GitHub codespace users are experiencing intermittent connection failures. A deployment is underway to mitigate the problem, and US-based customers should see recovery soon. Full recovery is expected to take several hours. In the meantime, we advise customers experiencing issues to retry their connection attempts.
+      investigating: true
+    - ts: "2025-02-14 20:22:18"
+      description: Codespaces is experiencing degraded performance. We are continuing to investigate.
       investigating: true
