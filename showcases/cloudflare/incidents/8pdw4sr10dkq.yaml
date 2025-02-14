@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8pdw4sr10dkq
+name: CASB Google Workspace Findings Lag
+impact: minor
+systems:
+    - h2p0jj4ltvcq
+timeline:
+    - ts: "2025-02-14 18:11:41"
+      description: CASB team is currently investigating a perceived issue wherein CASB is lagging behind on detecting findings for Google Workspace integrations. Team is actively investigating the root cause.
+      investigating: true
