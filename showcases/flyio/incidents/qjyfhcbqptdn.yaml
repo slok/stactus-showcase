@@ -1,0 +1,11 @@
+version: incident/v1
+id: qjyfhcbqptdn
+name: Edge network issues in GRU and SCL
+impact: minor
+systems:
+    - 5cmbhyzyb3lr
+    - gdnn4nszzcn8
+timeline:
+    - ts: "2025-02-14 15:59:42"
+      description: We are seeing network issues on our edge servers in regions GRU and SCL. Machines are running correctly, but inbound requests from clients in those regions may fail intermittently..
+      investigating: true
