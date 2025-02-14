@@ -1,0 +1,12 @@
+version: incident/v1
+id: 83trsz42zwxt
+name: Synthetic monitoring - Stockholm probe - elevated latency and error rates
+impact: none
+systems: []
+timeline:
+    - ts: "2025-02-14 17:24:34"
+      description: |-
+        From February 13th 23:30 UTC to February 14th 00:30 UTC,  we saw higher latency and error rates in our Stockholm probe.  This was related to a network connectivity within AWS in the EU-NORTH-1 region.  The issue is resolved and the probe is operating normally.
+
+        See the <a href="https://health.aws.amazon.com/health/status?eventID=arn:aws:health:eu-north-1::event/MULTIPLE_SERVICES/AWS_MULTIPLE_SERVICES_OPERATIONAL_ISSUE/AWS_MULTIPLE_SERVICES_OPERATIONAL_ISSUE_6337A_0CF62E5431F">AWS service health page</a> for more information.
+      resolved: true
