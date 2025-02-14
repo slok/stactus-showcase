@@ -1,0 +1,13 @@
+version: incident/v1
+id: n3g4v0kypc7p
+name: Cloud Metrics - Degraded Writes
+impact: minor
+systems:
+    - xsn3y4zb9fdb
+timeline:
+    - ts: "2025-02-14 00:30:44"
+      description: |-
+        As of 23:10 UTC, our engineering team became aware of an issue with metrics writing in mimir-prod-39, including its Graphite and Influx proxy. We believe this is due to upstream issues with the cloud provider. Users in this region may experience intermittent write degradation for metrics.
+
+        Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
+      investigating: true
