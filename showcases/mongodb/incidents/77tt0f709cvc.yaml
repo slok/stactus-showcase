@@ -1,6 +1,6 @@
 version: incident/v1
 id: 77tt0f709cvc
-name: Submitted cluster modifications experiencing delays
+name: Submitted cluster modifications experiencing delays and AWS Stockholm experiencing issues
 impact: minor
 systems:
     - 98lbmdz85yp0
@@ -11,3 +11,15 @@ timeline:
     - ts: "2025-02-14 00:17:57"
       description: We are seeing increased errors from AWS Stockholm.  Please refer to https://health.aws.amazon.com/health/status for more information
       investigating: true
+    - ts: "2025-02-14 00:49:40"
+      description: We're continuing to investigate the delays to cluster modification.  AWS Stockholm also continues to experience issues and more information on that can be found here https://health.aws.amazon.com/health/status
+      investigating: true
+    - ts: "2025-02-14 00:52:16"
+      description: We have identified the cause for the delays in cluster modifications.  We are in the process of implementing a fix.
+    - ts: "2025-02-14 00:58:30"
+      description: Cluster modifications are no longer delayed.  We have implemented a fix and are monitoring
+    - ts: "2025-02-14 01:01:01"
+      description: The cluster nodes in AWS Stockholm seem to be recovering.  We are continuing to monitor that situation as well.
+    - ts: "2025-02-14 01:05:21"
+      description: This incident has been resolved.
+      resolved: true
