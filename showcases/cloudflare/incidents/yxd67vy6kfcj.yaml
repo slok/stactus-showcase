@@ -1,0 +1,14 @@
+version: incident/v1
+id: yxd67vy6kfcj
+name: General IPv6 connectivity issues in Amsterdam
+impact: minor
+systems:
+    - 57ctn3f2qsyj
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-02-15 09:14:49"
+      description: |-
+        Cloudflare is investigating issues with IPv6 connectivity for services connecting to our data centers in Amsterdam.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
