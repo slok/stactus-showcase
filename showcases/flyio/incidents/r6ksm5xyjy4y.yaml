@@ -18,3 +18,5 @@ timeline:
       description: The IAD region is unavailable due to an incident at an upstream provider. Our API is hosted in this region and as such is unavailable.
     - ts: "2025-02-16 12:15:44"
       description: We're continuing work to move our APIs away from affected regions/providers. Another update will be provided at 13h00 UTC or earlier.
+    - ts: "2025-02-16 12:50:25"
+      description: We're bringing our platform up in another region and waiting for things to settle. Our upstream provider is also replacing the affected networking devices in IAD.
