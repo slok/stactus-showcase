@@ -1,0 +1,14 @@
+version: incident/v1
+id: nhzd9qzv27l8
+name: Disruption with some GitHub services
+impact: minor
+systems:
+    - 8l4ygp009s5s
+    - 4230lsnqdsld
+    - kr09ddfgbfsf
+    - br0l2tvcx85d
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2025-02-16 12:08:31"
+      description: We are investigating reports of degraded performance for Actions, Codespaces, Git Operations, Issues and Webhooks
+      investigating: true
