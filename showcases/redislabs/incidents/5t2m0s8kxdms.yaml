@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5t2m0s8kxdms
+name: Instance failure
+impact: none
+systems: []
+timeline:
+    - ts: "2025-02-16 00:02:41"
+      description: 'We are experiencing an instance failure. This may affect resources that have the following pattern in their endpoint: c170'
+      investigating: true
+    - ts: "2025-02-16 00:07:59"
+      description: This incident has been resolved.
+      resolved: true
