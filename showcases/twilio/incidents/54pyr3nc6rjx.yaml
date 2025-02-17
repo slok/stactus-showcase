@@ -1,0 +1,10 @@
+version: incident/v1
+id: 54pyr3nc6rjx
+name: SMS Delivery Delays To Personal Network in Paraguay
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-02-17 15:14:30"
+      description: We are experiencing SMS delivery delays when sending messages to Personal Network in Paraguay. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
