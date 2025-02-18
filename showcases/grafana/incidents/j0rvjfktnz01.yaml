@@ -29,5 +29,8 @@ timeline:
     - ts: "2025-02-18 09:22:42"
       description: |-
         We are currently experiencing an outage on our instances locate on AWS cloud due to DNS problems.
-        We are actively working to reestablish the service and quantify the whole impact of the issue.
+        We are actively working to reestablish the service and quantify the whole impact of the issue. All our services running on this provider may be potentially affected.
+      investigating: true
+    - ts: "2025-02-18 09:33:19"
+      description: We are continuing to investigate this issue.
       investigating: true
