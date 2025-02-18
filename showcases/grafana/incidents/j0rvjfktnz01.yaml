@@ -270,3 +270,8 @@ timeline:
         Prometheus services are almost fully operational (monitoring recovery on us-east-0)
     - ts: "2025-02-18 12:23:04"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2025-02-18 12:40:54"
+      description: |-
+        Update in affected components: Synthetics Monitoring components back to operational, services depending on Prometheus Metrics on us-east-0 still under examination.
+
+        We are continuing to monitor all the services across AWS clusters. Beware that some services may still have degraded performance until fully infrastructure stabilization.
