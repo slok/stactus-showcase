@@ -1,0 +1,10 @@
+version: incident/v1
+id: cbwnqmjwjnt6
+name: OTEL Gateways Failing
+impact: critical
+systems:
+    - 43jd9wwclvwy
+timeline:
+    - ts: "2025-02-18 15:27:20"
+      description: Since ~11:30 UTC our team has been investigating an issue that is impacting the OTEL gateways in the AWS us-east-0 region. We will provide more updates as they become available.
+      investigating: true
