@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-02-18 22:26:29"
       description: We are investigating an issue where new cron schedules created via Wrangler, Dash, or API since 2025-02-18 20:42 UTC have not run as expected. We are also investigating if this has impacted any currently active schedules.
       investigating: true
+    - ts: "2025-02-18 22:39:17"
+      description: We have identified the cause of this issue and have implemented a fix. We are currently monitoring the results.
