@@ -21,5 +21,5 @@ timeline:
       description: This issue has been mitigated.  We will continue to investigate root causes to ensure this does not reoccur.
       investigating: true
     - ts: "2025-02-06 11:13:43"
-      description: This incident has been resolved.
+      description: On February 6, 2025, between 8:40AM UTC and 11:13AM UTC the GitHub REST API was degraded following the rollout of a new feature. The feature resulted in an increase in requests that saturated a cache and led to cascading failures in unrelated services. The error rate peaked at 100% of requests to the service.<br /><br />The incident was mitigated by increasing the allocated memory to the cache and rolling back the feature that led to the cache saturation. To prevent future incidents, we are working to reduce the time to detect a similar issue and optimize the overall calls to the cache.<br />
       resolved: true
