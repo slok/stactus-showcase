@@ -258,3 +258,5 @@ timeline:
     - ts: "2025-02-18 11:24:40"
       description: 'Update in affected components: OTLP Endpoint and Graphite proxy for querying and ingesting are fully operational.'
       investigating: true
+    - ts: "2025-02-18 11:53:11"
+      description: 'We have identified the issue, and we are bringing back to operational state most of the services including: Loki services, Pyroscope services, and AI/ML Services. We are monitoring these services.'
