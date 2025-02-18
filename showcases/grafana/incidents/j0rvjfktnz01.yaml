@@ -279,3 +279,6 @@ timeline:
       description: 'Update in affected components:  Prometheus Metrics on us-east-0 and services depending on this are back to operational.'
     - ts: "2025-02-18 13:20:11"
       description: "Our engineering teams have applied fixes to tackle the issues, and all services on the AWS clusters should be operational. \n\nWe will continue monitoring them."
+    - ts: "2025-02-18 14:06:52"
+      description: This incident has been resolved.
+      resolved: true
