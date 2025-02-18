@@ -1,0 +1,33 @@
+version: incident/v1
+id: j0rvjfktnz01
+name: Outage due to DNS problems on AWS
+impact: critical
+systems:
+    - 3m9g8wn04c52
+    - wfc1hb7m917l
+    - rzvpnnhx298v
+    - 9zgd4n4s874v
+    - zvfc1jlr92kg
+    - 1xflhb2c2pp7
+    - 6wgslg1s3bzr
+    - 0pr42n719w3x
+    - wdcnfc3drb8s
+    - 7jk21pggy0fn
+    - 2vj35rbpdr7s
+    - j93h3yz7z19n
+    - 13y4pn7qg807
+    - nrv6vyr5l7m8
+    - y8p2jm7hpwy0
+    - r4sj7svl4y7w
+    - xt9yyht68cbw
+    - tv6d4zqb6nz7
+    - hbqgpzmf8h9k
+    - ss3pbvgtm7fk
+    - t0592d5sxhgh
+    - 8wq97lhx59x7
+timeline:
+    - ts: "2025-02-18 09:22:42"
+      description: |-
+        We are currently experiencing an outage on our instances locate on AWS cloud due to DNS problems.
+        We are actively working to reestablish the service and quantify the whole impact of the issue.
+      investigating: true
