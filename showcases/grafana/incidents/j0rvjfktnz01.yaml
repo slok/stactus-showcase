@@ -277,3 +277,5 @@ timeline:
         We are continuing to monitor all the services across AWS clusters. Beware that some services may still have degraded performance until fully infrastructure stabilization.
     - ts: "2025-02-18 13:06:59"
       description: 'Update in affected components:  Prometheus Metrics on us-east-0 and services depending on this are back to operational.'
+    - ts: "2025-02-18 13:20:11"
+      description: "Our engineering teams have applied fixes to tackle the issues, and all services on the AWS clusters should be operational. \n\nWe will continue monitoring them."
