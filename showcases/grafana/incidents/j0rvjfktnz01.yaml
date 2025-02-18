@@ -187,7 +187,6 @@ systems:
     - z8vdj0jttj7s
     - ffzvv723s0q8
     - sn6tkms0qjs1
-    - 5270kl9kd6l2
     - 46jslxh7dbr1
     - nps7z0srxs25
     - lby6cltd7c4s
@@ -260,3 +259,14 @@ timeline:
       investigating: true
     - ts: "2025-02-18 11:53:11"
       description: 'We have identified the issue, and we are bringing back to operational state most of the services including: Loki services, Pyroscope services, and AI/ML Services. We are monitoring these services.'
+    - ts: "2025-02-18 12:11:51"
+      description: |-
+        Update in affected components: Tempo services and asserts services have been restored, alerting services have been partially restored.
+
+        Currently monitoring all operative services.
+    - ts: "2025-02-18 12:21:53"
+      description: |-
+        Update in affected components: IRM components partially recovered, Oncall services are fully operational, Incident services recovering.
+        Prometheus services are almost fully operational (monitoring recovery on us-east-0)
+    - ts: "2025-02-18 12:23:04"
+      description: We are continuing to work on a fix for this issue.
