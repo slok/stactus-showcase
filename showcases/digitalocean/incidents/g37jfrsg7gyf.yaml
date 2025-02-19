@@ -1,0 +1,13 @@
+version: incident/v1
+id: g37jfrsg7gyf
+name: Monitoring Alerts with tags
+impact: minor
+systems:
+    - yht2qc1zfp6x
+timeline:
+    - ts: "2025-02-19 20:36:29"
+      description: |-
+        Our Engineering team is investigating reports that alerts are not received when alerts are configured with tags. Users may not receive email notification of alerts when using tags, although resources specified by name are still monitored and receiving alerts properly.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
