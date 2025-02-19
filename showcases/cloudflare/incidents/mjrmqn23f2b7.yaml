@@ -1,0 +1,15 @@
+version: incident/v1
+id: mjrmqn23f2b7
+name: Issues with Snippets Dashboard
+impact: minor
+systems:
+    - 570kfpd0dgg7
+timeline:
+    - ts: "2025-02-19 19:51:16"
+      description: |-
+        We are currently investigating an issue affecting some Self-Serve zones, where the Snippets dashboard UI may not render correctly. Snippets API and deployed snippets remain fully operational and are not impacted.
+
+        We will provide further updates as we identify the root cause and implement a resolution.
+      investigating: true
+    - ts: "2025-02-19 20:05:29"
+      description: The cause of this issue has been identified and a fix is being implemented.
