@@ -1,10 +1,14 @@
 version: incident/v1
 id: zj7gnqhyl16n
-name: On Call Engineers are Investigating an issue with 5XX responses with Flex Notification Platform
+name: Flex and Task Router Workers Experiencing Issues Handling Tasks
 impact: none
 systems:
     - q4d7rj555ljl
+    - b9z92qjr2p04
 timeline:
     - ts: "2025-02-19 20:35:50"
       description: Our monitoring systems have detected a potential issue with Flex Notification Platform. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-02-19 21:27:17"
+      description: On February 19th, from approximately 9:00 AM to 9:10 AM and 12:00 PM to 12:26 PM PST, we experienced issues with Flex and Task Router. Customers may have noticed increased latency as well as Agents having issues accepting or interacting with Tasks and Invites. This issue has been mitigated.
+      resolved: true
