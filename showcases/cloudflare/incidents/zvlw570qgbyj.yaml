@@ -1,0 +1,9 @@
+version: incident/v1
+id: zvlw570qgbyj
+name: Issues with Cloudflare Dashboard for Mobile Users
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-02-19 19:01:16"
+      description: We have identified an issue where a subset of users are not able to interact with the Cloudflare Dashboard on mobile devices. We are working on a fix for this issue.
