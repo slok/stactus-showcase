@@ -14,3 +14,5 @@ timeline:
     - ts: "2025-02-14 07:07:46"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-02-19 09:55:08"
+      description: "We have determined that the connectivity issue is due to a DNS name resolution problem affecting certain ISPs in Brazil, which are unable to resolve *.statuspage.io domains. This issue does not impact all Brazilian customers and subscribers; it varies depending on the customer's or subscriber's ISP. Customers using custom domains for their status pages are not affected. While your Statuspage remains available, ISP configurations are preventing traffic from resolving the Statuspage domain. \n\nWe are exploring mitigation strategies, but we advise affected customers to contact their ISP to understand why their ISP cannot resolve *.statuspage.io domains."
