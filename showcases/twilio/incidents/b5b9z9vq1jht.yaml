@@ -1,0 +1,10 @@
+version: incident/v1
+id: b5b9z9vq1jht
+name: MMS Delivery Delays and Failures to T-mobile US
+impact: minor
+systems:
+    - d1j2nx64rpq3
+timeline:
+    - ts: "2025-02-19 00:05:53"
+      description: We are experiencing MMS delivery delays and failures to T-mobile US. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
