@@ -1,0 +1,14 @@
+version: incident/v1
+id: y24d4mlclwwn
+name: Logs read and write outage in prod-us-east-0 (including OTLP endpoint)
+impact: major
+systems:
+    - 2lyhl59mn4dl
+    - 43jd9wwclvwy
+timeline:
+    - ts: "2025-02-19 21:56:57"
+      description: We have identified an issue with log reads and writes in prod-us-east-0 logs-prod-006 including the OTLP endpoint and are working on investigating the issue.
+      investigating: true
+    - ts: "2025-02-19 21:58:55"
+      description: We are continuing to investigate this issue.
+      investigating: true
