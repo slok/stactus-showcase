@@ -1,0 +1,75 @@
+version: incident/v1
+id: ll87gtgy0jwl
+name: Degraded query performance as a result of elevated read latency on the trace by id path
+impact: minor
+systems:
+    - dl02wr0yw2p0
+    - xyk75c1r8p0t
+    - d8s5xfdc7djh
+    - 36qk48w0m0zb
+    - dtbllf9ktd0j
+    - 7rxnp4yqgd0v
+    - r373pr6j4m8g
+    - xg70bm8hjp1m
+    - 2hjty7cd5j8l
+    - hp6lb56782c9
+    - bg7pryvvh19l
+    - f9lywhj1rpkl
+    - s6y4n77rfpj2
+    - 6j07ly9d19dc
+    - 47xrygr3ggtc
+    - ffzvv723s0q8
+    - lby6cltd7c4s
+    - jthf8xmkzq55
+    - 22ys7hx3f2xw
+    - cj4g0jqw7q18
+    - ldbq9842dl0v
+    - 2smqz5gmhtq7
+    - z11bv109lgfb
+    - s3zddqym946b
+    - q8160vpq47xz
+    - h6zfv84tzkd3
+    - 81f9yfcnyxsg
+    - ctqprgdj7scn
+    - l502n5x60s2m
+    - vy7fxf1zsfkl
+    - 2ryg39v5zpqj
+    - fqw5kyd5qknh
+    - yhz2gzdqcw4k
+    - zq01gnnnsqsd
+    - cm40jcy1klhh
+    - gcwgxxhzztdh
+    - hrz0zytmsvzw
+    - k4x5wpztwzcq
+    - 3lqbsd6gbn1r
+    - qnthhwhwm4lt
+    - 80zb3lxqcxvk
+    - 2yrrwn80wqf9
+    - b9t8x3b43vyr
+    - wy292mxvxhxv
+    - rzzvpv70t4nj
+    - z2x4pmp3hqq2
+    - jc8jdgzs32sj
+    - d6160xg7kdx3
+    - d8jx77r80mb4
+    - jn3knsdtkxky
+    - 4drvmsz6yhjj
+    - f31l4xz41q8t
+    - 9mzvpj5nz0k1
+    - x1by88b7wf03
+    - kyyy438yhc9h
+    - t9ytx3trjw7h
+    - 76gd22w5ys6c
+    - 9xz0880z67zl
+    - t7pbglh025rz
+    - p1qsknnnbdqn
+timeline:
+    - ts: "2025-02-20 14:07:38"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-02-20 14:08:46"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-02-20 14:11:32"
+      description: We are continuing to investigate this issue.
+      investigating: true
