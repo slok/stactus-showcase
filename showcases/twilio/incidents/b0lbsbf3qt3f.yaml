@@ -1,0 +1,13 @@
+version: incident/v1
+id: b0lbsbf3qt3f
+name: Some Voice Recordings Stuck in Processing
+impact: minor
+systems:
+    - frxynt0ffp5w
+timeline:
+    - ts: "2025-02-20 18:30:40"
+      description: Our monitoring systems have detected a potential issue with some voice recordings for accounts with Marketplace AddOns enabled stuck in processing. . Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-02-20 18:34:33"
+      description: We are observing some voice recordings stuck in processing. We are currently working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
