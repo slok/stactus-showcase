@@ -16,3 +16,7 @@ timeline:
       investigating: true
     - ts: "2025-02-19 09:55:08"
       description: "We have determined that the connectivity issue is due to a DNS name resolution problem affecting certain ISPs in Brazil, which are unable to resolve *.statuspage.io domains. This issue does not impact all Brazilian customers and subscribers; it varies depending on the customer's or subscriber's ISP. Customers using custom domains for their status pages are not affected. While your Statuspage remains available, ISP configurations are preventing traffic from resolving the Statuspage domain. \n\nWe are exploring mitigation strategies, but we advise affected customers to contact their ISP to understand why their ISP cannot resolve *.statuspage.io domains."
+    - ts: "2025-02-20 15:43:10"
+      description: |-
+        Please follow the steps mentioned in the below link to mitigate the DNS issues in Brazil for statuspage.io domains:
+        https://community.atlassian.com/t5/Statuspage-articles/Mitigation-steps-for-statuspage-io-domain-ISP-Issues-in-Brazil/ba-p/2951025#M274
