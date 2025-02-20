@@ -1,0 +1,10 @@
+version: incident/v1
+id: jwj6c8zlq2p9
+name: Krisp noise canceling missing on macOS
+impact: minor
+systems:
+    - ly7bf56hshjc
+timeline:
+    - ts: "2025-02-20 21:16:37"
+      description: We're investigating an issue with the Krisp noise cancelling functionality not being present on macOS clients.
+      investigating: true
