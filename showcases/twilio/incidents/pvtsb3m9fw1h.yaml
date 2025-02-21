@@ -1,9 +1,13 @@
 version: incident/v1
 id: pvtsb3m9fw1h
 name: Call Failures From Subscribers to Portugal Twilio Phone Numbers
-impact: none
-systems: []
+impact: minor
+systems:
+    - bnzggd37p61w
 timeline:
     - ts: "2025-02-21 17:22:25"
       description: We've become aware of a potential issue with Call Failures From Subscribers to Portugal Twilio Phone Numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-02-21 17:37:38"
+      description: We are observing call failures from subscribers to Portugal Twilio Phone Numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hours or as soon as more information becomes available.
       investigating: true
