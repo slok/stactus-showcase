@@ -1,0 +1,14 @@
+version: incident/v1
+id: x07y6vhlvqg2
+name: '[Retroactive] Incident with Migrations service'
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-02-21 20:27:24"
+      description: |-
+        Between Thursday 13th, 2025 19:30 UTC and Friday 14th, 2025 08:02 UTC the Migrations service was experiencing intermittent migration failures for some customers. This was caused by a code change that contained an edge case that erroneously failed some migrations.
+
+        We mitigated the incident by rolling back the code change.
+
+        We are working on improving our monitoring and deployment practices to reduce our time to detection and mitigation of issues like this one in the future.
+      resolved: true
