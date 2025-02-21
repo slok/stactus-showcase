@@ -1,9 +1,13 @@
 version: incident/v1
 id: gd9qdrp3rhdx
 name: SMS Delivery Delays to Claro Network in Brazil
-impact: none
-systems: []
+impact: minor
+systems:
+    - yvvy3vlp4djf
 timeline:
     - ts: "2025-02-21 17:00:02"
       description: We've become aware of a potential issue with Delivery Delays to Claro Network in Brazil. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-02-21 17:06:02"
+      description: We are experiencing SMS delivery delays when sending messages to Claro Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
