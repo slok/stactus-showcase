@@ -1,0 +1,9 @@
+version: incident/v1
+id: h11pkkjh6wc2
+name: Increased HTTP 530 Errors
+impact: none
+systems: []
+timeline:
+    - ts: "2025-02-22 12:09:50"
+      description: Cloudflare is aware of reports of a limited number of customers seeing 530 errors on their custom hostnames. Action has been taken to resolve the problem and we have confirmed that impact has stopped. Investigation as to root cause will continue.
+      resolved: true
