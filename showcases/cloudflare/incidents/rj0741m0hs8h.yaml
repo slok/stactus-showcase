@@ -1,0 +1,11 @@
+version: incident/v1
+id: rj0741m0hs8h
+name: Cloudflare Dashboard service issues - Load Balancer
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2025-02-23 17:13:14"
+      description: "Cloudflare is aware of and investigating an issue where some customers cannot access Load Balancers within the dashboard. \n\nThese issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.\n\nMore updates to follow."
+      investigating: true
