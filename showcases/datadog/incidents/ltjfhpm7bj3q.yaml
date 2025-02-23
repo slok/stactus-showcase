@@ -1,0 +1,12 @@
+version: incident/v1
+id: ltjfhpm7bj3q
+name: Delayed Processing for a Subset of Metrics
+impact: minor
+systems:
+    - qrnng5l7z80l
+timeline:
+    - ts: "2025-02-23 09:30:54"
+      description: |-
+        We are investigating increased latency processing Trace Metrics.
+        As a result of this issue, some users may see delays or gaps for a subset of their metrics on graphs and statistics on Service Catalog.
+      investigating: true
