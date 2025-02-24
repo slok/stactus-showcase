@@ -1,0 +1,10 @@
+version: incident/v1
+id: s3gy35tsrt4d
+name: Analytics and logs availability
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2025-02-24 02:55:57"
+      description: "Cloudflare is investigating issues with writing logs and analytics. \n\nCustomers may experience delayed log and analytics availability in their Dashboard for Healthchecks and Gateway Logs.\n\nLogpush is not affected."
+      investigating: true

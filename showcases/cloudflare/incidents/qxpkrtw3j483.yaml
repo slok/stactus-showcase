@@ -1,0 +1,10 @@
+version: incident/v1
+id: qxpkrtw3j483
+name: Issues enabling Load Balancing Pools via Cloudflare Dashboard
+impact: minor
+systems:
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2025-02-24 02:58:14"
+      description: Cloudflare is aware of and investigating an issue where some customers are unable to enable/disable Load Balancing Pools from some parts of the Dashboard. Users can still update the Pools from within "Manage Pools" on the Load Balancing Dashboard.
+      investigating: true
