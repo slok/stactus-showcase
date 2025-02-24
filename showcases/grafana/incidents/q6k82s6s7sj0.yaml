@@ -34,3 +34,8 @@ timeline:
       investigating: true
     - ts: "2025-02-24 20:01:48"
       description: Engineering has released a fix, and customers should no longer be experiencing this issue. We will continue to monitor for recurrence and provide updates accordingly.
+    - ts: "2025-02-24 22:16:13"
+      description: |-
+        Our Engineering team has identified that this issue is related to: https://status.grafana.com/incidents/b6yc10yk8kv7
+        We'll be marking this incident as resolved and will provide updates for this event as well in the status page mentioned above.
+      resolved: true
