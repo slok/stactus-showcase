@@ -393,21 +393,22 @@ systems:
       name: North America / Montréal, QC, Canada - (YUL)
     - id: 46b99ptn6wdt
       name: Asia / Islamabad, Pakistan - (ISB)
-    - id: h9z388jfrjsm
-      name: Cloudflare Sites and Services / Email Security (Area1)
-      description: Customers with Area1 only product.
+    - id: yph7lndw0dvj
+      name: Cloudflare Sites and Services / Cloudforce One Reports
+      description: 'Details of Cloudflare One can be found in this blogpost: https://blog.cloudflare.com/introducing-cloudforce-one-threat-operations-and-threat-research'
     - id: zq3rs0stgc8p
       name: Africa / Windhoek, Namibia - (WDH)
     - id: 7z1q346n4s38
       name: Europe / Manchester, United Kingdom - (MAN)
     - id: gdywyg76bgy3
       name: Asia / Jakarta, Indonesia - (CGK)
+    - id: qgh1bfr4hxrl
+      name: Cloudflare Sites and Services / Community Site
+      description: Community forums where customers can interact, ask questions and get help at https://community.cloudflare.com
     - id: m755h52vlsrn
       name: Latin America & the Caribbean / Neuquén, Argentina - (NQN)
     - id: vwctw131s16t
       name: North America / Nashville, United States - (BNA)
-    - id: 8jjy5n5bfl9v
-      name: Cloudflare Sites and Services / Email Security (Zero Trust)
     - id: q1xjqdrjh4v0
       name: Africa / Yamoussoukro, Ivory Coast - (ASK)
     - id: grpnztl4pd46
@@ -418,9 +419,9 @@ systems:
       name: Latin America & the Caribbean / Panama City, Panama - (PTY)
     - id: tn97mzj8b3bt
       name: Asia / Jashore, Bangladesh - (JSR)
-    - id: yph7lndw0dvj
-      name: Cloudflare Sites and Services / Cloudforce One Reports
-      description: 'Details of Cloudflare One can be found in this blogpost: https://blog.cloudflare.com/introducing-cloudforce-one-threat-operations-and-threat-research'
+    - id: 4sfd950kf38n
+      name: Cloudflare Sites and Services / Custom Pages
+      description: Custom Error and Challenge Pages
     - id: nxdg2bbkf525
       name: Africa / Abidjan, Ivory Coast - (ABJ)
     - id: k8q1kmz4gfms
@@ -431,9 +432,8 @@ systems:
       name: North America / Norfolk, VA, United States - (ORF)
     - id: 3bkfn92yb194
       name: Latin America & the Caribbean / Paramaribo, Suriname - (PBM)
-    - id: qgh1bfr4hxrl
-      name: Cloudflare Sites and Services / Community Site
-      description: Community forums where customers can interact, ask questions and get help at https://community.cloudflare.com
+    - id: z0yd3sxqjqdm
+      name: Cloudflare Sites and Services / D1
     - id: skqbwdvp70c6
       name: Africa / Kampala, Uganda - (EBB)
     - id: nbxgf9nycs42
@@ -442,19 +442,23 @@ systems:
       name: Latin America & the Caribbean / Porto Alegre, Brazil - (POA)
     - id: 6h060y0sxvv6
       name: Europe / Minsk, Belarus - (MSQ)
-    - id: 4sfd950kf38n
-      name: Cloudflare Sites and Services / Custom Pages
-      description: Custom Error and Challenge Pages
+    - id: 2c93ckmbbpd7
+      name: Cloudflare Sites and Services / Data Localization Suite
+      description: The Data Localization Suite (DLS) is a collection of tools that enable customers to choose the location where Cloudflare inspects and stores data, while maintaining the security and performance benefits of our global network.
     - id: 03jl43mg92tk
       name: Europe / Moscow, Russia - (DME)
     - id: qymxbydgwhcn
       name: Asia / Johor Bahru, Malaysia - (JHB)
     - id: mlld56zj6hdt
       name: North America / Ottawa, Canada - (YOW)
-    - id: z0yd3sxqjqdm
-      name: Cloudflare Sites and Services / D1
+    - id: rppy995xymxv
+      name: Cloudflare Sites and Services / Data Loss Prevention (DLP)
+      description: Cloudflare Data Loss Prevention (DLP)
     - id: qsps56n4xtjt
       name: Africa / Saint-Denis, Réunion - (RUN)
+    - id: 3sq3s4d20ywk
+      name: Cloudflare Sites and Services / Dashboard
+      description: Dashboard where customers can view and make changes to their configurations at https://dash.cloudflare.com
     - id: r66zh17lxd91
       name: Latin America & the Caribbean / Quito, Ecuador - (UIO)
     - id: 3b01hkgtq0rs
@@ -463,25 +467,19 @@ systems:
       name: North America / Philadelphia, United States - (PHL)
     - id: k69cfw8f0nwj
       name: Asia / Kanpur, India - (KNU)
-    - id: 2c93ckmbbpd7
-      name: Cloudflare Sites and Services / Data Localization Suite
-      description: The Data Localization Suite (DLS) is a collection of tools that enable customers to choose the location where Cloudflare inspects and stores data, while maintaining the security and performance benefits of our global network.
     - id: zqlfzq5bzwdq
       name: Africa / Dar es Salaam, Tanzania - (DAR)
     - id: n05d51gmgf0f
       name: North America / Phoenix, AZ, United States - (PHX)
+    - id: rzcwwk4rgb0w
+      name: Cloudflare Sites and Services / Developer's Site
+      description: Public-facing developer documentation website at https://developers.cloudflare.com
     - id: 4fx4674ygqvr
       name: Europe / Nicosia, Cyprus - (LCA)
     - id: byh0gc9t4g6m
       name: Asia / Kaohsiung City, Taiwan - (KHH)
     - id: gqhgn4jwr94s
       name: Latin America & the Caribbean / Recife, Brazil - (REC)
-    - id: rppy995xymxv
-      name: Cloudflare Sites and Services / Data Loss Prevention (DLP)
-      description: Cloudflare Data Loss Prevention (DLP)
-    - id: 3sq3s4d20ywk
-      name: Cloudflare Sites and Services / Dashboard
-      description: Dashboard where customers can view and make changes to their configurations at https://dash.cloudflare.com
     - id: fgfkmhddbpcm
       name: Europe / Oslo, Norway - (OSL)
     - id: fjfvdrs8h5sl
@@ -490,35 +488,37 @@ systems:
       name: Asia / Karachi, Pakistan - (KHI)
     - id: jdn42y3nlhjm
       name: Latin America & the Caribbean / Ribeirao Preto, Brazil - (RAO)
+    - id: nmp96vgn1hpl
+      name: Cloudflare Sites and Services / Digital Experience Monitoring (DEX)
+      description: Digital Experience Monitoring (DEX) enables Zero Trust administrators to pinpoint and resolve issues impacting end-user connectivity and performance.
     - id: 7rvrsd9g0f1v
       name: Latin America & the Caribbean / Rio de Janeiro, Brazil - (GIG)
     - id: 9b9tyrd9x3xr
       name: North America / Portland, OR, United States - (PDX)
     - id: gw1cztbpft9b
       name: Asia / Kathmandu, Nepal - (KTM)
-    - id: rzcwwk4rgb0w
-      name: Cloudflare Sites and Services / Developer's Site
-      description: Public-facing developer documentation website at https://developers.cloudflare.com
     - id: q68nlq1486z7
       name: Europe / Palermo, Italy - (PMO)
+    - id: 5scwd3vmnsyj
+      name: Cloudflare Sites and Services / Distributed Web Gateway
+      description: 'Cloudflare’s Web3 gateways provide HTTP-accessible interfaces to Web3 networks: https://developers.cloudflare.com/distributed-web/'
     - id: w1br383gmlwj
       name: Europe / Paris, France - (CDG)
     - id: 0n209sgnr1dp
       name: North America / Queretaro, MX, Mexico - (QRO)
-    - id: nmp96vgn1hpl
-      name: Cloudflare Sites and Services / Digital Experience Monitoring (DEX)
-      description: Digital Experience Monitoring (DEX) enables Zero Trust administrators to pinpoint and resolve issues impacting end-user connectivity and performance.
+    - id: ts05t1p1j7r4
+      name: Cloudflare Sites and Services / DNS Firewall
+      description: DNS Firewall proxies all DNS queries to your nameservers through Cloudflare’s global network.
     - id: b03djnkqfg8f
       name: Europe / Prague, Czech Republic - (PRG)
     - id: cgpftq0mp2h5
       name: North America / Richmond, VA, United States - (RIC)
     - id: mslkxsqftrnn
       name: Asia / Kolkata, India - (CCU)
+    - id: 4l9qztbt6rbj
+      name: Cloudflare Sites and Services / DNS Root Servers
     - id: lwmhcftlr9vx
       name: Latin America & the Caribbean / San José, Costa Rica - (SJO)
-    - id: 5scwd3vmnsyj
-      name: Cloudflare Sites and Services / Distributed Web Gateway
-      description: 'Cloudflare’s Web3 gateways provide HTTP-accessible interfaces to Web3 networks: https://developers.cloudflare.com/distributed-web/'
     - id: k7w4yqm06vz3
       name: Africa / Djibouti, Djibouti - (JIB)
     - id: wg0b1zzm2f2w
@@ -527,32 +527,33 @@ systems:
       name: Europe / Reykjavík, Iceland - (KEF)
     - id: 2k1qvzk3763q
       name: North America / Sacramento, CA, United States - (SMF)
+    - id: 7j656z7tqk7f
+      name: Cloudflare Sites and Services / DNS Updates
+      description: DNS update service pushing customer DNS changes out to all data centers
     - id: v4yshrzwkvyd
       name: Asia / Krasnoyarsk, Russia - (KJA)
-    - id: ts05t1p1j7r4
-      name: Cloudflare Sites and Services / DNS Firewall
-      description: DNS Firewall proxies all DNS queries to your nameservers through Cloudflare’s global network.
     - id: hr78s04g1r5b
       name: Asia / Kuala Lumpur, Malaysia - (KUL)
     - id: 3cg9wbk5hzg4
       name: North America / Salt Lake City, UT, United States - (SLC)
     - id: 17x9hc6l3qzd
       name: Europe / Riga, Latvia - (RIX)
-    - id: 4l9qztbt6rbj
-      name: Cloudflare Sites and Services / DNS Root Servers
     - id: 5jlj98tc49b6
       name: Latin America & the Caribbean / Santo Domingo, Dominican Republic - (SDQ)
+    - id: bty1yz6dhh0v
+      name: Cloudflare Sites and Services / Durable Objects
+      description: Durable Objects provide low-latency coordination and consistent permanent storage for the Workers platform.
     - id: 5qr2frjysrbk
       name: Europe / Rome, Italy - (FCO)
     - id: pxfjpfczss60
       name: North America / San Diego, CA, United States - (SAN)
-    - id: 7j656z7tqk7f
-      name: Cloudflare Sites and Services / DNS Updates
-      description: DNS update service pushing customer DNS changes out to all data centers
     - id: d2yzjq2bnj2w
       name: Asia / Lahore, Pakistan - (LHE)
     - id: 3hdcvfzv4qbc
       name: Latin America & the Caribbean / São José do Rio Preto, Brazil - (SJP)
+    - id: gjb0yzvvrpf6
+      name: Cloudflare Sites and Services / Email Routing
+      description: Email Routing service allowing for forwarding of email traffic
     - id: 4xvd68d7k70c
       name: North America / San Jose, CA, United States - (SJC)
     - id: ks6zgqry9c1p
@@ -561,9 +562,9 @@ systems:
       name: Asia / Langfang, China - (PKX)
     - id: my0mk23lnk01
       name: Latin America & the Caribbean / São José dos Campos, Brazil - (SJK)
-    - id: bty1yz6dhh0v
-      name: Cloudflare Sites and Services / Durable Objects
-      description: Durable Objects provide low-latency coordination and consistent permanent storage for the Workers platform.
+    - id: h9z388jfrjsm
+      name: Cloudflare Sites and Services / Email Security (Area1)
+      description: Customers with Area1 only product.
     - id: 73mbn78m0yzm
       name: Latin America & the Caribbean / São Paulo, Brazil - (GRU)
     - id: 7m2yh22kzgbw
@@ -572,9 +573,8 @@ systems:
       name: North America / Saskatoon, SK, Canada - (YXE)
     - id: nzdbl4httccl
       name: Asia / Lanzhou, China - (LHW)
-    - id: gjb0yzvvrpf6
-      name: Cloudflare Sites and Services / Email Routing
-      description: Email Routing service allowing for forwarding of email traffic
+    - id: 8jjy5n5bfl9v
+      name: Cloudflare Sites and Services / Email Security (Zero Trust)
     - id: bvtc2f85ft3p
       name: North America / Seattle, WA, United States - (SEA)
     - id: 755n430pjn1s
