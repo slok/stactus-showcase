@@ -19,3 +19,9 @@ timeline:
     - ts: "2025-02-24 17:50:00"
       description: We expect the missing data from the weekend to be available within two hours.
       investigating: true
+    - ts: "2025-02-24 18:25:29"
+      description: We have restored all of the data for 2025-02-21 to 2025-02-23.  The data is queryable through the Copilot Metrics API.  We are continuing to monitor the metrics data and expect to resolve the incident in the next hour.
+      investigating: true
+    - ts: "2025-02-24 18:31:39"
+      description: This incident has been resolved.
+      resolved: true
