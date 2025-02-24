@@ -10,3 +10,6 @@ timeline:
     - ts: "2025-02-24 15:19:03"
       description: 'We are investigating reports of issues with service: Copilot metrics API. We will continue to keep users updated on progress towards mitigation.'
       investigating: true
+    - ts: "2025-02-24 15:56:47"
+      description: Customers may not be able to review their usage statistics for copilot starting Saturday through Monday morning UTC. The API is functioning normally, but no data is available for those time periods. We are working on backfilling the data and all metrics will be eventually available later today. We estimate recovery within in the next few hours and will provide updates on this as the recovery process proceeds.
+      investigating: true
