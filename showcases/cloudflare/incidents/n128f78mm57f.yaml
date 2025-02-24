@@ -1,0 +1,12 @@
+version: incident/v1
+id: n128f78mm57f
+name: Increased HTTP Errors near Rio de Janeiro
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-02-24 17:27:02"
+      description: |-
+        Cloudflare is investigating an increased level of HTTP errors for requests originating in and near Rio de Janeiro.
+
+        We are working to analyse and mitigate this problem.  More updates to follow shortly.
+      investigating: true
