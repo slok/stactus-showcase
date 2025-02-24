@@ -1,0 +1,12 @@
+version: incident/v1
+id: 135x076mn3tf
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-02-24 15:17:29"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-02-24 15:19:03"
+      description: 'We are investigating reports of issues with service: Copilot metrics API. We will continue to keep users updated on progress towards mitigation.'
+      investigating: true
