@@ -1,0 +1,14 @@
+version: incident/v1
+id: t4vt31qhjx6q
+name: Incident with Issues
+impact: minor
+systems:
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2025-02-24 16:08:47"
+      description: We are investigating reports of degraded performance for Issues
+      investigating: true
+    - ts: "2025-02-24 16:14:03"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
