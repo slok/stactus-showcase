@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-02-25 13:28:23"
       description: Our edge nodes in Stockholm are currently experiencing high load. Some incoming connections may fail while we work to address the issue.
       investigating: true
+    - ts: "2025-02-25 13:50:05"
+      description: Load has subsided on the edge nodes and we are not observing any related errors at this time.
+      resolved: true
