@@ -14,3 +14,6 @@ timeline:
     - ts: "2025-02-25 14:44:52"
       description: Copilot is experiencing degraded performance. We are continuing to investigate.
       investigating: true
+    - ts: "2025-02-25 15:25:59"
+      description: We have disabled Claude 3.7 Sonnet models in Copilot Chat and across IDE integrations (VSCode, Visual Studio, JetBrains) due to an issue with our provider.<br /><br />Users may still see these models as available for a brief period but we recommend switching to a different model. Other models were not impacted and are available.<br /><br />Once our provider has resolved the issues impacting Claude 3.7 Sonnet models, we will re-enable them.
+      investigating: true
