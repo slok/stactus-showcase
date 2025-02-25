@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6gwyfr5mbyzk
+name: MongoDB Atlas App Services and Device Sync UI may not be accessible
+impact: minor
+systems:
+    - crrq7qqlqfsh
+timeline:
+    - ts: "2025-02-25 16:35:28"
+      description: We are currently investigating an issue where some customers cannot access the MongoDB Atlas App Services and Device Sync UI due to continuous redirects.
+      investigating: true
