@@ -1,0 +1,13 @@
+version: incident/v1
+id: 7kjq1sdmjng8
+name: SMS Delivery Failure to Multiple Networks in France via a Subset of Twilio Numbers
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-02-25 23:40:41"
+      description: We are experiencing SMS delivery failures to multiple networks in France via a subset of Twilio numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-02-25 23:42:02"
+      description: We are experiencing SMS delivery failures to multiple networks in France via a subset of Twilio numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
