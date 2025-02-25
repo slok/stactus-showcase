@@ -10,3 +10,8 @@ timeline:
       investigating: true
     - ts: "2025-02-25 21:32:42"
       description: "We have identified an issue where some users cannot access the MongoDB Atlas App Services and Device Sync UI. Affected users will see many redirects, and their browser may eventually give them the error \"Too Many Redirects\". \n\nThe underlying Atlas App Services and Atlas Device Sync are unaffected and continue to work as normal. Users who urgently need to manage their Atlas App Services and Atlas Device Sync settings are encouraged to use the admin API until this is resolved."
+    - ts: "2025-02-25 22:09:25"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-02-25 22:16:21"
+      description: This incident has been resolved.
+      resolved: true
