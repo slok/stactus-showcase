@@ -1,0 +1,16 @@
+version: incident/v1
+id: tskzz9n0bjpt
+name: Claude 3.7 Sonnet Partially Unavailable
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2025-02-25 14:40:04"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-02-25 14:43:29"
+      description: We are currently experiencing partial availability for the Claude 3.7 Sonnet and Claude 3.7 Thinking models in Copilot Chat, VSCode and other Copilot products. This is due to problems with an upstream provider. We are working to resolve these issues and will update with more information as it is made available.<br /><br />Other Copilot models are available and working as expected.
+      investigating: true
+    - ts: "2025-02-25 14:44:52"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
