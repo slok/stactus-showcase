@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2bnrz9x4s4d3
+name: Network issues in ARN
+impact: minor
+systems:
+    - gpwm5n91bxsk
+timeline:
+    - ts: "2025-02-25 13:28:23"
+      description: Our edge nodes in Stockholm are currently experiencing high load. Some incoming connections may fail while we work to address the issue.
+      investigating: true
