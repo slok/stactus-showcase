@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7ctgyqqyr316
+name: Failing to identify verified bots on certain O2O (Orange 2 Orange) requests
+impact: minor
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2025-02-25 01:52:44"
+      description: Cloudflare is investigating failures in verification of certain o2o requests in verification bots detection system .  We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
