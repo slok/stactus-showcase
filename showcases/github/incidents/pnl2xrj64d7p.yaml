@@ -11,3 +11,9 @@ timeline:
     - ts: "2025-02-25 00:41:56"
       description: We have identified the issue impacting packages and have rolled out a fix. We are seeing signs of recovery and continue to monitor the situation.
       investigating: true
+    - ts: "2025-02-25 01:08:32"
+      description: We have confirmed recovery for the majority of our systems. Some systems may still experience higher than normal latency as they catch up.
+      investigating: true
+    - ts: "2025-02-25 01:08:43"
+      description: This incident has been resolved.
+      resolved: true
