@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3r8znm0krdmh
+name: 'Cloudflare Spectrum: Possible availability issues of recently created Spectrum applications.'
+impact: minor
+systems:
+    - 6dd6ssg7plt0
+timeline:
+    - ts: "2025-02-25 15:17:22"
+      description: |-
+        Cloudflare is investigating issues with Spectrum which may be impacting the availability Spectrum applications created in the last 24 hours.
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
