@@ -1,7 +1,7 @@
 version: incident/v1
 id: b15h5q21n5xc
 name: Issues with 1.1.1.1 public resolver in São Paulo, Brazil
-impact: major
+impact: minor
 systems:
     - 73mbn78m0yzm
     - 8w536gxk7dvq
@@ -12,3 +12,8 @@ timeline:
     - ts: "2025-02-25 11:47:03"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-02-25 11:50:09"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-02-25 11:54:54"
+      description: This incident has been resolved.
+      resolved: true
