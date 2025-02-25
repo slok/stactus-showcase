@@ -22,3 +22,11 @@ timeline:
         We apologize for the inconvenience and appreciate your patience as we work to resolve this issue. Further updates will be shared as they become available.
     - ts: "2025-02-25 18:43:35"
       description: "Our Engineering team has implemented a fix to resolve the issue impacting the creation of Droplets in the NYC3 region. Users should now be able to create Droplets and Droplet-based services including Managed Kubernetes, Managed Databases, Load Balancers, and snapshots without any issues. \n\nWe are actively monitoring the situation and will post an update as soon as the issue is fully resolved."
+    - ts: "2025-02-25 20:16:47"
+      description: |-
+        From 6:00 UTC to 17:45 UTC, users have experienced issues with Droplet creation and Droplet-based services in the NYC3 region.
+
+        Our Engineering team has fully resolved the issue impacting Droplet creation in the NYC3 region. Users can now create Droplets and Droplet-based services, including Managed Kubernetes, Managed Databases, Load Balancers, and snapshots, without any issues.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true
