@@ -1,13 +1,16 @@
 version: incident/v1
 id: ls3x0yd9xlrq
-name: SMS Delivery Delays and Failures on Liberty Mobile in Puerto Rico via Subset of Shortcodes
+name: SMS Delivery Failures on Liberty Mobile in Puerto Rico via Subset of Shortcodes
 impact: minor
 systems:
-    - yvvy3vlp4djf
+    - 39mb8cmw8y2v
 timeline:
     - ts: "2025-02-25 18:55:29"
       description: We are experiencing SMS delivery delays and failures sending to Liberty Mobile in Puerto Rico via Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 60 minutes or as soon as more information becomes available.
       investigating: true
     - ts: "2025-02-25 20:00:06"
       description: We are experiencing SMS delivery delays and failures sending to Liberty Mobile in Puerto Rico via Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-02-25 21:55:12"
+      description: We continue experiencing SMS delivery failures sending to Liberty Mobile in Puerto Rico via subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
