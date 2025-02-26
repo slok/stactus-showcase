@@ -1,0 +1,12 @@
+version: incident/v1
+id: j74c1z2vx82f
+name: Degraded UX with IRM Slack Integration.
+impact: minor
+systems:
+    - z5ysrlvblv9t
+timeline:
+    - ts: "2025-02-26 18:13:14"
+      description: |-
+        Users may experience a degraded UX with our IRM Slack integration due to an upstream ongoing Incident with Slack.
+
+        https://slack-status.com/2025-02/1b757d1d0f444c34

@@ -1,0 +1,14 @@
+version: incident/v1
+id: 19dxvtq00c88
+name: Slack Connectivity, API Issues
+impact: minor
+systems:
+    - m6s4nwpxjfjj
+    - h4dltv35thf5
+    - g8j1mk00bbd9
+    - 9yrnqt7vf5nj
+    - 189jj4xfjdwy
+timeline:
+    - ts: "2025-02-26 18:16:20"
+      description: 'Slack is experiencing widespread connectivity, app, and API issues. Users may experience problems with Slack log-ins, load times, and other API-related features such as messaging, workflows, and threads. Slack is aware of the issue and is working to resolve: https://slack-status.com/'
+      investigating: true
