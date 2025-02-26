@@ -1,17 +1,17 @@
 version: incident/v1
 id: 5hpshwrnmsr2
-name: SMS and Call Failures From and to via Subset Twilio Chile Phone Numbers to Multiple Networks in Chile
+name: SMS Delivery Delays and Call Failures From and To Multiple Networks in Chile via Subset of Twilio Chile Phone Numbers
 impact: minor
 systems:
     - fbtv2g9t3z25
     - 42zx9w2kmtvf
 timeline:
     - ts: "2025-02-26 01:10:00"
-      description: We are experiencing SMS and call failures from and to via a subset Twilio Chile phone numbers to multiple networks in Chile. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: We are experiencing SMS delivery delays and call failures from and  to multiple networks in Chile via a subset of Twilio Chile phone numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2025-02-26 02:04:57"
-      description: We are still experiencing SMS and call failures from and to via a subset Twilio Chile phone numbers to multiple networks in Chile. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      description: We are still experiencing SMS delivery delays and call failures from and  to multiple networks in Chile via a subset of Twilio Chile phone numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
     - ts: "2025-02-26 03:50:59"
-      description: We are still experiencing SMS and call failures from and to via a subset Twilio Chile phone numbers to multiple networks in Chile. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
+      description: We are still experiencing SMS delivery delays and call failures from and  to multiple networks in Chile via a subset of Twilio Chile phone numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
