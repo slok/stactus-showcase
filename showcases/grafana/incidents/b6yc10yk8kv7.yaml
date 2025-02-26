@@ -1,6 +1,6 @@
 version: incident/v1
 id: b6yc10yk8kv7
-name: All regions experiencing the potential for longer than expected load times.
+name: Longer than expected load times in the prod-us-east-0 and prod-eu-west-2 regions.
 impact: major
 systems:
     - wfc1hb7m917l
@@ -38,3 +38,5 @@ timeline:
       description: Engineering has released a fix, and customers should no longer be experiencing this issue. We will continue to monitor for recurrence and provide updates accordingly.
     - ts: "2025-02-24 22:22:37"
       description: "Our Engineering team has identified that https://status.grafana.com/incidents/q6k82s6s7sj0 is related to this issue. \nAt this moment we keep monitoring our services. We'll be providing further updates accordingly."
+    - ts: "2025-02-26 15:39:00"
+      description: We are continuing to monitor for further issues. The issue is scoped to AWS and is only significantly observed in the prod-us-east-0 and prod-eu-west-2 regions. We have also retroactively changed the title of this status to accurately reflect the scope.
