@@ -40,3 +40,5 @@ timeline:
       description: "Our Engineering team has identified that https://status.grafana.com/incidents/q6k82s6s7sj0 is related to this issue. \nAt this moment we keep monitoring our services. We'll be providing further updates accordingly."
     - ts: "2025-02-26 15:39:00"
       description: We are continuing to monitor for further issues. The issue is scoped to AWS and is only significantly observed in the prod-us-east-0 and prod-eu-west-2 regions. We have also retroactively changed the title of this status to accurately reflect the scope.
+    - ts: "2025-02-26 21:35:01"
+      description: We are seeing this issue occur in multiple AWS regions. Our engineering team is currently engaged in remediating this issue.
