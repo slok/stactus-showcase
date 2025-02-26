@@ -1,0 +1,14 @@
+version: incident/v1
+id: 2lxm4wb8wy3r
+name: Incident with Actions and Packages
+impact: minor
+systems:
+    - br0l2tvcx85d
+    - st3j38cctv9l
+timeline:
+    - ts: "2025-02-26 15:51:07"
+      description: We are investigating reports of degraded performance for Actions and Packages
+      investigating: true
+    - ts: "2025-02-26 15:56:15"
+      description: We're investigating issues related to the Billing interfaces and Packages downloads failing for enterprise customers.
+      investigating: true
