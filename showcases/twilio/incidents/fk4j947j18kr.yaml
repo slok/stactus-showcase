@@ -1,0 +1,10 @@
+version: incident/v1
+id: fk4j947j18kr
+name: WhatsApp Auth Messages Failures
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2025-02-26 02:25:42"
+      description: We are experiencing failures where customers are unable to send WhatsApp authentication template messages. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 60 minutes or as soon as more information becomes available.
+      investigating: true
