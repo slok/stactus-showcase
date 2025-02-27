@@ -17,3 +17,12 @@ timeline:
     - ts: "2025-02-27 12:01:06"
       description: We have identified the cause of the delays to starting Action runs.<br /><br />Our team is working to roll out mitigations and we hope to see recovery as these take effect in our systems over the next 10-20 minutes. <br /><br />Further updates as we have more information.
       investigating: true
+    - ts: "2025-02-27 12:16:23"
+      description: Our mitigations have rolled out successfully and have seen recovery for all Actions run starts back within expected range. Users should see Actions runs working normally.<br /><br />We will keep this incident open for a short time while we continue to validate these results.
+      investigating: true
+    - ts: "2025-02-27 12:22:26"
+      description: The team is confident that recovery is complete. Thank you for your patience as this issue was investigated.
+      investigating: true
+    - ts: "2025-02-27 12:22:34"
+      description: This incident has been resolved.
+      resolved: true
