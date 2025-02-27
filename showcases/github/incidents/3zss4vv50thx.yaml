@@ -1,0 +1,13 @@
+version: incident/v1
+id: 3zss4vv50thx
+name: Disruption with some GitHub services
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2025-02-27 11:28:20"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-02-27 11:31:31"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
