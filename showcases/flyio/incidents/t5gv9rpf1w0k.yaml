@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-02-27 19:12:56"
       description: Various hosts in AMS region have lost network connectivity. We are investigating this along with our upstream provider.
       investigating: true
+    - ts: "2025-02-27 19:55:09"
+      description: The upstream provider has identified this issue to a broken switch, and are working to replace the switch. They expect connectivity to return in ~1 hour.
