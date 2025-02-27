@@ -1,0 +1,15 @@
+version: incident/v1
+id: 72mwsj711n7c
+name: Cloudflare Workers AI Issues
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2025-02-27 14:12:53"
+      description: |-
+        Cloudflare has identified an issue whereby customers might experience errors from inference requests to model llama-3.1-8b-instruct-fp8-fast using Workers AI.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-02-27 14:20:06"
+      description: The issue has been identified and a fix is being implemented.
