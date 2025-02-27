@@ -1,0 +1,21 @@
+version: incident/v1
+id: m30911hbs1nq
+name: MIT call centers unavailable
+impact: major
+systems:
+    - qjs9m5p5wmkn
+timeline:
+    - ts: "2025-02-27 15:26:59"
+      description: |-
+        All MIT call centers routing through Zoom are currently unavailable. IS&T is working with Zoom to restore service as soon as possible.
+
+        Calls made to the following departments may fail:
+
+        MIT Health
+        Admissions
+        Atlas Service Center
+        Benefits
+        Payroll
+        Student Financial Services
+        Teachremote Support
+      investigating: true
