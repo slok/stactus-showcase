@@ -1,0 +1,10 @@
+version: incident/v1
+id: t5gv9rpf1w0k
+name: Network issues in AMS region
+impact: major
+systems:
+    - 70nsqsjrthwf
+timeline:
+    - ts: "2025-02-27 19:12:56"
+      description: Various hosts in AMS region have lost network connectivity. We are investigating this along with our upstream provider.
+      investigating: true
