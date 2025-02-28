@@ -23,5 +23,5 @@ timeline:
       description: We have restored all of the data for 2025-02-21 to 2025-02-23.  The data is queryable through the Copilot Metrics API.  We are continuing to monitor the metrics data and expect to resolve the incident in the next hour.
       investigating: true
     - ts: "2025-02-24 18:31:39"
-      description: This incident has been resolved.
+      description: On February 21 2025 12:00 UTC - 2/24/2025, 18:31 UTC, the Copilot Metrics API failed to ingest daily metrics aggregations for all customers resulting in failure to populate new metrics from 2025-02-21 to 2025-02-24. This failure was triggered by the metrics ingestion process timing out when querying across the event dataset. The API was functional for retrieving historical metrics prior to 2025-02-21.    <br /><br />On Monday morning 2/24/2025, 15:00 UTC, customer support was notified of the issue and the team deployed a fix to resolve query timeouts and ran backfills for the data from 2025-02-21 to 2025-02-23.<br /><br />We are working to prevent further outages by adding more alerting to timeouts and have further optimized all our queries to aggregate data.
       resolved: true
