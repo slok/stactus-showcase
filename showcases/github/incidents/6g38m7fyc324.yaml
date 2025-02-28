@@ -27,5 +27,5 @@ timeline:
       description: Claude Sonnet is fully available in GitHub Copilot again. If you used an alternate model during the outage, you can switch back to Claude Sonnet.
       investigating: true
     - ts: "2025-02-12 23:10:48"
-      description: This incident has been resolved.
+      description: On February 12th, 2025, between 21:30 UTC and 23:10 UTC the Copilot service was degraded and all requests to Claude 3.5 Sonnet were failing. No other models were impacted. <br /><br />This was due to an issue with our upstream provider which was detected within 12 minutes, at which point we raised the issue to our provider to remediate. GitHub is working with our provider to improve the resiliency of the service.
       resolved: true
