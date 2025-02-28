@@ -1,0 +1,13 @@
+version: incident/v1
+id: xxr9r96kxkqq
+name: Login to the Atlas Web Portal degraded
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-02-28 15:37:54"
+      description: |-
+        Users may see failures when logging into the Atlas web portal (cloud.mongodb.com). We are actively investigating the root cause
+
+        Programmatic access to the Admin API, and access to backing clusters are unaffected.
+      investigating: true
