@@ -1,0 +1,10 @@
+version: incident/v1
+id: fpnyppz7vcvn
+name: Digital Experience Monitoring Remote Commands failing
+impact: minor
+systems:
+    - nmp96vgn1hpl
+timeline:
+    - ts: "2025-02-28 18:05:56"
+      description: Remote commands (warp-diag, packet capture) initiated from the Digital Experience Monitoring dashboard will fail. IT admins can still request users initiate captures from their own devices and manually provide artifacts.
+      investigating: true
