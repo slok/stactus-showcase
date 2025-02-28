@@ -1,0 +1,10 @@
+version: incident/v1
+id: 62zgywqccygp
+name: Degraded performance due to overloaded internal queues
+impact: minor
+systems:
+    - 236539c2nt69
+timeline:
+    - ts: "2025-02-28 13:09:56"
+      description: Our internal queues were affected by a scheduled data migration. For around three hours asynchronous scheduled tasks were affected and their processing delayed, but none cancelled or lost. Test scheduled particularly may have been not run at their intended time during that period.
+      resolved: true
