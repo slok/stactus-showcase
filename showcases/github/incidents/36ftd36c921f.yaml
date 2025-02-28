@@ -2,8 +2,13 @@ version: incident/v1
 id: 36ftd36c921f
 name: Elevated Request Latency for Write operations on github.com and api.github.com
 impact: minor
-systems: []
+systems:
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
 timeline:
     - ts: "2025-02-28 06:12:15"
       description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-02-28 06:29:57"
+      description: Issues and Pull Requests are experiencing degraded performance. We are continuing to investigate.
       investigating: true
