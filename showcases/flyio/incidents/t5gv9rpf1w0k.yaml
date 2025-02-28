@@ -18,3 +18,7 @@ timeline:
       description: Installation of the new hardware has completed and we are starting the switchover process. A networking blip may be observed on Machines in the AMS region during this process.
     - ts: "2025-02-27 23:36:37"
       description: The hardware switchover is complete. We are continuing the process of re-connecting the downed hosts to the network.
+    - ts: "2025-02-27 23:56:41"
+      description: "Networking on the impacted hosts has been restored. Machines and apps on those hosts will now be reachable. \nWe're continuing to monitor to ensure everything remains stable."
+    - ts: "2025-02-27 23:56:53"
+      description: We are continuing to monitor for any further issues.
