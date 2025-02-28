@@ -1,0 +1,15 @@
+version: incident/v1
+id: 4ysbr32p6852
+name: Degraded Cloudflare Workers and Pages API service
+impact: minor
+systems:
+    - vgxj684rcw7t
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-02-28 19:13:56"
+      description: Workers and Pages may see failing or slow API requests. We are investigating the issue.
+      investigating: true
+    - ts: "2025-02-28 19:16:37"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-02-28 19:20:34"
+      description: A fix has been implemented and we are monitoring the results.
