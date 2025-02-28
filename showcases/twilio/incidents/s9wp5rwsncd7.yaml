@@ -4,7 +4,14 @@ name: AccSec - Canada API Errors - A1-BasicIdentityVerification
 impact: minor
 systems:
     - xk8z50jy8hcs
+    - fsxs9n9yf4m7
+    - cfy5cxrly95b
+    - q0hp6vfr4vvh
+    - qt4vzyg2g7b4
 timeline:
     - ts: "2025-02-28 08:34:08"
       description: Our monitoring systems have detected a potential issue Account Security. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-02-28 09:05:20"
+      description: We are investigating a potential issue with AccSec - Canada API Errors. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
