@@ -1,0 +1,18 @@
+version: incident/v1
+id: dxn9ppybhz7x
+name: Elevated HTTP 500 and 503 Status Codes on the Create, Check, Update, and Fetch Verifications Endpoints of the Verify API
+impact: minor
+systems:
+    - 4rv9xfxmdjg9
+timeline:
+    - ts: "2025-03-01 00:55:43"
+      description: Our monitoring systems have detected a potential issue causing elevated HTTP 500 and 503 status codes on the create, check, update, and fetch Verifications endpoints of the Verify API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-03-01 01:00:34"
+      description: We are investigating a service interruption with the Twilio Verify API where we are experiencing elevated HTTP 500 and 503 status codes on the create, check, update, and fetch Verifications endpoint. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
+    - ts: "2025-03-01 01:07:28"
+      description: There were elevated HTTP 500 and 503 status codes on the create, check, update, and fetch Verifications endpoints have resolved and Twilio Verify API is operating normally at this time.
+    - ts: "2025-03-01 01:13:15"
+      description: Twilio Verify was degraded for 29 minutes between 16:05 and 16:34 Pacific Time on 02/28/2025. During this period of time customers may have experienced elevated HTTP 500 and 503 status codes on the create, check, update, and fetch Verifications endpoints of the Twilio Verify API. The issue has now been resolved.
+      resolved: true
