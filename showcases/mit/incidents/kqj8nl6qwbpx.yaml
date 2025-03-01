@@ -13,3 +13,8 @@ timeline:
 
         We'll update the MIT community as we receive additional information.
       investigating: true
+    - ts: "2025-03-01 22:17:33"
+      description: |-
+        Microsoft has identified a recent code change to a portion of their M365 service infrastructure that they suspect is causing the login issue. They have also reverted the code change, and are monitoring service health telemetry to confirm if the reversion is returning service to expected functionality.
+
+        Outlook access has appeared to have been restored. IS&T is monitoring Microsoft status to confirm when M365 service is fully restored.
