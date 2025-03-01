@@ -1,0 +1,15 @@
+version: incident/v1
+id: kqj8nl6qwbpx
+name: Microsoft 365 and Outlook login issues
+impact: none
+systems:
+    - pm1c4cxx88h1
+timeline:
+    - ts: "2025-03-01 21:44:35"
+      description: |-
+        Microsoft 365 and Outlook services are currently down and inaccessible.  Email is inaccessible because of this service disruption. This also affects other M365 services like Teams and Sharepoint.
+
+        Microsoft is investigating an issue in which users may be unable to access Outlook features and services. Live updates from Microsoft can be found at https://x.com/MSFT365Status.
+
+        We'll update the MIT community as we receive additional information.
+      investigating: true
