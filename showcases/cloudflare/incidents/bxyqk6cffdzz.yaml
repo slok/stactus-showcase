@@ -1,0 +1,10 @@
+version: incident/v1
+id: bxyqk6cffdzz
+name: Issue with Cloudflare Access
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2025-03-01 02:26:23"
+      description: We are currently investigating an issue with Cloudflare Access. During this time, any Access configuration changes made will not take effect. Changes will not be lost, they are only delayed. Access authentication and login is not impacted.
+      investigating: true
