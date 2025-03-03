@@ -26,3 +26,9 @@ timeline:
     - ts: "2025-03-03 05:20:43"
       description: Git Operations is operating normally.
       investigating: true
+    - ts: "2025-03-03 05:30:47"
+      description: We have seen recovery across our services and impact is mitigated.
+      investigating: true
+    - ts: "2025-03-03 05:31:19"
+      description: This incident has been resolved.
+      resolved: true
