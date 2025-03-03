@@ -18,5 +18,5 @@ timeline:
       description: We have disabled Claude 3.7 Sonnet models in Copilot Chat and across IDE integrations (VSCode, Visual Studio, JetBrains) due to an issue with our provider.<br /><br />Users may still see these models as available for a brief period but we recommend switching to a different model. Other models were not impacted and are available.<br /><br />Once our provider has resolved the issues impacting Claude 3.7 Sonnet models, we will re-enable them.
       investigating: true
     - ts: "2025-02-25 15:45:44"
-      description: This incident has been resolved.
+      description: On February 25, 2025 between 13:40 UTC and 15:45 UTC the Claude 3.7 Sonnet model for GitHub Copilot Chat experienced degraded performance. During the impact, occasional requests to Claude would result in an immediate error to the user. This was due to upstream errors with one of our infrastructure providers, which have since been mitigated.<br /><br />We are working with our infrastructure providers to reduce time to detection and implement additional failover options, to mitigate issues like this one in the future.
       resolved: true
