@@ -1,0 +1,15 @@
+version: incident/v1
+id: rfhvq3d7zh60
+name: Potential Service Interruption APM Timeslices Dashboard
+impact: minor
+systems:
+    - 2vkckmpm1kh6
+timeline:
+    - ts: "2025-03-03 12:50:35"
+      description: We are investigating a potential service interruption that may impact some customers. Some customers may experience Delay in APM timeslices dashboards.
+      investigating: true
+    - ts: "2025-03-03 12:56:20"
+      description: The issue has been identity and a fix is being implemented.
+    - ts: "2025-03-03 13:10:03"
+      description: This incident has been resolved.
+      resolved: true
