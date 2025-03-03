@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-03-03 16:47:07"
       description: After monitoring for some time, we started seeing a degradation of the service. We're experiencing Trusted Calling with stir/shaken failed to verify starting 7:41am. Our engineers are working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-03-03 17:08:54"
+      description: The issue affecting Trusted Calling with stir/shaken failing has been resolved, and the service is functioning normally at this time.
+      resolved: true
