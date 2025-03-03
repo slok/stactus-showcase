@@ -15,5 +15,5 @@ timeline:
       description: We were able to quickly identify the problem and resolve this issue. Claude 3.5 Sonnet is available again.
       investigating: true
     - ts: "2025-02-24 22:14:08"
-      description: This incident has been resolved.
+      description: On February 24, 2025 between 21:42 UTC and 22:14 UTC the Claude 3.5 Sonnet model for GitHub Copilot Chat experienced degraded performance. During the impact, all requests to Claude 3.5 Sonnet would result in an immediate error to the user. This was due to misconfiguration within one of our infrastructure providers that has since been mitigated.<br /><br />We are working to prevent this error from occurring in the future by implementing additional failover options. Additionally we are updating our playbooks and alerting to reduce time to detection.
       resolved: true
