@@ -22,5 +22,5 @@ timeline:
       description: Actions and Packages are operating normally.
       investigating: true
     - ts: "2025-02-26 17:19:09"
-      description: This incident has been resolved.
+      description: On February 26, 2025, between 14:51 UTC and 17:19 UTC, GitHub Packages experienced a service degradation, leading to billing-related failures when uploading and downloading Packages. During this period, the billing usage and budget pages were also inaccessible. Initially, we reported that GitHub Actions was affected, but we later determined that the impact was limited to jobs interacting with Packages services, while jobs that did not upload or download Packages remained unaffected.<br /><br />The incident occurred due to an error in newly introduced code, which caused containers to get into a bad state, ultimately leading to billing API calls failing with 503 errors. We mitigated the issue by rolling back the contributing change. In response to this incident, we are enhancing error handling, improving the resiliency of our billing API calls to minimize customer impact, and improving change rollout practices to catch these potential issues prior to deployment.
       resolved: true
