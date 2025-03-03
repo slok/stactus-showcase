@@ -1,0 +1,19 @@
+version: incident/v1
+id: 291w7fn43fy1
+name: Incident with Issues, Git Operations and API Requests
+impact: minor
+systems:
+    - 8l4ygp009s5s
+    - 4230lsnqdsld
+    - brv1bkgrwx7q
+    - kr09ddfgbfsf
+timeline:
+    - ts: "2025-03-03 04:20:24"
+      description: We are investigating reports of degraded performance for API Requests, Git Operations and Issues
+      investigating: true
+    - ts: "2025-03-03 04:21:29"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-03-03 04:23:07"
+      description: We are seeing intermittent timeouts across our various services. We are currently investigating and will provide updates.
+      investigating: true
