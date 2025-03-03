@@ -1,9 +1,13 @@
 version: incident/v1
 id: wk59kf05qyms
 name: Trusted Calling with stir/shaken failling
-impact: none
-systems: []
+impact: minor
+systems:
+    - g2dt752kwqs0
 timeline:
     - ts: "2025-03-03 16:19:53"
       description: Our monitoring systems have detected a potential issue  Trusted Calling. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-03-03 16:47:07"
+      description: After monitoring for some time, we started seeing a degradation of the service. We're experiencing Trusted Calling with stir/shaken failed to verify starting 7:41am. Our engineers are working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
