@@ -13,5 +13,5 @@ timeline:
       description: Issues and Pull Requests are experiencing degraded performance. We are continuing to investigate.
       investigating: true
     - ts: "2025-02-28 06:55:57"
-      description: This incident has been resolved.
+      description: On February 28th, 2025, between 05:49 UTC and 06:55 UTC, a newly deployed background job caused increased load on GitHub’s primary database hosts, resulting in connection pool exhaustion. This led to degraded performance, manifesting as increased latency for write operations and elevated request timeout rates across multiple services.<br /><br />The incident was mitigated by halting execution of the problematic background job and disabling the feature flag controlling the job execution. To prevent similar incidents in the future, we are collaborating on a plan to improve our production signals to better detect and respond to query performance issues.
       resolved: true
