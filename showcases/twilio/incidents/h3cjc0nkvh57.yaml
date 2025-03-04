@@ -1,10 +1,12 @@
 version: incident/v1
 id: h3cjc0nkvh57
 name: Conversations and Flex Customers impacted in US region
-impact: none
+impact: minor
 systems:
     - 7ypw8tsmyr78
 timeline:
     - ts: "2025-03-04 14:00:23"
       description: Conversations and Flex customers in US region were impacted with 500s errors for a short duration of time 13:40 and 13:55PM UTC. The issue is now mitigated
       investigating: true
+    - ts: "2025-03-04 14:10:26"
+      description: Conversations and Flex in US region are now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.
