@@ -24,5 +24,5 @@ timeline:
       description: The team is confident that recovery is complete. Thank you for your patience as this issue was investigated.
       investigating: true
     - ts: "2025-02-27 12:22:34"
-      description: This incident has been resolved.
+      description: On February 27, 2025, between 11:30 UTC and 12:22 UTC, Actions experienced degraded performance, leading to delays in workflow runs. On average, 5% of Actions workflow runs were delayed by 31 minutes. The delays were caused by updates in a dependent service that led to failures in Redis connectivity in one region. We mitigated the incident by failing over the impacted service and re-routing the service’s traffic out of that region. We are working to improve monitoring and processes of failover to reduce our time to detection and mitigation of issues like this one in the future.
       resolved: true
