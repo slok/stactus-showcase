@@ -42,5 +42,5 @@ timeline:
       description: Pull Requests is operating normally.
       investigating: true
     - ts: "2025-02-16 12:44:00"
-      description: This incident has been resolved.
+      description: On February 16th, 2025 from 11:30 UTC to 12:44 UTC, API requests to GitHub.com experienced increased latency and failures. Around 1% of API requests failed at the peak of this incident.<br /><br />This outage was caused by an experimental feature that malfunctioned and generated excessive database latency. In response to this incident, the feature has been redesigned to avoid database load which should prevent similar issues going forward.
       resolved: true

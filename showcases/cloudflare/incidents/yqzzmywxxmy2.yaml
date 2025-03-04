@@ -9,3 +9,5 @@ timeline:
     - ts: "2025-03-04 16:35:43"
       description: We are investigating an issue where customers with EDNS enabled may receive IPs as a DNS response pointing to destinations that are incorrect. If you have geo restrictions on where your Zero Trust users are allowed to go, this may result in your users getting blocked from accessing company resources.
       investigating: true
+    - ts: "2025-03-04 19:05:06"
+      description: The issue has been identified and a fix is being implemented.
