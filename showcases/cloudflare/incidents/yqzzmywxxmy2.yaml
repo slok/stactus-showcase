@@ -1,0 +1,11 @@
+version: incident/v1
+id: yqzzmywxxmy2
+name: ZT Customers with EDNS Enabled receiving incorrect IPs
+impact: minor
+systems:
+    - gyx2yygg7lmd
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2025-03-04 16:35:43"
+      description: We are investigating an issue where customers with EDNS enabled may receive IPs as a DNS response pointing to destinations that are incorrect. If you have geo restrictions on where your Zero Trust users are allowed to go, this may result in your users getting blocked from accessing company resources.
+      investigating: true
