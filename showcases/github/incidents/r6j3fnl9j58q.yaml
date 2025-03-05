@@ -11,5 +11,5 @@ timeline:
       description: Our Audit Log Streaming service is experiencing degradation but is experiencing no data outage.
       investigating: true
     - ts: "2025-01-27 23:41:13"
-      description: This incident has been resolved.
+      description: On January 27th, 2025, between 23:32:00 UTC and 23:41:00 UTC the Audit Log Streaming service experienced an approximate 9 minute delay of Audit Log Events. Our systems maintained data continuity and we experienced no data loss. There was no impact to the Audit Log API or the Audit Log user interface. Any configured Audit Log Streaming endpoints received all relevant Audit Log Events (but they were delayed) and normal service was restored after the incident's resolution.
       resolved: true
