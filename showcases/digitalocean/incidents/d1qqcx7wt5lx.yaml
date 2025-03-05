@@ -1,0 +1,18 @@
+version: incident/v1
+id: d1qqcx7wt5lx
+name: Managed Certificate
+impact: minor
+systems:
+    - txysr8r0gn1n
+    - mzkgffp35tq4
+    - ctwhml01vvw1
+    - 8cp93lvtlh32
+timeline:
+    - ts: "2025-03-05 21:22:08"
+      description: |-
+        Our engineering team is investigating an issue with our managed certificates service due to an unexpected outage from our Certificate Authority.
+
+        During this time, users may experience issues creating new certificates, provisioning or scaling MongoDB clusters, and issuing certificates for use with LBAAS and CDN services. Additionally, this may cause a subset of new custom domains on App Platform to take longer than usual to become active.
+
+        We apologize for the inconvenience and will provide updates as soon as we receive more information.
+      investigating: true
