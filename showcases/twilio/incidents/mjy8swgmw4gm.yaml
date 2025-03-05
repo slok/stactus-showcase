@@ -1,6 +1,6 @@
 version: incident/v1
 id: mjy8swgmw4gm
-name: MMS Delivery Delay and Failures to US Cellular via Toll-Free Numbers
+name: MMS Delivery failures to US Cellular Network in United states of America
 impact: minor
 systems:
     - tvjwfvczkf46
@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-03-05 14:14:58"
       description: We are experiencing MMS delivery delay to US Cellular via Toll-Free Numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-03-05 14:59:20"
+      description: We are observing successful MMS delivery to US Cellular via Toll-Free Numbers.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 1 hour or as soon as more information becomes available.

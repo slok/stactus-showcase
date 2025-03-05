@@ -1,9 +1,16 @@
 version: incident/v1
 id: 6rxjrpqdl862
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Messaging Logs API Sync Delays
+impact: minor
+systems:
+    - dgkv7yc7sqdg
 timeline:
     - ts: "2025-03-05 14:42:54"
       description: Our monitoring systems have detected a potential issue. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-03-05 14:48:46"
+      description: The Messaging Logs API might not display the most recent messages or current information due to synchronization delays in the log system.
+      investigating: true
+    - ts: "2025-03-05 14:52:31"
+      description: After monitoring for some time, we started seeing a degradation of the service. The Messaging Logs API might not display the most recent messages or current information due to synchronization delays in the log system. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
