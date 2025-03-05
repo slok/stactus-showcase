@@ -16,3 +16,10 @@ timeline:
 
         We apologize for the inconvenience and will provide updates as soon as we receive more information.
       investigating: true
+    - ts: "2025-03-05 22:07:14"
+      description: |-
+        Our Certificate Authority has implemented a fix for the issue with our managed certificates service. Services are beginning to recover, and we are closely monitoring the situation to ensure full stability.
+
+        Users should now be able to create new certificates, provision and scale MongoDB clusters, and issue certificates for use with LBAAS and CDN services. Additionally, new custom domains on the App Platform should start configuring normally.
+
+        We apologize for the inconvenience and will share another update once the matter is fully resolved.

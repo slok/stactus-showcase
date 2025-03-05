@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8ttw290rdx3d
+name: Event Streams Increased Latency in Delivering Events
+impact: minor
+systems:
+    - zxhmy448yyn3
+timeline:
+    - ts: "2025-03-05 22:11:30"
+      description: Our monitoring systems have detected a potential issue with Event Streams total timing exceeding limit of 60s. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-03-05 22:21:47"
+      description: Our engineers have identified an issue causing increased latency delivering Events through Event Streams. The engineering team is engaged and working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.`
+      investigating: true
