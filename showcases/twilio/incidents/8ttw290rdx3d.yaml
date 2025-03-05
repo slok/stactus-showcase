@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-03-05 22:21:47"
       description: Our engineers have identified an issue causing increased latency delivering Events through Event Streams. The engineering team is engaged and working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.`
       investigating: true
+    - ts: "2025-03-05 22:55:59"
+      description: The issues causing increased latency delivering Events has been resolved and Event Streams is operating normally at this time.
+      resolved: true
