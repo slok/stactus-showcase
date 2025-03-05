@@ -14,3 +14,6 @@ timeline:
     - ts: "2025-03-05 14:52:31"
       description: After monitoring for some time, we started seeing a degradation of the service. The Messaging Logs API might not display the most recent messages or current information due to synchronization delays in the log system. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-03-05 15:10:41"
+      description: The issue with where logs are not displaying the most recent messages or current information due to synchronization delays in the log system has been resolved and Messaging Logs API is operating normally at this time.
+      resolved: true
