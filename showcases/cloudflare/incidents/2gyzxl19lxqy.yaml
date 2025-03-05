@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2gyzxl19lxqy
+name: Increased HTTP 522 Errors in Sydney (SYD)
+impact: minor
+systems:
+    - fvqfrchfl8yc
+timeline:
+    - ts: "2025-03-05 20:06:10"
+      description: "Cloudflare is investigating an increased level of HTTP 522 errors in the Sydney (SYD) region. \n\nWe are working to analyse and mitigate this problem.  More updates to follow shortly."
+      investigating: true
