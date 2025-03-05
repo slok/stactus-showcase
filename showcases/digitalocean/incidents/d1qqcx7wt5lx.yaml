@@ -23,3 +23,11 @@ timeline:
         Users should now be able to create new certificates, provision and scale MongoDB clusters, and issue certificates for use with LBAAS and CDN services. Additionally, new custom domains on the App Platform should start configuring normally.
 
         We apologize for the inconvenience and will share another update once the matter is fully resolved.
+    - ts: "2025-03-05 23:11:19"
+      description: |-
+        From 20:08 UTC to 21:49 UTC, users may have experienced issues creating new certificates, provisioning or scaling MongoDB clusters, and issuing certificates for use with LBAAS and CDN services. Additionally, a subset of new custom domains on the App Platform may have taken longer than usual to configure.
+
+        Our Certificate Authority has fully resolved the issue with our managed certificates service, and all services have returned to normal operation.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true
