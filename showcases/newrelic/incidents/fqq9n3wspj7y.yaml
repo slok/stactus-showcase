@@ -1,0 +1,16 @@
+version: incident/v1
+id: fqq9n3wspj7y
+name: Potential Service Interruption
+impact: minor
+systems:
+    - mc4f9x2xl1zg
+    - 5wk3qb87hk5h
+timeline:
+    - ts: "2025-03-05 07:40:14"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2025-03-05 07:43:14"
+      description: New users are unable to login to Android application for the first time.
+      investigating: true
+    - ts: "2025-03-05 07:48:11"
+      description: The issue has been identified and a fix is being implemented.
