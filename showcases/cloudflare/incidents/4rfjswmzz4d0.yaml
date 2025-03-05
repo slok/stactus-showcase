@@ -1,0 +1,11 @@
+version: incident/v1
+id: 4rfjswmzz4d0
+name: Issues with Cached Resources in the London Region
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+    - shcqh0p22750
+timeline:
+    - ts: "2025-03-05 14:38:23"
+      description: Cloudflare is aware of and investigating isolated cases where cached resources are incorrectly served after purging actions were performed in London region.
+      investigating: true
