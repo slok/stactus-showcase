@@ -30,5 +30,5 @@ timeline:
       description: We have seen recovery across our services and impact is mitigated.
       investigating: true
     - ts: "2025-03-03 05:31:19"
-      description: This incident has been resolved.
+      description: On March 3rd 2025 between 04:07 UTC and 09:36 UTC various GitHub services were degraded with an average error rate of 0.03% and peak error rate of 9%. This issue impacted web requests, API requests, and git operations. <br /><br />This incident was triggered because a network node in one of GitHub's datacenter sites partially failed, resulting in silent packet drops for traffic served by that site. At 09:22 UTC, we identified the failing network node, and at 09:36 UTC we addressed the issue by removing the faulty network node from production.<br /><br />In response to this incident, we are improving our monitoring capabilities to identify and respond to similar silent errors more effectively in the future.
       resolved: true
