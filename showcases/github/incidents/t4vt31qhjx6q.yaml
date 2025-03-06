@@ -25,5 +25,5 @@ timeline:
       description: Pull Requests is operating normally.
       investigating: true
     - ts: "2025-02-24 17:09:46"
-      description: This incident has been resolved.
+      description: On February 24, 2025, between 15:17 UTC and 17:08 UTC the GitHub Issues & Pull Requests services were degraded by showing stale results on search powered pages such as /issues and /pulls, meaning the displayed results may not have included the most recent updates. Additional features that depend on search functionality may have served stale results during this incident. There was no increase in latency for any of the services depending on search.<br />We mitigated the incident by increasing the replica count for the workers that process background jobs related to search indexing. <br />We are working on identifying the root cause to avoid similar incidents in the future.<br />
       resolved: true
