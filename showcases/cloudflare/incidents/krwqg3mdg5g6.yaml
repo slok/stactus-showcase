@@ -1,0 +1,11 @@
+version: incident/v1
+id: krwqg3mdg5g6
+name: 'Cloudflare R2: Availability issues in Bangkok, Thailand'
+impact: none
+systems: []
+timeline:
+    - ts: "2025-03-06 16:22:27"
+      description: |-
+        Cloudflare investigated and resolved an R2 availability issue which potentially impacted multiple customers in Bangkok, Thailand.
+        The timeframe was between 4:20 and 16:04 UTC. Mitigations were applied and the issue was resolved accordingly.
+      resolved: true

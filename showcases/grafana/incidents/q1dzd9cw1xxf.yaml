@@ -1,0 +1,13 @@
+version: incident/v1
+id: q1dzd9cw1xxf
+name: Read errors in prod-eu-west-0
+impact: minor
+systems:
+    - 9rtx96d2z01z
+    - d2vdtkjjdzjy
+timeline:
+    - ts: "2025-03-06 16:16:14"
+      description: "As of 3:35pm UTC, we were alerted to an issue with a Mimir read path outage in prod-01-eu-west-0. Users experiencing this issue may have encountered timeouts on Prometheus/metrics queries. \n\nService has recovered but we are monitoring."
+      investigating: true
+    - ts: "2025-03-06 16:17:45"
+      description: A fix has been implemented and we are monitoring the results.

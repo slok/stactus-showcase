@@ -1,0 +1,12 @@
+version: incident/v1
+id: vltqc887p9s0
+name: Leader Election Issues with PG Flex Clusters close to NA region
+impact: minor
+systems:
+    - dh7c2vrxqg17
+timeline:
+    - ts: "2025-03-06 16:08:35"
+      description: We are investigating an issue where postgres flex clusters are unable to elect a new leader.
+      investigating: true
+    - ts: "2025-03-06 16:10:59"
+      description: A fix has been implemented and we are monitoring
