@@ -10,3 +10,7 @@ timeline:
         Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: Hostnames using a Load Balancer with a disabled Fallback pool might observe 530 (1016) errors.
         Further detail will be provided as more information becomes available.
       investigating: true
+    - ts: "2025-03-06 18:00:48"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-03-06 18:07:06"
+      description: A fix has been implemented and we are monitoring the results.
