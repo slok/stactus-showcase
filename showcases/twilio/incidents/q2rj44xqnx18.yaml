@@ -1,9 +1,12 @@
 version: incident/v1
 id: q2rj44xqnx18
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: 500 Errors to Access Phone Numbers Inventory in The AU1 Region
+impact: minor
+systems:
+    - pv5w18vrltfl
 timeline:
     - ts: "2025-03-06 20:00:05"
       description: Our monitoring systems have detected a potential issue in Inventory Federation Service. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-03-06 20:25:21"
+      description: We've noticed a spike of errors for accessing Phone Number Inventory Resources in the AU1 region that occurred between 19:39 UTC to about 19:55 UTC. The errors have subsided, but our engineers continue to investigate the root cause. We'll provide another update in 2 hours or as soon as more information becomes available.
