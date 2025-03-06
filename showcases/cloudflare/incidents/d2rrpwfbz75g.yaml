@@ -1,0 +1,10 @@
+version: incident/v1
+id: d2rrpwfbz75g
+name: Email Obfuscation Status displaying Incorrect Statuses
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-03-06 21:41:13"
+      description: Cloudflare is investigating issues with Cloudflare Dashboard Which Might Display Incorrect Email Obfuscation Status. Customers using the Dashboard are impacted as email obfuscation values might be incorrectly displayed.
+      investigating: true
