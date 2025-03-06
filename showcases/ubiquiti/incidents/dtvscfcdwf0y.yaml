@@ -1,0 +1,13 @@
+version: incident/v1
+id: dtvscfcdwf0y
+name: UniFi Talk Partial Outage
+impact: major
+systems:
+    - s78xyt2hftwd
+timeline:
+    - ts: "2025-03-06 17:15:29"
+      description: An issue has been identified where users may be unable to make and/or receive calls to/from their UniFi Talk numbers. Our teams are investigating the issue and will provide periodic updates on status.ui.com. We apologize for any inconvenience and are working to restore service as quickly as possible.
+      investigating: true
+    - ts: "2025-03-06 17:17:29"
+      description: In some cases, disabling the Advanced Call Routing option and restarting the Talk application may help users.
+      investigating: true
