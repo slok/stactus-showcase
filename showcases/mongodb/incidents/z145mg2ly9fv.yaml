@@ -9,3 +9,6 @@ timeline:
       description: We are again seeing delays in provisioning new and reconfigured Atlas Cluster nodes as a result of maintenance at our TLS certificate provider. Running clusters should experience no impact from this event. Refer to https://letsencrypt.status.io/ for more information.
     - ts: "2025-03-05 21:21:43"
       description: We are seeing errors subside from our TLS provider and we will continue monitoring.
+    - ts: "2025-03-05 23:50:01"
+      description: This incident has been resolved.
+      resolved: true
