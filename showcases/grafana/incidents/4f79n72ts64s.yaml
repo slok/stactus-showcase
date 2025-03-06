@@ -1,0 +1,13 @@
+version: incident/v1
+id: 4f79n72ts64s
+name: Write path down in prod-us-east-2-prometheus-prod-56
+impact: major
+systems:
+    - zqsjp5p0d8n7
+timeline:
+    - ts: "2025-03-06 22:41:16"
+      description: We are currently investigating an issue with the write path in prod-us-east-2-prometheus-prod-56.
+      investigating: true
+    - ts: "2025-03-06 22:44:21"
+      description: We are continuing to investigate this issue.
+      investigating: true
