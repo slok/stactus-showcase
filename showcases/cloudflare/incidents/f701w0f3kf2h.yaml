@@ -1,0 +1,12 @@
+version: incident/v1
+id: f701w0f3kf2h
+name: Connectivity issues between Asia and Europe on March 4
+impact: none
+systems: []
+timeline:
+    - ts: "2025-03-06 04:28:54"
+      description: |-
+        Between 17:45-21:45 UTC on 4th March, a subsea cable fault between Asia and Europe resulted in reduced network capacity. This caused impact to Cloudflare and other third party networks resulting in heavy congestion on alternate paths.
+
+        Customers may have experienced increased latency and/or connectivity issues whilst automated systems and Cloudflare engineering worked to mitigate impact.
+      resolved: true
