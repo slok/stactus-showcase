@@ -1,12 +1,12 @@
 version: incident/v1
 id: d2rrpwfbz75g
-name: Email Obfuscation Status displaying Incorrect Statuses
+name: Zone Settings Displaying Incorrect Statuses
 impact: minor
 systems:
     - 3sq3s4d20ywk
 timeline:
     - ts: "2025-03-06 21:41:13"
-      description: Cloudflare is investigating issues with Cloudflare Dashboard Which Might Display Incorrect Email Obfuscation Status. Customers using the Dashboard are impacted as email obfuscation values might be incorrectly displayed.
+      description: Cloudflare is investigating issues with Cloudflare Dashboard which might display incorrect statuses for Email Obfuscation, IP Geolocation, Mirage and Server Side Excludes. Customers using the Dashboard are impacted as these setting values might be incorrectly displayed.
       investigating: true
     - ts: "2025-03-06 21:52:14"
       description: The issue has been identified and a fix is being implemented.
