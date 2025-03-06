@@ -1,0 +1,9 @@
+version: incident/v1
+id: t3233zp8tjdg
+name: SMS API Requests Failures to Create Messages
+impact: none
+systems: []
+timeline:
+    - ts: "2025-03-06 00:37:21"
+      description: Twilio Programmable Message was degraded for 2 minutes between 21:10 UTC and 21:12 UTC on 03/04/2025. During this period of time customers may have received 500's in the API response when attempting to send a message. The issue has now been resolved.
+      resolved: true
