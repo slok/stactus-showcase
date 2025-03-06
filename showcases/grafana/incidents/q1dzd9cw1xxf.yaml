@@ -11,3 +11,6 @@ timeline:
       investigating: true
     - ts: "2025-03-06 16:17:45"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-03-06 16:49:19"
+      description: Many ingesters were evicted from nodes in cortex-prod-01 at once causing a read path outage. Once the ingesters were rescheduled the read path recovered. The errors lasted about 10 minutes.
+      resolved: true

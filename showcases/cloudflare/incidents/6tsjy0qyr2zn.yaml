@@ -1,0 +1,12 @@
+version: incident/v1
+id: 6tsjy0qyr2zn
+name: 'Cloudflare Load Balancing: 530 (1016) errors'
+impact: minor
+systems:
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2025-03-06 16:40:22"
+      description: |-
+        Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: Hostnames using a Load Balancer with a disabled Fallback pool might observe 530 (1016) errors.
+        Further detail will be provided as more information becomes available.
+      investigating: true
