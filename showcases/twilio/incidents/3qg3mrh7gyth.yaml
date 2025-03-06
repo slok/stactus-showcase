@@ -1,9 +1,13 @@
 version: incident/v1
 id: 3qg3mrh7gyth
-name: On Call Engineers are Investigating an issue
+name: Conversations API for the US Region Failing
 impact: none
-systems: []
+systems:
+    - 2vs63pk0qq23
 timeline:
     - ts: "2025-03-06 19:03:46"
       description: Our monitoring systems have detected a potential issue with Conversations API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-03-06 19:15:03"
+      description: Our monitoring systems have detected a potential issue with Conversations API for the US region. Customers were impacted from 18:44 to 18:46 UTC due to partial degradation of the service. The issue is mitigated and the engineers are investigating the root cause.
+      resolved: true

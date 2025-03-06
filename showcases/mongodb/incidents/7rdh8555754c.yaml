@@ -1,0 +1,17 @@
+version: incident/v1
+id: 7rdh8555754c
+name: 'MongoDB Cloud Manager: Some pages in Cluster Management UI are unavailable'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-03-06 19:15:43"
+      description: |-
+        We are aware of some pages in the Cloud Manager UI for managing clusters being unavailable. We've identified a fix and are working on restoring access.
+
+        Cloud Manager Admin API is unaffected
+
+        Backing cluster health and operations are unaffected.
+      investigating: true
+    - ts: "2025-03-06 19:16:38"
+      description: The issue has been identified and a fix is being implemented
