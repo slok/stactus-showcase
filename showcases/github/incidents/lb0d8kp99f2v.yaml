@@ -1,0 +1,17 @@
+version: incident/v1
+id: lb0d8kp99f2v
+name: Disruption with some GitHub services
+impact: minor
+systems:
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2025-03-07 10:03:58"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-03-07 10:05:59"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-03-07 10:06:04"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
