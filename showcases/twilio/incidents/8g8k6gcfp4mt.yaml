@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8g8k6gcfp4mt
+name: SMS Delivery Failures on a subset of Twilio's Israel Phone Numbers
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-03-07 19:38:31"
+      description: We are experiencing SMS delivery failures to a subset of Twilio's Israel Phone numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 60 minutes or as soon as more information becomes available.
+      investigating: true
