@@ -1,6 +1,6 @@
 version: incident/v1
 id: fqq9n3wspj7y
-name: Potential Service Interruption
+name: Android Mobile Application Issues - US and EU Region
 impact: minor
 systems:
     - mc4f9x2xl1zg
@@ -20,7 +20,7 @@ timeline:
       description: We are continuing to monitor for any further issues.
     - ts: "2025-03-05 08:02:24"
       description: |-
-        Between 2025-03-05 06:09:00 UTC UTC and 2025-03-05 07:43:00 UTC on March 5th 2025, some customers in the US and EU region may have experienced difficulties to login to android application.
+        Between 06:09 UTC and 07:43 UTC on March 5th 2025, some customers in the US and EU region may have experienced difficulties using the New Relic android application.
          
         We have investigated and resolved this service interruption and impacted services have returned to normal operations.
       resolved: true
