@@ -1,0 +1,47 @@
+version: incident/v1
+id: ncl47z14t55q
+name: Deprecated Query Functionality in the US Region
+impact: minor
+systems:
+    - rbts0zzw73dl
+    - 2vkckmpm1kh6
+    - k4c77k6bzcl7
+    - ty1004s644gq
+    - 5x10l9g2z3t6
+    - 1ccpnwlhg6xx
+    - 028b05n94my0
+    - 45zc1fn1w80h
+    - k2c0hnpnmgqn
+    - 5p33lkzzqm0z
+    - j6v4tzmw08t4
+    - 5kywhg5j0l21
+    - 1mwh21hqrxlw
+    - ymfwncrn2dnh
+    - 2jrn08x58ps2
+    - nw4g7754n7tl
+    - 9jndj4kfv59w
+    - pmtvnzg1dzfm
+    - lm2qpsbfggh7
+    - x87lk2mkvdtx
+    - s27h21w34qhk
+    - prjgs1mvmqg9
+    - g3mtj9z8c1cq
+    - 6x8hq64xfvwl
+    - 833c8h98qq4g
+    - q94v4hz14v0f
+    - xrzsz1k79xbd
+    - czn9jxzshjxn
+    - 5qhzckvc2ncn
+    - xlzs28xhd8bw
+    - mc4f9x2xl1zg
+    - 927km3k58wgb
+    - 8k5pmrjbl1w0
+    - 7yqy1ctsjw35
+    - 5kj1rklxtgzg
+timeline:
+    - ts: "2025-03-08 21:09:57"
+      description: We are investigating a service interruption impacting data from query responses which may be affecting some customers in the US region. No data loss has been observed at this time and no further actions are required by customers as we work to resolve this.
+      investigating: true
+    - ts: "2025-03-08 21:20:16"
+      description: We are continuing to investigate this issue.
+      investigating: true
