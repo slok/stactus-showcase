@@ -1,0 +1,26 @@
+version: incident/v1
+id: m7vl0x8k3j9c
+name: Incident with Actions and Pages
+impact: minor
+systems:
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2025-03-08 17:45:10"
+      description: We are investigating reports of degraded performance for Actions and Pages
+      investigating: true
+    - ts: "2025-03-08 17:50:01"
+      description: We are investigating impact to Actions run start delays, about 40% of runs are not starting within five minutes and Pages deployments are impacted for GitHub hosted runners.
+      investigating: true
+    - ts: "2025-03-08 18:00:32"
+      description: Pages is operating normally.
+      investigating: true
+    - ts: "2025-03-08 18:10:55"
+      description: Actions run start delays are mitigated. Actions runs that failed will need to be re-run. Impacted Pages updates will need to re-run their deployments.
+      investigating: true
+    - ts: "2025-03-08 18:11:50"
+      description: Actions is operating normally.
+      investigating: true
+    - ts: "2025-03-08 18:11:56"
+      description: This incident has been resolved.
+      resolved: true
