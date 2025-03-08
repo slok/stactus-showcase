@@ -43,5 +43,8 @@ timeline:
       description: We are investigating a service interruption impacting data from query responses which may be affecting some customers in the US region. No data loss has been observed at this time and no further actions are required by customers as we work to resolve this.
       investigating: true
     - ts: "2025-03-08 21:20:16"
+      description: We have determined the service interruption has not impacted ingest or alerts but has to do with serving live queries. We are continuing to investigate and thank you for your patience while we work through this issue.
+      investigating: true
+    - ts: "2025-03-08 21:46:35"
       description: We are continuing to investigate this issue.
       investigating: true
