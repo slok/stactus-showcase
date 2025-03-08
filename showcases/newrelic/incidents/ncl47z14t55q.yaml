@@ -1,7 +1,7 @@
 version: incident/v1
 id: ncl47z14t55q
-name: Deprecated Query Functionality in the US Region
-impact: minor
+name: Degraded Query Functionality in the US Region
+impact: none
 systems:
     - rbts0zzw73dl
     - 2vkckmpm1kh6
@@ -48,3 +48,11 @@ timeline:
     - ts: "2025-03-08 21:46:35"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-03-08 22:05:38"
+      description: The incident is now in recovery with data ingest and alerting unaffected.
+    - ts: "2025-03-08 22:15:11"
+      description: |-
+        Thank you for your patience. We resolved this service interruption and impacted services have returned to normal operation. Please find additional details below:
+        Between 08:27 UTC and 09:37 UTC on March 8th, some customers in the US region may have experienced missing data from live edge NRDB queries. Data ingest and alerts were unaffected and there was no data loss.
+        If you are still experiencing unexpected behavior, please let me know and I will be happy to assist you further.
+      resolved: true
