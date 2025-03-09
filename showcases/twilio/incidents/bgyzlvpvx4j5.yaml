@@ -1,0 +1,9 @@
+version: incident/v1
+id: bgyzlvpvx4j5
+name: Link Resolution Service Degradation Restored
+impact: none
+systems: []
+timeline:
+    - ts: "2025-03-09 01:04:03"
+      description: 'We have successfully resolved the issue affecting our URL shortening service. During the incident, short links in messages were temporarily unable to be resolved for our customers. Incident Duration: Approximately 30 minutes (22:20 UTC - 22:50 UTC on March 8, 2025).'
+      resolved: true
