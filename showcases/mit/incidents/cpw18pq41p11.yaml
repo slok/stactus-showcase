@@ -9,3 +9,5 @@ timeline:
       description: |-
         During a planned maintenance window in the Warehouse to support Daylight Savings Time, we experienced an issue with the SAP scheduler, which impacted authorization data. The data in the warehouse is stable, but user access to the data is unavailable at this time.  We are working with SAP to correct this issue and re-run authorizations, and we are working to make the data available this afternoon.
         Please direct any questions about this incident to warehouse@mit.edu.
+    - ts: "2025-03-10 21:03:55"
+      description: As of 5:00 p.m., all warehouse data access, with the exception of Edacca access, has been restored to users. Edacca access is currently being restored and will be available soon. Please continue to direct any questions to warehouse@mit.edu.
