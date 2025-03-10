@@ -1,0 +1,13 @@
+version: incident/v1
+id: y0v0wnt1tf68
+name: Delays Publishing Debugger Alerts for a Subset of Voice Errors
+impact: minor
+systems:
+    - 6ltxq62mkxd0
+timeline:
+    - ts: "2025-03-10 23:06:56"
+      description: Our monitoring systems have detected a potential with connection errors to pied-piper over envoy for voicecon roles. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-03-10 23:23:00"
+      description: Our systems are experiencing delays publishing debugger alerts for a subset of Voice errors. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
