@@ -26,3 +26,11 @@ timeline:
         doctl kubernetes cluster list
 
         We are working on a solution and will provide further updates as we progress. We appreciate your patience and understanding.
+    - ts: "2025-03-10 21:49:45"
+      description: |-
+        From March 1st 12:00 UTC to March 10th 18:43 UTC, a subset of users experienced issues connecting Managed Kubernetes nodes to Droplets as a source to allow traffic, due to an issue with tags being applied internally. Some users may also have experienced issues adding Managed Kubernetes Clusters as a source in Cloud firewalls with related Droplets.
+
+        Our Engineering team has confirmed full resolution of the issue. Users should now be able to connect Managed Kubernetes nodes to Droplets and should also be able to add Managed Kubernetes Cluster as a source in the Cloud Firewall with related Droplets.
+
+        If you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel.
+      resolved: true
