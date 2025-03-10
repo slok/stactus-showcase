@@ -16,3 +16,13 @@ timeline:
 
         We apologize for the inconvenience and will share more information as soon as it's available.
       investigating: true
+    - ts: "2025-03-10 14:38:35"
+      description: |-
+        Our Engineering team has identified the cause of the issue affecting recently created Managed Kubernetes nodes. These nodes are currently unable to connect to Droplets that use the Managed Kubernetes Cluster as a source to allow traffic.
+        Additionally, users who add a Managed Kubernetes Cluster as a source in the Cloud firewall may experience issues with related Droplets not being added to the firewall as expected.
+
+        As a temporary solution, users can continue to add the tag k8s:CLUSTER_UUID, where CLUSTER_UUID is the UUID of the user's Managed Kubernetes Cluster. The UUID can be found in the Cloud Panel URL of the Managed Kubernetes Cluster or by running the following command:
+
+        doctl kubernetes cluster list
+
+        We are working on a solution and will provide further updates as we progress. We appreciate your patience and understanding.
