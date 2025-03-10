@@ -1,9 +1,13 @@
 version: incident/v1
 id: 0z042d5vyk6c
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Issues with Twilio Organization Public API Endpoints
+impact: minor
+systems:
+    - 3mryzdr7rssr
 timeline:
     - ts: "2025-03-10 10:21:37"
       description: Our monitoring systems have detected a potential issue. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-03-10 10:50:16"
+      description: We are currently experiencing issues with our Organization Public API endpoints, where requests are returning a 401 Unauthorized status due to an unexpected error in our token generation process. This is affecting users who rely on the Organization Public API for accessing organizational data. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
