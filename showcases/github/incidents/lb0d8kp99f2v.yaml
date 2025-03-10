@@ -26,5 +26,5 @@ timeline:
       description: We continue investigating degraded experience with searching for issues, pull, requests and actions workflow runs.
       investigating: true
     - ts: "2025-03-07 11:24:06"
-      description: This incident has been resolved.
+      description: On March 7, 2025, from 09:30 UTC to 11:07 UTC, we experienced a networking event that disrupted connectivity to our search infrastructure, impacting about 25% of search queries and indexing attempts. Searches for PRs, Issues, Actions workflow runs, Packages, Releases, and other products were impacted, resulting in failed requests or stale data. The connectivity issue self-resolved after 90 minutes. The backlog of indexing jobs was fully processed and saw recovery soon after, and queries to all indexes also saw an immediate return to normal throughput.<br /><br />We are working with our cloud provider to identify the root cause and are researching additional layers of redundancy to reduce customer impact in the future for issues like this one. We are also exploring mitigation strategies for faster resolution.
       resolved: true
