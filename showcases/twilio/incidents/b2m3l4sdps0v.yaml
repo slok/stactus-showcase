@@ -4,7 +4,11 @@ name: SMS Delivery Delay & Failure To Bouygues Telecom Network In France
 impact: minor
 systems:
     - yvvy3vlp4djf
+    - llgdln3dcs6p
 timeline:
     - ts: "2025-03-11 04:31:51"
       description: We are experiencing SMS delivery delay & failure to Bouygues Telecom Network in France. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-03-11 05:31:09"
+      description: We are experiencing SMS delivery delay & failure to Bouygues Telecom Network in France. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
