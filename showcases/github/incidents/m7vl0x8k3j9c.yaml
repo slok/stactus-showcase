@@ -22,5 +22,5 @@ timeline:
       description: Actions is operating normally.
       investigating: true
     - ts: "2025-03-08 18:11:56"
-      description: This incident has been resolved.
+      description: On March 8, 2025, between 17:16 UTC and 18:02 UTC, GitHub Actions and Pages services experienced degraded performance leading to delays in workflow runs and Pages deployments. During this time, 34% of Actions workflow runs experienced delays, and a small percentage of runs using GitHub-hosted runners failed to start. Additionally, Pages deployments for sites without a custom Actions workflow (93% of them) did not run, preventing new changes from being deployed. <br /><br />An unexpected data shape led to crashes in some of our pods. We mitigated the incident by excluding the affected pods and correcting the data that led to the crashes. We’ve fixed the source of the unexpected data shape and have improved the overall resilience of our service against such occurrences.
       resolved: true
