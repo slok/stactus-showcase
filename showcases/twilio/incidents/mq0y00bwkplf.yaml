@@ -1,0 +1,33 @@
+version: incident/v1
+id: mq0y00bwkplf
+name: Webhook Callbacks Degraded
+impact: minor
+systems:
+    - g2dt752kwqs0
+    - ys1jhy2ys04z
+    - b9z92qjr2p04
+    - w7nxj548smhd
+    - q015c7mrst1s
+    - x6drb5vw27bs
+    - vd76z27sk12v
+    - 6f5zbh4rqx3m
+    - 0xfc03jgk5g4
+    - l2p2s96tdsf4
+    - jncbcddlmbhn
+    - frxynt0ffp5w
+    - by1b8ylwwgs6
+    - tfdww2zxylgd
+    - 45nc391hhv9v
+    - dv0j99s68yxn
+    - 86c0cvzk43pv
+    - xnzrm2zg4qbv
+    - yf5px6tdl6yt
+    - 361mb56zmf8z
+    - qphgn531prd5
+    - 622gcfj89fsh
+    - sxwbmz83d77t
+    - s91kksd3hqjp
+timeline:
+    - ts: "2025-03-11 13:57:12"
+      description: Twilio callback service is degraded and customers may experience failed webhook callbacks for a small portion of their traffic. Our engineering team is currently investigating the root cause of the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
