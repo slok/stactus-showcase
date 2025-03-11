@@ -24,3 +24,9 @@ timeline:
       description: |-
         We are actively working with ISPs to resolve the current issues and to better understand the recent changes that have contributed to these problems. We also encourage our customers to contact their ISPs, as this appears to be an ISP-specific issue. Our investigation show that statuspage.io domains can be resolved using Google or Cloudflare DNS resolvers, such as 1.1.1.1 and 8.8.8.8. Please refer to the steps outlined in our community post to access all Statuspage-based domains effectively.
         https://community.atlassian.com/t5/Statuspage-articles/Mitigation-steps-for-statuspage-io-domain-ISP-Issues-in-Brazil/ba-p/2951025#M274
+    - ts: "2025-03-11 07:52:20"
+      description: |-
+        After a thorough investigation, we have determined that the recent connectivity issues experienced for statuspage.io domains in Brazil were isolated to specific Internet Service Providers (ISPs) within Brazil and there was no impact or issue with Statuspage’s infrastructure and DNS configurations itself. Our team is actively monitoring the situation and trying our best to reach out to the relevant ISPs to ensure that access issues are resolved for all affected users. If connectivity issues persist, and you are located in Brazil, we kindly ask that you open a support request with your internet service provider or follow our community post to resolve the issue.
+
+        https://community.atlassian.com/forums/Statuspage-articles/Mitigation-steps-for-statuspage-io-domain-ISP-Issues-in-Brazil/ba-p/2951025#M274
+      resolved: true
