@@ -1,0 +1,10 @@
+version: incident/v1
+id: ghl6yqw0psjh
+name: Customer Accounts Created With Incorrect Billing Countries
+impact: minor
+systems:
+    - jw9dh2mf4392
+timeline:
+    - ts: "2025-03-11 17:33:24"
+      description: We are experiencing an issue where customer accounts may be created and/or associated with incorrect billing countries. Our engineers are actively working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
