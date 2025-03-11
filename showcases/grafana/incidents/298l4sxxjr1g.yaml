@@ -1,0 +1,14 @@
+version: incident/v1
+id: 298l4sxxjr1g
+name: Delay in aggregated series through adaptive metrics
+impact: minor
+systems:
+    - djjv8h5nh3jp
+timeline:
+    - ts: "2025-03-11 20:51:57"
+      description: |-
+        Aggregated series through adaptive metrics have been delayed since ~15:50 UTC in prod-us-central-0/cortex-prod-04. No data is lost, it is only being delayed for querying.
+
+        We’ve put a fix in place and it’s catching up now. We're currently monitoring further.
+    - ts: "2025-03-11 20:52:24"
+      description: We are continuing to monitor the fix for this issue.
