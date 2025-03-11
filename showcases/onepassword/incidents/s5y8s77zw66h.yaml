@@ -1,0 +1,10 @@
+version: incident/v1
+id: s5y8s77zw66h
+name: Some customers unable to sign in to their 1Password account
+impact: major
+systems:
+    - cgltwfnt80mm
+timeline:
+    - ts: "2025-03-11 15:51:46"
+      description: We are investigating intermittent issues affecting sign-ins and loading sections in the 1Password app and browser extension. Users may see errors such as "Can't sign in. The request took too long." or "We're having trouble loading this section." Our team is working to resolve this as quickly as possible.
+      investigating: true
