@@ -1,10 +1,10 @@
 version: incident/v1
 id: f3wkd30ycmrc
-name: SMS Delivery Failure From Singapore via Subset of Longcode
+name: SMS Delivery Failure To and From Singapore via Subset of Longcode
 impact: minor
 systems:
     - 8qjql0kqnd33
 timeline:
     - ts: "2025-03-10 23:48:26"
-      description: We are experiencing SMS delivery failures from Singapore via Subset of Longcode. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: We are experiencing SMS delivery failures to and from Singapore via Subset of Longcode. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
