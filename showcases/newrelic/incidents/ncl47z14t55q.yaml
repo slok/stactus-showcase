@@ -40,7 +40,7 @@ systems:
     - 5kj1rklxtgzg
 timeline:
     - ts: "2025-03-08 21:09:57"
-      description: We are investigating a service interruption impacting data from query responses which may be affecting some customers in the US region. No data loss has been observed at this time and no further actions are required by customers as we work to resolve this.
+      description: We are investigating a service interruption impacting data from query responses which may be affecting some customers in the US region. No data drops have been observed at this time and no further actions are required by customers as we work to resolve this.
       investigating: true
     - ts: "2025-03-08 21:20:16"
       description: We have determined the service interruption has not impacted ingest or alerts but has to do with serving live queries. We are continuing to investigate and thank you for your patience while we work through this issue.
@@ -51,8 +51,5 @@ timeline:
     - ts: "2025-03-08 22:05:38"
       description: The incident is now in recovery with data ingest and alerting unaffected.
     - ts: "2025-03-08 22:15:11"
-      description: |-
-        Thank you for your patience. We resolved this service interruption and impacted services have returned to normal operation. Please find additional details below:
-        Between 08:27 UTC and 09:37 UTC on March 8th, some customers in the US region may have experienced missing data from live edge NRDB queries. Data ingest and alerts were unaffected and there was no data loss.
-        If you are still experiencing unexpected behavior, please reach out to support who will be happy to assist you further.
+      description: "We resolved this service interruption and impacted services have returned to normal operation. \n\nBetween 08:27 UTC and 09:37 UTC on March 8th, some customers in the US region may have experienced missing data from live edge NRDB queries. Data ingest and alerts were not affected."
       resolved: true
