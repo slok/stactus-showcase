@@ -27,5 +27,5 @@ timeline:
       description: We completed the rollout. GitHub Codespaces are healthy.
       investigating: true
     - ts: "2025-02-15 04:15:43"
-      description: This incident has been resolved.
+      description: On February 15, 2025, between 6:35 pm UTC and 4:15 am UTC the Codespaces service was degraded and users in various regions experienced intermittent connection failures. On average, the error rate was 50% and peaked at 65% of requests to the service. This was due to a service deployment.<br /><br />We mitigated the incident by completing the deployment to the impacted regions.<br /><br />The completion of this deployment should prevent future deployments of the service from negatively impacting Codespace connectivity.
       resolved: true
