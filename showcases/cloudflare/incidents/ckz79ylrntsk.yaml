@@ -1,12 +1,15 @@
 version: incident/v1
 id: ckz79ylrntsk
-name: Increased HTTP 530 Errors in Hong Kong
+name: Network Performance issue in Hong Kong
 impact: minor
 systems:
     - wf2gdmxg7cv3
 timeline:
     - ts: "2025-03-12 02:31:55"
-      description: "Cloudflare is investigating an increased level of HTTP 530 errors in Hong Kong. \n\nWe are working to analyse and mitigate this problem.  More updates to follow shortly."
+      description: |-
+        Cloudflare is investigating network performance issue in Hong Kong. Users might be experiencing elevated error rates and connection timeout issues.
+
+        We are working to analyse and mitigate this problem.  More updates to follow shortly.
       investigating: true
     - ts: "2025-03-12 02:34:15"
       description: A fix has been implemented and we are monitoring the results.
