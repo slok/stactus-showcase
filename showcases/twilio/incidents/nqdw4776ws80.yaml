@@ -1,9 +1,12 @@
 version: incident/v1
 id: nqdw4776ws80
-name: On Call Engineers are Investigating an issue with number deactivation
+name: Intermittent SMS/MMS Deliverability Issues to AT&T Due to Incorrect Deactivation Data
 impact: none
 systems: []
 timeline:
     - ts: "2025-03-12 16:03:38"
       description: Our monitoring systems have detected a potential issue with number deactivation. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-03-12 16:12:32"
+      description: Twilio experienced degraded service on a subset of US short codes for approximately 48 hours between March 5th and March 7th, 2025. During this period, customers may have experienced message delivery failures to AT&T numbers due to certain numbers being incorrectly marked as deactivated in the operator’s data file. The issue has been resolved as of March 7th at 13:34 UTC.
+      resolved: true
