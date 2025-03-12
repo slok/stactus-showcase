@@ -1,10 +1,13 @@
 version: incident/v1
 id: wlbk278jlcpd
-name: SMS Delivery Report Delays When Sending SMS to Chunghwa and Taiwan Mobile in Taiwan, Province of China
+name: SMS Delivery Report Delays When Sending SMS to Multiple Networks in Taiwan, Province of China
 impact: minor
 systems:
     - 8qjql0kqnd33
 timeline:
     - ts: "2025-03-12 17:13:57"
       description: We are experiencing delays in receiving message delivery reports when sending SMS to Chunghwa in Taiwan, Province of China. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-03-12 18:01:56"
+      description: We are still experiencing delays in receiving message delivery reports when sending SMS to Chunghwa in Taiwan, Province of China. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
