@@ -5,7 +5,11 @@ impact: critical
 systems:
     - 2vj35rbpdr7s
     - nrv6vyr5l7m8
+    - hbqgpzmf8h9k
 timeline:
     - ts: "2025-03-13 03:19:18"
       description: "As of 3am UTC, we were alerted to an issue with accessing Grafana for instances in the prod-ap-south-1 and prod-ap-northeast-0 clusters. Users experiencing this issue may encounter an error message when attempting to log in to Grafana. \n\nEngineering is actively engaged and assessing the issue. We will provide updates accordingly."
+      investigating: true
+    - ts: "2025-03-13 03:58:08"
+      description: "We have discovered that this is also affecting instances in the prod-us-east-0 cluster. \n\nOur Engineering team is still investigating and assessing the issue. We will provide further updates accordingly."
       investigating: true
