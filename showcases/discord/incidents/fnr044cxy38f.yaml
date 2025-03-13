@@ -1,0 +1,16 @@
+version: incident/v1
+id: fnr044cxy38f
+name: infrastructure issues
+impact: major
+systems:
+    - rhznvxg4v7yh
+    - x7rnz0t7dpnp
+timeline:
+    - ts: "2025-03-13 19:29:30"
+      description: Certain messages might fail to send and load. Certain sessions might not start. Golive streams are also impacted.
+      investigating: true
+    - ts: "2025-03-13 19:29:48"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-03-13 19:32:29"
+      description: A fix has been implemented and we are monitoring the results.
