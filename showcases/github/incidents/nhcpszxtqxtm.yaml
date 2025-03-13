@@ -12,5 +12,5 @@ timeline:
       description: We have applied a mitigation for the affected Redis node, and are starting to see recovery with Action workflow executions.
       investigating: true
     - ts: "2025-03-12 14:07:12"
-      description: This incident has been resolved.
+      description: On March 12, 2025, between 13:28 UTC and 14:07 UTC, the Actions service experienced degradation leading to run start delays. During the incident, about 0.6% of workflow runs failed to start, 0.8% of workflow runs were delayed by an average of one hour, and 0.1% of runs ultimately ended with an infrastructure failure. The issue stemmed from connectivity problems between the Actions services and certain nodes within one of our Redis clusters. The service began recovering once connectivity to the Redis cluster was restored at 13:41 UTC. These connectivity issues are typically not a concern because we can fail over to healthier replicas. However, due to an unrelated issue, there was a replication delay at the time of the incident, and failing over would have caused a greater impact on our customers. We are working on improving our resiliency and automation processes for this infrastructure to improve the speed of diagnosing and resolving similar issues in the future.
       resolved: true
