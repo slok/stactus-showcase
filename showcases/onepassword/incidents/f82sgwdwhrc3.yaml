@@ -1,0 +1,13 @@
+version: incident/v1
+id: f82sgwdwhrc3
+name: Intermittent sign-in failures affecting Duo Security SSO login
+impact: minor
+systems:
+    - cgltwfnt80mm
+    - 5mb7qcyd6jtf
+    - mxh1682h05hp
+    - 4p0mdlpx000t
+timeline:
+    - ts: "2025-03-13 17:47:22"
+      description: We are actively investigating an issue that is causing authentication failures for some Duo SSO users. This issue is intermittent and the authentication requests do eventually succeed. Our engineers are engaged and working as quickly as possible to identify the issue towards resolution.
+      investigating: true
