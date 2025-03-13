@@ -20,5 +20,5 @@ timeline:
       description: We have pushed a fix and are seeing general recovery.
       investigating: true
     - ts: "2025-01-29 16:30:58"
-      description: This incident has been resolved.
+      description: On 29 January 2025 between 14:00 UTC and 16:28 UTC Copilot chat in github.com was degraded, where chat messages which included chat skills failed to save to our datastore due to a change in client side generated identifiers.<br /><br />We mitigated the incident by rolling back the client side changes. Based on this incident, we are working on better monitoring to reduce our detection time, fixing gaps in testing to prevent a repeat of incidents such as this one in the future.<br />
       resolved: true
