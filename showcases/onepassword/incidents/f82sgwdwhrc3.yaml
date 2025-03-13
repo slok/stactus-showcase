@@ -11,3 +11,5 @@ timeline:
     - ts: "2025-03-13 17:47:22"
       description: We are actively investigating an issue that is causing authentication failures for some Duo SSO users. This issue is intermittent and the authentication requests do eventually succeed. Our engineers are engaged and working as quickly as possible to identify the issue towards resolution.
       investigating: true
+    - ts: "2025-03-13 19:17:47"
+      description: We have identified an issue resolving DNS for some duosecurity.com subdomains. We have made some configuration changes to improve the issue and have seen error rates falling. We have made additional changes to our monitoring to provide more information and will continue to monitor this issue. This issue is intermittent and the authentication requests do eventually succeed upon retry.
