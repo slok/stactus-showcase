@@ -13,3 +13,5 @@ timeline:
       investigating: true
     - ts: "2025-03-13 19:17:47"
       description: We have identified an issue resolving DNS for some duosecurity.com subdomains. We have made some configuration changes to improve the issue and have seen error rates falling. We have made additional changes to our monitoring to provide more information and will continue to monitor this issue. This issue is intermittent and the authentication requests do eventually succeed upon retry.
+    - ts: "2025-03-14 15:49:59"
+      description: After our configuration updates yesterday, the failure rate for this issue has returned to a normal level. We will continue to monitor the situation today.
