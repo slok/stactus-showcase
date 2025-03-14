@@ -1,0 +1,16 @@
+version: incident/v1
+id: jvgtznsf1z4m
+name: Capacity issues in LHR region
+impact: minor
+systems:
+    - 1t3gcxv2hd88
+timeline:
+    - ts: "2025-03-14 13:55:09"
+      description: |-
+        New machine/volume creates in LHR regions are currently unavailable as there is no host capacity available.
+
+        Any workloads currently running will continue to run; it is also still possible to update existing machines/volumes.
+
+        Increasing `fly scale count` in LHR region is not possible. Blue-green deploys are also not possible at the moment, as well as deploys with `release_command`.
+
+        We expect more capacity to become available in the coming weeks. For the time being, please choose a nearby region for new workloads, such as AMS (Amsterdam, Netherlands) or ARN (Stockholm, Sweden).
