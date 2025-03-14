@@ -1,0 +1,11 @@
+version: incident/v1
+id: 5mjvwv4pjx6j
+name: Incorrect Data on Deactivations API for 2025-03-05
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2025-03-14 01:23:28"
+      description: "Our engineers are currently investigating the customer impact of a retroactive issue with Intermittent SMS/MMS Deliverability Issues to AT&T. We will follow up and provide customer impact details within 2 hours.\n\nTwilio has identified a large number of incorrect entries in the Deactivation API for March 5th, 2025. We are working with the carrier to identify the corrected list. To avoid further customer impact, we have removed the incorrect file until we can replace it with a corrected one. \n\nWhen querying 2025-03-05 on the Deactivations API, you will receive a 20404 error response."
+    - ts: "2025-03-14 01:24:23"
+      description: "Our engineers are currently investigating the customer impact of a retroactive issue with Intermittent SMS/MMS Deliverability Issues. We will follow up and provide customer impact details within 2 hours.\n\nTwilio has identified a large number of incorrect entries in the Deactivation API for March 5th, 2025. We are working with the carrier to identify the corrected list. To avoid further customer impact, we have removed the incorrect file until we can replace it with a corrected one. \n\nWhen querying 2025-03-05 on the Deactivations API, you will receive a 20404 error response."
