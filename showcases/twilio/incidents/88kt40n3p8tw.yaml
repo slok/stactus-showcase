@@ -1,9 +1,13 @@
 version: incident/v1
 id: 88kt40n3p8tw
-name: On Call Engineers are Investigating an Issue with our Programmable Voice Services
-impact: none
-systems: []
+name: Intermittent Outages or Failed API Requests with Dialing Permissions
+impact: minor
+systems:
+    - 4rv9xfxmdjg9
 timeline:
     - ts: "2025-03-14 20:47:51"
       description: Our monitoring systems have detected a potential issue with our Programmable Voice Services. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-03-14 21:10:08"
+      description: We are investigating intermittent outages or failed API requests with Dialing Permissions in our Voice API. We expect to provide another update in 1 hour or as soon as more information becomes available
       investigating: true
