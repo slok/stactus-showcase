@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-03-15 00:17:21"
       description: Users may intermittently be unable to connect to "global" Atlas Data Federation Endpoints. Retrying to connect is advised
       investigating: true
+    - ts: "2025-03-15 03:19:56"
+      description: Our internal canaries were alerting us to a problem but we are unable to find any customer impact. We are going to continue to investigate but close this as an customer facing event
+      resolved: true
