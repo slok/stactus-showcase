@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-03-16 14:39:02"
       description: We continue to experience SMS delivery delays when sending messages to AWN/AIS Networks in Thailand. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-03-16 14:55:15"
+      description: During investigation by our engineers, message delivery to the AWN/AIS Networks in Thailand is confirmed to be operating as expected due to the routing of international long code numbers to numeric Sender IDs required. Pre-registration of Alphanumeric Sender ID is suggested to optimize delivery. This incident has been resolved.
+      resolved: true
