@@ -8,3 +8,7 @@ timeline:
     - ts: "2025-03-16 21:45:44"
       description: When using tool calling capabilities with the hermes-2-pro-mistral-7b model, tool calls are returned in the prompt response rather than the tool_calls response field.
       investigating: true
+    - ts: "2025-03-16 21:49:01"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-03-16 21:57:24"
+      description: A fix has been implemented and we are monitoring the results.
