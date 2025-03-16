@@ -11,3 +11,6 @@ timeline:
       description: Our engineers have identified an issue where outbound WhatsApp messages with media are not delivered with error 63021. Also affects users of Conversations who are sending WhatsApp messages. We expect to provide another update in 2 hour or as soon as more information becomes available
     - ts: "2025-03-16 06:15:03"
       description: We are observing recovery for outbound WhatsApp messages with media not being delivered with error 63021. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-03-16 06:50:23"
+      description: We are no longer experiencing issues where outbound WhatsApp messages with media are not being delivered with error 63021. This incident has been resolved.
+      resolved: true
