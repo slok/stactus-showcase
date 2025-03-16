@@ -1,0 +1,11 @@
+version: incident/v1
+id: xvts51mv77rz
+name: Elevated error rates for Hyperdrive traffic to origin databases hosted in Virginia
+impact: minor
+systems:
+    - 3t0npclljyyg
+    - d0x62dsm4c9n
+timeline:
+    - ts: "2025-03-16 04:26:31"
+      description: Hyperdrive team has identified increased error rates localized to Virginia.
+      investigating: true
