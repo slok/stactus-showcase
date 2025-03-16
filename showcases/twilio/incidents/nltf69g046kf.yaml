@@ -1,0 +1,10 @@
+version: incident/v1
+id: nltf69g046kf
+name: Whatsapp messages are not delivered with error 63021
+impact: major
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2025-03-16 03:50:00"
+      description: We've become aware of a potential issue with Whatsapp where messages are not delivered with error 63021. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
