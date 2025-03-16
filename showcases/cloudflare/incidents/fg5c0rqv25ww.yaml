@@ -1,0 +1,10 @@
+version: incident/v1
+id: fg5c0rqv25ww
+name: Workers AI issue - tool calling using hermes-2-pro-mistral-7b model
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2025-03-16 21:45:44"
+      description: When using tool calling capabilities with the hermes-2-pro-mistral-7b model, tool calls are returned in the prompt response rather than the tool_calls response field.
+      investigating: true
