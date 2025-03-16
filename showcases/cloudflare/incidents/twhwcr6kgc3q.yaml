@@ -1,0 +1,10 @@
+version: incident/v1
+id: twhwcr6kgc3q
+name: Cloudflare R2 Issues
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2025-03-16 19:56:40"
+      description: Cloudflare is investigating an increased level of errors for customers using R2 storage. We are working to analyze and mitigate the problem. More updates to follow shortly.
+      investigating: true
