@@ -17,3 +17,9 @@ timeline:
     - ts: "2025-03-17 21:25:00"
       description: 'We are investigating reports of issues with service(s): Issues We''re continuing to investigate. Users may see intermittent HTTP 500 responses when using Issues. Retrying the request may succeed.'
       investigating: true
+    - ts: "2025-03-17 23:01:30"
+      description: We saw a spike in error rate with issues related pages and API requests due to some problems with restarts in our kubernetes infrastructure that, at peak, caused 0.165% of requests to see timeouts or errors related to these API surfaces over a 15 minute period. At this time we see minimal impact and are continuing to investigate the cause of the issue.
+      investigating: true
+    - ts: "2025-03-17 23:02:33"
+      description: This incident has been resolved.
+      resolved: true
