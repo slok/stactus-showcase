@@ -1,0 +1,16 @@
+version: incident/v1
+id: fhhv3d27g8bb
+name: Capacity issues in IAD and AMS
+impact: minor
+systems:
+    - qyh8qlklk7mx
+timeline:
+    - ts: "2025-03-17 20:50:51"
+      description: |-
+        New machine/volume creates in IAD regions may fail as there is no host capacity available.
+
+        Any workloads currently running will continue to run; it is also still possible to update existing machines/volumes.
+
+        Increasing `fly scale count` in these regions may not work. Blue-green deploys may also be unavailable at the moment, as well as deploys with `release_command`.
+
+        We are provisioning additional capacity in this region.
