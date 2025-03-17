@@ -1,9 +1,17 @@
 version: incident/v1
 id: gkbxqjnb0t3r
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: 5xx Responses Using Programmable Messaging API
+impact: minor
+systems:
+    - d1j2nx64rpq3
+    - yvvy3vlp4djf
 timeline:
     - ts: "2025-03-17 12:16:39"
       description: Our monitoring systems have detected a potential issue. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-03-17 12:50:24"
+      description: The Twilio Programmable Messaging API was partially degraded for 1 minute between 05:01 to 05:02 Pacific Time on 03/17/2025. During this period of time, customers sending messages may have received 5xx's in API responses or experienced brief delays (less than 15 seconds) with message sending. The issue has now been resolved.
+      investigating: true
+    - ts: "2025-03-17 12:51:11"
+      description: The Twilio Programmable Messaging API was partially degraded for 1 minute between 05:01 to 05:02 Pacific Time on 03/17/2025. During this period of time, customers sending messages may have received 5xx's in API responses or experienced brief delays (less than 15 seconds) with message sending. The issue has now been resolved.
+      resolved: true
