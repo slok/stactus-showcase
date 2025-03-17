@@ -1,0 +1,11 @@
+version: incident/v1
+id: 8mc14bpg2c34
+name: Tests failures on k6
+impact: none
+systems:
+    - 3gvy1n7fg4x4
+    - m79yjv169r06
+timeline:
+    - ts: "2025-03-17 16:12:11"
+      description: Some users may see their tests not running and getting aborted by system. We are investigating this issue.
+      investigating: true
