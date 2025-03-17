@@ -1,0 +1,11 @@
+version: incident/v1
+id: sxsb7crqng5g
+name: Load Balancing Custom Rules Update Issues
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2025-03-17 23:11:22"
+      description: We are investigating an issue where attempts to update Load Balancing Custom Rules via the Dashboard are unexpectedly failing with an HTTP 409 error in some cases. Load Balancing Custom Rule updates via the API PUT method are still working normally.
+      investigating: true
