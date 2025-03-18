@@ -4,7 +4,6 @@ name: Infrastructure Alerts- False Host Not Reporting
 impact: minor
 systems:
     - 028b05n94my0
-    - zj32brg420jm
 timeline:
     - ts: "2025-03-18 10:01:38"
       description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
@@ -14,3 +13,5 @@ timeline:
       investigating: true
     - ts: "2025-03-18 10:36:25"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-03-18 13:45:49"
+      description: We are continuing to work on a fix for this issue. This service interruption may impact some customers in in our US region
