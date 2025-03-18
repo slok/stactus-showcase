@@ -9,3 +9,7 @@ timeline:
     - ts: "2025-03-17 23:11:22"
       description: We are investigating an issue where attempts to update Load Balancing Custom Rules via the Dashboard are unexpectedly failing with an HTTP 409 error in some cases. Load Balancing Custom Rule updates via the API PUT method are still working normally.
       investigating: true
+    - ts: "2025-03-18 02:18:38"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-03-18 02:29:08"
+      description: We are continuing to work on a fix for this issue.
