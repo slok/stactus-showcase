@@ -1,0 +1,10 @@
+version: incident/v1
+id: j3p2xps4qdmb
+name: Cloudflare Stream Upload Issues
+impact: minor
+systems:
+    - 47xg28c02lnk
+timeline:
+    - ts: "2025-03-18 16:39:03"
+      description: Stream is investigating reports of encoding delays or increased errors on new video uploads. Playback and live streaming are not affected.
+      investigating: true
