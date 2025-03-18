@@ -7,3 +7,9 @@ timeline:
     - ts: "2025-03-18 15:52:30"
       description: We are investigating timeouts connecting to registry.fly.io. Customers may experience slower image pushes and pulls within Fly Machines.
       investigating: true
+    - ts: "2025-03-18 16:39:50"
+      description: |-
+        We are continuing to investigate the cause of increased connection timeouts to instances of our primary registry in AMS, FRA, WAW. Affected customers may be able to work around by pushing images to an alternate registry, registry2.fly.io:
+
+        FLY_REGISTRY_HOST=registry2.fly.io fly deploy
+      investigating: true
