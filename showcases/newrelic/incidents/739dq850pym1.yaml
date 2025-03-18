@@ -28,3 +28,8 @@ timeline:
       investigating: true
     - ts: "2025-03-18 19:05:40"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-03-18 19:36:10"
+      description: |-
+        Between 18:28 UTC and 18:58 UTC Tuesday March 18, 2025, some customers in the EU region may have experienced errors when sending data to New Relic, issues in viewing data in real time, and delayed or missing alert notifications related to real time data.
+        We have investigated and resolved this service interruption and impacted services have returned to normal operations.
+      resolved: true
