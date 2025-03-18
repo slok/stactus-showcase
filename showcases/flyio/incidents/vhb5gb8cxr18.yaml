@@ -13,3 +13,5 @@ timeline:
 
         FLY_REGISTRY_HOST=registry2.fly.io fly deploy
       investigating: true
+    - ts: "2025-03-18 17:02:26"
+      description: We have cordoned the affected registry instances in AMS, FRA, WAW and are seeing timeout errors decrease.
