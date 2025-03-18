@@ -1,0 +1,13 @@
+version: incident/v1
+id: 3yhh7mf01wk3
+name: 'Cloudflare Turnstile and Challenges: Ongoing issues in Estonia - (TLL)'
+impact: minor
+systems:
+    - x0tkn0hzrtw7
+    - m4jywscr0n0k
+timeline:
+    - ts: "2025-03-18 15:55:11"
+      description: |-
+        Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: an increased rate of Turnstile and Challenges errors are being observed in Estonia - (TLL).
+        Further detail will be provided as more information becomes available.
+      investigating: true

@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-03-18 15:04:35"
       description: Twilio Voice Intelligence engineering team is investigating a condition that impacts a small number of transcripts created since 02/18/2025. During this period of time customers may have received duplicate sentences in their transcript results if they have multiple operator results for that sentence. Our engineers are working to resolve the issue. The fix will apply to all transcripts created during this period. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-03-18 16:03:17"
+      description: We are no longer experiencing failure that impacts a small number of transcripts created since 02/18/2025 where customers may have received duplicate sentences in their transcript results. Our engineers fixed all transcripts created during this period. This incident has been resolved.
+      resolved: true

@@ -1,0 +1,9 @@
+version: incident/v1
+id: vhb5gb8cxr18
+name: Degraded connectivity to Fly Registry
+impact: none
+systems: []
+timeline:
+    - ts: "2025-03-18 15:52:30"
+      description: We are investigating timeouts connecting to registry.fly.io. Customers may experience slower image pushes and pulls within Fly Machines.
+      investigating: true
