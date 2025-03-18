@@ -4,6 +4,8 @@ name: Infrastructure Alerts- False Host Not Reporting
 impact: minor
 systems:
     - 028b05n94my0
+    - 2jrn08x58ps2
+    - g3mtj9z8c1cq
 timeline:
     - ts: "2025-03-18 10:01:38"
       description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
@@ -15,3 +17,5 @@ timeline:
       description: The issue has been identified and a fix is being implemented.
     - ts: "2025-03-18 13:45:49"
       description: We are continuing to work on a fix for this issue. This service interruption may impact some customers in in our US region
+    - ts: "2025-03-18 17:26:20"
+      description: "We are investigating an issue affecting the reporting of infrastructure entity metadata from New Relic agents. Some customers in the US region may experience irregularities in charts, dashboards, and alert notifications for affected entities. \n\nNew Relic teams have implemented a fix to restore affected reporting; however, additional steps are required to refresh existing entities and their visibility in the New Relic UI. Our teams are investigating several paths to complete that process and will continue to provide updates as they are available."

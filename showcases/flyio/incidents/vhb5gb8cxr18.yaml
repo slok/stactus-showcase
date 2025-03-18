@@ -18,3 +18,5 @@ timeline:
     - ts: "2025-03-18 17:06:53"
       description: We are investigating timeouts connecting to instances of registry.fly.io in AMS, FRA, WAW regions. Customers may experience slower image pushes and pulls within Fly Machines in the affected regions.
       investigating: true
+    - ts: "2025-03-18 17:23:35"
+      description: We are continuing to monitor results after cordoning affected registry instances.
