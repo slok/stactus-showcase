@@ -1,0 +1,9 @@
+version: incident/v1
+id: 3fhgj7zht9t0
+name: Issue with Purchasing International Phone Numbers with a Primary Customer Profile
+impact: none
+systems: []
+timeline:
+    - ts: "2025-03-19 15:45:21"
+      description: Twilio customers may have experience 5xx errors while trying to purchase international phone numbers with an approved primary customer profile. This impact was visible from 3/13 to 3/17. This issue was identified by our team and resolved on 3/18. There is no current impact to purchasing international numbers.
+      resolved: true
