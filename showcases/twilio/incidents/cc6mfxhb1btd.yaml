@@ -12,3 +12,8 @@ timeline:
       description: We have detected a potential issue with Studio while using the Gather Widget. Our engineering team has identified the issue and is working on mitigating the issue. We will update within 1 hour or as soon as it is mitigated.
     - ts: "2025-03-19 16:31:54"
       description: "Our engineering team has identified an issue with studio and is working on mitigating the issue. Any customers who have the Gather widget and who have \"English (United States)\" are impacted. \n\nMost existing customers have \"en-US\" or \"en set\", however because of a previous UI bug any new flows created or modified during Feb 20 2025 to March 12 2025 were defaulted to \"English (United States)\" as the gather_language and would be impacted. \n\nEngineers are working to resolve the issue. We will provide another update in 2 hours, or as soon as we have new information."
+    - ts: "2025-03-19 17:13:22"
+      description: Any customer who has Gather widget and had English (United States) as the gather_language were noticing higher number of 13331 errors. Studio was fully functional during that time and customer functionality was not impacted. Users should see fewer 13331 errors with the gather widget regardless of gather_language selected. We are monitoring to ensure that the service remains unimpacted.
+    - ts: "2025-03-19 17:16:30"
+      description: Any customer who has Gather widget and had English (United States) as the gather_language were noticing higher number of 13331 errors. Studio was fully functional during that time and customer functionality was not impacted. Issue has been resolved.
+      resolved: true
