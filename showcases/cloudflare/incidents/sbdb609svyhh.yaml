@@ -1,0 +1,14 @@
+version: incident/v1
+id: sbdb609svyhh
+name: SSL Certificate Provisioning Delays
+impact: minor
+systems:
+    - cghykwlwsmn5
+    - 9p2qlpt19nqb
+timeline:
+    - ts: "2025-03-19 07:12:51"
+      description: |-
+        Cloudflare is investigating delays in provisioning Universal SSL certificates for Partial zones, Custom Hostname DNS-based rechecks and zone-level TLS settings.
+
+        SSL certificates already in production remain unaffected and are operating normally.
+      investigating: true
