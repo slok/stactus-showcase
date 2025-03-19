@@ -1,0 +1,14 @@
+version: incident/v1
+id: 3qdcdqvbntnz
+name: Load Balancing Dashboard issues
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2025-03-19 00:50:36"
+      description: |-
+        Cloudflare is investigating issues with UI of Load Balancing.
+        Changing the status of Load Balancing from UI will not be updated correctly.
+        More updates to follow shortly.
+      investigating: true
