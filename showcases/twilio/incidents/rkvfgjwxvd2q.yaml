@@ -1,6 +1,6 @@
 version: incident/v1
 id: rkvfgjwxvd2q
-name: MMS Delivery Delays on AT&T and Verizon
+name: MMS Delivery Delays to AT&T and Verizon Networks in the US for a subset of Long Codes
 impact: minor
 systems:
     - 8vdlvw3dsq8h
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-03-19 17:39:12"
       description: We are continuing to experience MMS delivery failures with AT&T and Verizon . Our engineers are working with our carrier partners to resolve the issue. We expect to provide another update in 2 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-03-19 17:49:20"
+      description: "We are continuing to experience MMS delivery failures with AT&T and Verizon. We are seeing these MMS Delivery Delays to AT&T and Verizon Network for a subset of Long codes. \n\nOur engineers are working with our carrier partners to resolve the issue. We expect to provide another update in 2 hour or as soon as more information becomes available."
       investigating: true
