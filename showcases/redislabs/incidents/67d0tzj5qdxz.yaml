@@ -1,0 +1,12 @@
+version: incident/v1
+id: 67d0tzj5qdxz
+name: Network Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2025-03-19 00:56:57"
+      description: 'We are experiencing some network issues. This may affect resources that have the following pattern in their endpoint: c10'
+      investigating: true
+    - ts: "2025-03-19 01:00:17"
+      description: This incident has been resolved.
+      resolved: true

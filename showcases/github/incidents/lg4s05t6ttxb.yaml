@@ -14,3 +14,12 @@ timeline:
     - ts: "2025-03-19 00:22:48"
       description: We are continuing to investigate issues with delayed or failed workflow runs with Actions. We are engaged with a third-party provider who is also investigating issues and has confirmed we are impacted.
       investigating: true
+    - ts: "2025-03-19 00:55:11"
+      description: The provider has reported full mitigation of the underlying issue, and Actions has been healthy since approximately 00:15 UTC.
+      investigating: true
+    - ts: "2025-03-19 00:55:40"
+      description: Actions is operating normally.
+      investigating: true
+    - ts: "2025-03-19 00:55:47"
+      description: This incident has been resolved.
+      resolved: true
