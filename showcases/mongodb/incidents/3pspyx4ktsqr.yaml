@@ -1,6 +1,6 @@
 version: incident/v1
 id: 3pspyx4ktsqr
-name: Atlas for Government environment is offline
+name: Atlas for Government control plane is offline
 impact: critical
 systems:
     - q57ng8brt2td
@@ -10,3 +10,5 @@ timeline:
       investigating: true
     - ts: "2025-03-19 15:04:12"
       description: We have identified the issue with our infrastructure and are working on remediation.
+    - ts: "2025-03-19 15:19:18"
+      description: Existing Atlas database clusters are unaffected. We're continuing to work on control plane remediation.
