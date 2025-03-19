@@ -1,0 +1,14 @@
+version: incident/v1
+id: 2sqz6dgrryh7
+name: Errors adding new Magic IPsec tunnels via Cloudflare dashboard
+impact: minor
+systems:
+    - y98zlwj1d7zh
+timeline:
+    - ts: "2025-03-19 10:24:17"
+      description: |-
+        Cloudflare is investigating issues with creating new Magic IPsec Tunnels in the Cloudflare dashboard.  This issue does not affect the operation of existing IPsec Tunnels that continue to function and pass traffic normally.
+        As a workaround, new IPsec tunnels can be created via API.
+
+        We are working to understand to mitigate this problem.  More updates to follow shortly.`
+      investigating: true
