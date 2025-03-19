@@ -20,5 +20,5 @@ timeline:
       description: We are seeing recovery and no new errors for the last 15mins.
       investigating: true
     - ts: "2025-03-18 18:45:32"
-      description: This incident has been resolved.
+      description: On March 18th, 2025, between 13:35 UTC and 17:45 UTC, some users of GitHub Copilot Chat in GitHub experienced intermittent failures when reading or writing messages in a thread, resulting in a degraded experience. The error rate peaked at 3% of requests to the service. This was due to an availability incident with a database provider. Around 16:15 UTC the upstream service provider mitigated their availability incident, and service was restored in the following hour.<br /><br />We are working to improve our failover strategy for this database to reduce the time to mitigate similar incidents in the future.
       resolved: true
