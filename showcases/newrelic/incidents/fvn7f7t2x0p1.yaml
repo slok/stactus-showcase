@@ -27,3 +27,6 @@ timeline:
       description: "We are working to resolve the issue resulting in missing metadata for some infrastructure entities. We are seeing recovery of some affected entities through standard agent refresh behaviors and our teams continue to prioritize expediting recovery of remaining affected entity metadata. \n\nWe will provide our next update at 23:00 UTC or upon significant change."
     - ts: "2025-03-19 23:01:38"
       description: "We are seeing continued restoration of affected entity metadata through both standard agent refresh behaviors, as well as backup and recovery actions taken by our teams. Some customers in the US region may experience irregularities in charts, dashboards, and alert notifications for affected entities until full recovery has completed. \n\nWe will provide our next update at 14:00 UTC on March 20th or upon significant change."
+    - ts: "2025-03-20 14:20:50"
+      description: The restoration of affected entity metadata has now been completed. Impacted services have returned to normal operations.
+      resolved: true
