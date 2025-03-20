@@ -1,0 +1,17 @@
+version: incident/v1
+id: s881y52j4mxq
+name: Cloudflare Load Balancing Custom rules UI reordering issue
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-03-20 07:40:12"
+      description: |-
+        Cloudflare is investigating issues with Load Balancing Custom rules reordering.
+
+        These issues do not affect the serving of Load Balancing or Custom rules.
+
+        Customers trying to reorder Custom rules may see unexpected actions saved. Customers can configure via the API as a workaround.
+      investigating: true
+    - ts: "2025-03-20 07:40:55"
+      description: The issue has been identified and a fix is being implemented.
