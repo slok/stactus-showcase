@@ -21,5 +21,5 @@ timeline:
       description: We saw a spike in error rate with issues related pages and API requests due to some problems with restarts in our kubernetes infrastructure that, at peak, caused 0.165% of requests to see timeouts or errors related to these API surfaces over a 15 minute period. At this time we see minimal impact and are continuing to investigate the cause of the issue.
       investigating: true
     - ts: "2025-03-17 23:02:33"
-      description: This incident has been resolved.
+      description: Between March 17, 2025, 18:05 UTC and March 18, 2025, 09:50 UTC, GitHub.com experienced intermittent failures in web and API requests. These issues affected a small percentage of users (mostly related to pull requests and issues), with a peak error rate of 0.165% across all requests.<br /><br />We identified a framework upgrade that caused kernel panics in our Kubernetes infrastructure as the root cause. We mitigated the incident by downgrading until we were able to disable a problematic feature. In response, we have investigated why the upgrade caused the unexpected issue, have taken steps to temporarily prevent it, and are working on longer term patch plans while improving our observability to ensure we can quickly react to similar classes of problems in the future.
       resolved: true
