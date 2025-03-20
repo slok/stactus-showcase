@@ -12,3 +12,6 @@ timeline:
     - ts: "2025-03-20 20:33:39"
       description: Webhooks is experiencing degraded performance. We are continuing to investigate.
       investigating: true
+    - ts: "2025-03-20 20:38:30"
+      description: Customers may not be able to create or make changes to their GitHub Pages sites. Customers who rely on webhook events from Pages builds might also experience a downgraded experience.
+      investigating: true
