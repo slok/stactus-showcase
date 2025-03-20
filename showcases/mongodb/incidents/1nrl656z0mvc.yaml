@@ -11,3 +11,6 @@ timeline:
       description: "We have identified an issue making cluster configuration changes to M0/M2/M5, Flex, and Serverless clusters. Affected Projects will see the \"blue bar\" for an extended period of time. This is also impacting the creation of new clusters of those types as well as restores to them. \n\nClusters without changes pending are not affected."
     - ts: "2025-03-20 21:04:56"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-03-20 21:12:45"
+      description: This incident has been resolved.
+      resolved: true
