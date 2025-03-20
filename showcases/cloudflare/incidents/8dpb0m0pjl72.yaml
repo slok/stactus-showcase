@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8dpb0m0pjl72
+name: Network Performance Issues in Seoul
+impact: minor
+systems:
+    - v4s7np92f0dh
+timeline:
+    - ts: "2025-03-20 06:50:02"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in Seoul, South Korea (ICN).
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
