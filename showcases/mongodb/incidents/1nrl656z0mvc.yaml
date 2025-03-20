@@ -1,0 +1,11 @@
+version: incident/v1
+id: 1nrl656z0mvc
+name: 'MongoDB Atlas: IP Access list modifications are delayed'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-03-20 19:08:22"
+      description: We have identified an issue modifying IP access lists for M0/M2/M5, Flex, and Serverless clusters. Affected Projects will see the "blue bar" for an extended period of time. Clusters without changes pending are not affected.
+    - ts: "2025-03-20 19:12:21"
+      description: "We have identified an issue modifying IP access lists for M0/M2/M5, Flex, and Serverless clusters. Affected Projects will see the \"blue bar\" for an extended period of time. This is also impacting the creation of new clusters of those types as well as restores to them. \n\nClusters without changes pending are not affected."
