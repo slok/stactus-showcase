@@ -1,0 +1,10 @@
+version: incident/v1
+id: k99pm1lpfv3j
+name: On Call Engineers are Investigating Issues with Inbound Calls to Twilio Toll Free Numbers from Numbers with CA Providers
+impact: minor
+systems:
+    - 2v3v92mz2m4h
+timeline:
+    - ts: "2025-03-20 17:43:11"
+      description: We've become aware of a potential issue with Twilio Toll Free Numbers receiving inbound calls from phone numbers originating from CA providers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
