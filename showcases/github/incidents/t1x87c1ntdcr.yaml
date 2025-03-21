@@ -11,3 +11,15 @@ timeline:
     - ts: "2025-03-21 02:19:38"
       description: Customers may be experiencing issues connecting to Codespaces on GitHub.com. We are currently investigating the underlying issue.
       investigating: true
+    - ts: "2025-03-21 02:53:53"
+      description: We are continuing to investigate issues with failed connections to Codespaces. We are seeing recovery over the last 10 minutes.
+      investigating: true
+    - ts: "2025-03-21 03:08:30"
+      description: We have seen full recovery in the last 15 minutes for Codespaces connections. GitHub Codespaces are healthy. For users who are still seeing connection problems, restarting the Codespace may help resolve the issue.
+      investigating: true
+    - ts: "2025-03-21 03:08:40"
+      description: Codespaces is operating normally.
+      investigating: true
+    - ts: "2025-03-21 03:08:45"
+      description: This incident has been resolved.
+      resolved: true

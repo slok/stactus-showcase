@@ -19,3 +19,6 @@ timeline:
       investigating: true
     - ts: "2025-03-20 23:12:12"
       description: We have started seeing recovery for calls from Canadian Network Subscribers to a subset of Twilio's Toll Free Numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 4 hr as soon as more information becomes available.
+    - ts: "2025-03-21 03:05:57"
+      description: We are no longer seeing call failures from Canadian Network Subscribers to a subset of Twilio's Toll Free Numbers. This incident has been resolved.
+      resolved: true
