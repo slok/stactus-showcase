@@ -1,0 +1,9 @@
+version: incident/v1
+id: xrj22n6zqg5c
+name: Twilio Conversations Affected
+impact: none
+systems: []
+timeline:
+    - ts: "2025-03-21 23:44:46"
+      description: Twilio Conversations was degraded for 7 minutes between 16:08 and 16:15 Pacific Time. During this period of time, customers may have received 500 Error Responses from Conversations API and potentially in the Conversations SDK. This issue has now been resolved.
+      resolved: true
