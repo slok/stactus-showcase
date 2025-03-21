@@ -19,5 +19,5 @@ timeline:
       description: We have resolved the issue for Pages. If you're still experiencing issues with your GitHub Pages site, please rebuild.
       investigating: true
     - ts: "2025-03-20 20:54:07"
-      description: This incident has been resolved.
+      description: On March 20, 2025, between 19:24 UTC and 20:42 UTC the GitHub Pages experience was degraded and returned 503s for some customers. We saw an error rate of roughly 2% for Pages views, and new page builds were unable to complete successfully before timing out. <br /><br />This was due to replication failure at the database layer between a write destination and read destination. We mitigated the incident by redirecting reads to the same destination as writes. <br /><br />The error with replication occurred while in this transitory phase, as we are in the process of migrating the underlying data for Pages to new database infrastructure. Additionally our monitors failed to detect the error.<br /><br />We are addressing the underlying cause of the failed replication and telemetry. <br />
       resolved: true
