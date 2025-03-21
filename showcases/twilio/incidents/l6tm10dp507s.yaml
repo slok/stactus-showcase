@@ -1,0 +1,9 @@
+version: incident/v1
+id: l6tm10dp507s
+name: Messaging Services Were Unavailable for 2 mins
+impact: none
+systems: []
+timeline:
+    - ts: "2025-03-21 08:31:25"
+      description: Twilio Messaging Service product was degraded for 6 minutes between 11:56pm and 12:02am Pacific Time on 03/20/2025. During this period of time customers may have experienced problem with Messaging services. The issue has now been resolved.
+      resolved: true
