@@ -14,3 +14,5 @@ timeline:
         Increasing `fly scale count` in LHR region is not possible. Blue-green deploys are also not possible at the moment, as well as deploys with `release_command`.
 
         We expect more capacity to become available in the coming weeks. For the time being, please choose a nearby region for new workloads, such as AMS (Amsterdam, Netherlands) or ARN (Stockholm, Sweden).
+    - ts: "2025-03-21 13:50:07"
+      description: We've provisioned new host capacity in LHR region, machine/volume creates have been re-enabled and deploys should now be possible again. We are monitoring capacity and will provide updates if the situation changes.
