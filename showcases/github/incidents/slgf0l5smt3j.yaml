@@ -14,3 +14,6 @@ timeline:
     - ts: "2025-03-21 07:27:03"
       description: We're continuing to investigate intermittent failures with GitHub Actions workflow runs.
       investigating: true
+    - ts: "2025-03-21 08:20:45"
+      description: We're continuing to investigate elevated errors during GitHub Actions workflow runs. At this stage our monitoring indicates that these errors are impacting no more than 3% of all runs.
+      investigating: true
