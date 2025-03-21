@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6dk7f8rw10x3
+name: Twilio Alarms Affected
+impact: none
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2025-03-21 18:44:37"
+      description: Twilio Alarms was degraded on 03/17/2025. During this period several alerted alarms were not delivered to customers. The issue has now been resolved.
+      resolved: true
