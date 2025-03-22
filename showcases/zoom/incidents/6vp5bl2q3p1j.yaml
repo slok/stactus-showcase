@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6vp5bl2q3p1j
+name: A subset of users experiencing issue with Zoom Surveys in Australia region.
+impact: minor
+systems:
+    - gdwqh973jx8h
+timeline:
+    - ts: "2025-03-22 05:34:55"
+      description: Our monitoring systems has detected an issue where the surveys created are not showing up on the survey page for a subset of users in Australia region. We are currently investigating and will provide updates as we have them.
+      investigating: true
