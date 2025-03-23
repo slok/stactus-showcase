@@ -1,0 +1,12 @@
+version: incident/v1
+id: tyc485xz01wg
+name: Issue with English live transcription and translation service in Australia.
+impact: minor
+systems:
+    - 8vtcg8np4n8c
+timeline:
+    - ts: "2025-03-23 07:14:14"
+      description: Our monitoring has detected a service degradation affecting Zoom's live transcription and translation service for the English language in Australia. Our engineers are currently investigating the issue to determine the impact and root cause. Zoom will provide updates as soon as more information becomes available
+      investigating: true
+    - ts: "2025-03-23 07:21:47"
+      description: We have identified the issue and are working on remediation. We will continue to provide updates as we have them.
