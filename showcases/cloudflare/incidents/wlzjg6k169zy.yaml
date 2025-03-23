@@ -1,0 +1,9 @@
+version: incident/v1
+id: wlzjg6k169zy
+name: Cloudflare Workers 503 errors
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-03-23 21:34:27"
+      description: Some customers may have experienced 503 errors when invoking their Cloudflare Workers between 12:48 to 12:58 UTC on the 23rd March 2025.
+      resolved: true
