@@ -1,0 +1,12 @@
+version: incident/v1
+id: t5ck4dt7pj31
+name: Elevated Errors
+impact: minor
+systems:
+    - fggy4fg1hdmj
+timeline:
+    - ts: "2025-03-24 21:29:18"
+      description: We're experiencing an elevated level of API errors and are currently looking into the issue. You may notice a lag in comment publishing.
+      investigating: true
+    - ts: "2025-03-24 21:33:34"
+      description: The issue has been identified and a fix is being implemented.

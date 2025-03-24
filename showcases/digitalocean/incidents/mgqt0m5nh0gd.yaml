@@ -1,0 +1,13 @@
+version: incident/v1
+id: mgqt0m5nh0gd
+name: Cloud Control Panel Login
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2025-03-24 21:23:38"
+      description: |-
+        Our Engineering team is investigating an issue with our Cloud Control Panel. During this time, users may experience errors reaching https://cloud.digitalocean.com/login, issues while signing in there, as well as issues navigating the Cloud Control Panel.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
