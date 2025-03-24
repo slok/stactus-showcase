@@ -1,6 +1,6 @@
 version: incident/v1
 id: mgqt0m5nh0gd
-name: Cloud Control Panel
+name: Cloud Control Panel Login/Registration
 impact: critical
 systems:
     - czck17wcspr5
@@ -13,4 +13,10 @@ timeline:
       investigating: true
     - ts: "2025-03-24 21:39:39"
       description: Our Engineering team is continuing to investigate the issue with our Cloud Control Panel. At this time, users may experience errors while attempting to navigate any pages under https://cloud.digitalocean.com, which includes both login and registration attempts. If you need to contact our support team and are unable to do so from within your account, you can still reach us via https://www.digitalocean.com/company/contact/support
+      investigating: true
+    - ts: "2025-03-24 22:23:33"
+      description: |-
+        Our Engineering team continues to investigate the root cause of the issue with our Cloud Control Panel, but has confirmed error rates are dropping. Most users should now be seeing recovery and be able to login and navigate the site. New users should be able to register.
+
+        If you continue to see errors, please reach out to us via https://www.digitalocean.com/company/contact/support
       investigating: true
