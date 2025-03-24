@@ -1,0 +1,14 @@
+version: incident/v1
+id: zpcg7ddtgw98
+name: 'MongoDB Atlas & Cloud Manager: Logins affected'
+impact: major
+systems:
+    - 98lbmdz85yp0
+    - kb8k7qml7npt
+timeline:
+    - ts: "2025-03-24 15:48:36"
+      description: |-
+        We are currently investigating an issue affecting logins for MongoDB properties. This includes Atlas, University, Cloud Manager, and the Support Portal.
+
+        Atlas clusters and apps are unaffected, as are currently logged-in users.
+      investigating: true
