@@ -1,10 +1,13 @@
 version: incident/v1
 id: 7mn2jryg1rmz
-name: On Call Engineers are Investigating an issue
+name: 503 errors while accessing into the Twilio Console
 impact: minor
 systems:
     - g4hs7h64k9fv
 timeline:
     - ts: "2025-03-24 18:27:13"
       description: Our monitoring systems have detected a potential issue causing 503 errors while attempting to login to the Twilio Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-03-24 18:50:42"
+      description: We are currently seeing degraded performance causing 503 errors when accessing the Twilio Console. Our engineering team is looking into the issue. We expect to provide another update in 15 minutes or as soon as more information becomes available.
       investigating: true
