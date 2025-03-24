@@ -1,6 +1,6 @@
 version: incident/v1
 id: pl5flv13rjxv
-name: On Call Engineers are Investigating
+name: Incorrect billing country set during MFA configuration during 1st account setups for non-US customers
 impact: minor
 systems:
     - jw9dh2mf4392
@@ -9,4 +9,9 @@ timeline:
       description: We've become aware of a potential issue with billing countries for 1st account setups. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2025-03-24 17:57:57"
-      description: Our engineers are investigating the issue where the incorrect country is set during MFA configuration for 1st account setups and are working to identify a fix. The current workaround is to select the correct country in the dropdown, selecting a different country, and re-selecting the correct country. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: |-
+        Our engineers are investigating the issue where the incorrect billing country is set during MFA configuration for 1st account setups for non-US customers and are working to identify a fix.
+
+        The suggested workaround is to select the correct billing country in the step that follows the MFA step during onboarding.
+
+        We expect to provide another update in 1 hour or as soon as more information becomes available.
