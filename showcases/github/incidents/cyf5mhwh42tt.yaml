@@ -1,0 +1,9 @@
+version: incident/v1
+id: cyf5mhwh42tt
+name: '[Retroactive] Incident with Migrations Submitted Via GitHub UI'
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-03-24 17:26:51"
+      description: Between 2024-03-23 18:10 UTC and 2024-03-24 16:10 UTC, migration jobs submitted through the GitHub UI experienced processing delays and increased failure rates. This issue only affected migrations initiated via the web interface. Migrations started through the API or the command line tool continued to function normally. We are sorry for the delayed post on githubstatus.com.
+      resolved: true
