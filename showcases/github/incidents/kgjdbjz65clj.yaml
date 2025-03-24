@@ -24,5 +24,5 @@ timeline:
       description: Copilot is operating normally.
       investigating: true
     - ts: "2025-03-21 13:44:16"
-      description: This incident has been resolved.
+      description: On March 21st, 2025, between 11:45 UTC and 13:20 UTC, users were unable to interact with GitHub Copilot Chat in GitHub. The issue was caused by a recently deployed Ruby change that unintentionally overwrote a global value. This led to GitHub Copilot Chat in GitHub being misconfigured with an invalid URL, preventing it from connecting to our chat server. Other Copilot clients were not affected.<br /><br />We mitigated the incident by identifying the source of the problematic query and rolling back the deployment.<br /><br />We are reviewing our deployment tooling to reduce the time to mitigate similar incidents in the future. In parallel, we are also improving our test coverage for this category of error to prevent them from being deployed to production.
       resolved: true
