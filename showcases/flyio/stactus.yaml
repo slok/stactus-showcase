@@ -13,6 +13,8 @@ systems:
       name: Extensions / Upstash for Redis
     - id: 15knchzwl5np
       name: Customer Applications
+    - id: q5hm9x2qx9l9
+      name: Managed Postgres / Management Plane - ORD
     - id: mcxtlf2yvp9l
       name: Billing / Stripe API Connection
     - id: 66r6rhq3hn9n
@@ -21,26 +23,36 @@ systems:
       name: Regional Availability / ARN - Stockholm, Sweden
     - id: b1mvm9ctzkdb
       name: DNS / Fly Machine External DNS
+    - id: nv3vps27z635
+      name: Managed Postgres / Management Plane - IAD
     - id: 0n06d5z1tsfw
       name: Regional Availability / ATL - Atlanta, Georgia (US)
     - id: vpf19g109jlh
       name: DNS / *.fly.dev Nameservers
     - id: 80ykv2p95qgy
       name: Machines API
+    - id: dz36cj1q2s1r
+      name: Managed Postgres / Management Plane - FRA
     - id: pj9b7qmx6tkb
       name: DNS / *.flyio.net Nameservers
     - id: 1g2sfm4fghmb
       name: Regional Availability / BOG - Bogotá, Colombia
+    - id: vnhk0y6jtn3q
+      name: Managed Postgres / Management Plane - GRU
     - id: 6gcw8j3br9vn
       name: Persistent Storage (Volumes)
       description: Fly volumes and apps that use them
     - id: k6fbt4mk0xv1
       name: Regional Availability / BOM - Mumbai, India
+    - id: rc5yp3480n5g
+      name: Managed Postgres / Management Plane - LAX
     - id: 49yq6v65b33l
       name: Deployments
       description: flyctl and GitHub Action app deployments
     - id: 266zqs63006k
       name: Regional Availability / CDG - Paris, France
+    - id: k2t9fbjfxj8r
+      name: Managed Postgres / Management Plane - SYD
     - id: ffsz24mbcxfz
       name: Remote Builds
     - id: qpc9br6drs4d
