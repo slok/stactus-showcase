@@ -1,0 +1,10 @@
+version: incident/v1
+id: dtp52yddls96
+name: Issue with Workers AI
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2025-03-25 00:52:59"
+      description: We are currently investigating an issue with Workers AI. Customers may see errors using model llama-3.2-11b-vision-instruct.
+      investigating: true
