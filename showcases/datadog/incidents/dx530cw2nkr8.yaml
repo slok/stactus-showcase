@@ -1,0 +1,10 @@
+version: incident/v1
+id: dx530cw2nkr8
+name: Login Issues
+impact: minor
+systems:
+    - b5fx9rfn6137
+timeline:
+    - ts: "2025-03-25 19:03:40"
+      description: "We are investigating user login issues related to reCAPTCHA for customers using password login.  If you experience an issue with reCAPTCHA, refreshing the page can often mitigate the issue. \n\nPlease note that data processing and alerts are not affected by this incident."
+      investigating: true
