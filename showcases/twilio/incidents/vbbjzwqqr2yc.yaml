@@ -1,7 +1,7 @@
 version: incident/v1
 id: vbbjzwqqr2yc
 name: SMS Delivery Failures To Multiple Networks in Multiple Countries
-impact: none
+impact: minor
 systems:
     - llgdln3dcs6p
 timeline:
@@ -18,4 +18,7 @@ timeline:
         Madagascar
 
         Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-03-25 16:41:26"
+      description: We are continuing to investigate this issue.
       investigating: true
