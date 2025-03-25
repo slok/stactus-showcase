@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-03-25 13:39:45"
       description: We are investigating network issues resulting from the earlier scheduled maintenance in SJC.
       investigating: true
+    - ts: "2025-03-25 15:01:00"
+      description: "A small number of hosts in SJC are continuing to experience networking issues after the earlier scheduled maintenance. We are working with our upstream provider to restore full connectivity to these hosts. \n\nMachines on impacted hosts may see reduced networking performance connecting to other machines within Fly.io and the broader internet."
+      investigating: true
