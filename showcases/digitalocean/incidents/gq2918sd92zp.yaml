@@ -1,0 +1,12 @@
+version: incident/v1
+id: gq2918sd92zp
+name: Cloud Control Panel Errors with Billing
+impact: minor
+systems:
+    - 558h1l1q0c2w
+    - xbsdwfbb4xx0
+    - czck17wcspr5
+timeline:
+    - ts: "2025-03-25 06:06:48"
+      description: Our Engineering team is investigating an issue with the Billing page for Teams on the Cloud Control Panel. During this time, users may receive error messages when attempting to access or perform actions within the Cloud Control Panel. We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
