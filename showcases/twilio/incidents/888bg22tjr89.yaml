@@ -1,9 +1,13 @@
 version: incident/v1
 id: 888bg22tjr89
-name: On Call Engineers are Investigating an issue with Connected Phone Numbers Missing for Studio Flows in Console
-impact: none
-systems: []
+name: Connected Phone Numbers not being Displayed for Studio Flows in Console
+impact: minor
+systems:
+    - m5b6twz4h52d
 timeline:
     - ts: "2025-03-25 21:23:06"
       description: Our monitoring systems have detected a potential issue with connected phone numbers missing for Studio Flows in Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-03-25 22:10:34"
+      description: We are experiencing a display issue with connected phone numbers not being visible in the UI for Studio Flows in Console, functionality is not impacted. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
