@@ -1,0 +1,16 @@
+version: incident/v1
+id: r22g7bhs316q
+name: Managed Databases Metrics
+impact: minor
+systems:
+    - mzkgffp35tq4
+timeline:
+    - ts: "2025-03-26 22:24:01"
+      description: |-
+        Our Engineering team has identified and is currently repairing an issue affecting database engine metrics in the Cloud Control Panel for Managed Databases.
+
+        Users with PostgreSQL, MySQL, Kafka, OpenSearch, or Caching database clusters may be unable to see metrics. Mongo database clusters are not impacted. Additionally, storage metrics and alerts are not impacted and continue to function normally.
+
+        While we are working to correct this issue as quickly as possible, we anticipate that a resolution will take multiple days. We will post an update once we have a more definite ETA or additional information becomes available.
+
+        We apologize for the inconvenience. If you have any questions, please feel free to reach out to our Support team from within your account.
