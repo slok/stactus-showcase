@@ -1,9 +1,13 @@
 version: incident/v1
 id: shh22frkxp4k
 name: Subset of Customers Experiencing Errors in Twilio CLI Deployment
-impact: none
-systems: []
+impact: minor
+systems:
+    - m5b6twz4h52d
 timeline:
     - ts: "2025-03-26 19:46:45"
       description: Our monitoring systems have detected a potential issue with Twilio CLI deployment. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-03-26 20:08:12"
+      description: We are investigating errors with the Twilio CLI deployment for a subset of customers. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
