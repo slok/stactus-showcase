@@ -1,0 +1,9 @@
+version: incident/v1
+id: r4rpjwc2pwr8
+name: Capacity issues in FRA
+impact: minor
+systems:
+    - 266zqs63006k
+timeline:
+    - ts: "2025-03-26 11:19:22"
+      description: We are experiencing low capacity in FRA. You may see machine launch failures. We are working on adding new capacity to FRA as soon as possible.
