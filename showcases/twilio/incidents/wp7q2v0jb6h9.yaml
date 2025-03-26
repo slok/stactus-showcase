@@ -1,9 +1,12 @@
 version: incident/v1
 id: wp7q2v0jb6h9
-name: Potential Issue Affecting A Subset of Toll-Free Numbers in the Canada
+name: Potential Issue Affecting Inbound Calls To A Subset of Toll-Free Numbers in the US
 impact: none
 systems: []
 timeline:
     - ts: "2025-03-26 18:21:54"
       description: We've become aware of a potential issue with voice calls to a subset of toll-free numbers in Canada. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-03-26 19:01:46"
+      description: We have fully investigated the potential issue impacting inbound calls from Canada to subset of US Toll-Free numbers and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
