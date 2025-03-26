@@ -8,3 +8,8 @@ timeline:
     - ts: "2025-03-26 13:39:07"
       description: "We are experiencing issues with stack creation in the prod-us-west-0  region. \n\nAdding and removing plugins are impacted as well"
       investigating: true
+    - ts: "2025-03-26 13:53:06"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-03-26 14:03:31"
+      description: The stack creation process is now functioning properly in the prod-us-west-0 region.
+      resolved: true
