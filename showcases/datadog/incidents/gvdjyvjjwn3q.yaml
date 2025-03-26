@@ -1,0 +1,12 @@
+version: incident/v1
+id: gvdjyvjjwn3q
+name: Delayed processing of APM Trace Metrics
+impact: minor
+systems:
+    - p4hwj4wsc5wf
+    - s6jxgrkjjj6p
+    - b5fx9rfn6137
+timeline:
+    - ts: "2025-03-26 20:03:21"
+      description: "We are investigating delayed processing of APM Trace metrics. \n\nDashboards and monitors relying on these metrics are affected."
+      investigating: true
