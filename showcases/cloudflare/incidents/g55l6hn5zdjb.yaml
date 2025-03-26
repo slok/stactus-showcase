@@ -1,0 +1,10 @@
+version: incident/v1
+id: g55l6hn5zdjb
+name: Issues with Snippets Dashboard
+impact: minor
+systems:
+    - 570kfpd0dgg7
+timeline:
+    - ts: "2025-03-26 15:49:17"
+      description: "We are currently investigating an issue where the Snippets dashboard UI may not show existing snippets correctly. \nSnippets API and deployed snippets remain fully operational and are not impacted.\nWe will provide further updates as we identify the root cause and implement a resolution."
+      investigating: true
