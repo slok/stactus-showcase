@@ -8,7 +8,7 @@ systems:
     - b5fx9rfn6137
 timeline:
     - ts: "2025-03-26 20:03:21"
-      description: "We are investigating delayed processing of APM Trace metrics. \n\nDashboards and monitors relying on these metrics are affected."
+      description: "We are investigating delayed processing of APM Trace metrics starting around 07:00 UTC.  \n\nDashboards and monitors relying on these metrics are affected."
       investigating: true
     - ts: "2025-03-26 20:09:11"
       description: The issue has been identified and a fix is being implemented.
