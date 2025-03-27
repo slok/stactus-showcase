@@ -1,0 +1,9 @@
+version: incident/v1
+id: 354r80c2jrwr
+name: Delays in Atlas Cluster provisioning
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-03-27 21:50:36"
+      description: We are seeing delays in provisioning new and reconfigured Atlas Cluster nodes as a result of maintenance at our TLS certificate provider. Running clusters should experience no impact from this event. Refer to https://letsencrypt.status.io/ for more information.
