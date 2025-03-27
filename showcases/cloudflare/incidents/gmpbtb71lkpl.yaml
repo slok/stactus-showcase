@@ -1,0 +1,12 @@
+version: incident/v1
+id: gmpbtb71lkpl
+name: 'Cloudflare Workers: Supabase integration issues'
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-03-27 13:54:13"
+      description: |-
+        Cloudflare is investigating an issue where some users may not be able to add the Supabase integration to their Worker.
+        We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
