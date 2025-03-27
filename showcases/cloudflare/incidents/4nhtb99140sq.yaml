@@ -1,0 +1,13 @@
+version: incident/v1
+id: 4nhtb99140sq
+name: Network Performance Issues for some customers in Virginia area
+impact: minor
+systems:
+    - 3t0npclljyyg
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-03-27 20:57:52"
+      description: Cloudflare is investigating issues with network performance for some customers in the Virgina area. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-03-27 20:58:54"
+      description: The issue has been identified and a fix is being implemented.
