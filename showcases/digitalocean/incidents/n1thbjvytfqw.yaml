@@ -9,3 +9,8 @@ timeline:
     - ts: "2025-03-27 18:07:21"
       description: "As of 17:56 UTC, our Engineering team is investigating an issue impacting our Cloud Control Panel and API.\n\nDuring this time, users will experience errors when trying to use the public API at api.digitalocean.com or while accessing our Cloud Control Panel at https://cloud.digitalocean.com. \n\nWe are now confirming the full impact. We regret any inconvenience and will let you know as soon as more information is available."
       investigating: true
+    - ts: "2025-03-27 18:27:41"
+      description: |-
+        As of 18:10 UTC, our Engineering team has identified the cause of the issue impacting our Cloud Control Panel and API to be a backend deployment and has rolled back the breaking change. We are already seeing signs of recovery, and users should now have access to the Cloud Control Panel and API.
+
+        We will post an update as soon as additional information is available.
