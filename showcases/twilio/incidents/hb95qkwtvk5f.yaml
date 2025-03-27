@@ -1,0 +1,10 @@
+version: incident/v1
+id: hb95qkwtvk5f
+name: SMS Delivery Report Delays to Subset of US Small Network
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2025-03-27 11:36:33"
+      description: We are experiencing SMS delivery report delays to subset of US Small Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
