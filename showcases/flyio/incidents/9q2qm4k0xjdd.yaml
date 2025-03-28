@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9q2qm4k0xjdd
+name: 504 Errors from Logs API
+impact: minor
+systems:
+    - 6sckg8qmrnzz
+timeline:
+    - ts: "2025-03-28 13:14:34"
+      description: We are currently investigating an issue with looking up historical logs. The fly logs command may fail. Streaming logs with NATS is not affected..
+      investigating: true
