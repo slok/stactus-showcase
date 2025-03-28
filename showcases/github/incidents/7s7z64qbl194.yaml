@@ -1,0 +1,9 @@
+version: incident/v1
+id: 7s7z64qbl194
+name: '[Retroactive] Disruption with Pull Request Ref Updates'
+impact: none
+systems: []
+timeline:
+    - ts: "2025-03-28 22:50:53"
+      description: Beginning at 21:24 UTC on March 28 and lasting until 21:50 UTC, some customers of github.com had issues with PR tracking refs not being updated due to processing delays and increased failure rates. We did not status before we completed the rollback, and the incident is currently resolved. We are sorry for the delayed post on githubstatus.com.
+      resolved: true
