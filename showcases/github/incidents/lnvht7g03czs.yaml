@@ -1,0 +1,16 @@
+version: incident/v1
+id: lnvht7g03czs
+name: Disruption with Pull Request Ref Updates
+impact: minor
+systems:
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2025-03-27 23:49:10"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-03-27 23:52:34"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-03-28 00:20:20"
+      description: We believe we have identified the source of the issue and are monitoring for recovery.
+      investigating: true
