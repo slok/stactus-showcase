@@ -8,3 +8,8 @@ timeline:
     - ts: "2025-03-28 13:14:34"
       description: We are currently investigating an issue with looking up historical logs. The fly logs command may fail. Streaming logs with NATS is not affected..
       investigating: true
+    - ts: "2025-03-28 13:42:33"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-03-28 13:45:10"
+      description: Historical logs are back up.
+      resolved: true
