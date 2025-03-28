@@ -1,0 +1,11 @@
+version: incident/v1
+id: wk18zg6zv0t0
+name: 'Cloudflare Zero Trust: Browser Isolation issues'
+impact: minor
+systems:
+    - q0dfbn0p6hyt
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2025-03-28 11:40:50"
+      description: "Cloudflare is investigating issues with the Browser Isolation component within Gateway. Performance and connectivity through Gateway may be impacted. \nWe are working to understand the full impact and mitigate this problem. More updates to follow shortly."
+      investigating: true
