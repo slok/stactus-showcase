@@ -17,3 +17,6 @@ timeline:
     - ts: "2025-03-28 22:29:23"
       description: We are experiencing SMS delivery failures when sending messages from the AT&T Network in the US to a Subset of Twilio's Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-03-29 00:23:25"
+      description: We continue to investigate the issue causing SMS delivery failures when sending messages from the AT&T Network in the US to a subset of Twilio's numbers.  Because we expect this issue may take some time to resolve, we have opted to reach out to impacted customers directly about this issue while we investigate and we'll continue to provide updates through that channel instead of our status page.  We will mark this incident resolved on the status page but will send any further updates through the direct communications channel.
+      resolved: true
