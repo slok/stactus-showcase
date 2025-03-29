@@ -8,3 +8,10 @@ timeline:
     - ts: "2025-03-29 21:22:16"
       description: GCP is not successfully completing request in the us-east5-c zone and we are investigating the issue.
       investigating: true
+    - ts: "2025-03-29 21:58:17"
+      description: |-
+        GCP confirmed there is connectivity issues with multiple Google Cloud services in zone us-east5-c starting at March 29, 2025 at 8:26:32 PM UTC.
+
+        Due to this customers may experience delays creating and modifying Atlas clusters hosted in this region.
+
+        For details, please visit your GCP support page.
