@@ -1,0 +1,11 @@
+version: incident/v1
+id: ksjznrqfsbgl
+name: Performance issues with Zero Trust Policies
+impact: minor
+systems:
+    - n05d51gmgf0f
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2025-03-29 04:44:27"
+      description: "Cloudflare is investigating increased latency and errors when fetching user identity details and device posture in PHX. \n\nOnly Zero Trust traffic matching gateway policies with identity and device posture expressions are affected. \n\nWe are working to mitigate this problem. More updates to follow shortly."
+      investigating: true
