@@ -1,0 +1,11 @@
+version: incident/v1
+id: h21dspp28l6j
+name: Connection issue in Melbourne
+impact: minor
+systems:
+    - 3z7b6jks10hm
+    - cwqgbrdl34rr
+timeline:
+    - ts: "2025-03-30 15:12:33"
+      description: We are currently investigating a failure in the Melbourne region affecting multiple services. We are in the process of failing over services to Sydney. We are investigating and will provide updates as we have them.
+      investigating: true
