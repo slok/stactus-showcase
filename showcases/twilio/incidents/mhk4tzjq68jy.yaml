@@ -1,0 +1,10 @@
+version: incident/v1
+id: mhk4tzjq68jy
+name: SMS Delivery Delays To UTS Network In Curacao
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2025-03-31 16:50:59"
+      description: We are experiencing MMS/SMS delivery delays when sending messages to UTS Network In Curacao. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
