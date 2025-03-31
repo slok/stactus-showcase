@@ -13,3 +13,10 @@ timeline:
 
         We apologize for the inconvenience and will share an update once we have more information.
       investigating: true
+    - ts: "2025-03-31 05:41:42"
+      description: |-
+        Our Engineering team has identified the root cause of the issue affecting the creation of Managed Database Clusters and is actively working on a fix.
+
+        Users who already have a Caching Database Cluster in their account should be able to create a new Cluster. During this time, users without an existing caching cluster in their account may still see an error while creating a new cluster.
+
+        We apologize for the inconvenience and will provide another update as soon as possible.
