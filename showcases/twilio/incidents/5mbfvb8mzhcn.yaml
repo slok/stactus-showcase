@@ -3,6 +3,7 @@ id: 5mbfvb8mzhcn
 name: Intermittent Programmable Voice Outages Impacting Calls and Flex
 impact: minor
 systems:
+    - b9z92qjr2p04
     - whldrk77jnm4
     - h056tfqk3q97
 timeline:
@@ -13,10 +14,12 @@ timeline:
       description: Twilio is aware of an issue impacting Flex and Programmable Voice. We have assembled triage teams and are investigating. Customers will experience issues with Flex and Programmable Voice.
       investigating: true
     - ts: "2025-03-31 16:47:33"
-      description: We are continuing to investigate this issue.
+      description: Twilio has Identified the issue and is scaling up systems and deployed new hosts in order to ease customer issues. Customers may still see issues with Flex and Programmable Voice. We will update in 30 mins or as soon as we have more information.
       investigating: true
     - ts: "2025-03-31 16:47:51"
-      description: Twilio is aware of an issue impacting Flex and Programmable Voice. We have assembled triage teams and are investigating. Customers will experience issues with Flex and Programmable Voice.
+      description: Twilio continues scaling up systems and deploying new hosts in order to ease customer issues. Customers may still see issues with Flex and Programmable Voice. We will update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2025-03-31 16:55:13"
-      description: Twilio has Identified the issue and is scaling up systems and deployed new hosts in order to ease customer issues. Customers may still see issues with Flex and Programmable Voice. We will update in 30 mins or as soon as we have more information.
+      description: Twilio continues scaling up systems and deploying new hosts in order to ease customer issues. Customers may still see issues with Flex and Programmable Voice. We will update in 1 hour or as soon as more information becomes available.
+    - ts: "2025-03-31 17:35:32"
+      description: We are continuing to work on a fix for this issue.
