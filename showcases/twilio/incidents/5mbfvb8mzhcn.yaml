@@ -1,9 +1,13 @@
 version: incident/v1
 id: 5mbfvb8mzhcn
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Intermittent Programmable Voice Outages Impacting Calls and Flex
+impact: minor
+systems:
+    - h056tfqk3q97
 timeline:
     - ts: "2025-03-31 15:57:59"
       description: Our monitoring systems have detected a potential issue multiple tcbt and e2e tests failing. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-03-31 16:36:34"
+      description: Twilio is aware of an issue impacting Flex and Programmable Voice. We have assembled triage teams and are investigating. Customers will experience issues with Flex and Programmable Voice.
       investigating: true
