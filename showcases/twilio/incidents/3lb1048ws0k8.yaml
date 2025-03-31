@@ -6,3 +6,6 @@ systems: []
 timeline:
     - ts: "2025-03-31 18:28:20"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with 503s from TaskRouter. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-03-31 18:42:43"
+      description: We have fully investigated the 503s from TaskRouter issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
