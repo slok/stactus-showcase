@@ -15,3 +15,6 @@ timeline:
       description: We are observing successful SMS delivery when sending messages from AT&T Network in the US to a Subset of Twilio's Numbers.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2025-03-31 19:59:00"
       description: We continue to observe successful SMS delivery when sending messages from AT&T Network in the US to a Subset of Twilio's Numbers.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-03-31 21:15:16"
+      description: We are no longer experiencing SMS delivery failures inbound SMS delivery when sending messages from AT&T Network in the US to a Subset of Twilio's Numbers. This incident has been resolved.
+      resolved: true
