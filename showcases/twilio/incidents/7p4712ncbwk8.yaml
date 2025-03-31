@@ -1,6 +1,6 @@
 version: incident/v1
 id: 7p4712ncbwk8
-name: Increased Error Rate Across Multiple Twilio Products
+name: We Are Experiencing an Issue With Twilio Rest APIs Resulting in Unexpected 503 Errors Across Multiple Products
 impact: minor
 systems:
     - yf5px6tdl6yt
@@ -15,3 +15,5 @@ timeline:
     - ts: "2025-03-31 20:14:30"
       description: We are investigating increased error rates across multiple Twilio products. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-03-31 20:29:11"
+      description: Programmable Messaging Insights and Programmable Voice Insights are now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.
