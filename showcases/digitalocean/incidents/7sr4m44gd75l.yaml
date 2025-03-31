@@ -22,3 +22,11 @@ timeline:
         We apologize for the inconvenience and will provide another update as soon as possible.
     - ts: "2025-03-31 07:58:15"
       description: "Our Engineering team has implemented a fix to resolve the issues impacting the creation of Managed Database Clusters.\n\nUsers should no longer see any errors while creating a Caching Database Cluster. \n\nWe are actively monitoring the situation and will post an update as soon as the issue is fully resolved."
+    - ts: "2025-03-31 09:30:16"
+      description: |-
+        From 00:13 UTC to 9:09 UTC, users may have experienced errors when attempting to create Managed Database Caching Clusters.
+
+        Our Engineering team has confirmed the full resolution of the issue. Users should now be able to create Caching clusters normally.
+
+        If you continue to experience issues, please open a support ticket from your Cloud Control Panel.
+      resolved: true
