@@ -1,0 +1,14 @@
+version: incident/v1
+id: bf2jtwbsbfqp
+name: Elevated 5xx Errors from Taskrouter
+impact: none
+systems:
+    - b9z92qjr2p04
+timeline:
+    - ts: "2025-03-31 12:13:30"
+      description: Our engineers are currently investigating the customer impact of a retroactive issue with Programmable API. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-03-31 12:21:35"
+      description: Twilio Taskrouter was degraded for 2 minutes between 05:00 and 05:02 Pacific Time on 03/31/2025. During this period of time, customers may have experienced 5xx errors. The issue has now been resolved.
+    - ts: "2025-03-31 12:23:45"
+      description: This incident has been resolved.
+      resolved: true
