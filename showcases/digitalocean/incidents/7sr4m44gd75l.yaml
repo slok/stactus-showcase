@@ -1,0 +1,15 @@
+version: incident/v1
+id: 7sr4m44gd75l
+name: Managed Databases creation
+impact: minor
+systems:
+    - mzkgffp35tq4
+timeline:
+    - ts: "2025-03-31 04:09:58"
+      description: |-
+        As of 00:13 UTC, our Engineering team is investigating an issue with creating Managed Database clusters.
+
+        During this time, users may face issues creating caching clusters.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
