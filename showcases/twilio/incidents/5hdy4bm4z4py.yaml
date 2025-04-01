@@ -3,8 +3,14 @@ id: 5hdy4bm4z4py
 name: SMS Delivery Failures to Verizon Wireless in United States of America via a Subset of Shortcodes
 impact: minor
 systems:
-    - 39mb8cmw8y2v
+    - h0fl7prwfhvm
 timeline:
     - ts: "2025-04-01 14:13:37"
       description: We are experiencing SMS delivery failures to Verizon Wireless in United States of America via a Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-04-01 14:54:44"
+      description: We are experiencing SMS delivery failures to Verizon Wireless in United States of America via a Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-04-01 15:02:45"
+      description: It has been identified that we are experiencing MMS delivery failures instead of SMS Delivery Failures to Verizon Wireless in United States of America via a Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
