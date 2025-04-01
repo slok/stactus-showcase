@@ -1,0 +1,15 @@
+version: incident/v1
+id: dj7gmn5mlczy
+name: Access SSH Issues
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2025-04-01 16:27:49"
+      description: We are currently investigating an issue where Cloudflared short-lived cert SSH and Access for Infrastructure SSH are experiencing elevated error rates for some customers.
+      investigating: true
+    - ts: "2025-04-01 16:38:25"
+      description: |-
+        We have identified the issue with short-lived certificates which are used for authentication in Cloudflared SSH and Access for Infrastructure SSH. This is causing logins to fail for these two application types. All other Access application types are not impacted at this time.
+
+        We have applied a fix for this issue and are currently monitoring the results.

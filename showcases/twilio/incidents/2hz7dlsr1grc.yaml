@@ -1,0 +1,12 @@
+version: incident/v1
+id: 2hz7dlsr1grc
+name: On Call Engineers are Investigating
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-01 16:34:49"
+      description: We've become aware of a potential issue with customers reporting dead air calls and increased 404s. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-01 16:36:06"
+      description: We have fully investigated the dead air calls and increased 404s issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
