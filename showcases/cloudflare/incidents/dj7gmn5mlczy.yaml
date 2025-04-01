@@ -13,3 +13,6 @@ timeline:
         We have identified the issue with short-lived certificates which are used for authentication in Cloudflared SSH and Access for Infrastructure SSH. This is causing logins to fail for these two application types. All other Access application types are not impacted at this time.
 
         We have applied a fix for this issue and are currently monitoring the results.
+    - ts: "2025-04-01 16:46:20"
+      description: This issue is now resolved.
+      resolved: true
