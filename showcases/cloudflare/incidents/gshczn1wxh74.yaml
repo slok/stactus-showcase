@@ -1,0 +1,9 @@
+version: incident/v1
+id: gshczn1wxh74
+name: Cloudflare WAF False Positives
+impact: minor
+systems:
+    - d1r0plwsl5qb
+timeline:
+    - ts: "2025-04-01 17:03:09"
+      description: Cloudflare has identified an issue with the managed ruleset "Apache Camel - Remote Code Execution - CVE:CVE-2025-29891" which is potentially causing false positives. Customers can disable this rule by setting Action -> Log in the Cloudflare Dashboard. Other WAF rules are unaffected. We are currently working on a fix for this issue.
