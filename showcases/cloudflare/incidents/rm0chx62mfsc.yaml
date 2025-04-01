@@ -1,0 +1,13 @@
+version: incident/v1
+id: rm0chx62mfsc
+name: Possible Network Congestion in Korea Area (ICN-A)
+impact: minor
+systems:
+    - v4s7np92f0dh
+timeline:
+    - ts: "2025-04-01 14:07:26"
+      description: |-
+        Cloudflare is observing possible network congestion in the Korea area (ICN-A).
+
+        We are working to mitigate impact to Internet users in this region.
+      investigating: true
