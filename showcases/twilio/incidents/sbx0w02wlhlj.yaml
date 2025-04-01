@@ -1,9 +1,13 @@
 version: incident/v1
 id: sbx0w02wlhlj
 name: Issue With Subaccount Closures Failing
-impact: none
-systems: []
+impact: minor
+systems:
+    - 4rv9xfxmdjg9
 timeline:
     - ts: "2025-04-01 11:33:10"
       description: Our monitoring systems have detected a potential issue with subaccount closures failing due to timeouts. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-01 11:49:08"
+      description: We are investigating an issue with subaccount closures failing in Twilio public API. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
