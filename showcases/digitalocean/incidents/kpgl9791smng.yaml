@@ -1,0 +1,13 @@
+version: incident/v1
+id: kpgl9791smng
+name: GenAI Platform Agent
+impact: minor
+systems:
+    - br95fz33h6td
+timeline:
+    - ts: "2025-04-02 03:26:06"
+      description: |-
+        Our Engineering Team is currently investigating an issue where some customers are unable to view their GenAI platform agent in the console. As a result, they are also unable to update their agent via the console. We are working to determine which types of agents are affected, including whether newly created agents are impacted.
+
+        We apologize for the inconvenience and will provide another update as soon as possible.
+      investigating: true
