@@ -1,9 +1,12 @@
 version: incident/v1
 id: mf40cdzhsws3
-name: On Call Engineers are Investigating an Issue with Submitting a Ticket Through the Twilio Help Center
+name: Customers are Unable to Submit a Ticket through Twilio Help Center
 impact: none
 systems: []
 timeline:
     - ts: "2025-04-02 19:07:48"
       description: We've become aware of a potential issue with Submitting a ticket via the Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-04-02 19:25:34"
+      description: Twilio customers using the Twilio Help Center without a paid support plan were unable to contact support through ticket submission since approximately April 1, 2025 at 4:00 PM PST. Paid support and Personalized support customers were unaffected. This issue was resolved on April 1, 2025 at approximately 12:00 PM PST.
+      resolved: true
