@@ -11,5 +11,5 @@ timeline:
       description: We are currently applying a mitigation to resolve an issue with managing marketing email subscriptions.
       investigating: true
     - ts: "2025-03-31 17:57:30"
-      description: This incident has been resolved.
+      description: Between March 29 7:00 UTC and March 31 17:00 UTC users were unable to unsubscribe from GitHub marketing email subscriptions due to a service outage. Additionally, on March 31, 2025 from 7:00 UTC to 16:40 UTC users were unable to submit eBook and event registration forms on resources.github.com, also due to a service outage. <br /><br />The incident occurred due to expired credentials used for an internal service. We mitigated it by renewing the credentials and redeploying the affected services. To improve future response times and prevent similar issues, we are enhancing our credential expiry detection, rotation processes, and on-call observability and alerting.
       resolved: true
