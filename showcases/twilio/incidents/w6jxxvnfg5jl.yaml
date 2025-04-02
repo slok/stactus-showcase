@@ -1,9 +1,12 @@
 version: incident/v1
 id: w6jxxvnfg5jl
-name: On Call Engineers are Investigating an issue
+name: Message Status Event Steams Issue
 impact: none
 systems: []
 timeline:
     - ts: "2025-04-02 08:18:17"
       description: Our monitoring systems have detected a potential issue with a subset of Event Streams events failing. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-04-02 08:43:35"
+      description: Message Status Event Steams events were degraded on 2nd April 2025 between 06:30 AM UTC and 08:10 AM UTC. During this period of time customers may have not received ~3.6% of status updates for outbound messages through Event Streams. The issue has now been resolved.
+      resolved: true
