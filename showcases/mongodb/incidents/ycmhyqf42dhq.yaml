@@ -13,3 +13,5 @@ timeline:
       investigating: true
     - ts: "2025-04-02 21:09:25"
       description: We have successfully reproduced the failed DNS resolution from an ec2 instance in Frankfurt (eu-central-1).  We are in communication with AWS on the issue.
+    - ts: "2025-04-02 21:55:22"
+      description: DNS Resolution issues at Cloud Provider level resulting in intermittent resolution issues of the Atlas Resources to their Hostname/IP. High Severity case has been filed and additional updates to follow.
