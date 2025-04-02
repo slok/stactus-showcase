@@ -1,10 +1,13 @@
 version: incident/v1
 id: ycmhyqf42dhq
 name: Intermittent connection issues for some clusters in the AWS Frankfurt region
-impact: none
+impact: minor
 systems:
     - 98lbmdz85yp0
 timeline:
     - ts: "2025-04-02 17:02:30"
       description: We are investigating intermittent connection issues for some clusters in the AWS Frankfurt (eu-central-1) region.
+      investigating: true
+    - ts: "2025-04-02 20:30:04"
+      description: Our investigation has found an issue with resolving DNS records from certain geographies.  We are continuing to investigate to identify which geographies are impacted
       investigating: true

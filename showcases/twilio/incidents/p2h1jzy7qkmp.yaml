@@ -1,9 +1,13 @@
 version: incident/v1
 id: p2h1jzy7qkmp
-name: On Call Engineers are Investigating an issue with Live Chat
-impact: none
-systems: []
+name: Customers Encountering Issues With Live Chat
+impact: minor
+systems:
+    - xv01vfp8wvs4
 timeline:
     - ts: "2025-04-02 20:22:58"
       description: Our monitoring systems have detected a potential issue with Live Chat. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-02 20:28:38"
+      description: We are investigating an issue with our Live Chat.  Customers across all support plans are encountering issues with Live Chat—after sending a message, they need to refresh the thread in order to continue the conversation.  We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
