@@ -1,0 +1,9 @@
+version: incident/v1
+id: yj7kgsdtw64f
+name: Retro - Network Performance Issues In Western North America
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-02 22:22:47"
+      description: 'Earlier today Cloudflare experienced network degradation in Western North America that affected some downstream services: R2, Stream, Images, and Cache Reserve. The period of impact was roughly 13:15 UTC - 16:00 UTC. Those issues have been resolved.'
+      resolved: true
