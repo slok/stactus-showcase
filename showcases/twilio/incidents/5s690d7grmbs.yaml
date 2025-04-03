@@ -1,0 +1,9 @@
+version: incident/v1
+id: 5s690d7grmbs
+name: Customers Unable to Select Business Profile When Applying for a Sender ID
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-03 22:39:40"
+      description: Twilio Console Sender IDs was degraded for 24 hours between 3:00pm, April 2nd  and 2:46 PM April 3rd Pacific Time During this period of time customers may have experienced not being able to select Business Profile when applying for a Sender ID. The issue has now been resolved.
+      resolved: true
