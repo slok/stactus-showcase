@@ -1,0 +1,11 @@
+version: incident/v1
+id: tky2tbn4hvxf
+name: Call Failures From Canadian Network Subscribers to a Subset of Twilio Toll Free Numbers
+impact: minor
+systems:
+    - g2dt752kwqs0
+    - 2v3v92mz2m4h
+timeline:
+    - ts: "2025-04-03 21:00:04"
+      description: We are observing (a subset of) call failures to Twilio Canadian Toll Free numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour as soon as more information becomes available.
+      investigating: true
