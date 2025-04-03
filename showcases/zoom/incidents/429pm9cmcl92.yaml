@@ -1,0 +1,10 @@
+version: incident/v1
+id: 429pm9cmcl92
+name: A subset of users would be experiencing connectivity issues with Zoom Rooms.
+impact: minor
+systems:
+    - xtgr15yv6hbn
+timeline:
+    - ts: "2025-04-03 06:08:37"
+      description: We have detected service degradation where a subset of users would be experiencing connectivity issues with Zoom Rooms. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
