@@ -1,0 +1,10 @@
+version: incident/v1
+id: d217kptc0f51
+name: Networking issues in HKG
+impact: minor
+systems:
+    - 823dvbm7k1vy
+timeline:
+    - ts: "2025-04-03 22:51:29"
+      description: We are investigating intermittent network issues in the HKG region. Apps running in the region may have trouble reaching apps in other regions at this time.
+      investigating: true
