@@ -19,3 +19,8 @@ timeline:
       description: A resolver host within the AWS network has been identified as the root cause of the failed DNS resolutions. A fix to the issue is being worked on.
     - ts: "2025-04-03 02:45:26"
       description: A fix to the issue with the resolver host within the AWS network continues to be worked on. We will provide the next update before 2025/04/02 14UTC.
+    - ts: "2025-04-03 03:25:53"
+      description: |-
+        A host has been taken offline that was suspected to be causing the DNS resolution issues. The issue continues to be looked into to ensure it is fully mitigated.
+
+        A reproduction of the issue is no longer exhibiting DNS resolution issues. We will be checking in with customers to ensure their intermittent connection issues are fully resolved.
