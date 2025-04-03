@@ -2,10 +2,15 @@ version: incident/v1
 id: 320xt6327kcl
 name: Logins to Flex are Failing
 impact: minor
-systems: []
+systems:
+    - q4d7rj555ljl
 timeline:
     - ts: "2025-04-03 13:22:11"
       description: Our monitoring systems have detected a potential issueSynthetic tests are failing for prod us1. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2025-04-03 13:33:10"
-      description: Our monitoring systems have detected a potential issueSynthetic tests are failing for prod us1. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      description: Our monitoring systems have detected issues with logging into Flex. Our engineering team has been alerted and is actively investigating. We are seeing recovery however some customers will have issues when logging into flex. If customers are still having issues logging in they can restart their application and that can help with the issue.
+    - ts: "2025-04-03 13:42:39"
+      description: Our monitoring systems have detected issues with logging into Flex. Our engineering team has been alerted and is actively investigating. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2025-04-03 13:47:15"
+      description: We are continuing to work on a fix for this issue.
