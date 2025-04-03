@@ -1,0 +1,10 @@
+version: incident/v1
+id: vlphf05xk5qd
+name: Network issues in GDL
+impact: critical
+systems:
+    - qsy0b4zwvsvw
+timeline:
+    - ts: "2025-04-03 10:18:01"
+      description: We are investigating network issues in the GDL region. Apps running in the region may be unreachable at this time.
+      investigating: true
