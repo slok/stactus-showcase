@@ -1,0 +1,10 @@
+version: incident/v1
+id: 194y0tcsy6r0
+name: SMS Delivery Delays to O2 in Czech Republic
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-04-03 17:59:42"
+      description: We are experiencing delays in receiving message delivery reports when sending to SMS delivery delays to O2 in Czech Republic. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

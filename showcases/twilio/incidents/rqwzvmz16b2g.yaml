@@ -1,0 +1,12 @@
+version: incident/v1
+id: rqwzvmz16b2g
+name: A Short Latency Spike in Flex Resulted in a Few Errors Orchestrating Tasks and Meetings. Less Than 15 Errors Were Observed.
+impact: minor
+systems:
+    - q4d7rj555ljl
+timeline:
+    - ts: "2025-04-03 17:56:38"
+      description: Our engineers have identified the issue on a short latency spike in Flex resulted in a few errors orchestrating tasks and meetings. Less than 15 errors were observed and are working to deploy a fix.  We expect to provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2025-04-03 18:04:36"
+      description: We are no longer experiencing an issue on a short latency spike in Flex resulted in a few errors orchestrating tasks and meetings. This incident has been resolved.
+      resolved: true
