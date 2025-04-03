@@ -1,9 +1,12 @@
 version: incident/v1
 id: jz8ywdz17lyd
-name: API errors on Transcript retrieval
+name: '"Automated Alert: Minimal Customer Impact"'
 impact: none
 systems: []
 timeline:
     - ts: "2025-04-03 06:23:55"
       description: We are currently investigating an elevated rate of HTTP 500 errors for API errors on Transcript retrieval. Our engineers are working on the issue, and we will provide another update in one hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-04-03 06:41:49"
+      description: We have fully investigated the API errors on the transcript retrieval issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
