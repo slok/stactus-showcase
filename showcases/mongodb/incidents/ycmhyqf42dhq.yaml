@@ -26,3 +26,9 @@ timeline:
         A reproduction of the issue is no longer exhibiting DNS resolution issues. We will be checking in with customers to ensure their intermittent connection issues are fully resolved.
     - ts: "2025-04-03 12:07:43"
       description: We are getting confirmation from customers that they have now seen the issue resolve after a host causing DNS resolution issues was taken offline. We continue to work to ensure the issue is fully resolved and monitor the situation.
+    - ts: "2025-04-03 16:40:53"
+      description: |-
+        We have received confirmation that this issue has been resolved by taking a host offline in the AWS network that was causing the DNS resolution issues. We also continue to confirm with customers that they are not seeing any residual impacts of this issue.
+
+        This issue is now resolved.
+      resolved: true
