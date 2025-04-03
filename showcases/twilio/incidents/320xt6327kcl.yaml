@@ -14,3 +14,5 @@ timeline:
       description: Our monitoring systems have detected issues with logging into Flex. Our engineering team has been alerted and is actively investigating. We expect to provide another update in 30 minutes or as soon as more information becomes available.
     - ts: "2025-04-03 13:47:15"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2025-04-03 13:59:31"
+      description: We have fixed the issue with Flex login and customers should no longer have issues logging into Flex. The issue was related to DNS. If customers are still having issues logging in it is advised to restart your application.
