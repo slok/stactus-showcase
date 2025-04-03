@@ -1,0 +1,13 @@
+version: incident/v1
+id: q07s549x72cy
+name: GenAI Platform
+impact: minor
+systems:
+    - br95fz33h6td
+timeline:
+    - ts: "2025-04-03 21:06:17"
+      description: |-
+        Our Engineering team is investigating an issue affecting GenAI Platform. The GenAI platform is seeing errors creating agents with certain LLMs, specifically OpenAI and Llama 3.1 8B. The user is shown an agreement checkbox even though they have already accepted the agreement. If they try to accept the agreement, they will be thrown an error and prevented from creating the agent.
+
+        We apologize for the inconvenience, we will share an update once we have more information.
+      investigating: true
