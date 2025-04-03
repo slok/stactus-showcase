@@ -1,0 +1,11 @@
+version: incident/v1
+id: 4fzdx7119k41
+name: The list targets command in the WARP-CLI is not returning results
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2025-04-03 19:08:47"
+      description: Cloudflare Engineering is investigating an issue causing infrastructure application targets to not appear when running the warp-cli list targets command. Infrastructure Application authentication and all other Access components are not affected at this time.
+      investigating: true
