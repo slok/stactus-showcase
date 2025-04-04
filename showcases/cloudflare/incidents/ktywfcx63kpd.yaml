@@ -1,0 +1,10 @@
+version: incident/v1
+id: ktywfcx63kpd
+name: Possible impact on creating new browser isolation sessions
+impact: minor
+systems:
+    - q0dfbn0p6hyt
+timeline:
+    - ts: "2025-04-04 21:46:28"
+      description: Cloudflare is investigating issues with the Browser Isolation service. Customers that use Browser Isolation may observe errors when attempting to load sites through the service. This issue does not affect any other Cloudflare services. We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
