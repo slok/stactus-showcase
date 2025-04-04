@@ -1,0 +1,12 @@
+version: incident/v1
+id: zhm8wzmppccv
+name: 'Cloudflare Image Transformation: Elevated error rates'
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-04-04 15:40:07"
+      description: |-
+        Cloudflare detected and resolved issues with our Image Transformation service within the period of April 3rd 14:00UTC to April 4th 10:00 UTC.
+        Customers might have observed "Error 9523" during this timeframe.
+        We have mitigated this problem, and applied corrective measures to ensure continued reliability.
+      resolved: true
