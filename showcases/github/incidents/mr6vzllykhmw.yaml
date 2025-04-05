@@ -11,5 +11,5 @@ timeline:
       description: The Audit Log is experiencing an increase of failed queries due to availability issues with the associated data store. Audit Log data is experiencing a delay in availability. We have identified the issue and we are deploying mitigating measures.
       investigating: true
     - ts: "2025-04-01 09:29:15"
-      description: This incident has been resolved.
+      description: On April 1st, 2025, between 08:17:00 UTC and 09:29:00 UTC the data store powering the Audit Log service experienced elevated errors resulting in an approximate 45 minute delay of Audit Log Events. Our systems maintained data continuity and we experienced no data loss. The delay only affected the Audit Log API and the Audit Log user interface. Any configured Audit Log Streaming endpoints received all relevant Audit Log Events. The data store team deployed mitigating actions which resulted in a full recovery of the data store’s availability.
       resolved: true
