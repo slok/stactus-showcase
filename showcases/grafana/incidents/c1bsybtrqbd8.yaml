@@ -1,0 +1,15 @@
+version: incident/v1
+id: c1bsybtrqbd8
+name: Hosted Grafana Instance Creation Failures in ap-southeast-1 (Singapore)
+impact: minor
+systems:
+    - y8p2jm7hpwy0
+timeline:
+    - ts: "2025-04-06 14:42:14"
+      description: |-
+        We are currently investigating an issue affecting Hosted Grafana infrastructure in the ap-southeast-1 (Singapore) region. Some users may experience failures when provisioning new resources or instances.
+
+        At this time, existing instances appear to be unaffected.
+
+        Our engineering team is actively investigating and will provide updates as more information becomes available.
+      investigating: true
