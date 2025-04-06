@@ -20,3 +20,6 @@ timeline:
     - ts: "2025-04-05 22:01:29"
       description: "Our Engineering team is actively investigating the issue affecting Mongo 8 Database operations. \n\nWe apologize for the continued inconvenience. We will provide additional updates as soon as more information becomes available."
       investigating: true
+    - ts: "2025-04-06 01:01:11"
+      description: "Our Engineering team has resolved the issue affecting Mongo 8 Database operations. Users should be able to create new Mongo 8 Databases, and other operations such as upgrading, scaling, and forking should complete successfully now. \n\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience."
+      resolved: true
