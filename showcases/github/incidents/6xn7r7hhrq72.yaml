@@ -11,5 +11,5 @@ timeline:
       description: We are investigating and working on applying mitigations to intermittent unavailability of GitHub's Docs.
       investigating: true
     - ts: "2025-04-03 19:12:04"
-      description: This incident has been resolved.
+      description: On 2025-04-03, between 6:13:27 PM UTC and 7:12:00 PM UTC the docs.github.com service was degraded and errored. On average, the error rate was 8% and peaked at 20% of requests to the service. This was due to a misconfiguration and elevated requests.<br />We mitigated the incident by correcting the misconfiguration.<br />We are working to reduce our time to detection and mitigation of issues like this one in the future.
       resolved: true
