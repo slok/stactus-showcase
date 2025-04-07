@@ -1,0 +1,13 @@
+version: incident/v1
+id: 6qct15cclpnr
+name: Consumer WARP Connectivity Issues
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2025-04-07 16:13:47"
+      description: |-
+        We are currently investigating an issue where some users of our 1.1.1.1 with WARP Consumer product may see performance issues browsing the web with DNS over WARP mode enabled.
+
+        As a temporary workaround until this issue is resolved please move to DNS over HTTP mode by navigating to Settings -> Advanced -> Connection Options -> DNS settings -> Protocol options and selecting "DNS over HTTPS".
+      investigating: true
