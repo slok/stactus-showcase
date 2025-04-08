@@ -1,0 +1,12 @@
+version: incident/v1
+id: wb97rf4r9xly
+name: Degraded Performance of Adaptive Metrics in GCP US Central
+impact: minor
+systems:
+    - djjv8h5nh3jp
+timeline:
+    - ts: "2025-04-08 14:01:19"
+      description: |-
+        Since today at 06:50 UTC, we are experiencing degraded performance on Adaptive Metrics recommendations in cluster GCP US Central.
+        The impact can be reflected in rule recommendations getting are outdated.
+      investigating: true
