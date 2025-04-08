@@ -1,0 +1,10 @@
+version: incident/v1
+id: ncrt39rh8908
+name: Security Analytics Issue
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-04-08 21:38:37"
+      description: We are currently investigating an issue where the Security Analytics view in Cloudflare Dashboard may be showing inaccurate data in some cases.
+      investigating: true
