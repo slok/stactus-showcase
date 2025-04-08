@@ -1,0 +1,9 @@
+version: incident/v1
+id: 320fthnspfw8
+name: Meta Template Approval Webhook Delivery Failure
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-08 17:48:37"
+      description: There is currently a bug in Meta's systems that is causing a delay in template status change event delivery. There will be a delay for the time it takes for a template approval to be reflected in Twilio's systems. Customers may see a discrepancy in the template status between Meta and Twilio during this delay. Twilio will continue to monitor the situation while Meta resolves the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
