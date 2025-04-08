@@ -2,10 +2,16 @@ version: incident/v1
 id: 0l58j0l2gwrm
 name: Service Disruption
 impact: none
-systems: []
+systems:
+    - pn57gvt7sjmx
 timeline:
     - ts: "2025-04-07 16:47:07"
       description: We are investigating an issue users are experiencing when loading comments in some files.
       investigating: true
     - ts: "2025-04-07 17:25:39"
       description: We have resolved the issue causing some users to be unable to load their comments, and are monitoring.
+    - ts: "2025-04-08 05:50:56"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2025-04-08 05:51:16"
+      description: This incident has been resolved.
+      resolved: true
