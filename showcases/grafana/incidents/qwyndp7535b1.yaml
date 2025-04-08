@@ -1,0 +1,11 @@
+version: incident/v1
+id: qwyndp7535b1
+name: Cloudwatch datasource query issues on cluster GPC US central
+impact: minor
+systems:
+    - qqj6ssvvsqmq
+timeline:
+    - ts: "2025-04-08 14:52:26"
+      description: |-
+        Since today at ~9:40 UTC we are observing connectivity errors on CloudWatch datasources located on US central cluster.
+        This impacts the query of data and can affect the Alerts based on CloudWatch datasources.
