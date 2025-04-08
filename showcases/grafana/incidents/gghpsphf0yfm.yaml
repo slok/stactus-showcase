@@ -1,0 +1,9 @@
+version: incident/v1
+id: gghpsphf0yfm
+name: Log ingestion rate limit issue in AWS Germany (logs-prod-012)
+impact: major
+systems: []
+timeline:
+    - ts: "2025-04-08 13:03:30"
+      description: Between 2025-04-07:13:00:00UTC and 2025-04-08:14:00:00UTC some customers in AWS Germany (logs-prod-012) have had their ingestion rate limits incorrectly lowered, causing affected customers to hit rate limits writing their logs. The correct rate limits have been reinstated and we can confirm affected customers are no longer being rate limited.
+      resolved: true
