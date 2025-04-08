@@ -11,5 +11,5 @@ timeline:
       description: We are aware that the generation of the Dormant Users Report is delayed for some of our customers, and that the resulting report may be inaccurate. We are actively investigating the root cause and a possible remediation.
       investigating: true
     - ts: "2025-04-02 20:20:00"
-      description: This incident has been resolved.
+      description: Between 2025-03-27 12:00 UTC and 2025-04-03 16:00 UTC, the GitHub Enterprise Cloud Dormant Users report was degraded and falsely indicated that dormant users were active within their business. This was due to increased load on a database from a non-performant query.<br /><br />We mitigated the incident by increasing the capacity of the database, and installing monitors for this specific report to improve observability for future. As a long-term solution, we are rewriting the Dormant Users report to optimize how it queries for user activity, which will result in significantly faster and accurate report generation.
       resolved: true
