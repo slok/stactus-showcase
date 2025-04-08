@@ -1,0 +1,9 @@
+version: incident/v1
+id: vzqpjr0bjccx
+name: Users unable to create new Paypal payment methods
+impact: minor
+systems:
+    - tvztr8rd74jp
+timeline:
+    - ts: "2025-04-08 20:26:36"
+      description: Users are currently unable to add new Paypal payment methods. This appears to be an upstream issue with Paypal's API service. We are monitoring and awaiting resolution.
