@@ -1,0 +1,12 @@
+version: incident/v1
+id: k8msn71fvh5t
+name: On Call Engineers are Investigating an issue with Missing Participant Events on Video Insights Participant Timeline
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-08 20:14:37"
+      description: Our monitoring systems have detected a potential issue with missing participant events on Video Insights Participant timeline. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-08 20:15:39"
+      description: This incident has been resolved.
+      resolved: true
