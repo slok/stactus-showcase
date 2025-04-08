@@ -1,0 +1,41 @@
+version: incident/v1
+id: 20rd2tylf5gl
+name: Multiple components of Grafana down
+impact: major
+systems:
+    - bg6nnf5n3pjx
+    - 1cj80yl7f6dy
+    - 9z18xdj3j8c7
+    - gx6m1v8jy475
+    - 318npch70m7f
+    - nfll10wmx61f
+    - dy7xwydh5kv3
+    - k21kfy4lhmdw
+    - 2lyhl59mn4dl
+    - 6rlxmdg0t6v3
+    - hqf81r9207h6
+    - tpk4cdhtsm82
+    - d6hp5brmvsbt
+    - rwvs9fvrnhp2
+    - x40g7bxm0q2d
+    - v3g3j6krw8rp
+    - gp2m13gyj6x2
+    - 662yyglvgqpm
+    - l72f5c7651n5
+    - 98skfgrdgchf
+    - h3wg1km0qxwv
+    - 0m5030zr6qdz
+timeline:
+    - ts: "2025-04-08 05:42:01"
+      description: |-
+        As of 5:30am UTC, we were alerted to an issue with the following components and what users experiencing these issues may encounter:
+        - Authentication failing
+        - Alerting impacted, unable to evaluate rules
+        - Loki impacted, errors on read and write path
+        - SLO plugin is down in the prod-us-east-0 cluster, unable to access page
+
+        Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
+      investigating: true
+    - ts: "2025-04-08 05:46:46"
+      description: We are continuing to investigate this issue.
+      investigating: true
