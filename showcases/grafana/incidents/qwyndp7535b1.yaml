@@ -9,3 +9,5 @@ timeline:
       description: |-
         Since today at ~9:40 UTC we are observing connectivity errors on CloudWatch datasources located on US central cluster.
         This impacts the query of data and can affect the Alerts based on CloudWatch datasources.
+    - ts: "2025-04-09 08:40:12"
+      description: Our engineering team is applying the adequate fixes to tackle the issue, and monitoring the behavior.
