@@ -1,10 +1,13 @@
 version: incident/v1
 id: cw5wg7rh08fn
-name: On Call Engineers are Investigating an issue
+name: SMS Delivery Delay and Failures To And From Subset of Chile Twilio Numbers
 impact: minor
 systems:
     - 42zx9w2kmtvf
 timeline:
     - ts: "2025-04-09 15:33:06"
       description: Our monitoring systems have detected a potential issue with SMS Delivery Delay and Failures To And From Subset of Chile Twilio Numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-09 15:41:43"
+      description: We are experiencing SMS delivery delays and failures to and from a subset of Chile Twilio Numbers. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true

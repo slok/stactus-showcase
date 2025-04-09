@@ -7,3 +7,5 @@ systems:
 timeline:
     - ts: "2025-04-09 14:36:45"
       description: We have identified an issue with Cloud Manager and Atlas that is causing alerts to be paused and metrics data to be delayed. Underlying cluster health is unaffected, but we may have sent false host down alerts for some clusters.
+    - ts: "2025-04-09 15:45:51"
+      description: Alerts processing is enabled and metrics data is being ingested normally. We are continuing to monitor closely to ensure the issue has been successfully mitigated.
