@@ -1,9 +1,13 @@
 version: incident/v1
 id: 4x1r8dplfj0f
-name: On Call Engineers are Investigating an issue with Outbound SMS Delivery Delays To America Net Network in Brazil
-impact: none
-systems: []
+name: Outbound SMS Delivery Delays to America Net Network in Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
 timeline:
     - ts: "2025-04-09 05:42:17"
       description: Our monitoring systems have detected a potential issue with outbound SMS delivery delays to America Net Network in Brazil. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-09 05:50:03"
+      description: We are experiencing outbound SMS delivery delays when sending messages to America Net Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
