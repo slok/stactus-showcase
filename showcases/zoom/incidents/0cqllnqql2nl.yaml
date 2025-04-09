@@ -1,0 +1,10 @@
+version: incident/v1
+id: 0cqllnqql2nl
+name: A subset of users experiencing connectivity issues with international dial in numbers from Japan.
+impact: minor
+systems:
+    - ntdt65v1f9rv
+timeline:
+    - ts: "2025-04-09 04:46:53"
+      description: "We have detected service degradation where subset of users would be experiencing connectivity issues with international dial in numbers from Japan\nKindly note, you may still connect to the dial in service via +81 363 628 317. \n\nOur engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share."
+      investigating: true
