@@ -14,5 +14,5 @@ timeline:
       description: The issue has been resolved now, and we're actively monitoring the service for any further issues.
       investigating: true
     - ts: "2025-04-08 18:21:16"
-      description: This incident has been resolved.
+      description: On 2025-04-08, between 00:42 and 18:05 UTC, as we rolled out an updated version of our GPT 4o model, we observed that vision capabilities for GPT-4o for Copilot Chat in GitHub were intermittently unavailable. During this period, customers may have been unable to upload image attachments to Copilot Chat in GitHub. <br /><br />In response, we paused the rollout at 18:05 UTC. Recovery began immediately and telemetry indicates that the issue was fully resolved by 18:21 UTC. <br /><br />Following this incident, we have identified areas of improvements in our model rollout process, including enhanced monitoring and expanded automated and manual testing of our end-to-end capabilities.
       resolved: true
