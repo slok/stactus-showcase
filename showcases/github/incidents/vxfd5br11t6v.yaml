@@ -2,8 +2,15 @@ version: incident/v1
 id: vxfd5br11t6v
 name: Disruption with some Pull Requests stuck in processing state
 impact: minor
-systems: []
+systems:
+    - hhtssxt0f5v2
 timeline:
     - ts: "2025-04-09 23:27:16"
       description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-04-09 23:36:35"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-04-09 23:39:07"
+      description: Some users are experiencing delays in pull request updates. After pushing new commits, PRs show a "Processing updates" message, and the new commits do not appear in the pull request view.
       investigating: true
