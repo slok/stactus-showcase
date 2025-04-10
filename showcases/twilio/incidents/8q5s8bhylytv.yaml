@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8q5s8bhylytv
+name: SMS Delivery Delays and Failures to Cingular Wireless AT&T in US Over a  Subset of Longcodes.
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-10 08:46:26"
+      description: Twilio SMS was degraded for 5 minutes between 12:30 and 12:35 Pacific Time on 04/10/2025. During this period of time customers may have experienced SMS delivery delays and failures to Cingular Wireless AT&T in the US Over a subset of longcodes. The issue has now been resolved.
+      resolved: true
