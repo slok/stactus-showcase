@@ -15,5 +15,5 @@ timeline:
       description: Pull Requests is operating normally.
       investigating: true
     - ts: "2025-04-07 02:31:17"
-      description: This incident has been resolved.
+      description: On April 7, 2025 between 2:15:37 AM UTC and 2:31:14 AM UTC, multiple GitHub services were degraded. Requests to these services returned 5xx errors at a high rate due to an internal database being exhausted by our Codespaces service. The incident mitigated on its own.<br /><br />We have addressed the problematic queries from the Codespaces service, minimizing the risk of future reoccurrances.
       resolved: true
