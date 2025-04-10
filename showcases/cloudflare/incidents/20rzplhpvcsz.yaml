@@ -1,0 +1,14 @@
+version: incident/v1
+id: 20rzplhpvcsz
+name: Cloudflare D1 Issues
+impact: minor
+systems:
+    - z0yd3sxqjqdm
+timeline:
+    - ts: "2025-04-10 15:26:59"
+      description: |-
+        Cloudflare is aware of and investigating an issue with D1 in which there is currently a low error rate for HTTP requests to customer databases.
+        Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2025-04-10 15:27:54"
+      description: A fix has been implemented and we are monitoring the results.
