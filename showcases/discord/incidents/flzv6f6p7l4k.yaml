@@ -7,3 +7,7 @@ timeline:
     - ts: "2025-04-10 20:04:42"
       description: We're investigating elevated api latency across a lot of our endpoints. This is leading to broad impact(sending messages, starting sessions etc)
       investigating: true
+    - ts: "2025-04-10 20:26:46"
+      description: We've identified the issue and people are slowly being allowed to start their session again. Working on speeding that up.
+    - ts: "2025-04-10 20:32:47"
+      description: All users should now be able to start their session. Various flows might still see elevated latency, but we should be mostly recovered.
