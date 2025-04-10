@@ -10,3 +10,6 @@ timeline:
     - ts: "2025-04-10 19:26:29"
       description: We continue to monitor connectivity issues between probes and GCP Saudi Arabia.  As of 19:15 UTC all public probes are unable to connect to GCP Saudi Arabia to get changes to synthetic monitoring.  Probe continue to send metrics and logs to GCP Saudi Arabia, with the exception of Paris.
       investigating: true
+    - ts: "2025-04-10 20:47:24"
+      description: As of 20:29 UTC the incident is resolved all probes have reconnected to the API in GCP Saudi Arabia(prod-me-central-0).
+      resolved: true
