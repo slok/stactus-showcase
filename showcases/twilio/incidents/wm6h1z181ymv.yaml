@@ -1,0 +1,10 @@
+version: incident/v1
+id: wm6h1z181ymv
+name: On Call Engineers are Investigating
+impact: minor
+systems:
+    - 361mb56zmf8z
+timeline:
+    - ts: "2025-04-10 23:03:33"
+      description: We've become aware of a potential issue with <Gather> speech recognition returning English (en-US) results when language Hebrew (he-IL) is specified. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true

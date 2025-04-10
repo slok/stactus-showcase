@@ -9,3 +9,6 @@ timeline:
       description: Cloudflare cache purging by prefix is delayed when using Cache Reserve. We have identified the problematic release and are reverting now. Until then you may use the Purge by URL feature. More updates to follow.
     - ts: "2025-04-10 22:34:33"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-04-10 23:04:03"
+      description: This incident has been resolved.
+      resolved: true
