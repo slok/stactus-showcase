@@ -1,0 +1,13 @@
+version: incident/v1
+id: hbs9z4t73pn3
+name: Call Quality Issues to a Subset Of Mexico Phone Numbers
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2025-04-10 20:14:05"
+      description: Our monitoring systems have detected a potential issue with poor call quality on outbound calls to a subset of Mexico phone numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-10 20:17:04"
+      description: We are observing poor call quality on outbound calls to a subset of Mexico phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
