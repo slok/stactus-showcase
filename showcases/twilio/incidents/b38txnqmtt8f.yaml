@@ -2,8 +2,12 @@ version: incident/v1
 id: b38txnqmtt8f
 name: SMS Delivery Report Delays to C-Spire in United States of America via a Subset of Twilio Numbers
 impact: minor
-systems: []
+systems:
+    - 7d8w22hqrh6s
 timeline:
     - ts: "2025-04-10 13:57:03"
       description: Our monitoring systems have detected a potential issue with SMS delivery delays in United States. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-10 14:08:51"
+      description: We are experiencing SMS delivery report delays when sending messages to C-Spire in the United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
