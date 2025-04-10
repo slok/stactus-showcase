@@ -1,10 +1,13 @@
 version: incident/v1
 id: wm6h1z181ymv
-name: On Call Engineers are Investigating
+name: Gather Speech Recognition Returning English (en-US) Results When Language Hebrew (he-IL) Specified
 impact: minor
 systems:
     - 361mb56zmf8z
 timeline:
     - ts: "2025-04-10 23:03:33"
       description: We've become aware of a potential issue with <Gather> speech recognition returning English (en-US) results when language Hebrew (he-IL) is specified. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-10 23:11:27"
+      description: We are currently investigating an issue where Gather speech recognition results are returned in the the English language (en-US) when the Hebrew language (he-IL) is specified. Our engineers are working on the issue, and we will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
