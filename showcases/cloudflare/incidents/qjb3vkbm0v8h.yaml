@@ -1,0 +1,12 @@
+version: incident/v1
+id: qjb3vkbm0v8h
+name: 'Cloudflare: "Under Attack" mode experiencing issues'
+impact: minor
+systems:
+    - d1r0plwsl5qb
+timeline:
+    - ts: "2025-04-10 15:53:53"
+      description: |-
+        Cloudflare is aware of, and investigating an issue in which our zones on a Free plan level are not able to use the "Under Attack" mode.
+        Further detail will be provided as more information becomes available.
+      investigating: true
