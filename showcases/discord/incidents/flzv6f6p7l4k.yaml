@@ -1,0 +1,9 @@
+version: incident/v1
+id: flzv6f6p7l4k
+name: Elevated API Latency
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-10 20:04:42"
+      description: We're investigating elevated api latency across a lot of our endpoints. This is leading to broad impact(sending messages, starting sessions etc)
+      investigating: true
