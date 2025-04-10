@@ -1,0 +1,9 @@
+version: incident/v1
+id: qt0jfcygp65d
+name: Prod-EU-West-2 Connection Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-10 16:44:35"
+      description: At approximately 16:00 UTC some customers in the prod-eu-west-2 region began experiencing connectivity issues with their environment. The issue was remediated by our engineers ~30 minutes later.
+      resolved: true
