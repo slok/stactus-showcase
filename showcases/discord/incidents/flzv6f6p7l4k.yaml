@@ -11,3 +11,6 @@ timeline:
       description: We've identified the issue and people are slowly being allowed to start their session again. Working on speeding that up.
     - ts: "2025-04-10 20:32:47"
       description: All users should now be able to start their session. Various flows might still see elevated latency, but we should be mostly recovered.
+    - ts: "2025-04-10 21:01:11"
+      description: We have recovered across all features.
+      resolved: true
