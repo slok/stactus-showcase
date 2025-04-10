@@ -1,0 +1,22 @@
+version: incident/v1
+id: 5k8jjyk65l43
+name: Issue with Multiple Components in prod-eu-west-2 and prod-eu-west-4
+impact: major
+systems:
+    - 6wgslg1s3bzr
+    - gx6m1v8jy475
+    - wdcnfc3drb8s
+    - hcj5p68bp2kc
+    - 95tmjrzs9h1f
+    - kckd7qfk2gql
+    - 0m5030zr6qdz
+timeline:
+    - ts: "2025-04-10 01:27:41"
+      description: |-
+        As of 1:15am UTC, we were alerted to an issue with the following components in prod-eu-west-2 and prod-eu-west-4 clusters, and what users experiencing these issues may encounter:
+        - Authentication failing
+        - Alerting, partial degradation of rule evaluation as well as configuration syncs
+        - Loki impacted, errors on read and write path
+        - SLO plugin is down, unable to access page
+
+        Engineering is actively engaged and noted that the issue is stabilizing. We are continuing to monitor this.

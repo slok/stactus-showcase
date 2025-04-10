@@ -14,3 +14,6 @@ timeline:
     - ts: "2025-04-10 00:20:45"
       description: We are removing the 'SMS, Middle East and Africa' and 'SMS, APAC' components from this incident, as those components are not impacted.  Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-04-10 01:20:11"
+      description: We have identified messages in Korean, Arabic, and Spanish languages showing question marks in place of special accent characters for these languages when sending SMS to T-Mobile, Verizon and small networks in the US via subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
