@@ -1,9 +1,12 @@
 version: incident/v1
 id: cc74qxcrkd03
-name: 'Synthetic Monitoring: connectivity issue between Paris, Sao Paulo probes and GCP Saudi Arabia (prod-me-central-0)'
+name: 'Synthetic Monitoring: connectivity issue between probes and GCP Saudi Arabia (prod-me-central-0)'
 impact: none
 systems: []
 timeline:
     - ts: "2025-04-10 17:30:46"
       description: Starting at 16:55 UTC, the Paris probe is not receiving updates from or publishing data to the GCP Saudi Arabia grafana cloud region.  We are investigating the issue.
+      investigating: true
+    - ts: "2025-04-10 19:26:29"
+      description: We continue to monitor connectivity issues between probes and GCP Saudi Arabia.  As of 19:15 UTC all public probes are unable to connect to GCP Saudi Arabia to get changes to synthetic monitoring.  Probe continue to send metrics and logs to GCP Saudi Arabia, with the exception of Paris.
       investigating: true
