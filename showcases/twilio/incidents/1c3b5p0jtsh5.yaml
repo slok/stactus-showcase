@@ -1,0 +1,13 @@
+version: incident/v1
+id: 1c3b5p0jtsh5
+name: SMS Delivery Report Delays to Entel Network in Peru
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-04-10 23:50:19"
+      description: Our monitoring systems have detected a potential issue with SMS delivery report delays to the Entel network in Peru. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-10 23:51:37"
+      description: We are experiencing delays in receiving message delivery reports when sending SMS to the Entel network in Peru. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

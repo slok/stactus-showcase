@@ -1,0 +1,13 @@
+version: incident/v1
+id: bzpyvql1gz6y
+name: SMS Delivery Delays to Appalachian Wireless in United States of America
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-04-11 00:08:06"
+      description: Our monitoring systems have detected a potential issue with SMS delivery delays to Appalachian Wireless in the United States of America . Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-11 00:14:48"
+      description: We are experiencing SMS delivery delays when sending messages to the Appalachian Wireless network in the United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true

@@ -11,3 +11,5 @@ timeline:
     - ts: "2025-04-10 23:11:27"
       description: We are currently investigating an issue where Gather speech recognition results are returned in the the English language (en-US) when the Hebrew language (he-IL) is specified. Our engineers are working on the issue, and we will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-04-11 00:11:09"
+      description: We are observing recovery from the issue where Gather speech recognition results are returned in the English language (en-US) when the Hebrew language (he-IL) is specified. If affected customers changed the specified language to iw-IL in response to this issue, they should revert the specified language back to he-IL. We expect to provide another update in 2 hours or as soon as more information is available.
