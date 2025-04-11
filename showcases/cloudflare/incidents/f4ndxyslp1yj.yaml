@@ -1,0 +1,13 @@
+version: incident/v1
+id: f4ndxyslp1yj
+name: Increased errors for R2 in Tokyo, Japan (NRT)
+impact: minor
+systems:
+    - rmjk2n758yzc
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2025-04-11 13:11:24"
+      description: |-
+        Cloudflare is aware of, and investigating an increased error rate for R2 traffic in Tokyo, Japan (NRT).
+        Further detail will be provided as more information becomes available.
+      investigating: true
