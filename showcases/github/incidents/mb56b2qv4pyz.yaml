@@ -12,5 +12,5 @@ timeline:
       description: We saw a period of delays on Pull request experiences. The impact is over at the moment, but we are investigating to prevent a repeat.
       investigating: true
     - ts: "2025-04-09 09:31:53"
-      description: This incident has been resolved.
+      description: On April 9, 2025, between 7:01 UTC and 9:31 UTC, the Pull Requests service was degraded and failed to update refs for repositories with higher traffic. This was due to a repository migration creating a larger than usual number of enqueued jobs. This resulted in an increase in job failures and  delays for non-migration sourced jobs.<br /><br />We declared an incident once we confirmed that this issue was not isolated to the migrating repository and other repositories were also failing to process ref updates.<br /><br />We mitigated the incident by shifting the migration jobs to a different job queue. <br /><br />To avoid problems like this in the future, we are revisiting our repository migration process and are working to isolate potentially problematic migration workloads from non-migration workloads.
       resolved: true

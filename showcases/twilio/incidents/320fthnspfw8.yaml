@@ -28,3 +28,6 @@ timeline:
       investigating: true
     - ts: "2025-04-10 23:45:01"
       description: A bug in Meta's system that was causing a delay in template status change events has been resolved.  However, customers that submitted templates while this bug was active may still see discrepancies with the status of their templates.  Twilio engineers are still working to ensure templates submitted prior to this issue being resolved are synchronized with Meta.  We expect to provide another update in 24 hours.
+    - ts: "2025-04-11 19:39:40"
+      description: A bug in Meta's system that was causing a delay in template status change events has been resolved, and template status change events are operating normally at this time.
+      resolved: true
