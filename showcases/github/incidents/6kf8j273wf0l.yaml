@@ -1,0 +1,19 @@
+version: incident/v1
+id: 6kf8j273wf0l
+name: Incident with Codespaces
+impact: major
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2025-04-11 00:28:20"
+      description: We are investigating reports of degraded availability for Codespaces
+      investigating: true
+    - ts: "2025-04-11 00:44:15"
+      description: We have identified an issue that is causing errors when starting new and resuming existing Codespaces. We are currently working on a mitigation
+      investigating: true
+    - ts: "2025-04-11 00:50:53"
+      description: We have reverted a problematic configuration change and are seeing recovery across starts and resumes
+      investigating: true
+    - ts: "2025-04-11 00:51:49"
+      description: This incident has been resolved.
+      resolved: true
