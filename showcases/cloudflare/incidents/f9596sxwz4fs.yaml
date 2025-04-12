@@ -1,0 +1,10 @@
+version: incident/v1
+id: f9596sxwz4fs
+name: Elevated number of 502 errors for Aegis
+impact: minor
+systems:
+    - 8qwmwg7ytljv
+timeline:
+    - ts: "2025-04-12 07:37:03"
+      description: Cloudflare is investigating an increase of 502 errors for customers using Aegis services.
+      investigating: true
