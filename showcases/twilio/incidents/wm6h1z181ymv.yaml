@@ -19,3 +19,6 @@ timeline:
       description: We have reinstated the original functionality where specifying (he-IL) language is not operational. The recommended workaround is to use the (iw-IL) language for now. Our engineering team is working on a change to bring both languages back to an operational state. We are reverting the status of this incident to investigating until our next update. We expect to have an update at 12:00 Pacific time on April 11th.
     - ts: "2025-04-11 18:22:49"
       description: Our engineering team continues to work on a change to bring both languages back to an operational state. The recommended workaround is to use the (iw-IL) language for now. We expect to have another update within 8 hours.
+    - ts: "2025-04-12 00:49:41"
+      description: The issue where Gather speech recognition results are returned in the the English language (en-US) when the Hebrew language (he-IL) has been resolved and Gather speech recognition is operating normally at this time.
+      resolved: true
