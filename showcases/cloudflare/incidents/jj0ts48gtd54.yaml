@@ -1,0 +1,13 @@
+version: incident/v1
+id: jj0ts48gtd54
+name: Zaraz issues
+impact: minor
+systems:
+    - qgt2kv10g1yn
+timeline:
+    - ts: "2025-04-13 07:03:44"
+      description: |-
+        Customers using Zaraz on free plan might be seeing errors on their websites from 03:48AM UTC on 04/11.
+        A fix has been implemented, and we are monitoring the results.
+    - ts: "2025-04-13 07:04:10"
+      description: A fix has been implemented and we are monitoring the results.
