@@ -1,0 +1,9 @@
+version: incident/v1
+id: nys65twg9fy8
+name: Cache Purge failures
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-13 03:16:14"
+      description: Customers sending cache purge requests via api and dash may have seen 500 errors between 00:53 UTC and 01:08 UTC on 04/13.
+      resolved: true
