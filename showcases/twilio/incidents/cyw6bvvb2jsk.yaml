@@ -1,9 +1,12 @@
 version: incident/v1
 id: cyw6bvvb2jsk
-name: On Call Engineers are Investigating Issues Identified with Meta Template Category Events
-impact: none
+name: Intermittent Meta Template Category Events Failing
+impact: minor
 systems: []
 timeline:
     - ts: "2025-04-14 20:09:58"
       description: We've become aware of a potential issue with Meta Content Template Category Events. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-14 20:28:40"
+      description: We are investigating intermittent Meta Templates Category Events failing. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
