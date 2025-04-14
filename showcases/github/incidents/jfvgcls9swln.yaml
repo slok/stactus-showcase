@@ -6,7 +6,7 @@ systems: []
 timeline:
     - ts: "2025-04-13 15:28:31"
       description: |-
-        Due to a configuration change with unintended impact, users that were not logged in who tried to visit GitHub.com from China were temporarily unable to access the site. For users already logged in, they could continue to access the site successfully. Impact started 2025/04/12 at 20:01 UTC. Impact was mitigated 2025/04/13 at 14:55 UTC.
+        Due to a configuration change with unintended impact, some users that were not logged in who tried to visit GitHub.com from China were temporarily unable to access the site. For users already logged in, they could continue to access the site successfully. Impact started 2025/04/12 at 20:01 UTC. Impact was mitigated 2025/04/13 at 14:55 UTC. During this time, up to 4% of all anonymous requests originating from China were unsuccessful.
 
         The configuration changes that caused this impact have been reversed and users should no longer see problems when trying to access GitHub.com.
       resolved: true
