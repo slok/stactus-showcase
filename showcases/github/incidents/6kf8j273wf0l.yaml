@@ -15,5 +15,5 @@ timeline:
       description: We have reverted a problematic configuration change and are seeing recovery across starts and resumes
       investigating: true
     - ts: "2025-04-11 00:51:49"
-      description: This incident has been resolved.
+      description: On April 11 from 3:05am UTC to 3:44am UTC, approximately 75% of Codespaces users faced create and start failures. These were caused by manual configuration changes to an internal dependency. We reverted the changes and immediately restored service health.<br /><br />We are working on safer mechanisms for testing and rolling out such configuration changes, and we expect no further disruptions.
       resolved: true
