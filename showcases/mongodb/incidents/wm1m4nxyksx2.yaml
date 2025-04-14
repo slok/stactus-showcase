@@ -1,0 +1,13 @@
+version: incident/v1
+id: wm1m4nxyksx2
+name: 'MongoDB Atlas and Cloud Manager: Alerts paused and metrics delayed'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-04-14 03:54:36"
+      description: We are investigating an issue affecting Cloud Manager and Atlas. Metrics data is delayed and alerting is paused. Cluster health is unaffected, but we may have sent false host down alerts for some clusters.
+      investigating: true
+    - ts: "2025-04-14 03:54:44"
+      description: We are continuing to investigate this issue.
+      investigating: true
