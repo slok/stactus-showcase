@@ -20,5 +20,5 @@ timeline:
       description: Safari users are now able to access GitHub.com.<br /><br />The fix has been rolled out to all environments.
       investigating: true
     - ts: "2025-04-15 14:12:03"
-      description: This incident has been resolved.
+      description: On April 15, 2025 from 12:45 UTC to 13:56 UTC, access to GitHub.com was restricted for logged out users using WebKit-based browsers, such as Safari and various mobile browsers. During the impacting time, roughly 6.6M requests were unsuccessful.<br /><br />This issue was caused by a configuration change intended to improve our handling of large traffic spikes but was improperly targeted at too large a set of requests.<br /><br />To prevent future incidents like this, we are improving how we operationalize these types of changes, adding additional tools for validating what will be impacted by such changes, and reducing the likelihood of manual mistakes through automated detection and handling of such spikes.
       resolved: true
