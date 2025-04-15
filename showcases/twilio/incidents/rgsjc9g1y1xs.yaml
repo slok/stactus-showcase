@@ -1,0 +1,13 @@
+version: incident/v1
+id: rgsjc9g1y1xs
+name: Inbound Call Failures to Twilio Phone Numbers in Korea
+impact: minor
+systems:
+    - 50pr269zqrwj
+timeline:
+    - ts: "2025-04-15 02:43:13"
+      description: Our monitoring systems have detected a potential issue for inbound call failures to Twilio phone numbers in Korea. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-15 02:53:00"
+      description: We are investigating the issue where inbound calls to Twilio phone numbers in Korea are failing. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
