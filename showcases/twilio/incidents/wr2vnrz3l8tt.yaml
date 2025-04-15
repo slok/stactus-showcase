@@ -1,0 +1,9 @@
+version: incident/v1
+id: wr2vnrz3l8tt
+name: Taskrouter 5xx from rest proxy
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-15 15:17:34"
+      description: Taskrouter APIs briefly resulted in 5xx errors from rest proxy. Errors are no longer occurring and customers are not impacted at this time. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
