@@ -20,3 +20,6 @@ timeline:
       description: Degradation to Multiple Twilio Services. These errors have ceased, and there is currently no impact on customers. During this time customers may have experienced call failures. Our engineering team has been notified and is actively investigating the issue. We will provide updates in 1 hour or as soon as more information becomes available.
     - ts: "2025-04-15 18:20:36"
       description: We are continuing to monitor for any further issues.
+    - ts: "2025-04-15 20:25:48"
+      description: The issue with Taskrouter 5xx errors has been resolved and Taskrouter APIs is operating normally at this time.
+      resolved: true
