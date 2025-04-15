@@ -1,0 +1,11 @@
+version: incident/v1
+id: mv9k3px764kd
+name: '[Linux Only] Voice sound not working on 0.0.90'
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-15 00:02:37"
+      description: |-
+        We have identified an issue impacting voice sound on 0.0.90 and have rolled back.
+
+        For now, users will need to revert back to 0.0.89 in order to continue using voice on Linux. Once we have a fix, we will ship a new version.
