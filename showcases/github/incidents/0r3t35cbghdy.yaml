@@ -10,3 +10,9 @@ timeline:
     - ts: "2025-04-15 13:30:20"
       description: Some unauthenticated Safari users are seeing the message "Access to this site has been restricted."  We are currently investigating this behavior.
       investigating: true
+    - ts: "2025-04-15 13:46:12"
+      description: We have identified the cause of the restriction for Safari users and are deploying a fix.  Next update in 15 minutes.
+      investigating: true
+    - ts: "2025-04-15 13:59:19"
+      description: Most unauthenticated Safari users should now be able to access github.com.  We are ensuring the fix is deployed out to all environments.<br /><br />Next update in 30m.
+      investigating: true
