@@ -1,0 +1,11 @@
+version: incident/v1
+id: dqzctmtqx8xz
+name: Increased Error Rates for Durable Objects in Osaka
+impact: minor
+systems:
+    - bty1yz6dhh0v
+    - pkzjg0k7vjsj
+timeline:
+    - ts: "2025-04-15 21:34:34"
+      description: Cloudflare is investigating an increase in errors for requests to Durable Objects located in our Osaka (KIX) facility.
+      investigating: true
