@@ -1,0 +1,13 @@
+version: incident/v1
+id: xxblqzr46kc7
+name: Graphite proxy ingestion failing - prod-ap-northeast-0
+impact: major
+systems:
+    - srl8p5qnlj0z
+timeline:
+    - ts: "2025-04-15 08:58:55"
+      description: |-
+        We are currently investigating an issue affecting Graphite proxy ingestion.
+
+        Our engineering team is actively investigating and will provide updates as more information becomes available.
+      investigating: true
