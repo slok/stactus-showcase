@@ -19,3 +19,8 @@ timeline:
       description: Starting at around 13:00 UTC on the 16/04/2025, a subset of customers may be experiencing missed alerts and delayed data affecting dashboards, UI's and API queries. The primary issue triggering the incident has been identified and is in the process of being remediated.
     - ts: "2025-04-16 14:58:56"
       description: Some customers in the US region may be experiencing delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data. We are seeing recovery of some impacted services and are continuing to monitor.
+    - ts: "2025-04-16 16:13:35"
+      description: Starting approx 13:00 UTC on the 16th of April 2025, a subset of customers may have experienced missed alerts, delayed data impacting dashboards, UIs and API queries. We have reduced the latency at this point and are monitoring recovery.
+      investigating: true
+    - ts: "2025-04-16 16:14:48"
+      description: Starting approx 13:00 UTC on the 16th of April 2025, a subset of customers may have experienced missed alerts, delayed data impacting dashboards, UIs and API queries. We have reduced the latency at this point and are monitoring recovery.
