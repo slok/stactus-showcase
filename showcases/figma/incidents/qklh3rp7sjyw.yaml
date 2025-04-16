@@ -1,7 +1,7 @@
 version: incident/v1
 id: qklh3rp7sjyw
 name: Service Disruption
-impact: minor
+impact: none
 systems: []
 timeline:
     - ts: "2025-04-16 12:46:03"
@@ -9,3 +9,6 @@ timeline:
       investigating: true
     - ts: "2025-04-16 13:00:21"
       description: A fix has been implemented and we are monitoring results. Please refresh your tabs.
+    - ts: "2025-04-16 13:24:04"
+      description: This incident has been resolved.
+      resolved: true
