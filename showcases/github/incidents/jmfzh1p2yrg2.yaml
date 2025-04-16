@@ -19,3 +19,6 @@ timeline:
     - ts: "2025-04-15 23:33:37"
       description: We'll have accurate data for April 15th in the next 60 minutes. We're still working on correcting the data for the additional 27 days before April 15th. The complete correction is estimated to take up to 7 days, but we're working to speed this up.<br /><br />https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-metrics?apiVersion=2022-11-28 is the specific impacted API.
       investigating: true
+    - ts: "2025-04-16 00:41:10"
+      description: The Copilot metrics API (https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-metrics?apiVersion=2022-11-28) now returns accurate data for April 15th. We're working on correcting the past 27 days, as we are under-reporting certain metrics from this time.
+      investigating: true

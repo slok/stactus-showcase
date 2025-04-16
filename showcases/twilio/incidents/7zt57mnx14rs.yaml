@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7zt57mnx14rs
+name: Call Failures From Subscribers to Twilio Phone Numbers in Greece.
+impact: major
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2025-04-16 00:32:07"
+      description: We are observing call failures to Twilio phone numbers in Greece. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
