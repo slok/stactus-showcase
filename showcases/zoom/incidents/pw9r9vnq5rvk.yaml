@@ -1,0 +1,18 @@
+version: incident/v1
+id: pw9r9vnq5rvk
+name: Issue with multiple Zoom Services
+impact: major
+systems:
+    - 3z7b6jks10hm
+    - c0vx53f3d6v5
+    - c506lbzb5km9
+    - 8gftm750nwzm
+timeline:
+    - ts: "2025-04-16 19:17:55"
+      description: We are investigating domain name resolution issues on the zoom.us domain that is affecting multiple services. Regular updates will be provided.
+      investigating: true
+    - ts: "2025-04-16 19:51:46"
+      description: We continue to investigate the domain name resolution issues on the zoom.us domain that is affecting multiple services. More updates to follow.
+      investigating: true
+    - ts: "2025-04-16 20:16:56"
+      description: We continue to investigate the domain name resolution issues on the zoom.us domain that is affecting multiple services. More updates to follow.
