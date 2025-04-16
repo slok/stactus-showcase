@@ -1,0 +1,13 @@
+version: incident/v1
+id: yrjs6d64qpwt
+name: Bot Management Issues
+impact: minor
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2025-04-16 00:15:55"
+      description: |-
+        Cloudflare is investigating issues with our Bot Management feature. Some customers may be unable to create new Bot Management rules.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
