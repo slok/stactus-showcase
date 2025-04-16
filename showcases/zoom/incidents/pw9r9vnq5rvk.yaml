@@ -22,3 +22,9 @@ timeline:
 
         For Windows open a command prompt and type "ipconfig /flushdns"
         For Mac open a terminal window and type "sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
+    - ts: "2025-04-16 21:35:42"
+      description: |-
+        All Zoom services have been restored, if you are still having connection issues please flush your DNS cache and reconnect.
+
+        For Windows open a command prompt and type "ipconfig /flushdns"
+        For Mac open a terminal window and type "sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
