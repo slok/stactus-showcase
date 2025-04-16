@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-04-16 15:22:42"
       description: We are investigating reports of degraded performance for Pull Requests
       investigating: true
+    - ts: "2025-04-16 15:55:07"
+      description: Users may experience 500 errors when viewing a PR. Most of the impact is limited to anonymous access there is a small handful of logged in users who are also experiencing this. We have the fix prepared and it will be deployed soon.
+      investigating: true
