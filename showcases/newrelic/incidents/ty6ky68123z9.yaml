@@ -1,9 +1,15 @@
 version: incident/v1
 id: ty6ky68123z9
 name: UI Irregularities and Alert Degradation in US Region
-impact: none
-systems: []
+impact: minor
+systems:
+    - rbts0zzw73dl
+    - 028b05n94my0
+    - nw4g7754n7tl
+    - q94v4hz14v0f
 timeline:
     - ts: "2025-04-16 13:46:55"
       description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
       investigating: true
+    - ts: "2025-04-16 13:53:01"
+      description: We have identified the issue and are working on a fix for the issue.
