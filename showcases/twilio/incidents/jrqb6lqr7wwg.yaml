@@ -1,0 +1,10 @@
+version: incident/v1
+id: jrqb6lqr7wwg
+name: SMS Delivery Delays to and From a Subset of Twilio Australia Longcode Numbers
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-04-16 16:49:09"
+      description: We are experiencing SMS delivery delays to and from a subset of Twilio Australia longcode numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

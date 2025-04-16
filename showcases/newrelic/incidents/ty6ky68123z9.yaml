@@ -4,6 +4,7 @@ name: UI Irregularities and Alert Degradation in US Region
 impact: minor
 systems:
     - rbts0zzw73dl
+    - k4c77k6bzcl7
     - ty1004s644gq
     - 028b05n94my0
     - nw4g7754n7tl
@@ -24,3 +25,6 @@ timeline:
       investigating: true
     - ts: "2025-04-16 16:14:48"
       description: Starting approx 13:00 UTC on the 16th of April 2025, a subset of customers may have experienced missed alerts, delayed data impacting dashboards, UIs and API queries. We have reduced the latency at this point and are monitoring recovery.
+    - ts: "2025-04-16 16:51:02"
+      description: Between 12:52 UTC and 15:28 UTC on April 16th, 2025, some customers in the US may have experienced delayed data in queries, charts, and dashboards as well as delayed, missing, or false positive alert notifications for related data. We have resolved this interruption and impacted services have returned to normal operations.
+      resolved: true
