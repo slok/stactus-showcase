@@ -16,3 +16,9 @@ timeline:
       investigating: true
     - ts: "2025-04-16 20:16:56"
       description: We continue to investigate the domain name resolution issues on the zoom.us domain that is affecting multiple services. More updates to follow.
+    - ts: "2025-04-16 20:55:11"
+      description: |-
+        Services have been restored, if you are still having connection issues please flush your DNS cache and attempt to reconnect.
+
+        For Windows open a command prompt and type "ipconfig /flushdns"
+        For Mac open a terminal window and type "sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
