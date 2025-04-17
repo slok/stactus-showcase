@@ -31,3 +31,9 @@ timeline:
     - ts: "2025-04-16 22:44:02"
       description: We are continuing to work on correcting the Copilot Metrics API data from March 19th 2025 to April 14th 2025. Data from April 15 and later is accurate. Currently, the API returns about 10% lower usage numbers. Based on the current investigations we estimate to have a resolution by April 18th 0100 hrs UTC. We will provide an update if there is change in the ETA.
       investigating: true
+    - ts: "2025-04-17 17:34:15"
+      description: We have resolved issues with data inconsistency for Copilot Metrics API data as of April 17th 2025 1600 UTC. All data is now accurate.
+      investigating: true
+    - ts: "2025-04-17 17:35:02"
+      description: This incident has been resolved.
+      resolved: true
