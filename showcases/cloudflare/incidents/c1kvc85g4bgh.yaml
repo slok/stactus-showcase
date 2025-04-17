@@ -1,0 +1,14 @@
+version: incident/v1
+id: c1kvc85g4bgh
+name: Issue with Cloudflare Workers metrics and analytics
+impact: minor
+systems:
+    - 4c231tkdlpcl
+    - pqt7t1dwt0dz
+timeline:
+    - ts: "2025-04-17 02:07:10"
+      description: Users may experience errors or slowness with the GraphQL API end points. The Workers AI and R2 dashboard pages may have intermittent issues, and the Smart Placement product's performant placement maybe degraded.
+      investigating: true
+    - ts: "2025-04-17 02:07:52"
+      description: We are continuing to investigate this issue.
+      investigating: true
