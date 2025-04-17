@@ -1,7 +1,7 @@
 version: incident/v1
 id: pw9r9vnq5rvk
 name: Issue with multiple Zoom Services
-impact: major
+impact: critical
 systems:
     - 3z7b6jks10hm
     - c0vx53f3d6v5
@@ -29,5 +29,5 @@ timeline:
         For Windows open a command prompt and type "ipconfig /flushdns"
         For Mac open a terminal window and type "sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
     - ts: "2025-04-17 00:31:03"
-      description: "On April 16, between 2:25 P.M. ET and 4:12 P.M. ET, the domain zoom.us was not available due to a server block by GoDaddy Registry. This block was the result of a communication error between Zoom’s domain registrar, Markmonitor, and GoDaddy Registry, which resulted in GoDaddy Registry mistakenly shutting down zoom.us domain. \n\nZoom, Markmonitor and GoDaddy worked quickly to identify and remove the block, which restored service to the domain zoom.us. There was no product, security or network failure at Zoom during the outage. GoDaddy and Markmonitor are working together to prevent this from happening again."
+      description: "On April 16, between 2:25 P.M. ET and 4:12 P.M. ET, the domain zoom.us was not available due to a server block by GoDaddy Registry. This block was the result of a communication error between Zoom’s domain registrar, Markmonitor, and GoDaddy Registry, which resulted in GoDaddy Registry mistakenly shutting down zoom.us domain. \n\nZoom, Markmonitor and GoDaddy worked quickly to identify and remove the block, which restored service to the domain zoom.us. There was no product, security, network failure or Distributed Denial of Service (DDoS) attack at Zoom during the outage. GoDaddy and Markmonitor are working together to prevent this from happening again."
       resolved: true
