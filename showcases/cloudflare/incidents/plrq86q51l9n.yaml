@@ -1,0 +1,12 @@
+version: incident/v1
+id: plrq86q51l9n
+name: Workers with Smart Placement enabled are removing the "Content-Length" header in responses
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-04-17 17:13:29"
+      description: Since Apr 14 at 21:59 UTC, Workers with the Smart Placement feature enabled might be omitting the "Content-Length" header in request responses. We are rolling back while we investigate.
+      investigating: true
+    - ts: "2025-04-17 17:21:23"
+      description: The issue has been identified and a fix is being implemented.
