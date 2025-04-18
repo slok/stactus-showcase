@@ -29,5 +29,21 @@ timeline:
         For Windows open a command prompt and type "ipconfig /flushdns"
         For Mac open a terminal window and type "sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
     - ts: "2025-04-17 00:31:03"
-      description: "On April 16, between 2:25 P.M. ET and 4:12 P.M. ET, the domain zoom.us was not available due to a server block by GoDaddy Registry. This block was the result of a communication error between Zoom’s domain registrar, Markmonitor, and GoDaddy Registry, which resulted in GoDaddy Registry mistakenly shutting down zoom.us domain. \n\nZoom, Markmonitor and GoDaddy worked quickly to identify and remove the block, which restored service to the domain zoom.us. There was no product, security, network failure or Distributed Denial of Service (DDoS) attack at Zoom during the outage. GoDaddy and Markmonitor are working together to prevent this from happening again."
+      description: |-
+        Reported: April 16, 2025 11:25 AM PDT
+        Resolved: April 16, 2025 1:12 PM PDT
+
+        Summary:
+        Customers could not access Zoom services in the US and International regions due to the unavailability of the zoom.us domain.
+
+        Root Cause:
+        On April 16, 2025, Zoom started to investigate the zoom.us domain resolution failures. Upon investigation, Zoom's domain name servers were properly replying to requests. However, upon further investigation with our registrar Markmonitor and GoDaddy Registry, the domain zoom.us was unavailable due to a server block by GoDaddy Registry. This block was the result of a communication error between Zoom’s domain registrar, Markmonitor, and GoDaddy Registry, which resulted in GoDaddy Registry mistakenly shutting down the zoom.us domain. There was no product, security, network failure, or Distributed Denial of Service (DDoS) attack at Zoom during the outage.
+
+        End users who had already joined Zoom meetings or Zoom phone calls were not impacted. Any start, join, or schedule meetings actions were unable to be completed successfully since the requests required a DNS lookup, which could not be completed.
+
+        Solution:
+        Zoom, Markmonitor, and GoDaddy worked to identify and remove the server block, which restored service to the zoom.us domain. Due to the DNS entries themselves being cached at multiple levels and having a time-to-live (TTL) set, it took a few additional minutes to propagate across all Internet infrastructure after the zoom.us domain reactivation.
+
+        Prevention:
+        Zoom worked with GoDaddy Registry and Markmonitor to implement additional technical changes and processes to help ensure that this issue does not reoccur. As a part of that change, GoDaddy Registry and Markmonitor have already put in place a registry lock that restricts server block commands from being placed on the zoom.us domain.
       resolved: true
