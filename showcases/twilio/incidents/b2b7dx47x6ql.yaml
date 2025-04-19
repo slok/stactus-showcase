@@ -1,0 +1,9 @@
+version: incident/v1
+id: b2b7dx47x6ql
+name: Meta returning 5xx for whatsapp registration API's
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-19 04:04:33"
+      description: We are currently experiencing 5xx errors from Meta when calling the WhatsApp registration APIs. Our engineers are actively working with our carrier partner to resolve the issue. We will provide another update within the next hour or sooner if additional information becomes available.
+      investigating: true
