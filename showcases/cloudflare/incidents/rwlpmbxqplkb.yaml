@@ -1,0 +1,14 @@
+version: incident/v1
+id: rwlpmbxqplkb
+name: Increased HTTP 409 Errors and 503 Errors in HongKong and Singapore
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-04-19 09:27:16"
+      description: |-
+        Cloudflare is investigating an increased level of HTTP 409 Errors and 503 Errors in HongKong and Singapore.
+
+        We are working to analyse and mitigate this problem.  More updates to follow shortly.
+      investigating: true
+    - ts: "2025-04-19 09:27:40"
+      description: The issue has been identified and a fix is being implemented.
