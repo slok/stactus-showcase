@@ -1,0 +1,10 @@
+version: incident/v1
+id: zgwdcb2vfb0d
+name: 'MongoDB Atlas and Cloud Manager: Alerts Paused'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-04-19 21:14:39"
+      description: We have identified an issue with Cloud Manager and Atlas that is causing alerts to be delayed. Underlying cluster health is unaffected.
+      investigating: true
