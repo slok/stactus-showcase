@@ -1,0 +1,10 @@
+version: incident/v1
+id: pl9hgkfx6bmq
+name: Call Failures From Colombia Carriers to a Subset of Twilio Colombia Numbers
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2025-04-19 17:34:05"
+      description: We are observing call failures from Colombia Carriers to a subset of Twilio Colombia Numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
