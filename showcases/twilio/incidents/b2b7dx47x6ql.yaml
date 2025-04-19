@@ -22,3 +22,6 @@ timeline:
       investigating: true
     - ts: "2025-04-19 05:39:51"
       description: We are currently observing a recovery in the 5xx errors returned by META when accessing the WhatsApp registration APIs. Our engineers are actively monitoring the situation. We will provide another update within the 30 minutes or sooner if additional information becomes available.
+    - ts: "2025-04-19 06:07:53"
+      description: The 5xx errors from META when calling the WhatsApp registration APIs have now been resolved. The incident has been resolved.
+      resolved: true
