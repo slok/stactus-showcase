@@ -1,6 +1,6 @@
 version: incident/v1
 id: j9lpqz4vb8wy
-name: A subset of customers experiencing issues with Live Transcription,Voice Recognition & ZVA.
+name: A subset of customers experiencing issues with AIC service, Live Transcription and Voice Recognition
 impact: minor
 systems:
     - 8vtcg8np4n8c
@@ -13,4 +13,6 @@ timeline:
       description: We have identified the issue with AIC service, live transcription, voice recognition, and ZVA intermittently. We are currently investigating and will provide updates as soon as we have them.
       investigating: true
     - ts: "2025-04-21 13:26:37"
-      description: We have identified the issue with AIC service, live transcription, voice recognition, and ZVA intermittently. We are currently investigating and will provide updates as soon as we have them.
+      description: We have identified the issue with AIC service, live transcription & voice recognition. We are currently investigating and will provide updates as soon as we have them.
+    - ts: "2025-04-21 13:30:51"
+      description: We have resolved the intermittent issue with AIC service, live transcription & voice recognition. We are currently monitoring the issue and will provide updates as soon as we have them.
