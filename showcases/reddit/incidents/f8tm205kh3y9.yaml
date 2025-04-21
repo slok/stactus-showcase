@@ -1,0 +1,13 @@
+version: incident/v1
+id: f8tm205kh3y9
+name: Investigating elevated site errors
+impact: major
+systems:
+    - 0wf8j1vtry0v
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2025-04-21 15:52:41"
+      description: We are currently investigating elevated errors across reddit.com and the apps.
+      investigating: true
+    - ts: "2025-04-21 16:01:18"
+      description: The issue has been identified and a fix is being implemented.
