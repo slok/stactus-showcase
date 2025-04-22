@@ -1,10 +1,13 @@
 version: incident/v1
 id: n8f4393767l1
-name: On Call Engineers are Investigating an issue
+name: Conversation Relay returns unexpected “last:false” Response
 impact: minor
 systems:
     - sxwbmz83d77t
 timeline:
     - ts: "2025-04-22 09:16:11"
       description: Our monitoring systems have detected a potential issue in Conversation Relay. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-22 09:28:22"
+      description: We are currently experiencing an Issue with conversation Relay where it returns unexpected “last:false” response. Our engineers are working on the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
