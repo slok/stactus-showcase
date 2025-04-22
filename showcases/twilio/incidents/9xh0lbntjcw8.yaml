@@ -1,6 +1,6 @@
 version: incident/v1
 id: 9xh0lbntjcw8
-name: On Call Engineers are Investigating an issue with Twilio Lookup V2
+name: On Call Engineers Investigating Intermittent Errors with Lookup API for Reassigned Number Packages.
 impact: none
 systems:
     - xk8z50jy8hcs
@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-04-22 16:30:40"
       description: Our monitoring systems have detected a potential issue with Twilio Lookup V2. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-04-22 17:03:02"
+      description: Our monitoring systems detected an issue causing intermittent errors using the Lookup API for Reassigned Number packages, and our engineering team deployed a fix. We are seeing full recovery, and are monitoring to ensure that errors do not return. We expect to provide another update in 30 minutes or as soon as more information becomes available.
