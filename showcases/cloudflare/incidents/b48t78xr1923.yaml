@@ -1,0 +1,13 @@
+version: incident/v1
+id: b48t78xr1923
+name: Issues with the Zero Trust & Gateway Dashboard
+impact: minor
+systems:
+    - 276xk3r83js7
+timeline:
+    - ts: "2025-04-22 13:35:16"
+      description: |-
+        Cloudflare is investigating issues with operations on the Zero Trust & Gateway dashboard.
+
+        Customers using the Zero Trust & Gateway dashboards are impacted as requests might fail and/or errors may be displayed.
+      investigating: true
