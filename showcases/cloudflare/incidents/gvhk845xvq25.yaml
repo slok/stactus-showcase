@@ -1,0 +1,14 @@
+version: incident/v1
+id: gvhk845xvq25
+name: DNS Root Server Issues in Scotland
+impact: minor
+systems:
+    - 4l9qztbt6rbj
+    - 7j656z7tqk7f
+timeline:
+    - ts: "2025-04-22 09:53:21"
+      description: Cloudflare is investigating issues that may impact DNS root servers for Scottish customers. We are currently working on a resolution and will provide an update as soon as possible.
+      investigating: true
+    - ts: "2025-04-22 10:00:43"
+      description: This incident has been resolved.
+      resolved: true
