@@ -1,9 +1,13 @@
 version: incident/v1
 id: ffp91tsshv7w
-name: On Call Engineers are Investigating Voice Quality Issues from Canadian Network Subscribers to a Subset of Twilio's Numbers
-impact: none
-systems: []
+name: Call Quality Issues from Canadian Network Subscribers to a Subset of Twilio's Numbers
+impact: minor
+systems:
+    - 2v3v92mz2m4h
 timeline:
     - ts: "2025-04-22 22:25:18"
       description: We've become aware of a potential Voice Quality Issues from Canadian Network Subscribers to a Subset of Twilio's Numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-22 22:48:37"
+      description: We are continuing to investigate this issue.
       investigating: true
