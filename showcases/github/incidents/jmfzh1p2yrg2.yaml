@@ -35,5 +35,5 @@ timeline:
       description: We have resolved issues with data inconsistency for Copilot Metrics API data as of April 17th 2025 1600 UTC. All data is now accurate.
       investigating: true
     - ts: "2025-04-17 17:35:02"
-      description: This incident has been resolved.
+      description: On April 15th during regular testing we found a bug in our Copilot Metrics Pipeline infrastructure causing some data used to aggregate Copilot usage for the Copilot Metrics API to not be ingested. As a result of the bug, customer metrics in the Copilot Metrics API would have indicated lower than expected Copilot usage for the previous 28 days.<br />To mitigate the incident we resolved the bug so that all data from April 14th onwards would be accurately calculated and immediately began backfilling the previous 28 days with the correct data. All data has been corrected as of 2025-04-17 5:34PM UTC.<br />We have added additional monitoring to catch similar pipeline failures in the future earlier and are working on enhancing our data validation to ensure that all metrics we provide are accurate.
       resolved: true
