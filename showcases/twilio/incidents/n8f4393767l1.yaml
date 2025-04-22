@@ -1,0 +1,10 @@
+version: incident/v1
+id: n8f4393767l1
+name: On Call Engineers are Investigating an issue
+impact: minor
+systems:
+    - sxwbmz83d77t
+timeline:
+    - ts: "2025-04-22 09:16:11"
+      description: Our monitoring systems have detected a potential issue in Conversation Relay. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
