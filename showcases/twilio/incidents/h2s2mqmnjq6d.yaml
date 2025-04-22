@@ -1,0 +1,9 @@
+version: incident/v1
+id: h2s2mqmnjq6d
+name: Voice Insights Call Summaries Delayed
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-22 15:49:44"
+      description: "Twilio Voice Insights for customers homed in IE1 was degraded for 8 hours and 40 minutes between 11:30pm and 8:10am Pacific Time between 04/21/2025 and 04/22/2025. During this period of time customers may have experienced delays in the availability of Voice Insights Call Summaries. The issue has now been resolved. \n\nThere was no impact to Voice Insights customers homed in US1 and AU1."
+      resolved: true
