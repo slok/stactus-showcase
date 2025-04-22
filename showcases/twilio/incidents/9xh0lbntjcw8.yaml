@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2025-04-22 17:03:02"
       description: Our monitoring systems detected an issue causing intermittent errors using the Lookup API for Reassigned Number packages, and our engineering team deployed a fix. We are seeing full recovery, and are monitoring to ensure that errors do not return. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2025-04-22 17:28:57"
+      description: The issue causing intermittent errors in the Lookup API for Reassigned Number packages has been resolved, and the service is functioning normally at this time.
+      resolved: true
