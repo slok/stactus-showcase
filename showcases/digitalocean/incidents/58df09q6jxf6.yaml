@@ -8,3 +8,8 @@ timeline:
     - ts: "2025-04-22 18:03:40"
       description: Our Engineering team is currently investigating an issue with creating Spaces through the Cloud Control Panel. During this time, users may experience difficulties when selecting the Data Center option, as it is not listing correctly. We apologize for the inconvenience and will provide an update as soon as we have more information.
       investigating: true
+    - ts: "2025-04-22 18:08:37"
+      description: |-
+        Our Engineering team has identified an issue with creating Spaces through the Cloud Control Panel. During this time, users are unable to create Spaces buckets due to the datacenter region options failing to list. Creating Spaces buckets through the API remains functional. All other Spaces functionality is unaffected.
+
+        A fix is in progress and we will provide an update as soon as we have more information.
