@@ -1,0 +1,10 @@
+version: incident/v1
+id: ww4gsp56yd15
+name: Some customers may be experiencing issue in viewing support cases on the Cloudflare dashboard
+impact: minor
+systems:
+    - jzcwkvrc4w4q
+timeline:
+    - ts: "2025-04-23 04:27:37"
+      description: Some customers may be experiencing issue in viewing support cases on the Cloudflare dashboard. Customer will still be able to create ticket and receive response from support team via email.
+      investigating: true
