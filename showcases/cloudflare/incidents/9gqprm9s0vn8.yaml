@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9gqprm9s0vn8
+name: SSL Certificate Provisioning Delays
+impact: minor
+systems:
+    - cghykwlwsmn5
+timeline:
+    - ts: "2025-04-23 09:12:33"
+      description: Cloudflare is investigating delays in provisioning SSL certificates with Google Trust Services. SSL certificates already in production remain unaffected and are operating normally.
+      investigating: true
