@@ -1,0 +1,20 @@
+version: incident/v1
+id: lrby2hyk80dh
+name: Incident with Issues, API Requests and Pages
+impact: minor
+systems:
+    - brv1bkgrwx7q
+    - kr09ddfgbfsf
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2025-04-23 07:17:09"
+      description: We are investigating reports of degraded performance for API Requests, Issues and Pages
+      investigating: true
+    - ts: "2025-04-23 07:22:52"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-04-23 07:23:46"
+      description: Codespaces is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
