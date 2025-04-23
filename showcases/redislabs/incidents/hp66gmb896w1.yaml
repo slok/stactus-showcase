@@ -1,0 +1,11 @@
+version: incident/v1
+id: hp66gmb896w1
+name: Urgent maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-23 18:43:19"
+      description: 'Urgent maintenance applies to all of the resources with the following pattern in their endpoint: CLUSTER_ID'
+    - ts: "2025-04-23 18:46:22"
+      description: This incident has been resolved.
+      resolved: true
