@@ -1,0 +1,13 @@
+version: incident/v1
+id: c5b7w6zxf7c5
+name: 'Retroactive: Flex and Task Router 5xx Errors Impacting Voice Traffic'
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-23 01:02:48"
+      description: Our engineers are currently investigating the customer impact of a retroactive issue with a short burst of 5xx errors impacted Flex and Task Router Voice traffic. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-04-23 01:05:13"
+      description: Our engineers have identified a few hundred 5xx errors due to timeouts with datastore between 5:52pm PST and 5:54pm PST. The errors have subsided and no further impact is being observed.
+    - ts: "2025-04-23 01:15:09"
+      description: Flex and Task Router 5xx Errors Impacting Voice Traffic was degraded for 2 minutes between 5:52 PM and 5:54 PM PST Pacific Time on 04/22/2025. During this period of time customers may have experienced some issues with voice traffic. The issue has now been resolved.
+      resolved: true

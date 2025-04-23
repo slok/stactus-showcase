@@ -21,5 +21,5 @@ timeline:
       description: Pull Requests is operating normally.
       investigating: true
     - ts: "2025-04-16 17:26:58"
-      description: This incident has been resolved.
+      description: On April 16, 2025 between 3:22:36 PM UTC and  5:26:55 PM UTC the Pull Request service was degraded. On average, 0.7% of page views were affected. This primarily affected logged-out users, but some logged-in users were affected as well. <br /><br />This was due to an error in how certain Pull Request timeline events were rendered, and we resolved the incident by updating the timeline event code.<br /><br />We are enhancing test coverage to include additional scenarios and piloting new tools to prevent similar incidents in the future.<br />
       resolved: true
