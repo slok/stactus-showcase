@@ -1,9 +1,12 @@
 version: incident/v1
 id: x9ttpwmvcvpx
-name: On Call Engineers are Investigating an issue where the Conversations API is experiencing a consumer offset issue where message consumers are 10k-40k offsets behind and not dropping
+name: 'Automated Alert: No Customer Impact'
 impact: none
 systems: []
 timeline:
     - ts: "2025-04-23 20:40:22"
       description: Our monitoring systems have detected a potential issue with the Conversations API, where it is experiencing a consumer offset issue where message consumers are 10k-40k offsets behind and not dropping. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-04-23 21:21:20"
+      description: We have fully investigated the potential issue with the Conversations API triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
