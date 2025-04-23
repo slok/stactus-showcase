@@ -1,9 +1,14 @@
 version: incident/v1
 id: lvv7sc08wv21
-name: On Call Engineers Are Investigating an Issue Where Customers Are Experiencing a Complete Disruption of Email Sending Functionality Across All Clusters
-impact: none
-systems: []
+name: Disruption to Verify and Flex Messaging
+impact: minor
+systems:
+    - q4d7rj555ljl
+    - whldrk77jnm4
 timeline:
     - ts: "2025-04-23 21:26:45"
       description: Our monitoring systems have detected a potential issue where customers are experiencing a complete disruption of email sending functionality across all clusters. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-23 21:42:02"
+      description: Our monitoring systems have detected a potential issue where customers are experiencing a complete disruption of email sending across Verify and Flex Messaging. Our engineering team has been alerted and is actively investigating. We will provide an update in 15 minutes or as soon as more information becomes available.
       investigating: true

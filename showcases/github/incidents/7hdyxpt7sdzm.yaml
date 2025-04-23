@@ -1,0 +1,12 @@
+version: incident/v1
+id: 7hdyxpt7sdzm
+name: Disruption with some GitHub services
+impact: major
+systems: []
+timeline:
+    - ts: "2025-04-23 21:38:57"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-04-23 21:44:15"
+      description: We are investigating issues with GitHub Enterprise Importer. We will continue to keep users updated on progress towards mitigation.
+      investigating: true
