@@ -1,0 +1,15 @@
+version: incident/v1
+id: 06sxjtdf9w6s
+name: Intermittent Failures in Browser Isolation
+impact: minor
+systems:
+    - q0dfbn0p6hyt
+timeline:
+    - ts: "2025-04-22 23:49:10"
+      description: Some users are experiencing intermittent failures to acquire a remote browser. The team is investigating.
+      investigating: true
+    - ts: "2025-04-22 23:58:02"
+      description: We have identified and implemented a fix for this issue and are currently monitoring the results.
+    - ts: "2025-04-23 00:18:44"
+      description: This incident has been resolved.
+      resolved: true
