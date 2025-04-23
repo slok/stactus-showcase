@@ -1,0 +1,9 @@
+version: incident/v1
+id: hkrt60rg0nz3
+name: Delay in Transactional Emails
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2025-04-23 22:34:50"
+      description: "Our Engineering team is aware of an issue with an upstream provider that is impacting the delivery of emails from DigitalOcean to DigitalOcean customers. \n\nBeginning 20:55 UTC, users may experience delays in receiving emails from DigitalOcean, including sign-in verification codes, sign-up verifications, maintenance notifications, and other transactional emails. \n\nOur team is closely monitoring the situation and has begun to see signs of recovery, with both delayed and recent emails starting to be delivered. \n\nWe will provide further updates as they are available."
