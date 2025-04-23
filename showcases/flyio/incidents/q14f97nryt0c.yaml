@@ -1,0 +1,10 @@
+version: incident/v1
+id: q14f97nryt0c
+name: Network performance issues in ORD
+impact: minor
+systems:
+    - vfq82tp9wp5r
+timeline:
+    - ts: "2025-04-23 22:42:58"
+      description: Some network paths in a single region (ORD) are slightly slower than expected. You may experience lower network performance for requests in ORD.
+      investigating: true
