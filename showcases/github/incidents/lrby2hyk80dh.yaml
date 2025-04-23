@@ -1,7 +1,7 @@
 version: incident/v1
 id: lrby2hyk80dh
 name: Incident with Issues, API Requests and Pages
-impact: minor
+impact: major
 systems:
     - brv1bkgrwx7q
     - kr09ddfgbfsf
@@ -17,4 +17,22 @@ timeline:
       investigating: true
     - ts: "2025-04-23 07:23:46"
       description: Codespaces is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-04-23 07:41:57"
+      description: Codespaces is operating normally.
+      investigating: true
+    - ts: "2025-04-23 07:42:18"
+      description: API Requests is operating normally.
+      investigating: true
+    - ts: "2025-04-23 07:42:22"
+      description: Pages is operating normally.
+      investigating: true
+    - ts: "2025-04-23 07:42:28"
+      description: Actions is operating normally.
+      investigating: true
+    - ts: "2025-04-23 07:43:53"
+      description: Issues is operating normally.
+      investigating: true
+    - ts: "2025-04-23 07:47:49"
+      description: A brief problem with one of our database clusters caused intermittent errors around 07:05 UTC for a few minutes. Our systems have recovered and we continue to monitor.
       investigating: true
