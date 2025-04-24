@@ -1,0 +1,10 @@
+version: incident/v1
+id: xhpv3h1dg1v7
+name: Droplet Event Processing in FRA1
+impact: minor
+systems:
+    - dzbtk2fkytv5
+timeline:
+    - ts: "2025-04-24 13:41:20"
+      description: "Our Engineering team is investigating an issue causing delays in Droplet event processing in our FRA1 region. \n\nThis includes operations such as creating, resizing, powering on/off, or deleting Droplets. These actions may take longer than usual to complete or may appear to be temporarily stalled.\n\nOur engineering team is actively working to identify the root cause and restore normal processing speeds as quickly as possible. We will continue to provide updates here as we make progress."
+      investigating: true
