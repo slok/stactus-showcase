@@ -1,0 +1,14 @@
+version: incident/v1
+id: 3zd8ypstln23
+name: Network Performance Issues in Chicago and Ashburn
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-04-24 14:34:39"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in Chicago (ORD) and Ashburn (IAD).
+        Customers might experience an elevated number of 5xx errors due to congestion.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
