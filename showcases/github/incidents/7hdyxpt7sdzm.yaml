@@ -11,5 +11,5 @@ timeline:
       description: We are investigating issues with GitHub Enterprise Importer. We will continue to keep users updated on progress towards mitigation.
       investigating: true
     - ts: "2025-04-23 22:20:46"
-      description: This incident has been resolved.
+      description: 'Starting at 19:13:50 UTC, the service responsible for importing Git repositories began experiencing errors that impacted both GitHub Enterprise Importer migrations and the GitHub Importer which were restored at 22:11:00 UTC. At the time, 837 migrations across 57 organizations were affected. Impacted migrations would have shown the error message "Git source migration failed. Error message: An error occurred. Please contact support for further assistance." in the migration logs and required a retry.<br /><br />The root cause of the issue was a recent configuration change that caused our workers, responsible for syncing the Git repository, to lose the necessary access required for the migration. We were able to retrieve the needed access for the workers , and all dependent services resumed normal operation.<br />We’ve identified and implemented additional safeguards to help prevent similar disruptions in the future.<br />'
       resolved: true
