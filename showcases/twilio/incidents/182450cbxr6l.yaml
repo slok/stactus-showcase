@@ -1,0 +1,10 @@
+version: incident/v1
+id: 182450cbxr6l
+name: SMS Delivery Delays to Multiple Networks in Colombia
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-04-25 22:07:00"
+      description: We are experiencing SMS delivery delays when sending messages to Multiple Networks in Colombia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
