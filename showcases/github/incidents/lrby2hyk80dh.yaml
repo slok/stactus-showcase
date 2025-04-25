@@ -37,5 +37,5 @@ timeline:
       description: A brief problem with one of our database clusters caused intermittent errors around 07:05 UTC for a few minutes. Our systems have recovered and we continue to monitor.
       investigating: true
     - ts: "2025-04-23 08:00:06"
-      description: This incident has been resolved.
+      description: On April 23, 2025, between 07:00 UTC and 07:20 UTC, multiple GitHub services experienced degradation caused by resource contention on database hosts. The resulting error rates, which ranged from 2–5% of total requests, led to intermittent service disruption for users. The issue was triggered by heavy workloads on the database leading to connection saturation.<br />The incident mitigated when the database throttling activated which allowed the system to rebalance the connections. This restored the traffic flow to the database and restored service functionality. <br />To prevent similar issues in the future, we are reviewing the capacity of the database, improving monitoring and alerting systems, and implementing safeguards to reduce time to detection and mitigation.
       resolved: true
