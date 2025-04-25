@@ -1,10 +1,13 @@
 version: incident/v1
 id: sq5nj5zx28l8
-name: On Call Engineers are Investigating an issue with our Messaging Services
-impact: none
+name: Intermittent Issues with Adding RCS Senders to a Messaging Service and Inbound Message Delivery to an RCS sender in a Messaging Service
+impact: minor
 systems:
     - 6cn0g627h62p
 timeline:
     - ts: "2025-04-25 22:26:16"
       description: Our monitoring systems have detected a potential issue with our Messaging Services on OTT Sender Inbound Messages and OTT Sender Configuration Requests. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-25 22:42:51"
+      description: We are investigating intermittent issues with adding RCS senders to a Messaging Service and inbound message delivery to an RCS sender in a messaging service that started occurring on 4/23/2025 around 2:49 pm PST. We expect to provide another update in 1 hour or as soon as more information becomes available
       investigating: true
