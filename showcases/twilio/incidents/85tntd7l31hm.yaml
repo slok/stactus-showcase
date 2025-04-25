@@ -1,0 +1,12 @@
+version: incident/v1
+id: 85tntd7l31hm
+name: Meta Sending Elevated Errorcode 2 for Cloudapi
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2025-04-25 18:02:08"
+      description: Our monitoring systems have detected a potential issue with Cloudapi. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-25 18:07:51"
+      description: Our engineers have identified an issue where outbound WhatsApp messages may fail with error code 63012. We are investigating the issue and working with Meta to resolve. We will provide another update in 15 minutes or as soon as more information becomes available.
