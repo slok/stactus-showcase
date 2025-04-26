@@ -20,3 +20,6 @@ timeline:
     - ts: "2025-04-26 11:58:18"
       description: We continue to experience SMS delivery delays when sending messages to Multiple Networks in Colombia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-04-26 17:22:13"
+      description: We have fully investigated the SMS delivery delays when sending messages to multiple networks in Colombia and determined that the impact was limited to a small set of customers, who will be contacted individually to address any concerns. As such, we are closing this incident.
+      resolved: true
