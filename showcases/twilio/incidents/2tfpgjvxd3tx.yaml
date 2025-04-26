@@ -1,9 +1,12 @@
 version: incident/v1
 id: 2tfpgjvxd3tx
-name: On Call Engineers are Investigating AccSec Canada API Issue
-impact: none
-systems: []
+name: AccSec Canada API Issue
+impact: minor
+systems:
+    - whldrk77jnm4
 timeline:
     - ts: "2025-04-26 05:25:53"
       description: We've become aware of a potential issue with AccSec Canada API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-04-26 05:42:09"
+      description: The issue causing intermittent AccSec Canada API Issue has been identified. We are actively working to resolve the issue. We expect to provide another update in 1hour or as soon as more information becomes available
