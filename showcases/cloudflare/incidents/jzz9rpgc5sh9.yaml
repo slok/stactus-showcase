@@ -1,0 +1,10 @@
+version: incident/v1
+id: jzz9rpgc5sh9
+name: Elevated 503s from Workers KV
+impact: minor
+systems:
+    - tmh50tx2nprs
+timeline:
+    - ts: "2025-04-27 22:00:07"
+      description: Customers who are using KV in their workers scripts may see elevated 503 errors. More updates to follow shortly.
+      investigating: true
