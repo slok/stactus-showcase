@@ -1,10 +1,14 @@
 version: incident/v1
 id: gxvwmkhhpdh5
-name: On Call Engineers are Investigating an issue
+name: Issue with Deploying Build in Functions and Assets
 impact: minor
 systems:
-    - z6wf7g459vzh
+    - b3tl520cz8tc
+    - ld8ss4pqqskp
 timeline:
     - ts: "2025-04-28 11:43:13"
       description: Our monitoring systems have detected a potential issue with Twilio Flex. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-28 12:08:23"
+      description: We are currently investigating an issue impacting the deployment of new builds in Functions and Assets. While the build and deployment processes are affected, existing executions are not impacted. Our engineering teams are working on resolving the issue, and we will provide another update in the next 30 minutes or as soon as more information becomes available.
       investigating: true
