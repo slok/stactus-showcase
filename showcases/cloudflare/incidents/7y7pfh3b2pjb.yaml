@@ -1,0 +1,9 @@
+version: incident/v1
+id: 7y7pfh3b2pjb
+name: Increased HTTP 522 Errors
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-28 01:32:08"
+      description: "Customers may be experiencing an increased level of HTTP 522 errors in HYN colo. \nThe issue was mitigated."
+      resolved: true
