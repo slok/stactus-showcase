@@ -1,0 +1,13 @@
+version: incident/v1
+id: l5vd2wzv9ph9
+name: Networking in LON1
+impact: none
+systems:
+    - rwfv6j4jpn2y
+timeline:
+    - ts: "2025-04-28 11:14:12"
+      description: "Between 09:58 UTC and 10:11 UTC, our Engineering team observed issues impacting DNS resolution in our LON1 region. During this time, some users may have experienced errors while trying to resolve domain names from within Digitalocean resources. \n\nOur team was able to take quick action to mitigate the impact and resolve the issue, and all services in the LON1 region are now functioning normally. Thank you for your patience, and we apologize for any inconvenience. \n\nIf you are still experiencing issues or have additional questions, please open a Support ticket right away."
+      investigating: true
+    - ts: "2025-04-28 11:17:10"
+      description: This incident has been resolved.
+      resolved: true
