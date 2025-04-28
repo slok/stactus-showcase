@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8j3y2l3stj2y
+name: MMS Delivery Delays and Failures to T-Mobile (Formerly Metro PCS Wireless) in United States of America over a subset of short codes.
+impact: minor
+systems:
+    - h0fl7prwfhvm
+timeline:
+    - ts: "2025-04-28 05:34:03"
+      description: We are experiencing MMS delivery delays and failures to T-Mobile (formerly Metro PCS Wireless) in the United States of America over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-04-28 05:34:42"
+      description: We are continuing to investigate this issue.
+      investigating: true
