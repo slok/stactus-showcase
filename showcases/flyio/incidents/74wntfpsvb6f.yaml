@@ -9,3 +9,6 @@ timeline:
       description: Our edges in Madrid, Spain are currently affected by an upstream outage caused by ongoing power issues in the region. Regional and static egress IPs may be temporarily unavailable. Access via Anycast IPs is currently unaffected. We are working with our upstream to resolve this situation.
     - ts: "2025-04-28 17:28:53"
       description: Power has been brought back online for the region. We're closely monitoring for any further complications.
+    - ts: "2025-04-28 19:41:22"
+      description: This incident has been resolved.
+      resolved: true
