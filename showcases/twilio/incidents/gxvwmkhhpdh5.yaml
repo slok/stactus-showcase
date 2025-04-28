@@ -1,0 +1,10 @@
+version: incident/v1
+id: gxvwmkhhpdh5
+name: On Call Engineers are Investigating an issue
+impact: minor
+systems:
+    - z6wf7g459vzh
+timeline:
+    - ts: "2025-04-28 11:43:13"
+      description: Our monitoring systems have detected a potential issue with Twilio Flex. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
