@@ -1,0 +1,9 @@
+version: incident/v1
+id: j4kf2nvxxz1g
+name: Message Delivery to ATT Affected
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-28 09:07:41"
+      description: Twilio SMS Delivery to ATT was degraded for 1 minute between 12:00 PM and 12:01 PM Pacific Time on 04/15/2025. During this time, some customers may have experienced SMS messages appearing stuck in a "SENT" state. The issue has now been resolved.
+      resolved: true
