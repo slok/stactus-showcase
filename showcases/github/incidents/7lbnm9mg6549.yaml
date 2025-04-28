@@ -1,0 +1,19 @@
+version: incident/v1
+id: 7lbnm9mg6549
+name: Incident with Git Operations, API Requests and Issues
+impact: minor
+systems:
+    - 8l4ygp009s5s
+    - brv1bkgrwx7q
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2025-04-28 08:03:38"
+      description: We are investigating reports of degraded performance for API Requests, Git Operations and Issues
+      investigating: true
+    - ts: "2025-04-28 08:05:17"
+      description: Issues API is currently seeing elevated latency. We are investigating the issue and will provide further updates as soon as we have them.
+      investigating: true
+    - ts: "2025-04-28 08:21:48"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
