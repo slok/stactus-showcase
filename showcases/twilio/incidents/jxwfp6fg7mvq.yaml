@@ -1,0 +1,10 @@
+version: incident/v1
+id: jxwfp6fg7mvq
+name: SMS Delivery Delays and Failures to Multiple Networks in Portugal
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-04-28 13:55:38"
+      description: We are experiencing SMS delivery failures when sending messages to Multiple Networks in Portugal. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1h or as soon as more information becomes available.
+      investigating: true
