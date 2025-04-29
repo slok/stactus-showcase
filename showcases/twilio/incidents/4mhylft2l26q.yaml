@@ -1,6 +1,6 @@
 version: incident/v1
 id: 4mhylft2l26q
-name: Call Failures to and From Twilio Phone Numbers in Spain
+name: Call Failures From and To Twilio Phone Numbers in Spain
 impact: minor
 systems:
     - bnzggd37p61w
@@ -14,4 +14,4 @@ timeline:
     - ts: "2025-04-28 20:28:07"
       description: The issue causing inbound and Outbound call failures to and from Twilio Spain phone numbers has been identified. We continue to actively work with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.
     - ts: "2025-04-29 04:28:04"
-      description: The issue causing inbound and Outbound call failures to and from Twilio Spain phone numbers has been identified. We continue to actively work with our carrier partner to resolve the issue. We expect to provide another update in 16 hours or as soon as more information becomes available.
+      description: We continue experiencing call failures from and to Twilio Spain phone numbers. We have identified that Spain is currently experiencing a significant power outage and we are monitoring the situation closely. We expect to provide another update in 16 hours or as soon as more information becomes available.
