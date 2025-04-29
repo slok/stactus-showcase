@@ -1,0 +1,12 @@
+version: incident/v1
+id: l7r1dp1wfxqy
+name: Increased HTTP 500 Errors
+impact: minor
+systems:
+    - wg0b1zzm2f2w
+timeline:
+    - ts: "2025-04-29 20:52:53"
+      description: Customers in the Santiago, Chile region may be seeing an increase in HTTP 500 error responses. Our teams are investigating.
+      investigating: true
+    - ts: "2025-04-29 20:55:26"
+      description: The cause of this issue has been identified and a fix is being implemented.
