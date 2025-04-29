@@ -1,0 +1,13 @@
+version: incident/v1
+id: f33pj4tq7pq1
+name: Managed Kubernetes Nodes Networking
+impact: major
+systems:
+    - 83tzdysp693h
+timeline:
+    - ts: "2025-04-29 22:25:47"
+      description: |-
+        Our Engineering team is investigating an issue causing new DOKS worker nodes to have network issues in our SFO2 region. Operations such as creating new DOKS nodes, manually or autoscaled, will have network connectivity issues within the clusters they are added to during this time.
+
+        Our Engineering team is actively working to identify the root cause and restore service as quickly as possible. We will continue to provide updates here as we make progress.
+      investigating: true
