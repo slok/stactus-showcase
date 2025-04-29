@@ -10,3 +10,6 @@ timeline:
     - ts: "2025-04-29 10:07:14"
       description: Web notifications are experiencing delivery delays for the majority of customers. We are working to mitigate impact and restore delivery times back within normal operating bounds.<br /><br />Email notifications remain unaffected and are delivering as normal.<br /><br />We will provide futher updates as we have more information.
       investigating: true
+    - ts: "2025-04-29 10:37:22"
+      description: We are seeing impact on both web and email notifications with most customers seeing delayed deliveries. <br /><br />The last incident updated regarding impact on email notifications was incorrect. Email notifications have been experiencing the same delays as web notifications for duration of incident.<br /><br />We have applied changes to our system and are monitoring to see if these restore normal service. Updates to follow.
+      investigating: true
