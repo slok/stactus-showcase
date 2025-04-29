@@ -1,0 +1,11 @@
+version: incident/v1
+id: hnc6612g7skw
+name: CNI Issues in Amsterdam
+impact: minor
+systems:
+    - 57ctn3f2qsyj
+    - jm5mggc2wp95
+timeline:
+    - ts: "2025-04-29 23:18:40"
+      description: Cloudflare is investigating several interconnects down in our Amsterdam (AMS) facility because of a networking device failure. We will provide an update soon.
+      investigating: true
