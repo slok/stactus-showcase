@@ -1,6 +1,6 @@
 version: incident/v1
 id: jvyb8cp9h0lh
-name: Delays for web notification delivery
+name: Delays for web and email notification delivery
 impact: minor
 systems: []
 timeline:
@@ -15,4 +15,7 @@ timeline:
       investigating: true
     - ts: "2025-04-29 11:09:17"
       description: We are starting to see signals of recovery with delayed web/email notifications now being dispatched.<br /><br />The team continue to monitor recovery and ensure return to normal service.
+      investigating: true
+    - ts: "2025-04-29 11:57:07"
+      description: Web and email notifications continue to be delivered successfully and the service is in a healthy state. We are processing the backlog of notification deliveries which are currently as much as 30-60 minutes delayed.
       investigating: true
