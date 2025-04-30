@@ -8,3 +8,6 @@ timeline:
       description: Inbound wireguard connections to our CDG gateways is currently unavailable due to an upstream networking issue. Any static peers configured in CDG will be unavailable until this is resolved.
     - ts: "2025-04-30 00:36:02"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-04-30 07:32:57"
+      description: We have re-enabled the CDG gateway for flyctl.
+      resolved: true
