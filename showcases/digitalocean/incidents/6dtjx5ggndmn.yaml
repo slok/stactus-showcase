@@ -1,0 +1,15 @@
+version: incident/v1
+id: 6dtjx5ggndmn
+name: Spaces Availability in FRA1
+impact: minor
+systems:
+    - 66wjtpd8ngvx
+timeline:
+    - ts: "2025-04-30 13:06:15"
+      description: |-
+        Our Engineering team is currently investigating an issue affecting the availability of Spaces in our FRA1 region. During this time, users may experience high error rate when attempting to access Spaces in this region.
+
+        We are actively working on identifying the root cause and resolving the issue as quickly as possible. We understand the inconvenience this may cause and appreciate your patience.
+
+        We will provide further updates in the due course.
+      investigating: true

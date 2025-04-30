@@ -1,0 +1,15 @@
+version: incident/v1
+id: tzw7yxwqp6kb
+name: Chat - elevated errors
+impact: major
+systems:
+    - 0wf8j1vtry0v
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2025-04-30 12:58:24"
+      description: We are currently investigating elevated errors in chat.
+      investigating: true
+    - ts: "2025-04-30 13:03:48"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-04-30 13:05:20"
+      description: A fix has been implemented and we are monitoring the results.
