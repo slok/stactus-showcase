@@ -1,0 +1,10 @@
+version: incident/v1
+id: 268r1m8qvhfk
+name: On Call Engineers are Investigating an issue with the server returning HTTP response code 502 at AccSec Indonesia API endpoint
+impact: none
+systems:
+    - mq9q3ytpkyfz
+timeline:
+    - ts: "2025-04-30 00:31:50"
+      description: Our monitoring systems have detected a potential issue with the server returning HTTP response code 502 at AccSec Indonesia API endpoint. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
