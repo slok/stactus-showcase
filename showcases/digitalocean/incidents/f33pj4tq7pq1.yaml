@@ -11,3 +11,11 @@ timeline:
 
         Our Engineering team is actively working to identify the root cause and restore service as quickly as possible. We will continue to provide updates here as we make progress.
       investigating: true
+    - ts: "2025-04-29 23:49:26"
+      description: "Our Engineering team identified the cause of the issue and has rolled out a fix to resolve the network issue with new DOKS worker nodes. At this time, all services should be operating normally. \n\nWe are actively monitoring the fix and will post an update as soon as the issue is fully resolved."
+    - ts: "2025-04-30 00:11:48"
+      description: |-
+        Our Engineering team has confirmed full resolution of the network issue with new DOKS worker nodes in our SFO2 region.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true

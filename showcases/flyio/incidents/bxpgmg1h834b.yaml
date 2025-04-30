@@ -1,0 +1,8 @@
+version: incident/v1
+id: bxpgmg1h834b
+name: WireGuard connectivity into CDG is unavailable
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-30 00:15:15"
+      description: Inbound wireguard connections to our CDG gateways is currently unavailable due to an upstream networking issue. Any static peers configured in CDG will be unavailable until this is resolved.
