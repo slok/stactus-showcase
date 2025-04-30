@@ -1,0 +1,12 @@
+version: incident/v1
+id: zplr5cxrm97p
+name: Magic WAN routing impacted for subset of customers
+impact: minor
+systems:
+    - qgnxz00j1f2v
+timeline:
+    - ts: "2025-04-30 21:29:56"
+      description: Some customers' routing information is unavailable, impacting traffic delivery. Engineering is investigating.
+      investigating: true
+    - ts: "2025-04-30 21:32:05"
+      description: The issue has been identified and a fix is being implemented.
