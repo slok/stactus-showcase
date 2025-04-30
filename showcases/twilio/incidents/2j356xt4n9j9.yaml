@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2j356xt4n9j9
+name: Duplicate Zendesk Tickets Coming in From Multiple Customers
+impact: minor
+systems:
+    - xv01vfp8wvs4
+timeline:
+    - ts: "2025-04-30 14:28:33"
+      description: Our engineers have identified the issue in Zendesk that causes multiples open tickets and are working to implement a fix. We expect to provide another update in 1h or as soon as more information becomes available.
+      investigating: true
