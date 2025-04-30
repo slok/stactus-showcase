@@ -1,0 +1,13 @@
+version: incident/v1
+id: c113zfh8lmph
+name: Elevated 5XX Errors Affecting Site Navigation in Twilio Console
+impact: minor
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2025-04-30 09:11:10"
+      description: Our monitoring systems have detected a potential issue with Twilio Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-04-30 09:22:17"
+      description: We’re currently investigating an issue causing degraded performance for some customers when trying to load site navigation metadata in the Twilio Console. Our engineering team is actively working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
