@@ -1,16 +1,18 @@
 version: incident/v1
 id: s9p254x7ywrf
-name: SMS Delivery Delays to Smart in Philippines
+name: SMS Delivery Delays to Smart in the Philippines
 impact: minor
 systems:
     - 8qjql0kqnd33
 timeline:
     - ts: "2025-04-30 17:01:24"
-      description: We are experiencing SMS delivery delays when sending messages to Smart in Philippines . Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1h or as soon as more information becomes available.
+      description: We are experiencing SMS delivery delays when sending messages to Smart in the Philippines. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1h or as soon as more information becomes available.
       investigating: true
     - ts: "2025-04-30 18:07:23"
-      description: We are experiencing SMS delivery delays when sending messages to Smart in Philippines . Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      description: We are experiencing SMS delivery delays when sending messages to Smart in the Philippines. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
     - ts: "2025-04-30 20:08:59"
       description: We continue experiencing SMS delivery delays when sending messages to Smart in the Philippines. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-04-30 21:12:10"
+      description: We are observing recovery in SMS delivery delays when sending messages to Smart in the Philippines. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
