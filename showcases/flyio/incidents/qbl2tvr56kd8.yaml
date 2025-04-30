@@ -1,0 +1,9 @@
+version: incident/v1
+id: qbl2tvr56kd8
+name: Loss of connectivity in IAD
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-30 06:56:16"
+      description: We are experienced an outage with one of our upstream transit providers in IAD for around 10 minutes. Traffic has been re-routed to alternate paths and connectivity should be back to normal.
+      resolved: true
