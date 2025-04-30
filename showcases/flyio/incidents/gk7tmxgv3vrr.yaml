@@ -1,0 +1,9 @@
+version: incident/v1
+id: gk7tmxgv3vrr
+name: Some or all *.fly.dev subdomains are currently returning NXDOMAIN errors in IAD
+impact: none
+systems: []
+timeline:
+    - ts: "2025-04-30 02:30:06"
+      description: applications may be inaccessible via DNS.
+      investigating: true
