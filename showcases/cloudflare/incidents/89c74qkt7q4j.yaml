@@ -1,7 +1,7 @@
 version: incident/v1
 id: 89c74qkt7q4j
 name: Cloudflare services functioning normally in Spain, Portugal, Andorra, and France
-impact: none
+impact: minor
 systems: []
 timeline:
     - ts: "2025-04-28 14:18:02"
@@ -9,3 +9,6 @@ timeline:
       investigating: true
     - ts: "2025-04-28 16:19:20"
       description: We have routed some traffic out of this region to ensure our services continue to function normally. We will continue to monitor this situation and will provide further updates as it develops.
+    - ts: "2025-04-30 12:15:14"
+      description: This incident has been resolved.
+      resolved: true
