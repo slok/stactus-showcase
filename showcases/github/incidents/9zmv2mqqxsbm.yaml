@@ -11,3 +11,9 @@ timeline:
     - ts: "2025-05-01 22:29:23"
       description: We are investigating attachment upload failures on Issues. We will continue to keep users updated on progress towards mitigation.
       investigating: true
+    - ts: "2025-05-01 23:13:06"
+      description: We have identified the underlying cause of attachment upload failures to Issues and mitigated it by rolling back a feature flag. If you are still experiencing failures when uploading attachments to Issues, please reload your page.
+      investigating: true
+    - ts: "2025-05-01 23:13:18"
+      description: This incident has been resolved.
+      resolved: true
