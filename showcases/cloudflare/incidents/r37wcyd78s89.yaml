@@ -1,0 +1,12 @@
+version: incident/v1
+id: r37wcyd78s89
+name: Some Workers requests may be serving an incorrect 404 page
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-05-01 18:30:44"
+      description: Workers are serving an incorrect 404 page. The team is working on a fix.
+    - ts: "2025-05-01 18:39:05"
+      description: This incident has been resolved.
+      resolved: true
