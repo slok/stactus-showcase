@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6sd4v7sy9ljb
+name: Intermittent API Errors Returned From the Server With Verify Silent Network Auth in the US
+impact: minor
+systems:
+    - whldrk77jnm4
+timeline:
+    - ts: "2025-05-01 01:00:24"
+      description: We are investigating intermittent API errors returned from the server with Verify Silent Network Auth in the US. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
