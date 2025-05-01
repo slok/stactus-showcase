@@ -1,0 +1,9 @@
+version: incident/v1
+id: 13qm51q03z9c
+name: Errors when attempting to fetch Conference instance resources
+impact: none
+systems: []
+timeline:
+    - ts: "2025-05-01 22:05:15"
+      description: Between 1:04 - 1:06 PM Pacific time on May 1st, 2025,  customers requesting to fetch conference instance resources (/Accounts/ACxx/Conferences/CFxx) may have received 503 errors. This incident is resolved.
+      resolved: true
