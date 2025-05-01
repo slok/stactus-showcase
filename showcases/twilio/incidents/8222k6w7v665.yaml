@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8222k6w7v665
+name: Intermittent 502 Response Codes Returned From the Server With Verify Silent Network Auth in Indonesia
+impact: minor
+systems:
+    - whldrk77jnm4
+timeline:
+    - ts: "2025-05-01 00:15:02"
+      description: We've become aware of a potential issue with the API responses in Indonesia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-05-01 00:23:21"
+      description: We are investigating intermittent 502 response codes returned from the server with Verify Silent Network Auth in Indonesia. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
