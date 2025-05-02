@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-05-02 08:37:54"
       description: We are investigating delayed Atlas metrics processing that can result in host down alerts for Atlas clusters. Clusters are still operational.
       investigating: true
+    - ts: "2025-05-02 10:05:25"
+      description: We have identified the root cause for the delays in Atlas metrics processing and have mitigated the issue. Atlas metrics processing is no longer delayed. Clusters are still operational.
