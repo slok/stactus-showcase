@@ -1,0 +1,10 @@
+version: incident/v1
+id: y16jtpcblnfw
+name: Workflows instances may get stuck
+impact: minor
+systems:
+    - 5df6y9z3fsky
+timeline:
+    - ts: "2025-05-02 16:46:00"
+      description: Workflows instances may be getting stuck for some limit customers.
+      investigating: true
