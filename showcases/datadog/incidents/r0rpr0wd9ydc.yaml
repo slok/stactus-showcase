@@ -13,3 +13,10 @@ timeline:
       investigating: true
     - ts: "2025-05-02 01:19:32"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-05-02 01:52:19"
+      description: |-
+        A fix has been implemented and recovery is in progress.
+        To prevent spurious alerts, monitors on AWS Metrics and Events remain disabled until recovery is complete.
+    - ts: "2025-05-02 02:13:02"
+      description: This incident has been resolved.
+      resolved: true
