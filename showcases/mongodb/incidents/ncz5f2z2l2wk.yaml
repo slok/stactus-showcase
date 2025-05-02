@@ -11,5 +11,5 @@ timeline:
     - ts: "2025-05-02 10:05:25"
       description: We have identified the root cause for the delays in Atlas metrics processing and have mitigated the issue. Atlas metrics processing is no longer delayed. Clusters are still operational.
     - ts: "2025-05-02 12:14:28"
-      description: The incident is now resolved.
+      description: The incident is now resolved. Since May 1st 2025 at 04:52 UTC we falsely reported a limited number of Atlas Clusters as down in the UI and alerted as such.
       resolved: true
