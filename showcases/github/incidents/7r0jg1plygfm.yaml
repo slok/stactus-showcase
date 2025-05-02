@@ -12,5 +12,5 @@ timeline:
       description: Some customers of github.com are reporting issues with PR tracking refs not being updated due to processing delays and increased failure rates. We're investigating the source of the issue.
       investigating: true
     - ts: "2025-04-30 21:05:36"
-      description: This incident has been resolved.
+      description: On April 30, 2025, between 8:02 UTC and 9:05 UTC, the Pull Requests service was degraded and failed to update refs for repositories with higher traffic. This was due to a repository migration creating a larger than usual number of enqueued jobs. This resulted in an increase in job failures, delays for non-migration sourced jobs, and delays to tracking refs.<br /><br />We declared an incident once we confirmed that this issue was not isolated to the migrating repository and other repositories were also failing to process ref updates.<br /><br />We mitigated the incident by shifting the migration jobs to a different job queue.<br /><br />To avoid problems like this in the future, we are revisiting our repository migration process and are working to isolate potentially problematic migration workloads from non-migration workloads.
       resolved: true
