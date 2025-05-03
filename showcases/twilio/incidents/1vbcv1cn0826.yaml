@@ -1,6 +1,6 @@
 version: incident/v1
 id: 1vbcv1cn0826
-name: SMS Delivery Delays to MegaFon Network in Russia
+name: SMS Delivery Delays and Failures to MegaFon Network in Russia
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-05-03 13:54:32"
       description: We continue to experience SMS delivery delays when sending messages to the MegaFon network in Russia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-05-03 15:44:26"
+      description: We continue to experience SMS delivery delays and failures when sending messages to the MegaFon network in Russia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
