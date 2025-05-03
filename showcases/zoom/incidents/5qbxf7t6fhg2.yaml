@@ -1,0 +1,11 @@
+version: incident/v1
+id: 5qbxf7t6fhg2
+name: Service degradation with Zoom's services
+impact: minor
+systems:
+    - c110sm47tmwf
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2025-05-03 11:44:21"
+      description: Our monitoring has detected service degradation with Zoom's services. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
