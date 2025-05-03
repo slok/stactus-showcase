@@ -3,9 +3,12 @@ id: 5qbxf7t6fhg2
 name: Service degradation with Zoom's services
 impact: minor
 systems:
+    - zhgjct3grx1z
     - c110sm47tmwf
     - 576m25cw4prj
+    - gtf6dl08hrk1
     - rsh1v3gbhtsy
+    - gdwqh973jx8h
 timeline:
     - ts: "2025-05-03 11:44:21"
       description: Our monitoring has detected service degradation with Zoom's services. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
@@ -15,3 +18,5 @@ timeline:
       investigating: true
     - ts: "2025-05-03 12:35:33"
       description: We have identified the issue and are working on remediation. We will continue to provide updates as we have them.
+    - ts: "2025-05-03 13:08:10"
+      description: We have identified the issue impacting Zoom clips, Zoom Docs, Zoom Survey, Whiteboard, AIC, Zoom Phone recordings, call logs and are working on remediation. We will continue to provide updates as we have them.
