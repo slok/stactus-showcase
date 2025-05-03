@@ -4,8 +4,12 @@ name: Service degradation with Zoom's services
 impact: minor
 systems:
     - c110sm47tmwf
+    - 576m25cw4prj
     - rsh1v3gbhtsy
 timeline:
     - ts: "2025-05-03 11:44:21"
       description: Our monitoring has detected service degradation with Zoom's services. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
+    - ts: "2025-05-03 12:20:51"
+      description: We continue to investigate the issue. We will continue to provide updates as we have them.
       investigating: true
