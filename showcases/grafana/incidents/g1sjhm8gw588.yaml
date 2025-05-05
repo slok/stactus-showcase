@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-05-05 05:07:09"
       description: "We were alerted to an issue with accessing instances hosted in the prod-us-central-0 cluster. This issue started occurring from ~1 UTC.  Users experiencing this issue may encounter a \"connection error\" page when attempting to login to their instance. \n\nEngineering is actively engaged and assessing the issue. We will provide updates accordingly."
       investigating: true
+    - ts: "2025-05-05 05:29:51"
+      description: Engineering has applied a fix and as of 5:30 AM UTC, customers should no longer experience an issue with accessing their instance. At this time, we are considering this issue resolved.
+      resolved: true
