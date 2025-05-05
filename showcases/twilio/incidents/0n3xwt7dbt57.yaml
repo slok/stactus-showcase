@@ -1,9 +1,15 @@
 version: incident/v1
 id: 0n3xwt7dbt57
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: 500 Errors When Updating Phone Numbers Configuration
+impact: minor
+systems:
+    - pv5w18vrltfl
 timeline:
     - ts: "2025-05-05 20:06:08"
-      description: Our monitoring systems have detected a potential issue with 500s errors from inventory-federation-service. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      description: Our monitoring systems have detected a potential issue with Phone numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-05-05 20:14:25"
+      description: We are currently investigating an elevated rate of 500 errors when updating Phone numbers configuration . Our engineers are working on the issue, and we will provide another update in 15 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-05-05 20:19:35"
+      description: Our engineers have identified the issue 500 errors when updating Phone numbers configuration, and are working to deploy a fix. Customers who have tried to update their phone number configuration in the past few minutes, should be able to do it now without errors. We expect to provide another update in 15 minutes, or as soon as more information becomes available.
