@@ -13,3 +13,6 @@ timeline:
         Our Engineering team has implemented a fix for the issue affecting Droplet creation and console access in the NYC1 region. Impacted users may have seen 504 Gateway Timeout errors during Droplet creation or when accessing the Droplet console.
 
         Our team is currently monitoring the situation to ensure stability. We will provide a final update once we confirm the issue is fully resolved.
+    - ts: "2025-05-05 15:46:56"
+      description: "Our Engineering team has confirmed the complete resolution of the issue that was affecting Droplet creation and console access in the NYC1 region. Users should now be able to deploy new droplets and access them normally in the NYC1 region. \n\nAll systems are now operating normally. We appreciate your patience and apologize for any inconvenience this may have caused."
+      resolved: true
