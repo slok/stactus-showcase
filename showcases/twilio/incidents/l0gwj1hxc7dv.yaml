@@ -1,0 +1,13 @@
+version: incident/v1
+id: l0gwj1hxc7dv
+name: SMS Delivery Delays and Failures To Multiple Networks in Germany
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-05-05 19:35:17"
+      description: Our monitoring systems have detected a potential issue with SMS delivery delays and failures to and from Multiple Networks in Germany. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-05-05 19:40:43"
+      description: We are experiencing SMS delivery delays and failures to Multiple Networks in Germany. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
