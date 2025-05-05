@@ -1,8 +1,11 @@
 version: incident/v1
 id: p2m17c0gh5nc
-name: Our Engineers are Investigating an Issue with SMS
+name: SMS Missing Delivery Receipts From AT&T Network
 impact: none
 systems: []
 timeline:
     - ts: "2025-05-05 13:11:55"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with SMS. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-05-05 13:22:50"
+      description: Twilio Programmable Messaging was degraded for 2.5 hours between 12:41 and 4:21 Pacific Time on 05/01/2025. During this period of time, customers may have experienced missing delivery receipts to AT&T network in the US. The issue has now been resolved.
+      resolved: true

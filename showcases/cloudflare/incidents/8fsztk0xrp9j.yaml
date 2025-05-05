@@ -1,0 +1,12 @@
+version: incident/v1
+id: 8fsztk0xrp9j
+name: 'Cloudflare Turnstile and challenges: Issues with right-to-left languages'
+impact: minor
+systems:
+    - m4jywscr0n0k
+timeline:
+    - ts: "2025-05-05 13:17:45"
+      description: |-
+        Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: Turnstile and Challenges might not be rendering correctly on right-to-left languages.
+        Further detail will be provided as more information becomes available.
+      investigating: true
