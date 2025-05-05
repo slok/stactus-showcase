@@ -1,9 +1,9 @@
 version: incident/v1
 id: z4pbp4cdv40l
-name: Indonesia API Errors
+name: Indonesia Telkomsel API Errors
 impact: minor
 systems:
-    - 4rv9xfxmdjg9
+    - trrz5ztt7pl8
 timeline:
     - ts: "2025-05-05 00:21:59"
       description: Our engineers have identified an issue with the register consent server, and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
@@ -20,4 +20,7 @@ timeline:
       investigating: true
     - ts: "2025-05-05 03:14:22"
       description: Our engineers are investigating an issue with the register consent server, and are working to deploy a fix. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-05-05 04:59:57"
+      description: We are investigating an issue with Accsec carrier. We expect to provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
