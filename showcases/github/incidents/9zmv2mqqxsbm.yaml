@@ -15,5 +15,5 @@ timeline:
       description: We have identified the underlying cause of attachment upload failures to Issues and mitigated it by rolling back a feature flag. If you are still experiencing failures when uploading attachments to Issues, please reload your page.
       investigating: true
     - ts: "2025-05-01 23:13:18"
-      description: This incident has been resolved.
+      description: On May 1, 2025 from 22:09 UTC to 23:13 UTC, the Issues service was degraded and users weren't able to upload attachments. The root cause was identified to be a new feature which added a custom header to all client-side HTTP requests, causing a CORS errors when uploading attachments to our provider.<br /><br />We mitigated the incident by rolling back the feature flag that added the new header at 22:56 UTC. In order to prevent this from happening again, we are adding new metrics to monitor and ensure the safe rollout of changes to client-side requests.
       resolved: true
