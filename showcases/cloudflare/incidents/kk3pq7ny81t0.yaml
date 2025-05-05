@@ -1,0 +1,10 @@
+version: incident/v1
+id: kk3pq7ny81t0
+name: Hyperdrive Custom SSL/TLS Certificates Configuration Issues
+impact: minor
+systems:
+    - d0x62dsm4c9n
+timeline:
+    - ts: "2025-05-05 15:03:51"
+      description: "It is not possible to create or edit the custom SSL/TLS configurations for existing or new Hyperdrive configurations at this time. \n\nExisting Hyperdrive configurations with custom SSL/TLS certificates are not affected. \n\nWe are currently investigating this issue."
+      investigating: true
