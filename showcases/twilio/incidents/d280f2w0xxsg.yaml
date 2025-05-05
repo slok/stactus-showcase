@@ -1,6 +1,6 @@
 version: incident/v1
 id: d280f2w0xxsg
-name: SMS Delivery Delays to Onvoy Spectrum Mobile in the USA via Subset of Shortcodes
+name: SMS Delivery Delays to Onvoy Spectrum Mobile in the USA via Subset of Shortcodes and Longcodes
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -9,5 +9,5 @@ timeline:
       description: We are experiencing SMS delivery delays when sending messages to Onvoy Spectrum Mobile in the USA via subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2025-05-05 11:02:05"
-      description: We are experiencing SMS delivery delays when sending messages to Onvoy Spectrum Mobile in the USA via subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      description: We are experiencing SMS delivery delays when sending messages to Onvoy Spectrum Mobile in the USA via subset of shortcodes and longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
