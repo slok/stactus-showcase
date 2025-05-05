@@ -1,6 +1,6 @@
 version: incident/v1
 id: p3mprmm9znhg
-name: SMS Delivery Failures to Multiple Countries via subset of Longcodes
+name: SMS Delivery Failures to Brazil and Israel via subset of Longcodes
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -11,4 +11,7 @@ timeline:
       investigating: true
     - ts: "2025-05-05 02:38:05"
       description: We are experiencing SMS delivery failures to Multiple Countries via subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-05-05 03:47:44"
+      description: We are experiencing SMS delivery failures to Brazil and Israel via subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
