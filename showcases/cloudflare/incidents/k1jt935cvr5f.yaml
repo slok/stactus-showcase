@@ -1,0 +1,10 @@
+version: incident/v1
+id: k1jt935cvr5f
+name: Cloudflared clients using datagram v3 are broken
+impact: minor
+systems:
+    - y98zlwj1d7zh
+timeline:
+    - ts: "2025-05-06 15:47:19"
+      description: "Cloudflared clients that are using datagram v3 are broken and need to be manually restarted. \n\nThe team is working on a fix to self-health those clients."
+      investigating: true
