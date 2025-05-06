@@ -1,9 +1,12 @@
 version: incident/v1
 id: 8tl9w0y8bjf1
-name: On Call Engineers are Investigating an issue
+name: Customers Are Experiencing Significant Service Disruption in Alarm Notifications on Console
 impact: none
 systems: []
 timeline:
     - ts: "2025-05-06 16:24:43"
       description: Our monitoring systems have detected a potential issue with rate limits. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-05-06 16:33:29"
+      description: Twilio Alarms Console notification was degraded for 3 hours 30 minutes between 05:45 and 09:15 Pacific Time on 05/06/2025. During this period of time customers may have experienced missing console notification for alarms.
+      resolved: true
