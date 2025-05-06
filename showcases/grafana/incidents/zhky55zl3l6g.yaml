@@ -32,3 +32,8 @@ timeline:
     - ts: "2025-05-06 20:51:04"
       description: We are investigating an issue with the Oregon probe where browser synthetics have delayed execution and higher failure rates.  Other synthetics types (protocol-level and k6 scripted) are currently unaffected.
       investigating: true
+    - ts: "2025-05-06 21:32:43"
+      description: A fix has been deployed and browser checks are running normally as of 21:25 UTC, we are continuing to monitor
+    - ts: "2025-05-06 21:34:14"
+      description: This incident has been resolved.
+      resolved: true
