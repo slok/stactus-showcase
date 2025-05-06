@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-05-06 15:47:19"
       description: "Cloudflared clients that are using datagram v3 are broken and need to be manually restarted. \n\nThe team is working on a fix to self-health those clients."
       investigating: true
+    - ts: "2025-05-06 16:20:02"
+      description: The issue has been identified and a fix is being implemented.
