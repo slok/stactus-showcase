@@ -1,0 +1,9 @@
+version: incident/v1
+id: rsf6q1byr8rz
+name: Workers Analytics Engine experiencing elevated query API failure rates
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-05-06 17:24:02"
+      description: Queries to Workers Analytics Engine are experiencing nightly elevated error rates between 00:00-05:00 UTC. We are working on resolving this and will update when mitigated.
