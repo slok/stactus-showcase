@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6n4g9yck5xqy
+name: Droplet Metrics in BLR1
+impact: minor
+systems:
+    - bkv5k5hnlg3q
+timeline:
+    - ts: "2025-05-06 13:00:11"
+      description: "Our Engineering team is currently investigating issues with certain Droplet metrics that are missing for the BLR1 region. Users may experience issues when accessing certain metrics on Droplets. \n\nWe apologize for the inconvenience, and we'll share an update once we have more information."
+      investigating: true
