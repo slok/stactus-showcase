@@ -1,0 +1,10 @@
+version: incident/v1
+id: dd1fv9dfkcr6
+name: US 10DLC numbers experienced delays in A2P provisioning and de-provisioning
+impact: none
+systems:
+    - pv5w18vrltfl
+timeline:
+    - ts: "2025-05-07 16:08:08"
+      description: Our engineers have identified US 10DLC numbers experienced delays in A2P provisioning and de-provisioning. The carrier has resolved the issue, and 10DLC provisioning is no longer experiencing delays.
+      resolved: true
