@@ -1,0 +1,13 @@
+version: incident/v1
+id: nbh3l98bxrbl
+name: Issue with AI companion that requires web search functionality.
+impact: minor
+systems:
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2025-05-07 04:31:23"
+      description: Our monitoring has detected service degradation with AI companion that requires web search functionality. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
+    - ts: "2025-05-07 04:34:58"
+      description: We are continuing to investigate this issue.
+      investigating: true
