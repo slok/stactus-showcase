@@ -1,0 +1,9 @@
+version: incident/v1
+id: 6t3thmqv7jvs
+name: Issues with Registering WARP devices and Modifying WARP Settings
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-05-07 18:06:55"
+      description: We are currently investigating issues with services that rely on the WARP Device endpoint. These issues will impact customers trying to register new WARP devices, modify existing WARP Settings profiles rules, or rely on device posture.
+      resolved: true

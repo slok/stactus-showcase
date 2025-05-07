@@ -15,3 +15,6 @@ timeline:
     - ts: "2025-05-07 15:02:35"
       description: We are still experiencing SMS delivery delays and failures when sending messages to Google Voice in United States of America via Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-05-07 17:54:43"
+      description: After further validation, We have identified impact over a single customer who has been contacted individually to address any concerns. We can confirm that SMS services over Google Voice Network are working as expected. For that reason, we are marking this incident as invalid
+      resolved: true
