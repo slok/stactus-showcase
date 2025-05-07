@@ -1,0 +1,11 @@
+version: incident/v1
+id: 8910ypv95vzp
+name: Elevated 503s returned in Milan for Cache API
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+    - k8q1kmz4gfms
+timeline:
+    - ts: "2025-05-07 19:11:31"
+      description: Elevated 503 errors for Cache API PUT requests in Milan, IT. Non-Cache API requests are not impacted.
+      investigating: true
