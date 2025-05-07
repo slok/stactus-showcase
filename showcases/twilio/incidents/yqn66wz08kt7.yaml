@@ -1,0 +1,10 @@
+version: incident/v1
+id: yqn66wz08kt7
+name: Inbound Call Failures to Twilio German Phone Numbers
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2025-05-07 09:27:32"
+      description: We are observing call failures to Twilio German phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
