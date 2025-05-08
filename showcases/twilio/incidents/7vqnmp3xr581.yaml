@@ -1,0 +1,9 @@
+version: incident/v1
+id: 7vqnmp3xr581
+name: 'Retroactive: Partial degradation of Verify Silent Network Auth'
+impact: none
+systems: []
+timeline:
+    - ts: "2025-05-08 08:06:57"
+      description: Twilio Silent Network Auth (SNA) experienced a degradation for 2 hours 30 minutes between 7 May, 10:10AM to 12:40PM PST. During this window, customers experienced failed SNA transactions for a subset of their traffic on Indonesian carriers. This issue has now been resolved.
+      resolved: true
