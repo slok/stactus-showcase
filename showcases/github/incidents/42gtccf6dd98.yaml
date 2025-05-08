@@ -1,0 +1,15 @@
+version: incident/v1
+id: 42gtccf6dd98
+name: Incident with Git Operations
+impact: minor
+systems:
+    - 8l4ygp009s5s
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+timeline:
+    - ts: "2025-05-08 15:20:31"
+      description: We are investigating reports of degraded performance for Git Operations and Pull Requests
+      investigating: true
+    - ts: "2025-05-08 15:23:57"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
