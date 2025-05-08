@@ -1,0 +1,16 @@
+version: incident/v1
+id: c8zztxdpkljj
+name: Atlas Clusters restore failures
+impact: none
+systems: []
+timeline:
+    - ts: "2025-05-08 19:24:01"
+      description: We are investigating failures of backup restores for Atlas Clusters.
+      investigating: true
+    - ts: "2025-05-08 19:24:11"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-05-08 19:24:48"
+      description: We've identified the issue and fixed it. Monitoring now.
+    - ts: "2025-05-08 19:27:56"
+      description: This incident has been resolved.
+      resolved: true
