@@ -1,0 +1,10 @@
+version: incident/v1
+id: zwp1xcld8q06
+name: Call Failures to a Subset of Twilio Brazil Phone Numbers
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2025-05-08 01:04:34"
+      description: We are experiencing call failures to a subset of Twilio Brazil phone numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

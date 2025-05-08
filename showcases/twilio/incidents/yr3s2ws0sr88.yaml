@@ -1,0 +1,10 @@
+version: incident/v1
+id: yr3s2ws0sr88
+name: SMS Delivery Report Delay To Tigo Network In Paraguay
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-05-08 01:01:08"
+      description: We are experiencing delays in receiving message delivery reports when sending to Tigo Network in Paraguay. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
