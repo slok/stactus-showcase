@@ -19,3 +19,6 @@ timeline:
       investigating: true
     - ts: "2025-05-08 01:26:16"
       description: "Our Engineering team has implemented a fix to address the intermittent unavailability of Droplet metrics and delayed Resource Alerts in the BLR1 region. \n\nOur team is now and monitoring the results and will continue to do so for an extended period to ensure this sporadic issue is addressed by the implemented fix. \n\nAt this time, we expect users not to experience further metrics gaps or delays in alerts. \n\nWe will post an update as soon as we confirm this incident is fully resolved or once we have further information. Thank you for your patience."
+    - ts: "2025-05-08 13:01:57"
+      description: "Our Engineering team has confirmed the resolution of the issue affecting certain Droplet metrics in the BLR1 region. Users should no longer see intermittent gaps in monitoring graphs for Droplets in the BLR1 region. \n\nWe appreciate your patience and apologize for any inconvenience this may have caused."
+      resolved: true
