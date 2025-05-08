@@ -1,0 +1,12 @@
+version: incident/v1
+id: 31ydfztm9mwy
+name: Depot builders experiencing issues
+impact: none
+systems: []
+timeline:
+    - ts: "2025-05-08 22:26:56"
+      description: |-
+        From roughly 11:00AM Pacific to 3:00PM Pacific, Depot builders were unable to complete deploys (https://status.depot.dev/cmafni8la004z9pwuozks8vwx). During this time, deploys defaulted back to our legacy Fly builders, and users may have seen slower-than-usual deploys depending on the size of the build.
+
+        This has been resolved, and deploys are now defaulting to Depot builders again.
+      resolved: true
