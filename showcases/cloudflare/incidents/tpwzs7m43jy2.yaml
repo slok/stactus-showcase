@@ -1,0 +1,10 @@
+version: incident/v1
+id: tpwzs7m43jy2
+name: Elevated AI Gateway 401 API errors
+impact: minor
+systems:
+    - 0311l882p558
+timeline:
+    - ts: "2025-05-08 17:43:19"
+      description: Our team is investigating the root cause for an increase in 401 API errors from our AI Gateway service.
+      investigating: true
