@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5s8gp89j615q
+name: Canadian Outbound Calls Failing With Busy Signal
+impact: none
+systems:
+    - 2v3v92mz2m4h
+timeline:
+    - ts: "2025-05-09 17:59:33"
+      description: We are observing Canadian Outbound Calls Failing With Busy Signal. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hours or as soon as more information becomes available.
+    - ts: "2025-05-09 18:04:25"
+      description: We are observing Canadian Outbound Calls Failing With Busy Signal. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
