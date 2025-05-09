@@ -1,0 +1,11 @@
+version: incident/v1
+id: qncz785bmdmf
+name: D1 database creation and listing unavailable
+impact: minor
+systems:
+    - z0yd3sxqjqdm
+timeline:
+    - ts: "2025-05-09 16:57:31"
+      description: Creating and listing D1 databases returns Authorization errors (HTTP 401) for all users. Faulty change has been identified and is being reverted.
+    - ts: "2025-05-09 16:59:06"
+      description: A fix has been implemented and we are monitoring the results.
