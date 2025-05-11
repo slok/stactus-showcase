@@ -3,8 +3,12 @@ id: z9xz8l6xxwcc
 name: SMS Delivery Failures to Multiple Networks in Multiple Countries
 impact: minor
 systems:
-    - 7d8w22hqrh6s
+    - 8qjql0kqnd33
+    - llgdln3dcs6p
 timeline:
     - ts: "2025-05-11 02:40:45"
       description: We are experiencing SMS delivery failures to multiple networks in multiple countries. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-05-11 03:40:09"
+      description: We continue to experience SMS delivery failures to multiple networks in multiple countries. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
