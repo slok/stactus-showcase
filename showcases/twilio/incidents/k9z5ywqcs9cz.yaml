@@ -1,0 +1,10 @@
+version: incident/v1
+id: k9z5ywqcs9cz
+name: SMS Delivery Report Delays to Jazz Network in Pakistan
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-05-11 20:24:07"
+      description: We are experiencing delays in receiving message delivery reports when sending to Jazz Network in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
