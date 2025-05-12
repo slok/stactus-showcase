@@ -1,0 +1,9 @@
+version: incident/v1
+id: tps4sr3j8b1m
+name: Customers Unable to Submit V2 Sender ID Applications for AU
+impact: none
+systems: []
+timeline:
+    - ts: "2025-05-12 22:09:04"
+      description: Sender ID Applications for Australia submitted via the New Sender ID Application experience were degraded from 05/07/2025 14:19 PDT to 05/12/2025 14:41:53 PDT. During this period of time, some customers who opted to use this new experience to apply for Sender IDs in Australia were unable to complete their submissions when. The issue has now been resolved.
+      resolved: true
