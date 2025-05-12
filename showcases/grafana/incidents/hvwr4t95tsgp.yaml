@@ -1,0 +1,11 @@
+version: incident/v1
+id: hvwr4t95tsgp
+name: Private Datasource Connect (PDC) Agent - Partial Outage
+impact: major
+systems:
+    - r4t5cjg79lkv
+timeline:
+    - ts: "2025-05-12 21:06:44"
+      description: As of 18:52 UTC, we were alerted to an issue with the Private Datasource Connect (PDC) Agent. Users experiencing this issue may have encountered a "Connection Status Not Available" error for the duration for any PDC Agent configured in their environment. Additionally, users may have experienced 504 Gateway Timeout Errors and/or dashboards that query data from PDC agents failing to load data.
+    - ts: "2025-05-12 21:06:58"
+      description: As of 20:32 UTC, customers should no longer experience any issues with the Private Datasource Connection (PDC) Agent. We will continue to monitor for recurrence and provide updates accordingly.
