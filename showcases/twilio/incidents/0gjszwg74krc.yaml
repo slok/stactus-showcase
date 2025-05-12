@@ -1,0 +1,12 @@
+version: incident/v1
+id: 0gjszwg74krc
+name: Errors Accessing Voice Recordings Metadata
+impact: none
+systems:
+    - frxynt0ffp5w
+timeline:
+    - ts: "2025-05-12 16:08:08"
+      description: Our engineers are currently investigating the customer impact of a retroactive issue with Programmable Voice. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-05-12 16:22:31"
+      description: From 10:00 PM PT on May 11, 2025 until  8:58 AM PT on May 12, 2025, customers may have sporadically received errors when attempting to access lists of recordings from the List Recordings endpoint. This issue has been resolved.
+      resolved: true
