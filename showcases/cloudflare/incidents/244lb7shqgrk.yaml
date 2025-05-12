@@ -1,0 +1,13 @@
+version: incident/v1
+id: 244lb7shqgrk
+name: Web Analytics Delays
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2025-05-12 14:46:23"
+      description: |-
+        Cloudflare Web Analytics processing is running behind. This affects timely delivery of customer data.
+
+        The Cloudflare GraphQL API is degraded. Customers may receive errors for some data sets.
+      investigating: true
