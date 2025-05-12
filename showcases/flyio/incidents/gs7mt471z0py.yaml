@@ -1,0 +1,14 @@
+version: incident/v1
+id: gs7mt471z0py
+name: Errors (5xx, timeouts) in Fly.io dashboard
+impact: none
+systems:
+    - 66r6rhq3hn9n
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2025-05-12 13:38:42"
+      description: |-
+        Our metrics and user reports show Fly.io/dashboard and portions of the API backend are timing out or returning 5xx errors. All operations in the Fly dashboard and most operations using fly CLI will fail or timeout at this point.
+
+        Currently-running machines or workloads should not be affected.
+      investigating: true
