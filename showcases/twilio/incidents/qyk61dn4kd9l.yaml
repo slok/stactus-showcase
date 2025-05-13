@@ -1,9 +1,13 @@
 version: incident/v1
 id: qyk61dn4kd9l
-name: On Call Engineers are Investigating
+name: TaskRouter Had Service Degradation (API 500s Failures) Impacting Flex and TaskRouter Customers
 impact: none
-systems: []
+systems:
+    - b9z92qjr2p04
 timeline:
     - ts: "2025-05-13 13:40:13"
       description: We've become aware of a potential issue with TaskRouter. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-05-13 14:09:43"
+      description: TaskRouter service was degraded for 7 minutes between 13:01 UTC and 13:07 UTC on 05/13/2025. During this period, customers would have experienced their API request failed with 500 errors.  The issue has already been resolved and the team is actively monitoring to ensure no recurrence.
+      resolved: true
