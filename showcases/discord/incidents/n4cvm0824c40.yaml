@@ -1,10 +1,14 @@
 version: incident/v1
 id: n4cvm0824c40
 name: Discord attachments unavailable
-impact: none
+impact: minor
 systems:
     - r3wq1zsx72bz
 timeline:
     - ts: "2025-05-13 21:45:21"
       description: We are currently investigating an issue preventing access to Discord message attachments. This affects the creation of new attachments, and access to images resized from existing image and video attachments.
       investigating: true
+    - ts: "2025-05-13 22:07:27"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-05-13 22:14:02"
+      description: A fix has been implemented and we are monitoring the results.
