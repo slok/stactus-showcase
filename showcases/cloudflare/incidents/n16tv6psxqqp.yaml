@@ -1,0 +1,9 @@
+version: incident/v1
+id: n16tv6psxqqp
+name: Elevated 503s returned in Amman, Marseille, and Milan for Cache API
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2025-05-13 18:38:33"
+      description: Elevated 503 errors for Cache API PUT requests in Amman, JO, Marseille, FR, and Milan, IT. Non-Cache API requests are not impacted.
