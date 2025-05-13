@@ -1,0 +1,10 @@
+version: incident/v1
+id: gd8fzy1p6t1k
+name: Push notifications for muted conversations
+impact: minor
+systems:
+    - 354mn7xfxz1h
+timeline:
+    - ts: "2025-05-13 18:21:15"
+      description: We're aware of an issue causing some users to receive push notifications for previously muted conversations. The team is actively investigating to identify the root cause.
+      investigating: true
