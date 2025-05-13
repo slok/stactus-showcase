@@ -1,9 +1,8 @@
 version: incident/v1
 id: p3mprmm9znhg
-name: SMS Delivery Failures to and from Brazil and Israel via subset of Longcodes
+name: SMS Delivery Failures To a Subset of Twilio Israel Longcodes
 impact: minor
 systems:
-    - 42zx9w2kmtvf
     - 9z5gsqyjs4rl
 timeline:
     - ts: "2025-05-05 01:38:49"
@@ -42,3 +41,18 @@ timeline:
     - ts: "2025-05-10 11:22:14"
       description: We are continuing to experience SMS Inbound delivery failures to Israel via a subset of Longcodes. While SMS Outbound delivery to Israel and Brazil is recovering via a subset of Longcodes. Our Engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 24 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-05-11 10:56:52"
+      description: We are continuing to experience SMS Inbound delivery failures to Israel via a subset of Longcodes. While SMS Outbound delivery to Israel and Brazil is recovering via a subset of Longcodes. Our Engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-05-12 02:01:52"
+      description: We are continuing to experience SMS delivery failures to a subset of Twilio Israel Longcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-05-12 05:13:46"
+      description: We are continuing to experience SMS delivery failures to a subset of Twilio Israel Longcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-05-13 05:13:10"
+      description: We are continuing to experience SMS delivery failures to a subset of Twilio Israel Longcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-05-13 21:43:59"
+      description: We are continuing to experience SMS delivery failures to a subset of Twilio Israel Longcodes. We have contacted all impacted customers directly with further details while our engineers continue to work with our carrier partner to resolve the issue. This Status Page post will be marked as resolved but we will continue to update impacted customers separately.
+      resolved: true
