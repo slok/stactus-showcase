@@ -1,0 +1,14 @@
+version: incident/v1
+id: mb4f0fpm1nym
+name: Delayed Traces and Spans in APM
+impact: minor
+systems:
+    - p4hwj4wsc5wf
+timeline:
+    - ts: "2025-05-13 19:06:02"
+      description: |-
+        We are investigating increased latency processing Traces and Spans in APM
+        As a result of this issue, some users may see missing or delayed traces and Spans starting at 18:45 UTC.
+      investigating: true
+    - ts: "2025-05-13 19:20:17"
+      description: A fix has been implemented and we are monitoring the results.
