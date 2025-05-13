@@ -1,10 +1,10 @@
 version: incident/v1
 id: ltg8nkwxqc5x
-name: Latest WARP release erroneously marked as malware on Windows platform
-impact: none
+name: Multiple WARP versions were erroneously marked as malware on some Windows machines.
+impact: minor
 systems:
     - k04jkcpzxn94
 timeline:
     - ts: "2025-05-13 04:33:14"
-      description: We are currently investigating this issue.
+      description: We are currently investigating this issue. The recently released client version (2025.4.929.0) has been temporarily pulled pending investigation, to prevent clients from encountering potential failed upgrade scenarios.
       investigating: true
