@@ -1,0 +1,10 @@
+version: incident/v1
+id: wqvmnpfnfc3r
+name: Droplet Search in Cloud Control Panel
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2025-05-14 12:34:00"
+      description: "Our Engineering team is currently investigating an issue affecting the Droplet search functionality within the DigitalOcean Cloud Panel. Some customers may be experiencing difficulties when attempting to search for and locate their Droplets. \n\nWe are actively working to identify the root cause and will provide updates as we learn more. We understand how critical this functionality is for managing your infrastructure, and we appreciate your patience during the process. \n\nWe will share an update as more information becomes available."
+      investigating: true
