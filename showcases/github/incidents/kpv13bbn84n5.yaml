@@ -10,3 +10,6 @@ timeline:
     - ts: "2025-05-14 15:14:03"
       description: We keep investigating issues with Gemini 2.5 Pro model which is in Public Preview. Users may see intermittent errors with this model.
       investigating: true
+    - ts: "2025-05-14 16:01:31"
+      description: We are experiencing degraded availability for the Gemini 2.5 Pro model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.
+      investigating: true
