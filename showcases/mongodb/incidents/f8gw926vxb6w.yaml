@@ -14,3 +14,6 @@ timeline:
     - ts: "2025-05-14 02:21:38"
       description: "Some Azure external IP address ranges used in the Azure South Africa West and Azure South Africa North regions are currently inaccessible from certain segments of the internet. These networking issues can cause specific Azure public IP ranges to be unreachable from select networks, even though they should be globally routable. \n\nWe are escalating the issue with Azure and continue to investigate."
       investigating: true
+    - ts: "2025-05-14 03:22:54"
+      description: "We are continuing to actively investigate the IP accessibility issues with Azure support. \n\nWe will provide another status update in at most 8 hours. We will provide a status update earlier if possible as our investigation progresses."
+      investigating: true
