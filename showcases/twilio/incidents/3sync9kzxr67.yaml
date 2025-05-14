@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3sync9kzxr67
+name: MMS Delivery Failures to Multiple Networks in the US from a subset of shortcodes
+impact: minor
+systems:
+    - h0fl7prwfhvm
+timeline:
+    - ts: "2025-05-14 20:04:47"
+      description: We are experiencing MMS delivery failures to multiple networks in the US from a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
