@@ -1,0 +1,15 @@
+version: incident/v1
+id: 4wfh09fpjfgc
+name: Network Performance Issues in China
+impact: minor
+systems:
+    - hmgctz0qnwlc
+    - mbmzgpc3s1xh
+    - 84ynm0c8bkm4
+    - 5b3kdlcn246d
+    - d6rk1w417zrk
+    - 0p60jr5nb630
+timeline:
+    - ts: "2025-05-14 10:46:32"
+      description: "Cloudflare is investigating issues with performance in China. Some end-users located in China may see an increase in errors or timeouts trying to reach specific Cloudflare IPs. \n\nWe are working to analyze and mitigate this problem. More updates to follow shortly."
+      investigating: true
