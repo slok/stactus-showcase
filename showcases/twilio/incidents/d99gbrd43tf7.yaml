@@ -1,0 +1,13 @@
+version: incident/v1
+id: d99gbrd43tf7
+name: Elevated latency and error rate in Dialogflow agent integration
+impact: minor
+systems:
+    - s91kksd3hqjp
+timeline:
+    - ts: "2025-05-14 19:41:24"
+      description: Our engineers have identified a service degradation with DialogFlow cx e2e affecting US1 Region increasing error rates and latency interacting with Dialogflow agents. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
+    - ts: "2025-05-14 19:42:41"
+      description: We are investigating a service degradation with Dialogflow agent integrations affecting US1 Region experiencing elevated error rates and latency interacting with Dialogflow agents. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
