@@ -1,0 +1,10 @@
+version: incident/v1
+id: m01mp7lmhqhm
+name: High Packet Loss on Inbound Calls to Spain Phone Numbers
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2025-05-14 07:53:33"
+      description: We are observing high packet loss on inbound calls to Spain Phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
