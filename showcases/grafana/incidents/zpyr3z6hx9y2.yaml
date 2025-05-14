@@ -1,0 +1,9 @@
+version: incident/v1
+id: zpyr3z6hx9y2
+name: Traceql metric queries not returning recently ingested data in us-east-2 region.
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-05-14 10:29:49"
+      description: Starting from May 9th 2025 12:00 UTC, we were facing Hosted Traces partial read path outage in us-east-2 region. Traceql metric queries were not returning a recently ingested data. After an investigation, the fix was deployed and the incident was resolved at May 14th at 10:00 UTC. There might be data gaps which will be eventually filled, we confirmed no data loss happened.
+      resolved: true
