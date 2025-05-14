@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-05-14 01:56:23"
       description: Atlas Clusters in Azure South Africa West and Azure South Africa North are still reporting degraded status and we continue to investigate the issue.
       investigating: true
+    - ts: "2025-05-14 02:21:38"
+      description: "Some Azure external IP address ranges used in the Azure South Africa West and Azure South Africa North regions are currently inaccessible from certain segments of the internet. These networking issues can cause specific Azure public IP ranges to be unreachable from select networks, even though they should be globally routable. \n\nWe are escalating the issue with Azure and continue to investigate."
+      investigating: true
