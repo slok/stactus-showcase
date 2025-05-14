@@ -17,3 +17,6 @@ timeline:
     - ts: "2025-05-14 03:22:54"
       description: "We are continuing to actively investigate the IP accessibility issues with Azure support. \n\nWe will provide another status update in at most 8 hours. We will provide a status update earlier if possible as our investigation progresses."
       investigating: true
+    - ts: "2025-05-14 04:35:41"
+      description: Due to ongoing issues, Atlas Clusters in Azure South Africa West and Azure South Africa North may experience delays creating, modifying, or executing scheduled actions such as backups. Atlas Clusters will continue to show degraded status in the UI.
+      investigating: true
