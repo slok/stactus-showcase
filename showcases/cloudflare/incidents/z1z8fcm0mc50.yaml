@@ -1,0 +1,12 @@
+version: incident/v1
+id: z1z8fcm0mc50
+name: Network Performance Issues in Miami
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-05-14 10:54:40"
+      description: |-
+        Cloudflare experienced issues with network performance in our Miami location from 09:58 to 10:12 UTC time.
+        Customers might have observed a temporary increase in errors or timeouts.
+        The impact has been mitigated.
+      resolved: true
