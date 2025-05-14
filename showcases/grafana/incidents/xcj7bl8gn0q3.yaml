@@ -1,0 +1,13 @@
+version: incident/v1
+id: xcj7bl8gn0q3
+name: Some Hosted Grafana instances in prod-ap-south-1 experiencing degraded performance
+impact: minor
+systems:
+    - 2vj35rbpdr7s
+timeline:
+    - ts: "2025-05-14 00:12:56"
+      description: |-
+        Beginning approximately 22:30 UTC, we identified some Hosted Grafana instances in prod-ap-south-1 experiencing degraded performance, presenting as either unavailable or slow.
+
+        We are currently investigating this issue
+      investigating: true
