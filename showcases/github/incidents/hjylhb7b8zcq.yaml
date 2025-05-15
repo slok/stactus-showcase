@@ -19,3 +19,9 @@ timeline:
     - ts: "2025-05-15 09:56:02"
       description: We have identified the cause, and have a working fix. We will continue to update users.
       investigating: true
+    - ts: "2025-05-15 10:38:09"
+      description: The issue preventing users from creating Personal Access Tokens (PATs) has been resolved. The root cause was identified and a change was reverted to restore functionality. PAT generation is now working as expected.
+      investigating: true
+    - ts: "2025-05-15 10:38:27"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
