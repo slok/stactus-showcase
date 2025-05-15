@@ -1,0 +1,11 @@
+version: incident/v1
+id: y70hdn0pbk71
+name: Network issues in NRT/HKG
+impact: minor
+systems:
+    - 823dvbm7k1vy
+    - m0gqlhds44dr
+timeline:
+    - ts: "2025-05-15 15:13:43"
+      description: An upstream provider is investigating a network issue in NRT and HKG regions. Apps continue to run, but requests may occasionally fail.
+      investigating: true
