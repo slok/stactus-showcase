@@ -1,0 +1,15 @@
+version: incident/v1
+id: v6nyv8nvlspw
+name: SMS Delivery Delays to Cellcom Network in United States of America
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - 39mb8cmw8y2v
+    - 32f2bm54nkvv
+timeline:
+    - ts: "2025-05-15 18:45:08"
+      description: |-
+        We're reopening this StatusPage post since the previous one was resolved by mistake. Please refer to this current post for updates in this StatusPage post https://status.twilio.com/incidents/3r6f2vyftzls.
+
+        ware still experiencing SMS delivery delays when sending messages to Cellcom Network in United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+      investigating: true
