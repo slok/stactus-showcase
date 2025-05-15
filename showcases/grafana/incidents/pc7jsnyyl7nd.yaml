@@ -1,0 +1,13 @@
+version: incident/v1
+id: pc7jsnyyl7nd
+name: 'Grafana Cloud: Migration Assistant - degraded performance'
+impact: minor
+systems:
+    - 1yljbly44vqd
+timeline:
+    - ts: "2025-05-15 13:46:15"
+      description: The team is aware of issues with migrating large numbers of resources and is working on a fix
+      investigating: true
+    - ts: "2025-05-15 13:46:30"
+      description: We are continuing to investigate this issue.
+      investigating: true
