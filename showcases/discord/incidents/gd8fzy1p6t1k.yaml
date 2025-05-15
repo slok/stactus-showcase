@@ -1,7 +1,7 @@
 version: incident/v1
 id: gd8fzy1p6t1k
 name: Push notifications for muted conversations
-impact: minor
+impact: none
 systems:
     - 354mn7xfxz1h
 timeline:
@@ -13,4 +13,7 @@ timeline:
       investigating: true
     - ts: "2025-05-14 17:56:44"
       description: The team continues to investigate the mistaken push notifications and we are hoping to have this issue fully resolved later today.
+      investigating: true
+    - ts: "2025-05-15 05:19:44"
+      description: The issue is resolved
       investigating: true
