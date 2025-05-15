@@ -1,0 +1,10 @@
+version: incident/v1
+id: tmwwszxv00lv
+name: Elevated Latency and Error Rate in Dialogflow Agent Integration
+impact: minor
+systems:
+    - s91kksd3hqjp
+timeline:
+    - ts: "2025-05-15 17:13:49"
+      description: We are investigating a service degradation with Dialogflow agent integrations affecting the US1 Region, experiencing elevated error rates and latency when interacting with Dialogflow agents. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
