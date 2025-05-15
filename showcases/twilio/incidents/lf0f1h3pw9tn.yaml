@@ -1,6 +1,6 @@
 version: incident/v1
 id: lf0f1h3pw9tn
-name: On Call Engineers are Investigating an issue with SMS delivery report delays in Kazakstan
+name: SMS Delivery Report Delay to Beeline Network in Kazakhstan
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-05-15 21:18:17"
       description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-05-15 21:25:29"
+      description: We are experiencing delays in receiving message delivery reports to Beeline network in Kazakhstan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
