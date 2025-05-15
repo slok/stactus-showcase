@@ -7,3 +7,6 @@ timeline:
     - ts: "2025-05-15 12:41:34"
       description: We are currently investigating this issue.
       investigating: true
+    - ts: "2025-05-15 13:16:46"
+      description: We have disabled the Gemini 2.5 Pro model in Copilot Chat, VS Code and other Copilot products due to an issue with an upstream model provider.<br /><br />Users may still see these models as available for a brief period but we recommend switching to a different model. Other models are not impacted and are available.<br /><br />Once our model provider has resolved the issues impacting Gemini 2.5 Pro, we will re-enable it.
+      investigating: true
