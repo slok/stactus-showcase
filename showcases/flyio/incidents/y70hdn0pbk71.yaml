@@ -12,3 +12,6 @@ timeline:
     - ts: "2025-05-15 15:32:49"
       description: Machines API requests (including `fly deploy` or `fly machines` commands) may occasionally fail when trying to create/update machines in NRT or HKG regions. We are investigating.
       investigating: true
+    - ts: "2025-05-15 15:57:06"
+      description: This incident has been resolved.
+      resolved: true
