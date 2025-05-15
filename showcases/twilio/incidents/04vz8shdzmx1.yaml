@@ -1,0 +1,10 @@
+version: incident/v1
+id: 04vz8shdzmx1
+name: 'Indonesia Telkomsel API Errors - RegisterConsent "Server returned HTTP Response Code: 400 for URL"'
+impact: minor
+systems:
+    - 4rv9xfxmdjg9
+timeline:
+    - ts: "2025-05-15 16:45:32"
+      description: We are currently investigating an issue affecting the Indonesia Telkomsel API endpoint RegisterConsent, which is returning an HTTP 400 error. Our engineering team is actively working to identify the root cause and implement a solution. We will provide another update within 1 hour or as soon as more information becomes available.
+      investigating: true
