@@ -1,6 +1,6 @@
 version: incident/v1
 id: z32tfz208f9l
-name: SMS Delivery Delays to Telecall Network in Brazil
+name: SMS Delivery Delays and Failures to Telecall Network in Brazil
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -13,4 +13,7 @@ timeline:
       investigating: true
     - ts: "2025-05-16 01:11:40"
       description: We are experiencing SMS delivery delays when sending messages to Telecall network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-05-16 03:05:21"
+      description: We are experiencing SMS delivery delays and failures when sending messages to Telecall network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hour or as soon as more information becomes available.
       investigating: true
