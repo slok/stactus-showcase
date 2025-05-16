@@ -16,3 +16,6 @@ timeline:
     - ts: "2025-05-16 18:19:24"
       description: We have taken several steps to mitigate the incident impacting GitHub Enterprise Importer (GEI). We are seeing early indications of system recovery. However, customers may continue to experience longer migrations and extended queue times. The team is continuing to work on further mitigating efforts to speed up recovery.
       investigating: true
+    - ts: "2025-05-16 20:36:07"
+      description: We identified and stopped a stuck migration that was repeatedly restarting, contributing to system slowdowns, and are continuing to monitor and evaluate for others stuck migrations so we can fully recover.
+      investigating: true
