@@ -23,5 +23,5 @@ timeline:
       description: The issue preventing users from creating Personal Access Tokens (PATs) has been resolved. The root cause was identified and a change was reverted to restore functionality. PAT generation is now working as expected.
       investigating: true
     - ts: "2025-05-15 10:38:27"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 15, 2025, between 00:08 AM UTC and 10:21 AM UTC, customers were unable to create fine-grained Personal Access Tokens (PATs) on github.com. This incident was triggered by a recent code change to our front end that unintentionally affected the way certain pages loaded and prevented the PAT creation process from completing.<br /><br />We mitigated the incident by reverting the problematic change. To reduce the likelihood of similar issues in the future, we are improving our monitoring for page load anomalies and PAT creation failures and improving our safe deployment practices.
       resolved: true
