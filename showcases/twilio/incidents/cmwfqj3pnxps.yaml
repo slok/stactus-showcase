@@ -14,3 +14,6 @@ timeline:
     - ts: "2025-05-16 20:33:08"
       description: We are continuing to observe call failures to and from a subset of Twilio's numbers in Brazil . We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-05-16 22:27:09"
+      description: We have implemented a workaround that has restored calling from Twilio numbers to Brazil phone numbers for the subset of impacted numbers. At this time we are still seeing call failures for calls placed to the impacted Twilio numbers. We are continuing to work with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

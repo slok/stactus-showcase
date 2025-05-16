@@ -19,3 +19,6 @@ timeline:
     - ts: "2025-05-16 20:36:07"
       description: Investigations on the incident impacting GitHub Enterprise Importer continue. An additional contributing cause has been identified, and we are working to ship additional mitigating measures.
       investigating: true
+    - ts: "2025-05-16 22:33:28"
+      description: We have identified the source of increased load and have started mitigation. Customers using the GitHub Enterprise Importer may still see extended wait times until recovery completes.
+      investigating: true
