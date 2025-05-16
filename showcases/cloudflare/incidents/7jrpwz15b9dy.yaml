@@ -1,0 +1,14 @@
+version: incident/v1
+id: 7jrpwz15b9dy
+name: R2 Elevated Latency and Network Connection Lost Errors
+impact: none
+systems: []
+timeline:
+    - ts: "2025-05-16 23:10:11"
+      description: |-
+        Clients may have seen elevated latency and network connection errors when connecting to Cloudflare R2 between:
+
+        13:40-14:10 UTC & 18:05-20:30 UTC
+
+        This issue has since been resolved.
+      resolved: true
