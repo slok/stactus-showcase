@@ -22,3 +22,9 @@ timeline:
     - ts: "2025-05-16 22:33:28"
       description: We have identified the source of increased load and have started mitigation. Customers using the GitHub Enterprise Importer may still see extended wait times until recovery completes.
       investigating: true
+    - ts: "2025-05-17 02:26:40"
+      description: We continue to see signs of recovery for GitHub Enterprise Importer migrations. Queue depth is decreasing and migration duration is trending toward normal levels. We will continue to monitor improvements.
+      investigating: true
+    - ts: "2025-05-17 02:27:01"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
