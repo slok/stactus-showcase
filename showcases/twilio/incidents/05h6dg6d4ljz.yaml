@@ -1,0 +1,10 @@
+version: incident/v1
+id: 05h6dg6d4ljz
+name: SMS Delivery Delays to Algar Telecom CTBC in Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-05-17 17:56:29"
+      description: 'We are experiencing SMS delivery delays when sending messages to Algar Telecom CTBC in Brazil. This incident is related to a previous post: https://status.twilio.com/incidents/w2ylnhx02x21. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.'
+      investigating: true
