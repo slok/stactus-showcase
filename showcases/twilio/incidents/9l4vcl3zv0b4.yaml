@@ -1,0 +1,11 @@
+version: incident/v1
+id: 9l4vcl3zv0b4
+name: SMS Delivery Delays to TNM Network in Malawi
+impact: minor
+systems:
+    - llgdln3dcs6p
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-05-19 04:35:46"
+      description: We are experiencing SMS delivery delays when sending messages to TNM Network in Malawi. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
