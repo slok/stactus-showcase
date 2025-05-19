@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6qp5bdlszylg
+name: Cloudflare Realtime TURN Packet Loss
+impact: minor
+systems:
+    - 5s616lljfwdz
+timeline:
+    - ts: "2025-05-19 19:34:10"
+      description: Cloudflare is investigating packet loss associated with Cloudflare Realtime TURN service.
+      investigating: true
