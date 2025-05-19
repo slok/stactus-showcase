@@ -11,3 +11,5 @@ timeline:
     - ts: "2025-05-19 19:50:25"
       description: We continue to see delays in Atlas cluster creation, modification, and scheduled backup actions. These operations are completing but with delays. We continue to investigate the issue.
       investigating: true
+    - ts: "2025-05-19 21:34:04"
+      description: We have identified and mitigated the cause of the delays. System is returning to normal operations.
