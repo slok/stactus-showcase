@@ -1,10 +1,10 @@
 version: incident/v1
 id: 7h2w6yqk11tc
-name: SMS Delivery Delays and Failures to T-Mobile in Netherlands to a Subset of Longcodes
+name: SMS Delivery Delays and Failures to Multiple networks in Netherlands via  Subset of Longcodes
 impact: minor
 systems:
     - llgdln3dcs6p
 timeline:
     - ts: "2025-05-19 21:12:23"
-      description: We are experiencing SMS delivery failures to T-Mobile in Netherlands to a Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: We are experiencing SMS delivery failures to T-Mobile in Netherlands to Multiple Networks via a Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
