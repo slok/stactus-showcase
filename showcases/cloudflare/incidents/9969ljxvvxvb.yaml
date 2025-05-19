@@ -1,0 +1,12 @@
+version: incident/v1
+id: 9969ljxvvxvb
+name: 'Cloudflare Compliance documentation: Download issues'
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-05-19 09:46:43"
+      description: |-
+        Cloudflare is aware of and investigating an issue with our Compliance documentation which impacts multiple customers: an unexpected error is observed when attempting to download a Compliance document via our Dashboard.
+        Further detail will be provided as more information becomes available.
+      investigating: true
