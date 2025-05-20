@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2025-05-20 21:01:40"
       description: Authy API was down for 10 minutes, and our engineering team has identified and mitigated the issue. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2025-05-20 21:25:30"
+      description: Authy API was degraded for 10 minutes between 13:33 and 13:43 Pacific Time on 05/20/2025. During this period, customers may have experienced the Authy API being unavailable. The issue has now been resolved.
+      resolved: true
