@@ -1,0 +1,14 @@
+version: incident/v1
+id: bb79917qky72
+name: Issues with Phishing and Malware Block Pages
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-05-21 15:44:49"
+      description: |-
+        Cloudflare is aware of and investigating an issue with visitors not being able to bypass interstitial block pages for phishing and malware blocks.
+
+        This issue is not affecting regular Cloudflare WAF blocking pages nor firewall challenges.
+      investigating: true
+    - ts: "2025-05-21 15:47:18"
+      description: The issue has been identified and a fix is being implemented.
