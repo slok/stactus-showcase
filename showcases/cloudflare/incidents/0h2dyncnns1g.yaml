@@ -1,0 +1,16 @@
+version: incident/v1
+id: 0h2dyncnns1g
+name: Cloudflare Bot Management Dashboard issues
+impact: minor
+systems:
+    - s0991jwsqllx
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-05-21 09:53:50"
+      description: |-
+        Cloudflare is investigating issues with Bot Management in the Cloudflare Dashboard. Customers using the Bot Management settings in the dashboard are impacted as requests might display an infinite loading spinner.
+
+        These issues do not affect the Bot Management settings already deployed to the Cloudflare Edge.
+      investigating: true
+    - ts: "2025-05-21 09:54:39"
+      description: The issue has been identified and a fix is being implemented.
