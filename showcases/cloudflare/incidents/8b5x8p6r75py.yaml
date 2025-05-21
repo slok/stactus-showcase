@@ -1,0 +1,17 @@
+version: incident/v1
+id: 8b5x8p6r75py
+name: Issues with GraphQL Dashboard Analytics
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2025-05-21 12:14:30"
+      description: |-
+        Cloudflare is aware of and investigating an issue with GraphQL-based analytics in the Cloudflare Dashboard.
+
+        This issue is not impacting any end user traffic to zones.
+      investigating: true
+    - ts: "2025-05-21 12:14:50"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-05-21 12:17:40"
+      description: A fix has been implemented and we are monitoring the results.
