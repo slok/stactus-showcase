@@ -1,0 +1,12 @@
+version: incident/v1
+id: hq77wdlbggmn
+name: Instance failure
+impact: none
+systems: []
+timeline:
+    - ts: "2025-05-22 15:16:31"
+      description: 'We are experiencing an instance failure. This may affect resources that have the following pattern in their endpoint: c319'
+      investigating: true
+    - ts: "2025-05-22 15:21:05"
+      description: This incident has been resolved.
+      resolved: true
