@@ -13,3 +13,5 @@ timeline:
     - ts: "2025-05-22 18:37:36"
       description: The Fly Dashboard is also affected and may prevent certain dashboard functionality, like the support portal. If you're on a paid support plan, please submit tickets using your support email address in the meantime.
       investigating: true
+    - ts: "2025-05-22 19:01:28"
+      description: We identified an issue while migrating our production traffic, and have applied a fix to restore dashboard functionality. We're continuing to work on fully restoring the Machines API.
