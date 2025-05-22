@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2ch98sc024vv
+name: App Platform Deployments
+impact: minor
+systems:
+    - txysr8r0gn1n
+timeline:
+    - ts: "2025-05-22 08:35:55"
+      description: "As of 07:19 UTC, our Engineering team is currently investigating an issue causing delays in the creation of apps deployed via App Platform. During this time, some users may see app deployment failing to complete. \n\nWe are actively working on identifying the root cause of issues and will post further updates as more information is available. We apologize for the inconvenience."
+      investigating: true
