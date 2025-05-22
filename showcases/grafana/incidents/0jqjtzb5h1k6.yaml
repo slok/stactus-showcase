@@ -1,7 +1,7 @@
 version: incident/v1
 id: 0jqjtzb5h1k6
-name: Database issues
-impact: critical
+name: 'Grafana Cloud k6: service outage'
+impact: none
 systems:
     - 3gvy1n7fg4x4
     - m79yjv169r06
@@ -14,3 +14,12 @@ timeline:
     - ts: "2025-05-22 16:12:24"
       description: We have a database issue. We are investigating the cause of it.
       investigating: true
+    - ts: "2025-05-22 16:29:05"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-05-22 16:38:41"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-05-22 16:39:37"
+      description: This incident has been resolved.
+      resolved: true
