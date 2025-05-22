@@ -8,3 +8,11 @@ timeline:
     - ts: "2025-05-22 08:35:55"
       description: "As of 07:19 UTC, our Engineering team is currently investigating an issue causing delays in the creation of apps deployed via App Platform. During this time, some users may see app deployment failing to complete. \n\nWe are actively working on identifying the root cause of issues and will post further updates as more information is available. We apologize for the inconvenience."
       investigating: true
+    - ts: "2025-05-22 10:59:04"
+      description: |-
+        From 07:19 UTC to 08:15 UTC, users may have experienced errors with app deployment via App Platform.
+
+        Our Engineering team has now confirmed the resolution of the issue and app deployment should be working as expected.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true
