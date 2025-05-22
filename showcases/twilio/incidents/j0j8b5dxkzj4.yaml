@@ -1,8 +1,11 @@
 version: incident/v1
 id: j0j8b5dxkzj4
-name: Our Engineers are Investigating an Issue with Phone Numbers Provisioning
+name: 500 Errors for Twilio Phone Numbers Provisioning
 impact: none
 systems: []
 timeline:
     - ts: "2025-05-22 21:04:10"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with phone numbers provisioning. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-05-22 21:54:51"
+      description: Twilio phone numbers provisioning was degraded for 23 days, 8 hours, and 3 minutes between 2025-04-28 at 23:40:24 PDT and 2025-05-22 at 07:43:38 PDT. During this period of time, 18 Phone Numbers in our inventory were mistakenly made available for provisioning even if they couldn't be provisioned and for this reason some customers have experienced an HTTP 500 Server error. This incident has been resolved.
+      resolved: true
