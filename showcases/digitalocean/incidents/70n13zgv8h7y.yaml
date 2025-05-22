@@ -6,16 +6,6 @@ systems:
     - dkbfnt2ghbw4
     - mzkgffp35tq4
     - ctwhml01vvw1
-    - 5wjrpc0lf1qc
-    - 76vqxw3xnwh9
-    - fb63qt9f69m0
-    - 2vpzq3ytx996
-    - 9czvz44l7dp3
-    - 12w0d51pyjvh
-    - mrdxgk8b9l9m
-    - x94k17yvyvj7
-    - d28g0q5tjlnf
-    - qpfd9tcp5dp7
 timeline:
     - ts: "2025-05-22 14:59:39"
       description: |-
@@ -38,3 +28,6 @@ timeline:
         Our Engineering team has identified the reason behind the failed Droplet creates and implemented a fix to resolve the issue. Users should now be able to create Droplets and Droplet-based services, including Managed Kubernetes, Managed Databases, and Load Balancers without any issues. Users should no longer see any errors when resizing their existing Droplets from the API as well as the Cloud Panel.
 
         We are actively monitoring the situation and will post an update as soon as the issue is fully resolved.
+    - ts: "2025-05-22 19:23:46"
+      description: "Our Engineering has confirmed full resolution of the issue impacting Droplet creation in all regions. Users can now create Droplets and Droplet-based services, including Managed Kubernetes, Managed Databases, and Load Balancers without any issues. \n\nWe appreciate your patience while we worked to fix this issue. If you continue to experience any problems, please open a ticket from your account for further investigation."
+      resolved: true
