@@ -1,0 +1,22 @@
+version: incident/v1
+id: 70n13zgv8h7y
+name: Droplet Creation in Multiple Regions
+impact: minor
+systems:
+    - 5wjrpc0lf1qc
+    - 76vqxw3xnwh9
+    - fb63qt9f69m0
+    - 2vpzq3ytx996
+    - 9czvz44l7dp3
+    - 12w0d51pyjvh
+    - mrdxgk8b9l9m
+    - x94k17yvyvj7
+    - d28g0q5tjlnf
+    - qpfd9tcp5dp7
+timeline:
+    - ts: "2025-05-22 14:59:39"
+      description: |-
+        Our Engineering team is investigating an issue with Droplet creation in multiple regions. During this time, users may see an elevated failure rate for the creation of Droplets and other Droplet-based products, such as Load Balancers or Kubernetes in multiple regions.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
