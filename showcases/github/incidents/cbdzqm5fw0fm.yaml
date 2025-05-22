@@ -17,3 +17,9 @@ timeline:
     - ts: "2025-05-22 08:47:52"
       description: Our investigation continues. At this stage GitHub Actions Jobs are being executed, albeit with delays to the start of execution in some cases.
       investigating: true
+    - ts: "2025-05-22 09:17:47"
+      description: We've applied a mitigation which has resolved these delays.
+      investigating: true
+    - ts: "2025-05-22 09:17:56"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
