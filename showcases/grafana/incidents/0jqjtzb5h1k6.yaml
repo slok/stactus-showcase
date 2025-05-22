@@ -1,0 +1,16 @@
+version: incident/v1
+id: 0jqjtzb5h1k6
+name: Database issues
+impact: critical
+systems:
+    - 3gvy1n7fg4x4
+    - m79yjv169r06
+    - wbhrnd130mb0
+    - z9074fpyx6sb
+    - 236539c2nt69
+    - qwkkscbddtdw
+    - 8n34hh3y2yd0
+timeline:
+    - ts: "2025-05-22 16:12:24"
+      description: We have a database issue. We are investigating the cause of it.
+      investigating: true
