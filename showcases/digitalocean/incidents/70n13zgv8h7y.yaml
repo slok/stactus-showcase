@@ -16,7 +16,7 @@ systems:
 timeline:
     - ts: "2025-05-22 14:59:39"
       description: |-
-        Our Engineering team is investigating an issue with Droplet creation in multiple regions. During this time, users may see an elevated failure rate for the creation of Droplets and other Droplet-based products, such as Load Balancers or Kubernetes in multiple regions. Already running Droplets should not be affected, however, users might not be able to resize their Droplets during this time.
+        Our Engineering team is investigating an issue with Droplet creation in multiple regions. During this time, users may see an elevated failure rate for the creation of Droplets and other Droplet-based products, such as Load Balancers, Managed Databases, or Kubernetes in multiple regions. Already running Droplets should not be affected, however, users might not be able to resize their Droplets during this time.
 
         We apologize for the inconvenience and will share an update once we have more information.
       investigating: true
