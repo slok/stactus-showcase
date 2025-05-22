@@ -6,3 +6,6 @@ systems: []
 timeline:
     - ts: "2025-05-22 21:36:50"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with the Twilio Programmable Messaging API. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-05-22 22:08:14"
+      description: The Twilio Programmable Messaging API was partially degraded for 2 minutes on 05/22/2025 between 14:00:40 PST and 14:01:30 PST. During this period of time, customers sending a message may have received elevated volumes of 5xx's in API responses. This issue has now been resolved.
+      resolved: true
