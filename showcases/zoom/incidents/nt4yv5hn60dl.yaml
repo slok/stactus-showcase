@@ -1,0 +1,11 @@
+version: incident/v1
+id: nt4yv5hn60dl
+name: Service degradation in China region
+impact: minor
+systems:
+    - 3z7b6jks10hm
+    - rv3g5jwy5cdn
+timeline:
+    - ts: "2025-05-23 20:11:22"
+      description: We are investigating an issue impacting services in China region. We will provide updates as we have them.
+      investigating: true
