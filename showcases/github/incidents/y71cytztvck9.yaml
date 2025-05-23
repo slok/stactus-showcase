@@ -2,8 +2,18 @@ version: incident/v1
 id: y71cytztvck9
 name: Disruption with some GitHub services
 impact: minor
-systems: []
+systems:
+    - brv1bkgrwx7q
 timeline:
     - ts: "2025-05-23 18:21:22"
       description: We are currently investigating this issue.
       investigating: true
+    - ts: "2025-05-23 18:26:50"
+      description: API Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-05-23 18:33:32"
+      description: API Requests is operating normally.
+      investigating: true
+    - ts: "2025-05-23 18:33:40"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
