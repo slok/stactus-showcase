@@ -22,3 +22,9 @@ timeline:
       investigating: true
     - ts: "2025-05-23 00:28:40"
       description: "Our Engineering team has taken steps to mitigate the impact on the Managed Databases control plane that was causing delays in API calls, resulting in create and deploy errors for users. \n\nAt this time, services remain stable and users can create or deploy applications normally. \n\nWe will monitor the environment for an extended period to ensure full function continues. We will post another update by 14:00 UTC today, May 23 or as soon as we have any further information. \n\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience"
+    - ts: "2025-05-23 02:11:58"
+      description: |-
+        Our Engineering team has confirmed full resolution of the issue on the Managed Databases control plane. Users can continue to create and deploy applications without any issue.
+
+        We appreciate your patience. If you continue to experience any problems, please open a ticket from your account for further investigation.
+      resolved: true
