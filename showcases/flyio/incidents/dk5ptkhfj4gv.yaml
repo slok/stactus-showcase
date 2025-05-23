@@ -1,0 +1,13 @@
+version: incident/v1
+id: dk5ptkhfj4gv
+name: WireGuard gateway issues
+impact: none
+systems: []
+timeline:
+    - ts: "2025-05-23 11:34:21"
+      description: |-
+        We are investigating issues with WireGuard over websockets (the default connection mode in flyctl).
+        `flyctl ssh`, `flyctl proxy`, `flyctl logs` commands as well as others may fail.
+
+        If you are on a network that allows UDP connections, running `fly wg websockets disable` may fix the issue as a workaround.
+      investigating: true
