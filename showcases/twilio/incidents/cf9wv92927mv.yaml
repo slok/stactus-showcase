@@ -3,8 +3,16 @@ id: cf9wv92927mv
 name: AccSec US and Canada API Issue
 impact: minor
 systems:
-    - 4rv9xfxmdjg9
+    - trrz5ztt7pl8
+    - fsxs9n9yf4m7
+    - t4bxfcg2ppvb
+    - cfy5cxrly95b
+    - q0hp6vfr4vvh
+    - qt4vzyg2g7b4
 timeline:
     - ts: "2025-05-23 06:07:58"
       description: Our monitoring systems have detected a potential issue with AccSec - US and Canada API Errors. Our engineering team has been alerted and is actively investigating. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-05-23 06:13:01"
+      description: We are continuing to investigate this issue.
       investigating: true
