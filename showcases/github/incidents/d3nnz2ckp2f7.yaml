@@ -15,5 +15,5 @@ timeline:
       description: Copilot is operating normally.
       investigating: true
     - ts: "2025-05-20 20:02:01"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 20, 2025, between 18:18 UTC and 19:53 UTC, Copilot Code Completions were degraded in the Americas. On average the error rate was 50% of requests to the service in the affected region. This was due to a misconfiguration in load distribution parameters after a scale down operation.<br /><br />We mitigated the incident by addressing the misconfiguration.<br /><br />We are working to improve our automated failover and load balancing mechanisms to reduce our time to detection and mitigation of issues like this one in the future.
       resolved: true
