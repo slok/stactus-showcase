@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3txrr2mj3td6
+name: SMS Delivery Delays and Failures to Telenet BidCo NV Network in Belgium via a Subset of Longcodes
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-05-23 13:56:08"
+      description: We are experiencing SMS delivery delays and failures when sending messages to Telenet BidCo NV network in Belgium via a subset of Long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
