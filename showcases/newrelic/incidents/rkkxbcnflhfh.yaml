@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2025-05-24 06:09:04"
       description: Some customers in the US region may be experiencing delayed APM data in dashboards.
+    - ts: "2025-05-24 07:11:46"
+      description: Starting 04:35 May 24 UTC some customers in the US region may experience delayed APM data in dashboards. We have reduced the latency at this point and are investigating further.
+      investigating: true
