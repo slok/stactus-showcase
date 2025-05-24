@@ -1,0 +1,9 @@
+version: incident/v1
+id: rkkxbcnflhfh
+name: APM Dashboards lag in US region, no impact to alerts
+impact: minor
+systems:
+    - 2vkckmpm1kh6
+timeline:
+    - ts: "2025-05-24 06:09:04"
+      description: Some customers in the US region may be experiencing delayed APM data in dashboards.
