@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5s7bq1y466r4
+name: SMS Delivery Failures to Syriatel Network in Syria
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-05-24 18:03:04"
+      description: We are experiencing SMS delivery failures when sending messages to Syriatel Network in Syria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
