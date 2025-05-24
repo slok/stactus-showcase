@@ -1,0 +1,10 @@
+version: incident/v1
+id: clrxr7b9t361
+name: SMS Delivery Failure to KPN Network in Netherlands
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-05-24 19:20:11"
+      description: We are experiencing SMS delivery failures sending to KPN Network in Netherlands. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
