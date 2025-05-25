@@ -12,3 +12,6 @@ timeline:
       description: Beginning at 01:00 May 25 UTC some customers in the US region may be experiencing delayed APM data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data. To prevent our customers from receiving a high volume of false positive alert notifications, we have temporarily suppressed notifications for affected data.
     - ts: "2025-05-25 02:19:28"
       description: Beginning at 01:00 May 25 UTC some customers in the US region may be experiencing delayed APM data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data. We have reduced the latency at this point and are investigating further.  To prevent our customers from receiving a high volume of false positive alert notifications, we have temporarily suppressed notifications for affected data.
+    - ts: "2025-05-25 03:00:55"
+      description: Beginning at 01:00 and 02:58 May 25 UTC, some customers in the US region may have experienced delayed APM data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data. We suppressed alerts from 01:32 to 02:58 May 25 UTC.  We have resolved this interruption and impacted services have returned to normal operations.
+      resolved: true
