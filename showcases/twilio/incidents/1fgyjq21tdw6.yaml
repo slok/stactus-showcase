@@ -1,9 +1,11 @@
 version: incident/v1
 id: 1fgyjq21tdw6
-name: Conversational Intelligence Console
+name: Conversational Voice Intelligence Console
 impact: minor
 systems:
-    - 2vs63pk0qq23
+    - qphgn531prd5
 timeline:
     - ts: "2025-05-26 17:43:41"
-      description: Our engineers have identified the issue it is only possible to create en-US Language Conversational Intelligence Services via Console and are working to deploy a fix. Current workaround is to use the Twilio API for other Languages. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: Our engineers have identified the issue it is only possible to create en-US Language Conversational Voice Intelligence Services via Console and are working to deploy a fix. Current workaround is to use the Twilio API for other Languages. We expect to provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2025-05-26 17:49:12"
+      description: We are continuing to work on a fix for this issue.
