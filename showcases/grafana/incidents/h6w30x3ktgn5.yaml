@@ -1,0 +1,11 @@
+version: incident/v1
+id: h6w30x3ktgn5
+name: Issues with Hosted Grafana in some Regions.
+impact: major
+systems:
+    - 6wgslg1s3bzr
+    - qqj6ssvvsqmq
+timeline:
+    - ts: "2025-05-27 13:47:14"
+      description: We are currently investigating an issue occurring in the prod-eu-west-2 and prod-us-central-0 regions. Some users may be experiencing availability issues in these regions. Our team is actively working towards a resolution for this issue.
+      investigating: true
