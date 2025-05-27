@@ -8,3 +8,7 @@ timeline:
     - ts: "2025-05-27 15:13:12"
       description: Cloudflare engineering is investigating an issue preventing users from creating new tunnel public hostname routes in the Dashboard. As a workaround, tunnel public hostname routes can be created via the API. Existing tunnels and their corresponding public hostname routes are not affected.
       investigating: true
+    - ts: "2025-05-27 15:28:16"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-05-27 15:28:22"
+      description: A fix has been implemented and we are monitoring the results.
