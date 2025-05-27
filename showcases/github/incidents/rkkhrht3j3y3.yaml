@@ -24,5 +24,5 @@ timeline:
       description: Copilot is operating normally.
       investigating: true
     - ts: "2025-05-20 16:08:36"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 20, 2025, between 12:09 PM UTC and 4:07 PM UTC, the GitHub Copilot service experienced degraded availability, specifically for the Claude Sonnet 3.7 model. During this period, the success rate for Claude Sonnet 3.7 requests was highly variable, down to approximately 94% during the most severe spikes. Other models remained available and working as expected throughout the incident.<br />The issue was caused by capacity constraints in our model processing infrastructure that affected our ability to handle the large volume of Claude Sonnet 3.7 requests.<br />We mitigated the incident by rebalancing traffic across our infrastructure, adjusting rate limits, and working with our infrastructure teams to resolve the underlying capacity issues. We are working to improve our infrastructure redundancy and implementing more robust monitoring to reduce detection and mitigation time for similar incidents in the future.
       resolved: true

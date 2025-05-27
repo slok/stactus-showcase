@@ -21,5 +21,5 @@ timeline:
       description: We've applied a mitigation which has resolved these delays.
       investigating: true
     - ts: "2025-05-22 09:17:56"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 22, 2025, between 07:06 UTC and 09:10 UTC, the Actions service experienced degradation, leading to run start delays. During the incident, about 11% of all workflow runs were delayed by an average of 44 minutes. A recently deployed change contained a defect that caused improper request routing between internal services, resulting in security rejections at the receiving endpoint. We resolved this by reverting the problematic change and are implementing enhanced testing procedures to catch similar issues before they reach production environments.
       resolved: true
