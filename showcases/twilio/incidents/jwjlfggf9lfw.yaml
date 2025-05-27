@@ -1,0 +1,9 @@
+version: incident/v1
+id: jwjlfggf9lfw
+name: Affected Twilio Programmable Messaging API, Voice, Flex and Accsec Products
+impact: none
+systems: []
+timeline:
+    - ts: "2025-05-27 16:47:27"
+      description: The Twilio Programmable Messaging API, Voice, Flex and Accsec were partially degraded for 1 minute on May 27, 2025 between 05:45 PST and 05:46 PST. During this period of time, customers may have received elevated volumes of 5xx's in API responses. This issue has now been resolved.
+      resolved: true
