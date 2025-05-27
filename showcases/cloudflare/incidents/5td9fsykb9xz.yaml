@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5td9fsykb9xz
+name: 'Cloudflare WARP: Issues in processing device revocations'
+impact: minor
+systems:
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2025-05-27 13:09:33"
+      description: 'Cloudflare is investigating issues with WARP: Customers may experience processing delays when attempting to remove devices. We are working to understand the full impact and mitigate this problem.  More updates to follow shortly.'
+      investigating: true
