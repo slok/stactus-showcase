@@ -1,0 +1,10 @@
+version: incident/v1
+id: b8p1gcgtypfv
+name: Unable to create Tunnel Public Hostname routes in the Zero Trust dashboard
+impact: minor
+systems:
+    - 276xk3r83js7
+timeline:
+    - ts: "2025-05-27 15:13:12"
+      description: Cloudflare engineering is investigating an issue preventing users from creating new tunnel public hostname routes in the Dashboard. As a workaround, tunnel public hostname routes can be created via the API. Existing tunnels and their corresponding public hostname routes are not affected.
+      investigating: true
