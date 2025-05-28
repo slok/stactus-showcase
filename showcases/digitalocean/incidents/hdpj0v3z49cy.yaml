@@ -1,0 +1,10 @@
+version: incident/v1
+id: hdpj0v3z49cy
+name: Cloud UI not loading
+impact: none
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2025-05-28 22:10:23"
+      description: "From May 28 2025 20:13 UTC to 20:24 UTC, users may have experienced issues accessing the Cloud Control Panel. Specifically, users attempting to access the Projects, Load Balancers, Networking, and Droplet pages may have seen no content or a blank page. \n\nThis incident did not impact the DigitalOcean API or the functionality of any existing resources. \n\nOur Engineering team was able to fully resolve the issue and as of 20:24 UTC, the Cloud Control Panel is functioning normally. \n\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience."
+      resolved: true
