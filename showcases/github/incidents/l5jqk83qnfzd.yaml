@@ -1,9 +1,12 @@
 version: incident/v1
 id: l5jqk83qnfzd
 name: Disruption with some GitHub services
-impact: minor
+impact: major
 systems: []
 timeline:
     - ts: "2025-05-28 11:11:15"
       description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-05-28 11:42:47"
+      description: Actions is experiencing high wait times for obtaining standard hosted runners for ubuntu 24. Other hosted labels and self-hosted runners are not impacted.
       investigating: true
