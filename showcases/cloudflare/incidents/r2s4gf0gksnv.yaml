@@ -1,0 +1,9 @@
+version: incident/v1
+id: r2s4gf0gksnv
+name: DNS Change Delays
+impact: none
+systems: []
+timeline:
+    - ts: "2025-05-28 17:21:55"
+      description: Cloudflare experienced a brief delay in propagation of updates to DNS records between 16:25 and 16:40 UTC.
+      resolved: true

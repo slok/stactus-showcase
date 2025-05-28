@@ -1,0 +1,13 @@
+version: incident/v1
+id: t2bmz821sqpm
+name: Errors viewing image posts on mobile clients
+impact: major
+systems:
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2025-05-28 17:07:19"
+      description: We are investigating reports that users are receiving errors when viewing image posts on mobile clients.
+      investigating: true
+    - ts: "2025-05-28 17:07:33"
+      description: We are continuing to investigate this issue.
+      investigating: true

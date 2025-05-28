@@ -15,5 +15,5 @@ timeline:
       description: API Requests is operating normally.
       investigating: true
     - ts: "2025-05-23 18:33:40"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 23, 2025, between 17:40 UTC and 18:30 UTC public API and UI requests to read and write Git repository content were degraded and triggered user-facing 500 responses. On average, the error rate was 61% and peaked at 88% of requests to the service. This was due to the introduction of an uncaught fatal error in an internal service. A manual rollback was required which increased the time to remediate the incident.<br /><br />We are working to automatically detect and revert a change based on alerting to reduce our time to detection and mitigation. In addition, we are adding relevant test coverage to prevent errors of this type getting to production.
       resolved: true
