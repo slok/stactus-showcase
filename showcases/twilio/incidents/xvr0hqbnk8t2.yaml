@@ -1,0 +1,12 @@
+version: incident/v1
+id: xvr0hqbnk8t2
+name: Caller name package returning intermittent 400s responses in Lookup V1
+impact: minor
+systems:
+    - xk8z50jy8hcs
+timeline:
+    - ts: "2025-05-28 03:16:07"
+      description: An issue causing intermittent 400s error responses in Lookup API V1 for caller name package has been identified. We are actively working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2025-05-28 03:21:46"
+      description: The issue affecting intermittent 400s error responses in Lookup API V1 for caller name package has been resolved and the service is functioning normally at this time.
+      resolved: true
