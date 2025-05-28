@@ -1,9 +1,24 @@
 version: incident/v1
 id: htkfxhz3cqf4
-name: Subset of Call, Video, and Conference Quality Failures
+name: Subset of Call, Video, and Conference Quality Failures in BR1
 impact: minor
-systems: []
+systems:
+    - q015c7mrst1s
+    - l2p2s96tdsf4
+    - jncbcddlmbhn
+    - by1b8ylwwgs6
 timeline:
     - ts: "2025-05-28 14:19:20"
       description: Our monitoring systems have detected a potential issue AWS US East packet loss. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-05-28 14:41:04"
+      description: We are observing a subset of call, video conferences quality failures to br1 region. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-05-28 14:41:52"
+      description: We are observing a subset of call, video conferences quality failures to br1 region. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-05-28 14:43:42"
+      description: We are observing a subset of call, video conferences quality failures to br1 region. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-05-28 14:46:34"
+      description: We have started seeing recovery for a subset of call, video conferences quality failures to br1 region. We will continue to monitor to ensure a full recovery. We expect to provide another update in 30 minutes or as soon as more information becomes available.
