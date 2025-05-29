@@ -1,0 +1,11 @@
+version: incident/v1
+id: 8tvxbsn86jsk
+name: Issue With Authy REST API Requests
+impact: none
+systems: []
+timeline:
+    - ts: "2025-05-29 11:49:44"
+      description: Our engineers are currently investigating the customer impact of a retroactive issue with Authy. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-05-29 11:56:21"
+      description: Authy REST API was degraded for 24 hours and 40 minutes between May 27, 2025, 09:00:00 PDT – May 28, 2025, 09:40:00 PDT. During this period of time few customers may have received 403 responses, a very minor percentage of traffic ~0.0078% was affected during this duration. The issue has now been resolved.
+      resolved: true
