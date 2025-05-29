@@ -24,5 +24,5 @@ timeline:
       description: We are continuing to monitor the affected Actions runners to ensure a smooth recovery.
       investigating: true
     - ts: "2025-05-28 14:43:08"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 28, 2025, from approximately 09:45 UTC to 14:45 UTC, GitHub Actions experienced delayed job starts for workflows in public repos using Ubuntu-24 standard hosted runners. This was caused by a misconfiguration in backend caching behavior after a failover, which led to duplicate job assignments and reduced available capacity. Approximately 19.7% of Ubuntu-24 hosted runner jobs on public repos were delayed.  Other hosted runners, self-hosted runners, and private repo workflows were unaffected.<br /><br />By 12:45 UTC, we mitigated the issue by redeploying backend components to reset state and scaling up available resources to more quickly work through the backlog of queued jobs. We are working to improve our deployment and failover resiliency and validation to reduce the likelihood of similar issues in the future.
       resolved: true
