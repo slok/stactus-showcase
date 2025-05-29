@@ -15,5 +15,5 @@ timeline:
       description: Mitigation is applied and we’re seeing signs of recovery. We’re monitoring the situation until the mitigation is applied to all affected repositories.
       investigating: true
     - ts: "2025-05-27 13:31:59"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 27, 2025, between 09:31 UTC and 13:31 UTC, some Actions jobs experienced failures uploading to and downloading from the Actions Cache service. During the incident, 6% of all workflow runs couldn’t upload or download cache entries from the service, resulting in a non-blocking warning message in the logs and performance degradation. The disruption was caused by an infrastructure update related to the retirement of a legacy service, which unintentionally impacted Cache service availability. We resolved the incident by reverting the change and have since implemented a permanent fix to prevent recurrence.<br /><br />We are improving our configuration change processes by introducing additional end-to-end tests to cover the identified gaps, and implementing deployment pipeline improvements to reduce mitigation time for similar issues in the future.
       resolved: true
