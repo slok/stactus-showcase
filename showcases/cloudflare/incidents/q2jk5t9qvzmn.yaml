@@ -1,0 +1,9 @@
+version: incident/v1
+id: q2jk5t9qvzmn
+name: Increased Error Response Rate in R2 Storage Service
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2025-05-29 17:14:34"
+      description: Clients using Cloudflare's R2 Storage service in Europe may experience elevated error response rates on write operations. Impacted customers would see HTTP 429 responses on affected operations. We have identified the issue and are implementing mitigations.
