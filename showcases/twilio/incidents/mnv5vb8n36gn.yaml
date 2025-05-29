@@ -1,0 +1,10 @@
+version: incident/v1
+id: mnv5vb8n36gn
+name: Delays Processing Transcription Requests from Conversation Relay Customers With Pii Redaction Enabled
+impact: minor
+systems:
+    - jdtgrvyw6w5z
+timeline:
+    - ts: "2025-05-29 17:00:52"
+      description: We are investigating an issue creating a delay in processing transcription request from ConversationRelay customers with PII Redaction enabled. Our Engineers are actively working on the issue. We will provide an update in 2 hours or whenever we get an update.
+      investigating: true
