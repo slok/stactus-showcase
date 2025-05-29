@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-05-29 00:52:48"
       description: We've received a flood of networking related alerts from a subset of servers running in LHR. We are not yet sure of the impact on customer workloads.
       investigating: true
+    - ts: "2025-05-29 00:56:41"
+      description: Alerts appear to be related to a network blip caused by an upstream provider's router failover, with no ongoing disruption.
