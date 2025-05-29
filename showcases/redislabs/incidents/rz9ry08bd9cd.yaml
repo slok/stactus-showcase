@@ -1,0 +1,14 @@
+version: incident/v1
+id: rz9ry08bd9cd
+name: Redis Cloud - temporary connectivity issues to Admin console
+impact: minor
+systems:
+    - nn6rqzz85xg5
+    - jp7zzppvbk0x
+timeline:
+    - ts: "2025-05-29 05:46:31"
+      description: |-
+        We’re currently investigating issues with connecting to Redis Cloud admin console (cloud.redis.io).
+        We will provide an update shortly.
+        Your database’s connectivity is not affected.
+      investigating: true
