@@ -7,3 +7,8 @@ systems:
 timeline:
     - ts: "2025-05-29 17:14:34"
       description: Clients using Cloudflare's R2 Storage service in Europe may experience elevated error response rates on write operations. Impacted customers would see HTTP 429 responses on affected operations. We have identified the issue and are implementing mitigations.
+    - ts: "2025-05-29 17:50:09"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-05-29 17:54:19"
+      description: This incident has been resolved.
+      resolved: true
