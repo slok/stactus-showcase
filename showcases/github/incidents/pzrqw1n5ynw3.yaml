@@ -17,5 +17,5 @@ timeline:
       description: The issues with our upstream model provider have been resolved, and Gemini 2.5 Pro is available again in Copilot Chat, VS Code, and other Copilot products.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.
       investigating: true
     - ts: "2025-05-15 22:58:05"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between May 15, 2025 10:10 UTC and May 15, 2025 22:58 UTC the Copilot service was degraded and returned a high volume of internal server errors for requests targeting Gemini 2.5 Pro, a public preview model. This was due to a high volume of rate limiting by the upstream model provider, similar in volume to the internal server errors during the previous day.<br /><br />We mitigated the incident by temporarily disabling Gemini 2.5 Pro for all Copilot Chat experiences, and then worked with the model provider to ensure model health was sufficiently improved before re-enabling.<br /><br />We are working with the model provider to move to more resilient infrastructure to mitigate issues like this one in the future.
       resolved: true
