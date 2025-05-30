@@ -1,0 +1,10 @@
+version: incident/v1
+id: 0sqmkbw9lmns
+name: High Latency in Lookup API - V1
+impact: minor
+systems:
+    - qt4vzyg2g7b4
+timeline:
+    - ts: "2025-05-30 04:38:50"
+      description: An issue causing an increase in latency for Lookup API V1 has been identified. We are actively working to resolve the issue.
+      investigating: true
