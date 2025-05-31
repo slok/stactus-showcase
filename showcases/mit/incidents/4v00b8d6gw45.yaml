@@ -1,0 +1,11 @@
+version: incident/v1
+id: 4v00b8d6gw45
+name: reports.mit.edu (cognos services) currently down
+impact: none
+systems:
+    - dpdsycjtknlz
+    - 21mphp99021l
+timeline:
+    - ts: "2025-05-31 15:15:53"
+      description: An AWS hypervisor failure is currently disrupting the cognos service at reports.mit.edu. We currently do not have an ETA for when service will be restored. Thank you for your patience.
+      investigating: true
