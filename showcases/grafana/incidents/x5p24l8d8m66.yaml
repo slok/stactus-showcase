@@ -1,0 +1,11 @@
+version: incident/v1
+id: x5p24l8d8m66
+name: Elevated latency in prod-us-east-0 cluster.
+impact: minor
+systems:
+    - 5270kl9kd6l2
+    - zqsjp5p0d8n7
+timeline:
+    - ts: "2025-06-02 14:56:06"
+      description: We're observing an elevated latency in prod-us-east-0 cluster for Hosted Metrics service. We're currently investigating the issue.
+      investigating: true
