@@ -1,0 +1,10 @@
+version: incident/v1
+id: gfnbhydrjfr3
+name: Push errors and elevated latency in prod-us-central-0 cluster.
+impact: major
+systems:
+    - 1tt4gx4t4q87
+timeline:
+    - ts: "2025-06-02 14:20:48"
+      description: We're observing push errors and elevated  latency in prod-us-central-0 cluster affecting the write path performance. We're investigating the issue currently and will post updates accordingly.
+      investigating: true
