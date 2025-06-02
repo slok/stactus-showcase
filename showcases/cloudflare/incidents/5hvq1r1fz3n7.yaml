@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5hvq1r1fz3n7
+name: DNS Update Delays
+impact: minor
+systems:
+    - 7j656z7tqk7f
+timeline:
+    - ts: "2025-06-02 14:49:19"
+      description: Cloudflare is investigating delays in propagation of updates to DNS records. More updates to follow shortly.
+      investigating: true
