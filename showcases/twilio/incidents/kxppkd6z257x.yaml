@@ -1,10 +1,13 @@
 version: incident/v1
 id: kxppkd6z257x
-name: On Call Engineers are Investigating an issue
+name: Increased Latency and Errors in DialogFlow
 impact: minor
 systems:
     - s91kksd3hqjp
 timeline:
     - ts: "2025-06-02 07:53:09"
       description: Our monitoring systems have detected a potential issue with DialogFlow. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-06-02 08:17:55"
+      description: We are investigating intermittent increased latency and errors which may result in dropped virtual agent sessions or slow responses with DialogFlow. We expect to provide another update in 1 hour or as soon as more information becomes available
       investigating: true
