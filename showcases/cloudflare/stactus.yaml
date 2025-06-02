@@ -350,8 +350,6 @@ systems:
       name: Latin America & the Caribbean / Joinville, Brazil - (JOI)
     - id: h2p0jj4ltvcq
       name: Cloudflare Sites and Services / Cloud Access Security Broker (CASB)
-    - id: vyjztj74r5pc
-      name: Oceania / Auckland, New Zealand - (AKL)
     - id: mvbjk0vw3krv
       name: North America / Miami, FL, United States - (MIA)
     - id: qshn45g5q59m
@@ -435,8 +433,6 @@ systems:
       description: Custom Error and Challenge Pages
     - id: nxdg2bbkf525
       name: Africa / Abidjan, Ivory Coast - (ABJ)
-    - id: 2j89jmmdv3jq
-      name: Oceania / Perth, Australia - (PER)
     - id: k8q1kmz4gfms
       name: Europe / Milan, Italy - (MXP)
     - id: lqkq4v678h03
@@ -776,8 +772,6 @@ systems:
       name: North America / Tampa, United States - (TPA)
     - id: dzwlmtrtvjn5
       name: Latin America & the Caribbean / Port of Spain, Trinidad and Tobago - (POS)
-    - id: m32m9wq30t2x
-      name: Europe / Vilnius, Lithuania - (VNO)
     - id: 9txwnlv64537
       name: Africa / Mombasa, Kenya - (MBA)
     - id: 5xvn0m7tthlf
@@ -818,8 +812,6 @@ systems:
       description: Distributed service for randomness - https://developers.cloudflare.com/randomness-beacon/
     - id: c11j1dyzn0j4
       name: Latin America & the Caribbean / Neuquen, Argentina - (NQN)
-    - id: bv7cp6mgb6pl
-      name: Africa / Dakar, Senegal - (DKR)
     - id: 84ynm0c8bkm4
       name: Asia / Xinyu, China - (KHN)
     - id: z4wlt5jx9szq
@@ -859,15 +851,9 @@ systems:
     - id: q2w4kkkzw5gs
       name: Cloudflare Sites and Services / Secondary DNS
       description: Secondary DNS capabilities allow for incoming as well as outgoing zone transfers between Cloudflare and other DNS providers.
-    - id: lc7pqx6nlmt0
-      name: North America / San Francisco, United States - (SFO)
     - id: 18qkc83zzmxb
       name: Cloudflare Sites and Services / Security Center
       description: Cloudflare Security Center brings together our suite of security products, our security expertise, and unique Internet intelligence as a unified security intelligence solution to strengthen your security posture.
-    - id: clf2w05k2gx8
-      name: Europe / Vienna, Austria - (VIE)
-    - id: dbmm3jb322q5
-      name: Africa / Annaba, Algeria - (AAE)
     - id: xdx76vxqbqgn
       name: Asia / Zhongshan, China - (ZGN)
     - id: 570kfpd0dgg7
@@ -875,15 +861,11 @@ systems:
       description: Cloudflare Snippets provide a flexible way to customize the behavior of your website or application using short pieces of JavaScript code. Use snippets to customize HTTP response headers, implement JWT validation, define complex redirect functionality, and more.
     - id: y1hwrbmkgw5p
       name: Latin America & the Caribbean / Goiania, Brazil - (GYN)
-    - id: f5fxydysqz43
-      name: Africa / Windhoek, Namibia - (WDH)
     - id: 6dd6ssg7plt0
       name: Cloudflare Sites and Services / Spectrum
       description: Spectrum allows you to route MQTT, email, file transfer, version control, games, and more over TCP or UDP through Cloudflare to mask the origin and protect it from DDoS attacks
     - id: wyq8p07mvlkf
       name: Asia / Cagayan de Oro, Philippines - (CGY)
-    - id: 5ykfjv1b8vxk
-      name: Africa / Ouagadougou, Burkina Faso - (OUA)
     - id: fcx388ss9k9x
       name: Cloudflare Sites and Services / Speed Optimizations
       description: Cloudflare products that are recommended for enhancing your website’s performance like AMP, APO (Automatic Platform Optimization), Auto Minify, Fonts, Rocket Loader, and SXGs.
@@ -902,13 +884,9 @@ systems:
     - id: 9p2qlpt19nqb
       name: Cloudflare Sites and Services / SSL for SaaS Provisioning
       description: Certificate provisioning service for custom hostnames on the edge
-    - id: 01xwgphw13y7
-      name: Africa / Tunis, Tunisia - (TUN)
     - id: 8m7bb706rh1c
       name: Cloudflare Sites and Services / Subscriptions
       description: Changes to subscriptions or placing new orders for service
-    - id: 967kwh1hwrds
-      name: Africa / Cairo, Egypt - (CAI)
     - id: jzcwkvrc4w4q
       name: Cloudflare Sites and Services / Support Site
       description: Knowledge base and support ticket portal at https://support.cloudflare.com
@@ -957,12 +935,8 @@ systems:
     - id: 9c7cbxnhk1dq
       name: Cloudflare Sites and Services / Waiting Room
       description: Cloudflare Waiting Room protects websites by queueing site visitors when a website experiences unmanageable surges in legitimate traffic that may otherwise bring an application down.
-    - id: rg1nxtphg8db
-      name: Africa / Windhoek, Namibia - (WDH)
     - id: k04jkcpzxn94
       name: Cloudflare Sites and Services / WARP
-    - id: shslgpjwcb4j
-      name: Africa / Cairo, Egypt - (CAI)
     - id: qt59p3cr1grx
       name: Cloudflare Sites and Services / Web Analytics
       description: Cloudflare Web Analytics provides free, privacy-first analytics for your website without changing your DNS or using Cloudflare’s proxy. Cloudflare Web Analytics helps you understand the performance of your web pages as experienced by your site visitors.
@@ -985,8 +959,6 @@ systems:
     - id: zvm7mqn92xzc
       name: Cloudflare Sites and Services / Workers AI
       description: Workers AI allows you to run machine learning models, on the Cloudflare network, from your own code – whether that be from Workers, Pages, or anywhere via REST API.
-    - id: ks89z11kgtrr
-      name: Africa / Port Louis, Mauritius - (MRU)
     - id: vcpsk0w6g86k
       name: Cloudflare Sites and Services / Workers Builds
       description: Workers Builds is Cloudflare's native CI/CD system that allows you to integrate with GitHub or GitLab to automatically deploy changes with each new push to a selected branch (e.g. main).
@@ -1018,139 +990,83 @@ systems:
       description: Workflows is Cloudflare Durable Execution engine, that give the ability to build and execute applications that are durable in the face of errors, network issues, upstream API outages, rate limits, and (most importantly) infrastructure failure.
     - id: 7g58rb9tl036
       name: Latin America & the Caribbean / San Pedro Sula, Honduras - (SAP)
-    - id: f6fgsddvgnyh
-      name: Europe / Zagreb, Croatia - (ZAG)
-    - id: m16621lgv7hh
-      name: Africa / Kinshasa, DR Congo - (FIH)
     - id: q1h7j6g2jcjw
       name: Cloudflare Sites and Services / Wrangler
       description: Wrangler is the Cloudflare Developer Platform command-line interface (CLI) that allows you to manage Worker projects.
-    - id: 2557twn6rkh7
-      name: Latin America & the Caribbean / Vitoria, Brazil - (VIX)
     - id: r1csj8zxyp97
       name: Europe / Vienna, Austria - (VIE)
-    - id: clswllnjjkgb
-      name: Africa / Durban, South Africa - (DUR)
     - id: qgt2kv10g1yn
       name: Cloudflare Sites and Services / Zaraz
-    - id: dfmwd90qys4q
-      name: Europe / Berlin, Germany - (TXL)
-    - id: 7zq967yhr87t
-      name: Africa / Dakar, Senegal - (DKR)
     - id: kf0ktv29xrfy
       name: Cloudflare Sites and Services / Zero Trust
     - id: 2xghthkfxq5d
       name: Latin America & the Caribbean / Quito, Ecuador - (UIO)
-    - id: dg70xhsdrq4x
-      name: Europe / Tallinn, Estonia - (TLL)
     - id: rmg57bpns3s2
       name: Africa / Dar es Salaam, Tanzania - (DAR)
     - id: 276xk3r83js7
       name: Cloudflare Sites and Services / Zero Trust Dashboard
       description: Cloudflare Zero Trust Dashboard where customers can view and make changes to their Cloudflare Gateway configurations at https://dash.teams.cloudflare.com
-    - id: h78y80t20wcz
-      name: Europe / Tirana, Albania - (TIA)
-    - id: mgy3ctqknf12
-      name: Africa / Cape Town, South Africa - (CPT)
     - id: 4tv81hqpt2jt
       name: Cloudflare Sites and Services / Zone Versioning
       description: Version Management allows you test, deploy, and roll back changes to your zone configuration settings.
-    - id: 269jgch4d3sy
-      name: Latin America & the Caribbean / Tegucigalpa, Honduras - (TGU)
     - id: hcptmvfrphwq
       name: Europe / Stuttgart, Germany - (STR)
     - id: 3jy480d7w1rx
       name: North America / Bangor, United States - (BGR)
     - id: 1p6vwv006b6j
       name: Europe / Sofia, Bulgaria - (SOF)
-    - id: kgcjlz2n037m
-      name: North America / Austin, United States - (AUS)
     - id: l3g5gh2z32lz
       name: Europe / Thessaloniki, Greece - (SKG)
     - id: dvwrflnnpp1s
       name: Latin America & the Caribbean / Sorocaba, Brazil - (SOD)
-    - id: zjvkf9fygvkc
-      name: North America / Toronto, Canada - (YYZ)
     - id: hgwvpy8m51q1
       name: Europe / Riga, Latvia - (RIX)
-    - id: 0wxslwh2fby1
-      name: North America / Calgary, Canada - (YYC)
     - id: ff3l3tjl3gtb
       name: Europe / Prague, Czechia - (PRG)
     - id: y1bcz1mvx6zj
       name: Latin America & the Caribbean / São José do Rio Preto, Brazil - (SJP)
-    - id: hl4xhg85f7wg
-      name: North America / Saskatoon, Canada - (YXE)
     - id: 8b8gdd55gfwr
       name: Europe / Palermo, Italy - (PMO)
     - id: 41rxjml0wykn
       name: Latin America & the Caribbean / San José, Costa Rica - (SJO)
-    - id: 49prt9w6xrbp
-      name: North America / Winnipeg, Canada - (YWG)
-    - id: pqwb1vc3ck1q
-      name: Europe / Bucharest, Romania - (OTP)
     - id: c45xcd899mw5
       name: Latin America & the Caribbean / São José dos Campos, Brazil - (SJK)
-    - id: tsvjp0807rl7
-      name: North America / Vancouver, Canada - (YVR)
     - id: stwr8jq9ty4k
       name: Europe / Oslo, Norway - (OSL)
     - id: pcf63wqpjlny
       name: Latin America & the Caribbean / Santiago, Chile - (SCL)
-    - id: lflt542dymc2
-      name: North America / Montréal, Canada - (YUL)
     - id: 6y0hdnc0zct6
       name: Europe / Cork, Ireland - (ORK)
     - id: c001v0dx16wv
       name: Latin America & the Caribbean / San Pedro Sula, Honduras - (SAP)
     - id: f43bdysq5h4x
       name: North America / Ottawa, Canada - (YOW)
-    - id: pbn0pw4klrz0
-      name: Europe / Milan, Italy - (MXP)
     - id: yf2pgxhjzhjv
       name: North America / Halifax, Canada - (YHZ)
     - id: bn5yx0kzpsxl
       name: Europe / Munich, Germany - (MUC)
     - id: 863jvfn5l3kd
       name: North America / Tampa, United States - (TPA)
-    - id: 9w3n4rzc76ds
-      name: Europe / Marseille, France - (MRS)
     - id: g4x9nv0wbqhn
       name: North America / Tallahassee, United States - (TLH)
-    - id: k9gqp2j8w9hb
-      name: Europe / Manchester, United Kingdom - (MAN)
     - id: d6hkd6hcxnkj
       name: North America / Sacramento, United States - (SMF)
-    - id: y2f71bx9m0xb
-      name: Europe / Madrid, Spain - (MAD)
-    - id: 5mzzzsmkt5wn
-      name: Latin America & the Caribbean / Chapeco, Brazil - (XAP)
     - id: cpdkfq1mbzsm
       name: North America / Salt Lake City, United States - (SLC)
     - id: hczwvfzlp16l
       name: Europe / Lyon, France - (LYS)
-    - id: 803t89dc6fds
-      name: Latin America & the Caribbean / Medellín, Colombia - (MDE)
     - id: tffw1f2m6ljb
       name: North America / San Jose, United States - (SJC)
-    - id: c0xknw69bj9y
-      name: Europe / Luxembourg City, Luxembourg - (LUX)
-    - id: lnl1d63bc07z
-      name: North America / San Francisco, United States - (SFO)
     - id: pqjbjg8b13h9
       name: Europe / Nicosia, Cyprus - (LCA)
     - id: 65rb1y2fn95p
       name: Latin America & the Caribbean / La Paz, Bolivia - (LPB)
     - id: vcz5n71xr039
       name: North America / Seattle, United States - (SEA)
-    - id: fwg4sym7f7wf
-      name: Europe / Chișinău, Moldova - (KIV)
     - id: 5zm55h111v2y
       name: North America / Richmond, United States - (RIC)
     - id: mfgv8pf0hdnz
       name: Europe / Helsinki, Finland - (HEL)
-    - id: 2dsjg0tngrbc
-      name: Latin America & the Caribbean / Tegucigalpa, Honduras - (TGU)
     - id: nwlvyck9z88f
       name: North America / Durham, United States - (RDU)
     - id: vbnl5khfr77j
@@ -1171,8 +1087,6 @@ systems:
       name: North America / Norfolk, United States - (ORF)
     - id: 58k3mp1nv5bm
       name: Europe / Edinburgh, United Kingdom - (EDI)
-    - id: 022w2rb97b8t
-      name: North America / Chicago, United States - (ORD)
     - id: b6w88brkk8k6
       name: Europe / Düsseldorf, Germany - (DUS)
     - id: t76xkwv5ny9y
@@ -1183,46 +1097,24 @@ systems:
       name: North America / Oklahoma City, United States - (OKC)
     - id: hrn9bjk52pbr
       name: Europe / Moscow, Russia - (DME)
-    - id: y0s8brd980f2
-      name: North America / Minneapolis, United States - (MSP)
-    - id: 616grkx959sy
-      name: Europe / Bratislava, Slovakia - (BTS)
-    - id: kbv9zblj3xl1
-      name: North America / Miami, United States - (MIA)
     - id: mt3kqw9bfkgs
       name: Europe / Bordeaux, France - (BOD)
     - id: g98hshvvmnhg
       name: North America / McAllen, United States - (MFE)
-    - id: 852d2h79mnv9
-      name: Europe / Belgrade, Serbia - (BEG)
     - id: h2zwgtg0q7dw
       name: North America / Memphis, United States - (MEM)
-    - id: j3st5hxzps61
-      name: Europe / Barcelona, Spain - (BCN)
     - id: qv6y2v4y1hm8
       name: North America / Los Angeles, United States - (LAX)
-    - id: 562z557zkbbv
-      name: Europe / Athens, Greece - (ATH)
     - id: 13mnzlgv3vp7
       name: North America / Las Vegas, United States - (LAS)
-    - id: jygkg9hp26gy
-      name: Europe / Amsterdam, Netherlands - (AMS)
     - id: 9wywt94g4hcm
       name: Latin America & the Caribbean / Barranquilla, Colombia - (BAQ)
     - id: srb98gcn3n3t
       name: North America / Indianapolis, United States - (IND)
-    - id: k4y1klsgd8f4
-      name: Europe / Zagreb, Croatia - (ZAG)
     - id: fyg4m44b9627
       name: North America / Honolulu, United States - (HNL)
-    - id: spd0yr3g60fw
-      name: Europe / Vilnius, Lithuania - (VNO)
     - id: sdblgwh5hy29
       name: North America / Sioux Falls, United States - (FSD)
-    - id: 38dqjb3snlxq
-      name: Europe / Vienna, Austria - (VIE)
-    - id: 8djkv0jwp80v
-      name: North America / Newark, United States - (EWR)
     - id: t2pz0hxz6b1w
       name: Europe / Tallinn, Estonia - (TLL)
     - id: ctl73k1m4cjd
@@ -1235,56 +1127,36 @@ systems:
       name: North America / Dallas, United States - (DFW)
     - id: 1zbbwq6w2z6w
       name: Europe / Skopje, North Macedonia - (SKP)
-    - id: 6804xdcggglj
-      name: Latin America & the Caribbean / Bridgetown, Barbados - (BGI)
     - id: n3jb7n4q8hy8
       name: North America / Denver, United States - (DEN)
-    - id: 392zgnhhhsyh
-      name: Europe / Thessaloniki, Greece - (SKG)
     - id: vqt9hykpxf2q
       name: North America / Cleveland, United States - (CLE)
     - id: qx88g3p9vfn7
       name: Europe / Riga, Latvia - (RIX)
     - id: wnf9lmzgfxfh
       name: Latin America & the Caribbean / Aracatuba, Brazil - (ARU)
-    - id: s02bmhkzzxj1
-      name: North America / Buffalo, United States - (BUF)
     - id: cc4rg6znysw6
       name: Europe / Prague, Czechia - (PRG)
-    - id: 0y9j4f6sdgx4
-      name: Latin America & the Caribbean / Chapeco, Brazil - (XAP)
-    - id: 89j0y66kyr5v
-      name: North America / Nashville, United States - (BNA)
     - id: h7w37xc49yfj
       name: Europe / Palermo, Italy - (PMO)
     - id: 1hzh50vk0d7v
       name: Latin America & the Caribbean / Campinas, Brazil - (VCP)
-    - id: byhjv21hj947
-      name: North America / Bangor, United States - (BGR)
     - id: djl99cr4bh94
       name: Europe / Oslo, Norway - (OSL)
     - id: 8v4jmrllmnt8
       name: Latin America & the Caribbean / Quito, Ecuador - (UIO)
-    - id: 1v9jq8prwqft
-      name: North America / Atlanta, United States - (ATL)
     - id: vdd7j8vgq3gn
       name: Europe / Minsk, Belarus - (MSQ)
     - id: rqs02y0ngql6
       name: Latin America & the Caribbean / Uberlandia, Brazil - (UDI)
     - id: m2cy7ks2gskp
       name: North America / Anchorage, United States - (ANC)
-    - id: 96hmcdxc1gfs
-      name: Europe / Marseille, France - (MRS)
     - id: 7mkh9tqkzcz1
       name: Latin America & the Caribbean / Tegucigalpa, Honduras - (TGU)
     - id: 7cxdftbwvxhw
       name: North America / Saskatoon, Canada - (YXE)
-    - id: r51st8qhw575
-      name: Europe / Manchester, United Kingdom - (MAN)
     - id: xgqrmx7l2n7m
       name: Latin America & the Caribbean / Sorocaba, Brazil - (SOD)
-    - id: z2t4m5ttmlnn
-      name: North America / Winnipeg, Canada - (YWG)
     - id: xjv7t70xh0k6
       name: Europe / Krasnoyarsk, Russia - (KJA)
     - id: cynx7dmq26l9
@@ -1319,24 +1191,16 @@ systems:
       name: Europe / Sofia, Bulgaria - (SOF)
     - id: 7t6vwrxrv1kg
       name: Latin America & the Caribbean / Santiago, Chile - (SCL)
-    - id: rnyrbmgk93l6
-      name: North America / San Francisco, United States - (SFO)
     - id: 8l1x8zv8kym2
       name: Europe / Skopje, North Macedonia - (SKP)
     - id: j7zsn7k41t79
       name: Latin America & the Caribbean / San Pedro Sula, Honduras - (SAP)
-    - id: 5tpfn7htn3ls
-      name: North America / Seattle, United States - (SEA)
     - id: g2znsz9mdymz
       name: Europe / Prague, Czechia - (PRG)
-    - id: 6kx69g8czvb2
-      name: Latin America & the Caribbean / Americana, Brazil - (QWJ)
     - id: t6s0gklgghgk
       name: North America / San Diego, United States - (SAN)
     - id: 7tw90vg4s5y3
       name: Europe / Oslo, Norway - (OSL)
-    - id: n93xcq7qk5cz
-      name: Latin America & the Caribbean / Panama City, Panama - (PTY)
     - id: y3lvzk1vq9hw
       name: North America / Richmond, United States - (RIC)
     - id: 4wjjxmx0mt3v
@@ -1351,40 +1215,26 @@ systems:
       name: Latin America & the Caribbean / Palmas, Brazil - (PMW)
     - id: y5p8b46xh2w5
       name: North America / Phoenix, United States - (PHX)
-    - id: knhqb5tf6f05
-      name: Europe / Marseille, France - (MRS)
     - id: nl0kkvy6wzbz
       name: Latin America & the Caribbean / Paramaribo, Suriname - (PBM)
     - id: 2v2fxjgrwkhy
       name: North America / Philadelphia, United States - (PHL)
-    - id: 704lt883qdkm
-      name: Europe / Manchester, United Kingdom - (MAN)
     - id: bmw72s71xmyc
       name: Latin America & the Caribbean / Timbo, Brazil - (NVT)
     - id: 53982tr794g5
       name: North America / Omaha, United States - (OMA)
-    - id: s09p9m8ntf2z
-      name: Europe / Luxembourg City, Luxembourg - (LUX)
     - id: pxc22m6zpyyx
       name: Latin America & the Caribbean / Neuquen, Argentina - (NQN)
     - id: kvb5tgml3j3r
       name: North America / Oklahoma City, United States - (OKC)
     - id: hkj2zvxtgfby
       name: Europe / Lisbon, Portugal - (LIS)
-    - id: d8g2k5zmzp5t
-      name: Latin America & the Caribbean / Manaus, Brazil - (MAO)
-    - id: vrsqtdk351mq
-      name: North America / Miami, United States - (MIA)
-    - id: thfn1dpy5rr3
-      name: Europe / London, United Kingdom - (LHR)
     - id: f6j7k2mrgjr2
       name: Latin America & the Caribbean / La Paz, Bolivia - (LPB)
     - id: 6dxdpdlczszg
       name: North America / McAllen, United States - (MFE)
     - id: 2xdxzh5z87yy
       name: Europe / Saint Petersburg, Russia - (LED)
-    - id: s1rth8sghzsx
-      name: Latin America & the Caribbean / Lima, Peru - (LIM)
     - id: vhf7g759j8hv
       name: North America / Kansas City, United States - (MCI)
     - id: 6nvw11fyt27f
@@ -1421,8 +1271,6 @@ systems:
       name: Europe / Geneva, Switzerland - (GVA)
     - id: 8lr2bp6x1jc8
       name: Latin America & the Caribbean / Rio de Janeiro, Brazil - (GIG)
-    - id: szhsf3cmfn30
-      name: North America / Winnipeg, Canada - (YWG)
     - id: fhq5ln5f1hlx
       name: Europe / Düsseldorf, Germany - (DUS)
     - id: wrfcqcpw03x1
@@ -1439,10 +1287,6 @@ systems:
       name: Europe / Bordeaux, France - (BOD)
     - id: 9my7l5yvvjdf
       name: Latin America & the Caribbean / Curitiba, Brazil - (CWB)
-    - id: sb3x0j5y961k
-      name: North America / Newark, United States - (EWR)
-    - id: gyl5xvph4pcn
-      name: Europe / Thessaloniki, Greece - (SKG)
     - id: 4s459pdthbb8
       name: Latin America & the Caribbean / Córdoba, Argentina - (COR)
     - id: fnl4f37kkldy
@@ -1453,16 +1297,8 @@ systems:
       name: Latin America & the Caribbean / Cali, Colombia - (CLO)
     - id: 6jhqzr9cj9qk
       name: North America / Cleveland, United States - (CLE)
-    - id: 4msh1x6h0sj7
-      name: Europe / Manchester, United Kingdom - (MAN)
     - id: 8zrszkwx8mw3
       name: Latin America & the Caribbean / Cuiaba, Brazil - (CGB)
-    - id: wpcsjfgygsf0
-      name: North America / Austin, United States - (AUS)
-    - id: k31fgbm3y39t
-      name: Europe / Madrid, Spain - (MAD)
-    - id: 4hpjh3l3k4n9
-      name: Latin America & the Caribbean / Brasilia, Brazil - (BSB)
     - id: p9r2ymzj1drk
       name: North America / Anchorage, United States - (ANC)
     - id: npm09fxlq5q4
@@ -1471,40 +1307,20 @@ systems:
       name: Latin America & the Caribbean / Bogota, Colombia - (BOG)
     - id: wx2wffmx6l1q
       name: North America / Portland, United States - (PDX)
-    - id: bpdn7dllb07y
-      name: Europe / Luxembourg City, Luxembourg - (LUX)
-    - id: 8kl24yztt8dz
-      name: Latin America & the Caribbean / Blumenau, Brazil - (BNU)
-    - id: mv485q80zqc6
-      name: North America / Miami, United States - (MIA)
-    - id: 3g2nxbxwkrrw
-      name: Europe / Lisbon, Portugal - (LIS)
     - id: 7d075m5xpnyj
       name: Latin America & the Caribbean / Bridgetown, Barbados - (BGI)
-    - id: 44fg8bd617b4
-      name: North America / Memphis, United States - (MEM)
-    - id: b0vdh7t7rbvc
-      name: Europe / London, United Kingdom - (LHR)
-    - id: wlz456p33plx
-      name: Latin America & the Caribbean / Belém, Brazil - (BEL)
     - id: zykdm10k4yrh
       name: North America / Los Angeles, United States - (LAX)
-    - id: 3c7j1d54c8gr
-      name: Europe / Chișinău, Moldova - (KIV)
     - id: 3pjt9dxsyrtp
       name: Latin America & the Caribbean / Barranquilla, Colombia - (BAQ)
     - id: dsnyjv6mltbq
       name: North America / Las Vegas, United States - (LAS)
     - id: n1xqsmmtn1kt
       name: Europe / Reykjavík, Iceland - (KEF)
-    - id: wsr41kl7hl7v
-      name: Latin America & the Caribbean / Asunción, Paraguay - (ASU)
     - id: 2h77zhwypl86
       name: North America / Jacksonville, United States - (JAX)
     - id: bb3zq5xjnns5
       name: Europe / Helsinki, Finland - (HEL)
-    - id: 10m1f396bbbd
-      name: Latin America & the Caribbean / Arica, Chile - (ARI)
     - id: lgfn8vcj6fh9
       name: North America / Houston, United States - (IAH)
     - id: 654r1jccl1n9
@@ -1523,20 +1339,12 @@ systems:
       name: Europe / Frankfurt, Germany - (FRA)
     - id: byzft6zk8fpt
       name: Latin America & the Caribbean / Quito, Ecuador - (UIO)
-    - id: wqf5lhy3sb03
-      name: North America / Newark, United States - (EWR)
     - id: kdxqpg0khwv8
       name: Europe / Rome, Italy - (FCO)
     - id: zxtknl7d41yb
       name: Latin America & the Caribbean / Uberlandia, Brazil - (UDI)
-    - id: 6y2cjxvw3l0s
-      name: North America / Calgary, Canada - (YYC)
     - id: chb7h7462g0h
       name: Europe / Edinburgh, United Kingdom - (EDI)
-    - id: 1c72rrlgrlh6
-      name: Latin America & the Caribbean / Tegucigalpa, Honduras - (TGU)
-    - id: 81gdlq23sbzj
-      name: North America / Winnipeg, Canada - (YWG)
     - id: v55t015rxrg3
       name: Europe / Düsseldorf, Germany - (DUS)
     - id: xgty615h6hhb
@@ -1553,18 +1361,12 @@ systems:
       name: Latin America & the Caribbean / Recife, Brazil - (REC)
     - id: bk8zgpfd1tr5
       name: North America / Tallahassee, United States - (TLH)
-    - id: 6wgc39rzjffq
-      name: Latin America & the Caribbean / Panama City, Panama - (PTY)
-    - id: r1x49wkbcx7h
-      name: North America / Nashville, United States - (BNA)
     - id: d3cx8vv74f5d
       name: Latin America & the Caribbean / Port of Spain, Trinidad and Tobago - (POS)
     - id: mrby7rsl5kvf
       name: North America / St. Louis, United States - (STL)
     - id: fjm1yfpn38fz
       name: Latin America & the Caribbean / Porto Alegre, Brazil - (POA)
-    - id: wwxbmk63j2lt
-      name: North America / Austin, United States - (AUS)
     - id: 4f8d25rg4r85
       name: Latin America & the Caribbean / Palmas, Brazil - (PMW)
     - id: nn57n60b0kns
@@ -1577,20 +1379,14 @@ systems:
       name: Latin America & the Caribbean / Neuquen, Argentina - (NQN)
     - id: pt05hvm9qx8x
       name: North America / San Antonio, United States - (SAT)
-    - id: 5kj8tcmnfxbz
-      name: Latin America & the Caribbean / Medellín, Colombia - (MDE)
     - id: 0j9d31fj4zrr
       name: North America / San Diego, United States - (SAN)
     - id: rtkm1t6d8xtd
       name: Latin America & the Caribbean / La Paz, Bolivia - (LPB)
     - id: 2nbhpkf39rvk
       name: North America / Durham, United States - (RDU)
-    - id: mgp84gz367nw
-      name: Latin America & the Caribbean / Lima, Peru - (LIM)
     - id: 76ky6ngv08j0
       name: North America / Phoenix, United States - (PHX)
-    - id: dc0zn3fp5ksm
-      name: Latin America & the Caribbean / Joinville, Brazil - (JOI)
     - id: 3vckm1lw5gwk
       name: North America / Portland, United States - (PDX)
     - id: 5ntdk08mfjw4
@@ -1599,8 +1395,6 @@ systems:
       name: North America / Norfolk, United States - (ORF)
     - id: 1s9w7lft33d3
       name: Latin America & the Caribbean / Itajai, Brazil - (ITJ)
-    - id: ypcl2v3x4r2r
-      name: North America / Chicago, United States - (ORD)
     - id: sy28w9vnxvqg
       name: Latin America & the Caribbean / Goiania, Brazil - (GYN)
     - id: zhvdflk375p1
@@ -1613,10 +1407,6 @@ systems:
       name: Latin America & the Caribbean / Georgetown, Guyana - (GEO)
     - id: cs0d9whqfwl3
       name: North America / McAllen, United States - (MFE)
-    - id: yjlvvzs75ys0
-      name: Latin America & the Caribbean / Vitoria, Brazil - (VIX)
-    - id: cxd5dsydyjf3
-      name: North America / Memphis, United States - (MEM)
     - id: tzqjv58rq5w7
       name: Latin America & the Caribbean / Florianopolis, Brazil - (FLN)
     - id: j3rxdq2drydx
@@ -1629,14 +1419,10 @@ systems:
       name: Latin America & the Caribbean / Salvador, Brazil - (SSA)
     - id: zxpfvktt6str
       name: North America / Indianapolis, United States - (IND)
-    - id: 39n6lfbpvmyt
-      name: Latin America & the Caribbean / Campos dos Goytacazes, Brazil - (CAW)
     - id: mt74rth2yby1
       name: North America / Houston, United States - (IAH)
     - id: nhyygf5l3mx8
       name: Latin America & the Caribbean / Ribeirao Preto, Brazil - (RAO)
-    - id: 6pfmvbk960rb
-      name: North America / Ashburn, United States - (IAD)
     - id: 7jdp4hfmc045
       name: Latin America & the Caribbean / Palmas, Brazil - (PMW)
     - id: 1skqztzb6fk2
@@ -1645,26 +1431,16 @@ systems:
       name: Latin America & the Caribbean / Timbo, Brazil - (NVT)
     - id: 241mlx2pxz2l
       name: North America / Guadalajara, Mexico - (GDL)
-    - id: t50hrc5t249l
-      name: Latin America & the Caribbean / Medellín, Colombia - (MDE)
-    - id: zyr4rwfblvnz
-      name: North America / Sioux Falls, United States - (FSD)
     - id: ttjr2fm7vgnr
       name: Latin America & the Caribbean / La Paz, Bolivia - (LPB)
     - id: 195ttkgxhfw0
       name: North America / Dallas, United States - (DFW)
-    - id: 5sr5wkzmtrb2
-      name: Latin America & the Caribbean / Lima, Peru - (LIM)
     - id: tpf05gyckdyq
       name: North America / Denver, United States - (DEN)
-    - id: 5pj9mt68cfj5
-      name: Latin America & the Caribbean / Kingston, Jamaica - (KIN)
     - id: fz73p0vsrsk0
       name: Latin America & the Caribbean / Itajai, Brazil - (ITJ)
     - id: yxxkbjxsq7fj
       name: Latin America & the Caribbean / São Paulo, Brazil - (GRU)
-    - id: d8gvxznjky1s
-      name: Latin America & the Caribbean / St. George's, Grenada - (GND)
     - id: 61qv1mhr9fb2
       name: Latin America & the Caribbean / Rio de Janeiro, Brazil - (GIG)
     - id: 06mbh4fzq7dd
@@ -1677,8 +1453,6 @@ systems:
       name: Latin America & the Caribbean / Córdoba, Argentina - (COR)
     - id: gsk6p3h5hv1v
       name: Latin America & the Caribbean / Campinas, Brazil - (VCP)
-    - id: 4s3sdlpfn391
-      name: Latin America & the Caribbean / Campos dos Goytacazes, Brazil - (CAW)
     - id: jmvfyy61dhql
       name: Latin America & the Caribbean / Salvador, Brazil - (SSA)
     - id: bw1lpqf9hlgr
@@ -1689,24 +1463,18 @@ systems:
       name: Latin America & the Caribbean / Recife, Brazil - (REC)
     - id: kmmmmf8djxqr
       name: Latin America & the Caribbean / Ribeirao Preto, Brazil - (RAO)
-    - id: tt98nysmf3ny
-      name: Latin America & the Caribbean / Panama City, Panama - (PTY)
     - id: 4zvwrrn3g8hz
       name: Latin America & the Caribbean / Port of Spain, Trinidad and Tobago - (POS)
     - id: x596mkhqjjxr
       name: Latin America & the Caribbean / Porto Alegre, Brazil - (POA)
     - id: ft1l1lchgy72
       name: Latin America & the Caribbean / Paramaribo, Suriname - (PBM)
-    - id: xc1tqzb146bj
-      name: Latin America & the Caribbean / Medellín, Colombia - (MDE)
     - id: 89z7y49d7dcc
       name: Latin America & the Caribbean / La Paz, Bolivia - (LPB)
     - id: qvx79qzx2ydn
       name: Latin America & the Caribbean / Kingston, Jamaica - (KIN)
     - id: 46p86dps719s
       name: Latin America & the Caribbean / Joinville, Brazil - (JOI)
-    - id: 0jm8wdjtl30c
-      name: Latin America & the Caribbean / Juazeiro do Norte, Brazil - (JDO)
     - id: ztp94vm229hz
       name: Latin America & the Caribbean / Guayaquil, Ecuador - (GYE)
     - id: zwjzg0ds9x9k
@@ -1715,8 +1483,6 @@ systems:
       name: Latin America & the Caribbean / St. George's, Grenada - (GND)
     - id: 8g10l4z5llfg
       name: Latin America & the Caribbean / Florianopolis, Brazil - (FLN)
-    - id: g2rgsjx0vkzw
-      name: Latin America & the Caribbean / Buenos Aires, Argentina - (EZE)
     - id: 0ljm34nvhd4w
       name: Latin America & the Caribbean / Curitiba, Brazil - (CWB)
     - id: nbvb8842jnn0
@@ -1781,24 +1547,12 @@ systems:
       name: Asia / Surat Thani, Thailand - (URT)
     - id: by0r8hmk47xw
       name: Asia / Taipei - (TPE)
-    - id: 5t67w94bnhzt
-      name: Asia / Tbilisi, Georgia - (TBS)
     - id: 45hm4fvq6r8c
       name: Asia / Qingdao, China - (TAO)
     - id: x8j72bj6djfn
       name: Asia / Ho Chi Minh City, Vietnam - (SGN)
-    - id: ckx9pkdjdkgl
-      name: Asia / Phnom Penh, Cambodia - (PNH)
-    - id: rjl2x7djhyn4
-      name: Asia / Nagpur, India - (NAG)
-    - id: yyrxgxdcphwj
-      name: Asia / Macau - (MFM)
     - id: q2g3fpv9d4f1
       name: Asia / Lahore, Pakistan - (LHE)
-    - id: wlcwv0rplwb6
-      name: Asia / Yangquan, China - (TYN)
-    - id: d3rvpm6chmsc
-      name: Asia / Osaka, Japan - (KIX)
     - id: 4hmn1p0t08jx
       name: Asia / Naha, Japan - (OKA)
     - id: l3kkwqwpfy9r
@@ -1809,22 +1563,10 @@ systems:
       name: Asia / Kochi, India - (COK)
     - id: 5m35ycpy3lc4
       name: Asia / Lahore, Pakistan - (LHE)
-    - id: 7hj0bvh2rfmv
-      name: Asia / Jakarta, Indonesia - (CGK)
-    - id: ybktf0bjtddn
-      name: Asia / Osaka, Japan - (KIX)
     - id: v2qy8ww31hp1
       name: Asia / Sulaymaniyah, Iraq - (ISU)
-    - id: r5wd1bd5xsw9
-      name: Asia / Taizhou, China - (HYN)
     - id: 29ml3h96hcv3
       name: Asia / New Delhi, India - (DEL)
-    - id: 4crssg7nl7tp
-      name: Asia / Chengdu, China - (CTU)
-    - id: jtkw1skf5gnw
-      name: Asia / Mumbai, India - (BOM)
-    - id: kdz7jp41081c
-      name: Asia / Aktobe, Kazakhstan - (AKX)
     - id: 9hw4xbw1hp8q
       name: Asia / Izmir, Turkey - (ADB)
     - id: vmhdlj88qbsn
@@ -1843,10 +1585,6 @@ systems:
       name: Asia / Ulaanbaatar, Mongolia - (ULN)
     - id: 2hyccjm1v6h5
       name: Asia / Taipei - (TPE)
-    - id: rbvc77qnjyj8
-      name: Asia / Zibo, China - (TNA)
-    - id: 6d0j36ffm69d
-      name: Asia / Tongren, China - (TEN)
     - id: t2n374nsm2ft
       name: Asia / Qingdao, China - (TAO)
     - id: m6l3lnrhgw6j
@@ -1863,76 +1601,40 @@ systems:
       name: Asia / Thimphu, Bhutan - (PBH)
     - id: m0l4b0kj8kg8
       name: Asia / Patna, India - (PAT)
-    - id: nsss6ztl3hj3
-      name: Asia / Naha, Japan - (OKA)
     - id: x1cgrx2lr1ts
       name: Asia / Tokyo, Japan - (NRT)
-    - id: 3cfnfskwv1bc
-      name: Asia / Astana, Kazakhstan - (NQZ)
-    - id: 5t8nmpv64lq9
-      name: Asia / Nanning, China - (NNG)
     - id: hqzyw4b0lvxp
       name: Asia / Najaf, Iraq - (NJF)
-    - id: p5vjhtp86qxf
-      name: Asia / Manila, Philippines - (MNL)
-    - id: 5787pdmbcp5x
-      name: Asia / Macau - (MFM)
     - id: 2d2nhcvw2b8s
       name: Asia / Chennai, India - (MAA)
-    - id: zqjtxn43j72q
-      name: Asia / Astara, Azerbaijan - (LLK)
     - id: p2p7s6gnn3l9
       name: Asia / Lahore, Pakistan - (LHE)
     - id: 0g6vczn0tz4w
       name: Asia / Guiyang, China - (KWE)
     - id: 86h7t79j1mnc
       name: Asia / Kunming, China - (KMG)
-    - id: 7c6z0th68941
-      name: Asia / Osaka, Japan - (KIX)
     - id: 13txvlmtgyw8
       name: Asia / Kaohsiung City, Taiwan - (KHH)
-    - id: 28qvf24f9m1z
-      name: Asia / Kuching, Malaysia - (KCH)
     - id: 82ywf251sgw4
       name: Asia / Yogyakarta, Indonesia - (JOG)
     - id: qfpf2h2g79cz
       name: Asia / Jeddah, Saudi Arabia - (JED)
     - id: dkf7qnj796kc
       name: Asia / Chandigarh, India - (IXC)
-    - id: rksk8j1c9734
-      name: Asia / Islamabad, Pakistan - (ISB)
     - id: 6q572rmbtrgt
       name: Asia / Seoul, South Korea - (ICN)
-    - id: lldlr8sgrzqh
-      name: Asia / Taizhou, China - (HYN)
-    - id: 5h1g1ycz9h0d
-      name: Asia / Hong Kong - (HKG)
     - id: 71tgl1c0382m
       name: Asia / Shaoxing, China - (HGH)
     - id: sv08yw5gt6yg
       name: Asia / Hanoi, Vietnam - (HAN)
-    - id: c60d5g41zft6
-      name: Asia / Chengmai, China - (HAK)
-    - id: 4z7sn3xfftnm
-      name: Asia / Baku, Azerbaijan - (GYD)
     - id: vhqvkmz367c5
       name: Asia / Erbil, Iraq - (EBL)
-    - id: 2dsbvf31x9nm
-      name: Asia / Dubai, United Arab Emirates - (DXB)
     - id: r21hbcbrtytn
       name: Asia / Denpasar, Indonesia - (DPS)
-    - id: tzgqtghldlzn
-      name: Asia / Doha, Qatar - (DOH)
-    - id: 67yk1z0r7bs9
-      name: Asia / Dammam, Saudi Arabia - (DMM)
     - id: fgt82m7qj87l
       name: Asia / Dalian, China - (DLC)
-    - id: l9sqgmv4tk22
-      name: Asia / Da Nang, Vietnam - (DAD)
     - id: cm91flwpwnpv
       name: Asia / Changzhou, China - (CZX)
-    - id: 9cjnwtv4r0d7
-      name: Asia / Chengdu, China - (CTU)
     - id: 30bgw8m9p4tr
       name: Asia / Kochi, India - (COK)
     - id: rlh5z3jsssv5
@@ -1941,60 +1643,22 @@ systems:
       name: Asia / Cagayan de Oro, Philippines - (CGY)
     - id: 0jqgjty0xtkj
       name: Asia / Zhengzhou, China - (CGO)
-    - id: xgtldk5spg5r
-      name: Asia / Jakarta, Indonesia - (CGK)
     - id: 1y1rdjqq1z6q
       name: Asia / Changde, China - (CGD)
-    - id: yzs994g49dmw
-      name: Asia / Cebu, Philippines - (CEB)
-    - id: s8l9j1rg4v7j
-      name: Asia / Bandar Seri Begawan, Brunei - (BWN)
-    - id: z2p6gz7y4kmk
-      name: Asia / Mumbai, India - (BOM)
-    - id: 8nhb80txnkny
-      name: Asia / Bangalore, India - (BLR)
-    - id: lzvlghvv9klv
-      name: Asia / Bangkok, Thailand - (BKK)
-    - id: h8ks17vqw4dm
-      name: Asia / Beirut, Lebanon - (BEY)
-    - id: cf7ht8b3slb8
-      name: Asia / Bhubaneswar, India - (BBI)
     - id: 32csykmphnzh
       name: Asia / Manama, Bahrain - (BAH)
-    - id: 64w63t1l1b0h
-      name: Asia / Amman, Jordan - (AMM)
-    - id: 2ds0m7317s5t
-      name: Asia / Almaty, Kazakhstan - (ALA)
-    - id: t7g21p75mbq0
-      name: Asia / Aktobe, Kazakhstan - (AKX)
     - id: bnd2z51tpbh0
       name: Asia / Izmir, Turkey - (ADB)
-    - id: 3xtx9ngqgzw3
-      name: Asia / Baoji, China - (XIY)
-    - id: 5y1mm3sprgfh
-      name: Asia / Xiangyang, China - (XFN)
     - id: fy48mg55jz3c
       name: Asia / Yangquan, China - (TYN)
-    - id: lsm7q8kxpxxt
-      name: Asia / Tongren, China - (TEN)
     - id: 6sdw0kggpjjs
       name: Asia / Shenzhen, China - (SZX)
-    - id: dt5b5h8tm5f1
-      name: Asia / Thimphu, Bhutan - (PBH)
-    - id: 81dm5grcpsbh
-      name: Asia / Astana, Kazakhstan - (NQZ)
-    - id: c6k69y24ymhh
-      name: Asia / Nanning, China - (NNG)
     - id: 11mr6rc5mc9t
       name: Asia / Guiyang, China - (KWE)
     - id: nyc5d9nksgs7
       name: Asia / Kunming, China - (KMG)
-    - id: mywfxfdgz0dq
-      name: Asia / Kuching, Malaysia - (KCH)
     - id: 7jdj2pnvst59
       name: Asia / Jiaxing, China - (JXG)
-    - id: nvt7ng6fbssk
-      name: Asia / Taizhou, China - (HYN)
     - id: pvx72ls4cwk6
       name: Asia / Shaoxing, China - (HGH)
     - id: xc7630y5t5jh
@@ -2003,62 +1667,30 @@ systems:
       name: Asia / Da Nang, Vietnam - (DAD)
     - id: mzwl3tqckhny
       name: Asia / Changzhou, China - (CZX)
-    - id: j8nrl3dddcbp
-      name: Asia / Chengdu, China - (CTU)
     - id: bmzvg81c5k1h
       name: Asia / Changsha, China - (CSX)
-    - id: ckmgp1fwd4x2
-      name: Asia / Tarlac City, Philippines - (CRK)
     - id: n0zx9z2hvc2w
       name: Asia / Chiang Mai, Thailand - (CNX)
-    - id: s2r32ynn9w9m
-      name: Asia / Zhengzhou, China - (CGO)
     - id: vlhvkqvdtnpj
       name: Asia / Beihai, China - (BHY)
-    - id: bxq2l04yllcr
-      name: Asia / Aktobe, Kazakhstan - (AKX)
     - id: 66cl1nt7hq3c
       name: Asia / Zhongshan, China - (ZGN)
-    - id: 4ywgzdf2brmh
-      name: Asia / Baoji, China - (XIY)
-    - id: wfzjgfrw0mwl
-      name: Asia / Xiangyang, China - (XFN)
     - id: tpprqw2zfw4j
       name: Asia / Vientiane, Laos - (VTE)
     - id: 8rm2259ccxsc
       name: Asia / Surat Thani, Thailand - (URT)
     - id: x3xrv4q73x7x
       name: Asia / Ulaanbaatar, Mongolia - (ULN)
-    - id: rqws1pg973nm
-      name: Asia / Yangquan, China - (TYN)
-    - id: 9tzpm2gfx2hz
-      name: Asia / Zibo, China - (TNA)
-    - id: qms1p3flzqsw
-      name: Asia / Tbilisi, Georgia - (TBS)
     - id: 8ztcx3vb9zp8
       name: Asia / Qingdao, China - (TAO)
     - id: fmsfpgpz778y
       name: Asia / Shenzhen, China - (SZX)
-    - id: 0ks7p6mbnw2g
-      name: Asia / Ho Chi Minh City, Vietnam - (SGN)
     - id: ld110r6hgr7k
       name: Asia / Riyadh, Saudi Arabia - (RUH)
-    - id: 6wnmdtzbjqq1
-      name: Asia / Phnom Penh, Cambodia - (PNH)
     - id: 9qdflb7gnyqb
       name: Asia / Patna, India - (PAT)
-    - id: prszmst4fq73
-      name: Asia / Naha, Japan - (OKA)
     - id: w28m27csr4b0
       name: Asia / Tokyo, Japan - (NRT)
-    - id: g23n8sm6fmqn
-      name: Asia / Astana, Kazakhstan - (NQZ)
-    - id: wxkd704ns2s7
-      name: Asia / Nanning, China - (NNG)
-    - id: wxsf6t75bk8s
-      name: Asia / Nagpur, India - (NAG)
-    - id: h17bl8lp19tr
-      name: Asia / Male, Maldives - (MLE)
     - id: 3tt1598j2kbh
       name: Asia / Macau - (MFM)
     - id: ynndzygsyqz5
@@ -2069,14 +1701,10 @@ systems:
       name: Asia / Kuala Lumpur, Malaysia - (KUL)
     - id: bmn66rcmhttn
       name: Asia / Kunming, China - (KMG)
-    - id: x20vwdtzq5h3
-      name: Asia / Nanchang, China - (KHN)
     - id: f4xrk08k2zs9
       name: Asia / Karachi, Pakistan - (KHI)
     - id: y7br8z230dt6
       name: Asia / Kaohsiung City, Taiwan - (KHH)
-    - id: ccphgd3qy523
-      name: Asia / Kuching, Malaysia - (KCH)
     - id: cbcfj73rq25r
       name: Asia / Jiaxing, China - (JXG)
     - id: ckgdkm6h2ylk
@@ -2085,26 +1713,14 @@ systems:
       name: Asia / Johor Bahru, Malaysia - (JHB)
     - id: ft5k4qg7h46w
       name: Asia / Istanbul, Turkey - (IST)
-    - id: zsfpryx9pgfx
-      name: Asia / Islamabad, Pakistan - (ISB)
     - id: ttgcgn43zpzt
       name: Asia / Seoul, South Korea - (ICN)
-    - id: v4h6r8r690ss
-      name: Asia / Hong Kong - (HKG)
-    - id: qqmkgcv37z23
-      name: Asia / Chengmai, China - (HAK)
     - id: 3f3bgt9c1681
       name: Asia / Ulaanbaatar, Mongolia - (ULN)
-    - id: 572q1y2yh7xk
-      name: Asia / Yangquan, China - (TYN)
     - id: vl8zqxdtny3l
       name: Asia / Yerevan, Armenia - (EVN)
-    - id: xc2wf9dxzzsr
-      name: Asia / Zibo, China - (TNA)
     - id: g0kycbbnfrr2
       name: Asia / Denpasar, Indonesia - (DPS)
-    - id: nw7kkv1h7gcx
-      name: Asia / Chengdu, China - (CTU)
     - id: 5hv0wtgdq4tm
       name: Asia / Changsha, China - (CSX)
     - id: wtrkk82p5npr
@@ -2121,16 +1737,8 @@ systems:
       name: Asia / Thimphu, Bhutan - (PBH)
     - id: gc0qmpr1qppm
       name: Asia / Tokyo, Japan - (NRT)
-    - id: 4193y49c9r9h
-      name: Asia / Astana, Kazakhstan - (NQZ)
-    - id: 72py43hpgl6p
-      name: Asia / Nanning, China - (NNG)
-    - id: kg77b5hm7x3s
-      name: Asia / Nagpur, India - (NAG)
     - id: dx9b6mn8r7my
       name: Asia / Manila, Philippines - (MNL)
-    - id: ytf6qkyvwkkg
-      name: Asia / Male, Maldives - (MLE)
     - id: gj6dlw6v8ds8
       name: Asia / Macau - (MFM)
     - id: xflmtyn50r2x
@@ -2143,20 +1751,14 @@ systems:
       name: Asia / Kathmandu, Nepal - (KTM)
     - id: w5qdnfjvx9cl
       name: Asia / Kanpur, India - (KNU)
-    - id: 4g049qgs4vhd
-      name: Asia / Osaka, Japan - (KIX)
     - id: jqmnjp4c8n3t
       name: Asia / Kaohsiung City, Taiwan - (KHH)
-    - id: m9b2mq8t89l3
-      name: Asia / Kuching, Malaysia - (KCH)
     - id: p89vmm8g14rf
       name: Asia / Yogyakarta, Indonesia - (JOG)
     - id: qmrr29r5tl0b
       name: Asia / Johor Bahru, Malaysia - (JHB)
     - id: 8nyg5k60jk1c
       name: Asia / Istanbul, Turkey - (IST)
-    - id: fkjchjxygg0f
-      name: Asia / Islamabad, Pakistan - (ISB)
     - id: g28xbdltgnrl
       name: Asia / Shaoxing, China - (HGH)
     - id: z6p766gd0z9t
@@ -2167,8 +1769,6 @@ systems:
       name: Asia / Fuzhou, China - (FOC)
     - id: c4r2zlks1tt0
       name: Asia / Ramallah - (ZDM)
-    - id: 3v3rmk62b5vt
-      name: Asia / New Delhi, India - (DEL)
     - id: 628ctngyx528
       name: Asia / Changzhou, China - (CZX)
     - id: nbyh4769v357
@@ -2177,42 +1777,26 @@ systems:
       name: Asia / Chiang Mai, Thailand - (CNX)
     - id: 1xy8pqsb9tbw
       name: Asia / Zhengzhou, China - (CGO)
-    - id: f8khmp7bzsd2
-      name: Asia / Zibo, China - (TNA)
     - id: vr7ty3vd1jf1
       name: Asia / Guangzhou, China - (CAN)
     - id: lbywhq0w7w1d
       name: Asia / Qingdao, China - (TAO)
-    - id: hfvy0gqv2th7
-      name: Asia / Beihai, China - (BHY)
     - id: 2v1s6r0fry3j
       name: Asia / Singapore, Singapore - (SIN)
     - id: j88kf097sgp9
       name: Asia / Shanghai, China - (SHA)
-    - id: shqmyrsp4312
-      name: Asia / Ho Chi Minh City, Vietnam - (SGN)
     - id: hjhyl4qzjncx
       name: Asia / Riyadh, Saudi Arabia - (RUH)
-    - id: r50bt7byr3ty
-      name: Asia / Phnom Penh, Cambodia - (PNH)
     - id: 61nv9xn5fcxt
       name: Asia / Thimphu, Bhutan - (PBH)
     - id: tz705grmhyxh
       name: Asia / Tokyo, Japan - (NRT)
-    - id: svm0zlfs09p2
-      name: Asia / Astana, Kazakhstan - (NQZ)
     - id: 94b15x0m93yd
       name: Asia / Najaf, Iraq - (NJF)
-    - id: 42w96n55821g
-      name: Asia / Nagpur, India - (NAG)
     - id: 7hfkljb94mx0
       name: Asia / Manila, Philippines - (MNL)
-    - id: lhk1k4pktnsw
-      name: Asia / Male, Maldives - (MLE)
     - id: 3w0yqdmz0y07
       name: Asia / Chennai, India - (MAA)
-    - id: vj8cg9jxwbcj
-      name: Asia / Astara, Azerbaijan - (LLK)
     - id: jvnzyb28fw9y
       name: Asia / Lahore, Pakistan - (LHE)
     - id: rsjkpyf6snvd
@@ -2221,12 +1805,6 @@ systems:
       name: Asia / Kathmandu, Nepal - (KTM)
     - id: v7ddrhwxz34g
       name: Asia / Kunming, China - (KMG)
-    - id: 1rzbyybzd6pk
-      name: Asia / Osaka, Japan - (KIX)
-    - id: ldmv87tvxwqc
-      name: Asia / Kuching, Malaysia - (KCH)
-    - id: bvlqmx9f02g6
-      name: Asia / Jiaxing, China - (JXG)
     - id: nj6hqlnzd5t0
       name: Asia / Johor Bahru, Malaysia - (JHB)
     - id: grcd24qv4skr
@@ -2237,34 +1815,18 @@ systems:
       name: Asia / Sulaymaniyah, Iraq - (ISU)
     - id: bbvttj9lxsbl
       name: Asia / Istanbul, Turkey - (IST)
-    - id: 681vw85j01wn
-      name: Asia / Islamabad, Pakistan - (ISB)
-    - id: lg3zkxd9sg7p
-      name: Asia / Hyderabad, India - (HYD)
     - id: wcpx5d5f1f6v
       name: Asia / Hanoi, Vietnam - (HAN)
-    - id: 35nvt49szqdz
-      name: Asia / Chengmai, China - (HAK)
-    - id: p1lnp4vl2bsv
-      name: Asia / Baku, Azerbaijan - (GYD)
     - id: 1mrt66myvpnp
       name: Asia / Foshan, China - (FUO)
     - id: rypqtmc73wgm
       name: Asia / Fukuoka, Japan - (FUK)
-    - id: 4y8by5hr20cm
-      name: Asia / Dubai, United Arab Emirates - (DXB)
     - id: ffs2fq978bmw
       name: Asia / Denpasar, Indonesia - (DPS)
-    - id: 4gk8p26k3nps
-      name: Asia / Dammam, Saudi Arabia - (DMM)
     - id: bdd06fcc8byq
       name: Asia / Dalian, China - (DLC)
-    - id: h8y0rlp1fvfh
-      name: Asia / Da Nang, Vietnam - (DAD)
     - id: 93qrvl3hn54g
       name: Asia / Changzhou, China - (CZX)
-    - id: jq0v8q6c2yqs
-      name: Asia / Chengdu, China - (CTU)
     - id: c7xwxv1jzrc3
       name: Asia / Changsha, China - (CSX)
     - id: l5zhm3swysm9
