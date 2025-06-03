@@ -1,0 +1,12 @@
+version: incident/v1
+id: 7n9skl294kzf
+name: Private Datasource Connect - New Agents Failing To Get SSH Certificates Signed
+impact: major
+systems:
+    - hmyx8mtn3tjq
+timeline:
+    - ts: "2025-06-03 15:23:12"
+      description: |-
+        As of 13:34 UTC, our engineering team became aware of an issue with PDC Agents failing to get new SSH certificates signed. Existing PDC Agents will continue working until the connection is terminated.
+
+        Engineering has released a fix and as of 14:58, customers should no longer experience issues with new PDC Agent SSH certificates. We will continue to monitor for recurrence and provide updates accordingly.
