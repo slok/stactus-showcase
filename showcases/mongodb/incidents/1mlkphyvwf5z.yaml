@@ -1,0 +1,12 @@
+version: incident/v1
+id: 1mlkphyvwf5z
+name: 'MongoDB Atlas: Datadog metrics failed to import to EU region'
+impact: none
+systems: []
+timeline:
+    - ts: "2025-06-03 18:36:33"
+      description: |-
+        From approximately 13:40 to 17:20 UTC on 3 June 2025, MongoDB Atlas was unable to send metrics via Datadog's EU region for some Atlas Projects. Affected users may find gaps during this time in less than half of their metrics if they use Datadog's EU servers. These gaps will not be backfilled.
+
+        Cluster health was unaffected, however, alerts may have fired within Datadog – we do not have visibility to this.
+      resolved: true

@@ -1,0 +1,13 @@
+version: incident/v1
+id: 6wh8psm9nth3
+name: SMS Delivery Delays and Failures to Tigo in Honduras
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-06-03 18:31:40"
+      description: Our monitoring systems have detected a potential issue associated to SMS Delivery Delays and Failures to Tigo in Honduras. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-06-03 18:39:35"
+      description: We are experiencing SMS delivery delays and failures when sending messages to Tigo network in Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
