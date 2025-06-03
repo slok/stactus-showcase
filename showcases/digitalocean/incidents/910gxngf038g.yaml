@@ -18,3 +18,6 @@ timeline:
         Our Engineering team has now mitigated the issue that affected the DBaaS cluster logs and is currently being monitored. Users should no longer see 500 errors when attempting to retrieve the logs via the API. The "Recent Logs" section in the Logs & Queries tab of the UI should now display logs as expected.
 
         We are continuing to monitor the situation closely to ensure stability. Thank you for your patience during the process and we will provide a final update once we confirm the issue is fully resolved.
+    - ts: "2025-06-03 19:20:23"
+      description: "Our Engineering team has successfully resolved the issue that was impacting the DBaaS cluster logs. API responses should be successful without any error messages while retrieving logs, and the \"Recent Logs\" section is also working as expected. \n\nWe have continued to monitor the system and have observed stable performance. The issue is now fully resolved.\n\nThank you for your patience while we worked to address the issue. If you are still facing issues, please open a ticket from within your Cloud Control Panel for further review."
+      resolved: true
