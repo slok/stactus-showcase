@@ -1,0 +1,13 @@
+version: incident/v1
+id: lw2270xl7c3z
+name: Scheduled maintenance caused a temporary issue with logging in into Grafana Cloud stacks.
+impact: major
+systems: []
+timeline:
+    - ts: "2025-06-03 11:49:04"
+      description: |-
+        Due to scheduled maintenance (https://status.grafana.com/incidents/rz7nt6cs4prb) we hit an issue with some users being unable to log in into their Grafana Cloud stacks. The issue was affecting only users who:
+        - had no session already opened in the Grafana Cloud stack;
+        - or they were located close to Europe (geographically), but their stack is closer to US (or vice versa).
+        The issue was caused by an incorrect configuration introduced by the maintenance, which was fixed shortly after being discovered. Login is fully operational and stable now.
+      resolved: true
