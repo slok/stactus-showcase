@@ -24,3 +24,20 @@ timeline:
     - ts: "2025-05-28 21:50:15"
       description: This incident has been resolved.
       resolved: true
+    - ts: "2025-06-03 20:11:31"
+      description: |-
+        ### **Incident Summary**
+
+        Between May 28th 2024 16:00 UTC and May 28th 2024 19:36 UTC, emails were sent out to users on affected orgs notifying them that they have been moved into the locked status and users from all affected orgs were restricted from performing any actions on their organization.
+
+        ### **Root Cause**
+
+        The root cause of this incident was an outdated internal process was inadvertently re-enabled during a database migration.
+
+        ### **MongoDB Actions**
+
+        The MongoDB Atlas Billing team has deleted the outdated process and increased alerting on changes in dunning statuses.
+
+        ### **Recommended Customer Actions**
+
+        This issue was fully addressed by the MongoDB Atlas Billing team and does not require customer action.
