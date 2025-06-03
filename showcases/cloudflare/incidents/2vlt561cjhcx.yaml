@@ -1,0 +1,16 @@
+version: incident/v1
+id: 2vlt561cjhcx
+name: Cloudflare Access Require Gateway and WARP policy checks are intermittently failing for some users
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2025-06-03 22:25:30"
+      description: |-
+        Cloudflare Engineering is investigating an issue causing the Require Gateway and WARP device posture checks in Access to fail for some users. This issue is occurring intermittently and some users have been able to eventually access through retried logins.
+
+        All other components of Access policy enforcement are not impacted at this time.
+      investigating: true
+    - ts: "2025-06-03 22:33:37"
+      description: We have identified and applied an effective fix for this issue. This incident is now resolved.
+      resolved: true
