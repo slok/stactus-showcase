@@ -1,0 +1,9 @@
+version: incident/v1
+id: f5q22qrxfbpy
+name: 'Cloudflare Zero Trust: Gateway Issues'
+impact: minor
+systems:
+    - gyx2yygg7lmd
+timeline:
+    - ts: "2025-06-03 21:24:27"
+      description: Cloudflare is investigating issues with incorrect geolocation for a subset of IP ranges within Gateway. This may impact connectivity through Gateway for customers enforcing geolocation restrictions.
