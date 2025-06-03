@@ -1,9 +1,13 @@
 version: incident/v1
 id: 0708mqjj64cf
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Unified Profiles Degraded
+impact: minor
+systems:
+    - q4d7rj555ljl
 timeline:
     - ts: "2025-06-03 14:08:48"
       description: Our monitoring systems have detected a potential issue with Unified Profiles experience in Twilio console & Flex. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-06-03 14:27:40"
+      description: Our engineers have identified that events not syncing to downstream destinations, audiences not computing, and potential risks to ongoing customer engagements. And they are currently working to deploy a fix. We expect to provide another update in 15 minutes or as soon as more information becomes available.
       investigating: true
