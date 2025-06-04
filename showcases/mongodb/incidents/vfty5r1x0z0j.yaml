@@ -4,6 +4,9 @@ name: 'MongoDB Atlas: Cluster operation delays and UI timeouts'
 impact: critical
 systems:
     - 98lbmdz85yp0
+    - crrq7qqlqfsh
+    - lh7m7lhnf3rj
+    - prk6bb5j7h4l
 timeline:
     - ts: "2025-06-04 17:30:49"
       description: |-
@@ -23,5 +26,21 @@ timeline:
     - ts: "2025-06-04 19:44:50"
       description: |-
         We have identified that cloud.mongodb.com and all sub pages, including API endpoints, is down. Affected users may see timeouts, blank pages, or error pages from Cloud. This affects Cloud Manager as well.
+
+        Existing cluster health is unaffected.
+    - ts: "2025-06-04 20:06:56"
+      description: |-
+        We have identified that cloud.mongodb.com and all sub pages, including API endpoints, is down. Affected users may see timeouts, blank pages, or error pages from Cloud. This affects Cloud Manager as well.
+
+        Additionally Atlas Triggers, App Services, and Stream Processing are inactive at this time.
+
+        Existing cluster health is unaffected.
+    - ts: "2025-06-04 20:09:56"
+      description: |-
+        We have identified that cloud.mongodb.com and all sub pages, including API endpoints, is down. Affected users may see timeouts, blank pages, or error pages from Cloud. This affects Cloud Manager as well.
+
+        Additionally Atlas Triggers, App Services, and Stream Processing are inactive at this time.
+
+        Search index management and changes to Search Nodes are not being processed at this time. Existing search indexes are unaffected.
 
         Existing cluster health is unaffected.
