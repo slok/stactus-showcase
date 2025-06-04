@@ -1,0 +1,9 @@
+version: incident/v1
+id: mwd7k0btjwdw
+name: Elevated Latency For Some R2 Customers In ENAM
+impact: none
+systems: []
+timeline:
+    - ts: "2025-06-04 20:42:28"
+      description: Between 15:30-17:30 UTC some customers in the Eastern North America Region experienced elevated latency when accessing their R2 buckets. This has been resolved.
+      resolved: true
