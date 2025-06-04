@@ -1,0 +1,13 @@
+version: incident/v1
+id: 791gw81vhb9p
+name: Pages Builds Issues
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2025-06-04 19:38:52"
+      description: |-
+        Cloudflare is investigating an issue impacting a small subset of Pages builds where customers may be receiving internal errors at the end of their build.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true

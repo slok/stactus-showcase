@@ -1,7 +1,7 @@
 version: incident/v1
 id: vfty5r1x0z0j
 name: 'MongoDB Atlas: Cluster operation delays and UI timeouts'
-impact: minor
+impact: critical
 systems:
     - 98lbmdz85yp0
 timeline:
@@ -18,5 +18,10 @@ timeline:
     - ts: "2025-06-04 19:02:17"
       description: |-
         MongoDB Atlas cluster operations are delayed and the web UI is still experiencing delays and failures. Cloud Manager and the admin API for both Atlas and Cloud Manager may also be delayed.
+
+        Existing cluster health is unaffected.
+    - ts: "2025-06-04 19:44:50"
+      description: |-
+        We have identified that cloud.mongodb.com and all sub pages, including API endpoints, is down. Affected users may see timeouts, blank pages, or error pages from Cloud. This affects Cloud Manager as well.
 
         Existing cluster health is unaffected.
