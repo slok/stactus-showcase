@@ -14,5 +14,5 @@ timeline:
       description: Our team is continuing to work to mitigate the source of the disruption affecting a small set of customers using the GitHub Microsoft Teams integration.
       investigating: true
     - ts: "2025-05-30 15:57:06"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 30, 2025, between 08:10 UTC and 16:00 UTC, the Microsoft Teams GitHub integration service experienced a complete service outage. <br /><br />During this period, the service was unable to deliver notifications or process user requests, resulting in a 100% error rate for all integration functionality except link previews.<br /><br />This outage was due to an authentication issue with our downstream provider. We mitigated the incident by working with our provider to restore service functionality and are working to migrate to more durable authentication methods to reduce the risk of similar issues in the future.
       resolved: true
