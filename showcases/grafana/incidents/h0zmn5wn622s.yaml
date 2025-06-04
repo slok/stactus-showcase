@@ -1,0 +1,9 @@
+version: incident/v1
+id: h0zmn5wn622s
+name: Instances on the "Slow" Release Channel Receiving Unexpected Errors.
+impact: none
+systems: []
+timeline:
+    - ts: "2025-06-04 22:00:14"
+      description: At approximately 12:00 UTC a feature toggle was rolled out which negatively impacted instances on the slow release channel. Users on this release channel began to receive an "AlertStatesDataLayer" error. A workaround was quickly identified and applied to reporting users. The feature toggle in question was fully reverted by 18:00 UTC.
+      resolved: true
