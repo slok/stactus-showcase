@@ -1,0 +1,12 @@
+version: incident/v1
+id: vfty5r1x0z0j
+name: 'MongoDB Atlas: Cluster operation delays and UI timeouts'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-06-04 17:30:49"
+      description: |-
+        We have identified an issue with MongoDB Atlas cluster operations and the web UI. Affected users may see timeouts when accessing the control panel or delays in creating or modifying clusters.
+
+        Existing cluster health is unaffected.
