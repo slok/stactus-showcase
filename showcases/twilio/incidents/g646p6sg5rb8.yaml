@@ -3,8 +3,16 @@ id: g646p6sg5rb8
 name: Intermittent Account Security API Errors for Three UK
 impact: minor
 systems:
-    - 4rv9xfxmdjg9
+    - fsxs9n9yf4m7
+    - q0hp6vfr4vvh
+    - qt4vzyg2g7b4
 timeline:
     - ts: "2025-06-04 11:36:38"
       description: Our monitoring systems have detected a potential Intermittent Issue in Account Security API for Three UK . Our engineering team has been alerted and is actively investigating. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-06-04 12:36:07"
+      description: Our monitoring systems have detected a potential Intermittent Issue in Account Security API for Three UK . Our engineering team has been alerted and is actively investigating. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-06-04 12:49:00"
+      description: Upon further investigation, we have confirmed that Rest API is not affected by the ongoing incident. We are actively investigating the Intermittent Issue in Account Security API for Three UK and will provide another update as soon as possible.
       investigating: true
