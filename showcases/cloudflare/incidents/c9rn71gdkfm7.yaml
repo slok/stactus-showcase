@@ -1,0 +1,10 @@
+version: incident/v1
+id: c9rn71gdkfm7
+name: 'Cloudflare WARP: Issues connecting to MySQL'
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2025-06-04 08:13:33"
+      description: 'Cloudflare is investigating issues with WARP: Customers may experience errors when attempting to connect to MySQL instances. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.'
+      investigating: true
