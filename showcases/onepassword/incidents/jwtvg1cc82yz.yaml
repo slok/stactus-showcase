@@ -1,0 +1,23 @@
+version: incident/v1
+id: jwtvg1cc82yz
+name: Some users may experience degraded performance on 1Password.ca
+impact: minor
+systems:
+    - hcqxbc67ktwc
+    - bhm9mb16131r
+    - 5mb7qcyd6jtf
+    - 2pgpk5ny5rq5
+    - 7dxr866tjh70
+    - n6fq28slnzfs
+    - cnzy869d6qf1
+    - nz7h9pkyk9k9
+    - 4p0mdlpx000t
+    - dl3cq9fygnmj
+    - hrf7z97d0wll
+    - x7r75y6xt9dl
+    - tcjm3f6gplpq
+    - txr1bwd3rlvh
+    - f4pnnp38y8ls
+timeline:
+    - ts: "2025-06-04 00:50:31"
+      description: We are investigating degraded performance affecting loading on 1Password.ca. Requests are taking a long time to respond or timing out. Our team has deployed a fix and we are monitoring the results.
