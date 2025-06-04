@@ -1,0 +1,13 @@
+version: incident/v1
+id: v7vmwf4pyx6y
+name: Incident with Actions
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2025-06-04 15:15:00"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2025-06-04 15:19:45"
+      description: We are currently investigating delays with Actions triggering for some users.
+      investigating: true
