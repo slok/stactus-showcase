@@ -1,0 +1,9 @@
+version: incident/v1
+id: ckkl1cyw7cv1
+name: Subset of Conversational Messages failed with Invalid Validity Period (Twilio Error Code 21624 or 90007)
+impact: none
+systems: []
+timeline:
+    - ts: "2025-06-05 21:58:54"
+      description: On June 5, 2025 between 12:12 PM and 12:58 PM PST, customers using Conversational Messages may have seen an increase in failed messages due to Invalid Validity Period, resulting in Twilio error code 21624 for SMS messages or error code 90007 for other messaging channels. The issue has now been resolved.
+      resolved: true
