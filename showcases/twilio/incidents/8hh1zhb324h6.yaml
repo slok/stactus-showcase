@@ -1,9 +1,13 @@
 version: incident/v1
 id: 8hh1zhb324h6
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: High SMS Filtering Observed in USA to Verizon Wireless via Long Code Numbers
+impact: minor
+systems:
+    - 7d8w22hqrh6s
 timeline:
     - ts: "2025-06-05 16:33:02"
       description: Our monitoring systems have detected a potential issue with a significant spike in message filtering 30007 errors in United States. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-06-05 16:48:27"
+      description: We are aware of increased message filtering (30007 error) and delivery issues in United States towards Verizon Wireless. Our engineers are working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
