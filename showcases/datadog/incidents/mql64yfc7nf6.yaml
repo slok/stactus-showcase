@@ -1,0 +1,15 @@
+version: incident/v1
+id: mql64yfc7nf6
+name: Elevated error rates in queries across multiple products
+impact: major
+systems:
+    - r2djlrcw0d92
+    - 1w2mz2hzw0cz
+    - wb6d6tss5zph
+    - s66ymj7q3sdd
+timeline:
+    - ts: "2025-06-05 15:08:20"
+      description: We are actively investigating issues querying data affecting multiple products. As a result of this issue, there might be errors when trying to load data from queries on different pages of the web application or through the API.
+      investigating: true
+    - ts: "2025-06-05 15:18:10"
+      description: The issue has been identified and a fix is being implemented.
