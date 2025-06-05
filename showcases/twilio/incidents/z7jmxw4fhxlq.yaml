@@ -1,6 +1,6 @@
 version: incident/v1
 id: z7jmxw4fhxlq
-name: SMS Delivery Report Delays to Telstra in Australia
+name: SMS Delivery Report Delays To Telstra in Australia for a Subset of Alphanumeric Sender Ids
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -17,3 +17,5 @@ timeline:
     - ts: "2025-06-05 22:03:42"
       description: We are still experiencing SMS delivery report delays to Telstra in Australia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-06-05 22:14:40"
+      description: We have identified that the SMS delivery report delays to Telstra in Australia is affecting only a subset of Alphanumeric Sender IDs. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
