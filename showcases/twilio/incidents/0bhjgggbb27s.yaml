@@ -1,9 +1,15 @@
 version: incident/v1
 id: 0bhjgggbb27s
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Zipwhip - Interop Toll-Free and 10dlc MMS Traffic Failing
+impact: minor
+systems:
+    - llqd4rmn8k8y
+    - k7rg1rqk2nwk
+    - d1j2nx64rpq3
 timeline:
     - ts: "2025-06-05 15:26:51"
       description: Our monitoring systems have detected a potential issue with Toll Free and 10dlc MMS Traffic Failing Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-06-05 15:38:50"
+      description: We are experiencing MMS delivery failures in the United States via Toll Free and Long Codes. Our engineers are working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
