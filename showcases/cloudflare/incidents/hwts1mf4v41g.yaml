@@ -1,0 +1,19 @@
+version: incident/v1
+id: hwts1mf4v41g
+name: Issues with Newly Deployed Snippets
+impact: minor
+systems:
+    - 570kfpd0dgg7
+timeline:
+    - ts: "2025-06-05 20:58:18"
+      description: |-
+        We’ve identified an issue where newly deployed Snippets may not execute correctly at the edge. In some cases, this can result in exceptions being served to end users.
+
+        Snippets that were deployed prior to this incident continue to function normally, and there is no impact to the control plane, dashboard, or API.
+
+        We are actively investigating and working on a fix. As a temporary precaution, we recommend postponing critical production changes involving new Snippet deployments.
+
+        We will provide updates as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-06-05 21:02:13"
+      description: The issue has been identified and a fix is being implemented.
