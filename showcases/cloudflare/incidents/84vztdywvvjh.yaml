@@ -1,0 +1,9 @@
+version: incident/v1
+id: 84vztdywvvjh
+name: Realtime STUN/TURN outage
+impact: critical
+systems:
+    - 5s616lljfwdz
+timeline:
+    - ts: "2025-06-05 22:38:22"
+      description: Cloudflare is experiencing issues with its Realtime STUN and TURN services. We are working to mitigate.
