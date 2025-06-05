@@ -1,0 +1,20 @@
+version: incident/v1
+id: ry1gsyjqj4qh
+name: Incident with Actions
+impact: major
+systems:
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2025-06-05 18:00:30"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2025-06-05 18:01:13"
+      description: Pages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-06-05 18:30:08"
+      description: Users of Actions will see delays in jobs starting or job failures. Users of Pages will see slow or failed deployments
+      investigating: true
+    - ts: "2025-06-05 18:35:54"
+      description: Actions is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
