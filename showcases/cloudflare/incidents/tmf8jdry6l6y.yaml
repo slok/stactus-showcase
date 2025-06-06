@@ -1,0 +1,12 @@
+version: incident/v1
+id: tmf8jdry6l6y
+name: 'Cloudflare Zero Trust: Gateway and WARP Issues in Luxembourg (LUX)'
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-06-06 15:49:07"
+      description: |-
+        Cloudflare was aware of and investigated increased connection timeouts for Zero Trust Gateway and WARP in Luxembourg (LUX).
+
+        This issue has been resolved at 15:42 UTC.
+      resolved: true
