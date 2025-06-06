@@ -1,0 +1,10 @@
+version: incident/v1
+id: 88crw747bq5f
+name: 'MongoDB Support for Atlas for Government: New users not able to create cases'
+impact: minor
+systems:
+    - kb8k7qml7npt
+    - q57ng8brt2td
+timeline:
+    - ts: "2025-06-06 17:44:04"
+      description: We have identified an issue preventing newly-added users (users added since approximately 1400 UTC 6 June 2025) to MongoDB Atlas for Government projects from creating, modifying, or viewing support cases. Affected users will get various authorization failed errors. We encourage them to contact their colleagues to file cases on their behalf.
