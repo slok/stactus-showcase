@@ -15,5 +15,5 @@ timeline:
       description: We have applied mitigations and are monitoring for recovery.
       investigating: true
     - ts: "2025-06-04 15:55:34"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On June 4, 2025, between 14:35 UTC and 15:50 UTC , the Actions service experienced degradation, leading to run start delays. During the incident, about 15.4% of all workflow runs were delayed by an average of 16 minutes. An unexpected load pattern revealed a scaling issue in our backend infrastructure. We mitigated the incident by blocking the requests that triggered this pattern.  <br /><br />We are improving our rate limiting mechanisms to better handle unexpected load patterns while maintaining service availability. We are also strengthening our incident response procedures to reduce the time to mitigate for similar issues in the future.
       resolved: true
