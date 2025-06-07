@@ -1,0 +1,13 @@
+version: incident/v1
+id: 6lc72tb0htb4
+name: Cloudflare Workers AI Issues
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2025-06-07 13:38:00"
+      description: |-
+        Cloudflare has identified an issue whereby customers might experience increased errors from inference requests to @cf/meta/llama-3.3-70b-instruct-fp8-fast Workers AI.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
