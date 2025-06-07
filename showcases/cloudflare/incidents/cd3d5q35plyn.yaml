@@ -1,0 +1,13 @@
+version: incident/v1
+id: cd3d5q35plyn
+name: Possible Network Congestion in Hong Kong
+impact: minor
+systems:
+    - wf2gdmxg7cv3
+timeline:
+    - ts: "2025-06-07 07:37:10"
+      description: |-
+        Cloudflare is observing possible network congestion in Hong Kong.
+
+        We are working to mitigate impact to Internet users in this region.
+      investigating: true
