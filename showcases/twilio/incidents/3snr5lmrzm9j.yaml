@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3snr5lmrzm9j
+name: MMS Delivery Delays To Verizon Wireless Network in USA Via A Subset Of Longcodes
+impact: minor
+systems:
+    - d1j2nx64rpq3
+timeline:
+    - ts: "2025-06-08 15:29:58"
+      description: We are experiencing MMS delivery delays when sending messages to the Verizon Wireless Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
