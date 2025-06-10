@@ -1,0 +1,14 @@
+version: incident/v1
+id: 5g8smlrj5ynp
+name: Incident With Copilot
+impact: none
+systems: []
+timeline:
+    - ts: "2025-06-10 18:23:50"
+      description: |-
+        On June 6, 2025, an update to mitigate a previous incident led to automated scaling of database infrastructure used by Copilot Coding Agent. The clients of the service were not implemented to automatically handle an extra partition. Hence it was unable to retrieve data across partitions, resulting in unexpected 404 errors.
+
+        As a result, approximately 17% of coding sessions displayed an incorrect final state - such as sessions appearing in-progress when they were actually completed. Additionally, some Copilot-authored pull requests were missing timeline events indicating task completion. Importantly, this did not affect Copilot Coding Agent’s ability to finish code tasks and submit pull requests.
+
+        To prevent similar issues in the future we are taking steps to improve our systems and monitoring.
+      resolved: true
