@@ -22,5 +22,5 @@ timeline:
       description: We have applied a mitigation and we are beginning to see recovery. We are continuing to monitor for recovery.
       investigating: true
     - ts: "2025-06-05 19:29:07"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On June 5th, 2025, between 17:47 UTC and 19:20 UTC the Actions service was degraded, leading to run start delays and intermittent job failures. During this period, 47.2% of runs had delayed starts, and 21.0% of runs failed. The impact extended beyond Actions itself - 60% of Copilot Coding Agent sessions were cancelled, and all Pages sites using branch-based builds failed to deploy (though Pages serving remained unaffected). The issue was caused by a spike in load between internal Actions services exposing a misconfiguration that caused throttling of requests in the critical path of run starts. We mitigated the incident by correcting the service configuration to prevent throttling and have updated our deployment process to ensure the correct configuration is preserved moving forward.
       resolved: true
