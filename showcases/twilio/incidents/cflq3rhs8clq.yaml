@@ -1,0 +1,13 @@
+version: incident/v1
+id: cflq3rhs8clq
+name: Voice Intelligence is Degraded
+impact: minor
+systems:
+    - qphgn531prd5
+timeline:
+    - ts: "2025-06-10 12:43:07"
+      description: Our monitoring systems have detected a potential issue Programmable Voice - Intelligence. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-06-10 12:45:09"
+      description: We are currently investigating an issue impacting Language Operators powered by OpenAI within our Voice Intelligence product. Customers using Language Operators powered by OpenAI may see delays in their Transcripts and Language Operator results being available. Our engineering teams are working on resolving the issue, and we will provide another update in the next 1 hour or as soon as more information becomes available.
+      investigating: true
