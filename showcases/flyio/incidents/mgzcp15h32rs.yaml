@@ -1,0 +1,13 @@
+version: incident/v1
+id: mgzcp15h32rs
+name: Network issues in LHR
+impact: major
+systems:
+    - 1t3gcxv2hd88
+timeline:
+    - ts: "2025-06-10 10:56:23"
+      description: We are observing network issues in LHR region. Apps continue to run, but may have network issues, and deploying/updating apps may fail.
+      investigating: true
+    - ts: "2025-06-10 11:05:06"
+      description: This incident has been resolved.
+      resolved: true
