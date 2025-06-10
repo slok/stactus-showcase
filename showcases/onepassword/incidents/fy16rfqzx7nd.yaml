@@ -1,9 +1,16 @@
 version: incident/v1
 id: fy16rfqzx7nd
 name: Kolide is experiencing issues
-impact: none
+impact: major
 systems: []
 timeline:
     - ts: "2025-06-10 12:30:08"
       description: Kolide is experiencing some issues. Please refer to https://www.kolidestatus.com/ for more information and updates.
+      investigating: true
+    - ts: "2025-06-10 14:45:23"
+      description: |-
+        To reduce the impact on this incident, Kolide has enabled a capability called "auto-snooze" across our customers.
+        If auth takes more than 60 seconds (due to waiting for rechecks / or check data not updating) Kolide will allow the auth to proceed and note the snooze occurred in the auth logs.
+        This will immediately allow end-users stuck in the auth to successfully authenticate.
+        Once this incident is mitigated, we will turn off this feature for the organizations we enabled it for and allow customers to opt-in this behavior in a future update to the admin panel.
       investigating: true
