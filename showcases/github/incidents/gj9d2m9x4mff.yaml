@@ -16,3 +16,6 @@ timeline:
     - ts: "2025-06-10 20:09:06"
       description: The mitigation to add a supporting index to improve the performance of the People page did not resolve the issue, and we are continuing to investigate a solution.
       investigating: true
+    - ts: "2025-06-10 21:04:01"
+      description: We have identified the solution to the performance issue and are working on the mitigation. Impact continues to be limited to very large enterprise customers when viewing the People page.
+      investigating: true
