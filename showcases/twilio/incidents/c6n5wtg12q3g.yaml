@@ -1,9 +1,13 @@
 version: incident/v1
 id: c6n5wtg12q3g
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Flex Agent Copilot is Degraded
+impact: minor
+systems:
+    - vw9w2zyv9nk5
 timeline:
     - ts: "2025-06-10 11:34:13"
       description: Our monitoring systems have detected a potential issue in relation to the Flex AI. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-06-10 12:17:51"
+      description: We are currently investigating an issue impacting the  Flex Agent Copilot features like Wrap-up Notes, KB Assist, etc. Our engineering teams are working on resolving the issue, and we will provide another update in the next 1 hour or as soon as more information becomes available.
       investigating: true
