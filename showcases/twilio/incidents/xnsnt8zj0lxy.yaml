@@ -1,6 +1,6 @@
 version: incident/v1
 id: xnsnt8zj0lxy
-name: Increased latency in delivering events through Event Streams due to network failures.
+name: Increased Latency in Delivering Events Through Event Streams Due to Network Failures.
 impact: minor
 systems:
     - zxhmy448yyn3
@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-06-10 15:21:56"
       description: We are investigating delays in event delivery through Event Streams of more than 15 minutes. We expect to provide another update in 1 hour or as soon as more information becomes available
       investigating: true
+    - ts: "2025-06-10 16:20:13"
+      description: Event Streams event delivery is now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.
