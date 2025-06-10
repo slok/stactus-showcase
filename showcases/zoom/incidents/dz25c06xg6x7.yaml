@@ -1,0 +1,9 @@
+version: incident/v1
+id: dz25c06xg6x7
+name: A subset of customers in Europe experienced issue with live transcription and call summary in ZCC
+impact: none
+systems: []
+timeline:
+    - ts: "2025-06-10 04:40:01"
+      description: Between 06/09 07:14 UTC and 16:03 UTC, a subset of customers in the Europe region using live transcription and call summary experienced a blank response when selecting English(UK) in the ZCC flow entry point. We have identified and resolved the issue.
+      resolved: true
