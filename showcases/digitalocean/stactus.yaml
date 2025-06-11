@@ -64,26 +64,16 @@ systems:
       name: VPC / AMS2
     - id: ld7120hh6877
       name: Functions / AMS3
-    - id: 2m55tfz8n656
-      name: GPU Droplets / NYC2
-    - id: 1c2vrfy9qbvv
-      name: App Platform / Bangalore
+    - id: cxxt9nh9v10h
+      name: GPU Droplets / ATL1
     - id: 9q2dq7jc5bk9
       name: Droplets / AMS3
     - id: nz589c69ymyy
       name: Event Processing / AMS3
-    - id: tzjfd82zn341
-      name: Kubernetes / BLR1
     - id: k3lz9cdfxr5h
       name: Load Balancers / AMS3
-    - id: 66wjtpd8ngvx
-      name: Spaces / FRA1
-    - id: gpcbys3n2v21
-      name: Spaces CDN / FRA1
     - id: 8lq3tm0cbjbs
       name: Functions / BLR1
-    - id: ttltt91ldz3g
-      name: Managed Databases / BLR1
     - id: 4q7lkrddxdnn
       name: Networking / AMS3
     - id: m0tnfvx7md2x
@@ -94,46 +84,84 @@ systems:
       name: Cloud Control Panel
     - id: p2nsvdxf7vjp
       name: Volumes / AMS3
-    - id: r5sr0pyxn1kb
-      name: GPU Droplets / TOR1
+    - id: 2m55tfz8n656
+      name: GPU Droplets / NYC2
     - id: ggjq7y0mqt4y
       name: Container Registry / BLR1
+    - id: 8hcqp0f8fd7r
+      name: Spaces / ATL1
+    - id: h1pgtp83tw7t
+      name: Kubernetes / ATL1
+    - id: kdx5m5498vxc
+      name: Managed Databases / ATL1
+    - id: yttvl43dvw9z
+      name: Spaces CDN / ATL1
+    - id: vfhgr4fby7s3
+      name: App Platform / Atlanta
+    - id: 1c2vrfy9qbvv
+      name: App Platform / Bangalore
+    - id: sk01cyydqy7b
+      name: Container Registry / FRA1
+    - id: tzjfd82zn341
+      name: Kubernetes / BLR1
+    - id: gpcbys3n2v21
+      name: Spaces CDN / FRA1
+    - id: pxjg9r3mkxn7
+      name: Functions / FRA1
+    - id: ttltt91ldz3g
+      name: Managed Databases / BLR1
+    - id: pg9zc33244c7
+      name: Cloud Firewall
+    - id: b44h3yhj3jy5
+      name: Spaces / BLR1
+    - id: r5sr0pyxn1kb
+      name: GPU Droplets / TOR1
+    - id: 9ysykpzcncd8
+      name: Droplets / ATL1
+    - id: pgz01c7vwjmh
+      name: Load Balancers / ATL1
+    - id: 04807xw520nd
+      name: Event Processing / ATL1
+    - id: 6w3mb763f7hx
+      name: Networking / ATL1
+    - id: 361ycvhgf2t4
+      name: Monitoring / ATL1
+    - id: 395bzd7209ml
+      name: Volumes / ATL1
+    - id: 30f69kx2hvgr
+      name: VPC / ATL1
     - id: ttzvwy2wf0k3
       name: App Platform / Frankfurt
     - id: 6xz356g340vj
       name: Volumes / BLR1
     - id: 5wjrpc0lf1qc
       name: Droplets / BLR1
-    - id: sk01cyydqy7b
-      name: Container Registry / FRA1
+    - id: hnqx47tg75cw
+      name: Container Registry / NYC3
     - id: ytggjm2hdb5y
       name: Event Processing / BLR1
     - id: 566bp0vk7mwx
       name: Kubernetes / FRA1
     - id: 76vqxw3xnwh9
       name: Load Balancers / BLR1
-    - id: tz43j53blsmy
-      name: Spaces / NYC3
+    - id: 66wjtpd8ngvx
+      name: Spaces / FRA1
     - id: bkv5k5hnlg3q
       name: Monitoring / BLR1
+    - id: t5yvzbwj9snn
+      name: Functions / LON1
     - id: ydgcz5twlr1m
       name: Spaces CDN / NYC3
     - id: l8lxzfpgpc39
       name: Managed Databases / FRA1
-    - id: pxjg9r3mkxn7
-      name: Functions / FRA1
     - id: x111j8zrmwrd
       name: VPC / BLR1
     - id: lmgn764lq04q
       name: Networking / BLR1
-    - id: pg9zc33244c7
-      name: Cloud Firewall
-    - id: cxxt9nh9v10h
-      name: GPU Droplets / ATL1
+    - id: 2p17zg8kmsyc
+      name: Community
     - id: 56cjsvgf3vk4
       name: App Platform / London
-    - id: hnqx47tg75cw
-      name: Container Registry / NYC3
     - id: kkg2cfkqkwj1
       name: Droplets / FRA1
     - id: dzbtk2fkytv5
@@ -142,26 +170,30 @@ systems:
       name: Kubernetes / LON1
     - id: 2tfqdy27151t
       name: Load Balancers / FRA1
+    - id: tz43j53blsmy
+      name: Spaces / NYC3
     - id: jd3kx416ss80
       name: VPC / FRA1
     - id: tf7m45473hzd
       name: Monitoring / FRA1
-    - id: t5yvzbwj9snn
-      name: Functions / LON1
     - id: 7f592f0nhxhs
       name: Networking / FRA1
     - id: 79j9sw2l27cv
       name: Managed Databases / LON1
     - id: 5108wr792q5m
       name: Spaces CDN / SFO3
+    - id: py0tr7dkb36t
+      name: Functions / NYC1
     - id: 8zd85sg0nhnc
       name: Volumes / FRA1
-    - id: 2p17zg8kmsyc
-      name: Community
-    - id: w4m98sdz3szn
-      name: Spaces / SFO2
+    - id: qdnryq0lymfk
+      name: DNS
+    - id: 8pntc51v5prb
+      name: Container Registry / SFO2
     - id: ffghd7w93zbw
       name: Volumes / LON1
+    - id: zfnbgvbvc6bd
+      name: Container Registry / SFO3
     - id: btv040v4xbdn
       name: Droplets / LON1
     - id: 062037558j7d
@@ -172,60 +204,58 @@ systems:
       name: Load Balancers / LON1
     - id: chy7qdrqy3tn
       name: Monitoring / LON1
-    - id: lf2rrgctn54t
-      name: Spaces / SFO3
     - id: vsnnjcmt3dhg
       name: VPC / LON1
     - id: rwfv6j4jpn2y
       name: Networking / LON1
     - id: 23yr3tv35ld7
       name: Spaces CDN / SGP1
+    - id: d1cvx1qj7f1n
+      name: Functions / SFO3
     - id: d2m7jh32j7z1
       name: Managed Databases / NYC1
-    - id: py0tr7dkb36t
-      name: Functions / NYC1
-    - id: qdnryq0lymfk
-      name: DNS
+    - id: hklgsphcrjq4
+      name: Support Center
     - id: fkf61qj12vby
       name: App Platform / New York
-    - id: 8pntc51v5prb
-      name: Container Registry / SFO2
+    - id: w4m98sdz3szn
+      name: Spaces / SFO2
     - id: p4l05gv4bg18
       name: Volumes / NYC1
     - id: dn73yck15rk9
       name: App Platform / San Francisco
-    - id: zfnbgvbvc6bd
-      name: Container Registry / SFO3
     - id: fb63qt9f69m0
       name: Droplets / NYC1
+    - id: k3xwyjfy34vw
+      name: Container Registry / SGP1
     - id: t2sr3808q4ry
       name: Event Processing / NYC1
     - id: dzkmyxfh1rf0
       name: Kubernetes / NYC3
     - id: 2vpzq3ytx996
       name: Load Balancers / NYC1
+    - id: lf2rrgctn54t
+      name: Spaces / SFO3
     - id: kgt6s4ckl9fh
       name: Monitoring / NYC1
-    - id: rf1h8gfz4ts6
-      name: Spaces / SGP1
     - id: vzxxv27h45m4
       name: Managed Databases / NYC2
-    - id: d1cvx1qj7f1n
-      name: Functions / SFO3
+    - id: snksf5q3gbx9
+      name: Functions / SGP1
     - id: mv6lb3084t43
       name: Spaces CDN / SYD1
     - id: dhcf7lpc5q3z
       name: Networking / NYC1
     - id: tvs6bwzfdc2j
       name: VPC / NYC1
-    - id: hklgsphcrjq4
-      name: Support Center
+    - id: yvh4g97h7mk7
+      name: Reserved IP
     - id: m9ky4d5d3q4g
       name: App Platform / Singapore
     - id: hlr2gdtmpmxs
       name: Volumes / NYC2
-    - id: k3xwyjfy34vw
-      name: Container Registry / SGP1
+    - id: 7z4k9k6wgbsq
+      name: Container Registry / SYD1
     - id: 9czvz44l7dp3
       name: Droplets / NYC2
     - id: f61lqt7r9fg5
@@ -236,26 +266,22 @@ systems:
       name: Monitoring / NYC2
     - id: r2cw20w0r9zx
       name: Networking / NYC2
-    - id: bpchszdrvvc5
-      name: Spaces / SYD1
+    - id: rf1h8gfz4ts6
+      name: Spaces / SGP1
     - id: rpk174pnyr42
       name: VPC / NYC2
     - id: gt78t0v1dx9k
       name: Managed Databases / NYC3
-    - id: snksf5q3gbx9
-      name: Functions / SGP1
-    - id: yvh4g97h7mk7
-      name: Reserved IP
+    - id: rm6mtm25jj2d
+      name: Functions / SYD1
+    - id: 30fq20d840t8
+      name: WWW
     - id: 83tzdysp693h
       name: Kubernetes / SFO2
-    - id: yttvl43dvw9z
-      name: Spaces CDN / ATL1
     - id: sz7nt917qrd8
       name: App Platform / Sydney
     - id: fkzl92xwpwc9
       name: Volumes / NYC3
-    - id: 7z4k9k6wgbsq
-      name: Container Registry / SYD1
     - id: mrdxgk8b9l9m
       name: Droplets / NYC3
     - id: ty601myjf6cj
@@ -264,28 +290,26 @@ systems:
       name: Kubernetes / SFO3
     - id: x94k17yvyvj7
       name: Load Balancers / NYC3
+    - id: bpchszdrvvc5
+      name: Spaces / SYD1
     - id: 4945q9my8ycl
       name: VPC / NYC3
     - id: grxx637rqt5r
       name: Monitoring / NYC3
+    - id: d3j48w1r55sx
+      name: Functions / TOR1
     - id: 4lc0zwg56npx
       name: Networking / NYC3
-    - id: rm6mtm25jj2d
-      name: Functions / SYD1
-    - id: 30fq20d840t8
-      name: WWW
     - id: qkrqphz8r8d0
       name: Managed Databases / SFO2
-    - id: b44h3yhj3jy5
-      name: Spaces / BLR1
+    - id: br95fz33h6td
+      name: GenAI Platform
     - id: wzgnsrflzlr5
       name: App Platform / Toronto
     - id: 2d91fg0js59k
       name: Kubernetes / SGP1
     - id: sr3cry87tnkr
       name: Monitoring / SGP1
-    - id: d3j48w1r55sx
-      name: Functions / TOR1
     - id: 2cvhn89gxfk8
       name: Managed Databases / SFO3
     - id: btbzvrcdfjb3
@@ -300,10 +324,6 @@ systems:
       name: Droplets / SFO1
     - id: txy6938s4dhq
       name: Event Processing / SFO1
-    - id: br95fz33h6td
-      name: GenAI Platform
-    - id: 8hcqp0f8fd7r
-      name: Spaces / ATL1
     - id: q9wrfk6yn5m8
       name: Kubernetes / SYD1
     - id: 29xvj6jck5fm
@@ -356,8 +376,6 @@ systems:
       name: Managed Databases / TOR1
     - id: w2pchvqc4918
       name: Monitoring / SFO3
-    - id: h1pgtp83tw7t
-      name: Kubernetes / ATL1
     - id: 4q7xqwryx8rd
       name: Volumes / SYD1
     - id: fp3yv6vdqkxt
@@ -372,8 +390,6 @@ systems:
       name: VPC / SYD1
     - id: pg1cc9tbfdlg
       name: Monitoring / SYD1
-    - id: kdx5m5498vxc
-      name: Managed Databases / ATL1
     - id: 1ftd3qnspsx6
       name: Volumes / TOR1
     - id: h4ktbyxsxssg
@@ -388,13 +404,3 @@ systems:
       name: VPC / TOR1
     - id: 3k1h85kh76zy
       name: Load Balancers / TOR1
-    - id: 9ysykpzcncd8
-      name: Droplets / ATL1
-    - id: pgz01c7vwjmh
-      name: Load Balancers / ATL1
-    - id: 04807xw520nd
-      name: Event Processing / ATL1
-    - id: 6w3mb763f7hx
-      name: Networking / ATL1
-    - id: 361ycvhgf2t4
-      name: Monitoring / ATL1
