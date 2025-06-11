@@ -1,0 +1,10 @@
+version: incident/v1
+id: 42z27mvkxlbj
+name: Increased Latency in Delivering Events Through Event Streams Due to Network Failures
+impact: minor
+systems:
+    - zxhmy448yyn3
+timeline:
+    - ts: "2025-06-11 12:59:37"
+      description: We are investigating delays in event delivery through Event Streams of more than 15 minutes. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
