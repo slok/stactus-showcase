@@ -1,0 +1,9 @@
+version: incident/v1
+id: 23527pw9vwq0
+name: Overly frequent maintenance notifications
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-06-11 20:22:10"
+      description: We've identified an issue where the system will send maintenance notifications too frequently.  Cluster health is unaffected.  We're actively working to remediate the situation
