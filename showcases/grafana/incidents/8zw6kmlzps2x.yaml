@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8zw6kmlzps2x
+name: Loki - Slow Queries
+impact: minor
+systems:
+    - 2lyhl59mn4dl
+timeline:
+    - ts: "2025-06-11 20:32:16"
+      description: |-
+        As of 20:23 UTC, we became aware of an issue with Loki query speeds. Users experiencing this issue may encounter slow query speeds for logs. Write performance should not be affected.
+
+        Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
+      investigating: true
