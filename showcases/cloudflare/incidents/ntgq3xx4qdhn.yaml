@@ -3,6 +3,7 @@ id: ntgq3xx4qdhn
 name: WARP connectivity
 impact: minor
 systems:
+    - 5141vc6fcrgp
     - k04jkcpzxn94
 timeline:
     - ts: "2025-06-11 04:31:30"
@@ -11,3 +12,5 @@ timeline:
     - ts: "2025-06-11 09:51:22"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-06-11 10:58:44"
+      description: We have identified that the issue is restricted to our YVR colo (Vancouver, BC, Canada), and currently working on mitigation.
