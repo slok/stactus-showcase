@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2025-06-11 20:22:10"
       description: We've identified an issue where the system will send maintenance notifications too frequently.  Cluster health is unaffected.  We're actively working to remediate the situation
+    - ts: "2025-06-11 21:46:12"
+      description: We have remediated the issue causing overly frequent maintenance notifications.
+      resolved: true
