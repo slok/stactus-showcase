@@ -1,0 +1,13 @@
+version: incident/v1
+id: k5t0qw5xvz8c
+name: Flex Plugins CLI is Unable to Deploy Flex Plugins
+impact: minor
+systems:
+    - z6wf7g459vzh
+timeline:
+    - ts: "2025-06-11 13:30:42"
+      description: Our monitoring systems have detected a potential issue with Flex Plugins CLI. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-06-11 13:36:24"
+      description: We continue investigating an issue where Flex Plugins CLI is unable to deploy plugins in Flex. Our engineering team has been alerted and is actively investigating. We will provide an update in 1 hour or as soon as we have more information.
+      investigating: true
