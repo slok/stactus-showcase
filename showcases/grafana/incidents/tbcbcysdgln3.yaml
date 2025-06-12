@@ -150,3 +150,6 @@ timeline:
     - ts: "2025-06-12 19:54:31"
       description: Our CDN provider, Fastly, is also impacted by the GCP outage, and this prevents the loading of all of the static files required. Users already logged in and with locally cached assets are unaffected.
       investigating: true
+    - ts: "2025-06-12 20:17:23"
+      description: The scope of this incident may be affecting all components in Grafana Cloud regardless of deployment region. This includes Alerting amongst all other products.
+      investigating: true
