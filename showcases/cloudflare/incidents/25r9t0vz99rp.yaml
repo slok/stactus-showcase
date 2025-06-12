@@ -1,0 +1,16 @@
+version: incident/v1
+id: 25r9t0vz99rp
+name: Cloudflare Access authentication failures and WARP connectivity issues
+impact: critical
+systems:
+    - w4k8yvhfb3vp
+    - 3sq3s4d20ywk
+    - 9c7cbxnhk1dq
+    - k04jkcpzxn94
+timeline:
+    - ts: "2025-06-12 18:19:49"
+      description: Cloudflare engineering is investigating an issue causing Access authentication to fail. Cloudflare Zero Trust WARP connectivity is also impacted.
+      investigating: true
+    - ts: "2025-06-12 18:20:43"
+      description: We are continuing to investigate this issue.
+      investigating: true
