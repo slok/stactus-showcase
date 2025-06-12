@@ -88,3 +88,6 @@ timeline:
       description: Cloudflare services are recovering quickly around the globe. WARP and Turnstile are operational, though a small residual impact remains and we’re working to eliminate it. The core KV service is restored, bringing dependent products back online. We expect further recovery over the next few minutes and a steady drop in impact.
     - ts: "2025-06-12 20:57:51"
       description: All Cloudflare services have been restored and are now fully operational. We are moving the incident to Monitoring while we watch platform metrics to confirm sustained stability.
+    - ts: "2025-06-12 21:31:36"
+      description: This incident has been resolved.
+      resolved: true
