@@ -1,6 +1,6 @@
 version: incident/v1
 id: tbcbcysdgln3
-name: GCP - Major Incident Affecting Multiple Grafana Cloud Components
+name: Major GCP Incident Affecting Multiple Grafana Cloud Components (Including AWS and Azure deployed Instances)
 impact: critical
 systems:
     - z5ysrlvblv9t
@@ -146,4 +146,7 @@ timeline:
       investigating: true
     - ts: "2025-06-12 18:56:03"
       description: After initial investigation, the scope of this issue may lead to users experiencing degraded performance across all of Grafana Cloud products.
+      investigating: true
+    - ts: "2025-06-12 19:54:31"
+      description: Our CDN provider, Fastly, is also impacted by the GCP outage, and this prevents the loading of all of the static files required. Users already logged in and with locally cached assets are unaffected.
       investigating: true

@@ -65,3 +65,22 @@ timeline:
       investigating: true
     - ts: "2025-06-12 19:12:36"
       description: We are starting to see services recover. We still expect to see intermittent errors across the impacted services as systems handle retried and caches are filled.
+    - ts: "2025-06-12 19:57:23"
+      description: |-
+        Cloudflare’s critical Workers KV service went offline due to an outage of a 3rd party service that is a key dependency. As a result, certain Cloudflare products that rely on KV service to store and disseminate information are unavailable including:
+
+        Access
+        WARP
+        Browser Isolation
+        Browser Rendering
+        Durable Objects (SQLite backed Durable Objects only)
+        Workers KV
+        Realtime
+        Workers AI
+        Stream
+        Parts of the Cloudflare dashboard
+        Turnstile
+        AI Gateway
+        AutoRAG
+
+        Cloudflare engineers are working to restore services immediately. We are aware of the deep impact this outage has caused and are working with all hands on deck to restore all services as quickly as possible.
