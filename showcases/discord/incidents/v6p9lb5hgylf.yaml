@@ -1,10 +1,13 @@
 version: incident/v1
 id: v6p9lb5hgylf
-name: Attachments and embeds broken
+name: Attachments, embeds and activities broken
 impact: major
 systems:
     - rhznvxg4v7yh
 timeline:
     - ts: "2025-06-12 18:02:01"
       description: We are investigating an issue with attachments and embeds not being rendered in the app.
+      investigating: true
+    - ts: "2025-06-12 18:29:00"
+      description: We are continuing to investigate and work with our providers to resolve this issue. It is likely impacting a few more features like activities.
       investigating: true

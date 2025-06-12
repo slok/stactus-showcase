@@ -5,6 +5,7 @@ impact: minor
 systems:
     - 361mb56zmf8z
     - s91kksd3hqjp
+    - jdtgrvyw6w5z
 timeline:
     - ts: "2025-06-12 18:09:56"
       description: Our monitoring systems have detected a potential issue affected Play and Gather. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
@@ -13,5 +14,8 @@ timeline:
       description: We are investigating a vendor service degradation with Virtual Agent (DialogFlow) in US East and <Gather> speech in all regions. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2025-06-12 18:20:18"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-06-12 18:27:06"
       description: We are continuing to investigate this issue.
       investigating: true

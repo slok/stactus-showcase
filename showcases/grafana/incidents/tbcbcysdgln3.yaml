@@ -1,0 +1,70 @@
+version: incident/v1
+id: tbcbcysdgln3
+name: GCP - Major Incident Affecting Multiple Grafana Cloud Components
+impact: critical
+systems:
+    - z5ysrlvblv9t
+    - sbf1gr3mlx56
+    - fkc5ms404dsj
+    - d6hp5brmvsbt
+    - rwvs9fvrnhp2
+    - p6ddfyqcd7wx
+    - sc8qqdx6j1h5
+    - 9d1m7nk72ktm
+    - x40g7bxm0q2d
+    - c66zgq8xld33
+    - f1bqk70dgsn3
+    - v3g3j6krw8rp
+    - gp2m13gyj6x2
+    - kw9wxv34yw80
+    - 780v8cn3rkzd
+    - 662yyglvgqpm
+    - bh5f9ggjnj60
+    - v60p22nl676w
+    - l72f5c7651n5
+    - 54tht9mpb5sk
+    - yt6pjkj14lvk
+    - 98skfgrdgchf
+    - qqj6ssvvsqmq
+    - m7cr9xxllhpn
+    - jky8f03q6zfj
+    - 2yn7w8rnphcp
+    - y4w38klthkcm
+    - vc52wtjdh6db
+    - 9rtx96d2z01z
+    - d2vdtkjjdzjy
+    - 1c0xjffzwghy
+    - ly7gqcr2bm3m
+    - lr4wf5bv4lk1
+    - b74p2737fm3r
+    - szkwf5rlkrxq
+    - 24jq47r3m6gj
+    - 5dvwqvtb0t84
+    - 993qpty6gv9f
+    - jhc34sjt42wd
+    - 1tt4gx4t4q87
+    - qnthhwhwm4lt
+    - 80zb3lxqcxvk
+    - 2yrrwn80wqf9
+    - b9t8x3b43vyr
+    - wy292mxvxhxv
+    - rzzvpv70t4nj
+    - z2x4pmp3hqq2
+    - jc8jdgzs32sj
+    - d6160xg7kdx3
+    - d8jx77r80mb4
+    - jn3knsdtkxky
+    - 4drvmsz6yhjj
+    - f31l4xz41q8t
+    - 9mzvpj5nz0k1
+    - x1by88b7wf03
+    - kyyy438yhc9h
+    - t9ytx3trjw7h
+    - 76gd22w5ys6c
+    - 9xz0880z67zl
+    - t7pbglh025rz
+    - p1qsknnnbdqn
+timeline:
+    - ts: "2025-06-12 18:36:36"
+      description: "As of 17:55 UTC, we were alerted a significant outage involving one of our cloud providers. Users experiencing this issue may encounter inability to query or ingest data for metrics, logs, traces, and profiles. Users experiencing this issue may also not be able to create new Hosted Grafana instances. \n\nEngineering is actively engaged and assessing the issue. We will provide updates accordingly."
+      investigating: true
