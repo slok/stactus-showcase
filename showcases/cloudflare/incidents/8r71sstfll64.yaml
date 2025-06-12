@@ -1,9 +1,11 @@
 version: incident/v1
 id: 8r71sstfll64
-name: Tiered Cache seeing elevated response times in Ashburn, VA
+name: Tiered Cache seeing elevated response times in Ashburn, VA (IAD)
 impact: none
 systems: []
 timeline:
     - ts: "2025-06-12 00:46:34"
-      description: We are currently investigating an issue where some requests using tiered cache in Ashburn, VA may be seeing elevated response times.
+      description: We are currently investigating an issue where some requests using tiered cache in Ashburn, VA (IAD) may be seeing elevated response times.
       investigating: true
+    - ts: "2025-06-12 01:16:14"
+      description: A fix has been implemented and we are monitoring the results.
