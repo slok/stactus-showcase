@@ -1,9 +1,13 @@
 version: incident/v1
 id: m2zy41p24r2y
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Messaging Media Endpoints 5XX Errors
+impact: minor
+systems:
+    - 6cn0g627h62p
 timeline:
     - ts: "2025-06-12 20:16:56"
       description: Our monitoring systems have detected a potential issue where media retrieval functionality is minimally degraded. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-06-12 20:56:46"
+      description: We are investigating a service interruption with messaging media endpoints both for media list and media instance within the messaging logs domain. <0.05 % of requests are returning 5XX errors. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true

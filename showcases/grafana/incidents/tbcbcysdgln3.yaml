@@ -153,3 +153,5 @@ timeline:
     - ts: "2025-06-12 20:17:23"
       description: The scope of this incident may be affecting all components in Grafana Cloud regardless of deployment region. This includes Alerting amongst all other products.
       investigating: true
+    - ts: "2025-06-12 20:55:47"
+      description: Google's engineering team have identified the root cause and applied appropriate mitigations, customers should no longer experience performance issues with Grafana Cloud products. We will continue to monitor for recurrence and provide updates accordingly.
