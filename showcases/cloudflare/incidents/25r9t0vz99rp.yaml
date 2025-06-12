@@ -4,7 +4,6 @@ name: Broad Cloudflare service outages
 impact: critical
 systems:
     - w4k8yvhfb3vp
-    - 0311l882p558
     - 3sq3s4d20ywk
     - bty1yz6dhh0v
     - z4wlt5jx9szq
@@ -64,3 +63,5 @@ timeline:
         AI Gateway
         AutoRAG
       investigating: true
+    - ts: "2025-06-12 19:12:36"
+      description: We are starting to see services recover. We still expect to see intermittent errors across the impacted services as systems handle retried and caches are filled.

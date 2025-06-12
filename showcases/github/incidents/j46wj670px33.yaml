@@ -13,3 +13,6 @@ timeline:
     - ts: "2025-06-12 18:37:23"
       description: We redirected requests for Claude 3.7 Sonnet to additional partners and users should see recovery when using that model. We still are experiencing degraded availability for the Gemini (2.5 Pro, 2.0 Flash) and Claude (Sonnet 4, Opus 4) models in Copilot Chat, VS Code and other Copilot products.
       investigating: true
+    - ts: "2025-06-12 19:14:30"
+      description: Gemini (2.5 Pro and 2.0 Flash) and Claude (Sonnet 4 and Opus 4) chat models in Copilot are still experiencing reduced availability. We are actively communicating with our upstream model provider to resolve the issue and restore full service. We will provide another update by 20:15 UTC.
+      investigating: true

@@ -1,8 +1,9 @@
 version: incident/v1
 id: kcytb2vzwc82
-name: Issue with across multiple products
+name: Vendor Service Degradation in Virtual Agent (DialogFlow) Impacting Multiple Twilio Features
 impact: minor
 systems:
+    - 7c6yv3vctfqv
     - q4d7rj555ljl
     - b3tl520cz8tc
     - rk4qzxxbwj7t
@@ -33,5 +34,17 @@ timeline:
         Conversations: Conversations customer will fail to receive push notifications and updated badge counts. Conversations making use of Dialog flow chatbot participants are also failing to access the Dialog flow service.
         Serverless: Functions
         This is only impacting Twilio services utilizing Google features.  All other customer usage is working as expected.
+        We expect to provide another update in 30 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-06-12 19:12:25"
+      description: |-
+        We are investigating a vendor service degradation with Virtual Agent (DialogFlow) in all regions, which is impacting multiple features. Please find impact details for the following features:
+
+        Programmable Voice: Dialogflow / ConversationRelay / Realtime Transcriptions / Speech Recognition / Android Voice SDK
+        Flex Application: Flex Mobile Android client is unable to receive push notifications since Firebase is down. iOS users are not impacted.
+        Conversations: Conversations customer will fail to receive push notifications and updated badge counts. Conversations making use of Dialog flow chatbot participants are also failing to access the Dialog flow service.
+        Serverless: Functions, Studio - Connect Virtual Agent widget invocations failing
+
+        This is only impacting Twilio services utilizing Google features.  All other customer usage is working as expected.
         We expect to provide another update in 30 minutes or as soon as more information becomes available.
       investigating: true
