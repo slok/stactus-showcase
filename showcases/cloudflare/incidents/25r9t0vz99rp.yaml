@@ -4,6 +4,7 @@ name: Broad Cloudflare service outages
 impact: critical
 systems:
     - w4k8yvhfb3vp
+    - 0311l882p558
     - 3sq3s4d20ywk
     - bty1yz6dhh0v
     - z4wlt5jx9szq
@@ -46,4 +47,20 @@ timeline:
         Workers AI
         Stream
         Parts of the Cloudflare dashboard
+      investigating: true
+    - ts: "2025-06-12 19:02:55"
+      description: |-
+        We are seeing a number of services suffer intermittent failures. We are continuing to investigate this and we will update this list as we assess the impact on a per-service level.
+
+        Impacted services:
+        Access
+        WARP
+        Durable Objects (SQLite backed Durable Objects only)
+        Workers KV
+        Realtime
+        Workers AI
+        Stream
+        Parts of the Cloudflare dashboard
+        AI Gateway
+        AutoRAG
       investigating: true

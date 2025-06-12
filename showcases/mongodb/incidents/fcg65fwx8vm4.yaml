@@ -6,5 +6,8 @@ systems:
     - 98lbmdz85yp0
 timeline:
     - ts: "2025-06-12 18:38:54"
-      description: We've identified an issue with increased 503's coming from GCP.  We are working directly with the cloud provider to identify the root cause.  Cluster health is unaffected. GCP Cluster modification will be delayed at this time.
+      description: |-
+        We've identified an issue with increased 503's coming from GCP.  We are working directly with the cloud provider to identify the root cause.  Cluster health is unaffected. GCP Cluster modification will be delayed at this time.
+
+        New cluster creation <i>on any cloud provider</i> may be delayed due to CAPTCHA failures.
       investigating: true

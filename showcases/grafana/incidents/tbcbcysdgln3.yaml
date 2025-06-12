@@ -4,45 +4,121 @@ name: GCP - Major Incident Affecting Multiple Grafana Cloud Components
 impact: critical
 systems:
     - z5ysrlvblv9t
+    - 0s4n2mv9hwv9
+    - y46ddhgystcm
     - sbf1gr3mlx56
+    - jlp9hzf5m989
+    - ghr7b7zgnjyv
+    - 4cd7zp8zqp0r
     - fkc5ms404dsj
     - d6hp5brmvsbt
+    - cxvhcw6k5b06
+    - z9wm2b60vf8f
+    - 633klcz6jwvq
     - rwvs9fvrnhp2
+    - cbkdz104flmq
+    - bvv5k4c03df1
     - p6ddfyqcd7wx
+    - csppcd2xw8l1
+    - qtptj232t43m
     - sc8qqdx6j1h5
+    - wpmb9wzmb9d0
+    - zf813w3wr8rf
     - 9d1m7nk72ktm
     - x40g7bxm0q2d
+    - msrbmgj6vrtb
+    - gz7h5z3g2fy0
+    - 2htzkr2r80lm
+    - 920tb4z02ydp
+    - stwknb1f6v5n
     - c66zgq8xld33
+    - 6nknf1p91ddp
+    - 8tqz4j2vkqxd
     - f1bqk70dgsn3
     - v3g3j6krw8rp
+    - rysp15vr8ck8
+    - 19pbz44xbzcg
+    - fd85rg7yrqww
+    - hz4575jrx7gn
+    - pq526gk92s44
     - gp2m13gyj6x2
     - kw9wxv34yw80
+    - 4bj7nh0h2pbw
+    - 0g6367fc4ccc
     - 780v8cn3rkzd
+    - y5nt7pz0v42j
+    - 8wq67tm1cg31
+    - 22lqyzyw46nj
+    - k0346krtzlgk
+    - hx6nqhhypfrp
     - 662yyglvgqpm
     - bh5f9ggjnj60
+    - r7ckxhw437s3
+    - 5p8x8z248f89
     - v60p22nl676w
+    - xbfqdbt5qthc
+    - 8klb6l621gd7
+    - y081wmnk39py
+    - 79yvcvrrt34w
+    - xm5bbn27cwwh
     - l72f5c7651n5
+    - kctg5mxt6xpp
     - 54tht9mpb5sk
+    - prvf5mm6kh38
+    - j4jqprgq60w2
+    - fn320fztp9hc
+    - mrqsb3xvh6q3
+    - rpkhxz445zq7
+    - 3jbh6nyxv692
     - yt6pjkj14lvk
+    - nh0s4zs7sl1r
+    - 7w8x2g9mrzfp
+    - wyky9jpy6n4k
+    - 1mxpk7q1bkb6
     - 98skfgrdgchf
     - qqj6ssvvsqmq
+    - 2gp3dpx92jv6
+    - n2tdxrj24qmx
+    - djjv8h5nh3jp
+    - h3wg1km0qxwv
     - m7cr9xxllhpn
+    - cs8qq3k7vmgs
+    - 4dd0yqb74jpn
+    - 0m5030zr6qdz
     - jky8f03q6zfj
+    - l3gsnvlkq2mj
+    - 991yg38dlv8j
     - 2yn7w8rnphcp
+    - cf0xykd10d5c
+    - k6z6k6fhz17p
     - y4w38klthkcm
+    - ntldn9r043ch
     - vc52wtjdh6db
+    - b6vy9syblc9x
     - 9rtx96d2z01z
+    - vf9qsr3pmhjf
     - d2vdtkjjdzjy
+    - dpny9b8qb952
     - 1c0xjffzwghy
+    - zp7h7t53k0jn
     - ly7gqcr2bm3m
+    - czpt94dvn18t
     - lr4wf5bv4lk1
+    - 1bt7lpllyc97
     - b74p2737fm3r
+    - 191t9x68nj8s
     - szkwf5rlkrxq
+    - 4whxks101kq7
     - 24jq47r3m6gj
+    - fh680ftdss7w
     - 5dvwqvtb0t84
+    - yzxm7vcyg1k4
     - 993qpty6gv9f
+    - tcskx9mfsz1c
     - jhc34sjt42wd
+    - yx5996c1lfnj
     - 1tt4gx4t4q87
+    - 7p6gpdprypb9
     - qnthhwhwm4lt
     - 80zb3lxqcxvk
     - 2yrrwn80wqf9
@@ -67,4 +143,7 @@ systems:
 timeline:
     - ts: "2025-06-12 18:36:36"
       description: "As of 17:55 UTC, we were alerted a significant outage involving one of our cloud providers. Users experiencing this issue may encounter inability to query or ingest data for metrics, logs, traces, and profiles. Users experiencing this issue may also not be able to create new Hosted Grafana instances. \n\nEngineering is actively engaged and assessing the issue. We will provide updates accordingly."
+      investigating: true
+    - ts: "2025-06-12 18:56:03"
+      description: After initial investigation, the scope of this issue may lead to users experiencing degraded performance across all of Grafana Cloud products.
       investigating: true
