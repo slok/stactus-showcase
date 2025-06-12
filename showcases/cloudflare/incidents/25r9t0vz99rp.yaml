@@ -9,6 +9,7 @@ systems:
     - z4wlt5jx9szq
     - 5s616lljfwdz
     - yxhtws7ltl9t
+    - 47xg28c02lnk
     - 9c7cbxnhk1dq
     - k04jkcpzxn94
     - zvm7mqn92xzc
@@ -25,4 +26,24 @@ timeline:
       investigating: true
     - ts: "2025-06-12 18:31:09"
       description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-06-12 18:46:21"
+      description: We are seeing a number of services suffer intermittent failures. We are continuing to investigate this and we will update this list as we assess the impact on a per-service level.
+      investigating: true
+    - ts: "2025-06-12 18:47:20"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-06-12 18:48:26"
+      description: |-
+        We are seeing a number of services suffer intermittent failures. We are continuing to investigate this and we will update this list as we assess the impact on a per-service level.
+
+        Impacted services:
+        Access
+        WARP
+        Durable Objects (SQLite backed Durable Objects only)
+        Workers KV
+        Realtime
+        Workers AI
+        Stream
+        Parts of the Cloudflare dashboard
       investigating: true
