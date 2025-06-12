@@ -1,6 +1,6 @@
 version: incident/v1
 id: kcytb2vzwc82
-name: Vendor Service Degradation Impacting Multiple Twilio Features
+name: Vendor Service Degradation in Virtual Agent (DialogFlow) Impacting Multiple Twilio Features
 impact: minor
 systems:
     - g4hs7h64k9fv
@@ -61,3 +61,5 @@ timeline:
 
         We will provide updates at an hourly cadence, or until we have meaningful information from our vendor.
       investigating: true
+    - ts: "2025-06-12 21:15:48"
+      description: We continue to observe recovery across multiple product features after the vendor platform issue. We will be monitoring all services to ensure a full recovery and provide another update in 2 hours or as soon as more information becomes available.
