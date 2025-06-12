@@ -2,7 +2,8 @@ version: incident/v1
 id: j46wj670px33
 name: Some Copilot chat models are failing requests
 impact: major
-systems: []
+systems:
+    - pjmpxvq2cmr2
 timeline:
     - ts: "2025-06-12 18:19:49"
       description: We are currently investigating this issue.
@@ -18,4 +19,7 @@ timeline:
       investigating: true
     - ts: "2025-06-12 20:05:40"
       description: Claude Sonnet 4 and Opus 4 models continue to have degraded availability in Copilot Chat, VS Code, and other Copilot products. Gemini Pro 2.5 and 2.0 Flash are currently unavailable. Our upstream model provider has indicated that they have identified the problem and are applying mitigations.<br />
+      investigating: true
+    - ts: "2025-06-12 20:21:38"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
       investigating: true

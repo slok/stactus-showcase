@@ -1,7 +1,7 @@
 version: incident/v1
 id: v6p9lb5hgylf
-name: Attachments, embeds and activities broken
-impact: major
+name: Broad service impact (incl. attachments, embeds, activities, windows updater, subscriptions, shop etc.)
+impact: none
 systems:
     - rhznvxg4v7yh
 timeline:
@@ -29,3 +29,6 @@ timeline:
     - ts: "2025-06-12 20:09:57"
       description: We are continuing to investigate an issue with our windows updater.
       investigating: true
+    - ts: "2025-06-12 20:32:45"
+      description: "Our windows updater should be fixed everywhere and we should have fully recovered. \nHappy gaming."
+      resolved: true
