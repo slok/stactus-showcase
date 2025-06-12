@@ -1,0 +1,8 @@
+version: incident/v1
+id: b9gr53n63cqt
+name: 1Password is experiencing some failures due to issues with a third-party provider
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-06-12 19:47:09"
+      description: "While the third-party provider works to recover from the issues, users may experience the below scenarios. We will continue to relay updates on progress as they are made available. \n-Business account holders will not be able to link or unlink family accounts. \n-Users loading the \"Manage Account\" page in the web application will see an error message \"There was an unexpected error loading your linked accounts. Contact us for assistance\".\n-Some SCIM bridge connections to the Google Workspace identity provider could be impacted (this is limited to the Google Workspace IdP)."

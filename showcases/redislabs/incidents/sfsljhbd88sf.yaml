@@ -1,0 +1,23 @@
+version: incident/v1
+id: sfsljhbd88sf
+name: Redis Cloud - Service Disruption Due to GCP Global Outage
+impact: major
+systems:
+    - nn6rqzz85xg5
+    - t2gz62m72xtf
+    - jp7zzppvbk0x
+timeline:
+    - ts: "2025-06-12 19:41:29"
+      description: |-
+        Redis Cloud is currently experiencing a service disruption due to a global outage reported by Google Cloud Platform (GCP). This is affecting several components of our platform, including:
+
+        - Redis Cloud API
+        - Heroku and Vercel integrations
+        - Documentation portal
+        - Scaling and provisioning of new subscriptions
+
+        At this time, database connectivity and availability remain unaffected.
+
+        We are actively monitoring the situation and working with GCP to resolve the issue. Updates will be posted here as more information becomes available.
+
+        Thank you for your patience.

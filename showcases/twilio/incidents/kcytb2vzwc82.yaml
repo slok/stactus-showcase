@@ -3,11 +3,16 @@ id: kcytb2vzwc82
 name: Vendor Service Degradation in Virtual Agent (DialogFlow) Impacting Multiple Twilio Features
 impact: minor
 systems:
+    - g4hs7h64k9fv
     - 7c6yv3vctfqv
     - q4d7rj555ljl
     - b3tl520cz8tc
     - rk4qzxxbwj7t
+    - 7ypw8tsmyr78
     - 361mb56zmf8z
+    - gk7b1lwzf93x
+    - 1gkv0mxhzsjv
+    - 2vs63pk0qq23
     - s91kksd3hqjp
     - jdtgrvyw6w5z
 timeline:
@@ -48,3 +53,5 @@ timeline:
         This is only impacting Twilio services utilizing Google features.  All other customer usage is working as expected.
         We expect to provide another update in 30 minutes or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-06-12 19:44:41"
+      description: "We are experiencing continued service degradation across multiple product features due to a significant vendor platform issue. Some features and services are starting to see early recovery. The following product features are impacted across all regions. We are iterating on workarounds as our vendor partner works to restore service\n\nVoice: \n\n- Features: Dialogflow / ConversationRelay / Realtime Transcriptions / Speech Recognition / Android Voice SDK\n- Impact: Dialogflow: Users may experience elevated latency interacting with Dialogflow agents or failed <Connect><VirtualAgent> TwiML execution Speech recognition: Users may experience delayed or missing speech results or failed <Gather> with speech input TwiML execution Realtime transcriptions: Users may experience delayed or missing transcriptions or failed transcription execution (started via <Start><Transcription> or Transcription API) ConversationRelay: Calls configured with Google ASR/STT will fail Android Voice SDK: See separate row below \"\n\n- Feature: Voice SDK\n- Impact: Prevents Android users from receiving phone calls via Twilio Voice.\n\nFlex Application:\n\n- Feature: Flex Mobile Android  \n- Impact: Flex Mobile Android clients are unable to receive push notifications since Firebase is down. iOS users are not impacted.\n\nServerless: \n\n- Features: Functions, Studio - \n- Impact: Connect Virtual Agent widget invocations failing. Errors installing certain NPM packages which cause build failures. All other customer usage is working as expected.\n\n- Feature: Studio\n- Impact: Invocations of the Connect Virtual Agent widget will transition to the \"Failed\" transition despite an otherwise valid setup\n\nDeveloper Tools\n\n- Feature: Console \n- Impact: All Console pages using Persona React SDK (Trusthub, Account Upgrade) are failing. Customers are unable to upgrade their accounts.\n\nMessaging\n\n- Feature: Messaging Services: \n- Impact: Elevated latency for RCS cap check in the CO flow -> increased latency for CO messages sent with RCS.\n\n- Feature: Conversations: \n- Impact: Customer Conversations will fail to receive push and updated notifications badge counts. Conversations making use of Dialog flow chatbot participants are also failing to access the Dialog flow service.\n\nWe expect to provide another update in 30 minutes or as soon as more information becomes available."
