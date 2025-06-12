@@ -7,7 +7,10 @@ systems:
     - qgnxz00j1f2v
 timeline:
     - ts: "2025-06-12 11:10:52"
-      description: 'Cloudflare is investigating issues with Cloudflare Magic Tunnel: Customers may be unable to observe Tunnel Health Checks in their dashboard. This issue does not affect any other Cloudflare services. We are working to mitigate this problem. More updates to follow shortly.'
+      description: 'Cloudflare is investigating issues with Cloudflare Magic Transit and Magic WAN Tunnel: Customers may be unable to observe Tunnel Health Checks in their dashboard. This issue does not affect any other Cloudflare services. We are working to mitigate this problem. More updates to follow shortly.'
       investigating: true
     - ts: "2025-06-12 11:20:44"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-06-12 11:40:22"
+      description: This incident has been resolved.
+      resolved: true
