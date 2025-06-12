@@ -1,10 +1,12 @@
 version: incident/v1
 id: 7m5kfqgcw2yj
-name: SMS Delivery Delays to EIR Network in Ireland
+name: SMS Delivery Delays to Eir Network in Ireland
 impact: minor
 systems:
     - llgdln3dcs6p
 timeline:
     - ts: "2025-06-12 11:51:58"
-      description: We are experiencing SMS delivery delays when sending messages to EIR network in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      description: We are experiencing SMS delivery delays when sending messages to Eir network in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-06-12 12:46:56"
+      description: We are observing recovery in SMS delivery delays when sending messages to Eir network in Ireland. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
