@@ -1,0 +1,17 @@
+version: incident/v1
+id: 6hh6vm8q36mf
+name: Snippets Preview Unavailable in Dashboard
+impact: minor
+systems:
+    - 570kfpd0dgg7
+timeline:
+    - ts: "2025-06-13 12:20:38"
+      description: |-
+        We are currently investigating an issue affecting the Snippets dashboard preview. When attempting to view or edit a Snippet, users may encounter error messages in the UI.
+
+        This issue is isolated to the dashboard preview and does not impact existing Snippets functionality at the edge or the ability to deploy new Snippets rules or code. Snippets continue to run normally for end users.
+
+        We are working to resolve the dashboard error and restore preview functionality as quickly as possible.
+      investigating: true
+    - ts: "2025-06-13 12:23:38"
+      description: The issue has been identified and a fix is being implemented.
