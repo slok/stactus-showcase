@@ -1,0 +1,9 @@
+version: incident/v1
+id: jp15m45w6dj3
+name: 'Account Administration: Trouble loading the People view'
+impact: minor
+systems:
+    - 89gvq67r0l5m
+timeline:
+    - ts: "2025-06-13 19:05:43"
+      description: We have identified an issue where account administrators are unable to load the "People" view when logging in to their account on 1Password.com, 1Password.ca, and 1Password.eu. Our engineers are actively working to deploy a fix for this issue.
