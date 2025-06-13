@@ -1,0 +1,13 @@
+version: incident/v1
+id: g5g4pxcnjyj8
+name: Issues with Stream Live, Stream VOD, Durable Objects, R2 and Workers Builds
+impact: major
+systems:
+    - bty1yz6dhh0v
+    - hb7g5sq2zz0h
+    - 47xg28c02lnk
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2025-06-13 14:15:27"
+      description: Cloudflare is aware of and investigating 500 errors with Stream Live, Stream Video on Demand (VOD), Durable Objects, R2, and Workers Builds which potentially impacts multiple customers. Further detail will be provided as more information becomes available.
+      investigating: true
