@@ -3,10 +3,15 @@ id: 4f2nn665ghjh
 name: Messaging Services Failures with Errors 90014
 impact: minor
 systems:
+    - d1j2nx64rpq3
     - yvvy3vlp4djf
+    - 6cn0g627h62p
 timeline:
     - ts: "2025-06-13 18:30:39"
       description: Our monitoring systems have detected a potential issue affecting SMS from a subset of accounts. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2025-06-13 19:18:56"
       description: SMS from a subset of accounts are now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2025-06-13 19:49:29"
+      description: Messaging Services Failures Incident has been resolved. Customers may have experienced up to 5% of their traffic sent through Messaging Services failing with 90014 error code due to an incorrect resolution on the Validity Period. Service is operating normally at this time.
+      resolved: true
