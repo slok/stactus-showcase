@@ -49,3 +49,30 @@ timeline:
     - ts: "2025-06-04 21:28:33"
       description: This incident has been resolved. We have run all remediations and systems have returned to normal.
       resolved: true
+    - ts: "2025-06-13 21:16:50"
+      description: |-
+        ## Summary of Atlas Outage on June 4th 2025
+
+        ‌
+
+        This document describes an Atlas control plane service disruption that occurred on June 4th, 2025.
+
+        ## Issue Summary
+
+        Between 17:05 GMT and 22:54 GMT on June 4th, the MongoDB Atlas control plane experienced a service disruption due to a DNS misconfiguration. Customers were unable to make configuration changes across a range of MongoDB services, including Atlas databases, App Services and Device Sync, Atlas Data Federation, Stream Processing, Backup/Restore, and Atlas Search. The core data plane remained operational, and customer workloads continued uninterrupted. However, during the time of the disruption, customer clusters could not be managed via the UI, Admin API, or the auto-scaling system. Similarly, customers were unable to change network configuration, modify projects, or add/remove database users during this time. The Atlas Web UI was unavailable during a portion of this outage. 
+
+        ‌
+
+        This incident was the result of a DNS configuration change that impacted communication within Atlas’s internal metadata servers. These servers employ recursive DNS resolution that relies on name servers on the public Internet. An authorized operator executed a planned update to a DNS nameserver record that was believed to be unused. However, this belief was based on an incorrect internal configuration source. The disruption of communication between our metadata servers in turn disrupted most operations against the Atlas control plane.
+
+        ‌
+
+        The operator detected the misconfiguration within minutes. We immediately rolled back the offending change. However, our recovery process was delayed for several reasons. The top-level DNS records have a Time To Live \(TTL\) of 2 days. As such, rolling back the misconfiguration did not resolve the problem. We attempted multiple mitigations, including flushing local DNS caches and redirecting to an alternate resolver. After these mitigations proved unsuccessful, we requested that our upstream DNS provider flush the offending DNS records from the long-term cache. This fixed the immediate connectivity problem. Partial recovery was immediate. It took roughly another 60 minutes for all services to resume normal operations after working through queued work.
+
+        ‌
+
+        We are making a set of corrective actions based on this event. First, we will modify our operational tooling to enforce additional safety checks, especially for changes that modify a DNS top-level domain. Second, we are enhancing our existing internal review process for DNS configuration changes. These reviews will include additional testing of such changes in a controlled environment and gating mechanisms to reduce blast radius. 
+
+        ## Conclusion
+
+        We apologize for the impact of this event on our customers. We are aware that this outage had an impact on our customer’s operations. MongoDB’s highest priorities are security, durability, availability, and performance. We are committed to learning from this event and to update our internal processes to prevent similar scenarios in the future.
