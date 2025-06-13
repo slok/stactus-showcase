@@ -1,0 +1,16 @@
+version: incident/v1
+id: 0xzbrwtcgbxd
+name: SMS delivery delays to Brisanet in Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-06-13 01:21:05"
+      description: Our monitoring systems have detected a potential issue of SMS delivery delays to Brisanet in Brazil . Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-06-13 01:27:13"
+      description: We are experiencing SMS delivery delays to Brisanet in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-06-13 01:28:35"
+      description: We are continuing to investigate this issue.
+      investigating: true
