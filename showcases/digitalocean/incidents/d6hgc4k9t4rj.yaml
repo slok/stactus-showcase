@@ -1,0 +1,10 @@
+version: incident/v1
+id: d6hgc4k9t4rj
+name: Customer Support Ticket Portal
+impact: major
+systems:
+    - hklgsphcrjq4
+timeline:
+    - ts: "2025-06-14 14:37:40"
+      description: "Our Engineering team is investigating an issue with our Support Portal. During this time, users will be unable to access the Support Portal at https://cloudsupport.digitalocean.com/. We are aware of this issue and our Engineers are working with our vendor to resolve this. \n \nAs a temporary workaround, users may still contact us via the form here: https://www.digitalocean.com/company/contact/support\n\nThank you for your patience. We will post an update as soon as further information becomes available."
+      investigating: true
