@@ -1,0 +1,12 @@
+version: incident/v1
+id: mylnqrrvfm0j
+name: Droplet Creation
+impact: minor
+systems:
+    - p1x9rv4137gx
+    - 558h1l1q0c2w
+    - czck17wcspr5
+timeline:
+    - ts: "2025-06-14 20:38:34"
+      description: "Our Engineering team is investigating an issue affecting Droplet creation in all regions for users with the Member or Modifier role. Users with these roles on team accounts may experience issues creating Droplets via the Cloud Control Panel and API. \n\nWe are actively working to identify the root cause and resolving the issue as quickly as possible. We apologize for the inconvenience and will provide an update as soon as we have more information."
+      investigating: true
