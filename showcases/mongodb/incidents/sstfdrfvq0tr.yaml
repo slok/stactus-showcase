@@ -12,3 +12,6 @@ timeline:
       description: We've identified the issue and are working with GCP support to resolve the situation.
     - ts: "2025-06-14 15:02:31"
       description: We are continuing to work with GCP support to remediate the situation
+    - ts: "2025-06-14 17:07:31"
+      description: While some restores from snapshots stored in Azure or GCP may have taken longer to start than usual, there have been no complete failures observed. Cluster health was unaffected during this time.
+      resolved: true
