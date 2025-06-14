@@ -1,6 +1,6 @@
 version: incident/v1
 id: sstfdrfvq0tr
-name: Elevated Restore Failures on Atlas
+name: Intermittent Restore Failures on Atlas
 impact: minor
 systems:
     - 98lbmdz85yp0
@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-06-14 10:21:42"
       description: We are investigating a situation where backup restores are intermittently failing.
       investigating: true
+    - ts: "2025-06-14 12:12:52"
+      description: We've identified the issue and are working with GCP support to resolve the situation.
