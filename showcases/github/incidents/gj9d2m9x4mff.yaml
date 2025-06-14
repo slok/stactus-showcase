@@ -29,5 +29,5 @@ timeline:
       description: Fix is currently rolling out to production. We will update here once we verify.
       investigating: true
     - ts: "2025-06-11 01:51:21"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between 2025-06-10 12:25 UTC and 2025-06-11 01:51 UTC, GitHub Enterprise Cloud (GHEC) customers with approximately 10,000 or more users, saw performance degradation and 5xx errors when loading the Enterprise Settings’ People management page. Less than 2% of page requests resulted in an error. The issue was caused by a database change that replaced an index required for the page load. The issue was resolved by reverting the database change.<br /><br />To prevent similar incidents, we are improving the testing and validation process for replacing database indexes.
       resolved: true
