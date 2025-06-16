@@ -1,0 +1,9 @@
+version: incident/v1
+id: mhw7zhddlxty
+name: Notifications failures due to Google outage
+impact: none
+systems: []
+timeline:
+    - ts: "2025-06-16 15:23:09"
+      description: Twilio Notify customers were impacted on 12th June 2025, between 11:00 AM PDT and 03:00 PM PDT due to an outage in Google Firebase as notifications did not reach the end users. The outage was resolved when Google's services resumed
+      resolved: true
