@@ -1,0 +1,15 @@
+version: incident/v1
+id: vfd6gr6rk86b
+name: Spaces Availability in FRA1
+impact: minor
+systems:
+    - 66wjtpd8ngvx
+timeline:
+    - ts: "2025-06-16 14:58:06"
+      description: |-
+        Our Engineering team is currently investigating an issue affecting Spaces availability in the FRA1 region.
+
+        During this time, you may experience an increased error rate when attempting to upload, retrieve, or list objects using the Spaces system.
+
+        We understand the inconvenience this may cause and are working urgently to identify the root cause. Further updates will be provided as soon as more information is available.
+      investigating: true
