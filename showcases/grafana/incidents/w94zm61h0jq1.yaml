@@ -1,0 +1,12 @@
+version: incident/v1
+id: w94zm61h0jq1
+name: Ingestion errors for Traces on cluster AWS Germany ( prod-eu-west-2)
+impact: none
+systems: []
+timeline:
+    - ts: "2025-06-16 09:37:06"
+      description: |-
+        The Tempo service on cluster EU west experienced a traffic increase over the weekend, which caused an elevated error rate in Tempo's write path (ingestion). Our engineering team identified the root cause of the issue, and implemented measurements for palliating and resolving the problem.
+
+        Traces ingestion problems could have been experienced from 15:30 UTC on 13th until 19:30 UTC on 15th.
+      resolved: true
