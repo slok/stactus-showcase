@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4hcgsxnvtg32
+name: SMS delivery delays when sending messages to Telstra in Australia Subset of Longcodes.
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-06-16 11:01:33"
+      description: We are experiencing SMS delivery delays when sending messages to Telstra in Australia Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
