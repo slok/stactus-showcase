@@ -1,0 +1,9 @@
+version: incident/v1
+id: 5ttpc58gypb3
+name: Magic Firewall - Issue with ASN rules
+impact: major
+systems:
+    - m1cm5tqpkqtm
+timeline:
+    - ts: "2025-06-16 22:36:42"
+      description: We are currently experiencing an issue affecting a subset of Magic Firewall customers using ASN and specific country rules (IO, BV, HM), where traffic may not be filtered correctly. A fix is actively being deployed.
