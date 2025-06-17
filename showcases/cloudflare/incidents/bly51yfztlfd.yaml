@@ -1,0 +1,10 @@
+version: incident/v1
+id: bly51yfztlfd
+name: RealtimeKit dashboard unavailable
+impact: minor
+systems:
+    - yxhtws7ltl9t
+timeline:
+    - ts: "2025-06-17 22:19:05"
+      description: Login to the RealtimeKit control plane unavailable. Team is investigating. Existing meetings and RealtimeKit apps unaffected.
+      investigating: true
