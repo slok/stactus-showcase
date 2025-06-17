@@ -1,0 +1,10 @@
+version: incident/v1
+id: wc0rdffyrjmp
+name: Elevated HTTP 500 Errors While calling Twilio Functions
+impact: minor
+systems:
+    - b3tl520cz8tc
+timeline:
+    - ts: "2025-06-17 19:53:40"
+      description: We are currently investigating an elevated rate of HTTP 500 errors while calling Twilio Functions. Our engineers are working on the issue, and we will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

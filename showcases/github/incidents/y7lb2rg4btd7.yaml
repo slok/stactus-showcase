@@ -1,10 +1,13 @@
 version: incident/v1
 id: y7lb2rg4btd7
-name: Incident with Copilot
+name: Incident with multiple GitHub services
 impact: major
 systems:
+    - 4230lsnqdsld
     - brv1bkgrwx7q
     - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
     - vg70hn9s2tyj
     - pjmpxvq2cmr2
 timeline:
@@ -21,5 +24,38 @@ timeline:
       description: Pages is experiencing degraded performance. We are continuing to investigate.
       investigating: true
     - ts: "2025-06-17 19:51:21"
+      description: API Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-06-17 19:53:21"
+      description: We are investigating reports of issues with many services impacting segments of customers. We will continue to keep users updated on progress towards mitigation.
+      investigating: true
+    - ts: "2025-06-17 19:53:21"
+      description: API Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-06-17 19:54:36"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-06-17 19:54:54"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-06-17 19:55:02"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-06-17 19:55:14"
+      description: Pull Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-06-17 20:01:14"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-06-17 20:03:36"
+      description: Pages is operating normally.
+      investigating: true
+    - ts: "2025-06-17 20:04:41"
+      description: Copilot is operating normally.
+      investigating: true
+    - ts: "2025-06-17 20:04:43"
+      description: We experienced problems with multiple services, causing disruptions for some users. We have identified the cause and are rolling out changes to restore normal service. Many services are recovering, but full recovery is ongoing.
+      investigating: true
+    - ts: "2025-06-17 20:05:17"
       description: API Requests is experiencing degraded performance. We are continuing to investigate.
       investigating: true
