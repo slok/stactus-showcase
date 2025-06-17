@@ -1,6 +1,6 @@
 version: incident/v1
 id: 0xgkq51kvbjf
-name: MMS Delivery Failures to US Cellular Network in the US for a Subset of Toll-Free Numbers
+name: MMS Delivery Failures to US Cellular Network in the US for a Subset of Toll-Free, Short Code and 10 Digit Long Code Numbers
 impact: minor
 systems:
     - 5cv0b6y86d2f
@@ -11,4 +11,7 @@ timeline:
       investigating: true
     - ts: "2025-06-17 20:22:40"
       description: We continue to experience MMS delivery failures to US cellular networks in the US for a subset of toll-free numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-06-17 21:08:46"
+      description: We continue to experience MMS delivery failures to US cellular networks in the US for a subset of toll-free numbers and we have also identified that this incident is impacting a subset of Short code and 10 Digit Long Code numbers.  Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
