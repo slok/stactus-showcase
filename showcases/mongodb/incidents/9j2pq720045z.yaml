@@ -1,0 +1,15 @@
+version: incident/v1
+id: 9j2pq720045z
+name: 'MongoDB Cloud: SSO logins fail for new users'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+    - kb8k7qml7npt
+timeline:
+    - ts: "2025-06-17 16:49:43"
+      description: |-
+        Since approximately 5 June 2025 11:45 UTC some SSO users have been unable to login to MongoDB Cloud or the MongoDB Support Portal. We have localized the issue to users who have never logged into MongoDB products before and/or users who are using their own IdP's login links to login to Cloud. Affected users will be logged in before immediately getting logged out of MongoDB Cloud or the MongoDB Support portal.
+
+        For users who have successfully logged into MongoDB Cloud or the Support Portal before the following workaround exists: Initiate the login process from cloud.mongodb.com or support.mongodb.com instead of your local IdP's login flow.
+
+        We have implemented a fix and are monitoring the results at this time.
