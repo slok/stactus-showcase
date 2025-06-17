@@ -12,5 +12,5 @@ timeline:
       description: Customers are currently unable to generate attestations from public repositories due to a broader outage with our partners.
       investigating: true
     - ts: "2025-06-12 20:26:55"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Multiple services critical to GitHub's attestation infrastructure experienced an outage which prevented Fulcio from issuing signing certificates. During the outage, GitHub customers who use the "actions/attest-build-provenance" action from public repositories were not able to generate attestations.
       resolved: true
