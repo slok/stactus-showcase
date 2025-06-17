@@ -1,0 +1,9 @@
+version: incident/v1
+id: h9qvbdxxcs4t
+name: Brief Write Latency in prod-us-west-0 Loki Cell
+impact: none
+systems: []
+timeline:
+    - ts: "2025-06-17 18:52:12"
+      description: From 18:15 to 18:25 UTC, our prod-us-west-0 Loki cell experienced a period of degraded write performance. The issue resolved quickly without requiring manual intervention, and the system has remained stable since.
+      resolved: true
