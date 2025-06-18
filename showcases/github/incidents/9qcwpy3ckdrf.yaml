@@ -1,0 +1,12 @@
+version: incident/v1
+id: 9qcwpy3ckdrf
+name: Partial Actions Cache degradation
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-06-18 16:46:25"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-06-18 16:46:44"
+      description: The actions cache service is experiencing degradation in a number of regions causing cache misses when attempting to download cache entries. This is not causing workflow failures, but workflow runtime might be elevated for certain runs.
+      investigating: true
