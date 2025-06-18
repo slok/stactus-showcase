@@ -14,3 +14,9 @@ timeline:
     - ts: "2025-06-18 17:07:52"
       description: We have confirmed that impact is restricted to failing to display reactions on some issues and searching issues by reaction. Mitigation is in progress to restore these features and should be fully rolled out to all customers in the next few hours.
       investigating: true
+    - ts: "2025-06-18 17:41:38"
+      description: We have confirmed that we are currently within SLA for Issues experience. Remaining clean up will complete over the next few hours to fully restore the ability to search Issues by reaction as well as related GraphQL API queries.
+      investigating: true
+    - ts: "2025-06-18 17:42:18"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
