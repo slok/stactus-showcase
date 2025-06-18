@@ -79,5 +79,5 @@ timeline:
       description: Actions is operating normally.
       investigating: true
     - ts: "2025-06-17 20:22:50"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On June 17, 2025, between 19:32 UTC and 20:03 UTC, a routing policy deployment to a subset of network devices caused reachability issues for certain prefixes. The change passed review, but gaps in validation, resulted in unintended configuration changes being deployed to  production.<br />We declared an incident after confirming the issue was not localized and was impacting multiple applications. The deployment was rolled back, and reachability was restored within 27 minutes.<br />To prevent similar issues, we are expanding our validation processes to include increasing test coverage for routing policy changes.
       resolved: true
