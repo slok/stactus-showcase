@@ -1,0 +1,16 @@
+version: incident/v1
+id: z8pt03f02ddv
+name: Disruption with some GitHub services
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2025-06-18 22:39:53"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-06-18 22:40:25"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-06-18 22:42:08"
+      description: We are experiencing degraded availability for the Claude 4 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected. We recommend using Claude 3.7 as an alternative.
+      investigating: true
