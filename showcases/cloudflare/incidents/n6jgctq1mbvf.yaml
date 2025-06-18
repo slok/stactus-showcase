@@ -1,0 +1,10 @@
+version: incident/v1
+id: n6jgctq1mbvf
+name: Access for SaaS applications failing to authenticate
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2025-06-18 23:17:59"
+      description: "Cloudflare engineering is investigating an issue causing authentication to fail for some Access for SaaS applications. This is due to an incorrect certificate signing key. The engineering team is investigating a solution to revert to the original keys. \n\nAccess self-hosted and private network application authentication is not impacted at this time."
+      investigating: true
