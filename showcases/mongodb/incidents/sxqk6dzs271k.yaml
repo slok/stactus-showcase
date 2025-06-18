@@ -10,3 +10,8 @@ timeline:
       investigating: true
     - ts: "2025-06-18 18:00:05"
       description: We have identified an issue where the MongoDB Cloud UI is slow to respond or may give an error page. Cluster health is unaffected.
+    - ts: "2025-06-18 18:08:38"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-06-18 18:16:20"
+      description: This incident has been resolved.
+      resolved: true
