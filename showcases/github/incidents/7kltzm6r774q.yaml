@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-06-18 16:25:27"
       description: Some users are seeing errors when accessing issues on GitHub. We have identified the problem and are working on a revert to restore full functionality.
       investigating: true
+    - ts: "2025-06-18 17:07:52"
+      description: We have confirmed that impact is restricted to failing to display reactions on some issues and searching issues by reaction. Mitigation is in progress to restore these features and should be fully rolled out to all customers in the next few hours.
+      investigating: true
