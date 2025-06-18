@@ -1,0 +1,15 @@
+version: incident/v1
+id: hgdqk7lt5yw1
+name: fly-proxy outage
+impact: critical
+systems:
+    - 15knchzwl5np
+timeline:
+    - ts: "2025-06-18 02:11:18"
+      description: We are currently investigating an outage of fly-proxy in multiple regions. Connections to Fly.io apps will receive connection refused errors. We are actively investigating.
+      investigating: true
+    - ts: "2025-06-18 02:18:10"
+      description: We've identified the issue and are applying mitigations.
+    - ts: "2025-06-18 02:22:30"
+      description: This incident has been resolved.
+      resolved: true
