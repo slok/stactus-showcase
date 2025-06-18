@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-06-18 23:17:59"
       description: "Cloudflare engineering is investigating an issue causing authentication to fail for some Access for SaaS applications. This is due to an incorrect certificate signing key. The engineering team is investigating a solution to revert to the original keys. \n\nAccess self-hosted and private network application authentication is not impacted at this time."
       investigating: true
+    - ts: "2025-06-18 23:29:29"
+      description: Cloudflare engineering is working on reverting the affected signing keys. We do not advise updating keys if you are impacted.
