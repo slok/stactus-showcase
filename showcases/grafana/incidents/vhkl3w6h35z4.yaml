@@ -1,0 +1,9 @@
+version: incident/v1
+id: vhkl3w6h35z4
+name: Logs query rate metric unavailable
+impact: none
+systems: []
+timeline:
+    - ts: "2025-06-18 11:45:45"
+      description: Between 9:40 to 10:55 AM UTC, Cloud Logs service briefly experienced issue with providing data to query rate metrics only. You may experience gaps in the results for query rates panel in the billing dashboards for the given period. The situation is now mitigated, we apologize for the inconvenience.
+      resolved: true
