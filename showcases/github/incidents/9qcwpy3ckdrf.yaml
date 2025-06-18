@@ -10,3 +10,6 @@ timeline:
     - ts: "2025-06-18 16:46:44"
       description: The actions cache service is experiencing degradation in a number of regions causing cache misses when attempting to download cache entries. This is not causing workflow failures, but workflow runtime might be elevated for certain runs.
       investigating: true
+    - ts: "2025-06-18 17:03:17"
+      description: We are actively investigating and working on a mitigation for database instability leading to replication lag in the Actions Cache service. We will continue to post updates on progress towards mitigation.
+      investigating: true
