@@ -1,9 +1,11 @@
 version: incident/v1
 id: 97dm4ky1kx95
 name: Metrics Drilldown Issues
-impact: none
+impact: major
 systems: []
 timeline:
     - ts: "2025-06-18 14:16:29"
       description: We are currently investigating an issue with Metrics Drilldown. Customers may encounter an "App not found" error during this time.
       investigating: true
+    - ts: "2025-06-18 15:48:32"
+      description: A fix is currently being rolled out, and we are monitoring the results
