@@ -1,0 +1,13 @@
+version: incident/v1
+id: smjdj91c3x28
+name: Cloudwatch/Athena Integrations - Partial Outage
+impact: major
+systems:
+    - z5ysrlvblv9t
+timeline:
+    - ts: "2025-06-19 17:50:35"
+      description: |-
+        As of approximately 15:00 UTC, we have became aware of an issue affecting our Cloudwatch and Athena datasources. Users may experience failures when querying logs or metrics from these datasources and/or see "No Data" within dashboards.
+
+        Our engineering team is actively investigating and working to resolve the issue. We will share more details and provide updates as they become available.
+      investigating: true
