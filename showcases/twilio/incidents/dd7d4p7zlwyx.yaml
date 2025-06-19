@@ -12,3 +12,6 @@ timeline:
       description: We are observing recovery in delays in Event Streams delivery. We will continue monitoring the service to ensure a full recovery. We will provide another update on 06/20/2025 at 2:30AM PDT or as soon as more information becomes available.
     - ts: "2025-06-18 18:23:26"
       description: Customers may observe occasional spikes in latency due to network instability. Event delivery is otherwise working with normal latency. No events are dropped ensuring at-least-once delivery guarantees. We will continue monitoring the service to ensure a full recovery. We will provide another update on 06/20/2025 at 2:30AM PDT or as soon as more information becomes available.
+    - ts: "2025-06-19 16:05:32"
+      description: The issue affecting intermittent delays in Event Streams delivery has been resolved, and the service is functioning normally at this time.
+      resolved: true
