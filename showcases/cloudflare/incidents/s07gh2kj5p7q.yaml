@@ -1,0 +1,10 @@
+version: incident/v1
+id: s07gh2kj5p7q
+name: proxy_read_timeout endpoint and maximum upload size return 400 error
+impact: minor
+systems:
+    - g4tb35rs9yw7
+timeline:
+    - ts: "2025-06-19 02:44:57"
+      description: Cloudflare has identified an issue where our proxy_read_timeout endpoint and maximum upload size return 400 error. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
