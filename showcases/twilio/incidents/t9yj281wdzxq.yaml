@@ -1,7 +1,7 @@
 version: incident/v1
 id: t9yj281wdzxq
 name: SMS Delivery Delays to Claro in Colombia via a Subset of Longcodes
-impact: none
+impact: major
 systems:
     - 42zx9w2kmtvf
 timeline:
@@ -16,4 +16,13 @@ timeline:
       investigating: true
     - ts: "2025-06-19 19:29:19"
       description: We are experiencing SMS delivery delays when sending messages to Claro in Colombia via a Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-06-19 19:35:53"
+      description: We are experiencing SMS delivery delays when sending messages to Claro in Colombia via Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-06-19 19:42:11"
+      description: We are experiencing SMS delivery delays when sending messages to Claro in Colombia via Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-06-19 19:43:00"
+      description: We are experiencing SMS delivery delays when sending messages to Claro in Colombia via Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
