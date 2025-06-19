@@ -1,9 +1,13 @@
 version: incident/v1
 id: cqq5h3jd630x
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: High Latency and 5xx errors When Using Verify Verification Attempts API and Verify Insights
+impact: minor
+systems:
+    - whldrk77jnm4
 timeline:
     - ts: "2025-06-19 22:16:03"
       description: Our monitoring systems have detected a potential issue with Verify Verification Attempts API and Verify Insights. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-06-19 23:00:59"
+      description: Twilio Verify was degraded for 35 minutes between 14:33 and 15:08 Pacific Time on 06/19/2025. During this period of time customers may have experienced high latency and 5xx errors when using Verify Verification Attempts API and Verify Insights. The issue has now been resolved.
+      resolved: true
