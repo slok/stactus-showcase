@@ -1,7 +1,7 @@
 version: incident/v1
 id: njlc6q6c0kj8
 name: High query latency for us-prod-east-0 hosted datasources
-impact: none
+impact: minor
 systems:
     - 2lyhl59mn4dl
     - 5270kl9kd6l2
@@ -14,3 +14,7 @@ timeline:
     - ts: "2025-06-20 15:54:58"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-06-20 22:22:36"
+      description: |-
+        We are aware of a few intermittent re-occurrences lasting 10-15 minutes.
+        We've made some adjustments to the backend configuration and continue to monitor the situation.
