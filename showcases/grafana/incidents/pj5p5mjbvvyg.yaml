@@ -1,0 +1,13 @@
+version: incident/v1
+id: pj5p5mjbvvyg
+name: Degraded Write Performance on Tempo Metrics Generator
+impact: minor
+systems:
+    - 81f9yfcnyxsg
+timeline:
+    - ts: "2025-06-20 16:26:53"
+      description: |-
+        As of 15:03 UTC, we identified an issue causing degraded write performance in the Tempo Metrics Generator. Affected users may experience dropped spans in remote-written metrics.
+
+        Our engineering team is actively investigating, and we will provide updates as more information becomes available.
+      investigating: true
