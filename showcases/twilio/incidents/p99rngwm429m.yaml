@@ -1,9 +1,12 @@
 version: incident/v1
 id: p99rngwm429m
 name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+impact: minor
+systems:
+    - dv0j99s68yxn
 timeline:
     - ts: "2025-06-20 14:34:27"
       description: Our monitoring systems have detected a potential issue with TTS errors from Amazon and Google providers following spike in requests. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-06-20 14:52:11"
+      description: The issue causing intermittent TTS errors from Amazon and Google providers following spike in requests has been identified. We are actively working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
