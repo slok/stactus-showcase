@@ -1,12 +1,16 @@
 version: incident/v1
 id: njlc6q6c0kj8
-name: High query latency for hosted Prometheus datasources
+name: High query latency for us-prod-east-0 hosted datasources
 impact: none
 systems:
+    - 2lyhl59mn4dl
     - 5270kl9kd6l2
 timeline:
     - ts: "2025-06-20 15:48:59"
       description: |-
         Starting at 13:23 UTC and resolved at 13:36 UTC, some hosted Prometheus datasources experience high query latency, which could trigger false alarms or cause timeouts in the UI when querying.
         The root cause is being investigated.
+      investigating: true
+    - ts: "2025-06-20 15:54:58"
+      description: We are continuing to investigate this issue.
       investigating: true
