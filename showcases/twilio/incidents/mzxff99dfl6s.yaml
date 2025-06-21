@@ -1,0 +1,13 @@
+version: incident/v1
+id: mzxff99dfl6s
+name: Customer data on the link shortening tab assumes 0 record updates in the last 2 hours
+impact: minor
+systems:
+    - dgkv7yc7sqdg
+timeline:
+    - ts: "2025-06-21 01:44:42"
+      description: |-
+        We’re currently investigating an incident that may affect the Link Shortening tab within Messaging Insights. Customers may notice undercounted records for the time period starting from June 20, 2025, at 23:20 UTC to the present (ongoing). This issue only impacts those who are viewing data with a time range greater than two days.
+
+        We will provide you an update within the next 1 hour or as soon as more information becomes available.
+      investigating: true
