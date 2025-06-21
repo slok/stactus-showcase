@@ -1,0 +1,15 @@
+version: incident/v1
+id: y9fvcghcm9pg
+name: 'ServiceNow Upgrade – Post-Upgrade Issue: Atlas App Live Chat Unavailable'
+impact: none
+systems:
+    - dpdsycjtknlz
+timeline:
+    - ts: "2025-06-21 20:49:49"
+      description: |-
+        Following the completion of the ServiceNow Yokohama upgrade, we have identified an issue with the live chat feature in the Atlas mobile app. Users are currently unable to connect with Service Desk agents via live chat. Our team is actively investigating and working to resolve this as quickly as possible.
+
+        All other ServiceNow functions remain operational. We will provide further updates as more information becomes available.
+
+        If you need assistance, please submit a support ticket via email at servicedesk@mit.edu or telephone at 617-253-1101.
+      investigating: true
