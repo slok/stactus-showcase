@@ -1,0 +1,10 @@
+version: incident/v1
+id: dcl83fzvfrtd
+name: Functions
+impact: minor
+systems:
+    - k96xfyczckzw
+timeline:
+    - ts: "2025-06-23 12:06:41"
+      description: "As of 10:50 UTC, our Engineering team is investigating an issue with Functions in all regions. \n\nDuring this time, users may experience an issue when trying to create or delete Functions. Additionally, users trying to deploy apps using the Function component may see the deployment failing. \n\n We apologize for the inconvenience, and we'll share an update once we have more information."
+      investigating: true
