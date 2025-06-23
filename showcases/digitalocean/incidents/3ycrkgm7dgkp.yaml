@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3ycrkgm7dgkp
+name: Networking in TOR1
+impact: none
+systems:
+    - 3hwkzd3pqd0p
+timeline:
+    - ts: "2025-06-23 10:09:52"
+      description: "Between 08:07 UTC and 08:32 UTC, our Engineering team observed issues impacting networking in the TOR1 region. During this time, users may have experienced intermittent connectivity issues while interacting with Droplets and Droplet-based services. \n\nAdditionally, users may have experienced intermittent timeouts when using the API or Cloud Control panel. All services are now functioning as expected. Thank you for your patience, and we apologize for any inconvenience.\n\nIf you have any questions or continue to experience issues, please reach out via a Support ticket on your account."
+      resolved: true
