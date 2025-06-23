@@ -1,0 +1,13 @@
+version: incident/v1
+id: lhfz6rh1wnps
+name: 'Cloudflare Zero Trust: Gateway Issues'
+impact: minor
+systems:
+    - gyx2yygg7lmd
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2025-06-23 05:57:25"
+      description: |-
+        Cloudflare has identified issues with the Gateway HTTP policies. Customer is unable to save a HTTP policy when using Application selector and selecting full application categories.
+
+        We are working on a fix to resolve this problem. More updates to follow shortly.
