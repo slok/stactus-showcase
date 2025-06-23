@@ -1,0 +1,12 @@
+version: incident/v1
+id: sd6p3x3khmnw
+name: Elevated GraphQL API issues
+impact: critical
+systems:
+    - 66r6rhq3hn9n
+    - 80ykv2p95qgy
+    - 49yq6v65b33l
+timeline:
+    - ts: "2025-06-23 19:12:08"
+      description: We're seeing a higher number of 500s when calling the Machines API, running a deploy, or attempting to access the dashboard. We're currently investigating the issue.
+      investigating: true
