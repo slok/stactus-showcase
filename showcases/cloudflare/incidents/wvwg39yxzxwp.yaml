@@ -1,0 +1,14 @@
+version: incident/v1
+id: wvwg39yxzxwp
+name: Magic WAN Provisioning Issues
+impact: minor
+systems:
+    - qgnxz00j1f2v
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-06-23 13:24:26"
+      description: |-
+        Cloudflare is investigating issues with Network Availability. Magic WAN Customers with no authorized prefixes could face provisioning issues.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
