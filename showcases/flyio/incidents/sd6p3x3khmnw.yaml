@@ -10,3 +10,5 @@ timeline:
     - ts: "2025-06-23 19:12:08"
       description: We're seeing a higher number of 500s when calling the Machines API, running a deploy, or attempting to access the dashboard. We're currently investigating the issue.
       investigating: true
+    - ts: "2025-06-23 19:47:52"
+      description: We've identified the issue and implemented a fix, and are seeing services gradually recover. We're continuing to investigate the underlying issue further.

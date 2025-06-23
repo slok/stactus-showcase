@@ -20,5 +20,5 @@ timeline:
       description: We are continuing to rollout a mitigation and are progressing towards having this rolled out for all customers.
       investigating: true
     - ts: "2025-06-18 18:47:45"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On June 18, 2025, between 08:21 UTC and 18:47 UTC, some Actions jobs experienced intermittent failures downloading from the Actions Cache service. During the incident, 17% of workflow runs experienced cache download failures, resulting in a warning message in the logs and performance degradation. The disruption was caused by a network issue in our database systems that led to a database replica getting out of sync with the primary. We mitigated the incident by routing cache download url requests to bypass the out-of-sync replica until it was fully restored.<br /><br />To prevent this class of incidents, we are developing capability in our database system to more robustly bypass out-of-sync replicas. We are also implementing improved monitoring to help us detect similar issues more quickly going forward.
       resolved: true
