@@ -1,0 +1,14 @@
+version: incident/v1
+id: w2gssx08sc90
+name: Elevated HTTP 504 Errors Affecting Programmable Messaging API
+impact: none
+systems: []
+timeline:
+    - ts: "2025-06-24 14:32:12"
+      description: |-
+        Twilio's Programmable Messaging API was degraded for 30 seconds between 6:05:30 a.m. to 6:06:00 a.m. Pacific Time on 6/24/2025. During this period of time customers may have experienced problems or symptoms:
+
+        - HTTP 5xx errors when attempting to send outbound messages across all Channels
+
+        The issue has now been resolved.
+      resolved: true

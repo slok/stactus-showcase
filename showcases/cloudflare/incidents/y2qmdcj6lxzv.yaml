@@ -1,0 +1,13 @@
+version: incident/v1
+id: y2qmdcj6lxzv
+name: Cloudflare Access experiencing elevated login failures from OneLogin
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2025-06-24 14:35:22"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Access when logging in with OneLogin.
+
+        All other identity providers and Access services are working as expected.
+      investigating: true
