@@ -18,3 +18,10 @@ timeline:
       description: |-
         We are aware of a few intermittent re-occurrences lasting 10-15 minutes.
         We've made some adjustments to the backend configuration and continue to monitor the situation.
+    - ts: "2025-06-24 16:35:29"
+      description: |-
+        This incident has been resolved.
+        No further issues were seen since adjusting the backend configuration on Friday June 20th. (22:22 UTC)
+
+        The root cause has been identified as node CPU saturation, causing high latency on ingesters.
+      resolved: true
