@@ -30,5 +30,5 @@ timeline:
       description: All impacted chat models have recovered, and users should no longer experience reduced availability.
       investigating: true
     - ts: "2025-06-12 21:07:22"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: <p>On June 12, 2025, between 17:55 UTC and 21:07 UTC the GitHub Copilot service was degraded and experienced unavailability for Gemini models and reduced availability for Claude models. Users experienced significantly elevated error rates for code completions, slow response times, timeouts, and chat functionality interruptions across VS Code, JetBrains IDEs, and GitHub Copilot Chat. This was due to an outage affecting one of our model providers.</p><br /><p>We mitigated the incident by temporarily disabling the affected provider endpoints to reduce user impact.</p><br /><p>We are working to update our incident response playbooks for infrastructure provider outages and improve our monitoring and alerting systems to reduce our time to detection and mitigation of issues like this one in the future.</p>
       resolved: true

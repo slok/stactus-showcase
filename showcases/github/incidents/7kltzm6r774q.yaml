@@ -18,5 +18,5 @@ timeline:
       description: We have confirmed that we are currently within SLA for Issues experience. Remaining clean up will complete over the next few hours to fully restore the ability to search Issues by reaction as well as related GraphQL API queries.
       investigating: true
     - ts: "2025-06-18 17:42:18"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On June 18, 2025, between 15:15 UTC and 19:29 UTC, the Issues service was degraded, and certain GraphQL queries accessing the `ReactionGroup.reactors` field returned errors. Our query routing infrastructure was impacted by exceptions from a particular database migration, resulting in errors for an average of 0.0097% of overall GraphQL requests (peaking at 0.02%).<br /><br />We mitigated the incident by reverting the migration.<br /><br />We continue to investigate the cause of the exceptions and are holding off on similar migrations until the underlying issue is understood and resolved.
       resolved: true
