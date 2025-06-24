@@ -1,0 +1,12 @@
+version: incident/v1
+id: p7mzl65jm7q3
+name: Repository Navigation Bar Missing in GitHub Enterprise Cloud
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-06-24 10:55:00"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-06-24 11:00:20"
+      description: We have identified that the navigation bar is missing in GitHub Enterprise Cloud with data residency instances for the repositories related pages and are currently attempting a mitigation.
+      investigating: true

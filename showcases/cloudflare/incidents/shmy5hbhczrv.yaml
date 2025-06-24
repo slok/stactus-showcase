@@ -1,0 +1,13 @@
+version: incident/v1
+id: shmy5hbhczrv
+name: Issues with Cloudflare Workers Creation
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-06-24 11:03:55"
+      description: |-
+        Cloudflare is investigating an issue with the manual creation of Cloudflare Workers from existing repositories for some users. Guided creation is not impacted.
+
+        Existing workers are not affected. We will provide more information shortly.
+      investigating: true
