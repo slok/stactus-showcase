@@ -1,0 +1,9 @@
+version: incident/v1
+id: klt1dj55kbcx
+name: Elevated Durable Objects Timeouts
+impact: none
+systems: []
+timeline:
+    - ts: "2025-06-24 20:08:24"
+      description: A code release rolling out across Cloudflare's network increased frequency of Durable Objects timeouts between approximately 2025-06-20 23:45 UTC to 2025-06-21 05:30 UTC. The code release was reverted and investigation is ongoing for the root cause. Products such as R2 and Queues which rely on Durable Objects were impacted.
+      resolved: true
