@@ -1,0 +1,9 @@
+version: incident/v1
+id: qwq2fhfg9x3j
+name: Delay in emission of Conference Insights Summaries
+impact: minor
+systems:
+    - yf5px6tdl6yt
+timeline:
+    - ts: "2025-06-24 07:51:02"
+      description: Conference Insights summaries are being delayed since 16:00 UTC Jun 23rd.  Customers using Conference insights console or conference insights API will not be able to receive the latest update.  We have identified the issue and working to mitigate it.
