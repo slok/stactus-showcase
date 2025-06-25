@@ -1,0 +1,11 @@
+version: incident/v1
+id: qbbj6d2m1bp8
+name: RUM beacon returning 404
+impact: major
+systems:
+    - qt59p3cr1grx
+timeline:
+    - ts: "2025-06-25 19:23:59"
+      description: Intermittent POST requests to /cdn-cgi/rum  are failing with a 404 http status returned.
+    - ts: "2025-06-25 19:24:55"
+      description: Intermittent POST requests to /cdn-cgi/rum  are failing with a 404 http status returned.
