@@ -1,0 +1,10 @@
+version: incident/v1
+id: y83jhxpc9xc1
+name: SMS Delivery Delays and Failures to T-Mobile in the Netherlands
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-06-25 11:10:00"
+      description: We are experiencing SMS delivery delays and failures when sending messages to T-Mobile in the Netherlands. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
