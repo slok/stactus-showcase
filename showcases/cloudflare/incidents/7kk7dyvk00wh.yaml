@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7kk7dyvk00wh
+name: Missing "Additional Logs" for OWASP managed rules WAF events
+impact: minor
+systems:
+    - d1r0plwsl5qb
+timeline:
+    - ts: "2025-06-26 09:43:06"
+      description: Cloudflare is investigating issues where customers may experience missing additional information in logs in Security Events. This specifically impacts certain requests that trigger the OWASP Core Managed Ruleset.
+      investigating: true
