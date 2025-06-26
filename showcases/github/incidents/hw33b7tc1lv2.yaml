@@ -1,0 +1,12 @@
+version: incident/v1
+id: hw33b7tc1lv2
+name: GitHub Enterprise Importer delays
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-06-26 14:42:48"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-06-26 14:43:03"
+      description: GitHub Enterprise Importer is experiencing degraded throughput, resulting in significant slowdowns in migration processes and extended wait times for customers.
+      investigating: true
