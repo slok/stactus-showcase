@@ -1,0 +1,13 @@
+version: incident/v1
+id: pnnhwsj31s08
+name: Some Browser Isolation requests reaching the Paris datacenter experiencing errors.
+impact: minor
+systems:
+    - q0dfbn0p6hyt
+    - w1br383gmlwj
+timeline:
+    - ts: "2025-06-26 17:01:00"
+      description: Some Browser Isolation requests reaching the Paris datacenter experiencing errors.
+      investigating: true
+    - ts: "2025-06-26 17:04:14"
+      description: The issue has been identified and a fix is being implemented.
