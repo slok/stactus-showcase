@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3l5g70d16ldz
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-06-26 23:05:16"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-06-26 23:05:52"
+      description: Users may experience errors when creating a repository from a template. The error message may prompt the user to delete the repository, however this deletion attempt will not be successful. We are investigating the cause of these errors.
+      investigating: true
