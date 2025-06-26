@@ -10,3 +10,9 @@ timeline:
     - ts: "2025-06-26 23:05:52"
       description: Users may experience errors when creating a repository from a template. The error message may prompt the user to delete the repository, however this deletion attempt will not be successful. We are investigating the cause of these errors.
       investigating: true
+    - ts: "2025-06-26 23:32:57"
+      description: We identified an internal change that was causing errors when creating a repository from a template. This change has now been rolled back, and customers should no longer encounter errors when creating repositories from templates.
+      investigating: true
+    - ts: "2025-06-26 23:33:03"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
