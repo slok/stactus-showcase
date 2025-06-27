@@ -1,11 +1,14 @@
 version: incident/v1
 id: tm3c41m6j53v
 name: WA Pricing Affected by Accidental Meta Rollout
-impact: none
-systems: []
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
 timeline:
     - ts: "2025-06-27 17:39:59"
       description: |-
         Our monitoring systems have detected a potential issue with WA pricing affected by accidental Meta rollout
         . Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-06-27 18:09:03"
+      description: Our engineers have identified an issue with WA pricing affected by accidental Meta rollout. We expect to provide another update in 1 hour or as soon as more information becomes available.
