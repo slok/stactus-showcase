@@ -20,5 +20,5 @@ timeline:
       description: The earlier delays affecting GitHub Enterprise Importer queries and jobs have now been resolved and are operating normally. <br />Thank you for your patience while we investigated and addressed the issue.
       investigating: true
     - ts: "2025-06-26 18:05:11"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On June 26th, between 14:42UTC and 18:05UTC, the GitHub Enterprise Importer (GEI) service was in a degraded state, during which time, customers of the service experienced extended repository migration durations.<br /><br />Our investigation found that the combined effect of several database updates resulted in the severe throttling of GEI to preserve overall database health.<br /><br />We have taken steps to prevent additional impact and are working to implement additional safeguards to prevent similar incidents from occurring in the future.
       resolved: true
