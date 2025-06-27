@@ -14,5 +14,5 @@ timeline:
       description: We identified an internal change that was causing errors when creating a repository from a template. This change has now been rolled back, and customers should no longer encounter errors when creating repositories from templates.
       investigating: true
     - ts: "2025-06-26 23:33:03"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On June 26, 2025, between 17:10 UTC and 23:30 UTC, around 40% of attempts to create a repository from a template repository failed. The failures were an unexpected result of a gap in testing and observability.<br /><br />We mitigated the incident by rolling back the deployment.<br /><br />We are working to improve our testing and automatic detection of errors associated with failed template repository creation.
       resolved: true
