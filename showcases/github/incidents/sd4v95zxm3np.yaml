@@ -11,5 +11,5 @@ timeline:
       description: We are investigating reports that some users are unable to sign in to the GitHub app on Android. Normal functionality is otherwise available. Our team is actively working to identify the cause.
       investigating: true
     - ts: "2025-06-20 11:20:30"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between June 19th, 2025 11:35 UTC and June 20th, 2025 11:20 UTC the GitHub Mobile Android application was unable to login new users. The iOS app was unaffected.<br /><br />This was due to a new GitHub App feature being tested internally, which was inadvertently enforced for all GitHub-owned applications, including GitHub Mobile.<br /><br />A mismatch in client and server expectations due to this feature caused logins to fail. We mitigated the incident by disabling the feature flag controlling the feature.<br /><br />We are working to improve our time to detection and put in place stronger guardrails that reduce impact from internal testing on applications used by all customers.<br />
       resolved: true
