@@ -10,3 +10,6 @@ timeline:
       description: We are deploying a fix for streams which are stuck in a bad state, you may need to manually re-start your stream.
     - ts: "2025-06-28 00:11:48"
       description: We have stopped the streams which were stuck and completed the rollback. We are now hands off keeping an eye on recovery.
+    - ts: "2025-06-28 00:42:23"
+      description: This incident has been resolved.
+      resolved: true
