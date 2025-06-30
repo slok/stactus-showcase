@@ -1,0 +1,16 @@
+version: incident/v1
+id: fkf483v6p3rl
+name: Message Delivery Failures with WhatsApp and Verify
+impact: major
+systems:
+    - whldrk77jnm4
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2025-06-29 23:58:15"
+      description: Our monitoring systems have detected a potential issue with WhatsApp and Verify message delivery failures. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-06-30 00:10:24"
+      description: We are experiencing message delivery failures with WhatsApp and Verify. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 15 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-06-30 00:19:41"
+      description: We are observing successful message delivery with WhatsApp and Verify.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 30 minutes or as soon as more information becomes available.
