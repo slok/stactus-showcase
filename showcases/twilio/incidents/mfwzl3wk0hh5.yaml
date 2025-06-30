@@ -1,9 +1,13 @@
 version: incident/v1
 id: mfwzl3wk0hh5
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: SMS Delivery Delays to Multiple Networks in France via Alphanumeric Sender IDs
+impact: minor
+systems:
+    - llgdln3dcs6p
 timeline:
     - ts: "2025-06-30 19:40:45"
       description: Our monitoring systems have detected a potential issue with SMS Delivery Delays to networks in France via Alphanumeric Sender IDs. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-06-30 20:03:09"
+      description: We are observing SMS delivery delays to multiple networks in France via Alphanumeric Sender IDs. Our engineers are investigating, and we will provide another update in 1 hour or as soon as we have more information.
       investigating: true
