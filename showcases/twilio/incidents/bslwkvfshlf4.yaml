@@ -1,6 +1,6 @@
 version: incident/v1
 id: bslwkvfshlf4
-name: Calls Endpoint Returning HTTP 500s
+name: Calls Endpoint Returning HTTP 500s For Completed Calls
 impact: minor
 systems:
     - 4rv9xfxmdjg9
@@ -9,5 +9,5 @@ timeline:
       description: Our monitoring systems have detected a potential issue with the Programmable Voice API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2025-06-30 23:31:14"
-      description: We are currently observing increased HTTP 500s when making GET requests to the Programmable Voice Calls API endpoints. Our engineers are investigating, and we will provide an update in 1 hour or as soon as we have more information.
+      description: We are currently observing increased HTTP 500s when making GET requests to the Programmable Voice Calls API endpoints for completed calls.  Call creation and in-progress calls are not affected.  Our engineers are investigating, and we will provide an update in 1 hour or as soon as we have more information.
       investigating: true
