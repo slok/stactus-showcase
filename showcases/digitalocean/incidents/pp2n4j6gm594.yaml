@@ -1,0 +1,15 @@
+version: incident/v1
+id: pp2n4j6gm594
+name: SSL/TLS Handshake Failures in FRA1 & SFO3
+impact: minor
+systems:
+    - nkx0nmdx9vrs
+    - 66wjtpd8ngvx
+    - lf2rrgctn54t
+timeline:
+    - ts: "2025-07-01 19:01:03"
+      description: |-
+        Our Engineering team is currently investigating reports of SSL/TLS handshake failures for Object Storage access in FRA1 and SFO3 regions. Affected users may see connection errors or timeouts when attempting to access buckets over HTTPS.
+
+        We are actively working to identify the root cause and implement a solution and will share further updates as more information becomes available.
+      investigating: true
