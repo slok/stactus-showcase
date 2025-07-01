@@ -1,0 +1,9 @@
+version: incident/v1
+id: crd2y6xy6knn
+name: Incident With Actions
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-01 00:21:51"
+      description: Due to a degradation of one instance of our internal message delivery service, a percentage of jobs started between 06/30/2025 19:18 UTC and 06/30/2025 19:50 UTC failed, and are no longer retry-able. Runners assigned to these jobs will automatically recover within 24 hours, but deleting and recreating the runner will free up the runner immediately.
+      resolved: true

@@ -1,0 +1,19 @@
+version: incident/v1
+id: qsy8bz0r9svl
+name: 1Password Website Forms Not Working
+impact: major
+systems:
+    - qv4yvwwdyzj0
+    - hcqxbc67ktwc
+    - gwgkynhddx14
+    - yn6kcc3st545
+timeline:
+    - ts: "2025-07-01 00:06:26"
+      description: |-
+        We've identified an issue with a 3rd party provider causing forms on the 1Password website to not work as intended. Our engineering team is currently investigating the issue with our 3rd party provider. In the meantime, if you need to make an inquiry, please contact business@1password.com. Forms affected:
+
+        -Webinars
+        -Content Downloads
+        -Newsletters
+        -Contact Sales
+      investigating: true

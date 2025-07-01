@@ -1,0 +1,9 @@
+version: incident/v1
+id: rbmz75rf2dzw
+name: Elevated errors and latency for R2 in ENAM
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-07-01 00:21:36"
+      description: Customers leveraging R2 in the Eastern North American region may have experienced increased latency and/or error rates between 16:30 and 17:20 30/6/2025 UTC.
+      resolved: true
