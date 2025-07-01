@@ -4,7 +4,14 @@ name: SMS Delivery Failures to Multiple Small US Carriers in United States
 impact: minor
 systems:
     - 7d8w22hqrh6s
+    - qj606bzkg4s8
+    - 39mb8cmw8y2v
+    - k7rg1rqk2nwk
+    - 32f2bm54nkvv
 timeline:
     - ts: "2025-07-01 09:45:56"
       description: We are experiencing SMS delivery failures to multiple small US carriers in United States. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-01 10:32:44"
+      description: We are still experiencing SMS delivery failures to multiple small US carriers in United States. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
