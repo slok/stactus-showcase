@@ -1,9 +1,10 @@
 version: incident/v1
 id: 3scnd93k5r2q
-name: Inbound MMS Delivery Failures to a Subset of Phone Numbers in United States of America
+name: MMS Delivery Delays from a subset of Short Codes to US Network Subscribers and MMS Delivery Failures to a Subset of Short Codes from US Network Subscribers
 impact: minor
 systems:
     - 7d8w22hqrh6s
+    - h0fl7prwfhvm
 timeline:
     - ts: "2025-07-01 12:35:48"
       description: The issue causing message failures to a subset of phone numbers in United States of America has been identified. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
@@ -13,3 +14,5 @@ timeline:
       description: We are continuing to experience issues with message failures to a subset of phone numbers in United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
     - ts: "2025-07-01 18:55:29"
       description: We are continuing to experience issues with message failures to a subset of phone numbers in United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+    - ts: "2025-07-01 21:55:15"
+      description: We have identified that this incident is impacting a subset of short codes instead of a subset of phone numbers, we have confirmed MMS Delivery Delays from a subset of Short codes to US Network Subscribers and MMS delivery failures to a subset of short codes from US Network subscribers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available
