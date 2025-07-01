@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2025-07-01 02:32:37"
       description: "Our Engineering team has implemented a fix to resolve the issue that was preventing users from creating MongoDB clusters in all of our regions and is currently monitoring the situation. \n\nDuring this time, users should no longer experience issues with creating MongoDB clusters and all the stalled creation events should provision completely.\n\nWe will post an update as soon as the issue is fully resolved."
+    - ts: "2025-07-01 03:01:54"
+      description: "Our Engineering team has confirmed full resolution of the issue with creation events for MongoDB clusters in all of our regions. \n\nWe apologize for any inconvenience throughout this process. If you continue to experience problems, please open a ticket with our support team."
+      resolved: true
