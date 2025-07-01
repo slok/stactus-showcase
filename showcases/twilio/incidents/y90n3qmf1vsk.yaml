@@ -1,0 +1,10 @@
+version: incident/v1
+id: y90n3qmf1vsk
+name: SMS Delivery Failures to Viva Cell MTS in Armenia Via Subset of Registered SenderIDs
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-07-01 05:17:23"
+      description: We are experiencing MMS/SMS delivery delays when sending messages to Viva Cell MTS in Armenia via Subset of Registered SenderIDs. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
