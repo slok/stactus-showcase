@@ -13,3 +13,6 @@ timeline:
       investigating: true
     - ts: "2025-07-01 00:02:29"
       description: We have mitigated the problem of increased HTTP 500s on the Calls API. We are seeing improvements in making GET requests to the Programmable Voice Calls API endpoints for completed calls. The engineering team is monitoring the problem to ensure full recovery and will provide another update in 30 minutes or as soon as the information becomes available.
+    - ts: "2025-07-01 00:34:42"
+      description: We are no longer observing increased HTTP 500s on the Calls API. This incident is resolved.
+      resolved: true
