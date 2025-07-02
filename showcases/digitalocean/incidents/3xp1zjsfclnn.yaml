@@ -17,3 +17,14 @@ timeline:
       description: The issue has been identified and a fix is being implemented.
     - ts: "2025-07-02 16:29:23"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-07-02 17:39:12"
+      description: |-
+        Our Engineering team has identified several issues impacting indexing jobs and knowledge base creation.
+
+        At this time, users may experience the following:
+
+        - Indexing jobs are currently failing to start. As a result, most teams will be unable to initiate new jobs.
+        - For teams where jobs do start, they may remain stuck in a "queued" status.
+        - Knowledge base creation is still failing and may result in an error.
+
+        We apologize for the disruption and will provide further updates as we learn more.
