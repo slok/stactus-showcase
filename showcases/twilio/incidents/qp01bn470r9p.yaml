@@ -1,0 +1,13 @@
+version: incident/v1
+id: qp01bn470r9p
+name: On Call Engineers Are Investigating an Issue With Delays in Transcription Completion for Autotranscribe
+impact: minor
+systems:
+    - qphgn531prd5
+timeline:
+    - ts: "2025-07-02 23:14:26"
+      description: Our monitoring systems have detected a potential issue delays in transcription Completion for autotranscribe. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-07-02 23:21:03"
+      description: Our engineers are working to resolve an issue with delay in transcription completion for autotranscribe. We will give an update in 1 hour or when more information is available.
+      investigating: true
