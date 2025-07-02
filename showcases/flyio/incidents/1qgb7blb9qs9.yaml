@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-07-02 09:47:53"
       description: We are currently investigating elevated connectivity errors between our  control plane and a small number of Managed Postgres clusters in IAD.
       investigating: true
+    - ts: "2025-07-02 10:37:22"
+      description: We've implemented a fix and are seeing the number of connection errors decrease. We're continuing to monitor to ensure full recovery.
