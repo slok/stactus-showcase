@@ -1,0 +1,11 @@
+version: incident/v1
+id: l2jwk58xvd48
+name: WARP connection disruptions
+impact: minor
+systems:
+    - k04jkcpzxn94
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2025-07-02 17:05:23"
+      description: Cloudflare is investigating issues with Cloudflare WARP and Cloudflare Zero Trust. Cloudflare WARP and Zero Trust users using WireGuard may experience momentary connection drops, but will be reconnected automatically.
+      investigating: true
