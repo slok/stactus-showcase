@@ -1,7 +1,7 @@
 version: incident/v1
 id: st15dfz4tzqx
 name: Spectrum Protect (TSM) server oc11-bk-ent-1
-impact: major
+impact: minor
 systems:
     - 21mphp99021l
 timeline:
@@ -11,3 +11,7 @@ timeline:
     - ts: "2025-07-02 13:48:15"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-07-02 14:03:43"
+      description: |-
+        IS&T staff have identified the problem with oc11-bk-ent-1, and are working on implementing a solution, but that will take some time.  Right now new connections to oc11-bk-ent-1 are disabled, and most existing connections were killed.  All data that was already backed up remains intact on the server, and wil lbe accessible once this problem has been resolved.
+        We will post another update at around 1pm
