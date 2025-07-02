@@ -9,3 +9,5 @@ timeline:
     - ts: "2025-07-02 02:15:51"
       description: We're investigating elevated database load causing timeouts and elevated 500 error rates on the Fly.io Dashboard and the GraphQL API.
       investigating: true
+    - ts: "2025-07-02 02:43:00"
+      description: The database has recovered from its load spike and error rates have returned to normal levels.
