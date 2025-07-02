@@ -14,5 +14,5 @@ timeline:
       description: We're down to healthy level of queued migrations and the system is processing migrations at normal system concurrency levels.
       investigating: true
     - ts: "2025-07-02 16:23:28"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On July 2, 2025, between 1:35 AM UTC and 16:23 UTC, the GitHub Enterprise Importer (GEI) migration service experienced degraded performance and slower-than-normal migration queue processing times. This incident was triggered due to a migration including an abnormally large number of repositories, overwhelming the queue and slowing processing for all migrations.<br /><br />We mitigated the incident by removing the problematic migrations from the queue. Service was restored to normal operation as the queue volume was reduced.<br /><br />To ensure system stability, we have introduced additional concurrency controls that limit the number of queued repositories per organization migration, helping to prevent similar incidents in the future.
       resolved: true
