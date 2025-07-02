@@ -8,11 +8,9 @@ systems:
 timeline:
     - ts: "2025-07-02 16:59:14"
       description: |-
-        Our Engineering team is investigating an issue that is impacting the creation of Managed Databases through both the DigitalOcean Cloud Panel and API. During this time users may encounter errors or delays when attempting to provision new database clusters.
+        Our Engineering team is investigating an issue that is impacting all control plane operations (Create, Read, Update, Delete) for all non-Mongo Managed Database clusters. During this time, users may encounter 401/403 errors when attempting those operations, including provisioning new clusters, listing clusters, etc.
 
         In addition, App Platform deploys with Managed Databases are also affected, which may result in delayed or failed deployments for some applications.
-
-        We are actively working on a solution in order to restore the services. Existing database clusters and Apps remain operational and are not affected by this issue.
 
         We will provide updates as more information becomes available.
       investigating: true
