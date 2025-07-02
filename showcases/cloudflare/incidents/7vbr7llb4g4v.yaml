@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7vbr7llb4g4v
+name: Network Performance Issues in San Jose
+impact: minor
+systems:
+    - 4xvd68d7k70c
+timeline:
+    - ts: "2025-07-02 18:23:31"
+      description: Cloudflare is investigating issues with network performance in SJC. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
