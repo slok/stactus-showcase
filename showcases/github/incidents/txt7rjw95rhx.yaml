@@ -1,0 +1,18 @@
+version: incident/v1
+id: txt7rjw95rhx
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-07-02 16:09:40"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-07-02 16:14:20"
+      description: Repository migrations are experiencing delayed processing times. Mitigation has been implemented and migration times are recovering.
+      investigating: true
+    - ts: "2025-07-02 16:23:22"
+      description: We're down to healthy level of queued migrations and the system is processing migrations at normal system concurrency levels.
+      investigating: true
+    - ts: "2025-07-02 16:23:28"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
