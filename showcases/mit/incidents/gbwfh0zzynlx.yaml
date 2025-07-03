@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-07-02 18:23:45"
       description: "This is a notification that Balances data in the Data Warehouse is in the process of refreshing with the new FYE periods, but it is taking longer than usual to load. FYE processing was performed yesterday, however the refresh of the new fiscal year and closing periods has not completed.\n \n \nIS&T is investigating further to determine when this will be complete."
       investigating: true
+    - ts: "2025-07-03 12:46:55"
+      description: The data warehouse balances data has been successfully processed and is now available.
