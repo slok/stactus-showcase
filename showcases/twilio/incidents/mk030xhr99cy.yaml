@@ -1,0 +1,11 @@
+version: incident/v1
+id: mk030xhr99cy
+name: On Call Engineers are Investigating an Issue with Sync
+impact: critical
+systems:
+    - qf1ppcsw1jvh
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-07-03 01:00:43"
+      description: Our monitoring systems have detected a potential issue Sync. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true

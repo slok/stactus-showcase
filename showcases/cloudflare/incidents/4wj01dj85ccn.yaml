@@ -10,3 +10,8 @@ timeline:
       investigating: true
     - ts: "2025-07-02 23:47:06"
       description: We've isolated the pattern leading to Multipart Uploads that are erroring during CompleteMultipartUploads and are preparing a fix for those requests.
+    - ts: "2025-07-03 00:56:22"
+      description: We've deployed a fix for the multipart uploads that were failing on Complete Multipart calls, and error rates have returned to normal levels. We will continue monitoring impact.
+    - ts: "2025-07-03 01:04:33"
+      description: This incident has been resolved.
+      resolved: true
