@@ -1,0 +1,9 @@
+version: incident/v1
+id: 66t0g7scprmw
+name: Increased Latency in Creating Transcripts
+impact: minor
+systems:
+    - 86c0cvzk43pv
+timeline:
+    - ts: "2025-07-03 13:40:21"
+      description: Our engineers have identified an issue causing increased latency in creating transcripts due to a spike in received recordings and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
