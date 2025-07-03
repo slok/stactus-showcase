@@ -2,11 +2,15 @@ version: incident/v1
 id: hqgr7cr1dh3m
 name: China Network connectivity problems
 impact: minor
-systems: []
+systems:
+    - 4n0gb0kh02gf
 timeline:
     - ts: "2025-07-03 03:04:08"
       description: |-
         Cloudflare is investigating potential connectivity issues related to unexpected DNS resolution for a subset of customers using China Network from some locations in China.
 
         We are assessing impact and causes and will provide further updates as soon as possible.
+      investigating: true
+    - ts: "2025-07-03 04:39:32"
+      description: We are seeing reduced impact after implementing mitigations in some locations and are continuing to look into remaining issues.
       investigating: true
