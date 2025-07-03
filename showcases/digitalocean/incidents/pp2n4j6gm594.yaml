@@ -18,3 +18,9 @@ timeline:
       investigating: true
     - ts: "2025-07-03 19:15:19"
       description: "Our Engineering team has identified the root cause of the issue as a block imposed by a third-party provider on users utilizing residential cable services and their advanced security offerings.\n\nDuring this time, a subset of users accessing their Spaces buckets in the FRA1 and SFO3 regions via residential cable services may have experienced SSL/TLS handshake failures.\n\nThis block was removed as of 17:48 UTC, and users should no longer encounter errors when accessing the contents of their buckets. \n\nWe are actively working with the third-party provider to ensure that such blocks are not imposed again in the future.\n\nWe will continue to monitor the situation and post an update once this issue is fully resolved. Thank you for your patience."
+    - ts: "2025-07-03 19:55:52"
+      description: |-
+        Our Engineering team has confirmed that the issue affecting access to Object Storage Buckets in the FRA1 and SFO3 regions has been fully resolved. Users should no longer experience SSL/TLS handshake failures when accessing their Buckets in these regions.
+
+        We appreciate your patience and understanding while we worked to resolve this matter. If you continue to experience any issues, please don't hesitate to open a support ticket from your account for further assistance.
+      resolved: true
