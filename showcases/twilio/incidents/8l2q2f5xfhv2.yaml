@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8l2q2f5xfhv2
+name: Twilio Sender ID Deliverability
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-03 15:38:27"
+      description: Twilio Sender IDs were degraded during the last 2 days. During this period of time customers may have experienced problems related to message deliverability using Sender IDs. The issue has now been resolved.
+      resolved: true
