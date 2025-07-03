@@ -1,0 +1,10 @@
+version: incident/v1
+id: r8v4k53nbwt5
+name: R2 Elevated error rates in ENAM region
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2025-07-03 00:40:20"
+      description: Customers with buckets in the Eastern North American region may see elevated error rates on GetObject operations to R2.
+      investigating: true
