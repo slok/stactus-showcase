@@ -8,3 +8,7 @@ timeline:
     - ts: "2025-07-03 09:23:53"
       description: We faced an issue with cells in ap-south-1 Hosted Logs region. Between 8:55 and 9:07 UTC this region faced the complete read and write paths outage. Since then it fully recovered and services are fully operational again. We're investigating the root cause right now.
       investigating: true
+    - ts: "2025-07-03 10:09:59"
+      description: We're currently monitoring health of the cluster since the outage was resolved and the issue was identified.
+    - ts: "2025-07-03 10:10:07"
+      description: Cluster fully operational.
