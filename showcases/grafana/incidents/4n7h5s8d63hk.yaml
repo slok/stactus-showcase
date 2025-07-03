@@ -7,3 +7,5 @@ timeline:
     - ts: "2025-07-03 09:18:29"
       description: We are experience issues with the cortex-prod-05 cell at the moment which is suffering from a partial read-path outage. Engineering remains actively engaged in investigation and we will continue to provide updates as more information is identified.
       investigating: true
+    - ts: "2025-07-03 10:03:26"
+      description: Read path has been recovered, however some data loss was introduced. We are working on recovering this data.
