@@ -9,3 +9,6 @@ timeline:
       description: Our engineers have identified an issue causing increased latency in creating transcripts due to a spike in received recordings and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
     - ts: "2025-07-03 14:35:09"
       description: Our engineers have implemented a fix and are monitoring system performance for the issue causing increased latency in creating transcripts We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-07-03 16:30:39"
+      description: Our engineers have monitored the fix and confirmed that the issue causing increased latency in creating transcripts has been resolved. All services are now operating normally at this time.
+      resolved: true
