@@ -16,3 +16,9 @@ timeline:
     - ts: "2025-07-03 06:46:23"
       description: The root cause for the rendering bug that prevented customers from SSO authorizing Personal Access Tokens and SSH keys has started rolling out. We are continuously monitoring this rollback.
       investigating: true
+    - ts: "2025-07-03 07:11:50"
+      description: The rollback has been deployed successfully on all environments. Customers should now be able to SSO authorize their Classic Personal Access Tokens and SSH keys on their GitHub organizations.
+      investigating: true
+    - ts: "2025-07-03 07:12:03"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
