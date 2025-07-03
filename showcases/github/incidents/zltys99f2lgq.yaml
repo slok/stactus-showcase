@@ -13,3 +13,6 @@ timeline:
     - ts: "2025-07-03 06:07:38"
       description: We have identified the root cause for the rendering bug that prevented customers from SSO authorizing Personal Access Tokens and SSH keys.The changes that caused the issue are being rolled back.
       investigating: true
+    - ts: "2025-07-03 06:46:23"
+      description: The root cause for the rendering bug that prevented customers from SSO authorizing Personal Access Tokens and SSH keys has started rolling out. We are continuously monitoring this rollback.
+      investigating: true
