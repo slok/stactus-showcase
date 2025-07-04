@@ -1,0 +1,10 @@
+version: incident/v1
+id: vrmw6v6xbqsl
+name: Network issues in OTP region
+impact: major
+systems:
+    - jy379cqjpqf8
+timeline:
+    - ts: "2025-07-04 10:46:28"
+      description: We are observing intermittent network issues in OTP region. Apps may experience loss of network connectivity. We are working with our upstream provider to resolve this issue.
+      investigating: true
