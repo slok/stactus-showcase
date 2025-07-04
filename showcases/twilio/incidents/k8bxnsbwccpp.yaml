@@ -1,0 +1,14 @@
+version: incident/v1
+id: k8bxnsbwccpp
+name: SMS Delivery Failures from Telefonica to Twilio's Shortcodes in Mexico
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-07-04 22:18:00"
+      description: We are experiencing SMS delivery failures to Twilio's Shortcodes in Mexico. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-04 22:22:57"
+      description: We are no longer experiencing SMS delivery failures to Twilio's Shortcodes in Mexico. This incident has been resolved.
+      resolved: true
