@@ -1,0 +1,9 @@
+version: incident/v1
+id: tyjl75ffk4rw
+name: SOC alerting for Core Applications was impacted
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-04 01:54:13"
+      description: On July 3, 2025, between 15:43 UTC and 20:10 UTC, customers may have experienced an impact to Cloudflare Core applications SOC alerting. This was due to an error encountered after a configuration update. The issue has been rectified, and all alerting is now functioning as expected with no ongoing impact.
+      resolved: true
