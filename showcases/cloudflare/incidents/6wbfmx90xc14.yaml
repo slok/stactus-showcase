@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6wbfmx90xc14
+name: Elevated errors observed for WARP users.
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2025-07-04 06:38:40"
+      description: WARP users may observe elevated error rates, degraded performance, or an overall degraded experience.
+      investigating: true
