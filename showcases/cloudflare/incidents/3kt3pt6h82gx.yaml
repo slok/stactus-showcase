@@ -12,3 +12,5 @@ timeline:
       description: |-
         Some Durable Objects using the WebSocket Hibernation API are failing to call WebSocket::send() after waking from hibernation, which is preventing WebSocket messages from being delivered to clients.
         we are now rolling out a fix.
+    - ts: "2025-07-04 03:23:37"
+      description: We are continuing to work on a fix for this issue.
