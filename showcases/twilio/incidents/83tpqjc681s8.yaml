@@ -1,6 +1,6 @@
 version: incident/v1
 id: 83tpqjc681s8
-name: Japan Local number +8150xx not reachable
+name: Japan Local Number +8150xx Not Reachable
 impact: major
 systems:
     - pv5w18vrltfl
@@ -14,4 +14,7 @@ timeline:
       investigating: true
     - ts: "2025-07-05 05:45:26"
       description: Our monitoring systems have detected a potential issue where a specific subset of Japan local numbers +8150xx are not reachable when calling with certain carriers . Our engineering team has been alerted and is actively investigating. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-05 06:35:57"
+      description: Our monitoring systems have detected a potential issue where a specific subset of Japan local numbers +8150xx are not reachable when calling with certain carriers . Our engineering team has been alerted and is actively investigating. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
