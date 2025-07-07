@@ -1,0 +1,10 @@
+version: incident/v1
+id: g0s9y438k1jq
+name: Delay in processing billing updates
+impact: minor
+systems:
+    - dd7j6hgdy98l
+    - l8gxmc6nwwws
+timeline:
+    - ts: "2025-07-07 16:14:57"
+      description: Our engineering team have identified an issue causing a delay in processing billing updates and are currently working on a fix.
