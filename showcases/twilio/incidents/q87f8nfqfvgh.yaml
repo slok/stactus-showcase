@@ -1,9 +1,13 @@
 version: incident/v1
 id: q87f8nfqfvgh
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Serverless Customers Receiving Errors When Invoking Functions
+impact: minor
+systems:
+    - b3tl520cz8tc
 timeline:
     - ts: "2025-07-07 17:47:00"
       description: Our monitoring systems have detected a potential issue with Serverless functions returning 429s Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-07-07 17:58:45"
+      description: We are aware of an issue with Serverless customers receiving 429 (rate limit) errors when invoking functions, and the rate limiting is taking place according to customers' configured Account Limits. Our engineering team has been alerted and is actively working to handle a surge in traffic. We will share an update in 30 minutes or as soon as we have more information
       investigating: true
