@@ -11,3 +11,5 @@ timeline:
     - ts: "2025-07-07 17:58:45"
       description: We are aware of an issue with Serverless customers receiving 429 (rate limit) errors when invoking functions, and the rate limiting is taking place according to customers' configured Account Limits. Our engineering team has been alerted and is actively working to handle a surge in traffic. We will share an update in 30 minutes or as soon as we have more information
       investigating: true
+    - ts: "2025-07-07 18:18:38"
+      description: We have started seeing recovery for intermittent issue with Serverless customers receiving 429 (rate limit) errors when invoking functions, and the rate limiting is taking place according to customers' configured Account Limits. We will continue to monitor to ensure a full recovery. We expect to provide another update in 30 minutes or as soon as more information becomes available.
