@@ -1,0 +1,13 @@
+version: incident/v1
+id: 1svq32gfm4jq
+name: Concur Login Issues
+impact: minor
+systems:
+    - 21mphp99021l
+timeline:
+    - ts: "2025-07-07 16:38:58"
+      description: |-
+        Intermittent issues are occurring with logins through the SAP Concur website and SAP Concur mobile app. Affected users may receive an error when attempting to log in.
+
+        The Concur Incident Response Team (IRT) is currently investigating and will provide an update.  Current operating status can be found on open.concur.com.
+      investigating: true
