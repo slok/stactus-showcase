@@ -1,0 +1,9 @@
+version: incident/v1
+id: 9twx5d6gp7bm
+name: Spike in 5xx errors Affecting Conversations and Sync in IE1 Region
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-07 12:30:41"
+      description: Twilio Conversations and Sync in the IE1 region was degraded for 4 minutes between 04:18 and 04:22 Pacific Time on 07/07/2025. During this period of time the customers may have experienced higher than normal latency and may have experienced a spike in 5xx errors. The issue has now been resolved.
+      resolved: true
