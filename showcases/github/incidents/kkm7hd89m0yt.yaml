@@ -14,5 +14,5 @@ timeline:
       description: The issues with our upstream model provider have been resolved, and Claude Sonnet 3.7 is once again available in Copilot Chat and across IDE integrations [VSCode, Visual Studio, JetBrains].<br />We will continue monitoring to ensure stability, but mitigation is complete.
       investigating: true
     - ts: "2025-06-30 19:55:36"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On June 30th, 2025, between approximately 18:20 and 19:55 UTC, the Copilot service experienced a degradation of the Claude Sonnet 3.7 model due to an issue with our upstream provider. Users encountered elevated error rates when using Claude Sonnet 3.7. No other models were impacted.<br /><br />The issue was resolved by a mitigation put in place by our provider. GitHub is working with our provider to further improve the resiliency of the service to prevent similar incidents in the future.<br />
       resolved: true
