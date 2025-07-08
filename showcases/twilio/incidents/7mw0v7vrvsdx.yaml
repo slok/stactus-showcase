@@ -1,0 +1,9 @@
+version: incident/v1
+id: 7mw0v7vrvsdx
+name: Errors Making GET Requests to the Programmable Voice Calls API
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-08 17:03:58"
+      description: Twilio Voice API was degraded for 14 minutes between 09:28 and 09:42 Pacific Time on 07/08/2025. During this period of time customers may have experienced increased HTTP 500s when making GET requests to the Programmable Voice Calls API endpoints for completed calls. Call creation and in-progress calls were not affected. The issue has now been resolved.
+      resolved: true
