@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4m65l4w75pkl
+name: Zone Plan Update Errors
+impact: minor
+systems:
+    - 8m7bb706rh1c
+timeline:
+    - ts: "2025-07-08 22:48:23"
+      description: We are investigating reports of HTTP 500 Internal Server errors being returned in some cases when customers attempt to set or change zone plan levels.
+      investigating: true
