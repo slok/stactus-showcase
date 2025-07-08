@@ -1,9 +1,12 @@
 version: incident/v1
 id: 4d02j3fzg6sc
-name: Our Engineers are Investigating an Issue with call dialing delays to multiple carriers in Egypt
-impact: none
+name: Issue with Call Dialing Delays to Multiple Carriers in Egypt
+impact: minor
 systems:
     - 6ns22g89f6g9
 timeline:
     - ts: "2025-07-08 21:40:22"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with call dialing delays to multiple carriers in Egypt. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-07-08 21:58:36"
+      description: Twilio Voice was degraded between 07:36 and 15:40 Pacific Time on 07/07/2025. During this period of time customers may have experienced call dialing delays to multiple carriers in Egypt. The issue has now been resolved.
+      resolved: true
