@@ -1,0 +1,9 @@
+version: incident/v1
+id: q6j611lyw4lv
+name: Public IP API endpoint issues
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-08 16:13:35"
+      description: Cloudflare is investigating an issue with the public IP API endpoint (https://api.cloudflare.com/client/v4/ips) that impacted users from 14:55 - 15:55 UTC. This is now resolved.
+      resolved: true
