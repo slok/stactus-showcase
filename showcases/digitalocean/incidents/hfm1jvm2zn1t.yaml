@@ -1,0 +1,16 @@
+version: incident/v1
+id: hfm1jvm2zn1t
+name: Managed Database Provisioning and App Platform
+impact: minor
+systems:
+    - txysr8r0gn1n
+    - mzkgffp35tq4
+timeline:
+    - ts: "2025-07-08 14:57:56"
+      description: |-
+        Our Engineering team is investigating an issue that is impacting all control plane operations (Create, Read, Update, Delete) for all non-Mongo Managed Database clusters. During this time, users may encounter long running queries when attempting those operations, including provisioning new clusters, listing clusters, etc.
+
+        In addition, App Platform deploys with Managed Databases are also affected, which may result in delayed or failed deployments for some applications.
+
+        We will provide updates as more information becomes available.
+      investigating: true
