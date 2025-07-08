@@ -14,3 +14,5 @@ timeline:
 
         We will provide updates as more information becomes available.
       investigating: true
+    - ts: "2025-07-08 16:01:19"
+      description: "Our Engineering team has deployed a fix to address the issue affecting all control plane operations (Create, Read, Update, Delete) for non-MongoDB Managed Database clusters. Users should now be able to perform standard database operations successfully. App Platform deployments with Managed Databases should also be succeeding now. \n\nWe are now monitoring the situation in order to ensure stability and will post an update once the issue is resolved completely."
