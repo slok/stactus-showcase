@@ -1,0 +1,12 @@
+version: incident/v1
+id: 72ddl3rspzyl
+name: 'MongoDB Atlas: Data explorer operations fail with a timeout error'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-07-08 18:03:53"
+      description: |-
+        We have identified an issue affecting MongoDB Atlas's Data Explorer functionality. Affected users may see a timeout error when trying to read or write data via the Data Explorer.
+
+        Underlying cluster health is unaffected. As a workaround, we would suggest users use MongoDB Compass or other standalone MongoDB-compatible data reading apps on their own machines.
