@@ -1,0 +1,9 @@
+version: incident/v1
+id: p9k7sp83x4rh
+name: 5xx's from Programmable Messaging API
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-08 18:31:15"
+      description: The Twilio Programmable Messaging API was partially degraded for 13 minutes on July 8, 2025 between 10:42 PST and 10:55 PST. During this period of time, customers may have received elevated volumes of 5xx's in API responses. This issue has now been resolved.
+      resolved: true

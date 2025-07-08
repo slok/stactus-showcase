@@ -10,3 +10,11 @@ timeline:
         We have identified an issue affecting MongoDB Atlas's Data Explorer functionality. Affected users may see a timeout error when trying to read or write data via the Data Explorer.
 
         Underlying cluster health is unaffected. As a workaround, we would suggest users use MongoDB Compass or other standalone MongoDB-compatible data reading apps on their own machines.
+    - ts: "2025-07-08 18:30:52"
+      description: |-
+        At this time, the impact is limited to Projects with the "New Data Explorer Preview" setting active. Users can switch their Data Explorer Preview off at the Project's Settings page to regain use of the Data Explorer.
+
+        Cluster health is unaffected.
+    - ts: "2025-07-08 18:42:36"
+      description: This incident has been resolved.
+      resolved: true
