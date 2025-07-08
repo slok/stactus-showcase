@@ -14,3 +14,9 @@ timeline:
     - ts: "2025-07-08 16:29:01"
       description: We have scaled out our capacity and customers will begin to see timely updates.
       investigating: true
+    - ts: "2025-07-08 16:43:49"
+      description: We are seeing complete recovery for Actions. New jobs will run as normal. Some runs initiated during the incident will be left in a stuck state and will not complete.
+      investigating: true
+    - ts: "2025-07-08 16:44:07"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
