@@ -1,7 +1,7 @@
 version: incident/v1
 id: 9cnzff9q1hjp
 name: Degraded Web Application Performance & Monitor Evaluations
-impact: minor
+impact: none
 systems:
     - wxl8hfbylpf5
     - s6jxgrkjjj6p
@@ -14,3 +14,6 @@ timeline:
       description: We've identified a possible root cause and we're actively working on mitigating the impact
     - ts: "2025-07-09 21:26:43"
       description: We've implemented a fix and we're seeing recovery in monitor evaluations and dashboards, we'll continue to investigate and monitor for further impact
+    - ts: "2025-07-09 21:46:32"
+      description: This incident has been resolved.
+      resolved: true
