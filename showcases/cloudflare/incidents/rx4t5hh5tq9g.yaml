@@ -1,0 +1,9 @@
+version: incident/v1
+id: rx4t5hh5tq9g
+name: Load Balancing Custom Rules
+impact: minor
+systems:
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2025-07-09 21:10:39"
+      description: Load balancing Custom Rules making uses of the "matches" regex functionality are unable to be altered or created
