@@ -1,0 +1,17 @@
+version: incident/v1
+id: sx9l18r4j19k
+name: Increased API Latency
+impact: none
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2025-07-09 17:50:43"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-07-09 18:03:59"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-07-09 18:04:35"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-07-09 18:07:50"
+      description: This incident has been resolved.
+      resolved: true
