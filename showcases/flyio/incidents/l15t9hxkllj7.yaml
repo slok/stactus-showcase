@@ -1,0 +1,12 @@
+version: incident/v1
+id: l15t9hxkllj7
+name: Networking issues in MIA
+impact: critical
+systems:
+    - 90c4gtltx29n
+timeline:
+    - ts: "2025-07-09 13:03:04"
+      description: We are currently experiencing a temporary network outage in Miami, USA and are actively working with our upstreams to resolve this issue.
+      investigating: true
+    - ts: "2025-07-09 13:10:02"
+      description: A fix has been implemented and we are monitoring the results.

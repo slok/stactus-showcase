@@ -1,10 +1,13 @@
 version: incident/v1
 id: 4jw3t96rm8dg
-name: SMS Delivery Report Delays to C-Spire in United States of America 311-230 via a Subset of Shortcodes
+name: SMS Delivery Report Delays When Sending to C-Spire in United States via a Subset of Twilio Short Codes
 impact: minor
 systems:
     - 39mb8cmw8y2v
 timeline:
     - ts: "2025-07-09 12:09:12"
-      description: We are experiencing delays in receiving message delivery reports when sending to C-Spire in United States of America 311-230 via a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: We are experiencing delays in receiving message delivery reports when sending to C-Spire in United States of America via a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-09 13:09:30"
+      description: We are experiencing delays in receiving message delivery reports when sending to  C-Spire in United States on a Subset of Twilio Short Codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
