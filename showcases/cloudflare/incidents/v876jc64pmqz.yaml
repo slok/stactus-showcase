@@ -1,0 +1,16 @@
+version: incident/v1
+id: v876jc64pmqz
+name: Increased Errors for Durable Objects in the Asia-Pacific region
+impact: minor
+systems:
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2025-07-09 14:41:13"
+      description: Cloudflare is aware of, and investigating an issue with Durable Objects which potentially impacts multiple customers in the Asia-Pacific region. Durable Objects are experiencing an elevated level of overload errors in the aforementioned region. We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-07-09 14:42:36"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-07-09 14:43:51"
+      description: We are continuing to investigate this issue.
+      investigating: true
