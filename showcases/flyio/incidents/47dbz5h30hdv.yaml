@@ -1,0 +1,9 @@
+version: incident/v1
+id: 47dbz5h30hdv
+name: Private networking performance issues in IAD
+impact: minor
+systems:
+    - qyh8qlklk7mx
+timeline:
+    - ts: "2025-07-09 19:51:41"
+      description: We have identified an issue causing degraded private networking performance in Ashburn, Virginia, US (IAD). We are currently working to resolve this issue. Public networking is unaffected.

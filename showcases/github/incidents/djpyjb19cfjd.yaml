@@ -11,5 +11,5 @@ timeline:
       description: We are investigating reports of degraded performance for larger runners.
       investigating: true
     - ts: "2025-07-07 22:22:12"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On July 7th, 2025, between 18:20 UTC and 22:10 UTC the Actions service was degraded for GitHub Larger Hosted and scale set runners. During this time window, 9% of GitHub Larger Hosted Runners and scale set jobs saw a delay of at least 5 minutes before being assigned to a runner. Impact was more apparent to customers that didn’t have pre-scaled runner pools or who infrequently queued jobs during the incident window. This was due to a change that unintentionally decreased the rate at which we notified our backend that new scale set runners were coming online, and was mitigated by reverting that change.  To reduce the likelihood and impact time of a similar issue in the future, we are improving our detection of this failure mode so we catch it in earlier stages of development and rollout.
       resolved: true
