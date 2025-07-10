@@ -1,0 +1,10 @@
+version: incident/v1
+id: mbnz6mntmhlm
+name: Most Prometheus Queries Failing in Prod-US-East-0
+impact: critical
+systems:
+    - 5270kl9kd6l2
+timeline:
+    - ts: "2025-07-10 13:52:07"
+      description: We are currently experiencing an issue causing most Prometheus queries to fail in the prod-us-east-0 region. Our team is investigating this issue.
+      investigating: true
