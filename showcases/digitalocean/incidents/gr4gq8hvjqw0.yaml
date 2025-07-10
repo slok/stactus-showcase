@@ -9,3 +9,6 @@ systems:
 timeline:
     - ts: "2025-07-10 21:19:13"
       description: "Our Engineering team has identified an issue impacting creations of GPU nodes on new Kubernetes clusters. New clusters on the latest version will not be able to launch a new GPU node. Existing workloads are not impacted. \n\nOur team is working on deploying a fix for this issue, We will post an update once we have more information."
+    - ts: "2025-07-10 23:13:46"
+      description: "Our Engineering team has fully resolved the issue with new Kubernetes cluster GPU creations. Users with new clusters should be able to create GPU nodes without issue. \n\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience."
+      resolved: true
