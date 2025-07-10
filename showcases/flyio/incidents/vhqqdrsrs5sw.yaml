@@ -1,0 +1,16 @@
+version: incident/v1
+id: vhqqdrsrs5sw
+name: Network issues in SEA and SJC
+impact: major
+systems:
+    - psk6740r111k
+    - 49qj4qjyzlzn
+timeline:
+    - ts: "2025-07-10 11:49:43"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-07-10 11:56:14"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-07-10 12:11:07"
+      description: Both regions appear to have recovered. We'll continue to monitor closely.
