@@ -1,0 +1,10 @@
+version: incident/v1
+id: j7w6l35p63x8
+name: Workers AI Elevated error rates for Llama 4 Scout model
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2025-07-10 19:32:14"
+      description: Cloudflare is investigating issues with Workers AI. Customers using the model  @cf/meta/llama-4-scout-17b-16e-instruct model are experiencing elevated error rates.
+      investigating: true
