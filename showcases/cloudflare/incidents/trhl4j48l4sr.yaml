@@ -1,6 +1,6 @@
 version: incident/v1
 id: trhl4j48l4sr
-name: Reduce CPU Capacity in China Network
+name: Reduced CPU Capacity in China Network
 impact: none
 systems:
     - mdhxb295kjtr
@@ -12,3 +12,5 @@ timeline:
     - ts: "2025-07-10 02:23:12"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-07-10 02:27:18"
+      description: The issue has been identified and a fix is being implemented.
