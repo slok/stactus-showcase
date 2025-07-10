@@ -1,0 +1,14 @@
+version: incident/v1
+id: trhl4j48l4sr
+name: Reduce CPU Capacity in China Network
+impact: none
+systems:
+    - mdhxb295kjtr
+    - 5b3kdlcn246d
+timeline:
+    - ts: "2025-07-10 02:21:53"
+      description: Maintenance events are temporarily reducing CPU capacity in China Network. We are working to complete this maintenance and restore CPU capacity.
+      investigating: true
+    - ts: "2025-07-10 02:23:12"
+      description: We are continuing to investigate this issue.
+      investigating: true
