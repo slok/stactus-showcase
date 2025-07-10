@@ -1,0 +1,11 @@
+version: incident/v1
+id: gr4gq8hvjqw0
+name: New Kubernetes Clusters GPU Nodes
+impact: minor
+systems:
+    - q2c5475x69cz
+    - h1pgtp83tw7t
+    - xr6mrvgw7q9c
+timeline:
+    - ts: "2025-07-10 21:19:13"
+      description: "Our Engineering team has identified an issue impacting creations of GPU nodes on new Kubernetes clusters. New clusters on the latest version will not be able to launch a new GPU node. Existing workloads are not impacted. \n\nOur team is working on deploying a fix for this issue, We will post an update once we have more information."
