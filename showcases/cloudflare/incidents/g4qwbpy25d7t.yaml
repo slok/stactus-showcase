@@ -1,0 +1,9 @@
+version: incident/v1
+id: g4qwbpy25d7t
+name: Connection failures for some Cloudflare zones
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-07-10 21:39:44"
+      description: Cloudflare has identified an issue resulting in connection failures for some zones. We have applied a fix for this issue and are currently monitoring the results.
