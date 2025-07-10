@@ -1,0 +1,17 @@
+version: incident/v1
+id: mgy7fngzvj43
+name: A subset of users in Saudi Arabia is currently experiencing issues with Zoom services.
+impact: minor
+systems:
+    - 3z7b6jks10hm
+    - t2jk6yrqbp4j
+    - zhgjct3grx1z
+    - 07fc2bfpjgct
+    - 8vtcg8np4n8c
+    - 576m25cw4prj
+    - 3mgjlwf5953y
+    - tj58619r2mcm
+    - 7lvp52xc051q
+timeline:
+    - ts: "2025-07-10 12:31:12"
+      description: We have identified a service degradation impacting a subset of users who may be experiencing issues with Zoom services. Our engineering teams are actively investigating the impact and identifying the root cause. We will provide further updates as soon as additional information becomes available.
