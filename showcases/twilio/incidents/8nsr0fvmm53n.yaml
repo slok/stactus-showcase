@@ -1,6 +1,6 @@
 version: incident/v1
 id: 8nsr0fvmm53n
-name: On Call Engineers are Investigating an issue with incoming-customers-flex-chats-are-reporting-unable-to-reply
+name: 'Automated Alert: No Customer Impact'
 impact: none
 systems:
     - vw9w2zyv9nk5
@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-07-11 16:14:11"
       description: Our monitoring systems have detected a potential issue with incoming-customers-flex-chats-are-reporting-unable-to-reply. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-07-11 16:57:03"
+      description: We have fully investigated the incoming-customers-flex-chats-are-reporting-unable-to-reply issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
