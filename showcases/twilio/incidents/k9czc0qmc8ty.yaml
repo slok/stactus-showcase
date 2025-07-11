@@ -1,0 +1,9 @@
+version: incident/v1
+id: k9czc0qmc8ty
+name: CNAME and a Record Conflict Bug Blocked DNS Validation
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-11 20:17:36"
+      description: Twilio DNS Validation was degraded for 2 days between 07/08/2025 and 07/10/2025. During this period of time customers may have experienced DNS validation wrongfully blocking requests or uploads for certs when using subdomains. Approximately 28 subdomains were blocked from requesting/uploading cert. The issue has now been resolved.
+      resolved: true
