@@ -19,3 +19,6 @@ timeline:
       description: We are continuing to work on implementing the fix to the impacted hosts in IAD.
     - ts: "2025-07-11 19:18:44"
       description: "A fix has been applied to all impacted IAD hosts and networking performance in the region has returned to normal. \n\nFly Managed Postgres clusters in IAD should all now be reachable, as well as Phoenix.new IDEs and preview sites. \n\nWe are continuing to closely monitor networking performance in the region to ensure stability and full recovery."
+    - ts: "2025-07-11 21:23:53"
+      description: "This incident has been resolved. Networking in IAD has remained stable over the past two hours. \n\nThis was caused by a routing issue with an upstream networking provider that impacted connectivity to some hosts in IAD. We applied a change to work around the bad routing, and the underlying issue that caused this in the first place has been identified and fixed."
+      resolved: true
