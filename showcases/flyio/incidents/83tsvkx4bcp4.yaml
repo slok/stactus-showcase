@@ -1,0 +1,11 @@
+version: incident/v1
+id: 83tsvkx4bcp4
+name: Networking issues in IAD
+impact: minor
+systems:
+    - nv3vps27z635
+    - qyh8qlklk7mx
+timeline:
+    - ts: "2025-07-11 18:06:52"
+      description: We are currently investigating networking issues in IAD. Customers may see higher latency and elevated packet loss connecting to machines in this region.
+      investigating: true
