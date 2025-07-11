@@ -1,0 +1,11 @@
+version: incident/v1
+id: r28fs2n27m97
+name: Ireland Alphanumeric Senders are overwritten with "Likely SCAM" for SMS Delivery
+impact: none
+systems:
+    - yvvy3vlp4djf
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-07-11 17:40:15"
+      description: "Following a regulatory change in Ireland on July 3rd 2025, some alphanumeric senders are overwritten with \"Likely SCAM\" for SMS delivery. However between 2025-07-07 at 10:01:38 am EST and 2025-07-10 at 10:40:04 am EST, some of these messages were unintentionally blocked with error 30007. The issue has been resolved and all overwritten senders are now processing normally.\nTo avoid your message being modified with \"Likely SCAM\", please [follow these steps link1 and link 2]. \nLink 1: https://help.twilio.com/articles/33333263397787-Documents-Required-and-Instructions-to-Register-Your-Alphanumeric-Sender-ID-in-Ireland\nLink 2: https://help.twilio.com/articles/37313903785755: \nThe issue has now been resolved."
+      resolved: true
