@@ -1,11 +1,17 @@
 version: incident/v1
 id: 83tsvkx4bcp4
 name: Networking issues in IAD
-impact: minor
+impact: major
 systems:
     - nv3vps27z635
     - qyh8qlklk7mx
+    - v4qpnygk93qq
 timeline:
     - ts: "2025-07-11 18:06:52"
       description: We are currently investigating networking issues in IAD. Customers may see higher latency and elevated packet loss connecting to machines in this region.
       investigating: true
+    - ts: "2025-07-11 18:13:29"
+      description: "We are continuing to investigate this issue. Connectivity between a number of hosts in the IAD region is degraded. \n\nCustomers will see inbound and outbound issues connecting to and from machines on impacted hosts. \n\nSome Fly Managed Postgres clusters are impacted by this, users may see additional latency or failures connecting to clusters in IAD.\n\nSome users will see 500 errors accessing Phoenix.new IDEs and preview sites at this time."
+      investigating: true
+    - ts: "2025-07-11 18:25:16"
+      description: The issue has been identified and a fix is being implemented.
