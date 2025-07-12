@@ -1,0 +1,12 @@
+version: incident/v1
+id: 8llhqrl7lxly
+name: Workers cron triggers execution issue
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-07-12 00:11:00"
+      description: Cloudflare is aware some customers may be seeing cron triggers currently not executing. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-07-12 00:23:15"
+      description: A fix has been implemented and we are monitoring the results.

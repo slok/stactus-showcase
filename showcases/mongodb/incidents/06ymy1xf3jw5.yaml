@@ -1,0 +1,9 @@
+version: incident/v1
+id: 06ymy1xf3jw5
+name: Serverless and Flex Upgrades Failing
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-07-12 00:16:04"
+      description: We've identified an issue where serverless and flex upgrades are failing at an elevated rate.  We've identified the root cause and are implementing a fix.
