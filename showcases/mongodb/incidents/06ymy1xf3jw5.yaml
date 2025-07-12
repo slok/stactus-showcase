@@ -7,3 +7,8 @@ systems:
 timeline:
     - ts: "2025-07-12 00:16:04"
       description: We've identified an issue where serverless and flex upgrades are failing at an elevated rate.  We've identified the root cause and are implementing a fix.
+    - ts: "2025-07-12 00:59:11"
+      description: We've merged a code fix and deployed it to production.  We are monitoring serverless and flex upgrades to confirm resolution
+    - ts: "2025-07-12 01:08:42"
+      description: This incident has been resolved.
+      resolved: true
