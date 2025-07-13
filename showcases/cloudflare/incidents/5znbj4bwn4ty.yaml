@@ -1,0 +1,13 @@
+version: incident/v1
+id: 5znbj4bwn4ty
+name: Verified Bots Issues
+impact: minor
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2025-07-13 12:45:31"
+      description: |-
+        Cloudflare is investigating issues with our Verified Bots feature in regards to specific Google bots. Customers may experience an increase in the percentage of traffic detected as automated.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
