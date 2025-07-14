@@ -3,7 +3,6 @@ id: sp8glbzt2mcv
 name: Errors With Multiple Twilio Products
 impact: minor
 systems:
-    - g4hs7h64k9fv
     - 7c6yv3vctfqv
     - q4d7rj555ljl
     - b9z92qjr2p04
@@ -12,7 +11,6 @@ systems:
     - 7ypw8tsmyr78
     - lzm53c2kjxkh
     - h056tfqk3q97
-    - mwcz6hw53t7c
 timeline:
     - ts: "2025-07-14 16:33:53"
       description: Our monitoring systems have detected a potential issue TaskRouter and Voice. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
@@ -30,3 +28,5 @@ timeline:
 
         After further investigation, we can confirm customers are able to log in to the Twilio Console. Our engineering team is actively working to resolve the issue. We expect to provide another update in 15 minutes or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-07-14 17:48:13"
+      description: We have identified and addressed the issue causing impact across Flex products, and we are observing continued recovery across Flex products and features. Error rates have normalized, and we will continue to closely monitor for an extended period to ensure the recovery is sustained and complete. We will provide another update in 15 minutes or as soon as we have more information available.
