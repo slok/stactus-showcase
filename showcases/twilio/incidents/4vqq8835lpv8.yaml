@@ -1,8 +1,13 @@
 version: incident/v1
 id: 4vqq8835lpv8
-name: Our Engineers are Investigating an Issue with Task Router
+name: 5xx Errors From Taskrouter API
 impact: none
 systems: []
 timeline:
     - ts: "2025-07-14 16:11:26"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with Task Router. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-07-14 16:30:27"
+      description: Twilio Flex and Task Router was degraded for 30 seconds between 07:48:12 and 07:48:42 Pacific Time on 07/14/2025. During this period of time customers may have experience issues managing tasks (create, fetch, update, delete), retrieving historical tasks and outbound tasks got cancelled during the window. The issue has now been resolved.
+    - ts: "2025-07-14 16:30:36"
+      description: Twilio Flex and Task Router was degraded for 30 seconds between 07:48:12 and 07:48:42 Pacific Time on 07/14/2025. During this period of time customers may have experience issues managing tasks (create, fetch, update, delete), retrieving historical tasks and outbound tasks got cancelled during the window. The issue has now been resolved.
+      resolved: true
