@@ -1,0 +1,21 @@
+version: incident/v1
+id: 5y1xkd1nv4r0
+name: SMS and MMS Delivery Delays to T-Mobile in the USA
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - qj606bzkg4s8
+    - 8vdlvw3dsq8h
+    - llqd4rmn8k8y
+    - k7rg1rqk2nwk
+    - 5cv0b6y86d2f
+timeline:
+    - ts: "2025-07-14 12:31:13"
+      description: We are experiencing SMS and MMS delivery delays to T-Mobile network in the USA. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-14 12:41:33"
+      description: We are continuing our investigation and have discovered Zipwhip is also affected by SMS and MMS Delivery Delays to T-Mobile in the USA.
+      investigating: true
+    - ts: "2025-07-14 12:45:00"
+      description: We are continuing our investigation and have discovered Zipwhip Toll Free SMS and MMS are also affected by SMS and MMS Delivery Delays to T-Mobile in the USA.
+      investigating: true
