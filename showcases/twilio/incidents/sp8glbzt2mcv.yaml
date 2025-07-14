@@ -5,7 +5,13 @@ impact: minor
 systems:
     - g4hs7h64k9fv
     - 7c6yv3vctfqv
+    - q4d7rj555ljl
     - b9z92qjr2p04
+    - vw9w2zyv9nk5
+    - vxjqr22fbl36
+    - 7ypw8tsmyr78
+    - lzm53c2kjxkh
+    - h056tfqk3q97
     - mwcz6hw53t7c
 timeline:
     - ts: "2025-07-14 16:33:53"
@@ -13,4 +19,14 @@ timeline:
       investigating: true
     - ts: "2025-07-14 17:00:13"
       description: 'We are experiencing issues with multiple Twilio products including: Flex TaskRouter, Console Logins, Studio, and Voice Services. Customers could not be able to log in though Twilio Console. Our engineering team is actively working to resolve the issue. We expect to provide another update in 15 minutes or as soon as more information becomes available.'
+      investigating: true
+    - ts: "2025-07-14 17:24:38"
+      description: |-
+        We are experiencing issues with Multiple Flex products, including:
+
+        Flex: Flex agents will be unable to login into Flex UI. Both Single-sign on and Console logins are impacted. Tasks will not be created, existing tasks cannot be routed to available workers; and agent state can not be changed. Flex Messaging Channels are down. Flex Copilot is also impacted. All Flex calls using Voice are impacted. Calls that were in-progress prior to the incident will not be impacted.
+
+        Studio: Customers will experience increased SendToFlex widget failures when calling Task Router to create Tasks.
+
+        After further investigation, we can confirm customers are able to log in to the Twilio Console. Our engineering team is actively working to resolve the issue. We expect to provide another update in 15 minutes or as soon as more information becomes available.
       investigating: true
