@@ -1,0 +1,15 @@
+version: incident/v1
+id: jncn9pjy74m5
+name: Intermittent SSO unavailability due to downstream outage
+impact: minor
+systems:
+    - mxh1682h05hp
+    - 4p0mdlpx000t
+    - ghylvjjv10f0
+    - zccw05jw7qs0
+timeline:
+    - ts: "2025-07-14 22:56:08"
+      description: SSO logins are impacted due to a downstream provider experiencing a major outage that is impacting our authentication services. Our internal systems are operational, but are intermittently failing due to this downstream dependency. We are monitoring the provider's status and will post updates as they become available.
+      investigating: true
+    - ts: "2025-07-14 23:05:54"
+      description: The downstream provider has deployed a fix. We are seeing reduced failure rates and will continue to monitor the results.
