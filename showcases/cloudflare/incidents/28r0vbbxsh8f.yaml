@@ -5,9 +5,9 @@ impact: none
 systems: []
 timeline:
     - ts: "2025-07-14 22:13:54"
-      description: Cloudflare is aware of, and investigating, an issue which potentially impacts multiple users that use 1.1.1.1 public resolver. Further detail will be provided as more information becomes available.
+      description: Cloudflare is aware of, and investigating, an issue which potentially impacts multiple users that use 1.1.1.1 public resolver and Gateway plain text DNS. Further detail will be provided as more information becomes available.
       investigating: true
     - ts: "2025-07-14 22:17:14"
       description: The issue has been identified and a fix is being implemented.
     - ts: "2025-07-14 22:19:30"
-      description: Auth Resolution is not impacted.
+      description: Gateway DNS and Authoritative DNS are not impacted.
