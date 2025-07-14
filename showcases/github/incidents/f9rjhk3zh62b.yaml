@@ -11,5 +11,10 @@ timeline:
       description: We are investigating reports of Copilot Coding Agent service degraded performance
       investigating: true
     - ts: "2025-07-07 22:34:33"
-      description: On July 7, 2025, between 21:14 UTC and 22:34 UTC, Copilot coding Agent was degraded and non-responsive to issue assignment. <b>Impact was limited to internal GitHub staff</b> because the feature flag gating a newly released feature was enabled on internal development setups and not in global GitHub production environments.<br /><br /><br /><br />The incident was mitigated by disabling the feature flag for all users.<br /><br /><br /><br />While our existing safeguards worked as intended—the feature flag allowed for immediate mitigation and the limited scope prevented broader impact—we are enhancing our monitoring to better detect issues that affect smaller user segments and reviewing our internal testing processes to identify similar edge cases before they reach production.
+      description: |-
+        On July 7, 2025, between 21:14 UTC and 22:34 UTC, Copilot coding Agent was degraded and non-responsive to issue assignment. Impact was limited to internal GitHub staff because the feature flag gating a newly released feature was enabled on internal development setups and not in global GitHub production environments.
+
+        The incident was mitigated by disabling the feature flag for all users.
+
+        While our existing safeguards worked as intended—the feature flag allowed for immediate mitigation and the limited scope prevented broader impact—we are enhancing our monitoring to better detect issues that affect smaller user segments and reviewing our internal testing processes to identify similar edge cases before they reach production.
       resolved: true
