@@ -12,3 +12,6 @@ timeline:
     - ts: "2025-07-15 08:23:27"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-07-15 12:47:01"
+      description: "This incident has been resolved. Networking in SJC has remained stable over the past two hours. \n\nThis was caused by a dark fiber maintenance, which had a larger-than-anticipated impact.\nAs a result, some transport capacity was lost, leading to packet loss to and from our servers."
+      resolved: true
