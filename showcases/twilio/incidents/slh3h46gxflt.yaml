@@ -1,6 +1,6 @@
 version: incident/v1
 id: slh3h46gxflt
-name: On Call Engineers are Investigating an issue
+name: 'Automated Alert: No Customer Impact'
 impact: none
 systems:
     - txt6v4g6pv74
@@ -18,3 +18,6 @@ timeline:
     - ts: "2025-07-15 07:41:32"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-07-15 08:13:22"
+      description: We have fully investigated the APNS issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
