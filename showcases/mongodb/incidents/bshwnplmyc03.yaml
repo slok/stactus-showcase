@@ -1,0 +1,10 @@
+version: incident/v1
+id: bshwnplmyc03
+name: Atlas User Interface is Unavailable
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-07-15 11:32:16"
+      description: The Atlas User Interface. is currently unavailable, and we are working to restore access. All clusters remain accessible and API operations are not impacted.
+      investigating: true
