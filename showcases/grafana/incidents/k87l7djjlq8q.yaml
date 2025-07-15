@@ -1,0 +1,9 @@
+version: incident/v1
+id: k87l7djjlq8q
+name: Degraded performance on Email notifications across all regions
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-15 11:20:46"
+      description: Hosted Grafana experienced degraded performance on the Email notification service today, 15th of July from 11:45 UTC to 13:00 UTC. This impacted the sending/receiving of emails used in modules like alerting or reporting. Service was restored shortly after identification.
+      resolved: true
