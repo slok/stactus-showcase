@@ -3,8 +3,12 @@ id: fb95xlbs3vxy
 name: IRM (OnCall + Incident) plugin not available
 impact: critical
 systems:
+    - 1mxpk7q1bkb6
     - h3wg1km0qxwv
 timeline:
     - ts: "2025-07-15 12:10:21"
       description: After the latest plugin update we have identified an issue with the IRM plugin making this one unavailable across Grafana Hosted instances. We are actively working to restore the service.
+      investigating: true
+    - ts: "2025-07-15 12:15:47"
+      description: We are continuing to investigate this issue.
       investigating: true
