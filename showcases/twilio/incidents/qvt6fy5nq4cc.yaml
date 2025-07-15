@@ -1,0 +1,13 @@
+version: incident/v1
+id: qvt6fy5nq4cc
+name: SMS Delivery Failures From and to Multiple Networks in Ireland
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-07-15 00:35:28"
+      description: We are experiencing SMS delivery failures from and to multiple networks in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-15 00:46:19"
+      description: We are continuing to investigate SMS delivery failures from and to multiple networks in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
