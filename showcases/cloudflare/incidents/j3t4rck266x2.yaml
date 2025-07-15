@@ -2,7 +2,17 @@ version: incident/v1
 id: j3t4rck266x2
 name: Cloudflare is experiencing delays propagating configuration changes to the edge
 impact: major
-systems: []
+systems:
+    - w4k8yvhfb3vp
+    - z9w398bsjvnq
+    - 7j656z7tqk7f
+    - d1r0plwsl5qb
+    - vn1h2pfctsvn
+    - 8sn2w5kyxfnp
+    - tfnrx45s2b48
+    - 9c7cbxnhk1dq
+    - 57srcl8zcn7c
+    - vcpsk0w6g86k
 timeline:
     - ts: "2025-07-15 21:49:52"
       description: Due to in an issue with orchestration service in one of our core datacenters, configuration changes are experiencing delayed propagation to the Edge data centers.
@@ -11,3 +21,5 @@ timeline:
       description: The issue has been identified and a fix is being implemented.
     - ts: "2025-07-15 22:20:45"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-07-15 22:33:09"
+      description: We are continuing to monitor for any further issues.
