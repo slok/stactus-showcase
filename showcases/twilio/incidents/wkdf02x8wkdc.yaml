@@ -1,0 +1,11 @@
+version: incident/v1
+id: wkdf02x8wkdc
+name: SMS Delivery Failure to United Kingdom via Pre-Registered Sender IDs
+impact: minor
+systems:
+    - llgdln3dcs6p
+    - kj97j77088bh
+timeline:
+    - ts: "2025-07-15 08:32:44"
+      description: We are experiencing SMS delivery failures to the United Kingdom via Pre-Registered Sender IDs. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
