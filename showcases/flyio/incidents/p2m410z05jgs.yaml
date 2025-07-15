@@ -1,0 +1,10 @@
+version: incident/v1
+id: p2m410z05jgs
+name: Networking issues in SJC
+impact: none
+systems:
+    - 15knchzwl5np
+timeline:
+    - ts: "2025-07-15 08:01:33"
+      description: We are currently investigating networking issues in SJC. Customers may see higher latency and elevated packet loss connecting to machines in this region.
+      investigating: true
