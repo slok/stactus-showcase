@@ -14,3 +14,5 @@ timeline:
       investigating: true
     - ts: "2025-07-15 12:42:57"
       description: Our team has identified the root cause of the issue and is applying measurements to restore the service. This one should be restored again shortly.
+    - ts: "2025-07-15 14:42:51"
+      description: After the performed mitigation, we are seeing normal functioning again of the IRM plugin module. We are still monitoring the service until full health.
