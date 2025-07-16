@@ -1,0 +1,10 @@
+version: incident/v1
+id: l2fmm2lqd77g
+name: Network issues in SJC
+impact: minor
+systems:
+    - 49qj4qjyzlzn
+timeline:
+    - ts: "2025-07-16 16:57:49"
+      description: We are observing high packet loss in SJC region. Apps may experience network issues.
+      investigating: true
