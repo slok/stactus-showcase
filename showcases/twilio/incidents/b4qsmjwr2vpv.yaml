@@ -1,0 +1,13 @@
+version: incident/v1
+id: b4qsmjwr2vpv
+name: Predictive Operators Failing to Execute
+impact: minor
+systems:
+    - qphgn531prd5
+timeline:
+    - ts: "2025-07-16 00:10:37"
+      description: A subset of customers with predictive operators enabled may see a delay in completion of transcriptions and operator results. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-16 00:21:37"
+      description: Upon further investigation, we have confirmed that Conversational Intelligence is the product affected by the ongoing incident. We are actively investigating the issue with a subset of customers with predictive operators enabled that may see a delay in completion of transcriptions and operator results. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
