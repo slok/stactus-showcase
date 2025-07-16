@@ -1,0 +1,12 @@
+version: incident/v1
+id: 8pk9qxksg7cj
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-07-16 08:16:05"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-07-16 08:21:37"
+      description: We are experiencing degraded availability for the Claude 3.7 Sonnet model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.
+      investigating: true

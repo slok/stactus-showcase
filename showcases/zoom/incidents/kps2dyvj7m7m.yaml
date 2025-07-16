@@ -1,0 +1,10 @@
+version: incident/v1
+id: kps2dyvj7m7m
+name: A subset of users are experiencing intermittent connectivity issues with Zoom Phone inbound and outbound calling in the Sydney region.
+impact: major
+systems:
+    - cwqgbrdl34rr
+timeline:
+    - ts: "2025-07-16 08:15:28"
+      description: We have detected service degradation where a subset of users would be experiencing intermittent connectivity issues with Zoom Phone inbound and outbound calling in the Sydney region. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
