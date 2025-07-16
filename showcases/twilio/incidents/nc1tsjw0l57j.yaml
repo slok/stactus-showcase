@@ -1,6 +1,6 @@
 version: incident/v1
 id: nc1tsjw0l57j
-name: SMS Delivery Delays to Dish Network in the United States of America via a Subset of Shortcodes
+name: SMS Delivery Delays to a Subset of Small Networks in the United States of America via a Subset of Shortcodes
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-07-16 21:38:49"
       description: We are experiencing SMS delivery delays when sending messages to Dish Network in the United States of America via a Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-16 22:03:59"
+      description: Customers may experience SMS delivery delays to a subset of small networks in the United States of America via a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
