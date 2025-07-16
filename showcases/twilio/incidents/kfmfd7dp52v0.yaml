@@ -1,0 +1,9 @@
+version: incident/v1
+id: kfmfd7dp52v0
+name: Failed Message Status Callbacks
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-16 13:15:56"
+      description: Twilio Messaging was degraded for 3 minutes between 03:41 and 03:44 Pacific Time on 07/16/2025. During this period of time customers using AWS SNS may have experienced failed messaging callbacks. The issue has now been resolved.
+      resolved: true
