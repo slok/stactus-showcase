@@ -1,6 +1,6 @@
 version: incident/v1
 id: d51x7dc428bg
-name: SMS Delivery Delays to Verizon Wireless in United States of America
+name: SMS Delivery Delays to Verizon Wireless in United States of America via a Subset of Shortcodes
 impact: minor
 systems:
     - 7d8w22hqrh6s
@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-07-16 17:13:58"
       description: We are experiencing SMS delivery delays when sending messages to Verizon Wireless in the United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-07-16 17:57:01"
+      description: We are no longer experiencing SMS delivery delays when sending messages to Verizon Wireless in the United States of America via a subset of shortcodes. We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
