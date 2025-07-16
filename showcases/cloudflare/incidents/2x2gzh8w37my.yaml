@@ -1,0 +1,12 @@
+version: incident/v1
+id: 2x2gzh8w37my
+name: Cache purges delayed in DFW and San Jose regions
+impact: minor
+systems:
+    - r8ppmb3xm98j
+    - fbvx0hxhhdj0
+    - 4xvd68d7k70c
+timeline:
+    - ts: "2025-07-16 14:02:50"
+      description: Cloudflare cache purging is delayed in DFW and San Jose regions. We are investigating.
+      investigating: true
