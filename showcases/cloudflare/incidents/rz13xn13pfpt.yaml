@@ -1,0 +1,15 @@
+version: incident/v1
+id: rz13xn13pfpt
+name: Cloudflare lists API delays
+impact: minor
+systems:
+    - tfnrx45s2b48
+timeline:
+    - ts: "2025-07-17 15:43:08"
+      description: |-
+        Cloudflare is investigating issues with the API for URL lists, bulk redirect lists and hostname lists.
+
+        Customers using the dashboard or Cloudflare APIs may find that their changes have a significant delay before taking effect at the Cloudflare Edge.
+
+        These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+      investigating: true
