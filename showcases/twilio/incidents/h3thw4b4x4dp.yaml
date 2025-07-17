@@ -1,0 +1,14 @@
+version: incident/v1
+id: h3thw4b4x4dp
+name: Whatsapp inbound and outbound messages are experiencing delays
+impact: minor
+systems:
+    - whldrk77jnm4
+    - 6cn0g627h62p
+timeline:
+    - ts: "2025-07-17 19:10:13"
+      description: We are investigating delays in Whatsapp where inbound and outbound messages are experiencing delays. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
+    - ts: "2025-07-17 19:14:04"
+      description: We are continuing to investigate this issue.
+      investigating: true
