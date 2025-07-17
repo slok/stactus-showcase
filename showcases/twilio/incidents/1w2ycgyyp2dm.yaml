@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2025-07-17 12:35:12"
       description: We are observing recovery in MMS/SMS delivery delays when sending messages to AT&T Network in the United States via a Subset of Long codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-07-17 14:37:35"
+      description: We are no longer experiencing SMS delivery delays to AT&T Network in the United States via a subset of long codes. This incident has been resolved.
+      resolved: true
