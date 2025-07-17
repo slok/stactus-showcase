@@ -7,3 +7,5 @@ systems:
 timeline:
     - ts: "2025-07-17 18:19:09"
       description: "We are seeing elevated rates of \"App not found\" errors impacting some apps. Users may see these errors when interacting with impacted apps via the Machines API, Flyctl, or their dashboard. \n\nWe have identified the cause of these errors and are working on a fix."
+    - ts: "2025-07-17 19:41:01"
+      description: We are continuing to roll out the fix for this issue to impacted apps and some users are seeing operations return to normal. We will confirm once the roll out is fully complete.
