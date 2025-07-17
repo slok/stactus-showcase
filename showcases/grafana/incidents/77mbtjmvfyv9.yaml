@@ -1,0 +1,9 @@
+version: incident/v1
+id: 77mbtjmvfyv9
+name: New Pods Failing to Start for a Small Subset of Instances
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-17 21:22:23"
+      description: At approximately 13:50 UTC a new deployment resulted in pointing to a non-existent plugin version for pinned instances. This resulted in new pods for those instances to fail upon start. Since older pods were still running, users should not have experienced a disruption.
+      resolved: true

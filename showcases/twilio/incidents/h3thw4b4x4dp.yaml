@@ -13,8 +13,8 @@ timeline:
       description: We are continuing to investigate this issue.
       investigating: true
     - ts: "2025-07-17 19:45:34"
-      description: The issue has been identified and a fix is being implemented.
+      description: We have implemented a fix and will be monitoring as messages dequeue.
     - ts: "2025-07-17 20:10:35"
-      description: We are continuing to investigate delays in Whatsapp where inbound and outbound messages are experiencing delays. We expect to provide another update in 2 hours or as soon as more information becomes available
+      description: We are continuing to "monitor as messages dequeue".
     - ts: "2025-07-17 20:31:22"
-      description: We have implemented a fix and will be monitoring for messages to dequeue as expected. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      description: Messages have finished dequeuing. All inbound and outbound traffic for Whatsapp is operational again.
