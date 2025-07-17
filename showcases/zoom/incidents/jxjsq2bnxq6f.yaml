@@ -1,0 +1,18 @@
+version: incident/v1
+id: jxjsq2bnxq6f
+name: A subset of users may experience issues with multiple services in Saudi Arabia
+impact: minor
+systems:
+    - xtgr15yv6hbn
+    - 5nb7nq17c6g5
+    - 503cqbhcpvzx
+    - 07fc2bfpjgct
+    - 8vtcg8np4n8c
+    - 3ml2fn8g0psv
+    - tvtkg7hq9qdd
+    - gtf6dl08hrk1
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2025-07-17 04:44:54"
+      description: We have detected service degradation where a subset of users may experience issues with multiple services in Saudi Arabia. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
