@@ -1,0 +1,9 @@
+version: incident/v1
+id: 9mp5q0wc58bh
+name: Elevated "App Not Found" errors
+impact: minor
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2025-07-17 18:19:09"
+      description: "We are seeing elevated rates of \"App not found\" errors impacting some apps. Users may see these errors when interacting with impacted apps via the Machines API, Flyctl, or their dashboard. \n\nWe have identified the cause of these errors and are working on a fix."
