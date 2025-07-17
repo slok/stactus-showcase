@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9jb4n7s8ns4k
+name: Inbound Call Failures to a Subset of Twilio Turkey Phone Numbers
+impact: minor
+systems:
+    - 6ns22g89f6g9
+timeline:
+    - ts: "2025-07-17 07:36:36"
+      description: We are observing call failures to a subset of Twilio Turkey phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
