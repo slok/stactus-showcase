@@ -1,0 +1,14 @@
+version: incident/v1
+id: c66qtgw0r1lk
+name: '[Retroactive] Disruption with some GitHub Services'
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-07-17 10:48:32"
+      description: |-
+        On 15 July, between 19:55 and 19:58 UTC, requests to GitHub had a high failure rate while successful requests suffered up to 10x expected latency.
+
+        Browser-based requests saw a failure rate of up to 20%, GraphQL had up to a 9% failure rate and 2% of REST API requests failed. Any downstream service dependent on GitHub APIs was also affected during this short window.
+
+        The failure stemmed from a database query change, and was rolled back by our deployment tooling which automatically detected the issue. We will continue to invest in automated detection and rollback with a goal of minimizing time to recovery.
+      resolved: true
