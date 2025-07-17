@@ -1,0 +1,10 @@
+version: incident/v1
+id: jjl2myscnpxz
+name: Inbound Call Failures to a Subset of Twilio Thailand Phone Numbers
+impact: minor
+systems:
+    - 50pr269zqrwj
+timeline:
+    - ts: "2025-07-17 09:40:40"
+      description: We are observing call failures to a subset of Twilio Thailand phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

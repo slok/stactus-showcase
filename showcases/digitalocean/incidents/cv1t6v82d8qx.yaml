@@ -1,0 +1,10 @@
+version: incident/v1
+id: cv1t6v82d8qx
+name: Support Contact Form
+impact: minor
+systems:
+    - hklgsphcrjq4
+timeline:
+    - ts: "2025-07-17 09:46:18"
+      description: "As of 9:23 UTC, our Engineering team is currently investigating an issue with our Support Contact Form, which users use when they are unable to log into their accounts to submit support tickets, located here: https://www.digitalocean.com/company/contact/support\n\nAt this time, users are still able to submit the form, but the submissions are not being received by our Support Team. \n\nWe have confirmed the submissions were received by our systems and we're working to get these submissions over to our Support Team, as well as remediate the issue. \n\nIf you are able to log into your account, please submit any Support tickets via https://cloudsupport.digitalocean.com/s/ rather than the contact form.\n\nWe will post another update as soon as we have further information. In the meantime, we appreciate your patience as we work through this."
+      investigating: true
