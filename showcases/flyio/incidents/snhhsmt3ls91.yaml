@@ -1,0 +1,14 @@
+version: incident/v1
+id: snhhsmt3ls91
+name: Elevated API issues
+impact: minor
+systems:
+    - 80ykv2p95qgy
+    - 49yq6v65b33l
+timeline:
+    - ts: "2025-07-17 00:02:32"
+      description: We're seeing a higher number of 500s when calling the Machines API or when trying to launch a machine.
+      investigating: true
+    - ts: "2025-07-17 00:09:48"
+      description: We've started a rollout to our global state store and are noticing degraded performance for our API. Users may see inconsistent data related to their machines.
+      investigating: true
