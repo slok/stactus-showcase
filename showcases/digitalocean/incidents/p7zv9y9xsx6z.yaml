@@ -1,0 +1,11 @@
+version: incident/v1
+id: p7zv9y9xsx6z
+name: Reserved IPs and Load Balancers
+impact: minor
+systems:
+    - ctwhml01vvw1
+    - yvh4g97h7mk7
+timeline:
+    - ts: "2025-07-18 12:17:39"
+      description: Our Engineering team is currently investigating an issue affecting Reserved IPs and Load Balancers. During this time, users may be unable to assign, reserve, or release Reserved IPs, or provision Load Balancers. This impact is limited to IPv4; IPv6 remains unaffected. We apologize for the inconvenience and will share an update as soon as we have more information
+      investigating: true
