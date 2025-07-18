@@ -1,0 +1,9 @@
+version: incident/v1
+id: 76dqx3j0mdt7
+name: Delayed operations for Atlas clusters in Azure West US 2
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-07-18 02:51:06"
+      description: Azure is experiencing issues performing operations on Virtual Machines in West US 2. As a result, cluster operations in this region are subject to delays. Details of the Azure issue can be found in the Azure Service Health Dashboard. We are monitoring closely.
