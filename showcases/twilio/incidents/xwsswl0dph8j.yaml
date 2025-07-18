@@ -1,0 +1,10 @@
+version: incident/v1
+id: xwsswl0dph8j
+name: On Call Engineers are Investigating an issue with Flex randomly dropping voice calls.
+impact: minor
+systems:
+    - h056tfqk3q97
+timeline:
+    - ts: "2025-07-18 22:01:29"
+      description: Our monitoring systems have detected a potential issue with Voice and Flex. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
