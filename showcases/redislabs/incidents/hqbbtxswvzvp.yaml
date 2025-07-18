@@ -1,0 +1,12 @@
+version: incident/v1
+id: hqbbtxswvzvp
+name: Instance failure
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-18 01:33:38"
+      description: 'We are experiencing an instance failure. This may affect resources that have the following pattern in their endpoint: c170.us-east-1-mz'
+      investigating: true
+    - ts: "2025-07-18 01:51:57"
+      description: This incident has been resolved.
+      resolved: true
