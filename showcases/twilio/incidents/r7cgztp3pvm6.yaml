@@ -1,10 +1,13 @@
 version: incident/v1
 id: r7cgztp3pvm6
-name: MMS Delivery Delays to and From Multiple Networks In United States of America Via a Subset Of Twilio Short Codes
+name: MMS Delivery Delays To and From Multiple Networks In United States of America Via a Subset Of Twilio Short Codes
 impact: minor
 systems:
     - h0fl7prwfhvm
 timeline:
     - ts: "2025-07-18 17:46:12"
       description: We are experiencing MMS delivery delays when sending messages to and From the United States of America in Multiple Networks Via a Subset Of Short Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-18 18:46:01"
+      description: We continue to experience MMS delivery delays when sending messages to and From Multiple Networks In United States of America Via a Subset Of Twilio Short Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
