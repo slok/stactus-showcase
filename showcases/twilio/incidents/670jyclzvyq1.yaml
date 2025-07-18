@@ -1,0 +1,10 @@
+version: incident/v1
+id: 670jyclzvyq1
+name: Programmable Video Affected - Some Video Rooms Completion Callbacks Were Lost
+impact: none
+systems:
+    - ys1jhy2ys04z
+timeline:
+    - ts: "2025-07-18 19:58:00"
+      description: Twilio Programable Video was degraded July 18th 12:08 PM (19:08 UTC) At this time some video rooms completion callbacks were lost. The issue has now been resolved.
+      resolved: true
