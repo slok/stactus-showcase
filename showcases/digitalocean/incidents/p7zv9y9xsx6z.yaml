@@ -11,3 +11,6 @@ timeline:
       investigating: true
     - ts: "2025-07-18 12:36:17"
       description: Our Engineering team has implemented a fix to address the issue affecting Reserved IPs and Load Balancers and is actively monitoring the situation. We will provide an update once the issue is fully resolved.
+    - ts: "2025-07-18 13:20:04"
+      description: Our Engineering team has successfully resolved the issue that was affecting Reserved IPs and Load Balancers. Between 10:45 UTC and 12:10 UTC today, users may have encountered errors while assigning, reserving, or releasing Reserved IPs, or provisioning Load Balancers. All services have now been fully restored and are functioning normally. If you continue to experience any issues, please open a ticket with our support team. We apologize for any inconvenience this may have caused.
+      resolved: true

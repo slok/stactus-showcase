@@ -1,0 +1,13 @@
+version: incident/v1
+id: 3q4v7fr5qbyc
+name: Some API calls to disable SSL Automatic mode are showing a 500 error
+impact: minor
+systems:
+    - g4tb35rs9yw7
+timeline:
+    - ts: "2025-07-18 13:39:44"
+      description: |-
+        Customers turning off SSL automatic mode via API may experience intermittent errors. In some cases, a retry should fix the problem.
+
+        We are currently investigating this issue.
+      investigating: true
