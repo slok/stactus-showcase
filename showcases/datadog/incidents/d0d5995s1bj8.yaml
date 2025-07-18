@@ -1,0 +1,13 @@
+version: incident/v1
+id: d0d5995s1bj8
+name: Google SSO login errors
+impact: major
+systems:
+    - b5fx9rfn6137
+timeline:
+    - ts: "2025-07-18 15:30:46"
+      description: |-
+        We are investigating user login issues with the web application via Google SSO.
+
+        Please note that data processing and alerts are not affected by this incident.
+      investigating: true
