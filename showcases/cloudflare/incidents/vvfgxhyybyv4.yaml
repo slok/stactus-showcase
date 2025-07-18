@@ -1,0 +1,10 @@
+version: incident/v1
+id: vvfgxhyybyv4
+name: Durable Objects Increased Errors
+impact: minor
+systems:
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2025-07-18 19:31:48"
+      description: We are investigating an issue resulting in increased error rates for Durable Object accesses in the Eastern Europe region.
+      investigating: true
