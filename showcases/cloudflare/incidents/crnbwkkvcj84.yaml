@@ -1,0 +1,12 @@
+version: incident/v1
+id: crnbwkkvcj84
+name: DNS Change Delays
+impact: minor
+systems:
+    - 7j656z7tqk7f
+timeline:
+    - ts: "2025-07-18 22:53:51"
+      description: Cloudflare is investigating delays in propagation of updates to DNS records. More updates to follow shortly.
+    - ts: "2025-07-18 23:04:28"
+      description: This incident has been resolved.
+      resolved: true
