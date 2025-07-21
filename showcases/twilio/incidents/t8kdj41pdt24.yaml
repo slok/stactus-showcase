@@ -1,0 +1,10 @@
+version: incident/v1
+id: t8kdj41pdt24
+name: SMS Delivery Report Delays to Telefonica Network in Mexico via a Subset of Shortcodes
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-07-21 21:25:31"
+      description: We are experiencing SMS delivery delays when sending messages to Telefonica network in Mexico via a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
