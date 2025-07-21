@@ -1,0 +1,27 @@
+version: incident/v1
+id: btl2cjm2pzkj
+name: Incident with Issues
+impact: minor
+systems:
+    - 4230lsnqdsld
+    - brv1bkgrwx7q
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - st3j38cctv9l
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2025-07-21 07:15:33"
+      description: We are investigating reports of degraded performance for Issues and Webhooks
+      investigating: true
+    - ts: "2025-07-21 07:19:57"
+      description: Codespaces is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-07-21 07:22:30"
+      description: API Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-07-21 07:23:42"
+      description: Packages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-07-21 07:25:54"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
