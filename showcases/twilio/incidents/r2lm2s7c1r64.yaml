@@ -1,6 +1,6 @@
 version: incident/v1
 id: r2lm2s7c1r64
-name: SMS Delivery Delays and Delivery Report Delays to Claro in El Salvador
+name: SMS Delivery Delays to Multiple Claro Networks in Central America
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-07-21 15:17:08"
       description: We are still experiencing SMS delivery delays and delivery report delays when sending messages to Claro in El Salvador. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-21 17:18:07"
+      description: We are still experiencing SMS delivery delays and delivery report delays when sending messages to multiple Claro networks in Central America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
