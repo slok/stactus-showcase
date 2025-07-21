@@ -9,4 +9,4 @@ timeline:
       description: Our LetsEncrypt CA provider is experiencing an API outage https://letsencrypt.status.io/pages/55957a99e800baa4470002da.  Atlas customers can submit cluster modifications but will experience a delay in these changes getting applied.  Existing clusters are unaffected by this outage.
       investigating: true
     - ts: "2025-07-21 19:27:46"
-      description: We have updated our system to fallback to Google Trust Services.  Any new clusters provisioned now will proceed normally.  Please recreate your cluster or resubmit your cluster topology change by bypass the LetsEncrypt outage.
+      description: We have updated our system to fallback to Google Trust Services.  Any new clusters provisioned now will proceed normally.  Please recreate your cluster or resubmit your cluster topology change to bypass the LetsEncrypt outage.
