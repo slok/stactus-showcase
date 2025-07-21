@@ -1,0 +1,14 @@
+version: incident/v1
+id: sv0rnk7vk7j5
+name: Let's Encrypt SSL Provisioning
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-21 20:02:17"
+      description: |-
+        Our Engineering team has identified an issue affecting the creation of Let's Encrypt SSL certificates through the DigitalOcean Cloud Panel for Spaces and Load Balancers. During this time, users may experience failures or delays when provisioning new certificates.
+
+        Our team is actively working with Let's Encrypt to resolve the issue as quickly as possible. Existing certificates and traffic over HTTPS are not impacted.
+
+        We will continue to provide updates as we learn more.
+      investigating: true
