@@ -1,0 +1,10 @@
+version: incident/v1
+id: yc0l8ts8342t
+name: SMS Delivery Delays to Claro Network in Costa Rica
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-07-21 15:21:59"
+      description: We are experiencing SMS delivery delays when sending messages to Claro network in Costa Rica. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
