@@ -12,3 +12,5 @@ timeline:
       description: We have updated our system to fallback to Google Trust Services.  Any new clusters provisioned now will proceed normally.  Please recreate your cluster or resubmit your cluster topology change to bypass the LetsEncrypt outage.
     - ts: "2025-07-21 20:59:31"
       description: LetsEncrypt is continuing to experience elevated errors.  This is now causing new serverless and flex instances to fail to provision.  New dedicated clusters are unaffected by this outage.
+    - ts: "2025-07-21 23:00:03"
+      description: LetsEncrypt is continuing to experience elevated errors. Our system continues to use Google Trust Services when possible; however, backup restores are dependent on LetsEncrypt and are blocked. New serverless and flex instances are failing to provision.  New dedicated clusters are unaffected by this outage.
