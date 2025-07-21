@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-07-21 20:50:52"
       description: Our monitoring systems have detected a potential issue with Newly signed up customers requesting a certification for link shortening for Messaging, will stay in pending status with "your certificate is being processed". Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-07-21 21:07:24"
+      description: We have fully investigated the newly signed up customers requesting a managed certificate for link shortening in messaging, will stay in pending status with “Your Certificate Is Being Processed.” All current customers using the messaging API will not be impacted on their operations, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true

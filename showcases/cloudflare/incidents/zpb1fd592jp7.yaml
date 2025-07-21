@@ -1,0 +1,10 @@
+version: incident/v1
+id: zpb1fd592jp7
+name: Access API availability degradation
+impact: none
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2025-07-21 21:09:00"
+      description: Cloudflare Access’ API experienced availability issues for a short period of time. Users may have experienced elevated errors during this time. Access application authentication and all other Zero Trust services were not impacted.
+      resolved: true
