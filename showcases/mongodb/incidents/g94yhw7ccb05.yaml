@@ -22,3 +22,5 @@ timeline:
         Google Trust Services certificate issuance is not available in Atlas for Gov. In Atlas for Gov, dedicated cluster provisioning is blocked.
     - ts: "2025-07-22 03:42:48"
       description: LetsEncrypt has restored service and we are seeing cluster modifications get applied.
+    - ts: "2025-07-22 04:58:13"
+      description: We continue to see cluster modifications get applied successfully after LetsEncrypt has restored service. We will monitor the system and provide another update before 12UTC.
