@@ -1,0 +1,10 @@
+version: incident/v1
+id: 45zh83dfwft6
+name: Some Users Unable to Connect New Datasources with PDC
+impact: major
+systems:
+    - r4t5cjg79lkv
+timeline:
+    - ts: "2025-07-22 22:12:55"
+      description: We are currently investigating an issue that is preventing users from connecting new datasources with PDC in the us-east-0 region.
+      investigating: true

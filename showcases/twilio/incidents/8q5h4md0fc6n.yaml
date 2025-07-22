@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8q5h4md0fc6n
+name: SMS Delivery Delays and Failures to Etisalat in United Arab Emirates
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-07-22 22:10:33"
+      description: Our monitoring systems have detected a potential issue with SMS delivery delays and failures to Etisalat in United Arab Emirates. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-07-22 22:14:47"
+      description: We are experiencing SMS delivery delays and failures to Etisalat in United Arab Emirates. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
