@@ -1,0 +1,10 @@
+version: incident/v1
+id: dlnztpspjt5k
+name: Small Number of Voice Calls Are Failing Stir/Shaken Attestation
+impact: minor
+systems:
+    - mwcz6hw53t7c
+timeline:
+    - ts: "2025-07-22 03:00:16"
+      description: We are currently investigating an issue that is causing a small number of Voice calls to fail Stir/Shaken Attestation. Due to this issue, these voice calls are getting signed as Attestation C. Our engineering team is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
