@@ -1,0 +1,12 @@
+version: incident/v1
+id: 388wmv0yz6h9
+name: Load Balancing Configuration Propagation Delayed
+impact: major
+systems:
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2025-07-21 23:57:16"
+      description: We are investigating an issue where edits and creation of new Load Balancers are experiencing extended delays in propagating to the our edge network.
+      investigating: true
+    - ts: "2025-07-22 00:10:29"
+      description: A fix has been implemented and we are monitoring the results.

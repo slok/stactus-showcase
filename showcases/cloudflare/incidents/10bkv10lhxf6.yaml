@@ -1,0 +1,9 @@
+version: incident/v1
+id: 10bkv10lhxf6
+name: Increased HTTP 5XX Errors
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-21 23:52:11"
+      description: We identified an issue that resulted in increased HTTP 5XX error responses for requests to our Zurich (ZRH) facility during the window 2025-07-16 16:15 - 21:25 UTC.
+      resolved: true

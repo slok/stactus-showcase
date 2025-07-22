@@ -4,6 +4,7 @@ name: LetsEncrypt API Outage causing Delayed Cluster Modifications
 impact: minor
 systems:
     - 98lbmdz85yp0
+    - q57ng8brt2td
 timeline:
     - ts: "2025-07-21 19:08:31"
       description: Our LetsEncrypt CA provider is experiencing an API outage https://letsencrypt.status.io/pages/55957a99e800baa4470002da.  Atlas customers can submit cluster modifications but will experience a delay in these changes getting applied.  Existing clusters are unaffected by this outage.
@@ -14,3 +15,8 @@ timeline:
       description: LetsEncrypt is continuing to experience elevated errors.  This is now causing new serverless and flex instances to fail to provision.  New dedicated clusters are unaffected by this outage.
     - ts: "2025-07-21 23:00:03"
       description: LetsEncrypt is continuing to experience elevated errors. Our system continues to use Google Trust Services when possible; however, backup restores are dependent on LetsEncrypt and are blocked. New serverless and flex instances are failing to provision.  New dedicated clusters are unaffected by this outage.
+    - ts: "2025-07-21 23:52:51"
+      description: |-
+        LetsEncrypt is continuing to experience elevated errors. Our system continues to use Google Trust Services when possible; however, backup restores are dependent on LetsEncrypt and are blocked. New serverless and flex instances are failing to provision.  New dedicated clusters are unaffected by this outage.
+
+        Google Trust Services certificate issuance is not available in Atlas for Gov. In Atlas for Gov, dedicated cluster provisioning is blocked.
