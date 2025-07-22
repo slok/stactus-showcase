@@ -18,3 +18,10 @@ timeline:
 
         Our team is actively working to resolve the issue and we will provide further updates as soon as we have more information. Thank you for your continued patience.
       investigating: true
+    - ts: "2025-07-22 14:55:38"
+      description: |-
+        Our Engineering team, in collaboration with Let's Encrypt, has implemented a fix to address the issue affecting SSL certificate provisioning for Spaces and Load Balancers. Initial reports indicate that certificate creation is now functioning as expected.
+
+        However, we are continuing to monitor the situation closely to ensure full stability. Existing certificates and HTTPS traffic remain unaffected.
+
+        We will provide an update once the issue is fully resolved.
