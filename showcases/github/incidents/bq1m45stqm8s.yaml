@@ -1,0 +1,13 @@
+version: incident/v1
+id: bq1m45stqm8s
+name: Incident with Copilot and Claude Sonnet 4
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2025-07-22 18:35:15"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2025-07-22 18:35:29"
+      description: We are experiencing degraded availability for the Claude Sonnet 4 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.<br /><br />
+      investigating: true
