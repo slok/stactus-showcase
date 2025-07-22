@@ -1,0 +1,13 @@
+version: incident/v1
+id: h040622y0jgq
+name: SMS Delivery Delays and Failures To Multiple Telefonica Networks in Latin America and SMS Delivery Delays To Subset of Twilio Shortcodes in Mexico
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-07-22 00:46:08"
+      description: We are experiencing SMS delivery delays when sending messages to Telefonica Network via a Subset of Shortcodes and SMS Delivery Delays To Subset of Twilio Shortcodes in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-22 01:10:21"
+      description: SMS Delivery Delays and Failures to multiple Telefonica networks in Peru, Venezuela and Mexico via Subset of Shortcodes and SMS Delivery Delays To Subset of Twilio Shortcodes in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
