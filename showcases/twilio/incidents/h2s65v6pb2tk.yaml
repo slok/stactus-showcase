@@ -1,10 +1,13 @@
 version: incident/v1
 id: h2s65v6pb2tk
-name: SMS Delivery Delays to MTN in Nigeria
+name: '[SNO] SMS Delivery Delays to Multiple MTN Network.'
 impact: minor
 systems:
     - 9z5gsqyjs4rl
 timeline:
     - ts: "2025-07-22 14:48:16"
       description: We are experiencing SMS Delivery Delays to MTN in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-22 15:37:34"
+      description: We continue to experiencing SMS delivery delays to Multiple MTN Networks in Nigeria, Ghana, and Benin. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 or as soon as more information becomes available.
       investigating: true
