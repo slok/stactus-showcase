@@ -14,5 +14,5 @@ timeline:
       description: We have seen recovery on our provider's side but have not yet confirmed if the issue is fully resolved. We will update our status in the next 20 minutes as we know more.
       investigating: true
     - ts: "2025-07-16 08:58:41"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On July 16, 2025, between 05:20 UTC and 08:30 UTC, the Copilot service experienced degraded availability for Claude 3.7 requests. Around 10% of Claude 3.7 requests failed during this time. The issue was caused by an upstream problem affecting our ability to serve requests.<br />We mitigated by rerouting capacity and monitoring recovery. We are improving detection and mitigation to reduce future impact.
       resolved: true
