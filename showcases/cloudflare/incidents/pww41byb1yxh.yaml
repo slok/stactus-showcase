@@ -1,0 +1,12 @@
+version: incident/v1
+id: pww41byb1yxh
+name: Zero Trust Posture failure
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2025-07-22 19:51:01"
+      description: Some WARP Devices may be failing to report posture status.
+      investigating: true
+    - ts: "2025-07-22 20:06:49"
+      description: The issue has been identified and a fix is being implemented.
