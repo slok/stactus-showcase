@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2025-07-18 02:51:06"
       description: Azure is experiencing issues performing operations on Virtual Machines in West US 2. As a result, cluster operations in this region are subject to delays. Details of the Azure issue can be found in the Azure Service Health Dashboard. We are monitoring closely.
+    - ts: "2025-07-22 14:06:59"
+      description: Azure has resolved the issues with West US 2. Cluster operations have returned to normal.
+      resolved: true
