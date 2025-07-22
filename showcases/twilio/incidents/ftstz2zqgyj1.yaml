@@ -1,11 +1,15 @@
 version: incident/v1
 id: ftstz2zqgyj1
-name: On Call Engineers are Investigating an issue with Users Unable to Login to Flex via SSO
+name: Users Unable to Login to Flex via SSO
 impact: none
-systems: []
+systems:
+    - vw9w2zyv9nk5
 timeline:
     - ts: "2025-07-22 21:25:11"
       description: Our monitoring systems have detected a potential issue with users being unable to login to Flex via SSO. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2025-07-22 21:40:24"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with users being unable to login to Flex via SSO. We will follow up and provide customer impact details within 30 minutes.
+    - ts: "2025-07-22 22:04:20"
+      description: Flex was degraded between 10:06 AM and 1:40 PM Pacific Time on 07/22/2025. During this time, some customers may have experienced problems logging in via SSO. The issue has now been resolved.
+      resolved: true
