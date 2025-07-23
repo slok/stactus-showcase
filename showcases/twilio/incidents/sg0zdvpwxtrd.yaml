@@ -1,6 +1,6 @@
 version: incident/v1
 id: sg0zdvpwxtrd
-name: MMS Delivery Failures from Network Subscribers in the United States to a Subset of Shortcodes
+name: MMS Delivery Failures to and from Multiple Networks in the US for a Subset of Shortcodes
 impact: minor
 systems:
     - h0fl7prwfhvm
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-07-23 21:40:10"
       description: We are experiencing MMS delivery failures from Network subscribers in the United States to a subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-23 22:35:49"
+      description: We are experiencing MMS delivery failures to and from multiple networks in the US for a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
