@@ -1,0 +1,10 @@
+version: incident/v1
+id: j1vgrt2p48qw
+name: Inbound Call Failures to a Subset of Twilio Phone Numbers in El Salvador
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2025-07-23 12:53:34"
+      description: We are observing a subset of call failures to Twilio Phone Numbers in El Salvador. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
