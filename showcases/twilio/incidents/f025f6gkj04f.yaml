@@ -1,0 +1,10 @@
+version: incident/v1
+id: f025f6gkj04f
+name: SMS Delivery Delays to Movistar Network in Panama
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-07-23 15:22:19"
+      description: We are experiencing SMS delivery delays when sending messages to Movistar Network in Panama. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
