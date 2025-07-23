@@ -1,0 +1,10 @@
+version: incident/v1
+id: nc6fnl3z64t1
+name: Issues with R2 S3 Endpoint
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2025-07-23 17:29:03"
+      description: R2 S3 Endpoint Inaccessible for Accounts Created Between 13:00–18:20 UTC on July 22, 2025
+      investigating: true
