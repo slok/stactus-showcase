@@ -1,0 +1,13 @@
+version: incident/v1
+id: ynmln394h6fg
+name: Workers KV elevated error rates, both for reads and writes.
+impact: minor
+systems:
+    - tmh50tx2nprs
+timeline:
+    - ts: "2025-07-23 10:40:42"
+      description: |-
+        We have identified an issue causing increased elevated rates for operations to Workers KV, since 10:00 UTC.
+
+
+        A fix has been implemented, and we are monitoring the results.
