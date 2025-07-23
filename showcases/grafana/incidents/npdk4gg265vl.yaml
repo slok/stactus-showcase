@@ -1,0 +1,11 @@
+version: incident/v1
+id: npdk4gg265vl
+name: IRM (OnCall and Incident) plugin failing to load in eu-west-2 region.
+impact: major
+systems:
+    - 1mxpk7q1bkb6
+    - h3wg1km0qxwv
+timeline:
+    - ts: "2025-07-23 09:08:30"
+      description: We're experiencing an issue with the IRM plugin in eu-west-2 region right now. The plugin is not available and failing to load. We're working on resolving the problem.
+      investigating: true
