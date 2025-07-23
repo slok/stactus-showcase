@@ -3,8 +3,28 @@ id: 45zh83dfwft6
 name: Some Users Unable to Connect New Datasources with PDC
 impact: major
 systems:
+    - pmc3jw5xsjwz
+    - 84fnwytt05df
+    - 3sk6cpgms8yn
+    - hmyx8mtn3tjq
+    - wg7t1g2762jh
+    - ht5t547d4vlk
+    - mbk5fz2pkjx8
     - r4t5cjg79lkv
+    - 2lgxvw5jzjy2
+    - xp9dh2867dhp
+    - 7hzxytvzk3mz
+    - y46ddhgystcm
+    - 83pzb618q8t9
+    - z9wm2b60vf8f
+    - qtptj232t43m
+    - 2htzkr2r80lm
+    - fd85rg7yrqww
+    - 22lqyzyw46nj
+    - y081wmnk39py
 timeline:
     - ts: "2025-07-22 22:12:55"
       description: We are currently investigating an issue that is preventing users from connecting new datasources with PDC in the us-east-0 region.
       investigating: true
+    - ts: "2025-07-23 07:48:54"
+      description: We have discovered that the issue could affect customers in all regions. We have identified the issue and are working on a fix.
