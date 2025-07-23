@@ -13,7 +13,7 @@ timeline:
     - ts: "2025-07-22 20:12:48"
       description: WARP Devices that were rebooted, registered, or rotated keys between July 22 2025 17:25 UTC and July 22 2025 20:00pm are impacted by this incident. Impacted customers can manually reboot their WARP Devices, or rotate keys, to recover. If no action is taken, WARP Devices will automatically self-heal within 24 hours.
     - ts: "2025-07-23 03:04:11"
-      description: Continuing to send update-config notifications to affected devices. ~190k out of 268k notifications sent so far.
+      description: A fix has been implemented and we are monitoring the results.
     - ts: "2025-07-23 03:52:50"
-      description: Completed sending update-config notifications to affected devices. This incident has been resolved.
+      description: Every impacted device has now self-healed. This incident has been resolved.
       resolved: true
