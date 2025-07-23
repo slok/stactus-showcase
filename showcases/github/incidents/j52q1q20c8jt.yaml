@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-07-23 15:36:10"
       description: We're investigating delays provisioning Actions Hosted Runners. Customers may see delays over 5 minutes for jobs starting.
       investigating: true
+    - ts: "2025-07-23 16:11:00"
+      description: We are applying mitigations to increase Actions Hosted Runners capacity, and are starting to see recovery. We’re monitoring to ensure continued stability.
+      investigating: true
