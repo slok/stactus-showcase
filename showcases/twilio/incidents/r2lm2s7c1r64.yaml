@@ -1,6 +1,6 @@
 version: incident/v1
 id: r2lm2s7c1r64
-name: Delivery Delays and Failures to Claro Network in Nicaragua (710-21)
+name: Delivery Delays and Failures to Claro Network in Nicaragua
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -57,4 +57,7 @@ timeline:
       investigating: true
     - ts: "2025-07-24 08:52:29"
       description: We are still experiencing SMS delivery delays when sending messages to multiple Claro networks in Nicaragua and Guatemala. Our engineers are actively working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as additional information becomes available.
+      investigating: true
+    - ts: "2025-07-24 12:51:25"
+      description: We are still experiencing SMS delivery delays when sending messages to multiple Claro networks in Nicaragua and Guatemala. Our engineers are actively working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as additional information becomes available.
       investigating: true
