@@ -1,9 +1,13 @@
 version: incident/v1
 id: vklph8jv0g42
 name: On Call Engineers are Investigating an issue with ConversationRelay
-impact: none
-systems: []
+impact: minor
+systems:
+    - jdtgrvyw6w5z
 timeline:
     - ts: "2025-07-24 15:47:36"
       description: Our monitoring systems have detected a potential issue with ConversationRelay. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-07-24 15:58:19"
+      description: Customers’ using ElevenLabs as the text-to-speech provider are seeing impact with longer text-to-speech generation. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
