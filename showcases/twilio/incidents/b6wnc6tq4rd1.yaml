@@ -2,7 +2,8 @@ version: incident/v1
 id: b6wnc6tq4rd1
 name: SMS Delivery Failures to Evatis Network in Djibouti
 impact: minor
-systems: []
+systems:
+    - 9z5gsqyjs4rl
 timeline:
     - ts: "2025-07-23 23:47:08"
       description: Our monitoring systems have detected a potential issue with SMS delivery failures to Evatis Network in Djibouti. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
@@ -15,4 +16,7 @@ timeline:
       investigating: true
     - ts: "2025-07-24 02:46:08"
       description: We are still experiencing SMS delivery failures to Evatis Network in Djibouti. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-24 06:46:07"
+      description: We are still experiencing SMS delivery failures to Evatis Network in Djibouti. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
