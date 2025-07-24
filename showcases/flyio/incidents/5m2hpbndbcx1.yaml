@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5m2hpbndbcx1
+name: AMS network issues
+impact: major
+systems:
+    - 70nsqsjrthwf
+timeline:
+    - ts: "2025-07-24 14:45:38"
+      description: We are investigating upstream network issues in AMS region. Apps may experience network issues.
+      investigating: true
