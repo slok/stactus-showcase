@@ -1,0 +1,14 @@
+version: incident/v1
+id: lhy6k2m6s38v
+name: 'Cloudflare Access: Error "500" on Access protected domains'
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2025-07-24 11:16:39"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Access: A subset of customer might observe unexpected "500" errors when reaching a small number of Access protected domains.
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-07-24 11:19:25"
+      description: A fix has been implemented and we are monitoring the results.
