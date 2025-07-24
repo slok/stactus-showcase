@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-07-24 18:12:34"
       description: We are observing call failures to a subset of Twilio US phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-07-24 20:15:10"
+      description: The issue with call failures to a subset of Twilio US phone numbers has been resolved and after investigation we have identified that this incident is not having any customer impact and it is operating normally at this time.
+      resolved: true
