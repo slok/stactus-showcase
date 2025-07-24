@@ -1,6 +1,6 @@
 version: incident/v1
 id: mxsctc4ntgy9
-name: Voice Quality Issues with a Subset of Phone Numbers in the United Kingdom of Great Britain and Northern Ireland
+name: Call Failures to A Subset Of Phone Number In United Kingdom of Great Britain and Northern Ireland
 impact: minor
 systems:
     - bnzggd37p61w
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-07-24 12:46:46"
       description: We are continuing to observe voice quality issues with a subset of phone numbers in the United Kingdom of Great Britain and Northern Ireland. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hour, or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-24 13:14:33"
+      description: We are continuing to observe Call Failures to A Subset Of Phone Number In United Kingdom of Great Britain and Northern Ireland. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hour, or as soon as more information becomes available.
       investigating: true
