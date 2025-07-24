@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-07-24 14:45:38"
       description: We are investigating upstream network issues in AMS region. Apps may experience network issues.
       investigating: true
+    - ts: "2025-07-24 15:13:54"
+      description: "The issue has been identified and an initial fix has been deployed. We are seeing improvements on most hosts in the region, and are continuing to work on restoring the remaining impacted hosts. \nApps with machines on impacted hosts may still experience network issues at this time."
