@@ -12,5 +12,5 @@ timeline:
       description: We are experiencing degraded availability for the Claude Sonnet 4 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.<br /><br />
       investigating: true
     - ts: "2025-07-22 18:49:46"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On July 22nd, 2025, between 17:58 and 18:35 UTC, the Copilot service experienced degraded availability for Claude Sonnet 4 requests. 4.7% of Claude 4 requests failed during this time. No other models were impacted. The issue was caused by an upstream problem affecting our ability to serve requests.<br /><br />We mitigated by rerouting capacity and monitoring recovery. We are improving detection and mitigation to reduce future impact.
       resolved: true
