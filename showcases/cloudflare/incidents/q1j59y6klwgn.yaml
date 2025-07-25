@@ -1,0 +1,14 @@
+version: incident/v1
+id: q1j59y6klwgn
+name: Issues with 1.1.1.1 public resolver
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-07-25 14:35:27"
+      description: |-
+        Cloudflare is aware of, and investigating, an issue which potentially impacts multiple 1.1.1.1 public resolver users. Users might see increased latency and timeouts.
+
+        Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2025-07-25 14:35:59"
+      description: A fix has been implemented and we are monitoring the results.
