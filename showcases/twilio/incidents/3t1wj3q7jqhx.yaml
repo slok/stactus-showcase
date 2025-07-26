@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3t1wj3q7jqhx
+name: SMS Delivery Delay to Vodacom Network in Tanzania
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-07-26 03:07:07"
+      description: We are experiencing SMS delivery delays when sending messages to the Vodacom Network in Tanzania. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
