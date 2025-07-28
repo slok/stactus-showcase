@@ -2,11 +2,15 @@ version: incident/v1
 id: s6d4x8c6cvv5
 name: Disruption with some GitHub services
 impact: minor
-systems: []
+systems:
+    - 8l4ygp009s5s
 timeline:
     - ts: "2025-07-28 16:50:54"
       description: We are currently investigating this issue.
       investigating: true
     - ts: "2025-07-28 17:17:17"
       description: We are investigating errors affecting some archive and raw file downloads. Users may experience rate limit warnings or server errors until this is resolved.
+      investigating: true
+    - ts: "2025-07-28 17:30:04"
+      description: Git Operations is experiencing degraded performance. We are continuing to investigate.
       investigating: true
