@@ -29,3 +29,6 @@ timeline:
     - ts: "2025-07-28 21:06:35"
       description: We are actively setting up additional rate limiting to address increased requests from scraping and investigating the need to add additional hosts.
       investigating: true
+    - ts: "2025-07-28 21:50:23"
+      description: Some customers continue to experience errors when accessing raw files and archives. We are working on a mitigation to address the issue.
+      investigating: true
