@@ -1,7 +1,7 @@
 version: incident/v1
 id: qjbc2h6dfyvc
 name: GitHub Enterprise Importer migrations are stalled
-impact: minor
+impact: major
 systems: []
 timeline:
     - ts: "2025-07-28 21:41:16"
@@ -9,4 +9,7 @@ timeline:
       investigating: true
     - ts: "2025-07-28 22:12:10"
       description: We have identified the issue and we're working to mitigate.
+      investigating: true
+    - ts: "2025-07-28 22:49:49"
+      description: We are still working to mitigate the issue.
       investigating: true

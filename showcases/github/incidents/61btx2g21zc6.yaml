@@ -1,0 +1,15 @@
+version: incident/v1
+id: 61btx2g21zc6
+name: Incident with Issues, API Requests and Pull Requests
+impact: minor
+systems:
+    - brv1bkgrwx7q
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2025-07-28 22:40:05"
+      description: We are investigating reports of degraded performance for API Requests, Issues and Pull Requests
+      investigating: true
+    - ts: "2025-07-28 22:42:47"
+      description: Some GitHub services are experiencing degraded performance. Team is currently investigating to determine a cause and mitigation.
+      investigating: true
