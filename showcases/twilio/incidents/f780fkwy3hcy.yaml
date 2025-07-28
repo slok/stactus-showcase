@@ -4,9 +4,12 @@ name: RealtimeTranscription and Voice Gather Degraded
 impact: minor
 systems:
     - 361mb56zmf8z
+    - jdtgrvyw6w5z
 timeline:
     - ts: "2025-07-28 17:00:34"
       description: Our monitoring systems have detected a potential issue with Gather speech TCBT tests failing. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2025-07-28 17:24:21"
-      description: Our engineers have identified the issue RealtimeTranscription and Voice Gather Degraded. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: Our engineers have identified the issue RealtimeTranscription, ConversationRelay, and Voice Gather Degraded. We expect to provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2025-07-28 17:55:59"
+      description: Our engineers have identified the issue RealtimeTranscription, ConversationRelay, and Voice Gather Degraded. We expect to provide another update in 1 hour or as soon as more information becomes available.

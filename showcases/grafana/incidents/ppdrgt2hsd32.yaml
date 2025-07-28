@@ -1,0 +1,12 @@
+version: incident/v1
+id: ppdrgt2hsd32
+name: Widespread Outages in Prod-EU-West-0
+impact: critical
+systems:
+    - rwvs9fvrnhp2
+    - c66zgq8xld33
+    - b9t8x3b43vyr
+timeline:
+    - ts: "2025-07-28 17:52:48"
+      description: We are currently experiencing widespread outages in prod-eu-west-0. Our team is actively investigating the issue and we will provide more updates as they become available.
+      investigating: true
