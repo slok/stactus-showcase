@@ -1,0 +1,9 @@
+version: incident/v1
+id: b0kf2vlypw9v
+name: Grafana Cloud Traces some trace search result unavailable in prod-ap-southeast-2 region.
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-07-28 14:02:50"
+      description: Due to a configuration change, one cell in prod-ap-southeast-2 region was incorrectly configured causing some trace search results to not return as expected. The issue was fixed on July 28th around 12:20 UTC and all search results are now being returned as expected. No data was lost in the process.
+      resolved: true
