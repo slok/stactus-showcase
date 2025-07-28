@@ -26,3 +26,6 @@ timeline:
     - ts: "2025-07-28 20:32:02"
       description: We are seeing more of https://github.blog/changelog/2025-05-08-updated-rate-limits-for-unauthenticated-requests/ and working to mitigate it.
       investigating: true
+    - ts: "2025-07-28 21:06:35"
+      description: We are actively setting up additional rate limiting to address increased requests from scraping and investigating the need to add additional hosts.
+      investigating: true
