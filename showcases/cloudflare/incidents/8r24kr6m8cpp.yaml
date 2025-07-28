@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8r24kr6m8cpp
+name: Elevated number of 522 errors in South America
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-28 03:35:54"
+      description: Between 00:23-00:31 UTC, customers reaching some South American datacenters (GIG, EZE and SCL) would have experienced an elevated number of 522 errors due to a fibre cut in the region. Traffic has been rerouted from the impacted path.
+      resolved: true
