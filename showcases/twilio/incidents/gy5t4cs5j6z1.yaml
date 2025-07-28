@@ -1,9 +1,17 @@
 version: incident/v1
 id: gy5t4cs5j6z1
 name: AccSec - T-Mobile API Errors
-impact: none
-systems: []
+impact: minor
+systems:
+    - trrz5ztt7pl8
+    - q0hp6vfr4vvh
 timeline:
     - ts: "2025-07-28 06:21:52"
+      description: We are investigating AccSec - T-Mobile API Errors. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-28 06:29:21"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-07-28 06:34:48"
       description: We are investigating AccSec - T-Mobile API Errors. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
