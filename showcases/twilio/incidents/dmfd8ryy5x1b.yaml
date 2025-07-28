@@ -1,0 +1,10 @@
+version: incident/v1
+id: dmfd8ryy5x1b
+name: Call Failures to a Subset of Twilio's Numbers in Chile
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2025-07-28 20:49:18"
+      description: We are observing call failures to a subset of Twilio's numbers in Chile. We are currently working with our carrier partner to resolve the issue. We will provide an update in 1 hour or as soon as more information becomes available.
+      investigating: true
