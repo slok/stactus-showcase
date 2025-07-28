@@ -1,0 +1,9 @@
+version: incident/v1
+id: 77rldk7qn6nm
+name: Network Performance issues - Elevated number of 5xx errors in FRA
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-28 06:14:34"
+      description: Between 03:57-04:08 UTC, customers reaching Frankfurt, Germany (FRA) would have experienced an elevated number of 5xx errors.
+      resolved: true
