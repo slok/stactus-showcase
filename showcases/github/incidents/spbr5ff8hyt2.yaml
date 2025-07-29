@@ -12,3 +12,6 @@ timeline:
     - ts: "2025-07-29 11:00:14"
       description: We are seeing an increase in 429s when retrieving git artifacts from GitHub.com. This is manifesting in many ways, for example, in failed GitHub Actions workflow runs.<br /><br />We have our engineers working on mitigation and we will provide more information as we have it. Thank you for your patience.
       investigating: true
+    - ts: "2025-07-29 11:32:23"
+      description: We identified and removed unhealthy hosts from our system. This has led to a reduction of 429s and a return to normal operating conditions.<br /><br />We are continuing to monitor recovery and will resolve the incident once we are confident the impact has been mitigated.
+      investigating: true
