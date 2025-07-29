@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3nq5wq2dvl7z
+name: Fly.io APIs and dashboard inaccessible
+impact: none
+systems:
+    - 66r6rhq3hn9n
+    - 80ykv2p95qgy
+    - 49yq6v65b33l
+timeline:
+    - ts: "2025-07-29 17:39:00"
+      description: Trying to log into Fly.io dashboard, most `flyctl` commands and API requests are returning HTTP 503 errors. We are investigating.
+      investigating: true
