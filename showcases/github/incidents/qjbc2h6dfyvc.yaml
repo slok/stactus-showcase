@@ -25,3 +25,9 @@ timeline:
     - ts: "2025-07-29 02:32:59"
       description: We have deployed mitigations and are working to verify.
       investigating: true
+    - ts: "2025-07-29 03:15:30"
+      description: This incident is resolved, we will follow up with a detailed root cause analysis as soon as possible.<br /><br />As part of mitigation, some existing IP ranges were replaced. Migrations with customer owned storage that have IP allow lists enabled will require adding new IP ranges to your IP allow lists to prevent migrations from failing.<br />- 20.99.172.64/28<br />- 135.234.59.224/28
+      investigating: true
+    - ts: "2025-07-29 03:15:46"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
