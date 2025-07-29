@@ -1,0 +1,16 @@
+version: incident/v1
+id: qkjvzv6d9s9v
+name: Issues with Dashboard Zone-level Web Analytics
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+    - qt59p3cr1grx
+timeline:
+    - ts: "2025-07-29 15:48:08"
+      description: |-
+        Cloudflare is investigating an issue with zone-level Web Analytics in the Cloudflare Dashboard.
+
+        These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+
+        Customers using the impacted parts of the dashboard may see requests failing and/or errors being displayed.
+      investigating: true
