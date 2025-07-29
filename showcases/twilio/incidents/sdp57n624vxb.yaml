@@ -1,0 +1,13 @@
+version: incident/v1
+id: sdp57n624vxb
+name: MMS Delivery Delays Affecting a Subset of Short Code Senders and Carriers
+impact: minor
+systems:
+    - d1j2nx64rpq3
+timeline:
+    - ts: "2025-07-29 19:53:24"
+      description: We're currently receiving timeouts from Vibes when sending MMS requests, which could result in delays or failures delivering outbound MMS messages via that provider.
+      investigating: true
+    - ts: "2025-07-29 19:59:38"
+      description: We are noticing MMS delivery delays affecting a subset of short code senders and carriers. Our engineering team are actively investigating the issue. We will provide an update in 1 hour or as soon as more information becomes available.
+      investigating: true
