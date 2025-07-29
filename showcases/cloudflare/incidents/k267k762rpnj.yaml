@@ -1,0 +1,10 @@
+version: incident/v1
+id: k267k762rpnj
+name: Durable Object Storage Analytics Delayed
+impact: minor
+systems:
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2025-07-29 18:24:12"
+      description: The metrics displayed for total storage of Durable Object namespaces is currently delayed.
+      investigating: true
