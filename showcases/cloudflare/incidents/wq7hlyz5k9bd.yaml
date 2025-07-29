@@ -1,6 +1,6 @@
 version: incident/v1
 id: wq7hlyz5k9bd
-name: Issues with starting Cloudchamber Containers in Asia
+name: Issues with starting Cloudchamber Containers & Workers builds in Asia
 impact: minor
 systems:
     - xjfk3l4dykrs
@@ -100,7 +100,7 @@ systems:
 timeline:
     - ts: "2025-07-29 14:12:03"
       description: |-
-        Cloudflare is investigating an issue with starting containers in the Asia-Pacific region (APAC).
+        Cloudflare is investigating an issue with starting containers and Workers builds in the Asia-Pacific region (APAC).
 
         We are working to analyse and mitigate this problem. More updates to follow shortly.
       investigating: true
