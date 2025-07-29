@@ -1,0 +1,13 @@
+version: incident/v1
+id: yw5wv0yd9f7n
+name: A Subset of Customers Is Experiencing Errors With GET Requests to Calls
+impact: minor
+systems:
+    - mwcz6hw53t7c
+timeline:
+    - ts: "2025-07-29 19:18:07"
+      description: A subset of customers is experiencing errors with GET requests to Calls, impacting their ability to retrieve call data. Call creation and control are unaffected. We will provide an update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-29 19:21:01"
+      description: A subset of customers is experiencing errors with GET requests to /Calls, impacting their ability to retrieve call data. Call creation and control are unaffected. We will provide an update in 1 hour or as soon as more information becomes available.
+      investigating: true
