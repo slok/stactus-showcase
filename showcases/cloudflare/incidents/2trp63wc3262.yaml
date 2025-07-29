@@ -1,0 +1,13 @@
+version: incident/v1
+id: 2trp63wc3262
+name: Network Performance Issues in Los Angeles (US)
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-07-29 14:55:22"
+      description: |-
+        Cloudflare was investigating performance degradation during a planned maintenance window in the Los Angeles (US) data center impacting a specific network path.
+
+        Start: 14:00 UTC
+        End: 21:30 UTC
+      resolved: true
