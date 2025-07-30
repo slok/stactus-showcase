@@ -1,0 +1,18 @@
+version: incident/v1
+id: 314z05v16fp6
+name: Support Ticket Portal
+impact: minor
+systems:
+    - hklgsphcrjq4
+timeline:
+    - ts: "2025-07-30 01:26:30"
+      description: |-
+        Our Engineering team is investigating an issue with our DigitalOcean Support Ticket Portal. At this time, users may not be able to submit new tickets or view currently opened tickets at https://cloudsupport.digitalocean.com/s/.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2025-07-30 01:42:06"
+      description: |-
+        Our Engineering team has identified the root cause of the issue affecting the ability to submit or view tickets through our Support Ticket Portal. They are actively working on implementing a fix.
+
+        We will share another update as soon as more information becomes available. Thank you for your continued patience and understanding as we work to resolve this issue.
