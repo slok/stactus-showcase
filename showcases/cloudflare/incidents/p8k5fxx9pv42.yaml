@@ -1,10 +1,12 @@
 version: incident/v1
 id: p8k5fxx9pv42
 name: Issues with WARP
-impact: minor
+impact: major
 systems:
     - k04jkcpzxn94
 timeline:
     - ts: "2025-07-30 08:18:54"
       description: Cloudflare is investigating issues with Cloudflare WARP and Cloudflare Zero Trust. Cloudflare WARP and Zero Trust users may experience issues with the public API, registering devices, and managed networks.
       investigating: true
+    - ts: "2025-07-30 10:07:00"
+      description: A fix has been implemented and we are monitoring the results.
