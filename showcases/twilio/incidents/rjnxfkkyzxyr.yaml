@@ -1,0 +1,28 @@
+version: incident/v1
+id: rjnxfkkyzxyr
+name: Twilio Flex - Maintenance
+impact: none
+systems:
+    - q4d7rj555ljl
+    - b9z92qjr2p04
+    - lv1md8v28lhr
+    - vw9w2zyv9nk5
+    - fhrcxjv8wcjs
+    - yk293200bcps
+    - mw3ktpy92305
+    - vxjqr22fbl36
+    - 7ypw8tsmyr78
+    - lzm53c2kjxkh
+    - h056tfqk3q97
+    - b1n7jklp0rv4
+    - z6wf7g459vzh
+    - v95b6qqhp58v
+timeline:
+    - ts: "2025-07-30 05:45:12"
+      description: |-
+        We’re creating this proactive comms in reference to a planned maintenance in all regions between 9:00 PM PST to 11:59PM Pacific Time on 07/29/2025.
+        We’ll start the cluster reboot in the next 10 minutes, which will last about 10 seconds. Customers may experience the following during the cluster reboots:
+        -Login failures for customers logging in via legacy SSO (customers with enhanced SSO are not impacted) or console.
+        -Customers that are already logged in may be logged out from Flex UI or Webchat.
+        -Customers using Webchat may be unable to initiate new sessions or see disruptions to their existing sessions (token refresh failure).
+        -Customers should be able to re-login after the impact period in case of login failure during the maintenance window.
