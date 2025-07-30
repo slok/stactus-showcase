@@ -26,3 +26,6 @@ timeline:
         -Customers that are already logged in may be logged out from Flex UI or Webchat.
         -Customers using Webchat may be unable to initiate new sessions or see disruptions to their existing sessions (token refresh failure).
         -Customers should be able to re-login after the impact period in case of login failure during the maintenance window.
+    - ts: "2025-07-30 06:22:16"
+      description: We’re creating the notification comms in reference to a planned maintenance in all regions between 9:00 PM PST to 11:59PM Pacific Time on 07/29/2025. Since the reboot have been completed, we’re resolving this proactive communication. Systems are operational.
+      resolved: true
