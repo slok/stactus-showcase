@@ -1,0 +1,13 @@
+version: incident/v1
+id: fvtb1p54n0p9
+name: Issues with BigQuery Data Sources
+impact: major
+systems:
+    - z5ysrlvblv9t
+timeline:
+    - ts: "2025-07-30 10:58:14"
+      description: We are currently investigating an issue impacting queries for BigQuery data sources. Impacted users may experience issues loading dashboards using this data source.
+      investigating: true
+    - ts: "2025-07-30 10:58:31"
+      description: We are continuing to investigate this issue.
+      investigating: true
