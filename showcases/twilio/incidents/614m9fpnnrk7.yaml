@@ -1,0 +1,10 @@
+version: incident/v1
+id: 614m9fpnnrk7
+name: Call Failures to a Subset of Twilio Phone Numbers in Germany
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2025-07-30 23:01:16"
+      description: We are observing Call Failures to a Subset of Twilio Phone Numbers in Germany. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

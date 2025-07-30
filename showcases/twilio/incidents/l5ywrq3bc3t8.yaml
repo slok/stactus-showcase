@@ -1,0 +1,9 @@
+version: incident/v1
+id: l5ywrq3bc3t8
+name: AccSec API Latency to US
+impact: none
+systems: []
+timeline:
+    - ts: "2025-07-30 22:59:18"
+      description: Twilio AccSec API was degraded for 3 hours and 24 minutes between 08:25 and 11:49 Pacific Time on 07/30/2025. During this period of time customers may have experienced API latency to US. The issue has now been resolved.
+      resolved: true
