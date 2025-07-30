@@ -1,0 +1,9 @@
+version: incident/v1
+id: 4bkjm5dnkj4f
+name: Cloudflare API Issues
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-07-30 17:19:04"
+      description: Users may have experienced additional latency or errors making API requests to the Cloudflare API for DNS products between 16:49 to 17:04 UTC. These issues did not affect the serving of DNS requests. Customers using the Cloudflare APIs may have seen impact in the form of requests failing and/or errors being displayed.
+      resolved: true
