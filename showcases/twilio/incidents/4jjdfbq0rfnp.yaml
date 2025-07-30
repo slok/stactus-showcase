@@ -1,8 +1,12 @@
 version: incident/v1
 id: 4jjdfbq0rfnp
-name: Our Engineers are Investigating an Issue with Programmable Voice
-impact: none
-systems: []
+name: Call Failures to a subset of Twilio's Numbers in Mexico
+impact: minor
+systems:
+    - fbtv2g9t3z25
 timeline:
     - ts: "2025-07-30 15:49:43"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with Programmable Voice . We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-07-30 16:22:04"
+      description: On July 29, 2025, Twilio Voice experienced call failures in Mexico from 6:46 AM to 10:52 AM PT. Some customers calling between certain numbers within Mexico were impacted. The issue is now resolved.
+      resolved: true
