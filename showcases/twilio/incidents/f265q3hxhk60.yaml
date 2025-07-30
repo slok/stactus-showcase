@@ -1,0 +1,10 @@
+version: incident/v1
+id: f265q3hxhk60
+name: SMS Delivery Delays to AmericaNet Network in Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-07-30 06:49:47"
+      description: We are experiencing SMS delivery delays when sending messages to AmericaNet network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
