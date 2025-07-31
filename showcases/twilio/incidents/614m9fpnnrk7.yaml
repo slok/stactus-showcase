@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-07-31 00:08:41"
       description: We continue to experience call failures to a subset of Twilio phone numbers in Germany. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-07-31 02:03:26"
+      description: We no longer experience call failures to a subset of Twilio phone numbers in Germany. This incident is resolved.
+      resolved: true
