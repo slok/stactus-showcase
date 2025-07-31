@@ -1,0 +1,9 @@
+version: incident/v1
+id: 5ysy7x87p7sz
+name: Elevated number of 5xx errors in Denver
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-07-31 06:42:35"
+      description: Between 6:03-6:07 UTC customers reaching Denver, CO would have experienced an elevated number of 500, 502, and 503 errors due to congestion.
+      resolved: true
