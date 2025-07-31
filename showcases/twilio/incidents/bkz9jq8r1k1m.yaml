@@ -1,6 +1,6 @@
 version: incident/v1
 id: bkz9jq8r1k1m
-name: SMS Delivery Receipt Delays to Natcom Network in Haiti
+name: SMS Delivery Receipts Delays to Multiple Networks in Multiple Countries in Latin America
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-07-31 15:41:59"
       description: We are continuing to experience delays in receiving message delivery reports from Natcom Network in Haiti. Our engineers are working with our carrier partners to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-07-31 16:15:16"
+      description: We are experiencing delays in receiving message delivery reports from Natcom Network in Haiti, Metfone Network in Cambodia, Tigo Network in Bolivia and Bitel Network in Peru. Our engineers are working with our carrier partners to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
