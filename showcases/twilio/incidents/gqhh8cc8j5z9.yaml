@@ -1,9 +1,13 @@
 version: incident/v1
 id: gqhh8cc8j5z9
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Issues With Inbound Messages From Subscribers in Australia
+impact: minor
+systems:
+    - 8qjql0kqnd33
 timeline:
     - ts: "2025-07-31 07:00:55"
       description: Our monitoring systems have detected a potential issue in receiving messages from subscribers in Australia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-07-31 07:27:10"
+      description: We are experiencing inbound message failures to a subset of Twilio numbers Phone Numbers in Australia. Customers may experience issues in receiving SMS messages from various mobile networks in Australia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
