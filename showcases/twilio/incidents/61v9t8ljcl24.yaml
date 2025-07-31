@@ -1,0 +1,13 @@
+version: incident/v1
+id: 61v9t8ljcl24
+name: Twilio Console Failing to Load Conversations pages
+impact: none
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2025-07-31 19:16:36"
+      description: Our monitoring systems have detected a potential issue in the Twilio console failing to load conversations pages. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-07-31 19:22:56"
+      description: We are investigating an issue causing the Twilio Console to fail to load Conversations pages. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
