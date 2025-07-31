@@ -1,0 +1,10 @@
+version: incident/v1
+id: xth7why39xg2
+name: Organization service is seeing 5xx
+impact: minor
+systems:
+    - 3mryzdr7rssr
+timeline:
+    - ts: "2025-07-31 03:55:17"
+      description: We are experiencing 5xx errors in Organization Service. Our engineers are working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
