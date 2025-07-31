@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-07-31 20:25:47"
       description: Our monitoring systems have detected a potential issue Twilio console failing to load TaskRouter from search box. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-07-31 20:51:20"
+      description: We have fully investigated the issue detected by our automated alert regarding the Twilio Console failing to load TaskRouter from the search box. It was determined that this is a bug and not an incident causing customer impact. All systems are operational at this time.
+      resolved: true
