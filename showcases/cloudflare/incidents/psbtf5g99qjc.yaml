@@ -1,0 +1,9 @@
+version: incident/v1
+id: psbtf5g99qjc
+name: 'Cloudflare Pages: Compression issues with custom hostnames'
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2025-07-31 14:15:36"
+      description: 'Cloudflare has identified an issue with our Pages feature: Customers under our Free plan using custom hostnames may experience specific pages unexpectedly returning zstd compression mode. Customers experiencing this issue can add a compression rule to enforce brotli or gzip compression to temporarily circumvent the problem. Nevertheless, we are working to mitigate this issue, more updates to follow shortly.'
