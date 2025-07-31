@@ -1,0 +1,10 @@
+version: incident/v1
+id: dbzsgqpf4xdl
+name: Elevated errors and latency in Singapore region
+impact: minor
+systems:
+    - 18p6r93swmbl
+timeline:
+    - ts: "2025-07-31 08:36:25"
+      description: Cloudflare has detected increased latency and/or elevated error rates for customers in Singapore. The issue has been identified and a fix is being implemented. More updates to follow shortly.
+      investigating: true
