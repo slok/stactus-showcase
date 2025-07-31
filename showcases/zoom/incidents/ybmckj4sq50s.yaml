@@ -1,0 +1,10 @@
+version: incident/v1
+id: ybmckj4sq50s
+name: A subset of users may experience issues with Meeting Dashboards.
+impact: minor
+systems:
+    - cn1j8pttz0wy
+timeline:
+    - ts: "2025-07-31 07:17:29"
+      description: We have detected service degradation where a subset of users may experience issues with Meeting Dashboards. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
