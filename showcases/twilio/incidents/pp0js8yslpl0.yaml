@@ -1,10 +1,13 @@
 version: incident/v1
 id: pp0js8yslpl0
-name: On Call Engineers are Investigating an issue with delivery report delays in Belgium
-impact: none
+name: SMS Delivery Report Delays to Lancelot in Belgium 206-58 via a Subset of Longcodes
+impact: minor
 systems:
     - llgdln3dcs6p
 timeline:
     - ts: "2025-07-31 18:05:59"
       description: Our monitoring systems have detected a potential issue with delivery report delays in Belgium. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-07-31 18:09:33"
+      description: We are experiencing delays in receiving SMS delivery reports for messages to Lancelot in Belgium 206-58 via a subset of longcodes. Our engineers are working with our carrier partners to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
