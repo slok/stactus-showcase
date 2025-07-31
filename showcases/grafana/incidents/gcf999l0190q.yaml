@@ -1,0 +1,34 @@
+version: incident/v1
+id: gcf999l0190q
+name: Degraded browser synthetics performance in many probe clusters
+impact: none
+systems:
+    - gqmrtkv44snw
+    - w2sv65flwjyg
+    - vdp8ff0sncsj
+    - 72cbdqh1qfxk
+    - 1dqyw0njnkxv
+    - 6xm6mc51pr03
+    - sq2b0zbgtbwn
+    - r5nqbrqbw0k2
+    - wlk38l1st21f
+    - pz96v0pznswg
+    - dcwlkh9jb6xh
+    - 43fvknltd9m1
+    - b6vy9syblc9x
+    - dpny9b8qb952
+    - czpt94dvn18t
+    - 191t9x68nj8s
+    - fh680ftdss7w
+    - tcskx9mfsz1c
+    - 7p6gpdprypb9
+    - x9gl5ndz8q5s
+    - kxgy5bvsj4c8
+    - jwb1v6jvz2j7
+    - mjrzgsddgcb6
+    - 9jryt04nrsmb
+    - 7jyhc50smfkc
+timeline:
+    - ts: "2025-07-31 23:18:05"
+      description: Browser synthetics in all public probes are seeing higher rates of timeout and failure as of 21:30 UTC.  We are investigating.
+      investigating: true
