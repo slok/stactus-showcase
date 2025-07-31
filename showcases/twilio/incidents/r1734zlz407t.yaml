@@ -1,0 +1,10 @@
+version: incident/v1
+id: r1734zlz407t
+name: Outbound Call Failures From a Subset of Twilio's Phone Numbers to  KPN Netherlands
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2025-07-31 13:00:55"
+      description: We are investigating outbound call failures from a subset of Twilio's Phone Numbers to KPN Netherlands. Our engineering team is working with our carrier partners to resolve this. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
