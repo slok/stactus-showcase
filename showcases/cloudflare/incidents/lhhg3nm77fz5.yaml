@@ -1,0 +1,10 @@
+version: incident/v1
+id: lhhg3nm77fz5
+name: 'Cloudflare WARP: connectivity issues in Dubai'
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2025-08-01 09:58:16"
+      description: Cloudflare is investigating issues with Cloudflare WARP connectivity in Dubai. Cloudflare WARP and Zero Trust users may experience connectivity issues or a degraded Internet experience. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
