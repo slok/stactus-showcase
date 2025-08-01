@@ -9,3 +9,6 @@ timeline:
       description: 'Cloudflare has identified an issue with our Pages feature: Customers under our Free plan using custom hostnames may experience specific pages unexpectedly returning zstd compression mode. Customers experiencing this issue can add a compression rule to enforce brotli or gzip compression to temporarily circumvent the problem. Nevertheless, we are working to mitigate this issue, more updates to follow shortly.'
     - ts: "2025-08-01 08:38:00"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-08-01 08:51:20"
+      description: This incident has been resolved.
+      resolved: true
