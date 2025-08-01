@@ -32,3 +32,6 @@ timeline:
     - ts: "2025-07-31 23:18:05"
       description: Browser synthetics in all public probes are seeing higher rates of timeout and failure as of 21:30 UTC.  We are investigating.
       investigating: true
+    - ts: "2025-08-01 00:49:01"
+      description: We have addressed the problem and browser synthetics began recovering at 00:00 UTC.  Browser checks on all probes have been operating normally since 00:15 UTC.
+      resolved: true
