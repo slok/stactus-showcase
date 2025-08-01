@@ -1,0 +1,17 @@
+version: incident/v1
+id: j86jwbfc54p7
+name: Loki-prod Write and Read Issues
+impact: critical
+systems:
+    - rwvs9fvrnhp2
+timeline:
+    - ts: "2025-08-01 22:02:44"
+      description: |-
+        We are currently experiencing two related issues in the prod-eu-west0 region:
+
+        Degraded write performance began around 20:00 UTC. This issue is now resolving, and write operations should be recovering, we will continue to monitor.
+
+        Full read outage began at 20:45 UTC and is still ongoing. Our team is actively working to restore read functionality.
+
+        We will share further updates as we make progress.
+      investigating: true
