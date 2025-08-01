@@ -1,0 +1,10 @@
+version: incident/v1
+id: f531flldbnhm
+name: Inbound Call Failures From Subscribers To Portugal Twilio Phone Numbers
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2025-08-01 11:45:17"
+      description: We are observing from subscribers to Portugal Twilio phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
