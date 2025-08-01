@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-08-01 14:41:22"
       description: "We're investigating IPv6 connectivity issues on a small number of hosts in the SJC region. Machines on impacted hosts may see inbound/outbound connectivity issues over IPv6. IPv4 connections for these hosts are not impacted. \n\nThe majority of hosts in SJC continue to see normal IPv6 performance. Users seeing issues can re-create impacted machines in SJC or nearby regions by following the steps outlined here: https://fly.io/docs/apps/trouble-host-unavailable/"
       investigating: true
+    - ts: "2025-08-01 15:02:09"
+      description: We've deployed a fix on the impacted hosts and are seeing connectivity returning to normal. We are continuing to monitor to ensure full recovery.
