@@ -11,3 +11,5 @@ timeline:
     - ts: "2025-08-01 13:23:03"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-08-01 14:42:47"
+      description: Customers using WARP with MASQUE should not be impacted by this issue, as we uncovered that only customers using Wireguard are affected.
