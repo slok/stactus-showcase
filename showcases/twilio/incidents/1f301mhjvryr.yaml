@@ -1,9 +1,12 @@
 version: incident/v1
 id: 1f301mhjvryr
-name: Voicebase Callbacks
-impact: none
-systems: []
+name: Transcriptions for Voicemail Through VoiceBase are Delayed
+impact: minor
+systems:
+    - frxynt0ffp5w
 timeline:
     - ts: "2025-08-03 13:12:29"
       description: Our monitoring systems have detected a potential issue with voicebase callbacks. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-08-03 13:28:13"
+      description: Our engineers have identified the issue with delayed Voice Recording transcripts through VoiceBase and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.

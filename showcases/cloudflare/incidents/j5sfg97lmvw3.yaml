@@ -1,0 +1,14 @@
+version: incident/v1
+id: j5sfg97lmvw3
+name: Issues with 1.1.1.1 public resolver
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-03 13:20:24"
+      description: |-
+        Cloudflare observed and fixed an issue which potentially impacted multiple users on 1.1.1.1 public resolver,  in all regions. A higher latency than usual would have been observed.
+
+        The impact occurred on  2025-01-08, from 14:03 to 19:23 UTC.
+
+        The issue is resolved now.
+      resolved: true
