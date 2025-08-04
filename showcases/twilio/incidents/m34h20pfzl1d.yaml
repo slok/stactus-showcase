@@ -1,0 +1,15 @@
+version: incident/v1
+id: m34h20pfzl1d
+name: Voice Call Quality Issues To A Subset of Twilio Japan Phone Numbers
+impact: minor
+systems:
+    - 50pr269zqrwj
+timeline:
+    - ts: "2025-08-04 02:24:03"
+      description: Voice Quality Issue To Subset of Twilio Japan Phone Numbers has been identified. We are actively working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2025-08-04 02:28:55"
+      description: We are observing call failures to Twilio Japan Phone Numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-08-04 02:35:35"
+      description: We are observing voice call quality issues to a subset of Twilio Japan Phone Numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
