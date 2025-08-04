@@ -14,5 +14,5 @@ timeline:
       description: We are working on a mitigation to an issue preventing some users from signing up with email and password. Social signup methods remain available.
       investigating: true
     - ts: "2025-08-01 10:55:44"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between 06:04 UTC to 10:55 UTC on August 1, 2025, 100% of users attempting to sign up with an email and password experienced errors. Social signup was not affected. Once the problem became clear, the offending code was identified and a change was deployed to resolve the issue. We are adding additional monitoring to our sign-up process to improve our time to detection.
       resolved: true

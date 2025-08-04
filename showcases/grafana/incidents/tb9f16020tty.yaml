@@ -1,0 +1,10 @@
+version: incident/v1
+id: tb9f16020tty
+name: Broken CloudWatch Queries for Some Users
+impact: major
+systems:
+    - z5ysrlvblv9t
+timeline:
+    - ts: "2025-08-04 17:45:15"
+      description: We are currently investigating a potential bug that is only affecting specific CloudWatch deployments. Affected users will experience broken CloudWatch queries during this time.
+      investigating: true
