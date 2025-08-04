@@ -6,5 +6,7 @@ systems:
     - nv3vps27z635
 timeline:
     - ts: "2025-08-04 10:20:48"
-      description: We are currently investigating an issue affecting the management plane for some Managed Postgres clusters in the IAD region. While cluster details may not be accessible via flyctl CLI or the Fly dashboard, all databases remain fully operational with normal connectivity intact. We are actively working to restore management plane access and will provide updates as our investigation progresses.
+      description: We are currently investigating an issue affecting the management plane for some Managed Postgres clusters in the IAD region. Cluster details may not be accessible via flyctl CLI or the Fly dashboard and databases nodes may have internal connectivity issues. We are actively working to restore management plane access and will provide updates as our investigation progresses.
       investigating: true
+    - ts: "2025-08-04 10:35:40"
+      description: The issue has been identified and a fix is being implemented.

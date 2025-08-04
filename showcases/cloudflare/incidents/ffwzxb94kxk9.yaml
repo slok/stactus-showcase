@@ -1,10 +1,12 @@
 version: incident/v1
 id: ffwzxb94kxk9
 name: Network Performance Issues in Europe
-impact: critical
+impact: major
 systems:
     - 4n0gb0kh02gf
 timeline:
     - ts: "2025-08-04 10:01:53"
       description: Cloudflare is investigating issues with network performance in multiple European locations. We are working to analyze and mitigate this problem. More updates to follow shortly.
       investigating: true
+    - ts: "2025-08-04 10:36:37"
+      description: Cloudflare has detected that the scope of the impact is mostly affecting our datacenters located in Frankfurt. The issue has been identified and a fix is being implemented.
