@@ -1,0 +1,10 @@
+version: incident/v1
+id: fds6jgb6k1p2
+name: SMS Delivery Failures to FarEasTone in Taiwan, Province of China
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-08-04 17:16:04"
+      description: We are experiencing SMS delivery failures to FarEasTone in Taiwan, Province of China. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
