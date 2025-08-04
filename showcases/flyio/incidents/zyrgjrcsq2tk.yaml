@@ -1,0 +1,10 @@
+version: incident/v1
+id: zyrgjrcsq2tk
+name: Managed Postgres Management Plane Issues in IAD
+impact: minor
+systems:
+    - nv3vps27z635
+timeline:
+    - ts: "2025-08-04 10:20:48"
+      description: We are currently investigating an issue affecting the management plane for some Managed Postgres clusters in the IAD region. While cluster details may not be accessible via flyctl CLI or the Fly dashboard, all databases remain fully operational with normal connectivity intact. We are actively working to restore management plane access and will provide updates as our investigation progresses.
+      investigating: true
