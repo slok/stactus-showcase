@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-08-04 17:45:15"
       description: We are currently investigating a potential bug that is only affecting specific CloudWatch deployments. Affected users will experience broken CloudWatch queries during this time.
       investigating: true
+    - ts: "2025-08-04 23:31:19"
+      description: "Engineering has released a fix and as of 23:30 UTC, customers should no longer experience broken CloudWatch queries. \n\nAt this time, we are considering this issue resolved. No further updates."
+      resolved: true
