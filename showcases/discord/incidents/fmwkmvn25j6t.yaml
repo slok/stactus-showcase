@@ -11,3 +11,6 @@ timeline:
       description: We've identified a data issue with active threads in servers that opted into an experimental, opt-in feature. We've fixed the underlying issue and are working on data recovery for the affected threads.
     - ts: "2025-08-02 15:40:26"
       description: We're recovering the affected data and monitoring its ingestion into all affected systems.
+    - ts: "2025-08-04 14:10:11"
+      description: This incident has been resolved.
+      resolved: true
