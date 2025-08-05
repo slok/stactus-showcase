@@ -1,0 +1,12 @@
+version: incident/v1
+id: zvzqqc9p5cvd
+name: Cloudflare Dashboard Issues
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-08-05 17:36:42"
+      description: Cloudflare is investigating issues with the Cloudflare Dashboard. Users with Two-Factor Authentication enabled may see a 1015 error while attempting to log in. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+      investigating: true
+    - ts: "2025-08-05 17:39:02"
+      description: The issue has been identified and a fix is being implemented.
