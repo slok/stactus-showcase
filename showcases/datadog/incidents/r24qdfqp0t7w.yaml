@@ -1,10 +1,15 @@
 version: incident/v1
 id: r24qdfqp0t7w
 name: Degraded Web Application Degraded
-impact: none
+impact: minor
 systems:
     - b5fx9rfn6137
 timeline:
     - ts: "2025-08-05 16:38:40"
       description: Due to an issue with access controls failures we're seeing downstream impact to multiple products. Our team is actively working on identifying root cause and to resolve the issue. We will be providing a more specific update shortly.
       investigating: true
+    - ts: "2025-08-05 16:39:31"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-08-05 16:44:38"
+      description: We have identified the issue and implemented a fix, we are monitoring the recovery of the impacted products.
