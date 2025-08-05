@@ -1,0 +1,10 @@
+version: incident/v1
+id: q3twhjkycxxb
+name: Cannot sign into 1Password accounts
+impact: major
+systems:
+    - cgltwfnt80mm
+timeline:
+    - ts: "2025-08-05 20:46:48"
+      description: We are investigating issues affecting sign-ins. Users may see errors such as "Can’t sign in. The request took too long." Our team is working to resolve this as quickly as possible.
+      investigating: true
