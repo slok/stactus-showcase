@@ -9,3 +9,6 @@ timeline:
       description: We are investigating elevated errors from our certificate authority provider LetsEncrypt.  Customers may see delayed cluster modifications and failed snapshot restores.  We are working on a mitigation.
     - ts: "2025-08-05 20:55:31"
       description: We've implemented a fix and are monitoring the situation
+    - ts: "2025-08-05 21:29:26"
+      description: This incident has been resolved.
+      resolved: true
