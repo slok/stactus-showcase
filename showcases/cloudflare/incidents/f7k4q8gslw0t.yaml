@@ -1,0 +1,10 @@
+version: incident/v1
+id: f7k4q8gslw0t
+name: Issues with Cloudflare Access
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2025-08-05 15:56:21"
+      description: Cloudflare engineering is investigating an issue causing some Cloudflare Access configuration changes to be delayed. This would include application and policy configuration changes. Access authentication and policy enforcement are not impacted.  We are working to understand to mitigate this problem. More updates to follow shortly.
+      investigating: true
