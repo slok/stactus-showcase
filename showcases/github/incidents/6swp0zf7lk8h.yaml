@@ -33,3 +33,27 @@ timeline:
     - ts: "2025-08-05 16:06:54"
       description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
       investigating: true
+    - ts: "2025-08-05 16:08:53"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-08-05 16:13:46"
+      description: We have fully mitigated this issue and all services are operating normally.
+      investigating: true
+    - ts: "2025-08-05 16:13:54"
+      description: Git Operations is operating normally.
+      investigating: true
+    - ts: "2025-08-05 16:14:01"
+      description: Webhooks is operating normally.
+      investigating: true
+    - ts: "2025-08-05 16:14:08"
+      description: Issues is operating normally.
+      investigating: true
+    - ts: "2025-08-05 16:14:14"
+      description: Pull Requests is operating normally.
+      investigating: true
+    - ts: "2025-08-05 16:14:25"
+      description: Actions is operating normally.
+      investigating: true
+    - ts: "2025-08-05 16:14:39"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
