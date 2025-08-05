@@ -1,0 +1,13 @@
+version: incident/v1
+id: skmqnpynxyqs
+name: Incident with Pull Requests
+impact: minor
+systems:
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2025-08-05 17:53:22"
+      description: We are investigating reports of degraded performance for Pull Requests
+      investigating: true
+    - ts: "2025-08-05 18:07:23"
+      description: We're seeing issues related to PR are investigating. Less than 2% of users are impacted.
+      investigating: true
