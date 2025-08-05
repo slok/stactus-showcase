@@ -1,9 +1,13 @@
 version: incident/v1
 id: 5c36ww1rpwdc
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Rest API Latency for Products other than Voice, Messaging, Flex, and Taskrouter
+impact: minor
+systems:
+    - 4rv9xfxmdjg9
 timeline:
     - ts: "2025-08-05 21:02:37"
       description: Our monitoring systems have detected a potential issue with Twilio's REST API services. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-05 21:23:08"
+      description: We are investigating an issue potentially causing delays with REST API calls related to products other than Voice, Messaging, Flex, and TaskRouter.  Voice, Messaging, Flex and TaskRouter are working as expected without delays. Our engineering team is actively investigating and we will provide an update in one hour or as soon as more information is available.
       investigating: true
