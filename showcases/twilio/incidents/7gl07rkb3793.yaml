@@ -1,0 +1,9 @@
+version: incident/v1
+id: 7gl07rkb3793
+name: Elevated rate of 60608 Errors for Lookup API V2 Reassigned Number API Calls
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-05 23:06:15"
+      description: The Lookup API V2 package Reassigned Number product was degraded for 33 minutes between 15:03 and 15:36 Pacific. During this period of time customers may have experienced an elevated rate of 60608 Lookup errors.  The issue is now resolved.
+      resolved: true
