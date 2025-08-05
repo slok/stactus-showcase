@@ -1,0 +1,12 @@
+version: incident/v1
+id: hsxt0c4lchtk
+name: Delay in Cloudflare Web analytics including Workers observability
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2025-08-05 16:57:55"
+      description: Cloudflare Web Analytics processing is running behind. This affects timely delivery of customer data. These delays do not impact analytics for DNS and Rate Limiting.
+      investigating: true
+    - ts: "2025-08-05 17:00:43"
+      description: The issue has been identified and a fix is being implemented.
