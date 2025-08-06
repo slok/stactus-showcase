@@ -1,0 +1,10 @@
+version: incident/v1
+id: vzh2b9vqlvxp
+name: Call Quality Issues From a Subset of Twilio United Kingdom Phone Numbers
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2025-08-06 18:35:54"
+      description: We are observing Missing RTP streams /Silent Calls from subset of Twilio UK phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
