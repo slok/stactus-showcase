@@ -1,0 +1,13 @@
+version: incident/v1
+id: mhjzl3728ddc
+name: On Call Engineers are Investigating an issue
+impact: minor
+systems:
+    - llqd4rmn8k8y
+timeline:
+    - ts: "2025-08-06 00:20:07"
+      description: Our monitoring systems have detected a potential issue with incomplete MMS delivery when sending multiple image attachments to the Verizon Network in the United States. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-06 00:23:26"
+      description: We have fully investigated the issue triggered by our automated alert system related to MMS message delivery to Verizon subscribers, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
