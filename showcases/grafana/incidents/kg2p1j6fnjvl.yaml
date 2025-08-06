@@ -1,0 +1,11 @@
+version: incident/v1
+id: kg2p1j6fnjvl
+name: Issues with rates writing and querying on mimir-loki-graphite
+impact: major
+systems:
+    - jhc34sjt42wd
+    - 1tt4gx4t4q87
+timeline:
+    - ts: "2025-08-06 03:25:18"
+      description: We've been alerted to elevated error rates writing & querying metrics and are investigating.
+      investigating: true

@@ -1,0 +1,13 @@
+version: incident/v1
+id: krzw9rsrdfy1
+name: Network Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-06 03:15:19"
+      description: 'We are experiencing some network issues. This may affect resources that have the following pattern in their endpoint: GCP/us-central-1'
+    - ts: "2025-08-06 03:26:03"
+      description: |-
+        We are aware of a networking issue currently affecting the GCP us-central1 region. This is impacting some customer connectivity to Redis Cloud instances hosted in this region.
+
+        We are actively monitoring the situation and will provide updates as more information becomes available from Google Cloud.
