@@ -33,3 +33,6 @@ timeline:
       description: Affected by a GCP outage and expect more information from Google at 0500 UTC.
     - ts: "2025-08-06 05:47:03"
       description: "The GCP outage has been resolved as of 05:24 UTC , customers should no longer experience issues with prod-us-central-0. \nWe will continue to monitor for recurrence and provide updates accordingly."
+    - ts: "2025-08-06 10:41:54"
+      description: An incident from our CSP, Google Cloud, caused network issues impacting our customers on prod-us-central-0. The Grafana Cloud incident resolved shortly after the CSP incident was resolved, by 6:00 UTC.
+      resolved: true
