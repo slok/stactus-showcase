@@ -1,0 +1,12 @@
+version: incident/v1
+id: tshx15s9ff6p
+name: MPG Control Plane issues in GRU
+impact: minor
+systems:
+    - vnhk0y6jtn3q
+timeline:
+    - ts: "2025-08-06 19:07:39"
+      description: We are investigating instability with the MPG control plane in the GRU region (São Paulo, Brazil). Users may see delays provisioning new clusters in this region.
+      investigating: true
+    - ts: "2025-08-06 19:21:17"
+      description: A fix has been implemented and we are monitoring the results.
