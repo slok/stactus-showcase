@@ -1,0 +1,9 @@
+version: incident/v1
+id: 4hwpd7jtrmk0
+name: Issue with SMS 2FA messages impacting a subset of users in United States
+impact: minor
+systems:
+    - 8gftm750nwzm
+timeline:
+    - ts: "2025-08-06 04:31:57"
+      description: Our monitoring has detected service degradation with SMS Two-Factor Authentication (2FA) messages impacting a subset of users. We will provide updates as we have them.

@@ -1,0 +1,9 @@
+version: incident/v1
+id: rmrmd6n67j1p
+name: Increased HTTP 5xx Errors in Hong Kong
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-06 04:16:36"
+      description: Between 2:37-3:38 UTC, customers using Zero Trust or Argo Smart Routing reaching Hong Kong (HKG) may have experienced an elevated number of 5xx errors.
+      resolved: true

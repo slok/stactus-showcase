@@ -1,10 +1,15 @@
 version: incident/v1
 id: 9x3f5ztzp0ss
-name: On Call Engineers are Investigating an issue with Verify Short Code Traffic
-impact: none
+name: SMS Delivery Delays and Failures to AT&T Long Codes, Short Codes and Toll Free Numbers in United States of America
+impact: minor
 systems:
-    - whldrk77jnm4
+    - 7d8w22hqrh6s
+    - 39mb8cmw8y2v
+    - 32f2bm54nkvv
 timeline:
     - ts: "2025-08-06 03:42:54"
       description: Our monitoring systems have detected a potential issue with Verity short code traffic. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-06 04:24:08"
+      description: We are experiencing SMS delivery delays and failures when sending Short Code, Long Code and Toll Free messages to AT&T network in USA. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
