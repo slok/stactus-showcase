@@ -1,0 +1,10 @@
+version: incident/v1
+id: kpns1m99xxy4
+name: Increased Latency for Durable Objects in Eastern North-America
+impact: minor
+systems:
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2025-08-06 14:20:25"
+      description: Cloudflare is aware of, and investigating an issue with Durable Objects which potentially impacts multiple customers in the Eastern North-American region. Durable Objects are experiencing an increase in latency on purge actions in the aforementioned region. We are currently investigating this issue.
+      investigating: true
