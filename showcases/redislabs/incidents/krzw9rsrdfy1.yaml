@@ -13,3 +13,6 @@ timeline:
         We are actively monitoring the situation and will provide updates as more information becomes available from Google Cloud.
     - ts: "2025-08-06 05:20:34"
       description: We have observed signs of recovery related to the network connectivity issues in the GCP us-central1 region. Google Cloud has confirmed full resolution and our team has taken appropriate recovery actions where necessary. We will continue to monitor the situation closely and provide further updates as needed.
+    - ts: "2025-08-06 06:43:25"
+      description: The network connectivity issue in the GCP us-central1 region has been fully resolved. All Redis Cloud services in this region are operating normally. We have completed all necessary recovery actions and will continue monitoring to ensure full stability.
+      resolved: true
