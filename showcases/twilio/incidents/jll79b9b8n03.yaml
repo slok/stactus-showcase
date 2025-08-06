@@ -1,6 +1,6 @@
 version: incident/v1
 id: jll79b9b8n03
-name: On Call Engineers are Investigating an issue with Short Code Messages to Argentina
+name: 'Automated Alert: No Customer Impact'
 impact: none
 systems:
     - 42zx9w2kmtvf
@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-08-06 03:34:53"
       description: Our monitoring systems have detected a potential issue when sending short code messages to Argentina. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-08-06 04:49:49"
+      description: We have fully investigated the issue related to short code messages to Argentina and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true

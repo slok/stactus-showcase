@@ -1,7 +1,7 @@
 version: incident/v1
 id: ct6l02bpm5cp
 name: SMS Delivery Delays and Failures to AT&T Long Codes and Short Codes in United States of America
-impact: major
+impact: minor
 systems:
     - 7d8w22hqrh6s
 timeline:
@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-08-06 04:22:05"
       description: We are experiencing SMS delivery delays and failures when sending Short Code, Long Code and Toll Free messages to AT&T network in USA. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-08-06 04:37:39"
+      description: We are still experiencing SMS delivery delays and failures when sending Short Code, Long Code and Toll Free messages to AT&T network in USA. However, since there are several Twilio impacted services, we're resolving this post and we're consolidating all impacted products and services into one post. You can check the status of this at https://status.twilio.com/incidents/9x3f5ztzp0ss
+      resolved: true
