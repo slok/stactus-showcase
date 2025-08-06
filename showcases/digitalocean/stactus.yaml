@@ -80,8 +80,6 @@ systems:
       name: Monitoring / AMS3
     - id: v5b8dj1kl3rh
       name: VPC / AMS3
-    - id: czck17wcspr5
-      name: Cloud Control Panel
     - id: p2nsvdxf7vjp
       name: Volumes / AMS3
     - id: 2m55tfz8n656
@@ -98,6 +96,8 @@ systems:
       name: Spaces CDN / ATL1
     - id: vfhgr4fby7s3
       name: App Platform / Atlanta
+    - id: ncxxw3cs6pgm
+      name: BYOIP
     - id: 1c2vrfy9qbvv
       name: App Platform / Bangalore
     - id: sk01cyydqy7b
@@ -110,8 +110,8 @@ systems:
       name: Functions / FRA1
     - id: ttltt91ldz3g
       name: Managed Databases / BLR1
-    - id: pg9zc33244c7
-      name: Cloud Firewall
+    - id: czck17wcspr5
+      name: Cloud Control Panel
     - id: b44h3yhj3jy5
       name: Spaces / BLR1
     - id: r5sr0pyxn1kb
@@ -158,8 +158,8 @@ systems:
       name: VPC / BLR1
     - id: lmgn764lq04q
       name: Networking / BLR1
-    - id: 2p17zg8kmsyc
-      name: Community
+    - id: pg9zc33244c7
+      name: Cloud Firewall
     - id: 56cjsvgf3vk4
       name: App Platform / London
     - id: kkg2cfkqkwj1
@@ -186,8 +186,8 @@ systems:
       name: Functions / NYC1
     - id: 8zd85sg0nhnc
       name: Volumes / FRA1
-    - id: qdnryq0lymfk
-      name: DNS
+    - id: 2p17zg8kmsyc
+      name: Community
     - id: 8pntc51v5prb
       name: Container Registry / SFO2
     - id: ffghd7w93zbw
@@ -214,8 +214,8 @@ systems:
       name: Functions / SFO3
     - id: d2m7jh32j7z1
       name: Managed Databases / NYC1
-    - id: hklgsphcrjq4
-      name: Support Center
+    - id: qdnryq0lymfk
+      name: DNS
     - id: fkf61qj12vby
       name: App Platform / New York
     - id: w4m98sdz3szn
@@ -248,8 +248,8 @@ systems:
       name: Networking / NYC1
     - id: tvs6bwzfdc2j
       name: VPC / NYC1
-    - id: yvh4g97h7mk7
-      name: Reserved IP
+    - id: hklgsphcrjq4
+      name: Support Center
     - id: m9ky4d5d3q4g
       name: App Platform / Singapore
     - id: hlr2gdtmpmxs
@@ -274,8 +274,8 @@ systems:
       name: Managed Databases / NYC3
     - id: rm6mtm25jj2d
       name: Functions / SYD1
-    - id: 30fq20d840t8
-      name: WWW
+    - id: yvh4g97h7mk7
+      name: Reserved IP
     - id: 83tzdysp693h
       name: Kubernetes / SFO2
     - id: sz7nt917qrd8
@@ -300,10 +300,10 @@ systems:
       name: Functions / TOR1
     - id: 4lc0zwg56npx
       name: Networking / NYC3
+    - id: 30fq20d840t8
+      name: WWW
     - id: qkrqphz8r8d0
       name: Managed Databases / SFO2
-    - id: br95fz33h6td
-      name: GenAI Platform
     - id: wzgnsrflzlr5
       name: App Platform / Toronto
     - id: 2d91fg0js59k
@@ -324,6 +324,8 @@ systems:
       name: Droplets / SFO1
     - id: txy6938s4dhq
       name: Event Processing / SFO1
+    - id: br95fz33h6td
+      name: GenAI Platform
     - id: q9wrfk6yn5m8
       name: Kubernetes / SYD1
     - id: 29xvj6jck5fm
@@ -404,5 +406,3 @@ systems:
       name: VPC / TOR1
     - id: 3k1h85kh76zy
       name: Load Balancers / TOR1
-    - id: ncxxw3cs6pgm
-      name: BYOIP
