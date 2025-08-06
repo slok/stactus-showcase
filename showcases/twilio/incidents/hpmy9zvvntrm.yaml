@@ -1,9 +1,13 @@
 version: incident/v1
 id: hpmy9zvvntrm
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: SMS Delivery Delays To MTN Network in Ivory Coast
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
 timeline:
     - ts: "2025-08-06 22:04:59"
       description: Our monitoring systems have detected a potential issue with SMS Delivery Delays to the MTN Network in Ivory Coast. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-06 22:08:10"
+      description: We are experiencing SMS delivery delays when sending messages to the MTN Network in Ivory Coast. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
