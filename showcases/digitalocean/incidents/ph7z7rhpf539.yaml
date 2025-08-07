@@ -1,0 +1,16 @@
+version: incident/v1
+id: ph7z7rhpf539
+name: Issues with doctl release
+impact: none
+systems:
+    - p1x9rv4137gx
+    - txysr8r0gn1n
+timeline:
+    - ts: "2025-08-07 23:45:38"
+      description: |-
+        Our Engineering team identified and resolved an issue with the doctl v1.136.0 that was affecting automations and integrations, including App Platform and GitHub Action.
+
+        Users with the affected version of doctl may see 404 errors blocking their pipeline. The issue was caused by missing binaries in the release. The broken release has been deleted. Automations depending on doctl should now function as expected.
+
+        We apologize for the inconvenience. The new release shall be published soon.
+      resolved: true
