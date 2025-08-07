@@ -16,3 +16,6 @@ timeline:
       description: The issue has been identified and a fix is being implemented.
     - ts: "2025-08-07 15:25:33"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-08-07 15:42:24"
+      description: Between 13:51 UTC and 15:20 UTC, some customers in the US and EU region may have experienced errors sending golden signal data to New Relic, issues in viewing data in real time, and delayed or missing alert notifications related to real time data.
+      resolved: true
