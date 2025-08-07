@@ -1,9 +1,13 @@
 version: incident/v1
 id: 896j4wx4ypf0
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Call Failures to a Subset of Twilio Phone Numbers in Israel
+impact: minor
+systems:
+    - 6ns22g89f6g9
 timeline:
     - ts: "2025-08-07 20:19:18"
       description: Our monitoring systems have detected a potential issue with call failures to a subset of Twilio phone numbers in Israel. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-07 20:26:31"
+      description: We are observing call failures to a subset of Twilio phone numbers in Israel. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
