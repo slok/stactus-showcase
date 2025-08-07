@@ -1,0 +1,10 @@
+version: incident/v1
+id: l29r4366685x
+name: SMS Delivery Reports Delay to Multiple Networks in United States of America via Subset of Shortcodes
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2025-08-07 13:54:54"
+      description: We are experiencing SMS delivery report delays when sending messages to multiple networks in the United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
