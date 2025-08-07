@@ -1,0 +1,9 @@
+version: incident/v1
+id: 34nyx0qr7gk1
+name: WhatsApp Messages Delayed Intermittently
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-07 16:15:45"
+      description: Twilio WhatsApp was degraded for 1 hour 26 minutes between 14:10 and 15:36 Pacific Time on 08/06/2025. During this period of time customers may have experienced delays in sending WhatsApp messages. The issue has now been resolved.
+      resolved: true
