@@ -881,6 +881,10 @@ systems:
       name: 'Grafana Cloud: Tempo / GCP Australia - prod-au-southeast-0: Ingestion'
     - id: lkslwcgxp26b
       name: 'Grafana Cloud: Synthetic Monitoring / AWS UAE - prod-me-central-1: API'
+    - id: r18dwbrsg2g0
+      name: 'Grafana Cloud: Graphite / GCP US Central - prod-us-central-5: Querying'
+    - id: cp7lzhn0jrgw
+      name: 'Grafana Cloud: Prometheus / GCP US Central - prod-us-central-5: Querying'
     - id: jw3c386xwr40
       name: 'Grafana Cloud: Prometheus Rules and Alerts / GCP Belgium - prod-eu-west-0: Alertmanager and Rules Configuration API'
       description: The API gateway that allows programmatic access to managing configuration of rules and Alertmanager configuration.
@@ -888,6 +892,10 @@ systems:
       name: 'Grafana Cloud: Tempo / GCP Australia - prod-au-southeast-0: Metrics Generator'
     - id: x9gl5ndz8q5s
       name: 'Grafana Cloud: Synthetic Monitoring / AWS UAE - prod-me-central-1: Public Probes'
+    - id: t1cd8qxl4b3t
+      name: 'Grafana Cloud: Graphite / GCP US Central - prod-us-central-5: Ingestion'
+    - id: l778xg16mls4
+      name: 'Grafana Cloud: Prometheus / GCP US Central - prod-us-central-5: Ingestion'
     - id: tgt3hljzszy8
       name: 'Grafana Cloud: Prometheus Rules and Alerts / GCP Belgium - prod-eu-west-0: Alertmanager'
       description: Prometheus-based Alertmanager responsible for reception of alerts and notification delivery.
@@ -986,3 +994,7 @@ systems:
       name: 'Grafana Cloud: Tempo / AWS US East - prod-us-east-2: Ingestion'
     - id: cmzwpyr8bqq1
       name: 'Grafana Cloud: Tempo / AWS US East - prod-us-east-2: Metrics Generator'
+    - id: 5r0fnpc11np4
+      name: 'Grafana Cloud: Tempo / GCP US Central - prod-us-central-5: Querying'
+    - id: x1brj4vmt5py
+      name: 'Grafana Cloud: Tempo / GCP US Central - prod-us-central-5: Ingestion'
