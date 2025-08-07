@@ -1,0 +1,14 @@
+version: incident/v1
+id: btl2tm8vv4b6
+name: Data Irregularities in the US and EU Region
+impact: minor
+systems:
+    - nw4g7754n7tl
+    - 6qh38lgrdr8v
+timeline:
+    - ts: "2025-08-07 15:00:43"
+      description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2025-08-07 15:06:37"
+      description: Some customers in the US and EU regions may be experiencing delayed golden signal data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data.
+      investigating: true
