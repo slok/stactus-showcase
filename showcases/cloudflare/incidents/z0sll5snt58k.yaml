@@ -1,0 +1,11 @@
+version: incident/v1
+id: z0sll5snt58k
+name: Increased Control Plane Error Rate for Multiple Services
+impact: none
+systems:
+    - z0yd3sxqjqdm
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2025-08-07 17:28:23"
+      description: Network connectivity losses on Cloudflare's internal network resulted in approximately 5 minutes of elevated error rates for control plane operations on some services, from 2025-08-07 16:39:25 UTC to 2025-08-07 16:40:45 UTC.
+      resolved: true
