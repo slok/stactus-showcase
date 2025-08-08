@@ -1,9 +1,13 @@
 version: incident/v1
 id: ng0gsv251935
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: WhatsApp Message Delivery Delays
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
 timeline:
     - ts: "2025-08-08 20:04:32"
       description: Our monitoring systems have detected a potential issue with Programmable Messaging. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-08 20:14:08"
+      description: We are experiencing message delivery delays for messages sent via WhatsApp. Our engineers are working with our carrier partners to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
