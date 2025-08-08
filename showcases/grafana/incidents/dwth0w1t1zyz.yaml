@@ -10,3 +10,5 @@ timeline:
         We are currently experiencing elevated write latency for Tempo in the prod-eu-west-2 region. The issue began at approximately 17:55 UTC. Our engineering team has identified the underlying cause and is actively working on a fix.
 
         We will provide updates as soon as more information is available.
+    - ts: "2025-08-08 19:42:31"
+      description: Engineering has released a fix and as of 19:40 UTC, customers should no longer experience degraded performance. We will continue to monitor for recurrence and provide updates accordingly.
