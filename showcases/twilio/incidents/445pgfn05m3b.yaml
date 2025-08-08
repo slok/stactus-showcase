@@ -1,0 +1,10 @@
+version: incident/v1
+id: 445pgfn05m3b
+name: SMS Delivery Delays and Failures To Telenor Network In Pakistan
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-08-08 08:56:22"
+      description: We are experiencing SMS delivery delays & failures when sending message to Telenor Network In Pakistan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
