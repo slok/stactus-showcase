@@ -1,0 +1,12 @@
+version: incident/v1
+id: dwth0w1t1zyz
+name: Tempo Write Latency
+impact: minor
+systems:
+    - bg7pryvvh19l
+timeline:
+    - ts: "2025-08-08 18:32:30"
+      description: |-
+        We are currently experiencing elevated write latency for Tempo in the prod-eu-west-2 region. The issue began at approximately 17:55 UTC. Our engineering team has identified the underlying cause and is actively working on a fix.
+
+        We will provide updates as soon as more information is available.
