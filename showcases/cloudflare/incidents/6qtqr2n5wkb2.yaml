@@ -1,0 +1,15 @@
+version: incident/v1
+id: 6qtqr2n5wkb2
+name: 'Cloudflare Zero Trust: Gateway Issues in Bogotá, Colombia'
+impact: major
+systems:
+    - 171wlzvlxttk
+    - gyx2yygg7lmd
+timeline:
+    - ts: "2025-08-08 17:07:38"
+      description: Cloudflare is investigating issues with the BOG DNS resolver component within Gateway. Performance and connectivity through Gateway may be impacted. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-08-08 17:08:17"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-08-08 17:21:23"
+      description: A fix has been implemented and we are monitoring the results.
