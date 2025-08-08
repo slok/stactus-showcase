@@ -19,3 +19,6 @@ timeline:
       investigating: true
     - ts: "2025-08-07 22:55:02"
       description: We are observing recovery from the issue causing failures when sending RCS messages to AT&T phone numbers added to the Sender as a test device.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-08-08 00:55:18"
+      description: We are no longer experiencing failures when sending RCS messages to AT&T phone numbers added to the Sender as a test device. This incident has been resolved.
+      resolved: true
