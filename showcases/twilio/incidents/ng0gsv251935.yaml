@@ -20,3 +20,5 @@ timeline:
     - ts: "2025-08-08 23:11:54"
       description: WhatsApp message delivery is currently impacted due to elevated, intermittent errors from Meta. Affected WhatsApp messages are being retried, but are likely to experience delays in delivery, and some may fail if their validity period has expired. We are actively working with Meta to resolve this incident, and will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-08-09 01:23:55"
+      description: We have started seeing recovery for the issue causing WhatsApp message delivery delays. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
