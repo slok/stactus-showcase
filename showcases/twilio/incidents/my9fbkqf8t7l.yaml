@@ -1,0 +1,13 @@
+version: incident/v1
+id: my9fbkqf8t7l
+name: On Call Engineers are Investigating an issue with SMS Delivery Report Delays to Viettel Network in Burundi
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-08-10 22:40:17"
+      description: Our monitoring systems have detected a potential issue SMS delivery report delays to Viettel Network in Burundi. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-10 22:49:25"
+      description: We are experiencing SMS delivery report delays when sending messages to Viettel Network in Burundi. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
