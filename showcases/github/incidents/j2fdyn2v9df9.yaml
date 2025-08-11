@@ -1,0 +1,15 @@
+version: incident/v1
+id: j2fdyn2v9df9
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-08-11 18:51:11"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-08-11 18:53:16"
+      description: Logged out users may see intermittent errors when loading github.com webpages. Investigation is ongoing.
+      investigating: true
+    - ts: "2025-08-11 18:57:23"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
