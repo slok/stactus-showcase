@@ -1,0 +1,11 @@
+version: incident/v1
+id: qrp9shrm5fj5
+name: Issues When Start or Stop Voice Call Recordings and Streams
+impact: minor
+systems:
+    - frxynt0ffp5w
+    - sxwbmz83d77t
+timeline:
+    - ts: "2025-08-11 17:37:54"
+      description: We are investigating a service interruption with Twilio Voice. Customers may be unable to start or stop voice call recordings and streams. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
