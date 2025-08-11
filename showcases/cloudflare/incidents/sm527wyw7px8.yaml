@@ -1,0 +1,10 @@
+version: incident/v1
+id: sm527wyw7px8
+name: Network Analytics Delays
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2025-08-11 21:44:09"
+      description: We are currently investigating an issue resulting in delayed network analytics for a subset of customers.
+      investigating: true
