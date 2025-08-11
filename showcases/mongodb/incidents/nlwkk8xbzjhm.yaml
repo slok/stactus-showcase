@@ -1,0 +1,12 @@
+version: incident/v1
+id: nlwkk8xbzjhm
+name: Issue with Azure clusters with KeyVault enabled
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-08-11 15:53:37"
+      description: We are currently investigating an issue affecting Azure clusters with KeyVault enabled.
+      investigating: true
+    - ts: "2025-08-11 15:58:26"
+      description: The issue has been identified and a fix is being implemented.
