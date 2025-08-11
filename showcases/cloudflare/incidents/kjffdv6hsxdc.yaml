@@ -1,0 +1,16 @@
+version: incident/v1
+id: kjffdv6hsxdc
+name: Issues with new Cloudflare Tunnel and WARP connections on 2025-08-10
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-11 16:29:35"
+      description: |-
+        An issue prevented a subset of new Cloudflare Tunnel and WARP connections from being established between 07:00 and 08:45 AM UTC on Sunday, August 10th. This problem has been fully resolved, and all services are operating normally.
+
+        During this time window, customers may have experienced errors when attempting to restart or initiate new connections via cloudflared. This may also have impacted customers using WARP-to-WARP connectivity or Magic WAN customers who leverage WARP as an on-ramp.
+
+        The issue was limited to the establishment of new connections; existing tunnels and connections were not affected. This issue also did not affect any other Cloudflare services.
+
+        Our team has addressed the root cause, and we will continue to monitor the service to ensure continued stability. We apologize for any disruption this may have caused our customers.
+      resolved: true

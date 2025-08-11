@@ -12,3 +12,5 @@ timeline:
       description: The issue has been identified and a fix is being implemented.
     - ts: "2025-08-11 16:09:26"
       description: 'We are rolling back an infrastructure change that should allow Azure clusters with KeyVault to recover but affected customers can restore access more quickly by updating their KeyVault firewall with the latest Atlas control plane IP addresses: https://www.mongodb.com/docs/atlas/setup-cluster-security/#allow-access-to-or-from-the-service-control-plane'
+    - ts: "2025-08-11 16:26:59"
+      description: Infrastructure rollback has completed and affected Azure clusters are recovering. The previously suggested firewall update is no longer necessary.
