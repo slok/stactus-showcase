@@ -1,0 +1,9 @@
+version: incident/v1
+id: 5tk27z98pc2h
+name: Eastern North America traffic rerouted to Western Europe
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-11 22:55:34"
+      description: Between approximately 17:00 UTC and 21:30 UTC on 2025-08-11, some customer traffic originating in or near Eastern North America was rerouted to Western Europe resulting in elevated latency for requests.
+      resolved: true
