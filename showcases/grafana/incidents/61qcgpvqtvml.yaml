@@ -4,21 +4,30 @@ name: Frontend Observability app not found in some regions.
 impact: major
 systems:
     - fv8mjxqsls0c
+    - 35qz76yfv9rv
+    - gqmwwczllvq5
     - 0z4j4nzmq7hs
     - ytxxc3znw5jw
+    - kzsv2pc2s30t
+    - n90lmkqjvtcf
     - hkh69v8nwgz5
     - 72qxjs1p29q7
+    - qf9z45tkj8s4
+    - kklwl18sstbm
+    - 00r5jb2jl7pt
+    - 0s84b5yjppwy
+    - cxvhcw6k5b06
+    - csppcd2xw8l1
+    - gz7h5z3g2fy0
+    - 19pbz44xbzcg
+    - 8wq67tm1cg31
     - 8klb6l621gd7
+    - fn320fztp9hc
 timeline:
     - ts: "2025-08-11 09:49:24"
-      description: |-
-        We were alerted to an issue with accessing Frontend Observability. Users experiencing this issue may encounter a 404 when trying to access Frontend Observability app. FE Observability engineers are actively engaged and assessing the issue. We will provide updates accordingly. The list of affected regions so far can be found below:
-        au-southeast-1
-        us-east-0
-        ap-south-1
-        gb-south-0
-        eu-north-0
-        eu-west-2
+      description: We were alerted to an issue with accessing Frontend Observability. Users experiencing this issue may encounter a 404 when trying to access Frontend Observability app. FE Observability engineers are actively engaged and assessing the issue. We will provide updates accordingly. All regions are affected.
       investigating: true
     - ts: "2025-08-11 10:15:48"
       description: Our team has identified the issue and is working on a fix now.
+    - ts: "2025-08-11 10:46:27"
+      description: Correcting the affected components - during the investigation, it turned out that all regions are affected by the incident.
