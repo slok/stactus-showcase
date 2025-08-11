@@ -15,3 +15,69 @@ timeline:
     - ts: "2025-08-05 21:59:54"
       description: This incident has been resolved.
       resolved: true
+    - ts: "2025-08-11 17:37:30"
+      description: |-
+        ## **Incident Postmortem - Sign-in Service Degradation**
+
+        * **Date of Incident:** 2025-08-05
+        * **Time of Incident \(UTC\):** 20:20 - 21:20
+        * **Service\(s\) Affected:** Sign-in, Web Application, Command Line Interface \(CLI\), Single Sign On \(SSO\), API’s
+        * **Impact Duration:** 1 hour
+
+        ### **Summary**
+
+        On August 5, 2025, 1Password experienced a service degradation that impacted customers' ability to sign in and access the web application. The incident was triggered during a planned architectural improvement when a misconfigured rollback attempt caused an overload of traffic and a subsequent database connection bottleneck. The issue was resolved by correcting the misconfiguration and restarting the web application servers, fully restoring service.
+
+        ### **Impact on Customers**
+
+        During the service disruption, some customers experienced degraded performance when accessing their 1Password vaults and signing in.
+
+        * **Sign-in Issues**: Customers may have experienced sign-in slowness or timeouts.
+        * **Error Messages**: Customers may have seen error messages when attempting to sign in, such as "Can't sign in", "Failed to determine sign in methods for email", or "Upstream connect error".
+        * **Vault Access**: Some customers experienced degraded performance when accessing their 1Password vaults.
+        * **Geographic Regions Affected:** USA/Global
+
+        ### **What Happened?**
+
+        The incident was part of ongoing improvements to the 1Password infrastructure and was not the result of a security incident. Customer data was not affected.
+
+        **Timeline of Events \(UTC\):**
+
+        * **17:12**: A planned, phased rollout of an architectural improvement to authentication systems begins.
+        * **18:20**: Engineers monitoring the rollout begin to observe higher latency during sign-in for a small subset of accounts.
+        * **20:17**: A rollback of the change is initiated. An error in the rollback configuration sends a high volume of traffic to the new code path, causing a database connection bottleneck. Engineers observing the deployment immediately observe service impact. 
+        * **20:21**: A corrective action is deployed to revert the system to its previous state before the misconfigured rollback.
+        * **20:39**: While impact is still being observed, a failover from the primary database to a secondary database is initiated. This action has no effect. 
+        * **20:58**: A restart of the service that manages incoming traffic to our services is initiated to reset connections.
+        * **21:13**: A rolling restart of the web application servers is initiated.
+        * **21:20**: Service is fully restored for all customers.
+
+        **Root Cause Analysis:** The root cause was an error in the configuration of an attempted rollback. This misconfiguration incorrectly routed a high volume of sign-in traffic through a new, slower code path, which created a bottleneck of connections to our primary database and made the web application unresponsive.
+
+        ### **How Was It Resolved?**
+
+        **Resolution Steps:** The issue was fully resolved through two key actions:
+
+        1. The rollback misconfiguration was identified and corrected, which stopped traffic from flowing to the problematic new code.
+        2. A rolling restart of the web application servers was performed to clear the backlog of stuck database connections.
+
+        **Verification of Resolution:** Monitoring systems were closely observed for 30 minutes to ensure error rates returned to normal.
+
+        ### **What We Are Doing to Prevent Future Incidents**
+
+        We are working to implement the following improvements:
+
+        * **Improve configuration testing**: We will improve testing procedures of configuration updates and their rollbacks prior to being pushed to production.
+        * **Improve our deployment tooling**: We will add additional validation to our traffic management tools to prevent similar configuration errors.
+        * **Review our incident response procedures**: We have updated the runbook used to respond to this type of incident with guidance that will enable faster recovery.
+        * **Enhance our monitors**: We will add more specific alerts that will help us more quickly distinguish between different application tiers, allowing for faster diagnosis and time to resolution.
+
+        ### **Next Steps and Communication**
+
+        No action is required from our customers. 1Password applications are designed to be resilient, with local copies of vault data always available on customer devices, even without a connection to the 1Password service.
+
+        If you are still experiencing issues, please contact our support team.
+
+        We are committed to providing a reliable and stable service, and we are taking the necessary steps to learn from this event and prevent it from happening again. Thank you for your understanding.
+
+        Sincerely, The 1Password Team
