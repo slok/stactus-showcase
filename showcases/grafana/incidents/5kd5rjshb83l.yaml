@@ -20,3 +20,6 @@ timeline:
       description: The issue has been identified and our team is working on rolling out a fix currently.
     - ts: "2025-08-12 09:46:27"
       description: The fix was implemented and error rate has gone down. PDC looks stable and we're continue to monitoring the overall health.
+    - ts: "2025-08-12 10:22:15"
+      description: The incident is now resolved. An error in an infrastructure change meant that the SSH endpoint for PDC in eu-west-3 region was unavailable for customers to connect to. Reverting the change fixed the issue and PDC agents were able to reconnect successfully.
+      resolved: true
