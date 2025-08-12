@@ -1,10 +1,13 @@
 version: incident/v1
 id: z5x0chs0j4j7
 name: SMS Delivery Delays to Tigo Network in Chad
-impact: none
+impact: minor
 systems:
     - 8qjql0kqnd33
 timeline:
     - ts: "2025-08-12 20:24:56"
       description: We are experiencing SMS delivery delays when sending messages to Tigo Network in Chad. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-08-12 21:13:24"
+      description: We are still experiencing SMS delivery delays when sending messages to Tigo Network in Chad. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
