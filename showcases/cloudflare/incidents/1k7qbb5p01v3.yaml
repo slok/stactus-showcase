@@ -1,0 +1,9 @@
+version: incident/v1
+id: 1k7qbb5p01v3
+name: 'Cloudflare API service issues: DNS records'
+impact: minor
+systems:
+    - g4tb35rs9yw7
+timeline:
+    - ts: "2025-08-12 08:40:59"
+      description: Cloudflare has identified issues with DNS records API. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Cloudflare API to update or create DNS records are impacted as requests might fail and/or errors may be displayed. A fix is being implemented.
