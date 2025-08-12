@@ -1,0 +1,9 @@
+version: incident/v1
+id: sby87f2cv5ll
+name: RCS Messaging Services Affected to Brazil Destinations
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-12 14:31:38"
+      description: Twilio RCS Messaging Services was degraded for 35 minutes between 06:10 and 06:45 Pacific Time on 08/12/2025. During this period of time customers may have experienced 12400 Error codes when sending RCS Messages to Brazil. The issue has now been resolved.
+      resolved: true

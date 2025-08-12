@@ -1,13 +1,17 @@
 version: incident/v1
 id: 9rfydl2xdqqj
 name: Incident with search on GitHub we are seeing increased failure rates
-impact: minor
+impact: major
 systems:
     - brv1bkgrwx7q
     - kr09ddfgbfsf
     - hhtssxt0f5v2
     - br0l2tvcx85d
+    - st3j38cctv9l
 timeline:
     - ts: "2025-08-12 14:12:10"
       description: We are investigating reports of degraded performance for API Requests, Actions, Issues and Pull Requests
+      investigating: true
+    - ts: "2025-08-12 14:30:14"
+      description: Packages is experiencing degraded performance. We are continuing to investigate.
       investigating: true
