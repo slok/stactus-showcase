@@ -7,3 +7,5 @@ systems:
 timeline:
     - ts: "2025-08-12 08:40:59"
       description: Cloudflare has identified issues with DNS records API. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Cloudflare API to update or create DNS records are impacted as requests might fail and/or errors may be displayed. A fix is being implemented.
+    - ts: "2025-08-12 08:56:43"
+      description: A fix has been implemented and we are monitoring the results.
