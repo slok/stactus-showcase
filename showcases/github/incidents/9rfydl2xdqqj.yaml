@@ -21,3 +21,6 @@ timeline:
     - ts: "2025-08-12 15:20:18"
       description: We are experiencing increased latency in our API layers and inconsistently degraded experiences when loading or querying issues, pull requests, labels, packages, releases, workflow runs, projects, and repositories, among others. Investigation is underway.
       investigating: true
+    - ts: "2025-08-12 15:48:53"
+      description: We are seeing partial recovery in service availability, but still see inconsistent experiences and stale search data across services. Investigation and mitigations are underway.
+      investigating: true
