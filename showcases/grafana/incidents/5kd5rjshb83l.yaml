@@ -1,0 +1,18 @@
+version: incident/v1
+id: 5kd5rjshb83l
+name: Private Datasource Connect connectivity loss in 2 regions.
+impact: major
+systems:
+    - xp9dh2867dhp
+    - 7hzxytvzk3mz
+timeline:
+    - ts: "2025-08-12 09:31:15"
+      description: |-
+        We're currently experiencing an issue with connectivity lost for Private Datasource Connect in 2 regions:
+        - eu-west-3;
+        - us-central2.
+        Our team is aware of the issue and is actively working on finding the cause.
+      investigating: true
+    - ts: "2025-08-12 09:37:43"
+      description: After a closer inspection, us-central2 region looks fine and isn't experiencing issues anymore.
+      investigating: true
