@@ -3,8 +3,12 @@ id: d7q39thydj1y
 name: SMS Delivery Delays and Failures to Multiple Networks in Canada
 impact: minor
 systems:
-    - 7d8w22hqrh6s
+    - qj606bzkg4s8
+    - k7rg1rqk2nwk
 timeline:
     - ts: "2025-08-12 09:58:47"
       description: We are experiencing SMS delivery delays and failures when sending messages to Multiple Networks in Canada. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-08-12 10:25:26"
+      description: We are continuing to investigate this issue.
       investigating: true
