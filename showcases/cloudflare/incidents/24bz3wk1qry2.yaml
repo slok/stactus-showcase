@@ -1,0 +1,12 @@
+version: incident/v1
+id: 24bz3wk1qry2
+name: Re Routing Traffic in London
+impact: none
+systems:
+    - shcqh0p22750
+timeline:
+    - ts: "2025-08-12 16:47:08"
+      description: We are re routing some traffic in London due to cooling issues in a data center. Elevated latency expected for re routed traffic. We are working to resolve the problem.
+      investigating: true
+    - ts: "2025-08-12 16:48:42"
+      description: The issue has been identified and a fix is being implemented.
