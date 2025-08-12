@@ -24,3 +24,6 @@ timeline:
     - ts: "2025-08-12 15:48:53"
       description: We are seeing partial recovery in service availability, but still see inconsistent experiences and stale search data across services. Investigation and mitigations are underway.
       investigating: true
+    - ts: "2025-08-12 16:33:42"
+      description: Service availability has been mostly restored, but increased load/query latency and stale search results persist. We continue to work towards full mitigation.
+      investigating: true
