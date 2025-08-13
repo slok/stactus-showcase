@@ -1,6 +1,6 @@
 version: incident/v1
 id: my9fbkqf8t7l
-name: SMS Delivery Report Delays to Viettel Network in Burundi
+name: SMS Delivery Delays to Viettel Network in Burundi
 impact: minor
 systems:
     - 9z5gsqyjs4rl
@@ -44,4 +44,7 @@ timeline:
       investigating: true
     - ts: "2025-08-13 07:53:02"
       description: We are still experiencing SMS delivery report delays when sending messages to the Viettel Network in Burundi. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-08-13 15:33:48"
+      description: We are still experiencing SMS delivery delays when sending messages to the Viettel Network in Burundi. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
       investigating: true
