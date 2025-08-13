@@ -1,0 +1,14 @@
+version: incident/v1
+id: qpzy4hbw00gd
+name: 'Cloudflare Pages: Functions deployment issues'
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2025-08-13 10:59:48"
+      description: |-
+        Cloudflare is aware of and investigating an issue with Cloudflare Pages which potentially impacts multiple customers: Function deployment is not operating correctly, and as such they may not be deployed, or be delayed. This issue only impacts new changes, existing sites and traffic to those sites are not affected.
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-08-13 11:04:24"
+      description: The issue has been identified and a fix is being implemented.
