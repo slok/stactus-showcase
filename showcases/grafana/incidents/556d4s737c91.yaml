@@ -1,0 +1,9 @@
+version: incident/v1
+id: 556d4s737c91
+name: k6 tests failing to start from CLI
+impact: major
+systems: []
+timeline:
+    - ts: "2025-08-13 12:19:07"
+      description: The configuration change in our API gateway led to certain endpoints being unreachable. This impacted test runs executed from CLI as they were not able to start.
+      resolved: true
