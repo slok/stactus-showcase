@@ -1,0 +1,9 @@
+version: incident/v1
+id: pj8lbfkbhvxt
+name: OpenAI Rate Limits Affecting Serverless Inference
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-13 19:35:04"
+      description: "As of 18:45 UTC, our Engineering team has resolved the issues with OpenAI rate limits that were affecting certain DigitalOcean services. The problem, which began at approximately 09:30 UTC, caused errors (429s) for Agents using OpenAI models for serverless inference.\n\nSystems Affected:\n\nServerless inference\nEvaluations\n\nTechnical Details: The issue was caused by exceeding OpenAI rate limits, which resulted in 429 errors for OpenAI models. \n\nDuration: The incident lasted for approximately 9 hours, from 09:30 UTC to 18:45 UTC. We apologize for any inconvenience this may have caused and appreciate your patience as we worked to resolve the issue. If you continue to experience problems, please open a ticket with our Support team."
+      resolved: true
