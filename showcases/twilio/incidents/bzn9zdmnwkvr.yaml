@@ -18,3 +18,9 @@ timeline:
       investigating: true
     - ts: "2025-08-13 13:52:47"
       description: Network degradation affecting webhooks delivery in eu-west-1 is now operating normally. We will continue to monitor for system stability. We'll provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2025-08-13 15:08:16"
+      description: |-
+        Our engineers have monitored the fix and confirmed the issue with Network degradation affecting webhooks delivery in eu-west-1 has been resolved.
+
+        Customers may have experienced failed connections and calls latency to all Voice features going into/out-of IE1. Some client registrations would have failed during the impact window. All services are now operating normally at this time.
+      resolved: true
