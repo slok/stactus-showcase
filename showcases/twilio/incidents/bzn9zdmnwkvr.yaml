@@ -1,9 +1,18 @@
 version: incident/v1
 id: bzn9zdmnwkvr
 name: Webhooks Failures in IE1 Region
-impact: none
-systems: []
+impact: minor
+systems:
+    - q4d7rj555ljl
+    - l2p2s96tdsf4
+    - mwcz6hw53t7c
 timeline:
     - ts: "2025-08-13 13:05:31"
       description: Our monitoring systems have detected a potential issue with webhooks failures in IE1 region. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-13 13:20:41"
+      description: We are experiencing issue where network degradation affecting webhooks delivery in eu-west-1. Our engineers are actively working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-08-13 13:36:47"
+      description: We are experiencing issue where network degradation affecting webhooks delivery in eu-west-1. Customers may experience failed connections and calls latency. Our engineers are actively working to resolve the issue. We will provide another update in 30 minutes or as soon as more information becomes available.
       investigating: true

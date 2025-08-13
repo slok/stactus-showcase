@@ -1,0 +1,9 @@
+version: incident/v1
+id: kbw5hgttcxmy
+name: Some Degraded Tempo Writes
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-13 13:33:23"
+      description: We observed a brief spike in degraded Tempo writes for a small subset of users in the prod-eu-west-2 region, which have now been resolved.
+      resolved: true
