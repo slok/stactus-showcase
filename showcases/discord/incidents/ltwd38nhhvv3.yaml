@@ -1,0 +1,9 @@
+version: incident/v1
+id: ltwd38nhhvv3
+name: Android Captcha errors
+impact: none
+systems:
+    - 8r4xqnt9jslk
+timeline:
+    - ts: "2025-08-14 14:59:11"
+      description: We have fixed the issue preventing some Android users from solving captchas in the latest version of the Discord app. If you are still experiencing problems, please updating your Discord app to version 292.16 on your Android device, via the Google Play Store.
