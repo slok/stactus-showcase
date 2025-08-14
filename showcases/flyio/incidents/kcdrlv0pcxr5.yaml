@@ -1,0 +1,11 @@
+version: incident/v1
+id: kcdrlv0pcxr5
+name: Upstream network issues
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-14 20:38:15"
+      description: |-
+        We are currently experiencing network issues related to an upstream provider, causing high packet loss to certain destinations. We are working to shift traffic away from the impacted provider.
+
+        This affects mainly the IAD region but may also impact other regions. Impacted apps will continue to run, may experience degraded public and private network connectivity at this time.
