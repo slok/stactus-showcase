@@ -1,0 +1,11 @@
+version: incident/v1
+id: gpbzv8znnlqy
+name: A subset of users may experience issues with our underlying carrier in Europe.
+impact: minor
+systems:
+    - 773zkp1jzkgl
+    - kmldw5k76q3v
+timeline:
+    - ts: "2025-08-14 15:32:49"
+      description: A subset of users(ZP/ZCC) may experience issues with delays in acquiring or porting telephone numbers, and updating associated address information in EU Region.  We are actively working with our carrier partner to resolve the issue. We will share the updates as soon as we have them.
+      investigating: true
