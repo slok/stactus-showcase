@@ -1,0 +1,11 @@
+version: incident/v1
+id: vwq5z2zhp046
+name: Network congestion issues in South Korea
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-14 08:42:26"
+      description: |-
+        Cloudflare detected transient issues with Network congestion in the South Korea region (ICN), between 5:55 AM and 6:27 AM UTC time. This may have also resulted in increased 5xx error rates being observed intermittently.
+        The Service has been promptly restored.
+      resolved: true
