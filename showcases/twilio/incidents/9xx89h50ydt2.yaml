@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9xx89h50ydt2
+name: Lookup Identity Match Returning 60608 Errors
+impact: none
+systems:
+    - xk8z50jy8hcs
+timeline:
+    - ts: "2025-08-14 18:59:40"
+      description: Twilio Lookup Identity  was degraded for 41 minutes between 10:31 to 11:12 Pacific Time on 08/14/2025. During this period of time customers may have experienced Lookup Identity Match returning 60608 errors. The issue has now been resolved.
+      resolved: true
