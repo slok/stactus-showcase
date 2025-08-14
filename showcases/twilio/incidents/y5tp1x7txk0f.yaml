@@ -1,0 +1,14 @@
+version: incident/v1
+id: y5tp1x7txk0f
+name: Issue with MMS Delivery Failures to T-Mobile in United States of America
+impact: minor
+systems:
+    - 8vdlvw3dsq8h
+    - h0fl7prwfhvm
+timeline:
+    - ts: "2025-08-14 03:41:48"
+      description: Our monitoring systems have detected a potential issue with MMS Delivery Failures to T-Mobile in United States of America. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-14 03:50:34"
+      description: We are experiencing MMS delivery failures sending to T-Mobile in United States of America. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
