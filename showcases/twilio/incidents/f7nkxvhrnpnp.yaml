@@ -13,7 +13,7 @@ timeline:
       investigating: true
     - ts: "2025-08-14 23:27:52"
       description: |-
-        The issue causing an elevated rate of 63005 errors for Programmable Messaging Rest API has been identified. Meta has made a change to enforce prevention of URLs in variables which has resulted in messages failing with error 63005. To avoid these errors URLs can be utilized in call to action URL buttons. Variables sent in CTA URL fields require the website domain to be static. Alternatively URLs can be sent in text within a 24 hour conversation window. CTA URL buttons can be used with 'card' https://www.twilio.com/docs/content/twiliocard and 'call-to-action' https://www.twilio.com/docs/content/twilio-call-to-action templates.
+        The issue causing an elevated rate of 63005 errors for Programmable Messaging Rest API has been identified. Meta has made a change to enforce prevention of URLs in variables which has resulted in messages failing with error 63005. To avoid these errors, URLs can be utilized in call to action URL buttons. Variables sent in CTA URL fields require the website domain to be static. Alternatively, URLs can be sent in text within a 24 hour conversation window. CTA URL buttons can be used with 'card' https://www.twilio.com/docs/content/twiliocard and 'call-to-action' https://www.twilio.com/docs/content/twilio-call-to-action templates.
 
         Our engineers are working on the fix, and we will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
