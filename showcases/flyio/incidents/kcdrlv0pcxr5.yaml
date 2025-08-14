@@ -11,3 +11,6 @@ timeline:
         This affects mainly the IAD region but may also impact other regions. Impacted apps will continue to run, may experience degraded public and private network connectivity at this time.
     - ts: "2025-08-14 20:52:27"
       description: Traffic across North America has been shifted to alternative upstreams and packet loss metrics have returned to nominal values. We are monitoring for any further issues.
+    - ts: "2025-08-14 21:12:22"
+      description: This incident has been resolved.
+      resolved: true
