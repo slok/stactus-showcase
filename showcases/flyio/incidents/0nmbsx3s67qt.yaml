@@ -1,0 +1,10 @@
+version: incident/v1
+id: 0nmbsx3s67qt
+name: API issues
+impact: major
+systems:
+    - 66r6rhq3hn9n
+timeline:
+    - ts: "2025-08-15 18:58:55"
+      description: We are investigating API issues related to our database instance. Dashboard pages may fail to load, and GraphQL / Machines API queries may fail.
+      investigating: true
