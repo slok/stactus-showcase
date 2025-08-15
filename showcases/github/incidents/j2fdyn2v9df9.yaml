@@ -11,5 +11,5 @@ timeline:
       description: Logged out users may see intermittent errors when loading github.com webpages. Investigation is ongoing.
       investigating: true
     - ts: "2025-08-11 18:57:23"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On August 11, 2025, from 18:41 to 18:57 UTC, GitHub customers experienced errors and increased latency when loading GitHub’s web interface. During this time, a configuration change to improve our UI deployment system caused a surge in requests to a backend datastore. This change led to an unexpected spike in connection attempts to our datastore and saturated its connection backlog and resulted in intermittent failures to serve required UI content. This resulted in elevated error rates for frontend requests.<br /><br />The incident was mitigated by reverting the configuration, which restored normal service.<br /><br />Following mitigation, we are evaluating improvements to our alerting thresholds and exploring architectural changes to reduce load to this datastore and improve the resilience of our UI delivery pipeline.
       resolved: true
