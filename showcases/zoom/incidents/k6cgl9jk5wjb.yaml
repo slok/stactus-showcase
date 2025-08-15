@@ -1,0 +1,10 @@
+version: incident/v1
+id: k6cgl9jk5wjb
+name: A subset of users in the Japan region may experience issues when attempting to connect to the Zoom Technical Support number.
+impact: minor
+systems:
+    - 5tf5rb6t3gdf
+timeline:
+    - ts: "2025-08-15 06:04:23"
+      description: We have detected service degradation where a subset of users in Japan would be experiencing connectivity issues while attempting to connect to the Zoom Technical Support number. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
