@@ -1,0 +1,12 @@
+version: incident/v1
+id: b6124c5fktl7
+name: A number of instances are unavailable or experiencing slow performance in the prod-eu-west-4
+impact: none
+systems:
+    - wdcnfc3drb8s
+timeline:
+    - ts: "2025-08-15 01:00:45"
+      description: "As of 00:00 UTC, we became aware of an issue with Hosted Grafana instance in the prod-eu-west-4 regions. Users experiencing this issue may encounter issue accessing the grafana instance or experience slow performance. \n\nEngineering is actively engaged and assessing the issue. We will provide updates accordingly."
+      investigating: true
+    - ts: "2025-08-15 01:04:03"
+      description: As of 00:56 UTC, a mitigation has been applied and we are continuing to monitor the overall health
