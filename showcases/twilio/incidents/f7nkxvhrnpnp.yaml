@@ -4,6 +4,7 @@ name: Elevated 63005 Errors for Programmable Messaging Rest API
 impact: minor
 systems:
     - 1gkv0mxhzsjv
+    - 3p1q1qbw970c
 timeline:
     - ts: "2025-08-14 21:20:53"
       description: We are currently investigating an elevated rate of 63005 errors for Programmable Messaging Rest API. Our engineers are working on the issue, and we will provide another update in 1 hour or as soon as more information becomes available.
@@ -14,6 +15,12 @@ timeline:
     - ts: "2025-08-14 23:27:52"
       description: |-
         The issue causing an elevated rate of 63005 errors for Programmable Messaging Rest API has been identified. Meta has made a change to enforce prevention of URLs in variables which has resulted in messages failing with error 63005. To avoid these errors, URLs can be utilized in call to action URL buttons. Variables sent in CTA URL fields require the website domain to be static. Alternatively, URLs can be sent in text within a 24 hour conversation window. CTA URL buttons can be used with 'card' https://www.twilio.com/docs/content/twiliocard and 'call-to-action' https://www.twilio.com/docs/content/twilio-call-to-action templates.
+
+        Our engineers are working on the fix, and we will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-08-15 02:21:32"
+      description: |-
+        We have implemented a change to retry impacted messages.  In the event our partner updates their validation, we will attempt to deliver these messages.  If the message expires, customers will now receive https://www.twilio.com/docs/api/errors/30036 as the message error code.
 
         Our engineers are working on the fix, and we will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
