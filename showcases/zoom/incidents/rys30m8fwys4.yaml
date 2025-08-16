@@ -1,0 +1,9 @@
+version: incident/v1
+id: rys30m8fwys4
+name: A subset of users may have experienced issues with ZVA Chat & Voice Agent.
+impact: minor
+systems:
+    - 880tc1scvmp2
+timeline:
+    - ts: "2025-08-16 06:11:28"
+      description: We had detected service degradation where a subset of users may have experienced issues with ZVA Chat & Voice Agent. We have fixed this issue currently.
