@@ -1,0 +1,10 @@
+version: incident/v1
+id: wrpk7vcn0wtf
+name: Intermittent 520s for Authenticated Origin Pulls
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2025-08-16 23:42:00"
+      description: Cloudflare is aware of and investigating reports of customers intermittently seeing 520s when using Authenticated Origin Pulls. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
