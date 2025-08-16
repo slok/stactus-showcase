@@ -1,0 +1,11 @@
+version: incident/v1
+id: 6106b6dm4r79
+name: Usage Analytics for Durable Objects and D1 Delayed
+impact: minor
+systems:
+    - z0yd3sxqjqdm
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2025-08-16 14:47:58"
+      description: We are investigating delays in delivering usage analytics for Durable Objects and D1.
+      investigating: true
