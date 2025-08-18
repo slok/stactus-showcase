@@ -15,5 +15,5 @@ timeline:
       description: The NPM registry has now returned to normal functioning.
       investigating: true
     - ts: "2025-08-14 18:37:12"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On August 14, 2025, between 17:50 UTC and 18:08 UTC, the Packages NPM Registry service was degraded. During this period, NPM package uploads were unavailable and approximately 50% of download requests failed. We identified the root cause as a sudden spike in Packages publishing activity that exceeded our service capacity limits. We are implementing better guardrails to protect the service against unexpected traffic surges and improving our incident response runbooks to ensure faster mitigation of similar issues.
       resolved: true
