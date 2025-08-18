@@ -1,0 +1,17 @@
+version: incident/v1
+id: bp2zdtx5g1y3
+name: Authentication API Issue
+impact: major
+systems:
+    - 8wq97lhx59x7
+    - qqj6ssvvsqmq
+    - m7cr9xxllhpn
+    - jky8f03q6zfj
+    - x2sf2zvf07cy
+timeline:
+    - ts: "2025-08-18 17:25:47"
+      description: We are currently experiencing issues with our authentication API which is being investigated. This is known to be affecting prod-us-west-0 and prod-us-central-0/3/4/5, but may be affecting others as well.
+      investigating: true
+    - ts: "2025-08-18 17:27:47"
+      description: We are continuing to investigate this issue.
+      investigating: true
