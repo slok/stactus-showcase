@@ -1,9 +1,13 @@
 version: incident/v1
 id: 8vntgt72ghh3
-name: On Call Engineers are Investigating an issue with Inbound SMS Delivery Failures To A Subset Of Phone Numbers In Portugal
-impact: none
-systems: []
+name: SMS Delivery Failures From a Subset of Portugal Twilio Phone Numbers
+impact: minor
+systems:
+    - llgdln3dcs6p
 timeline:
     - ts: "2025-08-18 19:46:29"
-      description: Our monitoring systems have detected a potential issue inbound SMS delivery failures to a subset of phone numbers in Portugal. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      description: Our monitoring systems have detected a potential issue with SMS delivery failures to a subset of phone numbers in Portugal. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-18 20:01:27"
+      description: We are experiencing SMS delivery failures from a subset of Portugal Twilio phone numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
