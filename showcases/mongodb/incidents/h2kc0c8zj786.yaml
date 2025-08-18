@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-08-18 07:27:36"
       description: We're investigating an issue impacting some AWS us-east-1 free tier (M0 instance size) clusters. These clusters are experiencing connection issues and a failure to upgrade to dedicated instance sizes. This issue impacts <1% of AWS us-east-1 M0 clusters.
       investigating: true
+    - ts: "2025-08-18 07:53:53"
+      description: We've identified the issue causing some AWS us-east-1 free tier M0 clusters to be in a degraded state. The team is working on a fix.
