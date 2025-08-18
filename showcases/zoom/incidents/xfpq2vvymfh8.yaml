@@ -1,0 +1,12 @@
+version: incident/v1
+id: xfpq2vvymfh8
+name: A subset of users may not receive e-mail notifications for Whiteboard, Notes and Webinar.
+impact: minor
+systems:
+    - tvtkg7hq9qdd
+    - gtf6dl08hrk1
+    - q4msk5dl4bhm
+timeline:
+    - ts: "2025-08-18 16:22:48"
+      description: We have detected a service degradation where a subset of users may not receive e-mail notifications for Whiteboard, Notes and Webinar. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
