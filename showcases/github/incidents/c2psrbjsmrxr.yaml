@@ -12,5 +12,5 @@ timeline:
       description: 'We are investigating reports of issues with service(s): Actions. We will continue to keep users updated on progress towards mitigation.'
       investigating: true
     - ts: "2025-08-14 06:23:09"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On August 14, 2025, between 02:30 UTC and 06:14 UTC, GitHub Actions was degraded. On average, 3% of workflow runs were delayed by at least 5 minutes. The incident was caused by an outage in a downstream dependency that led to failures in backend service connectivity in one region. At 03:59 UTC, we evacuated a majority of services in the impacted region, but some users may have seen ongoing impact until all services were fully evacuated at 06:14 UTC. We are working to improve monitoring and processes of failover to reduce our time to detection and mitigation of issues like this one in the future.
       resolved: true
