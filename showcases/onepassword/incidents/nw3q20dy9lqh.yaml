@@ -1,0 +1,9 @@
+version: incident/v1
+id: nw3q20dy9lqh
+name: Events API Unavailable in the EU
+impact: major
+systems:
+    - dr779hkh3q8m
+timeline:
+    - ts: "2025-08-18 21:36:12"
+      description: We have identified an issue causing requests to the Events API to fail for customers in the EU. Our team is in the process of deploying a fix.

@@ -1,0 +1,12 @@
+version: incident/v1
+id: dhkn7x5yqjl9
+name: A subset of users may experience delays or failures with AI Companion meeting summary, Team Chat and Zoom Docs compose
+impact: minor
+systems:
+    - 07fc2bfpjgct
+    - 576m25cw4prj
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2025-08-18 21:45:51"
+      description: We are investigating issues with AI Companion affecting meeting summaries, Team Chat and Zoom Docs compose. We will provide more updates as we receive them.
+      investigating: true
