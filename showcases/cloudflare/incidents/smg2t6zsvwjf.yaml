@@ -1,0 +1,13 @@
+version: incident/v1
+id: smg2t6zsvwjf
+name: teams-device-api database (tunnelstoredb) not working
+impact: minor
+systems:
+    - k04jkcpzxn94
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2025-08-18 12:18:56"
+      description: Cloudflare is investigating issues with Cloudflare WARP and Cloudflare Zero Trust. Cloudflare WARP and Zero Trust users may experience issues with the public API, registering devices, and managed networks
+    - ts: "2025-08-18 12:20:35"
+      description: This incident has been resolved.
+      resolved: true
