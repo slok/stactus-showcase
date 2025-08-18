@@ -14,3 +14,5 @@ timeline:
       description: We continue to work on a fix for impacted M0 clusters.
     - ts: "2025-08-18 19:38:32"
       description: We continue to work on a fix for the impacted M0 clusters. No additional AWS us-east-1 M0 clusters have been impacted since the original post.
+    - ts: "2025-08-18 23:31:52"
+      description: Impacted free tier M0 AWS us-east-1 clusters are now healthy. Customers that attempted an upgrade of their M0 cluster to a dedicated instance tier can now retry their request.
