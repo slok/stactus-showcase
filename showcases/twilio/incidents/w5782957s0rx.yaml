@@ -1,0 +1,13 @@
+version: incident/v1
+id: w5782957s0rx
+name: WhatsApp Messages Show Incorrect Channel Information on Messaging Insights for a Subset of Twilio Customers
+impact: minor
+systems:
+    - dgkv7yc7sqdg
+timeline:
+    - ts: "2025-08-18 18:39:27"
+      description: Our monitoring systems have detected a potential issue with Messaging Insights. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-18 18:52:13"
+      description: We are investigating an issue where WhatsApp messages are showing incorrect channel information in Messaging Insights for a subset of customers. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
