@@ -1,9 +1,12 @@
 version: incident/v1
 id: lwsgtbp0y2lb
-name: On Call Engineers are Investigating an issue
-impact: none
+name: SMS Delivery Failures to Multiple Networks in Multiple Countries
+impact: minor
 systems: []
 timeline:
     - ts: "2025-08-19 16:06:13"
       description: Our monitoring systems have detected a potential issue with SMS delivery failures. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-19 16:28:03"
+      description: We are experiencing SMS delivery failures to multiple networks in multiple countries. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 60 minutes or as soon as more information becomes available.
       investigating: true
