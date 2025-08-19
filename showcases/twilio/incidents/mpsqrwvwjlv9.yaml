@@ -1,0 +1,9 @@
+version: incident/v1
+id: mpsqrwvwjlv9
+name: Single Send API endpoint returning 404 "resource not found"
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-19 17:14:19"
+      description: 'Starting around August 19th at 12PM CST, our engineers began investigating an issue with the single send API endpoint : PATCH /v3/marketing/singlesends/{id} since the server was returning a 404 response. Customers may experience the inability to execute these API calls. This does not impact mail send. We will provide another update in an hour or as soon as more information becomes available.'
+      investigating: true
