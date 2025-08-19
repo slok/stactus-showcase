@@ -21,3 +21,15 @@ timeline:
     - ts: "2025-08-19 14:11:29"
       description: We are seeing slightly elevated latency on some Issues endpoints and searches for workflow runs in Actions may not return quickly.
       investigating: true
+    - ts: "2025-08-19 14:45:04"
+      description: We were able to mitigate the slowness by throttling some search indexing and will work on the issues created by the increased search indexing so they do not have latency impact.
+      investigating: true
+    - ts: "2025-08-19 14:46:52"
+      description: Issues is operating normally.
+      investigating: true
+    - ts: "2025-08-19 14:46:55"
+      description: Actions is operating normally.
+      investigating: true
+    - ts: "2025-08-19 14:46:58"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
