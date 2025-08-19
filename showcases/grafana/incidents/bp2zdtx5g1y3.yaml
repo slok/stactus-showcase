@@ -10,7 +10,7 @@ systems:
     - x2sf2zvf07cy
 timeline:
     - ts: "2025-08-18 17:25:47"
-      description: We are currently experiencing issues with our authentication API which is being investigated. This is known to be affecting prod-us-west-0 and prod-us-central-0/3/4/5, but may be affecting others as well.
+      description: We are currently experiencing issues with our authentication API, which is under active investigation. Any services that depend on our authentication API may be impacted. At this time, the issue is confirmed in prod-us-west-0 and prod-us-central-0/3/4/5, but other regions may also be affected.
       investigating: true
     - ts: "2025-08-18 17:27:47"
       description: We are continuing to investigate this issue.
