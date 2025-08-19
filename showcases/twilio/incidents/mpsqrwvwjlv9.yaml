@@ -7,3 +7,6 @@ timeline:
     - ts: "2025-08-19 17:14:19"
       description: 'Starting around August 19th at 12PM CST, our engineers began investigating an issue with the single send API endpoint : PATCH /v3/marketing/singlesends/{id} since the server was returning a 404 response. Customers may experience the inability to execute these API calls. This does not impact mail send. We will provide another update in an hour or as soon as more information becomes available.'
       investigating: true
+    - ts: "2025-08-19 17:27:35"
+      description: We are continuing to investigate this issue.
+      investigating: true
