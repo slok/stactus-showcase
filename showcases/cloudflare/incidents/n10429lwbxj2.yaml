@@ -1,0 +1,9 @@
+version: incident/v1
+id: n10429lwbxj2
+name: Workers section in Cloudflare Dash may be crashing for some users
+impact: major
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-08-19 16:52:52"
+      description: The Workers section in Cloudflare Dash may be crashing for some users. We've identified the issue and are working on a fix at the moment.
