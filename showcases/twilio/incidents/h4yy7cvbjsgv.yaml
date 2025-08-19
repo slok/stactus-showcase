@@ -1,0 +1,13 @@
+version: incident/v1
+id: h4yy7cvbjsgv
+name: SMS Delivery Failures to CNT Carrier in Ecuador
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-08-19 17:50:17"
+      description: Our monitoring systems have detected a potential issue with SMS. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-19 17:58:32"
+      description: We are experiencing SMS delivery failures sending to CNT network in Ecuador. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 60 minutes or as soon as more information becomes available.
+      investigating: true
