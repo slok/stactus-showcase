@@ -1,8 +1,11 @@
 version: incident/v1
 id: z1llf13zcn2f
-name: Our Engineers are Investigating an Issue with SMS Delivery Delays to Appalachian Wireless in United States of America
+name: SMS Delivery Delays to Appalachian Wireless Network in United States of America
 impact: none
 systems: []
 timeline:
     - ts: "2025-08-19 21:02:43"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with SMS delivery delays to appalachian wireless in United States of America. We will follow up and provide customer impact ASAP.
+    - ts: "2025-08-19 21:10:02"
+      description: Twilio Programmable Messaging was degraded for 47 minutes between 12:33 and 13:20 Pacific Time on 08/19/2025. During this period of time customers may have experienced SMS delivery delays to Appalachian Wireless Network in United States of America. The issue has now been resolved.
+      resolved: true
