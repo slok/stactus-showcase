@@ -1,10 +1,12 @@
 version: incident/v1
 id: ph8dmyydv1lq
-name: Free, Pro, and Biz Bandwidth Alliance customers experiencing Tiered Cache degradation
-impact: minor
+name: Free, Pro, and Biz Tiered Cache degradation
+impact: major
 systems:
     - 5wnz34mhfhrk
 timeline:
     - ts: "2025-08-20 19:40:05"
-      description: Free, Pro, and Biz Customers with Bandwidth Alliance origins are experiencing Tiered Cache degradation where Tiered Cache is not engaging as expected. This results in higher cache misses and more requests to the origin.
+      description: Free, Pro, and Biz Customers origins are experiencing Tiered Cache degradation where Tiered Cache is not engaging as expected. This results in more cache misses and increased requests to the origin.
       investigating: true
+    - ts: "2025-08-20 22:39:39"
+      description: The issue has been identified and a fix is being implemented.
