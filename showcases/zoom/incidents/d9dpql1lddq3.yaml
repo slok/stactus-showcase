@@ -1,0 +1,11 @@
+version: incident/v1
+id: d9dpql1lddq3
+name: A subset of users may experience issues with meetings in Frankfurt region for archiving service
+impact: minor
+systems:
+    - 3z7b6jks10hm
+    - 1v74zmrq81fr
+timeline:
+    - ts: "2025-08-20 12:58:25"
+      description: We have detected service degradation where a subset of users may experience issues with Meetings in Frankfurt region for archiving service. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true

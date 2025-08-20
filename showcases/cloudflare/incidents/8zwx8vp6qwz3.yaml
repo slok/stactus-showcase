@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8zwx8vp6qwz3
+name: Issues with Cloudflare Log Explorer
+impact: minor
+systems:
+    - k0mgxrls5y1b
+timeline:
+    - ts: "2025-08-20 12:52:57"
+      description: |-
+        Cloudflare is aware of and investigating an issue with Cloudflare Log Explorer. Affected customers may see data from before today missing from query results.
+
+        We are currently working on a resolution. More updates to follow shortly.
+      investigating: true
