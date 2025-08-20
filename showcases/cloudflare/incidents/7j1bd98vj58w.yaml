@@ -1,0 +1,9 @@
+version: incident/v1
+id: 7j1bd98vj58w
+name: Network Route Leak
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-08-20 19:49:03"
+      description: Between 18:28 to 18:33 UTC, one of Cloudflare's upstream transit providers experienced a route leak, affecting network performance in some locations. We are working to mitigate impact to Internet users in this region.
+      resolved: true
