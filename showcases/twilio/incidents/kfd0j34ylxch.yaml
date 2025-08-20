@@ -1,0 +1,11 @@
+version: incident/v1
+id: kfd0j34ylxch
+name: SMS Delivery Delays and Failures to Multiple Networks in Mexico for a Subset of Shortcodes and Alphanumeric Sender IDs
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-20 00:30:15"
+      description: Our engineers are currently investigating the customer impact of a retroactive issue with SMS delivery delays and failures to Multiple Networks in Mexico for a subset of shortcodes and alphanumeric sender IDs. We will follow up and provide customer impact details within soon.
+    - ts: "2025-08-20 00:38:23"
+      description: Twilio Programmable Messaging was degraded for 32 minutes between 23:09 and 23:41 Pacific Time on 08/12/2025. During this period of time customers may have experienced SMS delivery delays and failures to Multiple Networks in Mexico for a subset of shortcodes and alphanumeric sender IDs. The issue has now been resolved.
+      resolved: true
