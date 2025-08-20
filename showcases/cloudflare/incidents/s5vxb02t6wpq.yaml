@@ -1,0 +1,16 @@
+version: incident/v1
+id: s5vxb02t6wpq
+name: Accidental "major incident" notification
+impact: major
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-08-20 12:09:39"
+      description: |-
+        We understand how concerning it must have been to receive an unexpected email about a major incident. The message you may have received was sent in error. During a routine internal drill, a test notification was inadvertently distributed externally.
+
+        Please be rest assured there is no active major issue impacting Cloudflare services — everything is operating normally.
+
+        We’re truly sorry for any confusion or worry this may have caused you or your team. No action is needed on your side, and you can safely disregard that email. For the most accurate and up-to-date information at any time, please refer to our Cloudflare Status Page (https://www.cloudflarestatus.com/).
+
+        Thank you for your understanding, and for trusting Cloudflare.
