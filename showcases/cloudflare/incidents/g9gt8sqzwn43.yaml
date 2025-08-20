@@ -1,0 +1,48 @@
+version: incident/v1
+id: g9gt8sqzwn43
+name: Increased HTTP 5xx Errors in China Network
+impact: minor
+systems:
+    - vy6w0cg9xtg0
+    - hmgctz0qnwlc
+    - mbmzgpc3s1xh
+    - rkf7026fyhnl
+    - 33b7rn1tln88
+    - mdhxb295kjtr
+    - lqkq4v678h03
+    - rcr0g1602s3q
+    - jhnf3tj7x7xh
+    - wpgrmfwn36kf
+    - 4n0gb0kh02gf
+    - 84ynm0c8bkm4
+    - xdx76vxqbqgn
+    - nbvb8842jnn0
+    - 5b3kdlcn246d
+    - d6rk1w417zrk
+    - r66jd70rs5w0
+    - 7tmwsbb86w0p
+    - fgnwzgm3jqhx
+    - r2d26wr46tsp
+    - kdfqxrg9g6c8
+    - kqn9ybcc4dgk
+    - nq31rt0rqt8d
+    - ynf4hx3bjd3k
+    - 0p60jr5nb630
+    - gwdh0cz27600
+    - kzh9tkg9kcxd
+    - kv51jn11hf8p
+    - 44tphr2pztyc
+    - 0xjnz3xb9r26
+    - mys3yhng3ykj
+    - 08z18y1j597d
+    - zrbstq7c13hj
+    - bbr34gf2mfm8
+    - wtrkk82p5npr
+    - 8hcj7dpzwy9h
+timeline:
+    - ts: "2025-08-20 12:47:10"
+      description: |-
+        Cloudflare is investigating an increased level of HTTP 5xx errors in China Network.
+
+        We are working to analyse and mitigate this problem.  More updates to follow shortly.
+      investigating: true
