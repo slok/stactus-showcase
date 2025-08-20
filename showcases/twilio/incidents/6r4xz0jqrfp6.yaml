@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6r4xz0jqrfp6
+name: SMS Delivery Report Delays to Shelcomm Network in the US
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2025-08-20 16:54:18"
+      description: We are experiencing SMS delivery report delays to Shelcomm network in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
