@@ -1,0 +1,13 @@
+version: incident/v1
+id: bpt9f6hbxmv0
+name: 'WhatsApp: inbound_receipt traffic for WA-CloudAPI'
+impact: none
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2025-08-20 03:08:53"
+      description: 'Our monitoring systems have detected a potential issue with WhatsApp: inbound_receipt traffic for WA-CloudAPI. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.'
+      investigating: true
+    - ts: "2025-08-20 03:19:10"
+      description: No customer impact.
+      resolved: true
