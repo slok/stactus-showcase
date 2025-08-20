@@ -10,3 +10,9 @@ timeline:
     - ts: "2025-08-20 16:24:01"
       description: Customers may experience issues when signing up for new GitHub accounts. We are actively working on a mitigation and will post an update within 30 minutes.
       investigating: true
+    - ts: "2025-08-20 16:37:01"
+      description: We have verified that we fixed the sign up flow and are working to ensure we don't introduce an issue like this in the future.
+      investigating: true
+    - ts: "2025-08-20 16:37:16"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
