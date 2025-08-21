@@ -1,0 +1,11 @@
+version: incident/v1
+id: t3mgzc13d0sp
+name: SMS Delivery Failures to Syriatel in Syria
+impact: minor
+systems:
+    - yvvy3vlp4djf
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-08-21 03:45:08"
+      description: We are experiencing SMS delivery failures sending to Syriatel in Syria. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
