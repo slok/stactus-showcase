@@ -9,3 +9,9 @@ timeline:
     - ts: "2025-08-21 06:25:33"
       description: We are investigating reports of degraded performance for Git Operations and Issues
       investigating: true
+    - ts: "2025-08-21 06:30:04"
+      description: Approximately 1% of API and web requests are seeing intermittent errors. Some customers may see some push errors. We are currently investigating.
+      investigating: true
+    - ts: "2025-08-21 06:39:32"
+      description: We saw a brief spike in failures related to some of our database infrastructure. Everything has recovered but we are continuing to investigate to ensure we don't see any reoccurrence.
+      investigating: true
