@@ -1,0 +1,14 @@
+version: incident/v1
+id: d9n3g1vnxdd2
+name: Network Performance Issues in Ashburn (IAD)
+impact: minor
+systems:
+    - 3t0npclljyyg
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-08-21 17:50:49"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in Ashburn (IAD).
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
