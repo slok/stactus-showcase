@@ -1,6 +1,6 @@
 version: incident/v1
 id: t0lfz0m859wc
-name: Customers May Experience Issues Trying to Login Into Twilio Console
+name: Customer May Experience Issues Trying to Login Into Twilio Console and Flex Console
 impact: minor
 systems:
     - g4hs7h64k9fv
@@ -9,5 +9,5 @@ timeline:
       description: Our monitoring systems have detected a potential issue logging into Twilio Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2025-08-21 18:20:58"
-      description: We are investigating a service problem trying to login into Twilio Console. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: We are investigating a service problem trying to login into Twilio Console and Flex Console. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
