@@ -1,10 +1,12 @@
 version: incident/v1
 id: wfrjrpfc41pd
-name: Issue with Zoom Developers Document Web Page
+name: Intermitent Issue with Zoom Developers Document Web Page
 impact: minor
 systems:
     - ghvwvn740dg7
 timeline:
     - ts: "2025-08-21 21:48:50"
-      description: We are investigating an issue with Zoom Developers Document Web Page.  We will provide updates as they become available.
+      description: We are investigating an intermittent issue with Zoom Developers Document Web Page.  We will provide updates as they become available.
       investigating: true
+    - ts: "2025-08-21 22:52:02"
+      description: We have identified the intermittent issue with Zoom Developers Document Web Page.  We will continue to provide updates as we have them.
