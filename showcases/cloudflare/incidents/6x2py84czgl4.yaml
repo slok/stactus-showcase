@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6x2py84czgl4
+name: Magic WAN initiated traffic towards WARP devices is disrupted.
+impact: major
+systems:
+    - qgnxz00j1f2v
+    - k04jkcpzxn94
+timeline:
+    - ts: "2025-08-21 17:39:10"
+      description: Connections initiated by devices behind Magic WAN connectors (eg IPsec tunnels or interconnections) destined to WARP devices will fail. WARP outbound connections are still working.
