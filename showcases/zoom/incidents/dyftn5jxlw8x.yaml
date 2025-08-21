@@ -1,0 +1,11 @@
+version: incident/v1
+id: dyftn5jxlw8x
+name: Zoom Phone inbound calls may be failing in Argentina
+impact: minor
+systems:
+    - l4vp694cdst7
+    - y8ktp5pnbwt3
+timeline:
+    - ts: "2025-08-21 17:31:19"
+      description: We are investigating an issue with inbound calling in Argentina affecting Zoom Phone. We are working with the underlying carrier to resolve this and will update as new information becomes available.
+      investigating: true
