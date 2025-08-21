@@ -1,0 +1,13 @@
+version: incident/v1
+id: c7kq3ctclddp
+name: Incident with Actions
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2025-08-21 15:54:34"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2025-08-21 16:05:31"
+      description: We are investigating reports of slow queue times for Hosted Runners, leading to high wait times.
+      investigating: true
