@@ -1,0 +1,10 @@
+version: incident/v1
+id: rkszhbjjpp6l
+name: SMS Delivery Report Delays to Claro in Peru
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-08-21 00:14:44"
+      description: We are experiencing delays in receiving message delivery reports when sending to Claro in Peru. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
