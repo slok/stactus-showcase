@@ -1,6 +1,6 @@
 version: incident/v1
 id: 8jrw8p0rrl37
-name: SMS Delivery Delays to Telefonica Network in Peru
+name: SMS Delivery Delays and Failures To Telefonica Network in Peru
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -15,3 +15,6 @@ timeline:
       investigating: true
     - ts: "2025-08-21 22:39:11"
       description: We are observing recovery in SMS delivery delays when sending messages to Telefonica network in Peru. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-08-21 23:23:47"
+      description: We are experiencing SMS delivery delays when sending messages to Telefonica network in Peru. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
