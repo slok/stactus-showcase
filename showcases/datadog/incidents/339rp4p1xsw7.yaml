@@ -1,0 +1,11 @@
+version: incident/v1
+id: 339rp4p1xsw7
+name: Duplicate Logs in Aggregated Queries
+impact: minor
+systems:
+    - 1w2mz2hzw0cz
+    - wb6d6tss5zph
+timeline:
+    - ts: "2025-08-21 21:57:24"
+      description: "We are investigating an issue processing Logs. \nAs a result of this issue, some users may see inconsistencies in logs queries."
+      investigating: true
