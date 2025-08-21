@@ -1,0 +1,11 @@
+version: incident/v1
+id: 0gjmg4lt0hj9
+name: Our Engineers are Investigating an Issue with Conversation Relay where agent audio is silent
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-21 06:58:50"
+      description: Our engineers are currently investigating the customer impact of a retroactive issue with Conversation Relay where agent audio is silent. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-08-21 07:01:44"
+      description: Twilio Conversation Relay was degraded for 20 minutes between 22:55 and 23:15 Pacific Time on 08/20/2025. During this period of time customers may have intermittently experienced an issue where agent audio is silent. The issue has now been resolved.
+      resolved: true

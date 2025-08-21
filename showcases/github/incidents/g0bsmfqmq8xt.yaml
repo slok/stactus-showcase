@@ -15,3 +15,15 @@ timeline:
     - ts: "2025-08-21 06:39:32"
       description: We saw a brief spike in failures related to some of our database infrastructure. Everything has recovered but we are continuing to investigate to ensure we don't see any reoccurrence.
       investigating: true
+    - ts: "2025-08-21 06:58:20"
+      description: The errors in our database infrastructure were related to some maintenance events that had more impact than expected. We will provide more details and follow ups when we post a public summary for this incident in the coming days. All impact to customers is resolved.
+      investigating: true
+    - ts: "2025-08-21 06:58:27"
+      description: Issues is operating normally.
+      investigating: true
+    - ts: "2025-08-21 06:58:30"
+      description: Git Operations is operating normally.
+      investigating: true
+    - ts: "2025-08-21 06:58:33"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
