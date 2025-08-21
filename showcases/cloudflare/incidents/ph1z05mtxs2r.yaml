@@ -1,0 +1,11 @@
+version: incident/v1
+id: ph1z05mtxs2r
+name: Workers, Workers for Platforms, and Pages API Issues
+impact: minor
+systems:
+    - vgxj684rcw7t
+    - 570kfpd0dgg7
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-08-21 20:54:35"
+      description: Cloudflare has identified an issue impacting the Workers, Workers for Platforms, Snippets, and Pages API and is working on a fix. This issue may result in failed deployments. This does not impact edge traffic. Updates to follow.
