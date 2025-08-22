@@ -1,0 +1,13 @@
+version: incident/v1
+id: xdjwj8s2nhwx
+name: Metrics issue with mimir-prod-56 and cortex-prod-13
+impact: major
+systems:
+    - 5270kl9kd6l2
+    - zqsjp5p0d8n7
+timeline:
+    - ts: "2025-08-22 00:49:57"
+      description: We've been alerted to an issue and are investigating and will provide an update shortly"
+      investigating: true
+    - ts: "2025-08-22 00:51:56"
+      description: The issue seems to have been resolved
