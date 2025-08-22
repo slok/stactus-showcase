@@ -1,0 +1,9 @@
+version: incident/v1
+id: jt0j07nj2k09
+name: MMS Delivery Delays to AT&T US via a Subset of Long Code
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-22 15:15:07"
+      description: Our engineering team detected a degradation on MMS delivery delays to AT&T US via a Subset of Long Code for 48 minutes between 06:22 and 07:10 Pacific Time on 2025-08-22. During this period of time customers may have experienced MMS delivery delay to AT&T US via a subset of Long Code. The issue has now been resolved.
+      resolved: true
