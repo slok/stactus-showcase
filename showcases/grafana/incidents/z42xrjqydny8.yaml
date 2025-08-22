@@ -1,6 +1,6 @@
 version: incident/v1
 id: z42xrjqydny8
-name: Investigtaing Errors when Accessing Dashboards
+name: Investigating Errors when Accessing Dashboards
 impact: major
 systems:
     - hbqgpzmf8h9k
@@ -11,3 +11,5 @@ timeline:
     - ts: "2025-08-22 11:58:33"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-08-22 12:29:31"
+      description: The issue has been identified and a fix is being implemented.
