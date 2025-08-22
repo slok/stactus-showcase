@@ -1,0 +1,10 @@
+version: incident/v1
+id: 652kyztw6sbf
+name: WARP connectivity issues in China
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2025-08-22 14:08:43"
+      description: Cloudflare is investigating issues with Cloudflare WARP and Cloudflare Zero Trust in China. Users may experience connectivity issues or a degraded Internet experience.
+      investigating: true
