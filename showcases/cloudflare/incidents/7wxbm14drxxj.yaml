@@ -1,10 +1,13 @@
 version: incident/v1
 id: 7wxbm14drxxj
 name: Rate Limiting counting issue
-impact: major
+impact: minor
 systems:
     - d1r0plwsl5qb
 timeline:
     - ts: "2025-08-22 07:29:33"
-      description: We are investigating reports of inaccurate counting for rate limits.
+      description: Cloudflare is aware of, and investigating an issue that is observed in very rare cases where a subset of customers may observe rate limiting inaccuracies, which may result in blocks to traffic. Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2025-08-22 13:23:47"
+      description: We are continuing to investigate this issue.
       investigating: true
