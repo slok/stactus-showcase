@@ -1,0 +1,12 @@
+version: incident/v1
+id: cncln2gj6xxx
+name: 'MongoDB Atlas: Signing up for AWS Marketplace failing'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-08-22 15:06:01"
+      description: |-
+        We have identified an issue connecting AWS Marketplace as a payment method for MongoDB Atlas. Affected users will see a form and then a confirmation screen, but the addition of the payment method will not succeed.
+
+        Existing connections and cluster health is unaffected.
