@@ -31,5 +31,5 @@ timeline:
       description: Actions is operating normally.
       investigating: true
     - ts: "2025-08-19 14:46:58"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On August 19, 2025, between 13:35 UTC and 14:33 UTC, GitHub search was in a degraded state. When searching for pull requests, issues, and workflow runs, users would have seen some slow, empty or incomplete results. In some cases, pull requests failed to load.<br /><br />The incident was triggered by intermittent connectivity issues between our load balancers and search hosts. While retry logic initially masked these problems, retry queues eventually overwhelmed the load balancers, causing failure. The incident was mitigated at 14:33 UTC by throttling our search index pipeline. <br /><br />Our automated alerting and internal retries reduced the impact of this event significantly. As a result of this incident we believe we have identified a faster way to mitigate it in the future. We are also working on multiple solutions to resolve the underlying connectivity issues.<br />
       resolved: true
