@@ -15,3 +15,6 @@ timeline:
         We have identified an issue connecting AWS Marketplace as a payment method for MongoDB Atlas since approximately August 19, 2025. Affected users will see a form and then a confirmation screen, but the addition of the payment method will not succeed.
 
         Existing connections and cluster health is unaffected.
+    - ts: "2025-08-22 16:44:59"
+      description: This incident has been resolved.
+      resolved: true
