@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2v7z51004z16
+name: Unable to create Tests in Grafana Cloud k6 Performance Testing
+impact: major
+systems:
+    - 3gvy1n7fg4x4
+timeline:
+    - ts: "2025-08-22 12:22:32"
+      description: We are investigating an issue where users are unable to create tests in Grafana Cloud k6 Performance Testing UI.
+      investigating: true
