@@ -21,3 +21,11 @@ timeline:
     - ts: "2025-08-21 18:17:33"
       description: We are still experiencing SMS delivery failures sending to Syriatel in Syria. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 16 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-08-22 05:26:09"
+      description: |-
+        Our engineers have identified the root cause of the SMS delivery failures to Syriatel in Syria. The carrier has begun enforcing Sender ID registration. This means messages to Syriatel can only be delivered when sent from a registered alphanumeric Sender ID; no other Sender ID types are supported.
+
+        Please note that in July 2025, Twilio announced through direct customer communications that SMS delivery to Syria will no longer be supported starting September 15, 2025. Customers were advised to remove Syria traffic from Twilio and transition to alternative messaging providers.
+
+        From now until September 15, 2025, SMS delivery to Syriatel in Syria will be on a best-effort basis only. If messages fail, Twilio will not be able to provide troubleshooting support. After September 15, 2025, all messaging traffic to Syria will be blocked.
+      resolved: true
