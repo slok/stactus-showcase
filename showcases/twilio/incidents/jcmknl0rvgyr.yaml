@@ -1,6 +1,6 @@
 version: incident/v1
 id: jcmknl0rvgyr
-name: SMS Delivery Delay To Beeline Network in Kazakhstan
+name: SMS Delivery Delay to Beeline Network in Kazakhstan
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -11,3 +11,5 @@ timeline:
     - ts: "2025-08-22 08:10:21"
       description: We are continuing to experience SMS delivery delays when sending messages to Beeline Network in Kazakhstan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-08-22 10:08:19"
+      description: We are observing recovery of SMS delivery delays when sending messages to Beeline Network in Kazakhstan. Our engineers are monitoring the recovery with our carrier partner to ensure it is resolved. We will provide another update in 2 hours or as soon as more information becomes available.
