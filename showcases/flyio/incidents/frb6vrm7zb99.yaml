@@ -1,0 +1,10 @@
+version: incident/v1
+id: frb6vrm7zb99
+name: MPG cluster issues in ORD
+impact: major
+systems:
+    - q5hm9x2qx9l9
+timeline:
+    - ts: "2025-08-23 09:36:52"
+      description: We are currently investigating a host issue resulting in a small number of MPG clusters in ORD to be in degraded status. If you're having trouble connecting to your database, please get in touch via the support portal.
+      investigating: true
