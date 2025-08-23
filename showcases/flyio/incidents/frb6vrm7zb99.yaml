@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2025-08-23 12:33:29"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-08-23 13:44:31"
+      description: "This incident has been resolved and all MPG clusters in ORD are operating as expected. \n\nDuring this incident a small number of clusters in ORD would have seen degraded or failing connections when using the PGBouncer connection pooler URL to connect to their database."
+      resolved: true
