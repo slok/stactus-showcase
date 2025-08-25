@@ -8,3 +8,6 @@ systems:
 timeline:
     - ts: "2025-08-25 22:14:03"
       description: "As of 21:30 UTC, we were alerted to an incident affecting Hosted Grafana services. Our team is actively investigating the issue. At this time, we have identified the root cause and are working on implementing mitigation. \n\nWe will provide updates here as soon as more information becomes available.\n\nThank you for your patience."
+    - ts: "2025-08-25 22:55:12"
+      description: Our engineering team has applied a fix for this issue and Hosted Grafana instances should be loading normally again at this time.
+      resolved: true
