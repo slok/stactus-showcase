@@ -1,0 +1,20 @@
+version: incident/v1
+id: z6vy1s1vk197
+name: Elevated errors with comments
+impact: major
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+    - gjdprysbvnjm
+    - fggy4fg1hdmj
+    - pnwfnm4nljtr
+    - jqv4qjdzx23l
+timeline:
+    - ts: "2025-08-25 23:15:21"
+      description: We are currently investigating elevated errors with comments and are actively working on a fix.
+      investigating: true
+    - ts: "2025-08-25 23:17:34"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-08-25 23:26:41"
+      description: A fix has been implemented and we are monitoring the results.
