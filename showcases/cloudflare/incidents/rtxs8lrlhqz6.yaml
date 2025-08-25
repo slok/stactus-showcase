@@ -1,0 +1,12 @@
+version: incident/v1
+id: rtxs8lrlhqz6
+name: Stream video uploads processing slowly
+impact: minor
+systems:
+    - 47xg28c02lnk
+timeline:
+    - ts: "2025-08-25 03:51:38"
+      description: Engineering is currently investigating delays in new uploaded Stream videos being ready to play.
+      investigating: true
+    - ts: "2025-08-25 03:56:47"
+      description: A fix has been implemented and we are monitoring the results.
