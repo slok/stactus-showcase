@@ -744,6 +744,9 @@ systems:
       name: 'Grafana Cloud: Graphite / GCP Australia - prod-au-southeast-0: Querying'
     - id: 81f9yfcnyxsg
       name: 'Grafana Cloud: Tempo / AWS US East - prod-us-east-0: Metrics Generator'
+    - id: 69x626rm9jpv
+      name: 'Grafana Cloud: AWS Metrics'
+      description: Grafana Cloud ingestion pipeline for metrics emitted from AWS Firehose
     - id: vc52wtjdh6db
       name: 'Grafana Cloud: Prometheus / GCP Australia - prod-au-southeast-0: Ingestion'
     - id: fgtp31zqpw8v
