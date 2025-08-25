@@ -1,0 +1,12 @@
+version: incident/v1
+id: nnhg983qy0fr
+name: Increased latency with cloudflare-dns.com
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-08-25 14:19:55"
+      description: |-
+        Cloudflare is aware of, and investigating, an increased latency on cloudflare-dns.com.
+
+        Further detail will be provided as more information becomes available.
+      investigating: true
