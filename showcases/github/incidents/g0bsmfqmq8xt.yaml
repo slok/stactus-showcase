@@ -25,5 +25,5 @@ timeline:
       description: Git Operations is operating normally.
       investigating: true
     - ts: "2025-08-21 06:58:33"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On August 21st, 2025, between 6:15am UTC and 6:25am UTC Git and Web operations were degraded and saw intermittent errors. On average, the error rate was 1% for API and Web requests. This was due to database infrastructure automated maintenance reducing capacity below our tolerated threshold.<br /><br />The incident was resolved when the impacted infrastructure self-healed and returned to normal operating capacity.<br /><br />We are adding guardrails to reduce the impact of this type of maintenance in the future.
       resolved: true
