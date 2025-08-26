@@ -1,0 +1,10 @@
+version: incident/v1
+id: q9m8tv8lqy9d
+name: SMS Delivery Delays and Failures to and From Claro Network in Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-08-26 11:25:23"
+      description: We are experiencing SMS delivery delays & failures when sending messages to and from Claro Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
