@@ -3,7 +3,9 @@ id: hgd8fxnys0v8
 name: 'MongoDB Atlas: Atlas Streams Metrics to Datadog delayed'
 impact: minor
 systems:
-    - 98lbmdz85yp0
+    - prk6bb5j7h4l
 timeline:
     - ts: "2025-08-26 18:50:22"
+      description: "We have identified an issue for MongoDB Atlas Streams metrics being reported to Datadog. In particular, Atlas Streams metrics have been delayed since approximately 15:20 UTC on 26 August 2025. This may cause metrics to not be received by Datadog in a timely manner or missed entirely. \n\nAffected users may see gaps in their metric data in Datadog and this may cause alerting in some circumstances.\n\nUsers can check the Atlas web UI for current metrics values.\n\nCluster health is unaffected."
+    - ts: "2025-08-26 18:58:39"
       description: "We have identified an issue for MongoDB Atlas Streams metrics being reported to Datadog. In particular, Atlas Streams metrics have been delayed since approximately 15:20 UTC on 26 August 2025. This may cause metrics to not be received by Datadog in a timely manner or missed entirely. \n\nAffected users may see gaps in their metric data in Datadog and this may cause alerting in some circumstances.\n\nUsers can check the Atlas web UI for current metrics values.\n\nCluster health is unaffected."
