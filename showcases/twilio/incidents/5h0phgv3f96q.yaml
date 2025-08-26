@@ -4,7 +4,11 @@ name: SMS/MMS Failures to T-Mobile in USA
 impact: minor
 systems:
     - 7d8w22hqrh6s
+    - qj606bzkg4s8
+    - llqd4rmn8k8y
     - 39mb8cmw8y2v
+    - k7rg1rqk2nwk
+    - 5cv0b6y86d2f
     - 32f2bm54nkvv
 timeline:
     - ts: "2025-08-26 05:56:25"
@@ -15,3 +19,5 @@ timeline:
       investigating: true
     - ts: "2025-08-26 06:46:32"
       description: We are observing recovery in SMS/MMS failures to T-Mobile in USA via shortcodes, longcodes and toll-free numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-08-26 08:05:29"
+      description: We are observing recovery in SMS/MMS failures to T-Mobile in USA via shortcodes, longcodes and toll-free numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 1 hours or as soon as more information becomes available.
