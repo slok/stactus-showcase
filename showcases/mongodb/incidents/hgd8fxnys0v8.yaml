@@ -13,3 +13,5 @@ timeline:
       description: We are continuing to debug an issue for MongoDB Atlas Streams metrics being reported to Datadog. Atlas Streams metrics have been delayed since approximately 15:20 UTC on 26 August 2025. We are working hard on restoring these metrics and will continue to make status updates.
     - ts: "2025-08-26 20:59:34"
       description: We have stabilized the system and are working through a backlog of MongoDB Atlas Streams metrics for Datadog. We will move to monitoring once we have worked through the entire backlog.
+    - ts: "2025-08-26 21:43:11"
+      description: We have worked through the entire backlog of MongoDB Atlas Streams metrics for Datadog. We are now monitoring for any additional issues, and are configuring alerting in case we see another delay.
