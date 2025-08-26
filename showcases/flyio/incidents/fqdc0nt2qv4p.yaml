@@ -1,0 +1,14 @@
+version: incident/v1
+id: fqdc0nt2qv4p
+name: Upstream network outage impacting SEA, SJC, LAX, HKG, SYD, PHX
+impact: minor
+systems:
+    - 823dvbm7k1vy
+    - 4zqk2hwhfmvb
+    - 3gxz7ph7r90b
+    - psk6740r111k
+    - 49qj4qjyzlzn
+    - 6g1pz83ylj1r
+timeline:
+    - ts: "2025-08-26 06:51:40"
+      description: We are working with our upstream network providers to establish an alternate route. Affected regions are experiencing high packet loss.
