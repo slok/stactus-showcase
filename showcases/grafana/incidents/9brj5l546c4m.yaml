@@ -1,0 +1,9 @@
+version: incident/v1
+id: 9brj5l546c4m
+name: Degraded ingestion for Traces on cluster EU WEST 2
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-26 12:07:34"
+      description: We experienced degraded performance on the writing path for traces, today between 9:49 and 11:36 UTC, on prod-eu-west-2 cluster. The issue has been resolved and the service should be back to normal
+      resolved: true
