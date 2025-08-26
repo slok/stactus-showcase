@@ -1,0 +1,13 @@
+version: incident/v1
+id: 2kxy345thmhn
+name: Network issues in ORD
+impact: minor
+systems:
+    - q5hm9x2qx9l9
+    - vfq82tp9wp5r
+timeline:
+    - ts: "2025-08-26 11:41:26"
+      description: We are experiencing network issues in ORD. Some destinations are unreachable. We are working with our upstream providers to fix it ASAP.
+      investigating: true
+    - ts: "2025-08-26 11:46:50"
+      description: A fix has been implemented and we are monitoring the results.
