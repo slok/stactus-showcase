@@ -1,0 +1,15 @@
+version: incident/v1
+id: 31zcw2s68mdt
+name: Droplet Creation
+impact: minor
+systems:
+    - dkbfnt2ghbw4
+timeline:
+    - ts: "2025-08-26 18:30:33"
+      description: |-
+        Our Engineering team is currently investigating an issue with Droplet creation in multiple regions. This is only affecting new accounts at this time. Existing users are not impacted.
+
+        Users with new accounts may experience an elevated failure rate when attempting to create Droplets during this time.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
