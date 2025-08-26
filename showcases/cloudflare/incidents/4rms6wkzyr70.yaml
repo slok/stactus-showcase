@@ -1,12 +1,12 @@
 version: incident/v1
 id: 4rms6wkzyr70
-name: RUM Lite script not injected for some zones
+name: Web Analytics with EU Excluded
 impact: minor
 systems:
     - qt59p3cr1grx
 timeline:
     - ts: "2025-08-26 17:35:00"
-      description: Zones that have enabled RUM Lite excluding visitor data in the EU are not collecting data from any location
+      description: Zones using Web Analytics that are excluding visitor data in the EU are not collecting data from any location
       investigating: true
     - ts: "2025-08-26 17:47:07"
       description: The issue has been identified and a fix is being implemented.
