@@ -1,12 +1,12 @@
 version: incident/v1
 id: 5h0phgv3f96q
-name: SMS Delivery Delays and Failures to T-Mobile in USA via Subset of Shortcodes
+name: SMS/MMS Delivery Delays and Failures to T-Mobile in USA via Toll-Free and Long Codes and Short Codes
 impact: minor
 systems:
     - 39mb8cmw8y2v
 timeline:
     - ts: "2025-08-26 05:56:25"
-      description: We are experiencing SMS delivery delays and failures to T-Mobile in USA via subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      description: We are experiencing SMS/MMS delivery delays and failures to T-Mobile in USA via shortcodes, longcodes and toll-free numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2025-08-26 05:59:59"
       description: We are continuing to investigate this issue.
