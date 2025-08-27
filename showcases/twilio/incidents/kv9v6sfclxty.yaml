@@ -1,0 +1,9 @@
+version: incident/v1
+id: kv9v6sfclxty
+name: On Call Engineers are Investigating an issue with Authy Production Account Voice Numbers getting tagged as spam by Comcast
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-27 14:35:48"
+      description: Our monitoring systems have detected a potential issue with Voice Numbers getting tagged as spam by Comcas using Authy. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
