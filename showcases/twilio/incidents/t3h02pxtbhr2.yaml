@@ -1,6 +1,6 @@
 version: incident/v1
 id: t3h02pxtbhr2
-name: Voice Numbers getting tagged as spam using Twilio Verify
+name: Voice Numbers Getting Tagged as Spam Using Twilio Verify
 impact: minor
 systems:
     - whldrk77jnm4
@@ -14,3 +14,5 @@ timeline:
     - ts: "2025-08-27 18:38:58"
       description: We are still investigating an issue with OTPs delivered through our voice channels in the US and CA where voice numbers are getting tagged as spam. We expect to provide another update in 4 hours or as soon as more information becomes available
       investigating: true
+    - ts: "2025-08-27 22:42:00"
+      description: Our engineers have identified the issue causing Voice Numbers getting tagged as spam using Twilio Verify and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
