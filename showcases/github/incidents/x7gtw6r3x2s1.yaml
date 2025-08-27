@@ -1,9 +1,23 @@
 version: incident/v1
 id: x7gtw6r3x2s1
 name: Disruption with some GitHub services
-impact: minor
-systems: []
+impact: major
+systems:
+    - brv1bkgrwx7q
+    - kr09ddfgbfsf
 timeline:
     - ts: "2025-08-27 20:41:39"
       description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-08-27 20:48:58"
+      description: API Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-08-27 20:50:45"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-08-27 20:55:34"
+      description: The team is aware of the root cause of this issue and is working to mitigate the issue quickly.
+      investigating: true
+    - ts: "2025-08-27 20:58:07"
+      description: API Requests is experiencing degraded performance. We are continuing to investigate.
       investigating: true
