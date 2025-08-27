@@ -5,7 +5,6 @@ impact: major
 systems:
     - brv1bkgrwx7q
     - kr09ddfgbfsf
-    - pjmpxvq2cmr2
 timeline:
     - ts: "2025-08-27 20:41:39"
       description: We are currently investigating this issue.
@@ -25,3 +24,12 @@ timeline:
     - ts: "2025-08-27 21:13:26"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-08-27 21:25:58"
+      description: We've discovered the cause of the service disruption and applied a mitigation.
+      investigating: true
+    - ts: "2025-08-27 21:27:47"
+      description: API Requests and Issues are operating normally.
+      investigating: true
+    - ts: "2025-08-27 21:27:58"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
