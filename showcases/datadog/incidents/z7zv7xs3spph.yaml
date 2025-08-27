@@ -1,0 +1,9 @@
+version: incident/v1
+id: z7zv7xs3spph
+name: Partial metrics drop from Datadog Agent in the westus2 azure region to Datadog us1 datacenter
+impact: minor
+systems:
+    - qrnng5l7z80l
+timeline:
+    - ts: "2025-08-27 17:58:35"
+      description: We noticed partial metrics drop from Datadog Agent in the westus2 azure region to Datadog us1 datacenter. We are actively investigating the case.
