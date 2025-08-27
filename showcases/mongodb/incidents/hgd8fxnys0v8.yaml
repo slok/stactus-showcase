@@ -15,3 +15,6 @@ timeline:
       description: We have stabilized the system and are working through a backlog of MongoDB Atlas Streams metrics for Datadog. We will move to monitoring once we have worked through the entire backlog.
     - ts: "2025-08-26 21:43:11"
       description: We have worked through the entire backlog of MongoDB Atlas Streams metrics for Datadog. We are now monitoring for any additional issues, and are configuring alerting in case we see another delay.
+    - ts: "2025-08-27 00:27:28"
+      description: We have been monitoring the incident since 21:43 UTC, and see no evidence that it will recur. At this point, our metrics delay from MongoDB Atlas Streams to Datadog is within tolerances, and so we are treating this incident as Resolved.
+      resolved: true
