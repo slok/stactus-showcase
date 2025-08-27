@@ -1,9 +1,11 @@
 version: incident/v1
 id: kv6nnnq7zxjd
-name: Capacity Constrained Azure Regions eastus, eastus2, brazilsouth, germanywestcentral
+name: Capacity Constrained Azure regions eastus, eastus2, germanywestcentral and more
 impact: minor
 systems:
     - 98lbmdz85yp0
 timeline:
     - ts: "2025-08-27 22:23:18"
-      description: We are experiencing elevated capacity errors on Azure regions eastus, eastus2, brazilsouth, germanywestcentral.  Azure cluster instance tier modifications and cluster creation may experiencing delays due to this issue.  We are working on a mitigation to help alleviate the situation
+      description: We are experiencing elevated capacity errors on Azure regions eastus, eastus2, germanywestcentral, westus2 and more.  Azure cluster instance tier modifications and cluster creation may experiencing delays due to this issue.  We are working on a mitigation to help alleviate the situation
+    - ts: "2025-08-27 22:59:10"
+      description: We've engaged with the Azure support team to assist with the capacity constrained regions.
