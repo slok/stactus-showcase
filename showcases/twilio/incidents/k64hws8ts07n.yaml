@@ -1,0 +1,9 @@
+version: incident/v1
+id: k64hws8ts07n
+name: Lookup V2 reassigned number service affected
+impact: none
+systems: []
+timeline:
+    - ts: "2025-08-27 17:25:25"
+      description: Twilio Lookup product was degraded for 1 minute between 14:04 and 14:05 Pacific Time on 08/27/2025. During this period of time, Lookup returned 38 HTTP 503 errors in a minute for all reassigned_number requests. The issue has now been resolved.
+      resolved: true
