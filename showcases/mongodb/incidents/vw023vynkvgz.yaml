@@ -8,3 +8,5 @@ systems:
 timeline:
     - ts: "2025-08-28 14:50:54"
       description: "We have identified an issue where Atlas users with either Organization, Project Read Only, or Observability Viewer permissions may be unable to view any cluster metrics pages. Affected users will see a 404 error page. \n\nAs a workaround, Project Owners are still able to view metrics.\n\nThis affects both Atlas and Atlas for Government environments.\n\nCluster health is unaffected."
+    - ts: "2025-08-28 16:47:10"
+      description: A fix has been implemented and we are monitoring the results in Atlas. Atlas for Government is still affected, but assuming the fix is successful, we will roll it out to Atlas for Government shortly.
