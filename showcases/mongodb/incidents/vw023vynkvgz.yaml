@@ -1,0 +1,10 @@
+version: incident/v1
+id: vw023vynkvgz
+name: 'MongoDB Atlas: Cluster metrics page not visible to Read Only users'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+    - q57ng8brt2td
+timeline:
+    - ts: "2025-08-28 14:50:54"
+      description: "We have identified an issue where Atlas users with either Organization, Project Read Only, or Observability Viewer permissions may be unable to view any cluster metrics pages. Affected users will see a 404 error page. \n\nAs a workaround, Project Owners are still able to view metrics.\n\nThis affects both Atlas and Atlas for Government environments.\n\nCluster health is unaffected."
