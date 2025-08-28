@@ -1,0 +1,13 @@
+version: incident/v1
+id: ndkgc39yqsr1
+name: On Call Engineers are Investigating an issue Dropped webhooks to customer systems in ie1 in all products sending webhooks including voice, messaging, debugger and others.
+impact: minor
+systems:
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2025-08-28 13:05:36"
+      description: Our monitoring systems have detected a potential issue  Dropped webhooks to customer systems in ie1 in all products sending webhooks including voice, messaging, debugger and others. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-28 13:09:51"
+      description: We are investigating an issue Dropped webhooks to customer systems in ie1 in all products sending webhooks including voice, messaging, debugger and others. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
