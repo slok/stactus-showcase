@@ -1,0 +1,14 @@
+version: incident/v1
+id: xyn0p43sjdq5
+name: Errors for the Twilio Rest API Impacting Multiple Twilio Services
+impact: minor
+systems:
+    - g2dt752kwqs0
+    - b9z92qjr2p04
+    - d1j2nx64rpq3
+    - yvvy3vlp4djf
+    - b1n7jklp0rv4
+timeline:
+    - ts: "2025-08-28 17:47:01"
+      description: We are experiencing intermittent issues for Messaging, Lookup, Proxy, TaskRouter, and Programmable Voice. We expect to provide another update in 15 mins or as soon as more information becomes available.
+      investigating: true
