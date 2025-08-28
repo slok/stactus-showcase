@@ -11,3 +11,5 @@ timeline:
     - ts: "2025-08-28 19:30:07"
       description: Degraded network capacity in an Azure datacenter is causing network packet loss and increased latency when communicating with AWS in eastern US regions.  Customers may experience communications failures trying to submit data from agents running in AWS and may experience delayed data from AWS integrations.   Microsoft has identified the root cause and is working on mitigations.
       investigating: true
+    - ts: "2025-08-28 20:37:15"
+      description: The root cause of the issue has been identified and Microsoft has implemented mitigations, we are monitoring network traffic to confirm.
