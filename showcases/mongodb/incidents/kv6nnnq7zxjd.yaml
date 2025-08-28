@@ -9,3 +9,8 @@ timeline:
       description: We are experiencing elevated capacity errors on Azure regions eastus, eastus2, germanywestcentral, westus2 and more.  Azure cluster instance tier modifications and cluster creation may experiencing delays due to this issue.  We are working on a mitigation to help alleviate the situation
     - ts: "2025-08-27 22:59:10"
       description: We've engaged with the Azure support team to assist with the capacity constrained regions.
+    - ts: "2025-08-28 02:36:03"
+      description: |-
+        We are still implementing an overall fleet-wide mitigation. In the meantime, we are working with our support team to apply case-by-case mitigations to unblock customers. These interim solutions may restore service but are not permanent fixes and may have some operational constraints.
+
+        The next update will happen at 12pm UTC
