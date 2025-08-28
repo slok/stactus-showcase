@@ -1,6 +1,6 @@
 version: incident/v1
 id: 22c40wgyl34q
-name: Elevated error rate on GETs for R2 in EEUR and WEUR
+name: Elevated error rate on GET-requests for R2 in Eastern Europe (EEUR) and Western Europe (WEUR) regions
 impact: minor
 systems:
     - 57ctn3f2qsyj
@@ -64,7 +64,7 @@ systems:
     - 7f4lcm62x6x2
 timeline:
     - ts: "2025-08-27 17:55:32"
-      description: Customers with R2 buckets in EEUR and WEUR may experience an increase in error rates on GETs. While overall error rates in these regions remain low,  some workloads may be affected disproportionately resulting in higher than expected error rates. We are aware of the issue and are actively investigating. Further detail will be provided as more information becomes available.
+      description: Customers with R2 buckets in Eastern Europe (EEUR) and Western Europe (WEUR) may experience an increase in error rates on GET requests. While overall error rates in these regions remain low,  some workloads may be affected disproportionately resulting in higher than expected error rates. We are aware of the issue and are actively investigating. Further detail will be provided as more information becomes available.
       investigating: true
     - ts: "2025-08-28 08:31:17"
       description: We are continuing to investigate this issue.
