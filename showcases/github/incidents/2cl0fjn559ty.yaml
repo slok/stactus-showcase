@@ -14,5 +14,5 @@ timeline:
       description: We have verified that we fixed the sign up flow and are working to ensure we don't introduce an issue like this in the future.
       investigating: true
     - ts: "2025-08-20 16:37:16"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between 15:49 and 16:37 UTC on 20 Aug 2025, creating a new GitHub account via the web signup page consistently returned server errors, and users were unable to complete signup during this 48-minute window. We detected the issue at 16:04 UTC and restored normal signup functionality by 16:37 UTC. A recent change to signup flow logic caused all attempts to error. The change was rolled back to restore service. This exposed a gap in our test coverage that we are fixing.
       resolved: true
