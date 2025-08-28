@@ -1,0 +1,10 @@
+version: incident/v1
+id: 64q4z907f0lt
+name: Errors loading logs in Fly-Metrics.net
+impact: minor
+systems:
+    - 6sckg8qmrnzz
+timeline:
+    - ts: "2025-08-28 15:11:52"
+      description: "We are investigating issues loading the searchable app logs in the fly-metrics.net Grafana dashboard. \n\nUsers may see a 500 error loading logs for some apps. Viewing logs in your app's Fly Dashboard page or via the `flyctl logs` command is working as normal."
+      investigating: true
