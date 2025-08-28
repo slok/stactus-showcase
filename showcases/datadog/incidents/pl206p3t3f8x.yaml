@@ -1,0 +1,13 @@
+version: incident/v1
+id: pl206p3t3f8x
+name: Periodic network interruption communicating with multiple Azure regions
+impact: minor
+systems:
+    - p4hwj4wsc5wf
+    - 1w2mz2hzw0cz
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2025-08-28 19:30:07"
+      description: Degraded network capacity in an Azure datacenter is causing network packet loss and increased latency when communicating with AWS in eastern US regions.  Customers may experience communications failures trying to submit data from agents running in AWS and may experience delayed data from AWS integrations.   Microsoft has identified the root cause and is working on mitigations.
+      investigating: true
