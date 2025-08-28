@@ -1,0 +1,14 @@
+version: incident/v1
+id: l23683fmn145
+name: US 10DLC A2P Traffic Failures
+impact: minor
+systems:
+    - pv5w18vrltfl
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2025-08-28 23:02:22"
+      description: Our monitoring systems have detected a potential issue with a very small subset of US 10DLC A2P traffic failures. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-28 23:03:17"
+      description: We are continuing to investigate this issue.
+      investigating: true
