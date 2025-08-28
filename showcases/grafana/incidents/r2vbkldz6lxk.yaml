@@ -1,0 +1,14 @@
+version: incident/v1
+id: r2vbkldz6lxk
+name: Synthetic Check failures with North Virginia probe
+impact: minor
+systems:
+    - 72cbdqh1qfxk
+    - wlk38l1st21f
+timeline:
+    - ts: "2025-08-28 17:53:32"
+      description: We're aware of Synthetic checks using the North Virginia probe and are currently investigating the issue.
+      investigating: true
+    - ts: "2025-08-28 17:53:57"
+      description: We are continuing to investigate this issue.
+      investigating: true
