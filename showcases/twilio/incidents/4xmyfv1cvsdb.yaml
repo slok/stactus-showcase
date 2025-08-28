@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4xmyfv1cvsdb
+name: SMS Delivery Failures on Vodafone Romania
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-08-28 08:53:41"
+      description: We are experiencing SMS delivery failures sending to messages to Vodafone Romania. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
