@@ -4,10 +4,13 @@ name: Errors for the Twilio Rest API Impacting Multiple Twilio Services
 impact: minor
 systems:
     - g2dt752kwqs0
+    - 7c6yv3vctfqv
+    - q4d7rj555ljl
     - b9z92qjr2p04
     - whldrk77jnm4
     - vd76z27sk12v
     - xk8z50jy8hcs
+    - frxynt0ffp5w
     - d1j2nx64rpq3
     - yvvy3vlp4djf
     - b1n7jklp0rv4
@@ -18,6 +21,12 @@ timeline:
     - ts: "2025-08-28 18:03:52"
       description: We are observing recovery with the Twilio Rest API issue impacting multiple Twilio services. Impact was observed between 10:10 am PT and ended at 10:20 PT approx. We will be monitoring all services to ensure a full recovery and provide another update in 30 minutes or as soon as more information becomes available.
     - ts: "2025-08-28 18:07:56"
-      description: 'We experienced issues impacting the Twilio Rest API in the following services: Flex Taskrouter, Lookup, Flex Proxy, Programmable Messaging, Programmable Video, Programmable Voice, and Verify between approximately 10:10 AM MT - 10:20 AM PT. We are continuing to monitor to ensure this issue does not reoccur.  We will be monitoring all services to ensure a full recovery and provide another update in 30 minutes or as soon as more information becomes available.'
+      description: 'We experienced issues impacting the Twilio Rest API in the following services: Flex Taskrouter, Lookup, Flex Proxy, Programmable Messaging, Programmable Video, Programmable Voice, and Verify between approximately 10:10 AM PT - 10:20 AM PT. We are continuing to monitor to ensure this issue does not reoccur.  We will be monitoring all services to ensure a full recovery and provide another update in 30 minutes or as soon as more information becomes available.'
     - ts: "2025-08-28 18:09:37"
-      description: 'We experienced issues impacting the Twilio Rest API in the following services: Flex Taskrouter, Lookup, Flex Proxy, Programmable Messaging, Programmable Video, Programmable Voice, and Verify between approximately 10:10 AM MT - 10:20 AM PT. We are continuing to monitor to ensure this issue does not reoccur.  We will be monitoring all services to ensure a full recovery and provide another update in 30 minutes or as soon as more information becomes available.'
+      description: 'We experienced issues impacting the Twilio Rest API in the following services: Flex Taskrouter, Lookup, Flex Proxy, Programmable Messaging, Programmable Video, Programmable Voice, and Verify between approximately 10:10 AM PT - 10:20 AM PT. We are continuing to monitor to ensure this issue does not reoccur.  We will be monitoring all services to ensure a full recovery and provide another update in 30 minutes or as soon as more information becomes available.'
+    - ts: "2025-08-28 18:27:54"
+      description: 'We experienced issues impacting the Twilio Rest API in the following services: Flex Taskrouter, Lookup, Flex Proxy, Programmable Messaging, Programmable Video, Programmable Voice, Verify, and Studio between approximately 10:10 AM PT - 10:20 AM PT. We are continuing to monitor to ensure this issue does not reoccur.  We will be monitoring all services to ensure a full recovery and provide another update in 30 minutes or as soon as more information becomes available.'
+    - ts: "2025-08-28 18:30:50"
+      description: 'We experienced issues impacting the Twilio Rest API in the following services: Flex Taskrouter, Flex Application Platform, Lookup, Flex Proxy, Programmable Messaging, Programmable Video, Programmable Voice, Verify, Studio between approximately 10:10 AM PT - 10:20 AM PT. We are continuing to monitor to ensure this issue does not reoccur.  We will be monitoring all services to ensure a full recovery and provide another update in 30 minutes or as soon as more information becomes available.'
+    - ts: "2025-08-28 18:37:40"
+      description: 'We experienced issues impacting the Twilio Rest API in the following services: Flex Taskrouter, Flex Application Platform, Lookup, Flex Proxy, Programmable Messaging (SMS Only), Programmable Video, Programmable Voice, Verify, Studio between approximately 10:10 AM PT - 10:20 AM PT. We are continuing to monitor to ensure this issue does not reoccur.  We will be monitoring all services to ensure a full recovery and provide another update in 30 minutes or as soon as more information becomes available.'
