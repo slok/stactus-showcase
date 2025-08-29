@@ -1,0 +1,10 @@
+version: incident/v1
+id: th05bgrc8l6y
+name: SMS Delivery Delays and Failures to Celcom in Guinea
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-08-29 11:47:12"
+      description: We are experiencing SMS delivery delays and failures when sending messages to Celcom in Guinea. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 or as soon as more information becomes available.
+      investigating: true
