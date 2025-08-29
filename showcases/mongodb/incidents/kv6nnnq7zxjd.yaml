@@ -20,3 +20,6 @@ timeline:
       description: We've implemented a code mitigation and are testing the change before deploying to production
     - ts: "2025-08-29 16:31:40"
       description: We have deployed the mitigation for M30+ instance sizes, however M10 and M20 may still experience capacity constraints.  We recommend customers upgrade to M30+ if they are continuing to experience issues.
+    - ts: "2025-08-29 19:43:54"
+      description: This incident has been resolved.
+      resolved: true
