@@ -69,3 +69,5 @@ timeline:
     - ts: "2025-08-28 08:31:17"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-08-29 01:31:03"
+      description: We have identified and remediated an issue in our API service and underlying object storage in the AMS region. Impact on customer read workloads should be fully mitigated at this point, and we're monitoring to ensure no regressions.
