@@ -1,0 +1,14 @@
+version: incident/v1
+id: 2gdnm0bpghv0
+name: Block Storage Volumes and Kubernetes Clusters in NYC1 Region
+impact: none
+systems:
+    - jzv4wms5qc33
+    - p4l05gv4bg18
+timeline:
+    - ts: "2025-08-29 15:45:57"
+      description: |-
+        From 14:24 to 14:41 UTC, our Engineering team identified issues affecting Block Storage Volumes in the NYC1 region. During this time, users may have experienced difficulties processing requests on Volumes. It was observed that this might have impacted Kubernetes clusters in the NYC1 region as well. Our team has fully resolved the issues, and as of 14:42 UTC, all services are operating normally.
+
+        We apologize for the inconvenience. If you are still experiencing any problems or have additional questions, then please open a support ticket within your account
+      resolved: true
