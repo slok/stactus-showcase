@@ -18,3 +18,5 @@ timeline:
       description: We've seen capacity improve in germanywestcentral and have applied mitigations for eastus2.  We're still actively working on the a fleet-wide mitigation and expect to deploy today
     - ts: "2025-08-28 19:48:20"
       description: We've implemented a code mitigation and are testing the change before deploying to production
+    - ts: "2025-08-29 16:31:40"
+      description: We have deployed the mitigation for M30+ instance sizes, however M10 and M20 may still experience capacity constraints.  We recommend customers upgrade to M30+ if they are continuing to experience issues.
