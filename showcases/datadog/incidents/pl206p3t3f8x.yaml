@@ -13,3 +13,10 @@ timeline:
       investigating: true
     - ts: "2025-08-28 20:37:15"
       description: The root cause of the issue has been identified and Microsoft has implemented mitigations, we are monitoring network traffic to confirm.
+    - ts: "2025-08-29 20:47:45"
+      description: |-
+        Azure has temporarily mitigated the network capacity issues which have caused episodic packet loss for customers who are hosted in Azure data centers and are using Datadog’s US1 region (accessible via https://app.datadoghq.com). Azure engineers are continuing to work to fully resolve this issue.
+
+        Until they fully resolve the issue, customers with Datadog agents running in Azure data centers may see brief periods of delayed ingestion of data from agents and from Azure integrations. We don’t expect a noticeable impact thanks to agent buffering but cannot exclude the possibility of spurious alerts due to temporarily delayed data.
+
+        We are continuing to monitor the situation in conjunction with Azure, and will do so throughout the weekend. We will post status page updates as soon as the situation improves, and at least every 24 hours. We thank you for your patience throughout this incident.
