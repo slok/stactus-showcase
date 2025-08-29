@@ -1,0 +1,15 @@
+version: incident/v1
+id: l6xqt5mzwrm1
+name: Atlas for Government Partial Outage
+impact: major
+systems:
+    - q57ng8brt2td
+timeline:
+    - ts: "2025-08-29 00:13:06"
+      description: |-
+        The Atlas for Government control plane (cloud.mongodbgov.com) is currently inaccessible. We are currently investigating
+
+        Commercial Atlas is unaffected.
+
+        Cluster access and performance in gov is unaffected.
+      investigating: true
