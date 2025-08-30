@@ -20,3 +20,5 @@ timeline:
         Until they fully resolve the issue, customers with Datadog agents running in Azure data centers may see brief periods of delayed ingestion of data from agents and from Azure integrations. We don’t expect a noticeable impact thanks to agent buffering but cannot exclude the possibility of spurious alerts due to temporarily delayed data.
 
         We are continuing to monitor the situation in conjunction with Azure, and will do so throughout the weekend. We will post status page updates as soon as the situation improves, and at least every 24 hours. We thank you for your patience throughout this incident.
+    - ts: "2025-08-30 03:12:07"
+      description: Azure has implemented a permanent fix to the network issue. Both Azure and Datadog engineers are continuing to monitor overnight and will provide an update tomorrow.
