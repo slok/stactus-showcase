@@ -1,0 +1,10 @@
+version: incident/v1
+id: kvj1cmy096py
+name: SMS Delivery Report Delays When Sending to IDC/Unite in Moldova
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-08-30 06:52:29"
+      description: We are experiencing delays in receiving message delivery reports when sending to IDC/Unite in Moldova. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
