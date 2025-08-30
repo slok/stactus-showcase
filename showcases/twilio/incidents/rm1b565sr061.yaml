@@ -1,9 +1,23 @@
 version: incident/v1
 id: rm1b565sr061
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Errors for the Twilio Rest API Impacting Multiple Twilio Services
+impact: minor
+systems:
+    - ys1jhy2ys04z
+    - b9z92qjr2p04
+    - q015c7mrst1s
+    - vd76z27sk12v
+    - 0xfc03jgk5g4
+    - jncbcddlmbhn
+    - by1b8ylwwgs6
+    - 45nc391hhv9v
+    - yvvy3vlp4djf
+    - 54ft7xt1tqmm
+    - b1n7jklp0rv4
 timeline:
     - ts: "2025-08-30 07:54:39"
       description: Our monitoring systems have detected a potential issue for Messaging, Proxy, TaskRouter, and Programmable Video. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-08-30 08:11:00"
+      description: We are investigating issues impacting the Programmable Messaging API, TaskRouter, Proxy and Programmable Video starting at approximately 5:16 AM UTC. During this period, about 0.1% of Programmable Messaging API requests (~2,500 requests) returned 5xx errors. TaskRouter is seeing approximately 80 errors (503) from Proxy and Video is reporting 106 requests with status 503. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
