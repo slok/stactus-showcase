@@ -22,3 +22,6 @@ timeline:
         We are continuing to monitor the situation in conjunction with Azure, and will do so throughout the weekend. We will post status page updates as soon as the situation improves, and at least every 24 hours. We thank you for your patience throughout this incident.
     - ts: "2025-08-30 03:12:07"
       description: Azure has implemented a permanent fix to the network issue. Both Azure and Datadog engineers are continuing to monitor overnight and will provide an update tomorrow.
+    - ts: "2025-08-30 18:58:52"
+      description: Our monitoring has shown Azure’s fix to be stable since our last update. This incident has been resolved.
+      resolved: true
