@@ -1,0 +1,9 @@
+version: incident/v1
+id: bgpt3y9y04kn
+name: Zero Trust Analytics & Reporting Delayed Gateway Analytics Data
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2025-08-30 20:04:10"
+      description: All gateway analytics data are retained but not yet ingested due to high ART DB disk usage, user can access the raw data through gateway logs as workaround.
