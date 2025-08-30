@@ -24,3 +24,5 @@ timeline:
     - ts: "2025-08-30 09:02:01"
       description: We continue to investigate issues impacting the Programmable Messaging API, TaskRouter, Proxy and Programmable Video starting at approximately 5:16 AM UTC. During this period, about 0.1% of Programmable Messaging API requests (~2,500 requests) returned 5xx errors. TaskRouter is seeing approximately 80 errors (503) from Proxy and Video is reporting 106 requests with status 503. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-08-30 11:06:32"
+      description: We are observing recovery with the Twilio Rest API issue impacting multiple Twilio services starting at approximately 5:16 AM UTC. Our engineering team has identified the problem, implemented a fix, and we are now seeing services recover. We will continue monitoring all services to ensure full recovery and will provide another update in 30 minutes or as soon as more information becomes available.
