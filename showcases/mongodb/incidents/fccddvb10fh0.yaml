@@ -1,0 +1,9 @@
+version: incident/v1
+id: fccddvb10fh0
+name: Excessive Project Maintenance Notifications in some Atlas projects
+impact: none
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-08-31 00:55:32"
+      description: "Some MongoDB Atlas Customers have received duplicate maintenance notifications in projects with Maintenance Windows[0] configured. \n\nWe have implemented a mitigation and are monitoring results.\n\n[0] https://www.mongodb.com/docs/atlas/tutorial/cluster-maintenance-window/"
