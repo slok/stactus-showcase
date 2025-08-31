@@ -1,0 +1,9 @@
+version: incident/v1
+id: w05g8l42q6g9
+name: Delayed Adaptive Metrics aggregations
+impact: none
+systems:
+    - jzfcstdl2fl6
+timeline:
+    - ts: "2025-08-31 23:36:31"
+      description: As of 19:00 UTC, we identified an issue causing delayed results from Adaptive Metrics for some customers. We've applied initial mitigations and are now monitoring.
