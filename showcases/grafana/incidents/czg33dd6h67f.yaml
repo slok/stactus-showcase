@@ -8,3 +8,56 @@ timeline:
     - ts: "2025-09-01 11:26:40"
       description: Investigating an issue with Grafana Cloud Integrations that may be impacting some customers in all regions.
       investigating: true
+    - ts: "2025-09-01 11:49:06"
+      description: |-
+        We're all still working on the issue with Grafana Cloud Integrations. Affected integrations are listed below:
+
+        aerospike
+        apache-activemq
+        apache-airflow
+        apache-cassandra
+        apache-couchdb
+        apache-hadoop
+        apache-hbase
+        apache-http
+        apache-mesos
+        apache-solr
+        apache-tomcat
+        clickhouse
+        consul
+        coredns
+        couchbase
+        discourse
+        envoy
+        f5-bigip
+        gcp
+        gitea
+        gitlab
+        grafana-agent
+        hass
+        hcp-consul
+        ibm-db2
+        ibm-mq
+        influxdb
+        loki
+        memcached
+        microsoft-iis
+        mimir
+        minio
+        mongodb-atlas
+        mssql
+        nsq
+        oracledb
+        presto
+        rclone
+        redis-enterprise
+        sap-hana
+        snowflake
+        squid
+        tensorflow
+        ubiquiti-edgerouter
+        varnish-cache
+        wildfly
+      investigating: true
+    - ts: "2025-09-01 12:08:40"
+      description: The issue has been identified and a fix is being implemented.
