@@ -1,0 +1,9 @@
+version: incident/v1
+id: 2s6nvmgjzl3x
+name: Analytics Delays
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2025-09-01 18:38:16"
+      description: We have identified and are working on a fix for an issue where Cloudflare Analytics processing is running behind. This affects timely delivery of customer data. These delays do not impact the underlying services.
