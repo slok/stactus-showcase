@@ -1,0 +1,9 @@
+version: incident/v1
+id: f21br41tvl1l
+name: Elevated Packet Loss
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-01 14:51:58"
+      description: "Due to issues with an upstream internet backbone provider, we saw elevated rates of packet loss across our network between  14:15 - 14:35 UTC. \nThis has been resolved and networking is working as expected."
+      resolved: true
