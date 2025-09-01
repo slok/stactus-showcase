@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5qwx02gd4ly5
+name: Network issues in ARN
+impact: minor
+systems:
+    - gpwm5n91bxsk
+timeline:
+    - ts: "2025-09-01 11:33:03"
+      description: We are working with our upstream providers to establish an alternate network path.
+      investigating: true
+    - ts: "2025-09-01 11:33:23"
+      description: We are working with our upstream providers to establish an alternate network path.
