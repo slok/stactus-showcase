@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3wy36rwyhwvn
+name: Twilio Proxy API affected with elevated HTTP 500 errors
+impact: none
+systems:
+    - 54ft7xt1tqmm
+timeline:
+    - ts: "2025-09-02 00:51:13"
+      description: Twilio Proxy API was degraded for 15 minutes between 17:17 and 17:32 Pacific Time on 09/01/2025. During this period of time, customers may have experienced elevated HTTP 500 errors including Flex. The issue has now been resolved.
+      resolved: true
