@@ -1,0 +1,12 @@
+version: incident/v1
+id: 9bw983b9pjhg
+name: Test runs in Grafana Cloud k6 are missing metrics/time-series
+impact: critical
+systems:
+    - z9074fpyx6sb
+timeline:
+    - ts: "2025-09-02 12:06:41"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-09-02 12:10:30"
+      description: The issue was introduced with the latest production release. Rollback is in progress.
