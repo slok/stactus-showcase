@@ -1,0 +1,11 @@
+version: incident/v1
+id: c17g8w0992zt
+name: Elevated CDN 502 Errors in LAX
+impact: minor
+systems:
+    - 38w4zp21dlkc
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2025-09-02 17:26:03"
+      description: CDN service experiencing elevated 502 errors in LAX.
+      investigating: true
