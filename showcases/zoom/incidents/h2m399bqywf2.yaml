@@ -1,0 +1,11 @@
+version: incident/v1
+id: h2m399bqywf2
+name: Issue with Zoom AI services in Singapore region.
+impact: minor
+systems:
+    - 07fc2bfpjgct
+timeline:
+    - ts: "2025-09-02 07:58:52"
+      description: Our monitoring detected service degradation with Zoom AI services in Singapore. We have resolved the issue and currently monitoring it closely. Zoom will provide updates as soon as there is more information to share.
+    - ts: "2025-09-02 08:02:33"
+      description: Our monitoring detected service degradation with Zoom AI services in Singapore. We have resolved the issue and are currently monitoring it closely. Zoom will provide updates as soon as we have more information to share.
