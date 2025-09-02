@@ -1,0 +1,13 @@
+version: incident/v1
+id: sqkq73kr2qq3
+name: Expired certificate issues impacting SSO logins
+impact: none
+systems:
+    - dpdsycjtknlz
+    - qbxg9tr9gslw
+    - 6bq7bm3f198x
+    - 21mphp99021l
+timeline:
+    - ts: "2025-09-02 04:39:40"
+      description: IS&T has identified an issue with Touchstone authentication impacting Global Protect, Atlas, Alumni as well as other services.
+      investigating: true
