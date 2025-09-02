@@ -10,3 +10,5 @@ timeline:
       investigating: true
     - ts: "2025-09-02 12:10:30"
       description: The issue was introduced with the latest production release. Rollback is in progress.
+    - ts: "2025-09-02 12:31:57"
+      description: We rolled back the release. New tests should start seeing metrics in the test run dashboard.
