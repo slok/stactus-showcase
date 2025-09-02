@@ -1,0 +1,10 @@
+version: incident/v1
+id: jf175bkrwgf4
+name: Missing Error Code in Callback for Certain RCS Messages
+impact: minor
+systems:
+    - t32hnkr2q793
+timeline:
+    - ts: "2025-09-02 09:39:56"
+      description: We are investigating an issue where a small percentage of error codes are not being passed to customer's RCS callback URLs. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
