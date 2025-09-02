@@ -1,0 +1,12 @@
+version: incident/v1
+id: 0mpr69w0zh2b
+name: Delayed RUM data
+impact: minor
+systems:
+    - wb6d6tss5zph
+timeline:
+    - ts: "2025-09-02 14:13:08"
+      description: |-
+        We are investigating increased latency processing RUM data.
+        As a result of this issue, some users may see gaps or delays in RUM graphs as well as empty or partial query results on RUM Sessions, RUM Analytics, RUM Application, and Error Tracking pages.
+      investigating: true
