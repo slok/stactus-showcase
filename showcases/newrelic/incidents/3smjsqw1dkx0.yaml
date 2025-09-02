@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3smjsqw1dkx0
+name: Metrics Delay for Some GCP and AWS EU Accounts
+impact: none
+systems:
+    - vdkznxzlr7nn
+timeline:
+    - ts: "2025-09-02 13:15:44"
+      description: Between 10:27 UTC and 13:12 UTC on August 2nd, some customers in the EU region may have experienced delayed in data related to Metrics and Tags. We have investigated and resolved this service interruption and impacted services have returned to normal operations.
+      resolved: true
