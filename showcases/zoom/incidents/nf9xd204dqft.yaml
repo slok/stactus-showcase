@@ -1,0 +1,10 @@
+version: incident/v1
+id: nf9xd204dqft
+name: A subset of users experiencing SMS delivery issues with Zoom Phone in US.
+impact: minor
+systems:
+    - 5vvw5njz8qg5
+timeline:
+    - ts: "2025-09-03 12:20:57"
+      description: We have detected service degradation where a subset of users would be experiencing SMS delivery issues with Zoom Phone in US. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
