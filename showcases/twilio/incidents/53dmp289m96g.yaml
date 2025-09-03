@@ -3,11 +3,14 @@ id: 53dmp289m96g
 name: SMS Delivery Delays and Failures To and From AT&T Network in Mexico
 impact: minor
 systems:
-    - 7d8w22hqrh6s
+    - 42zx9w2kmtvf
 timeline:
     - ts: "2025-09-03 21:49:22"
       description: Our monitoring systems have detected a potential issue with SMS delivery delays to and from AT&T Network in New Mexico. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2025-09-03 22:06:34"
       description: We are experiencing SMS delivery delays and failures when sending messages to AT&T Network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-09-03 22:53:14"
+      description: We are still experiencing SMS delivery delays and failures when sending messages to AT&T Network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
