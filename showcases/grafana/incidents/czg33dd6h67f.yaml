@@ -1,7 +1,7 @@
 version: incident/v1
 id: czg33dd6h67f
 name: Grafana Cloud Integrations empty dashboard panels
-impact: major
+impact: none
 systems:
     - z5ysrlvblv9t
 timeline:
@@ -73,3 +73,6 @@ timeline:
         The rollout is still in progress.
 
         We're monitoring for any recurrence of the issue and will share updates as the rollout progresses.
+    - ts: "2025-09-03 18:51:44"
+      description: This incident has been resolved.
+      resolved: true
