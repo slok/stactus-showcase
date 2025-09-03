@@ -1,6 +1,6 @@
 version: incident/v1
 id: 8w5f941f5007
-name: SMS Delivery Delays to Pinger in the USA for a  Subset of Short Codes
+name: SMS Delivery Delays to Small Carriers in the United States From a Subset of Short Codes
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -13,4 +13,7 @@ timeline:
       investigating: true
     - ts: "2025-09-02 22:30:04"
       description: We are continuing to experience SMS delivery delays when sending messages to Pinger in the USA for a  subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-09-03 00:04:19"
+      description: We are continuing to experience SMS delivery delays when sending messages to small carriers in the United States for a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available
       investigating: true
