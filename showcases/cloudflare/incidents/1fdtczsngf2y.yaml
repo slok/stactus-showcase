@@ -1,0 +1,14 @@
+version: incident/v1
+id: 1fdtczsngf2y
+name: Increased HTTP 522 Errors in MAA
+impact: minor
+systems:
+    - d9znrq17k6ny
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-09-03 06:45:04"
+      description: |-
+        Cloudflare is investigating an increased level of HTTP 522 errors in Chennai, India.
+
+        We are working to analyse and mitigate this problem.  More updates to follow shortly.
+      investigating: true
