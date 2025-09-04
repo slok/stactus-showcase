@@ -1,0 +1,14 @@
+version: incident/v1
+id: 1kfb8q8vt4j0
+name: Network Connectivity Issues in Korea
+impact: minor
+systems:
+    - v4s7np92f0dh
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-09-04 05:19:11"
+      description: |-
+        Cloudflare is investigating network connectivity issues reported in Korea.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
