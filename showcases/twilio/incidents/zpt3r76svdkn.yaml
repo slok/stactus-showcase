@@ -1,0 +1,13 @@
+version: incident/v1
+id: zpt3r76svdkn
+name: SMS Delivery Delays from Long Codes to Bouygues Telecom in France
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-09-04 20:53:12"
+      description: Our monitoring systems have detected a potential issue with SMS delivery delays from long codes to Bouygues Telecom in France. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-09-04 20:58:28"
+      description: We are experiencing SMS delivery delays from long codes to Bouygues Telecom in France. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
