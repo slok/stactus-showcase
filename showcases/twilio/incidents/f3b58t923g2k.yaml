@@ -1,9 +1,12 @@
 version: incident/v1
 id: f3b58t923g2k
-name: On Call Engineers are Investigating an issue
+name: 'Automated Alert: No Customer Impact'
 impact: none
 systems: []
 timeline:
     - ts: "2025-09-04 07:11:01"
       description: Our monitoring systems have detected a potential issue with SMS Delivery Report Delays to Google Voice in United States of America. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-09-04 07:26:37"
+      description: We have fully investigated the SMS delivery report delays to Google Voice in United States of America issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
