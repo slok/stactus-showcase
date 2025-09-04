@@ -14,3 +14,5 @@ timeline:
         Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed.
     - ts: "2025-09-04 17:24:00"
       description: We have identified and implemented a fix for this issue and are currently monitoring the results.
+    - ts: "2025-09-04 18:06:20"
+      description: We have identified another minor source of residual latency related to this issue and are working toward a fix for this as well.

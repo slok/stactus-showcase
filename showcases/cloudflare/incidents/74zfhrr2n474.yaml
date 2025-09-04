@@ -1,0 +1,13 @@
+version: incident/v1
+id: 74zfhrr2n474
+name: Increased CDN Latency
+impact: minor
+systems:
+    - t6hj728hzf16
+    - bnjvsmmllkb9
+    - 9b9tyrd9x3xr
+    - h6pmxs6zl5gc
+    - cl9hc9q83k9n
+timeline:
+    - ts: "2025-09-04 17:55:08"
+      description: We have identified and applied a fix for an issue resulting in increased request latency for our MCI (Kansas City, US), SKG (Thessaloniki, GR), LIM (Lima, PE), LYS (Lyon, FR) and PDX (Portland, US) facilities. We are currently monitoring the results.
