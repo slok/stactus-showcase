@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5xp1511w4nbm
+name: Increased 500 Errors on R2
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2025-09-04 10:14:10"
+      description: Cloudflare is aware of, and investigating an increase of R2 500 errors which potentially impacts multiple customers. Further detail will be provided as more information becomes available.
+      investigating: true
