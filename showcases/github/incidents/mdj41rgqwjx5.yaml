@@ -17,3 +17,6 @@ timeline:
     - ts: "2025-09-04 18:57:07"
       description: We have identified a deployed change that correlates with the increase in 5XX errors to the GitRefs REST API. This is particularly affecting requests for repos with very large numbers of commits. We are working on rolling back this change which we expect will resolve the issue.
       investigating: true
+    - ts: "2025-09-04 19:28:02"
+      description: We are in the process of deploying the PR to revert the change that was causing timeouts to this endpoint. We will update again once that deployment is complete.
+      investigating: true
