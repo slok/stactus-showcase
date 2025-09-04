@@ -1,0 +1,11 @@
+version: incident/v1
+id: 62vtp54pqxgj
+name: Urgent maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-04 13:50:56"
+      description: 'Urgent maintenance applies to all of the resources with the following pattern in their endpoint: c255'
+    - ts: "2025-09-04 13:54:11"
+      description: This incident has been resolved.
+      resolved: true
