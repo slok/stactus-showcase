@@ -1,0 +1,9 @@
+version: incident/v1
+id: y8ww7qs8t3z0
+name: Elevated Azure Capacity Errors
+impact: none
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-09-04 17:36:11"
+      description: We have identified escalating Azure capacity issues in the following regions eastus and germanywestcentral for M30+. We are taking remediation actions on these instance sizes.  For M10 and M20s we recommend upgrading to another instance tier or moving it to a different region.
