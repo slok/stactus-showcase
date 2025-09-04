@@ -1,0 +1,9 @@
+version: incident/v1
+id: 0p7107f05f4f
+name: Elevated Latency on R2
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2025-09-04 23:47:45"
+      description: Cloudflare has identified a recurrence of elevated latency and timeouts on R2. We are currently working on an additional fix for this issue.
