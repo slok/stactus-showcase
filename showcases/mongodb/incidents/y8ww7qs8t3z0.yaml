@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2025-09-04 17:36:11"
       description: We have identified escalating Azure capacity issues in the following regions eastus and germanywestcentral for M30+. We are taking remediation actions on these instance sizes.  For M10 and M20s we recommend upgrading to another instance tier or moving it to a different region.
+    - ts: "2025-09-04 20:42:59"
+      description: This incident has been resolved.
+      resolved: true
