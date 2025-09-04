@@ -1,0 +1,11 @@
+version: incident/v1
+id: mv3dqryqkqm8
+name: SMS Delivery Delays to Multiple Small Networks in the United States
+impact: none
+systems:
+    - 7d8w22hqrh6s
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2025-09-04 21:15:40"
+      description: Our monitoring systems have detected a potential issue SMS delivery delays to multiple small networks in the United States. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
