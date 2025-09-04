@@ -2,11 +2,18 @@ version: incident/v1
 id: mdj41rgqwjx5
 name: Degraded REST API success rates for some customers
 impact: minor
-systems: []
+systems:
+    - brv1bkgrwx7q
 timeline:
     - ts: "2025-09-04 18:16:52"
       description: We are currently investigating this issue.
       investigating: true
     - ts: "2025-09-04 18:18:22"
       description: Customers are experiencing 504 responses for some API requests for regarding repo refs/tags. We are investigating.
+      investigating: true
+    - ts: "2025-09-04 18:52:43"
+      description: API Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-09-04 18:57:07"
+      description: We have identified a deployed change that correlates with the increase in 5XX errors to the GitRefs REST API. This is particularly affecting requests for repos with very large numbers of commits. We are working on rolling back this change which we expect will resolve the issue.
       investigating: true
