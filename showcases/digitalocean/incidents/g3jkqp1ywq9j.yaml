@@ -1,0 +1,12 @@
+version: incident/v1
+id: g3jkqp1ywq9j
+name: Droplet Creation
+impact: none
+systems:
+    - dkbfnt2ghbw4
+timeline:
+    - ts: "2025-09-05 19:42:24"
+      description: |-
+        From 18:53 to 19:15 UTC, our Engineering team identified an issue with the public Droplet API, resulting in difficulties in creating, accessing and listing Droplets via the Cloud Control Panel or API. Autoscaler and LBaaS APIs were also affected. Our team has fully resolved the issues, and as of 19:15 UTC, all services are operating normally.
+        We apologize for the inconvenience. If you are still experiencing any problems or have additional questions, then please open a support ticket within your account
+      resolved: true
