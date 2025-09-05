@@ -1,0 +1,14 @@
+version: incident/v1
+id: kz4zdmkv3dgn
+name: Increased HTTP 5xx Errors in Kunming, China
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+    - 7tmwsbb86w0p
+timeline:
+    - ts: "2025-09-05 00:15:37"
+      description: |-
+        Cloudflare is investigating an increased level of HTTP 5xx errors in Kunming, China (KMG).
+
+        We are working to analyse and mitigate this problem.  More updates to follow shortly.
+      investigating: true
