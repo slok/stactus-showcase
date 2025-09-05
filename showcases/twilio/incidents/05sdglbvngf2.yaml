@@ -1,0 +1,9 @@
+version: incident/v1
+id: 05sdglbvngf2
+name: Dormancy Emails Not Being Received By Some Users
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-05 17:21:44"
+      description: For a few dormancy restrictions such as token rotation & suspension, non-owners did not receive an email over the last 8 months. The issue has now been resolved.
+      resolved: true

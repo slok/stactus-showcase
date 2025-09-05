@@ -1,0 +1,10 @@
+version: incident/v1
+id: mz8gy18fqk5h
+name: Inbound Call Failures To A Subset Of Twilio Phone Numbers In Australia
+impact: minor
+systems:
+    - 50pr269zqrwj
+timeline:
+    - ts: "2025-09-05 17:12:42"
+      description: We are observing call failures to a subset of Twilio Phone Numbers in Australia. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
