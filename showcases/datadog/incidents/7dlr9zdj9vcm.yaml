@@ -1,0 +1,12 @@
+version: incident/v1
+id: 7dlr9zdj9vcm
+name: Delayed Monitors Notifications
+impact: minor
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2025-09-05 16:11:53"
+      description: We are investigating delays in Monitors Notifications for distribution metrics, which began at 3PM UTC.
+      investigating: true
+    - ts: "2025-09-05 16:15:02"
+      description: The issue has been identified and a fix is being implemented.
