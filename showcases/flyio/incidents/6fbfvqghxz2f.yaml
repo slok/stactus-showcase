@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6fbfvqghxz2f
+name: Network issues in BOM
+impact: minor
+systems:
+    - k6fbt4mk0xv1
+timeline:
+    - ts: "2025-09-06 03:20:51"
+      description: We are investigating network issues in BOM region. Apps may experience higher latency or packet loss.
+      investigating: true
