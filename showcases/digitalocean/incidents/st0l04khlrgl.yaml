@@ -4,6 +4,7 @@ name: Networking in BLR1 and SGP1 Region
 impact: minor
 systems:
     - lmgn764lq04q
+    - 4yq3sg5wrzx2
 timeline:
     - ts: "2025-09-06 16:13:58"
       description: |-
@@ -18,3 +19,5 @@ timeline:
         Our Engineering team has implemented changes to optimize traffic routing in the BLR and SGP regions, addressing networking issues stemming from our upstream providers, which are affected by major submarine cable outages in the APAC region. Despite these adjustments, users may still encounter intermittent packet loss or connectivity issues when accessing resources in the affected areas. We are working with our upstream vendors to gain further insights and achieve a definitive resolution.
 
         We apologize for any inconvenience caused.
+    - ts: "2025-09-06 18:49:52"
+      description: We are continuing to work on a fix for this issue.
