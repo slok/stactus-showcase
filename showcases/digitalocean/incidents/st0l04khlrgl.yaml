@@ -1,0 +1,13 @@
+version: incident/v1
+id: st0l04khlrgl
+name: Networking in BLR1 Region
+impact: minor
+systems:
+    - lmgn764lq04q
+timeline:
+    - ts: "2025-09-06 16:13:58"
+      description: |-
+        Our Engineering team is currently investigating an issue impacting networking in BLR1 region. Users may experience network connectivity loss to Droplets and Droplet-based services, like Managed Kubernetes and Database Clusters.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
