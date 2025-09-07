@@ -1,0 +1,9 @@
+version: incident/v1
+id: g43zk26qw5lq
+name: Increased R2 Errors in Western Europe
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-07 20:21:51"
+      description: Cloudflare observed an increase of 500 and 429 errors for R2 requests to Western Europe buckets between 2025-09-07 18:14 to 19:46 UTC. This impact is now over and we we are observing normal service operations.
+      resolved: true
