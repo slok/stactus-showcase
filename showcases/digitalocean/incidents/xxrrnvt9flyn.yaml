@@ -13,3 +13,16 @@ timeline:
 
         We apologize for the inconvenience and appreciate your patience as we continue to investigate and work toward a resolution. We will share further updates as more information becomes available.
       investigating: true
+    - ts: "2025-09-08 15:22:39"
+      description: |-
+        Our Engineering team investigated reports of Droplets becoming unresponsive. This issue was found to be caused by guest-level kernel hangs, and affected Droplets required a power cycle to restore functionality.
+
+        Upon further investigation, this was identified to be an upstream kernel issue with Ubuntu 20.04 running kernel version 5.4.0-122-generic. This kernel version has exhibited stability problems that can lead to Droplets becoming unresponsive intermittently. Customers running Ubuntu 20.04 with kernel 5.4.0-122-generic are advised to upgrade to a newer kernel version using the commands below:
+
+        sudo apt update
+        sudo apt upgrade linux-virtual
+
+        This problem is fixed with the newer kernel 5.4.0-123.139. The recommended option is to migrate to a more recent and fully supported OS version, such as Ubuntu 24.04, to ensure continued system stability and support. The affected customers can take the recommended steps above to avoid further impact.
+
+        We appreciate your patience and apologize for any inconvenience caused.
+      resolved: true
