@@ -1,9 +1,16 @@
 version: incident/v1
 id: gdjlc306mcvt
 name: Potential Service Interruption
-impact: none
-systems: []
+impact: minor
+systems:
+    - 2vkckmpm1kh6
+    - ty1004s644gq
+    - 1ccpnwlhg6xx
+    - 1mwh21hqrxlw
 timeline:
     - ts: "2025-09-08 14:21:51"
       description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2025-09-08 14:34:08"
+      description: We are investigating an issue with the summary page not loading for APM and Browser for some customers. Please continue to monitor this page for updates.
       investigating: true
