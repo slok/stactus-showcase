@@ -1,9 +1,14 @@
 version: incident/v1
 id: 9bm86bnmfhfr
 name: Guilds Unavailability
-impact: none
-systems: []
+impact: critical
+systems:
+    - rhznvxg4v7yh
+    - x7rnz0t7dpnp
 timeline:
     - ts: "2025-09-08 21:24:33"
       description: We're investigating an issue where some guilds are unavailable to some members.
+      investigating: true
+    - ts: "2025-09-08 22:28:20"
+      description: This issue has worsened and is causing widespread availability issues. We are working as quickly as possible to restore traffic.
       investigating: true
