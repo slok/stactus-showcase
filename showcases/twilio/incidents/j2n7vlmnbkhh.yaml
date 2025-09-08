@@ -1,0 +1,9 @@
+version: incident/v1
+id: j2n7vlmnbkhh
+name: Internal Server Error Trying to Make a Payment on the Twilio Console
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-08 20:31:32"
+      description: Customers experienced an Internal Server error when making a payment on the Twilio Console between 11:39 PST to 11:50 PST. This issue has been resolved and customers can attempt to make a manual payment on the Twilio Console.
+      resolved: true
