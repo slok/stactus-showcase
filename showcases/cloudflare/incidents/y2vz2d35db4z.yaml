@@ -1,0 +1,10 @@
+version: incident/v1
+id: y2vz2d35db4z
+name: Elevated Cache Purge Error Rates
+impact: minor
+systems:
+    - fbvx0hxhhdj0
+timeline:
+    - ts: "2025-09-08 16:25:25"
+      description: Cloudflare is aware of elevated purge error rates for our CDN. This impacts purges invoked from the dashboard and for API purges for customers with Cache Reserve.
+      investigating: true
