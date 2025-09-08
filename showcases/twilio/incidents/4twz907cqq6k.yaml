@@ -1,6 +1,6 @@
 version: incident/v1
 id: 4twz907cqq6k
-name: SMS Delivery Delays and Failures to small carriers in United States via subset of long codes
+name: SMS Delivery Delays and Failures to Small Carriers in United States via Subset of Long Codes
 impact: minor
 systems:
     - 7d8w22hqrh6s
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-09-08 15:28:16"
       description: We continue to experience SMS delivery delays and failures when sending messages to small carriers in the United States. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-09-08 19:32:06"
+      description: We continue to experience SMS delivery delays and failures when sending messages to small carriers in the United States. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
