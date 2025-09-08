@@ -1,9 +1,13 @@
 version: incident/v1
 id: 247926zlh7xv
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Digital Chat Transfer failures in Flex
+impact: minor
+systems:
+    - vw9w2zyv9nk5
 timeline:
     - ts: "2025-09-08 09:57:43"
       description: Our monitoring systems have detected a potential issue with trasfer function in Flex. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-09-08 11:04:22"
+      description: Our engineers have identified the issue with Digital Chat Transfer functionality in Flex. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
