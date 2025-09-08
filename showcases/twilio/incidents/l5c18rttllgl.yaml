@@ -1,0 +1,9 @@
+version: incident/v1
+id: l5c18rttllgl
+name: Twilio Programmable Messaging API Affected with 5xx Error Codes
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-08 19:55:42"
+      description: Customers experienced a partial degradation of the Twilio Programmable Messaging API on September 8, 2025, between 12:19:40 PST and 12:20:10 PST. During this 30-second window, customers may have encountered increased API responses with 5xx error codes. This issue has been resolved and customers should no longer be experiencing errors.
+      resolved: true
