@@ -15,3 +15,6 @@ timeline:
       description: The issue has been identified and our team and working to implement a fix.
     - ts: "2025-09-09 14:50:07"
       description: The fix has now been implemented and services have returned to normal. The team are continuing to monitor the recovery
+    - ts: "2025-09-09 15:15:13"
+      description: Between 10:47 UTC and 14:59 UTC, some customers in the US region may have experienced irregularities for Synthetics such as delays for job processing and results. We have investigated and resolved this interruption and impacted services have returned to normal operations.
+      resolved: true

@@ -1,0 +1,8 @@
+version: incident/v1
+id: 6yb8dfqhzl01
+name: Name resolution for Fly Consul cluster degraded
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-09 15:22:13"
+      description: DNS for the Fly Consul cluster is currently degraded. This primarily affects unmanaged Postgres clusters. We are working on restoring DNS operation for this domain. This DNS degradation does not affect any other user-facing components and should not affect running machines, apps or any APIs.
