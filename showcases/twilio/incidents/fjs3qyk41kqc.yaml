@@ -7,3 +7,6 @@ timeline:
     - ts: "2025-09-09 20:55:25"
       description: Our monitoring systems have detected a potential issue for Twilio accounts that may not be able to capture speech with Google using Gather Speech. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-09-09 21:59:49"
+      description: Gather speech using Google was degraded for 19 minutes 1:36 pm PST and 1:55 pm Pacific Time on 09/09/2025. Twilio accounts may not have been be able to capture speech using <Gather>. The issue has now been resolved.
+      resolved: true
