@@ -3,6 +3,8 @@ id: 9pvscr0vmsy6
 name: Performance impact for Cloudflare Services
 impact: critical
 systems:
+    - w4k8yvhfb3vp
+    - nd77krz8224v
     - bty1yz6dhh0v
     - gyx2yygg7lmd
     - z4wlt5jx9szq
@@ -19,3 +21,14 @@ timeline:
     - ts: "2025-09-09 18:46:51"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-09-09 18:54:21"
+      description: |-
+        Increase in errors across Cloudflare products
+
+        Cloudflare is aware of and investigating an issue impacting multiple products across Cloudflare. Customers using Workers may have seen 503 errors. Other products may have also seen an increase of error rates.
+      investigating: true
+    - ts: "2025-09-09 18:57:36"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-09-09 19:01:50"
+      description: The issue has been identified and a fix is being implemented.
