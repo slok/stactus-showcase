@@ -1,0 +1,13 @@
+version: incident/v1
+id: hx304k6z711l
+name: Synthetic Reporting dropped to Zero across US Prod
+impact: minor
+systems:
+    - 5kj1rklxtgzg
+timeline:
+    - ts: "2025-09-09 12:52:57"
+      description: We are currently investigating a service interruption impacting our Synthetics checks.
+      investigating: true
+    - ts: "2025-09-09 13:14:36"
+      description: Our team continues to investigate the service interruption. Some customers in the US region will see impacted Synthetic checks.
+      investigating: true
