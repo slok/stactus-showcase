@@ -1,0 +1,11 @@
+version: incident/v1
+id: 1bs9cqrz701p
+name: Cloudflare Zero Trust Dashboard issues
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-09-09 14:05:03"
+      description: |-
+        Cloudflare identified an issue which potentially impacts multiple customers: Users accessing the "My team > Devices" page under the Zero Trust dashboard may observe an error, or the page might be unavailable. This issue does not affect the connection of any Zero Trust devices that are already configured.
+        We are working to mitigate this problem, more updates to follow shortly.
