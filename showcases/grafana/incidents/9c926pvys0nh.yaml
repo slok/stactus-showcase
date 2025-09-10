@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9c926pvys0nh
+name: k6 test run performance degradation that may affect some users
+impact: minor
+systems:
+    - m79yjv169r06
+timeline:
+    - ts: "2025-09-10 10:29:31"
+      description: We're currently investigating performance degradation that some users may experience when starting new test runs.
+      investigating: true
