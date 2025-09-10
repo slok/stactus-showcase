@@ -1,10 +1,13 @@
 version: incident/v1
 id: s23j1y46tcv8
-name: On Call Engineers are Investigating an issue where recently migrated BR numbers are not connecting
-impact: none
+name: Call Failures to and from a Subset of Twilio's Numbers in Brazil
+impact: minor
 systems:
-    - pv5w18vrltfl
+    - fbtv2g9t3z25
 timeline:
     - ts: "2025-09-10 22:35:37"
       description: Our monitoring systems have detected a potential issue with recently migrated BR numbers not connecting. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-09-10 22:52:10"
+      description: We are observing call failures to and from a subset of Twilio's numbers in Brazil. We are currently working with our carrier partners to identify the root cause and resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
