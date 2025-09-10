@@ -1,0 +1,9 @@
+version: incident/v1
+id: tfmcvlmyjws8
+name: Messaging Message Send API 500s
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-10 01:42:36"
+      description: The Twilio Programmable Messaging API was partially degraded starting from Sep 9th, 2025, 17:04 PM PST to 17:01 PM PST for 1 minute. Customers may have received elevated volumes of 5xx's error codes.
+      resolved: true
