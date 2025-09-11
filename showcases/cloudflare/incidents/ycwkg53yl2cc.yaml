@@ -1,0 +1,12 @@
+version: incident/v1
+id: ycwkg53yl2cc
+name: Bot Management Issues
+impact: minor
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2025-09-11 20:56:47"
+      description: Cloudflare is investigating issues with our Bot Management feature. Customers may experience an increase in incorrect detections. We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-09-11 20:58:05"
+      description: The cause of this issue has been identified and we are working on applying a fix.
