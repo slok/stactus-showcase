@@ -31,5 +31,10 @@ timeline:
       description: API Requests and Issues are operating normally.
       investigating: true
     - ts: "2025-08-27 21:27:58"
-      description: On August 27, 2025 between 20:35 and 21:17 UTC, Copilot, Web and REST API traffic experienced degraded performance. Copilot saw an average of 36% of requests fail with a peak failure rate of 77%. Approximately 2% of all non-Copilot Web and REST API traffic requests failed.<br /><br />This incident occurred after a stale schema cache was used following a database migration. This led to a large number of failed queries. At 21:15 UTC, we applied a fix and by 21:17 UTC, all services had fully recovered.<br /><br />We have implemented a block for this failure mode as an immediate solution and are actively working to add safeguards to prevent similar issues from occurring in the future.
+      description: |-
+        On August 27, 2025 between 20:35 and 21:17 UTC, Copilot, Web and REST API traffic experienced degraded performance. Copilot saw an average of 36% of requests fail with a peak failure rate of 77%. Approximately 2% of all non-Copilot Web and REST API traffic requests failed.
+
+        This incident occurred after we initiated a production database migration to drop a column from a table backing copilot functionality. While the column was no longer in direct use, our ORM continued to reference the dropped column. This led to a large number of 5xx responses and was similar to the incident on August 5th. At 21:15 UTC, we applied a fix to the production schema and by 21:17 UTC, all services had fully recovered.
+
+        While repairs were in progress to avoid this situation, they were not completed quickly enough to prevent a second incident. We have now implemented a temporary block for all drop column operations as an immediate solution while we add more safeguards to prevent similar issues from occurring in the future. We are also implementing graceful degradation so that Copilot issues will not impact other features of our product.
       resolved: true
