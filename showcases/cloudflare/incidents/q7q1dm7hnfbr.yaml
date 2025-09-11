@@ -1,0 +1,12 @@
+version: incident/v1
+id: q7q1dm7hnfbr
+name: Increase in 500 errors for Lisbon and Salt Lake City
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+    - qshn45g5q59m
+    - 3cg9wbk5hzg4
+timeline:
+    - ts: "2025-09-11 16:20:39"
+      description: Cloudflare is aware of and investigating an issue where some customers may be seeing an increase of 500 errors for Lisbon and Salt Lake City.
+      investigating: true
