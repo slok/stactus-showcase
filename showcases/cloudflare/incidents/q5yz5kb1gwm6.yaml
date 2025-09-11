@@ -1,0 +1,10 @@
+version: incident/v1
+id: q5yz5kb1gwm6
+name: Users Unable to Enable R2 on Accounts Without Attached Payment Method
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-09-11 17:58:20"
+      description: "We are investigating an issue where users adding R2 for the first time without a payment method already on the account are unable to add a payment method when attempting to enable R2. \n\nImpacted users can manually add a payment method to the account then enable R2 on the account. This issue does not affect existing R2 users."
+      investigating: true
