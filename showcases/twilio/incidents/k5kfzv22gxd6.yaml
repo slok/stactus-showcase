@@ -1,0 +1,10 @@
+version: incident/v1
+id: k5kfzv22gxd6
+name: SendGrid Customer Friendly Name Display Issue in Console
+impact: none
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2025-09-11 19:19:14"
+      description: Our monitoring systems have detected a potential issue with SendGrid where "Friendly Name" in Console may not show, and may display the default friendly name. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
