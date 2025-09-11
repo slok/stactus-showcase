@@ -1,0 +1,9 @@
+version: incident/v1
+id: 7v4r7x9qsp33
+name: Intelligent Alerts Unavailable for 20 Minutes
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-11 16:47:08"
+      description: Between 3:15 AM PT and 3:30 AM PT, Intelligent Alerts system was unavailable due to a service event in AWS service that caused increased error rates in starting Applications and Jobs in the US-EAST-1 Region. The issue has been resolved, and the service is operating normally.
+      resolved: true
