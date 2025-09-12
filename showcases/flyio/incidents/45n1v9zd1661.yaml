@@ -1,0 +1,9 @@
+version: incident/v1
+id: 45n1v9zd1661
+name: Some billing operations failing to synchronize
+impact: major
+systems:
+    - mcxtlf2yvp9l
+timeline:
+    - ts: "2025-09-12 14:18:13"
+      description: Due to a DNS issue (it's always DNS, isn't it?), some billing-related operations are going unprocessed. This affects mainly registration of payment methods. Usage metering is not affected.
