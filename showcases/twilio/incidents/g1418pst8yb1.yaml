@@ -1,8 +1,9 @@
 version: incident/v1
 id: g1418pst8yb1
-name: Inbound WhatsApp Messages Not Arriving
-impact: none
-systems: []
+name: Inbound WhatsApp Messages Not Arriving for a Subset of Customers
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
 timeline:
     - ts: "2025-09-12 18:56:13"
       description: Our monitoring systems have detected a potential issue with WhatsApp. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
@@ -10,3 +11,5 @@ timeline:
     - ts: "2025-09-12 19:25:09"
       description: Our engineers are currently investigating an issue where inbound WhatsApp messages are not arriving. Our Engineers are working to identify the cause of this issue, and expect to provide another update in 1 hour, or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-09-12 20:25:10"
+      description: Our Engineers have identified an issue affecting inbound delivery of WhatsApp messages and are working with Meta to deploy a fix. We’ll provide the next update within 2 hours, or sooner if more information becomes available.
