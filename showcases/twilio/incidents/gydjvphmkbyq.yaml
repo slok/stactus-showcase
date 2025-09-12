@@ -6,3 +6,6 @@ systems: []
 timeline:
     - ts: "2025-09-12 13:51:33"
       description: Our engineers are currently investigating reports of undelivered inbound WhatsApp messages on 09/11/2025. During this period, customers may have experienced not receiving inbound responses from their end-users. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-09-12 15:03:26"
+      description: Between 09/10 at 8:00 PM PDT and 09/11 02:03 PM PDT customers may have experienced message delivery issues on WhatsApp.  This was caused by a vendor outage as part of "WhatsApp Account Ownership Is Moving to You" update that was shared previously by Twilio. This is since resolved and confirmed all systems are operational.
+      resolved: true
