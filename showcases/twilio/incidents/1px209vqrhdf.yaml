@@ -7,3 +7,6 @@ timeline:
     - ts: "2025-09-12 20:45:37"
       description: Our monitoring systems have detected a potential issue where the lookup reassigned number package is having a significant drop in success rate. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-09-12 21:06:51"
+      description: We have fully investigated the  lookup reassigned number package issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
