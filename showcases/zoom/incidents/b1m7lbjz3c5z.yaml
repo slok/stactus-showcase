@@ -1,0 +1,11 @@
+version: incident/v1
+id: b1m7lbjz3c5z
+name: Users of Google Chrome 140 browser may not hear audio in a meeting
+impact: minor
+systems:
+    - jds2k69nx1t9
+    - 503cqbhcpvzx
+    - dpqhcccldsxp
+timeline:
+    - ts: "2025-09-11 23:51:25"
+      description: A subset of ZWA, WebSDK and VideoSDK users may experience audio loss in the meeting after they upgrade Google Chrome to version 140. We are actively working with the third party to mitigate it.
