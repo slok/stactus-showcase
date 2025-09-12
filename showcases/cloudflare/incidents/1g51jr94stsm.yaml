@@ -1,0 +1,13 @@
+version: incident/v1
+id: 1g51jr94stsm
+name: Workers and Pages API errors
+impact: minor
+systems:
+    - vgxj684rcw7t
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-09-12 22:04:54"
+      description: Cloudflare has identified an issue impacting the Cloudflare Workers and Pages API resulting in increased latency and errors for customers. We're working to mitigate impact and will update shortly.
+      investigating: true
+    - ts: "2025-09-12 22:05:44"
+      description: The issue has been identified and a fix is being implemented.
