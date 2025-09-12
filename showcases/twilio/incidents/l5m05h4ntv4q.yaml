@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-09-12 00:46:28"
       description: Our monitoring systems have detected a potential issue with Flex Cluster down in IE1 region. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-09-12 01:49:37"
+      description: We have fully investigated the issue with Flex Cluster down in the IE1 region, triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
