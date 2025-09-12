@@ -11,3 +11,9 @@ timeline:
       investigating: true
     - ts: "2025-09-12 19:14:18"
       description: "Our Engineering team has identified that the ongoing issue with the upstream provider is also impacting DigitalOcean Spaces. They continue to monitor the ongoing issue with the upstream provider impacting DigitalOcean Spaces and App Platform services.\n\nImprovements are being seen with lower error rates and latency for App Platform deployments as well as for fetching Spaces endpoints. \n\nWe apologize for the inconvenience and will share further updates in the due course."
+    - ts: "2025-09-12 19:33:17"
+      description: |-
+        Our Engineering team has confirmed the full resolution of the issue with the upstream provider. Users should now be able to deploy to App Platform and manage their Spaces Buckets as normal.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true
