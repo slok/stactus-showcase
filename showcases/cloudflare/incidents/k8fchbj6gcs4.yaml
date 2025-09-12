@@ -8,7 +8,7 @@ systems:
 timeline:
     - ts: "2025-09-12 10:38:43"
       description: |-
-        Cloudflare has identified an issue with our API which potentially impacts multiple customers: Performing bulk requests to our Custom Hostnames API endpoint might return unexpected timeouts.
+        Cloudflare has identified an issue with our API which potentially impacts multiple customers: Performing bulk requests to our Custom Hostnames API endpoint might return unexpected timeouts, although only observed on a small percentage of requests.
         This does not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
         We are working to resolve the issue, more updates to follow.
     - ts: "2025-09-12 11:33:22"
