@@ -1,10 +1,13 @@
 version: incident/v1
 id: 7hczl9kpfb5r
-name: App Platform Deployments
+name: App Platform Deployments and Spaces
 impact: minor
 systems:
     - txysr8r0gn1n
+    - 8cp93lvtlh32
 timeline:
     - ts: "2025-09-12 18:54:30"
       description: "Our Engineering team is aware of an upstream provider issue that is causing impact to some DigitalOcean services. More details are being gathered. \n\nAt this time, users may experience delayed App Platform deployments. \n\nWe apologize for the inconvenience and will provide another update as soon as possible."
       investigating: true
+    - ts: "2025-09-12 19:14:18"
+      description: "Our Engineering team has identified that the ongoing issue with the upstream provider is also impacting DigitalOcean Spaces. They continue to monitor the ongoing issue with the upstream provider impacting DigitalOcean Spaces and App Platform services.\n\nImprovements are being seen with lower error rates and latency for App Platform deployments as well as for fetching Spaces endpoints. \n\nWe apologize for the inconvenience and will share further updates in the due course."
