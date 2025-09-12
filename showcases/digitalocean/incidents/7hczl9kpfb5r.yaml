@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7hczl9kpfb5r
+name: App Platform Deployments
+impact: minor
+systems:
+    - txysr8r0gn1n
+timeline:
+    - ts: "2025-09-12 18:54:30"
+      description: "Our Engineering team is aware of an upstream provider issue that is causing impact to some DigitalOcean services. More details are being gathered. \n\nAt this time, users may experience delayed App Platform deployments. \n\nWe apologize for the inconvenience and will provide another update as soon as possible."
+      investigating: true
