@@ -1,0 +1,11 @@
+version: incident/v1
+id: wmc5dwky78dt
+name: SMS and MMS Delivery Delays and Failures To Verizon Network in United States
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - 8vdlvw3dsq8h
+timeline:
+    - ts: "2025-09-13 14:06:52"
+      description: We are experiencing MMS and SMS delivery delays and failures to Verizon Network in the United States. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
