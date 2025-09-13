@@ -3,8 +3,7 @@ id: k8fchbj6gcs4
 name: Custom Hostnames API increased latency for SSL for SaaS Customers
 impact: major
 systems:
-    - g4tb35rs9yw7
-    - 9p2qlpt19nqb
+    - cghykwlwsmn5
 timeline:
     - ts: "2025-09-12 10:38:43"
       description: |-
@@ -15,3 +14,6 @@ timeline:
       description: We are continuing to work on a fix for this issue.
     - ts: "2025-09-12 20:15:15"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2025-09-13 15:39:03"
+      description: Cloudflare is investigating Custom Hostnames API increased latency and delays in validating SSL certificates.
+      investigating: true
