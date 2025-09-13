@@ -7,3 +7,6 @@ timeline:
     - ts: "2025-09-13 12:44:00"
       description: We are currently investigating this issue.
       investigating: true
+    - ts: "2025-09-13 12:49:04"
+      description: Customers are not seeing repositories they expect to see in search results. We have restored a snapshot of this search index from Fri 12 Sep at 21:00 UTC. Changes made since then will be unavailable while we work to backfill the rest of the search index. Any new changes will be available in near-real time as expected.
+      investigating: true
