@@ -1,0 +1,10 @@
+version: incident/v1
+id: 46vtpky3kjzv
+name: A small subset of users may experience issues with SMS(outbound) service in US Region while using Zoom Phone and Zoom Contact Center.
+impact: minor
+systems:
+    - 5vvw5njz8qg5
+    - rkgptw5lc3pw
+timeline:
+    - ts: "2025-09-14 02:44:45"
+      description: We have detected service degradation where a small subset of users may experience issues with SMS(outbound) service in US Region. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
