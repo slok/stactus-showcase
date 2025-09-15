@@ -1,0 +1,10 @@
+version: incident/v1
+id: xdyrnh003b17
+name: Packet loss in HKG
+impact: minor
+systems:
+    - 823dvbm7k1vy
+timeline:
+    - ts: "2025-09-15 08:24:38"
+      description: We are seeing high packet loss in HKG. We are working with our upstream providers to establish alternate routes to HKG.
+      investigating: true
