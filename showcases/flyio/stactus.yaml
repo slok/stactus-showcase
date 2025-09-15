@@ -44,6 +44,9 @@ systems:
       name: Regional Availability / BOM - Mumbai, India
     - id: rc5yp3480n5g
       name: Managed Postgres / Management Plane - LAX
+    - id: 00vjpjnwrhqz
+      name: DNS / flydns.net
+      description: DNS servers for fly.dev and other Fly.io domains
     - id: 49yq6v65b33l
       name: Deployments
       description: flyctl and GitHub Action app deployments

@@ -1,0 +1,10 @@
+version: incident/v1
+id: 37jjv7yk2kqv
+name: fly.dev DNS resolution issues
+impact: major
+systems:
+    - 00vjpjnwrhqz
+timeline:
+    - ts: "2025-09-15 14:57:13"
+      description: We are investigating an issue with fly.dev domain DNS resolution. Default fly.dev domains for apps may fail to resolve. Custom domains continue to work.
+      investigating: true
