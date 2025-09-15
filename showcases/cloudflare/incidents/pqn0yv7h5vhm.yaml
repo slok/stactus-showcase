@@ -1,0 +1,12 @@
+version: incident/v1
+id: pqn0yv7h5vhm
+name: Issues with API Shield
+impact: minor
+systems:
+    - g9yx473yjk9t
+timeline:
+    - ts: "2025-09-15 12:53:54"
+      description: Changes made to the Web Assets in API Shield Endpoint Management are currently processed with a delay. Existing metadata about the schemas and labels at the Edge is unaffected and any mitigation applied for these are working as expected.
+      investigating: true
+    - ts: "2025-09-15 13:04:34"
+      description: The issue has been identified and a fix is being implemented.
