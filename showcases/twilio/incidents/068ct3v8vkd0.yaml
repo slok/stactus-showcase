@@ -1,9 +1,12 @@
 version: incident/v1
 id: 068ct3v8vkd0
-name: Purchasing of International Long Codes Was Impacted for France
+name: Issues With Unexpected Rejections of Regulatory Compliance Bundles for France and Non-Compliance Alert for Germany
 impact: none
 systems: []
 timeline:
     - ts: "2025-09-15 09:14:10"
-      description: Purchasing of International Long Codes was impacted for France for 22 hrs 38 minutes between 11 September 11:40 AM PDT and 12 September 10:18 AM Pacific Time. During this period customers may have experienced issues buying new phone numbers for France - Local, National and Tollfree. The issue has now been resolved.
+      description: |-
+        Purchasing of International Long Codes was impacted for France for 22 hrs 38 minutes between 11 September 11:40 AM PDT and 12 September 10:18 AM Pacific Time. During this period customers would have experienced issues buying new phone numbers for France - Local, National and Tollfree due to rejection of approved regulatory compliance bundles. The issue has now been resolved.
+
+        There was additional impact for German customers having Mobile long codes associated with Approved German Mobile RC bundles showing an alert “Some of your bundles are expiring soon and needs updating” which was a false alarm. There was no impact to functionality. This alert has now been removed.
       resolved: true
