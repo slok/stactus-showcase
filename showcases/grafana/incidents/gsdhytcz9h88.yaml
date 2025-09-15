@@ -1,0 +1,12 @@
+version: incident/v1
+id: gsdhytcz9h88
+name: hgapi down in prod-us-west-0
+impact: critical
+systems:
+    - 8wq97lhx59x7
+timeline:
+    - ts: "2025-09-15 17:55:41"
+      description: |-
+        Some services, for instances in the prod-us-west-0 cluster may see a loading screen or be unable to access the Grafana instances.
+        We are actively investigating this issue.
+      investigating: true
