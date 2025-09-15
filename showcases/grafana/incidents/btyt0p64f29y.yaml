@@ -1,0 +1,10 @@
+version: incident/v1
+id: btyt0p64f29y
+name: Access to Unified-Storage Database in Us-Central-2 Broken.
+impact: major
+systems:
+    - fs80tlfpb7kx
+timeline:
+    - ts: "2025-09-15 14:32:00"
+      description: We are currently investigating an issue that has broken access to unified-storage database from Hosted Grafana in the us-central-2 region.
+      investigating: true
