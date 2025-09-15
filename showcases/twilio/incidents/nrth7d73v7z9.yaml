@@ -1,0 +1,9 @@
+version: incident/v1
+id: nrth7d73v7z9
+name: Outbound Call Signing Affected
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-15 14:19:00"
+      description: Twilio Outbound call signing was degraded for 1 minute between 5:01 and 5:02 and 1 minute between 06:01 and 06:02 Pacific Time on 09/15/2025. During these periods customers may have experienced "32021 -SHAKEN/STIR call verification failed" errors. The issue has now been resolved
+      resolved: true
