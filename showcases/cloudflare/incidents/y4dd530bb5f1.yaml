@@ -1,0 +1,12 @@
+version: incident/v1
+id: y4dd530bb5f1
+name: Workers API errors
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-09-15 21:54:33"
+      description: Cloudflare is aware of and investigating an issue impacting the Cloudflare Workers API resulting in increased latency and errors for customers. We're working to mitigate impact and will update shortly.
+      investigating: true
+    - ts: "2025-09-15 22:00:23"
+      description: The issue has been identified and a fix is being implemented.
