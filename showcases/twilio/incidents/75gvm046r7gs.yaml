@@ -1,6 +1,6 @@
 version: incident/v1
 id: 75gvm046r7gs
-name: Issue With Australia Phone Numbers Migration
+name: Outbound SMS & Voice Failures for Australian Phone Numbers
 impact: minor
 systems:
     - pv5w18vrltfl
@@ -15,4 +15,4 @@ timeline:
       description: We continue to investigate an issue with ported out Australia Numbers not appearing in Console. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
     - ts: "2025-09-15 10:44:30"
-      description: Our engineers have identified the issue causing ported out Australia Numbers to not appear in Console and are working to deploy a fix. We expect to provide another update in 4 hours or as soon as more information becomes available.
+      description: Our engineers have identified the issue causing ported out Australia Numbers to not appear in Console and are working to deploy a fix. Outbound SMS & Voice services will be affected for impacted numbers. We expect to provide another update in 4 hours or as soon as more information becomes available.
