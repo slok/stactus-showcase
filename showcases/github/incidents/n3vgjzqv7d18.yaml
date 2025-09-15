@@ -13,3 +13,6 @@ timeline:
     - ts: "2025-09-13 22:39:11"
       description: Most searchable repositories should again be visible in search results. Up to 1.5% of repositories may still be missing from search results.<br /><br />Many different actions synchronize the repository state with the search index, so we expect natural recovery for repositories that see more frequent user and API-driven interactions. <br /><br />A complete index reconciliation is underway to restore stagnant repositories that were deleted from the index. We will update again once we have a clear timeline of when we expect full recovery for those missing search results.
       investigating: true
+    - ts: "2025-09-15 21:01:03"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
