@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5jff43lxcnq3
+name: SMS Delivery Report Delays to Telnyx In US
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2025-09-15 15:28:27"
+      description: We are experiencing SMS delivery report delays when sending messages to Telnyx in United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 or as soon as more information becomes available.
+      investigating: true
