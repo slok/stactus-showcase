@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-09-15 14:57:13"
       description: We are investigating an issue with fly.dev domain DNS resolution. Default fly.dev domains for apps may fail to resolve. Custom domains continue to work.
       investigating: true
+    - ts: "2025-09-15 15:42:43"
+      description: We've identified an issue with our state replication system and are working on a fix.
