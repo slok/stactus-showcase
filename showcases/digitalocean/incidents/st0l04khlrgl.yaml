@@ -39,3 +39,6 @@ timeline:
         Our Engineering team has observed significant improvements with the network latency and packet loss during peak hours today. This is a result of our upstream providers making some routing adjustments. We are carefully monitoring the network performance for the next 24 hours.
 
         We will communicate any further relevant information as we have it. We apologize for the inconvenience in the meantime.
+    - ts: "2025-09-16 17:39:05"
+      description: "Our Engineering team has confirmed that our upstream providers have been able to mitigate the network connectivity issues in the BLR1 and SGP1 regions.\n\nAt this time users should not experience intermittent degraded performance and timeout errors with Droplet-based services to and from these regions. \n\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience."
+      resolved: true
