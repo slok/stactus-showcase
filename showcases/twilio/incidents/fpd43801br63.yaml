@@ -1,0 +1,15 @@
+version: incident/v1
+id: fpd43801br63
+name: SMS Delivery Report Delays to Altice in the United States of America
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - 39mb8cmw8y2v
+    - 32f2bm54nkvv
+timeline:
+    - ts: "2025-09-16 11:09:53"
+      description: Our monitoring systems have detected a potential issue with SMS Delivery Report Delays to Altice in United States of America. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-09-16 11:17:04"
+      description: We are experiencing SMS delivery report delays to Altice in United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
