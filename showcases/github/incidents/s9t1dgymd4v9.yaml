@@ -12,5 +12,5 @@ timeline:
       description: Actions hosted runners are taking longer to come online, leading to high wait times or job failures.
       investigating: true
     - ts: "2025-09-10 14:02:41"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On September 10, 2025 between 13:00 and 14:15 UTC, Actions users experienced failed jobs and run start delays for Ubuntu 24 and Ubuntu 22 jobs on standard runners in private repositories. Additionally, larger runner customers experienced run start delays for runner groups with private networking configured in the eastus2 region. This was due to an outage in an underlying compute service provider in eastus2. 1.06% of Ubuntu 24 jobs and 0.16% of Ubuntu 22 jobs failed during this period. Jobs for larger runners using private networking in the eastus2 region were unable to start for the duration of the incident.<br /><br />We have identified and are working on improvements in our resilience to single partner region outages for standard runners so impact is reduced in similar scenarios in the future.
       resolved: true
