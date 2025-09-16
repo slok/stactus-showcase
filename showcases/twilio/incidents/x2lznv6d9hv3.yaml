@@ -6,3 +6,6 @@ systems: []
 timeline:
     - ts: "2025-09-16 11:56:53"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with 5xx errors with our Organisation Service. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-09-16 12:11:21"
+      description: We have fully investigated the issue triggered by our automated alert for organisation services, and it was determined that there was no customer impact. All systems are operational.
+      resolved: true
