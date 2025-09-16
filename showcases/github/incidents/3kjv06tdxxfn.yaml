@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3kjv06tdxxfn
+name: Creating GitHub apps using the REST API will fail with a 401 error
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-09-16 17:14:45"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-09-16 17:15:24"
+      description: A recent change to our API routing inadvertently added an authentication requirement to the anonymous route for creating GitHub apps. We're in the process of fixing the change, but in the interim retrying should eventually succeed.
+      investigating: true

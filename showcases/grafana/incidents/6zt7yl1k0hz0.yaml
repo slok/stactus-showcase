@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6zt7yl1k0hz0
+name: Loki read and write outage in us-central2
+impact: none
+systems:
+    - tpk4cdhtsm82
+timeline:
+    - ts: "2025-09-16 17:21:10"
+      description: There were read and write outages in the us-central2 region for Loki from 16:57 to 17:04 UTC. The issue is now resolved.
+      resolved: true
