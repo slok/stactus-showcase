@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-09-16 20:59:13"
       description: The synthetic monitoring API in us-central2 is unavailable as of 20:20 UTC.  Updates made via Grafana Cloud UI (synthetic monitoring app), terraform, and direct API calls are affected.  Probes and checks continue to run.
       investigating: true
+    - ts: "2025-09-16 21:16:33"
+      description: The incident is resolved, API in us-central2 is available again as of 21:01 UTC
+      resolved: true
