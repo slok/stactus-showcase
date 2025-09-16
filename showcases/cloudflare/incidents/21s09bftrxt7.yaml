@@ -1,0 +1,12 @@
+version: incident/v1
+id: 21s09bftrxt7
+name: Delays with Log Explorer
+impact: minor
+systems:
+    - k0mgxrls5y1b
+timeline:
+    - ts: "2025-09-16 09:34:07"
+      description: A small percentage of Log Explorer customer might see delays in recent data being available for querying or experience slower query responses. No logs are being dropped.
+      investigating: true
+    - ts: "2025-09-16 09:35:00"
+      description: The issue has been identified and a fix is being implemented.
