@@ -1,0 +1,10 @@
+version: incident/v1
+id: tyt4y97scvkn
+name: Impact to Resource Creation and Scaling Operations
+impact: major
+systems:
+    - zt0clr5hgpd5
+timeline:
+    - ts: "2025-09-16 16:52:59"
+      description: We have identified an issue with a third-party DNS provider which may result in some customers experiencing failures creating new resources, including subscriptions and databases, as well as performing scaling operations in Redis Cloud. We are working with our partner to resolve this issue and will provide an update shortly.
+      investigating: true
