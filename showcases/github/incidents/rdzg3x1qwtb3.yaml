@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-09-17 15:31:00"
       description: Some users with Codespaces in West Europe were unable to connect to Codespaces, we have failed over that region and users should be able to create new Codespaces. If a user has a Codespace in a shutting down state, we are still investigating potential fixes and mitigations.
       investigating: true
+    - ts: "2025-09-17 16:07:14"
+      description: We're continuing to see improvement with Codespaces that were stuck in in the shutting down state and we anticipate the remaining should self resolve in about an hour.
+      investigating: true
