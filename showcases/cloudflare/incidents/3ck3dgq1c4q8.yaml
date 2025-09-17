@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3ck3dgq1c4q8
+name: Gateway Log Availability Issues
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-09-17 16:23:44"
+      description: Cloudflare is investigating issues with Gateway Logs properly loading in the dashbourd. Customers that use Gateway may observe errors when attempting to load Gateway logs. More updates to follow shortly.
+      investigating: true
