@@ -11,3 +11,7 @@ timeline:
     - ts: "2025-09-16 18:03:50"
       description: We’re continuing to work with our third-party DNS provider to mitigate the ongoing issue. If you have any questions, please contact our support team.
       investigating: true
+    - ts: "2025-09-16 23:52:47"
+      description: |-
+        We have deployed a fix which has restored service for Redis Cloud Pro customers. Creation and scaling operations should now function as expected for those accounts. Redis Cloud Essentials customers may still experience issues when creating or scaling resources. We continue to work with our third-party DNS provider on a full resolution and will share further updates as they become available.
+        If you have any questions, please contact our support team.
