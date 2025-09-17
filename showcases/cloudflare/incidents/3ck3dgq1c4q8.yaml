@@ -3,8 +3,12 @@ id: 3ck3dgq1c4q8
 name: Gateway Log Availability Issues
 impact: minor
 systems:
-    - 3sq3s4d20ywk
+    - gyx2yygg7lmd
+    - 276xk3r83js7
 timeline:
     - ts: "2025-09-17 16:23:44"
-      description: Cloudflare is investigating issues with Gateway Logs properly loading in the dashbourd. Customers that use Gateway may observe errors when attempting to load Gateway logs. More updates to follow shortly.
+      description: Cloudflare is investigating issues with Gateway Logs properly loading in the dashboard. Customers that use Gateway may observe errors when attempting to load Gateway logs. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-09-17 16:26:58"
+      description: We are continuing to investigate this issue.
       investigating: true
