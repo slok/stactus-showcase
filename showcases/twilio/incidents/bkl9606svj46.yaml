@@ -1,9 +1,16 @@
 version: incident/v1
 id: bkl9606svj46
-name: On Call Engineers are Investigating an issue
+name: Messaging Insights Degradation
 impact: none
-systems: []
+systems:
+    - dgkv7yc7sqdg
 timeline:
     - ts: "2025-09-17 21:35:08"
       description: Our monitoring systems have detected a potential issue with Messaging Insights. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-09-17 22:29:12"
+      description: Messaging Insights bookmarks resolution was degraded from 19:34 UTC to 21:47 UTC on 09/17/2025. During this period, customers may have experienced issues with their bookmarked queries not resolving in the UI and would have been redirected to the Overview Tab. The issue has now been resolved.
+      investigating: true
+    - ts: "2025-09-17 22:29:31"
+      description: Messaging Insights bookmarks resolution was degraded from 19:34 UTC to 21:47 UTC on 09/17/2025. During this period, customers may have experienced issues with their bookmarked queries not resolving in the UI and would have been redirected to the Overview Tab. The issue has now been resolved.
+      resolved: true
