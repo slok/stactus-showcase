@@ -1,0 +1,10 @@
+version: incident/v1
+id: qck01kb2qlpc
+name: Connectivity issues in EWR
+impact: major
+systems:
+    - 7dkv4qp80325
+timeline:
+    - ts: "2025-09-17 14:33:44"
+      description: One of our upstream providers is having network connectivity issues in EWR. You may experience increased latency, packet loss, or total connectivity failure while they investigate the issue.
+      investigating: true
