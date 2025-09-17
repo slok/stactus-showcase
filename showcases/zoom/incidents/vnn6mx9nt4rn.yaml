@@ -1,0 +1,12 @@
+version: incident/v1
+id: vnn6mx9nt4rn
+name: Outbound SMS Delay for Zoom Phone and Zoom Contact Center
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-17 20:45:45"
+      description: Between 9/17/2025 19:15 UTC to 19:25 UTC, users in North America region may have experienced outbound sms delay for Zoom Phone and Zoom Contact Center.
+      investigating: true
+    - ts: "2025-09-17 20:47:14"
+      description: This incident has been resolved.
+      resolved: true
