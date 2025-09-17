@@ -1,0 +1,13 @@
+version: incident/v1
+id: tz244yxksqj3
+name: Delayed Metrics
+impact: minor
+systems:
+    - qrnng5l7z80l
+timeline:
+    - ts: "2025-09-17 15:25:07"
+      description: |-
+        We are investigating increased latency processing Metrics.
+        As a result of this issue, some users may see delays or gaps for metrics on graphs.
+        To prevent spurious alerts, we have temporarily disabled monitors based on this data.
+      investigating: true
