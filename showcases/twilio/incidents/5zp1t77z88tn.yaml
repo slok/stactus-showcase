@@ -1,0 +1,11 @@
+version: incident/v1
+id: 5zp1t77z88tn
+name: SMS Delivery Delays To Multiple Networks in Malaysia and African Countries
+impact: minor
+systems:
+    - 8qjql0kqnd33
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-09-17 07:41:57"
+      description: "We are experiencing SMS delivery delays to multiple networks in Malaysia and African countries. Our engineers are working with our carrier partner to resolve the issue. We will provide an update in 1 hour or as soon as more information becomes available.\n\nList of Impacted Networks: \n\nMalaysia Digi Network\nMalaysia Celcom Network\nMalaysia Red One (XOX) Network\nAngola Movicel Network\nComoros Telma Network\nTanzania Tigo Network\nTanzania Zantel Network\nCentral African Republic Telecel Centraf Network\nGhana Vodafone Network\nMali Telecel Network"
+      investigating: true
