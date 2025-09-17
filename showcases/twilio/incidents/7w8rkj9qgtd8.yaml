@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7w8rkj9qgtd8
+name: Outbound Call Failures to Twilio Japan Phone Numbers
+impact: minor
+systems:
+    - g2dt752kwqs0
+timeline:
+    - ts: "2025-09-17 04:45:27"
+      description: We are observing call failures to Twilio to Japan phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
