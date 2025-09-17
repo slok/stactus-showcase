@@ -17,3 +17,9 @@ timeline:
     - ts: "2025-09-17 16:51:53"
       description: For Codespaces that were stuck in the shutting down state and have been resumed, we've identified an issue that is causing the contents Codespace to be irrecoverably lost which has impacted approximately 250 Codespaces. We are actively working on a mitigation to prevent any more Codespaces currently in this state from being forced to shut down to prevent the potential data loss.
       investigating: true
+    - ts: "2025-09-17 17:55:23"
+      description: We have confirmed the original mitigation to failover has resolved the issue causing Codespaces to become unavailable. We are evaluating if there is a path to recover unpushed data from the approximately 2000 Codespaces that are currently in the shutting down state. We will be resolving this incident and will detail the next steps in our public summary.
+      investigating: true
+    - ts: "2025-09-17 17:55:39"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
