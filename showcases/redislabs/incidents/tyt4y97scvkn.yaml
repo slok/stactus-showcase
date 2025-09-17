@@ -15,3 +15,8 @@ timeline:
       description: |-
         We have deployed a fix which has restored service for Redis Cloud Pro customers. Creation and scaling operations should now function as expected for those accounts. Redis Cloud Essentials customers may still experience issues when creating or scaling resources. We continue to work with our third-party DNS provider on a full resolution and will share further updates as they become available.
         If you have any questions, please contact our support team.
+    - ts: "2025-09-17 04:48:34"
+      description: |-
+        We have deployed a fix that resolves the issue for both Redis Cloud Pro and Essentials customers. Creation and scaling operations should now function as expected across all account types. If you are an Essentials customer and continue to experience connectivity issues when accessing your database, please contact our support team for assistance.
+
+        We continue to work with our third-party DNS provider on a full resolution and will share further updates as they become available.
