@@ -1,0 +1,10 @@
+version: incident/v1
+id: g6md3kb34nm4
+name: Increased HTTP 5xx Errors
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-09-18 01:27:41"
+      description: "Cloudflare is investigating an increased level of HTTP 5xx errors. \n\nWe are working to analyse and mitigate this problem.  More updates to follow shortly."
+      investigating: true

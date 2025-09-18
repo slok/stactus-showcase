@@ -1,8 +1,10 @@
 version: incident/v1
 id: 8fzjkv6zcjyk
-name: Network issues
+name: Network issues in ARN and AMS
 impact: minor
-systems: []
+systems:
+    - 70nsqsjrthwf
+    - gpwm5n91bxsk
 timeline:
     - ts: "2025-09-17 23:44:59"
       description: We are investigating reports of network issues across various regions, mainly EU/NA. Apps are still running, but may experience packet loss or higher latency.
@@ -10,3 +12,5 @@ timeline:
     - ts: "2025-09-18 00:15:02"
       description: We are working with our upstream providers to resolve this issue.
       investigating: true
+    - ts: "2025-09-18 00:51:49"
+      description: We are working with our upstream providers to establish alternate network paths.
