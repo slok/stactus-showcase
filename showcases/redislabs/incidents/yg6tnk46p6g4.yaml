@@ -1,0 +1,11 @@
+version: incident/v1
+id: yg6tnk46p6g4
+name: Network Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-18 03:16:42"
+      description: 'We are experiencing some network issues. This may affect resources that have the following pattern in their endpoint: c319'
+    - ts: "2025-09-18 03:19:36"
+      description: This incident has been resolved.
+      resolved: true
