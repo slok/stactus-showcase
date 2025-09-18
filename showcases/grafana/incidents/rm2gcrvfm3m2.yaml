@@ -16,3 +16,9 @@ timeline:
     - ts: "2025-09-18 14:11:15"
       description: 'Note: A viable workaround is to use collectors on r134'
       investigating: true
+    - ts: "2025-09-18 17:17:43"
+      description: |-
+        Current Update: Users of the OpenTelemetry .NET SDK might face protocol errors when pushing directly to Grafana Cloud without the use of a collector
+
+        We are leaving the previous update posted for transparency, but please note that there is currently no known workaround.
+      investigating: true
