@@ -13,3 +13,6 @@ timeline:
     - ts: "2025-09-18 13:01:24"
       description: Users of OTel collector v0.133 might face protocol errors from .net applications leading to failures writing metrics to Grafana Cloud
       investigating: true
+    - ts: "2025-09-18 14:11:15"
+      description: 'Note: A viable workaround is to use collectors on r134'
+      investigating: true
