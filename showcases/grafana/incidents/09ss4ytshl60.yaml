@@ -1,0 +1,24 @@
+version: incident/v1
+id: 09ss4ytshl60
+name: Azure PrivateLink 503 errors on Mimir and Tempo
+impact: none
+systems:
+    - 1mnpb5g27m21
+    - fs80tlfpb7kx
+    - xm2ns8nm3qgv
+    - 82s7r3tjyb6n
+    - ql2hwfkmnyrr
+    - d1qqwsst6by9
+    - 2ryg39v5zpqj
+    - fqw5kyd5qknh
+    - yhz2gzdqcw4k
+    - zq01gnnnsqsd
+    - cm40jcy1klhh
+    - gcwgxxhzztdh
+    - hrz0zytmsvzw
+    - k4x5wpztwzcq
+    - 3lqbsd6gbn1r
+timeline:
+    - ts: "2025-09-18 07:17:23"
+      description: From 11:00 UTC to 22:09 UTC, customers of Mimir and Tempo using Azure PrivateLink were unable to access services and received 503 errors. This happened because part of our traffic routing setup was unintentionally shut down too early. Once identified, we restored the service and traffic returned to normal.
+      resolved: true
