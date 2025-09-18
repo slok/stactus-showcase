@@ -1,0 +1,15 @@
+version: incident/v1
+id: rm2gcrvfm3m2
+name: Failures to ingest otel metrics .net apps
+impact: major
+systems:
+    - fm6ngm716ftw
+    - pg6f8jh5jmw1
+    - n72tkbyzr423
+    - mcrkfm4my3ks
+    - b74p2737fm3r
+    - 993qpty6gv9f
+timeline:
+    - ts: "2025-09-18 13:01:24"
+      description: Users of OTel collector v0.133 might face protocol errors from .net applications leading to failures writing metrics to Grafana Cloud
+      investigating: true
