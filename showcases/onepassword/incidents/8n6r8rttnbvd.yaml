@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8n6r8rttnbvd
+name: Contact and Sales Forms Returning Errors to Users
+impact: major
+systems:
+    - qv4yvwwdyzj0
+    - hcqxbc67ktwc
+    - gwgkynhddx14
+    - yn6kcc3st545
+timeline:
+    - ts: "2025-09-18 14:48:41"
+      description: We are currently experiencing issues on the forms on 1Password.com (Contact Us, Webinars, Resources, Contact Sales, Contact Sales XAM). Customers filling out forms may experience timeouts or receive an error message "Something went wrong. Please try again or contact business@1password.com". We are investigating the issue and will update this space when we know more.
+      investigating: true
