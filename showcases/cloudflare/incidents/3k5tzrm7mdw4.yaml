@@ -1,0 +1,14 @@
+version: incident/v1
+id: 3k5tzrm7mdw4
+name: Cloudflare Dashboard and API issues
+impact: minor
+systems:
+    - g4tb35rs9yw7
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-09-18 14:50:39"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Dashboard and Cloudflare API sporadic slowliness/availability.
+
+        These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+      investigating: true
