@@ -8,7 +8,9 @@ systems:
 timeline:
     - ts: "2025-09-18 14:50:39"
       description: |-
-        Cloudflare is investigating issues with Cloudflare Dashboard and Cloudflare API sporadic slowliness/availability.
+        Cloudflare is investigating issues with Cloudflare Dashboard and Cloudflare API sporadic slowness/availability.
+
+        This is also impacting Log Explorer, causing ingestion error spikes.
 
         These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
       investigating: true
@@ -16,4 +18,7 @@ timeline:
       description: A fix has been implemented and we are monitoring the results.
     - ts: "2025-09-18 15:39:47"
       description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-09-18 15:52:26"
+      description: We are continuing to investigate this issue.
       investigating: true
