@@ -1,0 +1,13 @@
+version: incident/v1
+id: y9pg9nl09zvd
+name: Email invites to some users are not being received for some customers
+impact: minor
+systems:
+    - nb2s2j09f6sc
+    - nz7h9pkyk9k9
+    - gvwljrxrbrbl
+    - 89gvq67r0l5m
+timeline:
+    - ts: "2025-09-18 20:19:16"
+      description: We are having some issues sending email invites to users for some customers. We are investigating the issue and will update this space when we have more information.
+      investigating: true
