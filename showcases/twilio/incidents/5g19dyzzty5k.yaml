@@ -1,0 +1,13 @@
+version: incident/v1
+id: 5g19dyzzty5k
+name: MMS Delivery Delays To a Subset of Twilio US Short Codes
+impact: minor
+systems:
+    - h0fl7prwfhvm
+timeline:
+    - ts: "2025-09-18 00:06:20"
+      description: Our monitoring systems have detected a potential issue with MMS delivery delays. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-09-18 00:12:19"
+      description: We are experiencing MMS delivery delays when sending messages to a Subset of Twilio US Short Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
