@@ -1,0 +1,10 @@
+version: incident/v1
+id: p1hmycqj6y5l
+name: Unable to modify bindings in Workers dashboard
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-09-19 20:22:47"
+      description: Cloudflare is aware of and investigating an issue where users are unable to add/edit/remove bindings from Workers in the Cloudflare dashboard.
+      investigating: true
