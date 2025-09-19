@@ -1,0 +1,10 @@
+version: incident/v1
+id: slcc6kcq6vl2
+name: Call Failures to Multiple Networks in Brazil from a Subset of Twilio's Phone Numbers
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2025-09-19 15:53:46"
+      description: We are observing call failures to multiple networks in Brazil from a subset of Twilio's phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
