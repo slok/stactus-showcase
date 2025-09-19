@@ -1,0 +1,11 @@
+version: incident/v1
+id: qzgmjj3gg21l
+name: SMS Delivery Delay to Multiple Networks in South Africa
+impact: minor
+systems:
+    - llgdln3dcs6p
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-09-19 04:42:40"
+      description: We are experiencing SMS delivery delays to multiple networks in South Africa. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
