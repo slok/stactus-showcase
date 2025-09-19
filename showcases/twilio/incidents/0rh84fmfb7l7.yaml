@@ -1,9 +1,13 @@
 version: incident/v1
 id: 0rh84fmfb7l7
 name: Channel Orchestrated Messages Which Fallback to SMS/MMS May Stuck at Accepted State
-impact: none
-systems: []
+impact: minor
+systems:
+    - yvvy3vlp4djf
 timeline:
     - ts: "2025-09-19 11:08:26"
       description: Our monitoring systems have detected a potential issue with Channel Orchestrated Messages. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-09-19 11:36:09"
+      description: We are investigating an issue with Channel Orchestrated Messages. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
