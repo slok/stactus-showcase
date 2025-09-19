@@ -1,12 +1,12 @@
 version: incident/v1
 id: cc68xrf8l3fv
-name: WARP connectivity
+name: Issues with WARP Connectivity and Website Traffic
 impact: minor
 systems:
     - k04jkcpzxn94
 timeline:
     - ts: "2025-09-19 11:00:51"
-      description: Cloudflare is investigating issues with Cloudflare WARP and Cloudflare Zero Trust. Cloudflare WARP and Zero Trust users may experience connectivity issues or a degraded Internet experience.
+      description: Cloudflare is investigating issues with Cloudflare WARP, Cloudflare Zero Trust and website traffic for a few customers. Cloudflare WARP and Zero Trust users, as well as website visitors may experience connectivity issues or a degraded Internet experience.
       investigating: true
     - ts: "2025-09-19 11:23:00"
       description: A fix has been implemented and we are monitoring the results.
