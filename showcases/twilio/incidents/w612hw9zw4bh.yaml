@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2025-09-19 00:03:17"
       description: We are observing recovery in voice call failures. We will continue monitoring the service to ensure a full recovery. We will provide another update in 4 or as soon as more information becomes available.
+    - ts: "2025-09-19 02:09:55"
+      description: We are no longer observing voice call failures to Brazil subscribers from a subset of Brazil Twilio numbers.  This incident has been resolved.
+      resolved: true
