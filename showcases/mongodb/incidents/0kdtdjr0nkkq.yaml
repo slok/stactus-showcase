@@ -1,0 +1,9 @@
+version: incident/v1
+id: 0kdtdjr0nkkq
+name: MongoDB Atlas Stream Processing and Query Shape metrics gap
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-19 13:48:40"
+      description: From approximately 07:00 to 08:45 UTC on 2025-09-17, metrics for Atlas Stream Processing were not being processed. This affected viewing the metrics in the Atlas UI, querying them via the Admin API, or viewing them in Datadog. Additionally, Query Shape metrics were not provided during this time. Affected users will see gaps in their metric data during those times. We will not be backfilling this metric data.
+      resolved: true
