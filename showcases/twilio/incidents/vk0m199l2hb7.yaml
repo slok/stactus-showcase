@@ -1,0 +1,10 @@
+version: incident/v1
+id: vk0m199l2hb7
+name: Call setup failures for Twilio SIP using Twilio Interconnect in us2 edge
+impact: minor
+systems:
+    - w7nxj548smhd
+timeline:
+    - ts: "2025-09-20 06:19:07"
+      description: Customers connecting to the Twilio SIP edge in us2 using Twilio Interconnect may experience call setup failures. Our engineering teams are actively working to resolve these issues. We expect to provide another update in 30 mins or as soon as more information becomes available.
+      investigating: true
