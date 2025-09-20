@@ -1,0 +1,14 @@
+version: incident/v1
+id: sq70bh11bhx7
+name: Degradation in Managed Databases
+impact: minor
+systems:
+    - mzkgffp35tq4
+timeline:
+    - ts: "2025-09-20 00:42:35"
+      description: |-
+        Our Engineering team has identified an issue affecting the ability to access and manage the Managed databases and App platform in the Cloud Control Panel.
+
+        While there is no impact on data-plane availability, Users may experience some issues like UI taking a while to load, request timeouts, some delays in App platform deployment for apps that have databases, and some API errors.
+
+        Our Engineering team is already working on this issue for the resolution. We apologize for the inconvenience and will share an update once we have more information.
