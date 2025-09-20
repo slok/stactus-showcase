@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-09-20 06:19:07"
       description: Customers connecting to the Twilio SIP edge in us2 using Twilio Interconnect may experience call setup failures. Our engineering teams are actively working to resolve these issues. We expect to provide another update in 30 mins or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-09-20 06:48:58"
+      description: Our engineering teams have identified that the issue is related to a loss of IP addresses for certain hosts in the US2 region during a recent maintenance event. While most traffic is being rerouted and voice services remain available, some customers may still experience degraded performance or intermittent call setup failures. Our engineering teams are actively working to resolve the issues. We expect to provide another update in 30 mins or as soon as more information becomes available.
