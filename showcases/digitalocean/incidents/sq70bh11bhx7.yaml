@@ -12,3 +12,10 @@ timeline:
         While there is no impact on data-plane availability, Users may experience some issues like UI taking a while to load, request timeouts, some delays in App platform deployment for apps that have databases, and some API errors.
 
         Our Engineering team is already working on this issue for the resolution. We apologize for the inconvenience and will share an update once we have more information.
+    - ts: "2025-09-20 02:30:54"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue that was resulting in the degradation of the Managed Database and App platform deployment in the Cloud Control Panel.
+
+        During this time, users should no longer experience slowness issues with Managed Database and App Platform, and any other previously mentioned timeouts and errors.
+
+        We will post an update as soon as the issue is fully resolved.
