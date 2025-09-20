@@ -1,0 +1,9 @@
+version: incident/v1
+id: 4c9jh2lvlwxx
+name: Network Issues in FRA, GRU, SCL, and SIN
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-20 14:25:21"
+      description: "We've identified and mitigated a Fly Proxy issue affecting hosts on the FRA, GRU, SCL, and SIN regions. Network connectivity has been fully restored and all services have returned to normal. \n\nAffected Hosts on the regions experienced connectivity issues for 1 hour and 10 minutes ( 12:30 - 13:40 UTC ).\n\nThis incident has been resolved."
+      resolved: true
