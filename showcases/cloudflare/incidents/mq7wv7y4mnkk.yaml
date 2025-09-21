@@ -1,0 +1,9 @@
+version: incident/v1
+id: mq7wv7y4mnkk
+name: Cloudflare Dashboard and API may return rate limit errors when modifying IP Lists
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-21 06:03:29"
+      description: "Cloudflare is aware of and currently investigating an issue that may result in rate limit errors when making changes to IP Lists via the Dashboard or API. \n\nCustomers attempting to update IP Lists may experience failed requests or see error messages. \n\nFurther updates will be provided as more information becomes available."
+      investigating: true
