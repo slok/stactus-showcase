@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5gbwhds0f6px
+name: SMS Delivery Failures to Sasktel Network in Canada
+impact: none
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2025-09-22 20:14:41"
+      description: We are experiencing SMS delivery failures when sending messages to Sasktel Network in Canada. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
