@@ -1,0 +1,13 @@
+version: incident/v1
+id: z232s7s74hlb
+name: Intermittent Issue with Zoom File Service.
+impact: none
+systems:
+    - zhgjct3grx1z
+    - 5nb7nq17c6g5
+    - rryv3x03gshj
+    - r6dchcqc8zx6
+    - c110sm47tmwf
+timeline:
+    - ts: "2025-09-22 16:41:58"
+      description: Between 22/9/2025 14:58 UTC to 15:51 UTC, A subset of users might have experienced intermittent issues with Zoom File Service. Our engineers mitigated the issue, this incident has been resolved.
