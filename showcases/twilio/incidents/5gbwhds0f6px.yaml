@@ -1,10 +1,19 @@
 version: incident/v1
 id: 5gbwhds0f6px
 name: SMS Delivery Failures to Sasktel Network in Canada
-impact: none
+impact: minor
 systems:
     - 7d8w22hqrh6s
+    - 39mb8cmw8y2v
+    - k7rg1rqk2nwk
+    - 32f2bm54nkvv
 timeline:
     - ts: "2025-09-22 20:14:41"
       description: We are experiencing SMS delivery failures when sending messages to Sasktel Network in Canada. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-09-22 20:40:16"
+      description: We are still experiencing SMS delivery failures when sending messages to Sasktel Network in Canada. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-09-22 20:47:57"
+      description: Upon further investigation, we have confirmed that traffic sent from Toll Free and Short Code numbers is also affected by the ongoing incident. We are actively investigating SMS delivery failures when sending messages to Sasktel Network in Canada and will provide another update in 1 hour or as soon as possible.
       investigating: true
