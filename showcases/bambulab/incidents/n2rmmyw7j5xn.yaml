@@ -1,0 +1,23 @@
+version: incident/v1
+id: n2rmmyw7j5xn
+name: Some cloud services encounter an fatal issue
+impact: major
+systems:
+    - sw5q8tgl2864
+    - nfd5mclwftjw
+    - 5fs3yzwktd3t
+    - w7ycvnq5lw8s
+    - k1z8m42c0d7r
+    - tlk3750f34v2
+    - 6hkfwd93hvnk
+timeline:
+    - ts: "2025-09-22 04:09:41"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-09-22 04:09:55"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-09-22 04:10:17"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-09-22 04:12:20"
+      description: This incident has been resolved. It lasted about 10 minutes.
+      resolved: true
