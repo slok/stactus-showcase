@@ -35,3 +35,6 @@ timeline:
       investigating: true
     - ts: "2025-09-23 18:25:01"
       description: We have identified recovery on calls from Twilio's phone numbers to network subscribers in Brazil. We will continue to monitor to ensure a full recovery. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2025-09-23 19:51:58"
+      description: We are no longer experiencing call failures from TIM Network Subscribers in Brazil to a Subset of Twilio Phone Numbers. This incident has been resolved.
+      resolved: true
