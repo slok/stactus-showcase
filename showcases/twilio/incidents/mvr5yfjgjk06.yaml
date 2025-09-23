@@ -1,0 +1,11 @@
+version: incident/v1
+id: mvr5yfjgjk06
+name: SMS Delivery Delays to Multiple Networks in the United States
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2025-09-23 16:44:42"
+      description: We are experiencing SMS delivery delays when sending messages to multiple networks in the United States. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
