@@ -1,0 +1,13 @@
+version: incident/v1
+id: pw03wwkz4prv
+name: Provisioning invite links are not working
+impact: major
+systems:
+    - bhm9mb16131r
+    - 44mr9pvxy2h1
+    - rlmyjkj2cs9k
+    - spn81q8l6hrg
+timeline:
+    - ts: "2025-09-23 21:24:26"
+      description: Invite links are currently returning an error when attempting to accept an invite from provisioning. Our engineering team is actively investigating.
+      investigating: true
