@@ -1,0 +1,14 @@
+version: incident/v1
+id: zlzvt6h3ck58
+name: Incident with Pages and Actions
+impact: minor
+systems:
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2025-09-23 17:28:11"
+      description: We are investigating reports of degraded performance for Actions and Pages
+      investigating: true
+    - ts: "2025-09-23 17:33:26"
+      description: We are investigating delays in Actions Workflows.
+      investigating: true
