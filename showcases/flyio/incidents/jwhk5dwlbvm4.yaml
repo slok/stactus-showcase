@@ -1,0 +1,10 @@
+version: incident/v1
+id: jwhk5dwlbvm4
+name: Network issues in ORD (Chicago)
+impact: minor
+systems:
+    - vfq82tp9wp5r
+timeline:
+    - ts: "2025-09-23 02:44:47"
+      description: We are investigating network issues in the ORD region. Apps may experience higher latency or packet loss.
+      investigating: true
