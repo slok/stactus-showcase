@@ -32,3 +32,5 @@ timeline:
     - ts: "2025-09-24 10:29:18"
       description: We are currently investigating an issue with Grafana instances failing to start and we’ll provide updates as they become available.
       investigating: true
+    - ts: "2025-09-24 11:32:34"
+      description: We have determined that the issue was occurring on instances in which the Grafana Assistant plugin was disabled. A manual fix has been applied on affected instances and they are back online. We are currently in the process of implementing a permanent fix.
