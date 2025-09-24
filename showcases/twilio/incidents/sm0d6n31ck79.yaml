@@ -1,0 +1,10 @@
+version: incident/v1
+id: sm0d6n31ck79
+name: SMS Delivery Failures From and to Multiple Networks in France for a Subset of Long Code Numbers
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-09-24 10:52:23"
+      description: We are experiencing SMS delivery failures from and to multiple networks in France for a subset of long code numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
