@@ -1,0 +1,17 @@
+version: incident/v1
+id: p9qy3hv550zm
+name: Some users are unable to interact with the admin console
+impact: major
+systems:
+    - xgs4k9r41xf6
+    - bc33bxyk1phv
+    - cgltwfnt80mm
+    - 5mb7qcyd6jtf
+    - nb2s2j09f6sc
+    - nz7h9pkyk9k9
+    - gvwljrxrbrbl
+    - 89gvq67r0l5m
+timeline:
+    - ts: "2025-09-24 03:00:42"
+      description: We are actively investigating an issue where some users are encountering errors when interacting with the admin console, which leads to errors during sign-in.
+      investigating: true
