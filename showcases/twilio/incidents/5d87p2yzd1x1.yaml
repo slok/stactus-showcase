@@ -1,6 +1,6 @@
 version: incident/v1
 id: 5d87p2yzd1x1
-name: SMS Delivery Delays to Multiple Networks in New Zealand via a Subset of Short Codes
+name: SMS Delivery Failures to Multiple Networks in New Zealand via a Subset of Short Codes
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -13,4 +13,7 @@ timeline:
       investigating: true
     - ts: "2025-09-24 14:06:28"
       description: We are still experiencing SMS delivery delays to multiple networks in New Zealand via a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-09-24 18:06:15"
+      description: We are still experiencing SMS delivery failures to multiple networks in New Zealand via a subset of short codes. After investigating, it was determined that the delivery delays were delivery failures. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
