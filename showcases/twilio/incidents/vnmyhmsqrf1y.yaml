@@ -5,6 +5,7 @@ impact: minor
 systems:
     - xnzrm2zg4qbv
     - 361mb56zmf8z
+    - qphgn531prd5
 timeline:
     - ts: "2025-09-24 12:15:13"
       description: We are experiencing an issue where Twilio accounts may not be able to capture speech using through Gather. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available
@@ -14,3 +15,5 @@ timeline:
       investigating: true
     - ts: "2025-09-24 12:48:06"
       description: We are observing recovery where Twilio accounts may not be able to capture speech using through Gather. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-09-24 13:41:20"
+      description: We are observing recovery where a small subset of Twilio accounts may not be able to capture speech using through Gather. While reviewing the original impact, we identified that these customers may have observed delayed transcripts. We expect to provide another update in 2 hours or as soon as more information becomes available.
