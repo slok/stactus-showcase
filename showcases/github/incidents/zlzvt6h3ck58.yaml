@@ -13,5 +13,5 @@ timeline:
       description: We are investigating delays in Actions Workflows.
       investigating: true
     - ts: "2025-09-23 17:41:57"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On September 23, between 17:11 and 17:40 UTC, customers experienced failures and delays when running workflows on GitHub Actions and building or deploying GitHub Pages. The issue was caused by a faulty configuration change that disrupted service to service communication in GitHub Actions. During this period, in-progress jobs were delayed and new jobs would not start due to a failure to acquire runners, and about 30% of all jobs failed. GitHub Pages users were unable to build or deploy their Pages during this period.<br /><br />The offending change was rolled back within 15 minutes of its deployment, after which Actions workflows and Pages deployments began to succeed. Actions customers continued to experience delays for about 15 minutes after the rollback was completed while services worked through the backlog of queued jobs. We are planning to implement additional rollout checks to help detect and prevent similar issues in the future.
       resolved: true
