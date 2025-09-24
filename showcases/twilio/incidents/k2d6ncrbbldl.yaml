@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2025-09-24 17:05:03"
       description: Media uploads in the Content Template API are now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-09-24 18:14:02"
+      description: After investigation, our engineers have confirmed that rate limiting may have occurred for some customers which created Content Templates with media. Errors and rate limits related to media uploads for the Content Template API has been resolved and is now operating normally at this time.
+      resolved: true
