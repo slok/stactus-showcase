@@ -1,0 +1,12 @@
+version: incident/v1
+id: pm0l7tdd6nyk
+name: Disruption with some GitHub services
+impact: major
+systems: []
+timeline:
+    - ts: "2025-09-24 14:46:30"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-09-24 14:55:07"
+      description: We are seeing delays in email delivery, which is impacting notifications and user signup email verification. We are investigating and working on mitigation.
+      investigating: true
