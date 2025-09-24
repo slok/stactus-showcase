@@ -1,0 +1,9 @@
+version: incident/v1
+id: jnr4t5mfktkx
+name: Elevated Errors Preventing Modification to Call Recordings
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-24 16:51:15"
+      description: For a subset of calls from 16:24-16:33 UTC on September 24, 2025, Twilio accounts may not be able to start, stop, pause or resume a call or conference recording via the Recordings API, or be able to modify an in-progress call using the Calls API. The issue has now been resolved.
+      resolved: true
