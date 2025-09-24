@@ -1,9 +1,15 @@
 version: incident/v1
 id: p7x00fkjzxzz
-name: Our Engineers Are Investigating an Issue With Twilio Accounts May Not Be Able to Receive Inbound Calls to a Twilio Number
-impact: none
-systems: []
+name: Twilio Accounts May Not Be Able to Receive an Inbound Call to a Twilio Number
+impact: minor
+systems:
+    - g2dt752kwqs0
+    - w7nxj548smhd
+    - xnzrm2zg4qbv
 timeline:
     - ts: "2025-09-24 22:41:04"
       description: Our monitoring systems have detected a potential issue Twilio accounts may not be able to receive an inbound call to a Twilio number. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-09-24 23:05:28"
+      description: We are experiencing an issue in US1 where Twilio accounts may not be able to receive an inbound call to a Twilio number. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
