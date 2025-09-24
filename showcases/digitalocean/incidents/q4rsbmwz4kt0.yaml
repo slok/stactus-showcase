@@ -1,0 +1,12 @@
+version: incident/v1
+id: q4rsbmwz4kt0
+name: 'Domain Accessibility: .space Domains'
+impact: minor
+systems:
+    - qdnryq0lymfk
+timeline:
+    - ts: "2025-09-24 15:10:59"
+      description: |-
+        Our Engineering team has identified issues affecting .space domains. As a result, some customers may be unable to access their websites, and zone files may not appear in dig results. The engineers have confirmed that this is an issue with the registry and have informed upstream providers.
+
+        We apologize for the inconvenience and will provide updates as soon as more information is available.
