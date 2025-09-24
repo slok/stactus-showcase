@@ -11,3 +11,9 @@ timeline:
     - ts: "2025-09-23 22:22:32"
       description: We are experiencing degraded availability for the Claude Sonnet 3.7 and Claude Sonnet 4 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.
       investigating: true
+    - ts: "2025-09-24 00:26:21"
+      description: The issues with our upstream model provider have been resolved, and Claude Sonnet 3.7 and Claude Sonnet 4 are once again available in Copilot Chat, VS Code and other Copilot products.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.<br />
+      investigating: true
+    - ts: "2025-09-24 00:26:29"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
