@@ -1,0 +1,15 @@
+version: incident/v1
+id: nv48dwqdzd54
+name: Claude Opus 4 is experiencing degraded performance
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-09-24 09:08:11"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-09-24 09:16:40"
+      description: Between around 8:16 UTC and 8:51 UTC we saw elevated errors on Claude Opus 4 and Opus 4.1, up to 49% of requests were failing. This has recovered to around 4% of requests failing, we are monitoring recovery.
+      investigating: true
+    - ts: "2025-09-24 09:18:30"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
