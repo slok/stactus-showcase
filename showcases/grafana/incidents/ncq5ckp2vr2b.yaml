@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-09-24 16:26:10"
       description: We are currently seeing degraded performance in prod-us-central-0 for the Google Cloud Monitoring data source. We are currently investigating this issue.
       investigating: true
+    - ts: "2025-09-24 20:07:59"
+      description: We have identified a potential fix, rolled it out, and are monitoring things to ensure the issue is mitigated.
