@@ -1,10 +1,15 @@
 version: incident/v1
 id: rwrqfjnxd0wy
-name: On Call Engineers are Investigating an issue
-impact: none
+name: Live chat Unavailable Within Twilio Help Center
+impact: minor
 systems:
     - xv01vfp8wvs4
 timeline:
     - ts: "2025-09-25 18:01:04"
       description: Our monitoring systems have detected a potential issue with Live Chat options while using the Help Center Assistant. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-09-25 18:11:36"
+      description: We're currently experiencing an issue with the Live Chat feature on both the Twilio Help Center and the SendGrid Support Portal. Live Chat is temporarily unavailable through these portals. Our engineering team is actively investigating the issue. In the meantime, you may still be able to access Live Chat via the AI Chatbot in the Twilio Help Center. We'll share another update within the next hour or as soon as we have more information.
+      investigating: true
+    - ts: "2025-09-25 18:20:15"
+      description: Issues accessing the Live Chat feature on the Twilio Help Center and SendGrid Support Portal have been resolved. Users are now able to select Live Chat normally again. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.
