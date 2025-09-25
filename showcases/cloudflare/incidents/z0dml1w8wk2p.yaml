@@ -1,0 +1,9 @@
+version: incident/v1
+id: z0dml1w8wk2p
+name: Network performance degradation towards AWS ap-southeast-1 (Singapore) region on Semptember 24
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-25 11:40:20"
+      description: Between 06:45 - 07:07 UTC on September 24, traffic from Cloudflare services towards the ap-southeast-1 (Singapore) AWS region may have experienced intermittent increases in network latency and associated errors as a result of this degradation.
+      resolved: true
