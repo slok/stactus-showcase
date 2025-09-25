@@ -1,0 +1,10 @@
+version: incident/v1
+id: q38b4dzx27yn
+name: Lookup V2 Sim Swap Service Disruption in IE1 Region
+impact: minor
+systems:
+    - q0hp6vfr4vvh
+timeline:
+    - ts: "2025-09-25 20:00:48"
+      description: We are currently investigating an issue impacting the Lookup V2 API sim swap functionality in the IE1 region. Customers using the sim swap package may experience errors when attempting to perform sim swap operations. Our engineering teams are actively working to identify the root cause and restore full service as quickly as possible. We will provide an update in 1 hour or as more information is available.
+      investigating: true
