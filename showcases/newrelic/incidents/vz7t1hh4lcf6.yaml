@@ -1,0 +1,9 @@
+version: incident/v1
+id: vz7t1hh4lcf6
+name: Data Irregularities in the EU region
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-25 16:15:38"
+      description: Between 15:11 UTC and 15:38 UTC on September 25th, some customers in the EU region may have experienced delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data.  There was no impact to data ingest.  We have investigated and resolved this service interruption and impacted services have returned to normal operations.
+      resolved: true
