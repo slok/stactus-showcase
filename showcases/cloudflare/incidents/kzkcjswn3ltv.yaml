@@ -1,0 +1,12 @@
+version: incident/v1
+id: kzkcjswn3ltv
+name: Dashboard Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-25 14:39:16"
+      description: |-
+        Today, between 14:07 and 14:11 UTC, some customers may have experienced increased error rates when accessing the dashboard. The issue was identified and promptly resolved.
+
+        Important: This did not impact edge traffic or core service functionality, only the dashboard experience was briefly affected.
+      resolved: true
