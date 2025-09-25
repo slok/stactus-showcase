@@ -1,10 +1,13 @@
 version: incident/v1
 id: wdfkjcp5c1r9
-name: On Call Engineers are Investigating an issue
-impact: none
+name: Errors while using the WhatsApp Sandbox with Brazil WhatsApp addresses
+impact: minor
 systems:
     - 1gkv0mxhzsjv
 timeline:
     - ts: "2025-09-25 14:00:06"
       description: Our engineering team has detected a potential issue regarding the WhatsApp sandbox. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-09-25 14:22:19"
+      description: We are continuing to investigate this issue.
       investigating: true
