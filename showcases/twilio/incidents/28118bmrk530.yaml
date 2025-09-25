@@ -1,6 +1,6 @@
 version: incident/v1
 id: 28118bmrk530
-name: Call Failures to and from a Subset of number with +390 prefix in Italy
+name: Call Failures from Italian Network Subscribers to a subset of Twilio's numbers with the prefix +3904
 impact: minor
 systems:
     - bnzggd37p61w
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-09-25 16:49:23"
       description: We are observing call failures to Twilio Italy phone numbers in the +390 range. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-09-25 17:27:18"
+      description: We have identified that this incident is only impacting calls from Italian Network Subscribers to a subset of Twilio's numbers with the prefix +3904. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
