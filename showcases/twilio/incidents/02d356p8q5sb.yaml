@@ -1,0 +1,19 @@
+version: incident/v1
+id: 02d356p8q5sb
+name: Call Failures To and From a Subset of Twilio Phone Numbers in Europe
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2025-09-25 22:55:34"
+      description: Our monitoring systems have detected a potential issue with call failures to and from a subset of Twilio phone numbers in Europe. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-09-25 23:05:25"
+      description: |-
+        We are observing call failures to and from a subset of Twilio phone numbers in Europe. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available. Below you can find the list of impacted countries by this incident:
+        - Norway
+        - Bulgaria
+        - Hungary
+        - Croatia
+        - Estonia
+      investigating: true
