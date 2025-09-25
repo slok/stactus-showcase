@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2025-09-25 19:26:46"
       description: We have started seeing recovery for inbound calls from Italian Network Subscribers to a subset of Twilio's numbers with the prefix +3904. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-09-25 21:24:24"
+      description: The issue affecting calls from Italian Network Subscribers to a subset of Twilio's numbers with the prefix +3904 has been resolved, and the service is functioning normally at this time.
+      resolved: true
