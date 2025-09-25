@@ -1,0 +1,10 @@
+version: incident/v1
+id: mplbp98ng1hz
+name: Unable to Verify Phone Numbers with Twilio via Voice Call
+impact: minor
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2025-09-25 16:40:14"
+      description: We are investigating a service interruption while verifying phone numbers with Twilio via Voice calls. As a workaround, you can still move forward via SMS or by contacting support for manual verification. Our engineers are working to identify a fix for this issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

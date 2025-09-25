@@ -1,0 +1,13 @@
+version: incident/v1
+id: 28118bmrk530
+name: Call Failures to and from a Subset of number with +390 prefix in Italy
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2025-09-25 16:42:57"
+      description: Our monitoring systems have detected a potential issue surrounding Voice Calls within a specific region. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-09-25 16:49:23"
+      description: We are observing call failures to Twilio Italy phone numbers in the +390 range. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
