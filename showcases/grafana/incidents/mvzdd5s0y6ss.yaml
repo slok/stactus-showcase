@@ -1,0 +1,11 @@
+version: incident/v1
+id: mvzdd5s0y6ss
+name: Cortex read/write partial outage
+impact: major
+systems:
+    - jhc34sjt42wd
+    - 1tt4gx4t4q87
+timeline:
+    - ts: "2025-09-26 09:34:05"
+      description: "We are currently seeing a partial outage in cortex-prod-10 and cortex-prod-06, for on both reads / writes. \nWe are currently investigating this issue."
+      investigating: true
