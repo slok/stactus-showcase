@@ -1,10 +1,10 @@
 version: incident/v1
 id: f9bfxz7s9kjt
-name: Stream Upload Delays
+name: Elevated Errors for R2 and Stream Uploads
 impact: minor
 systems:
     - 47xg28c02lnk
 timeline:
     - ts: "2025-09-26 15:31:55"
-      description: "Cloudflare is investigating issues with uploading videos to Stream. \n\nWe are working to understand the full impact and mitigate this problem.  More updates to follow shortly"
+      description: "Cloudflare is investigating issues with R2 and uploading videos to Stream. \n\nWe are working to understand the full impact and mitigate this problem.  More updates to follow shortly."
       investigating: true
