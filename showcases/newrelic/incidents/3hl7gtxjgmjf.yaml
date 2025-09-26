@@ -1,0 +1,9 @@
+version: incident/v1
+id: 3hl7gtxjgmjf
+name: Delays in data and alerts in EU/US
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-26 22:42:23"
+      description: Between 21:48 UTC and 22:36 UTC on September 26, Friday, some customers in the US & EU region may have experienced delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data.  We have investigated and resolved this service interruption and impacted services have returned to normal operations.  To prevent our customers from receiving a high volume of false positive alert notifications, we temporarily suppressed notifications for affected data between 22:11 UTC and 22:30 UTC.
+      resolved: true
