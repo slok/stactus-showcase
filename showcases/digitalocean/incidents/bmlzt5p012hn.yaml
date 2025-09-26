@@ -1,0 +1,15 @@
+version: incident/v1
+id: bmlzt5p012hn
+name: Spaces Availability in FRA1 Region
+impact: minor
+systems:
+    - sk01cyydqy7b
+    - gpcbys3n2v21
+    - 66wjtpd8ngvx
+timeline:
+    - ts: "2025-09-26 09:47:09"
+      description: |-
+        Our Engineering team is investigating a performance issue affecting Spaces in the FRA1 region. During this time, customers may experience slow performance or limited availability when accessing Spaces or its objects via the Control Panel or API, and Container Registry access may also be affected.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
