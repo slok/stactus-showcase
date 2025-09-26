@@ -1,0 +1,12 @@
+version: incident/v1
+id: ndwtmm1tyvfg
+name: Increased HTTP 5xx Errors
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-09-26 13:04:39"
+      description: |-
+        Cloudflare was investigating an increased level of HTTP 5xx errors. This issue has been resolved.
+
+        Impact window: Sep. 25, 2025, between 23:10 UTC and 23:52 UTC
+      resolved: true
