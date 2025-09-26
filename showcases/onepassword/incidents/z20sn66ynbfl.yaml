@@ -1,0 +1,18 @@
+version: incident/v1
+id: z20sn66ynbfl
+name: Degraded performance when accessing 1Password
+impact: minor
+systems:
+    - cgltwfnt80mm
+    - 44mr9pvxy2h1
+    - 5g595mfvxrwb
+    - dd7j6hgdy98l
+    - nb2s2j09f6sc
+    - mxh1682h05hp
+    - c1hyq57z8lnq
+    - 03vs2j75ds22
+    - bqxt4w06fczc
+timeline:
+    - ts: "2025-09-26 16:51:38"
+      description: We are actively investigating an issue where customers may be experiencing degraded performance and slowdowns when accessing 1Password.
+      investigating: true
