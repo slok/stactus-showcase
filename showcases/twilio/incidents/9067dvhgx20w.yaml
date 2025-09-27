@@ -1,10 +1,13 @@
 version: incident/v1
 id: 9067dvhgx20w
-name: SMS Delivery Delays to Bharti Airtel in India via a Subset of Shortcodes
+name: SMS Delivery Delays to Multiple Networks in India via a Subset of Shortcodes
 impact: minor
 systems:
     - 8qjql0kqnd33
 timeline:
     - ts: "2025-09-27 14:50:22"
       description: We are experiencing SMS delivery delays when sending messages to Bharti Airtel in India via a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-09-27 15:44:25"
+      description: We are experiencing SMS delivery delays when sending messages to Multiple Networksl in India via a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
