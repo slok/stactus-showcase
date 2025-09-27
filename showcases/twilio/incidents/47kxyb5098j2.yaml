@@ -1,0 +1,10 @@
+version: incident/v1
+id: 47kxyb5098j2
+name: SMS Delivery Report Delays to Google Voice Network in US via a Subset of Shortcodes
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2025-09-27 03:31:55"
+      description: We are experiencing delays in receiving message delivery reports when sending to Google Voice Network in US via a Subset of Shortcode. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
