@@ -8,3 +8,8 @@ timeline:
     - ts: "2025-09-27 13:19:57"
       description: "Our Engineering team is investigating an issue impacting networking connectivity in BLR1 region with upstream provider. Users may experience network connectivity loss to Droplets and Droplet-based services, like Managed Kubernetes and Database Clusters. \n\nWe apologize for the inconvenience and will share an update once we have more information."
       investigating: true
+    - ts: "2025-09-27 13:58:26"
+      description: |-
+        The network connectivity issue impacting the BLR1 region has been mitigated. Users should no longer experience packet loss/latency, timeouts, and related issues with Droplet-based services in this region, including Droplets, LBaas, Managed Kubernetes, and Managed Database.
+
+        We appreciate your patience and will provide an update once the issue is fully confirmed as resolved.
