@@ -1,0 +1,10 @@
+version: incident/v1
+id: tfgww6hck4l0
+name: Networking incident in BOM (India)
+impact: major
+systems:
+    - k6fbt4mk0xv1
+timeline:
+    - ts: "2025-09-27 14:28:58"
+      description: We are currently investigating a networking incident with our upstream providers.
+      investigating: true

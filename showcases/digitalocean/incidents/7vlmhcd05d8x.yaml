@@ -13,3 +13,9 @@ timeline:
         The network connectivity issue impacting the BLR1 region has been mitigated. Users should no longer experience packet loss/latency, timeouts, and related issues with Droplet-based services in this region, including Droplets, LBaas, Managed Kubernetes, and Managed Database.
 
         We appreciate your patience and will provide an update once the issue is fully confirmed as resolved.
+    - ts: "2025-09-27 14:29:25"
+      description: |-
+        Our Engineering team is still observing intermittent issues impacting network connectivity in the BLR1 region. This stems from a broader Internet issue impacting the BLR1 region. As a result, users may still continue to experience packet loss/latency, timeouts, and related issues with Droplet-based services in this region, including Droplets, LBaaS, Managed Kubernetes, and Managed Database. Our Engineering team is actively investigating the issue.
+
+        We will post an update as soon as additional information is available.
+      investigating: true
