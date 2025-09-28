@@ -1,0 +1,12 @@
+version: incident/v1
+id: 9h740fcpt7mp
+name: SMS Delivery Failures to Viva Cell MTS in Armenia
+impact: minor
+systems:
+    - llgdln3dcs6p
+    - 9z5gsqyjs4rl
+    - kj97j77088bh
+timeline:
+    - ts: "2025-09-28 04:30:11"
+      description: We are experiencing SMS delivery failures to Viva Cell MTS in Armenia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
