@@ -1,6 +1,6 @@
 version: incident/v1
 id: m23wdpfd78kp
-name: Network outage in EZE (Argentina)
+name: Outage in EZE (Argentina)
 impact: critical
 systems:
     - gjyfpty295z6
@@ -11,4 +11,6 @@ timeline:
     - ts: "2025-09-28 16:37:03"
       description: Due to a power failure at the EZE datacenter, machines hosted in EZE are unavailable. We are tracking this issue with our upstream providers.
     - ts: "2025-09-28 17:24:57"
+      description: We are continuing to track this issue with our upstream providers.
+    - ts: "2025-09-28 18:21:52"
       description: We are continuing to track this issue with our upstream providers.
