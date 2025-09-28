@@ -1,10 +1,16 @@
 version: incident/v1
 id: 7s283m34yp1d
-name: SMS Delivery Delays & Failures via Multiple Networks in United States of America and Canada via Subset of Twilio numbers
+name: MMS/SMS Delivery Delays & Failures via Multiple Networks in United States of America and Canada via Subset of Twilio numbers
 impact: minor
 systems:
     - 7d8w22hqrh6s
+    - 8vdlvw3dsq8h
+    - 39mb8cmw8y2v
+    - h0fl7prwfhvm
 timeline:
     - ts: "2025-09-28 17:00:40"
       description: We are experiencing SMS delivery delays & failures to multiple networks in United States of America and Canada via subset of Twilio numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-09-28 17:46:37"
+      description: We are still experiencing MMS/SMS delivery delays & failures to multiple networks in United States of America and Canada via subset of Twilio numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
