@@ -1,0 +1,12 @@
+version: incident/v1
+id: 0s5rb1l03m76
+name: Disruption with Gemini 2.5 Pro and Gemini 2.0 Flash in Copilot
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-09-29 18:39:47"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-09-29 18:40:19"
+      description: We are experiencing degraded availability for the Gemini 2.5 Pro & Gemini 2.0 Flash models in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.
+      investigating: true
