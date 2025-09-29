@@ -4,6 +4,7 @@ name: Cloudflare Pages, Workers and Custom Hostname API issues
 impact: minor
 systems:
     - vgxj684rcw7t
+    - 9p2qlpt19nqb
     - vcpsk0w6g86k
 timeline:
     - ts: "2025-09-29 03:45:19"
@@ -14,4 +15,7 @@ timeline:
         All traffic to Workers and Pages will continue to work as normal.
 
         More updates to follow shortly.
+      investigating: true
+    - ts: "2025-09-29 03:54:53"
+      description: We are continuing to investigate this issue.
       investigating: true
