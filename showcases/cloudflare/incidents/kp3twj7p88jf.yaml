@@ -1,0 +1,17 @@
+version: incident/v1
+id: kp3twj7p88jf
+name: Cloudflare Pages, Workers and Custom Hostname API issues
+impact: minor
+systems:
+    - vgxj684rcw7t
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2025-09-29 03:45:19"
+      description: |-
+        Cloudflare is aware of and investigating issues impacting the Cloudflare Pages API, Workers Builds and Custom hostname API.
+        Pages deployments, Pages and Workers builds will be seeing an increase of failures.
+
+        All traffic to Workers and Pages will continue to work as normal.
+
+        More updates to follow shortly.
+      investigating: true
