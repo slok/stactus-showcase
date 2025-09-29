@@ -11,5 +11,5 @@ timeline:
       description: We are seeing delays in email delivery, which is impacting notifications and user signup email verification. We are investigating and working on mitigation.
       investigating: true
     - ts: "2025-09-24 15:36:09"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On September 23, 2025, between 15:29 UTC and 17:38 UTC and also on September 24, 2025 between 15:02 UTC and 15:12, email deliveries were delayed up to 50 minutes which resulted in significant delays for most types of email notifications. This occurred due to an unusually high volume of traffic which caused resource contention on some of our outbound email servers.<br /><br />We have updated the configuration we use to better allocate capacity when there is a high volume of traffic and are also updating our monitors so we can detect this type of issue before it becomes a customer impacting incident.
       resolved: true
