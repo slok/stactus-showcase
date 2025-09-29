@@ -1,0 +1,12 @@
+version: incident/v1
+id: 4xqqzg8m8xrg
+name: Log Explorer delays in processing recent data
+impact: minor
+systems:
+    - k0mgxrls5y1b
+    - w324dr932r05
+timeline:
+    - ts: "2025-09-29 08:58:46"
+      description: "Some Log Explorer customers might experience issues with querying most recent data. No logs are lost, but processing is delayed. \n\nWe are currently working on a fix."
+    - ts: "2025-09-29 09:06:40"
+      description: We are continuing to work on a fix for this issue.
