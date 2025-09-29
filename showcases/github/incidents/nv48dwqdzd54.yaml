@@ -11,5 +11,5 @@ timeline:
       description: Between around 8:16 UTC and 8:51 UTC we saw elevated errors on Claude Opus 4 and Opus 4.1, up to 49% of requests were failing. This has recovered to around 4% of requests failing, we are monitoring recovery.
       investigating: true
     - ts: "2025-09-24 09:18:30"
-      description: Anthropic reported degraded Claude Opus 4 and 4.1 through their status page. We were seeing this affect our model(s) performance, where we activated the relevant warning messages directing users to try other models. This was resolved after an hour on Anthropic's end, and shortly after we saw recovery, returning to our baseline success rate.
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
       resolved: true
