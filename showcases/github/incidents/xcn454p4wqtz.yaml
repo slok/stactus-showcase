@@ -11,5 +11,5 @@ timeline:
       description: We are seeing issues related to our ability to serve raw file access across a small percentage of our requests.
       investigating: true
     - ts: "2025-09-25 17:36:18"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On September 26, 2025 between 16:22 UTC and 18:32 UTC raw file access was degraded for a small set of four repositories. On average, raw file access error rate was 0.01% and peaked at 0.16% of requests. This was due to a caching bug exposed by excessive traffic to a handful of repositories. <br /><br />We mitigated the incident by resetting the state of the cache for raw file access and are working to improve cache usage and testing to prevent issues like this in the future.<br />
       resolved: true
