@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8j7dghvwpkjv
+name: Load Balancer HTTP 500 Errors
+impact: minor
+systems:
+    - 03wwgmh4vbnl
+    - mfwf3n729rpy
+    - bnjvsmmllkb9
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2025-09-29 20:53:04"
+      description: Cloudflare is investigating an issue where our Load Balancing product is returning HTTP 500 errors for a subset of requests.
+      investigating: true
