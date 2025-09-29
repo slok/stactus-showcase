@@ -1,10 +1,13 @@
 version: incident/v1
 id: pn6m4h8ksnb3
-name: MMS Delivery Delays to T-Mobile in United States of America via  Subset of Shortcodes
+name: MMS Inbound Delivery Delays from T-Mobile US and Delivery Report Delays to T-Mobile US via Subset of Shortcodes
 impact: minor
 systems:
     - h0fl7prwfhvm
 timeline:
     - ts: "2025-09-29 00:27:53"
       description: We are experiencing MMS delivery delays when sending messages to T-Mobile in United States of America via  Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-09-29 01:26:33"
+      description: We are experiencing MMS inbound delivery delays when sending messages from T-Mobile US and Delivery Report Delays when sending to T-Mobile US via Subset of Short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
