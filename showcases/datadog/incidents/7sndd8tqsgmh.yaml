@@ -1,0 +1,13 @@
+version: incident/v1
+id: 7sndd8tqsgmh
+name: Host Tags, Service Checks, and Datadog Events Delayed Evaluation
+impact: minor
+systems:
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2025-09-29 18:17:49"
+      description: We’re currently investigating an issue causing delayed processing of host tag updates, Service Checks and Datadog Events, which may result in stale data appearing in the frontend. Our team is actively working to mitigate and fully resolve this. I’ll follow up as soon as the issue has been resolved. To prevent spurious alerts, we have temporarily disabled monitors based on this data.
+      investigating: true
+    - ts: "2025-09-29 18:20:52"
+      description: The issue has been identified and a fix is being implemented.
