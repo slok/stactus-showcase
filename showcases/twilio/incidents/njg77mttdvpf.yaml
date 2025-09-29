@@ -1,10 +1,13 @@
 version: incident/v1
 id: njg77mttdvpf
-name: Multiple Whatsapp Permission Denied Errors
+name: Errors When Sending Outbound Messages via WhatsApp
 impact: minor
 systems:
     - 1gkv0mxhzsjv
 timeline:
     - ts: "2025-09-29 11:52:26"
-      description: We are observing multiple WhatsApp permission denied errors for customers trying to send messages. We expect to provide another update in 1 hours or as soon as more information becomes available.
+      description: We are observing multiple WhatsApp permission denied errors for customers trying to send messages. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-09-29 12:49:02"
+      description: We are continuing to observe errors when sending outbound messages via WhatsApp. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
