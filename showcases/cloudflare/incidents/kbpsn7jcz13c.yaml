@@ -1,0 +1,9 @@
+version: incident/v1
+id: kbpsn7jcz13c
+name: Increased cache latency in São Paulo
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-09-29 03:25:38"
+      description: Between 01:40–02:14 UTC, customers reaching São Paulo, BR (GRU) may have experienced an increased latency for cached assets.
+      resolved: true
