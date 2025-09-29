@@ -1,0 +1,11 @@
+version: incident/v1
+id: cqylc7dzl9th
+name: WhatsApp inbound traffic drop.
+impact: none
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2025-09-29 20:27:54"
+      description: A WhatsApp issue with inbound messages has been identified. Customers may have experienced issues in receiving WhatsApp messages. Our engineers are working to get this resolved. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2025-09-29 20:30:50"
+      description: Engineers identified a spike in messages delayed in being sent from Meta to Twilio from 1:00 PM PST to 1:21 PM PST.  Those messages have been resent and successfully processed.
