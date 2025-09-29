@@ -9,3 +9,6 @@ timeline:
       description: A WhatsApp issue with inbound messages has been identified. Customers may have experienced issues in receiving WhatsApp messages. Our engineers are working to get this resolved. We will provide another update in 1 hour or as soon as more information becomes available.
     - ts: "2025-09-29 20:30:50"
       description: Engineers identified a spike in messages delayed in being sent from Meta to Twilio from 1:00 PM PST to 1:21 PM PST.  Those messages have been resent and successfully processed.
+    - ts: "2025-09-29 21:29:28"
+      description: This incident with WhatsApp inbound messages delayed has now been resolved.
+      resolved: true
