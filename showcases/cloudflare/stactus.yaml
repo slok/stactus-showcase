@@ -687,27 +687,28 @@ systems:
       name: Latin America & the Caribbean / Santiago de los Caballeros, Dominican Republic - (STI)
     - id: 5bxql2d0yylc
       name: Europe / Zürich, Switzerland - (ZRH)
-    - id: k0mgxrls5y1b
-      name: Cloudflare Sites and Services / Logs
-      description: Enterprise Logpull and Logpush services
     - id: jhnf3tj7x7xh
       name: Asia / Qingdao, China - (TAO)
     - id: fs7l9rdk9kq5
       name: North America / Albuquerque, United States - (ABQ)
     - id: 7jlmzfxn5508
       name: Latin America & the Caribbean / La Paz, Bolivia - (LPB)
+    - id: w324dr932r05
+      name: Cloudflare Sites and Services / Log Explorer
+      description: Native observability and forensics. Store logs, detect security and performance issues, investigate root cause, and mitigate impact.
     - id: v4s7np92f0dh
       name: Asia / Seoul, South Korea - (ICN)
-    - id: m1cm5tqpkqtm
-      name: Cloudflare Sites and Services / Magic Firewall
+    - id: k0mgxrls5y1b
+      name: Cloudflare Sites and Services / Logs
+      description: Enterprise Logpull and Logpush services
     - id: cl9hc9q83k9n
       name: Europe / Lyon, France - (LYS)
     - id: wnbl5c6vrmv6
       name: North America / Guadalajara, Mexico - (GDL)
     - id: wpgrmfwn36kf
       name: Asia / Shanghai, China - (SHA)
-    - id: bjlxcss20fsl
-      name: Cloudflare Sites and Services / Magic Transit
+    - id: m1cm5tqpkqtm
+      name: Cloudflare Sites and Services / Magic Firewall
     - id: x3f20ycsm3n5
       name: Europe / Bordeaux, France - (BOD)
     - id: 5dhjdhgdqjzd
@@ -716,9 +717,8 @@ systems:
       name: Latin America & the Caribbean / San Juan, Puerto Rico - (SJU)
     - id: 18p6r93swmbl
       name: Asia / Singapore, Singapore - (SIN)
-    - id: qgnxz00j1f2v
-      name: Cloudflare Sites and Services / Magic WAN
-      description: Magic WAN replaces legacy WAN architectures with Cloudflare’s network, providing global connectivity, cloud-based security, performance, and control through one simple user interface.
+    - id: bjlxcss20fsl
+      name: Cloudflare Sites and Services / Magic Transit
     - id: j9g1dbqntzg0
       name: North America / Cleveland, United States - (CLE)
     - id: g3xfb8yfhk9l
@@ -727,84 +727,87 @@ systems:
       name: Europe / Skopje, North Macedonia - (SKP)
     - id: p0kyqpgsp6p9
       name: Asia / Surat Thani, Thailand - (URT)
+    - id: qgnxz00j1f2v
+      name: Cloudflare Sites and Services / Magic WAN
+      description: Magic WAN replaces legacy WAN architectures with Cloudflare’s network, providing global connectivity, cloud-based security, performance, and control through one simple user interface.
     - id: rqcmdkdlyyc8
       name: North America / Durham, United States - (RDU)
-    - id: q3t6mnpmpgt8
-      name: Cloudflare Sites and Services / Magic WAN Connector
     - id: m50pw1dxjp51
       name: Latin America & the Caribbean / Palmas, Brazil - (PMW)
     - id: hk319v924h0m
       name: Asia / Taipei - (TPE)
+    - id: 3mj4c8m14ncw
+      name: North America / Oklahoma City, United States - (OKC)
+    - id: q3t6mnpmpgt8
+      name: Cloudflare Sites and Services / Magic WAN Connector
+    - id: 80rdp18kk8x6
+      name: Latin America & the Caribbean / Aracatuba, Brazil - (ARU)
     - id: 6239kkkfzfnf
       name: Cloudflare Sites and Services / Marketing Site
       description: Public-facing marketing website at https://www.cloudflare.com
-    - id: 3mj4c8m14ncw
-      name: North America / Oklahoma City, United States - (OKC)
-    - id: 80rdp18kk8x6
-      name: Latin America & the Caribbean / Aracatuba, Brazil - (ARU)
-    - id: j9jl2gb9zywx
-      name: Cloudflare Sites and Services / Mirage
-      description: Automatic Responsive Web Design via Intelligent Image Loading
     - id: ldfjdvf7hr27
       name: North America / Tampa, United States - (TPA)
     - id: dzwlmtrtvjn5
       name: Latin America & the Caribbean / Port of Spain, Trinidad and Tobago - (POS)
-    - id: 4n0gb0kh02gf
-      name: Cloudflare Sites and Services / Network
+    - id: j9jl2gb9zywx
+      name: Cloudflare Sites and Services / Mirage
+      description: Automatic Responsive Web Design via Intelligent Image Loading
     - id: 4npbr7cg7zgn
       name: North America / Anchorage, United States - (ANC)
     - id: hl4j81pmzwby
       name: Latin America & the Caribbean / Salvador, Brazil - (SSA)
-    - id: 5xvn0m7tthlf
-      name: Cloudflare Sites and Services / Notifications
+    - id: 4n0gb0kh02gf
+      name: Cloudflare Sites and Services / Network
     - id: mgjvb6hy1chr
       name: North America / Halifax, Canada - (YHZ)
     - id: rmjk2n758yzc
       name: Asia / Tokyo, Japan - (NRT)
-    - id: mfty6kskddpf
-      name: Cloudflare Sites and Services / Observatory
-      description: Observatory uses synthetic tests and real user data from browsers to assess the performance of your website. These data sources produce metrics that provide different types of insights into your website’s performance.
+    - id: 5xvn0m7tthlf
+      name: Cloudflare Sites and Services / Notifications
     - id: gy16x89vhlq3
       name: Latin America & the Caribbean / Timbo, Brazil - (NVT)
     - id: xk1sjvzmjp6t
       name: Asia / Ulaanbaatar, Mongolia - (ULN)
+    - id: mfty6kskddpf
+      name: Cloudflare Sites and Services / Observatory
+      description: Observatory uses synthetic tests and real user data from browsers to assess the performance of your website. These data sources produce metrics that provide different types of insights into your website’s performance.
+    - id: 5ynnmbhcqkv2
+      name: Asia / Vientiane, Laos - (VTE)
     - id: hk5dqm69klkp
       name: Cloudflare Sites and Services / Page Shield
       description: Page Shield simplifies external script management by tracking loaded resources like scripts and providing alerts when it detects new resources or malicious scripts. Page Shield also tracks the connections made by scripts on your domain’s pages and checks if they are malicious based on their destination.
-    - id: 5ynnmbhcqkv2
-      name: Asia / Vientiane, Laos - (VTE)
     - id: vgxj684rcw7t
       name: Cloudflare Sites and Services / Pages
     - id: hb7g5sq2zz0h
       name: Cloudflare Sites and Services / R2
       description: High-performance storage for files and objects with zero egress charges
-    - id: 0fw91jq1bzxx
-      name: Cloudflare Sites and Services / Radar
     - id: c11j1dyzn0j4
       name: Latin America & the Caribbean / Neuquen, Argentina - (NQN)
+    - id: 84ynm0c8bkm4
+      name: Asia / Xinyu, China - (KHN)
+    - id: 0fw91jq1bzxx
+      name: Cloudflare Sites and Services / Radar
     - id: yd553hxj8dbj
       name: Cloudflare Sites and Services / Randomness Beacon
       description: Distributed service for randomness - https://developers.cloudflare.com/randomness-beacon/
-    - id: 84ynm0c8bkm4
-      name: Asia / Xinyu, China - (KHN)
+    - id: 56zs2vmr81l0
+      name: Asia / Yerevan, Armenia - (EVN)
     - id: z4wlt5jx9szq
       name: Cloudflare Sites and Services / Realtime SFU
       description: Cloudflare Realtime is infrastructure for real-time audio/video/data applications. It allows you to build real-time apps without worrying about scaling or regions. It can act as a selective forwarding unit (WebRTC SFU), as a fanout delivery system for broadcasting (WebRTC CDN) or anything in between.
-    - id: 56zs2vmr81l0
-      name: Asia / Yerevan, Armenia - (EVN)
+    - id: yrlfvdv9yv53
+      name: Asia / Yogyakarta, Indonesia - (JOG)
     - id: 5s616lljfwdz
       name: Cloudflare Sites and Services / Realtime TURN Service
       description: "Separately from the SFU, Realtime offers a managed TURN service. TURN acts as a relay point for traffic between WebRTC clients like the browser and SFUs, particularly in scenarios where direct communication is obstructed by NATs or firewalls. TURN maintains an allocation of public IP addresses and ports for each session, ensuring connectivity even in restrictive network environments.\r\n\r\nUsing Cloudflare Realtime TURN service is available free of charge when used together with the Realtime SFU. Otherwise, it costs $0.05/real-time GB outbound from Cloudflare to the TURN client."
-    - id: yrlfvdv9yv53
-      name: Asia / Yogyakarta, Indonesia - (JOG)
     - id: yxhtws7ltl9t
       name: Cloudflare Sites and Services / RealtimeKit
       description: "Build real-time serverless video, audio and data applications.\r\n\r\nCloudflare Realtime is infrastructure for real-time audio/video/data applications. It allows you to build real-time apps without worrying about scaling or regions. It can act as a selective forwarding unit (WebRTC SFU), as a fanout delivery system for broadcasting (WebRTC CDN) or anything in between."
+    - id: 7f4lcm62x6x2
+      name: Europe / Zurich, Switzerland - (ZRH)
     - id: 8w536gxk7dvq
       name: Cloudflare Sites and Services / Recursive DNS
       description: Free recursive DNS service at 1.1.1.1 and 1.0.0.1
-    - id: 7f4lcm62x6x2
-      name: Europe / Zurich, Switzerland - (ZRH)
     - id: kn2xkt469vyh
       name: Cloudflare Sites and Services / Registrar
       description: Cloudflare Registrar securely registers and manages customer domain names
@@ -813,18 +816,18 @@ systems:
     - id: ch3mwx0hr4k6
       name: Cloudflare Sites and Services / Rules
       description: This component includes WAF Rules, Transform Rules, Configuration Rules, Origin Rules, Compression Rules, Redirect Rules, Cache Rules, Waiting Room Bypass Rules, URL Normalization, DDoS L4/L7 Rules, Super Bot Fight Mode Rules, Rate Limiting Rules and others
+    - id: xdx76vxqbqgn
+      name: Asia / Zhongshan, China - (ZGN)
     - id: q2w4kkkzw5gs
       name: Cloudflare Sites and Services / Secondary DNS
       description: Secondary DNS capabilities allow for incoming as well as outgoing zone transfers between Cloudflare and other DNS providers.
-    - id: xdx76vxqbqgn
-      name: Asia / Zhongshan, China - (ZGN)
-    - id: 18qkc83zzmxb
-      name: Cloudflare Sites and Services / Security Center
-      description: Cloudflare Security Center brings together our suite of security products, our security expertise, and unique Internet intelligence as a unified security intelligence solution to strengthen your security posture.
     - id: y1hwrbmkgw5p
       name: Latin America & the Caribbean / Goiania, Brazil - (GYN)
     - id: wyq8p07mvlkf
       name: Asia / Cagayan de Oro, Philippines - (CGY)
+    - id: 18qkc83zzmxb
+      name: Cloudflare Sites and Services / Security Center
+      description: Cloudflare Security Center brings together our suite of security products, our security expertise, and unique Internet intelligence as a unified security intelligence solution to strengthen your security posture.
     - id: 570kfpd0dgg7
       name: Cloudflare Sites and Services / Snippets
       description: Cloudflare Snippets provide a flexible way to customize the behavior of your website or application using short pieces of JavaScript code. Use snippets to customize HTTP response headers, implement JWT validation, define complex redirect functionality, and more.
@@ -845,29 +848,29 @@ systems:
       description: Certificate provisioning service for custom hostnames on the edge
     - id: h75hprrmg1wd
       name: Asia / Kochi, India - (COK)
+    - id: hq55hw1x6yb2
+      name: Latin America & the Caribbean / Cuiaba, Brazil - (CGB)
     - id: 8m7bb706rh1c
       name: Cloudflare Sites and Services / Subscriptions
       description: Changes to subscriptions or placing new orders for service
-    - id: hq55hw1x6yb2
-      name: Latin America & the Caribbean / Cuiaba, Brazil - (CGB)
     - id: jzcwkvrc4w4q
       name: Cloudflare Sites and Services / Support Site
       description: Knowledge base and support ticket portal at https://support.cloudflare.com
+    - id: 7hqt2c4tl54p
+      name: Latin America & the Caribbean / Itajai, Brazil - (ITJ)
     - id: ggcvp9h5v6rv
       name: Cloudflare Sites and Services / Time Services
       description: Time Services provided in NTP, NTS & Roughtime - https://developers.cloudflare.com/time-services/
-    - id: 7hqt2c4tl54p
-      name: Latin America & the Caribbean / Itajai, Brazil - (ITJ)
     - id: n332jkf8s56z
       name: Asia / Denpasar, Indonesia - (DPS)
+    - id: bn06brrnz2n2
+      name: Asia / Kannur, India - (CNN)
     - id: f0jjgwcxtmk8
       name: Cloudflare Sites and Services / Trace
       description: Cloudflare Trace follows an HTTP/S request through Cloudflare’s reverse proxy to your origin. Use this tool to understand how different Cloudflare configurations interact with an HTTP/S request for one of your proxied hostnames.
     - id: y98zlwj1d7zh
       name: Cloudflare Sites and Services / Tunnel
       description: Cloudflare Tunnel provides you with a secure way to connect your resources to Cloudflare without a publicly routable IP address
-    - id: bn06brrnz2n2
-      name: Asia / Kannur, India - (CNN)
     - id: m4jywscr0n0k
       name: Cloudflare Sites and Services / Turnstile
       description: Turnstile is a user-friendly, privacy-preserving alternative to CAPTCHA.
@@ -885,35 +888,35 @@ systems:
     - id: qt59p3cr1grx
       name: Cloudflare Sites and Services / Web Analytics
       description: Cloudflare Web Analytics provides free, privacy-first analytics for your website without changing your DNS or using Cloudflare’s proxy. Cloudflare Web Analytics helps you understand the performance of your web pages as experienced by your site visitors.
+    - id: 64n90y8p9rp3
+      name: Latin America & the Caribbean / Cacador, Brazil - (CFC)
     - id: 411nh1g3zgx8
       name: Cloudflare Sites and Services / WebSockets
       description: Cloudflare proxied WebSocket connections.
-    - id: 64n90y8p9rp3
-      name: Latin America & the Caribbean / Cacador, Brazil - (CFC)
     - id: 57srcl8zcn7c
       name: Cloudflare Sites and Services / Workers
       description: Cloudflare Workers provides a serverless execution environment that allows you to create new applications or augment existing ones without configuring or maintaining infrastructure
     - id: zvm7mqn92xzc
       name: Cloudflare Sites and Services / Workers AI
       description: Workers AI allows you to run machine learning models, on the Cloudflare network, from your own code – whether that be from Workers, Pages, or anywhere via REST API.
+    - id: fbrfz0lxsdk1
+      name: Latin America & the Caribbean / Uberlandia, Brazil - (UDI)
     - id: vcpsk0w6g86k
       name: Cloudflare Sites and Services / Workers Builds
       description: Workers Builds is Cloudflare's native CI/CD system that allows you to integrate with GitHub or GitLab to automatically deploy changes with each new push to a selected branch (e.g. main).
     - id: wjvmzdf21d4l
       name: Cloudflare Sites and Services / Workers Preview
       description: The preview service for Cloudflare Workers, used by Wrangler CLI and dashboard Quick Edit functions.
-    - id: fbrfz0lxsdk1
-      name: Latin America & the Caribbean / Uberlandia, Brazil - (UDI)
+    - id: s0xwzmmmmv3l
+      name: Latin America & the Caribbean / Cali, Colombia - (CLO)
     - id: tmh50tx2nprs
       name: Cloudflare Sites and Services / Workers KV
       description: Workers KV is a data storage that allows you to store and retrieve data globally to build dynamic and performant APIs and websites that support high read volumes with low latency
-    - id: s0xwzmmmmv3l
-      name: Latin America & the Caribbean / Cali, Colombia - (CLO)
+    - id: 7g58rb9tl036
+      name: Latin America & the Caribbean / San Pedro Sula, Honduras - (SAP)
     - id: pqt7t1dwt0dz
       name: Cloudflare Sites and Services / Workers Observability
       description: Workers Logs
-    - id: 7g58rb9tl036
-      name: Latin America & the Caribbean / San Pedro Sula, Honduras - (SAP)
     - id: 5df6y9z3fsky
       name: Cloudflare Sites and Services / Workflows
       description: Workflows is Cloudflare Durable Execution engine, that give the ability to build and execute applications that are durable in the face of errors, network issues, upstream API outages, rate limits, and (most importantly) infrastructure failure.
@@ -930,9 +933,6 @@ systems:
     - id: 4tv81hqpt2jt
       name: Cloudflare Sites and Services / Zone Versioning
       description: Version Management allows you test, deploy, and roll back changes to your zone configuration settings.
-    - id: w324dr932r05
-      name: Cloudflare Sites and Services / Log Explorer
-      description: Native observability and forensics. Store logs, detect security and performance issues, investigate root cause, and mitigate impact.
     - id: wst86pq2g9y9
       name: Latin America & the Caribbean / Bogota, Colombia - (BOG)
     - id: dkc0m9hg3dp3
