@@ -1,0 +1,14 @@
+version: incident/v1
+id: djgyxxfmwg8d
+name: Customers may be experiencing dropped connections using Stream Live, Realtime, and TURN
+impact: critical
+systems:
+    - 5s616lljfwdz
+    - yxhtws7ltl9t
+    - 47xg28c02lnk
+timeline:
+    - ts: "2025-09-30 19:46:39"
+      description: Customers may be experiencing dropped connections while using Stream Live, Realtime, and TURN. The issue has been identified and a fix is being applied immediately.
+      investigating: true
+    - ts: "2025-09-30 19:47:36"
+      description: The issue has been identified and a fix is being implemented.
