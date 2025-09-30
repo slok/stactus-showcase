@@ -1,0 +1,10 @@
+version: incident/v1
+id: k0jp0229h8l8
+name: WARP connectivity
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2025-09-30 16:32:25"
+      description: Cloudflare is investigating issues with Cloudflare WARP + WireGuard. Cloudflare WARP+ users connecting using WireGuard protocol  are impacted. WARP and Cloudflare Zero Trust services are not impacted.
+      investigating: true
