@@ -1,0 +1,13 @@
+version: incident/v1
+id: wcz1yp6r30kq
+name: WhatsApp Sandbox Service Disruption Affecting Brazilian Numbers
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2025-09-30 18:13:52"
+      description: We are investigating a service disruption in WhatsApp sandbox functionality, particularly when attempting to send messages to Brazilian phone numbers. We will provide an update in 2 hours, or as soon as we receive more information.
+      investigating: true
+    - ts: "2025-09-30 18:15:31"
+      description: We are continuing to investigate this issue.
+      investigating: true
