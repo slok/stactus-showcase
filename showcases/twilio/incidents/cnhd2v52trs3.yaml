@@ -2,9 +2,11 @@ version: incident/v1
 id: cnhd2v52trs3
 name: SMS Delivery Failures to Multiple Networks In Multiple Countries
 impact: minor
-systems:
-    - yvvy3vlp4djf
+systems: []
 timeline:
     - ts: "2025-09-30 01:30:50"
       description: Our monitoring systems have detected a potential issue in SMS Delivery Failures to Multiple Countries. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-09-30 01:59:52"
+      description: We have fully investigated the SMS Delivery Failures to Multiple Networks In Multiple Countries, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
