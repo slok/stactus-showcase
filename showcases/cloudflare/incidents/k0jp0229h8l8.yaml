@@ -6,5 +6,5 @@ systems:
     - k04jkcpzxn94
 timeline:
     - ts: "2025-09-30 16:32:25"
-      description: Cloudflare is investigating issues with Cloudflare WARP + WireGuard. Cloudflare WARP+ users connecting using WireGuard protocol  are impacted. WARP and Cloudflare Zero Trust services are not impacted.
+      description: Cloudflare is investigating issues with Cloudflare WARP+ and WireGuard. Cloudflare WARP+ users connecting using WireGuard protocol are impacted. WARP+ users can connect using MASQUE protocol as a workaround. WARP and Cloudflare Zero Trust services are not impacted.
       investigating: true
