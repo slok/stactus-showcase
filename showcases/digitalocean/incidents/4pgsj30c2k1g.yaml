@@ -1,0 +1,12 @@
+version: incident/v1
+id: 4pgsj30c2k1g
+name: PostgreSQL Managed Database Connectivity
+impact: minor
+systems:
+    - mzkgffp35tq4
+timeline:
+    - ts: "2025-10-01 00:05:48"
+      description: |-
+        Our Engineering team has identified an issues with connectivity for Managed Database PostgreSQL clusters in all regions that are using PGBouncer and some legacy MD5 passwords.
+
+        We are actively monitoring the situation and will provide updates as soon as more information becomes available.
