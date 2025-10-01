@@ -1,0 +1,15 @@
+version: incident/v1
+id: qpx42w9430p1
+name: Network Performance Issues in Singapore
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-10-01 02:11:34"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in Singapore (SIN).
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-10-01 02:27:42"
+      description: The issue has been identified and a fix is being implemented.
