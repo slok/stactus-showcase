@@ -1,0 +1,27 @@
+version: incident/v1
+id: xdlssywrdn7n
+name: Degraded performance of Muting Timings in Alerting across several regions
+impact: minor
+systems:
+    - tzt37d0skmyd
+    - 3pxb2s9gd3qk
+    - y2fvl0w81hnk
+    - kckd7qfk2gql
+    - 2xrvqwtmgk1j
+    - qr8ttrr50lnd
+    - 4vcmfvslpghq
+    - fgtp31zqpw8v
+    - 57jn84fvz98t
+    - vcfc8qc5zj9n
+    - y5ymzvw0c99f
+    - p932bbpwynd4
+    - tgt3hljzszy8
+    - tfcmnh8pbnh9
+    - hd6qyr8hc0yt
+    - 5shpb4hb9xd1
+    - ybvy0jrqz78d
+    - x2sf2zvf07cy
+timeline:
+    - ts: "2025-10-01 14:56:05"
+      description: "Since the 1st of October at 4am UTC time, we have received reports of Mute Timings and Active Intervals on Alerting module having degraded performance. \nWe are actively working on fixing this issue. \nImpact includes receiving notification from alerts that should be muted."
+      investigating: true
