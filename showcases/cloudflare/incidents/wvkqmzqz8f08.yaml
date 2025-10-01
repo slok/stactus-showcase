@@ -1,0 +1,10 @@
+version: incident/v1
+id: wvkqmzqz8f08
+name: Cloudflare Workers Issues
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-10-01 17:41:18"
+      description: Cloudflare is investigating an increased level of 1022 errors for customers running Workers scripts. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true

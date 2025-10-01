@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-10-01 16:49:16"
       description: We are experiencing a service regression for the Gemini 2.5 Pro model in Copilot Chat, VS Code and other Copilot products. The maximum input length of Gemini 2.5 prompts been decreased. Long prompts or large context windows may result in errors. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.
       investigating: true
+    - ts: "2025-10-01 17:37:55"
+      description: We are testing other internal mitigations so that we can return to the higher maximum input length. We are still working with our upstream model provider to understand the contributing factors for this sudden decrease in input limits.
+      investigating: true
