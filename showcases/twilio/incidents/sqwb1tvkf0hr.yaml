@@ -1,0 +1,10 @@
+version: incident/v1
+id: sqwb1tvkf0hr
+name: Call Failures From A Subset of Twilio's Phone Numbers to Slovakia
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2025-10-01 21:53:46"
+      description: We are experiencing call failures from a subset of Twilio's phone numbers to Slovakia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
