@@ -12,3 +12,9 @@ timeline:
         We are actively monitoring the situation and will provide updates as soon as more information becomes available.
     - ts: "2025-10-01 03:33:26"
       description: "Our Engineering team has implemented a fix for the connectivity issues impacting Managed Database PostgreSQL clusters using PGBouncer with some legacy MD5 passwords. \n\nWe are currently monitoring the situation and will provide an update once the issue is fully resolved."
+    - ts: "2025-10-01 06:06:13"
+      description: |-
+        Our Engineering team has resolved the connectivity issue with Managed Database PostgreSQL clusters in all regions that are using PGBouncer and some legacy MD5 passwords.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true
