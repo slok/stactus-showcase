@@ -21,3 +21,6 @@ timeline:
     - ts: "2025-10-01 17:58:46"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-10-01 18:56:58"
+      description: We’ve confirmed that this issue only impacts customers using the OCI integrations feature. The vast majority of customers are not impacted. Impacted customers will see an in-app banner when visiting any Datadog product page. The banner will be removed once the issue is resolved. Since the impact is localized, we are closing the status page.
+      resolved: true
