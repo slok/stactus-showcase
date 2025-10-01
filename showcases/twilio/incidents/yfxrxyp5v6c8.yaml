@@ -1,10 +1,13 @@
 version: incident/v1
 id: yfxrxyp5v6c8
-name: MMS Delivery Delays to Cingular Wireless (AT&T) in United States of America 311-180 via  Subset of Longcodes
+name: MMS Delivery Delays to Cingular Wireless (AT&T) in United States of America via Subset of Longcodes
 impact: minor
 systems:
     - 7d8w22hqrh6s
 timeline:
     - ts: "2025-10-01 00:29:43"
       description: We are experiencing MMS Delivery Delays to Cingular Wireless (AT&T) in United States of America 311-180 via  Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-10-01 01:26:56"
+      description: We are continuing to experience MMS delivery delays when sending messages to Cingular Wireless (AT&T) in the United States of America via Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
