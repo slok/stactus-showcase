@@ -4,10 +4,20 @@ name: Delayed Metrics
 impact: minor
 systems:
     - qrnng5l7z80l
+    - 82w45zxss1z6
 timeline:
     - ts: "2025-10-01 17:24:26"
       description: |-
         We are investigating increased latency processing Metrics.
         As a result of this issue, some users may see delays or gaps for metrics on graphs.
         To prevent spurious alerts, we have temporarily disabled monitors based on this data.
+      investigating: true
+    - ts: "2025-10-01 17:51:57"
+      description: |-
+        We are investigating increased latency processing Processing for a Subset of Metrics.
+        As a result of this issue, some users may see delays or gaps for a subset of their metrics on graphs.
+        To prevent spurious alerts, we have temporarily disabled monitors based on this data.
+      investigating: true
+    - ts: "2025-10-01 17:58:46"
+      description: We are continuing to investigate this issue.
       investigating: true
