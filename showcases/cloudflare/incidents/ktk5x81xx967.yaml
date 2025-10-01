@@ -1,0 +1,11 @@
+version: incident/v1
+id: ktk5x81xx967
+name: Email Security Investigations are not working on the dash and api
+impact: minor
+systems:
+    - g4tb35rs9yw7
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-10-01 03:35:00"
+      description: An issue with search database is preventing retrieval of mail processing records for both detections and benign messages since 00:00Z 01-Oct. The email security service is not impacted by this. All messages are being processed and delivered as expected.
+      investigating: true
