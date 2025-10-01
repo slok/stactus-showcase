@@ -19,3 +19,6 @@ timeline:
       description: We've identified the root cause for this issue and are implementing mitigations.
     - ts: "2025-10-01 19:50:02"
       description: We're still rolling out configurations to mitigate this issue. Note that this issue only affects users with builders in some US regions. In the meanwhile, trying the recommended workarounds, or relocating your builder (Settings -> App builders) to either Dallas, Chicago or Toronto should allow your builds to complete successfully.
+    - ts: "2025-10-01 22:12:18"
+      description: This incident is now resolved, Depot builders should be working correctly now.
+      resolved: true
