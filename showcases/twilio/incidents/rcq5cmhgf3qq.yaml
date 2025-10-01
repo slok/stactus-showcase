@@ -1,0 +1,12 @@
+version: incident/v1
+id: rcq5cmhgf3qq
+name: Delivery Receipt Delays to Net One Network in Zimbabwe
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - llgdln3dcs6p
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-10-01 02:55:22"
+      description: We are experiencing delivery receipt delays when sending messages to Net One Network in Zimbabwe. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
