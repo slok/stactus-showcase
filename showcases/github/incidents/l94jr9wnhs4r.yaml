@@ -14,3 +14,6 @@ timeline:
     - ts: "2025-10-01 17:37:55"
       description: We are testing other internal mitigations so that we can return to the higher maximum input length. We are still working with our upstream model provider to understand the contributing factors for this sudden decrease in input limits.
       investigating: true
+    - ts: "2025-10-01 18:16:57"
+      description: We are continuing to investigate and test solutions internally while working with our model provider on a deeper investigation into the cause. We will update again when we have identified a mitigation.
+      investigating: true
