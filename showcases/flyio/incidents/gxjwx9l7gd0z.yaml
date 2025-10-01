@@ -1,0 +1,17 @@
+version: incident/v1
+id: gxjwx9l7gd0z
+name: Docker rate limit errors when using `fly deploy`
+impact: major
+systems:
+    - 49yq6v65b33l
+    - ffsz24mbcxfz
+timeline:
+    - ts: "2025-10-01 15:46:08"
+      description: |-
+        We are investigating sporadic build failures mentioning Docker rate limits on "unauthenticated pulls" and error 429.
+
+        In the meantime, workarounds to try in order are:
+        1. Use `fly deploy --depot=false`
+        2. Use `fly deploy --buildkit`
+        3. Install Docker locally and use `--local-only` with Fly deploy
+      investigating: true
