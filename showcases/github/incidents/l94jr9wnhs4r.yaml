@@ -1,0 +1,13 @@
+version: incident/v1
+id: l94jr9wnhs4r
+name: Degraded Gemini 2.5 Pro experience in Copilot
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2025-10-01 16:43:17"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2025-10-01 16:49:16"
+      description: We are experiencing a service regression for the Gemini 2.5 Pro model in Copilot Chat, VS Code and other Copilot products. The maximum input length of Gemini 2.5 prompts been decreased. Long prompts or large context windows may result in errors. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.
+      investigating: true

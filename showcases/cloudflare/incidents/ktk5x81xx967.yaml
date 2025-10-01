@@ -9,3 +9,5 @@ timeline:
     - ts: "2025-10-01 03:35:00"
       description: An issue with search database is preventing retrieval of mail processing records for both detections and benign messages since 00:00Z 01 Oct. The Email Security service is not impacted by this. All messages are being processed and delivered as expected.
       investigating: true
+    - ts: "2025-10-01 16:40:25"
+      description: A fix has been implemented and we are monitoring the results.
