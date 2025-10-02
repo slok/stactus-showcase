@@ -19,3 +19,6 @@ timeline:
       investigating: true
     - ts: "2025-10-02 06:17:08"
       description: We have started seeing recovery for call failures from a subset of Twilio's phone numbers to Slovakia. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-10-02 08:16:28"
+      description: The issue affecting call failures from a subset of Twilio's phone numbers to Slovakia has been resolved, and the service is functioning normally at this time.
+      resolved: true
