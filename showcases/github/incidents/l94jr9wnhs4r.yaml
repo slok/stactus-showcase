@@ -23,3 +23,9 @@ timeline:
     - ts: "2025-10-02 17:13:18"
       description: The underlying issue for the lower token limits for Gemini 2.5 Pro has been identified and a fix is in progress. We will update again once we have tested and confirmed that the fix is correct and globally deployed.
       investigating: true
+    - ts: "2025-10-02 22:26:25"
+      description: We have confirmed that the fix for the lower token input limit for Gemini 2.5 Pro is in place and are currently testing our previous higher limit to verify that customers will experience no further impact.
+      investigating: true
+    - ts: "2025-10-02 22:33:20"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
