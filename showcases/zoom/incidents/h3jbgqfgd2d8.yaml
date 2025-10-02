@@ -1,0 +1,10 @@
+version: incident/v1
+id: h3jbgqfgd2d8
+name: A subset of users may experience issues with inbound calls in UK Region
+impact: minor
+systems:
+    - hx06zxqdrsxl
+timeline:
+    - ts: "2025-10-02 13:28:22"
+      description: We have detected service degradation where a subset of users may experience issues with inbound calls in UK Region. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
