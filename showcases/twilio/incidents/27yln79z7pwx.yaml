@@ -1,0 +1,10 @@
+version: incident/v1
+id: 27yln79z7pwx
+name: Event Streams Delivery Lag
+impact: minor
+systems:
+    - zxhmy448yyn3
+timeline:
+    - ts: "2025-10-02 13:39:58"
+      description: Our engineers are investigating an issue in Event Streams where events are being delivered with increased latency.
+      investigating: true
