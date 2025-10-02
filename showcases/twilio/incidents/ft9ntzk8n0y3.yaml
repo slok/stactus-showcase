@@ -1,0 +1,9 @@
+version: incident/v1
+id: ft9ntzk8n0y3
+name: Elevated volumes of 5xx's in Programmable Messaging API responses
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-02 21:05:49"
+      description: The Twilio Programmable Messaging API is partially degraded for 50secs from Oct 2nd, 2024, 13:46:10 UTC to Oct 2nd, 2024, 13:47:00 UTC . During this period of time, customers sending a message may have received elevated volumes of 5xx's in API responses. This issue has now been mitigated.
+      resolved: true
