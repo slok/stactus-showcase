@@ -1,0 +1,15 @@
+version: incident/v1
+id: 6ygv5jl9r7ls
+name: Missing Cloudflare Access Login Events
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2025-10-02 19:13:47"
+      description: |-
+        Cloudflare engineering identified an issue that caused Access Login events to fail for a 48 minute period from 2025-10-02 17:40 UTC until 2025-10-02 18:33 UTC (there could be observed impact slightly before or after). All login events during this period would not have been logged via Access Request logs. Logs sent via Logpush were not impacted.
+
+        Access authentication and other services were not impacted during this window.
+
+        Cloudflare engineering is working on recovering these logs and will post updates during this investigation.
+      investigating: true
