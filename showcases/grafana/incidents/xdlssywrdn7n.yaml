@@ -1,7 +1,7 @@
 version: incident/v1
 id: xdlssywrdn7n
 name: Degraded performance of Muting Timings in Alerting across several regions
-impact: minor
+impact: none
 systems:
     - tzt37d0skmyd
     - 3pxb2s9gd3qk
@@ -33,3 +33,6 @@ timeline:
       description: The fix is still in progress, but we have made good headway. Once things are finalized, we will begin rolling it out to impacted environments.
     - ts: "2025-10-01 23:14:42"
       description: Engineering has started rolling out a fix as of 23:12 UTC. We will continue to monitor for recurrence and provide updates accordingly.
+    - ts: "2025-10-02 08:39:36"
+      description: This incident has been resolved.
+      resolved: true
