@@ -13,3 +13,6 @@ timeline:
       investigating: true
     - ts: "2025-10-02 14:48:29"
       description: Our engineers have identified and mitigated the issue. Event Stream delivery lag is now showing signs of recovery. We will continue to monitor the situation and provide an update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-10-02 16:47:14"
+      description: We are no longer experiencing issues with Event Streams where events are being delivered with increased latency. The incident has been resolved.
+      resolved: true
