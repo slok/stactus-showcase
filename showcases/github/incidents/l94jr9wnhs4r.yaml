@@ -20,3 +20,6 @@ timeline:
     - ts: "2025-10-02 02:52:08"
       description: We are continuing to work with our provider to resolve the issue where some Copilot requests using Gemini 2.5 Pro return an error indicating a bad request due to exceeding the input limit size.
       investigating: true
+    - ts: "2025-10-02 17:13:18"
+      description: The underlying issue for the lower token limits for Gemini 2.5 Pro has been identified and a fix is in progress. We will update again once we have tested and confirmed that the fix is correct and globally deployed.
+      investigating: true
