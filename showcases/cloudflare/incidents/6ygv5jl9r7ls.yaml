@@ -17,3 +17,6 @@ timeline:
       description: Cloudflare Engineering identified a path to recover the Access logs lost during the impact window. Recovering these logs could result in a handful of duplicate login events. These logs should show up with identical timestamps and request IDs; the duplicates can be disregarded.
     - ts: "2025-10-02 22:57:05"
       description: Log recovery is completed. All logs should be recovered in the dashboard. Duplicates are most likely to occur at the beginning and end of the incident impact window.
+    - ts: "2025-10-02 23:08:01"
+      description: This incident is now resolved.
+      resolved: true
