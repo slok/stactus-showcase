@@ -1,0 +1,11 @@
+version: incident/v1
+id: 927b7nj76y9q
+name: Subset of Magic Transit and WAN tunnel health checks failing
+impact: none
+systems:
+    - bjlxcss20fsl
+    - qgnxz00j1f2v
+timeline:
+    - ts: "2025-10-02 06:04:44"
+      description: A small percentage of magic transit and magic wan tunnel health checks are failing. We believe this is correlated with a Cloudflare software release and are actively working to mitigate and resolve the issue.
+      investigating: true
