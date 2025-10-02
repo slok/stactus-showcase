@@ -17,3 +17,6 @@ timeline:
     - ts: "2025-10-01 18:16:57"
       description: We are continuing to investigate and test solutions internally while working with our model provider on a deeper investigation into the cause. We will update again when we have identified a mitigation.
       investigating: true
+    - ts: "2025-10-02 02:52:08"
+      description: We are continuing to work with our provider to resolve the issue where some Copilot requests using Gemini 2.5 Pro return an error indicating a bad request due to exceeding the input limit size.
+      investigating: true
