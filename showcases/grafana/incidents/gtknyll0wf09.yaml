@@ -1,10 +1,14 @@
 version: incident/v1
 id: gtknyll0wf09
 name: Ingestion issues in prod-eu-west-3 region
-impact: minor
+impact: major
 systems:
+    - xm2ns8nm3qgv
     - 82s7r3tjyb6n
 timeline:
     - ts: "2025-10-02 10:31:48"
       description: We are currently investigating ingestion issues in prod-eu-west-3 region.
+      investigating: true
+    - ts: "2025-10-02 10:39:34"
+      description: We're continuing investigating the connection issue to the region and will keep you updated. Both query and write paths are affected.
       investigating: true
