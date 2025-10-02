@@ -1,0 +1,13 @@
+version: incident/v1
+id: g6ct18v2gv68
+name: Canadian Billing Address Fails Validation in Registrar
+impact: minor
+systems:
+    - g4tb35rs9yw7
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-10-02 17:51:05"
+      description: Billing validation is failing in Registrar for Canadian billing addresses. This is impacting domain name registration and transfers. The team is investigating.
+      investigating: true
+    - ts: "2025-10-02 18:02:57"
+      description: The cause of this issue has been identified and a fix is being implemented.
