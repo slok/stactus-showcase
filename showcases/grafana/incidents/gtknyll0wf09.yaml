@@ -15,3 +15,9 @@ timeline:
     - ts: "2025-10-02 12:09:57"
       description: The connectivity issue is still being investigated.
       investigating: true
+    - ts: "2025-10-02 12:19:37"
+      description: |-
+        To resolve connectivity issues we have applied change of the IP address of the cluster has been made. This should solve connectivity issues for most users. We are still investigating the cause of the issue.
+
+        If you have firewall rules in place, please update it with the new IP.
+      investigating: true
