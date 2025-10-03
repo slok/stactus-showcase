@@ -1,6 +1,6 @@
 version: incident/v1
 id: 28r3ys31bnnl
-name: SJC/SEA Network issues
+name: US Network issues
 impact: minor
 systems:
     - psk6740r111k
@@ -9,3 +9,5 @@ timeline:
     - ts: "2025-10-03 00:25:11"
       description: We are investigating network issues in SJC/SEA regions. Apps running in those regions may experience increased latency or packet loss.
       investigating: true
+    - ts: "2025-10-03 00:45:04"
+      description: We've identified an issue with an upstream network provider across various US regions, and are working to shift traffic to alternative routes.
