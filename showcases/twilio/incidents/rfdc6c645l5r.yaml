@@ -1,0 +1,11 @@
+version: incident/v1
+id: rfdc6c645l5r
+name: SMS and MMS messages Increased 500 Errors
+impact: minor
+systems:
+    - d1j2nx64rpq3
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2025-10-03 15:21:24"
+      description: Our monitoring systems have detected an increase of 500 errors for SMS and MMS messages. Customers sending messages may also see latency when sending their messages. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true

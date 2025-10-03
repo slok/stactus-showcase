@@ -1,0 +1,10 @@
+version: incident/v1
+id: pd73zytkrxkc
+name: Verify's SMS Messages not Delivered
+impact: minor
+systems:
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2025-10-03 15:24:05"
+      description: Our monitoring systems have detected a potential issue Verify's SMS messages not being delivered. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
