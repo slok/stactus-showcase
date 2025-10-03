@@ -1,0 +1,10 @@
+version: incident/v1
+id: hdzmqwrzq69s
+name: SMS Delivery Delay and Failures to Claro Network in Honduras
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2025-10-03 12:33:11"
+      description: We are experiencing SMS delivery delays and failures when sending messages to Claro network in Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
