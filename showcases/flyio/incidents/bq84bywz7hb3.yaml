@@ -1,0 +1,10 @@
+version: incident/v1
+id: bq84bywz7hb3
+name: Issues loading old logs
+impact: none
+systems:
+    - 6sckg8qmrnzz
+timeline:
+    - ts: "2025-10-03 11:25:59"
+      description: We found out that loading old logs via Grafana is return 5xx errors. Tailing live logs via UI and CLI is working.
+      investigating: true
