@@ -1,0 +1,8 @@
+version: incident/v1
+id: 1515slvct2rn
+name: Egress broken for dedicated egress IPv6
+impact: major
+systems: []
+timeline:
+    - ts: "2025-10-03 16:26:45"
+      description: Egress broken for dedicated egress IPv6. Customers using dedicated egress (Aegis or Zero Trust) on IPv6 are affected and may be experiencing 520 errors. The engineering team has identified the issue and is working on releasing a fix.
