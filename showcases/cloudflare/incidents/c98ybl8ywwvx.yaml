@@ -1,0 +1,11 @@
+version: incident/v1
+id: c98ybl8ywwvx
+name: Elevated 502 errors reported in Virginia, USA
+impact: minor
+systems:
+    - 3t0npclljyyg
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2025-10-03 17:05:22"
+      description: Cloudflare is aware of potential elevated 502 errors in our Virginia Data Center. Visitors may see these as well.
+      investigating: true
