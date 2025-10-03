@@ -1,0 +1,13 @@
+version: incident/v1
+id: 34wtrn4nngwk
+name: Incident with Copilot
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2025-10-03 02:41:54"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2025-10-03 02:42:26"
+      description: We’re seeing degraded experience across Anthropic models. We’re working with our partners to restore service.
+      investigating: true
