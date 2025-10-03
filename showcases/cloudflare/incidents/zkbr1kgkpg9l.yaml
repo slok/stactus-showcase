@@ -1,10 +1,12 @@
 version: incident/v1
 id: zkbr1kgkpg9l
-name: Stream is seeing longer time-to-ready for uploads
+name: 'Cloudflare Stream: longer time-to-ready for uploads'
 impact: minor
 systems:
     - 47xg28c02lnk
 timeline:
     - ts: "2025-10-03 15:29:58"
-      description: Cloudflare Stream is currently investigating longer than usual times for new uploaded videos to be ready to play. Live Streaming, Playback, WebRTC unaffected.
+      description: |-
+        Cloudflare Stream is currently observing longer than usual times for new uploaded videos to be ready to play. Live Streaming, Playback and WebRTC are unaffected.
+        We are working to analyze and mitigate this problem.
       investigating: true

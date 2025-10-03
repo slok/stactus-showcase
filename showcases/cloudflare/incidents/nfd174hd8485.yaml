@@ -1,0 +1,12 @@
+version: incident/v1
+id: nfd174hd8485
+name: Browser Isolation Availability Issues
+impact: critical
+systems:
+    - q0dfbn0p6hyt
+timeline:
+    - ts: "2025-10-03 15:51:00"
+      description: Cloudflare is investigating issues with the Browser Isolation service. Customers that use Browser Isolation may observe errors when attempting to load sites through the service. This issue does not affect any other Cloudflare services. We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-10-03 15:55:11"
+      description: The issue has been identified and a fix is being implemented.

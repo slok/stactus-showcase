@@ -9,3 +9,6 @@ timeline:
     - ts: "2025-10-03 15:21:24"
       description: Our monitoring systems have detected an increase of 500 errors for SMS and MMS messages. Customers sending messages may also see latency when sending their messages. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-10-03 15:51:40"
+      description: We are still experiencing increase of 500 errors for SMS and MMS messages , however, since there are several Twilio impacted services, we're resolving this post and we're consolidating all impacted products and services into one post. You can check the status of this at https://status.twilio.com/incidents/rb7rqsbh9n8w
+      resolved: true
