@@ -11,3 +11,5 @@ timeline:
       investigating: true
     - ts: "2025-10-03 00:45:04"
       description: We've identified an issue with an upstream network provider across various US regions, and are working to shift traffic to alternative routes.
+    - ts: "2025-10-03 01:20:31"
+      description: This incident has been mitigated for all but a small number of hosts in SJC region. We are waiting for those hosts to recover and are monitoring the situation.
