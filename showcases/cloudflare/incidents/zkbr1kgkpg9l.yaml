@@ -15,3 +15,5 @@ timeline:
     - ts: "2025-10-03 16:17:58"
       description: Cloudflare's R2 service is experiencing elevated write latency in the WNAM region. Impacted users will see increased response times on put operations. Stream users may experience longer than usual times for new uploaded videos to be ready to play. Images hosted assets are experiencing higher than usual latency and increased API error responses. Images Transformations, Media Transformations, and Live Broadcasts are unaffected.
       investigating: true
+    - ts: "2025-10-03 16:40:41"
+      description: A fix has been implemented and we are monitoring the results.
