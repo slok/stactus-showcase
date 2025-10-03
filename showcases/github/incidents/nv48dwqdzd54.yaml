@@ -11,5 +11,8 @@ timeline:
       description: Between around 8:16 UTC and 8:51 UTC we saw elevated errors on Claude Opus 4 and Opus 4.1, up to 49% of requests were failing. This has recovered to around 4% of requests failing, we are monitoring recovery.
       investigating: true
     - ts: "2025-09-24 09:18:30"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: |-
+        On September 24th, 2025, between 08:02 UTC and 09:11 UTC the Copilot service was degraded for Claude Opus 4 and Claude Opus 4.1 requests. On average, 22% of requests failed for Claude Opus 4 and 80% of requests for Claude Opus 4.1. This was due to an upstream provider returning elevated errors on Claude Opus 4 and Opus 4.1.
+
+        We mitigated the issue by directing users to select other models and by monitoring recovery. To resolve the issue, we are expanding failover capabilities by integrating with additional infrastructure providers.
       resolved: true
