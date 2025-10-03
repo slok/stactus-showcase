@@ -3,8 +3,11 @@ id: m2jg0rbm70h5
 name: On Call Engineers Are Investigating an Issue With Early Media Ringtone Missing on T-Mobile
 impact: none
 systems:
-    - 6f5zbh4rqx3m
+    - g2dt752kwqs0
 timeline:
     - ts: "2025-10-03 20:58:29"
       description: Our monitoring systems have detected a potential issue impacting Early Media RingTone for calls routing via T-Mobile. Our engineering team has been alerted and is actively investigating. We will provide updates as soon as more information is available.
+      investigating: true
+    - ts: "2025-10-03 21:12:55"
+      description: We are continuing to investigate this issue.
       investigating: true
