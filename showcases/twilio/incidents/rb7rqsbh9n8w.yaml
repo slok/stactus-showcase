@@ -1,10 +1,24 @@
 version: incident/v1
 id: rb7rqsbh9n8w
-name: Increased latency for the Lookup V1 and V2 API
+name: Degradation Across Multiple Twilio Products
 impact: minor
 systems:
+    - whldrk77jnm4
     - 4rv9xfxmdjg9
+    - d1j2nx64rpq3
+    - yf5px6tdl6yt
+    - yvvy3vlp4djf
 timeline:
     - ts: "2025-10-03 15:18:29"
       description: Our monitoring systems have detected increased latency for the Lookup V1 and V2 API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-10-03 16:11:11"
+      description: |-
+        We are observing recovery to degradation across MMS, SMS, OTT, Voice Insights, and Lookup in US1. We will continue to monitor closely. We will provide another updates in 30 minutes.
+
+        We are consolidating the following status posts in this communication: https://status.twilio.com/incidents/rfdc6c645l5r and https://status.twilio.com/incidents/pd73zytkrxkc
+    - ts: "2025-10-03 16:16:45"
+      description: |-
+        We are observing recovery to degradation across MMS, SMS, OTT, Voice Insights, Verify and Lookup in US1. We will continue to monitor closely. We will provide another updates in 30 minutes.
+
+        We are consolidating the following status posts in this communication: https://status.twilio.com/incidents/rfdc6c645l5r and https://status.twilio.com/incidents/pd73zytkrxkc

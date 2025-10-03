@@ -3,10 +3,15 @@ id: zkbr1kgkpg9l
 name: 'Cloudflare Stream: longer time-to-ready for uploads'
 impact: minor
 systems:
+    - 3lbj8lp3d750
+    - hb7g5sq2zz0h
     - 47xg28c02lnk
 timeline:
     - ts: "2025-10-03 15:29:58"
       description: |-
         Cloudflare Stream is currently observing longer than usual times for new uploaded videos to be ready to play. Live Streaming, Playback and WebRTC are unaffected.
         We are working to analyze and mitigate this problem.
+      investigating: true
+    - ts: "2025-10-03 16:17:58"
+      description: Cloudflare's R2 service is experiencing elevated write latency in the WNAM region. Impacted users will see increased response times on put operations. Stream users may experience longer than usual times for new uploaded videos to be ready to play. Images hosted assets are experiencing higher than usual latency and increased API error responses. Images Transformations, Media Transformations, and Live Broadcasts are unaffected.
       investigating: true
