@@ -15,3 +15,8 @@ timeline:
     - ts: "2025-09-25 01:35:31"
       description: This incident has been resolved.
       resolved: true
+    - ts: "2025-10-03 07:39:09"
+      description: |-
+        Following a joint investigation with our cloud provider, AWS, we have confirmed the root cause was network instability from the carrier, Cogent. This instability caused access requests routed through the Cogent network to experience timeouts and packet loss.
+
+        This is the same issue detailed in our another incident report: [https://status.bambulab.com/incidents/s6wds2nqyght](https://status.bambulab.com/incidents/s6wds2nqyght)

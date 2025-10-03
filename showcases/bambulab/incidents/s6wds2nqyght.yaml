@@ -1,0 +1,16 @@
+version: incident/v1
+id: s6wds2nqyght
+name: Network Connectivity Issues Resolved and Mitigated
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-03 07:36:15"
+      description: |-
+        Between 08:02 and 11:52 UTC+8, some users experienced intermittent issues accessing our cloud services.
+
+        After a joint investigation with our cloud provider, AWS, we have confirmed the root cause was network instability from the carrier, Cogent. Access requests routed through the Cogent network were subject to timeouts and packet loss.
+
+        Due to several recent incidents involving this provider, AWS has proactively rerouted traffic away from Cogent to alternative network paths. This action significantly mitigates the risk of similar disruptions in the future.
+
+        Cogent Network Status: https://ecogent.cogentco.com/network-status
+      resolved: true
