@@ -3,8 +3,11 @@ id: 1jlkjhmbsqsw
 name: SMS Delivery Delays and Failures to Telefonica O2 Network in Germany
 impact: minor
 systems:
-    - 8qjql0kqnd33
+    - llgdln3dcs6p
 timeline:
     - ts: "2025-10-03 11:04:36"
+      description: We are experiencing SMS delivery delays and failures when sending messages to Telefonica O2 network in Germany. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-10-03 11:07:12"
       description: We are experiencing SMS delivery delays and failures when sending messages to Telefonica O2 network in Germany. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
