@@ -1,6 +1,6 @@
 version: incident/v1
 id: 2cj121frrkpb
-name: WhatsApp Sandbox Service Disruption Affecting Brazilian Numbers
+name: WhatsApp Sandbox Cross-Country Messages Blocked
 impact: none
 systems:
     - 1gkv0mxhzsjv
@@ -9,5 +9,5 @@ timeline:
       description: Our engineering team has detected a potential issue regarding the WhatsApp sandbox. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2025-10-03 21:20:55"
-      description: We are continuing to investigate a service disruption in WhatsApp sandbox functionality, particularly when attempting to send messages to Brazilian phone numbers. We will provide an update in 2 hours, or as soon as we receive more information.
+      description: We are continuing to investigate a service disruption impacting WhatsApp Sandbox functionality, particularly when attempting to send messages to phone numbers in Brazil, Mexico, India, and Indonesia. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
