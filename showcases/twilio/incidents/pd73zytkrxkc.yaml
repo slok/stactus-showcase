@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-10-03 15:24:05"
       description: Our monitoring systems have detected a potential issue Verify's SMS messages not being delivered. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-10-03 15:44:05"
+      description: 'We are experiencing issues with the Verify''s SMS messages not being delivered, impacting multiple Twilio services. We’re consolidating the StatusPage posts: https://status.twilio.com/incidents/rfdc6c645l5r. Our engineering teams are actively working to resolve these issues.'
+      resolved: true
