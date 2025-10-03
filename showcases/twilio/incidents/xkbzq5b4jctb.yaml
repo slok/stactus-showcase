@@ -1,0 +1,10 @@
+version: incident/v1
+id: xkbzq5b4jctb
+name: Deepgram Transcription Delay Issue
+impact: minor
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2025-10-03 01:35:25"
+      description: A subset of customers may experience delays in the completion of transcriptions.
+      investigating: true
