@@ -1,0 +1,13 @@
+version: incident/v1
+id: xk38mg3tk1k2
+name: Cloudflare Workers Issues
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-10-03 13:41:18"
+      description: |-
+        Cloudflare has identified an increased level of errors on Workers: customers may observe sporadic 1022 errors in requests.
+        The issue has been identified, and a fix is in progress.
+
+        More updates shall be made available as the mitigation progresses.
