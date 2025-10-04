@@ -1,9 +1,13 @@
 version: incident/v1
 id: yh6gbw8kr8gz
-name: Our Engineers are Investigating an Issue with Abnormal ringing tone on JS SDK Clients
-impact: none
-systems: []
+name: Issue Causing Distorted Ringback Tones on TwiML Dial Calls
+impact: minor
+systems:
+    - xnzrm2zg4qbv
 timeline:
     - ts: "2025-10-04 06:43:23"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with Abnormal ringing tone on JS SDK Clients. We will follow up and provide customer impact details within 2 hours.
+      investigating: true
+    - ts: "2025-10-04 07:50:05"
+      description: We are investigating an issue where loud and distorted ringing tones are heard in some voice calls with TwiML Dial. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
