@@ -1,0 +1,10 @@
+version: incident/v1
+id: ss2bxhr4j58c
+name: API Availability
+impact: none
+systems:
+    - p1x9rv4137gx
+timeline:
+    - ts: "2025-10-04 15:40:04"
+      description: "From 14:30 to 14:44 UTC, our Engineering team observed an issue impacting our API. \n\nDuring this time, users may have experienced intermittent errors when trying to use the public API at api.digitalocean.com or processing API requests. Users may have also experienced issues with processing Droplet and Kubernetes cluster creations and cluster actions.\n\nThe impact has now subsided and as of 14:44 UTC, users should no longer be experiencing issues with accessing the API and all services should now be functioning normally.\n\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience."
+      resolved: true
