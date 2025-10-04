@@ -1,0 +1,13 @@
+version: incident/v1
+id: h8lvlf1vs6d8
+name: Elevated cache hit time to first byte in Sao Paulo
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+    - 73mbn78m0yzm
+timeline:
+    - ts: "2025-10-04 00:58:28"
+      description: Cloudflare is aware of, and investigating an issue which is causing elevated cache hit time to first byte in Sao Paulo starting from 15:50 UTC October 3. Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2025-10-04 01:20:39"
+      description: The issue has been identified and a fix is being implemented.
