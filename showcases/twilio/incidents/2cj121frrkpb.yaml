@@ -1,7 +1,7 @@
 version: incident/v1
 id: 2cj121frrkpb
 name: WhatsApp Sandbox Cross-Country Messages Blocked
-impact: none
+impact: minor
 systems:
     - 1gkv0mxhzsjv
 timeline:
@@ -19,4 +19,7 @@ timeline:
       investigating: true
     - ts: "2025-10-04 04:03:43"
       description: We still continue to investigate errors impacting WhatsApp Sandbox functionality, particularly when attempting to send messages to phone numbers in Brazil, Mexico, India, and Indonesia. We will provide another update in 8 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-10-04 11:55:49"
+      description: We are continuing to investigate errors affecting WhatsApp Sandbox functionality, particularly when sending messages to phone numbers in Brazil, Mexico, India, and Indonesia. We will provide an update in 16 hours or as soon as more information becomes available.
       investigating: true
