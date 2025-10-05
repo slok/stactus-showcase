@@ -1,0 +1,13 @@
+version: incident/v1
+id: lqsct60tyq0m
+name: Increased latency affecting some US colos
+impact: minor
+systems:
+    - 8qwmwg7ytljv
+timeline:
+    - ts: "2025-10-05 12:50:10"
+      description: |-
+        Cloudflare is investigating increased latency affecting some US colos.
+
+        More updates to follow shortly.
+      investigating: true
