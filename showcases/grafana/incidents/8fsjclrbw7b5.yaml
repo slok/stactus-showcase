@@ -2,8 +2,12 @@ version: incident/v1
 id: 8fsjclrbw7b5
 name: Some elevated error rates on the prometheus-blocks-prod-us-central1, influx-blocks-prod-us-central1 and graphite-blocks-prod-us-central1 clusters.
 impact: minor
-systems: []
+systems:
+    - jhc34sjt42wd
 timeline:
     - ts: "2025-10-05 08:03:25"
       description: It seems that the cloud provider object storage has latency spikes, which directly affect our write latency.
+      investigating: true
+    - ts: "2025-10-05 09:07:29"
+      description: We are continuing to investigate this issue.
       investigating: true
