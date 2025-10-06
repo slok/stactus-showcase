@@ -1,0 +1,9 @@
+version: incident/v1
+id: 1klpbdlrshm2
+name: Delays in Event Streams Delivery to Segment
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-05 23:52:30"
+      description: Event Streams was degraded for approximately 40 minutes between 05 October 2025 03:37 PST until 05 October 2025 04:17 PST due to an issue with Segment https://status.segment.com/incidents/m6z5ng1h4x6b. During this period, customers might have experienced delays in Event Streams delivery to Segment. The issue has now been resolved.
+      resolved: true
