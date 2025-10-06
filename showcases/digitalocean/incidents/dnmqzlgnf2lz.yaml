@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-10-06 18:15:46"
       description: Our Engineering team is investigating an issue impacting Managed Kubernetes cluster creation and management operations in TOR1 region. During this time, some users may experience errors provisioning new Kubernetes clusters as well as making changes to existing clusters. Workloads on existing clusters are not impacted at this time. We apologize for the inconvenience and will share an update once we have more information.
       investigating: true
+    - ts: "2025-10-06 19:11:10"
+      description: Our Engineering team has resolved the issue impacting Managed Kubernetes clusters in our TOR1 region. We apologize for the inconvenience and appreciate your patience throughout this event. If you experience any further problems or have any questions, please open a support ticket within your account.
+      resolved: true
