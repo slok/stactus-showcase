@@ -1,0 +1,10 @@
+version: incident/v1
+id: dnmqzlgnf2lz
+name: Kubernetes Clusters in TOR1
+impact: minor
+systems:
+    - xr6mrvgw7q9c
+timeline:
+    - ts: "2025-10-06 18:15:46"
+      description: Our Engineering team is investigating an issue impacting Managed Kubernetes cluster creation and management operations in TOR1 region. During this time, some users may experience errors provisioning new Kubernetes clusters as well as making changes to existing clusters. Workloads on existing clusters are not impacted at this time. We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
