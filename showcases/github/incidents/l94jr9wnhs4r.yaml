@@ -27,5 +27,5 @@ timeline:
       description: We have confirmed that the fix for the lower token input limit for Gemini 2.5 Pro is in place and are currently testing our previous higher limit to verify that customers will experience no further impact.
       investigating: true
     - ts: "2025-10-02 22:33:20"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between October 1st, 2025 at 1 AM UTC and October 2nd, 2025 at 10:33 PM UTC, the Copilot service experienced a degradation of the Gemini 2.5 Pro model due to an issue with our upstream provider. Before 15:53 UTC on October 1st, users experienced higher error rates with large context requests while using Gemini 2.5 Pro. After 15:53 UTC and until 10:33 PM UTC on October 2nd, requests were restricted to smaller context windows when using Gemini 2.5. Pro. No other models were impacted.<br /><br />The issue was resolved by a mitigation put in place by our provider.  GitHub is collaborating with our provider to enhance communication and improve the ability to reproduce issues with the aim to reduce resolution time.
       resolved: true
