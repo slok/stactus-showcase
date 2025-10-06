@@ -19,3 +19,8 @@ timeline:
         Customers can continue view live logs for their apps using the `flyctl logs` command and from the logs tab of their app page at Fly.io/dashboard.
     - ts: "2025-10-06 19:50:48"
       description: We are continuing to backfill historic logs into fly-metrics.net.  New logs will be accessible once the backfill is complete.
+    - ts: "2025-10-06 23:18:16"
+      description: |-
+        New app logs are once again stably flowing into the fly-metrics.net dashboard. Users should see and be able to search all app logs from 22:30 UTC onwards. We are continuing to monitor the customer logs cluster to ensure continued stability.
+
+        Not all historical logs were able to be backfilled. Many users will see missing or incomplete logs for the period between 08:00 - 22:30 UTC Oct-06-2025.
