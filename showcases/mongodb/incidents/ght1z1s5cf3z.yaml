@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-10-06 19:33:24"
       description: Some Atlas cluster operations are delayed. This includes cluster operations and metrics ingestion. We are currently investigating the issue.
       investigating: true
+    - ts: "2025-10-06 20:48:05"
+      description: We are continuing to investigate the issue. Atlas Cluster operations (including metrics ingestion) are delayed but underlying cluster health is unaffected.
+      investigating: true
