@@ -1,0 +1,10 @@
+version: incident/v1
+id: qh47k5pj32dm
+name: Function Invocations API Degraded, Functions Invocations Can Fail With 500 Error
+impact: minor
+systems:
+    - b3tl520cz8tc
+timeline:
+    - ts: "2025-10-06 14:35:00"
+      description: We are investigating a service interruption with the Function Invocations API, Functions invocations can fail with 500 error. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
