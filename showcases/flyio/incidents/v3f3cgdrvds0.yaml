@@ -1,6 +1,6 @@
 version: incident/v1
 id: v3f3cgdrvds0
-name: Grafana logs not loading
+name: Grafana log search not loading
 impact: major
 systems:
     - 6sckg8qmrnzz
@@ -12,3 +12,8 @@ timeline:
       description: The issue has been identified and a fix is being implemented.
     - ts: "2025-10-06 15:55:13"
       description: "We are continuing to work on a fix for this issue. Searchable logs in the fly-metrics.net Grafana board remain unavailable at this time. \n\nCustomers can view live logs for their apps using the `flyctl logs` command and from the logs tab of their app page at Fly.io/dashboard ."
+    - ts: "2025-10-06 17:46:23"
+      description: |-
+        We have applied a fix and historic logs are now backfilling into fly-metrics.net.  New logs will be accessible once the backfill is complete.
+
+        Customers can continue view live logs for their apps using the `flyctl logs` command and from the logs tab of their app page at Fly.io/dashboard.
