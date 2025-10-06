@@ -11,5 +11,5 @@ timeline:
       description: Customers are getting 404 responses when connecting to the GitHub MCP server. We have reverted a change we believe is contributing to the impact, and are seeing resolution in deployed environments.
       investigating: true
     - ts: "2025-09-29 17:33:51"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On September 29, 2025 between 16:26 UTC and 17:33 UTC the Copilot API experienced a partial degradation causing intermittent erroneous 404 responses for an average of 0.2% of GitHub MCP server requests, peaking at times around 2% of requests. The issue stemmed from an upgrade of an internal dependency which exposed a misconfiguration in the service.<br /><br />We resolved the incident by rolling back the upgrade to address the misconfiguration. We fixed the configuration issue and will improve documentation and rollout process to prevent similar issues.
       resolved: true

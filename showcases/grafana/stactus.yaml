@@ -194,12 +194,12 @@ systems:
       name: 'Grafana Cloud: Pyroscope / AWS Japan - prod-ap-northeast-0'
     - id: kzsv2pc2s30t
       name: 'Grafana Cloud: Faro / AWS Japan - prod-ap-northeast-0'
-    - id: ht5t547d4vlk
-      name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS Japan - prod-ap-northeast-0'
     - id: 7rxnp4yqgd0v
       name: 'Grafana Cloud: Tempo / AWS Brazil - prod-sa-east-1: Metrics Generator'
     - id: qwkkscbddtdw
       name: 'Grafana Cloud: k6 / Private Load Zones'
+    - id: vz67nr5zmnvh
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS Indonesia - prod-ap-southeast-2'
     - id: sfb7d62bn16m
       name: 'Grafana Cloud: Maintenance / AWS Singapore - prod-ap-southeast-1'
     - id: 13y4pn7qg807
@@ -220,12 +220,12 @@ systems:
       name: 'Grafana Cloud: OTLP Endpoint / AWS Singapore - prod-ap-southeast-1'
     - id: n90lmkqjvtcf
       name: 'Grafana Cloud: Faro / AWS Singapore - prod-ap-southeast-1'
-    - id: 83pzb618q8t9
-      name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS Singapore - prod-ap-southeast-1'
     - id: nrv6vyr5l7m8
       name: 'Grafana Cloud: Hosted Grafana / AWS Japan - prod-ap-northeast-0'
     - id: nfll10wmx61f
       name: 'Grafana Cloud: Loki / AWS Japan - prod-ap-northeast-0'
+    - id: ht5t547d4vlk
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS Japan - prod-ap-northeast-0'
     - id: p4flzqxppxqq
       name: 'Grafana Cloud: Insight Logs / AWS Japan - prod-ap-northeast-0'
     - id: kl09tfsxs2h4
@@ -256,8 +256,8 @@ systems:
       name: 'Grafana Cloud: OTLP Endpoint / AWS Sweden - prod-eu-north-0'
     - id: hkh69v8nwgz5
       name: 'Grafana Cloud: Faro / AWS Sweden - prod-eu-north-0'
-    - id: mbk5fz2pkjx8
-      name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS Sweden - prod-eu-north-0'
+    - id: 83pzb618q8t9
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS Singapore - prod-ap-southeast-1'
     - id: y6nx8hq980f7
       name: 'Grafana Cloud: Insight Logs / AWS Singapore - prod-ap-southeast-1'
     - id: hbrnp71v4t2r
@@ -282,8 +282,8 @@ systems:
       name: 'Grafana Cloud: Machine Learning / AWS US East - prod-us-east-0'
     - id: 72qxjs1p29q7
       name: 'Grafana Cloud: Faro / AWS US East - prod-us-east-0'
-    - id: r4t5cjg79lkv
-      name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS US East - prod-us-east-0'
+    - id: mbk5fz2pkjx8
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS Sweden - prod-eu-north-0'
     - id: r8yfjyh7frmz
       name: 'Grafana Cloud: Insight Logs / AWS Sweden - prod-eu-north-0'
     - id: 4lprknwvbwyz
@@ -314,8 +314,6 @@ systems:
       name: 'Grafana Cloud: OTLP Endpoint / AWS US West - prod-us-west-0'
     - id: qf9z45tkj8s4
       name: 'Grafana Cloud: Faro / AWS US West - prod-us-west-0'
-    - id: 2lgxvw5jzjy2
-      name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS US West - prod-us-west-0'
     - id: 4574j0y6f0kl
       name: 'Grafana Cloud: Insight Logs / AWS US East - prod-us-east-0'
     - id: 1dqyw0njnkxv
@@ -326,6 +324,8 @@ systems:
       name: 'Grafana Cloud: Graphite / AWS UAE - prod-me-central-1: Ingestion'
     - id: n72tkbyzr423
       name: 'Grafana Cloud: Prometheus / AWS UAE - prod-me-central-1: Ingestion'
+    - id: hjyxwlnx32qy
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS Switzerland - prod-eu-central-0'
     - id: hbqgpzmf8h9k
       name: 'Grafana Cloud: Hosted Grafana / AWS US East - prod-us-east-0'
     - id: wnn1j1821zjr
@@ -344,8 +344,6 @@ systems:
       name: 'Grafana Cloud: Maintenance / Azure Germany - prod-eu-west-1'
     - id: kklwl18sstbm
       name: 'Grafana Cloud: Faro / Azure Germany - prod-eu-west-1'
-    - id: xp9dh2867dhp
-      name: 'Grafana Cloud: Private Datasource Connect (PDC) / Azure Netherlands - prod-eu-west-3'
     - id: 84rgqcy2cclc
       name: 'Grafana Cloud: Insight Logs / AWS US East - prod-us-east-2'
     - id: rwd1gm8x0pd9
@@ -356,6 +354,8 @@ systems:
       name: 'Grafana Cloud: Adaptive Metrics / AWS US East - prod-us-east-2'
     - id: fz0z7nwsycy7
       name: 'Grafana Cloud: Synthetic Monitoring / AWS Japan - prod-ap-northeast-0: API'
+    - id: wj6wrfb2kykv
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS UAE - prod-me-central-1'
     - id: t0592d5sxhgh
       name: 'Grafana Cloud: Hosted Grafana / AWS US East - prod-us-east-2'
     - id: 0b71ln6v71cl
@@ -372,8 +372,6 @@ systems:
       name: 'Grafana Cloud: Machine Learning / Azure Netherlands - prod-eu-west-3'
     - id: 00r5jb2jl7pt
       name: 'Grafana Cloud: Faro / Azure Netherlands - prod-eu-west-3'
-    - id: 7hzxytvzk3mz
-      name: 'Grafana Cloud: Private Datasource Connect (PDC) / Azure US Central - us-central2'
     - id: py9fz64ctkxt
       name: 'Grafana Cloud: Insight Logs / AWS US West - prod-us-west-0'
     - id: fq2nnssxxg6g
@@ -386,6 +384,8 @@ systems:
       name: 'Grafana Cloud: Synthetic Monitoring / AWS Japan - prod-ap-northeast-0: Public Probes'
     - id: f9lywhj1rpkl
       name: 'Grafana Cloud: Tempo / AWS Germany - prod-eu-west-2: Metrics Generator'
+    - id: hw1my24vpp26
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS UK - prod-gb-south-1'
     - id: tpk4cdhtsm82
       name: 'Grafana Cloud: Loki / Azure US Central - us-central2'
     - id: h6c5t69fh0lr
@@ -402,8 +402,8 @@ systems:
       name: 'Grafana Cloud: Synthetic Monitoring / AWS Singapore - prod-ap-southeast-1: API'
     - id: 0s84b5yjppwy
       name: 'Grafana Cloud: Faro / Azure US Central - us-central2'
-    - id: y46ddhgystcm
-      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP Australia - prod-au-southeast-0'
+    - id: r4t5cjg79lkv
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS US East - prod-us-east-0'
     - id: w9c2488yh5wn
       name: 'Grafana Cloud: Insight Logs / Azure Germany - prod-eu-west-1'
     - id: s6y4n77rfpj2
@@ -432,8 +432,8 @@ systems:
       name: 'Grafana Cloud: Synthetic Monitoring / AWS Singapore - prod-ap-southeast-1: Public Probes'
     - id: cxvhcw6k5b06
       name: 'Grafana Cloud: Faro / GCP Australia - prod-au-southeast-0'
-    - id: z9wm2b60vf8f
-      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP Belgium - prod-eu-west-0'
+    - id: 2lgxvw5jzjy2
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS US West - prod-us-west-0'
     - id: 0bt67z3hgn5g
       name: 'Grafana Cloud: Insight Logs / Azure Netherlands - prod-eu-west-3'
     - id: 6j07ly9d19dc
@@ -466,8 +466,8 @@ systems:
       name: 'Grafana Cloud: Synthetic Monitoring / AWS Sweden - prod-eu-north-0: API'
     - id: csppcd2xw8l1
       name: 'Grafana Cloud: Faro / GCP Belgium - prod-eu-west-0'
-    - id: qtptj232t43m
-      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP Brazil - prod-sa-east-0'
+    - id: xp9dh2867dhp
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / Azure Netherlands - prod-eu-west-3'
     - id: 6f1xs7c89lnx
       name: 'Grafana Cloud: Insight Logs / Azure US Central - us-central2'
     - id: yptj3h8fdn8j
@@ -496,8 +496,8 @@ systems:
       name: 'Grafana Cloud: Synthetic Monitoring / AWS Sweden - prod-eu-north-0: Public Probes'
     - id: gz7h5z3g2fy0
       name: 'Grafana Cloud: Faro / GCP Brazil - prod-sa-east-0'
-    - id: 2htzkr2r80lm
-      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP India - prod-ap-south-0'
+    - id: 7hzxytvzk3mz
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / Azure US Central - us-central2'
     - id: 920tb4z02ydp
       name: 'Grafana Cloud: Insight Logs / GCP Australia - prod-au-southeast-0'
     - id: f072zpmfqxhf
@@ -526,8 +526,8 @@ systems:
       name: 'Grafana Cloud: Synthetic Monitoring / AWS US East - prod-us-east-0: API'
     - id: 19pbz44xbzcg
       name: 'Grafana Cloud: Faro / GCP India - prod-ap-south-0'
-    - id: fd85rg7yrqww
-      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP Singapore - prod-ap-southeast-0'
+    - id: y46ddhgystcm
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP Australia - prod-au-southeast-0'
     - id: hz4575jrx7gn
       name: 'Grafana Cloud: Insight Logs / GCP Belgium - prod-eu-west-0'
     - id: zljxmjgrpj4q
@@ -556,8 +556,8 @@ systems:
       name: 'Grafana Cloud: Synthetic Monitoring / AWS US East - prod-us-east-0: Public Probes'
     - id: 8wq67tm1cg31
       name: 'Grafana Cloud: Faro / GCP Singapore - prod-ap-southeast-0'
-    - id: 22lqyzyw46nj
-      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP UK - prod-gb-south-0'
+    - id: z9wm2b60vf8f
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP Belgium - prod-eu-west-0'
     - id: k0346krtzlgk
       name: 'Grafana Cloud: Insight Logs / GCP Brazil - prod-sa-east-0'
     - id: hx6nqhhypfrp
@@ -588,8 +588,8 @@ systems:
       name: 'Grafana Cloud: Synthetic Monitoring / AWS US West - prod-us-west-0: API'
     - id: 8klb6l621gd7
       name: 'Grafana Cloud: Faro / GCP UK - prod-gb-south-0'
-    - id: y081wmnk39py
-      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP US Central - prod-us-central-0'
+    - id: qtptj232t43m
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP Brazil - prod-sa-east-0'
     - id: 79yvcvrrt34w
       name: 'Grafana Cloud: Insight Logs / GCP India - prod-ap-south-0'
     - id: xm5bbn27cwwh
@@ -622,6 +622,8 @@ systems:
       name: 'Grafana Cloud: Synthetic Monitoring / AWS US West - prod-us-west-0: Public Probes'
     - id: fn320fztp9hc
       name: 'Grafana Cloud: Faro / GCP US Central - prod-us-central-0'
+    - id: 2htzkr2r80lm
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP India - prod-ap-south-0'
     - id: mrqsb3xvh6q3
       name: 'Grafana Cloud: Insight Logs / GCP Singapore - prod-ap-southeast-0'
     - id: rpkhxz445zq7
@@ -649,6 +651,8 @@ systems:
       name: 'Grafana Cloud: Tempo / AWS Singapore - prod-ap-southeast-1: Metrics Generator'
     - id: 98skfgrdgchf
       name: 'Grafana Cloud: Loki / GCP US Central - prod-us-central-5'
+    - id: rg5xdkxx8r7d
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP Saudi Arabia - prod-me-central-0'
     - id: qqj6ssvvsqmq
       name: 'Grafana Cloud: Hosted Grafana / GCP US Central - prod-us-central-0'
     - id: mnz8ljld0pcz
@@ -661,6 +665,8 @@ systems:
       name: 'Grafana Cloud: Prometheus Rules and Alerts / AWS Singapore - prod-ap-southeast-1: Alertmanager'
     - id: 2smqz5gmhtq7
       name: 'Grafana Cloud: Tempo / AWS Sweden - prod-eu-north-0: Querying'
+    - id: fd85rg7yrqww
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP Singapore - prod-ap-southeast-0'
     - id: n2tdxrj24qmx
       name: 'Grafana Cloud: Insight Logs / GCP US Central - prod-us-central-0'
     - id: djjv8h5nh3jp
@@ -681,6 +687,8 @@ systems:
       name: 'Grafana Cloud: Tempo / AWS Sweden - prod-eu-north-0: Ingestion'
     - id: mhjps7348n0g
       name: 'Grafana Cloud: Synthetic Monitoring / Azure Netherlands - prod-eu-west-3: API'
+    - id: 22lqyzyw46nj
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP UK - prod-gb-south-0'
     - id: cs8qq3k7vmgs
       name: 'Grafana Cloud: Insight Logs / GCP US Central - prod-us-central-3'
     - id: 4dd0yqb74jpn
@@ -698,6 +706,8 @@ systems:
       name: 'Grafana Cloud: Prometheus Rules and Alerts / AWS Sweden - prod-eu-north-0: Alertmanager'
     - id: dcwlkh9jb6xh
       name: 'Grafana Cloud: Synthetic Monitoring / Azure Netherlands - prod-eu-west-3: Public Probes'
+    - id: y081wmnk39py
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP US Central - prod-us-central-0'
     - id: l3gsnvlkq2mj
       name: 'Grafana Cloud: Insight Logs / GCP US Central - prod-us-central-4'
     - id: 991yg38dlv8j
@@ -720,6 +730,8 @@ systems:
       name: 'Grafana Cloud: Insight Logs / GCP US East - prod-us-east-1'
     - id: k6z6k6fhz17p
       name: 'Grafana Cloud: Adaptive Metrics / GCP US East - prod-us-east-1'
+    - id: xb8m6tjchkht
+      name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP US East - prod-us-east-1'
     - id: 4vfjcc6ptw32
       name: 'Grafana Cloud: Hosted Grafana / play.grafana.org'
     - id: d1qqwsst6by9
