@@ -1,0 +1,10 @@
+version: incident/v1
+id: xptj5yq63w0g
+name: Elevated Packet Loss
+impact: minor
+systems:
+    - 15knchzwl5np
+timeline:
+    - ts: "2025-10-07 16:39:23"
+      description: We are currently investigating elevated packet loss between a number of regions. Users may see degraded network performance when connecting to or from their machines.
+      investigating: true
