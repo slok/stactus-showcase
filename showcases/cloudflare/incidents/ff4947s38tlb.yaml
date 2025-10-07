@@ -4,9 +4,17 @@ name: Elevated workers KV timeouts
 impact: minor
 systems:
     - w4k8yvhfb3vp
+    - vgxj684rcw7t
     - 47xg28c02lnk
+    - k04jkcpzxn94
     - tmh50tx2nprs
 timeline:
     - ts: "2025-10-07 16:47:47"
-      description: Cloudflare engineering is investigating elevated timeouts for Workers KV. This will impact direct usage of KV and other dependent Cloudflare products. Known impact includes Access and Stream. Access configuration updates will be delayed, but authentication and login are unaffected.
+      description: Cloudflare engineering is investigating elevated timeouts for Workers KV. This will impact direct usage of KV and other dependent Cloudflare products. Known impact includes Access and Stream. Access configuration updates will be delayed, but authentication and login are unaffected. Stream new video uploads and creation of live inputs may be delayed, but playback of existing videos is unaffected.
+      investigating: true
+    - ts: "2025-10-07 16:56:44"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-10-07 17:05:53"
+      description: We are continuing to investigate this issue.
       investigating: true

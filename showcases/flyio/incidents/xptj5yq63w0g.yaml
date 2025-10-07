@@ -3,8 +3,16 @@ id: xptj5yq63w0g
 name: Elevated Packet Loss
 impact: minor
 systems:
-    - 15knchzwl5np
+    - k6fbt4mk0xv1
+    - 266zqs63006k
+    - m0gqlhds44dr
+    - b97pv9yxbzv7
 timeline:
     - ts: "2025-10-07 16:39:23"
       description: We are currently investigating elevated packet loss between a number of regions. Users may see degraded network performance when connecting to or from their machines.
       investigating: true
+    - ts: "2025-10-07 16:53:31"
+      description: |-
+        We are working with our networking providers to restore normal operation. We are seeing an improvement in packet loss in most regions, though users may see intermittent loss at this time.
+
+         BOM (Mumbai), CDG (Paris), NRT (Tokyo), SIN (Singapore) are still seeing higher rates of packet loss. Users may see degraded networking performance connecting to or from machines in those regions.

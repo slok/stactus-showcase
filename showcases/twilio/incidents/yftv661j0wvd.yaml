@@ -1,0 +1,12 @@
+version: incident/v1
+id: yftv661j0wvd
+name: On Call Engineers are Investigating an issue
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-07 17:02:27"
+      description: Our monitoring systems have detected a potential issue with duplicate porting orders. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-07 17:04:20"
+      description: We have fully investigated the duplicate porting orders issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
