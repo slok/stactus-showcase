@@ -7,3 +7,5 @@ timeline:
     - ts: "2025-10-07 11:57:40"
       description: Users may notice intermittent 4XX errors while pushing to Fly registry.
       investigating: true
+    - ts: "2025-10-07 20:49:21"
+      description: "A fix has been deployed and we are monitoring the results. We are seeing a decrease in 401 / 499 errors when deploying. \n\nThis issue primarily impacted users deploying apps via the Fly Dashboard, deploys using flyctl versions lower than v0.3.180, and deploys involving building very large images."
