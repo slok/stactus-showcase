@@ -1,0 +1,9 @@
+version: incident/v1
+id: d4ymq7m4h167
+name: Media Transformations returning errors for uncached requests
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-07 23:22:38"
+      description: Stream engineering has identified an error causing uncached requests for media transformations (short form video optimization) are returning errors. Stream on-demand and live broadcasts are not affected. Image Transformations are not affected.
+      investigating: true
