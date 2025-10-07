@@ -1,0 +1,12 @@
+version: incident/v1
+id: tblqdfkxj9x9
+name: Network Congestion towards origins in Eastern North America
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-10-07 09:56:05"
+      description: |-
+        Cloudflare experienced a network congestion in Eastern North America, causing degraded origin connectivity from our global network to origins in Eastern North America.
+
+        The impact occurred between 08:05 UTC and 09:36 UTC. The issue has been resolved.
+      resolved: true
