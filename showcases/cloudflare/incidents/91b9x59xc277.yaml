@@ -1,0 +1,11 @@
+version: incident/v1
+id: 91b9x59xc277
+name: R2 & Pages custom domain may experience errors
+impact: minor
+systems:
+    - vgxj684rcw7t
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2025-10-07 23:26:35"
+      description: Cloudflare is currently investigating an issue affecting R2 and Pages custom domains, which may have led to degraded functionality for customers. We are actively working to understand the full impact and mitigation measures. More updates will be provided shortly.
+      investigating: true
