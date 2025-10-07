@@ -4,6 +4,7 @@ name: Elevated workers KV timeouts
 impact: minor
 systems:
     - w4k8yvhfb3vp
+    - nmp96vgn1hpl
     - vgxj684rcw7t
     - 47xg28c02lnk
     - k04jkcpzxn94
@@ -17,4 +18,10 @@ timeline:
       investigating: true
     - ts: "2025-10-07 17:05:53"
       description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-10-07 17:08:50"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-10-07 17:22:47"
+      description: Zero Trust customers that rely on information from WARP such as posture updated in Access and Gateway Policies may see access failures depending on configuration.
       investigating: true
