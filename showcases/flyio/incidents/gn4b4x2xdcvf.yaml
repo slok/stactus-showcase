@@ -1,0 +1,9 @@
+version: incident/v1
+id: gn4b4x2xdcvf
+name: Intermittent registry errors
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-07 11:57:40"
+      description: Users may notice intermittent 4XX errors while pushing to Fly registry.
+      investigating: true
