@@ -1,9 +1,23 @@
 version: incident/v1
 id: 82k8d8y2m926
-name: Potential Service Interruption
-impact: none
-systems: []
+name: Data Irregularities - US Region
+impact: minor
+systems:
+    - 2vkckmpm1kh6
+    - 1ccpnwlhg6xx
+    - 45zc1fn1w80h
+    - 5kywhg5j0l21
+    - 2jrn08x58ps2
+    - pmtvnzg1dzfm
+    - s27h21w34qhk
+    - 6x8hq64xfvwl
+    - 833c8h98qq4g
+    - czn9jxzshjxn
+    - xlzs28xhd8bw
 timeline:
     - ts: "2025-10-07 17:04:18"
       description: We are investigating a potential service interruption that may impact some customers. Please continue to monitor this page for updates.
+      investigating: true
+    - ts: "2025-10-07 17:34:49"
+      description: Some customers in the US region may be experiencing a delay in data appearing within the New Relic UI. Alert notifications may also be delayed as a result.
       investigating: true
