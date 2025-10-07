@@ -1,0 +1,13 @@
+version: incident/v1
+id: 701vtkwf83qn
+name: Issue With Paid Support Plans
+impact: minor
+systems:
+    - jw9dh2mf4392
+timeline:
+    - ts: "2025-10-07 22:14:20"
+      description: Our monitoring systems have detected a potential issue Twilio Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-07 22:19:59"
+      description: We have discovered an issue with Twilio console and paid support plans. Our engineers are investigating this issue. We will give an update in 1 hour or when more information is available.
+      investigating: true
