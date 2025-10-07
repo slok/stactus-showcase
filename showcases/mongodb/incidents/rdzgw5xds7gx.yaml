@@ -11,3 +11,5 @@ timeline:
     - ts: "2025-10-07 15:45:07"
       description: We are continuing to investigate the issue. During this time Host Down alerts will not fire and metrics may be missing or delayed for Atlas and Cloud Manager Clusters. Cluster operations may also be delayed.
       investigating: true
+    - ts: "2025-10-07 17:44:40"
+      description: We have identified the cause of the issue and have taken corrective actions. We are monitoring the impact of those mitigations. During this time Host Down alerts, metrics, and some Atlas Cluster Operations may still be delayed or missing.

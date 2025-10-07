@@ -16,3 +16,5 @@ timeline:
         We are working with our networking providers to restore normal operation. We are seeing an improvement in packet loss in most regions, though users may see intermittent loss at this time.
 
          BOM (Mumbai), CDG (Paris), NRT (Tokyo), SIN (Singapore) are still seeing higher rates of packet loss. Users may see degraded networking performance connecting to or from machines in those regions.
+    - ts: "2025-10-07 17:42:04"
+      description: "We've applied mitigations to the impacted regions and are seeing a significant improvement in packet loss. Most regions are back to normal networking performance. \nBOM (Mumbai) has improved, but continues to see slightly elevated loss. We are continuing to monitor for full recovery"
