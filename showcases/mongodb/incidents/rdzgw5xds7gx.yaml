@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-10-07 13:42:48"
       description: We are currently investigating a delay in our metric ingestion pipeline.  Customers may see delays in cluster operations.
       investigating: true
+    - ts: "2025-10-07 15:45:07"
+      description: We are continuing to investigate the issue. During this time Host Down alerts will not fire and metrics may be missing or delayed for Atlas and Cloud Manager Clusters. Cluster operations may also be delayed.
+      investigating: true
