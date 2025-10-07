@@ -1,0 +1,12 @@
+version: incident/v1
+id: 9f6pfjj0scrd
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-10-07 19:48:22"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-10-07 19:48:26"
+      description: Ingestion of new audit log events is delayed
+      investigating: true
