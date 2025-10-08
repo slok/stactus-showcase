@@ -1,0 +1,10 @@
+version: incident/v1
+id: 29hfh5n3n1cf
+name: AWS Firehose Logs Down in Prod-Us-West-0
+impact: minor
+systems:
+    - z5ysrlvblv9t
+timeline:
+    - ts: "2025-10-08 18:21:25"
+      description: AWS Firehose Logs Streaming ingest is experiencing an outage in prod-us-west-0, users of the Grafana Cloud integration for AWS Firehose Logs Streaming will not see new log lines from the integration shipped to Grafana Cloud until the outage is recovered.
+      investigating: true
