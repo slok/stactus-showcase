@@ -1,0 +1,9 @@
+version: incident/v1
+id: pwpj45gclk19
+name: Registry pulls using a local docker client return an error
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-08 11:52:04"
+      description: Registry pulls locally using a docker client return a "manifest not found" error. This shouldn't affect `fly deploy`. We are investigating this issue.
+      investigating: true
