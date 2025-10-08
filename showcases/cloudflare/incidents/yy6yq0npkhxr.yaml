@@ -1,0 +1,13 @@
+version: incident/v1
+id: yy6yq0npkhxr
+name: Workers API Degraded
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-10-07 23:56:46"
+      description: A few API requests to the Workers upload API may fail and need retrying.
+      investigating: true
+    - ts: "2025-10-08 00:02:24"
+      description: This incident has been resolved.
+      resolved: true
