@@ -1,0 +1,10 @@
+version: incident/v1
+id: ysh5ymm0htjl
+name: Programmable Messaging API returned 503 to the customers
+impact: none
+systems:
+    - 6cn0g627h62p
+timeline:
+    - ts: "2025-10-08 23:12:42"
+      description: The Twilio Programmable Messaging API was partially degraded starting from Oct 08th, 2025, 15:14:50 PST and ending at 15:15:00 PST. During this period of time, customers sending messages may have received elevated volumes of 5xx's in API responses. This issue has now been resolved.
+      resolved: true
