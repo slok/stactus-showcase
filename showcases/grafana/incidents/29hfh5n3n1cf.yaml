@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-10-08 18:21:25"
       description: AWS Firehose Logs Streaming ingest is experiencing an outage in prod-us-west-0, users of the Grafana Cloud integration for AWS Firehose Logs Streaming will not see new log lines from the integration shipped to Grafana Cloud until the outage is recovered.
       investigating: true
+    - ts: "2025-10-08 19:02:07"
+      description: "Engineering has released a fix and as of 18:45 UTC, customers should no longer experience issues seeing new log lines from the integration. \n\nWe continued to monitor and are considering this incident resolved at this time."
+      resolved: true
