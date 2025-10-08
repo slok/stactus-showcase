@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2025-10-08 16:43:15"
       description: We have identified escalating Azure capacity issues in the eastus region for M10 and M20s. We recommend scaling up to another instance tier or moving it to a different region.
+    - ts: "2025-10-08 21:56:27"
+      description: This incident has been resolved.
+      resolved: true
