@@ -1,0 +1,10 @@
+version: incident/v1
+id: 437cvy6cryqc
+name: Containers control plane reduced availability
+impact: minor
+systems:
+    - nd77krz8224v
+timeline:
+    - ts: "2025-10-08 16:47:20"
+      description: Containers may be expecting delays in scheduling and starting up in a subset of our locations.
+      investigating: true
