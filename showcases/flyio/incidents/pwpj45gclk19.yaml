@@ -7,3 +7,7 @@ timeline:
     - ts: "2025-10-08 11:52:04"
       description: Registry pulls locally using a docker client return a "manifest not found" error. This shouldn't affect `fly deploy`. We are investigating this issue.
       investigating: true
+    - ts: "2025-10-08 12:25:26"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-10-08 12:26:57"
+      description: Newly pushed images should not hit this. We are monitoring errors actively.
