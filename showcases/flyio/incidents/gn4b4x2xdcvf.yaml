@@ -15,3 +15,6 @@ timeline:
         We have seen a strong decrease in errors for most users. We are seeing some 401 errors still for users using old versions of flyctl.
 
         Users encountering a 401 error and using a version under v0.3.180, should run `flyctl version update` to update to the latest flyctl version.
+    - ts: "2025-10-08 00:52:28"
+      description: "This issue has been resolved. \n\nAny users still encountering errors deploying, please check and make sure your flyctl version is >=v0.3.180, and update with `fly version update` if not."
+      resolved: true
