@@ -1,9 +1,13 @@
 version: incident/v1
 id: 97n79svyz2r9
-name: On Call Engineers are Investigating an Issue with Incoming Numbers API Endpoints
-impact: none
-systems: []
+name: Write operations on Incoming Phone Number API Endpoints are Failing
+impact: minor
+systems:
+    - pv5w18vrltfl
 timeline:
     - ts: "2025-10-08 00:13:40"
       description: Our monitoring systems have detected a potential issue Incoming Numbers API Endpoints. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-08 00:28:14"
+      description: We are expecting our users to see errors while provisioning new phone numbers, changing configurations on existing phone numbers, releasing phone numbers. We will give an update in 1 hour or when more information becomes available.
       investigating: true
