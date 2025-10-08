@@ -1,15 +1,15 @@
 version: incident/v1
 id: dyll5459ycmw
 name: Cloudflare Dashboard service issues
-impact: minor
+impact: major
 systems:
     - 3sq3s4d20ywk
 timeline:
     - ts: "2025-10-08 04:22:35"
       description: |-
-        Cloudflare is investigating issues with Cloudflare Dashboard.
+        Cloudflare is investigating issues with Cloudflare Dashboard and Worker Builds.
 
         Customers using the Dashboard may be impacted as requests might fail and/or errors may be displayed.
       investigating: true
     - ts: "2025-10-08 04:59:51"
-      description: A fix has been implemented and we are monitoring the results.
+      description: Services have been restored and we are continuing monitoring.
