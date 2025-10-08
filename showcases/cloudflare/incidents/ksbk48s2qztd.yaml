@@ -1,0 +1,18 @@
+version: incident/v1
+id: ksbk48s2qztd
+name: Increased Workers errors
+impact: minor
+systems:
+    - 38w4zp21dlkc
+    - m91w78997pqv
+    - mvbjk0vw3krv
+    - 7z1q346n4s38
+    - 18p6r93swmbl
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-10-08 07:39:10"
+      description: |-
+        Cloudflare is investigating an increased level of 1105 errors in some datacenters (LAX, MAN, SIN, MEM & MIA).
+
+        We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
