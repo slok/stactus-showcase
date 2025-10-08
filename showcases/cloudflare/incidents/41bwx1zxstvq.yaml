@@ -1,0 +1,14 @@
+version: incident/v1
+id: 41bwx1zxstvq
+name: Cloudflare Tunnel Registration Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-08 10:43:21"
+      description: |-
+        Between 04:00 UTC and 05:30 UTC, Cloudflare experienced an issue that impacted new Cloudflare Tunnel registrations. Customers may have observed connection errors or timeouts when attempting to establish new tunnels or restart existing cloudflared instances during this window.
+
+        This incident only affected the registration and connection of new tunnels. Tunnels that were already established and running prior to the incident were not impacted.
+
+        The issue has been resolved, and the service is fully operational.
+      resolved: true
