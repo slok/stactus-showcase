@@ -1,0 +1,14 @@
+version: incident/v1
+id: rqm9m68z3ld0
+name: Magic Transit Degraded Performance in Dublin
+impact: none
+systems:
+    - wc7ysl06xslc
+    - bjlxcss20fsl
+timeline:
+    - ts: "2025-10-09 00:28:21"
+      description: |-
+        Cloudflare is currently investigating minor issues related to Magic Transit in Dublin (DUB). Some impacted customers may see packet loss.
+
+        We are working to mitigate impact to Magic Transit customers. More updates to follow shortly.
+      investigating: true
