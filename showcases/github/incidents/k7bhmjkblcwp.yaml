@@ -1,0 +1,40 @@
+version: incident/v1
+id: k7bhmjkblcwp
+name: Incident with Webhooks
+impact: major
+systems:
+    - 8l4ygp009s5s
+    - 4230lsnqdsld
+    - brv1bkgrwx7q
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2025-10-09 14:45:44"
+      description: We are investigating reports of degraded availability for Webhooks
+      investigating: true
+    - ts: "2025-10-09 14:50:03"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-10-09 15:09:33"
+      description: Pages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-10-09 15:09:46"
+      description: API Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-10-09 15:09:54"
+      description: Issues is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-10-09 15:11:36"
+      description: We are investigating widespread reports of delays and increased latency in various services. We will continue to keep users updated on progress toward mitigation.
+      investigating: true
+    - ts: "2025-10-09 15:17:52"
+      description: Actions is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-10-09 15:20:35"
+      description: Git Operations is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-10-09 15:20:53"
+      description: Pull Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
