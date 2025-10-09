@@ -1,0 +1,10 @@
+version: incident/v1
+id: nyrdr03164td
+name: Machine learning unavailable for the prod-us-west-0 region
+impact: major
+systems:
+    - 4bg82ggqdrz3
+timeline:
+    - ts: "2025-10-09 19:35:16"
+      description: We are currently investigating an issue causing the Machine Learning app to be unavailable in the prod-us-west-0 region.
+      investigating: true
