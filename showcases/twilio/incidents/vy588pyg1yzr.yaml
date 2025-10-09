@@ -1,0 +1,10 @@
+version: incident/v1
+id: vy588pyg1yzr
+name: On Call Engineers are Investigating an issue
+impact: minor
+systems:
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2025-10-09 17:35:19"
+      description: Our monitoring systems have detected a potential issue with SMS that are successfully delivered (no filtering) however, on Android handsets, those messages are being marked as SPAM. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
