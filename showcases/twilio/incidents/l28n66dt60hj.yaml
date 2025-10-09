@@ -1,0 +1,10 @@
+version: incident/v1
+id: l28n66dt60hj
+name: SMS Delivery Delays and Failures to Movicel in Angola
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-10-09 13:51:30"
+      description: We are experiencing delays in receiving message delivery reports when sending to Movicel in Angola. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
