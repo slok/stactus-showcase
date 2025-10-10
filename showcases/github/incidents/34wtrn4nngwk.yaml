@@ -18,5 +18,5 @@ timeline:
       description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
       investigating: true
     - ts: "2025-10-03 03:47:27"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: '<p>On October 3rd, between approximately 10:00 PM and 11:30 Eastern, the Copilot service experienced degradation due to an issue with our upstream provider. Users encountered elevated error rates when using the following Claude models: Claude Sonnet 3.7, Claude Opus 4, Claude Opus 4.1, Claude Sonnet 4, and Claude Sonnet 4.5. No other models were impacted.</p><p>The issue was mitigated by temporarily disabling affected endpoints while our provider resolved the upstream issue. GitHub is working with our provider to further improve the resiliency of the service to prevent similar incidents in the future.</p>'
       resolved: true
