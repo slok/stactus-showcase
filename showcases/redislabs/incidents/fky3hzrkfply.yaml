@@ -1,0 +1,12 @@
+version: incident/v1
+id: fky3hzrkfply
+name: Network Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-10 04:54:41"
+      description: 'We are experiencing some network issues. This may affect resources that have the following pattern in their endpoint: c282'
+      investigating: true
+    - ts: "2025-10-10 05:05:12"
+      description: This incident has been resolved.
+      resolved: true
