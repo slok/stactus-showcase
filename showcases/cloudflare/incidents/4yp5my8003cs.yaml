@@ -1,0 +1,11 @@
+version: incident/v1
+id: 4yp5my8003cs
+name: Elevated number of 5xx errors in ORD and SJC
+impact: minor
+systems:
+    - z9v8znl25w0f
+    - 4xvd68d7k70c
+timeline:
+    - ts: "2025-10-10 21:25:24"
+      description: Between 19:29 to 19:33 UTC customers reaching Chicago, IL and San Jose, CA would have experienced an elevated number of 5xx errors.
+      resolved: true
