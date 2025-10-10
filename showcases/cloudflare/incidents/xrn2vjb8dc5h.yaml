@@ -1,0 +1,15 @@
+version: incident/v1
+id: xrn2vjb8dc5h
+name: Network Performance Issues in China
+impact: minor
+systems:
+    - rcr0g1602s3q
+    - 4n0gb0kh02gf
+    - 5b3kdlcn246d
+    - r66jd70rs5w0
+    - kqn9ybcc4dgk
+    - ynf4hx3bjd3k
+timeline:
+    - ts: "2025-10-10 07:55:36"
+      description: "Cloudflare is investigating issues with Network Performance in some China datacenters (DLC, KWE, PKX, CZX, CKG). \n\nWe are working to analyze and mitigate this problem. More updates to follow shortly."
+      investigating: true
