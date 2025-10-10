@@ -1,0 +1,10 @@
+version: incident/v1
+id: fzmds6tgsw9s
+name: Issues with Zoom Meeting AIC services in North America and Europe region.
+impact: minor
+systems:
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2025-10-10 08:53:29"
+      description: Our monitoring has detected service degradation with users are getting error while generating AI meeting summary. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true

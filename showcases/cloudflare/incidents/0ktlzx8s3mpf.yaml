@@ -1,0 +1,10 @@
+version: incident/v1
+id: 0ktlzx8s3mpf
+name: Increased Errors for Durable Objects in the Western North America region
+impact: minor
+systems:
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2025-10-10 08:54:54"
+      description: Cloudflare is aware of, and investigating an issue with Durable Objects which potentially impacts multiple customers in the Western North America region. Durable Objects are experiencing an elevated level of overload errors in the aforementioned region. We are currently investigating this issue.
+      investigating: true
