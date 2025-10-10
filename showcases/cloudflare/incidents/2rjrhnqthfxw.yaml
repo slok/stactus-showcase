@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2rjrhnqthfxw
+name: Issues with R2 management & custom domains
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2025-10-10 15:04:04"
+      description: Cloudflare is aware of, and investigating an issue with the R2 API, resulting in requests managing R2 public buckets and custom domains failing. Further detail will be provided as more information becomes available.
+      investigating: true

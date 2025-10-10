@@ -1,0 +1,12 @@
+version: incident/v1
+id: n10y82qsd3lp
+name: Issues with Rate Limiting Rules
+impact: minor
+systems:
+    - d1r0plwsl5qb
+timeline:
+    - ts: "2025-10-10 14:52:43"
+      description: Cloudflare is aware of, and investigating an issue with Rate Limiting Rules being triggered too early in certain scenarios. Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2025-10-10 14:53:53"
+      description: The issue has been identified and a fix is being implemented.
