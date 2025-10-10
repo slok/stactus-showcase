@@ -18,3 +18,9 @@ timeline:
       investigating: true
     - ts: "2025-10-10 16:43:13"
       description: We have identified an issue impacting browser data in the US region. A subset of US customers may be experiencing delayed Browser Monitoring data for queries, charts, and dashboards as well as delayed or missing alert notifications for related data. We continue to see recovery, and will provide an update when our services have returned to normal operation. To prevent our customers from receiving a high volume of false positive alert notifications, we have temporarily suppressed notifications for affected data.
+    - ts: "2025-10-10 17:02:14"
+      description: We have identified an issue impacting browser data in the US region. A subset of US customers may be experiencing delayed Browser Monitoring data for queries, charts, and dashboards. We continue to see recovery and alerts were unsuppressed. We will continue to provide updates until our services have returned to normal operation.
+    - ts: "2025-10-10 17:02:43"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2025-10-10 17:03:07"
+      description: We have identified an issue impacting browser data in the US region. A subset of US customers may be experiencing delayed Browser Monitoring data for queries, charts, and dashboards. We continue to see recovery and alerts were unsuppressed. We will continue to provide updates until our services have returned to normal operation.
