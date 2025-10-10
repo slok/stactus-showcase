@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7jv9tr6793pd
+name: Some Dashboard Features are Unavailable
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-10-10 20:44:44"
+      description: Cloudflare is aware of an issue where some dashboard features are missing or users are met with older Dashboard Interfaces. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+      investigating: true
