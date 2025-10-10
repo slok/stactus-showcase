@@ -1,0 +1,18 @@
+version: incident/v1
+id: s64hy0pgl3w3
+name: Data Irregularities - US Region
+impact: major
+systems:
+    - 5x10l9g2z3t6
+    - 1ccpnwlhg6xx
+    - 1mwh21hqrxlw
+timeline:
+    - ts: "2025-10-10 16:00:20"
+      description: A subset of customers in the US region may experience delayed Browser Monitoring data for queries, charts, and dashboards as well as delayed or missing alert notifications for related data. We are starting to see recovery, and will provide our next update when our services have returned to normal operation. To prevent our customers from receiving a high volume of false positive alert notifications, we have temporarily suppressed notifications for affected data.
+      investigating: true
+    - ts: "2025-10-10 16:00:42"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-10-10 16:01:59"
+      description: A subset of customers in the US region may experience delayed Browser Monitoring data for queries, charts, and dashboards as well as delayed or missing alert notifications for related data. We are starting to see recovery, and will provide our next update when our services have returned to normal operation. To prevent our customers from receiving a high volume of false positive alert notifications, we have temporarily suppressed notifications for affected data.
+      investigating: true

@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-10-09 17:35:19"
       description: Our monitoring systems have detected a potential issue with SMS that are successfully delivered (no filtering) however, on Android handsets, those messages are being marked as SPAM. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-10-10 16:01:37"
+      description: Following investigation by our engineering teams we have indentified this issue as affecting android handsets. There is no indication this is as a result of Twilio systems. We have escalated to the involved handset operator for investigation. Twilio will provide additional updates as they become available.
