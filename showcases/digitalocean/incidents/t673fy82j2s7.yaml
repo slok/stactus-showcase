@@ -1,0 +1,16 @@
+version: incident/v1
+id: t673fy82j2s7
+name: Cloud Control Panel and Multiple Services
+impact: major
+systems:
+    - p1x9rv4137gx
+    - czck17wcspr5
+timeline:
+    - ts: "2025-10-10 21:56:58"
+      description: |-
+        Our Engineering team is investigating an issue impacting multiple services including the Cloud Control Panel and API.
+
+        Users may encounter errors when accessing their accounts or using the API.
+
+        We are actively working to resolve this issue and will provide updates as soon as more information becomes available.
+      investigating: true
