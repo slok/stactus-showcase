@@ -3,8 +3,12 @@ id: krhhnz495k21
 name: On Call Engineers are Investigating an issue
 impact: none
 systems:
-    - g2dt752kwqs0
+    - 6ltxq62mkxd0
+    - 4rv9xfxmdjg9
 timeline:
     - ts: "2025-10-11 19:06:18"
       description: Our monitoring systems have detected a potential issue with PSTN connectivity. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-11 19:28:35"
+      description: Our monitoring systems have detected a potential issue with PSTN connectivity. Our engineering team continues to investigate. We will update as soon as we have more information.
       investigating: true
