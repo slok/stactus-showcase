@@ -1,0 +1,13 @@
+version: incident/v1
+id: sh56190r5h7x
+name: WhatsApp Marketing Messages Disruption
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2025-10-11 09:26:50"
+      description: We are experiencing message delivery disruption with WhatsApp Marketing. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-10-11 09:30:36"
+      description: We are continuing to investigate this issue.
+      investigating: true
