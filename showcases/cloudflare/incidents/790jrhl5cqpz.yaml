@@ -1,0 +1,13 @@
+version: incident/v1
+id: 790jrhl5cqpz
+name: Cloudflare Workers Issues
+impact: none
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-10-11 00:43:22"
+      description: |-
+        Cloudflare is investigating an increased level of errors for customers running Workers scripts.
+
+        A fix has been deployed, and the incident is now resolved.
+      resolved: true
