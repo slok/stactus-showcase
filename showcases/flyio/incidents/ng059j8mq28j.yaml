@@ -1,0 +1,10 @@
+version: incident/v1
+id: ng059j8mq28j
+name: Intermittent 500 errors on the dashboard
+impact: minor
+systems:
+    - 66r6rhq3hn9n
+timeline:
+    - ts: "2025-10-12 15:31:40"
+      description: Our dashboard is experiencing intermittent 500 errors. All other services continue to work as normal.
+      investigating: true
