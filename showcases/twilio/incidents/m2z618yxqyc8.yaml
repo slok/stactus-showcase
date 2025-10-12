@@ -1,10 +1,14 @@
 version: incident/v1
 id: m2z618yxqyc8
 name: Intermittent Errors with Branded Calling in Twilio Console
-impact: none
+impact: minor
 systems:
+    - g4hs7h64k9fv
     - gk7b1lwzf93x
 timeline:
     - ts: "2025-10-11 23:36:59"
       description: We are investigating intermittent Console errors with Branded Calling in Twilio Console. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-10-12 00:20:44"
+      description: We continue to investigate intermittent Console errors with Branded Calling in the Twilio Console. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
