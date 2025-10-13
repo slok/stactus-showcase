@@ -1,7 +1,7 @@
 version: incident/v1
 id: 83c6fz4phfkl
 name: Loki degraded writes in SouthEast region
-impact: none
+impact: minor
 systems:
     - dy7xwydh5kv3
 timeline:
@@ -9,3 +9,6 @@ timeline:
       description: "Cloud Logs region experienced degraded writes between 11:38-12:20 UTC. \nThe incident is mitigated for now and we are monitoring the situation."
     - ts: "2025-10-13 13:32:58"
       description: We are continuing to monitor for any further issues.
+    - ts: "2025-10-13 14:21:49"
+      description: This incident has been resolved.
+      resolved: true
