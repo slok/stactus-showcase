@@ -8,3 +8,8 @@ timeline:
     - ts: "2025-10-13 11:23:32"
       description: "Our Engineering team is currently investigating an issue affecting Spaces access in the FRA1 region.\n\nDuring this time users trying to access or list the Spaces objects will be experiencing InvalidAccessKeyId errors. \n\nThis issue appears to be isolated to the FRA1 region. Our engineering team is actively investigating the root cause. We will provide an update as soon as more information becomes available."
       investigating: true
+    - ts: "2025-10-13 13:38:24"
+      description: |-
+        Our Engineering team has implemented a fix for the issue affecting Spaces access in the FRA1 region. We are observing recovery, and users should now be able to list and access their Spaces objects without encountering InvalidAccessKeyId errors.
+
+        We will continue to closely monitor the situation to ensure full stability and will provide an update once the issue is fully resolved.
