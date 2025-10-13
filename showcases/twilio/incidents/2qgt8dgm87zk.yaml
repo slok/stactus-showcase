@@ -1,9 +1,16 @@
 version: incident/v1
 id: 2qgt8dgm87zk
 name: SMS Delivery Delays and AccSec API Errors To Vodafone Network In UK
-impact: none
-systems: []
+impact: minor
+systems:
+    - llgdln3dcs6p
+    - fsxs9n9yf4m7
+    - q0hp6vfr4vvh
+    - qt4vzyg2g7b4
 timeline:
     - ts: "2025-10-13 15:22:38"
       description: Our monitoring systems have detected a potential issue on SMS Delivery Delays and Account Security API Errors To Vodafone UK. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-13 15:48:52"
+      description: We are experiencing SMS delivery delays when sending messages to Vodafone Network in UK, and Account Security API errors. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
