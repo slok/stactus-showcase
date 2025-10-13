@@ -1,0 +1,10 @@
+version: incident/v1
+id: mywtgs9jfj5t
+name: Spaces Access in FRA1
+impact: minor
+systems:
+    - 66wjtpd8ngvx
+timeline:
+    - ts: "2025-10-13 11:23:32"
+      description: "Our Engineering team is currently investigating an issue affecting Spaces access in the FRA1 region.\n\nDuring this time users trying to access or list the Spaces objects will be experiencing InvalidAccessKeyId errors. \n\nThis issue appears to be isolated to the FRA1 region. Our engineering team is actively investigating the root cause. We will provide an update as soon as more information becomes available."
+      investigating: true
