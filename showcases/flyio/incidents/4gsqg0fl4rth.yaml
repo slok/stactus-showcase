@@ -1,0 +1,17 @@
+version: incident/v1
+id: 4gsqg0fl4rth
+name: Proxy overload in multiple regions
+impact: none
+systems:
+    - 7dkv4qp80325
+    - zb68fzjgtq5s
+    - qyh8qlklk7mx
+    - 1t3gcxv2hd88
+timeline:
+    - ts: "2025-10-14 12:19:15"
+      description: |-
+        Between approximately 10:58 UTC and 11:25 UTC, Fly.io experienced degraded proxy performance in multiple regions, including IAD, FRA, EWR and LHR.
+        During this period, users may have observed intermittent connection errors or elevated response times.
+
+        The elevated traffic has subsided, and proxy performance is back to normal.
+      resolved: true
