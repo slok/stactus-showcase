@@ -1,10 +1,12 @@
 version: incident/v1
 id: xbt1jxn707c5
 name: SMS Delivery Delays to Shelcomm Network in US for a subset of Long Codes, Short Codes and Toll Free
-impact: none
+impact: minor
 systems:
     - 7d8w22hqrh6s
 timeline:
     - ts: "2025-10-14 20:57:21"
       description: Our monitoring systems have detected a potential issue with SMS Delivery Delays to Shelcomm Network in US for a subset of Long Codes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-10-14 21:36:20"
+      description: We are observing recovery in SMS delivery delays when sending messages to Shelcomm Network in US for a subset of Long Codes, Short Codes, and Toll Free. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
