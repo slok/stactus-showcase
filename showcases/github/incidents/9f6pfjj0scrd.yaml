@@ -23,5 +23,5 @@ timeline:
       description: We are seeing recovery of audit log ingestion and continue to monitor recovery.
       investigating: true
     - ts: "2025-10-08 00:05:41"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On October 7, 2025, between 7:48 PM UTC and October 8, 12:05 AM UTC (approximately 4 hours and 17 minutes), the audit log service was degraded, creating a backlog and delaying availability of new audit log events. The issue originated in a third-party dependency.<br /><br />We mitigated the incident by working with the vendor to identify and resolve the issue. Write operations recovered first, followed by the processing of the accumulated backlog of audit log events.<br /><br />We are working to improve our monitoring and alerting for audit log ingestion delays and strengthen our incident response procedures to reduce our time to detection and mitigation of issues like this one in the future.
       resolved: true
