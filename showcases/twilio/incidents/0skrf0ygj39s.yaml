@@ -1,0 +1,9 @@
+version: incident/v1
+id: 0skrf0ygj39s
+name: Serverless production boxes lost connection with AuroraDB
+impact: major
+systems: []
+timeline:
+    - ts: "2025-10-14 01:58:35"
+      description: Between 12:04 AM UTC - 12:14 AM UTC , we experienced database connection issues with RDS Proxy and AuroraDB, however the issue has auto-recovered. Our engineering team has confirmed full recovery of our systems. We are investigating further to understand the root cause of the connection drops.
+      resolved: true
