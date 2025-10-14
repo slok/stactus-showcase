@@ -1,0 +1,16 @@
+version: incident/v1
+id: mntshxvqzg8l
+name: Customers Unable to Save Load Balancing Configuration via Dashboard
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2025-10-14 05:15:17"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Dashboard. Some customer may be unable to save Load Balancing configuration.
+
+        These issues do not affect processing Load Balancing requests or API configuration changes.
+
+        We are currently investigating this issue.
+      investigating: true
