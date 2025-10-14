@@ -17,3 +17,9 @@ timeline:
     - ts: "2025-10-14 15:42:20"
       description: We are continuing to see degraded availability for the GPT-5-mini model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We continue to work with the model provider to resolve the issue.<br />Other models continue to be available and working as expected.
       investigating: true
+    - ts: "2025-10-14 16:00:09"
+      description: GPT-5-mini is once again available in Copilot Chat and across IDE integrations.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.
+      investigating: true
+    - ts: "2025-10-14 16:00:29"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
