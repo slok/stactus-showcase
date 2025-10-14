@@ -1,0 +1,11 @@
+version: incident/v1
+id: 5hkpl4y5z2rm
+name: '"unauthorized" errors when starting some Fly builds'
+impact: major
+systems:
+    - 49yq6v65b33l
+    - ffsz24mbcxfz
+timeline:
+    - ts: "2025-10-14 22:19:12"
+      description: We're investigating reports of "unauthorized" errors when doing `fly deploy` operations using the `--depot=false` parameter. This is not enabled by default, and Depot builders are unaffected. If you're seeing this error, try deploying with `--depot=true` or `--buildkit` to work around problems with legacy Fly builders.
+      investigating: true
