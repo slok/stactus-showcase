@@ -1,10 +1,12 @@
 version: incident/v1
 id: 8qy01jxmf8k6
-name: SMS Delivery Delays to Etisalat Network in Egypt
+name: SMS Delivery Delays To Etisalat Network In Multiple Countries
 impact: minor
 systems:
     - 9z5gsqyjs4rl
 timeline:
     - ts: "2025-10-15 11:25:47"
-      description: We are experiencing SMS delivery delays when sending messages to Etisalat Network in Egypt. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      description: We are experiencing SMS delivery delays when sending messages to Etisalat network in multiple countries. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-10-15 12:23:54"
+      description: We are observing recovery in SMS delivery delays when sending messages to Etisalat network in multiple countries. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.

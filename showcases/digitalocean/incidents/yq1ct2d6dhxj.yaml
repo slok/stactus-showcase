@@ -9,3 +9,8 @@ timeline:
     - ts: "2025-10-15 11:29:39"
       description: Our Engineering team has identified an issue impacting creation of GPU nodes on new Kubernetes clusters.  During this time, you will not be able to launch a new Kubernetes cluster with NVIDIA GPU nodes. Existing workloads are not impacted. We apologize for the inconvenience and will share an update once we have more information.
       investigating: true
+    - ts: "2025-10-15 12:18:56"
+      description: |-
+        Our Engineering team has identified the issue affecting the creation of GPU nodes on new Kubernetes clusters. Users may continue to experience difficulties when attempting to create GPU nodes on new Kubernetes clusters.
+
+        Our team is actively working to resolve the issue and will provide an update as soon as we have more information. We sincerely apologize for the inconvenience and appreciate your patience.
