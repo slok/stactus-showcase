@@ -1,11 +1,11 @@
 version: incident/v1
 id: yq1ct2d6dhxj
-name: Issues with provisioning GPU clusters
+name: GPU Node Creation on New Kubernetes Clusters
 impact: minor
 systems:
     - ljktrzzffk6j
     - q2c5475x69cz
 timeline:
     - ts: "2025-10-15 11:29:39"
-      description: Our Engineering team has identified an issue impacting creation of GPU nodes on new Kubernetes clusters.  During this time, you will not be able to launch a new Kubernetes cluster with GPU nodes. Existing workloads are not impacted. We apologize for the inconvenience and will share an update once we have more information.
+      description: Our Engineering team has identified an issue impacting creation of GPU nodes on new Kubernetes clusters.  During this time, you will not be able to launch a new Kubernetes cluster with NVIDIA GPU nodes. Existing workloads are not impacted. We apologize for the inconvenience and will share an update once we have more information.
       investigating: true
