@@ -1,0 +1,13 @@
+version: incident/v1
+id: 2m0wy7gyl7bx
+name: Outbound Call Failure To a Subset Of Hungary Phone Numbers
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2025-10-15 14:28:53"
+      description: Our monitoring systems have detected a potential issue with calls failing to Hungry. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-15 14:34:26"
+      description: We are observing a subset of outbound call failures to Hungry phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
