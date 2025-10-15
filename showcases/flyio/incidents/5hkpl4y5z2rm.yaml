@@ -12,3 +12,10 @@ timeline:
     - ts: "2025-10-14 23:34:17"
       description: We're continuing to investigate the issue. Both legacy Fly builders and Buildkit builders are affected by this - if you're running into this error, please try deploying with `--depot=true`. (The default `fly deploy` and `fly launch` use Depot builders, which remain unaffected by this issue.)
       investigating: true
+    - ts: "2025-10-15 00:05:25"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-10-15 00:15:05"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-10-15 00:27:10"
+      description: This incident has been resolved.
+      resolved: true
