@@ -1,6 +1,6 @@
 version: incident/v1
 id: xqtknp00zmrk
-name: Lookup Identity Match API Errors
+name: Account Security US Verizon API Issue
 impact: minor
 systems:
     - fsxs9n9yf4m7
@@ -9,5 +9,5 @@ timeline:
       description: Our monitoring systems have detected a potential issue with Account Security. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2025-10-15 13:38:41"
-      description: We are currently investigating lookup identity Match API errors. Our engineering team is actively working on the issue, and we will provide another update in 1 hour or as soon as more information becomes available.
+      description: Our monitoring systems have detected a potential issue with Account Security - US Verizon API. Our engineering team has been alerted and is actively investigating. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
