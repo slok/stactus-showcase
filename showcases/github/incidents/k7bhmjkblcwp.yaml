@@ -84,5 +84,5 @@ timeline:
       description: All services have fully recovered.
       investigating: true
     - ts: "2025-10-09 16:40:52"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On October 9th, 2025, between 14:35 UTC and 15:21 UTC, a network device in maintenance mode that was undergoing repairs was brought back into production before repairs were completed. Network traffic traversing this device experienced significant packet loss.<br /><br />Authenticated users of the github.com UI experienced increased latency during the first 5 minutes of the incident. API users experienced up to 7.3% error rates, after which it stabilized to about 0.05% until mitigated. Actions service experienced 24% of runs being delayed for an average of 13 minutes. Large File Storage (LFS) requests experienced minimally increased error rate, with 0.038% of requests erroring.<br /><br />To prevent similar issues, we are enhancing the validation process for device repairs of this category.
       resolved: true
