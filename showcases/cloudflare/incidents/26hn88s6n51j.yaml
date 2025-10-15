@@ -1,0 +1,11 @@
+version: incident/v1
+id: 26hn88s6n51j
+name: Cloudflare Dashboard and Cloudflare API service issues
+impact: major
+systems:
+    - g4tb35rs9yw7
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-10-15 16:55:11"
+      description: Cloudflare is investigating issues with Cloudflare Dashboard and related APIs that occurred between 16:27 and 16:36 UTC. These issues did not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Dashboard / Cloudflare APIs were impacted as requests might have failed and/or errors may have been displayed.
+      resolved: true
