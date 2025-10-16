@@ -1,0 +1,10 @@
+version: incident/v1
+id: kctvqf7jjx58
+name: SMS Delivery Report Delays to Movistar Network in Colombia
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-10-16 17:47:12"
+      description: We are experiencing delays in receiving message delivery reports when sending to Movistar network in Colombia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
