@@ -1,10 +1,12 @@
 version: incident/v1
 id: 5439v2jmf61s
-name: IPv6 Connectivity in FRA1
+name: IPv6 Connectivity in Multiple Regions
 impact: minor
 systems:
     - 6qd0crrqlstj
     - 7f592f0nhxhs
+    - dhcf7lpc5q3z
+    - r59jnkcnpy5w
     - 4yq3sg5wrzx2
 timeline:
     - ts: "2025-10-17 00:19:20"
@@ -16,3 +18,10 @@ timeline:
     - ts: "2025-10-17 00:44:28"
       description: "While investigating this issue, our Engineering team has noticed that the issue is occurring in SGP1 as well. Users in SGP1 may also experience IPv6 connectivity issues at this time. \n\nWe are working to resolve this issue as quickly as possible. We will post updates as soon as we have more information."
       investigating: true
+    - ts: "2025-10-17 02:52:29"
+      description: |-
+        Our Engineering team has identified the issue and are implementing a fix. Our team has resolved the IPv6 connectivity issue in FRA1 and are monitoring the situation.
+
+        In addition, it was discovered that the NYC1, and SFO2 regions were affected by this issue as well, and our team is currently working to resolve the issue in those regions. To summarize, users in the regions of AMS2, SGP1, NYC1, and SFO2 may still experience connection issues via IPv6.
+
+        We are rapidly working on a fix. We will share more information once available.

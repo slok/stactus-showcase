@@ -1,0 +1,9 @@
+version: incident/v1
+id: x9wh406b4w38
+name: Increased HTTP 499 Errors in Rio de Janeiro
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-10-17 02:28:00"
+      description: Between 1:30-1:40 UTC, customers reaching Rio de Janeiro, BR may have experienced an increased level of 499 errors.
+      resolved: true
