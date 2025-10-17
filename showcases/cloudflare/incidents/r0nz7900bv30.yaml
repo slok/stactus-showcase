@@ -1,7 +1,7 @@
 version: incident/v1
 id: r0nz7900bv30
-name: Browser Isolation Availability Issues
-impact: minor
+name: Browser Rendering and Browser Isolation Availability Issues
+impact: major
 systems:
     - 57ctn3f2qsyj
     - y12kn5nkvb44
@@ -120,5 +120,5 @@ systems:
     - 7f4lcm62x6x2
 timeline:
     - ts: "2025-10-17 17:33:38"
-      description: Cloudflare is investigating issues with the Browser Isolation service. Customers that use Browser Isolation may observe errors when attempting to load sites through the service. This issue does not affect any other Cloudflare services. We are working to mitigate this problem. More updates to follow shortly.
+      description: Cloudflare is investigating issues with the Browser Rendering and the Browser Isolation services. Customers that use Browser Rendering or Browser Isolation may observe errors when attempting to use the services. This issue does not affect any other Cloudflare service. We are working to mitigate this problem. More updates to follow shortly.
       investigating: true
