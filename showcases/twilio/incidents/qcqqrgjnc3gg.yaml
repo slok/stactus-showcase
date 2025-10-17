@@ -1,0 +1,10 @@
+version: incident/v1
+id: qcqqrgjnc3gg
+name: SMS Delivery Failures to and From AT&T Network in Mexico
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2025-10-17 18:07:51"
+      description: We are experiencing SMS delivery failures when sending to and receiving from AT&T network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
