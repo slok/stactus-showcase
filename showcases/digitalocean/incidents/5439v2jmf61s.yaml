@@ -25,3 +25,5 @@ timeline:
         In addition, it was discovered that the NYC1, and SFO2 regions were affected by this issue as well, and our team is currently working to resolve the issue in those regions. To summarize, users in the regions of AMS2, SGP1, NYC1, and SFO2 may still experience connection issues via IPv6.
 
         We are rapidly working on a fix. We will share more information once available.
+    - ts: "2025-10-17 03:56:55"
+      description: "Our Engineering team has implemented the fix to resolve the IPv6 networking issues in multiple regions. Users should no longer have issues connecting to via IPv6 to their Droplets. \n\nWe will continue to monitor the situation, and we will post an update once we've confirmed complete resolution."
