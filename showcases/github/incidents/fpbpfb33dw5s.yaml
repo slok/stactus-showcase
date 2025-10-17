@@ -21,5 +21,5 @@ timeline:
       description: GPT-5-mini is once again available in Copilot Chat and across IDE integrations.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.
       investigating: true
     - ts: "2025-10-14 16:00:29"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On Oct 14th, 2025, between 13:34 UTC and 16:00 UTC the Copilot service was degraded for GPT-5 mini model. On average, 18% of the requests to GPT-5 mini failed due to an issue with our upstream provider.<br /><br />We notified the upstream provider of the problem as soon as it was detected and mitigated the issue by failing over to other providers. The upstream provider has since resolved the issue.<br /><br />We are working to improve our failover logic to mitigate similar upstream failures more quickly in the future.
       resolved: true
