@@ -1,9 +1,13 @@
 version: incident/v1
 id: p9y46zngmq5n
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: AccSec US Verizon API Issue
+impact: minor
+systems:
+    - xk8z50jy8hcs
 timeline:
     - ts: "2025-10-17 10:21:26"
-      description: Our monitoring systems have detected a potential issue with Lookup SIM Swap & Legacy Identity API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      description: Our monitoring systems have detected a potential issue with Lookup SIM Swap and Legacy Identity MatchAndAttributes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-17 10:58:13"
+      description: We are currently investigating a potential issue with AccSec – US Verizon API errors. Our engineering team has been alerted and is actively working to identify the root cause. We expect to provide another update in 1 hour, or sooner if more information becomes available.
       investigating: true
