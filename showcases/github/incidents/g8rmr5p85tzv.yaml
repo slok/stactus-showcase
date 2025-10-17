@@ -8,5 +8,5 @@ timeline:
       description: We are currently investigating this issue.
       investigating: true
     - ts: "2025-10-14 18:57:11"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On October 14th, 2025, between 18:26 UTC and 18:57 UTC a subset of unauthenticated requests to the commit endpoint for certain repositories received 503 errors. During the event, the average error rate was 3%, peaking at 3.5% of total requests.<br /><br />This event was triggered by a recent configuration change and some traffic pattern shifts on the service. We were alerted of the issue immediately and made changes to the configuration in order to mitigate the problem. We are working on automatic mitigation solutions and better traffic handling in order to prevent issues like this in the future.
       resolved: true
