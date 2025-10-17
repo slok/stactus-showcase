@@ -1,0 +1,10 @@
+version: incident/v1
+id: kndvhjyh4jq0
+name: SMS Delivery Delays and Failures to Orange Network in Spain
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-10-17 11:45:20"
+      description: We are experiencing SMS delivery delays and failures when sending messages to Orange network in Spain. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
