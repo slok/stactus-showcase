@@ -1,0 +1,13 @@
+version: incident/v1
+id: kl6lmwsj6mky
+name: Delays in SMPP API Message Delivery
+impact: minor
+systems:
+    - pf1lb8dq2g3b
+timeline:
+    - ts: "2025-10-17 10:37:49"
+      description: Our monitoring systems have detected a potential issue SMPP API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-17 10:43:18"
+      description: We are currently investigating an issue where a subset of SMPP API customer MO traffic has been delayed for several hours. Our engineering team is actively working to identify the root cause and restore normal message delivery. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
