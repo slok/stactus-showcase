@@ -1,0 +1,10 @@
+version: incident/v1
+id: hfnww98qk072
+name: On Call Engineers are Investigating an Issue in regards to Calls Failing
+impact: none
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2025-10-17 19:25:54"
+      description: Our monitoring systems have detected a potential issue with Inbound Calls to Twilio Brazil Phone Numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
