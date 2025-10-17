@@ -1,0 +1,14 @@
+version: incident/v1
+id: 5439v2jmf61s
+name: IPv6 Connectivity in FRA1
+impact: minor
+systems:
+    - 6qd0crrqlstj
+    - 7f592f0nhxhs
+timeline:
+    - ts: "2025-10-17 00:19:20"
+      description: |-
+        Our Engineering team is investigating an issue affecting IPv6 connectivity in FRA1, and a small subset of users in AMS2. At this time, users may experience issues connecting to IPv6-enabled resources.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
