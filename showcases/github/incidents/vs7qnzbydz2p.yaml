@@ -1,9 +1,12 @@
 version: incident/v1
 id: vs7qnzbydz2p
 name: Disruption with push notifications
-impact: minor
+impact: major
 systems: []
 timeline:
     - ts: "2025-10-17 13:11:28"
       description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-10-17 14:01:17"
+      description: We're investigating an issue with mobile push notifications. All notification types are affected, but notifications remain accessible in the app's inbox. For 2FA authentication, please open the GitHub mobile app directly to complete login.
       investigating: true
