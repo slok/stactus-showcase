@@ -1,0 +1,9 @@
+version: incident/v1
+id: tn0bw8l9d5z9
+name: Inconsistent Filtering May Have Caused Failed Deliveries for Inbound Messages
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-17 21:35:31"
+      description: Between October 16, 2025, at 21:15 UTC and October 17, 2025, at 19:45 UTC, some inbound SMS messages to Twilio accounts may have failed to be delivered, resulting in error code 30038. This issue was caused by an unexpected behavior following a filtering change. The change has since been reverted, and inbound SMS traffic is now processing as expected.
+      resolved: true
