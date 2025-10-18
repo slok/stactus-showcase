@@ -1,0 +1,12 @@
+version: incident/v1
+id: cwrm12ndyzsv
+name: A subset of users experiencing issues while sending emails through Zoom Mail.
+impact: minor
+systems:
+    - 03szj78zknyt
+timeline:
+    - ts: "2025-10-18 02:43:11"
+      description: We have detected service degradation where a subset of users would be experiencing issues while sending emails through Zoom Mail. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
+    - ts: "2025-10-18 02:48:43"
+      description: We have identified the cause for service degradation where a subset of users would be experiencing issues while sending emails through Zoom Mail. Our engineers are currently working on the fix. Zoom will provide updates as soon as there is more information is available.
