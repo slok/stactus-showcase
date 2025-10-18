@@ -1,0 +1,15 @@
+version: incident/v1
+id: 2xlk3y7r919w
+name: IPv6 networking issues on some hosts
+impact: minor
+systems:
+    - 49qj4qjyzlzn
+timeline:
+    - ts: "2025-10-17 23:53:58"
+      description: We're investigating IPv6 connectivity issues on a small number of hosts in the SJC region. Machines on impacted hosts may see inbound/outbound connectivity issues over IPv6. IPv4 connections for these hosts are not impacted.
+      investigating: true
+    - ts: "2025-10-18 00:17:18"
+      description: |-
+        We've identified the problem and confirmed that the IPv6 connectivity issues are intermittent. The problem stems from a faulty network switch in our SJC region, and we're working with our upstream provider to get it resolved.
+
+        If you're seeing issues here, please consider disabling IPv6 if you app doesn't need it, or moving Machines to a different region. This issue only affects outbound IPv6 traffic in SJC.
