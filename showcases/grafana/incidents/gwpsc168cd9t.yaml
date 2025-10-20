@@ -1,0 +1,8 @@
+version: incident/v1
+id: gwpsc168cd9t
+name: Some Synthetic Checks Down Due to AWS Outage (North Virgina Probe)
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-10-20 16:08:31"
+      description: Some synthetics checks will see downtime in the North Virginia probe, specifically scripted (k6) and browser checks.

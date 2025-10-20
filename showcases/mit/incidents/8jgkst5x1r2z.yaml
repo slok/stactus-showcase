@@ -4,6 +4,24 @@ name: AWS Outage
 impact: none
 systems:
     - dpdsycjtknlz
+    - nnqd6kx93rnc
 timeline:
     - ts: "2025-10-20 12:42:09"
       description: Early this morning around 3:15am EST, a major AWS outage affected many global services, including several used by MIT such as Canvas, Slack, Zoom and the MIT Atlas app. AWS services are now largely restored as of 5:20am EST, systems are operating normally again. IS&T will continue to monitor the situation.
+    - ts: "2025-10-20 16:20:15"
+      description: |-
+        We're aware that several services continue to be affected by the recent Amazon Web Services (AWS) outage. Impacted services include Canvas, Panopto, Zoom, and Qualtrics.
+
+        For current status updates, visit:
+
+        - Amazon Web Services (AWS): https://health.aws.amazon.com/health/status
+        - Canvas: https://status.instructure.com/incidents/rvd23ht9ht9k
+        - Panopto Status: https://status.io/pages/57c1fd57097aa14d7f0021cd
+        - Zoom Status: https://www.zoomstatus.com
+        - Qualtrics Status: https://status.qualtrics.com
+
+        IS&T continues to monitor the situation and will share updates as they become available.
+    - ts: "2025-10-20 16:20:37"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2025-10-20 16:21:57"
+      description: We are continuing to monitor for any further issues.
