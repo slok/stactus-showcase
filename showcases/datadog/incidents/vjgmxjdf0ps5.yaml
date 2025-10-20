@@ -58,6 +58,6 @@ timeline:
         In addition to Log Management we continue to see delays in processing that impacts the following products: Distribution Metrics, APM, RUM, CCM and Product Analytics. As a result of this issue, some users may see only a subset of their data when querying those products or viewing pages that rely on telemetry from those products.
     - ts: "2025-10-20 22:41:41"
       description: |-
-        Logs data have been backfilled, and users should no longer see gaps in their historical logs. Log Archives and Log Forwarding were paused for a period of time, and we are working to re-forward any logs from that time period.
+        Logs data have been backfilled, and users should no longer see gaps in their historical logs. Log Archives and Log Forwarding were paused between 15:00 and 18:30 UTC, and we are working to re-forward any logs from that time period.
 
         We continue to see delays in processing that impact the following products: Distribution Metrics, APM, RUM, CCM, and Product Analytics. As a result of this issue, some users may see only a subset of their data when querying those products or viewing pages that rely on telemetry from those products.
