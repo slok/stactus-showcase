@@ -129,3 +129,9 @@ timeline:
 
         As mentioned earlier, our incident response team still has all hands on deck working on remediation. We are partnering directly with AWS on the incident and have also escalated to their leadership. At this time we do not recommend trying to take any failover action to alternative Regions. We will provide another update in 60 minutes or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-10-20 16:25:44"
+      description: |-
+        We are still experiencing outages across multiple product lines due to an ongoing AWS incident (https://health.aws.amazon.com/health/status ) with their US1 Region. AWS has confirmed EC2 is impacted as well.
+
+        Our incident response team still has all hands on deck working on remediation. We are partnering directly with AWS on the incident and have also escalated to their leadership. At this time we do not recommend trying to take any failover action to alternative Regions. We will provide another update in 60 minutes or as soon as more information becomes available.
+      investigating: true
