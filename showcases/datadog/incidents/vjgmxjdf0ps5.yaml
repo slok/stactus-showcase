@@ -4,9 +4,12 @@ name: Multiple products impacted with data delays
 impact: major
 systems:
     - p4hwj4wsc5wf
+    - s1nkvpbqvr55
+    - wxl8hfbylpf5
     - 1w2mz2hzw0cz
     - 34qkhdj3s176
     - wb6d6tss5zph
+    - g9s6dpk03782
 timeline:
     - ts: "2025-10-20 12:45:48"
       description: |-
@@ -21,3 +24,9 @@ timeline:
       description: |-
         We are still seeing increased latency processing for those products and the associated monitors are delayed.
         We are continuing to work on bringing new capacity online and will continue to provide updates on this issue.
+    - ts: "2025-10-20 17:05:04"
+      description: |-
+        APM, RUM, Log Management, Profiling, CCM and Product Analytics data is still delayed. As a result of this issue, some users may see only a subset of their data when querying those different products, other product pages using the same underlying product data will be impacted as well.
+        We are working on bringing new capacity online and for all products except RUM we expect the data will be backfilled once the service is fully operational again.
+        App Builder and Workflow Automation are also experiencing elevated errors, as a result customers might not be to query applications and workflows might take longer to execute.
+        Due to upstream provider issues, we are also continuing to see unavailability of telemetry data coming from AWS into Datadog.
