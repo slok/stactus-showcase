@@ -1,7 +1,7 @@
 version: incident/v1
 id: 2mjg0mr2pf29
 name: Elevated Errors Affecting Multiple Products
-impact: critical
+impact: major
 systems:
     - g4hs7h64k9fv
     - 7c6yv3vctfqv
@@ -159,3 +159,5 @@ timeline:
         Key services impacted include Functions and Assets, which continue to experience invocation failures. Programmable Voice, Flex & TaskRouter, Studio, Programmable Messaging, and WhatsApp have largely recovered but may still encounter occasional transient errors. SendGrid / Marketing Campaigns customers may continue to see intermittent delays or errors when sending or managing campaigns. Verify traffic remains partially impacted, with a small portion (~0.1%) returning HTTP 503 errors and elevated latency. Lookup is recovering, but still shows increased latency.
 
         Requests with a Twilio success code remain queued for delivery upon recovery, while those that resulted in failure codes will need to be resent once services are fully restored. We do not anticipate data loss once recovery is complete. Twilio has scaled systems to service current loads and continues to monitor the situation closely. We will provide an update within 60 minutes or as soon as more information becomes available.
+    - ts: "2025-10-20 20:18:28"
+      description: "We are seeing continued improvement across most products; however, AWS is still performing remediation actions, and intermittent errors may continue until their work is fully complete. The majority of our services have recovered however we are experiencing some service disruptions due to the AWS outage affecting the US-1 Region. \n\nRecovery is progressing, and we are seeing improvement across most services. Programmable Voice, Flex & TaskRouter, Studio, Programmable Messaging, WhatsApp, SendGrid / Marketing Campaigns, Verify, and Lookup have largely recovered, though occasional transient errors may still occur.\n\nServerless – Functions remains impacted, with continued latency errors and invocation failures. We are actively monitoring this service and working to resolve the issues.\n\nRequests with a Twilio success code remain queued for delivery upon recovery, while those that resulted in failure codes will need to be resent once services are fully restored. We do not anticipate any data loss once recovery is complete. Twilio teams continue to work closely with AWS to address remaining connectivity and capacity issues and are monitoring the situation closely. We will provide another update within 60 minutes or as soon as additional information becomes available."
