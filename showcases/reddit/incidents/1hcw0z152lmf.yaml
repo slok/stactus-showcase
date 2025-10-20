@@ -1,9 +1,21 @@
 version: incident/v1
 id: 1hcw0z152lmf
 name: Elevated errors
-impact: none
-systems: []
+impact: major
+systems:
+    - 0wf8j1vtry0v
+    - 2kyn2wrh7xdk
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+    - gjdprysbvnjm
+    - fggy4fg1hdmj
+    - pnwfnm4nljtr
+    - jqv4qjdzx23l
 timeline:
     - ts: "2025-10-20 10:24:34"
       description: We're experiencing an elevated level of errors and are currently looking into the issue.
       investigating: true
+    - ts: "2025-10-20 11:10:18"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-10-20 11:10:48"
+      description: We are continuing to monitor for any further issues.
