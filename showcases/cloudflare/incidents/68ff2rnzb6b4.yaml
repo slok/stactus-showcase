@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-10-20 21:29:56"
       description: We are investigating an issue where processing of Load Balancing health events is degraded, leading to delays in notifications and analytics regarding Load Balancing health monitoring, as well as delays in steering decisions for some customers.
       investigating: true
+    - ts: "2025-10-20 22:54:52"
+      description: We have identified and implemented a fix for this issue. We are currently monitoring the results.
