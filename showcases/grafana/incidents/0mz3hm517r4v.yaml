@@ -1,0 +1,15 @@
+version: incident/v1
+id: 0mz3hm517r4v
+name: Degraded Loki Query Performance
+impact: minor
+systems:
+    - 98skfgrdgchf
+timeline:
+    - ts: "2025-10-20 21:47:49"
+      description: |-
+        We are currently investigating an issue affecting Loki query performance, first observed around 21:00 UTC. Users may experience slower than normal query responses or occasional timeouts when running queries.
+
+        Our engineering team is actively working to identify the root cause and restore normal performance as quickly as possible.
+
+        We will provide updates here as more information becomes available.
+      investigating: true

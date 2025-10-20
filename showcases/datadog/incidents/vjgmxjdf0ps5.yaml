@@ -45,3 +45,7 @@ timeline:
       description: |-
         We are seeing progress in telemetry data coming from AWS into Datadog. We are starting to see our capacity requests being fulfilled more slowly than usual. App Builder and Workflow Automation are seeing recovery.
         Our processing is still delayed impacting multiple products - Distribution Metrics, APM, RUM, Log Management, Profiling, CCM and Product Analytics data is still delayed. As a result of this issue, some users may see only a subset of their data when querying those different products, other product pages using the same underlying product data will be impacted as well.
+    - ts: "2025-10-20 21:47:01"
+      description: |-
+        We are seeing recovery in AWS Metrics. Logs data submitted after 21:30 UTC should be processed normally. Users may see gaps in historical logs prior to 21:30 UTC while our backfill is in progress.
+        In addition to Log Management we continue to see delays in processing that impacts the following products: Distribution Metrics, APM, RUM, Profiling, CCM and Product Analytics. As a result of this issue, some users may see only a subset of their data when querying those products or viewing pages that rely on telemetry from those products.
