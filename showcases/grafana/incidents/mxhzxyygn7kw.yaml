@@ -1,0 +1,9 @@
+version: incident/v1
+id: mxhzxyygn7kw
+name: Span Metrics Outage
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-20 23:11:09"
+      description: "Between ~13:10 UTC and 21:20 UTC on October 20th, 2025, Span Metrics were unavailable in a single cell. During this period, users may have seen missing or stale data in span metrics dashboards and alerts. Trace ingestion and querying were not affected, and no trace data was lost. \n\nThe issue has since been resolved, and Span Metrics has remained stable since."
+      resolved: true
