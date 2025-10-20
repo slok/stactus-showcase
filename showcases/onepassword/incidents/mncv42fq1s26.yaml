@@ -2,8 +2,11 @@ version: incident/v1
 id: mncv42fq1s26
 name: Intermittent performance issues with 1Password.com
 impact: major
-systems: []
+systems:
+    - qv4yvwwdyzj0
 timeline:
     - ts: "2025-10-20 09:05:23"
       description: We are currently investigating this issue.
       investigating: true
+    - ts: "2025-10-20 10:08:52"
+      description: Customers might encounter intermittent errors when performing various actions on 1Password.com. Retrying these actions may be successful as the service recovers.

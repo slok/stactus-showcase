@@ -1,0 +1,13 @@
+version: incident/v1
+id: ww8rhx2j8mfz
+name: Multiple products impacted with data delays
+impact: major
+systems:
+    - cwp97nbkd47t
+    - nypxbf5kxblr
+timeline:
+    - ts: "2025-10-20 10:14:51"
+      description: |-
+        Note: this is a delayed update because this incident impaired our ability to update the status page, we posted banners earlier in the product to let customers know about the ongoing impact.
+        We are still seeing some delays as we are fully recovering from the underlying incident: agentless vulnerability scanning for hosts in AWS us-east-1 is still delayed, On-Call notifications are not fully recovered. This incident started at 07:10 UTC on October 20.
+        So far we have recovered fully from the impact on Synthetics, collection of data from AWS, Bits AI, Codegen, Dashboards (edition features were impaired).

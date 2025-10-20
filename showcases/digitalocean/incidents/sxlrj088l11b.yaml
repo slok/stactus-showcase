@@ -1,0 +1,14 @@
+version: incident/v1
+id: sxlrj088l11b
+name: Multiple Services Disruption
+impact: minor
+systems:
+    - txysr8r0gn1n
+    - ljktrzzffk6j
+timeline:
+    - ts: "2025-10-20 10:21:21"
+      description: |-
+        As of 08:00 UTC our Engineering team is investigating an issue affecting multiple DigitalOcean services due to an incident with an upstream provider. As a result, users attempting to log in using SMS-based 2FA may experience problems receiveing codes and complete authentication. Images hosted exclusively on Docker Hub may also be temporarily unavailable, impacting deployments on DigitalOcean Kubernetes (DOKS) and App Platform.
+
+        Additionally, the users leveraging SnapShooter for serverless backups may encounter failures in backup jobs as well. We're now seeing signs of recovery, and most of the requests should be succeeding. We will continue to monitor closely to ensure full service restoration and will share an update as more information becomes available.
+      investigating: true

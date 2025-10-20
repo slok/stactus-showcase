@@ -5,6 +5,10 @@ impact: major
 systems:
     - m0qkgdzwyr6l
     - 8s9ngcb02t90
+    - m79yjv169r06
+    - h3wg1km0qxwv
 timeline:
     - ts: "2025-10-20 09:50:59"
       description: "Since 8:15 UTC we have been experiencing issues on different services from Grafana Cloud, due to problems on one of our infrastructure providers. \nWe are investigating full impact on Grafana Services and applying measurements to palliate the disruptions in our services."
+    - ts: "2025-10-20 10:14:18"
+      description: "Our infrastructure provider has indicated recovery of the services, we can confirm this, and we are currently monitoring for full availability of the services.\nAdditionally, we have identified the affected services, and have implemented actions to help mitigate impact. \n\nImpacted Services include:\n- AWS customers can’t subscribe to Grafana Cloud through the AWS marketplace\n- Unable to pull docker images from Grafana repository\n- K6: Test runs disrupted across all AWS load zones\n- Issues to open ticket to Grafana Support \n- IRM: Slack and SMS/Call notifications missing"
