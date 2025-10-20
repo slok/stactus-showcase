@@ -11,5 +11,5 @@ timeline:
       description: We're investigating an issue with mobile push notifications. All notification types are affected, but notifications remain accessible in the app's inbox. For 2FA authentication, please open the GitHub mobile app directly to complete login.
       investigating: true
     - ts: "2025-10-17 14:12:45"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On October 17th, 2025, between 12:51 UTC and 14:01 UTC, mobile push notifications failed to be delivered for a total duration of 70 minutes. This affected github.com and GitHub Enterprise Cloud in all regions. The disruption was related to an erroneous configuration change to cloud resources used for mobile push notification delivery.<br /><br />We are reviewing our procedures and management of these cloud resources to prevent such an incident in the future.
       resolved: true
