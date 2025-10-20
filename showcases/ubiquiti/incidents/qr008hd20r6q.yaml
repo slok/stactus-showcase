@@ -1,0 +1,12 @@
+version: incident/v1
+id: qr008hd20r6q
+name: 'Multiple Services: Partial Outage'
+impact: major
+systems:
+    - s78xyt2hftwd
+    - zcxp48kb64sd
+timeline:
+    - ts: "2025-10-20 09:51:41"
+      description: |-
+        An issue has been identified that may cause degraded performance across several UniFi services, including Teleport, the numbers list, subscription information, and general telephony in UniFi Talk.
+        Our teams are actively investigating and will provide updates on status.ui.com. We apologize for the inconvenience and are working to restore full service as quickly as possible.

@@ -1,0 +1,9 @@
+version: incident/v1
+id: 54g45ntncwxb
+name: AWS us_east_1 Outage
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-10-20 10:06:56"
+      description: 'Issues reported at Amazon Web Services (AWS) in the US East1 region. These problems are impacting multiple services that depend on AWS infrastructure. We''re monitoring the situation: Check the AWS Status page for the latest updates: https://health.aws.amazon.com/health/status'

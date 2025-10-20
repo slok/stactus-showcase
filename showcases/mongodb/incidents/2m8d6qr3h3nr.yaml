@@ -1,0 +1,11 @@
+version: incident/v1
+id: 2m8d6qr3h3nr
+name: Delayed Cluster Operations and Degraded Performance following AWS Outage
+impact: minor
+systems:
+    - 98lbmdz85yp0
+    - kb8k7qml7npt
+    - 7wbvh4zlbmmh
+timeline:
+    - ts: "2025-10-20 10:07:27"
+      description: AWS is experiencing an outage in the US-EAST-1 Region which is being handled as a P1 incident. This was first identified at 08:51 UTC. Cloud Operations are delayed with degraded performance. Access to backing clusters is unaffected. We are observing signs of recovery at this point in time and we're closely monitoring the AWS status page.
