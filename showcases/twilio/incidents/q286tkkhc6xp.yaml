@@ -1,0 +1,12 @@
+version: incident/v1
+id: q286tkkhc6xp
+name: Issues With A2P API
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-20 13:43:04"
+      description: Our monitoring systems have detected a potential issue with A2P API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-20 13:45:12"
+      description: 'We are still experiencing issues with A2P API, however, we have consolidated all impacting products in to one incident. You can check the status of this here: https://status.twilio.com/incidents/2mjg0mr2pf29'
+      resolved: true
