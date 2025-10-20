@@ -1,0 +1,12 @@
+version: incident/v1
+id: vjgmxjdf0ps5
+name: Delayed APM and RUM data
+impact: minor
+systems:
+    - p4hwj4wsc5wf
+    - wb6d6tss5zph
+timeline:
+    - ts: "2025-10-20 12:45:48"
+      description: |-
+        We are investigating increased latency processing APM and RUM data. As a result of this issue, some users may see only a subset of their data displayed on APM Trace Search queries or RUM queries.
+        We are working on bringing new capacity online and the data will be backfilled once the service is fully operational again.

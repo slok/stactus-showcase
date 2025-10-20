@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8jgkst5x1r2z
+name: AWS Outage
+impact: none
+systems:
+    - dpdsycjtknlz
+timeline:
+    - ts: "2025-10-20 12:42:09"
+      description: Early this morning around 3:15am EST, a major AWS outage affected many global services, including several used by MIT such as Canvas, Slack, Zoom and the MIT Atlas app. AWS services are now largely restored as of 5:20am EST, systems are operating normally again. IS&T will continue to monitor the situation.

@@ -3,113 +3,58 @@ id: 2mjg0mr2pf29
 name: Elevated Errors Affecting Multiple Products
 impact: critical
 systems:
-    - f7f727f39kx3
     - g4hs7h64k9fv
-    - mq9q3ytpkyfz
-    - g2dt752kwqs0
     - 7c6yv3vctfqv
     - q4d7rj555ljl
-    - 7d8w22hqrh6s
     - ys1jhy2ys04z
-    - qj606bzkg4s8
     - 2n998q57dwnf
     - b9z92qjr2p04
-    - w7nxj548smhd
     - q015c7mrst1s
     - b3tl520cz8tc
-    - whldrk77jnm4
-    - 8vdlvw3dsq8h
     - zxhmy448yyn3
-    - mn1wpm35k4s4
-    - llqd4rmn8k8y
     - fq1snk8q5ybp
-    - 39mb8cmw8y2v
     - 6ltxq62mkxd0
-    - x6drb5vw27bs
-    - txt6v4g6pv74
     - lv1md8v28lhr
     - ld8ss4pqqskp
     - vd76z27sk12v
-    - k7rg1rqk2nwk
     - wsqmv0q6zrz5
-    - xk8z50jy8hcs
     - jw9dh2mf4392
-    - 6f5zbh4rqx3m
     - b81y83zrvglj
     - vyjjd8kdb7vq
-    - h0fl7prwfhvm
     - 0xfc03jgk5g4
     - vw9w2zyv9nk5
-    - 5cv0b6y86d2f
     - 4rv9xfxmdjg9
-    - l2p2s96tdsf4
     - jncbcddlmbhn
     - qf1ppcsw1jvh
-    - 32f2bm54nkvv
     - fhrcxjv8wcjs
-    - frxynt0ffp5w
     - by1b8ylwwgs6
-    - tvjwfvczkf46
     - y0thq9hlt5m8
     - yk293200bcps
-    - tfdww2zxylgd
     - hjfntfyhnn4l
-    - 2v3v92mz2m4h
     - mw3ktpy92305
     - 45nc391hhv9v
-    - dv0j99s68yxn
     - pv5w18vrltfl
-    - fbtv2g9t3z25
     - vxjqr22fbl36
-    - 86c0cvzk43pv
     - rk4qzxxbwj7t
-    - 42zx9w2kmtvf
     - 7ypw8tsmyr78
-    - xnzrm2zg4qbv
     - xv01vfp8wvs4
-    - 50pr269zqrwj
     - lzm53c2kjxkh
-    - d1j2nx64rpq3
-    - yf5px6tdl6yt
-    - 8qjql0kqnd33
     - m5b6twz4h52d
     - h056tfqk3q97
-    - yvvy3vlp4djf
-    - 361mb56zmf8z
     - 54ft7xt1tqmm
     - kvyjw7lg97l1
     - b1n7jklp0rv4
-    - 2nd0jdj36wpq
-    - pf1lb8dq2g3b
-    - bnzggd37p61w
     - gk7b1lwzf93x
-    - qphgn531prd5
     - z6wf7g459vzh
-    - 1gkv0mxhzsjv
-    - llgdln3dcs6p
-    - 622gcfj89fsh
     - v95b6qqhp58v
     - 3mryzdr7rssr
-    - 5bv1plmydbzf
-    - 6ns22g89f6g9
-    - sxwbmz83d77t
-    - 2vs63pk0qq23
-    - 9z5gsqyjs4rl
-    - s91kksd3hqjp
-    - dgkv7yc7sqdg
     - 48ytpcq9mbrd
     - trrz5ztt7pl8
-    - jdtgrvyw6w5z
     - fsxs9n9yf4m7
-    - 6cn0g627h62p
-    - mwcz6hw53t7c
     - t4bxfcg2ppvb
-    - 3p1q1qbw970c
     - kj97j77088bh
     - cfy5cxrly95b
-    - brty2vw4qv6v
     - q0hp6vfr4vvh
-    - t32hnkr2q793
     - qt4vzyg2g7b4
 timeline:
     - ts: "2025-10-20 07:26:48"
@@ -145,3 +90,14 @@ timeline:
 
         We have activated our incident response team and have all hands on deck working on remediation. We are partnering directly with AWS on the incident and have also escalated to their leadership. At this time we do not recommend trying to take any failover action to alternative Regions. We will provide another update in 60 minutes or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-10-20 12:31:40"
+      description: |-
+        We are seeing partial recovery and are scaling systems to handle the influx of traffic. Programmable Messaging and Programmable Voice are fully recovered. However we are still experiencing outages across multiple product lines due to an ongoing AWS incident( https://health.aws.amazon.com/health/status ) with their US1 Region. AWS has confirmed EC2 is impacted as well.
+
+        We have activated our incident response team and have all hands on deck working on remediation. We are partnering directly with AWS on the incident and have also escalated to their leadership. At this time we do not recommend trying to take any failover action to alternative Regions. We will provide another update in 60 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-10-20 12:47:42"
+      description: |-
+        We are seeing partial recovery and are scaling systems to handle the influx of traffic. Programmable Messaging and Programmable Voice are fully recovered. However we are still experiencing outages across multiple product lines due to an ongoing AWS incident( https://health.aws.amazon.com/health/status ) with their US1 Region. AWS has confirmed EC2 is impacted as well.
+
+        We have activated our incident response team and have all hands on deck working on remediation. We are partnering directly with AWS on the incident and have also escalated to their leadership. At this time we do not recommend trying to take any failover action to alternative Regions. We will provide another update in 60 minutes or as soon as more information becomes available.
