@@ -1,7 +1,7 @@
 version: incident/v1
 id: 2mjg0mr2pf29
-name: Elevated Timeout Errors Affecting Multiple Products
-impact: minor
+name: Elevated Errors Affecting Multiple Products
+impact: critical
 systems:
     - f7f727f39kx3
     - g4hs7h64k9fv
@@ -114,4 +114,7 @@ systems:
 timeline:
     - ts: "2025-10-20 07:26:48"
       description: We are currently investigating elevated latency and timeout errors for Twilio Rest API, impacting the Multiple Twilio services. Our engineering team is actively working on the issue, and we will provide another update in 60 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-10-20 08:08:56"
+      description: At this time we are experiencing outages across multiple product lines due to an ongoing AWS incident( https://health.aws.amazon.com/health/status ) with their US1 Region. We have activated our incident response team and have all hands on deck working on remediation. We are partnering directly with AWS on the incident and have also escalated to their leadership. At this time we do not recommend trying to take any failover action to alternative Regions. We will provide another update in 30 minutes or as soon as more information becomes available.
       investigating: true
