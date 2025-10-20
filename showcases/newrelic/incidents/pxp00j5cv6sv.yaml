@@ -16,3 +16,5 @@ timeline:
       description: We have engaged our Cloud provider to assist with further investigation and have implemented additional mitigation efforts. Which should lead to full recovery in synthetics and some recovery in Cloud. However some customers may still experience some delays in entity events appearing.
     - ts: "2025-10-20 12:13:29"
       description: We have engaged our Cloud provider to assist with further investigation and have implemented additional mitigation efforts. Which has lead to full recovery in synthetics and some recovery in Cloud. However some customers may still experience some delays in entity events appearing.
+    - ts: "2025-10-20 17:54:54"
+      description: We have been able to confirm an ongoing network interruption with our cloud provider. As a result, some customers in the US and EU regions may experience intermittent irregularities for some features including synthetics, infinite tracing, cloud integrations, mobile symbolication and crash events, and entity relationships. We will provide our next update at 20:00 UTC or upon significant change.

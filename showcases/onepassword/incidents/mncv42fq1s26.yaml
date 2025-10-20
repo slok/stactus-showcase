@@ -4,6 +4,8 @@ name: Intermittent performance issues with 1Password.com
 impact: critical
 systems:
     - qv4yvwwdyzj0
+    - cgltwfnt80mm
+    - 128z2hc5zph2
 timeline:
     - ts: "2025-10-20 09:05:23"
       description: We are currently investigating this issue.
@@ -14,3 +16,5 @@ timeline:
       description: 'Due to an upstream provider outage impacting 1Password, customers might encounter intermittent errors when performing various actions on 1Password.com. Retrying these actions may be successful as the service recovers. For updates on the upstream provider outage, follow here: https://health.aws.amazon.com/health/status'
     - ts: "2025-10-20 17:44:33"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2025-10-20 17:53:59"
+      description: 'Due to an upstream provider outage impacting 1Password, customers might encounter intermittent errors when performing various actions on 1Password.com. Retrying these actions may be successful as the service recovers. For updates on the upstream provider outage, follow here: https://health.aws.amazon.com/health/status'
