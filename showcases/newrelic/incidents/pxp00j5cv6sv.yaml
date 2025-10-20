@@ -12,3 +12,5 @@ timeline:
       description: Some customers in the US and EU region may experience errors when sending data to New Relic using cloud or synthetics, issues in viewing data in real time, and delayed or missing data in synthetics and cloud.
     - ts: "2025-10-20 09:14:46"
       description: Some customers in the US and EU region may experience errors when sending data to New Relic using cloud or synthetics, issues in viewing data in real time, delays in Entity events appearing in customer account
+    - ts: "2025-10-20 11:56:28"
+      description: We have engaged our Cloud provider to assist with further investigation and have implemented additional mitigation efforts. Which should lead to full recovery in synthetics and some recovery in Cloud. However some customers may still experience some delays in entity events appearing.
