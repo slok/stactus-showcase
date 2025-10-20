@@ -1,0 +1,16 @@
+version: incident/v1
+id: krd9y2m82fbn
+name: Codespaces creation failling
+impact: major
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2025-10-20 08:56:28"
+      description: We are investigating reports of degraded availability for Codespaces
+      investigating: true
+    - ts: "2025-10-20 09:01:10"
+      description: We are seeing increased error rates with Codespaces generally. This is due to a third party provider experiencing problems. This impacts both creation of new Codespaces and resumption of existing ones.<br /><br />We continue to monitor and will report with more details as we have them.
+      investigating: true
+    - ts: "2025-10-20 09:34:46"
+      description: We are continuing to monitor Codespace's error rates and will report further as we have more information.
+      investigating: true

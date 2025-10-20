@@ -1,0 +1,14 @@
+version: incident/v1
+id: 09s7rp5sdfb8
+name: Delays with Device Posture
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2025-10-20 08:31:03"
+      description: Cloudflare is aware of, and investigating an issue with some customers experiencing delays in updating device posture information when using integrations with third-party posture providers.
+      investigating: true
+    - ts: "2025-10-20 08:34:26"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-10-20 09:39:13"
+      description: A fix has been implemented and we are monitoring the results.

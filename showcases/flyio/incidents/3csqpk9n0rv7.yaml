@@ -1,0 +1,14 @@
+version: incident/v1
+id: 3csqpk9n0rv7
+name: Errors due to upstream provider outages
+impact: minor
+systems:
+    - 49yq6v65b33l
+timeline:
+    - ts: "2025-10-20 08:56:19"
+      description: |-
+        We are aware of outages in some services that rely on upstream providers.
+
+        Deployments may fail due to a Docker outage.
+    - ts: "2025-10-20 09:47:35"
+      description: Docker systems are recovering and we are not seeing any further platform issues.
