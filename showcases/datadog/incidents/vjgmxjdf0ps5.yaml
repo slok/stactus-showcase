@@ -8,5 +8,5 @@ systems:
 timeline:
     - ts: "2025-10-20 12:45:48"
       description: |-
-        We are investigating increased latency processing APM and RUM data. As a result of this issue, some users may see only a subset of their data displayed on APM Trace Search queries or RUM queries.
+        We are investigating increased latency processing APM, RUM, Log Management and Profiling. As a result of this issue, some users may see only a subset of their data when querying those different products, other product pages using the same underlying product data will be impacted as well.
         We are working on bringing new capacity online and the data will be backfilled once the service is fully operational again.
