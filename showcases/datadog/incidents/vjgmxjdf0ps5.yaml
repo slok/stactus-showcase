@@ -1,12 +1,19 @@
 version: incident/v1
 id: vjgmxjdf0ps5
 name: Delayed APM and RUM data
-impact: minor
+impact: major
 systems:
     - p4hwj4wsc5wf
+    - 1w2mz2hzw0cz
+    - 34qkhdj3s176
     - wb6d6tss5zph
 timeline:
     - ts: "2025-10-20 12:45:48"
       description: |-
         We are investigating increased latency processing APM, RUM, Log Management and Profiling. As a result of this issue, some users may see only a subset of their data when querying those different products, other product pages using the same underlying product data will be impacted as well.
         We are working on bringing new capacity online and the data will be backfilled once the service is fully operational again.
+    - ts: "2025-10-20 14:07:22"
+      description: |-
+        We are investigating increased latency processing APM, RUM, Log Management and Profiling. As a result of this issue, some users may see only a subset of their data when querying those different products, other product pages using the same underlying product data will be impacted as well.
+        Monitors using the impacted data are delayed.
+        We are working on bringing new capacity online and will provide an update once the service is fully operational again.
