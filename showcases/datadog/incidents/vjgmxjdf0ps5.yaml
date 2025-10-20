@@ -17,3 +17,7 @@ timeline:
         We are investigating increased latency processing APM, RUM, Log Management and Profiling. As a result of this issue, some users may see only a subset of their data when querying those different products, other product pages using the same underlying product data will be impacted as well.
         Monitors using the impacted data are delayed.
         We are working on bringing new capacity online and will provide an update once the service is fully operational again.
+    - ts: "2025-10-20 15:18:31"
+      description: |-
+        We are still seeing increased latency processing for those products and the associated monitors are delayed.
+        We are continuing to work on bringing new capacity online and will continue to provide updates on this issue.
