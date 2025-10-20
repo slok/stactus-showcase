@@ -6,7 +6,9 @@ systems:
     - 98lbmdz85yp0
     - kb8k7qml7npt
     - crrq7qqlqfsh
+    - lh7m7lhnf3rj
     - 7wbvh4zlbmmh
+    - prk6bb5j7h4l
 timeline:
     - ts: "2025-10-20 10:07:27"
       description: "AWS is experiencing an outage in the US-EAST-1 Region which is being handled as a P1 incident. This was first identified at 08:51 UTC. Cloud Operations are delayed with degraded performance. Access to backing clusters is unaffected. We are observing signs of recovery at this point in time and we're closely monitoring the AWS status page. \n\nPlease check the AWS Status page for the latest updates: https://health.aws.amazon.com/health/status"
@@ -20,9 +22,13 @@ timeline:
 
         Please check the AWS Status page for the latest updates: https://health.aws.amazon.com/health/status
     - ts: "2025-10-20 15:05:14"
+      description: "We are experiencing delays in provisioning additional resources for Triggers apps and ability to register. \n\nAccessing cluster data through the Data Explorer Atlas UI is also degraded. \n\nWe are closely monitoring the situation and the official AWS status page.\n\nPlease check the AWS Status page for the latest updates: https://health.aws.amazon.com/health/status"
+    - ts: "2025-10-20 15:36:35"
       description: |-
-        We are experiencing delays in provisioning additional resources for Triggers apps and ability to register. Accessing cluster data through the Data Explorer Atlas UI is also degraded.
+        We are experiencing delays in provisioning and starting new Stream processors. We are also observing a slight degradation in login success rate to cloud.mongodb.com.
 
         We are closely monitoring the situation and the official AWS status page.
 
         Please check the AWS Status page for the latest updates: https://health.aws.amazon.com/health/status
+    - ts: "2025-10-20 15:58:28"
+      description: "Atlas Data Federation is experiencing issues connecting to downstream atlas clusters. \n\nWe are continuing to monitor for any further issues."

@@ -1,0 +1,9 @@
+version: incident/v1
+id: cw4jxpmxwtf2
+name: 'Grafana K6: Some Test Runs May Not Start Due to AWS Outage'
+impact: major
+systems:
+    - m79yjv169r06
+timeline:
+    - ts: "2025-10-20 15:36:58"
+      description: Due to the ongoing AWS outage, some test runs may not start in the us-east-1 region.

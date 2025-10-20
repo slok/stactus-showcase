@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-10-20 14:47:36"
       description: We are experiencing degraded availability for the Grok Code Fast 1 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.
       investigating: true
+    - ts: "2025-10-20 16:07:22"
+      description: We are continuing to work with our provider on resolving the incident with Grok Code Fast 1 which is impacting 6% of users. We’ve been informed they are implementing fixes but users can expect some requests to intermittently fail until all issues are resolved.<br />
+      investigating: true
