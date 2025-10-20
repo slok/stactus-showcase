@@ -1,9 +1,13 @@
 version: incident/v1
 id: s2c6cs3pqmhv
-name: On Call Engineers are Investigating an issue SMS Delivery Delays To and From Telefonica Network in Chile
-impact: none
-systems: []
+name: SMS Delivery Delays To and From Telefonica Network in Chile
+impact: minor
+systems:
+    - 42zx9w2kmtvf
 timeline:
     - ts: "2025-10-20 19:46:58"
       description: Our monitoring systems have detected a potential issue SMS delivery delays to and from Telefonica Network in Chile. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-20 19:54:36"
+      description: We are experiencing SMS delivery delays when sending and receiving messages to/from Telefonica Network in Chile. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
