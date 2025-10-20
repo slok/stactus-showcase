@@ -1,0 +1,13 @@
+version: incident/v1
+id: xpc7x3vqj3hy
+name: Machines API issues in SEA, SJC and GRU
+impact: minor
+systems:
+    - 80ykv2p95qgy
+    - 5cmbhyzyb3lr
+    - psk6740r111k
+    - 49qj4qjyzlzn
+timeline:
+    - ts: "2025-10-20 20:27:53"
+      description: We are investigating an issue with machines API in particular regions. Machine updates and requests to machines located in these regions may fail.
+      investigating: true
