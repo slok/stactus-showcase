@@ -13,3 +13,5 @@ timeline:
         We've identified the problem and confirmed that the IPv6 connectivity issues are intermittent. The problem stems from a faulty network switch in our SJC region, and we're working with our upstream provider to get it resolved.
 
         If you're seeing issues here, please consider disabling IPv6 if you app doesn't need it, or moving Machines to a different region. This issue only affects outbound IPv6 traffic in SJC.
+    - ts: "2025-10-20 19:08:15"
+      description: A fix has been implemented and we are monitoring the results.
