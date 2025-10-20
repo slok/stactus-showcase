@@ -49,3 +49,12 @@ timeline:
       description: |-
         We are seeing recovery in AWS Metrics. Logs data submitted after 21:30 UTC should be processed normally. Users may see gaps in historical logs prior to 21:30 UTC while our backfill is in progress.
         In addition to Log Management we continue to see delays in processing that impacts the following products: Distribution Metrics, APM, RUM, Profiling, CCM and Product Analytics. As a result of this issue, some users may see only a subset of their data when querying those products or viewing pages that rely on telemetry from those products.
+    - ts: "2025-10-20 22:40:04"
+      description: |-
+        We are seeing recovery in Profiling.
+
+        Logs data submitted after 21:30 UTC should be processed normally. Users may see gaps in historical logs prior to 21:30 UTC while our backfill is in progress.
+
+        In addition to Log Management we continue to see delays in processing that impacts the following products: Distribution Metrics, APM, RUM, CCM and Product Analytics. As a result of this issue, some users may see only a subset of their data when querying those products or viewing pages that rely on telemetry from those products.
+    - ts: "2025-10-20 22:41:41"
+      description: We are continuing to work on a fix for this issue.
