@@ -1,0 +1,19 @@
+version: incident/v1
+id: llsj34hl69nw
+name: Cloudflare Browser Rendering issues
+impact: critical
+systems:
+    - q9p27cmrspf8
+    - 0fw91jq1bzxx
+timeline:
+    - ts: "2025-10-21 15:14:03"
+      description: Cloudflare is investigating issues with the Browser Rendering feature. Customers that use Browser Rendering may observe unexpected 500 errors. We are working to mitigate this problem, more updates to follow shortly.
+      investigating: true
+    - ts: "2025-10-21 15:15:35"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-10-21 15:21:50"
+      description: |-
+        This issue also affects URL Scanner (https://radar.cloudflare.com/scan)
+        We are working to mitigate this problem, more updates to follow.
+      investigating: true
