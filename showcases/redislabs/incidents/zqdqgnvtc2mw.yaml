@@ -10,3 +10,9 @@ timeline:
       description: AWS services in the US-EAST-1 cloud region are now in a recovering state following an identified issue with their DNS services. We continue to monitor closely until AWS confirms full resolution.
     - ts: "2025-10-20 18:43:32"
       description: We continue to monitor the recovery of AWS services in the US-EAST-1 region. Our teams remain fully engaged and are tracking the event closely. If you have any questions or need assistance, please contact Redis Support.
+    - ts: "2025-10-21 00:00:47"
+      description: |-
+        We'd like to let you know that AWS has confirmed full resolution of the DNS issue affecting services in the US-EAST-1 region. All Redis Cloud environments are operating as expected.
+
+        If you have any questions or concerns, please do not hesitate to contact Redis support.
+      resolved: true
