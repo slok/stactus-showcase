@@ -10,3 +10,6 @@ timeline:
     - ts: "2025-10-21 16:03:06"
       description: We're seeing issues for a small amount of customers with SAML/OIDC authentication for GitHub.com users. We are investigating.
       investigating: true
+    - ts: "2025-10-21 16:33:33"
+      description: We’ve identified the issue affecting some users with SAML/OIDC authentication and are actively working on mitigation. Some users may not be able to authenticate during this time.
+      investigating: true
