@@ -1,0 +1,11 @@
+version: incident/v1
+id: 6g5cq9g3cqzc
+name: Atlassian Cloud Services impacted
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-21 09:48:09"
+      description: |-
+        Atlassian Cloud services were impacted due to an incident with our public cloud provider. During this issue, Atlassian's internal services were affected which could have led to intermittent issues while logging into manage.statuspage.io for some of our customers.
+        This issue is resolved and the product is fully functional as of Oct 21, 2025 - 05:24 UTC.
+      resolved: true
