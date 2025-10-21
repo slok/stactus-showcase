@@ -1,6 +1,6 @@
 version: incident/v1
 id: hyw3m5dc21rm
-name: SMS Messages through Short Codes Showing Incorrect Status
+name: SMS Delivery Report Delays to Multiple Networks in the United States for a Subset of Short Codes
 impact: minor
 systems:
     - yvvy3vlp4djf
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-10-21 22:33:34"
       description: We are investigating a service interruption with a small subset of messages through Short Codes showing incorrect status even though message has been sent. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-10-21 23:09:29"
+      description: We are experiencing SMS delivery delays when sending messages to Multiple Networks in the United States for a Subset of Short Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
