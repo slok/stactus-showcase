@@ -13,3 +13,9 @@ timeline:
     - ts: "2025-10-21 16:33:33"
       description: We’ve identified the issue affecting some users with SAML/OIDC authentication and are actively working on mitigation. Some users may not be able to authenticate during this time.
       investigating: true
+    - ts: "2025-10-21 17:11:23"
+      description: We continuing to work on mitigation of this issue.
+      investigating: true
+    - ts: "2025-10-21 17:18:58"
+      description: Mitigation continues, the impact is limited to Enterprise Cloud customers who have configured SAML at the organization level.
+      investigating: true
