@@ -71,3 +71,7 @@ timeline:
       description: |-
         All products have been stable since the last update. We are continuing the work on outstanding backfills, during this process queries that include data from the backfilled windows may appear incomplete for the affected subset of customers and products.
         We will resolve the incident when the backfills are complete or before Oct 21, 16:00 UTC.
+    - ts: "2025-10-21 18:04:56"
+      description: |-
+        We are continuing the work on outstanding backfills which are not yet fully complete, during this process queries that include data from the backfilled windows may appear incomplete for the affected subset of customers and products.
+        We will resolve the incident when the backfills are complete or before Oct 21, 22:00 UTC.
