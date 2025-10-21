@@ -12,3 +12,6 @@ timeline:
 
         Additionally, the users leveraging SnapShooter for serverless backups may encounter failures in backup jobs as well. We're now seeing signs of recovery, and most of the requests should be succeeding. We will continue to monitor closely to ensure full service restoration and will share an update as more information becomes available.
       investigating: true
+    - ts: "2025-10-21 05:41:38"
+      description: "Between 08:00 UTC and 22:53 UTC, an issue with an upstream provider affected multiple DigitalOcean services, including SMS-based 2FA (causing code delivery failures), Docker Hub-hosted images (impacting Managed Kubernetes and App Platform deployments), and SnapShooter backup jobs. The issue has been resolved, and all services are now stable and operating normally. \n\nWe appreciate your patience throughout this but if you continue to experience any issues, please create a support ticket from within the Cloud Control Panel for further analysis."
+      resolved: true
