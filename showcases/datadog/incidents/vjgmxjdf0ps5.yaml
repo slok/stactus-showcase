@@ -75,3 +75,8 @@ timeline:
       description: |-
         We are continuing the work on outstanding backfills which are not yet fully complete, during this process queries that include data from the backfilled windows may appear incomplete for the affected subset of customers and products.
         We will resolve the incident when the backfills are complete or before Oct 21, 22:00 UTC.
+    - ts: "2025-10-21 21:35:30"
+      description: |-
+        We are making progress on outstanding backfills. Cloud Cost Monitoring backfill is complete. Metrics and Logs backfills are still in progress.
+        For products still undergoing backfilling, queries that include data from the backfilled windows may appear incomplete for the affected subset of customers.
+        We will provide next update no later than Oct 22, 10:00 UTC.

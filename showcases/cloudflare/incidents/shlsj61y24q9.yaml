@@ -1,11 +1,17 @@
 version: incident/v1
 id: shlsj61y24q9
-name: Durable objects is having issues in Singapore
+name: D1 & Durable Object issues in SIN
 impact: minor
 systems:
+    - z0yd3sxqjqdm
     - bty1yz6dhh0v
     - 18p6r93swmbl
 timeline:
     - ts: "2025-10-21 21:26:30"
-      description: Cloudflare is investigating an issue with Durable objects in Singapore. More updates to follow shortly.
+      description: Cloudflare is investigating a issues with D1 & Durable objects in Singapore. More updates to follow shortly.
       investigating: true
+    - ts: "2025-10-21 21:36:06"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-10-21 21:36:13"
+      description: A fix has been implemented and we are monitoring the results.
