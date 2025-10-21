@@ -1,8 +1,10 @@
 version: incident/v1
 id: gf388g8vqg02
 name: Figma service disruption
-impact: none
-systems: []
+impact: minor
+systems:
+    - pn57gvt7sjmx
+    - bcf4b8z76zqr
 timeline:
     - ts: "2025-10-20 19:55:45"
       description: We are currently investigating an issue where Figma Services are degraded or unavailable because of failures with AWS and other dependencies.
@@ -11,3 +13,7 @@ timeline:
       description: We are currently working to mitigate issues where Figma Services are degraded or unavailable because of failures with AWS and other dependencies. We will update in the next hour.
     - ts: "2025-10-20 22:53:54"
       description: We are currently working to mitigate issues where Figma Services are degraded or unavailable because of failures with AWS and other dependencies. We have recovered some Figma systems and are working to recover the rest. We will update when we see significant recovery or in another hour.
+    - ts: "2025-10-21 00:35:34"
+      description: We are currently working to mitigate issues where Figma Services are degraded or unavailable because of previous impact from AWS and other dependencies. Although we have restored some systems we have not fully recovered.  We will update when we see further significant recovery or in another hour.
+    - ts: "2025-10-21 00:41:35"
+      description: We are currently working to mitigate issues where Figma Services are degraded or unavailable because of previous impact from AWS and other dependencies. Although we have restored some systems we have not fully recovered.  We will update when we see further significant recovery or in another hour.
