@@ -1,9 +1,13 @@
 version: incident/v1
 id: hyw3m5dc21rm
-name: On Call Engineers are Investigating an issue with messages not sending properly
-impact: none
-systems: []
+name: SMS Messages through Short Codes Showing Incorrect Status
+impact: minor
+systems:
+    - yvvy3vlp4djf
 timeline:
     - ts: "2025-10-21 22:16:32"
       description: Our monitoring systems have detected a potential issue of messages not being sent . Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-21 22:33:34"
+      description: We are investigating a service interruption with a small subset of messages through Short Codes showing incorrect status even though message has been sent. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
