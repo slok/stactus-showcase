@@ -1,0 +1,9 @@
+version: incident/v1
+id: ypd6gvthb5lv
+name: Some meeting summaries that were captured during the October 20 outage may be delayed in their delivery
+impact: minor
+systems:
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2025-10-21 18:33:20"
+      description: Zoom has identified a backlog of AI Companion meeting summaries that were generated during the outage on October 20 that will need to be re-processed. The team is currently estimating a maximum of 48 hours to process the backlog but updates will be shared as we have them. Summaries currently generated are not affected by this and should be processed as normal.

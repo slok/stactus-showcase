@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3dv3x8lxr0h4
+name: MMS Delivery Delays and Failures to Rogers Wireless Network in United States
+impact: minor
+systems:
+    - 8vdlvw3dsq8h
+    - h0fl7prwfhvm
+    - tvjwfvczkf46
+timeline:
+    - ts: "2025-10-21 18:42:07"
+      description: We are experiencing MMS/SMS delivery delays when sending messages to Rogers Wireless Network in United States. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 or as soon as more information becomes available.
+      investigating: true
