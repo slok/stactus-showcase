@@ -1,0 +1,12 @@
+version: incident/v1
+id: v61nk2fpysnq
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-10-21 16:00:54"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-10-21 16:03:06"
+      description: We're seeing issues for a small amount of customers with SAML/OIDC authentication for GitHub.com users. We are investigating.
+      investigating: true
