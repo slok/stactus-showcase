@@ -67,3 +67,7 @@ timeline:
         We continue to see delays in processing that impact the following products: Distribution Metrics, RUM, CCM, and Product Analytics. As a result of this issue, some users may see only a subset of their data when querying those products or viewing pages that rely on telemetry from those products.
     - ts: "2025-10-21 01:32:17"
       description: We are seeing recovery across all of our products, and live data and monitor evaluations have resumed for all affected products. Most historical data in Logs has been backfilled and we have a small number of ongoing backfills in Metrics and other products. We will continue to monitor the situation overnight, and our next update will be 09:00 UTC.
+    - ts: "2025-10-21 10:20:29"
+      description: |-
+        All products have been stable since the last update. We are continuing the work on outstanding backfills, during this process queries that include data from the backfilled windows may appear incomplete for the affected subset of customers and products.
+        We will resolve the incident when the backfills are complete or before Oct 21, 16:00 UTC.
