@@ -1,6 +1,6 @@
 version: incident/v1
 id: shlsj61y24q9
-name: D1 & Durable Object issues in SIN
+name: Connectivity issues in SIN impacting multiple services
 impact: minor
 systems:
     - z0yd3sxqjqdm
@@ -8,7 +8,7 @@ systems:
     - 18p6r93swmbl
 timeline:
     - ts: "2025-10-21 21:26:30"
-      description: Cloudflare is investigating a issues with D1 & Durable objects in Singapore. More updates to follow shortly.
+      description: Cloudflare is investigating connectivity issues in Singapore that is impacting multiple services . More updates to follow shortly.
       investigating: true
     - ts: "2025-10-21 21:36:06"
       description: We are continuing to investigate this issue.

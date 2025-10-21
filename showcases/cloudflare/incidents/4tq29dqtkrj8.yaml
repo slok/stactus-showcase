@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4tq29dqtkrj8
+name: Elevated Latency for R2 Customers in APAC / ENAM
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2025-10-21 22:02:19"
+      description: We are investigating an issue causing elevated latency for R2 customers in APAC and ENAM. Cross-region requests between these regions may see elevated response times.
+      investigating: true
