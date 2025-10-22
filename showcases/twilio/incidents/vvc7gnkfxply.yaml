@@ -1,0 +1,13 @@
+version: incident/v1
+id: vvc7gnkfxply
+name: SMS Delivery Delays to MTN Network in Cameroon
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-10-22 20:26:22"
+      description: Our monitoring systems have detected a potential issue with SMS delivery delays to MTN Network in Cameroon. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-22 20:30:43"
+      description: We are continuing to investigate this issue.
+      investigating: true
