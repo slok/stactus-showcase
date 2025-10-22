@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-10-22 14:37:20"
       description: Some users may see slow, timing out requests or not found when browsing repos. We have identified slowness in our platform and are investigating.
       investigating: true
+    - ts: "2025-10-22 15:17:09"
+      description: We have identified a possible source of the issue and there is currently no user impact but we are continuing to investigate and will not resolve this incident until we have more confidence in our mitigations and investigation results.
+      investigating: true
