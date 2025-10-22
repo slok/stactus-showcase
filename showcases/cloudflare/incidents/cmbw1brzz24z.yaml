@@ -1,14 +1,19 @@
 version: incident/v1
 id: cmbw1brzz24z
-name: Cloudflare Data Loss Prevention (DLP) and Workers Builds Issues
+name: Cloudflare Data Loss Prevention (DLP) Issues
 impact: minor
 systems:
     - rppy995xymxv
-    - vcpsk0w6g86k
 timeline:
     - ts: "2025-10-22 15:23:07"
       description: Cloudflare is investigating possible issues with its Data Loss Prevention (DLP) suite. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
       investigating: true
     - ts: "2025-10-22 16:28:53"
       description: We are continuing to investigate this issue. At this point we have determined that both DLP and Workers Builds are affected.
+      investigating: true
+    - ts: "2025-10-22 16:42:32"
+      description: We are continuing to investigate this issue. At this point we have determined that DLP, Workers Builds, and Containers are affected.
+      investigating: true
+    - ts: "2025-10-22 16:49:06"
+      description: 'We are continuing to investigate this issue. We have clarified that the issues affecting Workers Builds and Containers are not part of this incident but rather this incident: https://www.cloudflarestatus.com/incidents/vlnswj9917tv'
       investigating: true
