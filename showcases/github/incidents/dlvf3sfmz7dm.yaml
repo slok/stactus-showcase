@@ -1,0 +1,13 @@
+version: incident/v1
+id: dlvf3sfmz7dm
+name: Incident with API Requests
+impact: minor
+systems:
+    - brv1bkgrwx7q
+timeline:
+    - ts: "2025-10-22 14:29:24"
+      description: We are investigating reports of degraded performance for API Requests
+      investigating: true
+    - ts: "2025-10-22 14:37:20"
+      description: Some users may see slow, timing out requests or not found when browsing repos. We have identified slowness in our platform and are investigating.
+      investigating: true
