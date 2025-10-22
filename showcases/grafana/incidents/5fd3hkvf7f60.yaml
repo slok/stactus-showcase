@@ -3,9 +3,13 @@ id: 5fd3hkvf7f60
 name: Private Datasource Connect API connectivity issues
 impact: major
 systems:
+    - vz67nr5zmnvh
     - hjyxwlnx32qy
     - wj6wrfb2kykv
 timeline:
     - ts: "2025-10-22 11:24:38"
-      description: "We are experiencing issues with Private Datasource API connectivity in the two regions: prod-me-central-1 and prod-eu-central-0.\nThe API hosts are not reachable. \nWe are actively investigating this matter."
+      description: "We are experiencing issues with Private Datasource API connectivity in some regions.\nThe API hosts are not reachable. \nWe are actively investigating this matter."
+      investigating: true
+    - ts: "2025-10-22 11:44:42"
+      description: We are continuing to investigate this issue.
       investigating: true
