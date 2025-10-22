@@ -11,3 +11,5 @@ timeline:
     - ts: "2025-10-22 18:23:56"
       description: Our engineers have identified the issue with delays in the availability of Voice Insights call summaries for calls homed in US1 that ended on Oct 22nd between 9:00am - 9:40am PST. This is resulting in summaries not accessible via API, console and event streams. Engineers are working to backfill this data. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-10-22 19:11:02"
+      description: Availability of Voice Insights call summaries now operating normally. The engineers have backfill the call-summaries and data. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.
