@@ -1,9 +1,13 @@
 version: incident/v1
 id: ntw9y2q6t6j3
-name: On Call Engineers are Investigating an Issue with Voice Insights Call Summaries
-impact: none
-systems: []
+name: Delay in Availability of Voice Insights Call Summaries in US1 Region
+impact: minor
+systems:
+    - yf5px6tdl6yt
 timeline:
     - ts: "2025-10-22 18:04:53"
       description: Our monitoring systems have detected a potential issue Voice Insights call summaries. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-22 18:23:56"
+      description: Our engineers have identified the issue with delays in the availability of Voice Insights call summaries for calls homed in US1 that ended on Oct 22nd between 9:00am - 9:40am PST. This is resulting in summaries not accessible via API, console and event streams. Engineers are working to backfill this data. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
