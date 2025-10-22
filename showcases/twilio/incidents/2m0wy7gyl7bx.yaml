@@ -90,3 +90,19 @@ timeline:
         If you observe abnormal failure patterns, please reach out to Twilio Support for further assistance.
 
         We’ll provide another update in 24 hours or sooner as more information becomes available.
+    - ts: "2025-10-22 05:32:48"
+      description: |-
+        Our carrier partner has informed us that the Hungarian regulator NMHH has begun enforcing Decree 4/2012 (I.24.), which introduces new screening and blocking obligations for calls terminating in Hungary via international interconnection points that present Hungarian Caller IDs.
+
+        To avoid disruptions in call delivery to Hungarian destinations, we recommend the following actions:
+
+        Recommended Steps:
+
+        - Avoid using Hungarian CLIs (+36 numbers) as Caller IDs on calls into Hungary unless you have a valid domestic interconnection or roaming agreement to justify their use.
+        - Where possible, use non-Hungarian CLIs, such as your main business number or an international service number.
+        You can quickly provision U.S. numbers (+1) in the Twilio Console and use those for calls to Hungarian recipients.
+        - Monitor your call completion rates to Hungarian destinations.
+
+        If you observe abnormal failure patterns, please reach out to Twilio Support for further assistance.
+
+        We’ll provide another update in 24 hours or sooner as more information becomes available.
