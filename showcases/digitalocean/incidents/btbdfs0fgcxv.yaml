@@ -1,0 +1,13 @@
+version: incident/v1
+id: btbdfs0fgcxv
+name: App Platform Deployments
+impact: minor
+systems:
+    - txysr8r0gn1n
+timeline:
+    - ts: "2025-10-22 16:40:03"
+      description: |-
+        Our Engineering team is currently investigating an issue impacting both new and in-progress App Platform Deployments. During this period, users may notice app deployments getting stuck in the build phase or even delayed builds. In some cases, builds may even fail shortly after retries are exhausted.
+
+        We apologize for the inconvenience caused and appreciate your patience while we work to resolve this issue. We'll update once we have more information.
+      investigating: true
