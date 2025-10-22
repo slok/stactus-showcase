@@ -1,0 +1,10 @@
+version: incident/v1
+id: ws1fl6bqrnlj
+name: SMS Delivery Delays to Lycamobile Network in Germany
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-10-22 00:45:19"
+      description: We are experiencing SMS delivery delays when sending messages to Lycamobile Network in Germany. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
