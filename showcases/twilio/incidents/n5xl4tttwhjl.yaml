@@ -1,9 +1,13 @@
 version: incident/v1
 id: n5xl4tttwhjl
 name: PCAP for SIP or Elastic SIP Trunking calls are not available for download via Twilio Console
-impact: none
-systems: []
+impact: minor
+systems:
+    - g4hs7h64k9fv
 timeline:
     - ts: "2025-10-22 08:08:20"
       description: Our monitoring systems have detected a potential issue with PCAP for SIP. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-22 08:17:40"
+      description: Some voice customers are currently experiencing issues accessing SIP PCAP files in their Twilio Console. Our engineering team is actively investigating the root cause. We will provide an update within 1 hour or as soon as more information is available.
       investigating: true
