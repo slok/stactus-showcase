@@ -1,0 +1,11 @@
+version: incident/v1
+id: 582tv1lmstfc
+name: Logs/metrics issues
+impact: major
+systems:
+    - 6sckg8qmrnzz
+    - k2zhkw7wryv2
+timeline:
+    - ts: "2025-10-23 23:24:34"
+      description: We are currently investigating an issue impacting app logs and metrics for a subset of hosts.
+      investigating: true
