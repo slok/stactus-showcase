@@ -1,0 +1,11 @@
+version: incident/v1
+id: 1csypy8q39vz
+name: Custom Hostnames API issues
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-23 01:12:59"
+      description: |-
+        Between 05:45am and 06:25am UTC, Cloudflare has identified and mitigated an issue with our API which potentially impacted multiple customers: Performing bulk requests to our Custom Hostnames API endpoint might have returned unexpected timeouts.
+        This did not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+      resolved: true

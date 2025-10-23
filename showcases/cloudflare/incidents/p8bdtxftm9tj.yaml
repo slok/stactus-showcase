@@ -1,0 +1,13 @@
+version: incident/v1
+id: p8bdtxftm9tj
+name: Increased bot scores leading to false positives
+impact: minor
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2025-10-23 01:08:46"
+      description: |-
+        Cloudflare is investigating an issue with increased bot scores leading to false positives.
+
+        More updates to follow shortly.
+      investigating: true
