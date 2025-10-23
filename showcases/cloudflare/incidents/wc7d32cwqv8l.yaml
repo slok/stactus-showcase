@@ -1,0 +1,13 @@
+version: incident/v1
+id: wc7d32cwqv8l
+name: Turnstile challenges incorrectly blocking human visitors
+impact: minor
+systems:
+    - x0tkn0hzrtw7
+    - m4jywscr0n0k
+timeline:
+    - ts: "2025-10-23 19:36:14"
+      description: A newly deployed update to our challenge platform would also match a small portion of legitimate visitors using Chrome. This would have resulted in them being unable to solve a challenge.
+    - ts: "2025-10-23 19:44:18"
+      description: This incident has been resolved.
+      resolved: true
