@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-10-23 20:15:10"
       description: We are experiencing failures in receiving message delivery reports when sending to RCS messages. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-10-23 21:17:35"
+      description: We are experiencing failures in receiving a subset of message delivery reports when sending RCS messages, which causes the message log status to be SENT or DELIVERY_UNKNOWN for messages that were delivered to destination devices. Our engineers are investigating the issue and reaching out to our carrier partners. We expect to provide another update in 2 hour or as soon as more information becomes available.
+      investigating: true

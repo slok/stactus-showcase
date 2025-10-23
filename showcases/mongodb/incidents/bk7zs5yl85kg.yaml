@@ -1,0 +1,16 @@
+version: incident/v1
+id: bk7zs5yl85kg
+name: 'MongoDB Atlas and Support Portal: Browser-initiated Federated logins fail'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+    - kb8k7qml7npt
+    - q57ng8brt2td
+timeline:
+    - ts: "2025-10-23 21:08:15"
+      description: |-
+        We have identified an issue affecting our federated authentication system since approximately 17:30 UTC on 2025-10-23. This affects a small number of federated users. Affected users who attempt to login via their federation will not to be able to login to Atlas or the Support portal and may see errors claiming they are unauthorized.
+
+        As a workaround, users can login at cloud.mongodb.com or support.mongodb.com depending on whether they would like to use Atlas or Support, respectively. The same issue affects Atlas for Government, so users there could go to cloud.mongodbgov.com to login.
+
+        Existing logins are unaffected. Cluster health is unaffected.
