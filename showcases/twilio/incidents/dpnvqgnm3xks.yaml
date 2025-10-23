@@ -1,9 +1,13 @@
 version: incident/v1
 id: dpnvqgnm3xks
-name: On Call Engineers are Investigating an issue with AT&T RCS Message Delivery Receipts
-impact: none
-systems: []
+name: RCS Message Delivery Receipt Failures
+impact: minor
+systems:
+    - 7d8w22hqrh6s
 timeline:
     - ts: "2025-10-23 19:44:20"
       description: Our monitoring systems have detected a potential issue AT&T RCS Delivery Receipts Delays. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-23 20:15:10"
+      description: We are experiencing failures in receiving message delivery reports when sending to RCS messages. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
