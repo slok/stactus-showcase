@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-10-23 20:18:37"
       description: We are investigation issue with ipv6 networking with some hosts in FRA.
       investigating: true
+    - ts: "2025-10-23 21:29:26"
+      description: We're working with our upstream provider to investigate intermittent IPv6 connectivity issues on some hosts in FRA. New machines will be created on hosts without known IPv6 connectivity issues. If your app requires IPv6 connectivity, consider cloning or creating a new machine in FRA as a workaround.
+      investigating: true
