@@ -1,0 +1,13 @@
+version: incident/v1
+id: srj1939ly923
+name: Cloudflare Workers Issues
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-10-23 04:36:32"
+      description: |-
+        Cloudflare is investigating an increased level of 500 errors for customers running Workers scripts.
+
+        We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
