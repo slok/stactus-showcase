@@ -10,3 +10,6 @@ timeline:
         Since approximately 14:00 UTC on 2025-10-22, a small number of Atlas clusters with nodes in GCP were slow to recover from maintenance or other shutdown events. Affected clusters would have had a node down for an extended period of time while the "blue bar" in the Atlas web UI indicated that we are still trying to recover the node. As only a minority of nodes in each cluster could have been affected, underlying cluster health was not affected.
 
         While we have corrected all affected clusters, we are still monitoring to ensure the issue does not recur.
+    - ts: "2025-10-23 20:52:56"
+      description: This incident has been resolved.
+      resolved: true
