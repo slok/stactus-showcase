@@ -1,0 +1,15 @@
+version: incident/v1
+id: bbv2b24xjx8p
+name: Spaces Availability, Container Registry creation and App builds
+impact: minor
+systems:
+    - txysr8r0gn1n
+    - nkx0nmdx9vrs
+    - 3xz669qnng8n
+timeline:
+    - ts: "2025-10-23 16:17:23"
+      description: |-
+        Our Engineering team is investigating a performance issue affecting Spaces. During this time, customers may experience slow performance or limited availability when accessing Spaces or its objects via the Control Panel or API. In additon to that, Container Registry access/creation and app builds may also be affected.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
