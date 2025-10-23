@@ -14,3 +14,6 @@ timeline:
     - ts: "2025-10-23 21:17:35"
       description: We are experiencing failures in receiving a subset of message delivery reports when sending RCS messages, which causes the message log status to be SENT or DELIVERY_UNKNOWN for messages that were delivered to destination devices. Our engineers are investigating the issue and reaching out to our carrier partners. We expect to provide another update in 2 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-10-23 22:32:10"
+      description: Our engineering team has determined the RCS delivery reports are(and were) working correctly. RCS messaging logs are correct and are properly updated by carrier delivery reports. This incident has been resolved.
+      resolved: true
