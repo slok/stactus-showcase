@@ -1,6 +1,6 @@
 version: incident/v1
 id: tmn8z3yblvtq
-name: Support Phone line routing directly to Voicemail in North America
+name: Support Phone line routing directly to Voicemail
 impact: minor
 systems:
     - jzcwkvrc4w4q
@@ -14,3 +14,8 @@ timeline:
     - ts: "2025-10-24 00:40:09"
       description: Impact now includes all Cloudflare phone support numbers. We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-10-24 01:18:48"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-10-24 01:25:59"
+      description: This incident has been resolved.
+      resolved: true
