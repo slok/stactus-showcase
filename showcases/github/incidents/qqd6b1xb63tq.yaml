@@ -21,5 +21,5 @@ timeline:
       description: We were able to apply a mitigation and we are now seeing recovery.
       investigating: true
     - ts: "2025-10-21 12:28:19"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On October 21, 2025, between 07:55 UTC and 12:20 UTC, GitHub Actions experienced degraded performance. During this time, 2.11% workflow runs failed to start within 5 minutes, with an average delay of 8.2 minutes. The root cause was increased latency on a node in one of our Redis clusters, triggered by resource contention after a patching event became stuck. <br /><br />Recovery began once the patching process was unstuck and normal connectivity to the Redis cluster was restored at 11:45 UTC, but it took until 12:20 UTC to clear the backlog of queued work. We are implementing safeguards to prevent this failure mode and enhancing our monitoring to detect and address problems like this more quickly in the future.
       resolved: true

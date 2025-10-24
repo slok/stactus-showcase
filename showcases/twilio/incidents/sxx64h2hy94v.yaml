@@ -1,0 +1,10 @@
+version: incident/v1
+id: sxx64h2hy94v
+name: SMS Delivery Report Delays to MobiFone in Vietnam via a Subset Of Alphanumeric Sender ID
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-10-24 15:07:14"
+      description: We are experiencing delays in receiving message delivery reports when sending to MobiFone in Vietnam via a Subset Of Alphanumeric Sender ID. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
