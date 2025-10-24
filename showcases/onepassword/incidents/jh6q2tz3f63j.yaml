@@ -1,0 +1,10 @@
+version: incident/v1
+id: jh6q2tz3f63j
+name: Degraded Performance When Sharing Items
+impact: minor
+systems:
+    - 128z2hc5zph2
+timeline:
+    - ts: "2025-10-24 17:04:32"
+      description: We are actively investigating an issue where customers may experience errors or degraded performance when attempting to share items.
+      investigating: true

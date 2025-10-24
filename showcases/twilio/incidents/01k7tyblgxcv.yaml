@@ -1,0 +1,10 @@
+version: incident/v1
+id: 01k7tyblgxcv
+name: SMS Delivery Failures to Telenor in Myanmar
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-10-24 16:55:20"
+      description: We are experiencing SMS delivery failures sending to Telenor in Myanmar. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
