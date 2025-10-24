@@ -1,0 +1,13 @@
+version: incident/v1
+id: 6rtzx3522xnk
+name: Private Datasource Connect queries are failing
+impact: major
+systems:
+    - y081wmnk39py
+timeline:
+    - ts: "2025-10-24 13:10:39"
+      description: We are experiencing issues with Private Datasource queries failing in prod-us-central-3 and prod-us-central-4 regions. We are actively investigating this matter.
+      investigating: true
+    - ts: "2025-10-24 13:13:17"
+      description: We are continuing to investigate this issue.
+      investigating: true
