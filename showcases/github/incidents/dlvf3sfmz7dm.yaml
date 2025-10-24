@@ -18,5 +18,5 @@ timeline:
       description: API Requests is operating normally.
       investigating: true
     - ts: "2025-10-22 15:53:37"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On October 22, 2025, between 14:06 UTC and 15:17 UTC, less than 0.5% of web users experienced intermittent slow page loads on GitHub.com. During this time, API requests showed increased latency, with up to 2% timing out.  <br /><br />The issue was caused by elevated loads on one of our databases caused by a poorly performing query, which impacted performance for a subset of requests.<br /><br />We identified the source of the load and optimized the query to restore normal performance. We’ve added monitors for early detection for query performance, and we continue to monitor the system closely to ensure ongoing stability. <br />
       resolved: true
