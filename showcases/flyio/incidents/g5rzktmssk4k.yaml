@@ -1,0 +1,10 @@
+version: incident/v1
+id: g5rzktmssk4k
+name: TLS certificate issues
+impact: major
+systems:
+    - mvnft391hph6
+timeline:
+    - ts: "2025-10-24 16:13:24"
+      description: We are investigating an issue with the Vault server that stores TLS certificates. Provisioning new TLS certificates may fail, and connecting to domains whose existing certificate has not yet been cached may fail.
+      investigating: true
