@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-10-24 16:13:24"
       description: We are investigating an issue with the Vault server that stores TLS certificates. Provisioning new TLS certificates may fail, and connecting to domains whose existing certificate has not yet been cached may fail.
       investigating: true
+    - ts: "2025-10-24 16:27:46"
+      description: This incident has been resolved.
+      resolved: true
