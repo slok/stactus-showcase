@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2025-10-24 17:00:04"
       description: We are observing recovery in MMS delivery delays when sending messages to multiple networks in US via a subset of short codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-10-24 17:35:02"
+      description: We are still experiencing MMS delivery delays to multiple Networks in US via a subset of Short-Codes, however, since there is an existing incident post, we’re resolving this one. You can check the status of this incident at https://status.twilio.com/incidents/5l9lr3f3d464
+      resolved: true
