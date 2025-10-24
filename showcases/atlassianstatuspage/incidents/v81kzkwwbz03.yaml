@@ -1,0 +1,10 @@
+version: incident/v1
+id: v81kzkwwbz03
+name: Intermittent errors while accessing public Statuspages
+impact: none
+systems:
+    - rkld00070vm9
+    - 3bg3nq9mm436
+timeline:
+    - ts: "2025-10-24 04:06:10"
+      description: We have identified a change which affected the availability of public status pages with custom domain. The change has been rolled back and we are monitoring.
