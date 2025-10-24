@@ -1,9 +1,13 @@
 version: incident/v1
 id: 916nqjj1h0c9
 name: On Call Engineers are Investigating an Issue Regarding Mailing Address Update in Twilio Console
-impact: none
-systems: []
+impact: minor
+systems:
+    - g4hs7h64k9fv
 timeline:
     - ts: "2025-10-24 19:04:24"
       description: Our monitoring systems have detected a potential issue with updating the mailing address in the console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-24 19:10:02"
+      description: Our monitoring systems have detected a potential issue with updating the mailing address in the console. Our engineering team has been alerted and is actively investigating. We will provide another updated in 1 hour.
       investigating: true
