@@ -1,0 +1,11 @@
+version: incident/v1
+id: gmfr2065mwy0
+name: A subset of users are experiencing issues with Inbound and Outbound calls in Israel region.
+impact: minor
+systems:
+    - hx06zxqdrsxl
+    - bcklxvxh9gsr
+timeline:
+    - ts: "2025-10-25 08:36:53"
+      description: We have detected service degradation where a subset of users are experiencing issues with Inbound and Outbound calls in Israel region. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
