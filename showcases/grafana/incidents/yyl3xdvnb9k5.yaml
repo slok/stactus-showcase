@@ -1,0 +1,11 @@
+version: incident/v1
+id: yyl3xdvnb9k5
+name: Metrics read and write issue affecting prod-ap-southeast-1
+impact: major
+systems:
+    - g9ynk4pl34ms
+    - 0zbn3g1ngjfs
+timeline:
+    - ts: "2025-10-25 05:57:26"
+      description: We are currently investigating this issue.
+      investigating: true
