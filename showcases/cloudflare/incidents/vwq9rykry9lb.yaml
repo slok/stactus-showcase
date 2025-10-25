@@ -1,0 +1,10 @@
+version: incident/v1
+id: vwq9rykry9lb
+name: Compressible responses from workers sometimes being sent uncompressed
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-10-25 16:52:53"
+      description: In some circumstances, Cloudflare will return uncompressed HTTP content for responses from Cloudflare workers, even when the "Accept-Encoding" header has been sent. Cloudflare engineering is engaged and rolling out a fix.

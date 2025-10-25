@@ -1,0 +1,10 @@
+version: incident/v1
+id: xq4pvwpnph4s
+name: Elevated errors in Istanbul
+impact: minor
+systems:
+    - 1njzngd1wdrj
+timeline:
+    - ts: "2025-10-25 17:03:08"
+      description: Between 15:50-16:20 UTC customers reaching Istanbul, TR would have experienced an elevated number of 5XX and 4XX errors.
+      resolved: true
