@@ -1,9 +1,13 @@
 version: incident/v1
 id: kk5lvp4z5t2t
 name: Call Quality Issue To and From a Subset Of Twilio Taiwan Phone Numbers
-impact: none
-systems: []
+impact: minor
+systems:
+    - pv5w18vrltfl
 timeline:
     - ts: "2025-10-25 13:20:11"
       description: Our monitoring systems have detected a potential issue with a Subset Of Twilio Taiwan Phone Numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-10-25 13:30:02"
+      description: We are observing a call quality issue to and from a subset of Twilio Taiwan phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hours or as soon as more information becomes available.
       investigating: true
