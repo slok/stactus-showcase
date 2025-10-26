@@ -8,3 +8,6 @@ systems:
 timeline:
     - ts: "2025-10-25 16:52:53"
       description: In some circumstances, Cloudflare will return uncompressed HTTP content for responses from Cloudflare workers, even when the "Accept-Encoding" header has been sent. Cloudflare engineering is engaged and rolling out a fix.
+    - ts: "2025-10-26 08:21:52"
+      description: This incident has been resolved.
+      resolved: true
