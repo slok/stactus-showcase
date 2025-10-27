@@ -1,0 +1,12 @@
+version: incident/v1
+id: t6fcxny6yf14
+name: Disruption with viewing some repository pages from large organizations
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-10-27 16:25:36"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-10-27 16:35:29"
+      description: Viewing code in repositories in or forked from very large organizations (200k+ members) are not loading in the desktop web UI, showing a unicorn instead. A fix has been identified and is being tested. Access via git and access to specific pages within the repository, such as pull requests, are not impacted, nor is accessing the repository via the mobile web UI.
+      investigating: true
