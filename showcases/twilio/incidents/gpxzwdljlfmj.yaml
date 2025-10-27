@@ -1,0 +1,10 @@
+version: incident/v1
+id: gpxzwdljlfmj
+name: SMS Delivery Report Delays When Sending to Chile Movistar
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-10-27 18:35:33"
+      description: We are experiencing delays in receiving message delivery reports when sending to Chile Movistar. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
