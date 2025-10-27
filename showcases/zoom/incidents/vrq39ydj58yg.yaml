@@ -1,0 +1,11 @@
+version: incident/v1
+id: vrq39ydj58yg
+name: Issue with 403 errors for multiple services
+impact: minor
+systems:
+    - 3z7b6jks10hm
+    - zhgjct3grx1z
+    - 8gftm750nwzm
+timeline:
+    - ts: "2025-10-27 22:56:01"
+      description: We have identified an issue causing a subset of users to receive 403 errors for multiple Zoom services.  We will continue to provide updates as we have them.
