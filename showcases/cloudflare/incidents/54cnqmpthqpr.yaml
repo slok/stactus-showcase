@@ -1,0 +1,13 @@
+version: incident/v1
+id: 54cnqmpthqpr
+name: Bot Management Issues
+impact: minor
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2025-10-27 11:17:15"
+      description: |-
+        Cloudflare is investigating issues with our Bot Management feature. Customers may experience an increase in the percentage of traffic that is not detected as a verified bot.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
