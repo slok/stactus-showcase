@@ -1,6 +1,6 @@
 version: incident/v1
 id: pd9vhr0wxy1b
-name: Inbound Call Failures From El Salvador to a Subset of Twilio’s Numbers
+name: Call Failures From El Salvador Network Subscribers to a Subset of Twilio’s Numbers
 impact: minor
 systems:
     - fbtv2g9t3z25
@@ -9,5 +9,5 @@ timeline:
       description: Our monitoring systems have detected a potential issue for calls coming from El Salvador. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2025-10-27 21:00:54"
-      description: We are observing call failures to Twilio phone numbers in El Salvador. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: We are observing call failures from El Salvador network subscribers to a subset of Twilio phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
