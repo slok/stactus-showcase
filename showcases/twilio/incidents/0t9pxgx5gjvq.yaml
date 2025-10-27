@@ -1,6 +1,6 @@
 version: incident/v1
 id: 0t9pxgx5gjvq
-name: SMS Delivery Failures to Digicel in Cayman Islands 346-50
+name: SMS Delivery Failures to Digicel in Cayman Islands
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -13,4 +13,7 @@ timeline:
       investigating: true
     - ts: "2025-10-26 21:56:49"
       description: We continue experiencing SMS delivery failures to Digicel in Cayman Islands 346-50. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available
+      investigating: true
+    - ts: "2025-10-27 02:00:04"
+      description: We continue experiencing SMS delivery failures to Digicel in Cayman Islands. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available
       investigating: true
