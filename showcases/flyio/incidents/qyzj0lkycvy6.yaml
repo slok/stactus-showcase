@@ -18,3 +18,5 @@ timeline:
         We are seeing intermittent deploy failures when using Depot builders. Customers can also follow the Depot status page at https://status.depot.dev for updates.
 
         Customers can still deploy using Fly.io hosted builders with `fly deploy --depot=false`
+    - ts: "2025-10-28 21:06:16"
+      description: A fix has been implemented by Depot (https://status.depot.dev/incidents/01K8NTPVB41CD7NT3059QQ5MD8), and we are seeing recovery. We are continuing to monitor.
