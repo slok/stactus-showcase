@@ -1,0 +1,10 @@
+version: incident/v1
+id: qyzj0lkycvy6
+name: Deploys using Depot Builders failing
+impact: major
+systems:
+    - ffsz24mbcxfz
+timeline:
+    - ts: "2025-10-28 18:46:24"
+      description: "We are investigating failures when trying to build using the default Depot builders. \n\nThe recommended workaround is to use `--depot=false` with `fly deploy`.\n\nThe error is`Error: failed to fetch an image or build from source: error building: unavailable: unexpected EOF`"
+      investigating: true
