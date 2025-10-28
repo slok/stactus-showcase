@@ -1,7 +1,7 @@
 version: incident/v1
 id: 6g5cq9g3cqzc
 name: Atlassian Cloud Services impacted
-impact: none
+impact: major
 systems: []
 timeline:
     - ts: "2025-10-21 09:48:09"
@@ -9,3 +9,14 @@ timeline:
         Atlassian Cloud services were impacted due to an incident with our public cloud provider. During this issue, Atlassian's internal services were affected which could have led to intermittent issues while logging into manage.statuspage.io for some of our customers.
         This issue is resolved and the product is fully functional as of Oct 21, 2025 - 05:24 UTC.
       resolved: true
+    - ts: "2025-10-28 05:43:30"
+      description: |-
+        On October 20, 2025, Atlassian cloud services were impacted by an outage from a third-party provider, Amazon Web Services \(AWS\). While we have since resolved the immediate impact on our services, our teams are continuing to work on a full Post-Incident Review \(PIR\).
+
+        AWS has published their summary of the event, which you can find here: [AWS Incident Summary](https://aws.amazon.com/message/101925/).
+
+        We are continuing our own thorough internal investigation to understand the full impact on Atlassian services and to identify corrective actions to help prevent similar occurrences in the future.
+
+        We are committed to transparency and will publish our public PIR on our [Statuspage](http://status.atlassian.com/) once this investigation is complete. We expect to publish this within the next 30 days.
+
+        We sincerely apologize for the disruption this incident caused you and your teams. We appreciate your patience as we complete our review.
