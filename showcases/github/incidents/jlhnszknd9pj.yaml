@@ -10,3 +10,9 @@ timeline:
     - ts: "2025-10-28 16:42:16"
       description: Usage of the Haiku 4.5 model with Copilot experiences is currently degraded. We are investigating and working to remediate. Other models should be unaffected.
       investigating: true
+    - ts: "2025-10-28 17:11:22"
+      description: The issues with our upstream model provider have been resolved, and Claude Haiku 4.5 is once again available in Copilot Chat and across IDE integrations.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.
+      investigating: true
+    - ts: "2025-10-28 17:11:45"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
