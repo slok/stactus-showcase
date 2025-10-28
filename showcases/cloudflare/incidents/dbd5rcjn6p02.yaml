@@ -1,0 +1,14 @@
+version: incident/v1
+id: dbd5rcjn6p02
+name: SSL Certificate Provisioning Delays
+impact: minor
+systems:
+    - cghykwlwsmn5
+    - 9p2qlpt19nqb
+timeline:
+    - ts: "2025-10-28 04:31:57"
+      description: |-
+        Cloudflare is investigating delays in provisioning SSL certificates signed by SSL.com. Customer can work around the issue in the meantime by choosing another CA (requires Advanced Certificate Manager).
+
+        SSL certificates already in production remain unaffected and are operating normally.
+      investigating: true
