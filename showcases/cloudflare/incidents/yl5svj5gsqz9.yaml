@@ -1,0 +1,16 @@
+version: incident/v1
+id: yl5svj5gsqz9
+name: Cloudflare for Saas Custom Hostname search issue
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+    - 9p2qlpt19nqb
+timeline:
+    - ts: "2025-10-28 01:12:28"
+      description: |-
+        Cloudflare is investigating an issue with Cloudflare for SaaS Custom Hostname search. Some customers are unable to search for Custom Hostnames in the dashboard.
+
+        These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+
+        Customers using the Dashboard are impacted as requests might fail and/or errors may be displayed.
+      investigating: true
