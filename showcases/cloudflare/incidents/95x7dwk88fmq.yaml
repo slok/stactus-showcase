@@ -1,0 +1,10 @@
+version: incident/v1
+id: 95x7dwk88fmq
+name: WARP with MASQUE Connection Issues in Toronto, Canada
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2025-10-28 21:44:53"
+      description: We are currently investigating an issue where WARP users (both consumer and Zero Trust) in Toronto, Canada area are unable to connect when using WARP with MASQUE.
+      investigating: true
