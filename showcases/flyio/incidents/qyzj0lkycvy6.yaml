@@ -13,3 +13,8 @@ timeline:
         We are seeing deploys using Depot builders succeed again, but we are continuing to monitor.
 
         Customers can still deploy using Fly.io hosted builders with `fly deploy --depot=false`
+    - ts: "2025-10-28 20:37:45"
+      description: |-
+        We are seeing intermittent deploy failures when using Depot builders. Customers can also follow the Depot status page at https://status.depot.dev for updates.
+
+        Customers can still deploy using Fly.io hosted builders with `fly deploy --depot=false`
