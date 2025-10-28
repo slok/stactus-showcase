@@ -1,0 +1,9 @@
+version: incident/v1
+id: 09pp8t19kqpk
+name: Connectivity Issues when using Zero Trust Gateway Egress and Network Policies
+impact: minor
+systems:
+    - gyx2yygg7lmd
+timeline:
+    - ts: "2025-10-28 16:53:05"
+      description: Cloudflare has identified an issue causing connectivity problems for a subset of Cloudflare One customers when the traffic requires Zero Trust Gateway Egress (specifically with Hostname selector) or Network policies. We are currently working on applying a fix.
