@@ -9,3 +9,6 @@ timeline:
       description: Cloudflare has identified an issue causing connectivity problems for a subset of Cloudflare One customers when the traffic requires Zero Trust Gateway Egress (specifically with Hostname selector) or Network policies. We are currently working on applying a fix.
     - ts: "2025-10-28 17:29:15"
       description: A fix has been implemented and we are currently monitoring the results.
+    - ts: "2025-10-28 18:03:43"
+      description: This incident has been resolved.
+      resolved: true
