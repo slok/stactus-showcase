@@ -27,5 +27,5 @@ timeline:
       description: Actions is operating normally.
       investigating: true
     - ts: "2025-10-23 20:25:52"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On October 23, 2025, between 15:54 UTC and 19:20 UTC, GitHub Actions larger hosted runners experienced degraded performance, with 1.4% of overall workflow runs and 29% of larger hosted runner jobs failing to start or timing out within 5 minutes.<br /><br />The full set of contributing factors is still under investigation, but the customer impact was due to database performance degradation, triggered by routine database changes causing a load profile that triggered a bug in the underlying database platform used for larger runners.<br /><br />Impact was mitigated through a combination of scaling up the database and reducing load. We are working with partners to resolve the underlying bug and have paused similar database changes until it is resolved.
       resolved: true
