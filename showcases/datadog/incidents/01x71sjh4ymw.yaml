@@ -1,0 +1,10 @@
+version: incident/v1
+id: 01x71sjh4ymw
+name: Metrics data ingestion delayed and monitor evaluations degraded
+impact: major
+systems:
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2025-10-28 18:32:04"
+      description: The issue has been identified and a fix is being implemented.
