@@ -1,0 +1,10 @@
+version: incident/v1
+id: yq898vpw1nch
+name: Gradient AI Platform Agent Creation.
+impact: minor
+systems:
+    - br95fz33h6td
+timeline:
+    - ts: "2025-10-29 20:26:07"
+      description: As of 18:50 UTC, our Engineering team is investigating reports of agent creation issues impacting customers using a VPC on the GradientAI platform. At this point, affected users may experience errors where the agent creation process is stuck on "Waiting for Deployment." We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true

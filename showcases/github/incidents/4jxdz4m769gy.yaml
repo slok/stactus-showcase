@@ -36,3 +36,6 @@ timeline:
     - ts: "2025-10-29 19:21:00"
       description: We continue to see improvement in Actions larger runners jobs. Larger runners customers may still experience longer than normal queue times, but we expect this to rapidly improve across most runners. <br /><br />ARM64 runners, GPU runners, and some runners with private networking may still be impacted.<br /><br />Usage of Codespaces via VS Code (but not via SSH) is still degraded.<br /><br />GitHub and Azure teams continue to collaborate towards full resolution.
       investigating: true
+    - ts: "2025-10-29 20:34:32"
+      description: We are beginning to see small signs of recovery, but connections are still inconsistent across services and regions. We expect to see gradual recovery from here.
+      investigating: true
