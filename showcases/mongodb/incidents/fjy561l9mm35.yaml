@@ -1,0 +1,12 @@
+version: incident/v1
+id: fjy561l9mm35
+name: Azure Network Availability Issues
+impact: none
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-10-29 17:41:54"
+      description: |-
+        We have been informed that Azure is experiencing network availability issues for some services. We are not observing any customer impact and will continue to monitor the situation closely.
+
+        Please refer to https://azure.status.microsoft/en-us/status for more information.
