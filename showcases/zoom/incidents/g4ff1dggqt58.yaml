@@ -6,7 +6,15 @@ systems:
     - 3z7b6jks10hm
     - 8gftm750nwzm
     - 503cqbhcpvzx
+    - 08fp2rr1spx0
+    - rsh1v3gbhtsy
 timeline:
     - ts: "2025-10-29 12:10:20"
-      description: We have detected service degradation where a subset of users may experience issues with Sign in and Zoom Meetings in Europe region. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      description: We have detected service degradation where a subset of users may experience issues with Sign in and Zoom Meetings in Europe region particularly detected on Amsterdam and Frankfurt at this point. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
+    - ts: "2025-10-29 12:16:30"
+      description: We are continuing to investigate this issue. We've also noticed that the subset of users might not be able to join Zoom Meetings using 3rd party integration.
+      investigating: true
+    - ts: "2025-10-29 12:27:01"
+      description: We are continuing to investigate this issue. We've also noticed that the subset of users might not be able use Zoom AIC services.
       investigating: true
