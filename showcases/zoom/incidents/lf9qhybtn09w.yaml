@@ -1,12 +1,24 @@
 version: incident/v1
 id: lf9qhybtn09w
-name: Issue with MSFT integration with Zoom.
+name: Microsoft Outage causing scheduling issues through Outlook
 impact: minor
 systems:
     - 08fp2rr1spx0
 timeline:
     - ts: "2025-10-29 17:17:59"
-      description: A subset of customers may experience issues with MSFT integration. Zoom will provide updates as we have them.
+      description: A subset of customers may experience issues with MSFT Outlook integration. Zoom will provide updates as we have them.
       investigating: true
     - ts: "2025-10-29 18:04:43"
-      description: Zoom services are fully operational. There are reports of a Microsoft Outage causing scheduling issues through Outlook, https://azure.status.microsoft/en-us/status. Customers can still schedule and join meetings directly using Zoom’s web portal.
+      description: |-
+        Zoom services are fully operational. There are reports of a Microsoft Outage causing scheduling issues through Outlook, https://azure.status.microsoft/en-us/status. Customers can still schedule and join meetings directly using Zoom’s web portal.
+
+
+        Zoom is aware of Scheduling issues related to Microsoft Azure, but Zoom is not directly impacted and your previously scheduled meetings and webinars are still available:
+
+        Join a Meeting here: https://zoom.us/join
+
+        Steps to join or launch a new meeting:
+        1) Login to your Zoom Account
+        2a) From the Zoom client, Select Profile, then Meetings or Webinars
+        2b) From the Web, Select 'Meetings' to see your scheduled events
+        3) Locate upcoming meeting, select 'Start", copy and provide the meeting ID to meeting participants, or schedule a new meeting.
