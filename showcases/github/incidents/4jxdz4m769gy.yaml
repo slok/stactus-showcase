@@ -1,7 +1,7 @@
 version: incident/v1
 id: 4jxdz4m769gy
 name: Experiencing connection issues across Actions, Codespaces, and possibly other services
-impact: minor
+impact: major
 systems:
     - br0l2tvcx85d
     - h2ftsgbw7kmk
@@ -11,4 +11,7 @@ timeline:
       investigating: true
     - ts: "2025-10-29 16:19:19"
       description: Codespaces is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-10-29 16:31:58"
+      description: Actions impact is primarily limited to larger runner jobs at this time. This also impacts enterprise migrations.
       investigating: true

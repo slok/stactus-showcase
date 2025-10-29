@@ -1,0 +1,15 @@
+version: incident/v1
+id: 2zxkv8mjsld6
+name: Some Metric Series May Be Incorrectly Processed
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-10-29 16:25:59"
+      description: |-
+        We identified an issue affecting a limited number of Tempo users in this week's release. When targetInfo is enabled and traces contain resource.job and/or resource.instance attributes, some metric series may not have been processed correctly due to label duplication.
+
+        The issue does not impact all environments or tenants. A fix is being rolled out to affected environments, and no action is required from users.
+
+        Below is a list of all impacted regions.
+
+        prod-ap-south-1, prod-ap-southeast-0, prod-au-southeast-0, prod-eu-west-2, prod-eu-west-3, prod-eu-north-0, prod-gb-south-0,prod-gb-south-1,prod-us-east-1
