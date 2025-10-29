@@ -1,0 +1,14 @@
+version: incident/v1
+id: lhklsk73nh1c
+name: Delayed Cluster Management Operations
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-10-29 02:30:07"
+      description: We have identified an issue that is causing delays in Atlas cluster management operations. Cluster health is unaffected. A fix has been deployed and we expect improvement shortly.
+    - ts: "2025-10-29 02:34:50"
+      description: The fix has been deployed and Atlas cluster management operations are no longer delayed.
+    - ts: "2025-10-29 02:38:23"
+      description: This incident has been resolved.
+      resolved: true
