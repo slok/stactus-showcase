@@ -1,0 +1,15 @@
+version: incident/v1
+id: r2prsj51bjsr
+name: Cloudflare create IP access rules issue
+impact: minor
+systems:
+    - d1r0plwsl5qb
+timeline:
+    - ts: "2025-10-29 01:11:44"
+      description: |-
+        Cloudflare is observing issues creating IP access rules. Customers trying to create IP access rules via the dashboard or API may see an error.
+
+        This does not affect already existing rules, nor connectivity, security or CDN functionality.
+
+        We are currently working on a resolution. More updates to follow shortly.
+      investigating: true
