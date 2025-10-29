@@ -1,0 +1,14 @@
+version: incident/v1
+id: fl1t394ymlyp
+name: 'Cloudflare Zero Trust: High latency for zero trust users connected to our Copenhagen PoP'
+impact: minor
+systems:
+    - gt279m9y3f8q
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2025-10-29 13:35:52"
+      description: |-
+        Cloudflare is currently investigating elevated latency impacting Zero Trust users connected to our Copenhagen PoP (CPH01). Other services connected through this PoP may also be experiencing degraded performance.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
