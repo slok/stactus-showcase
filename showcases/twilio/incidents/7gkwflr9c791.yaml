@@ -1,0 +1,13 @@
+version: incident/v1
+id: 7gkwflr9c791
+name: Flex Insights Historical Reporting Platform Outage
+impact: minor
+systems:
+    - lv1md8v28lhr
+timeline:
+    - ts: "2025-10-29 19:15:59"
+      description: We are currently investigating an issue with Flex Insights. We will provide another update in 1 hour or as soon as more information is available.
+      investigating: true
+    - ts: "2025-10-29 19:19:54"
+      description: 'We are currently experiencing an outage with our Flex Insights Historical Reporting platform due to an issue with our BI vendor, GoodData. As a result, the GoodData UI is inaccessible and historical data is unavailable across impacted workspaces. At this time, 71 customers are affected, and the number may continue to increase. We are actively working with our vendor to resolve the issue as quickly as possible. For updates from GoodData, please refer to their service announcement: https://support.gooddata.com/hc/en-us/articles/46047383844243-Wed-Oct-29th-2025-Unexpected-GoodData-Platform-Issue. We apologize for the disruption and will provide further updates in 1 hour or as they become available'
+      investigating: true

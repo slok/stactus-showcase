@@ -9,3 +9,5 @@ timeline:
       description: Due to an issue with an upstream provider, some Trelica users are experiencing errors. Various pages will fail to load or load with errors. Files will not be able to be uploaded or downloaded, and images may not load. Some integrations may fail. Workflows will not run; admins will need to manually complete administrative tasks during the incident. Workflow runs will reprocess once the service is restored.
     - ts: "2025-10-29 18:40:59"
       description: The upstream provider identified the issue and initiated the deployment to mitigate. We will provide more updates as they become available.
+    - ts: "2025-10-29 19:11:15"
+      description: The upstream provider is deploying the mitigation. We will provide more updates as they become available.
