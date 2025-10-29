@@ -18,3 +18,6 @@ timeline:
     - ts: "2025-10-29 17:11:11"
       description: We are seeing ongoing connection failures across Codespaces and Actions, including Enterprise Migrations. <br /><br />Linux ARM64 standard hosted runners are failing to start, but Ubuntu latest and Windows latest are not affected at this time. <br /><br />SSH connections to Codespaces may be successful, but connections via VS Code are consistently failing. <br /><br />GitHub and Azure teams are coordinating to mitigate impact and resolve the root issues.
       investigating: true
+    - ts: "2025-10-29 17:26:38"
+      description: Additional impact from this incident:<br /><br />We’re currently investigating an issue causing the Copilot Metrics API report URLs to fail for 28-day and 1-day enterprise and user reports. We are collaborating with Azure teams to restore access as soon as possible.
+      investigating: true
