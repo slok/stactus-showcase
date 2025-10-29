@@ -39,3 +39,12 @@ timeline:
     - ts: "2025-10-29 20:34:32"
       description: We are beginning to see small signs of recovery, but connections are still inconsistent across services and regions. We expect to see gradual recovery from here.
       investigating: true
+    - ts: "2025-10-29 20:56:16"
+      description: Codespaces is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-10-29 21:01:49"
+      description: 'Actions has fully recovered.<br /><br />Codespaces continues to recover. Regions across Europe and Asia are healthy, so US users may want to choose one of those regions following these instructions: https://docs.github.com/en/codespaces/setting-your-user-preferences/setting-your-default-region-for-github-codespaces.<br /><br />We expect full recovery across the board before long.'
+      investigating: true
+    - ts: "2025-10-29 21:02:07"
+      description: Actions is operating normally.
+      investigating: true
