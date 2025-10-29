@@ -1,0 +1,10 @@
+version: incident/v1
+id: clw9z7s1xx87
+name: SMS Delivery Failures to Airtel in Nigeria
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-10-29 09:16:32"
+      description: We are experiencing SMS delivery failures sending to Airtel in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
