@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8cbnxss3mfln
+name: SMS Delivery Delays to Google Voice in United States of America via Subset of Shortcodes
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2025-10-29 22:01:40"
+      description: We are experiencing SMS delivery delays when sending messages to Google Voice in United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
