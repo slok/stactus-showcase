@@ -1,0 +1,9 @@
+version: incident/v1
+id: r03m7cgzxdxg
+name: Partial outage while accessing statuspage
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-29 10:37:17"
+      description: On October 29th, between 9:50 UTC and 10:04 UTC, some Statuspage customers using custom domains may have experienced downtime. Once we identified the root cause of the issue, we took swift action to resolve it. We have verified that the service is now fully restored and operational. Our team is closely monitoring the situation to ensure continued stability. We will conduct an internal review of this incident and implement necessary improvements to our systems to prevent or reduce the likelihood of similar occurrences in the future.
+      resolved: true
