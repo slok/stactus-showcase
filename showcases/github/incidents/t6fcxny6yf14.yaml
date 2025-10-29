@@ -17,5 +17,5 @@ timeline:
       description: We have deployed the fix and resolved the issue.
       investigating: true
     - ts: "2025-10-27 17:51:51"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between October 23, 2025 19:27:29 UTC and October 27, 2025 17:42:42 UTC, users experienced timeouts when viewing repository landing pages. We observed the timeouts for approximately 5,000 users across less than 1,000 repositories including forked repositories. The impact was limited to logged in users accessing repositories in organizations with more than 200,000 members. Forks of repositories from affected large organizations were also impacted. Git operations were functional throughout this period.<br /><br />This was caused by feature flagged changes impacting organization membership. The changes caused unintended timeouts for organization membership count evaluations which led to repository landing pages not loading.<br /><br />The flag was turned off and a fix addressing the timeouts was deployed, including additional optimizations to better support organizations of this size. We are reviewing related areas and will continue to monitor for similar performance regressions.
       resolved: true
