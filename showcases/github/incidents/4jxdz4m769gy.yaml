@@ -1,0 +1,14 @@
+version: incident/v1
+id: 4jxdz4m769gy
+name: Experiencing connection issues across Actions, Codespaces, and possibly other services
+impact: minor
+systems:
+    - br0l2tvcx85d
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2025-10-29 16:17:10"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2025-10-29 16:19:19"
+      description: Codespaces is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
