@@ -1,0 +1,10 @@
+version: incident/v1
+id: 31tp07l5wy9z
+name: Issue with port-in requests
+impact: minor
+systems:
+    - pv5w18vrltfl
+timeline:
+    - ts: "2025-10-29 20:03:32"
+      description: We are aware of an issue where customers are incorrectly receiving error messages or getting rejected when submitting port-in requests. Teams are working to resolve the issue.
+      investigating: true
