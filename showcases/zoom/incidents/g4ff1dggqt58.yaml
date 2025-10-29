@@ -1,6 +1,6 @@
 version: incident/v1
 id: g4ff1dggqt58
-name: A subset of users may experience issues with Sign in and Zoom Meetings in Europe region.
+name: A subset of users may experience issues with Sign in, Join using 3rd party Integrations and Zoom Meetings in Europe region.
 impact: minor
 systems:
     - 3z7b6jks10hm
@@ -16,5 +16,10 @@ timeline:
       description: We are continuing to investigate this issue. We've also noticed that the subset of users might not be able to join Zoom Meetings using 3rd party integration.
       investigating: true
     - ts: "2025-10-29 12:27:01"
-      description: We are continuing to investigate this issue. We've also noticed that the subset of users might not be able use Zoom AIC services.
+      description: We continue to investigate the impact and root cause. Zoom will provide updates as soon as there is more information to share.
       investigating: true
+    - ts: "2025-10-29 12:30:49"
+      description: We continue to investigate the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
+    - ts: "2025-10-29 12:49:12"
+      description: We have resolved the incident where a subset of users experienced issues with Sign in, Join using 3rd party Integrations and Zoom Meetings in Europe region particularly detected on Amsterdam and Frankfurt. We will continue to monitor & provide updates as soon as there is more information to share.

@@ -1,0 +1,15 @@
+version: incident/v1
+id: t7gw37jtd7sm
+name: Issues with DNS API
+impact: minor
+systems:
+    - 57ctn3f2qsyj
+    - g4tb35rs9yw7
+    - 7j656z7tqk7f
+timeline:
+    - ts: "2025-10-29 12:47:47"
+      description: |-
+        Cloudflare identified and resolved issues with our DNS API service. Customers may have experienced degraded functionality. DNS traffic was unaffected.
+
+        Timeline of impact: 10:30 UTC - 12:30 UTC
+      resolved: true
