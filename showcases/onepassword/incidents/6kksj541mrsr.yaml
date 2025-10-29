@@ -1,0 +1,9 @@
+version: incident/v1
+id: 6kksj541mrsr
+name: Some Trelica users experiencing issues
+impact: minor
+systems:
+    - jclfgrsyfl37
+timeline:
+    - ts: "2025-10-29 18:20:52"
+      description: Due to an issue with an upstream provider, some Trelica users are experiencing errors. Various pages will fail to load or load with errors. Files will not be able to be uploaded or downloaded, and images may not load. Some integrations may fail. Workflows will not run; admins will need to manually complete administrative tasks during the incident. Workflow runs will reprocess once the service is restored.
