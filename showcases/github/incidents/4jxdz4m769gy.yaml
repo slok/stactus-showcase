@@ -15,3 +15,6 @@ timeline:
     - ts: "2025-10-29 16:31:58"
       description: Actions impact is primarily limited to larger runner jobs at this time. This also impacts enterprise migrations.
       investigating: true
+    - ts: "2025-10-29 17:11:11"
+      description: We are seeing ongoing connection failures across Codespaces and Actions, including Enterprise Migrations. <br /><br />Linux ARM64 standard hosted runners are failing to start, but Ubuntu latest and Windows latest are not affected at this time. <br /><br />SSH connections to Codespaces may be successful, but connections via VS Code are consistently failing. <br /><br />GitHub and Azure teams are coordinating to mitigate impact and resolve the root issues.
+      investigating: true
