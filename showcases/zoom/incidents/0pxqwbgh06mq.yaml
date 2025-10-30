@@ -1,0 +1,12 @@
+version: incident/v1
+id: 0pxqwbgh06mq
+name: Issue with Zoom Webinars
+impact: none
+systems:
+    - q4msk5dl4bhm
+timeline:
+    - ts: "2025-10-30 01:23:30"
+      description: Between 2025-10-23 00:00 UTC to 2025-10-29 22:08:07 UTC a subset of users may have experienced issue joining main session from practice session while using Zoom webinars.  We have mitigated the issue.  We will continue to monitor and provide updates as we have them.
+    - ts: "2025-10-30 01:25:28"
+      description: This incident has been resolved.
+      resolved: true
