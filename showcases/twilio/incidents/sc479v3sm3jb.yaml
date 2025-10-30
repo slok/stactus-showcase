@@ -1,0 +1,10 @@
+version: incident/v1
+id: sc479v3sm3jb
+name: SMS Delivery Report Delays to Etisalat and du in United Arab Emirates Via Subset Of Registered Sender ID
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-10-30 09:16:44"
+      description: We are experiencing SMS delivery delays when sending messages to Etisalat and du in United Arab Emirates. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
