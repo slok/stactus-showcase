@@ -16,3 +16,26 @@ timeline:
     - ts: "2025-10-28 21:24:38"
       description: The incident has been resolved. We will share a detailed update shortly.
       resolved: true
+    - ts: "2025-10-30 03:49:49"
+      description: |-
+        ### Service Disruption Caused by ElastiCache Automated Certificate Rotation
+
+        #### Summary
+
+        Based on our initial analysis with AWS, this incident was caused by an automated certificate update for the ElastiCache middleware.
+
+        #### Timeline
+
+        At 02:58 AM on October 29 \(Beijing Time\), AWS initiated an automated certificate update for our ElastiCache instances. During this process, the primary and replica nodes of the ElastiCache cluster experienced issues, preventing backend services from accessing the component.
+
+        * Time of Impact: 02:59 - 03:22，03:42 - 03:48 \(Beijing Time\)
+        * Scope of Impact: Cloud Printing and MakerWorld
+
+        #### Next Steps & Action Items
+
+        We have raised two critical issues with AWS Support:
+
+        * The automated update occurred outside of our designated maintenance window.
+        * The instability of the primary-replica nodes during the update process.
+
+        AWS Support has escalated these issues to their internal engineering team for a detailed root cause analysis. We will provide further updates as soon as we receive more information from AWS.
