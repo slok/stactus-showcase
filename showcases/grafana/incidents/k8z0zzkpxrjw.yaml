@@ -14,3 +14,6 @@ timeline:
       description: We're still actively trying to mitigate the root cause. Symptoms are recurring from time to time.
     - ts: "2025-10-30 12:42:39"
       description: Elevated latency issue no longer happened since the last update, but we're still monitoring the situation. The write path is operational now for eu-west-3 region.
+    - ts: "2025-10-30 13:36:31"
+      description: We consider the incident as resolved now. With regards to the cause - a slow physical partition of the backend database, which is used by the control plane of a critical component caused increased latency and occasional overloading with subsequent failing of the write path. Once writes switched to a different partition, the latency dropped and error rate went down.
+      resolved: true
