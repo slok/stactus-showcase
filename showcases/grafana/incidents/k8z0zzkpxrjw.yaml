@@ -12,3 +12,5 @@ timeline:
       description: The issue has been identified and a fix is being implemented.
     - ts: "2025-10-30 11:58:20"
       description: We're still actively trying to mitigate the root cause. Symptoms are recurring from time to time.
+    - ts: "2025-10-30 12:42:39"
+      description: Elevated latency issue no longer happened since the last update, but we're still monitoring the situation. The write path is operational now for eu-west-3 region.
