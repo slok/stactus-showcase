@@ -1,0 +1,10 @@
+version: incident/v1
+id: k8z0zzkpxrjw
+name: Grafana Cloud Hosted Logs increased write latency in eu-west-3 region.
+impact: minor
+systems:
+    - hqf81r9207h6
+timeline:
+    - ts: "2025-10-30 09:30:05"
+      description: Since 9:15 UTC, Hosted Logs tenants in eu-west-3 region are experiencing an elevated latency in the write path. Our team is looking to identify and resolve the issue.
+      investigating: true
