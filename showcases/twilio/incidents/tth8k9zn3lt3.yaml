@@ -1,9 +1,10 @@
 version: incident/v1
 id: tth8k9zn3lt3
-name: SMS Delivery Delays to Verizon Wireless via Shortcodes
+name: SMS Delivery Report Delays to Verizon Wireless Network in the US for a Subset of Short Code and Toll Free number
 impact: minor
 systems:
     - 39mb8cmw8y2v
+    - 32f2bm54nkvv
 timeline:
     - ts: "2025-10-30 22:05:05"
       description: We are experiencing SMS delivery delays when sending messages to Verizon Wireless via Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
@@ -11,3 +12,8 @@ timeline:
     - ts: "2025-10-30 22:55:37"
       description: We are still experiencing SMS delivery delays when sending messages to Verizon Wireless via Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-10-30 23:27:57"
+      description: We have identified that this incident is impacting Delivery Reports to Verizon Wireless Network in the US for a Subset Short Codes but also Toll Free numbers, we can confirm that Message delivery is not impacted, just delivery reports. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-10-30 23:32:30"
+      description: We have identified that this incident is impacting Delivery Reports to Verizon Wireless Network in the US for a Subset Short Codes but also Toll Free numbers, we can confirm that Message delivery is not impacted, just delivery reports. Our engineers are working with our carrier partner to verify improvements and followup with providers. We will provide another update in 2 hours or as soon as more information becomes available.
