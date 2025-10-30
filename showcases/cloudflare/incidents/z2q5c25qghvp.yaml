@@ -1,0 +1,9 @@
+version: incident/v1
+id: z2q5c25qghvp
+name: Workers Tracing has been temporarily disabled
+impact: minor
+systems:
+    - pqt7t1dwt0dz
+timeline:
+    - ts: "2025-10-30 17:55:14"
+      description: Workers Tracing (beta) has been temporarily disabled for maintenance and will be re-enabled as soon as possible. This will also impact exporting OTel Workers Logs and Traces. This does not impact Workers Logpush.
