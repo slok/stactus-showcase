@@ -1,0 +1,15 @@
+version: incident/v1
+id: tfx0p0s16663
+name: Cloudflare Email Routing Issues
+impact: minor
+systems:
+    - gjb0yzvvrpf6
+timeline:
+    - ts: "2025-10-30 00:54:40"
+      description: |-
+        Cloudflare is investigating issues with Email Routing product. Some emails might be fail due to DMARC.
+
+        Impact is restricted to email forwarding functionality, and it does not affect any connectivity, security, CDN or Area1 functionality.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
