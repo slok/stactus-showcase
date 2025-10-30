@@ -13,3 +13,6 @@ timeline:
       description: The upstream provider is deploying the mitigation. We will provide more updates as they become available.
     - ts: "2025-10-29 19:47:18"
       description: The upstream provider deployed the mitigation and we also implemented mitigation steps. Admins should see workflows run again and file uploads/downloads should work as expected. Images still may not appear. We are monitoring for any issues. Our upstream provider expects full resolution in the next four hours. We will provide more updates as they become available.
+    - ts: "2025-10-30 14:11:06"
+      description: The upstream provider has reported full service recovery and Trelica is fully operational. This incident has been resolved.
+      resolved: true
