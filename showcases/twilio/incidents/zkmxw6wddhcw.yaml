@@ -1,6 +1,6 @@
 version: incident/v1
 id: zkmxw6wddhcw
-name: SMS Delivery Delays to Mexico-Altan-334-140
+name: SMS Delivery Delays to Mexico
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-10-30 22:09:11"
       description: We are still experiencing SMS delivery delays when sending messages to Mexico-Altan-334-140. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-10-30 23:13:11"
+      description: We are no longer experiencing MMS/SMS delivery delays when sending messages to Mexico. This incident has been resolved.
+      resolved: true
