@@ -1,10 +1,12 @@
 version: incident/v1
 id: txk6rt08npx8
-name: A subset of users may experience issues with Team chat and Email compose in Europe and India Region
+name: A subset of users may have experienced issues with Team chat and Email compose in Europe region
 impact: minor
 systems:
     - 07fc2bfpjgct
 timeline:
     - ts: "2025-10-30 10:58:05"
-      description: We have detected service degradation where a subset of users may experience issues with Team chat and Email compose in Europe and India Region. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      description: We have detected service degradation where a subset of users may experience issues with Team chat and Email compose in Europe region. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
       investigating: true
+    - ts: "2025-10-30 11:13:13"
+      description: We have fixed the issue where a subset of users experienced issues with Team chat and Email compose in Europe region. We will continue to monitor & provide updates as soon as there is more information to share.
