@@ -1,0 +1,9 @@
+version: incident/v1
+id: qjwj2yvjzfh0
+name: Messages not Retrievable via the Messaging Logs API or Visible in the Messaging Console
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-31 11:21:31"
+      description: Some messages created between 05:30 and 05:40 UTC on Oct 28 may not be retrievable via the Messaging Logs API or visible in the Messaging Console. Message delivery was not affected. This incident has been resolved
+      resolved: true
