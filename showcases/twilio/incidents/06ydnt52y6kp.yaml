@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2025-10-31 20:44:31"
       description: We are observing successful SMS delivery from multiple networks in Switzerland towards Twilio numbers.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-10-31 22:45:10"
+      description: We are no longer experiencing SMS delivery failures from multiple networks in Switzerland towards Twilio numbers.. This incident has been resolved.
+      resolved: true
