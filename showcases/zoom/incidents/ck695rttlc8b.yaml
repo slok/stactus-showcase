@@ -1,0 +1,10 @@
+version: incident/v1
+id: ck695rttlc8b
+name: A subset of users may experience issues with Inbound and Outbound calls in China region.
+impact: minor
+systems:
+    - ck8c8cm0yhrd
+timeline:
+    - ts: "2025-10-31 05:10:59"
+      description: We have detected service degradation where a subset of users may experience issues with Inbound and Outbound calls. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
