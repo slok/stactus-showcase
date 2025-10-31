@@ -1,0 +1,9 @@
+version: incident/v1
+id: ksgpvhp8qln7
+name: Temporary Trace Ingestion Errors
+impact: none
+systems: []
+timeline:
+    - ts: "2025-10-31 21:21:39"
+      description: From approximately 16:30-8:15 UTC, a configuration change inadvertently removed a required headless service for hosted traces in one of our production regions. This caused elevated error rates and increased service-level objective (SLO) burn for the trace ingestion pathway. The underlying issue was a mismatch in internal configuration references following a prior migration. Re-enabling the headless service restored normal operation.
+      resolved: true
