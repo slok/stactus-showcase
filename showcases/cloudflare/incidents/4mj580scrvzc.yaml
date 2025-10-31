@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4mj580scrvzc
+name: Increaed Pages Deployment Failure Rate
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2025-10-31 21:52:14"
+      description: Cloudflare is aware of and investigating an increase of failures in Cloudflare Pages builds while deploying. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
