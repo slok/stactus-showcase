@@ -1,0 +1,11 @@
+version: incident/v1
+id: 1h2203b2ddh1
+name: Grafana Cloud Loki Parallel Read path Issue in prod-ap-southeast-1
+impact: minor
+systems:
+    - dy7xwydh5kv3
+timeline:
+    - ts: "2025-10-31 10:05:10"
+      description: Parallel queriers were down from ~8:05 UTC to 9:05 UTC. Alerts and recording rules would have potentially failed to evaluate during this timeframe.
+    - ts: "2025-10-31 10:06:48"
+      description: We are continuing to work on a fix for this issue.
