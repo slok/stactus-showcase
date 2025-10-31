@@ -3,8 +3,14 @@ id: 7rfb1w8n2t9k
 name: Tempo - Metrics Generator Outage
 impact: major
 systems:
+    - 98skfgrdgchf
     - 81f9yfcnyxsg
     - vy7fxf1zsfkl
 timeline:
     - ts: "2025-10-31 14:31:14"
       description: "We’re investigating an issue in Tempo prod-us-east-0 and prod-us-west-0 that began around 19:00 UTC on Oct 30, causing a total outage for metrics generation. \L\L\n\nThis affects Tempo metrics generation, but Tempo query and ingestion remain fully operational.\n\nEngineering is actively engaged and assessing the issue. We will provide updates accordingly."
+    - ts: "2025-10-31 15:04:12"
+      description: "We’ve identified that Loki clusters in prod-us-central-5 were also affected by the same underlying issue impacting Tempo in prod-us-east-0. \n\nQuerying and ingestion remained fully operational throughout. The issue has been mitigated and services are stabilizing."
+    - ts: "2025-10-31 15:04:52"
+      description: "The issue affecting Tempo (prod-us-east-0 & prod-us-west-0) and Loki (prod-us-central-5) has been fully resolved. \n\nMetrics generation is now operating normally across all regions, and we continue to monitor for stability."
+      resolved: true
