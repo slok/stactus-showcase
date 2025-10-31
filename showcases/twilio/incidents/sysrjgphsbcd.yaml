@@ -1,8 +1,11 @@
 version: incident/v1
 id: sysrjgphsbcd
-name: Our Engineers are Investigating an Issue with our ConversationRelay product
+name: Intermittent Silence on Calls Due to ConversationRelay WebSocket Issue
 impact: none
 systems: []
 timeline:
     - ts: "2025-10-31 16:42:44"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with our ConversationRelay product. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-10-31 18:23:57"
+      description: Twilio ConversationRelay was degraded for 32 hours and 13 minutes between 2:49 PM on 10/28/2025 and 11:02 AM Pacific Time on 10/30/2025. During this period, customers may have experienced silence on calls when audio data sent via the websocket server was not converted to speech as expected after the caller barged in and interrupted. The issue has now been resolved.
+      resolved: true
