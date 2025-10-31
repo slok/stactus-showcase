@@ -16,3 +16,5 @@ timeline:
         Cloudflare single-file cache purging called via the API is running behind in a subset of colos. As a result some customers may be observing stale content for requests to those facilities.
 
         We are working to eliminate this issue. Until it is resolved, use the Purge All feature, which may cause a surge in traffic to your origin server.
+    - ts: "2025-10-31 19:16:34"
+      description: A fix has been implemented and we are currently monitoring the results.
