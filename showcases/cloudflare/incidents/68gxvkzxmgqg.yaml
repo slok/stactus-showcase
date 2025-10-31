@@ -1,0 +1,18 @@
+version: incident/v1
+id: 68gxvkzxmgqg
+name: CDN Single-File Cache Purge Delays In Some Colos
+impact: minor
+systems:
+    - vhpdc0y3qty9
+    - bbx7ndl66dmp
+    - fbvx0hxhhdj0
+    - qshn45g5q59m
+    - hr78s04g1r5b
+    - 3cg9wbk5hzg4
+    - 5dhjdhgdqjzd
+timeline:
+    - ts: "2025-10-31 18:51:25"
+      description: |-
+        Cloudflare single-file cache purging called via the API is running behind in a subset of colos. As a result some customers may be observing stale content for requests to those facilities.
+
+        We are working to eliminate this issue. Until it is resolved, use the Purge All feature, which may cause a surge in traffic to your origin server.
