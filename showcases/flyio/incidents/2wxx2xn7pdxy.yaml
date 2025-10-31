@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2wxx2xn7pdxy
+name: Global network issues
+impact: minor
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2025-10-31 06:14:37"
+      description: We are investigating network issues between various regions. Machines may experience increased latency or packet loss. Machines API requests may occasionally fail.
+      investigating: true
