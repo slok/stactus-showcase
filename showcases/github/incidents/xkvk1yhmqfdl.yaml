@@ -11,3 +11,6 @@ timeline:
     - ts: "2025-11-01 05:05:17"
       description: We are investigating issues manually dispatching workflows via the GitHub UI for Actions. The Workflow Dispatch API is unaffected.
       investigating: true
+    - ts: "2025-11-01 05:35:46"
+      description: We have identified the cause of the issue and are working towards a mitigation
+      investigating: true
