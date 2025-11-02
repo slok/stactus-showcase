@@ -1,0 +1,13 @@
+version: incident/v1
+id: fm3jtn0338jw
+name: SMS Delivery Delays To Orange Network in Cameroon
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-11-02 21:41:45"
+      description: Our monitoring systems have detected a potential issue with SMS delivery delays. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-02 21:48:32"
+      description: We are experiencing SMS delivery delays when sending messages to Orange Network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
