@@ -1,0 +1,13 @@
+version: incident/v1
+id: 13hl91h2glck
+name: SMS Delivery Delays To Multiple Networks in New Zealand via Subset of Shortcodes
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-11-02 20:35:19"
+      description: Our monitoring systems have detected a potential issue with SMS delivery delays. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-02 20:40:08"
+      description: We are experiencing SMS delivery delays when sending messages to Multiple Networks in New Zealand via Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
