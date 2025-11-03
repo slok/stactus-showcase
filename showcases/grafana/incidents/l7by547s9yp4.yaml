@@ -1,0 +1,12 @@
+version: incident/v1
+id: l7by547s9yp4
+name: Loki-Managed Rules Failed For Some Tenants
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-11-03 15:04:24"
+      description: |-
+        From Oct 31st 17:40 UTC to Nov 3rd 14:50 UTC:
+
+        Due to some internal auth issues, the components evaluating loki-managed rules failed to push the evaluated recording and alert rules to the metrics endpoint for some tenants.
+      resolved: true
