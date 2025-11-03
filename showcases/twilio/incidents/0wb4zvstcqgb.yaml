@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-11-03 16:26:32"
       description: We are investigating a service interruption with Audit Events not being generated in ie1. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-11-03 17:01:41"
+      description: Our engineers have monitored the fix and confirmed the issue with Audit Events not being generated in ie1 has been resolved. All services are now operating normally at this time.
+      resolved: true
