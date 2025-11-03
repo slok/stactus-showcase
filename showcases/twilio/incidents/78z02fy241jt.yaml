@@ -1,0 +1,12 @@
+version: incident/v1
+id: 78z02fy241jt
+name: Issue With Twilio User and Account Automatic Closures
+impact: minor
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2025-11-03 03:44:35"
+      description: |-
+        Our Account Portal is experiencing a partial outage related with reset 2FA causing user and account closures from the Console.
+        We are working to restore functionality as soon as possible. We expect to provide another update in 60 minutes or as soon as more information becomes available.
+      investigating: true
