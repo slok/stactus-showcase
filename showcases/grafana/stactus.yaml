@@ -452,8 +452,6 @@ systems:
       name: 'Grafana Cloud: Maintenance / GCP Australia - prod-au-southeast-0'
     - id: fkc5ms404dsj
       name: 'Grafana Cloud: Pyroscope / GCP Belgium - prod-eu-west-0'
-    - id: d6hp5brmvsbt
-      name: 'Grafana Cloud: Loki / GCP Australia - prod-au-southeast-0'
     - id: sq2b0zbgtbwn
       name: 'Grafana Cloud: Synthetic Monitoring / AWS Singapore - prod-ap-southeast-1: Public Probes'
     - id: cxvhcw6k5b06
@@ -474,12 +472,13 @@ systems:
       name: 'Grafana Cloud: Prometheus Rules and Alerts / AWS UAE - prod-me-central-1: Alertmanager and Rules Configuration API'
     - id: k4kths6bgl74
       name: 'Grafana Cloud: Grafana Secrets Manager / Azure Netherlands - prod-eu-west-3'
+    - id: 2gj2jt684k11
+      name: 'Grafana Cloud: Loki / Azure US Central - us-central7'
+      description: Loki - prod-us-central-7
     - id: fs80tlfpb7kx
       name: 'Grafana Cloud: Hosted Grafana / Azure US Central - us-central2'
     - id: 633klcz6jwvq
       name: 'Grafana Cloud: Machine Learning / GCP Belgium - prod-eu-west-0'
-    - id: rwvs9fvrnhp2
-      name: 'Grafana Cloud: Loki / GCP Belgium - prod-eu-west-0'
     - id: cbkdz104flmq
       name: 'Grafana Cloud: OTLP Endpoint / GCP Belgium - prod-eu-west-0'
     - id: bvv5k4c03df1
@@ -490,6 +489,8 @@ systems:
       name: 'Grafana Cloud: Graphite / AWS Singapore - prod-ap-southeast-1: Querying'
     - id: g9ynk4pl34ms
       name: 'Grafana Cloud: Prometheus / AWS Singapore - prod-ap-southeast-1: Querying'
+    - id: d6hp5brmvsbt
+      name: 'Grafana Cloud: Loki / GCP Australia - prod-au-southeast-0'
     - id: l03nvrpjfpvg
       name: 'Grafana Cloud: Synthetic Monitoring / AWS Sweden - prod-eu-north-0: API'
     - id: csppcd2xw8l1
@@ -508,6 +509,8 @@ systems:
       name: 'Grafana Cloud: Grafana Secrets Manager / Azure US Central - us-central2'
     - id: sc8qqdx6j1h5
       name: 'Grafana Cloud: Hosted Grafana / GCP Australia - prod-au-southeast-0'
+    - id: rwvs9fvrnhp2
+      name: 'Grafana Cloud: Loki / GCP Belgium - prod-eu-west-0'
     - id: wpmb9wzmb9d0
       name: 'Grafana Cloud: OTLP Endpoint / GCP Brazil - prod-sa-east-0'
     - id: zf813w3wr8rf
@@ -518,8 +521,6 @@ systems:
       name: 'Grafana Cloud: Graphite / AWS Singapore - prod-ap-southeast-1: Ingestion'
     - id: 0zbn3g1ngjfs
       name: 'Grafana Cloud: Prometheus / AWS Singapore - prod-ap-southeast-1: Ingestion'
-    - id: x40g7bxm0q2d
-      name: 'Grafana Cloud: Loki / GCP Brazil - prod-sa-east-0'
     - id: msrbmgj6vrtb
       name: 'Grafana Cloud: Machine Learning / GCP Brazil - prod-sa-east-0'
     - id: r5nqbrqbw0k2
@@ -550,8 +551,8 @@ systems:
       name: 'Grafana Cloud: Graphite / AWS Sweden - prod-eu-north-0: Querying'
     - id: 3mck8r7xncdn
       name: 'Grafana Cloud: Prometheus / AWS Sweden - prod-eu-north-0: Querying'
-    - id: v3g3j6krw8rp
-      name: 'Grafana Cloud: Loki / GCP India - prod-ap-south-0'
+    - id: x40g7bxm0q2d
+      name: 'Grafana Cloud: Loki / GCP Brazil - prod-sa-east-0'
     - id: rysp15vr8ck8
       name: 'Grafana Cloud: Machine Learning / GCP India - prod-ap-south-0'
     - id: nps7z0srxs25
@@ -570,8 +571,6 @@ systems:
       name: 'Grafana Cloud: Tempo / AWS Japan - prod-ap-northeast-0: Ingestion'
     - id: f91qvn8yjc46
       name: 'Grafana Cloud: Grafana Secrets Manager / GCP Australia - prod-au-southeast-0'
-    - id: gp2m13gyj6x2
-      name: 'Grafana Cloud: Loki / GCP Singapore - prod-ap-southeast-0'
     - id: kw9wxv34yw80
       name: 'Grafana Cloud: Hosted Grafana / GCP Brazil - prod-sa-east-0'
     - id: 4bj7nh0h2pbw
@@ -584,6 +583,8 @@ systems:
       name: 'Grafana Cloud: Graphite / AWS Sweden - prod-eu-north-0: Ingestion'
     - id: xsn3y4zb9fdb
       name: 'Grafana Cloud: Prometheus / AWS Sweden - prod-eu-north-0: Ingestion'
+    - id: v3g3j6krw8rp
+      name: 'Grafana Cloud: Loki / GCP India - prod-ap-south-0'
     - id: y5nt7pz0v42j
       name: 'Grafana Cloud: Machine Learning / GCP Singapore - prod-ap-southeast-0'
     - id: wlk38l1st21f
@@ -606,8 +607,8 @@ systems:
       name: 'Grafana Cloud: Graphite / AWS US East - prod-us-east-0: Querying'
     - id: 5270kl9kd6l2
       name: 'Grafana Cloud: Prometheus / AWS US East - prod-us-east-0: Querying'
-    - id: 662yyglvgqpm
-      name: 'Grafana Cloud: Loki / GCP UK - prod-gb-south-0'
+    - id: gp2m13gyj6x2
+      name: 'Grafana Cloud: Loki / GCP Singapore - prod-ap-southeast-0'
     - id: bh5f9ggjnj60
       name: 'Grafana Cloud: Hosted Grafana / GCP India - prod-ap-south-0'
     - id: r7ckxhw437s3
@@ -639,12 +640,12 @@ systems:
       name: 'Grafana Cloud: Grafana Secrets Manager / GCP Brazil - prod-sa-east-0'
     - id: 9g6rbrbpph64
       name: 'Grafana Cloud: Graphite / AWS US East - prod-us-east-0: Ingestion'
-    - id: l72f5c7651n5
-      name: 'Grafana Cloud: Loki / GCP US Central - prod-us-central-0'
     - id: kctg5mxt6xpp
       name: 'Grafana Cloud: Machine Learning / GCP US Central - prod-us-central-0'
     - id: zqsjp5p0d8n7
       name: 'Grafana Cloud: Prometheus / AWS US East - prod-us-east-0: Ingestion'
+    - id: 662yyglvgqpm
+      name: 'Grafana Cloud: Loki / GCP UK - prod-gb-south-0'
     - id: 54tht9mpb5sk
       name: 'Grafana Cloud: Hosted Grafana / GCP Singapore - prod-ap-southeast-0'
       description: ap-southeast-0
@@ -673,6 +674,8 @@ systems:
       name: 'Grafana Cloud: Grafana Secrets Manager / GCP India - prod-ap-south-0'
     - id: 09xsn36s7l6b
       name: 'Grafana Cloud: Graphite / AWS US West - prod-us-west-0: Querying'
+    - id: l72f5c7651n5
+      name: 'Grafana Cloud: Loki / GCP US Central - prod-us-central-0'
     - id: yt6pjkj14lvk
       name: 'Grafana Cloud: Hosted Grafana / GCP UK - prod-gb-south-0'
     - id: nh0s4zs7sl1r
@@ -689,8 +692,6 @@ systems:
       name: Grafana Incident
     - id: ldbq9842dl0v
       name: 'Grafana Cloud: Tempo / AWS Singapore - prod-ap-southeast-1: Metrics Generator'
-    - id: 98skfgrdgchf
-      name: 'Grafana Cloud: Loki / GCP US Central - prod-us-central-5'
     - id: rg5xdkxx8r7d
       name: 'Grafana Cloud: Private Datasource Connect (PDC) / GCP Saudi Arabia - prod-me-central-0'
     - id: dgjcx39p16sl
@@ -715,11 +716,10 @@ systems:
       name: 'Grafana Cloud: Adaptive Metrics / GCP US Central - prod-us-central-0'
     - id: h3wg1km0qxwv
       name: Grafana OnCall
+    - id: 98skfgrdgchf
+      name: 'Grafana Cloud: Loki / GCP US Central - prod-us-central-5'
     - id: 6kqxbchc8zfp
       name: 'Grafana Cloud: Grafana Secrets Manager / GCP UK - prod-gb-south-0'
-    - id: 2gj2jt684k11
-      name: 'Grafana Cloud: Loki / Azure US Central - us-central7'
-      description: Loki - prod-us-central-7
     - id: m7cr9xxllhpn
       name: 'Grafana Cloud: Hosted Grafana / GCP US Central - prod-us-central-3'
     - id: z68s4dz0tpl3
@@ -801,8 +801,6 @@ systems:
       name: 'Grafana Cloud: Migration Assistant'
     - id: m02kyqdzhzyn
       name: 'Grafana Cloud: Grafana Secrets Manager / GCP US East - prod-us-east-1'
-    - id: y4w38klthkcm
-      name: 'Grafana Cloud: Prometheus / GCP Australia - prod-au-southeast-0: Querying'
     - id: hzw0yd89s9ny
       name: 'Grafana Cloud: Prometheus Rules and Alerts / AWS US East - prod-us-east-0: Alertmanager and Rules Configuration API'
     - id: ntldn9r043ch
@@ -816,8 +814,10 @@ systems:
       description: Grafana Cloud ingestion pipeline for metrics emitted from AWS Firehose
     - id: 2rqj5jg9syft
       name: 'Grafana Cloud: Grafana Secrets Manager / play.grafana.org'
-    - id: vc52wtjdh6db
-      name: 'Grafana Cloud: Prometheus / GCP Australia - prod-au-southeast-0: Ingestion'
+    - id: gxyxxd4nr755
+      name: 'Grafana Cloud: Prometheus / Azure US Central - us-central7: Ingestion'
+    - id: y4w38klthkcm
+      name: 'Grafana Cloud: Prometheus / GCP Australia - prod-au-southeast-0: Querying'
     - id: fgtp31zqpw8v
       name: 'Grafana Cloud: Prometheus Rules and Alerts / AWS US East - prod-us-east-0: Alertmanager'
     - id: b6vy9syblc9x
@@ -828,8 +828,8 @@ systems:
       name: 'Grafana Cloud: Tempo / AWS US West - prod-us-west-0: Querying'
     - id: d61y3kyh24jg
       name: 'Grafana Cloud: Graphite / GCP Belgium - prod-eu-west-0: Querying'
-    - id: 9rtx96d2z01z
-      name: 'Grafana Cloud: Prometheus / GCP Belgium - prod-eu-west-0: Querying'
+    - id: vc52wtjdh6db
+      name: 'Grafana Cloud: Prometheus / GCP Australia - prod-au-southeast-0: Ingestion'
     - id: vf9qsr3pmhjf
       name: 'Grafana Cloud: Synthetic Monitoring / GCP Belgium - prod-eu-west-0: API'
     - id: 2cc4g3q2g0xn
@@ -838,18 +838,18 @@ systems:
       name: 'Grafana Cloud: Tempo / AWS US West - prod-us-west-0: Ingestion'
     - id: ygtk4b5jc7sp
       name: 'Grafana Cloud: Graphite / GCP Belgium - prod-eu-west-0: Ingestion'
-    - id: d2vdtkjjdzjy
-      name: 'Grafana Cloud: Prometheus / GCP Belgium - prod-eu-west-0: Ingestion'
+    - id: 9rtx96d2z01z
+      name: 'Grafana Cloud: Prometheus / GCP Belgium - prod-eu-west-0: Querying'
     - id: dpny9b8qb952
       name: 'Grafana Cloud: Synthetic Monitoring / GCP Belgium - prod-eu-west-0: Public Probes'
     - id: 2fvfdmcnplg5
       name: 'Grafana Cloud: Prometheus Rules and Alerts / AWS US West - prod-us-west-0: Alertmanager and Rules Configuration API'
     - id: vy7fxf1zsfkl
       name: 'Grafana Cloud: Tempo / AWS US West - prod-us-west-0: Metrics Generator'
+    - id: d2vdtkjjdzjy
+      name: 'Grafana Cloud: Prometheus / GCP Belgium - prod-eu-west-0: Ingestion'
     - id: 7jvxmktxvx89
       name: 'Grafana Cloud: Graphite / GCP Brazil - prod-sa-east-0: Querying'
-    - id: 1c0xjffzwghy
-      name: 'Grafana Cloud: Prometheus / GCP Brazil - prod-sa-east-0: Querying'
     - id: 57jn84fvz98t
       name: 'Grafana Cloud: Prometheus Rules and Alerts / AWS US West - prod-us-west-0: Alertmanager'
     - id: 2ryg39v5zpqj
@@ -860,16 +860,16 @@ systems:
       name: 'Grafana Cloud: Prometheus Rules and Alerts / Azure Netherlands - prod-eu-west-3: Rule Evaluation'
     - id: p45wx6nl2ktq
       name: 'Grafana Cloud: Graphite / GCP Brazil - prod-sa-east-0: Ingestion'
-    - id: ly7gqcr2bm3m
-      name: 'Grafana Cloud: Prometheus / GCP Brazil - prod-sa-east-0: Ingestion'
+    - id: 1c0xjffzwghy
+      name: 'Grafana Cloud: Prometheus / GCP Brazil - prod-sa-east-0: Querying'
     - id: fqw5kyd5qknh
       name: 'Grafana Cloud: Tempo / Azure Germany - prod-eu-west-1: Ingestion'
     - id: czpt94dvn18t
       name: 'Grafana Cloud: Synthetic Monitoring / GCP Brazil - prod-sa-east-0: Public Probes'
     - id: 91j1qcf99b07
       name: 'Grafana Cloud: Graphite / GCP India - prod-ap-south-0: Querying'
-    - id: lr4wf5bv4lk1
-      name: 'Grafana Cloud: Prometheus / GCP India - prod-ap-south-0: Querying'
+    - id: ly7gqcr2bm3m
+      name: 'Grafana Cloud: Prometheus / GCP Brazil - prod-sa-east-0: Ingestion'
     - id: k6ywy2zqz7fn
       name: 'Grafana Cloud: Prometheus Rules and Alerts / Azure Netherlands - prod-eu-west-3: Alertmanager and Rules Configuration API'
     - id: 1bt7lpllyc97
@@ -880,8 +880,8 @@ systems:
       name: 'Grafana Cloud: Tempo / Azure Netherlands - prod-eu-west-3: Querying'
     - id: f3hgtfct7dz1
       name: 'Grafana Cloud: Graphite / GCP India - prod-ap-south-0: Ingestion'
-    - id: b74p2737fm3r
-      name: 'Grafana Cloud: Prometheus / GCP India - prod-ap-south-0: Ingestion'
+    - id: lr4wf5bv4lk1
+      name: 'Grafana Cloud: Prometheus / GCP India - prod-ap-south-0: Querying'
     - id: vcfc8qc5zj9n
       name: 'Grafana Cloud: Prometheus Rules and Alerts / Azure Netherlands - prod-eu-west-3: Alertmanager'
     - id: 191t9x68nj8s
@@ -892,32 +892,32 @@ systems:
       name: 'Grafana Cloud: Tempo / Azure Netherlands - prod-eu-west-3: Ingestion'
     - id: t0mtz3km32nw
       name: 'Grafana Cloud: Graphite / GCP Singapore - prod-ap-southeast-0: Querying'
-    - id: szkwf5rlkrxq
-      name: 'Grafana Cloud: Prometheus / GCP Singapore - prod-ap-southeast-0: Querying'
+    - id: b74p2737fm3r
+      name: 'Grafana Cloud: Prometheus / GCP India - prod-ap-south-0: Ingestion'
     - id: 4whxks101kq7
       name: 'Grafana Cloud: Synthetic Monitoring / GCP Singapore - prod-ap-southeast-0: API'
     - id: tpvdjr2xyb7x
       name: 'Grafana Cloud: Prometheus Rules and Alerts / Azure US Central - us-central2: Alertmanager and Rules Configuration API'
     - id: 758z5fjwjvqr
       name: 'Grafana Cloud: Graphite / GCP Singapore - prod-ap-southeast-0: Ingestion'
-    - id: 24jq47r3m6gj
-      name: 'Grafana Cloud: Prometheus / GCP Singapore - prod-ap-southeast-0: Ingestion'
+    - id: szkwf5rlkrxq
+      name: 'Grafana Cloud: Prometheus / GCP Singapore - prod-ap-southeast-0: Querying'
     - id: fh680ftdss7w
       name: 'Grafana Cloud: Synthetic Monitoring / GCP Singapore - prod-ap-southeast-0: Public Probes'
     - id: gcwgxxhzztdh
       name: 'Grafana Cloud: Tempo / Azure Netherlands - prod-eu-west-3: Metrics Generator'
-    - id: 5dvwqvtb0t84
-      name: 'Grafana Cloud: Prometheus / GCP UK - prod-gb-south-0: Querying'
     - id: y5ymzvw0c99f
       name: 'Grafana Cloud: Prometheus Rules and Alerts / Azure US Central - us-central2: Alertmanager'
     - id: tnh13jh75l79
       name: 'Grafana Cloud: Graphite / GCP UK - prod-gb-south-0: Querying'
+    - id: 24jq47r3m6gj
+      name: 'Grafana Cloud: Prometheus / GCP Singapore - prod-ap-southeast-0: Ingestion'
     - id: hrz0zytmsvzw
       name: 'Grafana Cloud: Tempo / Azure US Central - us-central2: Querying'
     - id: yzxm7vcyg1k4
       name: 'Grafana Cloud: Synthetic Monitoring / GCP UK - prod-gb-south-0: API'
-    - id: 993qpty6gv9f
-      name: 'Grafana Cloud: Prometheus / GCP UK - prod-gb-south-0: Ingestion'
+    - id: 5dvwqvtb0t84
+      name: 'Grafana Cloud: Prometheus / GCP UK - prod-gb-south-0: Querying'
     - id: c5r124rvv5yl
       name: 'Grafana Cloud: Graphite / GCP UK - prod-gb-south-0: Ingestion'
     - id: bkkn21bgy3c4
@@ -928,24 +928,26 @@ systems:
       name: 'Grafana Cloud: Synthetic Monitoring / GCP UK - prod-gb-south-0: Public Probes'
     - id: 3qmtgh968xn5
       name: 'Grafana Cloud: Graphite / GCP US Central - prod-us-central-0: Querying'
-    - id: jhc34sjt42wd
-      name: 'Grafana Cloud: Prometheus / GCP US Central - prod-us-central-0: Querying'
     - id: yx5996c1lfnj
       name: 'Grafana Cloud: Synthetic Monitoring / GCP US Central - prod-us-central-0: API'
+    - id: 993qpty6gv9f
+      name: 'Grafana Cloud: Prometheus / GCP UK - prod-gb-south-0: Ingestion'
     - id: 3q70xrw38s7y
       name: 'Grafana Cloud: Prometheus Rules and Alerts / GCP Australia - prod-au-southeast-0: Alertmanager and Rules Configuration API'
     - id: 3lqbsd6gbn1r
       name: 'Grafana Cloud: Tempo / Azure US Central - us-central2: Metrics Generator'
     - id: xgggnwlw23nq
       name: 'Grafana Cloud: Graphite / GCP US Central - prod-us-central-0: Ingestion'
-    - id: 1tt4gx4t4q87
-      name: 'Grafana Cloud: Prometheus / GCP US Central - prod-us-central-0: Ingestion'
+    - id: jhc34sjt42wd
+      name: 'Grafana Cloud: Prometheus / GCP US Central - prod-us-central-0: Querying'
     - id: 7p6gpdprypb9
       name: 'Grafana Cloud: Synthetic Monitoring / GCP US Central - prod-us-central-0: Public Probes'
     - id: qnthhwhwm4lt
       name: 'Grafana Cloud: Tempo / GCP Australia - prod-au-southeast-0: Querying'
     - id: p932bbpwynd4
       name: 'Grafana Cloud: Prometheus Rules and Alerts / GCP Australia - prod-au-southeast-0: Alertmanager'
+    - id: 1tt4gx4t4q87
+      name: 'Grafana Cloud: Prometheus / GCP US Central - prod-us-central-0: Ingestion'
     - id: lykc1jl88zz3
       name: 'Grafana Cloud: Prometheus Rules and Alerts / GCP Belgium - prod-eu-west-0: Rule Evaluation'
       description: Prometheus-based alerting engine responsible for evaluating alerting and recording rules. Alerting rules are then sent to the Alertmanager and recording rules are ingested to the metrics instance.
@@ -955,8 +957,6 @@ systems:
       name: 'Grafana Cloud: Synthetic Monitoring / AWS UAE - prod-me-central-1: API'
     - id: r18dwbrsg2g0
       name: 'Grafana Cloud: Graphite / GCP US Central - prod-us-central-5: Querying'
-    - id: cp7lzhn0jrgw
-      name: 'Grafana Cloud: Prometheus / GCP US Central - prod-us-central-5: Querying'
     - id: jw3c386xwr40
       name: 'Grafana Cloud: Prometheus Rules and Alerts / GCP Belgium - prod-eu-west-0: Alertmanager and Rules Configuration API'
       description: The API gateway that allows programmatic access to managing configuration of rules and Alertmanager configuration.
@@ -966,8 +966,8 @@ systems:
       name: 'Grafana Cloud: Synthetic Monitoring / AWS UAE - prod-me-central-1: Public Probes'
     - id: t1cd8qxl4b3t
       name: 'Grafana Cloud: Graphite / GCP US Central - prod-us-central-5: Ingestion'
-    - id: l778xg16mls4
-      name: 'Grafana Cloud: Prometheus / GCP US Central - prod-us-central-5: Ingestion'
+    - id: cp7lzhn0jrgw
+      name: 'Grafana Cloud: Prometheus / GCP US Central - prod-us-central-5: Querying'
     - id: tgt3hljzszy8
       name: 'Grafana Cloud: Prometheus Rules and Alerts / GCP Belgium - prod-eu-west-0: Alertmanager'
       description: Prometheus-based Alertmanager responsible for reception of alerts and notification delivery.
@@ -975,9 +975,8 @@ systems:
       name: 'Grafana Cloud: Tempo / GCP Belgium - prod-eu-west-0: Querying'
     - id: p28fqkm59k1j
       name: 'Grafana Cloud: Synthetic Monitoring / AWS UK - prod-gb-south-1: API'
-    - id: gxyxxd4nr755
-      name: 'Grafana Cloud: Prometheus / Azure US Central - us-central7'
-      description: Azure prod-us-central-7
+    - id: l778xg16mls4
+      name: 'Grafana Cloud: Prometheus / GCP US Central - prod-us-central-5: Ingestion'
     - id: wy292mxvxhxv
       name: 'Grafana Cloud: Tempo / GCP Belgium - prod-eu-west-0: Ingestion'
     - id: v0xq65xvldk8
