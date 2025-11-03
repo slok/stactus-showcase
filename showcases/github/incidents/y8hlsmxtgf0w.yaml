@@ -1,0 +1,13 @@
+version: incident/v1
+id: y8hlsmxtgf0w
+name: Incident with Packages
+impact: minor
+systems:
+    - st3j38cctv9l
+timeline:
+    - ts: "2025-11-03 14:33:43"
+      description: We are investigating reports of degraded performance for Packages
+      investigating: true
+    - ts: "2025-11-03 14:35:10"
+      description: We are seeing increased failure rates of up to 15% for GitHub Packages downloads with users experiencing 5xx errors.<br /><br />We are investigating and working towards mitigation. We will continue to provide updates as they are available.
+      investigating: true
