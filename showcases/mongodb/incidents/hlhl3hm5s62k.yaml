@@ -1,0 +1,10 @@
+version: incident/v1
+id: hlhl3hm5s62k
+name: Atlas Azure cluster new snapshot creation failure (australiaeast)
+impact: none
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-11-03 19:00:27"
+      description: We're investigating an issue impacting Atlas Azure cluster snapshot creation (australiaeast region only). This only affects new snapshot creation. Existing snapshots are not affected.
+      investigating: true
