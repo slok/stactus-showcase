@@ -1,6 +1,6 @@
 version: incident/v1
 id: 78z02fy241jt
-name: Issue With Twilio User and Account Automatic Closures
+name: Investigating Unexpected Account Closures
 impact: minor
 systems:
     - g4hs7h64k9fv
@@ -15,3 +15,5 @@ timeline:
         We are currently investigating reports of unexpected customer account closures. The previous issue—where MFA resets led to user and account closures—has been resolved. However, affected users are still unable to create new accounts, and impacted accounts remain closed. Our team is actively working to determine the root cause and restore access to affected accounts as quickly as possible.
         We expect to provide another update in 60 minutes or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-11-03 05:27:08"
+      description: We are currently investigating an issue where some customer accounts are being unexpectedly closed. Impacted users may be unable to access their accounts, and recurring billable items may be deleted, which could affect business operations. Our team has identified the issue and is actively working on a resolution. We expect to provide another update in 2 hours or as soon as more information becomes available.
