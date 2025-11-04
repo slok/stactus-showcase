@@ -2,8 +2,13 @@ version: incident/v1
 id: ghxbw6wbs8lg
 name: Issues with Challenges & Turnstile in Browser Isolation
 impact: minor
-systems: []
+systems:
+    - q0dfbn0p6hyt
+    - x0tkn0hzrtw7
+    - m4jywscr0n0k
 timeline:
     - ts: "2025-11-04 15:18:05"
       description: Cloudflare is aware of, and investigating an issue with Challenges and Turnstile solving in certain Browser Isolation environments. Further detail will be provided as more information becomes available.
       investigating: true
+    - ts: "2025-11-04 16:50:53"
+      description: A fix has been implemented and we are monitoring the results.
