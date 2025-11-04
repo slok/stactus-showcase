@@ -1,0 +1,13 @@
+version: incident/v1
+id: 49t1zfhv1t8p
+name: Network Performance Issues in Seoul
+impact: minor
+systems:
+    - v4s7np92f0dh
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-11-04 01:51:39"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in Seoul, KR.
+
+        Until it is resolved, we are rerouting some traffic normally destined for Seoul, to other nearby locations in our network.
