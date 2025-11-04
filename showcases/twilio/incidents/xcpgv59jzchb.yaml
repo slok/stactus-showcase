@@ -1,10 +1,9 @@
 version: incident/v1
 id: xcpgv59jzchb
-name: MMS Delivery Delays To Verizon Wireless Network In United States of America (311-489) Via A Subset of Twilio Numbers
+name: MMS Delivery Reports Delay to Multiple Networks in the US for a Subset of Short Codes
 impact: minor
 systems:
     - 8vdlvw3dsq8h
-    - h0fl7prwfhvm
 timeline:
     - ts: "2025-11-04 03:57:46"
       description: We are experiencing MMS Delivery Delays To Verizon Wireless Network In United States of America (311-489) Via A Subset of Twilio Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
@@ -18,3 +17,8 @@ timeline:
     - ts: "2025-11-04 10:39:21"
       description: We continue experiencing MMS delivery delays to Verizon Wireless Network In United States of America (311-489) via a Subset of Twilio numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-11-04 18:07:14"
+      description: We have identified that this incident is only impacting Delivery Reports, we can confirm that MMS delivery is not impacted, Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-11-04 18:08:27"
+      description: The issue has been identified and a fix is being implemented.
