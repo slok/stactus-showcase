@@ -11,5 +11,5 @@ timeline:
       description: We have found the source of the slowness and mitigated it. We are watching recovery before we status green but no user impact is currently observed.
       investigating: true
     - ts: "2025-10-24 10:10:20"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: From Oct 22, 2025 15:00 UTC to Oct 24, 2025 14:30 UTC  git operations via SSH saw periods of increased latency and failed requests, with failure rates ranging from 1.5% to a single spike of 15%. Git operations over http were not affected. This was due to resource exhaustion on our backend ssh servers.  <br /><br />We mitigated the incident by increasing the available resources for ssh connections. We are improving the observability and dynamic scalability of our backend to prevent issues like this in the future.
       resolved: true
