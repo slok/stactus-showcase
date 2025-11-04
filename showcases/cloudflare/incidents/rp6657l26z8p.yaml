@@ -1,0 +1,11 @@
+version: incident/v1
+id: rp6657l26z8p
+name: Workers AI Elevated Error Rates
+impact: minor
+systems:
+    - g4tb35rs9yw7
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2025-11-04 00:49:58"
+      description: We are currently investigating an issue where AI inference requests to Workers AI made via api.cloudflare.com are experiencing elevated error rates.
+      investigating: true
