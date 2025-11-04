@@ -1,0 +1,10 @@
+version: incident/v1
+id: f1l0x2s3fk3b
+name: Grafana K6 Tests Not Starting
+impact: critical
+systems:
+    - m79yjv169r06
+timeline:
+    - ts: "2025-11-04 19:00:04"
+      description: We are currently investigating an issue impacting Grafana K6 which is resulting in tests being unable to start. All cloud test runs are affected. Cloud output test runs seem to be operational.
+      investigating: true
