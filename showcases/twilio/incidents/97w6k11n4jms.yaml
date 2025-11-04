@@ -1,10 +1,13 @@
 version: incident/v1
 id: 97w6k11n4jms
-name: On Call Engineers are Investigating an encoding issue in the TwiML logs
-impact: none
+name: Issues with Encoding in TwiML Logs
+impact: minor
 systems:
     - xnzrm2zg4qbv
 timeline:
     - ts: "2025-11-04 22:56:39"
       description: Our monitoring systems have detected a potential encoding issue in the TwiML logs. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-04 23:20:33"
+      description: We are investigating encoding issues for special characters in the TwiML logs. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
