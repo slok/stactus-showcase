@@ -1,0 +1,12 @@
+version: incident/v1
+id: n1b0mjmndf4g
+name: Increased error rates on Reddit
+impact: minor
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2025-11-04 12:27:32"
+      description: We are aware that users are seeing increased error rates when browsing reddit and are currently investigating.
+      investigating: true
