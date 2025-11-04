@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-11-04 19:00:04"
       description: We are currently investigating an issue impacting Grafana K6 which is resulting in tests being unable to start. All cloud test runs are affected. Cloud output test runs seem to be operational.
       investigating: true
+    - ts: "2025-11-04 19:27:18"
+      description: Test runs are now working as expected. The duration of this incident was roughly 30 minutes. The test runs were not able to start, and the app and the API were not accessible.
+      resolved: true
