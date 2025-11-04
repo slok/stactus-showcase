@@ -21,5 +21,5 @@ timeline:
       description: Actions is operating normally.
       investigating: true
     - ts: "2025-11-01 06:14:40"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On November 1, 2025, between 2:30 UTC and 6:14 UTC, Actions workflows could not be triggered manually from the UI. This impacted all customers queueing workflows from the UI for most of the impact window. The issue was caused by a faulty code change in the UI, which was promptly reverted once the impact was identified. Detection was delayed due to an alerting gap for UI breaks in this area when all underlying APIs are still healthy. We are implementing enhanced alerting and additional automated tests to prevent similar regressions and reduce detection time in the future.
       resolved: true

@@ -1,0 +1,10 @@
+version: incident/v1
+id: 97w6k11n4jms
+name: On Call Engineers are Investigating an encoding issue in the TwiML logs
+impact: none
+systems:
+    - xnzrm2zg4qbv
+timeline:
+    - ts: "2025-11-04 22:56:39"
+      description: Our monitoring systems have detected a potential encoding issue in the TwiML logs. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
