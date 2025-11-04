@@ -1,0 +1,11 @@
+version: incident/v1
+id: 6vsrlxgt0ncd
+name: A subset of users are experiencing an issue with Zoom Phone and Zoom Contact Center MMS service in the US region.
+impact: minor
+systems:
+    - 5vvw5njz8qg5
+    - rkgptw5lc3pw
+timeline:
+    - ts: "2025-11-04 17:38:21"
+      description: We have detected an issue affecting both inbound and outbound MMS service for a subset of Zoom Phone and Zoom Contact Center users in the US region. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
