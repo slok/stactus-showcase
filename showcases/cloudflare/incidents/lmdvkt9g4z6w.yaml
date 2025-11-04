@@ -1,0 +1,12 @@
+version: incident/v1
+id: lmdvkt9g4z6w
+name: Email Delivery Delays
+impact: minor
+systems:
+    - 5xvn0m7tthlf
+timeline:
+    - ts: "2025-11-04 10:16:49"
+      description: |-
+        Cloudflare is investigating a delay in our ability to send emails. This does not affect our support platform communication capabilities.
+        We are working to resolve the issue with our email provider, more updates to follow shortly.
+      investigating: true
