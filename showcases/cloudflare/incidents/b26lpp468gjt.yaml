@@ -1,0 +1,16 @@
+version: incident/v1
+id: b26lpp468gjt
+name: Dashboard SSO Onboarding Outage
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-11-04 00:57:58"
+      description: |-
+        We are currently investigating an issue where onboarding new SSO connectors and integrations via Cloudflare Access is currently malfunctioning. Dashboard customers will see errors on the onboarding page and will need to resume creation following resolution of this incident.
+
+        Logging in via SSO is not impacted. Customers with active SSO integrations are not affected.
+      investigating: true
+    - ts: "2025-11-04 01:06:57"
+      description: A fix has been implemented and we are monitoring the results.

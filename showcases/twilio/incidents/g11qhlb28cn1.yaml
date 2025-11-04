@@ -1,10 +1,16 @@
 version: incident/v1
 id: g11qhlb28cn1
-name: MMS Delivery Delays in the United States
-impact: none
+name: MMS Delivery Reports Delay To Multiple Networks in the US for a Subset of Short Codes
+impact: minor
 systems:
-    - 8vdlvw3dsq8h
+    - h0fl7prwfhvm
 timeline:
     - ts: "2025-11-04 00:44:59"
       description: Our monitoring systems have detected a potential issue with MMS delivery delays in the United States. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-04 00:57:31"
+      description: We are experiencing MMS delivery report delays when sending messages to multiple networks in the United States. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-11-04 01:04:13"
+      description: We are continuing to investigate this issue.
       investigating: true
