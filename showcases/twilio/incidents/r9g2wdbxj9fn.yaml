@@ -1,0 +1,11 @@
+version: incident/v1
+id: r9g2wdbxj9fn
+name: SMS Delivery Delays and Failures to Telekom Srbija in Serbia
+impact: minor
+systems:
+    - 8qjql0kqnd33
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2025-11-05 08:53:42"
+      description: We are experiencing SMS Delivery Delays and Failures when sending messages to Telekom Srbija in Serbia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

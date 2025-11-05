@@ -1,0 +1,15 @@
+version: incident/v1
+id: c88lkv8gwxjc
+name: 'Cloudflare Dashboard: Issues managing memberships'
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-11-05 08:53:19"
+      description: |-
+        Cloudflare is investigating minor issues with Cloudflare Dashboard. Some customers are unable to configure account memberships from the dashboard.
+
+        These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+
+        Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed.
+      investigating: true
