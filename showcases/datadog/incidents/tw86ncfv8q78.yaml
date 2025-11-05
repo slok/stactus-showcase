@@ -1,0 +1,14 @@
+version: incident/v1
+id: tw86ncfv8q78
+name: Delayed Metrics for APM and distribution metrics
+impact: minor
+systems:
+    - p4hwj4wsc5wf
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2025-11-05 15:42:35"
+      description: |-
+        We are investigating increased latency processing Metrics from APM.
+        As a result of this issue, some users may see delays or gaps for metrics on graphs.
+        To prevent spurious alerts, we have temporarily disabled monitors based on this data.
