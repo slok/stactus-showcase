@@ -12,3 +12,5 @@ timeline:
         We are investigating increased latency processing Metrics from APM and distribution metrics.
         As a result of this issue, some users may see delays or gaps for metrics on graphs.
         To prevent spurious alerts, we have temporarily disabled monitors based on this data.
+    - ts: "2025-11-05 16:25:02"
+      description: We have identified the root cause, and scaled up the processing to catch up with the lag.
