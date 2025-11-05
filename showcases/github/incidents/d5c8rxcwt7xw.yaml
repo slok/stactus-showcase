@@ -1,0 +1,13 @@
+version: incident/v1
+id: d5c8rxcwt7xw
+name: Copilot Code Completions partially unavailable
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2025-11-05 22:56:29"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2025-11-05 22:57:56"
+      description: We are investigating increased error rates affecting Copilot Code Completions. Some users may experience delays or partial unavailability. Our engineering team is monitoring the situation and working to identify the cause.
+      investigating: true
