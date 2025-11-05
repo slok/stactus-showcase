@@ -9,6 +9,6 @@ systems:
 timeline:
     - ts: "2025-11-05 15:42:35"
       description: |-
-        We are investigating increased latency processing Metrics from APM.
+        We are investigating increased latency processing Metrics from APM and distribution metrics.
         As a result of this issue, some users may see delays or gaps for metrics on graphs.
         To prevent spurious alerts, we have temporarily disabled monitors based on this data.
