@@ -16,3 +16,6 @@ timeline:
       description: We have identified the root cause, and scaled up the processing to catch up with the lag.
     - ts: "2025-11-05 16:59:15"
       description: The distribution metrics should be back to processing live, without latency. APM metrics are still being delayed, and we're actively working at getting it back to live.
+    - ts: "2025-11-05 17:57:12"
+      description: APM metrics are now processing live.
+      resolved: true
