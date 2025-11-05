@@ -1,0 +1,10 @@
+version: incident/v1
+id: tj2rtbcb348w
+name: Partial outage in Azure West Europe
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2025-11-05 18:57:32"
+      description: We are observing widespread issues in a single AZ in Azure West Europe. Customers may see nodes reporting as "down" and delayed cluster modifications for Azure clusters in West Europe. There are three total AZs in Azure West Europe, and primary failover will be handled by MongoDB.
+      investigating: true
