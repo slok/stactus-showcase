@@ -1,0 +1,10 @@
+version: incident/v1
+id: plpxp3c7cnbs
+name: 'Cloudflare Dashboard: 2FA issues with QR code'
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-11-05 12:13:22"
+      description: 'Cloudflare is aware of, and investigating an issue which potentially impacts multiple users: Customers may observe a failure on QR code generation while enabling or verifying 2FA authentication on the Dashboard. Further detail will be provided as more information becomes available.'
+      investigating: true
