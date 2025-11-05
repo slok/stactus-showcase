@@ -14,5 +14,5 @@ timeline:
       description: Links on GitHub's landing https://github.com/home are not working. Primary user workflows (PRs, Issues, Repos) are not impacted.
       investigating: true
     - ts: "2025-10-30 23:00:46"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On October 30th we shipped a change that broke 3 links in the "Solutions" dropdown of the marketing navigation seen on https://github.com/home. We noticed internally the broken links and declared an incident so our users would know no other functionality was impacted. We were able to revert a change and are evaluating our testing and rollout processes to prevent future incidents like these.
       resolved: true
