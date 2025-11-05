@@ -1,0 +1,18 @@
+version: incident/v1
+id: 0l9k39p6fq0r
+name: Grafana k6 Degraded Performance
+impact: major
+systems:
+    - 3gvy1n7fg4x4
+    - m79yjv169r06
+    - wbhrnd130mb0
+    - z9074fpyx6sb
+timeline:
+    - ts: "2025-11-05 09:32:36"
+      description: |-
+        We are currently investigating multiple issues impacting Grafana k6 tests:
+        - Metrics for new and running test runs arriving late.
+        - New test runs could be getting aborted by system or timed out.
+        - Result Analysis page may not show any metrics.
+        - Requests could be timing out throughout GCk6 Plugin.
+      investigating: true
