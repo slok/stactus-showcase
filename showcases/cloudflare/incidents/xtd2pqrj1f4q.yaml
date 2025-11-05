@@ -1,0 +1,10 @@
+version: incident/v1
+id: xtd2pqrj1f4q
+name: Workers Builds increased failure rate
+impact: minor
+systems:
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2025-11-05 22:10:14"
+      description: Cloudflare is aware of and investigating an issue where a subset of builds are failing to start. More updates to follow shortly.
+      investigating: true
