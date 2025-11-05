@@ -10,3 +10,14 @@ timeline:
       investigating: true
     - ts: "2025-11-05 19:08:21"
       description: Azure has posted to their Service Health dashboard indicating Virtual Machines in the West Europe region may experience service disruptions or degraded performance due to a thermal event impacting data center cooling systems in the region. Please refer to the Azure Service Health dashboard for their service issue updates.
+    - ts: "2025-11-05 20:13:44"
+      description: |-
+        Azure has posted the following to their public Status Page: https://azure.status.microsoft/en-us/status
+
+        Thermal event in West Europe region
+
+        Impact Statement: Starting at approximately 17:00 UTC on 05 November 2025, a subset of customers using Virtual Machine, Azure Databricks, Azure Database for PostgreSQL flexible servers, MySQL flexible servers, Azure Kubernetes Service, Storage, Service Bus and Virtual Machine Scale Sets, among other affected services in the West Europe region may experience service disruptions or degraded performance due to a subset of storage scale units going offline due to a thermal event impacting data center cooling systems in a single availability zone. Resources in other availability zones reliant on these storage scale units may be impacted.
+
+        Current Status: We detected this issue via our automated service monitoring, which identified a spike in hardware temperatures and service incidents affecting multiple storage scale units. Cooling has been restored, and teams are working to recover the impacted storage scale units. The next update will be provided within 60 minutes, or as events warrant.
+
+        This message was last updated at 20:07 UTC on 05 November 2025
