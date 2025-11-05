@@ -27,5 +27,5 @@ timeline:
       description: We have applied the mitigation and are starting to see signs of recovery. We will continue to monitor the health of the system.
       investigating: true
     - ts: "2025-11-03 19:20:34"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On November 3, 2025, between 14:10 UTC and 19:20 UTC, GitHub Packages experienced degraded performance, resulting in failures for 0.5% of Nuget package download requests. The incident resulted from an unexpected change in usage patterns affecting rate limiting infrastructure in the Packages service.<br /><br />We mitigated the issue by scaling up services and refining our rate limiting implementation to ensure more consistent and reliable service for all users. To prevent similar problems, we are enhancing our resilience to shifts in usage patterns, improving capacity planning, and implementing better monitoring to accelerate detection and mitigation in the future.
       resolved: true
