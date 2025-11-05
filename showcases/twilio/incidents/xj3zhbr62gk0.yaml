@@ -29,3 +29,6 @@ timeline:
     - ts: "2025-11-04 03:59:19"
       description: We still continue to observe call failures from Multiple Network Subscribers in Greece to a subset of Twilio's Numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 24 hours or as soon as more information becomes available
       investigating: true
+    - ts: "2025-11-05 03:03:57"
+      description: We are resolving this incident as we found that the main cause is that some of our customers are unable to comply with the requirements from our service providers that caused the observed call failures. The next actions are for these customers to submit all the necessary configurations for them to be compliant, which is currently a work in progress.
+      resolved: true
