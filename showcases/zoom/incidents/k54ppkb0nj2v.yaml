@@ -1,0 +1,14 @@
+version: incident/v1
+id: k54ppkb0nj2v
+name: A subset of users may have experienced issues with Zoom Meetings for Recording and Webinar services in the US region
+impact: none
+systems:
+    - 3z7b6jks10hm
+    - gkx8x46kw77h
+    - q4msk5dl4bhm
+timeline:
+    - ts: "2025-11-06 01:04:45"
+      description: Between 2025-11-05 17:53 UTC to 2025-11-05 18:09 UTC and additionally 2025-11-05 18:09 UTC to 2025-11-05 18:30 UTC a subset of users may have experienced an issue with Zoom Meetings for recording and webinar services in the US region.  The issue has been resolved.  We will continue to monitor and provide updates as we have them.
+    - ts: "2025-11-06 01:06:01"
+      description: This incident has been resolved.
+      resolved: true

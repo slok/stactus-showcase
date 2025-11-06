@@ -1,0 +1,11 @@
+version: incident/v1
+id: k9k29j933nnj
+name: Urgent maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-06 01:04:23"
+      description: 'Urgent maintenance applies to all of the resources with the following pattern in their endpoint: c16.us-east-1-3'
+    - ts: "2025-11-06 01:04:34"
+      description: This incident has been resolved.
+      resolved: true
