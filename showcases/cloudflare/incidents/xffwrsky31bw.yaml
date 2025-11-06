@@ -1,0 +1,13 @@
+version: incident/v1
+id: xffwrsky31bw
+name: 'Cloudflare WAF: Issues with Counting Expression (Rate Limiting)'
+impact: minor
+systems:
+    - d1r0plwsl5qb
+timeline:
+    - ts: "2025-11-06 11:19:12"
+      description: |-
+        Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: zones that have migrated from our former Rate Limiting rules might observe broken counting expressions. This means that in some cases, rate limiting might be triggered well before expected. This impacts only customers that use counting expression.
+
+        We are working to resolve the issue. More updates to follow shortly.
+      investigating: true
