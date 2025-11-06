@@ -1,0 +1,11 @@
+version: incident/v1
+id: 7ln201tdzrnc
+name: Elevated Errors and Latency Affecting Authentication
+impact: minor
+systems:
+    - cgltwfnt80mm
+    - mxh1682h05hp
+timeline:
+    - ts: "2025-11-06 20:16:11"
+      description: We are investigating an issue causing elevated errors and increased latency on some backend endpoints. As a result, some users may experience slow loading times or error messages when attempting to sign in or authenticate. Retrying may allow access in some cases.
+      investigating: true
