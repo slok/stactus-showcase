@@ -1,10 +1,10 @@
 version: incident/v1
 id: 2sc0fxg3qk0z
-name: Outbound Call Failures And Delays To A Subset Of Canada Bell Numbers
+name: Outbound Call Failures To A Subset Of Canada Bell Numbers
 impact: minor
 systems:
     - 7d8w22hqrh6s
 timeline:
     - ts: "2025-11-06 19:21:57"
-      description: We are observing a subset of outbound call failures and delays to Bell Numbers in Canada. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: We are observing a subset of outbound call failures to Bell Numbers in Canada. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
