@@ -9,3 +9,5 @@ timeline:
     - ts: "2025-11-06 20:16:11"
       description: We are investigating an issue causing elevated errors and increased latency on some backend endpoints. As a result, some users may experience slow loading times or error messages when attempting to sign in or authenticate. Retrying may allow access in some cases.
       investigating: true
+    - ts: "2025-11-06 20:55:54"
+      description: We identified an issue and implemented mitigations. Latency and error rates have returned to normal levels. We will continue to closely monitor performance to ensure the issue is fully resolved.
