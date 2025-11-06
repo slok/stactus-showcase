@@ -1,0 +1,9 @@
+version: incident/v1
+id: xb3bf6fj3jmg
+name: Fly Metrics - Grafana Log Maintenance
+impact: minor
+systems:
+    - k2zhkw7wryv2
+timeline:
+    - ts: "2025-11-06 21:40:14"
+      description: "We are currently performing maintenance on the log cluster that powers log search in fly-metrics.net. Users may see slow queries or queries timing out during this period. \n\nViewing live logs via the `flyctl logs` command and from the log tab of the fly.io dashboard continue to work as normal, as does shipping logs using the Fly Log Shipper."
