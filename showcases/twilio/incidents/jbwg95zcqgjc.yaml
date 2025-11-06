@@ -1,0 +1,10 @@
+version: incident/v1
+id: jbwg95zcqgjc
+name: '[SNOC] Call Quality Issues From a Subset of Twilio''s Numbers in the United Kingdom'
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2025-11-06 10:27:23"
+      description: We are observing call quality issues from a subset of Twilio's Numbers in the United Kingdom. Our Engineers are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
