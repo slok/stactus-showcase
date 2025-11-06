@@ -1,0 +1,10 @@
+version: incident/v1
+id: cgx481phpvbg
+name: Unexpected Workers Build Termination
+impact: minor
+systems:
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2025-11-06 22:15:18"
+      description: Cloudflare is aware of and investigating an issue causing an increased rate of Workers Builds to terminate unexpectedly. More updates to follow shortly.
+      investigating: true
