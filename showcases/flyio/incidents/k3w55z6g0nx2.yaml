@@ -1,0 +1,13 @@
+version: incident/v1
+id: k3w55z6g0nx2
+name: Log Search Performance issues on Fly-Metrics.net
+impact: minor
+systems:
+    - k2zhkw7wryv2
+timeline:
+    - ts: "2025-11-06 00:01:18"
+      description: |-
+        We are currently investigating issues with the log search in the fly-metrics.net grafana dashboard. Users may see log queries take longer than usual, or fail with a timeout error. Retries generally succeed.
+
+        Viewing logs via the fly.io/dashboard log viewer, `flyctl logs`, and the fly-log-shipper are not impacted by this.
+      investigating: true
