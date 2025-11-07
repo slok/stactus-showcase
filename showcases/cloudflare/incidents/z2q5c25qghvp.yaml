@@ -7,3 +7,11 @@ systems:
 timeline:
     - ts: "2025-10-30 17:55:14"
       description: Workers Tracing (beta) has been temporarily disabled for maintenance and will be re-enabled as soon as possible. This will also impact exporting OTel Workers Logs and Traces. This does not impact Workers Logpush.
+    - ts: "2025-11-07 22:22:08"
+      description: |-
+        Workers Automatic Tracing has been re-enabled.
+
+        User who had previously enabled tracing may need to redeploy with updated wrangler configuration including explicit opt-in to tracing using the 'observability.tracing.enabled' attribute.
+
+        For more details on how to enable tracing see the documentation here: https://developers.cloudflare.com/workers/observability/traces/#how-to-enable-tracing
+      resolved: true
