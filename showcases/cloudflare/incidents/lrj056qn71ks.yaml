@@ -3,7 +3,7 @@ id: lrj056qn71ks
 name: 'Cloudflare WAF: Issues with Duplicate Rate Limiting Rules'
 impact: minor
 systems:
-    - ts05t1p1j7r4
+    - d1r0plwsl5qb
 timeline:
     - ts: "2025-11-07 10:59:42"
       description: |-
@@ -11,3 +11,5 @@ timeline:
 
         We are working to resolve the issue. More updates to follow shortly.
       investigating: true
+    - ts: "2025-11-07 11:30:43"
+      description: A fix has been implemented and we are monitoring the results.
