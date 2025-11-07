@@ -1,0 +1,11 @@
+version: incident/v1
+id: 7dmxbv808l1w
+name: Increase latency on R2 operations on WNAM buckets
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+    - 47xg28c02lnk
+timeline:
+    - ts: "2025-11-07 20:40:01"
+      description: We are currently investigating high long-tail latency on some R2 requests with buckets in the WNAM region. Impacted buckets will see increased latency on PutObject operations. Impacting Stream Live broadcasts, R2. Stream on-demand and media transformations are not affected.
+      investigating: true
