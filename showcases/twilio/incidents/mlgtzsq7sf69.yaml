@@ -14,3 +14,6 @@ timeline:
     - ts: "2025-11-07 01:05:51"
       description: We are still investigating an issue where inbound calls from our Carrier Peering are being dropped due to missing RTP after an UPDATE. Twilio continues to send RTP, but our carrier is not receiving it, resulting in calls ending from the carrier side. This may cause dropped calls for customers using our Carrier Peering. Our engineering teams are actively working with our partners to resolve the issue as quickly as possible. We will provide in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-11-07 03:09:36"
+      description: We are still investigating an issue where inbound calls from our Carrier Peering are being dropped due to missing RTP after an UPDATE. Twilio continues to send RTP, but our carrier is not receiving it, resulting in calls ending from the carrier side. This may cause dropped calls for customers using our Carrier Peering. Our engineering teams are actively working with our partners to resolve the issue as quickly as possible. We will provide in 4 hours or as soon as more information becomes available.
+      investigating: true
