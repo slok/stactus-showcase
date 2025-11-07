@@ -1,0 +1,13 @@
+version: incident/v1
+id: lrj056qn71ks
+name: 'Cloudflare WAF: Issues with Duplicate Rate Limiting Rules'
+impact: minor
+systems:
+    - ts05t1p1j7r4
+timeline:
+    - ts: "2025-11-07 10:59:42"
+      description: |-
+        Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: zones that have migrated from our former Rate Limiting rules might observe duplicated rules. This means that in some cases, expected rate limiting rules are not taking effect. This impacts only customers that use rate limits based on response codes.
+
+        We are working to resolve the issue. More updates to follow shortly.
+      investigating: true
