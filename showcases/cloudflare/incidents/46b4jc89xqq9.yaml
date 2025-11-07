@@ -1,0 +1,11 @@
+version: incident/v1
+id: 46b4jc89xqq9
+name: Android Zero Trust WARP Connectivity
+impact: minor
+systems:
+    - k04jkcpzxn94
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2025-11-07 20:02:05"
+      description: Cloudflare is investigating an issue for Zero Trust Android WARP devices that is causing the tunnel connection to be prematurely closed when a device is put into the locked state.
+      investigating: true
