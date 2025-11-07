@@ -9,3 +9,6 @@ timeline:
       description: "We are currently performing maintenance on the log cluster that powers log search in fly-metrics.net. Users may see slow queries or queries timing out during this period. \n\nViewing live logs via the `flyctl logs` command and from the log tab of the fly.io dashboard continue to work as normal, as does shipping logs using the Fly Log Shipper."
     - ts: "2025-11-07 01:58:44"
       description: Cluster maintenance has completed and log search performance is returning to normal. We are continuing to monitor the cluster to ensure consistent performance.
+    - ts: "2025-11-07 16:37:40"
+      description: This incident has been resolved.
+      resolved: true
