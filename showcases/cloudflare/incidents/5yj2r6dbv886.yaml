@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5yj2r6dbv886
+name: 'Cloudflare WAF: Issues with malicious uploads detection'
+impact: minor
+systems:
+    - d1r0plwsl5qb
+timeline:
+    - ts: "2025-11-07 00:08:43"
+      description: Cloudflare is investigating an increased level of errors impacting WAF content upload scanning feature.  We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
