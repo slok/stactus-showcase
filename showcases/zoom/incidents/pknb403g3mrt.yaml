@@ -1,0 +1,11 @@
+version: incident/v1
+id: pknb403g3mrt
+name: A subset of users may experience issues with Meetings PSTN Call out feature.
+impact: minor
+systems:
+    - gxlzmzd2yp2y
+    - 6qtv0w61s12m
+timeline:
+    - ts: "2025-11-07 04:22:12"
+      description: We have detected service degradation where a subset of users may experience issues with Meetings PSTN Call out feature. Our engineers are currently investigating the impact and root cause. Zoom will provide updates as soon as there is more information to share.
+      investigating: true
