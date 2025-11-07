@@ -1,0 +1,15 @@
+version: incident/v1
+id: ry0cdt07s03m
+name: Stream Live LL-HLS Issues
+impact: minor
+systems:
+    - 47xg28c02lnk
+timeline:
+    - ts: "2025-11-07 07:59:42"
+      description: |-
+        Cloudflare is investigating issues with Stream Live when LL-HLS is used. LL-HLS video playback may be impacted.
+
+        Regular HLS URLs for active video streams are not impacted. Impacted videos can switch to regular HLS URLs for playback.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
