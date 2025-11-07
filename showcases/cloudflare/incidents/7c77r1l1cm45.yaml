@@ -1,0 +1,16 @@
+version: incident/v1
+id: 7c77r1l1cm45
+name: Network Performance Issues in Singapore
+impact: minor
+systems:
+    - 18p6r93swmbl
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-11-07 15:54:36"
+      description: |-
+        Cloudflare is investigating issues with Network Performance. The impact started at 08:28 UTC.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-11-07 16:00:33"
+      description: The issue has been identified and a fix is being implemented.
