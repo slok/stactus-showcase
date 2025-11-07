@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3bnkvmzdnbzr
+name: Cloudflare API Documentation
+impact: minor
+systems:
+    - rzcwwk4rgb0w
+timeline:
+    - ts: "2025-11-07 11:58:15"
+      description: |-
+        Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: Our API Documentation at https://developers.cloudflare.com/api is experiencing issues, and performing searches is currently impaired.
+        We are working to resolve the issue, more updates to follow shortly.
+      investigating: true
