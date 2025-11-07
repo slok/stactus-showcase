@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2025-11-07 22:04:28"
       description: We have started seeing recovery for inbound calls to Twilio numbers from Bell Network Subscribers in Canada. We will continue to monitor to ensure a full recovery. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2025-11-07 22:42:44"
+      description: After deep investigation, we have identified that there was no impact associated with this incident, for that reason we are marking this as invalid and resolving the Statuspage.
+      resolved: true
