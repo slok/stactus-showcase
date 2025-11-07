@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3vh2yhb0rrrg
+name: '[SNOC] SMS Delivery Delays Across Multiple APAC and EMEA Networks'
+impact: minor
+systems:
+    - 8qjql0kqnd33
+    - llgdln3dcs6p
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-11-07 09:12:26"
+      description: We are experiencing SMS delivery delays when sending messages across multiple APAC and EMEA Networks. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
