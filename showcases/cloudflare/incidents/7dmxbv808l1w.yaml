@@ -9,3 +9,5 @@ timeline:
     - ts: "2025-11-07 20:40:01"
       description: We are currently investigating high long-tail latency on some R2 requests with buckets in the WNAM region. Impacted buckets will see increased latency on PutObject operations. Impacting Stream Live broadcasts, R2. Stream on-demand and media transformations are not affected.
       investigating: true
+    - ts: "2025-11-07 22:02:07"
+      description: A fix has been implemented and we are monitoring the results.
