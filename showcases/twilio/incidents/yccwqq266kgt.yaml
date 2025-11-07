@@ -1,9 +1,13 @@
 version: incident/v1
 id: yccwqq266kgt
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Call Failures from a subset of Bell Network Subscribers to A Subset of Twilio Numbers
+impact: minor
+systems:
+    - 2v3v92mz2m4h
 timeline:
     - ts: "2025-11-07 19:26:00"
       description: Our monitoring systems have detected a potential issue with inbound calls involving Canadian phone numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-07 19:39:55"
+      description: We are observing a subset of call failures to Twilio numbers from Bell Network Subscribers in Canada. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
