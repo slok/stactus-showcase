@@ -1,0 +1,11 @@
+version: incident/v1
+id: c1qldjccv7zx
+name: Twilio Voice Calling Affected
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-07 19:17:04"
+      description: |-
+        Twilio Voice API was degraded for 10 minutes minutes between 10:41 and 10:51 Pacific Time on 11/7/2025.
+        During this period of time, customers may have experienced failures when attempting to stop recordings and modify call APIs, which prevented users from managing active call sessions. The issue has now been resolved.
+      resolved: true
