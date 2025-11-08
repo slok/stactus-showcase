@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4vs70qvnykcy
+name: Network connectivity in BLR1
+impact: none
+systems:
+    - lmgn764lq04q
+timeline:
+    - ts: "2025-11-08 15:15:27"
+      description: "From 13:50 to 14:15 UTC, our Engineering team observed an issue with an upstream provider impacting network connectivity in the BLR1 region.\n\nDuring this time, users may have experienced increase in latency or packet loss when accessing Droplets and Droplet-based services, like Managed Kubernetes and Database Clusters in BLR1 region.  \n\nThe impact has now subsided and as of 14:15 UTC, users should already experience better performance when accessing Droplets and other services.\n\nWe apologize for the inconvenience. If you are still experiencing any problems or have additional questions, then please open a support ticket within your account."
+      resolved: true
