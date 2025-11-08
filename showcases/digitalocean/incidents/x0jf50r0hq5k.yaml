@@ -1,0 +1,9 @@
+version: incident/v1
+id: x0jf50r0hq5k
+name: Network Connectivity in BLR1
+impact: minor
+systems:
+    - lmgn764lq04q
+timeline:
+    - ts: "2025-11-08 18:07:21"
+      description: "Our Engineering team is still observing intermittent issues impacting network connectivity in the BLR1 region. Between 17:28 and 17:37 UTC, the team observed a major connectivity loss to this region and took immediate steps to reroute traffic via a different upstream provider to alleviate the impact.\n\nThe issue BLR1 is experiencing at the moment stems from a broader Internet issue. Network accessibility in the region has improved as of now, and users should already experience better performance when accessing Droplets and other services. We are closely monitoring the situation to ensure stability. \n\nWe appreciate your patience and will provide an update once the issue is fully confirmed as resolved."
