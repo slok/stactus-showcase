@@ -1,0 +1,15 @@
+version: incident/v1
+id: rpq23r0zqjj6
+name: Sporadic failures to create new Durable Objects
+impact: none
+systems:
+    - bty1yz6dhh0v
+    - hb7g5sq2zz0h
+    - z4wlt5jx9szq
+    - 5s616lljfwdz
+    - yxhtws7ltl9t
+    - 47xg28c02lnk
+timeline:
+    - ts: "2025-11-08 06:59:10"
+      description: We've observed sporadic failures to create new Durable Objects. The impact is limited to a very small number of colos.
+      investigating: true
