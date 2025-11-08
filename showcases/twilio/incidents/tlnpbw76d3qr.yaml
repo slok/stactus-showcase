@@ -1,0 +1,10 @@
+version: incident/v1
+id: tlnpbw76d3qr
+name: Inbound Message Delivery Delays - Mobile Originated
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-11-08 04:16:13"
+      description: We are experiencing SMS delivery delays to Tigo in Bolivia (Plurinational State of). Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
