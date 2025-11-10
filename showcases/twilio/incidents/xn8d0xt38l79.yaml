@@ -8,6 +8,6 @@ systems:
 timeline:
     - ts: "2025-11-10 05:24:44"
       description: |-
-        A subset of customers experienced message undelivered when submitting SMS to Japan between 7 November 2025 14:00 UTC and 9 November 2025 22:59 UTC.
-        We have deactivated the problematic route to protect customer delivery until the issue is fully resolved. SMS traffic is now operating as normal, and customers are able to send messages without disruption.
+        We experienced SMS delivery failures to Japan for a subset of messages sent via the domestic gateway between 7 November 2025, 14:00 UTC and 9 November 2025, 22:59 UTC.
+        This incident has been resolved, and message delivery to Japan via the domestic gateway is now operating normally.
       resolved: true
