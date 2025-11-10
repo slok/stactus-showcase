@@ -1,0 +1,13 @@
+version: incident/v1
+id: v5rt9bzvm8by
+name: Billing Notifications Failed to Send for 20 Minutes
+impact: none
+systems:
+    - jw9dh2mf4392
+timeline:
+    - ts: "2025-11-10 16:41:38"
+      description: Our monitoring systems have detected a potential issue billing notifications. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-10 16:47:38"
+      description: Twilio Billing notifications were degraded for 20 minutes between 08:00 and 08:20 Pacific Time on 11/10/2025. During this period of time customers may have experienced problems receiving emails regarding their billing. The issue has now been resolved.
+      resolved: true
