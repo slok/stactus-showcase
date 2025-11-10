@@ -1,0 +1,15 @@
+version: incident/v1
+id: 3q2hc5rz20n6
+name: Magic WAN Connector On-ramp issues
+impact: minor
+systems:
+    - qgnxz00j1f2v
+timeline:
+    - ts: "2025-11-10 05:44:28"
+      description: |-
+        Cloudflare is currently investigating issues related to Magic Transit Connectors. Impacted customers may be unable to create, edit or delete Connector on-ramps.
+
+        Impact does not affect any existing Magic WAN traffic.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
