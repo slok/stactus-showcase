@@ -1,0 +1,10 @@
+version: incident/v1
+id: bcty44b0pdjl
+name: Voice Quality Issue to a Subset of Twilio New Zealand Phone Numbers Affected
+impact: minor
+systems:
+    - 50pr269zqrwj
+timeline:
+    - ts: "2025-11-10 12:50:23"
+      description: We are investigating an issue with Voice quality to a subset of Twilio New Zealand phone numbers. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
