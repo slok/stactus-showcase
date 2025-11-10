@@ -1,0 +1,10 @@
+version: incident/v1
+id: n5796lrc1jmx
+name: Increased Machine API Errors
+impact: minor
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2025-11-10 22:53:13"
+      description: We are currently investigating an issue with the Machines API. You might see increased error rate
+      investigating: true
