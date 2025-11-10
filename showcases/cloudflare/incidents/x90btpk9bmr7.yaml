@@ -1,0 +1,9 @@
+version: incident/v1
+id: x90btpk9bmr7
+name: Authoritative DNS on IPv6 Partially Unavailable
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-10 18:58:48"
+      description: From 17:41 to 18:02 UTC, Authoritative DNS on custom nameservers using IPv6 was unavailable. This was the result of a configuration change that was reverted.
+      resolved: true
