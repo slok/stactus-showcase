@@ -1,0 +1,12 @@
+version: incident/v1
+id: yqy8yyc7k5jg
+name: Reseller Customers Are Unable to Invite Users to Accounts From Twilio Console
+impact: minor
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2025-11-10 07:59:45"
+      description: |-
+        Reseller customers are currently unable to invite users to accounts from the Twilio Console.
+        Our engineers have identified the issue and are actively working to deploy a fix. We will provide another update within one hour or as soon as more information becomes available.
+      investigating: true
