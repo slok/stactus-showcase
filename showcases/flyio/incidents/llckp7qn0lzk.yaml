@@ -1,0 +1,12 @@
+version: incident/v1
+id: llckp7qn0lzk
+name: Network issues in GRU (São Paulo)
+impact: minor
+systems:
+    - 5cmbhyzyb3lr
+timeline:
+    - ts: "2025-11-10 01:59:05"
+      description: We are currently investigating network issues in GRU. Apps may see elevated response times and errors.
+      investigating: true
+    - ts: "2025-11-10 02:23:38"
+      description: We have redistributed traffic in the area, with response times and errors returning to baseline. We will continue to monitor network health.
