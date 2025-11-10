@@ -1,0 +1,18 @@
+version: incident/v1
+id: 9hjhlnwd32sw
+name: Cloudflare GraphQL API and Analytics issues
+impact: minor
+systems:
+    - 4c231tkdlpcl
+    - g4tb35rs9yw7
+timeline:
+    - ts: "2025-11-10 03:22:32"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare GraphQL API.
+
+        These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+
+        Customers using the GraphQL API and Dashboard Analytics may see errors.
+      investigating: true
+    - ts: "2025-11-10 03:33:42"
+      description: A fix has been implemented and we are monitoring the results.
