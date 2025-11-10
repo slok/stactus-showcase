@@ -1,7 +1,7 @@
 version: incident/v1
 id: djntwqhbqjpb
 name: Stir Shaken Sign Failures at CMG
-impact: minor
+impact: none
 systems:
     - g2dt752kwqs0
 timeline:
@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2025-11-10 21:22:35"
       description: An issue where some outbound calls would not be signed and would not include a SHAKEN passport as per STIR/SHAKEN guidelines is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2025-11-10 21:56:16"
+      description: The incident causing an issue where some outbound calls would not be signed and would not include a SHAKEN passport as per STIR/SHAKEN guidelines has been resolved.
+      resolved: true
