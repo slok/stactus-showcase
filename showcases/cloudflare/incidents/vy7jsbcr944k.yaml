@@ -1,0 +1,10 @@
+version: incident/v1
+id: vy7jsbcr944k
+name: Dashboard Response Performance
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-11-10 18:03:43"
+      description: We are investigating an issue with Cloudflare Dashboard response performance where customers may experience longer load times than normal.
+      investigating: true
