@@ -7,9 +7,11 @@ systems:
 timeline:
     - ts: "2025-11-10 05:44:28"
       description: |-
-        Cloudflare is currently investigating issues related to Magic Transit Connectors. Impacted customers may be unable to create, edit or delete Connector on-ramps.
+        Cloudflare is currently investigating issues related to Magic WAN Connector configurations. Impacted customers may be unable to create, edit or delete Connector on-ramps.
 
         Impact does not affect any existing Magic WAN traffic.
 
         We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
       investigating: true
+    - ts: "2025-11-10 06:24:48"
+      description: The issue has been identified and a fix is being implemented.
