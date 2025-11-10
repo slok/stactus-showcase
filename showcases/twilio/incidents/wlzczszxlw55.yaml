@@ -38,3 +38,5 @@ timeline:
     - ts: "2025-11-10 10:37:40"
       description: Our Engineers are continuing to investigate this incident and are aiming to update the affected records with the latest data. We will provide an update in 24 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-11-10 14:37:36"
+      description: The issue impacting messages created between 05:00-05:10 and 05:30-05:40 UTC on Oct 28 which were not retrievable via the Messaging Logs API and the Messaging Console is now resolved. All known major data flows have now been restored and backfilled. Engineering teams will ensure any minor edge data discrepancies are restored before Friday, November 14th.
