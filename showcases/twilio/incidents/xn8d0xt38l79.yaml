@@ -1,0 +1,13 @@
+version: incident/v1
+id: xn8d0xt38l79
+name: SMS Delivery Delays/ Failures When Sending SMS to Japan
+impact: none
+systems:
+    - 8qjql0kqnd33
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2025-11-10 05:24:44"
+      description: |-
+        A subset of customers experienced message undelivered when submitting SMS to Japan between 7 November 2025 14:00 UTC and 9 November 2025 22:59 UTC.
+        We have deactivated the problematic route to protect customer delivery until the issue is fully resolved. SMS traffic is now operating as normal, and customers are able to send messages without disruption.
+      resolved: true
