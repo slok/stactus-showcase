@@ -1,0 +1,10 @@
+version: incident/v1
+id: b136vmmm1hzw
+name: Some Spectrum customers may be impacted due to TLS termination issues
+impact: minor
+systems:
+    - 6dd6ssg7plt0
+timeline:
+    - ts: "2025-11-11 20:55:20"
+      description: We have metals on proxyanything service in a bad state and this is impacting multiple customers not able to do TLS termination for their Spectrum apps.
+      investigating: true
