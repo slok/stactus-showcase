@@ -1,0 +1,18 @@
+version: incident/v1
+id: 0x4v9wz0dvvc
+name: Cloudflare Images Dashboard Issues
+impact: none
+systems:
+    - 3sq3s4d20ywk
+    - dw7t39j5syzl
+timeline:
+    - ts: "2025-11-11 03:44:30"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Images Dashboard. Customers may be unable to see their configuration in the Dashboard under Images > Transformations.
+
+        Impact is to the Dashboard only and does not affect any existing image transformation configuration, security or CDN functionality.
+
+        We are working to understand the full impact and mitigate this problem.  More updates to follow shortly.
+      investigating: true
+    - ts: "2025-11-11 03:46:08"
+      description: A fix has been implemented and we are monitoring the results.
