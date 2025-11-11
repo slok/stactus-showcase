@@ -1,0 +1,12 @@
+version: incident/v1
+id: 4p7k4w1d7w60
+name: Open AI getting rate limited from Meta
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-10 23:58:12"
+      description: Our monitoring systems have detected a potential issue with Open AI getting rate limited from Meta. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-11 00:12:42"
+      description: Open AI getting rate limited from Meta issue has been resolved and is operating normally at this time.
+      resolved: true
