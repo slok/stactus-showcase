@@ -1,0 +1,13 @@
+version: incident/v1
+id: 2q4xy9wwnq9m
+name: On Call Engineers are Investigating an issue with SMS Delivery Failures to Econet Network in Zimbabwe
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-11-11 20:12:06"
+      description: Our monitoring systems have detected a potential issue SMS Delivery Failures to Econet Network in Zimbabwe. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-11 20:18:24"
+      description: We are experiencing SMS Delivery Failures to Econet Network in Zimbabwe. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
