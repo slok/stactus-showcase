@@ -1,0 +1,11 @@
+version: incident/v1
+id: 12r6ygv9zc03
+name: SJC Networking Issues
+impact: critical
+systems:
+    - 49qj4qjyzlzn
+timeline:
+    - ts: "2025-11-11 15:07:37"
+      description: An upstream provider in SJC region is experiencing network issues. Apps on affected hosts may be unavailable.
+    - ts: "2025-11-11 15:18:39"
+      description: A fix has been implemented and we are monitoring the results.
