@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4lzwt0q81n24
+name: Issues with WAF Content Scanning
+impact: minor
+systems:
+    - d1r0plwsl5qb
+timeline:
+    - ts: "2025-11-11 16:27:22"
+      description: Cloudflare is aware of, and investigating an issue with WAF Content Scanning which potentially impacts less than 1% of requests. Further detail will be provided as more information becomes available.
+      investigating: true
