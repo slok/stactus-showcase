@@ -1,0 +1,11 @@
+version: incident/v1
+id: bd841d3l66z2
+name: Issues with 1.1.1.1 Oblivious-DNS-over-HTTPS public resolver
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-11-11 14:08:50"
+      description: "Cloudflare is aware of, and investigating, an issue which potentially impacts multiple users that use 1.1.1.1 Oblivious-DNS-over-HTTPS public resolver. \n\nFurther detail will be provided as more information becomes available."
+      investigating: true
+    - ts: "2025-11-11 14:09:07"
+      description: A fix has been implemented and we are monitoring the results.
