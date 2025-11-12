@@ -1,0 +1,11 @@
+version: incident/v1
+id: t50vt3nbdhz4
+name: Issues with Cloudflare Images Plans
+impact: minor
+systems:
+    - ll1x88wwz4fq
+    - 3lbj8lp3d750
+timeline:
+    - ts: "2025-11-12 10:02:43"
+      description: "Cloudflare is investigating issues with customers being unable to see or change their Cloudflare Images Plan. Impact is to the Dashboard only and does not affect any existing image plans, security or CDN functionality. \n\nWe are working to understand the full impact and mitigate this problem.  More updates to follow shortly."
+      investigating: true
