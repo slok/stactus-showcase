@@ -1,0 +1,13 @@
+version: incident/v1
+id: b3gt1h9pxk0v
+name: SMS Delivery Report Delays when sending to Viaero in United States of America via Subset of Shortcodes
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2025-11-12 14:25:41"
+      description: We are experiencing delays in receiving message delivery reports when sending to Viaero in United States of America via Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-11-12 14:30:49"
+      description: We are continuing to investigate this issue.
+      investigating: true
