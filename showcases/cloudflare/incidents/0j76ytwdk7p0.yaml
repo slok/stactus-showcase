@@ -1,0 +1,14 @@
+version: incident/v1
+id: 0j76ytwdk7p0
+name: Network Performance Issues in Madrid, Spain
+impact: minor
+systems:
+    - qwrpqdwqxy7r
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-11-12 09:33:21"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in the Madrid, Spain area. Affected customers may see increased connectivity issues towards specific origins.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
