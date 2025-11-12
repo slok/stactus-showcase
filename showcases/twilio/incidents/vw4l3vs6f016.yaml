@@ -4,8 +4,13 @@ name: SMS Delivery Delays to T-Mobile Network in United States of America
 impact: minor
 systems:
     - 7d8w22hqrh6s
+    - qj606bzkg4s8
     - 39mb8cmw8y2v
+    - k7rg1rqk2nwk
 timeline:
     - ts: "2025-11-12 14:48:50"
       description: We are experiencing SMS delivery delays when sending messages to T-Mobile Network in United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-11-12 14:52:12"
+      description: We are continuing to investigate this issue.
       investigating: true
