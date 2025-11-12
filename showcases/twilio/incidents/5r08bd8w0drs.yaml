@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-11-12 21:24:32"
       description: From 20:45 - 20:47 and 20:59 - 21:01 UTC, customers using Twilio APIs may have seen an unexpected increase in 503 errors. Engineers are currently investigating and will provide more information as it becomes available.
       investigating: true
+    - ts: "2025-11-12 23:29:45"
+      description: From 20:45 - 20:47 and 20:59 - 21:01 UTC, customers using Twilio APIs may have seen an unexpected increase in 503 errors. We have investigated and monitored recovery and we are no longer seeing 503 errors on Twilio APIs.
+      resolved: true
