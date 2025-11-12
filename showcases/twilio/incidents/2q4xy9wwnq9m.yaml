@@ -1,7 +1,7 @@
 version: incident/v1
 id: 2q4xy9wwnq9m
 name: SMS Delivery Failures to Econet Network in Zimbabwe
-impact: minor
+impact: none
 systems:
     - 9z5gsqyjs4rl
 timeline:
@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2025-11-11 23:09:06"
       description: We are observing successful SMS Delivery Failures to Econet Network in Zimbabwe.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-11-12 01:08:30"
+      description: We are no longer experiencing SMS Delivery Failures to Econet Network in Zimbabwe. This incident has been resolved.
+      resolved: true
