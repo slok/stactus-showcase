@@ -1,9 +1,9 @@
 version: incident/v1
 id: hy8zgtpg0shq
-name: Twilio Programmable Voice Affected
+name: Twilio API Affected
 impact: none
 systems: []
 timeline:
     - ts: "2025-11-12 16:37:03"
-      description: Twilio Programmable Voice was degraded for 46 minutes between 07:34 and 08:20 Pacific Time on 11/12/2025. During this period of time customers may have experienced poor audio and potential dropped calls for inter-region calls. The issue has now been resolved.
+      description: Twilio Programmable Voice, Messaging, Video, PSTN Connectivity and Webhooks were degraded for 46 minutes between 07:34 and 08:20 Pacific Time on 11/12/2025. During this period of time customers may have experienced poor audio and potential dropped calls and delay in response times. The issue has now been resolved.
       resolved: true
