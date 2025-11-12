@@ -1,0 +1,12 @@
+version: incident/v1
+id: br7kz68t38cl
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-11-12 22:26:29"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-11-12 22:26:53"
+      description: We are investing reports of codespaces no longer appearing in the UI or API. Users may experience connectivity issues to the impacted codespaces.
+      investigating: true
