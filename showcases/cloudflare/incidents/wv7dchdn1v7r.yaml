@@ -9,3 +9,8 @@ timeline:
     - ts: "2025-11-12 17:44:38"
       description: Cloudflare is investigating issues with Cloudflare Dashboard and related APIs. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed.
       investigating: true
+    - ts: "2025-11-12 17:51:27"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-11-12 18:05:51"
+      description: This incident has been resolved.
+      resolved: true
