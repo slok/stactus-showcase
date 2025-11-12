@@ -1,0 +1,12 @@
+version: incident/v1
+id: 20v84trwj919
+name: Degraded Brower Check Performance
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-11-12 16:50:43"
+      description: |-
+        Spanning from November 10th, 18:00 UTC to November 11th, 22:00 UTC, Synthetic Monitoring experienced degraded browser check performance due to a faulty release that has been rolled back.
+
+        This impacted all regions, specifically the probes. The API itself experienced no issues.
+      resolved: true
