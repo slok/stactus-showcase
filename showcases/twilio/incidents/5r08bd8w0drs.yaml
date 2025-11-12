@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5r08bd8w0drs
+name: Increased Errors on Twilio APIs
+impact: minor
+systems:
+    - 4rv9xfxmdjg9
+timeline:
+    - ts: "2025-11-12 21:24:32"
+      description: From 20:45 - 20:47 and 20:59 - 21:01 UTC, customers using Twilio APIs may have seen an unexpected increase in 503 errors. Engineers are currently investigating and will provide more information as it becomes available.
+      investigating: true
