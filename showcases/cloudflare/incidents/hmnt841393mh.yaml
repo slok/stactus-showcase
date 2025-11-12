@@ -1,0 +1,29 @@
+version: incident/v1
+id: hmnt841393mh
+name: Issues with Zero Trust DNS-over-TLS
+impact: minor
+systems:
+    - vhpdc0y3qty9
+    - qshn45g5q59m
+    - hr78s04g1r5b
+    - 3cg9wbk5hzg4
+    - 5dhjdhgdqjzd
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2025-11-12 16:31:12"
+      description: |-
+        Cloudflare is aware of, and investigating, an issue which potentially impacts multiple users that use our Zero Trust DNS-over-TLS service in the following regions:
+
+        - Bangalore, India
+        - San Antonio, Texas
+        - Salt Lake City, Utah
+        - Kuala Lumpur, Malaysia
+        - Lisbon, Portugal
+
+        Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2025-11-12 16:31:48"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-11-12 16:33:00"
+      description: The issue has been identified and a fix is being implemented.
