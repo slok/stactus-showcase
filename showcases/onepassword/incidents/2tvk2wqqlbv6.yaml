@@ -1,0 +1,17 @@
+version: incident/v1
+id: 2tvk2wqqlbv6
+name: Item Usage Metrics Not Updating in Real Time
+impact: minor
+systems:
+    - nb2s2j09f6sc
+    - nz7h9pkyk9k9
+    - gvwljrxrbrbl
+    - 89gvq67r0l5m
+    - swb607d557vz
+    - f4pnnp38y8ls
+    - dr779hkh3q8m
+    - rrz7rpwzv908
+timeline:
+    - ts: "2025-11-13 15:57:39"
+      description: Some users may notice that the Item Usage information shown in dashboards and reports isn’t updating right away. The data is still accurate, but may take longer than usual to refresh. Our team is working to restore real-time updates.
+      investigating: true
