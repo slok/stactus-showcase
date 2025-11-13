@@ -3,8 +3,18 @@ id: 8w1jkrgysx8v
 name: Cloudflare Dashboard and Cloudflare API service issues
 impact: major
 systems:
+    - w4k8yvhfb3vp
     - g4tb35rs9yw7
     - 3sq3s4d20ywk
+    - gjb0yzvvrpf6
+    - h9z388jfrjsm
+    - bjlxcss20fsl
+    - qgnxz00j1f2v
+    - vgxj684rcw7t
+    - 47xg28c02lnk
+    - y98zlwj1d7zh
+    - 9c7cbxnhk1dq
+    - vcpsk0w6g86k
 timeline:
     - ts: "2025-11-13 16:18:16"
       description: |-
@@ -13,4 +23,7 @@ timeline:
         These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
 
         Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed.
+      investigating: true
+    - ts: "2025-11-13 16:35:03"
+      description: We are continuing to investigate this issue.
       investigating: true
