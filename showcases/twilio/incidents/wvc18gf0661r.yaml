@@ -1,0 +1,10 @@
+version: incident/v1
+id: wvc18gf0661r
+name: SMS Delivery Failures to Multiple Networks in Egypt From Registered Sender IDs
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-11-13 19:40:09"
+      description: We are experiencing SMS delivery failures sending to Multiple Networks in Egypt from Registered Sender IDs. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
