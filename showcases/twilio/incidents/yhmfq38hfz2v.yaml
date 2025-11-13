@@ -1,6 +1,6 @@
 version: incident/v1
 id: yhmfq38hfz2v
-name: Inbound Sms Delivery Failures to a Subset of Phone Numbers in Israel
+name: Inbound SMS Delivery Failures to a Subset of Phone Numbers in Israel
 impact: minor
 systems:
     - 9z5gsqyjs4rl
@@ -20,3 +20,6 @@ timeline:
     - ts: "2025-11-13 03:08:50"
       description: We are experiencing inbound SMS delivery failures to a subset of phone numbers in Israel. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 16 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-11-13 16:12:30"
+      description: This incident related to SMS delivery failures to a subset of phone numbers in Israel was resolved prematurely. Please refer to https://status.twilio.com/incidents/v5rmn23vs1my for further updates. We apologize for the inconvenience and for any confusion this may have caused.
+      resolved: true
