@@ -1,0 +1,13 @@
+version: incident/v1
+id: 92sk80qxml0t
+name: Web Application Not Loading
+impact: minor
+systems:
+    - b5fx9rfn6137
+timeline:
+    - ts: "2025-11-13 18:58:01"
+      description: |-
+        We are investigating loading issues on our web application. As a result, some users might be getting errors when loading the web application.
+
+        Please note that data processing and alerts are not affected by this incident.
+      investigating: true
