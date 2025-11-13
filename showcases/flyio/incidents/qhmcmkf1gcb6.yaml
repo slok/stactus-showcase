@@ -1,0 +1,9 @@
+version: incident/v1
+id: qhmcmkf1gcb6
+name: Static egress IPv6 issues in BOM
+impact: minor
+systems:
+    - k6fbt4mk0xv1
+timeline:
+    - ts: "2025-11-13 16:59:38"
+      description: We have identified an upstream issue that prevented static egress IPv6 addresses in BOM from reaching parts of the Internet and are currently working with upstreams for a fix. Machines without a static egress IPv6 address are not affected. For affected machines, consider forcing IPv4 for outbound connectivity or de-allocating the egress IP if not needed via `fly m egress-ip release`.

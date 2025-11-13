@@ -1,0 +1,11 @@
+version: incident/v1
+id: dt3hr6g3jmbh
+name: SMS Delivery Delays to Altan Network in Mexico
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2025-11-13 16:56:37"
+      description: We are experiencing SMS delivery delays when sending messages to Altan Network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
