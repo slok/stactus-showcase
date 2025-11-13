@@ -1,0 +1,10 @@
+version: incident/v1
+id: 0qrqnpgwmzft
+name: Subset of users might have experienced issue with Zoom Contact Center.
+impact: none
+systems:
+    - y4lbkc6s281b
+    - bcklxvxh9gsr
+timeline:
+    - ts: "2025-11-13 11:21:40"
+      description: Between 09:33 UTC - 09:35 UTC our monitoring detected a service degradation where subset of users might have experienced call issues using Zoom Contact Center. Issue has been resolved. We will continue to monitor and provide updates as we have them.
