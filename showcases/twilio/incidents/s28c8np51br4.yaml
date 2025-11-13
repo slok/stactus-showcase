@@ -1,6 +1,6 @@
 version: incident/v1
 id: s28c8np51br4
-name: SMS Delivery Delays to Uintah Basin Electronics Telecommunications in United States for a Subset of Short Codes
+name: SMS Delivery Receipt Delays to Uintah Basin Electronics Telecommunications in United States for a Subset of Short Codes
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -13,4 +13,7 @@ timeline:
       investigating: true
     - ts: "2025-11-13 03:04:00"
       description: We are experiencing SMS delivery delays when sending messages to Uintah Basin Electronics Telecommunications in United States for a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-11-13 06:49:56"
+      description: We are experiencing SMS delivery receipt delays when sending messages to Uintah Basin Electronics Telecommunications in United States for a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
