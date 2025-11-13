@@ -1,0 +1,9 @@
+version: incident/v1
+id: xtfrp9ptl3k0
+name: Network maintenance in BOM
+impact: critical
+systems:
+    - k6fbt4mk0xv1
+timeline:
+    - ts: "2025-11-13 19:34:26"
+      description: One of our upstream providers is performing an emergency network maintenance in BOM. Apps in BOM may experience temporary connectivity issues.
