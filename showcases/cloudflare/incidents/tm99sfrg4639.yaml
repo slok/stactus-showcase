@@ -1,0 +1,14 @@
+version: incident/v1
+id: tm99sfrg4639
+name: Issues with Cloudflare WARP and Cloudflare Zero Trust
+impact: minor
+systems:
+    - k04jkcpzxn94
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2025-11-13 21:38:44"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare WARP and Cloudflare Zero Trust. Cloudflare WARP and Zero Trust users relying on older client versions may experience connectivity issues or a degraded Internet experience. More details will be shared when available.
+
+        We recommend that affected users upgrade WARP to the latest version.
+      investigating: true
