@@ -1,0 +1,14 @@
+version: incident/v1
+id: 0xpyl7hs9hm6
+name: Incident With GitHub Enterprise Importer
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-13 21:57:04"
+      description: |-
+        On November 4, 2025, GitHub Enterprise Importer experienced a period of degraded migration performance and elevated error rates between 18:04 UTC and 23:36 UTC. During this interval customers queueing and running migrations experienced prolonged queue times and slower processing.
+
+        The degradation was ultimately connected to higher than normal system load, once load was reduced error rates returned to normal. The investigation is ongoing to pinpoint the precise root cause and prevent future recurrence.
+
+        Long-term work is planned to strengthen system resilience under high load and promote better visibility into migration status for customers.
+      resolved: true
