@@ -1,9 +1,14 @@
 version: incident/v1
 id: fc3nmf5g8wsg
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: AccSec Canada API Errors
+impact: minor
+systems:
+    - whldrk77jnm4
+    - xk8z50jy8hcs
 timeline:
     - ts: "2025-11-13 07:33:12"
       description: Our monitoring systems have detected a potential issue with AccSec. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-13 07:53:05"
+      description: We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true

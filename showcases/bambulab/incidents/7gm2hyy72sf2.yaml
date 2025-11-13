@@ -17,25 +17,4 @@ timeline:
       description: The incident has been resolved. We will share a detailed update shortly.
       resolved: true
     - ts: "2025-10-30 03:49:49"
-      description: |-
-        ### Service Disruption Caused by ElastiCache Automated Certificate Rotation
-
-        #### Summary
-
-        Based on our initial analysis with AWS, this incident was caused by an automated certificate update for the ElastiCache middleware.
-
-        #### Timeline
-
-        At 02:58 AM on October 29 \(Beijing Time\), AWS initiated an automated certificate update for our ElastiCache instances. During this process, the primary and replica nodes of the ElastiCache cluster experienced issues, preventing backend services from accessing the component.
-
-        * Time of Impact: 02:59 - 03:22，03:42 - 03:48 \(Beijing Time\)
-        * Scope of Impact: Cloud Printing and MakerWorld
-
-        #### Next Steps & Action Items
-
-        We have raised two critical issues with AWS Support:
-
-        * The automated update occurred outside of our designated maintenance window.
-        * The instability of the primary-replica nodes during the update process.
-
-        AWS Support has escalated these issues to their internal engineering team for a detailed root cause analysis. We will provide further updates as soon as we receive more information from AWS.
+      description: "### Service Disruption Caused by ElastiCache Automated Certificate Rotation\n\n#### Summary\n\nBased on our initial analysis with AWS, this incident was caused by an automated certificate update for the ElastiCache middleware.\n\n#### Timeline\n\nAt 02:58 AM on October 29 \\(Beijing Time\\), AWS initiated an automated certificate update for our ElastiCache instances. During this process, the primary and replica nodes of the ElastiCache cluster experienced issues, preventing backend services from accessing the component.\n\n* Time of Impact: 02:59 - 03:22，03:42 - 03:48 \\(Beijing Time\\)\n* Scope of Impact: Cloud Printing and MakerWorld\n\n#### Next Steps & Action Items\n\nWe have raised two critical issues with AWS Support:\n\n* The automated update occurred outside of our designated maintenance window.\n* The instability of the primary-replica nodes during the update process.\n\nAWS Support has escalated these issues to their internal engineering team for a detailed root cause analysis. We will provide further updates as soon as we receive more information from AWS.\n\n#### Updated on November 13, 2025\n\n* The issue occurred when a scheduled TLS certificate renewal disconnected the replication connection between primary and replica nodes. Certificate renewal process identified this outdated certificate and terminated the connection, triggering a full resynchronization of several hundred gigabytes data. \n* During the full resynchronization period \\(02:59 - 03:22\\), ElastiCache applied connection throttling to prioritize replication traffic. This throttling caused client connections to timeout which leads to our cloud services outage.\n* After the replica finished loading the RDB data, the primary began sending accumulated replication data. Connection throttling was applied again to manage the replication traffic \\(03:42 - 03:48\\), causing another brief connection storm until the transfer completed."
