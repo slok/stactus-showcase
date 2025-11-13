@@ -1,0 +1,10 @@
+version: incident/v1
+id: bl026glgy3sr
+name: SMS DLR Delays to Uzbekistan Uzdunrobita 434-07
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-11-13 21:25:27"
+      description: We are experiencing delays in receiving message delivery reports when sending to Uzbekistan Uzdunrobita 434-07. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
