@@ -1,0 +1,10 @@
+version: incident/v1
+id: msnz7k6y1zqq
+name: MMS Delivery delays to Verizon Network in the US from subset of a short codes
+impact: minor
+systems:
+    - h0fl7prwfhvm
+timeline:
+    - ts: "2025-11-14 18:54:43"
+      description: We are experiencing MMS delivery delays when sending messages to Verizon Network in the US from a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
