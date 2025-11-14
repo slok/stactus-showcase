@@ -1,0 +1,9 @@
+version: incident/v1
+id: 744pysfgv5q6
+name: Network Issues in SJC
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-14 23:07:08"
+      description: An upstream provider experienced network issues in the SJC region. Apps on affected hosts and API clients near SJC may have experienced degraded connectivity and elevated error rates between 18:38 to 19:03 and 20:02 to 20:26 UTC. The issue is now resolved.
+      resolved: true
