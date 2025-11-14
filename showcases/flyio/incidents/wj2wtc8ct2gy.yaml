@@ -1,0 +1,11 @@
+version: incident/v1
+id: wj2wtc8ct2gy
+name: Wireguard errors in Flyctl v0.3.214
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-14 15:52:32"
+      description: |-
+        We have identified an issue in the latest Flyctl release (v0.3.214)  that impacts commands using wireguard connectivity for some users. Impacted users may see `tunnel unavailable` or `no such organization` errors when running commands like `fly wireguard` , `fly proxy` or `fly mpg proxy` with their default Personal org. We are working on a fix.
+
+         In the meantime, impacted users can install the previous flyctl version with `curl -L https://fly.io/install.sh | sh -s 0.3.213`. Users that normally install flyctl via package managers (eg. homebrew) should uninstall the package manager version first to avoid conflicts.
