@@ -1,0 +1,11 @@
+version: incident/v1
+id: 3vlgp3lpkwyh
+name: Load Balancing Analytics issue
+impact: minor
+systems:
+    - 4c231tkdlpcl
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2025-11-14 06:00:36"
+      description: "Cloudflare Load Balancing Analytics may falsely report that there are no load balancers for zones.\n\nThese issue does not affect the serving of load balancing traffic via the Cloudflare CDN or other security features at the Cloudflare Edge. \n\nInvestigation is ongoing. More updates to follow shortly."
+      investigating: true
