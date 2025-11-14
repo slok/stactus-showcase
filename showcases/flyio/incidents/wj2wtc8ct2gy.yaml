@@ -11,3 +11,6 @@ timeline:
          In the meantime, impacted users can install the previous flyctl version with `curl -L https://fly.io/install.sh | sh -s 0.3.213`. Users that normally install flyctl via package managers (eg. homebrew) should uninstall the package manager version first to avoid conflicts.
     - ts: "2025-11-14 17:00:52"
       description: A new version of Flyctl has been released with a fix for this issue. Users on flyctl version v0.3.214 should upgrade to Flyctl v0.3.216 using `fly version update`.
+    - ts: "2025-11-14 17:45:20"
+      description: This incident has been resolved.
+      resolved: true
