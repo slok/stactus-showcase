@@ -1,0 +1,12 @@
+version: incident/v1
+id: kj7zdqh07hrr
+name: Instance failure
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-15 07:40:10"
+      description: 'We are experiencing an instance failure. This may affect resources that have the following pattern in their endpoint: c343'
+      investigating: true
+    - ts: "2025-11-15 07:44:06"
+      description: This incident has been resolved.
+      resolved: true
