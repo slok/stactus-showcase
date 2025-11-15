@@ -1,0 +1,10 @@
+version: incident/v1
+id: gldd4mb5mny8
+name: SMS Delivery Delays and Failures to Multiple Networks in Italy via Subset of Long Codes
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-11-15 11:51:19"
+      description: We are experiencing SMS delivery delays and failures to multiple networks in Italy via subset of long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
