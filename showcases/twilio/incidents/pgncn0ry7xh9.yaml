@@ -1,10 +1,13 @@
 version: incident/v1
 id: pgncn0ry7xh9
-name: UK API Errors
+name: AccSec UK API Errors
 impact: minor
 systems:
-    - 4rv9xfxmdjg9
+    - xk8z50jy8hcs
 timeline:
     - ts: "2025-11-16 22:36:04"
-      description: Our engineers are investigating an issue with UK API errors and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: Our monitoring systems have detected a potential issue with AccSec - UK API Errors. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-16 22:55:36"
+      description: Our monitoring systems have detected a potential issue with AccSec - UK API Errors. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
