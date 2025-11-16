@@ -1,0 +1,13 @@
+version: incident/v1
+id: fdgnjkqvbr76
+name: Verify Silent Network Auth (SNA) Missing Redirects for XL Axiata  Indonesia
+impact: minor
+systems:
+    - whldrk77jnm4
+timeline:
+    - ts: "2025-11-16 18:15:39"
+      description: Our monitoring systems have detected a potential issue with AccSec SNA Missing Redirects for XL Axiata Indonesia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-16 18:24:43"
+      description: We are investigating intermittent SNA Missing Redirects with Verify in XL Axiata Indonesia. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
