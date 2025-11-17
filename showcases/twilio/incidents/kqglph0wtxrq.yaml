@@ -1,0 +1,12 @@
+version: incident/v1
+id: kqglph0wtxrq
+name: On Call Engineers are Investigating an issue with Customers Unable to Modify Voice Geo Permissions
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-17 21:57:36"
+      description: Our monitoring systems have detected a potential issue with customers unable to modify voice geo permissions. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-17 22:02:33"
+      description: We have fully investigated the issue with customers unable to modify voice geo permissions, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
