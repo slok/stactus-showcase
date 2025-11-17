@@ -1,0 +1,11 @@
+version: incident/v1
+id: qls5gfcfsbxm
+name: Metrics Write Outage in Multiple Cells
+impact: major
+systems:
+    - 1tt4gx4t4q87
+    - l778xg16mls4
+timeline:
+    - ts: "2025-11-17 20:02:42"
+      description: "We are investigating a partial write outage affecting multiple metrics cells, beginning around 19:30 UTC. Some customers may see intermittent write failures or delays, but most requests should succeed after retries and recent metrics may appear late as a result. \n\nQuerying previously ingested data remains unaffected. Engineering is continuing to investigate and will provide further updates as more information becomes available."
+      investigating: true
