@@ -9,3 +9,5 @@ timeline:
     - ts: "2025-11-17 20:02:42"
       description: "We are investigating a partial write outage affecting multiple metrics cells, beginning around 19:30 UTC. Some customers may see intermittent write failures or delays, but most requests should succeed after retries and recent metrics may appear late as a result. \n\nQuerying previously ingested data remains unaffected. Engineering is continuing to investigate and will provide further updates as more information becomes available."
       investigating: true
+    - ts: "2025-11-17 20:11:19"
+      description: "Mitigation has been applied and Mimir write performance is beginning to recover in the affected cells. \n\nprod-us-central-0.cortex-prod-10 appears to have recovered as of 19:52 UTC, and prod-us-central-5.cortex-dedicated-06 is showing signs of recovery as of 20:00 UTC. \n\nWe are continuing to monitor both cells closely to ensure the mitigation is effective and that the systems remain stable."
