@@ -1,9 +1,14 @@
 version: incident/v1
 id: 6s4k61gdjcft
-name: Elevated Mimir Read Errors
+name: Elevated Mimir Read/Write Errors
 impact: major
 systems:
+    - 43jd9wwclvwy
+    - 2lyhl59mn4dl
+    - sn6tkms0qjs1
     - 5270kl9kd6l2
+    - 9g6rbrbpph64
+    - zqsjp5p0d8n7
     - 81f9yfcnyxsg
 timeline:
     - ts: "2025-11-17 22:22:19"
@@ -11,4 +16,10 @@ timeline:
       investigating: true
     - ts: "2025-11-17 22:33:24"
       description: Span metrics have also been identified as affected. We are continuing to investigate the root cause and will share further updates as more information becomes available.
+      investigating: true
+    - ts: "2025-11-17 22:47:12"
+      description: The investigation has revealed that metric ingestion is also affected, including log-generated recording rules. We are continuing to investigate the root cause and will provide further updates as more information becomes available.
+      investigating: true
+    - ts: "2025-11-17 22:47:58"
+      description: The investigation has revealed that metric ingestion is also affected, including log-generated recording rules. We are continuing to investigate the root cause and will provide further updates as more information becomes available.
       investigating: true
