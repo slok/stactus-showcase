@@ -1,0 +1,12 @@
+version: incident/v1
+id: ql19qqqmdf99
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-11-17 23:01:06"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-11-17 23:01:13"
+      description: We are investigating reports of 404s creating gists.
+      investigating: true

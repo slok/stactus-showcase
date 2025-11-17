@@ -1,9 +1,13 @@
 version: incident/v1
 id: 43fzts43v289
-name: On Call Engineers are Investigating an issue with AccSec US API
-impact: none
-systems: []
+name: AccSec US API Issue
+impact: minor
+systems:
+    - m5b6twz4h52d
 timeline:
     - ts: "2025-11-17 22:42:07"
       description: Our monitoring systems have detected a potential issue with AccSec - US API errors. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-17 22:55:32"
+      description: We are currently investigating a potential issue with AccSec - US API errors. Our engineers are working on the issue, and we will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true

@@ -5,6 +5,7 @@ impact: major
 systems:
     - 43jd9wwclvwy
     - 2lyhl59mn4dl
+    - wlk38l1st21f
     - sn6tkms0qjs1
     - 5270kl9kd6l2
     - 9g6rbrbpph64
@@ -22,4 +23,7 @@ timeline:
       investigating: true
     - ts: "2025-11-17 22:47:58"
       description: The investigation has revealed that metric ingestion is also affected, including log-generated recording rules. We are continuing to investigate the root cause and will provide further updates as more information becomes available.
+      investigating: true
+    - ts: "2025-11-17 22:55:29"
+      description: "Our teams have been alerted that Synthetic Monitoring will also be affected by this outage. \n\nUsers may see gaps in their Synthetic Monitoring metrics as well as missed alerts as a result of this. \n\nWe continue to investigate and will provide further updates as they become available."
       investigating: true
