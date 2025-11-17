@@ -1,0 +1,10 @@
+version: incident/v1
+id: ygk8q7rzt4rg
+name: 'Workers AI: @cf/meta/llama-3.3-70b-instruct-sd high error rate'
+impact: major
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2025-11-17 22:24:12"
+      description: We are currently investigating an issue where we are observing a high error rate and increased latency for @cf/meta/llama-3.3-70b-instruct-sd.
+      investigating: true

@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6s4k61gdjcft
+name: Elevated Mimir Read Errors
+impact: major
+systems:
+    - 5270kl9kd6l2
+timeline:
+    - ts: "2025-11-17 22:22:19"
+      description: "We are investigating elevated Mimir read errors beginning at approximately 21:57 UTC. \n\nThe errors are technically retriable, but most retries are unlikely to succeed at this time. This may result in failed or delayed query responses for some users. \n\nEngineering is actively investigating the root cause and working to restore normal read performance. \n\nWe will provide further updates as we learn more."
+      investigating: true
