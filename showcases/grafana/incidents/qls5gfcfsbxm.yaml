@@ -18,3 +18,6 @@ timeline:
       description: "Our teams have been alerted that Synthetic Monitoring will also be affected by this outage. \n\nUsers may see gaps in their Synthetic Monitoring metrics as well as missed alerts as a result of this. \n\nWe continue to investigate and will provide further updates as they become available."
     - ts: "2025-11-17 21:22:57"
       description: "We are seeing improvement on the metrics side, with write performance recovering. \n\nWe continue to investigate the remaining impact to Synthetic Monitoring and are working to determine the underlying cause. \n\nMonitoring will continue as recovery progresses, and we’ll provide further updates as we learn more."
+    - ts: "2025-11-17 23:08:40"
+      description: "As of 23:07 UTC we are considering this incident as resolved. \n\nMitigation efforts have restored normal write performance, and error rates have returned to expected levels. \n\nWe have confirmed stability across the affected areas and continue to monitor, but no further impact is expected. \n\nIf you continue to experience any issues, please reach out to support."
+      resolved: true
