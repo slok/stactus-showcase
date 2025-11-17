@@ -15,5 +15,5 @@ timeline:
       description: We have identified and resolved the underlying issues with Code Completions. Customers should see full recovery.
       investigating: true
     - ts: "2025-11-05 23:26:56"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On November 5, 2025, between 21:46 and 23:36 UTC, ghost text requests experienced errors from upstream model providers that resulted in 0.9% of users seeing elevated error rates.<br /><br />During the service disruption, users were automatically re-routed to healthy model hosts but may have experienced increased latency in response times as a result of re-routing.<br /><br />We are updating our monitors and tuning our failover mechanism to more quickly mitigate issues like this in the future.
       resolved: true

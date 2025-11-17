@@ -15,5 +15,5 @@ timeline:
       description: We have recovered from our earlier performance issues. Copilot code completions should be functioning normally at this time.
       investigating: true
     - ts: "2025-11-06 00:06:13"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between November 5, 2025 23:27 UTC and November 6, 2025 00:06 UTC, ghost text requests experienced errors from upstream model providers. This was a continuation of the service disruption for which we statused Copilot earlier that day, although more limited in scope.<br /><br />During the service disruption, users were again automatically re-routed to healthy model hosts, minimizing impact to users and we are updating our monitors and failover mechanism to mitigate similar issues in the future.
       resolved: true
