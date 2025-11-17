@@ -1,0 +1,13 @@
+version: incident/v1
+id: bg2rxpyn1hc3
+name: Dashboards Not Loading
+impact: major
+systems:
+    - b5fx9rfn6137
+timeline:
+    - ts: "2025-11-17 16:23:14"
+      description: |-
+        We are investigating loading issues on the dashboard pages. As a result, some users might be getting errors when loading the web application.
+
+        Please note that data processing and alerts are not affected by this incident.
+      investigating: true
