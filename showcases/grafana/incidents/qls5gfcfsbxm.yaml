@@ -11,3 +11,5 @@ timeline:
       investigating: true
     - ts: "2025-11-17 20:11:19"
       description: "Mitigation has been applied and Mimir write performance is beginning to recover in the affected cells. \n\nprod-us-central-0.cortex-prod-10 appears to have recovered as of 19:52 UTC, and prod-us-central-5.cortex-dedicated-06 is showing signs of recovery as of 20:00 UTC. \n\nWe are continuing to monitor both cells closely to ensure the mitigation is effective and that the systems remain stable."
+    - ts: "2025-11-17 20:34:33"
+      description: "We’ve re-evaluated the situation and this issue is still ongoing. Although we initially observed signs of recovery, write errors continue to occur in the affected cells. \n\nMitigation work is still in progress, and we’re treating the incident as identified again while we work toward a sustained resolution. We’ll provide further updates as we confirm stabilization."
