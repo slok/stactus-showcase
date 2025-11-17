@@ -988,7 +988,7 @@ systems:
     - id: 1k94p80bbj1c
       name: 'Grafana Cloud: Synthetic Monitoring / AWS Switzerland - prod-eu-central-0: API'
     - id: dw1zzwblgd66
-      name: 'Grafana Cloud: Prometheus / cortex-prod-04'
+      name: 'Grafana Cloud: Prometheus / GCS US - cortex-prod-04: Ingestion'
       description: Prod US Central
     - id: wy292mxvxhxv
       name: 'Grafana Cloud: Tempo / GCP Belgium - prod-eu-west-0: Ingestion'
@@ -996,6 +996,8 @@ systems:
       name: 'Grafana Cloud: Prometheus Rules and Alerts / GCP Brazil - prod-sa-east-0: Alertmanager and Rules Configuration API'
     - id: jwb1v6jvz2j7
       name: 'Grafana Cloud: Synthetic Monitoring / AWS Switzerland - prod-eu-central-0: Public Probes'
+    - id: wg8xtz9dq3j4
+      name: 'Grafana Cloud: Prometheus / GCS US - cortex-prod-04: Querying'
     - id: tfcmnh8pbnh9
       name: 'Grafana Cloud: Prometheus Rules and Alerts / GCP Brazil - prod-sa-east-0: Alertmanager'
     - id: rzzvpv70t4nj
