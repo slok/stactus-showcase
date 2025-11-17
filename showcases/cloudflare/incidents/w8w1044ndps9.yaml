@@ -1,0 +1,10 @@
+version: incident/v1
+id: w8w1044ndps9
+name: Delay for Digital Experience Monitoring (DEX) tests results ingestion
+impact: minor
+systems:
+    - nmp96vgn1hpl
+timeline:
+    - ts: "2025-11-17 23:36:49"
+      description: DEX is currently experiencing consumption lag for a subset of synthetic test results. Scheduled tests will continue to run but results may not be available until lag has caught up. Customers who have alerts configured for synthetic tests may receive some notifications at this time. Most customers are not affected.
+      investigating: true
