@@ -1,0 +1,9 @@
+version: incident/v1
+id: 61jzy6xxpv3m
+name: Cortex - write path disruption
+impact: major
+systems:
+    - dw1zzwblgd66
+timeline:
+    - ts: "2025-11-17 14:06:33"
+      description: We are currently observing a write path disruption in prod-us-central.cortex-prod-04.
