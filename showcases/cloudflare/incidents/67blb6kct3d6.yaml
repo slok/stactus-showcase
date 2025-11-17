@@ -1,0 +1,14 @@
+version: incident/v1
+id: 67blb6kct3d6
+name: Cloudflare Workers Issues in Frankfurt, Germany
+impact: minor
+systems:
+    - rbnhbzgld936
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2025-11-17 20:51:14"
+      description: |-
+        Cloudflare is investigating an increased level of errors for customers running Workers scripts in the Frankfurt, Germany area.
+
+        We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
