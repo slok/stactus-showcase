@@ -16,3 +16,5 @@ timeline:
       description: "We’ve re-evaluated the situation and this issue is still ongoing. Although we initially observed signs of recovery, write errors continue to occur in the affected cells. \n\nMitigation work is still in progress, and we’re treating the incident as identified again while we work toward a sustained resolution. We’ll provide further updates as we confirm stabilization."
     - ts: "2025-11-17 20:50:24"
       description: "Our teams have been alerted that Synthetic Monitoring will also be affected by this outage. \n\nUsers may see gaps in their Synthetic Monitoring metrics as well as missed alerts as a result of this. \n\nWe continue to investigate and will provide further updates as they become available."
+    - ts: "2025-11-17 21:22:57"
+      description: "We are seeing improvement on the metrics side, with write performance recovering. \n\nWe continue to investigate the remaining impact to Synthetic Monitoring and are working to determine the underlying cause. \n\nMonitoring will continue as recovery progresses, and we’ll provide further updates as we learn more."
