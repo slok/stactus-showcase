@@ -1,0 +1,10 @@
+version: incident/v1
+id: ywxgk4s4q18r
+name: PDC-Prod-eu-west-2 cluster degraded performance
+impact: minor
+systems:
+    - hmyx8mtn3tjq
+timeline:
+    - ts: "2025-11-17 11:56:00"
+      description: We are currently facing performance degradation on PDC service hosted on prod-eu-west-2 cluster. Our Engineering Team is currently working on fixing the issue, we do apologize for any inconvenience.
+      investigating: true
