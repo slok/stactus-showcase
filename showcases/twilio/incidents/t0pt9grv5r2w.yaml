@@ -12,3 +12,5 @@ timeline:
     - ts: "2025-11-18 13:49:10"
       description: We are investigating an issue where Twilio and Sendgrid users are experiencing issues with login. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-11-18 15:01:13"
+      description: "Login to the Twilio Console is now restored. Any customers receiving a login error should refresh their browser session to proceed. The Authy.com webpage was unavailable during this incident and is now accessible. The Authy API was not impacted during this incident. \n\nWe will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available."
