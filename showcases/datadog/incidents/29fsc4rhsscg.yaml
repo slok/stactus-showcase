@@ -8,3 +8,6 @@ timeline:
     - ts: "2025-11-18 13:17:44"
       description: We are investigating delays in RUM-based Monitors Notifications, which began at 11:30am UTC.
       investigating: true
+    - ts: "2025-11-18 13:53:58"
+      description: 'This incident has been resolved. Notification delays were only affecting our internal monitoring and were due to the ongoing Cloudflare incident: https://www.cloudflarestatus.com/incidents/8gmgl950y3h7/.'
+      resolved: true
