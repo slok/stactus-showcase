@@ -1,9 +1,13 @@
 version: incident/v1
 id: k0fttpwpzzgr
-name: On Call Engineers are Investigating an issue with SMS Delivery Failures to and from Twilio Philippines Phone Numbers
-impact: none
-systems: []
+name: SMS Delivery Failures to and from Twilio Philippines Phone Numbers
+impact: minor
+systems:
+    - 8qjql0kqnd33
 timeline:
     - ts: "2025-11-18 00:24:18"
       description: Our monitoring systems have detected a potential issue with SMS delivery failures to and from Twilio Philippines phone numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-18 00:31:09"
+      description: We are experiencing SMS delivery failures to and from Twilio Philippines phone numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
