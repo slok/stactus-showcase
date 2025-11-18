@@ -1,0 +1,10 @@
+version: incident/v1
+id: 29fsc4rhsscg
+name: Delayed Monitors Notifications
+impact: minor
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2025-11-18 13:17:44"
+      description: We are investigating delays in RUM-based Monitors Notifications, which began at 11:30am UTC.
+      investigating: true
