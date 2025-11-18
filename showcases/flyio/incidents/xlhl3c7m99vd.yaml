@@ -1,0 +1,15 @@
+version: incident/v1
+id: xlhl3c7m99vd
+name: Packet loss in GRU
+impact: minor
+systems:
+    - 5cmbhyzyb3lr
+timeline:
+    - ts: "2025-11-18 03:19:41"
+      description: We are seeing packet loss on some hosts in GRU. We are working with our upstreams to route the traffic around the affected providers.
+      investigating: true
+    - ts: "2025-11-18 03:20:44"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-11-18 03:25:57"
+      description: This incident has been resolved.
+      resolved: true
