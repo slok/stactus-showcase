@@ -1,0 +1,22 @@
+version: incident/v1
+id: zs1y17fllz4z
+name: Redis Cloud - Intermittent Access Issues to Redis Interfaces
+impact: minor
+systems:
+    - nn6rqzz85xg5
+    - jp7zzppvbk0x
+timeline:
+    - ts: "2025-11-18 12:44:37"
+      description: |-
+        We’ve identified an issue with an upstream service provider that is currently impacting access to parts of our platform. This includes intermittent availability of parts of our platform.
+
+        Impacted components:
+        - Redis Cloud admin console (cloud.redis.io)
+        - Redis Cloud API
+        - redis.io
+
+        Please note: Redis database connectivity and performance are not affected.
+
+        Our team is actively monitoring the situation and working closely with the upstream provider to restore stable access. We’ll continue to share updates as they become available.
+
+        If you need assistance, please contact us at support@redis.com. Thank you for your patience.

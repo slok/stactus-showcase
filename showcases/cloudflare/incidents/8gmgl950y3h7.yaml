@@ -3,12 +3,12 @@ id: 8gmgl950y3h7
 name: Cloudflare Global Network experiencing issues
 impact: critical
 systems:
+    - w4k8yvhfb3vp
     - 4n0gb0kh02gf
+    - k04jkcpzxn94
 timeline:
     - ts: "2025-11-18 11:48:27"
-      description: |-
-        Cloudflare is aware of, and investigating an issue which impacts multiple customers: Widespread 500 errors, Cloudflare Dashboard and API also failing.
-        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      description: Cloudflare is experiencing an internal service degradation. Some services may be intermittently impacted. We are focused on restoring service. We will update as we are able to remediate. More updates to follow shortly.
       investigating: true
     - ts: "2025-11-18 12:03:50"
       description: We are continuing to investigate this issue.
@@ -16,3 +16,16 @@ timeline:
     - ts: "2025-11-18 12:21:58"
       description: We are seeing services recover, but customers may continue to observe higher-than-normal error rates as we continue remediation efforts.
       investigating: true
+    - ts: "2025-11-18 12:37:49"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-11-18 12:53:50"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-11-18 13:04:09"
+      description: During our attempts to remediate, we have disabled WARP access in London.  Users in London trying to access the Internet via WARP will see a failure to connect.
+      investigating: true
+    - ts: "2025-11-18 13:09:53"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-11-18 13:13:39"
+      description: "We have made changes that have allowed Cloudflare Access and WARP to recover. Error levels for Access and WARP users have returned to pre-incident rates. \nWe have re-enabled WARP access in London.\n\nWe are continuing to work towards restoring other services."
