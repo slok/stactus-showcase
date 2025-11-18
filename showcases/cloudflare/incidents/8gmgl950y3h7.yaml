@@ -58,3 +58,10 @@ timeline:
       description: We continue to see errors drop as we work through services globally and clearing remaining errors and latency.
     - ts: "2025-11-18 17:14:24"
       description: We continue to monitor the system through recovery and we are seeing errors and latency return to normal levels. A full post-incident investigation and details about the incident will be made available asap.
+    - ts: "2025-11-18 17:44:58"
+      description: |-
+        Cloudflare services are currently operating normally. We are no longer observing elevated errors or latency across the network.
+
+        Our engineering teams continue to closely monitor the platform and perform a deeper investigation into the earlier disruption, but no configuration changes are being made at this time.
+
+        At this point, it is considered safe to re-enable any Cloudflare services that were temporarily disabled during the incident. We will provide a final update once our investigation is complete.
