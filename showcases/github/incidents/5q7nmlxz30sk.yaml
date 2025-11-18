@@ -1,0 +1,29 @@
+version: incident/v1
+id: 5q7nmlxz30sk
+name: Git operation failures
+impact: major
+systems:
+    - 8l4ygp009s5s
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2025-11-18 20:39:46"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-11-18 20:39:57"
+      description: Git Operations is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-11-18 20:52:37"
+      description: We are seeing failures for some git http operations and are investigating
+      investigating: true
+    - ts: "2025-11-18 21:11:35"
+      description: We are currently investigating failures on all Git operations, including both SSH and HTTP.
+      investigating: true
+    - ts: "2025-11-18 21:25:35"
+      description: Codespaces is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2025-11-18 21:27:41"
+      description: We have identified the likely cause of the incident and are working on a fix. We will provide another update as we get closer to deploying the fix.
+      investigating: true
+    - ts: "2025-11-18 21:36:54"
+      description: We have shipped a fix and are seeing recovery in some areas and will continue to provide updates.
+      investigating: true

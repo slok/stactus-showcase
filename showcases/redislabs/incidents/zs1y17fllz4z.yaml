@@ -32,3 +32,18 @@ timeline:
         As always, Redis database connectivity remained unaffected.
 
         If you have any questions or need assistance, please contact us at support@redis.com. Thank you for your patience.
+    - ts: "2025-11-18 20:57:52"
+      description: |-
+        We are no longer observing access issues with the following components:
+
+        Impacted components:
+        - Redis Cloud admin console (cloud.redis.io)
+        - Redis Cloud API
+        - redis.io
+
+        The issue originated from an upstream service provider. The incident has been fully mitigated and resolved, and all services are operating normally.
+
+        As always, Redis database connectivity remained unaffected throughout the incident.
+
+        If you have any questions or need further assistance, please contact us at support@redis.com. Thank you for your patience.
+      resolved: true

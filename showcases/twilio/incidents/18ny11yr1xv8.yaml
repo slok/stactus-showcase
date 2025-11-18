@@ -1,0 +1,11 @@
+version: incident/v1
+id: 18ny11yr1xv8
+name: Our Engineers are Investigating an Issue with 5XXs from Twilio Public API to Customer via Rest Proxy
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-18 21:00:55"
+      description: Our engineers are currently investigating the customer impact of a retroactive issue with 5XXs from Twilio Public API to Customer via Rest Proxy. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-11-18 21:04:21"
+      description: The Twilio Programmable Messaging API was partially degraded for 1 minute on Nov 18th, 2025 between 12:35:00 PST and 12:36:00 PST. During this period of time, customers sending a message may have received elevated volumes of 5xx's in API responses. This issue has now been resolved.
+      resolved: true
