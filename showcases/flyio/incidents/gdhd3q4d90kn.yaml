@@ -1,0 +1,11 @@
+version: incident/v1
+id: gdhd3q4d90kn
+name: Support Portal availability
+impact: none
+systems:
+    - lpn0847yxzbl
+timeline:
+    - ts: "2025-11-18 11:55:47"
+      description: Due to an ongoing incident with our upstream support platform provider, the support portal in the Fly.io dashboard is currently not operational, which means that you will not be able to view, update or create new tickets.
+    - ts: "2025-11-18 11:59:47"
+      description: Customers with a paid support package, free trial support or MPG support are invited to create new support tickets on support@fly.io until this incident is resolved.

@@ -1,0 +1,16 @@
+version: incident/v1
+id: lgt5xs2843rx
+name: Multiple Services Disruption
+impact: minor
+systems:
+    - p1x9rv4137gx
+    - txysr8r0gn1n
+    - ctwhml01vvw1
+    - nkx0nmdx9vrs
+timeline:
+    - ts: "2025-11-18 12:26:51"
+      description: |-
+        Our Engineering team is actively investigating an issue impacting multiple DigitalOcean services caused by an upstream provider incident. This disruption affects a subset of Gen AI tools, the App Platform, Load Balancer, and Spaces. Users may experience degraded performance or intermittent failures within these services.
+
+        We acknowledge the inconvenience this may cause and are working diligently to restore normal operations. Signs of recovery are starting to appear, with most requests beginning to succeed. We will continue to monitor the situation closely and provide timely updates as more information becomes available. Thank you for your patience as we work towards full service restoration
+      investigating: true

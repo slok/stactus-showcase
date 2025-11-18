@@ -1,0 +1,17 @@
+version: incident/v1
+id: kg2q8cv14840
+name: New Relic One UI not accesible in the EU due to a CDN outage
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-18 12:10:26"
+      description: We are investigating an issue with data ingest.
+      investigating: true
+    - ts: "2025-11-18 12:19:33"
+      description: 'We are investigating an issue with data ingest.If you are experiencing issues and unable to access In-App support, please reach out to our Support team through this form: https:support.newrelic.comscontact-new-relic-support-form'
+      investigating: true
+    - ts: "2025-11-18 12:23:27"
+      description: We have engaged Engineering Team to assist with further investigation and are evaluating additional mitigation efforts.
+    - ts: "2025-11-18 12:24:54"
+      description: Some customers in the EU region have reported recovery of data ingest.
+      resolved: true

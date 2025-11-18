@@ -6,5 +6,13 @@ systems:
     - 4n0gb0kh02gf
 timeline:
     - ts: "2025-11-18 11:48:27"
-      description: Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers. Further detail will be provided as more information becomes available.
+      description: |-
+        Cloudflare is aware of, and investigating an issue which impacts multiple customers: Widespread 500 errors, Cloudflare Dashboard and API also failing.
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-11-18 12:03:50"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-11-18 12:21:58"
+      description: We are seeing services recover, but customers may continue to observe higher-than-normal error rates as we continue remediation efforts.
       investigating: true
