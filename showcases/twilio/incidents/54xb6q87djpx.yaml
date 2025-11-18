@@ -1,0 +1,13 @@
+version: incident/v1
+id: 54xb6q87djpx
+name: SMS Delivery Failures To and From Multiple Small US Carriers
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - qj606bzkg4s8
+    - k7rg1rqk2nwk
+    - 32f2bm54nkvv
+timeline:
+    - ts: "2025-11-18 10:35:06"
+      description: We are experiencing SMS delivery failures when sending to and from multiple small US carriers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
