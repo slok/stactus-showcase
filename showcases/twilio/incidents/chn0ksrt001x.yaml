@@ -1,9 +1,13 @@
 version: incident/v1
 id: chn0ksrt001x
-name: On Call Engineers are Investigating an issue where voice-integrity-service can not create temporal workflows
-impact: none
-systems: []
+name: Branded Calling and Voice Integrity are failing provisioning with our Vendor Partners
+impact: minor
+systems:
+    - g2dt752kwqs0
 timeline:
     - ts: "2025-11-18 03:28:23"
       description: We are currently investigating this issue where voice-integrity-service can not create temporal workflows
+      investigating: true
+    - ts: "2025-11-18 03:49:08"
+      description: Our monitoring systems have detected a potential issue where information required for Branded Calling and Voice Integrity are failing provisioning with our vendor partners. This does not affect already provisioned bundles. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
