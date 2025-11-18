@@ -1,0 +1,17 @@
+version: incident/v1
+id: hxqx48n0hpg6
+name: Service Degradation Affecting Sign In, SSO, MFA
+impact: major
+systems:
+    - cgltwfnt80mm
+    - 5g595mfvxrwb
+    - wdd0686w5v3k
+    - 128z2hc5zph2
+    - dd7j6hgdy98l
+    - nb2s2j09f6sc
+    - mxh1682h05hp
+    - c1hyq57z8lnq
+timeline:
+    - ts: "2025-11-18 17:22:41"
+      description: We are actively investigating an issue causing significant service degradation across 1Password impacting sign in, SSO, MFA, and accessing items.
+      investigating: true
