@@ -1,10 +1,13 @@
 version: incident/v1
 id: 861ysy9l4njm
 name: UDP service issues
-impact: major
+impact: critical
 systems:
     - 8fj04n9b4v6c
 timeline:
     - ts: "2025-11-19 18:54:13"
       description: We're aware of routing issues with UDP services and are currently investigating.
+      investigating: true
+    - ts: "2025-11-19 19:38:22"
+      description: We are continuing to investigate an outage with UDP routing. Apps are currently unable to receive UDP traffic.
       investigating: true
