@@ -1,0 +1,20 @@
+version: incident/v1
+id: 5q59lhmdd6fm
+name: Connection issues with Ingest in EU
+impact: none
+systems:
+    - y3p11yl1yr8m
+    - zsjcl7zv5sn2
+    - yqcw0krmvwj5
+    - jk2k3ln898rx
+    - hm4r9fn1gr93
+    - 858xlnc93b96
+    - vdkznxzlr7nn
+    - jdszr85tpvd1
+    - 0ggq3l63l1sh
+    - 15b9hc4j611g
+    - 64hk5ch1ww5b
+timeline:
+    - ts: "2025-11-19 12:52:15"
+      description: Between 11:15 UTC and 12:40 UTC on November 19, some customers in the EU region may have experienced difficulties in data ingest. We have investigated and resolved this service interruption and impacted services have returned to normal operations
+      resolved: true
