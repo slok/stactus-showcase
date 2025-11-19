@@ -1,0 +1,10 @@
+version: incident/v1
+id: r259xh3ftvff
+name: Issues with Magic WAN Routing
+impact: minor
+systems:
+    - qgnxz00j1f2v
+timeline:
+    - ts: "2025-11-19 23:00:18"
+      description: Cloudflare is currently investigating issues with Magic WAN traffic impacting traffic destined to public IP addresses that is routed over private network tunnels.
+      investigating: true
