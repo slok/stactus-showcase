@@ -1,0 +1,31 @@
+version: incident/v1
+id: lt893vxjx80k
+name: Missing Billing Metrics for Loki
+impact: none
+systems:
+    - bg6nnf5n3pjx
+    - 1cj80yl7f6dy
+    - 9z18xdj3j8c7
+    - gx6m1v8jy475
+    - ttlshz10ly19
+    - 318npch70m7f
+    - nfll10wmx61f
+    - dy7xwydh5kv3
+    - k21kfy4lhmdw
+    - 2lyhl59mn4dl
+    - 6rlxmdg0t6v3
+    - hqf81r9207h6
+    - tpk4cdhtsm82
+    - 2gj2jt684k11
+    - d6hp5brmvsbt
+    - rwvs9fvrnhp2
+    - x40g7bxm0q2d
+    - v3g3j6krw8rp
+    - gp2m13gyj6x2
+    - 662yyglvgqpm
+    - l72f5c7651n5
+    - 98skfgrdgchf
+timeline:
+    - ts: "2025-11-19 06:20:39"
+      description: An incident has impacted Loki billing metrics from 05:30 to 06:10 UTC across all clusters. This is currently resolved, however, users may notice some billing metrics missing from the billing dashboard during this time period. There is no impact of logs querying or ingestion.
+      resolved: true
