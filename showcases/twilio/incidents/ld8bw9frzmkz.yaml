@@ -1,9 +1,13 @@
 version: incident/v1
 id: ld8bw9frzmkz
-name: On Call Engineers are Investigating an issue with SMS DLR Delays to Ooredoo Network in Tunisia
-impact: none
-systems: []
+name: SMS Delivery Report Delays and Failures to Ooredoo Network in Tunisia
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
 timeline:
     - ts: "2025-11-19 22:58:55"
       description: Our monitoring systems have detected a potential issue with SMS DLR Delays to Ooredoo network in Tunisia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-19 23:17:13"
+      description: We are experiencing SMS delivery report delays and failures to Ooredoo Network in Tunisia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
