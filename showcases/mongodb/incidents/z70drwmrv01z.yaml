@@ -1,0 +1,13 @@
+version: incident/v1
+id: z70drwmrv01z
+name: 'MongoDB Atlas: Activation Code redemptions may fail'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+    - q57ng8brt2td
+timeline:
+    - ts: "2025-11-19 17:55:08"
+      description: |-
+        We have identified an issue redeeming Activation Codes in both MongoDB Atlas and MongoDB Atlas for Government. Affected users will have an error when trying to apply their Activation Codes which may show as the "save" button disappearing and the subscription not being applied.
+
+        There is no workaround at this time. Please try again after this issue clears.

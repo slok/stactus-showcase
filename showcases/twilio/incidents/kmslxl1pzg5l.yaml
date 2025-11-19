@@ -1,6 +1,6 @@
 version: incident/v1
 id: kmslxl1pzg5l
-name: T-Mobile SMS/MMS/Short Code Delays for 10DLC, Long Code, and Toll-Free Traffic in the U.S
+name: SMS and MMS Delivery Delays to T-Mobile Network in the US
 impact: minor
 systems:
     - 7d8w22hqrh6s
@@ -18,7 +18,7 @@ timeline:
       description: T-Mobile has notified us that their planned maintenance window has been extended. As a result, message processing capacity is reduced, which may cause delays during peak periods—particularly at the top of the hour. While we expect the overall impact to be minimal, we are actively monitoring the situation and making adjustments as needed. We will provide another update in 1 hour or sooner if additional information becomes available.
       investigating: true
     - ts: "2025-11-19 17:10:22"
-      description: We are experiencing T-Mobile SMS/MMS/Short Code Delays for 10DLC, Long Code, and Toll-Free Traffic in the U.S. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      description: We are experiencing SMS and MMS Delivery delays to T-Mobile Network in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
     - ts: "2025-11-19 17:46:54"
       description: We are continuing to investigate this issue.
