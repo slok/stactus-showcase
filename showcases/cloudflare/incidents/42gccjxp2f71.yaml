@@ -1,0 +1,14 @@
+version: incident/v1
+id: 42gccjxp2f71
+name: Issues with IPSec tunnels in Magic Transit and Magic WAN
+impact: minor
+systems:
+    - bjlxcss20fsl
+    - qgnxz00j1f2v
+timeline:
+    - ts: "2025-11-19 07:25:51"
+      description: |-
+        Cloudflare is currently investigating issues related to IPsec tunnels in Magic Transit and Magic WAN products.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
