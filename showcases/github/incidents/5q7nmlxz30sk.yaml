@@ -37,5 +37,5 @@ timeline:
       description: Git Operations is operating normally.
       investigating: true
     - ts: "2025-11-18 21:59:21"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: From Nov 18, 2025 20:30 UTC to Nov 18, 2025 21:34 UTC we experienced failures on all Git operations, including both SSH and HTTP Git client interactions, as well as raw file access. These failures also impacted products that rely on Git operations.<br /><br />The root cause was an expired TLS certificate used for internal service-to-service communication. We mitigated the incident by replacing the expired certificate and restarting impacted services. Once those services were restarted we saw a full recovery.<br /><br />We have updated our alerting to cover the expired certificate and are performing an audit of other certificates in this area to ensure they also have the proper alerting and automation before expiration. In parallel, we are accelerating efforts to eliminate our remaining manually managed certificates, ensuring all service-to-service communication is fully automated and aligned with modern security practices.
       resolved: true
