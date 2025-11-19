@@ -1,6 +1,6 @@
 version: incident/v1
 id: 0l6104s8lb6x
-name: Connection issues with Ingest in EU (eu-proud-roof)
+name: Connection issues with Ingest in EU (eu-lesser-forest)
 impact: minor
 systems:
     - y3p11yl1yr8m
@@ -18,3 +18,7 @@ timeline:
     - ts: "2025-11-19 11:48:57"
       description: We are investigating an issue with data ingest
       investigating: true
+    - ts: "2025-11-19 12:16:32"
+      description: We have engaged our Product Management Team to assist with further investigation and are evaluating additional mitigation efforts.
+    - ts: "2025-11-19 12:19:06"
+      description: Some customers in the EU region have reported recovery of data ingest.
