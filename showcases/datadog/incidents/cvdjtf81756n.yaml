@@ -1,0 +1,10 @@
+version: incident/v1
+id: cvdjtf81756n
+name: Web Application Not Loading
+impact: critical
+systems:
+    - b5fx9rfn6137
+timeline:
+    - ts: "2025-11-19 19:08:07"
+      description: We are investigating loading issues on our web application. As a result, some users might be getting errors when loading the web application.
+      investigating: true
