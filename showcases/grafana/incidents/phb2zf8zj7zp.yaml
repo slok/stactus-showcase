@@ -1,0 +1,9 @@
+version: incident/v1
+id: phb2zf8zj7zp
+name: Intermittent issues when starting k6 cloud test runs
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-20 16:35:31"
+      description: We are experiencing issues starting cloud test runs. This is primarily affecting browser test runs and test runs using static IPs.
+      resolved: true
