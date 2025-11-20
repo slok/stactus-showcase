@@ -15,3 +15,6 @@ timeline:
       description: We have determined this is an issue affecting webhook responses, not Voice Rest API. We will provide an update within 1 hour.
     - ts: "2025-11-20 22:57:19"
       description: Our engineers have deployed a fix and are monitoring performance. Please note this issue impacted webhook responses and did not impact Voice calls. We will provide an update in 30 minutes.
+    - ts: "2025-11-20 23:23:57"
+      description: The issue affecting intermittent 15000 errors has been resolved, and the service is functioning normally at this time.
+      resolved: true
