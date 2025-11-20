@@ -12,3 +12,5 @@ timeline:
       description: At approximately 16:40 UTC we noticed an issue causing increased read & write latency in some prod-us-central-0 cells. At this stage we are noticing some recovery and will continue to monitor.
     - ts: "2025-11-20 17:23:45"
       description: The previous post mentioned that this was occurring in some cells in prod-us-central-0. This is incorrect and is occurring in some cells in prod-us-east-0.
+    - ts: "2025-11-20 17:47:48"
+      description: Things have recovered, and we are monitoring to ensure stability.
