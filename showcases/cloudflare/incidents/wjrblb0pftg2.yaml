@@ -1,0 +1,12 @@
+version: incident/v1
+id: wjrblb0pftg2
+name: 'Cloudflare CDN: Some websites failing to load resources in HTTP/3'
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2025-11-20 14:32:20"
+      description: |-
+        Cloudflare is aware of, and investigating an issue which potentially impacts a limited number of customers: we have reports of websites failing to load some resources in HTTP/3. This issue does not affect zones under our Enterprise Plan.
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
