@@ -1,0 +1,12 @@
+version: incident/v1
+id: cg3wwz9dw5dg
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-11-20 18:04:25"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-11-20 18:05:18"
+      description: We're investigating elevated error rates for a small amount of customers when accessing raw file content.
+      investigating: true

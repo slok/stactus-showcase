@@ -8,5 +8,14 @@ timeline:
       description: We are currently investigating this issue.
       investigating: true
     - ts: "2025-11-19 16:13:28"
-      description: At 19:43 UTC on 2025-11-19, we paused the queue that processes Mannequin Reclaiming work done at the end of a migration.<br /><br />This was done after observing load that threatened the health of the overall system.<br /><br />The cause has been identified, and efforts to fix are underway.<br /><br />In the current state:<br />- all requests to Reclaim Mannequins will be held in a queue<br />- those requests will be processed when repair work is complete and the queue unpaused, at which time the incident will be closed<br /><br />This does not impact processing of migration runs, only mannequin reclamation.<br />
+      description: |-
+        GitHub Enterprise Importer migration systems are currently impacted by a pause to Migration Mannequin Reclaiming.
+        At 19:43 UTC on 2025-11-19, we paused the queue that processes Mannequin Reclaiming work done at the end of a migration.
+        This was done after observing load that threatened the health of the overall system. The cause has been identified, and efforts to fix are underway.
+
+        In the current state:
+          - all requests to Reclaim Mannequins will be held in a queue
+          - those requests will be processed when repair work is complete and the queue unpaused, at which time the incident will be closed
+
+        This does not impact processing of migration runs using GitHub Enterprise Importer, only mannequin reclamation.
       investigating: true
