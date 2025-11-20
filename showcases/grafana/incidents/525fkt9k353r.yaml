@@ -3,10 +3,12 @@ id: 525fkt9k353r
 name: Elevated Read & Write Latency for Some Cells in Prod-Us-East-0
 impact: major
 systems:
-    - l72f5c7651n5
-    - jhc34sjt42wd
-    - 1tt4gx4t4q87
-    - 9xz0880z67zl
+    - 2lyhl59mn4dl
+    - 5270kl9kd6l2
+    - zqsjp5p0d8n7
+    - q8160vpq47xz
 timeline:
     - ts: "2025-11-20 17:12:07"
       description: At approximately 16:40 UTC we noticed an issue causing increased read & write latency in some prod-us-central-0 cells. At this stage we are noticing some recovery and will continue to monitor.
+    - ts: "2025-11-20 17:23:45"
+      description: The previous post mentioned that this was occurring in some cells in prod-us-central-0. This is incorrect and is occurring in some cells in prod-us-east-0.
