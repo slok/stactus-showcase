@@ -1,0 +1,11 @@
+version: incident/v1
+id: 5t89y11j6427
+name: Issue joining meetings using the newest Apple Safari 26.1 along with "iCloud Privacy Relay" feature enabled
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-20 02:27:53"
+      description: |-
+        A subset of Zoom web client users are experiencing join meeting failures when using the newest Apple Safari 26.1 along with "iCloud Privacy Relay" feature turned on. We suggest users to turn off the "iCloud Privacy Relay" as a workaround before Apple releases the fix.
+        Please refer to the support page from Apple to check or change your Safari 26.1 "iCloud Privacy Relay" feature here: https://support.apple.com/guide/icloud/set-up-icloud-private-relay-mm7dc25cb68f/icloud
+      resolved: true
