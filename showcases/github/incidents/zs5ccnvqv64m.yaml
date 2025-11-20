@@ -15,5 +15,5 @@ timeline:
       description: We have applied mitigation and are seeing recovery
       investigating: true
     - ts: "2025-11-19 18:07:20"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On November 19, between 17:36 UTC and 18:04 UTC, GitHub Actions service experienced degraded performance that caused excessive latency in queueing and updating workflow runs and job statuses. Operations related to artifacts, cache, job steps and logs also had significantly increased latency. At peak, 67% of workflow jobs queued during that timeframe were impacted, and the median latency for impacted operations increased by up to 35x.<br /><br />This was caused by a significant change in load pattern on Actions Cache-related operations, leading to a saturated shared resource on the backend. The impact was mitigated by mitigating the new load pattern.<br /><br />To reduce the likelihood of a recurrence, we are improving rate-limiting measures in this area to ensure a more consistent experience for all customers.  We are also evaluating changes to reduce the scope of impact.
       resolved: true
