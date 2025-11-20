@@ -1,0 +1,14 @@
+version: incident/v1
+id: f6qtr98rsvgf
+name: Issues Affecting Zoom Phone Outbound Calls in EU region
+impact: minor
+systems:
+    - hx06zxqdrsxl
+timeline:
+    - ts: "2025-11-20 11:00:46"
+      description: |-
+        We are currently investigating a service degradation with Zoom Phone outbound calls in Europe region.
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
