@@ -20,5 +20,5 @@ timeline:
       description: We continue to see recovery and dependabot jobs are currently processing as expected.
       investigating: true
     - ts: "2025-11-17 19:08:41"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: From Nov 17, 2025 00:00 UTC to Nov 17, 2025 15:00 UTC Dependabot was hitting a rate limit in GitHub Container Registry (GHCR) and was unable to complete about 57% of jobs.<br /><br />To mitigate the issue we lowered the rate at which Dependabot started jobs and increased the GHCR rate limit.<br /><br />We’re adding new monitors and alerts and looking into more ways to decrease load on GHCR to help prevent this in the future.
       resolved: true

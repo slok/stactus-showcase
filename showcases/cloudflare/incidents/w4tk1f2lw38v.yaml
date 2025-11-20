@@ -1,0 +1,10 @@
+version: incident/v1
+id: w4tk1f2lw38v
+name: CNI Version 2 Issues in Newark
+impact: minor
+systems:
+    - jm5mggc2wp95
+    - grpnztl4pd46
+timeline:
+    - ts: "2025-11-20 18:50:59"
+      description: We have identified an issue where CNI (Customer Network Interconnect) Version 2 customers connecting to our Newark colo are seeing BGP connectivity issues. We are currently working on a fix.
