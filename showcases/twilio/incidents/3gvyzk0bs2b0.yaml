@@ -7,3 +7,6 @@ timeline:
     - ts: "2025-11-20 13:59:12"
       description: Our monitoring systems have detected a potential issue with inbound calls not reaching subset of Taiwan Twilio numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-11-20 15:03:45"
+      description: We have fully investigated the inbound calls not reaching a subset of Taiwan Twilio numbers issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational
+      resolved: true
