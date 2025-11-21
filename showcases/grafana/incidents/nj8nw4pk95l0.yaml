@@ -1,0 +1,9 @@
+version: incident/v1
+id: nj8nw4pk95l0
+name: Some Loki Writes in Prod-Gb-South-0 Failed
+impact: major
+systems:
+    - 662yyglvgqpm
+timeline:
+    - ts: "2025-11-21 14:32:04"
+      description: From approximately 14:10-14:25 UTC, writes to Loki failed for a subset of customers in the gb-south-0 region. Most of these errors have already recovered, and our team continues to monitor the recovery.
