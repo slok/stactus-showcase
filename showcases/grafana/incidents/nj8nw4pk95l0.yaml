@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2025-11-21 14:32:04"
       description: From approximately 14:10-14:25 UTC, writes to Loki failed for a subset of customers in the gb-south-0 region. Most of these errors have already recovered, and our team continues to monitor the recovery.
+    - ts: "2025-11-21 15:38:22"
+      description: This incident has been resolved.
+      resolved: true
