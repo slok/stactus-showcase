@@ -1,13 +1,17 @@
 version: incident/v1
 id: j34fxnjk95r9
-name: SMS Delivery Delays to Claro network in Guatemala and Honduras
+name: SMS Delivery Delays to Claro Network in Guatemala, Honduras and Nicaragua
 impact: minor
 systems:
     - 7d8w22hqrh6s
+    - 42zx9w2kmtvf
 timeline:
     - ts: "2025-11-21 13:42:23"
       description: We are experiencing SMS delivery delays when sending messages to Claro network in Guatemala and Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2025-11-21 14:43:17"
       description: We are experiencing SMS delivery delays when sending messages to Claro network in Guatemala and Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-11-21 16:02:36"
+      description: After further investigation, we have identified that we're experiencing SMS delivery delays when sending messages to Claro network in Guatemala, Honduras and Nicaragua. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
