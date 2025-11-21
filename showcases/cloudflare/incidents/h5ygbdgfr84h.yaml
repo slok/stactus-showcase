@@ -1,0 +1,11 @@
+version: incident/v1
+id: h5ygbdgfr84h
+name: Load Balancing and Health Checks degraded performance
+impact: minor
+systems:
+    - vn1h2pfctsvn
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2025-11-21 23:46:34"
+      description: Cloudflare is investigating health processing delays on the Load Balancing and Health Checks products, leading to delayed customer notifications, analytics, and potentially stale steering decisions.
+      investigating: true
