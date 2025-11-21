@@ -17,5 +17,5 @@ timeline:
       description: Mitigation has been applied and operations have returned to normal.
       investigating: true
     - ts: "2025-11-20 19:24:33"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between November 20, 2025 17:16 UTC to November, 2025 19:08 UTC some users experienced delayed or failed Git Operations for raw file downloads. On average, the error rate was less than 0.2%. This was due to a sustained increase in unauthenticated repository traffic.<br /><br />We mitigated the incident by applying regional rate limiting and are taking steps to improve our monitoring and time to mitigation for similar issues in the future.
       resolved: true
