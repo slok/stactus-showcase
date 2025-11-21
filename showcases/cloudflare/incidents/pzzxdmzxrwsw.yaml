@@ -1,0 +1,10 @@
+version: incident/v1
+id: pzzxdmzxrwsw
+name: Issues with Private Network CIDR Routes for WARP Connector
+impact: none
+systems:
+    - y98zlwj1d7zh
+timeline:
+    - ts: "2025-11-21 16:09:08"
+      description: "Cloudflare was investigating an issue affecting WARP Connector where traffic destined for specific Private IP CIDR ranges failed to route correctly for a small subset of accounts. \n\nThis occurred between 2025-11-20 18:09 UTC to 2025-11-21 13:44 UTC. \n\nDuring this window, affected WARP Connectors may have appeared connected but failed to pass traffic to specific internal resources.\n\nOur engineering team identified the underlying cause and deployed a fix. This issue is fully resolved now."
+      resolved: true
