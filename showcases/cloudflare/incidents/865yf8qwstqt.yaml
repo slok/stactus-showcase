@@ -1,0 +1,13 @@
+version: incident/v1
+id: 865yf8qwstqt
+name: Cloudflare Workers AI Issues
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2025-11-21 16:44:16"
+      description: |-
+        Cloudflare has identified an issue whereby customers might experience errors from inference requests to @cf/qwen/qwen3-30b-a3b-fp8 model using Workers AI.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
