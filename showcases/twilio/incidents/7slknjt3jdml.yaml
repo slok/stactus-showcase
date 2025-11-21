@@ -1,0 +1,9 @@
+version: incident/v1
+id: 7slknjt3jdml
+name: Elevated Requests to TaskRouter's Activity List Endpoint
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-21 19:03:23"
+      description: From 16:47 until 17:00 UTC, TaskRouter customers may have encountered spikes in usage of the Activity List endpoint. This issue has been resolved.
+      resolved: true
