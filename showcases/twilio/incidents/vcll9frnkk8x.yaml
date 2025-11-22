@@ -1,0 +1,10 @@
+version: incident/v1
+id: vcll9frnkk8x
+name: SMS Delivery Failures To NetOne Network In Zimbabwe
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-11-22 07:48:17"
+      description: We are experiencing SMS delivery delays when sending messages to the NetOne Network In Zimbabwe . Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
