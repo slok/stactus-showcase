@@ -1,0 +1,13 @@
+version: incident/v1
+id: 56hbpcdzn0bs
+name: SMS Delivery Delays to Telkom in Kenya
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-11-23 15:38:51"
+      description: Our monitoring systems have detected a potential issue SMS delivery delays to Telkom in Kenya. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-23 15:42:29"
+      description: We are experiencing SMS delivery delays when sending messages to Telkom in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
