@@ -1,0 +1,10 @@
+version: incident/v1
+id: zvv072y0m140
+name: SMS Delivery Delays to Airtel in Zambia
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-11-24 13:45:00"
+      description: We are experiencing MMS/SMS delivery delays when sending messages to Airtel in Zambia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
