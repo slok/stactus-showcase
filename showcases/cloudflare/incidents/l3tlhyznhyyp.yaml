@@ -1,0 +1,13 @@
+version: incident/v1
+id: l3tlhyznhyyp
+name: Cloudflare Workers AI Issues
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2025-11-24 21:00:38"
+      description: |-
+        Cloudflare has identified an issue whereby customers might experience errors from inference requests to the @cf/baai/bge-reranker-base model using Workers AI.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
