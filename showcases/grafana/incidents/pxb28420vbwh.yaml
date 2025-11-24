@@ -1,0 +1,14 @@
+version: incident/v1
+id: pxb28420vbwh
+name: Synthetic Monitoring is down in prod-us-central-7
+impact: critical
+systems:
+    - l1hs6x2ml5hn
+    - k82d2w8b7lcz
+timeline:
+    - ts: "2025-11-24 11:19:36"
+      description: |-
+        Users can not interact with the SM API for any DB-related action, such as:
+        CRUD checks
+        CRUD probes
+      investigating: true
