@@ -1,9 +1,12 @@
 version: incident/v1
 id: js5rrqqrlb71
-name: On Call Engineers are Investigating an Issue of Increased Toll free verifications Service Process Time
+name: No Customer Impact of Increased Toll free verifications Service Process Time
 impact: none
 systems: []
 timeline:
     - ts: "2025-11-24 22:24:21"
       description: Our monitoring systems have detected a potential issue that is increasing service process time for Toll free verifications. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2025-11-24 22:50:53"
+      description: We have fully investigated the increasing service process time for Toll free verifications issue, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
