@@ -1,9 +1,13 @@
 version: incident/v1
 id: wd54v1w66lkm
-name: On Call Engineers are Investigating an issue of US Number Porting Requests Created Without Voice Capabilities
-impact: none
-systems: []
+name: US Numbers in the Porting-in Process Cannot be Configured
+impact: minor
+systems:
+    - pv5w18vrltfl
 timeline:
     - ts: "2025-11-24 23:36:21"
       description: Our monitoring systems have detected a potential issue US Number Porting Requests Created Without Voice Capabilities. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-24 23:51:16"
+      description: We are investigating an issue of phone numbers in the porting-in process that cannot be configured. We expect to provide another update in one hour or as soon as more information becomes available.
       investigating: true
