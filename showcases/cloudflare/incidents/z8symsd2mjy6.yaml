@@ -1,0 +1,13 @@
+version: incident/v1
+id: z8symsd2mjy6
+name: Audit Log v2 (beta) Delays
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2025-11-25 14:57:57"
+      description: |-
+        Cloudflare Audit Log v2 (beta) processing is running behind, causing some delay in timely delivery of audit data.
+
+        These delays do not impact analytics for DNS or Rate Limiting.
+      investigating: true
