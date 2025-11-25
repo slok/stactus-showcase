@@ -1,0 +1,13 @@
+version: incident/v1
+id: 44xmkp1h13v7
+name: Digital Experience Monitoring (DEX) Issues
+impact: minor
+systems:
+    - nmp96vgn1hpl
+timeline:
+    - ts: "2025-11-25 12:54:02"
+      description: |-
+        Cloudflare is investigating issues with its Digital Experience Monitoring (DEX) suite. Some statistics may be missing from the dashboard and the API.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
