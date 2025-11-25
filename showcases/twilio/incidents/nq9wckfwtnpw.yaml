@@ -4,7 +4,11 @@ name: On Call Engineers are Investigating an Issue with Flex Instances
 impact: minor
 systems:
     - q4d7rj555ljl
+    - b9z92qjr2p04
 timeline:
     - ts: "2025-11-25 14:32:05"
       description: Our monitoring systems have detected a potential issue with Flex instances. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-25 14:45:34"
+      description: Our engineering team is actively investigating an issue with Flex Instances and Taskrouter. We will provide another update in 1 hour or as soon as we have additional information.
       investigating: true
