@@ -15,3 +15,9 @@ timeline:
     - ts: "2025-11-25 14:57:53"
       description: "We are currently investigating an issue impacting multiple Flex customers who are unable to connect to Twilio servers. Our engineering teams are actively working to identify the root cause and restore full service as quickly as possible. \n\nFor customer support assistance, please log in to your Twilio or Twilio SendGrid account and submit a support ticket. We'll provide another update in 30 minutes."
       investigating: true
+    - ts: "2025-11-25 15:26:16"
+      description: |-
+        We continuing to investigate issues impacting multiple Flex customers. Customers utilizing Flex and Task Router began experiencing errors when logging in. This would result in customers being unable to login to Flex. They may also experience web socket connection errors, or customers seeing the following errors: ‘We have detected a problem with the service’. Our engineering teams are actively working to identify the root cause and restore full service as quickly as possible.
+
+        For customer support assistance, please log in to your Twilio or Twilio SendGrid account and submit a support ticket. We’ll provide another update in 30 minutes.
+      investigating: true
