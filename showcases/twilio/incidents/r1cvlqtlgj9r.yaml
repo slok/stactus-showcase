@@ -1,6 +1,6 @@
 version: incident/v1
 id: r1cvlqtlgj9r
-name: SMS Delivery Delays to and from Mexico for Short Codes
+name: SMS Delivery Delays and Failures to and from Mexico for a subset of Short Codes
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-11-26 00:45:21"
       description: We are experiencing SMS delivery delays when sending messages to and from Mexico for short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-11-26 01:47:34"
+      description: We continue to experience SMS delivery delays and failures when sending messages to and receiving from Mexico for a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hour or as soon as more information becomes available.
       investigating: true
