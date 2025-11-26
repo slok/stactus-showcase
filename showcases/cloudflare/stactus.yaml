@@ -797,6 +797,8 @@ systems:
     - id: 5s616lljfwdz
       name: Cloudflare Sites and Services / Realtime TURN Service
       description: "Separately from the SFU, Realtime offers a managed TURN service. TURN acts as a relay point for traffic between WebRTC clients like the browser and SFUs, particularly in scenarios where direct communication is obstructed by NATs or firewalls. TURN maintains an allocation of public IP addresses and ports for each session, ensuring connectivity even in restrictive network environments.\r\n\r\nUsing Cloudflare Realtime TURN service is available free of charge when used together with the Realtime SFU. Otherwise, it costs $0.05/real-time GB outbound from Cloudflare to the TURN client."
+    - id: t6dtrww21571
+      name: Europe / Wroclaw, Poland - (WRO)
     - id: yxhtws7ltl9t
       name: Cloudflare Sites and Services / RealtimeKit
       description: "Build real-time serverless video, audio and data applications.\r\n\r\nCloudflare Realtime is infrastructure for real-time audio/video/data applications. It allows you to build real-time apps without worrying about scaling or regions. It can act as a selective forwarding unit (WebRTC SFU), as a fanout delivery system for broadcasting (WebRTC CDN) or anything in between."
