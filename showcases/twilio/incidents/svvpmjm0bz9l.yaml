@@ -1,19 +1,22 @@
 version: incident/v1
 id: svvpmjm0bz9l
-name: MMS Delivery Report Delays to C-Spire in United States of America (311-230) via Subset of Longcodes
+name: MMS Delivery Delays to Small Networks in the United States from Subset of Long Codes
 impact: minor
 systems:
     - 8vdlvw3dsq8h
 timeline:
     - ts: "2025-11-27 15:16:23"
-      description: We are experiencing MMS Delivery Report Delays to C-Spire in the United States of America (311-230) via a Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 or as soon as more information becomes available.
+      description: We are experiencing MMS Delivery Report Delays to C-Spire in the United States of America via a Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 or as soon as more information becomes available.
       investigating: true
     - ts: "2025-11-27 16:16:05"
-      description: We are experiencing MMS Delivery Report Delays to C-Spire in the United States of America (311-230) via a Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      description: We are experiencing MMS Delivery Report Delays to C-Spire in the United States of America via a Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
     - ts: "2025-11-27 17:49:51"
       description: We are continuing to investigate this issue.
       investigating: true
     - ts: "2025-11-27 18:16:33"
-      description: We are experiencing MMS Delivery Report Delays to C-Spire in the United States of America (311-230) via a Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      description: We are experiencing MMS Delivery Report Delays to C-Spire in the United States of America via a Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-11-27 19:05:31"
+      description: We have identified MMS delivery delays to multiple networks in the US via a subset of Long Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
