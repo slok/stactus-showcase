@@ -1,0 +1,10 @@
+version: incident/v1
+id: yb1s66066xmq
+name: Alerts failing with prometheus
+impact: minor
+systems:
+    - jhc34sjt42wd
+timeline:
+    - ts: "2025-11-27 16:49:37"
+      description: We are currently investigating an issue around degraded services in prod-us-central-0. The expected behavioral impact is that the queries may take longer than usual to respond.
+      investigating: true
