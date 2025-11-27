@@ -1,11 +1,13 @@
 version: incident/v1
 id: mg98hqbc3hj7
-name: Increased Errors for Durable Objects in Portugal and the United Kingdom
+name: Purge delays for Durable Objects in Portugal and the United Kingdom
 impact: minor
 systems:
-    - qshn45g5q59m
     - bty1yz6dhh0v
 timeline:
     - ts: "2025-11-27 11:12:08"
-      description: "Cloudflare is aware of, and investigating an issue with Durable Objects which potentially impacts multiple customers in Portugal and in \nthe United Kingdom. Durable Objects are experiencing an elevated level of overload errors in the aforementioned regions. We are currently investigating this issue."
+      description: "Cloudflare is aware of, and investigating an issue with Durable Objects which potentially impacts multiple customers in Portugal and in \nthe United Kingdom. Durable Objects cache single file purges are experiencing delays in the aforementioned regions. We are currently investigating this issue."
+      investigating: true
+    - ts: "2025-11-27 11:34:06"
+      description: We are continuing to investigate this issue.
       investigating: true
