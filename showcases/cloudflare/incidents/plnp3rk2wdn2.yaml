@@ -1,0 +1,10 @@
+version: incident/v1
+id: plnp3rk2wdn2
+name: Cloudflare Email Notification degraded impacting Access one time pin and two factor authentication
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-11-27 15:19:38"
+      description: Cloudflare engineering is monitoring an issue causing email delivery failure for email notifications including Access One Time Pin, password reset and two factor authentication. Access and Dashboard authentication via other methods are not impacted at this time.
