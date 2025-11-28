@@ -20,3 +20,5 @@ timeline:
       description: We have identified and implemented a fix for the API outage. Some Managed Postgres clusters may be affected as a secondary effect and we are currently working to restore them.
     - ts: "2025-11-28 21:54:07"
       description: Our monitoring indicates that machines API, flyctl and dashboard access should have recovered. Some Managed Postgres clusters may still be affected -- Rest assured that your cluster's data is intact while we are working to recover them to a working state.
+    - ts: "2025-11-28 22:17:04"
+      description: We have identified some continuing issues with creating new apps and secrets and are working to resolve them.
