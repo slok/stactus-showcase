@@ -1,9 +1,13 @@
 version: incident/v1
 id: 3lgdz75n0830
-name: On Call Engineers are Investigating an issue with Increased latency for Message Logs
-impact: none
-systems: []
+name: Increased Latency for Message Logs
+impact: minor
+systems:
+    - 6cn0g627h62p
 timeline:
     - ts: "2025-11-28 22:21:47"
       description: Our monitoring systems have detected a potential issue with Message Logs. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-28 22:35:14"
+      description: Our monitoring systems have detected increased latency for Message Logs due to elevated traffic from MRS to HSS. This is causing delays in processing messaging GET and DELETE requests, with a low number of 5xx errors reported. Our engineering team is actively investigating the issue and working to identify the root cause. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
