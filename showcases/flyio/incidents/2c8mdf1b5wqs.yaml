@@ -3,10 +3,18 @@ id: 2c8mdf1b5wqs
 name: Increased API Errors
 impact: major
 systems:
+    - q5hm9x2qx9l9
     - 66r6rhq3hn9n
+    - nv3vps27z635
     - 80ykv2p95qgy
+    - dz36cj1q2s1r
+    - vnhk0y6jtn3q
+    - rc5yp3480n5g
     - 49yq6v65b33l
+    - k2t9fbjfxj8r
 timeline:
     - ts: "2025-11-28 21:16:19"
       description: We are investigating an increase in errors that affects numerous API endpoints including the Machines API, flyctl and dashboard.
       investigating: true
+    - ts: "2025-11-28 21:36:36"
+      description: We have identified and implemented a fix for the API outage. Some Managed Postgres clusters may be affected as a secondary effect and we are currently working to restore them.
