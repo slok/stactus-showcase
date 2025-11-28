@@ -7,9 +7,13 @@ systems:
     - w7nxj548smhd
     - whldrk77jnm4
     - 4rv9xfxmdjg9
+    - tfdww2zxylgd
     - mw3ktpy92305
+    - pv5w18vrltfl
     - d1j2nx64rpq3
     - yvvy3vlp4djf
+    - 1gkv0mxhzsjv
+    - s91kksd3hqjp
     - mwcz6hw53t7c
 timeline:
     - ts: "2025-11-28 15:27:08"
@@ -33,5 +37,8 @@ timeline:
     - ts: "2025-11-28 19:48:09"
       description: We are observing a continued recovery in Twilio services and noticing improvements in latency levels, which remain significantly reduced. We will keep monitoring all services to ensure a full recovery and will provide another update in 4 hours or as soon as more information becomes available.
     - ts: "2025-11-28 20:22:04"
+      description: After monitoring for some time, we started seeing a degradation of the service. We are observing latency and 5xx errors again. Our engineers are working to resolve the issue. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-11-28 20:50:26"
       description: After monitoring for some time, we started seeing a degradation of the service. We are observing latency and 5xx errors again. Our engineers are working to resolve the issue. We expect to provide another update in 30 minutes or as soon as more information becomes available.
       investigating: true
