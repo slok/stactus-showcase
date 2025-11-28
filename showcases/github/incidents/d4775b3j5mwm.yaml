@@ -1,7 +1,7 @@
 version: incident/v1
 id: d4775b3j5mwm
 name: Incident with Copilot
-impact: minor
+impact: major
 systems:
     - pjmpxvq2cmr2
 timeline:
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-11-28 07:04:46"
       description: We are investigating degraded performance with the Claude Sonnet 4.5 model in Copilot.
+      investigating: true
+    - ts: "2025-11-28 07:52:56"
+      description: We have rolled out a fix and are monitoring for recovery.
       investigating: true
