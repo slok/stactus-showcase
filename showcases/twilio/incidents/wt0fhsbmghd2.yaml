@@ -1,9 +1,17 @@
 version: incident/v1
 id: wt0fhsbmghd2
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Customer Experiencing High Latency and 500 Errors
+impact: minor
+systems:
+    - w7nxj548smhd
+    - whldrk77jnm4
+    - mw3ktpy92305
+    - d1j2nx64rpq3
+    - yvvy3vlp4djf
 timeline:
     - ts: "2025-11-28 15:27:08"
       description: Our monitoring systems have detected a potential issues creating latency and 5xx errors. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-28 15:41:52"
+      description: We are experiencing an issue with multiple Twilio services creating high latency and 500 errors. Our engineering team is actively working to resolve the issue. We expect to provide another update in 30 mins or as soon as more information becomes available.
       investigating: true
