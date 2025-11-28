@@ -1,6 +1,6 @@
 version: incident/v1
 id: xk3gvndch9tl
-name: SMS Delivery Delays to H3G in United Kingdom of Great Britain and Northern Ireland
+name: SMS Delivery Delays to H3G in United Kingdom of Great Britain and Northern Ireland from Subset of Long Codes
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -16,3 +16,5 @@ timeline:
       investigating: true
     - ts: "2025-11-28 14:17:13"
       description: We are observing recovery in SMS delivery delays when sending messages to H3G in United Kingdom of Great Britain and Northern Ireland.. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-11-28 16:13:19"
+      description: We are experiencing SMS delivery delays when sending messages to H3G in United Kingdom of Great Britain and Northern Ireland from subset of long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
