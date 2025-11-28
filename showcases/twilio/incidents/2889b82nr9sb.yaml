@@ -1,9 +1,13 @@
 version: incident/v1
 id: 2889b82nr9sb
 name: On Call Engineers are Investigating an issue with Flex
-impact: none
-systems: []
+impact: minor
+systems:
+    - q4d7rj555ljl
 timeline:
     - ts: "2025-11-28 10:50:31"
       description: Our monitoring systems have detected a potential issue with Flex. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-11-28 11:23:19"
+      description: We are investigating intermittent call/message orchestration with Flex. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
