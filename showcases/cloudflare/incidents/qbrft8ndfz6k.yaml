@@ -1,0 +1,10 @@
+version: incident/v1
+id: qbrft8ndfz6k
+name: Elevated number of errors in NRT
+impact: none
+systems:
+    - rmjk2n758yzc
+timeline:
+    - ts: "2025-11-28 06:56:23"
+      description: Between 06:20-06:35 UTC, customers reaching Tokyo would have experienced an elevated number of errors due to network issue.
+      resolved: true
