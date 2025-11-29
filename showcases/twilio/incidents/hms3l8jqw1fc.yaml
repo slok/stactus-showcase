@@ -22,3 +22,6 @@ timeline:
       investigating: true
     - ts: "2025-11-29 10:11:02"
       description: Our monitoring shows overall improvement in carrier-side traffic congestion, and we are observing instant MMS delivery from Twilio Long-Codes at this time. We will continue monitoring the overall US carrier networks to ensure a full recovery. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2025-11-29 14:23:08"
+      description: We are no longer experiencing MMS delivery issues from Twilio Long-Code at this time. This incident has been resolved.
+      resolved: true

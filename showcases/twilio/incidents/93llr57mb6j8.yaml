@@ -82,3 +82,6 @@ timeline:
       investigating: true
     - ts: "2025-11-29 10:10:34"
       description: Our monitoring shows overall improvement in carrier-side traffic congestion, and we are observing instant SMS delivery from Twilio Short-Codes at this time. We will continue monitoring the overall US carrier networks to ensure a full recovery. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2025-11-29 14:23:49"
+      description: We are no longer experiencing SMS delivery issues from Twilio Short-Code at this time. This incident has been resolved.
+      resolved: true
