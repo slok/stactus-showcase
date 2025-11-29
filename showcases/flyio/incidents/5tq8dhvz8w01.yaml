@@ -12,3 +12,5 @@ timeline:
       description: We have identified an issue affecting newly-allocated Anycast ingress IPv6 addresses for some apps and are working to deploy a fix. These apps may experience timeouts when connecting over IPv6 (which some clients default to).
     - ts: "2025-11-29 17:44:31"
       description: We will be rolling out a fix shortly
+    - ts: "2025-11-29 17:52:46"
+      description: A fix has been implemented and we are monitoring the results.
