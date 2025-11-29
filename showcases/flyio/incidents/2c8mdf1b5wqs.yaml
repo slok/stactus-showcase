@@ -37,3 +37,6 @@ timeline:
         On the Managed Postgres side, New MPG creates should be working. A small number of clusters remain degraded, or are experiencing connectivity issues. We are continuing to restore these as quickly as possible.
     - ts: "2025-11-29 03:41:02"
       description: Our metrics show that machines API has mostly recovered. We're still working through a small number of degraded Managed Postgres clusters.
+    - ts: "2025-11-29 07:05:27"
+      description: This incident has been resolved.
+      resolved: true
