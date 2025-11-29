@@ -28,3 +28,10 @@ timeline:
       description: We are continuing to see elevated errors with creating new apps, new MPG clusters, and setting secrets. A small number of MPG clusters continue to see connectivity errors. We are continuing to work on these issues.
     - ts: "2025-11-29 01:17:07"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2025-11-29 02:30:10"
+      description: We are continuing to work on a fix for this issue. Users will still see elevated error rates creating new apps, machines, and MPG clusters, as well as other API operations. Users may also see newly created machines remaining in a `created` state for an extended period before starting.
+    - ts: "2025-11-29 02:58:35"
+      description: |-
+        We have identified and implemented a fix for the root cause of this incident and are monitoring the results. Machines API should be seeing recovery.
+
+        On the Managed Postgres side, New MPG creates should be working. A small number of clusters remain degraded, or are experiencing connectivity issues. We are continuing to restore these as quickly as possible.
