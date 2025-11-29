@@ -1,0 +1,9 @@
+version: incident/v1
+id: rxwhdj8rknf0
+name: Issues with Custom Error Pages
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-11-29 15:59:22"
+      description: Cloudflare is aware of, and investigating an issue with Custom Error Pages. Visitors that are failing a challenge, might see the standard Cloudflare 500 error page instead. Further detail will be provided as more information becomes available.
+      investigating: true
