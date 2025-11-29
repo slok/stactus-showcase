@@ -14,3 +14,5 @@ timeline:
     - ts: "2025-11-28 23:35:33"
       description: We are experiencing increased latency for Message Logs due to elevated traffic from MRS to HSS. This is causing delays in processing messaging GET and DELETE requests, with a low number of 5xx errors reported. Our engineering team is actively investigating the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-11-29 00:14:56"
+      description: The latency for log processing is back to expected levels, and Message Logs are now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.

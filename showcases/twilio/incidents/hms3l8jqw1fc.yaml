@@ -1,0 +1,10 @@
+version: incident/v1
+id: hms3l8jqw1fc
+name: MMS Delivery Status From Twilio Long-Codes to US Carriers
+impact: minor
+systems:
+    - 8vdlvw3dsq8h
+timeline:
+    - ts: "2025-11-29 00:18:05"
+      description: "Due to sustained high traffic on the US carrier networks, we are currently experiencing MMS delivery issues from Twilio Long-Codes. Messages are queued due to capacity shortage, and customers may see delays when sending to certain US carriers. \n\nPlease find the current delivery status for the major carriers below:\n\nAT&T (status - Operational)\nT-Mobile (status - Operational)\nVerizon (status - DLR Delayed)             \nUS Cellular (status -  Operational)\n\nWe are actively working with our carrier partners to resolve the issue, and we will provide another update in 2 hours or as soon as we have any new information to share."
+      investigating: true
