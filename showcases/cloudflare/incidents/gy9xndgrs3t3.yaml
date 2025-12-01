@@ -1,0 +1,9 @@
+version: incident/v1
+id: gy9xndgrs3t3
+name: Workers Analytics delays in EU
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2025-12-01 11:48:14"
+      description: Cloudflare has identified an issue causing Workers analytics to be delayed for European customers. The Workers services are still fully operational, only analytics are delayed. We are working to mitigate this problem. More updates to follow shortly.
