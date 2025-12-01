@@ -1,0 +1,9 @@
+version: incident/v1
+id: bqdv0b4zdrt8
+name: Loki prod-ap-northeast-0-loki-prod-030 writes degradation
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-12-01 09:30:35"
+      description: Loki prod-ap-northeast-0-loki-prod-030 cell had writes degradation between 8:11 - 8:58 AM UTC. The engineering team mitigated the situation and the cell is stable now.
+      resolved: true
