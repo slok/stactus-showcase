@@ -1,0 +1,13 @@
+version: incident/v1
+id: r49mw1ltz0xh
+name: SMS Delivery Delay To T Mobile Network in Czech-Republic
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-12-01 10:28:39"
+      description: We are experiencing MMS/SMS delivery delays when sending messages to T Mobile network in Czech-Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-12-01 10:32:32"
+      description: We are experiencing MMS/SMS delivery delays when sending messages to T Mobile network in Czech-Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
