@@ -1,6 +1,6 @@
 version: incident/v1
 id: 9mrt3hdg1ccr
-name: SMS Delivery Report Delays From Twilio Short Code Numbers to US Carriers
+name: SMS Delivery Delays From Twilio Short Code Numbers to US Carriers
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-12-01 17:54:55"
       description: "Due to sustained high traffic on the US carrier networks, we are currently experiencing SMS delivery issues from Twilio Short Code.  Messages are queued due to capacity shortage, and customers may see delays when sending to certain US carriers.  \n\nPlease find the current delivery status for the major carriers below:\n\nAT&T (status - DLR Delayed)\nT-Mobile (status -  Operational)\nVerizon (status - DLR Delayed)              \nUS Cellular (status -  Operational)\n\nWe are actively working with our carrier partners to resolve the issue, and we will provide another update in 2 hours or as soon as we have any new information to share."
+      investigating: true
+    - ts: "2025-12-01 19:15:59"
+      description: "Due to sustained high traffic on the US carrier networks, we are currently experiencing SMS delivery issues from Twilio Short Code.  Messages are queued due to capacity shortage, and customers may see delays when sending to certain US carriers.  \n\nPlease find the current delivery status for the major carriers below:\n\nAT&T (status - Operational)\nT-Mobile (status -  Operational)\nVerizon (status - DLR Delayed)              \nUS Cellular (status -  Operational)\nDish Network (status -  Delays)\nC-Spire (status -  Delays)\nUS cell (status -  Delays)\nCellcom (status -  Delays)\nViaero (status -  Delays)\nGCI-Chat (status -  Delays)\n\nWe are actively working with our carrier partners to resolve the issue, and we will provide another update in 2 hours or as soon as we have any new information to share."
       investigating: true
