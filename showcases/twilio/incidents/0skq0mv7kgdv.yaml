@@ -13,3 +13,6 @@ timeline:
       investigating: true
     - ts: "2025-12-01 12:50:10"
       description: We are observing successful SMS delivery from subset of Twilio Numbers while sending message to Denmark. We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-12-01 14:36:45"
+      description: We are no longer experiencing SMS delivery failures from a subset of Twilio Numbers while sending message to Denmark. This incident has been resolved.
+      resolved: true
