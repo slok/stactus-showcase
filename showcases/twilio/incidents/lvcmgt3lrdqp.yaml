@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-12-01 17:48:32"
       description: "Due to sustained high traffic on the US carrier networks, we are currently experiencing SMS delivery issues from Twilio Long Code.  Messages are queued due to capacity shortage, and customers may see delays when sending to certain US carriers.  \n\nPlease find the current delivery status for the major carriers below:\n\nAT&T (status - DLR Delayed)\nT-Mobile (status -  Operational)\nVerizon (status - Operational)              \nUS Cellular (status -  Operational)\n\nWe are actively working with our carrier partners to resolve the issue, and we will provide another update in 2 hours or as soon as we have any new information to share."
       investigating: true
+    - ts: "2025-12-01 19:47:50"
+      description: Our monitoring shows overall improvement in carrier-side traffic congestion, and we are observing instant SMS delivery reports from Twilio Long Code at this time. We will continue monitoring the overall US carrier networks to ensure a full recovery. We will provide another update in 4 hours or as soon as more information becomes available.
