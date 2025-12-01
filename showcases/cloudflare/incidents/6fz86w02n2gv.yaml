@@ -1,0 +1,13 @@
+version: incident/v1
+id: 6fz86w02n2gv
+name: Cloudflare Logpush Delays
+impact: minor
+systems:
+    - k0mgxrls5y1b
+timeline:
+    - ts: "2025-12-01 06:59:34"
+      description: |-
+        Cloudflare is observing delays in our processing Cloudflare Logpush. Some customers may see material delays.
+
+        We are currently working on a resolution. More updates to follow shortly.
+      investigating: true
