@@ -1,0 +1,10 @@
+version: incident/v1
+id: 73bhqt6yyshr
+name: SMS Delivery Delays to China Mobile and China Telecommunications Network In China
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-12-01 17:05:09"
+      description: We are experiencing SMS delivery delays when sending messages to China Mobile and China Telecommunications Network In China. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
