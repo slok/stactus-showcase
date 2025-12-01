@@ -9,3 +9,5 @@ timeline:
     - ts: "2025-12-01 20:02:42"
       description: Messages being processed by Email Security are experiencing longer than usual processing time and delivery delays.
       investigating: true
+    - ts: "2025-12-01 21:14:32"
+      description: The issue has been identified and a fix is being implemented. New emails will not be impacted. Previously sent emails are still experiencing a delay, but are in the process of and will continue to be delivered. No emails will be lost.
