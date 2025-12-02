@@ -1,0 +1,10 @@
+version: incident/v1
+id: cm941x2lh14q
+name: SMS Delivery Delays to Small Networks in US via a subset of Short Codes
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2025-12-02 18:47:32"
+      description: We are experiencing SMS delivery delays when sending messages to Small Networks in US via a subset of Short Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
