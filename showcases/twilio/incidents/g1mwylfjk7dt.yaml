@@ -1,9 +1,19 @@
 version: incident/v1
 id: g1mwylfjk7dt
-name: On Call Engineers are Investigating an issue with MMS Delivery Delays To Multiple Network in the US Over a Subset of Short Codes
-impact: none
-systems: []
+name: MMS Delivery Delays to Multiple Network in the US Over a Subset of Short Codes
+impact: minor
+systems:
+    - h0fl7prwfhvm
 timeline:
     - ts: "2025-12-02 00:48:29"
       description: Our monitoring systems have detected a potential issue with MMS Delivery delays to multiple network in the US over a subset of short codes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-02 01:07:51"
+      description: We are experiencing MMS delivery delays when sending messages to multiple network in the US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-12-02 01:14:21"
+      description: We are experiencing MMS delivery delays when sending messages to multiple network in the US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-12-02 01:15:25"
+      description: We are continuing to investigate this issue.
       investigating: true

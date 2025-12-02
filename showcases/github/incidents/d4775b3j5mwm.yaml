@@ -15,5 +15,5 @@ timeline:
       description: We have rolled out a fix and are monitoring for recovery.
       investigating: true
     - ts: "2025-11-28 08:23:18"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On November 28th, 2025, between approximately 05:51 and 08:04 UTC, Copilot experienced an outage affecting the Claude Sonnet 4.5 model. Users attempting to use this model received an HTTP 400 error, resulting in 4.6% of total chat requests during this timeframe failing. Other models were not impacted.<br /><br />The issue was caused by a misconfiguration deployed to an internal service which made Claude Sonnet 4.5 unavailable. The problem was identified and mitigated by reverting the change. GitHub is working to improve cross-service deploy safeguards and monitoring to prevent similar incidents in the future.
       resolved: true
