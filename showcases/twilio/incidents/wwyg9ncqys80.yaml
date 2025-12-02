@@ -1,0 +1,10 @@
+version: incident/v1
+id: wwyg9ncqys80
+name: SMS Delivery Failures on Ditto Network in Philippines
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-12-02 17:40:56"
+      description: We are experiencing SMS delivery failures sending to Ditto Network in Philippines. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
