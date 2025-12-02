@@ -1,0 +1,10 @@
+version: incident/v1
+id: g8ztvjv80210
+name: SMS Delivery Failures to Multiple Networks in Brazil for a Subset of Registered SenderIDs
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-12-02 17:12:23"
+      description: We are experiencing SMS delivery failures towards Multiple Networks in Brazil for a Subset of Registered SenderIDs. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
