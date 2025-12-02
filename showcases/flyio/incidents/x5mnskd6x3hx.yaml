@@ -9,3 +9,5 @@ timeline:
     - ts: "2025-12-02 18:54:13"
       description: Deploys and image builds can fail in the "Waiting for Depot builder" step. We are investigating why Depot builders are not coming up, and have switched all builds to use Fly native builders temporarily. If you're still stuck in "Waiting for Depot builder", stop and restart your deploy, or use `fly deploy --depot=false`.
       investigating: true
+    - ts: "2025-12-02 19:33:07"
+      description: A fix for this issue has been deployed by Depot, we are re-enabling Depot builders and monitoring for any problems.
