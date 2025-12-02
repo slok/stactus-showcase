@@ -1,9 +1,9 @@
 version: incident/v1
 id: hft59r21zglr
-name: Voice - Media Streams Brief Spike in Create Session Failures.
-impact: none
+name: Intermittent Failures in Creating Media Stream Sessions
+impact: minor
 systems: []
 timeline:
     - ts: "2025-12-02 07:24:05"
-      description: "Between 8:37am and 8:39am PST, 15% of the media stream sessions would have experienced errors while trying to create new sessions. \nExisting sessions were not affected."
+      description: Between 8:37 AM and 8:39 AM PST, some customers may have encountered errors when attempting to create new media stream sessions. Only a small number of users were affected, and any sessions that were already active during this time were not impacted.
       resolved: true
