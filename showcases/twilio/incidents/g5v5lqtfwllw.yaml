@@ -1,0 +1,14 @@
+version: incident/v1
+id: g5v5lqtfwllw
+name: SMS Delivery Failures to Multiple Networks in France & French Overseas Territories
+impact: none
+systems:
+    - d1j2nx64rpq3
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2025-12-02 16:14:37"
+      description: |-
+        We were experiencing MMS/SMS Delivery Failures to Multiple Networks in France & French Overseas Territories during the following timeframe: 2025-12-02 13:06 UTC to 2025-12-02 13:36 UTC
+
+        This incident has since been resolved and we are no longer experiencing MMS/SMS delivery failures to Multiple Networks in France & French Overseas Territories. This incident has been resolved.
+      resolved: true
