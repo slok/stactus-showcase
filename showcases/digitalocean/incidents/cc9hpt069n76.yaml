@@ -1,0 +1,9 @@
+version: incident/v1
+id: cc9hpt069n76
+name: Guardrails Service Disruption Impacting Customers
+impact: minor
+systems:
+    - br95fz33h6td
+timeline:
+    - ts: "2025-12-02 20:55:20"
+      description: As of 20:07 UTC on December 2, 2025, our Engineering team has detected increased guardrail latency which may produce long response times for agents with attached guardrails. Engineering is working on a fix.  We apologize for the inconvenience and will share an update once we have more information.  Thank you for your patience and understanding as we work to resolve this issue.
