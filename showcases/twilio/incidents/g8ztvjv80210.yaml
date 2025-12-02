@@ -17,3 +17,5 @@ timeline:
     - ts: "2025-12-02 20:10:26"
       description: We are no longer experiencing SMS delivery failures following a temporary mitigation. However, Registered SenderIDs are currently not being preserved. We will provide another update in 4 hours or as soon as we have more information.
       investigating: true
+    - ts: "2025-12-02 22:55:32"
+      description: We are observing recovery, with SMS delivering successfully with SenderIDs preserved. We will continue to monitor to ensure a full recovery for 2 hours.
