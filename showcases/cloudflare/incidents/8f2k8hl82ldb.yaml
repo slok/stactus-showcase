@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8f2k8hl82ldb
+name: Custom certificate issue
+impact: minor
+systems:
+    - cghykwlwsmn5
+timeline:
+    - ts: "2025-12-03 06:27:16"
+      description: |-
+        Cloudflare is investigating an issue with uploading custom certificates. Some customers may not be able to successfully upload custom certificates.
+
+        Existing custom certificates and Cloudflare managed certificates are not impacted.
+      investigating: true
