@@ -1,0 +1,12 @@
+version: incident/v1
+id: qpvncmn5vtpr
+name: RCS Messages Delivery Failures towards AT&T US network
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - 8vdlvw3dsq8h
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-12-03 04:23:11"
+      description: We are experiencing an issue where RCS messages towards AT&T US network may be experiencing delivery failures. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
