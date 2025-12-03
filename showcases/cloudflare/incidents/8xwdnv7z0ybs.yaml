@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8xwdnv7z0ybs
+name: 'Cloudflare for SaaS: Issues with Custom Hostnames fallback origin'
+impact: minor
+systems:
+    - 9p2qlpt19nqb
+timeline:
+    - ts: "2025-12-03 09:17:28"
+      description: 'Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: The Dashboard buttons to configure a custom hostname fallback origin (Add, Edit, Refresh, Delete) are currently malfunctioning. We are working to resolve the issue. More updates to follow shortly.'
+      investigating: true
