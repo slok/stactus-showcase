@@ -1,0 +1,11 @@
+version: incident/v1
+id: l0w82k575n3b
+name: SMS Delivery Delays to T-Mobile US via a Subset Of Toll-Free and Longcode Numbers
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - 32f2bm54nkvv
+timeline:
+    - ts: "2025-12-03 15:13:30"
+      description: We are experiencing SMS delivery delays when sending messages to T-Mobile US via a Subset Of Toll-Free and Longcode Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
