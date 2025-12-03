@@ -1,0 +1,9 @@
+version: incident/v1
+id: gm3hhsty300p
+name: Cloudflare DNS Resolver 1.1.1.1
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-12-03 16:40:24"
+      description: Cloudflare has observed and mitigated an availability issue which potentially impacted users in multiple locations that use 1.1.1.1 public resolver. The issue was observed December 2nd from 18:09 to 18:40 UTC, and 1.0.0.1 was not impacted.
+      resolved: true
