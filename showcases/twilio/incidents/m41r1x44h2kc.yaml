@@ -1,0 +1,15 @@
+version: incident/v1
+id: m41r1x44h2kc
+name: Increased Latency and Timeouts Across Roles and Realms
+impact: major
+systems:
+    - 7c6yv3vctfqv
+    - q4d7rj555ljl
+    - vxjqr22fbl36
+timeline:
+    - ts: "2025-12-03 18:17:57"
+      description: Our monitoring systems have detected a potential issue with Flex. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-03 18:25:21"
+      description: We are experiencing Increased latency and timeouts across roles and realms. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
