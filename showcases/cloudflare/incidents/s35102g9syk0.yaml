@@ -1,0 +1,10 @@
+version: incident/v1
+id: s35102g9syk0
+name: Dashboard Login Latency and Timeouts
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-12-03 21:13:47"
+      description: We are investigating an issue with elevated dashboard login latency and timeouts for European users.
+      investigating: true
