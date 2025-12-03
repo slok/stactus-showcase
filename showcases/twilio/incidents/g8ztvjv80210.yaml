@@ -19,3 +19,6 @@ timeline:
       investigating: true
     - ts: "2025-12-02 22:55:32"
       description: We are observing recovery, with SMS delivering successfully with SenderIDs preserved. We will continue to monitor to ensure a full recovery for 2 hours.
+    - ts: "2025-12-03 02:39:20"
+      description: We are no longer experiencing SMS delivery failures towards Multiple Networks in Brazil for a Subset of Registered SenderIDs. This incident has been resolved.
+      resolved: true
