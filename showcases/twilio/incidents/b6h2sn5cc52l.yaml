@@ -1,10 +1,13 @@
 version: incident/v1
 id: b6h2sn5cc52l
-name: SMS Delivery Delays & Failures to Multiple Networks in Dominican Republic via Subset of Longcodes & Alphanumerics
+name: SMS Delivery Failures to Orange/Altice Network in Dominican Republic (370-01) via Subset of Longcodes & Alphanumerics
 impact: minor
 systems:
     - 42zx9w2kmtvf
 timeline:
     - ts: "2025-12-03 13:50:56"
       description: We are experiencing SMS delivery delays when sending messages to SMS Delivery Delays & Failures to Multiple Networks in Dominican Republic via Subset of Longcodes & Alphanumerics. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-12-03 14:50:38"
+      description: We continue experiencing SMS Delivery Failures to Orange/Altice Network in Dominican Republic (370-01) via Subset of Longcodes & Alphanumerics. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
