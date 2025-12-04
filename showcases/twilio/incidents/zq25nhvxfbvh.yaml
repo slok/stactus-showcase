@@ -1,0 +1,19 @@
+version: incident/v1
+id: zq25nhvxfbvh
+name: Increased Latency and DynamoDB Timeouts Across Roles and Realms
+impact: minor
+systems:
+    - 7c6yv3vctfqv
+    - q4d7rj555ljl
+    - vxjqr22fbl36
+    - m5b6twz4h52d
+timeline:
+    - ts: "2025-12-04 01:59:10"
+      description: We are currently investigating elevated latency and timeout errors for Twilio Rest API impacting multiple products.  Our engineering team is actively working on the issue, and we will provide another update in 30 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-12-04 02:07:29"
+      description: |-
+        We are experiencing Increased latency and DynamoDB timeouts across roles and realms. Our engineers are working to resolve the issue. We will provide another update in 30 minutes or as soon as more information becomes available.
+
+        Potentially impacted products - Studio, Flex Application Platform, Flex Routing, Identity
+      investigating: true

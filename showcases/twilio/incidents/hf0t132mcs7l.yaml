@@ -1,0 +1,13 @@
+version: incident/v1
+id: hf0t132mcs7l
+name: On Call Engineers are Investigating an issue
+impact: minor
+systems:
+    - zxhmy448yyn3
+timeline:
+    - ts: "2025-12-04 02:20:04"
+      description: Our monitoring systems have detected a potential issue with high latency on several apis on webhooks platfrom and event streams in us1. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-04 02:24:14"
+      description: Event Streams API is currently experiencing high latency issues. Our engineering team has been alerted and is actively investigating. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

@@ -1,0 +1,16 @@
+version: incident/v1
+id: khkznh7klwzw
+name: Network Performance Issue Affecting Some Traffic Served from Frankfurt, Germany (FRA)
+impact: minor
+systems:
+    - rbnhbzgld936
+timeline:
+    - ts: "2025-12-04 01:49:40"
+      description: |-
+        Cloudflare is currently investigating network performance issues affecting some traffic served from Frankfurt, Germany (FRA).
+
+        We are actively analyzing the impact and working to mitigate the problem. Further updates will be provided shortly.
+      investigating: true
+    - ts: "2025-12-04 02:07:07"
+      description: This incident has been resolved.
+      resolved: true
