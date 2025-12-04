@@ -1,0 +1,11 @@
+version: incident/v1
+id: x644z0k8ypk2
+name: Data Warehouse overnight loads failed
+impact: none
+systems:
+    - dpdsycjtknlz
+    - 6bq7bm3f198x
+    - 21mphp99021l
+timeline:
+    - ts: "2025-12-04 13:38:48"
+      description: Last night's Data Warehouse loads did not run as expected. We are refreshing data this morning, and expect completion by early afternoon. At this time the data is static as of yesterday.
