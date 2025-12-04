@@ -2,11 +2,15 @@ version: incident/v1
 id: mzzr2nnn9dx1
 name: SMS Delivery Delays to TIM Network in Brazil
 impact: minor
-systems: []
+systems:
+    - 42zx9w2kmtvf
 timeline:
     - ts: "2025-12-04 05:35:46"
       description: Our monitoring systems have detected a potential issue with SMS Delivery Delays to TIM Network in Brazil. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2025-12-04 05:36:08"
       description: We are experiencing SMS delivery delays when sending messages to TIM Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-12-04 06:40:07"
+      description: We continue to experience SMS delivery delays when sending messages to TIM Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
