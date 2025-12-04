@@ -1,0 +1,17 @@
+version: incident/v1
+id: kw1ms7q9gqsx
+name: Degradation in Managed Databases
+impact: minor
+systems:
+    - mzkgffp35tq4
+timeline:
+    - ts: "2025-12-04 18:03:57"
+      description: |-
+        As of 16:34 UTC, our Engineering team is investigating reports of errors and timeouts on control plane operations for Managed Databases. The issue is affecting multiple database engines, including PostgreSQL, MySQL, OpenSearch, Redis, and Kafka.
+
+        Users may experience errors or timeouts when attempting to list backups, through both the API and UI. We want to emphasize that this issue does not currently appear to be impacting the data plane, and databases should continue to be accessible and functional.
+
+        Our team is working to determine the root cause of the issue and will share an update once we have more information. We apologize for the inconvenience and appreciate your patience as we work to resolve this incident.
+
+        We will provide further updates as soon as more information is available.
+      investigating: true

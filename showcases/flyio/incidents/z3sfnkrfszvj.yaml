@@ -3,9 +3,13 @@ id: z3sfnkrfszvj
 name: Network instability in IAD region
 impact: none
 systems:
+    - nv3vps27z635
     - 49yq6v65b33l
     - qyh8qlklk7mx
 timeline:
     - ts: "2025-12-04 17:47:06"
       description: We are investigating alerts and reports of unstable networking (dropped packets, closed connections) in our IAD region. This impacts both user applications and Managed Postgres clusters as well as some API operations.
+      investigating: true
+    - ts: "2025-12-04 17:52:21"
+      description: We are continuing to investigate this issue.
       investigating: true
