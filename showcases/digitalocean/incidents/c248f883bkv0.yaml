@@ -1,0 +1,18 @@
+version: incident/v1
+id: c248f883bkv0
+name: Gradient AI Platform – Service Degradation
+impact: none
+systems: []
+timeline:
+    - ts: "2025-12-04 14:25:11"
+      description: |-
+        During the timeframe 06:24 UTC – 13:45 UTC, the Gradient AI platform experienced a period of degraded functionality affecting a limited set of features. While the platform remained accessible, the below components did not perform as expected.
+
+        Impacted Areas:
+        - Gradient Agent Evaluations
+        - Agent trace visibility
+        - Access management for traces
+        - Agent deletion for agents with traces enabled
+
+        Our Engineering team identified the underlying cause and restored full functionality across all affected components. The platform has remained stable since resolution, and monitoring confirms normal performance.
+      resolved: true

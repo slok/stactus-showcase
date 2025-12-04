@@ -10,9 +10,11 @@ systems:
     - 47xg28c02lnk
 timeline:
     - ts: "2025-12-04 14:09:18"
-      description: Cloudflare is aware of, and investigating an issue with Durable Objects, R2, Log Explorer and Logs which potentially impacts multiple customers in the Western North America region. Durable Objects, R2, Log Explorer and Logs are experiencing elevated latency in the aforementioned region. We are currently investigating this issue.
+      description: Cloudflare is aware of, and investigating an issue with Durable Objects, Stream, R2, Log Explorer and Logs which potentially impacts multiple customers in the Western North America region. These features are experiencing elevated latency in the aforementioned region. We are currently investigating this issue.
       investigating: true
     - ts: "2025-12-04 14:12:17"
       description: The issue has been identified and a fix is being implemented.
     - ts: "2025-12-04 14:24:11"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2025-12-04 14:31:00"
+      description: A fix has been implemented and we are monitoring the results.
