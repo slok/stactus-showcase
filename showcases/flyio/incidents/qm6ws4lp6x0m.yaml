@@ -1,0 +1,12 @@
+version: incident/v1
+id: qm6ws4lp6x0m
+name: Network issues in Sydney
+impact: minor
+systems:
+    - 6g1pz83ylj1r
+timeline:
+    - ts: "2025-12-04 02:47:15"
+      description: We are investigating partially degraded routing between Sydney and some regions in Europe and North America.
+      investigating: true
+    - ts: "2025-12-04 02:52:51"
+      description: Traffic appears to have resolved. We will continue to monitor network performance and reroute as needed.
