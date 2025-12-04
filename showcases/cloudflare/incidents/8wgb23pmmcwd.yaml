@@ -1,0 +1,18 @@
+version: incident/v1
+id: 8wgb23pmmcwd
+name: Increased Latency for multiple features in the WNAM Region
+impact: minor
+systems:
+    - bty1yz6dhh0v
+    - w324dr932r05
+    - k0mgxrls5y1b
+    - hb7g5sq2zz0h
+    - 47xg28c02lnk
+timeline:
+    - ts: "2025-12-04 14:09:18"
+      description: Cloudflare is aware of, and investigating an issue with Durable Objects, R2, Log Explorer and Logs which potentially impacts multiple customers in the Western North America region. Durable Objects, R2, Log Explorer and Logs are experiencing elevated latency in the aforementioned region. We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-12-04 14:12:17"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-12-04 14:24:11"
+      description: We are continuing to work on a fix for this issue.
