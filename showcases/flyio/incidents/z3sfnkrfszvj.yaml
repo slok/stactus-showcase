@@ -3,7 +3,6 @@ id: z3sfnkrfszvj
 name: Network instability in IAD region
 impact: none
 systems:
-    - nv3vps27z635
     - 49yq6v65b33l
     - qyh8qlklk7mx
 timeline:
@@ -13,3 +12,5 @@ timeline:
     - ts: "2025-12-04 17:52:21"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-12-04 18:57:06"
+      description: A mitigation is in place and IPv4 and IPv6 connectivity has returned to normal. We are  continuing to monitor.
