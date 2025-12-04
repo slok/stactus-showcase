@@ -10,3 +10,6 @@ timeline:
     - ts: "2025-12-04 21:14:52"
       description: We are observing IPv4 and IPv6 network instability in IAD affecting user Apps, as well as Managed Postgres clusters and some API operations. We are working with our upstream network infrastructure providers to resolve the issue.
       investigating: true
+    - ts: "2025-12-04 21:52:43"
+      description: A mitigation has been implemented restoring normal network connectivity. We are still working with our upstream providers to address the root cause.
+      investigating: true
