@@ -1,0 +1,14 @@
+version: incident/v1
+id: 4pwrzd12vq5d
+name: Meta OTP Codes Delivery Failure
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+    - x3z86l06nvl7
+timeline:
+    - ts: "2025-12-03 23:49:06"
+      description: Our monitoring systems have detected a potential issue with Meta OTP codes delivery. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-04 00:01:27"
+      description: We are currently experiencing rate limiting issues for request code endpoint thats is impacting all WhatsApp Sender onboarding through Senders API. Our engineering team is actively working on the issue, and we will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
