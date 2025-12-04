@@ -15,3 +15,5 @@ timeline:
 
         We will provide further updates as soon as more information is available.
       investigating: true
+    - ts: "2025-12-04 21:22:03"
+      description: "As of 19:47 UTC, our Engineering team has implemented a fix for the errors on Managed Database list backup operations, which was related to a dependency issue. The situation is currently improving, and we are seeing a reduction in error rates.\n\nThe impact was limited to list backup operations for PostgreSQL, MySQL, OpenSearch, Redis, and Kafka engines, where users may have experienced errors when attempting to retrieve a list of backups through both the API and UI. We are now monitoring the situation to ensure that the fix is fully effective and that all operations are functioning normally.\n\nUsers should no longer experience errors when listing backups, and all other control plane operations, such as creating, updating, or deleting databases, should continue to function normally. \n\nWe will continue to monitor the situation to ensure that the issue is fully resolved. \n\nWe apologize for the disruption and appreciate your patience."
