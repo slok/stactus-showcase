@@ -1,0 +1,16 @@
+version: incident/v1
+id: 1ky6878xf4zt
+name: Network Performance Issues in Jakarta
+impact: minor
+systems:
+    - gdywyg76bgy3
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-12-05 04:09:12"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in Jakarta (CGK), ID. Some customers may observe elevated errors and/or latency.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-12-05 04:16:20"
+      description: A fix has been implemented and we are monitoring the results.
