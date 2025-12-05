@@ -1,0 +1,14 @@
+version: incident/v1
+id: rpjs6gtf6qwy
+name: API and Homepage Availability Issues
+impact: major
+systems: []
+timeline:
+    - ts: "2025-12-05 09:14:19"
+      description: An upstream provider is investigating a major issue, and we are currently investigating the impact to Discord.
+      investigating: true
+    - ts: "2025-12-05 09:19:16"
+      description: The upstream provider has implemented a fix and are monitoring the results.
+    - ts: "2025-12-05 09:22:58"
+      description: This incident has been resolved.
+      resolved: true

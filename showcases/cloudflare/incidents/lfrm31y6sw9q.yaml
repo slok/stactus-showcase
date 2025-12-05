@@ -1,0 +1,23 @@
+version: incident/v1
+id: lfrm31y6sw9q
+name: Cloudflare Service Issues
+impact: critical
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2025-12-05 08:56:26"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Dashboard and related APIs.
+
+        Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed.
+      investigating: true
+    - ts: "2025-12-05 09:09:06"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-12-05 09:12:20"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-12-05 09:19:38"
+      description: We are continuing to monitor the results.
+    - ts: "2025-12-05 09:20:52"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,23 @@
+version: incident/v1
+id: llgwwjzm8zl1
+name: Network Outage
+impact: critical
+systems:
+    - sw5q8tgl2864
+    - nfd5mclwftjw
+    - 5fs3yzwktd3t
+    - lmqq1jxmb62p
+    - w7ycvnq5lw8s
+    - k1z8m42c0d7r
+    - tlk3750f34v2
+    - 754syp224y5m
+    - 6hkfwd93hvnk
+timeline:
+    - ts: "2025-12-05 08:59:49"
+      description: 'Cloud services are experiencing access issues due to a Cloudflare outage. Details info: https://www.cloudflarestatus.com/incidents/lfrm31y6sw9q'
+      investigating: true
+    - ts: "2025-12-05 09:09:35"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-12-05 09:15:06"
+      description: A fix has been implemented and we are monitoring the results.
