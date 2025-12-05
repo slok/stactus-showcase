@@ -22,3 +22,6 @@ timeline:
       investigating: true
     - ts: "2025-12-05 03:09:33"
       description: We are observing successful SMS delivery sending to Mobicom in Mongolia for a subset of Long Codes.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2025-12-05 05:14:49"
+      description: We are no longer experiencing SMS delivery failures when sending messages to Mobicom in Mongolia for long codes. This incident has been resolved.
+      resolved: true

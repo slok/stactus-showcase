@@ -1,0 +1,10 @@
+version: incident/v1
+id: lsk2dthx04lx
+name: Outbound Call Quality issue from a Subset of Twilio Phone Numbers in Malaysia
+impact: minor
+systems:
+    - 50pr269zqrwj
+timeline:
+    - ts: "2025-12-05 05:10:42"
+      description: We are observing an Outbound Call Quality issue from a subset of Twilio Phone Numbers in Malaysia. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
