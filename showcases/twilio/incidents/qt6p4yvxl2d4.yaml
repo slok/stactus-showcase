@@ -8,3 +8,8 @@ timeline:
     - ts: "2025-12-04 22:54:29"
       description: We are experiencing SMS delivery delays and failures when sending messages to China Unicom in China. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-12-05 00:21:45"
+      description: |-
+        China SMS is a Twilio Best Effort destination. We will continue investigation, however resolve the status post per the information in the following post:
+        https://www.twilio.com/en-us/guidelines/cn/sms
+      resolved: true
