@@ -1,0 +1,14 @@
+version: incident/v1
+id: k9ppxftx8bs5
+name: Cloudflare Workers Issues
+impact: minor
+systems:
+    - 57srcl8zcn7c
+    - tmh50tx2nprs
+timeline:
+    - ts: "2025-12-05 09:33:45"
+      description: |-
+        Cloudflare is investigating an increased level of errors for customers running Workers scripts.
+
+        We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
