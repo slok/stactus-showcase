@@ -1,10 +1,13 @@
 version: incident/v1
 id: c7vrcpwp3cpg
-name: Twilio Customer Faced Voice Call Drop, Calls failing to establish and SMS delivery through Ireland gateway from 9:24 to 9:29 UTC. Services are back to Normal.
+name: Impact to Twilio Voice & Messaging Services
 impact: none
 systems:
     - g2dt752kwqs0
 timeline:
     - ts: "2025-12-05 10:13:17"
-      description: This incident has been resolved.
+      description: |-
+        Between 09:24 - 09:29 UTC Twilio experienced disruption to Voice and Messaging services in ie1. At this time, all services have recovered and we do not expect any further degradation.
+
+        Voice customers with active calls may have experienced call drops or failures to establish call sessions. Failover did take place to minimize impact. Messaging customers may have experienced a delay in message delivery and, in extremely isolated cases, message failure. Retry redundancy took effect to protect traffic.
       resolved: true
