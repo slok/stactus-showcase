@@ -19,5 +19,8 @@ timeline:
     - ts: "2025-12-05 09:19:38"
       description: We are continuing to monitor the results.
     - ts: "2025-12-05 09:20:52"
-      description: This incident has been resolved.
+      description: |-
+        This incident has been resolved.
+
+        A change made to how Cloudflare's Web Application Firewall parses requests caused Cloudflare's network to be unavailable for several minutes this morning. This was not an attack; the change was deployed by our team to help mitigate the industry-wide vulnerability disclosed this week in React Server Components. We will share more information as we have it today.
       resolved: true
