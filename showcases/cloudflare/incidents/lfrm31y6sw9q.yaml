@@ -22,5 +22,7 @@ timeline:
       description: |-
         This incident has been resolved.
 
-        A change made to how Cloudflare's Web Application Firewall parses requests caused Cloudflare's network to be unavailable for several minutes this morning. This was not an attack; the change was deployed by our team to help mitigate the industry-wide vulnerability disclosed this week in React Server Components. We will share more information as we have it today.
+        A change made to how Cloudflare's Web Application Firewall parses requests caused Cloudflare's network to be unavailable for several minutes this morning. This was not an attack; the change was deployed by our team to help mitigate the industry-wide vulnerability disclosed this week in React Server Components.
+
+        More information can be found on our blog post: https://blog.cloudflare.com/5-december-2025-outage/
       resolved: true
