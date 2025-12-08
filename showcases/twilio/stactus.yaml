@@ -3,7 +3,7 @@ name: Twilio
 url: https://status.twilio.com
 systems:
     - id: f7f727f39kx3
-      name: ELASTIC SIP TRUNKING / Origination
+      name: ELASTIC SIP TRUNKING US1 / Origination US1
       description: Elastic SIP Trunking
     - id: g4hs7h64k9fv
       name: DEVELOPER TOOLS / Console
@@ -23,6 +23,10 @@ systems:
       name: ZIPWHIP MESSAGING / SMS Long Code, North America
     - id: 2n998q57dwnf
       name: ZIPWHIP TOOLS / Zipwhip Provisioner Dashboard and API
+    - id: hq07c8303pt1
+      name: ELASTIC SIP TRUNKING AU1 / Origination AU1
+    - id: zw99v7rdwjf6
+      name: ELASTIC SIP TRUNKING IE1 / Origination IE1
     - id: b9z92qjr2p04
       name: FLEX / TaskRouter
       description: Twilio TaskRouter service
@@ -39,11 +43,15 @@ systems:
     - id: zxhmy448yyn3
       name: DEVELOPER TOOLS / Event Streams
     - id: mn1wpm35k4s4
-      name: ELASTIC SIP TRUNKING / Termination
+      name: ELASTIC SIP TRUNKING US1 / Termination US1
     - id: llqd4rmn8k8y
       name: ZIPWHIP MESSAGING / MMS Long Code, North America
     - id: fq1snk8q5ybp
       name: ZIPWHIP TOOLS / Zipwhip Support Ticketing
+    - id: 7543zz3gkd1w
+      name: ELASTIC SIP TRUNKING AU1 / Termination AU1
+    - id: prh5xth8b524
+      name: ELASTIC SIP TRUNKING IE1 / Termination IE1
     - id: 39mb8cmw8y2v
       name: CARRIER NETWORK / SMS Short Code, North America
     - id: 6ltxq62mkxd0
@@ -109,8 +117,6 @@ systems:
     - id: tfdww2zxylgd
       name: PROGRAMMABLE VOICE / Queue
       description: Queue
-    - id: hjfntfyhnn4l
-      name: INTERCONNECT
     - id: 2v3v92mz2m4h
       name: CARRIER NETWORK / Voice, North America
     - id: mw3ktpy92305
@@ -120,23 +126,25 @@ systems:
     - id: dv0j99s68yxn
       name: PROGRAMMABLE VOICE / Text-to-Speech
       description: Text-to-Speech
-    - id: pv5w18vrltfl
-      name: PHONE NUMBERS
-      description: Buying and searching
+    - id: hjfntfyhnn4l
+      name: INTERCONNECT
     - id: fbtv2g9t3z25
       name: CARRIER NETWORK / Voice, Latin America
     - id: vxjqr22fbl36
       name: FLEX / Flex Routing
     - id: 86c0cvzk43pv
       name: PROGRAMMABLE VOICE / Recording Transcriptions
-    - id: rk4qzxxbwj7t
-      name: PROGRAMMABLE CHAT
+    - id: pv5w18vrltfl
+      name: PHONE NUMBERS
+      description: Buying and searching
     - id: 42zx9w2kmtvf
       name: CARRIER NETWORK / SMS, Latin America
     - id: 7ypw8tsmyr78
       name: FLEX / Flex Conversations
     - id: xnzrm2zg4qbv
       name: PROGRAMMABLE VOICE / TwiML
+    - id: rk4qzxxbwj7t
+      name: PROGRAMMABLE CHAT
     - id: xv01vfp8wvs4
       name: TWILIO PLATFORM / Customer Support Center
       description: This includes services related to reaching support via phone, email, and chat.
@@ -210,14 +218,14 @@ systems:
       name: CARRIER NETWORK / Lookup Identity Match
     - id: 6cn0g627h62p
       name: PROGRAMMABLE MESSAGING / Messaging Services
+    - id: kj97j77088bh
+      name: Sender ID
     - id: mwcz6hw53t7c
       name: PROGRAMMABLE VOICE / Voice REST API
     - id: t4bxfcg2ppvb
       name: CARRIER NETWORK / Lookup Line Type Intelligence [Legacy API]
     - id: 3p1q1qbw970c
       name: PROGRAMMABLE MESSAGING / Content API
-    - id: kj97j77088bh
-      name: Sender ID
     - id: cfy5cxrly95b
       name: CARRIER NETWORK / Lookup Line Type Intelligence [Twilio API]
     - id: brty2vw4qv6v
