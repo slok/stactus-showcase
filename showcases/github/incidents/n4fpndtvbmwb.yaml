@@ -1,0 +1,12 @@
+version: incident/v1
+id: n4fpndtvbmwb
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-12-08 21:28:27"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2025-12-08 21:32:57"
+      description: We are currently investigating failures with the GPT 4o model for Copilot completions.
+      investigating: true
