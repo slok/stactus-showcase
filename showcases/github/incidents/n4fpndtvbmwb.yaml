@@ -13,3 +13,6 @@ timeline:
     - ts: "2025-12-08 22:04:47"
       description: 'We''re continuing to investigate and mitigate issues with the GPT 4o model for Copilot completions. Users can currently work around this issue by updating their VS Code settings with "github.copilot.advanced.debug.overrideEngine": "gpt-41-copilot".'
       investigating: true
+    - ts: "2025-12-08 22:10:59"
+      description: We are beginning to see signs of resolution after applying a mitigation. We expect full resolution within approximately 30 minutes.
+      investigating: true
