@@ -1,0 +1,10 @@
+version: incident/v1
+id: v99ry9g2xjt2
+name: SMS Delivery Report Delays To Google Voice In United States 311-910 via Subset of Shortcodes
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2025-12-08 06:52:02"
+      description: We are experiencing delays in receiving message delivery reports when sending to United States via Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
