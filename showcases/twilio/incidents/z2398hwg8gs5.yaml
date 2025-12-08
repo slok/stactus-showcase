@@ -1,6 +1,6 @@
 version: incident/v1
 id: z2398hwg8gs5
-name: SMS Delivery Failures to Movicel in Angola 631-04
+name: SMS Delivery Failures to Movicel in Angola
 impact: minor
 systems:
     - 9z5gsqyjs4rl
@@ -14,3 +14,5 @@ timeline:
     - ts: "2025-12-08 06:15:53"
       description: We are experiencing SMS Delivery Failures to Movicel in Angola. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-12-08 08:18:28"
+      description: We are observing successful SMS delivery to Movicel in Angola.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
