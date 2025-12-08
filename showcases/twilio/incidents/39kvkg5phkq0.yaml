@@ -1,0 +1,10 @@
+version: incident/v1
+id: 39kvkg5phkq0
+name: Call Quality Issue to a Subset to Twilio Phone Number in Brazil
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2025-12-08 16:55:25"
+      description: We are investigating outbound call quality issues from a subset of Twilio's Phone Numbers in Brazil. Our engineering team is working with our carrier partners to resolve this. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
