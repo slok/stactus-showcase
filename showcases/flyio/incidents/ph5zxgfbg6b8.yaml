@@ -1,0 +1,13 @@
+version: incident/v1
+id: ph5zxgfbg6b8
+name: Network outage in SIN region
+impact: critical
+systems:
+    - b97pv9yxbzv7
+timeline:
+    - ts: "2025-12-08 21:10:05"
+      description: We are investigating a network issues in SIN region.
+      investigating: true
+    - ts: "2025-12-08 21:17:22"
+      description: This incident has been resolved.
+      resolved: true
