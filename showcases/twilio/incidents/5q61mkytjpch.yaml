@@ -1,9 +1,13 @@
 version: incident/v1
 id: 5q61mkytjpch
-name: On Call Engineers are Investigating an issue with Delays in Event Streams
-impact: none
-systems: []
+name: Event Streams is experiencing Delays in Delivering Events
+impact: minor
+systems:
+    - zxhmy448yyn3
 timeline:
     - ts: "2025-12-09 23:04:52"
       description: Our monitoring systems have detected a potential issue with delays in Event Streams. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-09 23:09:32"
+      description: Event Streams is experiencing delays in delivering events. Our engineering team has been alerted and is actively investigating. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
