@@ -13,3 +13,8 @@ timeline:
 
         We apologize for the inconvenience and will share an update once we have more information.
       investigating: true
+    - ts: "2025-12-09 21:31:50"
+      description: |-
+        Our Engineering team has deployed a fix for the issue affecting the creation of new apps in the BLR1 region, where customers who had not previously created an app encountered DOCR (DigitalOcean Container Registry) access errors.
+        We are currently monitoring the situation to ensure that the issue does not recur and that all functionality remains stable.
+        We will post another update once we confirm the issue is fully resolved.
