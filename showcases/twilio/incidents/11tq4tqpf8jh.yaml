@@ -1,0 +1,10 @@
+version: incident/v1
+id: 11tq4tqpf8jh
+name: Inbound Call Failures to To A Subset Of Phone Numbers In Croatia
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2025-12-09 11:31:09"
+      description: We are observing a subset of call failures to Twilio Croatia phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
