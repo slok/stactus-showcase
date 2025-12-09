@@ -1,0 +1,10 @@
+version: incident/v1
+id: 33zdv19l9ybz
+name: SMS Delivery Delays and Failures to Telia in Sweden
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-12-09 17:46:16"
+      description: We are investigating SMS delivery delays and failures when sending messages to Telia in Sweden. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
