@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8j26p5yr5961
+name: SMS Delivery Failures From Subset of Twilio Numbers in Romania
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-12-09 17:55:07"
+      description: We are experiencing SMS delivery failures from Subset of Twilio Numbers in Romania. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
