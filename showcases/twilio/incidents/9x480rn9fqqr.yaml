@@ -1,6 +1,6 @@
 version: incident/v1
 id: 9x480rn9fqqr
-name: SMS Delivery Delays to Claro Network in Dominican Republic
+name: SMS Delivery Delays and Failures to Claro Network in Dominican Republic
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2025-12-09 18:21:24"
       description: We are continue experiencing SMS delivery delays when sending messages to  Claro Network in Dominican Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-12-09 20:26:04"
+      description: We are still experiencing SMS delivery delays, and have also discovered we are experiencing SMS delivery failures when sending messages to Claro Network in Dominican Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
