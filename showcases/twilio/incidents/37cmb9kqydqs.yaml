@@ -1,0 +1,13 @@
+version: incident/v1
+id: 37cmb9kqydqs
+name: SMS Delivery Failures from Subset of Twilio Numbers in Denmark
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-12-09 23:28:20"
+      description: Our monitoring systems have detected a potential issue SMS delivery failures from Subset of Twilio Numbers in Denmark. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-09 23:32:12"
+      description: We are experiencing SMS delivery failures from Subset of Twilio Numbers in Denmark. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
