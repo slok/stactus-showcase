@@ -1,0 +1,15 @@
+version: incident/v1
+id: lqyryfqpm9x5
+name: DOCR Access Errors for New App Creation
+impact: minor
+systems:
+    - ggjq7y0mqt4y
+timeline:
+    - ts: "2025-12-09 20:41:33"
+      description: |-
+        Our Engineering team is currently investigating an issue affecting the creation of new apps in the BLR1 region. Customers who have not previously created an app may encounter DOCR (DigitalOcean Container Registry) access errors.
+
+        Our team is actively deploying a fix to restore normal functionality.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
