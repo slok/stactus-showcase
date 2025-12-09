@@ -1,0 +1,16 @@
+version: incident/v1
+id: n55s3m29jxcp
+name: Logs query degradation on AWS Germany (prod-eu-west-2)
+impact: major
+systems:
+    - gx6m1v8jy475
+timeline:
+    - ts: "2025-12-09 12:59:27"
+      description: "Since today 9th, around 12:30 UTC time, we are experiencing problems on the Loki read path of cluster eu-west-2. \nThis translates in difficulties to query logs for customers on this cluster, and can also impact alerts and other services based on these logs. \nOur engineers are actively working in restoring the service."
+    - ts: "2025-12-09 13:06:04"
+      description: |-
+        The query service is operational again, logs reads should be available on the cluster.
+        Our engineers are monitoring the health status of the service to ensure full recovery.
+    - ts: "2025-12-09 13:10:59"
+      description: The issue has been resolved.
+      resolved: true
