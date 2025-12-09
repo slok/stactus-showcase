@@ -1,0 +1,10 @@
+version: incident/v1
+id: xj87f6z9mm3w
+name: Metrics data ingestion delayed and monitor evaluations degraded
+impact: minor
+systems:
+    - qrnng5l7z80l
+timeline:
+    - ts: "2025-12-09 20:16:17"
+      description: We’re currently monitoring an issue causing delays in distribution metric processing in our US1 region.
+      investigating: true
