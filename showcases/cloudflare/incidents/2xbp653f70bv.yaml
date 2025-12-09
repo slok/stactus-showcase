@@ -6,5 +6,10 @@ systems:
     - vgxj684rcw7t
 timeline:
     - ts: "2025-12-09 14:49:07"
-      description: Cloudflare is aware of and investigating high failure rates for Pages builds.
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Pages builds, customers are likely to experience errors starting builds or builds finishing.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
       investigating: true
+    - ts: "2025-12-09 19:48:07"
+      description: The issue has been identified and the team is working hard to implement a fix and resolve the issue.
