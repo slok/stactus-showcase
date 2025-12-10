@@ -1,0 +1,10 @@
+version: incident/v1
+id: t5667fctwzmh
+name: Call Failures to and From Multiple Networks in Chile via a Subset of Twilio Numbers
+impact: none
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2025-12-10 18:28:36"
+      description: Twilio was degraded for 4 hours between 04:32 AM  and  8:32  AM Pacific Time on 12/10/2025. During this period of time customers may have experienced call failures to and from multiple networks in Chile via a Subset of Twilio Numbers. The issue has now been resolved.
+      resolved: true
