@@ -1,0 +1,11 @@
+version: incident/v1
+id: wgzf9lcwf22d
+name: Instance failure
+impact: none
+systems: []
+timeline:
+    - ts: "2025-12-10 23:02:31"
+      description: 'We are experiencing an instance failure. This may affect resources that have the following pattern in their endpoint: c44.us-east-1-2'
+      investigating: true
+    - ts: "2025-12-10 23:05:18"
+      description: The issue has been identified and a fix is being implemented.
