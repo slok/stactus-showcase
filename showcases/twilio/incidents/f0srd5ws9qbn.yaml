@@ -1,7 +1,7 @@
 version: incident/v1
 id: f0srd5ws9qbn
 name: Whatsapp Customers Are Unable to Onboard New Senders While Using Twilio Console
-impact: minor
+impact: none
 systems:
     - 1gkv0mxhzsjv
 timeline:
@@ -15,3 +15,6 @@ timeline:
       description: We are currently investigating an issue where some WhatsApp customers are unable to onboard new senders with their preferred display name through the Twilio Console. As a temporary workaround, customers can use the Senders API or continue using the Twilio Console for registration without a preferred display name. Our engineering teams are actively working to resolve the issue, and will have an update within 8 hours.
     - ts: "2025-12-10 11:15:35"
       description: We are currently investigating an issue where some WhatsApp customers are unable to onboard new senders with their preferred display name through the Twilio Console. As a temporary workaround, customers can use the Senders API or continue using the Twilio Console for registration without a preferred display name. Our engineering teams are actively working to resolve the issue, and will have an update within 16 hours.
+    - ts: "2025-12-10 22:18:12"
+      description: The issue where some WhatsApp customers are unable to onboard new senders with their preferred display name through the Twilio Console is ongoing. As a workaround, customers can use the Senders API, or continue using the Twilio Console for registration without a preferred display name. We will continue to work with our provider to fully resolve this issue.
+      resolved: true
