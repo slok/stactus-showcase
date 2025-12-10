@@ -1,8 +1,13 @@
 version: incident/v1
 id: bz71q8y59rzw
-name: Our Engineers are Investigating an Issue with Increased Number of 400 Errors from Deepgram Speech Recognition Provider
-impact: none
+name: Increased Number of 400 Errors from Deepgram Speech Recognition Provider
+impact: minor
 systems: []
 timeline:
     - ts: "2025-12-10 20:18:17"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with Increased number of 400 errors from Deepgram Speech Recognition Provider. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2025-12-10 20:26:10"
+      description: Speech Recognition was degraded for 30 minutes between 11:35AM and 12:05PM Pacific Time on 12/10/2025. During this period of time customers may have experienced Increased number of 400 errors from Deepgram speech recognition provider. The issue has now been resolved.
+    - ts: "2025-12-10 20:34:25"
+      description: Speech Recognition was degraded for 30 minutes between 11:35AM and 12:05PM Pacific Time on 12/10/2025. During this period of time customers may have experienced Increased number of 400 errors from Deepgram speech recognition provider. The issue has now been resolved.
+      resolved: true

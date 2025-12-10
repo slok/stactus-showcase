@@ -1,0 +1,10 @@
+version: incident/v1
+id: v45dn1l41w75
+name: Recovery Console Accessibility
+impact: minor
+systems:
+    - dkbfnt2ghbw4
+timeline:
+    - ts: "2025-12-10 20:33:12"
+      description: "Our Engineering team is actively investigating an issue causing the Recovery Console to be unavailable. \n\nDroplet functionality is not impacted. If customers need recovery iso, they can still select the \"Boot from Recovery ISO\" option in the recovery tab as seen in the guide here https://docs.digitalocean.com/products/droplets/how-to/recovery/recovery-iso/ but will need to use SSH to access their droplets. \n\nWe apologize for the inconvenience and will share an update once we have more information."
+      investigating: true
