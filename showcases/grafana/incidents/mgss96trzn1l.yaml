@@ -1,0 +1,15 @@
+version: incident/v1
+id: mgss96trzn1l
+name: Elevated Metric Push Failures and Latency
+impact: major
+systems:
+    - d2vdtkjjdzjy
+timeline:
+    - ts: "2025-12-10 19:29:12"
+      description: |-
+        We have detected an issue causing some customers to experience failed metric pushes as well as increased latency when sending metrics. The issue was first observed at 18:30 UTC.
+
+        Our engineering team is actively investigating the root cause and working to restore normal operation as quickly as possible. We will provide further updates as more information becomes available.
+
+        Thank you for your patience while we work to resolve this issue.
+      investigating: true
