@@ -1,0 +1,10 @@
+version: incident/v1
+id: 75p0z5sxftj1
+name: Increase in 5XX Errors Within Studio Workflow Engine
+impact: minor
+systems:
+    - 7c6yv3vctfqv
+timeline:
+    - ts: "2025-12-10 05:30:49"
+      description: We are currently investigating an increase in 5XX errors within our Studio workflow engine. As a result, some customers may experience the following issues, such as Calls may not answer or may hang up unexpectedly and/or inbound messages may not be processed.  Our engineering teams are actively working to resolve the issue, and will have an update within 1 hour.
+      investigating: true
