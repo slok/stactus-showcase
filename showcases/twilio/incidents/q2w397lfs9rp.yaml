@@ -1,9 +1,13 @@
 version: incident/v1
 id: q2w397lfs9rp
-name: On Call Engineers are Investigating an issue with SMS Delivery Failures to K-Cell Network in Kazakhstan
+name: SMS Delivery Failures to K-Cell Network in Kazakhstan
 impact: minor
-systems: []
+systems:
+    - 8qjql0kqnd33
 timeline:
     - ts: "2025-12-10 22:33:07"
       description: Our monitoring systems have detected a potential issue with SMS delivery failures to K-Cell Network in Kazakhstan. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-10 22:38:38"
+      description: We are experiencing SMS delivery failures to K-Cell Network in Kazakhstan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true

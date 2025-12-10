@@ -8,3 +8,10 @@ timeline:
     - ts: "2025-12-10 20:33:12"
       description: "Our Engineering team is actively investigating an issue causing the Recovery Console to be unavailable. \n\nDroplet functionality is not impacted. If customers need recovery iso, they can still select the \"Boot from Recovery ISO\" option in the recovery tab as seen in the guide here https://docs.digitalocean.com/products/droplets/how-to/recovery/recovery-iso/ but will need to use SSH to access their droplets. \n\nWe apologize for the inconvenience and will share an update once we have more information."
       investigating: true
+    - ts: "2025-12-10 22:43:30"
+      description: |-
+        Our Engineering team has deployed a fix to resolve the issue causing the Recovery Console to be unavailable.
+
+        We are currently monitoring the situation to ensure access is fully restored and stable. Please note that Droplet functionality was not impacted by this issue.
+
+        We will post another update once we confirm the issue is fully resolved.
