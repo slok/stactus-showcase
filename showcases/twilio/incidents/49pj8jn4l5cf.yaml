@@ -1,6 +1,6 @@
 version: incident/v1
 id: 49pj8jn4l5cf
-name: SMS Delivery Failures to and From a Subset of Twilio Longcode in Chile
+name: SMS Delivery Failures To Multiple Networks in Chile for a Subset Of Longcodes
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -16,4 +16,7 @@ timeline:
       investigating: true
     - ts: "2025-12-10 20:23:20"
       description: We are still experiencing SMS delivery failures when sending messages to and from a subset of Twilio Longcode in Chile. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-12-10 23:32:14"
+      description: We are still experiencing SMS delivery failures when sending messages to multiple networks in Chile for a subset of longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 5 hours or as soon as more information becomes available.
       investigating: true
