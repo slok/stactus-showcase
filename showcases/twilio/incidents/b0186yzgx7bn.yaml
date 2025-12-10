@@ -1,0 +1,10 @@
+version: incident/v1
+id: b0186yzgx7bn
+name: SMS Delivery Delays to Nuevatel Network In Bolivia
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-12-10 12:06:48"
+      description: We are experiencing SMS delivery delays when sending messages to Nuevatel Network in Bolivia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
