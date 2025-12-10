@@ -1,0 +1,13 @@
+version: incident/v1
+id: rvykb908cfkd
+name: SMS Delivery Failures to Google Voice in United States of America for a Subset of Short Codes
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2025-12-10 23:42:35"
+      description: Our monitoring systems have detected a potential issue with SMS delivery failures to Google Voice in United States of America for a Subset of Short Codes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-10 23:47:43"
+      description: We are investigating SMS delivery failures to Google Voice in United States of America for a Subset of Short Codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
