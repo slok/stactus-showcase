@@ -1,0 +1,10 @@
+version: incident/v1
+id: 17lxd87h22fj
+name: Some macOS Actions jobs routing to Ubuntu instead
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2025-12-10 13:34:46"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
