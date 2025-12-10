@@ -4,6 +4,7 @@ name: Elevated Metric Push Failures and Latency
 impact: major
 systems:
     - d2vdtkjjdzjy
+    - wy292mxvxhxv
 timeline:
     - ts: "2025-12-10 19:29:12"
       description: |-
@@ -12,4 +13,10 @@ timeline:
         Our engineering team is actively investigating the root cause and working to restore normal operation as quickly as possible. We will provide further updates as more information becomes available.
 
         Thank you for your patience while we work to resolve this issue.
+      investigating: true
+    - ts: "2025-12-10 19:49:17"
+      description: We have also identified that trace ingestion may also be affected. Some customers may experience elevated latency and intermittent errors when sending traces. Investigation is ongoing.
+      investigating: true
+    - ts: "2025-12-10 19:49:48"
+      description: We are continuing to investigate this issue.
       investigating: true
