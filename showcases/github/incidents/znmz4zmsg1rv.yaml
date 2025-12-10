@@ -1,0 +1,13 @@
+version: incident/v1
+id: znmz4zmsg1rv
+name: Some Actions customers experiencing run start delays
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2025-12-10 09:11:17"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2025-12-10 09:13:18"
+      description: We're investigating Actions workflow runs taking longer than expected to start.
+      investigating: true
