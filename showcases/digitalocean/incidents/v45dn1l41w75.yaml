@@ -15,3 +15,11 @@ timeline:
         We are currently monitoring the situation to ensure access is fully restored and stable. Please note that Droplet functionality was not impacted by this issue.
 
         We will post another update once we confirm the issue is fully resolved.
+    - ts: "2025-12-11 00:00:09"
+      description: |-
+        From 18:57 UTC to 22:05 UTC, customers may have experienced issues accessing the Recovery Console due to a service interruption. During this time, Droplet functionality remained unaffected, and customers were still able to use the Recovery ISO option via SSH.
+
+        Our Engineering team has confirmed that the issue is now fully resolved, and Recovery Console access has been fully restored and is operating normally.
+
+        If you continue to experience any difficulties, please open a ticket with our Support team. We apologize for the inconvenience caused.
+      resolved: true
