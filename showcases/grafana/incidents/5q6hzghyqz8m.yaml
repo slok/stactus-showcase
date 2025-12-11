@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5q6hzghyqz8m
+name: Elevated Log Push Failures and Latency on prod-eu-west-0 cluster
+impact: major
+systems: []
+timeline:
+    - ts: "2025-12-11 14:35:56"
+      description: |-
+        Users experienced failed log pushes as well as increased latency when sending logs to Loki service hosted on prod-eu-west-0 cluster between 18:30 UTC to ~23:00 UTC.
+
+        Our engineering team has engaged our Cloud Service Provider and the fix was implemented that mitigated the issue.
+      resolved: true
