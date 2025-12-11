@@ -11,3 +11,5 @@ timeline:
       description: Some hosts in GRU now have healthy routes to all destinations. We are continuing to work with our upstreams on restoring full network connectivity for all machines. Apps may see degraded or broken connections to some destinations.
     - ts: "2025-12-11 21:31:08"
       description: We are continuing to see elevated packet loss from a site in our GRU region to other fly regions in the US, via some US ISPs. Impacted apps may see degraded or broken connections. Local GRU traffic is unaffected. We are working with our provider in GRU to improve routing and will update once a fix is in place.
+    - ts: "2025-12-11 21:50:15"
+      description: We are continuing to see elevated packet loss from a site in our GRU region to other fly regions in the US, via some US ISPs. Impacted apps may see degraded or broken connections. Local GRU traffic is unaffected. We are working with our provider in GRU to improve routing and will update once a fix is in place.
