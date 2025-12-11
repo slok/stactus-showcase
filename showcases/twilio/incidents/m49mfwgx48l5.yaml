@@ -1,0 +1,10 @@
+version: incident/v1
+id: m49mfwgx48l5
+name: SMS Delivery Delays and Failures to Movistar Network in Chile
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-12-11 16:20:13"
+      description: We are experiencing SMS delivery delays and failures sending to Movistar Network in Chile. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
