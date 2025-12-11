@@ -20,5 +20,5 @@ timeline:
       description: We see signs of full recovery and will post a more in-depth update soon.
       investigating: true
     - ts: "2025-12-11 20:05:46"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between 13:25 UTC and 18:35 UTC on Dec 11th, GitHub experienced an increase in scraper activity on public parts of our website. This scraper activity caused a low priority web request pool to increase and eventually exceed total capacity resulting in users experiencing 500 errors. In particular, this affected Login, Logout, and Signup routes, along with less than 1% requests from within Actions jobs. At the peak of the incident, 7.6% of login requests were impacted, which was the most significant impact of this scraping attack.<br /><br />Our mitigation strategy identified the scraping activity and blocked it. We also increased the pool of web requests that were impacted to have more capacity, and lastly we upgraded key user login routes to higher priority queues. <br /><br />In future, we’re working to more proactively identify this particular scraper activity and have faster mitigation times.
       resolved: true
