@@ -1,0 +1,9 @@
+version: incident/v1
+id: 3r3m07jjdmn0
+name: Subset of inbound calls with invalid ST/ST Passports being rejected
+impact: none
+systems: []
+timeline:
+    - ts: "2025-12-11 20:52:04"
+      description: From 2025-11-25 19:25 UTC until 2025-12-11 00:23 UTC, a small subset of inbound calls from carriers sending invalid STIR/SHAKEN PASSporTs were erroneously rejected. These calls should have been accepted and completed with a 32021 (warning), but due to a software bug they were instead classified as 32020 (error) and blocked. The issue has been mitigated and inbound calls with invalid PASSporTs are now processed normally.
+      resolved: true

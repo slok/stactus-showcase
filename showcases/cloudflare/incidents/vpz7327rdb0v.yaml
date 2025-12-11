@@ -1,0 +1,13 @@
+version: incident/v1
+id: vpz7327rdb0v
+name: Cache Purging Delays in Eastern North America
+impact: minor
+systems:
+    - fbvx0hxhhdj0
+timeline:
+    - ts: "2025-12-11 21:01:37"
+      description: |-
+        Cloudflare single-file cache purging (purge by URL) called via the Dashboard/API is running up to 30 minutes behind in Eastern North America (ENAM). This also affects the "Always Online" feature.
+
+        We are working to resolve this issue as soon as possible. Until then you may use the Purge Everything feature but do be aware it may cause a surge in traffic to your origin server(s). More updates to follow.
+      investigating: true
