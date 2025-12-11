@@ -1,0 +1,9 @@
+version: incident/v1
+id: pds5gfyjrh6x
+name: Network connectivity issues in GRU
+impact: minor
+systems:
+    - 5cmbhyzyb3lr
+timeline:
+    - ts: "2025-12-11 09:07:51"
+      description: We're aware of network issues in GRU and are working with our upstream providers to reroute traffic.
