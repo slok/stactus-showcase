@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1llt5k76mmsd
+name: SMS Delivery Reports Delays to T-Mobile Network in Poland
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-12-11 17:58:48"
+      description: We are experiencing delays in receiving message delivery reports to T-Mobile Network in Poland. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
