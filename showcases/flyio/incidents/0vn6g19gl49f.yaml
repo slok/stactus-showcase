@@ -1,0 +1,11 @@
+version: incident/v1
+id: 0vn6g19gl49f
+name: Increased Machines API Errors in YYZ
+impact: minor
+systems:
+    - 80ykv2p95qgy
+    - mwwcgsqt0z7t
+timeline:
+    - ts: "2025-12-11 19:29:25"
+      description: We are investigating an increase in Machines API errors in the YYZ region. Machine updates and requests to machines located in this region may take longer than usual.
+      investigating: true
