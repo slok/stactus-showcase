@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7kcpmzc6ws9v
+name: Mimir Partial Write Outage
+impact: major
+systems:
+    - 82s7r3tjyb6n
+timeline:
+    - ts: "2025-12-11 21:43:17"
+      description: "As of 21:30 UTC, we are experiencing a partial ingestion outage in Grafana Mimir. This is affecting the write path, where some ingestion requests are failing or timing out. \n\nOur engineering team is actively investigating and working to identify the root cause."
+      investigating: true
