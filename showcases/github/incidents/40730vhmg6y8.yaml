@@ -7,3 +7,9 @@ timeline:
     - ts: "2025-12-11 18:40:12"
       description: We are investigating reports of impacted performance for some GitHub services.
       investigating: true
+    - ts: "2025-12-11 18:47:40"
+      description: We currently have ~7% of users experiencing errors when attempting to sign up, log in, or log out. We are deploying a change to mitigate these failures.
+      investigating: true
+    - ts: "2025-12-11 19:04:32"
+      description: We've applied a mitigation to fix intermittent failures in anonymous requests and downloads from GitHub, including Login, Signup, Logout, and some requests from within Actions jobs. We are seeing improvements in telemetry, but we will continue to monitor for full recovery.
+      investigating: true
