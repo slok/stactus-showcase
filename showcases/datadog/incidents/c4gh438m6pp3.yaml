@@ -14,3 +14,5 @@ timeline:
     - ts: "2025-12-12 19:26:26"
       description: We are currently investigating lag in ingesting apm and process metrics, which affects monitor evaluation and in some cases led to incorrect monitor alerts.
       investigating: true
+    - ts: "2025-12-12 20:53:22"
+      description: We have identified the issue affecting ingestion delays in apm and process metrics and are working on recovery
