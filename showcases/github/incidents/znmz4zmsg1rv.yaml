@@ -27,5 +27,5 @@ timeline:
       description: Actions is operating normally.
       investigating: true
     - ts: "2025-12-10 11:05:35"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On December 10, 2025 between 08:50 UTC and 11:00 UTC, some GitHub Actions workflow runs experienced longer-than-normal wait times for jobs starting or completing. All jobs successfully completed despite the delays. At peak impact, approximately 8% of workflow runs were affected.<br /><br />During this incident, some nodes received a spike in workflow events that led to queuing of event processing. Because runs are pinned to nodes, runs being processed by these nodes saw delays in starting or showing as completed. The team was alerted to this at 8:58 UTC. Impacted nodes were disabled from processing new jobs to allow queues to drain.<br /><br />We have increased overall processing capacity and are implementing safeguards to better balance load across all nodes when spikes occur. This is important to ensure our available capacity can always be fully utilized.
       resolved: true
