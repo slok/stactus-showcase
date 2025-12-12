@@ -1,0 +1,30 @@
+version: incident/v1
+id: m8j6zcmxbqby
+name: Some Trace QL Queries Failing
+impact: major
+systems:
+    - dl02wr0yw2p0
+    - 36qk48w0m0zb
+    - r373pr6j4m8g
+    - hp6lb56782c9
+    - s6y4n77rfpj2
+    - ffzvv723s0q8
+    - 22ys7hx3f2xw
+    - 2smqz5gmhtq7
+    - q8160vpq47xz
+    - ctqprgdj7scn
+    - 2ryg39v5zpqj
+    - zq01gnnnsqsd
+    - hrz0zytmsvzw
+    - qnthhwhwm4lt
+    - b9t8x3b43vyr
+    - z2x4pmp3hqq2
+    - d8jx77r80mb4
+    - f31l4xz41q8t
+    - kyyy438yhc9h
+    - 9xz0880z67zl
+    - 6prz8xx323ym
+    - 5r0fnpc11np4
+timeline:
+    - ts: "2025-12-12 14:17:18"
+      description: TraceQL queries with "= nil" in Explore Traces and part of Drilldown Traces are failing with 400 Bad Request errors. The issue has been identified, and a fix is currently being rolled out.
