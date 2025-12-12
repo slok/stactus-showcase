@@ -1,10 +1,13 @@
 version: incident/v1
 id: jdf2jd1zlctb
-name: On Call Engineers are Investigating an issue with SMS Delivery Failure to 9mobile Network in Nigeria
+name: SMS Delivery Failure to 9mobile Network in Nigeria
 impact: minor
 systems:
     - 9z5gsqyjs4rl
 timeline:
     - ts: "2025-12-12 19:34:26"
       description: Our monitoring systems have detected a potential issue with SMS delivery failure to 9mobile network in Nigeria. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-12 19:36:28"
+      description: We are experiencing SMS delivery failure to 9mobile network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
