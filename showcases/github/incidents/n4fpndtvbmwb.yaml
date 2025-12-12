@@ -17,5 +17,5 @@ timeline:
       description: We are beginning to see signs of resolution after applying a mitigation. We expect full resolution within approximately 30 minutes.
       investigating: true
     - ts: "2025-12-08 22:33:23"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On December 8, 2025, between 21:15 and 22:24 UTC, Copilot code completions experienced a significant service degradation. During this period, up to 65% of code completion requests failed.<br /><br />The root cause was an internal feature flag that caused the primary model supporting Copilot code completions to appear unavailable to the backend service. The issue was resolved once the flag was disabled.<br /><br />To prevent recurrence, we expanded test coverage for Copilot code completion models and are strengthening our detection mechanisms to better identify and respond to traffic anomalies.
       resolved: true
