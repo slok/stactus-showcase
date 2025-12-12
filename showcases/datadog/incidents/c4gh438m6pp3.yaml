@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2025-12-12 20:53:22"
       description: We have identified the issue affecting ingestion delays in apm and process metrics and are working on recovery
+    - ts: "2025-12-12 21:52:51"
+      description: All impact related to APM metrics has been resolved.  A separate incident has been created to track the remaining impact in live process data.
+      resolved: true
