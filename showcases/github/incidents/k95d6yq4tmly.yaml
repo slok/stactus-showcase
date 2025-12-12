@@ -1,0 +1,14 @@
+version: incident/v1
+id: k95d6yq4tmly
+name: Webhooks delivery degradation
+impact: none
+systems: []
+timeline:
+    - ts: "2025-12-12 21:34:38"
+      description: |-
+        On December 3, 2025, between 22:21 UTC and 23:44 UTC, the Webhooks service experienced a degradation that delayed writes of webhook delivery records to our database. During this period, many webhook deliveries were not visible in the webhook delivery UI or API for more than an hour after they were sent. As a result, customers were temporarily unable to request redeliveries for those delayed records. The underlying cause was throttling of database writes due to high replication lag.
+
+        We mitigated the incident by temporarily disabling delivery history for a small number of very high‑volume webhook owners to reduce write pressure and stabilize the service. We are contacting the affected customers directly with more details.
+
+        We are improving our webhook delivery storage architecture so it can scale with current and future webhook traffic, reducing the likelihood and impact of similar issues.
+      resolved: true
