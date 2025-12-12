@@ -1,0 +1,13 @@
+version: incident/v1
+id: c3k9jddr8vn2
+name: MS Delivery Delays and Failures to Movistar Network in Chile
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-12-12 15:54:39"
+      description: Our monitoring systems have detected a potential issue with SMS delivery delays and failures to Movistar network in Chile. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-12 15:58:54"
+      description: We are experiencing SMS delivery delays and failures to Movistar network in Chile. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
