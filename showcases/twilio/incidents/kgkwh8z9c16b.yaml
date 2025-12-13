@@ -1,0 +1,9 @@
+version: incident/v1
+id: kgkwh8z9c16b
+name: Call Summaries in Voice Insights Affected
+impact: none
+systems: []
+timeline:
+    - ts: "2025-12-13 19:00:37"
+      description: Twilio Voice Insights Call Summaries were degraded for 40 minutes between 05:00 and 05:40 Pacific Time on 12/13/2025. During this period of time, customers using Voice Insights API and Console did not see the data for the above period. The issue has now been resolved.
+      resolved: true
