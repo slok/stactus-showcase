@@ -1,0 +1,9 @@
+version: incident/v1
+id: yz588ytf6595
+name: Messaging Callback Retries Exhausted
+impact: none
+systems: []
+timeline:
+    - ts: "2025-12-13 09:17:23"
+      description: Between 08:15 and 08:17 UTC, some SMS callbacks and delivery receipts were delayed. The issue lasted about two minutes and has been resolved, and service is operating normally.
+      resolved: true
