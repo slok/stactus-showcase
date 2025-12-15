@@ -1,0 +1,15 @@
+version: incident/v1
+id: z89r3h8g0tvj
+name: Issue with Zoom Rooms Dashboard in US region.
+impact: minor
+systems:
+    - cn1j8pttz0wy
+timeline:
+    - ts: "2025-12-15 17:00:33"
+      description: |-
+        We are currently investigating a service degradation affecting subset of users ability to access Zoom Rooms Dashboard in US region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
