@@ -1,0 +1,13 @@
+version: incident/v1
+id: jcbsbbfd1x9r
+name: Incident with Copilot Grok Code Fast 1
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2025-12-15 14:12:49"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2025-12-15 14:13:20"
+      description: We are experiencing degraded availability for the Grok Code Fast 1 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.
+      investigating: true
