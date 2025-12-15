@@ -1,0 +1,14 @@
+version: incident/v1
+id: vf9vr3qns209
+name: AccSec SNA API Failure For Indonesia Smartfren
+impact: minor
+systems:
+    - whldrk77jnm4
+    - trrz5ztt7pl8
+timeline:
+    - ts: "2025-12-15 16:23:12"
+      description: We are investigating intermittent issues with the SNA channel in the Verify API. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-12-15 16:24:18"
+      description: We are investigating intermittent issues with the SNA channel in the Verify API. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

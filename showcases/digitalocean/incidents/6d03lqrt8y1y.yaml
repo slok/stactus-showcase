@@ -1,0 +1,11 @@
+version: incident/v1
+id: 6d03lqrt8y1y
+name: Spaces Access Keys and DigitalOcean Container Registry
+impact: none
+systems:
+    - glhj9rkw3mp8
+    - z2cshz8pdgwj
+timeline:
+    - ts: "2025-12-15 16:19:59"
+      description: 'From 08:28 to 13:03 UTC, Our Engineering team observed an issue with Spaces Access keys for DOCR in AMS3 region.  During this time, users encountered an error with "403 (InvalidAccessKeyId): The access key ID you provided does not exist in our records" while accessing spaces keys. Our team has fully resolved the issues as of 13:03 UTC. If you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel. We apologize for any inconvenience caused.'
+      resolved: true
