@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-12-15 15:49:31"
       description: We are investigating network issues in SIN. Apps might experience partial outage connecting to some IPs.
       investigating: true
+    - ts: "2025-12-15 16:02:45"
+      description: We have identified an upstream issue and are currently working to restore connectivity. In the mean time, we have temporarily rerouted Anycast traffic away from SIN.
