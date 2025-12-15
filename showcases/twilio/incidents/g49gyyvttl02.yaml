@@ -1,0 +1,10 @@
+version: incident/v1
+id: g49gyyvttl02
+name: SMS Delivery Failure to Multiple Networks in Japan via domestic pre-registered Sender ID
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-12-15 00:34:33"
+      description: We are experiencing SMS delivery failures to multiple networks in Japan via subset of domestic pre-registered Sender ID. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
