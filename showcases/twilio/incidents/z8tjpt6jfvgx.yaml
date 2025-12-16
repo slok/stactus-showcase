@@ -1,6 +1,6 @@
 version: incident/v1
 id: z8tjpt6jfvgx
-name: Inbound call Failures to Dominican Republic Phone Numbers
+name: Inbound Call Failures to Dominican Republic Phone Numbers
 impact: minor
 systems:
     - fbtv2g9t3z25
@@ -17,3 +17,5 @@ timeline:
     - ts: "2025-12-16 13:44:28"
       description: We are experiencing Inbound Call Failure To Dominican Republic Phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-12-16 14:52:22"
+      description: We have started seeing recovery for inbound calls to Twilio Dominican Republic phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
