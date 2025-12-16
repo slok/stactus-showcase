@@ -1,0 +1,15 @@
+version: incident/v1
+id: 9pm6jdhd7svl
+name: k6 Cloud service is down
+impact: none
+systems:
+    - 3gvy1n7fg4x4
+    - m79yjv169r06
+    - wbhrnd130mb0
+timeline:
+    - ts: "2025-12-16 10:37:04"
+      description: The main k6 Cloud service is down due to database issues, and it is not possible to access test runs or start new ones.
+      investigating: true
+    - ts: "2025-12-16 10:42:51"
+      description: This incident has been resolved.
+      resolved: true
