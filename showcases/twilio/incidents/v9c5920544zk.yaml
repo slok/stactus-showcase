@@ -1,0 +1,12 @@
+version: incident/v1
+id: v9c5920544zk
+name: SMS Delivery Delays and Failures to Movistar Network in Chile via a Subset of Long Codes
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-12-16 16:45:22"
+      description: |-
+        We are experiencing SMS delivery delays and failures to Movistar network in Chile via a subset of long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+        This is related to incident: https://status.twilio.com/incidents/v6qnggjm7k4y
+      investigating: true
