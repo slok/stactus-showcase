@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2025-12-10 01:51:24"
       description: "This status alert only applies to customers who deployed MongoDB Atlas via the Vercel Marketplace. \n\nWe are asking customers to promptly redeploy their Vercel applications.\n\nAs part of our response to the React’s CVE-2025-55182 (https://vercel.com/changelog/cve-2025-55182) the critical security advisory affecting React Server Components, some MongoDB customers will need to take action. \n\nSpecifically, MongoDB Atlas customers who deployed clusters via the Vercel Marketplace will need to ensure their applications are running on an unaffected version of Next.js (instructions here: https://vercel.com/kb/bulletin/react2shell) and redeploy their Vercel applications (instructions here: https://vercel.com/docs/deployments/managing-deployments). This is to avoid a loss of database connectivity from your Vercel deployment.\n\nAll other Atlas functionality is unaffected.  Users who have not deployed MongoDB Atlas via the Vercel Marketplace are not affected."
+    - ts: "2025-12-16 00:30:44"
+      description: This incident has been resolved.
+      resolved: true
