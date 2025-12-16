@@ -1,0 +1,11 @@
+version: incident/v1
+id: p5g2by75lhwg
+name: SMS Delivery Delays and Failures to MTN network in Nigeria
+impact: minor
+systems:
+    - yvvy3vlp4djf
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-12-16 21:10:36"
+      description: We are experiencing SMS delivery delays when sending messages to MTN network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
