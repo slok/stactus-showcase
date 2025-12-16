@@ -1,0 +1,13 @@
+version: incident/v1
+id: 0z4xng0gllq7
+name: Increased Error Rates Accessing R2 from ENAM
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2025-12-16 08:55:07"
+      description: We are currently investigating an issue where users accessing R2 and dependent services from ENAM will see an increase in HTTP 5xx error responses.
+      investigating: true
+    - ts: "2025-12-16 08:55:54"
+      description: We are continuing to investigate this issue.
+      investigating: true
