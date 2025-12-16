@@ -1,0 +1,15 @@
+version: incident/v1
+id: 07f8tjt53yw6
+name: Issue with Zoom Client 6.7 on iOS for subset of Users
+impact: minor
+systems:
+    - 3z7b6jks10hm
+timeline:
+    - ts: "2025-12-16 20:38:15"
+      description: |-
+        We are currently investigating Zoom client version 6.7 on iOS devices that are running MDM or content policy inspection are unable to join meetings.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
