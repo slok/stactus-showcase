@@ -1,0 +1,9 @@
+version: incident/v1
+id: jc7ljlnzm8cb
+name: IRM access issues on instances in GCP Belgium (prod-eu-west-0)
+impact: none
+systems: []
+timeline:
+    - ts: "2025-12-16 12:51:25"
+      description: "Due to an incident today in IRM (OnCall) product, access to this application was degraded from 10:39 UTC until 11:16. \nCustomers may have experienced the app not operable or not accessible. The service is again fully restored."
+      resolved: true
