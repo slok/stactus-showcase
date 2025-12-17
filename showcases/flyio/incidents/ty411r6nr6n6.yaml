@@ -1,0 +1,34 @@
+version: incident/v1
+id: ty411r6nr6n6
+name: Networking and metrics degradation
+impact: minor
+systems:
+    - 70nsqsjrthwf
+    - gpwm5n91bxsk
+    - k6fbt4mk0xv1
+    - 266zqs63006k
+    - 3y5pzyxr1cbz
+    - k2zhkw7wryv2
+    - 7dkv4qp80325
+    - zb68fzjgtq5s
+    - 5cmbhyzyb3lr
+    - qyh8qlklk7mx
+    - r8cxv07rm0h4
+    - 4zqk2hwhfmvb
+    - 1t3gcxv2hd88
+    - m0gqlhds44dr
+    - vfq82tp9wp5r
+    - b97pv9yxbzv7
+    - 49qj4qjyzlzn
+    - 6g1pz83ylj1r
+    - mwwcgsqt0z7t
+timeline:
+    - ts: "2025-12-17 01:46:39"
+      description: "We are currently investigating increased latency and packet loss across multiple regions. Customers may see additional latency on requests at this time. \n\nRelatedly, prometheus metrics reported via fly-metrics.net is currently degraded. Users may see delays or gaps in metrics at this time. We are working to address both issues."
+      investigating: true
+    - ts: "2025-12-17 02:12:00"
+      description: |-
+        A change has been made and metrics on fly-metrics.net are backfilling. Users may still see a slight delay or gaps in new metrics being reported as the backfill completes.
+
+        We continue to see higher than usual latency and packetloss across the network. We are continuing to investigate.
+      investigating: true
