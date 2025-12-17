@@ -1,0 +1,13 @@
+version: incident/v1
+id: mp4sbq8pfdbh
+name: Customer Accounts Not Upgrading After Successful Payment Processing
+impact: minor
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2025-12-17 16:38:54"
+      description: Our monitoring systems have detected a potential issue customer accounts not upgrading after successful payment processing. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-17 16:42:59"
+      description: We are investigating a service interruption with customer accounts not upgrading after successful payment processing. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
