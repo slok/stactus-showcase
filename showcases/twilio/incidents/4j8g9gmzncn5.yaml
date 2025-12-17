@@ -6,7 +6,6 @@ systems:
     - g4hs7h64k9fv
     - jw9dh2mf4392
     - m5b6twz4h52d
-    - kvyjw7lg97l1
 timeline:
     - ts: "2025-12-17 13:31:27"
       description: We are experiencing an issue in Twilio main account creation is not working .. Our engineering team is actively working to resolve the issue. We expect to provide another update in 30 minutes or as soon as more information becomes available.
@@ -19,4 +18,7 @@ timeline:
       investigating: true
     - ts: "2025-12-17 14:05:32"
       description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-12-17 14:11:29"
+      description: We are experiencing a disruption impacting usage reporting, account creation and multiple billing services. This may cause delayed usage visibility in the Console and via the public Usage API, prevent new account signups and make pricing lookups unavailable. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
