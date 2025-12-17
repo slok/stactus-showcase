@@ -1,0 +1,11 @@
+version: incident/v1
+id: lctp4bzd37h2
+name: Incident With Copilot
+impact: none
+systems: []
+timeline:
+    - ts: "2025-12-17 19:04:34"
+      description: |-
+        From 11:50-12:25 UTC, Copilot Coding Agent was unable to process new agent requests.  This affected all users creating new jobs during this timeframe, while existing jobs remained unaffected.  The cause of this issue was a change to the actions configuration where Copilot Coding Agent runs, which caused the setup of the Actions runner to fail, and the issue was resolved by rolling back this change.
+        As a short term solution, we hope to increase our alerting criteria so that we can be alerted more quickly when an incident occurs, and in the long term we hope to harden our runner configuration to be more resilient against errors.
+      resolved: true
