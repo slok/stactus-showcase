@@ -1,9 +1,13 @@
 version: incident/v1
 id: y9mkg422jsqp
-name: On Call Engineers are Investigating an issue with the access to support tickets from Twilio Console
-impact: none
-systems: []
+name: Issues with the access to support tickets from Twilio Console
+impact: minor
+systems:
+    - xv01vfp8wvs4
 timeline:
     - ts: "2025-12-17 15:16:37"
       description: Our monitoring systems have detected a potential issue where Customers Cannot Access Tickets in Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-17 15:25:28"
+      description: We are investigating a service interruption with accessing support tickets in Twilio Console. We expect to provide another update in 1 hour or as soon as more information becomes available
       investigating: true
