@@ -1,0 +1,11 @@
+version: incident/v1
+id: k5fqt0yjb968
+name: SMS Delivery Delays to Smart in Philippines
+impact: minor
+systems:
+    - 8qjql0kqnd33
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2025-12-17 00:39:40"
+      description: We are experiencing SMS delivery delays when sending messages to the Smart network in Philippines. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

@@ -1,0 +1,35 @@
+version: incident/v1
+id: 884p1zssvs3r
+name: Issue with multiple Zoom Services in multiple regions
+impact: major
+systems:
+    - 3z7b6jks10hm
+    - jh6w5p8b9yv9
+    - 773zkp1jzkgl
+    - glcgf4v63241
+    - yrt9l9s4twjl
+    - rv3g5jwy5cdn
+    - cwqgbrdl34rr
+    - s5s5m6flk56z
+    - yh2t02zm6fhq
+    - hx06zxqdrsxl
+    - jsk0584rpghr
+    - cwwgf6dmdjhx
+    - ck8c8cm0yhrd
+    - xf8s6w88yqg6
+    - 0842bncf5q9f
+timeline:
+    - ts: "2025-12-17 00:34:03"
+      description: We are investigating an issue with inbound traffic in multiple data centers in Europe, India, Japan, Saudi Arabia, Australia and Sydney. More information will be provided shortly.
+      investigating: true
+    - ts: "2025-12-17 00:36:27"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-12-17 00:36:58"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-12-17 00:52:09"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-12-17 00:53:59"
+      description: We are starting to see recovery of services, we will continue to monitor and provide updates as we have them.
