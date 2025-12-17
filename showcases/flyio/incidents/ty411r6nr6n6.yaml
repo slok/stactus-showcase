@@ -32,3 +32,8 @@ timeline:
 
         We continue to see higher than usual latency and packetloss across the network. We are continuing to investigate.
       investigating: true
+    - ts: "2025-12-17 02:27:09"
+      description: "Network performance across Fly.io has returned to normal. This incident primarily impacted machines in the SJC and EWR regions. \n\nMetrics are largely caught up, but users may still see a slight delay in reporting as the cluster finishes catching up."
+    - ts: "2025-12-17 02:47:09"
+      description: This incident has been resolved.
+      resolved: true
