@@ -1,0 +1,12 @@
+version: incident/v1
+id: hzbf6w9tpc2r
+name: On Call Engineers are Investigating an issue with Identity services
+impact: none
+systems: []
+timeline:
+    - ts: "2025-12-17 18:39:43"
+      description: Our monitoring systems have detected a potential issue with Identity services are throwing 5xx errors. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-17 18:45:29"
+      description: We have fully investigated the Identity services issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
