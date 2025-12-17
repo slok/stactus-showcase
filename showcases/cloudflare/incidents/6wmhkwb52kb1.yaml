@@ -1,0 +1,9 @@
+version: incident/v1
+id: 6wmhkwb52kb1
+name: Elevated number of 5xx errors in BKK
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-12-17 08:17:00"
+      description: Between 14:36-14:44 UTC, customers reaching Bangkok, TH may have experienced an elevated number of 5xx errors.
+      resolved: true
