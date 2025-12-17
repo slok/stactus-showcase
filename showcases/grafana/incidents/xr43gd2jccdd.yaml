@@ -1,0 +1,9 @@
+version: incident/v1
+id: xr43gd2jccdd
+name: Logs write path degradation on GCP Belgium - prod-eu-west-0
+impact: none
+systems: []
+timeline:
+    - ts: "2025-12-17 13:02:38"
+      description: Today 17th from 10:00 UTC to 10:38 UTC we experienced logs write path degradation. Customers may have experienced 5xx errors while ingestion on that cluster. Service is fully restored.
+      resolved: true
