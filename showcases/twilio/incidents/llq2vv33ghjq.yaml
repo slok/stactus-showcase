@@ -1,6 +1,6 @@
 version: incident/v1
 id: llq2vv33ghjq
-name: SMS Delivery Failure's To A Subset Of Phone Numbers In Israel
+name: Inbound SMS Delivery Failure's To A Subset Of Phone Numbers In Israel
 impact: minor
 systems:
     - 9z5gsqyjs4rl
@@ -8,3 +8,5 @@ timeline:
     - ts: "2025-12-18 09:03:31"
       description: SMS Delivery Failure's To A Subset Of Phone Numbers In Israel. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2025-12-18 09:48:56"
+      description: We have started seeing recovery for the issue causing inbound SMS Delivery Failure's To A Subset Of Phone Numbers In Israel. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
