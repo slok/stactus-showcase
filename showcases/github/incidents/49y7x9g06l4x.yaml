@@ -1,0 +1,12 @@
+version: incident/v1
+id: 49y7x9g06l4x
+name: Disruption with some GitHub services
+impact: major
+systems: []
+timeline:
+    - ts: "2025-12-18 17:36:08"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2025-12-18 17:36:15"
+      description: We are seeing an increase in errors on the User and Org policy settings page when updating policies. The errors are affecting the user copilot policies settings page, org copilot policies settings page when updating a policy. <br />
+      investigating: true
