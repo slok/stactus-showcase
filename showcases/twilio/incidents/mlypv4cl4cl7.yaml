@@ -1,0 +1,10 @@
+version: incident/v1
+id: mlypv4cl4cl7
+name: SMS Delivery Delays to Multiple Networks in Botswana for a Subset of Longcodes
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2025-12-18 19:50:26"
+      description: We are experiencing SMS delivery delays when sending messages to multiple networks in Botswana for a subset of long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
