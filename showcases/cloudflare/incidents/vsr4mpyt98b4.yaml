@@ -1,0 +1,17 @@
+version: incident/v1
+id: vsr4mpyt98b4
+name: Network Performance Issues in Haikou, China
+impact: minor
+systems:
+    - 33b7rn1tln88
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-12-18 15:04:27"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in Haikou, China.
+
+        We are working to analyze and mitigate this problem. More updates will follow shortly.
+      investigating: true
+    - ts: "2025-12-18 15:05:51"
+      description: We are continuing to investigate this issue.
+      investigating: true
