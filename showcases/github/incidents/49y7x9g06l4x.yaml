@@ -2,7 +2,8 @@ version: incident/v1
 id: 49y7x9g06l4x
 name: Disruption with some GitHub services
 impact: major
-systems: []
+systems:
+    - pjmpxvq2cmr2
 timeline:
     - ts: "2025-12-18 17:36:08"
       description: We are investigating reports of impacted performance for some GitHub services.
@@ -12,4 +13,7 @@ timeline:
       investigating: true
     - ts: "2025-12-18 18:10:23"
       description: We have identified the source of this regression and are preparing a fix for deployment. We will update again in one hour.
+      investigating: true
+    - ts: "2025-12-18 18:43:11"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
       investigating: true
