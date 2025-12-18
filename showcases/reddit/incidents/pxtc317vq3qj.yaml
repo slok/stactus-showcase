@@ -1,0 +1,14 @@
+version: incident/v1
+id: pxtc317vq3qj
+name: Video posts are not displaying correctly
+impact: minor
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2025-12-18 22:49:44"
+      description: We are currently investigating reports that some video posts are displaying as images.
+      investigating: true
+    - ts: "2025-12-18 23:06:51"
+      description: We've identified and mitigated the underlying problem. Newly uploaded videos should now appear correctly, and we're working on a fix for videos uploaded during the outage.
