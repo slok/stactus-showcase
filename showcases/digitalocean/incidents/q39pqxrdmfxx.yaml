@@ -9,3 +9,9 @@ timeline:
     - ts: "2025-12-18 18:46:46"
       description: "As of 17:47 UTC, our Engineering team is investigating reports of intermittent 504 errors when making requests to api.digitalocean.com and cloud.digitalocean.com. Users may experience sporadic errors, resulting in a 504 response code, when attempting to interact with our API or Cloud services.\n\nAt this point, the issue appears to be intermittent, and not all requests are being affected. \n\nWe apologize for the inconvenience and will share an update once we have more information."
       investigating: true
+    - ts: "2025-12-18 21:34:34"
+      description: |-
+        Our Engineering team has confirmed full resolution of the issue. Users should no longer experience errors when making requests to the Cloud Control Panel or API.
+
+        If you experience any further problems or have any questions, please open a support ticket within your account.
+      resolved: true
