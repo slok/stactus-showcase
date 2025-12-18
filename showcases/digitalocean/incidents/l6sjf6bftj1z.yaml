@@ -1,0 +1,17 @@
+version: incident/v1
+id: l6sjf6bftj1z
+name: App Platform Static Websites in NYC3 Region
+impact: minor
+systems:
+    - fkf61qj12vby
+timeline:
+    - ts: "2025-12-18 19:25:08"
+      description: |-
+        As of 17:45 UTC, our Engineering team is investigating reports of static site deployment failures in the NYC3 region on App Platform. Users may experience errors when attempting to deploy new static sites, resulting in failed deployments.
+
+        The existing static sites are still accessible and functioning normally.
+
+        Our team is actively working on identifying the root cause and implementing the fix.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
