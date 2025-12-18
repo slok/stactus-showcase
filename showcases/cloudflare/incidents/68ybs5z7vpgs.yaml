@@ -1,0 +1,17 @@
+version: incident/v1
+id: 68ybs5z7vpgs
+name: 'Cloudflare Zero Trust: Gateway Issues'
+impact: minor
+systems:
+    - 2k1qvzk3763q
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2025-12-18 12:15:15"
+      description: |-
+        Cloudflare is investigating an issue causing increased latency for users connected to Cloudflare Gateway. The issue is in Sacramento - United States.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2025-12-18 12:52:18"
+      description: We are continuing to investigate this issue.
+      investigating: true
