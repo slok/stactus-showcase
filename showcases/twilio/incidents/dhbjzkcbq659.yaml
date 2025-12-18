@@ -1,0 +1,12 @@
+version: incident/v1
+id: dhbjzkcbq659
+name: On Call Engineers are Investigating an issue with CTM Numbers Ported are Losing Campaign Details out of the Numbers
+impact: none
+systems: []
+timeline:
+    - ts: "2025-12-18 21:10:50"
+      description: Our monitoring systems have detected a potential issue with CTM numbers ported are losing campaign details out of the numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-18 21:14:18"
+      description: We have fully investigated the CTM numbers ported are losing campaign details out of the numbers issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
