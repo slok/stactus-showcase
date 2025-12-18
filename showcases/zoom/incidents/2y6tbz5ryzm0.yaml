@@ -1,22 +1,22 @@
 version: incident/v1
 id: 2y6tbz5ryzm0
-name: Service Degradation Affecting Zoom Clips
+name: Service Degradation Affecting Zoom Clips in the US Region
 impact: minor
 systems:
     - zhgjct3grx1z
 timeline:
     - ts: "2025-12-17 23:51:50"
       description: |-
-        We are currently investigating a service degradation with Zoom Clips.
+        We are currently investigating a service degradation with Zoom Clips in the US Region.
 
         Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
 
         We appreciate your patience as we work to resolve this issue.
       investigating: true
     - ts: "2025-12-18 00:16:36"
-      description: "We have successfully identified the root cause affecting Zoom Clips.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+      description: "We have successfully identified the root cause affecting Zoom Clips in the US Region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
     - ts: "2025-12-18 00:35:19"
-      description: "The service degradation with Zoom Clips has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
+      description: "The service degradation with Zoom Clips in the US Region has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
     - ts: "2025-12-18 00:44:29"
       description: This incident has been resolved and the affected services have been restored.
       resolved: true
