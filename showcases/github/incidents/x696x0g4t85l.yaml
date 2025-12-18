@@ -1,0 +1,10 @@
+version: incident/v1
+id: x696x0g4t85l
+name: Intermittent networking failures across GitHub-hosted Actions runners
+impact: major
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2025-12-18 16:43:57"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
