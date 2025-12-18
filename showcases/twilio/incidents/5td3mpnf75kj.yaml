@@ -1,0 +1,13 @@
+version: incident/v1
+id: 5td3mpnf75kj
+name: KYT is currently experiencing a critical monitoring outage
+impact: minor
+systems:
+    - 2n998q57dwnf
+timeline:
+    - ts: "2025-12-18 08:30:05"
+      description: 'KYT is currently experiencing a critical monitoring outage. The system cannot update OpenSearch dashboards, which prevents identification of blocks on non-Twilio Toll-Free remediation tickets and detection of new phishing or disallowed content through the primary monitoring system. A backup monitoring solution is available but is less effective. This gap increases the risk of undetected malicious traffic (such as phishing, scam, or spam), potentially resulting in SEV0 escalations from carriers. Immediate support is needed to restore full monitoring functionality. Please note: when the incident was first reported, the data lag was 3 hours; it has now increased to a 4-hour lag.  We expect to provide another update in 30mins or as soon as more information becomes available'
+      investigating: true
+    - ts: "2025-12-18 08:41:47"
+      description: This issue relates to an internal tool and this was posted in error.
+      resolved: true
