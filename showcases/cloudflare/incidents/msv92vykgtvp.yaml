@@ -1,7 +1,7 @@
 version: incident/v1
 id: msv92vykgtvp
 name: Network Performance Issues
-impact: critical
+impact: minor
 systems:
     - 4n0gb0kh02gf
 timeline:
@@ -17,3 +17,5 @@ timeline:
     - ts: "2025-12-19 12:22:54"
       description: Efforts to remediate and restore performance continue.
       investigating: true
+    - ts: "2025-12-19 12:34:33"
+      description: A fix has been implemented and we are monitoring the results.
