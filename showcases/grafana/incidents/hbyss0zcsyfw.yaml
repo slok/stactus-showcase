@@ -1,0 +1,10 @@
+version: incident/v1
+id: hbyss0zcsyfw
+name: New K6 Tests Intermittently Failing
+impact: major
+systems:
+    - m79yjv169r06
+timeline:
+    - ts: "2025-12-19 16:10:11"
+      description: We are currently investigating an issue that is causing intermittent failure when trying to start new k6 tests on the k6-app in the cloud. The tests are starting normally from CLI.
+      investigating: true
