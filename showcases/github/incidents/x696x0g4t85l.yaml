@@ -15,5 +15,5 @@ timeline:
       description: We are observing recovery with request from GitHub-hosted Actions runners and will continue to monitor.
       investigating: true
     - ts: "2025-12-18 17:41:41"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On December 18th, 2025, from 08:15 UTC to 17:11 UTC, some GitHub Actions runners experienced intermittent timeouts for Github API calls, which led to failures during runner setup and workflow execution. This was caused by network packet loss between runners in the West US region and one of GitHub’s edge sites. Approximately 1.5% of jobs on larger and standard hosted runners in the West US region were impacted, 0.28% of all Actions jobs during this period.<br /><br />By 17:11 UTC, all traffic was routed away from the affected edge site, mitigating the timeouts. We are working to improve early detection of cross-cloud connectivity issues and faster mitigation paths to reduce the impact of similar issues in the future.
       resolved: true
