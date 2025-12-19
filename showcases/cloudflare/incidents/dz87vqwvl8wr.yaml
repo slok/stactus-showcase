@@ -1,0 +1,10 @@
+version: incident/v1
+id: dz87vqwvl8wr
+name: Network Performance Issues
+impact: major
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-12-19 15:06:24"
+      description: Cloudflare is investigating intermittent issues with network performance related to our previous status page. Customers might observe unexpected errors. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
