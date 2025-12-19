@@ -3,7 +3,10 @@ id: 1dywk9j2fhpn
 name: Issue connecting to Atlas Data Federation and Online Archive
 impact: major
 systems:
+    - 98lbmdz85yp0
     - lh7m7lhnf3rj
+    - 7wbvh4zlbmmh
+    - prk6bb5j7h4l
 timeline:
     - ts: "2025-12-19 21:45:18"
       description: We are investigating report of issues connecting and authenticating to Atlas Data Federation and Online Archive instances.
@@ -11,3 +14,27 @@ timeline:
     - ts: "2025-12-19 21:46:33"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2025-12-19 21:51:12"
+      description: |-
+        We have identified an issue causing the following symptoms:
+        - Atlas Data Explorer connections and queries failing
+        - Atlas Data Federation and Online Archive queries failing
+        - Atlas Stream Processing being interrupted
+        - MongoDB Charts data being delayed
+
+        Affected users will see the above symptoms, often with timeout or host not found errors.
+
+        Underlying cluster health is unaffected, including Atlas search queries.
+    - ts: "2025-12-19 21:57:41"
+      description: |-
+        We have identified an issue causing the following symptoms:
+        - Atlas Data Explorer connections and queries failing
+        - Atlas Data Federation and Online Archive queries failing, as well as the creation of new Data Federation or Online Archive instances
+        - Atlas Stream Processing being interrupted
+        - MongoDB Charts data being delayed
+
+        Affected users will see the above symptoms, often with timeout or host not found errors.
+
+        Underlying cluster health is unaffected, including Atlas search queries.
+
+        Additionally, Vercel users may not be able to get directly to Atlas from within Vercel. As a workaround, users are encouraged to login directly to Atlas at cloud.mongodb.com

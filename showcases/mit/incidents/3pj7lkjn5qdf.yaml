@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3pj7lkjn5qdf
+name: SAP Infrastructure Incident
+impact: critical
+systems:
+    - 21mphp99021l
+timeline:
+    - ts: "2025-12-19 21:52:29"
+      description: 'We are currently experiencing unplanned downtime affecting SAP services. The following systems are impacted: SAPGUI, Atlas, SAP Mobile (Facilities), and NetWeaver. IS&T and SAP are actively investigating and working to restore service.'
+      investigating: true
