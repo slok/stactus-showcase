@@ -1,0 +1,10 @@
+version: incident/v1
+id: msv92vykgtvp
+name: Network Performance Issues
+impact: critical
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-12-19 11:19:04"
+      description: Cloudflare is investigating intermittent issues with network performance. Customers might observe unexpected errors. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
