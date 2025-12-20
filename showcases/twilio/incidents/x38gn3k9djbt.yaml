@@ -1,0 +1,10 @@
+version: incident/v1
+id: x38gn3k9djbt
+name: MMS Delivery Delays and Failures To and From a Subset of Longcodes in Australia
+impact: minor
+systems:
+    - 2nd0jdj36wpq
+timeline:
+    - ts: "2025-12-20 09:33:36"
+      description: We are experiencing MMS delivery delays and failures affecting a subset of Australian longcodes, for both inbound and outbound messages. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hour or as soon as more information becomes available.
+      investigating: true
