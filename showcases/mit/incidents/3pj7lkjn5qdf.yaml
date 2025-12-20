@@ -8,3 +8,7 @@ timeline:
     - ts: "2025-12-19 21:52:29"
       description: 'We are currently experiencing unplanned downtime affecting SAP services. The following systems are impacted: SAPGUI, Atlas, SAP Mobile (Facilities), and NetWeaver. IS&T and SAP are actively investigating and working to restore service.'
       investigating: true
+    - ts: "2025-12-20 15:41:12"
+      description: |-
+        Full connectivity has been restored; both primary and backup connections have been successfully patched. Users can now access SAP systems without limitation.
+        Batch processes and data warehouse refresh are currently underway. We will update when these activities have concluded.
