@@ -1,0 +1,10 @@
+version: incident/v1
+id: b90qfqgdzmqb
+name: Network issues in JNB region
+impact: minor
+systems:
+    - r8cxv07rm0h4
+timeline:
+    - ts: "2025-12-20 19:12:11"
+      description: We are investigating network issues in JNB region. Apps may experience increased latency or packet loss.
+      investigating: true
