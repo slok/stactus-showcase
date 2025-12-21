@@ -1,6 +1,6 @@
 version: incident/v1
 id: s1zpwj6ds8hy
-name: SMS Delivery Delays to Twilio Phone Numbers in Mexico via Subset of Shortcodes
+name: SMS Delivery Failure to Twilio Phone Numbers in Mexico via Subset of Shortcodes
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -19,4 +19,7 @@ timeline:
       investigating: true
     - ts: "2025-12-21 01:10:58"
       description: We continue to experience SMS delivery delays when sending messages to Twilio phone numbers in Mexico via a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2025-12-21 02:13:43"
+      description: We are experiencing SMS delivery failures to Twilio phone numbers in Mexico via a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
