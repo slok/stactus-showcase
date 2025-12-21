@@ -1,0 +1,10 @@
+version: incident/v1
+id: h0gbzkc62xpf
+name: SMS Delivery Failures to Maxis Network in Malaysia
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2025-12-21 04:59:59"
+      description: We are experiencing SMS delivery failures to Maxis Network in Malaysia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
