@@ -1,0 +1,10 @@
+version: incident/v1
+id: 01y13wylc7t4
+name: SMS Delivery Failure to Multiple Networks in Mexico via Subset of Short Codes
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2025-12-22 15:03:14"
+      description: We are experiencing SMS delivery failures when sending to multiple networks in Mexico for a subset of short codes. Our engineers are working with our carrier partners to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
