@@ -1,0 +1,9 @@
+version: incident/v1
+id: mck7hwngg0fm
+name: Elevated number of 5xx errors in BOM
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-12-22 07:16:13"
+      description: Between 06:16-06:33 UTC, customers reaching Mumbai, IN, may have experienced an elevated number of 5xx errors and increased latency due to congestion.
+      resolved: true
