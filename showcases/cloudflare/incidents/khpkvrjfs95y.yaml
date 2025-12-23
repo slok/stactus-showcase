@@ -1,0 +1,17 @@
+version: incident/v1
+id: khpkvrjfs95y
+name: Network Route Leak in South America
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2025-12-23 06:28:13"
+      description: |-
+        One of Cloudflare's upstream transit providers experienced a route leak, affecting network performance in South America.
+
+        We are working to mitigate impact to Internet users in this region.
+      investigating: true
+    - ts: "2025-12-23 06:32:04"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-12-23 06:39:19"
+      description: A fix has been implemented and we are monitoring the results.
