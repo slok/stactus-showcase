@@ -1,0 +1,14 @@
+version: incident/v1
+id: ccrzb3ms9j2d
+name: Incident with Issues and Pull Requests
+impact: minor
+systems:
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2025-12-23 09:56:51"
+      description: We are investigating reports of degraded performance for Issues and Pull Requests
+      investigating: true
+    - ts: "2025-12-23 09:58:11"
+      description: We're experiencing delays in search indexing for Issues and Pull Requests. Search results may show data up to three minutes old due to elevated processing times in our indexing pipeline. We're working to restore normal performance. We'll post another update by 10:30 UTC.
+      investigating: true
