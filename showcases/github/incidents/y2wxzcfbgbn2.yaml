@@ -17,3 +17,9 @@ timeline:
     - ts: "2025-12-22 23:32:27"
       description: We're investigating elevated traffic affecting GitHub services, primarily impacting logged-out users with some increased latency on Issues. We're preparing additional mitigations to prevent further spikes.
       investigating: true
+    - ts: "2025-12-23 00:06:06"
+      description: All services at healthy levels. We're finalizing the change to prevent future degradations from the same source.
+      investigating: true
+    - ts: "2025-12-23 00:17:33"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
