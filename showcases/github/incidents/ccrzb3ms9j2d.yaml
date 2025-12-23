@@ -12,3 +12,12 @@ timeline:
     - ts: "2025-12-23 09:58:11"
       description: We're experiencing delays in search indexing for Issues and Pull Requests. Search results may show data up to three minutes old due to elevated processing times in our indexing pipeline. We're working to restore normal performance. We'll post another update by 10:30 UTC.
       investigating: true
+    - ts: "2025-12-23 10:29:09"
+      description: We are seeing recovery in search indexing for Issues and Pull Requests. The queue has returned to normal processing times, and we continue to monitor service health. We'll post another update by 11:00 UTC.
+      investigating: true
+    - ts: "2025-12-23 10:32:22"
+      description: Issues and Pull Requests are operating normally.
+      investigating: true
+    - ts: "2025-12-23 10:32:24"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
