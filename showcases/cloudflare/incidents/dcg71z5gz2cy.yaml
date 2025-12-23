@@ -1,0 +1,13 @@
+version: incident/v1
+id: dcg71z5gz2cy
+name: Incorrect IP Geolocation on Cloudflare Dashboard
+impact: minor
+systems:
+    - vskzxm2flpc7
+timeline:
+    - ts: "2025-12-23 10:42:35"
+      description: Cloudflare is aware of minor inaccuracies in geolocation data for a very limited number of IP addresses. This may result in some traffic being misidentified as "Unknown" or having an incorrect country/region assignment in the Cloudflare Dashboard.
+      investigating: true
+    - ts: "2025-12-23 10:47:05"
+      description: We are continuing to investigate this issue.
+      investigating: true
