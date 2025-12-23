@@ -24,5 +24,5 @@ timeline:
       description: Copilot is operating normally.
       investigating: true
     - ts: "2025-12-18 19:09:50"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On December 18, 2025, between 16:25 UTC and 19:09 UTC the service underlying Copilot policies was degraded and users, organizations, and enterprises were not able to update any policies related to Copilot. No other GitHub services, including other Copilot services were impacted. This was due to a database migration causing a schema drift.<br /><br />We mitigated the incident by synchronizing the schema. We have hardened the service to make sure schema drift does not cause any further incidents, and will investigate improvements in our deployment pipeline to shorten time to mitigation in the future.
       resolved: true
