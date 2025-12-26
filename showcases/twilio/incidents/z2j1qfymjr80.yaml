@@ -1,0 +1,10 @@
+version: incident/v1
+id: z2j1qfymjr80
+name: SMS Delivery Delays To Multiple Networks In United States of America Via A Subset Of Twilio Shortcode Numbers
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2025-12-26 08:10:10"
+      description: We are experiencing MMS/SMS delivery delays when sending messages to multiple networks In United States of America via A subset of Twilio shortcode numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
