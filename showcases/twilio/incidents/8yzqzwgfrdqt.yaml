@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8yzqzwgfrdqt
+name: SMS Delivery Delays To Multiple Networks In The United Kingdom
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2025-12-26 10:41:47"
+      description: We are experiencing SMS delivery delays when sending messages to multiple networks in the United Kingdom. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
