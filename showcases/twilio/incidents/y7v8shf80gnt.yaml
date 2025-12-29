@@ -1,0 +1,13 @@
+version: incident/v1
+id: y7v8shf80gnt
+name: RCS Message Delivery Failures
+impact: minor
+systems:
+    - t32hnkr2q793
+timeline:
+    - ts: "2025-12-29 01:34:26"
+      description: Our monitoring systems have detected a potential issue with RCS orchestrated messages failing to reach end users. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2025-12-29 01:51:12"
+      description: We are investigating a service interruption with RCS orchestrated messages failing to reach end users due to Time-To-Live (TTL) expiring, resulting in undelivered delivery status reports (DLRs). We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
