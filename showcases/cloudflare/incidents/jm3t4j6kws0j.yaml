@@ -1,0 +1,9 @@
+version: incident/v1
+id: jm3t4j6kws0j
+name: Elevated number of 5xx errors in Bangkok
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-12-29 16:24:29"
+      description: Between 14:40-14:53 UTC, customers reaching Bangkok, TH may have experienced an elevated number of 5xx errors.
+      resolved: true
