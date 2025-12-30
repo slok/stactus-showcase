@@ -21,5 +21,5 @@ timeline:
       description: All services at healthy levels. We're finalizing the change to prevent future degradations from the same source.
       investigating: true
     - ts: "2025-12-23 00:17:33"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On December 22, 2025, between 22:01 UTC and 22:32 UTC, unauthenticated requests to github.com were degraded, resulting in slow or timed out page loads and API requests. Unauthenticated requests from Actions jobs, such as release downloads, were also impacted. Authenticated traffic was not impacted. This was due to a severe spike in traffic, primarily to search endpoints.<br /><br />Our immediate response focused on identifying and mitigating the source of the traffic increase, which along with automated traffic management restored full service for our users.<br /><br />We improved limiters for load to relevant endpoints and are continuing work to more proactively identify these large changes in traffic volume, improve resilience in critical request flows, and improve our time to mitigation.
       resolved: true
