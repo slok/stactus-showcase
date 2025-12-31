@@ -1,0 +1,9 @@
+version: incident/v1
+id: yq45r4hr125c
+name: Elevated number of 5xx errors in EZE
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-12-31 07:08:00"
+      description: Between 06:40-6:50 UTC, customers reaching Buenos Aires, AR may have experienced an elevated number of 5xx errors and latency.
+      resolved: true
