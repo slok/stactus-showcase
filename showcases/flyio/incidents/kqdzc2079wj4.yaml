@@ -7,3 +7,5 @@ timeline:
     - ts: "2026-01-01 01:09:40"
       description: We've detected degraded network performance on some of our upstream network providers, impacting traffic between US and EU regions. We're in contact with these teams as we monitor for recovery.
       investigating: true
+    - ts: "2026-01-01 02:01:44"
+      description: We're seeing performance on impacted routes return to normal levels. Prior to recovering, we observed intermittent high packet loss for US <-> EU traffic, most acutely from approximately Dec 31 23:35 to 23:45 UTC, and later from Jan 1 00:40 to 01:35.
