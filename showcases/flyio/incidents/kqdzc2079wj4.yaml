@@ -9,3 +9,6 @@ timeline:
       investigating: true
     - ts: "2026-01-01 02:01:44"
       description: We're seeing performance on impacted routes return to normal levels. Prior to recovering, we observed intermittent high packet loss for US <-> EU traffic, most acutely from approximately Dec 31 23:35 to 23:45 UTC, and later from Jan 1 00:40 to 01:35.
+    - ts: "2026-01-01 05:52:07"
+      description: This incident has been resolved.
+      resolved: true
