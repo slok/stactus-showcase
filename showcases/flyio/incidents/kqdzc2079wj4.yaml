@@ -1,0 +1,9 @@
+version: incident/v1
+id: kqdzc2079wj4
+name: Network issues impacting EU <-> US traffic
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-01 01:09:40"
+      description: We've detected degraded network performance on some of our upstream network providers, impacting traffic between US and EU regions. We're in contact with these teams as we monitor for recovery.
+      investigating: true
