@@ -1,0 +1,12 @@
+version: incident/v1
+id: d5t56pdnjxhd
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-01-01 21:24:39"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-01-01 21:24:47"
+      description: Our Copilot feature page (https://github.com/features/copilot) is returning 500s. We are currently investigating. This does not impact the core GitHub application.
+      investigating: true
