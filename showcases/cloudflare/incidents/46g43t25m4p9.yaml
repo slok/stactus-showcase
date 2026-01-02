@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-01-02 17:35:00"
       description: A small portion of Cloudflare Audit Log processing is running behind, causing a delay in timely delivery of audit data. These delays do not impact analytics for DNS or Rate Limiting.
       investigating: true
+    - ts: "2026-01-02 20:34:45"
+      description: A fix has been implemented and we are monitoring the results.
