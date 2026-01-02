@@ -1,7 +1,7 @@
 version: incident/v1
 id: 46g43t25m4p9
 name: Audit Log Delays
-impact: minor
+impact: none
 systems:
     - 2469qcw8rvjp
 timeline:
@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2026-01-02 20:34:45"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-01-02 22:28:47"
+      description: This incident has been resolved.
+      resolved: true
