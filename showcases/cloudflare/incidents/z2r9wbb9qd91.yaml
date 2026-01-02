@@ -1,0 +1,12 @@
+version: incident/v1
+id: z2r9wbb9qd91
+name: Increased 5xx errors in the India Region
+impact: minor
+systems:
+    - y98zlwj1d7zh
+timeline:
+    - ts: "2026-01-02 12:40:06"
+      description: Cloudflare is aware of and investigating an increase of 5xx errors on requests in the India region using Cloudflare Tunnels.
+      investigating: true
+    - ts: "2026-01-02 12:43:49"
+      description: The issue has been identified and a fix is being implemented.
