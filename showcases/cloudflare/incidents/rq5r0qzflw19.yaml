@@ -1,0 +1,9 @@
+version: incident/v1
+id: rq5r0qzflw19
+name: Increase of Workers errors
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-01-03 01:44:42"
+      description: Cloudflare has identified an issue impacting a small subset of customers where Cloudflare Workers will be returning an increase of Exceeded Memory errors. The issue has been identified and a fix is being implemented.
