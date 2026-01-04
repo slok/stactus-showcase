@@ -1,20 +1,16 @@
 version: incident/v1
 id: dcyr6l1yfvxp
-name: MMS Delivery Failures From Subset of Twilio Numbers in Australia
+name: MMS Delivery Delays To and From Via a Subset of Twilio Numbers in Australia
 impact: minor
 systems:
     - 2nd0jdj36wpq
 timeline:
     - ts: "2026-01-04 06:36:46"
-      description: |-
-        We are experiencing MMS Delivery Failures From Subset of Twilio Numbers in Australia.
-        Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      description: We are experiencing MMS delivery delays to and from a subset of Twilio phone numbers in Australia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2026-01-04 07:35:22"
-      description: |-
-        We continue to experience MMS delivery failures from a subset of Twilio phone numbers in Australia.
-        Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      description: We continue to experience MMS delivery delays to and from a subset of Twilio phone numbers in Australia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
     - ts: "2026-01-04 09:35:04"
-      description: We continue to experience MMS delivery failures from a subset of Twilio phone numbers in Australia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      description: We continue to experience MMS delivery delays to and from a subset of Twilio phone numbers in Australia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
