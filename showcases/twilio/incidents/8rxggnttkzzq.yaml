@@ -1,9 +1,12 @@
 version: incident/v1
 id: 8rxggnttkzzq
-name: On Call Engineers are Investigating an issue with SMS Delivery Delays to Claro in Dominican Republic
-impact: none
+name: SMS Delivery Delays to Claro in Dominican Republic
+impact: minor
 systems: []
 timeline:
     - ts: "2026-01-05 01:54:34"
       description: Our monitoring systems have detected a potential issue with SMS delivery delays to Claro in Dominican Republic. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-01-05 01:58:15"
+      description: We are experiencing SMS delivery delays to Claro in Dominican Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
