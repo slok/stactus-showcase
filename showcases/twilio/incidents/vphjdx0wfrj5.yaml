@@ -1,0 +1,10 @@
+version: incident/v1
+id: vphjdx0wfrj5
+name: SMS Delivery Delays to Claro Network in Chile
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-01-05 19:42:34"
+      description: We are experiencing SMS delivery delays when sending messages to Claro Network in Chile. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
