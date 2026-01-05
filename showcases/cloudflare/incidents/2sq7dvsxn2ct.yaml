@@ -1,0 +1,11 @@
+version: incident/v1
+id: 2sq7dvsxn2ct
+name: Cloudflare Gateway Logs Delays
+impact: minor
+systems:
+    - gyx2yygg7lmd
+    - k0mgxrls5y1b
+timeline:
+    - ts: "2026-01-05 11:42:20"
+      description: Cloudflare is observing delays in processing Gateway Network Firewall logs via Dashboard. This does not affect log delivery through Logpush services. We are currently working on a resolution, more updates to follow shortly.
+      investigating: true
