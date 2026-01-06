@@ -7,3 +7,11 @@ timeline:
     - ts: "2026-01-06 16:36:59"
       description: We are currently investigating an issue affecting metric collection on the Database Metrics tab or any related API requests.
       investigating: true
+    - ts: "2026-01-06 18:39:48"
+      description: |-
+        We've identified an issue currently impacting the Metrics tab in the Redis Cloud admin console. Users may experience delays in viewing database metrics.
+        Our team is actively working on a fix and will provide updates as they become available.
+
+        There is no impact on database connectivity or performance.
+
+        If you have any questions, please reach out to us at: support.redis.com

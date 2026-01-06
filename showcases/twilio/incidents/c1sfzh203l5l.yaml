@@ -1,0 +1,11 @@
+version: incident/v1
+id: c1sfzh203l5l
+name: Increased load and 429 errors in function invocations
+impact: minor
+systems:
+    - b3tl520cz8tc
+    - ld8ss4pqqskp
+timeline:
+    - ts: "2026-01-06 18:42:39"
+      description: Our engineers began investigating an issue with Increased load and 429 errors in function invocations. Users may experience errors when invoking functions and/or assets. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
