@@ -4,13 +4,28 @@ name: Management plane outage
 impact: critical
 systems:
     - 15knchzwl5np
+    - q5hm9x2qx9l9
     - 66r6rhq3hn9n
+    - nv3vps27z635
     - 80ykv2p95qgy
+    - dz36cj1q2s1r
+    - vnhk0y6jtn3q
+    - rc5yp3480n5g
     - 49yq6v65b33l
+    - k2t9fbjfxj8r
+    - 6b3gdnt5jyf2
+    - wsvw4rnbxf0k
     - k2zhkw7wryv2
+    - d8dmkvyb21x5
+    - 1nlcpj3qhzxl
+    - 3zgl1nsfpms9
+    - zkrdhxtr5trp
+    - v4qpnygk93qq
 timeline:
     - ts: "2026-01-06 04:21:49"
       description: We are investigating a major outage of our control plane. Apps may continue to run, but it is not currently possible to log in to the dashboard or use the Machines API.
       investigating: true
     - ts: "2026-01-06 04:47:39"
       description: "We have identified the cause of the outage and are working on a fix. The fly.io dashboard and the machines API continue to be unavailable at this time. \n\nRunning machines should continue to stay up and be reachable at this time. However creating/starting/stopping machines, running new deployments, or other operations that rely on the machines API remain unavailable."
+    - ts: "2026-01-06 05:32:04"
+      description: "We are continuing to work on deploying a fix. The fly.io dashboard and the machines API continue to be unavailable at this time. \n\nFly Managed Postgres (MPG) clusters continue to run normally, however creating new clusters will fail at this time. Users may also see scheduled backups remain in a running or pending state at this time. These backups will resume as scheduled once the platform level issues are resolved"
