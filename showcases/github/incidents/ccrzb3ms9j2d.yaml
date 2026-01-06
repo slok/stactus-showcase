@@ -19,5 +19,5 @@ timeline:
       description: Issues and Pull Requests are operating normally.
       investigating: true
     - ts: "2025-12-23 10:32:24"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On December 23, 2025, between 09:15 UTC and 10:32 UTC the Issues and Pull Requests search indexing service was degraded and caused search results to contain stale data up to 3 minutes old for roughly 1.3 million issues and pull requests. This was due to search indexing queues backing up from resource contention caused by a running transition.<br /><br />We mitigated the incident by cancelling the running transition.<br /><br />We are working to implement closer monitoring of search infrastructure resource utilization during transitions to reduce our time to detection and mitigation of issues like this one in the future.
       resolved: true
