@@ -1,0 +1,11 @@
+version: incident/v1
+id: mcspt3m8w89t
+name: Management plane outage
+impact: critical
+systems:
+    - 66r6rhq3hn9n
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2026-01-06 04:21:49"
+      description: We are investigating a major outage of our control plane. Apps may continue to run, but it is not currently possible to log in to the dashboard or use the Machines API.
+      investigating: true
