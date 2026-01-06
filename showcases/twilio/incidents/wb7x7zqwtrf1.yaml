@@ -1,12 +1,12 @@
 version: incident/v1
 id: wb7x7zqwtrf1
-name: Voice Insights customers are not able to consume events for Call Insights Event Stream.
+name: Customers are not able to consume events for Call Insights, Debug and Studio Event Streams.
 impact: minor
 systems:
     - zxhmy448yyn3
 timeline:
     - ts: "2026-01-06 17:25:26"
-      description: Our engineers began investigating an issue with Voice Insights customers that are not able to consume events for Call Insights Event Stream. We will provide another update in 1 hour or as soon as more information becomes available.
+      description: Our engineers began investigating an issue with customers that are not able to consume events for Call Insights, Debug and Studio Event Streams. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2026-01-06 18:29:34"
-      description: Our engineers have applied mitigations are seeing recovery on the issue with Voice Insights customers that were not able to consume events for Call Insights Event Stream. We will provide another update in 2 hours or as soon as more information becomes available.
+      description: Our engineers have applied mitigations are seeing recovery on the issue with customers that were not able to consume events for Call Insights, Debug and Studio Event Streams. We will provide another update in 2 hours or as soon as more information becomes available.
