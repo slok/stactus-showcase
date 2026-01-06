@@ -1,0 +1,13 @@
+version: incident/v1
+id: 3ws87wyc2fy2
+name: High Latency and Errors in Prod-Us-Central-7
+impact: major
+systems:
+    - gxyxxd4nr755
+    - xjv0q11xqq2b
+timeline:
+    - ts: "2026-01-06 17:41:27"
+      description: We are currently investigating an issue causing degraded Mimir and Tempo read performance in the prod-us-central-7 region.
+      investigating: true
+    - ts: "2026-01-06 17:50:07"
+      description: We are seeing some recovery in affected products. We are continuing to monitor the progress.
