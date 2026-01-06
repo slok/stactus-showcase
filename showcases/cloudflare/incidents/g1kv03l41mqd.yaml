@@ -1,0 +1,11 @@
+version: incident/v1
+id: g1kv03l41mqd
+name: Customer Impacting Delays
+impact: minor
+systems:
+    - fbvx0hxhhdj0
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2026-01-06 08:16:58"
+      description: Cloudflare is investigating issues with our services. We are investigating issues impacting Cache purge delays, Load Balancing health checks logs and some Cloudflare notifications/emails. More updates to follow shortly.
+      investigating: true
