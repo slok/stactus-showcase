@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7bnh4622wtjm
+name: Call Failures From A Subset of Twilio's Phone Numbers to Kenya
+impact: minor
+systems:
+    - 6ns22g89f6g9
+timeline:
+    - ts: "2026-01-06 15:30:08"
+      description: We are observing call failures from a subset of Twilio's Phone Numbers to Kenya. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
