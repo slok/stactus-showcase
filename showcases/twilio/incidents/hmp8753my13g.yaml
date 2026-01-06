@@ -1,0 +1,10 @@
+version: incident/v1
+id: hmp8753my13g
+name: SMS Delivery Delays to Tigo in Colombia
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-01-06 22:39:24"
+      description: We are experiencing SMS delivery delays when sending messages to Tigo in Colombia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
