@@ -31,3 +31,5 @@ timeline:
       description: "We are continuing to work on deploying a fix. The fly.io dashboard and the machines API continue to be unavailable at this time. \n\nFly Managed Postgres (MPG) clusters continue to run normally, however creating new clusters will fail at this time. Users may also see scheduled backups remain in a running or pending state at this time. These backups will resume as scheduled once the platform level issues are resolved"
     - ts: "2026-01-06 06:01:17"
       description: We are continuing to work on restoring service to the Machines API and other affected platform components..
+    - ts: "2026-01-06 06:48:04"
+      description: We are continuing to make progress on a fix for this issue.
