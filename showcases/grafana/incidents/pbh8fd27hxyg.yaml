@@ -1,0 +1,12 @@
+version: incident/v1
+id: pbh8fd27hxyg
+name: Cloudflare Error 1016
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-06 15:09:16"
+      description: |-
+        From 20:32 to 20:37 UTC, a DNS record misconfiguration resulted in temporary Cloudflare 1016 DNS errors on many Grafana Cloud stacks.
+
+        The misconfiguration was mitigated within 5 minutes, and we are working with Cloudflare to better understand why the particular misconfiguration resulted in this outage.
+      resolved: true
