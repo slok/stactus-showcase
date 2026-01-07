@@ -1,0 +1,10 @@
+version: incident/v1
+id: dxr8sz521h7y
+name: Digital Experience Monitoring device state may be out of date
+impact: minor
+systems:
+    - nmp96vgn1hpl
+timeline:
+    - ts: "2026-01-07 19:56:09"
+      description: Cloudflare is investigating issues with its Digital Experience Monitoring (DEX) suite. Customers may notice that device state (Who is connected, what mode, etc.) is out of date.
+      investigating: true
