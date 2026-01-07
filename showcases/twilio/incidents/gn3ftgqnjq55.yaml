@@ -1,0 +1,10 @@
+version: incident/v1
+id: gn3ftgqnjq55
+name: Call Failures to a subset of Twilio Numbers in Thailand
+impact: minor
+systems:
+    - 50pr269zqrwj
+timeline:
+    - ts: "2026-01-07 21:46:24"
+      description: We are observing Call Failures to a subset of Twilio Numbers in Thailand. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
