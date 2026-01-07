@@ -1,0 +1,16 @@
+version: incident/v1
+id: vyxbxqhdt75d
+name: Some models missing in Copilot
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-01-07 18:32:25"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2026-01-07 18:33:24"
+      description: We have received reports that some expected models are missing from VSCode and other products using Copilot. We are investigating the cause of this to restore access.
+      investigating: true
+    - ts: "2026-01-07 18:44:54"
+      description: We are currently investigating reports of some Copilot Pro premium models including Opus and GPT 5.2 being unavailable in Copilot products. We'll post another update by 19:08 UTC.
+      investigating: true
