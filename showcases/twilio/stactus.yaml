@@ -31,9 +31,6 @@ systems:
       name: PROGRAMMABLE VOICE AU1 / PSTN AU1
     - id: hzh0mwy93r9z
       name: PROGRAMMABLE VOICE IE1 / PSTN IE1
-    - id: b9z92qjr2p04
-      name: FLEX / TaskRouter
-      description: Twilio TaskRouter service
     - id: w7nxj548smhd
       name: PROGRAMMABLE VOICE US1 / SIP Interface US1
     - id: q015c7mrst1s
@@ -165,6 +162,9 @@ systems:
     - id: 2vfx22h9nhbk
       name: PROGRAMMABLE VIDEO / Realtime Transcriptions
       description: Realtime Transcriptions - Video
+    - id: b9z92qjr2p04
+      name: TaskRouter
+      description: Twilio TaskRouter service
     - id: 86c0cvzk43pv
       name: PROGRAMMABLE VOICE US1 / Recording Transcriptions US1
     - id: 42zx9w2kmtvf
@@ -180,8 +180,6 @@ systems:
     - id: xv01vfp8wvs4
       name: TWILIO PLATFORM / Customer Support Center
       description: This includes services related to reaching support via phone, email, and chat.
-    - id: hjfntfyhnn4l
-      name: INTERCONNECT
     - id: 50pr269zqrwj
       name: CARRIER NETWORK / Voice, APAC
     - id: lzm53c2kjxkh
@@ -190,11 +188,10 @@ systems:
       name: PROGRAMMABLE VOICE AU1 / TwiML AU1
     - id: vxpx4whmf0zt
       name: PROGRAMMABLE VOICE IE1 / TwiML IE1
-    - id: pv5w18vrltfl
-      name: PHONE NUMBERS
-      description: Buying and searching
     - id: d1j2nx64rpq3
       name: PROGRAMMABLE MESSAGING / MMS
+    - id: hjfntfyhnn4l
+      name: INTERCONNECT
     - id: yf5px6tdl6yt
       name: PROGRAMMABLE VOICE US1 / Voice Insights US1
     - id: 8qjql0kqnd33
@@ -207,10 +204,11 @@ systems:
       name: PROGRAMMABLE VOICE AU1 / Voice Insights AU1
     - id: k4rgq3b8f3pw
       name: PROGRAMMABLE VOICE IE1 / Voice Insights IE1
+    - id: pv5w18vrltfl
+      name: PHONE NUMBERS
+      description: Buying and searching
     - id: yvvy3vlp4djf
       name: PROGRAMMABLE MESSAGING / SMS
-    - id: rk4qzxxbwj7t
-      name: PROGRAMMABLE CHAT
     - id: 361mb56zmf8z
       name: PROGRAMMABLE VOICE US1 / Speech Recognition (Gather Speech) US1
     - id: kvyjw7lg97l1
@@ -223,24 +221,31 @@ systems:
       name: PROGRAMMABLE VOICE AU1 / Speech Recognition (Gather Speech) AU1
     - id: 333kb66wbbx3
       name: PROGRAMMABLE VOICE IE1 / Speech Recognition (Gather Speech) IE1
+    - id: rk4qzxxbwj7t
+      name: PROGRAMMABLE CHAT
     - id: pf1lb8dq2g3b
       name: PROGRAMMABLE MESSAGING / SMPP
     - id: bnzggd37p61w
       name: CARRIER NETWORK / Voice, Europe
     - id: gk7b1lwzf93x
       name: TWILIO PLATFORM / Trust Hub
-    - id: qphgn531prd5
-      name: PROGRAMMABLE VOICE US1 / Intelligence US1
     - id: z6wf7g459vzh
       name: FLEX / Flex Plugins
-    - id: 54ft7xt1tqmm
-      name: PROXY
+    - id: 1rcq4fprxs8j
+      name: PROGRAMMABLE VOICE US1 / Realtime Transcriptions US1
+      description: Realtime Transcriptions US1
+    - id: bm4q6yzd5bck
+      name: PROGRAMMABLE VOICE AU1 / Realtime Transcriptions AU1
+      description: Realtime Transcriptions AU1
+    - id: djtw45lb0dbz
+      name: PROGRAMMABLE VOICE IE1 / Realtime Transcriptions IE1
+      description: Realtime Transcriptions IE1
     - id: 1gkv0mxhzsjv
       name: PROGRAMMABLE MESSAGING / Messaging Channels
     - id: llgdln3dcs6p
       name: CARRIER NETWORK / SMS, Europe
-    - id: 622gcfj89fsh
-      name: PROGRAMMABLE VOICE US1 / Pay US1
+    - id: qphgn531prd5
+      name: PROGRAMMABLE VOICE US1 / Intelligence US1
     - id: v95b6qqhp58v
       name: FLEX / Flex Billing
     - id: 3mryzdr7rssr
@@ -251,10 +256,12 @@ systems:
       name: PROGRAMMABLE VOICE IE1 / Pay IE1
     - id: 5bv1plmydbzf
       name: PROGRAMMABLE MESSAGING / Notify
+    - id: 54ft7xt1tqmm
+      name: PROXY
     - id: 6ns22g89f6g9
       name: CARRIER NETWORK / Voice, Middle East & Africa
-    - id: sxwbmz83d77t
-      name: PROGRAMMABLE VOICE US1 / Media Streams US1
+    - id: 622gcfj89fsh
+      name: PROGRAMMABLE VOICE US1 / Pay US1
     - id: f0p0rtg9019x
       name: PROGRAMMABLE VOICE AU1 / Media Streams AU1
     - id: 5jszkdfr1rv7
@@ -263,52 +270,45 @@ systems:
       name: PROGRAMMABLE MESSAGING / Conversations
     - id: 9z5gsqyjs4rl
       name: CARRIER NETWORK / SMS, Middle East & Africa
-    - id: s91kksd3hqjp
-      name: PROGRAMMABLE VOICE US1 / Dialogflow US1
-    - id: dgkv7yc7sqdg
-      name: PROGRAMMABLE MESSAGING / Messaging Insights
-    - id: trrz5ztt7pl8
-      name: CARRIER NETWORK / Verify Silent Network Auth
-    - id: jdtgrvyw6w5z
-      name: PROGRAMMABLE VOICE US1 / ConversationRelay US1
+    - id: sxwbmz83d77t
+      name: PROGRAMMABLE VOICE US1 / Media Streams US1
     - id: myqfclzxr685
       name: PROGRAMMABLE VOICE AU1 / ConversationRelay AU1
     - id: c19xd5rl3ryl
       name: PROGRAMMABLE VOICE IE1 / ConversationRelay IE1
-    - id: fsxs9n9yf4m7
-      name: CARRIER NETWORK / Lookup Identity Match
-    - id: 6cn0g627h62p
-      name: PROGRAMMABLE MESSAGING / Messaging Services
-    - id: mwcz6hw53t7c
-      name: PROGRAMMABLE VOICE US1 / Voice REST API US1
+    - id: dgkv7yc7sqdg
+      name: PROGRAMMABLE MESSAGING / Messaging Insights
+    - id: trrz5ztt7pl8
+      name: CARRIER NETWORK / Verify Silent Network Auth
+    - id: s91kksd3hqjp
+      name: PROGRAMMABLE VOICE US1 / Dialogflow US1
     - id: ldpbqc660lk2
       name: PROGRAMMABLE VOICE AU1 / Voice REST API AU1
     - id: whdt8w1wqpnw
       name: PROGRAMMABLE VOICE IE1 / Voice REST API IE1
-    - id: 48ytpcq9mbrd
-      name: FRONTLINE
+    - id: fsxs9n9yf4m7
+      name: CARRIER NETWORK / Lookup Identity Match
+    - id: 6cn0g627h62p
+      name: PROGRAMMABLE MESSAGING / Messaging Services
+    - id: jdtgrvyw6w5z
+      name: PROGRAMMABLE VOICE US1 / ConversationRelay US1
     - id: t4bxfcg2ppvb
       name: CARRIER NETWORK / Lookup Line Type Intelligence [Legacy API]
     - id: 3p1q1qbw970c
       name: PROGRAMMABLE MESSAGING / Content API
-    - id: 1rcq4fprxs8j
-      name: PROGRAMMABLE VOICE US1 / Realtime Transcriptions US1
-      description: Realtime Transcriptions US1
-    - id: bm4q6yzd5bck
-      name: PROGRAMMABLE VOICE AU1 / Realtime Transcriptions AU1
-      description: Realtime Transcriptions AU1
-    - id: djtw45lb0dbz
-      name: PROGRAMMABLE VOICE IE1 / Realtime Transcriptions IE1
-      description: Realtime Transcriptions IE1
+    - id: mwcz6hw53t7c
+      name: PROGRAMMABLE VOICE US1 / Voice REST API US1
+    - id: 48ytpcq9mbrd
+      name: FRONTLINE
     - id: cfy5cxrly95b
       name: CARRIER NETWORK / Lookup Line Type Intelligence [Twilio API]
     - id: brty2vw4qv6v
       name: PROGRAMMABLE MESSAGING / Toll-free verification
       description: Toll-free verification
-    - id: kj97j77088bh
-      name: Sender ID
     - id: q0hp6vfr4vvh
       name: CARRIER NETWORK / Lookup SIM Swap
+    - id: kj97j77088bh
+      name: Sender ID
     - id: t32hnkr2q793
       name: PROGRAMMABLE MESSAGING / RCS Messaging
       description: RCS Messaging
