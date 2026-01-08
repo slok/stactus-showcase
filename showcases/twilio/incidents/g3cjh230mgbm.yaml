@@ -1,0 +1,10 @@
+version: incident/v1
+id: g3cjh230mgbm
+name: Some Percentage of RCS Messages are Experiencing Delays
+impact: minor
+systems:
+    - t32hnkr2q793
+timeline:
+    - ts: "2026-01-08 08:10:51"
+      description: We are currently investigating an issue where some percentage of RCS messages are delayed. Our team has identified that the RCS service is returning permission denied errors, which is impacting message delivery for some of our customers. We are actively working to resolve this as quickly as possible. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
