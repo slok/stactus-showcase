@@ -8,3 +8,6 @@ timeline:
       description: Cloudflare is aware of, and investigating, an issue which potentially impacts users globally that use 1.1.1.1 public resolver. Further detail will be provided as more information becomes available.
     - ts: "2026-01-08 20:01:04"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-01-08 20:25:10"
+      description: A recent software update inadvertently altered the ordering of DNS records within our cached responses. Specifically, the sequence of CNAME and non-CNAME records in the "answer" section was changed, which conflicted with the expectations of certain DNS client implementations. Upon identifying this behavior, we reverted the release to restore standard record ordering and resolve connectivity issues for affected users.
+      resolved: true
