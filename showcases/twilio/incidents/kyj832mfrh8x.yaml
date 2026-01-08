@@ -1,0 +1,10 @@
+version: incident/v1
+id: kyj832mfrh8x
+name: Inbound Call Failure From Subscribers to a Subset of Twilio Phone Numbers in Belgium
+impact: minor
+systems:
+    - bnzggd37p61w
+    - 6ns22g89f6g9
+timeline:
+    - ts: "2026-01-08 03:31:27"
+      description: The issue causing inbound call failures to Twilio phone numbers in Belgium has been identified. We are actively working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
