@@ -14,3 +14,5 @@ timeline:
       description: Our metrics cluster is continuing to working through the backlog of metrics in BOM. Metrics for machines running in the BOM region will continue to be unavailable until this is complete.
     - ts: "2026-01-09 17:59:51"
       description: We are  continuing to work through the backlog of metrics in BOM. Metrics will remain unavailable for BOM machines until this is complete.
+    - ts: "2026-01-09 20:36:16"
+      description: "We are continuing to process the metrics backlog in BOM. Progress is being made, but due to the volume of metrics this may still take some time to fully complete. \n\nAt this time users with machines in BOM should see metrics from the past 12h beginning to backfill into fly-metrics.net. However most will not be fully caught up yet."
