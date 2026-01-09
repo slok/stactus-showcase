@@ -31,3 +31,6 @@ timeline:
     - ts: "2026-01-09 21:36:21"
       description: We continue to investigate the problem with Copilot agent sessions not rendering in AI Controls.
       investigating: true
+    - ts: "2026-01-09 22:41:50"
+      description: We are seeing delays processing the AI Session event queue, which is causing sessions to not be displayed on the AI Controls UI. We have deployed a fix to improve the queue processing and are monitoring for effectiveness. We continue to investigate other mitigation paths.
+      investigating: true
