@@ -1,0 +1,12 @@
+version: incident/v1
+id: 9cxd5h3z3jfj
+name: Write Degradation in Grafana Cloud Logs (prod-us-east-3)
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-09 23:08:02"
+      description: |-
+        Between 20:23 UTC and 20:53 UTC, Grafana Cloud Logs in prod-us-east-3 experienced a write degradation, which may have resulted in delayed or failed log ingestion for some customers.
+
+        The issue has been fully resolved, and the cell is currently operating normally. We are continuing to investigate the root cause and will provide additional details if relevant.
+      resolved: true
