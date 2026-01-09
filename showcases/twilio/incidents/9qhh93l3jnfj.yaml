@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9qhh93l3jnfj
+name: MMS Delivery Delays to and From a Subset of Twilio Numbers in Australia
+impact: minor
+systems:
+    - 2nd0jdj36wpq
+timeline:
+    - ts: "2026-01-09 03:21:37"
+      description: We are currently observing latency in MMS delivery when sending messages to and from a subset of Twilio phone numbers in Australia specially during the Australia peak traffic between 14:00 until 20:00 PST. We have identified that the primary cause of this latency is an on-going undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
