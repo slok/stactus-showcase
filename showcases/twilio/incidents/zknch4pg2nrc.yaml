@@ -4,12 +4,13 @@ name: SMS Delivery Delays to Multiple Small Carriers in United States of America
 impact: minor
 systems:
     - 7d8w22hqrh6s
-    - 39mb8cmw8y2v
-    - 32f2bm54nkvv
 timeline:
     - ts: "2026-01-09 16:43:19"
       description: We are experiencing SMS delivery delays when sending messages to multiple small carriers in United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2026-01-09 17:41:15"
       description: We continue to experience SMS delivery delays when sending messages to multiple small carriers in United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-09 19:35:51"
+      description: We continue to experience SMS delivery delays when sending messages to multiple small carriers in United States of America. Our engineers are working with our carrier partner to resolve the issue. We’ve discovered that US Toll-Free numbers and US Short Code numbers aren’t impacted by this incident. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
