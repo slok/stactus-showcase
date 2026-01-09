@@ -1,0 +1,10 @@
+version: incident/v1
+id: wggjq07rfptx
+name: Metrics display issue in Mumbai (BOM) region
+impact: minor
+systems:
+    - k2zhkw7wryv2
+timeline:
+    - ts: "2026-01-09 12:53:44"
+      description: "We are currently investigating issues collecting machine metrics for machines running in the BOM  (Mumbai, India) region. \nMachines in the region continue to run, start, and stop normally, however metrics for these machines are not displaying in fly-metrics.net."
+      investigating: true
