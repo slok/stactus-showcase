@@ -1,0 +1,15 @@
+version: incident/v1
+id: 8bcsk6c4prjl
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-01-09 17:53:59"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-01-09 17:57:53"
+      description: We are investigating an incident affecting missing Agent Session data on the AI Settings page on Agent Control Plane.
+      investigating: true
+    - ts: "2026-01-09 18:08:15"
+      description: Agent Session activity is still observable in audit logs, and this only impacts the AI Controls UI.
+      investigating: true
