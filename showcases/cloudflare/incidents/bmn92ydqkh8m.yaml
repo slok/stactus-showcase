@@ -1,0 +1,15 @@
+version: incident/v1
+id: bmn92ydqkh8m
+name: Analytics Delays
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-01-09 07:46:51"
+      description: |-
+        Cloudflare Analytics processing is running behind. This affects timely delivery of customer data.
+
+        These delays do not impact analytics for DNS and Rate Limiting.
+
+        More updates to follow shortly.
+      investigating: true
