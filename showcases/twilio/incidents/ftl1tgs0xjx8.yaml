@@ -1,9 +1,12 @@
 version: incident/v1
 id: ftl1tgs0xjx8
-name: Delay in Processing Inbound Email Messages in Conversations
+name: 'Automated Alert: Minimal Customer Impact - Delay in Processing Inbound Email Messages in Conversations'
 impact: none
 systems: []
 timeline:
     - ts: "2026-01-09 19:13:35"
       description: Our monitoring systems have detected a delay in processing Inbound Email Messages in Conversations. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2026-01-09 19:27:47"
+      description: We have fully investigated the delay in processing inbound email messages in Conversations and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
