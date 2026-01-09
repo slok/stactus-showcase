@@ -34,3 +34,6 @@ timeline:
     - ts: "2026-01-09 22:41:50"
       description: We are seeing delays processing the AI Session event queue, which is causing sessions to not be displayed on the AI Controls UI. We have deployed a fix to improve the queue processing and are monitoring for effectiveness. We continue to investigate other mitigation paths.
       investigating: true
+    - ts: "2026-01-09 23:44:09"
+      description: We have deployed an additional fix and are beginning to see recovery to the queue preventing AI Sessions from showing in the AI Controls UI. We are working on an estimate for when the queue will be fully processed, and will post another update once we have that information.
+      investigating: true
