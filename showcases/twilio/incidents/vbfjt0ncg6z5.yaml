@@ -1,0 +1,10 @@
+version: incident/v1
+id: vbfjt0ncg6z5
+name: SMS Delivery Delays and Failures to and From AT&T Mexico
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-01-10 02:24:32"
+      description: We are experiencing SMS delivery delays and failures when sending messages to and From AT&T Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

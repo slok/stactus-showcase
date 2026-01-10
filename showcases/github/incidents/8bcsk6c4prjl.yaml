@@ -40,3 +40,9 @@ timeline:
     - ts: "2026-01-09 23:56:05"
       description: We estimate the backlogged queue will take 3 hours to process. We will post another update once it is completed, or if anything changes with the recovery process.
       investigating: true
+    - ts: "2026-01-10 02:33:11"
+      description: Our queue has cleared. The last 24 hours of agent session history should now be visible on the AI Controls UI. No data was lost due to this incident.
+      investigating: true
+    - ts: "2026-01-10 02:33:18"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
