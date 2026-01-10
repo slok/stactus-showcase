@@ -1,0 +1,15 @@
+version: incident/v1
+id: 01wjhvmgmbsq
+name: Service degradation with Continuous Meeting Chat Service in Saudi Arabia region impacting a subset of users.
+impact: minor
+systems:
+    - t2jk6yrqbp4j
+timeline:
+    - ts: "2026-01-10 06:16:59"
+      description: |-
+        We are currently investigating a service degradation affecting subset of users experiencing delay with Continuous Meeting Chat Service in Saudi Arabia region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
