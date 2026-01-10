@@ -12,5 +12,5 @@ timeline:
       description: We are investigating issues downloading artifacts from Actions workflows. All customers are affected when attempting to download through the web interface. We're actively working on a fix and will post another update by 17:15 UTC.
       investigating: true
     - ts: "2026-01-06 17:06:11"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On January 6, 2026 between 12:55 UTC and 17:04 UTC, the ability to download Actions artifacts from GitHub’s web interface was degraded. During this time, all attempts to download artifacts from the web interface failed. Artifact downloads via the REST API and GitHub CLI were unaffected.<br /><br />This was due to a client-side change that was deployed to optimize performance when navigating between pages in a repository. We mitigated the incident by reverting the change. <br /><br />We are working to improve testing of related changes and to add monitoring coverage for artifact downloads through the web interface to reduce our time to detection and prevent similar incidents from occurring in the future.
       resolved: true
