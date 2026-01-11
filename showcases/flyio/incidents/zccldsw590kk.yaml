@@ -1,0 +1,17 @@
+version: incident/v1
+id: zccldsw590kk
+name: Elevated GraphQL API Latency and Dashboard Error Rates
+impact: minor
+systems:
+    - 66r6rhq3hn9n
+    - 49yq6v65b33l
+    - lpn0847yxzbl
+timeline:
+    - ts: "2026-01-11 17:12:24"
+      description: "We are investigating elevated API Latency and Error rates on the platform. Users may see delays or errors creating apps, as well as on some dashboard pages.  \n\nMachines API actions appear unimpacted at this time"
+      investigating: true
+    - ts: "2026-01-11 17:21:46"
+      description: We are continuing to investigate elevated latency and error rates on our GraphQL API endpoints. Users may see errors on parts of the platform that use these APIs. This includes Flyctl actions such as deploys, as well as the fly.io dashboard.
+      investigating: true
+    - ts: "2026-01-11 17:22:38"
+      description: The issue has been identified and a fix is being implemented.
