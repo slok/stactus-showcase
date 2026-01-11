@@ -18,3 +18,5 @@ timeline:
       description: "We are continuing to process the metrics backlog in BOM. Progress is being made, but due to the volume of metrics this may still take some time to fully complete. \n\nAt this time users with machines in BOM should see metrics from the past 12h beginning to backfill into fly-metrics.net. However most will not be fully caught up yet."
     - ts: "2026-01-10 01:28:04"
       description: "Metrics have completed backfilling and are up to date on most hosts in the BOM region. \nTwo hosts are still working through the backlog; machines on those two hosts are still reporting delayed metrics at this time."
+    - ts: "2026-01-11 05:36:32"
+      description: "Metrics have returned to normal for most hosts in BOM. Two hosts are still reporting delayed metrics, but are continuing to catch up. \n\nUsers with impacted machines can use `fly machine clone` to add new machines, which should land on a different host."
