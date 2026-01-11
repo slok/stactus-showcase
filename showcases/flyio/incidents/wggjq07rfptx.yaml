@@ -20,3 +20,5 @@ timeline:
       description: "Metrics have completed backfilling and are up to date on most hosts in the BOM region. \nTwo hosts are still working through the backlog; machines on those two hosts are still reporting delayed metrics at this time."
     - ts: "2026-01-11 05:36:32"
       description: "Metrics have returned to normal for most hosts in BOM. Two hosts are still reporting delayed metrics, but are continuing to catch up. \n\nUsers with impacted machines can use `fly machine clone` to add new machines, which should land on a different host."
+    - ts: "2026-01-11 18:43:26"
+      description: "One host in BOM remains reporting delayed metrics as it continues to catch up. All other hosts in BOM are reporting metrics correctly. \n\nIf needed, users with impacted machines can use `fly machine clone` to create new machines in the region, which should land on a different host."
