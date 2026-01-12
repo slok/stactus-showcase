@@ -1,0 +1,12 @@
+version: incident/v1
+id: vlll2c8964d6
+name: Unable to view Email Routing in dashboard
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-01-12 17:06:39"
+      description: |-
+        Cloudflare is aware of and investigating an issue impacting users trying to access Email Routing in the Cloudflare Dashboard.
+        This is not impacting any routing of emails, it is limited to the dashboard.
+      investigating: true
