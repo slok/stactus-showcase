@@ -11,3 +11,9 @@ timeline:
     - ts: "2026-01-12 10:06:00"
       description: Actions is experiencing degraded performance. We are continuing to investigate.
       investigating: true
+    - ts: "2026-01-12 10:09:44"
+      description: Actions jobs that use custom Linux images are failing to start. We've identified the underlying issue and are working on mitigation.
+      investigating: true
+    - ts: "2026-01-12 10:17:26"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
