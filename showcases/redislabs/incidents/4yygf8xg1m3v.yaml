@@ -1,0 +1,12 @@
+version: incident/v1
+id: 4yygf8xg1m3v
+name: Urgent Maintenance
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-12 01:37:21"
+      description: 'Urgent maintenance applies to all of the resources with the following pattern in their endpoint: c279'
+      investigating: true
+    - ts: "2026-01-12 01:38:58"
+      description: This incident has been resolved.
+      resolved: true
