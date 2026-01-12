@@ -1,0 +1,10 @@
+version: incident/v1
+id: 0t0jr4f9hw9j
+name: Increased Errors for Durable Objects in the EEUR region
+impact: minor
+systems:
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2026-01-12 02:22:41"
+      description: Cloudflare is aware of, and investigating an issue with Durable Objects which potentially impacts multiple customers in the Eastern Europe region. Durable Objects are experiencing an elevated level of overload errors in the aforementioned region. We are currently investigating this issue.
+      investigating: true
