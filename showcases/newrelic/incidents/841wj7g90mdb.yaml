@@ -53,3 +53,11 @@ timeline:
       investigating: true
     - ts: "2026-01-12 17:36:21"
       description: Some customers in the US and EU region may experience errors when sending data to New Relic, issues in viewing data in real time, and delayed or missing alert notifications related to real time data. We are seeing recovery from mitigating actions and will continue to provide updates until services have been restored to normal operation.
+    - ts: "2026-01-12 18:10:39"
+      description: |-
+        Our teams have resolved two concurrent service interruptions affecting data ingestion and query services.
+
+        On January 12th, 2026, a subset of customers in the US and EU regions may have experienced latency or timeouts when querying data in New Relic. Teams implemented a fix, restoring affected query performance at 17:29 UTC.
+
+        Separately, a subset of customers in the US and EU regions may have experienced errors when sending data to New Relic. This interruption could have resulted in potential data drops for data sent during this timeframe, depending on client-side retry settings, and may have generated false alert notifications regarding host reporting status. This interruption appears related to a disruption with a New Relic third-party edge service provider. To remediate, our teams have shifted traffic to an alternate cloud provider and have seen recovery of impacted services.
+      resolved: true
