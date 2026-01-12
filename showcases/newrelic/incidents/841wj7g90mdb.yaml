@@ -3,16 +3,38 @@ id: 841wj7g90mdb
 name: UI Irregularities
 impact: major
 systems:
+    - d9pwhb6snl77
     - k4c77k6bzcl7
+    - ssdh7xpzvw1l
     - ty1004s644gq
+    - tpj67jyc58sb
+    - 028b05n94my0
+    - zj32brg420jm
     - k2c0hnpnmgqn
+    - 5p33lkzzqm0z
     - j6v4tzmw08t4
+    - hymb519q08z0
     - 1mwh21hqrxlw
+    - fp51bfh70sht
+    - 2jrn08x58ps2
+    - hm4r9fn1gr93
     - nw4g7754n7tl
+    - 5ny464vz0n83
+    - pmtvnzg1dzfm
+    - 858xlnc93b96
+    - xzllc95t20c2
     - x87lk2mkvdtx
+    - s27h21w34qhk
+    - vdkznxzlr7nn
     - g3mtj9z8c1cq
+    - 8h442mvws6w7
+    - vr1305kd0fnz
+    - 833c8h98qq4g
+    - 0ggq3l63l1sh
     - q94v4hz14v0f
+    - dw81gfk0f10y
     - xrzsz1k79xbd
+    - r6fg75bj1j7h
     - 5qhzckvc2ncn
     - mc4f9x2xl1zg
     - 927km3k58wgb
@@ -29,3 +51,5 @@ timeline:
     - ts: "2026-01-12 15:53:33"
       description: We have engaged our additional teams to assist with further investigation and are evaluating additional mitigation efforts.
       investigating: true
+    - ts: "2026-01-12 17:36:21"
+      description: Some customers in the US and EU region may experience errors when sending data to New Relic, issues in viewing data in real time, and delayed or missing alert notifications related to real time data. We are seeing recovery from mitigating actions and will continue to provide updates until services have been restored to normal operation.
