@@ -1,0 +1,15 @@
+version: incident/v1
+id: 9qxj7s6jsgqm
+name: Tempo write degradation in prod-eu-west-3 - tempo-prod-08
+impact: minor
+systems:
+    - zq01gnnnsqsd
+    - cm40jcy1klhh
+    - gcwgxxhzztdh
+timeline:
+    - ts: "2026-01-12 09:03:43"
+      description: We have been alerted to an issue with Tempo write degradation in prod-eu-west-3 - tempo-prod-08. The cell is operational but there is degradation in the write path. Write requests are taking longer than normal. This started at started 7:00 UTC. Our Engineering team is actively investigating this.
+      investigating: true
+    - ts: "2026-01-12 09:09:58"
+      description: We are continuing to investigate this issue.
+      investigating: true
