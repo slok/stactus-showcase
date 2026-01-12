@@ -1,0 +1,10 @@
+version: incident/v1
+id: nrb4wfr6bz9j
+name: SMS Delivery Delays and Failures to DiGi in Malaysia
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-01-12 03:49:14"
+      description: We are experiencing SMS delivery failures when sending SMS to DiGi in Malaysia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
