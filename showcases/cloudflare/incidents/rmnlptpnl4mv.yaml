@@ -1,0 +1,14 @@
+version: incident/v1
+id: rmnlptpnl4mv
+name: Increased HTTP 5xx Errors in GRU
+impact: minor
+systems:
+    - 73mbn78m0yzm
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-01-12 04:20:15"
+      description: |-
+        Cloudflare is investigating an increased level of HTTP 5xx errors in São Paulo (GRU). Some customers with requests landing in São Paulo (GRU) may observe elevated errors.
+
+        We are working to analyse and mitigate this problem.  More updates to follow shortly.
+      investigating: true

@@ -22,3 +22,6 @@ timeline:
       description: "Metrics have returned to normal for most hosts in BOM. Two hosts are still reporting delayed metrics, but are continuing to catch up. \n\nUsers with impacted machines can use `fly machine clone` to add new machines, which should land on a different host."
     - ts: "2026-01-11 18:43:26"
       description: "One host in BOM remains reporting delayed metrics as it continues to catch up. All other hosts in BOM are reporting metrics correctly. \n\nIf needed, users with impacted machines can use `fly machine clone` to create new machines in the region, which should land on a different host."
+    - ts: "2026-01-12 04:29:11"
+      description: This incident has been resolved and all hosts in BOM are accurately reporting metrics.
+      resolved: true
