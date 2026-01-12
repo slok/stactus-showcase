@@ -15,5 +15,5 @@ timeline:
       description: The issues with our upstream model provider have been resolved, and Grok Code Fast 1 is once again available in Copilot Chat and across IDE integrations.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.
       investigating: true
     - ts: "2026-01-08 01:32:48"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On January 8th, 2025, between approximately 00:00 and 1:30 UTC, the Copilot service experienced a degradation of the Grok Code Fast 1 model due to an issue with our upstream provider. Users encountered elevated error rates when using Grok Code Fast 1. Approximately 4.5% of requests failed across all users during this time. No other models were impacted.<br /><br />The issue was resolved by a mitigation put in place by our provider.
       resolved: true
