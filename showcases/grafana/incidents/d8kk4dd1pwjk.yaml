@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-01-12 15:44:44"
       description: We are investigating an issue in prod-eu-west-3 where PDC agents are failing to maintain/re-establish connectivity. Some agents are struggling to reconnect, which may cause disruptions or degraded performance for customer queries routed over PDC. We’ll share updates as we learn more.
       investigating: true
+    - ts: "2026-01-12 16:50:39"
+      description: |-
+        Engineering has identified the issue and will be deploying a fix shortly. At this time, users will continue to experience disruptions for queries routed via PDC.
+
+        We will continue to provide updates as more information is shared.

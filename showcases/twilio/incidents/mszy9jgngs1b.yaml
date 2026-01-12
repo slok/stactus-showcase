@@ -1,9 +1,19 @@
 version: incident/v1
 id: mszy9jgngs1b
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Delivery degradation on messages to Tattelecom & Mir Telecom networks in Russian Federation
+impact: minor
+systems:
+    - yvvy3vlp4djf
 timeline:
     - ts: "2026-01-12 16:26:15"
-      description: Our monitoring systems have detected a potential issue SMS Delivery Failures. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      description: We are experiencing SMS delivery failures when sending messages to Tattelecom & Mir Telecom networks in Russian Federation. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-12 16:50:05"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-01-12 16:50:40"
+      description: We are experiencing SMS delivery failures when sending messages to Tattelecom & Mir Telecom networks in Russian Federation. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-12 16:52:27"
+      description: We are continuing to investigate this issue.
       investigating: true
