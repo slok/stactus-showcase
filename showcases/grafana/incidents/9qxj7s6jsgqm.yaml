@@ -16,3 +16,6 @@ timeline:
     - ts: "2026-01-12 11:41:43"
       description: There was a full degradation of write service between 9:13 UTC - 9:35 UTC. The cell is operational but there is still degradation in the write path. Our Engineering team is actively working on this.
       investigating: true
+    - ts: "2026-01-12 15:26:03"
+      description: Engineering has released a fix and we continue to observe a period of recovery. As of 15:12 UTC we are considering this resolved.
+      resolved: true

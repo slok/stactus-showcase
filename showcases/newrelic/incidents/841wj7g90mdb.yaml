@@ -1,0 +1,28 @@
+version: incident/v1
+id: 841wj7g90mdb
+name: UI Irregularities
+impact: major
+systems:
+    - k4c77k6bzcl7
+    - ty1004s644gq
+    - k2c0hnpnmgqn
+    - j6v4tzmw08t4
+    - 1mwh21hqrxlw
+    - nw4g7754n7tl
+    - x87lk2mkvdtx
+    - g3mtj9z8c1cq
+    - q94v4hz14v0f
+    - xrzsz1k79xbd
+    - 5qhzckvc2ncn
+    - mc4f9x2xl1zg
+    - 927km3k58wgb
+    - 8k5pmrjbl1w0
+    - 7yqy1ctsjw35
+    - 5kj1rklxtgzg
+timeline:
+    - ts: "2026-01-12 15:21:46"
+      description: We are currently investing an issue causing timeouts/query lag in NRDB
+      investigating: true
+    - ts: "2026-01-12 15:22:48"
+      description: We are continuing to investigate this issue.
+      investigating: true
