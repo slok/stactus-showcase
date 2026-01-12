@@ -1,0 +1,10 @@
+version: incident/v1
+id: d8kk4dd1pwjk
+name: PDC Agent Connectivity Issues in prod-eu-west-3
+impact: major
+systems:
+    - xp9dh2867dhp
+timeline:
+    - ts: "2026-01-12 15:44:44"
+      description: We are investigating an issue in prod-eu-west-3 where PDC agents are failing to maintain/re-establish connectivity. Some agents are struggling to reconnect, which may cause disruptions or degraded performance for customer queries routed over PDC. We’ll share updates as we learn more.
+      investigating: true
