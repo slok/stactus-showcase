@@ -1,0 +1,13 @@
+version: incident/v1
+id: zcxwznlbgzr7
+name: Disruption with some GitHub services
+impact: major
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-01-12 10:02:24"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-01-12 10:06:00"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
