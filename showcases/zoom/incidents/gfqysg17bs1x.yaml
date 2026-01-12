@@ -3,13 +3,21 @@ id: gfqysg17bs1x
 name: A subset of users are experiencing intermittent Zoom Phone and Zoom Contact Center Inbound and Outbound call service degradation in South Africa region.
 impact: minor
 systems:
+    - kmldw5k76q3v
     - hx06zxqdrsxl
 timeline:
     - ts: "2026-01-12 11:25:28"
       description: |-
-        We are currently investigating a service degradation affecting Zoom Phone Inbound and Outbound call services.
+        We are currently investigating a service degradation affecting Zoom Phone and Zoom Contact Center Inbound and Outbound call services.
 
         Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
 
         We appreciate your patience as we work to resolve this issue.
       investigating: true
+    - ts: "2026-01-12 11:39:53"
+      description: |-
+        We have successfully identified the root cause affecting Zoom Phone and Zoom Contact Center Inbound and Outbound call services.
+
+        Our team is actively working with our carrier partner on a resolution, and we will keep you informed with timely updates as progress is made.
+
+        Thank you for your patience.
