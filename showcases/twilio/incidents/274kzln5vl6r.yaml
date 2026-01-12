@@ -1,0 +1,11 @@
+version: incident/v1
+id: 274kzln5vl6r
+name: SMS Delivery Delays To Telefonica Network In Mexico
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2026-01-12 05:09:15"
+      description: We are experiencing SMS delivery failures when sending messages to Telefonica Network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
