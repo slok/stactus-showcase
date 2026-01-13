@@ -7,3 +7,6 @@ timeline:
     - ts: "2026-01-13 15:42:42"
       description: Our monitoring systems have detected a potential issue "503 error" when accessing Twilio Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2026-01-13 16:00:01"
+      description: We have fully investigated the “503 error” when accessing Twilio Console issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
