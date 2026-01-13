@@ -1,0 +1,12 @@
+version: incident/v1
+id: 6rqn6jtv55cp
+name: Increased HTTP 499 Errors
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-13 00:51:04"
+      description: Between 00:18-00:25 UTC customers reaching Portland, OR, may have experienced an elevated number of 499 errors.
+      investigating: true
+    - ts: "2026-01-13 00:53:04"
+      description: This incident has been resolved.
+      resolved: true
