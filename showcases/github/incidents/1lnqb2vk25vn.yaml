@@ -1,9 +1,16 @@
 version: incident/v1
 id: 1lnqb2vk25vn
 name: Receiving no requests to GitHub Copilot
-impact: minor
-systems: []
+impact: major
+systems:
+    - pjmpxvq2cmr2
 timeline:
     - ts: "2026-01-13 09:38:56"
       description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-01-13 09:44:59"
+      description: Copilot is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-01-13 09:45:39"
+      description: We are investigating an issue that is causing failures in all Copilot requests.
       investigating: true
