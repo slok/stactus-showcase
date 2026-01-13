@@ -27,5 +27,5 @@ timeline:
       description: We have implemented a mitigation and confirmed that Copilot Pro and Business accounts now have access to the previously missing models. We will continue monitoring to ensure complete resolution.
       investigating: true
     - ts: "2026-01-07 21:07:09"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On January 7th, 2026, between 17:16 and 19:33 UTC Copilot Pro and Copilot Business users were unable to use certain premium models, including Claude Opus 4.5 and GPT-5.2. This was due to a misconfiguration with Copilot models, inadvertently marking these premium models as inaccessible for users with Copilot Pro and Copilot Business licenses.<br /><br />We mitigated the incident by reverting the erroneous config change. We are improving our testing processes to reduce the risk of similar incidents in the future, and refining our model availability alerting to improve detection time.
       resolved: true
