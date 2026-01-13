@@ -1,0 +1,15 @@
+version: incident/v1
+id: 6hvkctqfv9yd
+name: Magic Transit and Magic WAN Configuration issues
+impact: minor
+systems:
+    - bjlxcss20fsl
+    - qgnxz00j1f2v
+timeline:
+    - ts: "2026-01-13 16:44:45"
+      description: |-
+        Cloudflare is currently investigating issues related to service configuration in Magic Transit and Magic WAN products. Data plane traffic is not affected.
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-01-13 16:50:57"
+      description: Cloudflare has identified the issue and a fix is being implemented.

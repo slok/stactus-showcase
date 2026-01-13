@@ -1,0 +1,13 @@
+version: incident/v1
+id: j9smpl5kwyl5
+name: Investigating elevated errors across reddit.com and native apps
+impact: minor
+systems:
+    - 0wf8j1vtry0v
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2026-01-13 17:01:09"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-01-13 17:03:18"
+      description: The issue has been identified and a fix is being implemented.
