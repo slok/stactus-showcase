@@ -1,0 +1,10 @@
+version: incident/v1
+id: tzkspc14y4fg
+name: SMS Delivery Delays and Failures to SFR Network in France
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-01-13 01:28:51"
+      description: We are experiencing SMS delivery delays and failures when sending from SFR Network in France via Subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
