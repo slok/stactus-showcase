@@ -1,6 +1,6 @@
 version: incident/v1
 id: 1lnqb2vk25vn
-name: Receiving no requests to GitHub Copilot
+name: GitHub Copilot failures
 impact: major
 systems:
     - pjmpxvq2cmr2
@@ -13,4 +13,7 @@ timeline:
       investigating: true
     - ts: "2026-01-13 09:45:39"
       description: We are investigating an issue that is causing failures in all Copilot requests.
+      investigating: true
+    - ts: "2026-01-13 10:02:03"
+      description: We have identified what we believe to be a configuration issue that may explain the issue. We have rolled back this change and are starting to see signs of recovery.
       investigating: true
