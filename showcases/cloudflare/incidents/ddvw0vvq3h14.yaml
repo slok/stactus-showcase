@@ -1,0 +1,10 @@
+version: incident/v1
+id: ddvw0vvq3h14
+name: Increase Pages builds failures
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2026-01-13 23:41:20"
+      description: Cloudflare is aware of and investigating an issue impacting Cloudflare Pages builds. Customers may be experiencing higher failure rates or slow initialization.
+      investigating: true
