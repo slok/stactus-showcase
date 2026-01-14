@@ -1,0 +1,11 @@
+version: incident/v1
+id: gxmznbr0g4j9
+name: Connectivity issues for Azure PrivateLink endpoints.
+impact: major
+systems:
+    - xp9dh2867dhp
+    - 7hzxytvzk3mz
+timeline:
+    - ts: "2026-01-14 14:30:37"
+      description: We're experiencing an issue with connectivity loss for Azure PrivateLink endpoints in all available Azure regions. The issue affects users trying to ingest Alloy data or use PDC over Azure PrivateLink. Our team is actively investigating the issue for the root cause.
+      investigating: true
