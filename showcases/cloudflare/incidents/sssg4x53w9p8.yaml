@@ -1,0 +1,15 @@
+version: incident/v1
+id: sssg4x53w9p8
+name: 'Cloudflare Zero Trust: Gateway Configuration Issue'
+impact: minor
+systems:
+    - 276xk3r83js7
+timeline:
+    - ts: "2026-01-14 01:45:44"
+      description: |-
+        Cloudflare is investigating issues with the HTTP policy configuration UI within Zero Trust Gateway. Customers may intermittently see an error configuring an Application selector for Traffic Firewall policies.
+
+        Performance and connectivity through Gateway is not impacted.
+      investigating: true
+    - ts: "2026-01-14 01:53:42"
+      description: The issue has been identified and a fix is being implemented.
