@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8fvj8x2jfg98
+name: Authentication token issues
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-14 13:02:23"
+      description: We are investigating intermittent issues with authentication. Apps continue to run, and APIs are accessible with existing tokens, but operations such as creating new tokens may fail.
+      investigating: true
