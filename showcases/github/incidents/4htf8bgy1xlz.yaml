@@ -1,0 +1,12 @@
+version: incident/v1
+id: 4htf8bgy1xlz
+name: Claude Opus 4.5 model experiencing degraded performance
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-01-14 10:56:17"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-01-14 11:00:15"
+      description: We are experiencing issues with our Claude Opus 4.5 providers and are investigating remediation.
+      investigating: true
