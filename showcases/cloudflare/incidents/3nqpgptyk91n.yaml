@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3nqpgptyk91n
+name: Workers Assets upload failures
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-01-14 20:59:36"
+      description: Cloudflare has identified an issue impacting Cloudflare Assets uploads. We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-01-14 21:00:30"
+      description: The issue has been identified and a fix is being implemented.
