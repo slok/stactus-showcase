@@ -7,3 +7,6 @@ timeline:
     - ts: "2026-01-14 13:02:23"
       description: We are investigating intermittent issues with authentication. Apps continue to run, and APIs are accessible with existing tokens, but operations such as creating new tokens may fail.
       investigating: true
+    - ts: "2026-01-14 13:25:24"
+      description: This incident has been resolved.
+      resolved: true
