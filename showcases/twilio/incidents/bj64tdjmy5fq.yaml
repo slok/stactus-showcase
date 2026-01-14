@@ -1,0 +1,10 @@
+version: incident/v1
+id: bj64tdjmy5fq
+name: Voice Call Failures and Dialing Delays to Verizon in the United States
+impact: minor
+systems:
+    - 2v3v92mz2m4h
+timeline:
+    - ts: "2026-01-14 19:51:59"
+      description: We are experiencing voice call failures and dialing delays when placing calls to Verizon in the United States. Our engineers are working with our carrier partners to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
