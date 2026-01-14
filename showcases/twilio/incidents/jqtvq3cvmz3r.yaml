@@ -1,0 +1,9 @@
+version: incident/v1
+id: jqtvq3cvmz3r
+name: Outbound Customer Calls Signed With Gateway Attestation (C) Level
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-14 19:04:05"
+      description: A small portion of outbound calls placed around 9:35 pm UTC on Tuesday, January 13th were signed with a degraded attestation level, Gateway Attestation (C). Calls were not blocked, and the issue has now been resolved.
+      resolved: true
