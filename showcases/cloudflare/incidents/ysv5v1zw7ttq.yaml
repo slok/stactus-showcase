@@ -1,0 +1,14 @@
+version: incident/v1
+id: ysv5v1zw7ttq
+name: 'Cloudflare Zero Trust: Gateway Configuration Issue'
+impact: minor
+systems:
+    - gyx2yygg7lmd
+    - 276xk3r83js7
+timeline:
+    - ts: "2026-01-14 04:52:25"
+      description: |-
+        Cloudflare is investigating issues with policy configuration within Zero Trust Gateway UI and API. Customers may see an error trying to view and edit Gateway policies.
+
+        Performance and connectivity through Gateway is not impacted. This is not the same Gateway incident as previously reported today.
+      investigating: true
