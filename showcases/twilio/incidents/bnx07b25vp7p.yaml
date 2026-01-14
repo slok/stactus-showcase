@@ -13,3 +13,6 @@ timeline:
       investigating: true
     - ts: "2026-01-14 00:25:08"
       description: We have started seeing recovery for calls to a subset of Twilio El Salvador phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-01-14 02:26:24"
+      description: The issue affecting inbound voice call failures for a subset of Twilio phone numbers in El Salvador has been resolved, and the service is currently functioning normally.
+      resolved: true

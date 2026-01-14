@@ -1,0 +1,13 @@
+version: incident/v1
+id: qq0wqnw20xyr
+name: Support Portal Availability Issues
+impact: minor
+systems:
+    - jzcwkvrc4w4q
+timeline:
+    - ts: "2026-01-14 02:47:06"
+      description: |-
+        Cloudflare is investigating issues with our Support Portal. Some customers may be unable to view open cases.
+
+        Customers can still create new cases and reach us via live chat (Business and Enterprise) through the Cloudflare Dashboard or via the emergency telephone line (Enterprise).
+      investigating: true
