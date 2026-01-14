@@ -9,3 +9,9 @@ timeline:
     - ts: "2026-01-14 14:30:37"
       description: We're experiencing an issue with connectivity loss for Azure PrivateLink endpoints in all available Azure regions. The issue affects users trying to ingest Alloy data or use PDC over Azure PrivateLink. Our team is actively investigating the issue for the root cause.
       investigating: true
+    - ts: "2026-01-14 20:17:51"
+      description: |-
+        The scope of this incident was smaller than originally anticipated.
+
+        As of 16:27 UTC our engineering team merged a fix for those affected and we are considering this as resolved.
+      resolved: true
