@@ -1,11 +1,16 @@
 version: incident/v1
 id: ssfcbbcfrfrb
-name: MMS Delivery Report Delays to Verizon Wireless (US) for a subset of Long Codes and Short Codes
+name: SMS/MMS Delivery Report Delays to Verizon Wireless (US) for a subset of Long Codes and Short Codes
 impact: minor
 systems:
+    - 7d8w22hqrh6s
     - 8vdlvw3dsq8h
+    - 39mb8cmw8y2v
     - h0fl7prwfhvm
 timeline:
     - ts: "2026-01-14 17:45:22"
       description: We are experiencing delays in receiving message delivery reports when sending to Verizon Wireless in the United States from a subset of long codes and short codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-14 18:04:37"
+      description: We are continuing our investigation and have discovered SMS is also affected.
       investigating: true
