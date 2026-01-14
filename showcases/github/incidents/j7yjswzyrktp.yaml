@@ -8,3 +8,6 @@ timeline:
     - ts: "2026-01-14 20:21:02"
       description: We are investigating reports of degraded performance for Webhooks
       investigating: true
+    - ts: "2026-01-14 20:41:04"
+      description: Some webhook deliveries are delayed, but we don’t expect meaningful user impact. The delays are currently scoped only to deliveries that, until recently, would have failed more quickly. We will update status if conditions change.
+      investigating: true
