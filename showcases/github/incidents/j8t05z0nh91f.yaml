@@ -1,0 +1,13 @@
+version: incident/v1
+id: j8t05z0nh91f
+name: Copilot's GPT-5.1 model has degraded performance
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-01-14 09:24:36"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2026-01-14 09:26:57"
+      description: Copilot is experiencing degraded performance when using the GPT-5.1 model. We are investigating the issue.
+      investigating: true
