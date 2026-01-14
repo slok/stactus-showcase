@@ -1,6 +1,6 @@
 version: incident/v1
 id: ssfcbbcfrfrb
-name: SMS/MMS Delivery Report Delays to Verizon Wireless (US) for a Subset of Long Codes, Short Codes, and Toll-Free Numbers
+name: SMS/MMS Delivery Report Delays & Message Delivery Delays to Verizon Wireless (US) for a Subset of Long Codes, Short Codes, and Toll-Free Numbers
 impact: minor
 systems:
     - 7d8w22hqrh6s
@@ -18,4 +18,7 @@ timeline:
       investigating: true
     - ts: "2026-01-14 18:26:46"
       description: We are continuing our investigation and have discovered a subset of toll-free numbers are also affected.
+      investigating: true
+    - ts: "2026-01-14 18:47:29"
+      description: We continue to experience delivery delays when sending SMS/MMS messages to Verizon Wireless in the United States from a subset of long codes, short codes, and toll-free numbers. Our engineers are working with our carrier partners to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
