@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9qs0j369m3x7
+name: SMS Delivery Delays to MTN Network in Ghana
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-01-14 09:52:42"
+      description: We are experiencing SMS delivery delays when sending messages to MTN Network in Ghana. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
