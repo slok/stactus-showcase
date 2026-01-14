@@ -1,6 +1,6 @@
 version: incident/v1
 id: 3nqpgptyk91n
-name: Workers Assets upload failures
+name: Increased Workers Assets upload failures
 impact: minor
 systems:
     - 57srcl8zcn7c
@@ -10,3 +10,5 @@ timeline:
       investigating: true
     - ts: "2026-01-14 21:00:30"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-01-14 21:35:22"
+      description: We are continuing to work on a fix for this issue.
