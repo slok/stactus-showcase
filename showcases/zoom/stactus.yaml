@@ -241,8 +241,6 @@ systems:
       name: Zoom Support / Phone Support
     - id: zw4xrrx3nhyl
       name: Zoom Phone - Global / Polycom Rooms registered to Zoom Phone
-    - id: lj388xsd0lyh
-      name: Zoom CX - Global / 3rd Party Integration Clients (e.g. Salesforce, ServiceNow, Zendesk, Meta)
     - id: ghvwvn740dg7
       name: Zoom Developer Platform / Developer Documentation Website
     - id: 6zxmf3ylr4gn
@@ -257,6 +255,8 @@ systems:
       name: Zoom CX - LATIN AMERICA / 3rd Party Messaging/Social (Inbound/Outbound)
     - id: 2x4mw99x40lk
       name: Zoom Rooms / Zoom Visitor Management
+    - id: kxpygh8cr1d0
+      name: Zoom CX - Global / Mobile Client (Agents)
     - id: 0h08kcybkm9y
       name: Zoom Phone - NORTH AMERICA / Provider Exchange
     - id: f35h17kcvjh1
@@ -277,8 +277,8 @@ systems:
       name: Zoom Website / Zoom Rooms
     - id: dpqhcccldsxp
       name: Zoom Developer Platform / Zoom Video SDK
-    - id: 33vmdfk84f1d
-      name: Zoom CX - Global / Reporting Service
+    - id: lj388xsd0lyh
+      name: Zoom CX - Global / 3rd Party Integration Clients (e.g. Salesforce, ServiceNow, Zendesk, Meta)
     - id: q8chr9lrz757
       name: Zoom Phone - Global / Calling (Inbound/Outbound)
     - id: jz1z3rp9rgd8
@@ -313,8 +313,8 @@ systems:
       name: Zoom Developer Platform / Cloud Recording
     - id: 08fp2rr1spx0
       name: Zoom Website / Integrations/Calendar/Plug-In/Add-In
-    - id: xg2fb6826c5f
-      name: Zoom CX - Global / Developer Platform (APIs/Webhooks)
+    - id: 33vmdfk84f1d
+      name: Zoom CX - Global / Reporting Service
     - id: jl5y2tlw4yqf
       name: Zoom Phone - Global / Zoom Phone Node Service
     - id: 07fc2bfpjgct
@@ -339,8 +339,8 @@ systems:
       name: Zoom Developer Platform / Dashboard
     - id: lwp2z0bb192l
       name: Zoom Website / Zoom Learning Center
-    - id: v0jkfmpk2rs4
-      name: Zoom CX - Global / Developer Platform (SDKs)
+    - id: xg2fb6826c5f
+      name: Zoom CX - Global / Developer Platform (APIs/Webhooks)
     - id: tx5hwxgpbj1m
       name: Zoom CX - NORTH AMERICA / Outbound Dialers
     - id: 7tqjwbbsh4q6
@@ -365,6 +365,8 @@ systems:
       name: Zoom Meetings / Live Transcription
     - id: hz3fmmg26pty
       name: Zoom Developer Platform / Calling Out
+    - id: v0jkfmpk2rs4
+      name: Zoom CX - Global / Developer Platform (SDKs)
     - id: bt816jk5w2qr
       name: Zoom CX - NORTH AMERICA / Remote Control
     - id: 243c9g6lxzn0
@@ -379,8 +381,6 @@ systems:
       name: Zoom CX - LATIN AMERICA / AI Expert Assist
     - id: zhvj07hl7z83
       name: Zoom Phone - Global / Zoom AIC
-    - id: fss62hnxfktd
-      name: Zoom CX - Global / Zoom Workforce Management
     - id: wm1bsqy8d9jv
       name: Zoom Website / Zoom Website
     - id: ytpvvb8n0s31
@@ -399,8 +399,8 @@ systems:
       name: Zoom CX - NORTH AMERICA / AI Expert Assist
     - id: nwhdl9ct08pc
       name: Zoom Phone - Global / PSTN
-    - id: bzwqc10pb1gk
-      name: Zoom CX - Global / SMS
+    - id: fss62hnxfktd
+      name: Zoom CX - Global / Zoom Workforce Management
     - id: r6dchcqc8zx6
       name: Zoom CX - NORTH AMERICA / Recording Service
     - id: y6v3zjwbhb12
@@ -409,8 +409,8 @@ systems:
       name: Zoom CX - JAPAN / BYOC - Premises
     - id: x6470q0w8mbw
       name: Zoom CX - AUSTRALIA / BYOC - Premises
-    - id: tx9vchnk4pjh
-      name: Zoom CX - Global / PSTN
+    - id: bzwqc10pb1gk
+      name: Zoom CX - Global / SMS
     - id: c110sm47tmwf
       name: Zoom Phone - Global / Voicemail/Recording/Call Log
     - id: gt4whcvjvt8n
@@ -419,8 +419,8 @@ systems:
       name: Zoom Meetings / Live Streaming
     - id: 1z22tc2rdgdy
       name: Zoom CX - NORTH AMERICA / BYOC - Premises
-    - id: z76y2sgjbmjx
-      name: Zoom CX - Global / Provider Exchange (PEX)
+    - id: tx9vchnk4pjh
+      name: Zoom CX - Global / PSTN
     - id: 0842bncf5q9f
       name: Zoom Phone - Global / Zoom Phone
     - id: gnysndln9bz2
@@ -430,8 +430,8 @@ systems:
     - id: ntdt65v1f9rv
       name: Zoom Meetings / Meeting Dial-in/Telephony
       description: Access to Telephony Services
-    - id: tq7lz19gh9gm
-      name: Zoom CX - Global / BYOC
+    - id: z76y2sgjbmjx
+      name: Zoom CX - Global / Provider Exchange (PEX)
     - id: 576m25cw4prj
       name: Zoom Docs
     - id: 5xglgm6kl1dk
@@ -445,22 +445,24 @@ systems:
     - id: 3mgjlwf5953y
       name: Zoom Events
       description: Access to Events at zoomevents.com
-    - id: jmnt9sm0q4b2
-      name: Zoom CX - Global / Zoom AIC
+    - id: tq7lz19gh9gm
+      name: Zoom CX - Global / BYOC
     - id: kvrj9x7kgp2b
       name: Zoom Phone - Global / Transcription
     - id: gkx8x46kw77h
       name: Zoom Meetings / Recording
-    - id: vlkjldpx64p2
-      name: Zoom CX - Global / Video Engagement
+    - id: jmnt9sm0q4b2
+      name: Zoom CX - Global / Zoom AIC
     - id: tj58619r2mcm
       name: Zoom Meetings / Zoom Meeting Invite
-    - id: 9v6qdjpm1842
-      name: Zoom CX - Global / Transcription
+    - id: vlkjldpx64p2
+      name: Zoom CX - Global / Video Engagement
     - id: slryp41hcm02
       name: Zoom Meetings / SIP Connected Audio (SCA)
     - id: tvtkg7hq9qdd
       name: Zoom Notes
+    - id: 9v6qdjpm1842
+      name: Zoom CX - Global / Transcription
     - id: 812f2g41379j
       name: Zoom Meetings / Zoom for Intune
     - id: gtf6dl08hrk1
