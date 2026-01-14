@@ -1,0 +1,13 @@
+version: incident/v1
+id: 2ldl88bxjwfs
+name: AP1 Web Application Not Loading
+impact: critical
+systems:
+    - b5fx9rfn6137
+timeline:
+    - ts: "2026-01-14 18:26:41"
+      description: |-
+        We are investigating loading issues on our web application AP1. As a result, some users might be getting errors when loading the web application.
+
+        Please note that data processing and alerts are not affected by this incident.
+      investigating: true
