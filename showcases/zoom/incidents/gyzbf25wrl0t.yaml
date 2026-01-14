@@ -1,0 +1,16 @@
+version: incident/v1
+id: gyzbf25wrl0t
+name: Service Degradation Affecting outbound SMS service in Australia Region.
+impact: minor
+systems:
+    - z1zykmz9tq24
+    - krxmw136qgjw
+timeline:
+    - ts: "2026-01-14 05:52:16"
+      description: |-
+        We are currently investigating a service degradation affecting outbound SMS service in Australia Region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
