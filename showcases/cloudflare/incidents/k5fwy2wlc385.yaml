@@ -1,0 +1,10 @@
+version: incident/v1
+id: k5fwy2wlc385
+name: Network Event Log issues
+impact: minor
+systems:
+    - k0mgxrls5y1b
+timeline:
+    - ts: "2026-01-15 10:43:32"
+      description: Cloudflare is investigating issues with the Network Event Log. During this time, some customers may experience problems when attempting to access network event logs via the Dashboard. We are working to identify the cause and will provide updates as they become available.
+      investigating: true
