@@ -12,3 +12,5 @@ timeline:
 
         We are rebalancing workloads in ORD to relieve memory pressure on impacted hosts.
       investigating: true
+    - ts: "2026-01-15 19:04:12"
+      description: We are deploying a fix to enforce stricter memory thresholds for Machine placements. This will steer new and migrated workloads towards hosts with optimal capacity.

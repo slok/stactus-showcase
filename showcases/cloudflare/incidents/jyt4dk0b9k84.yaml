@@ -1,0 +1,9 @@
+version: incident/v1
+id: jyt4dk0b9k84
+name: Cloudflare Dashboard and Cloudflare API service issues
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-15 19:05:15"
+      description: Customers may have been logged out from the Dashboard and had issues logging in between 17:45 - 17:56 UTC. Additionally, there would have been an increased 403 and 500 rate for services (such as Zaraz).
+      resolved: true
