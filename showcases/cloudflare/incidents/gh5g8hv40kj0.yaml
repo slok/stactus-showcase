@@ -1,0 +1,9 @@
+version: incident/v1
+id: gh5g8hv40kj0
+name: Cloudflare Network Interconnect issues in Frankfurt, Germany
+impact: minor
+systems:
+    - jm5mggc2wp95
+timeline:
+    - ts: "2026-01-15 12:02:37"
+      description: Cloudflare has identified Network Interconnect issues in Frankfurt, Germany. Customers may observe health check degradation and/or connectivity issues. We are working to mitigate this problem. More updates to follow shortly.
