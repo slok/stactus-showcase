@@ -1,0 +1,15 @@
+version: incident/v1
+id: dp7lbjnmfd0h
+name: Network Performance Issues in Mumbai, India
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-01-15 09:26:44"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in Mumbai, India.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-01-15 09:41:19"
+      description: A fix has been implemented and we are monitoring the results.
