@@ -1,0 +1,12 @@
+version: incident/v1
+id: pbkc3n1l5p69
+name: Account access and Payment
+impact: minor
+systems:
+    - 558h1l1q0c2w
+    - xbsdwfbb4xx0
+    - czck17wcspr5
+timeline:
+    - ts: "2026-01-15 07:16:00"
+      description: Our engineering team is investigating an issue with the suspended user's accounts being unable to access the accounts. During this time users may have experience issues signing in or accessing accounts and the failure in the payments. We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
