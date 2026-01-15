@@ -1,8 +1,10 @@
 version: incident/v1
 id: 2l6rkfhhqk58
-name: Spectrum Analytics Issues
+name: Analytics Issues
 impact: minor
 systems:
+    - 4c231tkdlpcl
+    - z9w398bsjvnq
     - 6dd6ssg7plt0
 timeline:
     - ts: "2026-01-15 04:02:57"
@@ -16,4 +18,7 @@ timeline:
         Impact is limited to Spectrum Analytics only. Customers may see errors trying to view Spectrum Analytics.
 
         Spectrum traffic and configuration is not affected.
+      investigating: true
+    - ts: "2026-01-15 05:08:06"
+      description: "Impact also includes Argo Smart Routing Analytics. \n\nWe are continuing to investigate this issue."
       investigating: true
