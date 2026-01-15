@@ -26,3 +26,9 @@ timeline:
     - ts: "2026-01-15 17:35:52"
       description: API Requests is experiencing degraded performance. We are continuing to investigate.
       investigating: true
+    - ts: "2026-01-15 17:44:58"
+      description: We are seeing some signs of recovery, particularly for authenticated users. Unauthenticated users may continue to see impact across multiple services. Mitigation efforts continue.
+      investigating: true
+    - ts: "2026-01-15 17:51:52"
+      description: API Requests is operating normally.
+      investigating: true

@@ -1,0 +1,14 @@
+version: incident/v1
+id: kzdhxj1d66vq
+name: Elevated Machines errors in ORD
+impact: none
+systems:
+    - 49yq6v65b33l
+    - ffsz24mbcxfz
+timeline:
+    - ts: "2026-01-15 17:52:56"
+      description: |-
+        We are investigating high memory utilization on some hosts in ORD. Customers may notice timeouts or errors in reserving resources when updating or creating new Machines in the region.
+
+        We are rebalancing workloads in ORD to relieve memory pressure on impacted hosts.
+      investigating: true
