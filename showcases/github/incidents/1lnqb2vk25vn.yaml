@@ -30,5 +30,5 @@ timeline:
       description: Copilot is operating normally.
       investigating: true
     - ts: "2026-01-13 10:46:07"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On January 13th, 2026, between 09:25 UTC and 10:11 UTC, GitHub Copilot experienced unavailability. During this window, error rates averaged 18% and peaked at 100% of service requests, leading to an outage of chat features across Copilot Chat, VS Code, JetBrains IDEs, and other Copilot-dependent products. <br /><br />This incident was triggered by a configuration error during a model update. We mitigated the incident by rolling back this change. However, a second recovery phase lasted until 10:46 UTC, due to unexpected latency with the GPT 4.1 model. To prevent recurrence, we are investing in new monitors and more robust testing environments to reduce further misconfigurations, and to improve our time to detection and mitigation of future issues.
       resolved: true
