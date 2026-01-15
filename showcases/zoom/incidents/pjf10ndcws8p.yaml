@@ -1,0 +1,13 @@
+version: incident/v1
+id: pjf10ndcws8p
+name: A subset of users experienced Dial-in/Dial-out in US East Region
+impact: none
+systems:
+    - ntdt65v1f9rv
+    - 6qtv0w61s12m
+timeline:
+    - ts: "2026-01-15 21:08:30"
+      description: On 1/15/2025, from 20:03 to 20:25 UTC a subset of users may have experienced an issue with Meeting Dial-in/Dial-out in US East Region.  This incident has been resolved and the affected services have been restored.
+    - ts: "2026-01-15 21:21:25"
+      description: This incident has been resolved.
+      resolved: true
