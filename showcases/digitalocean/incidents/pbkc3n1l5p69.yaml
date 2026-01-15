@@ -10,3 +10,9 @@ timeline:
     - ts: "2026-01-15 07:16:00"
       description: Our engineering team is investigating an issue with the suspended user's accounts being unable to access the accounts. During this time users may have experience issues signing in or accessing accounts and the failure in the payments. We apologize for the inconvenience and will share an update once we have more information.
       investigating: true
+    - ts: "2026-01-15 09:18:57"
+      description: |-
+        Our Engineering team has resolved the issue with payments failure using PayNow. Users should not see any issues with making payments via PayNow and logging into the accounts on our platform. Services should now be operating normally.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true
