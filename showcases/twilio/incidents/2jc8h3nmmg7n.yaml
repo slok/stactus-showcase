@@ -1,0 +1,11 @@
+version: incident/v1
+id: 2jc8h3nmmg7n
+name: Issue With KYC Onboarding in TrustHub Console
+impact: minor
+systems:
+    - g4hs7h64k9fv
+    - gk7b1lwzf93x
+timeline:
+    - ts: "2026-01-15 16:40:53"
+      description: We are currently seeing degraded performance on our TrustHub portal in Console. Customers are unable to create Compliance Profiles, Branded Calling registrations, or Regulatory Compliance Bundles, and will see an error page in Console. Additionally our ISV customers using Embeds will also see errors. Our engineering team is looking into the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
