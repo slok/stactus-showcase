@@ -1,0 +1,13 @@
+version: incident/v1
+id: qb6ljlg0x105
+name: MPG instability in LAX
+impact: minor
+systems:
+    - rc5yp3480n5g
+timeline:
+    - ts: "2026-01-15 02:21:19"
+      description: We identified potential connection problems on ~50 clusters in LAX. We are investigating the cause and remediating the problem.
+      investigating: true
+    - ts: "2026-01-15 02:23:38"
+      description: We are continuing to investigate this issue.
+      investigating: true

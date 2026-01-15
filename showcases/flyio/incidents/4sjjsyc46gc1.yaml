@@ -1,0 +1,13 @@
+version: incident/v1
+id: 4sjjsyc46gc1
+name: App logs unavailable
+impact: major
+systems:
+    - 6sckg8qmrnzz
+timeline:
+    - ts: "2026-01-15 01:55:46"
+      description: We are currently investigating an outage with app logs in Grafana. Logs are still available through flyctl and through the dashboard.
+      investigating: true
+    - ts: "2026-01-15 02:25:33"
+      description: We are continuing to investigate this issue.
+      investigating: true
