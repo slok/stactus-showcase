@@ -1,0 +1,19 @@
+version: incident/v1
+id: 2l6rkfhhqk58
+name: Spectrum Analytics Issues
+impact: minor
+systems:
+    - 6dd6ssg7plt0
+timeline:
+    - ts: "2026-01-15 04:02:57"
+      description: |-
+        Cloudflare is investigating issues with Spectrum Analytics. Existing Spectrum applications are not affected. Some customer may see 5xx errors when trying to view Spectrum Analytics.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-01-15 04:11:50"
+      description: |-
+        Impact is limited to Spectrum Analytics only. Customers may see errors trying to view Spectrum Analytics.
+
+        Spectrum traffic and configuration is not affected.
+      investigating: true
