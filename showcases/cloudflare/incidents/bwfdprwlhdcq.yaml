@@ -1,0 +1,13 @@
+version: incident/v1
+id: bwfdprwlhdcq
+name: Cloudflare Workers Issues
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-01-16 15:55:54"
+      description: |-
+        Cloudflare has identified an increased level of errors for customers running Workers scripts in in Newark and Atlanta.
+        We are working to mitigate this problem. More updates to follow shortly.
+    - ts: "2026-01-16 16:06:40"
+      description: A fix has been implemented and we are monitoring the results.
