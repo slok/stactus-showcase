@@ -1,0 +1,14 @@
+version: incident/v1
+id: v65nsz2lnly4
+name: Cloudflare Dashboard and Cloudflare API service issues
+impact: minor
+systems:
+    - g4tb35rs9yw7
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-01-16 19:52:22"
+      description: Customers using User Service Keys are experiencing elevated 500 errors.
+      investigating: true
+    - ts: "2026-01-16 19:54:19"
+      description: We are continuing to investigate this issue.
+      investigating: true
