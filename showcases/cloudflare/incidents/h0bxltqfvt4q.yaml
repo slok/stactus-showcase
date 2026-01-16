@@ -1,0 +1,10 @@
+version: incident/v1
+id: h0bxltqfvt4q
+name: Issue with Ruleset Modification Audit Logs
+impact: minor
+systems:
+    - 2469qcw8rvjp
+timeline:
+    - ts: "2026-01-16 10:42:26"
+      description: Cloudflare is investigating an issue where some audit logs for ruleset modifications are not appearing in the Dashboard. We are working to resolve the issue. More updates to follow shortly.
+      investigating: true
