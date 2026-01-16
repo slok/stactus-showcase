@@ -1,0 +1,11 @@
+version: incident/v1
+id: tvsv4n9z3dcj
+name: Magic Network Monitoring Data
+impact: minor
+systems:
+    - bjlxcss20fsl
+timeline:
+    - ts: "2026-01-16 16:21:56"
+      description: |-
+        Cloudflare has identified an issue with Magic Network Monitoring Data: customers might observe empty\blank data via the dashboard.
+        We are working to mitigate this problem, more updates to follow shortly.
