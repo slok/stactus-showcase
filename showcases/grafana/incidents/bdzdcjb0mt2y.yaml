@@ -13,3 +13,12 @@ timeline:
       investigating: true
     - ts: "2026-01-16 00:59:32"
       description: "As of 00:28 UTC, we have observed improvement with the partial write outage. Customers should no longer experience issues with metrics ingestion. \n\nWe will continue to monitor and provide updates."
+    - ts: "2026-01-16 01:33:16"
+      description: |-
+        Users may experience intermittent 5xx errors when writing metrics, though retries may eventually succeed, which can lead to delayed or missing data.
+
+        We continue to investigate and will update when we have more to share.
+      investigating: true
+    - ts: "2026-01-16 01:35:02"
+      description: We are continuing to investigate this issue.
+      investigating: true

@@ -16,3 +16,6 @@ timeline:
       description: We are deploying a fix to enforce stricter memory thresholds for Machine placements. This will steer new and migrated workloads towards hosts with optimal capacity.
     - ts: "2026-01-15 20:19:53"
       description: The fix has been deployed to ORD and we are monitoring results. New Machines will be placed using stricter memory thresholds. Existing Machines on impacted hosts will be migrated to new hosts on start and update. We are also provisioning additional capacity in ORD.
+    - ts: "2026-01-16 01:35:02"
+      description: This incident has been resolved. Machine placement improvements are now deployed in all regions.
+      resolved: true
