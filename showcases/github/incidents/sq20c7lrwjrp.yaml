@@ -1,0 +1,16 @@
+version: incident/v1
+id: sq20c7lrwjrp
+name: '[Retroactive] Incident with GitHub Copilot (GPT-5 model)'
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-01-16 18:56:35"
+      description: |-
+        From January 14, 2026, at 18:15 UTC until January 15, 2026, at 11:30 UTC, GitHub Copilot users were unable to select the GPT-5 model for chat features in VS Code, JetBrains IDEs, and other IDE integrations. Users running GPT-5 in Auto mode experienced errors. Other models were not impacted.
+
+        We mitigated this incident by deploying a fix that corrected a misconfiguration in available models, rendering the GPT-5 model available again.
+
+        We are improving our testing processes to reduce the risk of similar incidents in the future, and refining our model availability alerting to improve detection time.
+
+        We did not status before we completed the fix, and the incident is currently resolved. We are sorry for the delayed post on githubstatus.com.
+      resolved: true
