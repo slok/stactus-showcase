@@ -1,0 +1,15 @@
+version: incident/v1
+id: bdzdcjb0mt2y
+name: Partial Mimir Write Outage
+impact: major
+systems:
+    - k8k4wprtwgz9
+timeline:
+    - ts: "2026-01-16 00:28:08"
+      description: |-
+        As of 23:57 UTC, our engineers became aware of an issue with prod-us-west-0 resulting in a partial write outage. Users may experience intermittent 5xx errors when writing metrics, though retries may eventually succeed, which can lead to delayed or missing data.
+
+        We continue to investigate and will update when we have more to share.
+      investigating: true
+    - ts: "2026-01-16 00:59:32"
+      description: "As of 00:28 UTC, we have observed improvement with the partial write outage. Customers should no longer experience issues with metrics ingestion. \n\nWe will continue to monitor and provide updates."

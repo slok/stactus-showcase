@@ -6,3 +6,10 @@ systems: []
 timeline:
     - ts: "2026-01-15 22:51:22"
       description: Worker machines in SIN are affected by a provider's network outage. Database clusters may present network connectivity issues. We are monitoring the situation.
+    - ts: "2026-01-15 23:50:14"
+      description: Network performance in SIN has normalized and MPG clusters are working as expected. We're continuing to monitor to ensure continued stability, but customers should not see an impact on their cluster at this time.
+    - ts: "2026-01-15 23:57:24"
+      description: Cluster connections are stable. We'll keep monitoring.
+    - ts: "2026-01-16 00:43:17"
+      description: Connections normal for all clusters in SIN.
+      resolved: true
