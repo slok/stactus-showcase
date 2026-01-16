@@ -1,0 +1,9 @@
+version: incident/v1
+id: 2c8szp8pqsw2
+name: Lookup API Degraded Performance Affected
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-16 17:03:10"
+      description: Twilio Lookup API Degraded Performance was degraded 01/15/2026, 08:37:00 PM UTC and 01/16/2026, 03:06:00 PM UTC. During this period of time customers may have experienced 1% of Lookup API V1 and Lookup API V2 increase in 404 errors. The issue has now been resolved.
+      resolved: true
