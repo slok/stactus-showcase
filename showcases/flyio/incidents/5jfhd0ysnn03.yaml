@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5jfhd0ysnn03
+name: Network issues in SIN region
+impact: minor
+systems:
+    - b97pv9yxbzv7
+timeline:
+    - ts: "2026-01-17 17:12:48"
+      description: We are investigating network issues in SIN region. Apps running in this region may experience elevated latency or packet loss.
+      investigating: true
