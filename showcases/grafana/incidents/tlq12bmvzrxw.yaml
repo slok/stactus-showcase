@@ -1,0 +1,9 @@
+version: incident/v1
+id: tlq12bmvzrxw
+name: Degraded Writes in AWS us-east-2
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-17 07:51:43"
+      description: We are currently investigating an issue causing degraded write performance across multiple products in the AWS us-east-2 region. Our engineering team is actively working to determine the full scope and impact of the issue and restore normal service levels.
+      investigating: true
