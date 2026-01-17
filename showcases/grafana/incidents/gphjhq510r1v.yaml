@@ -1,9 +1,16 @@
 version: incident/v1
 id: gphjhq510r1v
 name: Degraded Writes in AWS us-east-2
-impact: none
-systems: []
+impact: minor
+systems:
+    - 43jd9wwclvwy
+    - nps7z0srxs25
+    - wlk38l1st21f
+    - zqsjp5p0d8n7
 timeline:
     - ts: "2026-01-17 11:28:13"
       description: We are currently investigating an issue causing degraded write performance across multiple products in the AWS us-east-2 region. Our engineering team is actively working to determine the full scope and impact of the issue and restore normal service levels.
+      investigating: true
+    - ts: "2026-01-17 16:47:56"
+      description: We are continuing to investigate this issue. It is impacting all components using the write path in cortex-prod-13 and mimir-prod-56. We do not yet have a root cause but have found that this issue seems to occur every 4 hours.
       investigating: true
