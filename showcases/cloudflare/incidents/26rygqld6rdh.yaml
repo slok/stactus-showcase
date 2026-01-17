@@ -4,9 +4,16 @@ name: Increase in Durable Object errors
 impact: minor
 systems:
     - bty1yz6dhh0v
+    - z4wlt5jx9szq
+    - yxhtws7ltl9t
 timeline:
     - ts: "2026-01-16 23:36:55"
       description: Cloudflare has identified an issue impacting Durable Objects, this may have some downstream impact on other services as well.
       investigating: true
     - ts: "2026-01-16 23:45:30"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-01-16 23:57:44"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-01-17 00:11:01"
+      description: This incident has been resolved.
+      resolved: true

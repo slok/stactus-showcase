@@ -1,0 +1,15 @@
+version: incident/v1
+id: zltcsbhqmvqq
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-01-16 23:53:43"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-01-16 23:53:48"
+      description: We received multiple reports of 403s when attempting to use the Copilot CLI. We have identified the root cause and are rolling out a fix for affected customers.
+      investigating: true
+    - ts: "2026-01-17 00:08:38"
+      description: 'Some enterprise Copilot CLI users may encounter an "You are not authorized to use this Copilot feature" error. We have identified the root cause and are currently deploying a fix. Expected resolution: within 2 hours.'
+      investigating: true
