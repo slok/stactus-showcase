@@ -1,0 +1,11 @@
+version: incident/v1
+id: xtsk3rq2ykvv
+name: Delayed app logs
+impact: minor
+systems:
+    - 6sckg8qmrnzz
+timeline:
+    - ts: "2026-01-18 13:08:37"
+      description: |-
+        App logs after 12:00 UTC may be delayed to show up on fly-metrics.net. We are monitoring log insert rate and will update once log insertion is current.
+        Log streaming via `flyctl logs` or NATS is current.
