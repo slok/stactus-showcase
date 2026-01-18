@@ -1,0 +1,15 @@
+version: incident/v1
+id: 3zj83f18y8f8
+name: A subset of users may experience short delay in email delivery in US region.
+impact: minor
+systems:
+    - 03szj78zknyt
+timeline:
+    - ts: "2026-01-18 07:58:50"
+      description: |-
+        We are currently investigating a delay in Zoom email in US region.
+
+        We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
