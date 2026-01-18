@@ -9,3 +9,6 @@ timeline:
       description: |-
         App logs after 12:00 UTC may be delayed to show up on fly-metrics.net. We are monitoring log insert rate and will update once log insertion is current.
         Log streaming via `flyctl logs` or NATS is current.
+    - ts: "2026-01-18 15:12:56"
+      description: This incident has been resolved.
+      resolved: true
