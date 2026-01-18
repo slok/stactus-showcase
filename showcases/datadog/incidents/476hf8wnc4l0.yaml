@@ -13,3 +13,6 @@ timeline:
       description: We have identified the issue and scaled up for recovery, with a recovery estimated to be around 14h30 UTC. We'll continue to give updates as recovery progresses.
     - ts: "2026-01-18 13:26:48"
       description: Recovery is in progress and the new estimated time of recovery would be 14h30 UTC.
+    - ts: "2026-01-18 14:24:41"
+      description: This incident is resolved. There's no more delay for the processing of Events, nor impact on the event stream, event based widgets and event based monitors.
+      resolved: true
