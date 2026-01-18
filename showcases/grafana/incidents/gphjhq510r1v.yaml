@@ -26,3 +26,5 @@ timeline:
     - ts: "2026-01-18 02:20:14"
       description: "We are continuing to investigate this issue. \nIt is impacting all components using the write path in cortex-prod-13 and mimir-prod-56. \nWe do not yet have a root cause but have found that this issue seems to occur every 4 hours."
       investigating: true
+    - ts: "2026-01-18 09:24:57"
+      description: The issue hasn't been seen for a reasonable amount of time and hasn't occurred when it was expected to occur. We're still closely monitoring systems behaviour and will update this incident accordingly.
