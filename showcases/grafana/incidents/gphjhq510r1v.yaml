@@ -21,3 +21,8 @@ timeline:
       description: The impact on this has been mitigated at this time and we are currently monitoring.
     - ts: "2026-01-17 20:16:54"
       description: We are continuing to monitor for any further issues.
+    - ts: "2026-01-18 02:14:45"
+      description: "We are continuing to investigate this issue. \nIt is impacting all components using the write path in cortex-prod-13 and mimir-prod-56. \nWe do not yet have a root cause but have found that this issue seems to occur every 4 hours."
+    - ts: "2026-01-18 02:20:14"
+      description: "We are continuing to investigate this issue. \nIt is impacting all components using the write path in cortex-prod-13 and mimir-prod-56. \nWe do not yet have a root cause but have found that this issue seems to occur every 4 hours."
+      investigating: true
