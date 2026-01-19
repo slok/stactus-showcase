@@ -1,0 +1,17 @@
+version: incident/v1
+id: rwjjcxcpfcwd
+name: 'Incident: Metrics Querying Unavailable in EU (Resolved)'
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-19 15:30:52"
+      description: |-
+        Impact:
+        Between 14:30 and 14:38 UTC, some customers in prod-eu-west-2 may have experienced issues querying metrics. During this time, read requests to the metrics backend were unavailable, resulting in failed or incomplete query responses. The root cause of the issue was identified and addressed.
+
+        Resolution:
+        The affected components were restored, and service was fully available by 14:38 UTC. We have taken additional steps to prevent this type of disruption from occurring in the future.
+
+        Next Steps:
+        We are reviewing monitoring and safeguards around this failure mode to further improve reliability.
+      resolved: true
