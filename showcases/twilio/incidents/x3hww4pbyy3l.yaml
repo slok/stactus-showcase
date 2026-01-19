@@ -4,10 +4,14 @@ name: SMS & MMS Delivery Delays to Cingular Wireless (AT&T) in United States of 
 impact: minor
 systems:
     - 7d8w22hqrh6s
+    - 8vdlvw3dsq8h
 timeline:
     - ts: "2026-01-19 11:39:12"
       description: We are experiencing SMS delivery delays when sending messages to Cingular Wireless (AT&T) in United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2026-01-19 12:39:09"
       description: We continue to experience SMS & MMS Delivery Delays to Cingular Wireless (AT&T) in United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-19 14:37:53"
+      description: We are still experiencing SMS delivery delays when sending messages to Cingular Wireless (AT&T) in United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
