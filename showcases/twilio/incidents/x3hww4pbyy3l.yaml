@@ -1,0 +1,10 @@
+version: incident/v1
+id: x3hww4pbyy3l
+name: SMS Delivery Delays to Cingular Wireless (AT&T) in United States of America
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2026-01-19 11:39:12"
+      description: We are experiencing SMS delivery delays when sending messages to Cingular Wireless (AT&T) in United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
