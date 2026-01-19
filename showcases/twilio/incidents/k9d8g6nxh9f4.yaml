@@ -1,6 +1,6 @@
 version: incident/v1
 id: k9d8g6nxh9f4
-name: Voice Signaling and Media traffic Affected for TNX customers in US2
+name: Voice Signaling and Media traffic Affected for Interconnect (TNX) customers in US2
 impact: minor
 systems:
     - xwk1gqcj57bw
@@ -14,5 +14,8 @@ timeline:
       description: Our monitoring systems have detected a potential issue with Programable Voice Services. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2026-01-19 19:25:04"
-      description: Our engineers have identified an issue that may be impact to Voice signaling and media traffic for TNX customers in US2. We are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: Our engineers have identified an issue that may impact Voice signaling and media traffic for Interconnect (TNX) customers in US2. We are working to deploy a fix. We expect to provide another update in 15 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-19 19:42:19"
+      description: We continue investigating an issue that may impact Voice signaling and media traffic for Interconnect (TNX) customers in US2. We are working to deploy a fix. We expect to provide another update in 30 minutes or as soon as more information becomes available.
       investigating: true
