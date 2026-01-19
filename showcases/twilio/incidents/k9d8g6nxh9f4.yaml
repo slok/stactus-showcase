@@ -1,9 +1,18 @@
 version: incident/v1
 id: k9d8g6nxh9f4
-name: On Call Engineers Are Investigating an Issue With Programable Voice Services
-impact: none
-systems: []
+name: Voice Signaling and Media traffic Affected for TNX customers in US2
+impact: minor
+systems:
+    - xwk1gqcj57bw
+    - zp417pdtkfhq
+    - cc6bxwvrsxt6
+    - rd4x5xj7p04l
+    - mr7ky9p0dg4b
+    - jxqhzd0jkncb
 timeline:
     - ts: "2026-01-19 18:31:55"
       description: Our monitoring systems have detected a potential issue with Programable Voice Services. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-01-19 19:25:04"
+      description: Our engineers have identified an issue that may be impact to Voice signaling and media traffic for TNX customers in US2. We are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
