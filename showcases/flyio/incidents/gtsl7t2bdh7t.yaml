@@ -1,0 +1,12 @@
+version: incident/v1
+id: gtsl7t2bdh7t
+name: Machines errors in JNB region
+impact: major
+systems:
+    - r8cxv07rm0h4
+timeline:
+    - ts: "2026-01-19 12:17:11"
+      description: A bad deploy of an internal service in JNB region may cause Machines API requests for JNB region machines to fail. At this time, it may not be possible to create or update machines in JNB region, but apps continue to run. The deploy is being reverted.
+    - ts: "2026-01-19 12:29:22"
+      description: This incident has been resolved.
+      resolved: true
