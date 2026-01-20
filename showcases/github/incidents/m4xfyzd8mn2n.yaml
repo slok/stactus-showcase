@@ -1,0 +1,13 @@
+version: incident/v1
+id: m4xfyzd8mn2n
+name: Incident affecting actions-runner-controller
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-01-20 16:02:58"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2026-01-20 16:03:17"
+      description: GitHub Actions customers that use actions-runner-controller are experiencing errors from our APIs that informs auto-scaling. We are investigating the issue and working on mitigating the impact.
+      investigating: true
