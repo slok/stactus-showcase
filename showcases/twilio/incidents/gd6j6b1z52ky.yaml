@@ -1,0 +1,11 @@
+version: incident/v1
+id: gd6j6b1z52ky
+name: SMS Delivery Delays to Lancelot BV in Netherlands
+impact: minor
+systems:
+    - yvvy3vlp4djf
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-01-19 23:55:28"
+      description: We are experiencing SMS delivery delays when sending messages to Lancelot BV in Netherlands. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
