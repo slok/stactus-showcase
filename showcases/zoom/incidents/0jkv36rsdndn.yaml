@@ -1,0 +1,12 @@
+version: incident/v1
+id: 0jkv36rsdndn
+name: Zoom AI service degradation impacting Image generation in the US region.
+impact: none
+systems:
+    - mnvw31bd360b
+timeline:
+    - ts: "2026-01-20 13:08:47"
+      description: "On 1/20/2026 between 12:04 UTC to 12:15 UTC - Users might have experienced issues with Zoom AI Image generation in the US region. \n\nOur engineers mitigated the issue, this incident has been resolved. Our team will continue to monitor the situation closely and keep you informed of any further developments."
+    - ts: "2026-01-20 13:22:18"
+      description: This incident has been resolved.
+      resolved: true
