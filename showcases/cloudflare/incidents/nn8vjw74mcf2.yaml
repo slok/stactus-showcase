@@ -1,0 +1,11 @@
+version: incident/v1
+id: nn8vjw74mcf2
+name: Minor increase in D1 and Durable Object errors
+impact: minor
+systems:
+    - z0yd3sxqjqdm
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2026-01-20 14:22:27"
+      description: 'Cloudflare is aware of, and investigating an issue which might potentially impact some customers: D1 and Durable Objects are experiencing a slightly increased level of errors. We are currently investigating this issue, more updates to follow shortly.'
+      investigating: true

@@ -1,0 +1,15 @@
+version: incident/v1
+id: wvd4r7ml4yjk
+name: Connectivity Issues with Magic WAN accounts using Magic Firewall and hostname routes / policies
+impact: minor
+systems:
+    - qgnxz00j1f2v
+timeline:
+    - ts: "2026-01-20 14:40:10"
+      description: |-
+        Cloudflare is investigating connectivity issues for a subset of Magic WAN accounts that have Magic Firewall enabled: this specifically impacts traffic routed from WARP to Cloudflare Tunnel via hostname routes or Gateway egress policies with hostname selection. All other traffic configurations remain unaffected.
+
+        Our engineering team is actively working on resolving the root cause, and we will provide further updates as soon as more information is available.
+      investigating: true
+    - ts: "2026-01-20 14:43:41"
+      description: The issue has been identified and a fix is being implemented.
