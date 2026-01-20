@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1g401f8z0h8b
+name: Spike in SIP 438 failures for outbound calls to France
+impact: minor
+systems:
+    - 1700gf9qlhmh
+timeline:
+    - ts: "2026-01-20 21:21:38"
+      description: We are investigating a spike in SIP 438 failures for outbound calls to France. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
