@@ -1,0 +1,15 @@
+version: incident/v1
+id: 0rpltqtxnj41
+name: Errors creating new Sprites
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-01-20 22:08:39"
+      description: We're currently investigating an issue that's preventing new Sprites from being created.
+      investigating: true
+    - ts: "2026-01-20 22:10:53"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-01-20 22:15:46"
+      description: This incident has been resolved.
+      resolved: true
