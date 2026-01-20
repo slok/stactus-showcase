@@ -1,0 +1,13 @@
+version: incident/v1
+id: fw294tth5m8y
+name: Run start delays in Actions
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-01-20 19:49:39"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2026-01-20 19:56:49"
+      description: We are investigating delays in manually dispatched Actions workflows as well as other GitHub products which run on Actions. We have identified a fix and are working on mitigating the delays.
+      investigating: true
