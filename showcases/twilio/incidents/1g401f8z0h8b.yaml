@@ -1,6 +1,6 @@
 version: incident/v1
 id: 1g401f8z0h8b
-name: Outbound Call Failures for a Subset of Outbound Calls to France
+name: Call Failures to Multiple Networks in France from a Subset of Twilio Numbers
 impact: minor
 systems: []
 timeline:
@@ -8,5 +8,5 @@ timeline:
       description: There is an ongoing incident with PSTN Connectivity outbound calls in France resulting in a small percentage of these calls being blocked by carriers in France. We are investigating and looking into possible mitigations. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
     - ts: "2026-01-20 22:07:32"
-      description: There is an ongoing incident with PSTN Connectivity outbound calls in France resulting in a small percentage of these calls being blocked by carriers in France. We are investigating and looking into possible mitigations. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      description: We are experiencing  call failures to multiple Networks in France from a Subset of Twilio Numbers. Our engineers are working with our carrier partners to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
