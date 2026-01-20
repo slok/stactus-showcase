@@ -1,10 +1,12 @@
 version: incident/v1
 id: 1g401f8z0h8b
-name: Spike in SIP 438 failures for outbound calls to France
+name: Outbound Call Failures for a Subset of Outbound Calls to France
 impact: minor
-systems:
-    - 1700gf9qlhmh
+systems: []
 timeline:
     - ts: "2026-01-20 21:21:38"
-      description: There is an ongoing incident with PSTN Connectivity outbound calls in France resulting in a small percentage of these calls being blocked by carriers in France. We are investigating and looking into possible mitigations.
+      description: There is an ongoing incident with PSTN Connectivity outbound calls in France resulting in a small percentage of these calls being blocked by carriers in France. We are investigating and looking into possible mitigations. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-20 22:07:32"
+      description: There is an ongoing incident with PSTN Connectivity outbound calls in France resulting in a small percentage of these calls being blocked by carriers in France. We are investigating and looking into possible mitigations. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
