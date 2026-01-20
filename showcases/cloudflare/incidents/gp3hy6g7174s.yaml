@@ -1,0 +1,15 @@
+version: incident/v1
+id: gp3hy6g7174s
+name: Cloudflare Pages build failures
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2026-01-20 13:43:21"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Pages builds: customers are likely to experience errors starting builds or builds finishing.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-01-20 13:55:23"
+      description: A fix has been implemented and we are monitoring the results.

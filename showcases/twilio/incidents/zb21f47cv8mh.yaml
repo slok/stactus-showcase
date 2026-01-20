@@ -1,0 +1,13 @@
+version: incident/v1
+id: zb21f47cv8mh
+name: AccSec - KPN Netherlands API Errors
+impact: minor
+systems:
+    - trrz5ztt7pl8
+    - fsxs9n9yf4m7
+    - q0hp6vfr4vvh
+    - qt4vzyg2g7b4
+timeline:
+    - ts: "2026-01-20 13:52:29"
+      description: This incident only impacts verify services. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
