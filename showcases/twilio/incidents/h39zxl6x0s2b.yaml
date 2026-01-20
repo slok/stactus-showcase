@@ -1,0 +1,9 @@
+version: incident/v1
+id: h39zxl6x0s2b
+name: Data store functionality degraded for <Connect><VirtualAgent> integration with Dialogflow CX agents
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-20 23:03:50"
+      description: Customers leveraging Dialogflow CX data stores for their <Connect><VirtualAgent> integration with Dialogflow CX may experience generic failure responses from the data store. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

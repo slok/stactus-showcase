@@ -1,0 +1,11 @@
+version: incident/v1
+id: 7k8xzw9tyzk3
+name: SMS Delivery Delays to Multiple Networks in France via subset of Long codes
+impact: minor
+systems:
+    - 8qjql0kqnd33
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2026-01-20 22:50:30"
+      description: We are experiencing SMS delivery delays when sending messages to multiple Networks in France. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
