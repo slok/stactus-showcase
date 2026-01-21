@@ -15,5 +15,5 @@ timeline:
       description: We are continuing to monitor as the system recovers and expect full recovery within the next 20-30 minutes. Impacted users will see that job status appears queued, though the job itself is actually running.
       investigating: true
     - ts: "2026-01-15 15:26:28"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On January 15th, between 14:18 UTC and 15:26 UTC, customers experienced delays in status updates for workflow runs and checks. Status updates were delayed by up to 20 minutes, with a median delay of 11 minutes.<br /><br />The issue stemmed from an infrastructure upgrade to our database cluster. The new version introduced resource contention under production load, causing slow query times. We mitigated this by rolling back to the previous stable version. We are working to strengthen our upgrade validation process to catch issues that only manifest under high load. We are also adding new monitors to reduce detection time for similar issues in the future.
       resolved: true

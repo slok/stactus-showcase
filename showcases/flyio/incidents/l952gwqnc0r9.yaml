@@ -1,0 +1,10 @@
+version: incident/v1
+id: l952gwqnc0r9
+name: Delays issuing certificates
+impact: minor
+systems:
+    - mvnft391hph6
+timeline:
+    - ts: "2026-01-21 03:21:01"
+      description: We are currently investigating possible delays issuing ACME certificates for new hostnames.
+      investigating: true
