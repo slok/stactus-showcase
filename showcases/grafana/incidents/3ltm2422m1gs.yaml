@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2026-01-21 13:35:45"
       description: The issue was identified and a fix was applied. After applying the fix, latency went down to a regular and expected value. We're currently monitoring the component's health before resolving the incident.
+    - ts: "2026-01-21 15:21:43"
+      description: We consider this incident as resolved since the latency hasn't been elevated since the fix was applied. The issue was caused by a latency spike in a downstream dependency, causing an increased backpressure on the Hosted Traces ingestion path, which degraded gateway performance and resulted in an elevated write latency. After clearing the affected gateway services the degraded state went away and normal operation was restored.
+      resolved: true
