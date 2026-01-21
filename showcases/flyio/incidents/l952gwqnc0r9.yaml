@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-01-21 03:21:01"
       description: We are currently investigating possible delays issuing ACME certificates for new hostnames.
       investigating: true
+    - ts: "2026-01-21 04:59:21"
+      description: We have identified the congestion and released a fix, we'll continue to monitor while the jobs catch up.
