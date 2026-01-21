@@ -1,8 +1,11 @@
 version: incident/v1
 id: htz5y27bclm0
-name: Our Engineers Are Investigating an Issue Missing Recommendations Banner in Console
+name: Missing Recommendations Banner in Console
 impact: none
 systems: []
 timeline:
     - ts: "2026-01-21 16:52:09"
       description: Our engineers are investigating an issue where the Recommendations banner was not visible in Messaging Insights within the Twilio Console. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2026-01-21 18:53:17"
+      description: Twilio Messaging Insights was degraded for approximately 653 minutes between 04:00 and 14:52 Pacific Time on 01/20/2026. During this period, customers may have experienced missing Recommendations banners in the Console. The issue has now been resolved.
+      resolved: true

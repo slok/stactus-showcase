@@ -1,0 +1,9 @@
+version: incident/v1
+id: kdjvpgj0qp36
+name: Network Congestion in APAC
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-21 18:49:30"
+      description: Cloudflare observed network congestion in APAC regions between 2026-01-17 17:00 UTC and 2026-01-17 17:35 UTC causing failure to route and failed storage queries to Durable Objects in APAC regions causing unavailability.
+      resolved: true
