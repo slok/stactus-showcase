@@ -28,3 +28,6 @@ timeline:
       investigating: true
     - ts: "2026-01-21 17:34:02"
       description: Dialogflow CX data store functionality for <Connect><VirtualAgent> integrations is now operating normally. Mitigation was applied and data store functionality should be functioning as intended. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-01-21 17:58:33"
+      description: The issue causing customers leveraging Dialogflow CX data stores for their <Connect><VirtualAgent> integration with Dialogflow CX to experience generic failure responses from the data store has been resolved and all services are now operating normally.
+      resolved: true
