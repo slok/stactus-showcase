@@ -1,0 +1,10 @@
+version: incident/v1
+id: n5gzc6fstq62
+name: Account Upgrade Attempts Returning Error Messages
+impact: minor
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2026-01-21 18:36:00"
+      description: Customers are currently experiencing error messages when attempting to upgrade their accounts in Console. Affected users may see error messages alerting them to wait up to 60 seconds before retrying. Our team is actively investigating the issue and working to restore normal functionality. We will provide an update in 1 hour or as soon as more information becomes available.
+      investigating: true
