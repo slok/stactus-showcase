@@ -1,0 +1,12 @@
+version: incident/v1
+id: 6d5kv6l8d8q3
+name: Policy pages for Copilot are timing out
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-01-21 19:31:05"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-01-21 19:37:39"
+      description: We are investigating timeouts for customers visiting the Copilot policy pages for organizations and enterprises.
+      investigating: true
