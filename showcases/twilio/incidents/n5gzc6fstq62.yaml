@@ -11,3 +11,5 @@ timeline:
     - ts: "2026-01-21 19:32:09"
       description: Some customers are currently experiencing error messages when attempting to upgrade their accounts in Console. Affected users may see error messages alerting them to wait up to 60 seconds before retrying. As a workaround, customers should attempt to upgrade via https://console.twilio.com/account/upgrade. Our team is actively investigating the issue and working to restore normal functionality. We will provide an update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-01-21 20:40:35"
+      description: The issue causing some customers to be unable to upgrade their accounts has been mitigated. Customers should now be able to upgrade their accounts without issue. We are continuing to carefully monitor recovery to ensure recovery is sustained. We expect to provide another update in 2 hours or as soon as more information becomes available.
