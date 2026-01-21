@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3ltm2422m1gs
+name: Hosted Traces elevated write latency in prod-us-central-0 region.
+impact: minor
+systems:
+    - t7pbglh025rz
+timeline:
+    - ts: "2026-01-21 13:24:34"
+      description: We're currently investigating an issue with elevated write latency in Hosted Traces prod-us-central-0 region. It's experiencing sustained high write latency since 7:20 AM UTC. Only a small subset of the requests are impacted.
+      investigating: true
