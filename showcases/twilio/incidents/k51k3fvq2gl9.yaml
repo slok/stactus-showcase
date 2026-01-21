@@ -3,7 +3,7 @@ id: k51k3fvq2gl9
 name: WhatsApp outbound messages may be Delayed
 impact: minor
 systems:
-    - yvvy3vlp4djf
+    - 1gkv0mxhzsjv
 timeline:
     - ts: "2026-01-21 22:10:33"
       description: We are experiencing SMS delivery delays when sending outbound messages to to Whatsapp. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
@@ -11,3 +11,5 @@ timeline:
     - ts: "2026-01-21 22:13:16"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2026-01-21 23:21:54"
+      description: We are observing recovery in SMS delivery delays when sending messages to Whatsapp. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
