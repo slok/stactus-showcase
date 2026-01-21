@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-01-21 13:24:34"
       description: We're currently investigating an issue with elevated write latency in Hosted Traces prod-us-central-0 region. It's experiencing sustained high write latency since 7:20 AM UTC. Only a small subset of the requests are impacted.
       investigating: true
+    - ts: "2026-01-21 13:35:45"
+      description: The issue was identified and a fix was applied. After applying the fix, latency went down to a regular and expected value. We're currently monitoring the component's health before resolving the incident.
