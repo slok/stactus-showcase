@@ -1,0 +1,11 @@
+version: incident/v1
+id: j2tqjs711y1w
+name: Alert Irregularities - US
+impact: minor
+systems:
+    - rbts0zzw73dl
+    - k4c77k6bzcl7
+timeline:
+    - ts: "2026-01-21 22:23:12"
+      description: We are investigating an issue with alert behavior. Some customers in the US region may experience delayed or missing alert notifications related to real-time data.
+      investigating: true
