@@ -5,6 +5,13 @@ impact: minor
 systems:
     - rbts0zzw73dl
     - k4c77k6bzcl7
+    - 5x10l9g2z3t6
+    - 028b05n94my0
+    - 5p33lkzzqm0z
+    - ymfwncrn2dnh
+    - 9jndj4kfv59w
+    - lm2qpsbfggh7
+    - prjgs1mvmqg9
 timeline:
     - ts: "2026-01-21 22:23:12"
       description: We are investigating an issue with alert behavior. Some customers in the US region may experience delayed or missing alert notifications related to real-time data.
@@ -12,3 +19,5 @@ timeline:
     - ts: "2026-01-21 22:53:57"
       description: We are continuing to investigate an issue with alerts irregularities where a subset of customers in the US region may experience delayed or missing alert notifications for real-time data.
       investigating: true
+    - ts: "2026-01-22 00:00:49"
+      description: We have implemented a fix and are starting to see recovery for impacted services. A subset of customers in the US region may experience delayed or missing alert notifications for real-time data.
