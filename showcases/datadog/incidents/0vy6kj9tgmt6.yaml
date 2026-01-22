@@ -1,0 +1,45 @@
+version: incident/v1
+id: 0vy6kj9tgmt6
+name: Web Application Not Loading
+impact: critical
+systems:
+    - 3shj2d34rr4w
+    - p4hwj4wsc5wf
+    - s1nkvpbqvr55
+    - pnm7qvgxvpx7
+    - 2vmy1s1xc3kt
+    - r2djlrcw0d92
+    - kbbhp1p4g26q
+    - wxl8hfbylpf5
+    - zf9789bp3s1k
+    - cwp97nbkd47t
+    - p86xlbv3q3sz
+    - hsgh99wp1ykf
+    - 2ng88yhsvb74
+    - fsf7586l3nld
+    - hk7whmvszngs
+    - nypxbf5kxblr
+    - jkt7bm7t419b
+    - 1w2mz2hzw0cz
+    - qrnng5l7z80l
+    - 6554nj56dr3v
+    - s6jxgrkjjj6p
+    - 82w45zxss1z6
+    - 7t0ql8p0jwp1
+    - 34qkhdj3s176
+    - wb6d6tss5zph
+    - 8n1lk011yj94
+    - h4n1lrbsmmbd
+    - s66ymj7q3sdd
+    - 5w5zbjfwzlkj
+    - b5fx9rfn6137
+timeline:
+    - ts: "2026-01-22 18:51:22"
+      description: |-
+        We are investigating loading issues on our web application. As a result, some users might be getting errors when loading the web application.
+
+        Please note that data processing and alerts are not affected by this incident.
+      investigating: true
+    - ts: "2026-01-22 19:01:39"
+      description: We are continuing to investigate this issue.
+      investigating: true
