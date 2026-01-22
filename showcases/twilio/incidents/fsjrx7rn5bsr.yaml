@@ -1,0 +1,12 @@
+version: incident/v1
+id: fsjrx7rn5bsr
+name: Errors creating Video rooms between 9:00 - 9:30 UTC in US2
+impact: minor
+systems:
+    - ys1jhy2ys04z
+    - q015c7mrst1s
+    - by1b8ylwwgs6
+timeline:
+    - ts: "2026-01-22 09:52:03"
+      description: We are investigating the errors in creating Video rooms between 9:00 - 9:30 UTC in US2. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
