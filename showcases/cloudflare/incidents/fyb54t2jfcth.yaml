@@ -1,0 +1,11 @@
+version: incident/v1
+id: fyb54t2jfcth
+name: Network Route Leak
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-01-22 21:02:14"
+      description: Cloudflare experienced a Network Route leak, impacting performance for some networks beginning 20:25 UTC. We are working to mitigate impact.
+    - ts: "2026-01-22 21:03:17"
+      description: A fix has been implemented and we are monitoring the results.

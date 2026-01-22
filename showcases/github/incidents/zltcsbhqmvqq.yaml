@@ -26,5 +26,5 @@ timeline:
       description: The fix has been deployed and the issue resolved. We will continue to monitor any incoming reports.
       investigating: true
     - ts: "2026-01-17 02:54:51"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between 2026-01-16 16:17 and 2026-01-17 02:54 UTC, some Copilot Business users were unable to access and use certain Copilot features and models. This was due to a bug with how we determine if a user has access to a feature, inadvertently marking features and models as inaccessible for users whose enterprise(s) had not configured the policy.<br /><br />We mitigated the incident by reverting the problematic deployment. We are improving our internal monitoring and mitigation processes to reduce the risk and extended downtime of similar incidents in the future.<br />
       resolved: true
