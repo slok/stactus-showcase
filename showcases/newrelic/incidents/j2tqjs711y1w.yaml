@@ -2,16 +2,7 @@ version: incident/v1
 id: j2tqjs711y1w
 name: Alert Irregularities - US
 impact: minor
-systems:
-    - rbts0zzw73dl
-    - k4c77k6bzcl7
-    - 5x10l9g2z3t6
-    - 028b05n94my0
-    - 5p33lkzzqm0z
-    - ymfwncrn2dnh
-    - 9jndj4kfv59w
-    - lm2qpsbfggh7
-    - prjgs1mvmqg9
+systems: []
 timeline:
     - ts: "2026-01-21 22:23:12"
       description: We are investigating an issue with alert behavior. Some customers in the US region may experience delayed or missing alert notifications related to real-time data.
@@ -21,3 +12,6 @@ timeline:
       investigating: true
     - ts: "2026-01-22 00:00:49"
       description: We have implemented a fix and are starting to see recovery for impacted services. A subset of customers in the US region may experience delayed or missing alert notifications for real-time data.
+    - ts: "2026-01-22 00:46:26"
+      description: We have investigated and resolved this service interruption and impacted services have returned to normal operations. Between 19:58 UTC on January 21st, and 00:34 UTC on January 22nd, 2026, a subset of customers in the US region may have experienced issues with alert behavior including delayed alert notifications.
+      resolved: true
