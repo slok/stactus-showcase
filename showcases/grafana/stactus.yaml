@@ -176,8 +176,6 @@ systems:
       name: 'Grafana Cloud: Loki / AWS UAE - prod-me-central-1'
     - id: 3270rcqlh5g8
       name: 'Grafana Cloud: Grafana Secrets Manager / AWS India - prod-ap-south-1'
-    - id: d8n320b96n2x
-      name: Public Snapshots
     - id: lsc1rmchyyqh
       name: 'Grafana Cloud: Graphite / AWS Canada - prod-ca-east-0: Ingestion'
     - id: 9cnglb70hqhk
@@ -212,6 +210,8 @@ systems:
       name: 'Grafana Cloud: Private Datasource Connect (PDC) / AWS Indonesia - prod-ap-southeast-2'
     - id: q8frv03bzq56
       name: 'Grafana Cloud: Grafana Secrets Manager / AWS Germany - prod-eu-west-4'
+    - id: z5ysrlvblv9t
+      name: 'Grafana Cloud: Integrations'
     - id: sfb7d62bn16m
       name: 'Grafana Cloud: Maintenance / AWS Singapore - prod-ap-southeast-1'
     - id: 13y4pn7qg807
@@ -246,8 +246,8 @@ systems:
       name: 'Grafana Cloud: k6 / Cloud logs'
     - id: 7jl93tsztst1
       name: 'Grafana Cloud: Grafana Secrets Manager / AWS Japan - prod-ap-northeast-0'
-    - id: z5ysrlvblv9t
-      name: 'Grafana Cloud: Integrations'
+    - id: 0s4n2mv9hwv9
+      name: 'Grafana Cloud: Billing'
     - id: dy7xwydh5kv3
       name: 'Grafana Cloud: Loki / AWS Singapore - prod-ap-southeast-1'
     - id: x4llxwdmxs8h
@@ -280,8 +280,8 @@ systems:
       name: 'Grafana Cloud: Hosted Grafana / AWS UAE - prod-me-central-1'
     - id: hdlsgt9hd5bj
       name: 'Grafana Cloud: Grafana Secrets Manager / AWS UAE - prod-me-central-1'
-    - id: 0s4n2mv9hwv9
-      name: 'Grafana Cloud: Billing'
+    - id: d8n320b96n2x
+      name: Public Snapshots
     - id: y8p2jm7hpwy0
       name: 'Grafana Cloud: Hosted Grafana / AWS Singapore - prod-ap-southeast-1'
     - id: 43jd9wwclvwy
