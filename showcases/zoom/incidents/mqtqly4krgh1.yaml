@@ -1,0 +1,18 @@
+version: incident/v1
+id: mqtqly4krgh1
+name: Service Degradation Affecting Zoom App Integration
+impact: minor
+systems:
+    - rmphw6f34qk9
+timeline:
+    - ts: "2026-01-22 03:49:05"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom App Integration.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-01-22 04:04:26"
+      description: After conducting a thorough investigation, We can confirm that all services are operating normally and no impact has been observed.
+      resolved: true
