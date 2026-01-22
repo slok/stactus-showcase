@@ -2,8 +2,15 @@ version: incident/v1
 id: cqb5hcy0gx18
 name: Disruption with some GitHub services
 impact: minor
-systems: []
+systems:
+    - kr09ddfgbfsf
 timeline:
     - ts: "2026-01-22 14:12:49"
       description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-01-22 14:23:44"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-01-22 14:27:54"
+      description: Issues is operating normally.
       investigating: true
