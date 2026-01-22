@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8fcytfjy82mn
+name: L3/4 DDoS alert links return a 404 page
+impact: minor
+systems:
+    - 5xvn0m7tthlf
+timeline:
+    - ts: "2026-01-22 17:26:58"
+      description: L3/4 DDoS alert links are returning a 404 page in the Cloudflare dashboard.
