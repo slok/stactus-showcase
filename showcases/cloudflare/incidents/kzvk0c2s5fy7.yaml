@@ -9,3 +9,5 @@ timeline:
     - ts: "2026-01-23 18:46:54"
       description: Cloudflare SQLite-backed Durable Objects are seeing elevated errors across multiple regions. Services that depend on SQLite-backed Durable Objects like D1 are also impacted.
       investigating: true
+    - ts: "2026-01-23 23:32:46"
+      description: A fix has been implemented and we are monitoring the results.
