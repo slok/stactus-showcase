@@ -1,0 +1,11 @@
+version: incident/v1
+id: kzvk0c2s5fy7
+name: Durable Objects elevated errors
+impact: major
+systems:
+    - z0yd3sxqjqdm
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2026-01-23 18:46:54"
+      description: Cloudflare SQLite-backed Durable Objects are seeing elevated errors across multiple regions. Services that depend on SQLite-backed Durable Objects like D1 are also impacted.
+      investigating: true
