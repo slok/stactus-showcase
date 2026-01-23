@@ -1,13 +1,16 @@
 version: incident/v1
 id: by4lp5zrn6zp
-name: SMS Delivery Delays to Multiple Networks in the US via a Subset of Shortcodes
+name: SMS Delivery Delays and Failures to Multiple Networks in the US via Subset of Short Codes
 impact: minor
 systems:
     - 39mb8cmw8y2v
 timeline:
     - ts: "2026-01-23 22:52:07"
-      description: Our monitoring systems have detected a potential issue with SMS delivery delays to multiple networks in the US via a subset of shortcodes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      description: Our monitoring systems have detected a potential issue with SMS delivery delays to multiple networks in the US via a subset of short codes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2026-01-23 22:59:19"
-      description: We are experiencing SMS delivery delays to multiple networks in the US via a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      description: We are experiencing SMS delivery delays to multiple networks in the US via a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-23 23:46:05"
+      description: We are still experiencing SMS delivery delays and failures to multiple networks in the US via a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
