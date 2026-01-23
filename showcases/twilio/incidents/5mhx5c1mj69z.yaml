@@ -1,6 +1,6 @@
 version: incident/v1
 id: 5mhx5c1mj69z
-name: SMS Delivery Delays to Globe in Philippines 515-02 via  Subset of Longcodes
+name: SMS Delivery Delays from Twilio Philippines Phone Numbers to Multiple Networks in the Philippines
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -18,5 +18,5 @@ timeline:
       description: We continue to experience SMS delivery delays when sending messages to Globe network in the Philippines via a subset of long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
     - ts: "2026-01-23 00:42:28"
-      description: We continue to experience SMS delivery delays when sending messages to Globe network in the Philippines via a subset of long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
+      description: We continue to experience SMS delivery delays when sending messages from Twilio Philippines phone number to multiple networks in the Philippines via a subset of long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
       investigating: true
