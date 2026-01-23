@@ -11,3 +11,5 @@ timeline:
     - ts: "2026-01-23 20:33:54"
       description: Our team has identified an issue and are actively investigating where when a password is changed and an account has 2FA enabled, the 2FA prompt does not appear upon attempting to sign-in.
       investigating: true
+    - ts: "2026-01-23 23:10:28"
+      description: Our team has identified an issue where when a password is changed and an account has 2FA enabled or when the Restricted Failed Login Attempts policy is enabled with 2FA enforced, the 2FA prompt does not appear upon attempting to sign-in. We are actively working on a fix and that work will continue into early next week.
