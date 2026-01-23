@@ -1,0 +1,9 @@
+version: incident/v1
+id: vkm6tvh2b568
+name: 1Password Browser Extension Code Syntax Rendering Issue
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-01-23 20:04:42"
+      description: The 1Password browser extension, which works by injecting code into web pages, inadvertently included code from PrismJS, a third party dependency, breaking syntax highlighting on some websites that display code blocks.
+      resolved: true
