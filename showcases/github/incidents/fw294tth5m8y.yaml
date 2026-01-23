@@ -12,5 +12,5 @@ timeline:
       description: We are investigating delays in manually dispatched Actions workflows as well as other GitHub products which run on Actions. We have identified a fix and are working on mitigating the delays.
       investigating: true
     - ts: "2026-01-20 20:10:54"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On January 20, 2026, between 19:08 UTC and 20:18 UTC, manually dispatched GitHub Actions workflows saw delayed job starts. GitHub products built on Actions such as Dependabot, Pages builds, and Copilot coding agent experienced similar delays. All jobs successfully completed despite the delays. At peak impact, approximately 23% of workflow runs were affected, with an average delay of 11 minutes.<br /><br />This was caused by a load pattern shift in Actions scheduled jobs that saturated a shared backend resource. We mitigated the incident by temporarily throttling traffic and scaling up resources to account for the change in load pattern. To prevent recurrence, we have scaled resources appropriately and implemented optimizations to prevent this load pattern in the future.
       resolved: true
