@@ -1,0 +1,13 @@
+version: incident/v1
+id: tfrjzxdgxsz2
+name: Sign-in failure in some cases due to MFA prompt not appearing
+impact: minor
+systems:
+    - xgs4k9r41xf6
+    - bc33bxyk1phv
+    - cgltwfnt80mm
+    - 5mb7qcyd6jtf
+timeline:
+    - ts: "2026-01-23 20:33:54"
+      description: Our team has identified an issue and are actively investigating where when a password is changed and an account has MFA enabled, the MFA prompt does not appear upon attempting to sign-in.
+      investigating: true

@@ -1,8 +1,11 @@
 version: incident/v1
 id: mstnwvykc8s8
-name: Our Engineers are Investigating an Issue with SMS Delivery to Claro Network in Costa Rica
+name: '[Programmable SMS] SMS Delivery to Claro Network in Costa Rica Affected'
 impact: none
 systems: []
 timeline:
     - ts: "2026-01-23 20:24:59"
       description: Our engineers are currently investigating the customer impact of a retroactive issue with SMS Delivery to Claro Network in Costa Rica. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2026-01-23 20:30:55"
+      description: Twilio Programmable SMS was degraded for 58 minutes between 11:32 and 12:30 Pacific Time on 01/23/2026. During this period of time customers may have experienced SMS Delivery Failures to Claro Network in Costa Rica. The issue has now been resolved.
+      resolved: true
