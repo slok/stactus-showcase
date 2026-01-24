@@ -1,10 +1,16 @@
 version: incident/v1
 id: yj2cs7lxt3fl
-name: Verify OTP Email Message Delivery Delays
+name: Verify OTP Email Message Delivery Delays Impacting Gmail
 impact: minor
 systems:
     - whldrk77jnm4
 timeline:
     - ts: "2026-01-24 15:45:13"
       description: Our monitoring systems have detected Verify OTP email message delivery delays since 5:00 AM PT. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-01-24 17:22:35"
+      description: |-
+        We have identified that the Verify OTP email delivery delays are related to an ongoing issue impacting Gmail delivery on our email provider, SendGrid.
+        Emails are being successfully accepted by Gmail's mail servers; however, Gmail is currently experiencing delays in delivering messages to recipient inboxes. Other email providers are not affected.
+        Our teams are actively monitoring the situation and coordinating with SendGrid as they continue to track updates from Google. We will provide further updates as more information becomes available.
       investigating: true
