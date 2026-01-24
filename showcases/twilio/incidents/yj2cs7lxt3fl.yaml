@@ -1,0 +1,10 @@
+version: incident/v1
+id: yj2cs7lxt3fl
+name: On Call Engineers are Investigating an issue
+impact: minor
+systems:
+    - whldrk77jnm4
+timeline:
+    - ts: "2026-01-24 15:45:13"
+      description: Our monitoring systems have detected Verify OTP email message delivery delays since 5:00 AM PT. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
