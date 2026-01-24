@@ -1,0 +1,10 @@
+version: incident/v1
+id: sly5wbyvkr43
+name: SMS Delivery Delays to NTT Docomo in Japan
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-01-24 23:09:27"
+      description: We are experiencing SMS delivery delays to NTT Docomo in Japan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
