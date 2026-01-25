@@ -7,3 +7,12 @@ timeline:
     - ts: "2026-01-25 02:43:41"
       description: We are investigating reports of impacted performance for some GitHub services.
       investigating: true
+    - ts: "2026-01-25 02:58:02"
+      description: Repo creation failure rate increased above 50%. We have mitigated the problem and are monitoring for recovery.
+      investigating: true
+    - ts: "2026-01-25 03:08:15"
+      description: The issue has been resolved. We will continue to monitor to ensure stability.
+      investigating: true
+    - ts: "2026-01-25 03:08:33"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
