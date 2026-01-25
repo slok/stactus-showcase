@@ -1,6 +1,6 @@
 version: incident/v1
 id: wqxvn2bq1sy2
-name: SMS Delivery Delays to Verizon Wireless in United States of America
+name: SMS Delivery Report Delays Via a Subset Of Short Codes and Toll Free Numbers To Verizon Wireless in United States of America
 impact: minor
 systems:
     - 7d8w22hqrh6s
@@ -11,4 +11,7 @@ timeline:
       investigating: true
     - ts: "2026-01-24 23:02:53"
       description: We are experiencing SMS delivery delays to Verizon Wireless in the United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-25 00:57:56"
+      description: We continue experiencing SMS Delivery Report Delays Via a Subset Of Short Codes and Toll Free Numbers To Verizon Wireless in United States of America 311-489. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
