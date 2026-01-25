@@ -1,0 +1,14 @@
+version: incident/v1
+id: 54h1hbfvchlf
+name: Elevated Errors and Query Timeouts for D1 Databases and SQLite Durable Objects
+impact: minor
+systems:
+    - z0yd3sxqjqdm
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2026-01-25 21:07:55"
+      description: |-
+        A small number of users are reporting severe increases in query latency when querying D1 databases and SQLite-backed Durable Objects. This is resulting in timeouts and/or hard errors for those queries.
+
+        We are investigating the cause and potential fixes and will provide updates with our findings.
+      investigating: true
