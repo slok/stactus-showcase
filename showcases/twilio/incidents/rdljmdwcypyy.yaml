@@ -1,0 +1,13 @@
+version: incident/v1
+id: rdljmdwcypyy
+name: Enterprise Insights Debug Events Alerter is Down
+impact: minor
+systems:
+    - 6ltxq62mkxd0
+timeline:
+    - ts: "2026-01-25 11:36:04"
+      description: Our monitoring systems have detected a potential issue in Alarms Alerter. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-01-25 11:37:58"
+      description: We are continuing to investigate this issue.
+      investigating: true
