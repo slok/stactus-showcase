@@ -1,0 +1,12 @@
+version: incident/v1
+id: 90hj03y5tj3c
+name: Regression in windows runners for public repositories
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-01-26 19:25:51"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-01-26 19:32:07"
+      description: We've applied a mitigation to unblock running Actions. A regression occurred for Windows runners in public repositories which caused Actions workflows to fail. A mitigation is in place and customers should expect to see resolution soon.<br /><br />If you have a failing Actions workflow on a Windows runner, please retry and it is likely to work.
+      investigating: true
