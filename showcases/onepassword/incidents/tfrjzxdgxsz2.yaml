@@ -13,3 +13,5 @@ timeline:
       investigating: true
     - ts: "2026-01-23 23:10:28"
       description: Our team has identified an issue where when a password is changed and an account has 2FA enabled or when the Restricted Failed Login Attempts policy is enabled with 2FA enforced, the 2FA prompt does not appear upon attempting to sign-in. We are actively working on a fix and that work will continue into early next week.
+    - ts: "2026-01-26 21:30:13"
+      description: To mitigate this issue, we've had to temporarily disable the Sign-In Attempts policy and are actively working on a permanent fix to resolve the issue and re-enable use of this policy. This policy will not be in effect for those with it turned on until we resolve this issue.

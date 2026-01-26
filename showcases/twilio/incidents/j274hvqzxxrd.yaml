@@ -1,0 +1,10 @@
+version: incident/v1
+id: j274hvqzxxrd
+name: Twilio RCS onboarding UI console is down.
+impact: minor
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2026-01-26 21:26:02"
+      description: We are currently seeing degraded performance on Twilio RCS onboarding UI console. Our engineering team is looking into the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
