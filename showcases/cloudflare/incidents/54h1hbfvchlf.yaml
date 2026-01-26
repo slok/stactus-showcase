@@ -17,3 +17,5 @@ timeline:
       investigating: true
     - ts: "2026-01-26 14:21:31"
       description: Investigation identified the issue is a recurrence of https://www.cloudflarestatus.com/incidents/kzvk0c2s5fy7, whose remediation did not fully address the elevated errors and query timeouts. We are actively implementing additional fixes to address the errors and timeouts.
+    - ts: "2026-01-26 15:22:33"
+      description: We are continuing to work on a fix for this issue. Observed errors target only a small number of Durable Objects and D1 databases (D1 errors are less than 0.1% of total requests).
