@@ -1,0 +1,9 @@
+version: incident/v1
+id: wf31vc47twcx
+name: Lookup V2 Errors for Packages SIM Swap and Identity Match
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-26 16:48:21"
+      description: Twilio Lookup V2 was degraded for 4 days between 01/22 to 01/26. During this period of time customers may have experienced 60606 errors for packages SIM Swap and Identity Match. The issue has now been resolved.
+      resolved: true
