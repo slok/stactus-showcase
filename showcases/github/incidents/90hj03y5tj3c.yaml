@@ -22,3 +22,6 @@ timeline:
     - ts: "2026-01-26 23:04:17"
       description: Our investigation into GitHub Actions 4 Core Windows runner failures in public repositories is ongoing.<br /><br />If you have a failing GitHub Actions run, please retry it and it is likely to succeed.
       investigating: true
+    - ts: "2026-01-26 23:49:39"
+      description: At 23:45 UTC we applied a mitigation to take remaining impacted capacity offline and are seeing improvement. We will update again once we've confirmed the issue is resolved.
+      investigating: true
