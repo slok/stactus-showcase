@@ -1,0 +1,16 @@
+version: incident/v1
+id: fv4s9bqmq41q
+name: Cloud Control Panel and API
+impact: major
+systems:
+    - p1x9rv4137gx
+    - czck17wcspr5
+timeline:
+    - ts: "2026-01-26 21:06:57"
+      description: |-
+        Our Engineering team is investigating an issue impacting multiple services including the Cloud Control Panel and API.
+
+        Users may encounter errors when accessing their accounts or using the API.
+
+        We are actively working to resolve this issue and will provide updates as soon as more information becomes available.
+      investigating: true

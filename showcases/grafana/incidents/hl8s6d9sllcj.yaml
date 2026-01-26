@@ -1,0 +1,13 @@
+version: incident/v1
+id: hl8s6d9sllcj
+name: Upgrade from Free → Pro failing for users
+impact: major
+systems:
+    - 0s4n2mv9hwv9
+timeline:
+    - ts: "2026-01-26 20:53:56"
+      description: |-
+        As of 20:05 UTC, our engineering team became aware of an issue related to subscription plan upgrades. Users experiencing this issue will not be able to upgrade from a Free plan to a Pro subscription.
+
+        Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
+      investigating: true
