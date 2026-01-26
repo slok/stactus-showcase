@@ -3,8 +3,11 @@ id: d7cznplk31cm
 name: Phone Numbers Page in Console
 impact: minor
 systems:
-    - g4hs7h64k9fv
+    - pv5w18vrltfl
 timeline:
     - ts: "2026-01-26 09:27:26"
       description: Our engineers have identified the issue where the Private Offering form and Porting Request form in Console are currently unavailable. Our team is working on getting it restored. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-26 10:24:42"
+      description: We are actively investigating ongoing issues affecting Private Offering and International Porting fulfillment at Twilio. While customers are still able to submit requests, confirmation emails may not be sent and fulfillment may be delayed. Our team is working to resolve the issue as quickly as possible. We will provide another update in 2 hours or sooner if additional information becomes available.
       investigating: true
