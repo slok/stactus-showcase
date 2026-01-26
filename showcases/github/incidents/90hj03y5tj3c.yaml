@@ -13,3 +13,6 @@ timeline:
     - ts: "2026-01-26 20:10:36"
       description: Mitigation for failing GitHub Actions jobs on 4-Core Windows runners is still being mitigated. You should start to see more runs succeeding.<br />If you do see failing runs, please retry and they might succeed.
       investigating: true
+    - ts: "2026-01-26 21:20:49"
+      description: Rollback has been completed, but we are still seeing failures on about 11% of GitHub Actions runs on 4 Core Windows runners in public repositories.<br /><br />If your workflow fails to start, try re-running and it is likely to work a second time.
+      investigating: true
