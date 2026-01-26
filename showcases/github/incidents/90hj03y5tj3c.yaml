@@ -16,3 +16,6 @@ timeline:
     - ts: "2026-01-26 21:20:49"
       description: Rollback has been completed, but we are still seeing failures on about 11% of GitHub Actions runs on 4 Core Windows runners in public repositories.<br /><br />If your workflow fails to start, try re-running and it is likely to work a second time.
       investigating: true
+    - ts: "2026-01-26 22:02:44"
+      description: We're continuing to investigate failures in GitHub Actions 4 Core Windows runners in public repositories. <br /><br />If you have a failing GitHub Actions run, please retry it and it is likely to succeed.
+      investigating: true
