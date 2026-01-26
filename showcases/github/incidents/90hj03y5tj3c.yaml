@@ -10,3 +10,6 @@ timeline:
     - ts: "2026-01-26 19:32:07"
       description: We've applied a mitigation to unblock running Actions. A regression occurred for Windows runners in public repositories which caused Actions workflows to fail. A mitigation is in place and customers should expect to see resolution soon.<br /><br />If you have a failing Actions workflow on a Windows runner, please retry and it is likely to work.
       investigating: true
+    - ts: "2026-01-26 20:10:36"
+      description: Mitigation for failing GitHub Actions jobs on 4-Core Windows runners is still being mitigated. You should start to see more runs succeeding.<br />If you do see failing runs, please retry and they might succeed.
+      investigating: true
