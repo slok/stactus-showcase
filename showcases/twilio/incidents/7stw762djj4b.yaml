@@ -1,0 +1,9 @@
+version: incident/v1
+id: 7stw762djj4b
+name: Video Transcriptions Issue
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-26 16:29:02"
+      description: Twilio VIDEO - Realtime Transcriptions & Group Rooms was degraded for 28 minutes between 05:34 - 06:02 Pacific Time on 01/20/2026.  During this period of time, some customers failed to connect to Group Rooms using voice calls and some were unable to use Video Transcriptions. The issue has now been resolved.
+      resolved: true
