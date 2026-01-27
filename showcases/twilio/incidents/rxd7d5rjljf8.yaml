@@ -1,0 +1,10 @@
+version: incident/v1
+id: rxd7d5rjljf8
+name: SMS Delivery Delays and Failures From Networks Subscribers to a Subset of Twilio's Australia Long Codes
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-01-27 19:00:25"
+      description: We are experiencing SMS delivery delays and failures when sending messages from Networks Subscribers to a Subset of Twilio's Australia Long Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
