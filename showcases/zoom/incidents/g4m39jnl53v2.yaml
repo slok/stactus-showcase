@@ -1,0 +1,18 @@
+version: incident/v1
+id: g4m39jnl53v2
+name: Intermittent issue affecting Zoom AI Companion in US and AU region
+impact: minor
+systems:
+    - 07fc2bfpjgct
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2026-01-27 08:48:01"
+      description: |-
+        We are currently investigating a service degradation affecting AI Companion.
+
+        We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-01-27 09:01:21"
+      description: The issue affecting AI companion has been successfully resolved. Our team will continue to monitor the situation closely and keep you informed of any further developments.
