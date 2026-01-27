@@ -1,0 +1,11 @@
+version: incident/v1
+id: kvd3symkt760
+name: Grafana OnCall and IRM Loading Issues
+impact: minor
+systems:
+    - 1mxpk7q1bkb6
+    - h3wg1km0qxwv
+timeline:
+    - ts: "2026-01-27 20:37:43"
+      description: We are currently investigating an issue impacting some customers when accessing Grafana Oncall and IRM. Impacted customers may experience long load times, or even time-outs when attempting to access these components. We'll provide more information as it becomes available.
+      investigating: true
