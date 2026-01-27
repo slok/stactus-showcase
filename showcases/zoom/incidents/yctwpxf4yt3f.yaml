@@ -4,7 +4,6 @@ name: Zoom Phone Service Degradation in Japan
 impact: minor
 systems:
     - cwwgf6dmdjhx
-    - wnj6zbp7n7ks
 timeline:
     - ts: "2026-01-27 02:08:02"
       description: |-
@@ -18,3 +17,10 @@ timeline:
       description: "We have identified an issue with our underlying carrier in the Japan region. Our team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \nThank you for your patience."
     - ts: "2026-01-27 02:48:45"
       description: We continue to work with our carrier for the issue affecting calls in the Japan region. We will keep you informed with timely updates as progress is made.
+    - ts: "2026-01-27 03:41:51"
+      description: |-
+        Our carrier partner has successfully resolved the issue. Following a detailed investigation, we confirmed that the provider exchange functioned normally and was not impacted.
+        However, a subset of customers in Japan experienced temporary disruptions with Zoom native inbound and outbound calls. Service has now been fully restored.
+    - ts: "2026-01-27 03:55:56"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
