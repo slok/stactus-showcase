@@ -14,5 +14,5 @@ timeline:
       description: The issue has been resolved. We will continue to monitor to ensure stability.
       investigating: true
     - ts: "2026-01-25 03:08:33"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between January 24, 2026,19:56 UTC and January 25, 2026, 2:50 UTC repository creation and clone were degraded. On average, the error rate was 25% and peaked at 55% of requests for repository creation. This was due to increased latency on the repositories database impacting a read-after-write problem during repo creation. We mitigated the incident by stopping an operation that was generating load on the database to increase throughput. <br /><br />We have identified the repository creation problem and are working to address the issue and improve our observability to reduce our time to detection and mitigation of issues like this one in the future.<br />
       resolved: true
