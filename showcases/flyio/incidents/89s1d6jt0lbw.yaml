@@ -1,0 +1,9 @@
+version: incident/v1
+id: 89s1d6jt0lbw
+name: Delayed metric reporting in NRT and SIN regions
+impact: minor
+systems:
+    - k2zhkw7wryv2
+timeline:
+    - ts: "2026-01-27 19:40:58"
+      description: "A small number of hosts in the NRT (Tokyo) and SIN (Singapore) are reporting delayed metrics to the hosted Grafana charts at fly-metrics.net. Users with machines on impacted hosts will see delayed or spotty metrics in their Grafana charts.  \n\nOnly metrics for these machines are impacted. The underlying machines continue to receive and serve traffic as usual, and all machine actions(stopping, starting, deploys etc.)  continue to work normally. \n\nWe are processing the backlog of metrics on these hosts, but metrics will be delayed until this is complete."
