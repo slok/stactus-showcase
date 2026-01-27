@@ -1,0 +1,10 @@
+version: incident/v1
+id: k8hx4mjljtrc
+name: SMS Delivery Delays to Viva Network in the Dominican Republic
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-01-27 18:17:56"
+      description: We are experiencing SMS delivery delays when sending messages to Viva Network in the Dominican Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

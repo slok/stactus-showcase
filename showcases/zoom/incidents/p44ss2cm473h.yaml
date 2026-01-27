@@ -1,0 +1,15 @@
+version: incident/v1
+id: p44ss2cm473h
+name: Service degradation affecting Conference Room Connector SIP calls in Tian Jin Data Center.
+impact: none
+systems:
+    - 3ml2fn8g0psv
+timeline:
+    - ts: "2026-01-27 18:20:49"
+      description: |-
+        Between 01/23/2026 12:50 UTC and 01/26/2026 10:50 UTC, A subset of users specifically using the Conference Room Connector service via SRV (Service) DNS records in the Tian Jin data centre may have experienced SIP call errors.
+
+        Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-01-27 18:25:29"
+      description: This incident has been resolved.
+      resolved: true

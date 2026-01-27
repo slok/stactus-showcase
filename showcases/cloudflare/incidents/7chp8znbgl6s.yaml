@@ -1,0 +1,18 @@
+version: incident/v1
+id: 7chp8znbgl6s
+name: Workers KV elevated latency and errors
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+    - vgxj684rcw7t
+    - 57srcl8zcn7c
+    - tmh50tx2nprs
+timeline:
+    - ts: "2026-01-27 18:46:32"
+      description: |-
+        Cloudflare is aware of issues impacting Workers KV and downstream services such as Cloudflare Access, Cloudflare Pages and Workers Assets.
+
+        Access customers may be experiencing issues logging in or changing configuration. Existing authenticated traffic is not impacted.
+
+        Pages and Workers Assets customers may have issues uploading new assets.
+      investigating: true
