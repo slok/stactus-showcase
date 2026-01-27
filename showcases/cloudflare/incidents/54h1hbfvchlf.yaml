@@ -23,3 +23,5 @@ timeline:
       description: One implemented fix is being rolled out across Cloudflare's network but has not yet reached locations running Durable Objects or D1. The release will progress over several more hours after which we will monitor throughout 2025-01-27 for the desired reduction in errors and timeouts.
     - ts: "2026-01-27 16:44:18"
       description: A code change was rolled out and we're monitoring throughout NAMER business hours for reduction in errors and timeouts. Additionally in parallel, we are rolling out more changes that should reduce the impact of these small fraction of errors and timeouts.
+    - ts: "2026-01-27 23:01:50"
+      description: After monitoring today, we still see intermittent elevated errors and query timeouts. Multiple, in-parallel code changes are being implemented or rolling out as additional remediation.
