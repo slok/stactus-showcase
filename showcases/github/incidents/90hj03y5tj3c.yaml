@@ -26,5 +26,5 @@ timeline:
       description: At 23:45 UTC we applied a mitigation to take remaining impacted capacity offline and are seeing improvement. We will update again once we've confirmed the issue is resolved.
       investigating: true
     - ts: "2026-01-26 23:51:44"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: 'On Jan 26, 2026, from approximately 14:03 UTC to 23:42 UTC, GitHub Actions experienced job failures on some Windows standard hosted runners. This was caused by a configuration difference in a new Windows runner type that caused the expected D: drive to be missing. About 2.5% of all Windows standard runners jobs were impacted. Re-run of failed workflows had a high chance of succeeding given the limited rollout of the change.<br /><br />The job failures were mitigated by rolling back the affected configuration and removing the provisioned runners that had this configuration. To reduce the chance of recurrence, we are expanding runner telemetry and improving validation of runner configuration changes. We are also evaluating options to accelerate the mitigation time of any similar future events.'
       resolved: true
