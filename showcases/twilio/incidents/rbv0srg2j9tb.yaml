@@ -1,6 +1,6 @@
 version: incident/v1
 id: rbv0srg2j9tb
-name: SMS Delivery Delays To Digicel Network In Papua New Guinea (537-03)
+name: SMS Delivery Delays To Digicel Network In Papua New Guinea
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -38,3 +38,5 @@ timeline:
     - ts: "2026-01-28 22:01:49"
       description: We are continuing to experience SMS delivery delays when sending messages to Digicel network in Papua New Guinea. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-01-28 22:48:50"
+      description: We are observing recovery in SMS Delivery Delays To Digicel Network In Papua New Guinea. We will continue monitoring the service to ensure a full recovery. We will provide another update in 30 minutes or as soon as more information becomes available.
