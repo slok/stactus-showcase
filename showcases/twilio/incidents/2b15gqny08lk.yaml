@@ -1,0 +1,12 @@
+version: incident/v1
+id: 2b15gqny08lk
+name: High Error Rates for Conversations and Programmable Video in IE1
+impact: minor
+systems:
+    - ys1jhy2ys04z
+    - q015c7mrst1s
+    - by1b8ylwwgs6
+    - 2vs63pk0qq23
+timeline:
+    - ts: "2026-01-28 18:20:06"
+      description: Due to a third party provider, Conversations and Programmable Video were degraded between 7:53 AM to 9:28 AM Pacific Time on 01/28/2026. During this period, customers may have experienced "404" errors from Cloudfront for Conversation API calls or increased error rates when trying to connect to Video Rooms. The issue has been mitigated, but we are continuing to monitor. We'll provide another update in 1 hour or as soon as more information becomes available.
