@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2026-01-28 10:14:36"
       description: We are observing recovery in SMS delivery delays when sending messages to Entel in Chile from a subset of domestic long codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-01-28 11:58:01"
+      description: We are no longer experiencing SMS delivery delays when sending messages to Entel in Chile from a subset of domestic long codes. This incident has been resolved.
+      resolved: true
