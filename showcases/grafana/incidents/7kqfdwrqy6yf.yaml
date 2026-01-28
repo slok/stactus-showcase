@@ -1,0 +1,11 @@
+version: incident/v1
+id: 7kqfdwrqy6yf
+name: Some Dashboards in Prod-Us-Central-3 unable to load
+impact: major
+systems:
+    - qqj6ssvvsqmq
+    - m7cr9xxllhpn
+timeline:
+    - ts: "2026-01-28 17:27:05"
+      description: "We are currently investigating an issue impacting dashboards for users in the prod-us-central-3 region. This is preventing impacted dashboards from loading as expected.\n\nThis is also impacting a very small subset of users in the prod-us-central-0 region as well. \n\nWe will provide more details regarding the scope as they become available."
+      investigating: true
