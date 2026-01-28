@@ -1,9 +1,13 @@
 version: incident/v1
 id: p8jkctq79q9g
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Emergency Number Provisioning Failing Intermittently Due to Configuration Lookup Returning No Results
+impact: minor
+systems:
+    - pv5w18vrltfl
 timeline:
     - ts: "2026-01-28 17:50:16"
       description: Our monitoring systems have detected a potential issue with emergency number provisioning. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-01-28 18:01:29"
+      description: Intermittent issue when the customer attempts to register an emergency address to a phone number the registration fails and the number remains in an unregistered status. Customer may also see Could not add Emergency Address Please try again later error. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
