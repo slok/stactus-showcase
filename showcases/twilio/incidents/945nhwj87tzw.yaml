@@ -1,10 +1,14 @@
 version: incident/v1
 id: 945nhwj87tzw
-name: SMS Delivery Delays to GCI Network in United States of America - 311-430.
+name: SMS/MMS Delivery Delays to GCI Network in United States of America
 impact: minor
 systems:
     - 7d8w22hqrh6s
+    - 8vdlvw3dsq8h
 timeline:
     - ts: "2026-01-28 02:07:23"
       description: We are experiencing SMS Delivery Delays to GCI Network in United States of America - 311-430. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-28 03:06:43"
+      description: We are experiencing SMS/MMS delivery delays to the GCI network in the United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
