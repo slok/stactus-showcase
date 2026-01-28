@@ -1,0 +1,17 @@
+version: incident/v1
+id: xt0pf3zd42pq
+name: Partial Outage Affecting WhatsApp Integration
+impact: major
+systems:
+    - lj388xsd0lyh
+timeline:
+    - ts: "2026-01-28 18:27:55"
+      description: |-
+        We are currently investigating a service degradation with WhatsApp Integration.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-01-28 18:41:33"
+      description: "We have successfully identified the root cause affecting WhatsApp Integration.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
