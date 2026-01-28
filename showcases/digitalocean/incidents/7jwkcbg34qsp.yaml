@@ -9,3 +9,5 @@ timeline:
     - ts: "2026-01-28 11:27:05"
       description: Our Engineering team is investigating an issue with Kubernetes clusters in the FRA1 region. During this time, subset of users may experience an issue while provisioning Kubernetes clusters and mounting volumes. Additionally, users may also notice the droplet events appearing to be stuck or delayed in this region. We apologize for the inconvenience and will share an update once we have more information.
       investigating: true
+    - ts: "2026-01-28 13:30:06"
+      description: Our Engineering team has identified the root cause of the issue impacting Kubernetes clusters and Droplet events in the FRA1 region and is actively working on a fix. In the meantime, users may continue to experience issues. We appreciate your patience and will share updates as more information becomes available.
