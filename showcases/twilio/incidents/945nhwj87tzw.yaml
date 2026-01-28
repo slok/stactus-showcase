@@ -1,6 +1,6 @@
 version: incident/v1
 id: 945nhwj87tzw
-name: SMS/MMS Delivery Delays to GCI Network in United States of America
+name: SMS and MMS Delivery Delays to GCI Network in United States of America
 impact: minor
 systems:
     - 7d8w22hqrh6s
@@ -12,3 +12,5 @@ timeline:
     - ts: "2026-01-28 03:06:43"
       description: We are experiencing SMS/MMS delivery delays to the GCI network in the United States of America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-01-28 05:01:21"
+      description: We are observing recovery in MMS/SMS delivery when sending messages to the GCI network in the United States of America. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
