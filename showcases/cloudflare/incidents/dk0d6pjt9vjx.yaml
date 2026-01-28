@@ -1,10 +1,12 @@
 version: incident/v1
 id: dk0d6pjt9vjx
-name: Workers Ratelimit Degredation
+name: Workers Rate limit Degradation
 impact: minor
 systems:
     - 57srcl8zcn7c
 timeline:
     - ts: "2026-01-28 14:38:35"
-      description: We are aware that workers rate limiting may be triggering below the defined limit, and we are working to resolve this issue
+      description: |-
+        Cloudflare is aware of, and investigating an issue where Workers rate limiting may be triggering below the defined limit.
+        We are working to resolve this issue, more updates to follow shortly.
       investigating: true
