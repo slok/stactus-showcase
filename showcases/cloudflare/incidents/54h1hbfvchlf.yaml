@@ -27,3 +27,6 @@ timeline:
       description: After monitoring today, we still see intermittent elevated errors and query timeouts. Multiple, in-parallel code changes are being implemented or rolling out as additional remediation.
     - ts: "2026-01-28 11:09:11"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2026-01-28 14:14:34"
+      description: "We have put in place a series of mitigations to prevent a reoccurrence of severe query timeouts for affected databases. \n\nThis includes improvements to our watchdog logic, updates to our internal metrics, and the pre-existing / ongoing (short & medium term) improvements to D1 & Durable Objects SQL performance in these cases."
+      resolved: true
