@@ -1,0 +1,16 @@
+version: incident/v1
+id: p05nr4fb48xt
+name: Network Performance Issues
+impact: minor
+systems:
+    - shcqh0p22750
+    - 38w4zp21dlkc
+    - 73mbn78m0yzm
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-01-28 04:25:39"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in São Paulo, London, and Los Angeles
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true

@@ -14,3 +14,14 @@ timeline:
 
         Our teams are actively working to identify the root cause and restore full service as quickly as possible. We apologize for the inconvenience and will provide updates as more information becomes available.
       investigating: true
+    - ts: "2026-01-28 04:11:11"
+      description: |-
+        Our Engineering team has identified the cause of the issue impacting our Droplet-based products in the FRA1 region and applied a fix. The impact has started to mitigate and users should be able to connect to their Droplets and also start to see events getting processed successfully.
+
+        We're now monitoring the fix for stability and will post an update once we are confident it is successful.
+    - ts: "2026-01-28 04:27:19"
+      description: |-
+        Our Engineering team has confirmed that the issue impacting our Droplet-based products in the FRA1 region has been completely mitigated. Users should no longer see issues with their Droplets and Droplet-related services.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true
