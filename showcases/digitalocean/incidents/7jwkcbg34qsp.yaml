@@ -13,3 +13,9 @@ timeline:
       description: Our Engineering team has identified the root cause of the issue impacting Kubernetes clusters and Droplet events in the FRA1 region and is actively working on a fix. In the meantime, users may continue to experience issues. We appreciate your patience and will share updates as more information becomes available.
     - ts: "2026-01-28 14:47:46"
       description: Our Engineering team has implemented a fix to address the issue affecting Kubernetes clusters and Droplet events in the FRA1 region and is actively monitoring the situation. Customers should no longer experience issues provisioning Kubernetes clusters or mounting volumes. We will provide an update as soon as the issue is fully resolved.
+    - ts: "2026-01-28 17:37:47"
+      description: |-
+        Our Engineering team has resolved the issue affecting Kubernetes clusters and Droplet events in the FRA1 region. Between approximately 00:17 UTC and 14:30 UTC, customers may have experienced issues provisioning Kubernetes clusters and mounting volumes. All services should now be functioning normally.
+
+        If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true
