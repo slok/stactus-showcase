@@ -1,0 +1,13 @@
+version: incident/v1
+id: 6vndlbw8vzqp
+name: Monitors - Delayed Evaluation
+impact: minor
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2026-01-28 21:18:31"
+      description: We are investigating delays in service checks monitors evaluation, which began at 20:26 1/28/2026 UTC.
+      investigating: true
+    - ts: "2026-01-28 21:21:52"
+      description: We are continuing to investigate this issue.
+      investigating: true
