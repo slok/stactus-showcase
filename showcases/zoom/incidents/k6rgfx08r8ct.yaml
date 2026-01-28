@@ -1,0 +1,16 @@
+version: incident/v1
+id: k6rgfx08r8ct
+name: Intermittent service degradation impacting Zoom AI Companion meeting summaries in the India region.
+impact: minor
+systems:
+    - 07fc2bfpjgct
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2026-01-28 16:41:27"
+      description: |-
+        We are investigating an intermittent service degradation impacting Zoom AI Companion meeting summaries in the India region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true

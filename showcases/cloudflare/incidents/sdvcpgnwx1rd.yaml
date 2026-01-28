@@ -1,0 +1,11 @@
+version: incident/v1
+id: sdvcpgnwx1rd
+name: Intermittent Errors for D1 and Durable Objects
+impact: minor
+systems:
+    - z0yd3sxqjqdm
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2026-01-28 16:27:58"
+      description: Cloudflare is aware of, and investigating intermittent errors with D1 and Durable Objects which potentially impacts some customers. We are currently investigating this issue, more updates to follow shortly.
+      investigating: true

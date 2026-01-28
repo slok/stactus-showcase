@@ -1,0 +1,12 @@
+version: incident/v1
+id: cp7nz27xc349
+name: Increased Latency for Workers and Pages
+impact: none
+systems: []
+timeline:
+    - ts: "2026-01-28 16:26:20"
+      description: |-
+        Cloudflare is aware of and has mitigated an issue where users would see increased latency and timeouts for Workers and Pages from 2026-01-28 01:18 UTC to 2026-01-28 16:00 UTC.
+
+        This incident has now been resolved.
+      resolved: true
