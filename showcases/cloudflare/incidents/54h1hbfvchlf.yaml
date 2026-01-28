@@ -25,3 +25,5 @@ timeline:
       description: A code change was rolled out and we're monitoring throughout NAMER business hours for reduction in errors and timeouts. Additionally in parallel, we are rolling out more changes that should reduce the impact of these small fraction of errors and timeouts.
     - ts: "2026-01-27 23:01:50"
       description: After monitoring today, we still see intermittent elevated errors and query timeouts. Multiple, in-parallel code changes are being implemented or rolling out as additional remediation.
+    - ts: "2026-01-28 11:09:11"
+      description: We are continuing to work on a fix for this issue.
