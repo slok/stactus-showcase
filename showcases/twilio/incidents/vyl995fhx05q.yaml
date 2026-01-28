@@ -13,3 +13,6 @@ timeline:
       investigating: true
     - ts: "2026-01-28 20:39:32"
       description: We are observing recovery in latency in gather speech for customer with multiple nested 'Play' and 'Say'.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-01-28 22:21:26"
+      description: We are no longer experiencing latency in gather speech for customer with multiple nested 'Play' and 'Say'. This incident has been resolved.
+      resolved: true
