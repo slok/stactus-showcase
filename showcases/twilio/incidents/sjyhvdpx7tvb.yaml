@@ -1,9 +1,13 @@
 version: incident/v1
 id: sjyhvdpx7tvb
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: SMS Delivery Delays to Jawwal Network in Palestine
+impact: minor
+systems:
+    - 8qjql0kqnd33
 timeline:
     - ts: "2026-01-28 14:52:55"
       description: Our monitoring systems have detected a potential issue SMS delivery delays to Jawwal Network. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-01-28 15:00:23"
+      description: We are experiencing SMS delivery delays when sending messages to Jawwal Network in Palestine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
