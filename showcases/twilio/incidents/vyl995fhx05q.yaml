@@ -1,0 +1,10 @@
+version: incident/v1
+id: vyl995fhx05q
+name: Errors for Fetch to Play Files in Parallel for Calls
+impact: none
+systems:
+    - frxynt0ffp5w
+timeline:
+    - ts: "2026-01-28 20:19:02"
+      description: We are currently observing increased latency in Gather speech for customer with multiple nested <Play> and <Say>
+      investigating: true
