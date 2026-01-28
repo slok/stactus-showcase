@@ -1,0 +1,16 @@
+version: incident/v1
+id: 3lq0zklcll0k
+name: Droplet Based Events in FRA1
+impact: minor
+systems:
+    - 566bp0vk7mwx
+    - l8lxzfpgpc39
+    - kkg2cfkqkwj1
+    - 2tfqdy27151t
+timeline:
+    - ts: "2026-01-28 00:45:47"
+      description: |-
+        Our Engineering team is currently investigating an issue affecting events in FRA1. During this time, customers may experience delays or errors when creating or deleting Droplets, as well as when using Droplet-based products such as Load Balancers, Kubernetes Clusters, or Databases.
+
+        Our teams are actively working to identify the root cause and restore full service as quickly as possible. We apologize for the inconvenience and will provide updates as more information becomes available.
+      investigating: true
