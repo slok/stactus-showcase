@@ -1,0 +1,18 @@
+version: incident/v1
+id: 6bnhsxpgpbl2
+name: Network Performance Issues in Singapore
+impact: minor
+systems:
+    - 18p6r93swmbl
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-01-28 01:11:36"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in Singapore.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-01-28 01:19:07"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-01-28 01:37:02"
+      description: A fix has been implemented and we are monitoring the results.
