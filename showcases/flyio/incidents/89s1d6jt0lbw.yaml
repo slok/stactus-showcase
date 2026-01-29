@@ -14,3 +14,8 @@ timeline:
         Most hosts in NRT and SIN have completed backfilling their metrics and are up to date in fly-metrics.net.
 
         Four hosts are still working through the backlog; machines on those hosts are still reporting delayed metrics at this time.
+    - ts: "2026-01-29 15:15:43"
+      description: |-
+        Currently one host in SIN is still finishing working through it's metrics backlog and is reporting delayed metrics. Other hosts in NRT and SIN are reporting metrics correctly.
+
+        If needed, users with impacted machines on the remaining host can use `fly machine clone` to create new machines in the region, which should land on a different host.
