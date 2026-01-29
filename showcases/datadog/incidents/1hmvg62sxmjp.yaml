@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1hmvg62sxmjp
+name: Delayed Monitors Evaluations
+impact: critical
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2026-01-29 17:35:31"
+      description: We are investigating delays in Monitors evaluations, which began at 17:15 UTC.
+      investigating: true
