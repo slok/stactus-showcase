@@ -1,0 +1,13 @@
+version: incident/v1
+id: 20cf11md9fsc
+name: Decrease in Delivery Receipts (DLRs) for RCS Messages
+impact: minor
+systems:
+    - whldrk77jnm4
+timeline:
+    - ts: "2026-01-29 05:59:07"
+      description: |-
+        We are currently investigating a decrease in delivery receipts (DLRs) for RCS (Rich Communication Services) messages. Our engineering teams are actively working to identify the root cause and restore normal delivery performance as quickly as possible. Customers may experience Verify unable to perform any fallback to SMS.
+
+        We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
