@@ -19,3 +19,6 @@ timeline:
         Currently one host in SIN is still finishing working through it's metrics backlog and is reporting delayed metrics. Other hosts in NRT and SIN are reporting metrics correctly.
 
         If needed, users with impacted machines on the remaining host can use `fly machine clone` to create new machines in the region, which should land on a different host.
+    - ts: "2026-01-29 20:04:38"
+      description: This incident has been resolved. All hosts in SIN and NRT are reporting up to date metrics.
+      resolved: true
