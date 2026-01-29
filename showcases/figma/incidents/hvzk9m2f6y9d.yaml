@@ -7,3 +7,8 @@ timeline:
     - ts: "2026-01-29 19:39:23"
       description: We are investigating an issue some users are experiencing when publishing Figma Makes or Sites with code components.
       investigating: true
+    - ts: "2026-01-29 20:16:33"
+      description: |-
+        We have identified the issue impacting some users when publishing Figma Makes created before December 16, 2025 or Sites with code components.
+
+        This is due to an intermittent issue with the service used for accessing code package dependencies used in Figma Make and Figma Sites: https://github.com/esm-dev/esm.sh/issues/1294#issue-3866491297. We are actively working to mitigate the issue.
