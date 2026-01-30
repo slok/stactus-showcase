@@ -1,0 +1,15 @@
+version: incident/v1
+id: 2zz9x4y4j0mn
+name: Issue affecting a subset of Zoom Phone outbound calls in United Kingdom.
+impact: minor
+systems:
+    - hx06zxqdrsxl
+timeline:
+    - ts: "2026-01-30 12:39:37"
+      description: |-
+        We are currently investigating a service degradation with Zoom Phone outbound affecting a subset of user calls in United Kingdom.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
