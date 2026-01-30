@@ -1,0 +1,15 @@
+version: incident/v1
+id: fcgmtbc1ty4l
+name: Intermittent Performance Issues
+impact: minor
+systems:
+    - cgltwfnt80mm
+    - nb2s2j09f6sc
+    - 03vs2j75ds22
+    - 4q3h5fw7rv4w
+timeline:
+    - ts: "2026-01-30 15:35:45"
+      description: Some users are experiencing slow performance or time outs when trying to use 1Password.com or through our developer tools.
+      investigating: true
+    - ts: "2026-01-30 15:43:54"
+      description: We identified the cause of the intermittent performance issues and took action to mitigate it by restarting affected application servers. The service is currently stable, and we’re continuing to monitor closely.
