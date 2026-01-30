@@ -1,0 +1,13 @@
+version: incident/v1
+id: szwg1z6zjsvx
+name: Degraded Experience - Failing to finalize some CCA Jobs
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-01-30 20:59:51"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2026-01-30 21:05:17"
+      description: Customers may experience misreported Copilot Coding Agent tasks in the GitHub UI. Although the underlying actions are completing as requested, surfaces like Agent Sessions on the GitHub website, or Agent Hub in VS Code, will show that an agent is still working on a task, even if that work has completed. <br /><br />We are working to understand the root cause and mitigate these discrepancies.
+      investigating: true
