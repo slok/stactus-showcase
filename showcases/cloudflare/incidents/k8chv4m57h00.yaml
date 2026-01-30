@@ -1,0 +1,13 @@
+version: incident/v1
+id: k8chv4m57h00
+name: Cloudflare Billing Entitlement Issues
+impact: minor
+systems:
+    - ll1x88wwz4fq
+timeline:
+    - ts: "2026-01-30 02:42:30"
+      description: Cloudflare is experiencing problems in processing changes through our billing subscription service. We will provide an update once billing subscription services return to normal.
+      investigating: true
+    - ts: "2026-01-30 02:47:46"
+      description: We are continuing to investigate this issue.
+      investigating: true
