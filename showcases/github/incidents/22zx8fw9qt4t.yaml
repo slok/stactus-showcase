@@ -12,5 +12,5 @@ timeline:
       description: Actions workflow run starts are delayed. We are actively investigating to find a mitigation.
       investigating: true
     - ts: "2026-01-28 15:54:04"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On Jan 28, 2026, between 14:56 UTC and 15:44 UTC, GitHub Actions experienced degraded performance. During this time, workflows experienced an average delay of 49 seconds, and 4.7% of workflow runs failed to start within 5 minutes. The root cause was an atypical load pattern that overwhelmed system capacity and caused resource contention.<br /><br />Recovery began once additional resources came online at 15:25 UTC, with full recovery at 15:44 UTC. We are implementing safeguards to prevent this failure mode and enhancing our monitoring to detect and address similar patterns more quickly in the future.
       resolved: true
