@@ -1,9 +1,13 @@
 version: incident/v1
 id: mmjz36qzjtq3
-name: On Call Engineers are Investigating an Issue with Call Failure To Lycamobile In UK from a Subset Of Twilio Numbers
-impact: none
-systems: []
+name: Outbound Call Failure To Lycamobile In UK from a Subset Of Twilio Numbers
+impact: minor
+systems:
+    - bnzggd37p61w
 timeline:
     - ts: "2026-01-30 15:11:01"
       description: Our monitoring systems have detected a potential issue with Call Failure To Lycamobile In UK from a Subset Of Twilio Numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-01-30 15:20:39"
+      description: We are observing an issue with outbound calls to Lycamobile in UK from a subset of Twilio numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true

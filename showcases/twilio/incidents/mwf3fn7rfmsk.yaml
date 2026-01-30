@@ -1,0 +1,10 @@
+version: incident/v1
+id: mwf3fn7rfmsk
+name: DIP Returns Incorrect MNP Data For Some Numbers in France
+impact: none
+systems:
+    - pv5w18vrltfl
+timeline:
+    - ts: "2026-01-30 15:26:11"
+      description: Twilio Messaging APIs was degraded between 10/31/2024 and 01/30/2026. During this period of time customers may have experienced SMS and MMS delivery problems to a small subset of ported mobile numbers in France. The issue has now been resolved
+      resolved: true
