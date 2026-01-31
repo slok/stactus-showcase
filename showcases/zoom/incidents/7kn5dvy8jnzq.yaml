@@ -1,14 +1,21 @@
 version: incident/v1
 id: 7kn5dvy8jnzq
 name: Service Degradation Affecting Pardot Integration
-impact: none
-systems: []
+impact: minor
+systems:
+    - lj388xsd0lyh
 timeline:
     - ts: "2026-01-31 00:57:31"
       description: |-
         We are currently investigating a service degradation affecting Pardot Integration.
 
         Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-01-31 01:17:02"
+      description: |-
+        We continue to investigate the service degradation with Pardot integration. Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
 
         We appreciate your patience as we work to resolve this issue.
       investigating: true
