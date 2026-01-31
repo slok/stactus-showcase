@@ -1,0 +1,10 @@
+version: incident/v1
+id: t84zgtw5pv59
+name: SMS Delivery Delays to Telefonica in Costa Rica
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2026-01-31 11:30:47"
+      description: We are experiencing SMS delivery delays when sending messages to Telefonica in Costa Rica. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
