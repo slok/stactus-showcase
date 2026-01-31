@@ -12,3 +12,5 @@ timeline:
         We have identified the issue impacting some users when publishing Figma Makes created before December 16, 2025 or Sites with code components.
 
         This is due to an intermittent issue with the service used for accessing code package dependencies used in Figma Make and Figma Sites: https://github.com/esm-dev/esm.sh/issues/1294#issue-3866491297. We are actively working to mitigate the issue.
+    - ts: "2026-01-31 20:37:54"
+      description: A fix has been implemented for publishing Figma Makes or Sites with code components. This should now be operational. We are continuing to monitor to ensure full recovery.
