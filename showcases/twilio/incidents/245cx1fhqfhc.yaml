@@ -1,0 +1,10 @@
+version: incident/v1
+id: 245cx1fhqfhc
+name: SMS Delivery Failures to Tele2 Network in Russia
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-02-01 23:24:07"
+      description: We are experiencing SMS delivery failures to Tele2 Network in Russia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
