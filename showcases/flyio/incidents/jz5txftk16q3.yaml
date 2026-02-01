@@ -1,0 +1,11 @@
+version: incident/v1
+id: jz5txftk16q3
+name: Congestion in CDG and FRA
+impact: minor
+systems:
+    - 266zqs63006k
+    - zb68fzjgtq5s
+timeline:
+    - ts: "2026-02-01 20:15:55"
+      description: We are experiencing elevated weekend congestion in CDG (France) and FRA (Germany).
+      investigating: true
