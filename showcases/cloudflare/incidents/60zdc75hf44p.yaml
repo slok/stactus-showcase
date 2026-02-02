@@ -1,0 +1,9 @@
+version: incident/v1
+id: 60zdc75hf44p
+name: Network Performance Issues in China
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-02 06:11:44"
+      description: Between 05:20-05:46 UTC customers reaching KMG, CKG, XFN, CSX may have experienced an elevated errors or timeouts trying to reach Cloudflare IPs.
+      resolved: true
