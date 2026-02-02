@@ -1,0 +1,10 @@
+version: incident/v1
+id: frd48ffdcn0r
+name: AccSec US T-Mobile API Issue
+impact: minor
+systems:
+    - whldrk77jnm4
+timeline:
+    - ts: "2026-02-02 10:51:12"
+      description: We are experiencing an issue with the T-Mobile US API, impacting Account Security Services, causing errors—Invalid MSISDN / No Data Found For Provided MSISDN. Our engineering team is actively working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
