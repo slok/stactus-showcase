@@ -1,0 +1,13 @@
+version: incident/v1
+id: t4s6xgbwv60j
+name: Incident with Codespaces
+impact: major
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2026-02-02 20:17:19"
+      description: We are investigating reports of degraded availability for Codespaces
+      investigating: true
+    - ts: "2026-02-02 20:19:26"
+      description: Users may see errors creating or resuming codespaces. We are investigating and will provide further updates as we have them.
+      investigating: true

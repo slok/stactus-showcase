@@ -1,0 +1,39 @@
+version: incident/v1
+id: xwn6hjps36ty
+name: Incident with Actions
+impact: major
+systems:
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-02-02 19:03:14"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2026-02-02 19:07:43"
+      description: GitHub Actions hosted runners are experiencing high wait times across all labels. Self-hosted runners are not impacted.
+      investigating: true
+    - ts: "2026-02-02 19:43:21"
+      description: Actions is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-02-02 19:44:58"
+      description: The team continues to investigate issues causing GitHub Actions jobs on hosted runners to remain queued for extended periods, with a percentage of jobs failing. We will continue to provide updates as we make progress toward mitigation.
+      investigating: true
+    - ts: "2026-02-02 19:48:44"
+      description: Pages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-02-02 20:27:29"
+      description: The team continues to investigate issues causing GitHub Actions jobs on hosted runners to remain queued for extended periods, with a percentage of jobs failing. We will continue to provide updates as we make progress toward mitigation.<br />
+      investigating: true
+    - ts: "2026-02-02 21:13:41"
+      description: We continue to investigate failures impacting GitHub Actions hosted-runner jobs.<br />We have identified the root cause and are working with our upstream provider to mitigate.<br />This is also impacting GitHub features that rely on GitHub Actions (for example, Copilot Coding Agent and Dependabot).
+      investigating: true
+    - ts: "2026-02-02 21:27:26"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-02-02 22:10:16"
+      description: We continue to investigate failures impacting GitHub Actions hosted-runner jobs.<br />We're waiting on our upstream provider to apply the identified mitigations, and we're preparing to resume job processing as safely as possible.
+      investigating: true
+    - ts: "2026-02-02 22:53:17"
+      description: Our upstream provider has applied a mitigation to address queuing and job failures on hosted runners.<br />Telemetry shows improvement, and we are monitoring closely for full recovery.
+      investigating: true

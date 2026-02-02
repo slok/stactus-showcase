@@ -1,6 +1,6 @@
 version: incident/v1
 id: 4jxyhfjm4838
-name: SMS Delivery Failures to Fibernotics Network in Canada
+name: SMS Delivery Failures for a subset of Short Codes to Fibernetics Network in Canada
 impact: minor
 systems:
     - 7d8w22hqrh6s
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2026-02-02 17:51:12"
       description: We continue experiencing SMS delivery failures to Fibernotics network in Canada. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-02 20:04:00"
+      description: We continue experiencing SMS delivery failures for a subset of Short Codes to Fibernetics network in Canada. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
