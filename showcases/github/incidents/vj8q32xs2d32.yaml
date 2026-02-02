@@ -1,0 +1,19 @@
+version: incident/v1
+id: vj8q32xs2d32
+name: Disruption with some GitHub services
+impact: minor
+systems:
+    - 8l4ygp009s5s
+timeline:
+    - ts: "2026-02-02 17:34:25"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-02-02 17:35:07"
+      description: Git Operations is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-02-02 17:42:29"
+      description: We’ve observed a low rate (~0.01%) of 5xx errors for HTTP-based fetches and clones. We’re currently routing traffic away from the affected location and are seeing recovery.
+      investigating: true
+    - ts: "2026-02-02 17:43:51"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
