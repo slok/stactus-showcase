@@ -37,3 +37,12 @@ timeline:
     - ts: "2026-02-02 22:53:17"
       description: Our upstream provider has applied a mitigation to address queuing and job failures on hosted runners.<br />Telemetry shows improvement, and we are monitoring closely for full recovery.
       investigating: true
+    - ts: "2026-02-02 23:31:19"
+      description: Pages is operating normally.
+      investigating: true
+    - ts: "2026-02-02 23:42:00"
+      description: Copilot is operating normally.
+      investigating: true
+    - ts: "2026-02-02 23:43:49"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
