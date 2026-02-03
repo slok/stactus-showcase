@@ -1,0 +1,14 @@
+version: incident/v1
+id: 39x1x9f0wzkh
+name: IRM Pages Not Accessible
+impact: critical
+systems:
+    - 1mxpk7q1bkb6
+    - h3wg1km0qxwv
+timeline:
+    - ts: "2026-02-03 16:52:18"
+      description: |-
+        As of 16:40 UTC, we are currently investigating an issue where IRM pages are not accessible. Users may experience errors or be unable to load IRM-related pages during this time.
+
+        Our team is actively working to identify the root cause and restore full functionality as quickly as possible. We will provide updates as more information becomes available.
+      investigating: true

@@ -1,10 +1,17 @@
 version: incident/v1
 id: jk2mx637l9k9
-name: Workers Builds not triggering
+name: Workers and Pages Builds not triggering
 impact: minor
 systems:
+    - vgxj684rcw7t
     - vcpsk0w6g86k
 timeline:
     - ts: "2026-02-03 16:09:11"
       description: Cloudflare is aware of and investigating reports of an issue triggering Workers Builds from Git commits. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-02-03 16:56:09"
+      description: We are also seeing some issues for the Workers API. Investigation is ongoing, we will share more information as it becomes available.
+      investigating: true
+    - ts: "2026-02-03 17:00:43"
+      description: Workers API has recovered. We have identified this issue is also impacting Pages builds. We are continuing to investigate.
       investigating: true
