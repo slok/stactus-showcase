@@ -1,0 +1,15 @@
+version: incident/v1
+id: y6n2ykgkmgzg
+name: IPv6 Issues in YYZ
+impact: major
+systems:
+    - mwwcgsqt0z7t
+timeline:
+    - ts: "2026-02-03 15:33:26"
+      description: "We are currently investigating degraded IPv6 networking in the YYZ (Toronto) region.  \n\nUsers with machines in this region may see issues connecting to their machines over IPv6. Users with static egress IPs may see issues connecting outbound over IPv6 from this region at this time. IPv4 is not impacted and continues to work normally."
+      investigating: true
+    - ts: "2026-02-03 15:44:49"
+      description: A fix has been implemented and we're seeing IPv6 networking return to normal in YYZ. We'll continue to monitor to ensure full recovery.
+    - ts: "2026-02-03 15:53:11"
+      description: This incident has been resolved.
+      resolved: true
