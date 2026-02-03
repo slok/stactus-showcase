@@ -10,3 +10,6 @@ timeline:
       description: Users may be unable to access the MongoDB Atlas App Services triggers page and may see authentication failures when using the Admin API. As a result, some users may be unable to create, update, or manage App Services resources. We have identified an issue with a recent change to authentication and are working to revert those changes.
     - ts: "2026-02-03 18:50:50"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2026-02-03 19:15:40"
+      description: This incident has been resolved.
+      resolved: true
