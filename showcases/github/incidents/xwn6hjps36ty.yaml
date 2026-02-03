@@ -46,3 +46,6 @@ timeline:
     - ts: "2026-02-02 23:43:49"
       description: Actions is experiencing degraded performance. We are continuing to investigate.
       investigating: true
+    - ts: "2026-02-02 23:50:15"
+      description: Based on our telemetry, most customers should see full recovery from failing GitHub Actions jobs on hosted runners.<br />We are monitoring closely to confirm complete recovery.<br />Other GitHub features that rely on GitHub Actions (for example, Copilot Coding Agent and Dependabot) should also see recovery.
+      investigating: true
