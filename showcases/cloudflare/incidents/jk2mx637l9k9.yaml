@@ -1,0 +1,10 @@
+version: incident/v1
+id: jk2mx637l9k9
+name: Workers Builds not triggering
+impact: minor
+systems:
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2026-02-03 16:09:11"
+      description: Cloudflare is aware of and investigating reports of an issue triggering Workers Builds from Git commits. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
