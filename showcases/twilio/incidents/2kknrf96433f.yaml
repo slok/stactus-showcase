@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2kknrf96433f
+name: SMS Delivery Failures From Australia Subscribers to a Subset of Twilio Phone Numbers in Australia
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-02-03 08:40:46"
+      description: We are currently investigating an issue where inbound SMS messages are not being received by a subset of Twilio phone numbers in Australia. Our engineering teams has been engaged and currently investigating. We will provide updates in 1 hour or as soon as more information becomes available.
+      investigating: true
