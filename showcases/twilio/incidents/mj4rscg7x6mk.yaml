@@ -1,0 +1,16 @@
+version: incident/v1
+id: mj4rscg7x6mk
+name: Inbound SMS Messages Not Received by a Subset of Australia Twilio Phone Numbers
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-02-03 06:50:51"
+      description: Our monitoring systems have detected a potential issue with inbound SMS. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-02-03 06:56:18"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-02-03 07:02:50"
+      description: We are currently investigating an issue where inbound SMS messages are not being received by a subset of Twilio phone numbers in Australia. Our engineering teams has been engaged and currently investigating. We will provide updates as more information becomes available.
+      investigating: true
