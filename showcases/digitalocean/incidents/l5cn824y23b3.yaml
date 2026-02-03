@@ -12,3 +12,10 @@ timeline:
     - ts: "2026-02-03 17:32:47"
       description: "Our Engineering team is investigating an issue impacting our Cloud Control Panel and API. Users attempting to make API requests could see 5xx errors and users attempting to access the Cloud Control Panel may see gateway timeouts or page timeouts. \n\nWe apologize for the inconvenience and will share an update once we have more information."
       investigating: true
+    - ts: "2026-02-03 17:51:09"
+      description: "Our Engineering team has identified the cause of the issue impacting the Cloud Control Panel and API and is actively working on deploying a fix. At this time, users will continue to see timeouts/5xx errors, but may intermittently see requests succeeding. \n\nWe will post further updates as soon as the fix is deployed or there is more information to share."
+    - ts: "2026-02-03 18:03:47"
+      description: |-
+        Our Engineering team has implemented a fix for the timeouts affecting the Cloud Control Panel and API, and is currently monitoring the situation. Services have recovered, and users should no longer experience 5xx errors when using the API or gateway timeouts when accessing the Cloud Control Panel.
+
+        We will continue to monitor the situation to ensure that all services are stable and functioning as expected. We will post an update as soon as the issue is fully resolved.
