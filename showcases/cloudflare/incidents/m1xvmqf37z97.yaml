@@ -1,0 +1,10 @@
+version: incident/v1
+id: m1xvmqf37z97
+name: Increase in 404s and 500s for Cloudflare Pages
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2026-02-03 19:45:29"
+      description: Cloudflare is aware of and investigating an issue impacting some Pages projects where they may return an increase of 404s of 500s. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
