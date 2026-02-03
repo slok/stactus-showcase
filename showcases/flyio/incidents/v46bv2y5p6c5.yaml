@@ -1,0 +1,14 @@
+version: incident/v1
+id: v46bv2y5p6c5
+name: Elevated latency and packetloss  in North American regions
+impact: minor
+systems:
+    - qyh8qlklk7mx
+    - 49qj4qjyzlzn
+timeline:
+    - ts: "2026-02-03 02:56:45"
+      description: |-
+        We are currently investigating intermittent spikes of increased latency and packet loss between North American regions over the past hour. Users may see degraded network performance on traffic in and out of the IAD and SJC regions at this time.
+
+        We are working with our upstream networking providers to investigate and mitigate these issues.
+      investigating: true

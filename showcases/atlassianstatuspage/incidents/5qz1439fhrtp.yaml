@@ -1,7 +1,7 @@
 version: incident/v1
 id: 5qz1439fhrtp
 name: Issues displaying system metrics
-impact: major
+impact: critical
 systems:
     - 3218pv5ggw0q
     - hsc388fhkjnv
@@ -12,3 +12,12 @@ timeline:
     - ts: "2026-02-02 21:22:13"
       description: We are currently investigating an issue affecting the display of system metrics on statuspages.
       investigating: true
+    - ts: "2026-02-03 02:43:15"
+      description: |-
+        Our team has identified an issue relating to the underlying data used to populate our System Metrics charts, which could cause display errors to appear on customer Statuspages.
+
+        We are investigating possible solutions, and in the meantime, the System Metrics functionality within Statuspage has been disabled to minimize the impact to users viewing Statuspages.
+
+        We will provide an update when we are able to confirm that the functionality can be re-enabled without causing errors for customer Statuspages.
+
+        Please note, this should not impact the ability of customers to use Statuspage to post publicly about the status of their own systems for overall health and availability.
