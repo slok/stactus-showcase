@@ -1,0 +1,10 @@
+version: incident/v1
+id: 23ktclfjy1yy
+name: SMS Delivery Delays and Failures to Drillisch 1&1 in Germany
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-02-03 14:35:41"
+      description: We are experiencing SMS delivery delays and failures when sending messages to Drillisch 1&1 in Germany. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
