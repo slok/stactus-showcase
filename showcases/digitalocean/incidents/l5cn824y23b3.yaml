@@ -19,3 +19,9 @@ timeline:
         Our Engineering team has implemented a fix for the timeouts affecting the Cloud Control Panel and API, and is currently monitoring the situation. Services have recovered, and users should no longer experience 5xx errors when using the API or gateway timeouts when accessing the Cloud Control Panel.
 
         We will continue to monitor the situation to ensure that all services are stable and functioning as expected. We will post an update as soon as the issue is fully resolved.
+    - ts: "2026-02-03 18:53:19"
+      description: |-
+        As of 17:55 UTC, our Engineering team has resolved the timeouts affecting the Cloud Control Panel and API. The issue was caused by a temporary overload on our infrastructure, resulting in 5xx errors for API requests and gateway timeouts for Cloud Control Panel users.
+
+        If you continue to experience any problems, please open a ticket with our Support team. We apologize for any inconvenience this may have caused and appreciate your patience and understanding.
+      resolved: true

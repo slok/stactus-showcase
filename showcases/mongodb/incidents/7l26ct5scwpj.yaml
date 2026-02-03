@@ -1,0 +1,12 @@
+version: incident/v1
+id: 7l26ct5scwpj
+name: Triggers UI and Admin API authentication issues
+impact: major
+systems:
+    - crrq7qqlqfsh
+    - 7wbvh4zlbmmh
+timeline:
+    - ts: "2026-02-03 18:49:34"
+      description: Users may be unable to access the MongoDB Atlas App Services triggers page and may see authentication failures when using the Admin API. As a result, some users may be unable to create, update, or manage App Services resources. We have identified an issue with a recent change to authentication and are working to revert those changes.
+    - ts: "2026-02-03 18:50:50"
+      description: We are continuing to work on a fix for this issue.

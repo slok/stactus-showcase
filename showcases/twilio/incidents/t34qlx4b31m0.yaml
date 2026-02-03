@@ -1,0 +1,9 @@
+version: incident/v1
+id: t34qlx4b31m0
+name: Programmable Messaging APIs Affected
+impact: none
+systems: []
+timeline:
+    - ts: "2026-02-03 19:07:21"
+      description: Twilio Programmable Messaging APIs was degraded for 2 minutes between 09:59 and 10:01 Pacific Time  and then again between 10:27 and 10:29 Pacific Time on 02/03/2026. During this period of time customers may have experienced high error rate connecting to Twilio's messaging APIs. The issue has now been resolved.
+      resolved: true
