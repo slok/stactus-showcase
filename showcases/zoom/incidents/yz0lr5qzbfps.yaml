@@ -1,0 +1,18 @@
+version: incident/v1
+id: yz0lr5qzbfps
+name: Service Degradation Affecting some inbound and outbound Toll Free Calls in the Japan Region.
+impact: minor
+systems:
+    - 5tf5rb6t3gdf
+    - lcx8djg55vzf
+timeline:
+    - ts: "2026-02-03 00:45:53"
+      description: |-
+        We are currently investigating a service degradation affecting some inbound and outbound Toll Free Calls in the Japan Region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-02-03 00:49:39"
+      description: "We have successfully identified the root cause affecting some inbound and outbound Toll Free Calls in the Japan Region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."

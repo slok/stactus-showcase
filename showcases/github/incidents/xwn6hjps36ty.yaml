@@ -49,3 +49,9 @@ timeline:
     - ts: "2026-02-02 23:50:15"
       description: Based on our telemetry, most customers should see full recovery from failing GitHub Actions jobs on hosted runners.<br />We are monitoring closely to confirm complete recovery.<br />Other GitHub features that rely on GitHub Actions (for example, Copilot Coding Agent and Dependabot) should also see recovery.
       investigating: true
+    - ts: "2026-02-03 00:56:00"
+      description: Actions is operating normally.
+      investigating: true
+    - ts: "2026-02-03 00:56:04"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
