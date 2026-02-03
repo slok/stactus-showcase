@@ -1,6 +1,6 @@
 version: incident/v1
 id: yz0lr5qzbfps
-name: Service Degradation Affecting some inbound and outbound Toll Free Calls in the Japan Region.
+name: Service Degradation affecting some Inbound and Outbound calls for Zoom Phone and Zoom Contact Center in the Japan Region
 impact: minor
 systems:
     - 5tf5rb6t3gdf
@@ -22,5 +22,5 @@ timeline:
 
         Our team will continue to monitor the situation closely and keep you informed of any further developments.
     - ts: "2026-02-03 02:34:28"
-      description: This incident has been resolved and the affected services have been restored.
+      description: This incident has been resolved, and inbound and outbound calling services for Zoom Phone and Zoom Contact Center are fully operational.
       resolved: true
