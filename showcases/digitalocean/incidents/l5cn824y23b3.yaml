@@ -1,0 +1,14 @@
+version: incident/v1
+id: l5cn824y23b3
+name: Cloud Control Panel
+impact: minor
+systems:
+    - p1x9rv4137gx
+    - czck17wcspr5
+timeline:
+    - ts: "2026-02-03 17:27:12"
+      description: "Our Engineering team is investigating an issue impacting our Cloud Control Panel and API. Users attempting to make API requests could see 5xx errors and users attempting to access the Cloud Control Panel may see gateway timeouts or page timeouts. \n\nWe apologize for the inconvenience and will share an update once we have more information."
+      investigating: true
+    - ts: "2026-02-03 17:32:47"
+      description: "Our Engineering team is investigating an issue impacting our Cloud Control Panel and API. Users attempting to make API requests could see 5xx errors and users attempting to access the Cloud Control Panel may see gateway timeouts or page timeouts. \n\nWe apologize for the inconvenience and will share an update once we have more information."
+      investigating: true
