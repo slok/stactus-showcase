@@ -1,0 +1,11 @@
+version: incident/v1
+id: kw6x01cxndqk
+name: Digital Experience Monitoring (DEX) Increased Latency
+impact: minor
+systems:
+    - q9p27cmrspf8
+    - nmp96vgn1hpl
+timeline:
+    - ts: "2026-02-03 18:14:20"
+      description: Cloudflare is investigating issues with its Digital Experience Monitoring (DEX) suite and Browser Rendering API. Users will see additional latency from these services. More updates to follow shortly.
+      investigating: true
