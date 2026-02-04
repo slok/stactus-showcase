@@ -1,0 +1,10 @@
+version: incident/v1
+id: gx9nbv7l3yqs
+name: Cloudflare Stream Issues
+impact: critical
+systems:
+    - 47xg28c02lnk
+timeline:
+    - ts: "2026-02-04 16:45:15"
+      description: Cloudflare is currently investigating issues loading live broadcasts using the Stream player. On-demand videos and custom players are unaffected. We are working to understand the full impact and mitigate this problem, more updates to follow shortly.
+      investigating: true

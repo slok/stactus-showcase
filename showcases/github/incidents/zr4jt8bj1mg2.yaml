@@ -15,5 +15,5 @@ timeline:
       description: We are now seeing recovery.
       investigating: true
     - ts: "2026-02-03 10:56:28"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On February 3, 2026, between 09:35 UTC and 10:15 UTC, GitHub Copilot experienced elevated error rates, with an average of 4% of requests failing.<br /><br />This was caused by a capacity imbalance that led to resource exhaustion on backend services. The incident was resolved by infrastructure rebalancing, and we subsequently deployed additional capacity.<br /><br />We are improving observability to detect capacity imbalances earlier and enhancing our infrastructure to better handle traffic spikes.
       resolved: true
