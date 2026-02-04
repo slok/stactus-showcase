@@ -1,0 +1,13 @@
+version: incident/v1
+id: rpx5nsjs22gh
+name: Issue with KYC Onboarding in TrustHub Console
+impact: minor
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2026-02-04 19:48:26"
+      description: We are investigating an error with users unable to complete the Account Upgrade flow. Additionally, users are not able to create/edit Compliance Profiles and Registrations. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
+    - ts: "2026-02-04 19:51:19"
+      description: We are currently seeing degraded performance on our TrustHub portal in Console. Customers are unable to create Compliance Profiles, Branded Calling registrations, or Regulatory Compliance Bundles, and will see an error in Console. Customers going through the Account Upgrade flow will also see an error. Additionally our ISV customers using Embeds will also see errors. Our engineering team is looking into the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
