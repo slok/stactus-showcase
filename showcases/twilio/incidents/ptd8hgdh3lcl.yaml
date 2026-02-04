@@ -1,9 +1,13 @@
 version: incident/v1
 id: ptd8hgdh3lcl
-name: On Call Engineers are Investigating an issue
-impact: none
-systems: []
+name: Increased 500 Errors for Retrieve Participants API for Voice Conference
+impact: minor
+systems:
+    - l2p2s96tdsf4
 timeline:
     - ts: "2026-02-04 11:52:30"
       description: Our monitoring systems have detected a potential issue with Voice Conference. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-02-04 12:00:21"
+      description: We are investigating an issue with increased 500 errors for Voice Conference Participants API. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
