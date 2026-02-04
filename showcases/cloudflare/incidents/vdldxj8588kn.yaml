@@ -1,0 +1,11 @@
+version: incident/v1
+id: vdldxj8588kn
+name: Newark (EWR) Datacenter Increase in HTTP Request latency
+impact: minor
+systems:
+    - grpnztl4pd46
+    - rppy995xymxv
+timeline:
+    - ts: "2026-02-04 17:29:56"
+      description: Cloudflare has detected an issue regarding elevated latency affecting a subset of HTTP requests in Newark, NJ. we are investigating this region actively. Some customers using  Cloudflare Data Loss Prevention (DLP) suite may see intermittent errors for traffic in this datacenter.
+      investigating: true
