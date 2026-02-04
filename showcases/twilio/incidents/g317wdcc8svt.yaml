@@ -1,0 +1,10 @@
+version: incident/v1
+id: g317wdcc8svt
+name: Elevated 500s Error for Conversations API
+impact: minor
+systems:
+    - 2vs63pk0qq23
+timeline:
+    - ts: "2026-02-04 18:20:31"
+      description: We are experiencing elevated 500s error for Conversations API. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

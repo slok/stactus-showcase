@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-02-04 18:16:36"
       description: A subset of customers are experiencing issues when attempting to add new DNS Records. These issues do not affect the serving of cached files via the Cloudflare CDN or other DNS and security features at the Cloudflare Edge. More updates to follow shortly.
       investigating: true
+    - ts: "2026-02-04 18:32:40"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-02-04 18:40:08"
+      description: This incident has been resolved.
+      resolved: true
