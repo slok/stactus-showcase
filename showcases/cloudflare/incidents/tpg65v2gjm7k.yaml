@@ -1,0 +1,10 @@
+version: incident/v1
+id: tpg65v2gjm7k
+name: Cloudflare DNS
+impact: minor
+systems:
+    - 7j656z7tqk7f
+timeline:
+    - ts: "2026-02-04 18:16:36"
+      description: A subset of customers are experiencing issues when attempting to add new DNS Records. These issues do not affect the serving of cached files via the Cloudflare CDN or other DNS and security features at the Cloudflare Edge. More updates to follow shortly.
+      investigating: true
