@@ -1,0 +1,10 @@
+version: incident/v1
+id: y3fygbbfdmcl
+name: SMS Delivery Delays and Failures to Multiple Networks in the US via Subset of Short Codes
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2026-02-04 10:50:39"
+      description: We are experiencing SMS delivery failures & delays to multiple networks in the US via subset of Short Codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
