@@ -1,6 +1,6 @@
 version: incident/v1
 id: ptd8hgdh3lcl
-name: Increased 500 Errors for Retrieve Participants API for Voice Conference
+name: Increased 500 Errors for Voice Calls and Conference APIs
 impact: minor
 systems:
     - l2p2s96tdsf4
@@ -12,5 +12,7 @@ timeline:
       description: We are investigating an issue with increased 500 errors for Voice Conference Participants API. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2026-02-04 12:51:34"
-      description: We continue to experience an issue with increased 500 errors for Voice Conference Participants API. Our engineering teams are investigating and we expect to provide another update in 2 hours or as soon as more information becomes available.
+      description: We are aware of increased 500 errors affecting the Twilio Calls and Conference APIs. Customers may experience failures when using the Calls or Conference APIs. Our team is actively investigating the root cause and has escalated this to our platform engineering team. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-02-04 13:55:16"
+      description: Twilio Calls and Conference APIs are now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
