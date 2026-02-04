@@ -1,0 +1,26 @@
+version: incident/v1
+id: f3ck7fz3s9nj
+name: Service Degradation Affecting Zoom Virtual Agent in Saudi Arabia region
+impact: minor
+systems:
+    - c68zyh2h6bv2
+    - fq7t6wgfw16p
+timeline:
+    - ts: "2026-02-04 01:12:37"
+      description: |-
+        We are currently investigating a service degradation with Zoom Virtual Agent in Saudi Arabia region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-02-04 01:39:50"
+      description: |-
+        The service degradation affecting Zoom Virtual Agent in Saudi Arabia region has been resolved.
+
+        Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-02-04 01:45:49"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-02-04 01:48:48"
+      description: This incident has been resolved.
+      resolved: true
