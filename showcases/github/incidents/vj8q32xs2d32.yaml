@@ -15,5 +15,5 @@ timeline:
       description: We’ve observed a low rate (~0.01%) of 5xx errors for HTTP-based fetches and clones. We’re currently routing traffic away from the affected location and are seeing recovery.
       investigating: true
     - ts: "2026-02-02 17:43:51"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: From Feb 2, 2026 17:13 UTC to Feb 2, 2026 17:36 UTC we experienced failures on ~0.02% of Git operations. While deploying an internal service, a misconfiguration caused a small subset of traffic to route to a service that was not ready. During the incident we observed the degradation and statused publicly.<br /><br />To mitigate the issue, traffic was redirected to healthy instances and we resumed normal operation.<br /><br />We are improving our monitoring and deployment processes in this area to avoid future routing issues.
       resolved: true
