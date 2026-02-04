@@ -1,0 +1,13 @@
+version: incident/v1
+id: thf7p6hsh1h4
+name: Issue Accessing WhatsApp Sender Configuration
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2026-02-04 02:53:34"
+      description: |-
+        We are currently investigating an issue where some customers are unable to access the WhatsApp sender configuration page in the Twilio Console. Affected users may encounter an error message stating, "Something went wrong. An internal server error has occurred. We are unable to handle this request at the moment. Try again later."
+
+        Our engineering teams has been engaged and are actively investigating. We will provide updates in 1 hour or as soon as more information becomes available.
+      investigating: true
