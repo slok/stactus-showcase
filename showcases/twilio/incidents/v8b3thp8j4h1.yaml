@@ -1,0 +1,13 @@
+version: incident/v1
+id: v8b3thp8j4h1
+name: SMS Delivery Delays to Tim network for a subset of long codes in Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-02-05 22:46:27"
+      description: Our monitoring systems have detected a potential issue SMS delivery delays to Tim network for a subset of long codes in Brazil. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-02-05 22:50:49"
+      description: We are experiencing SMS delivery delays to Tim network for a subset of long codes in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
