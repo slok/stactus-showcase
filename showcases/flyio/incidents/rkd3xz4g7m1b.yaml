@@ -13,3 +13,5 @@ timeline:
       description: "A number of clusters in IAD, AMS, and SIN regions continue to see degraded replicas and PGBouncers at this time. A smaller number of clusters in these regions are also seeing disruption to their primaries. \nWe continue to work on restoring full cluster health in all regions."
     - ts: "2026-02-05 20:16:55"
       description: With the underlying incident stabilizing (https://status.flyio.net/incidents/3npj6935byt4) we are seeing improvements amongst impacted clusters. We continue to work on restoring all clusters to full health.
+    - ts: "2026-02-05 20:58:27"
+      description: We are continuing to work on restoring all clusters to full health.

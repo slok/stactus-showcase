@@ -1,0 +1,12 @@
+version: incident/v1
+id: 44ym733cjxxm
+name: Grafana Cloud Metrics – Write Ingestion Degradation
+impact: none
+systems: []
+timeline:
+    - ts: "2026-02-05 21:10:08"
+      description: |-
+        Between 18:32 and 18:46 UTC, Grafana Cloud Metrics within a single cell residing in the prod-us-west-0 region experienced an issue affecting write ingestion only. During this time, some metric writes may have failed or been delayed. Metric reads were not impacted and remained fully available throughout the incident.
+
+        Our engineering team quickly identified the cause of the issue and implemented mitigation steps to restore normal write ingestion. The service has been operating normally since 18:46 UTC.
+      resolved: true
