@@ -1,0 +1,10 @@
+version: incident/v1
+id: lvqc5sxz39tj
+name: Hosted Metrics partial outage of read path in us-central-0 region.
+impact: major
+systems:
+    - jhc34sjt42wd
+timeline:
+    - ts: "2026-02-05 14:14:01"
+      description: We're experiencing an issue in us-central-0 region for Hosted Metrics offering - the issue manifest in rule evaluations failing, and possibility of queries returning stale data. We're actively investigating the cause of the issue.
+      investigating: true
