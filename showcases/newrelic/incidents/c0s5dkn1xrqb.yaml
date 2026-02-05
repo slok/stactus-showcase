@@ -2,12 +2,13 @@ version: incident/v1
 id: c0s5dkn1xrqb
 name: Distributed Tracing Errors for US and EU Regions
 impact: minor
-systems:
-    - ty1004s644gq
-    - gmn0nk8bzns7
+systems: []
 timeline:
     - ts: "2026-02-05 16:20:19"
       description: We are currently investigating an issue causing errors with Distributed Tracing
       investigating: true
     - ts: "2026-02-05 16:40:31"
       description: Our Team has now issued a fix and are monitoring the issue.
+    - ts: "2026-02-05 17:22:30"
+      description: Between 15:15 UTC and 16:30 UTC some customers may have experienced an issue with Distributed Tracing.
+      resolved: true
