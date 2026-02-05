@@ -4,6 +4,7 @@ name: Delays in Monitor Evaluations
 impact: major
 systems:
     - p4hwj4wsc5wf
+    - pnm7qvgxvpx7
     - p86xlbv3q3sz
     - nypxbf5kxblr
     - 1w2mz2hzw0cz
@@ -29,3 +30,7 @@ timeline:
       investigating: true
     - ts: "2026-02-05 16:31:36"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-02-05 16:50:36"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-02-05 17:01:20"
+      description: We are observing recovery for the vast majority of monitors and are continuing to work on a full fix for this issue.

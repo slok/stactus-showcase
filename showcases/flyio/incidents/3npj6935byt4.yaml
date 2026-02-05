@@ -8,3 +8,5 @@ systems:
 timeline:
     - ts: "2026-02-05 16:43:05"
       description: "We have identified elevated error rates registering new machines with our global state tracking service on some hosts. We have identified the issue and are deploying a fix. \n\nUsers may have seen elevated machine create, start, or deployment failures over the past ~20 minutes."
+    - ts: "2026-02-05 16:59:14"
+      description: "A fix has been rolled out and most hosts are registering machines as normal. A few hosts remain with elevated error rates, we are continuing to fix these. \nUsers who experience an error creating or deploying a new machine should re-try the operation."

@@ -1,0 +1,10 @@
+version: incident/v1
+id: rkd3xz4g7m1b
+name: MPG Degraded clusters in AMS and IAD
+impact: major
+systems:
+    - nv3vps27z635
+    - 6b3gdnt5jyf2
+timeline:
+    - ts: "2026-02-05 17:03:08"
+      description: "A small number of MPG clusters in the AMS and IAD region are currently in degraded states due to downstream impact from this Machines API issue: https://manage.statuspage.io/pages/65rccr4mbblw/incidents/3npj6935byt4\n\nMost of the impacted clusters may see a degraded replica or PG Bouncer in their statuspage. A very small number may be unable to connect to their MPG primary  node, the team is working to restore connectivity as the top priority. \nUsers may also see delays registering new clusters in these regions at this time."
