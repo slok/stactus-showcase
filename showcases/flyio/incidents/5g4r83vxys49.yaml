@@ -11,3 +11,5 @@ timeline:
         An upstream network provider is performing an emergency network maintenance in the YYZ region. Machines in YYZ may see some packet loss.
 
         Managed Postgres clusters in YYZ are experiencing management plane issues. Clusters may see delayed fail-overs and changes in cluster size may not be possible during the maintenance period.
+    - ts: "2026-02-05 09:01:06"
+      description: Managed Postgres clusters in YYZ should be operating normally.
