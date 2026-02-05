@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3npj6935byt4
+name: Delayed Machine Registration
+impact: minor
+systems:
+    - 80ykv2p95qgy
+    - 49yq6v65b33l
+timeline:
+    - ts: "2026-02-05 16:43:05"
+      description: "We have identified elevated error rates registering new machines with our global state tracking service on some hosts. We have identified the issue and are deploying a fix. \n\nUsers may have seen elevated machine create, start, or deployment failures over the past ~20 minutes."
