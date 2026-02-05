@@ -1,0 +1,13 @@
+version: incident/v1
+id: 5g4r83vxys49
+name: Network maintenance in YYZ
+impact: minor
+systems:
+    - zkrdhxtr5trp
+    - mwwcgsqt0z7t
+timeline:
+    - ts: "2026-02-05 05:46:36"
+      description: |-
+        An upstream network provider is performing an emergency network maintenance in the YYZ region. Machines in YYZ may see some packet loss.
+
+        Managed Postgres clusters in YYZ are experiencing management plane issues. Clusters may see delayed fail-overs and changes in cluster size may not be possible during the maintenance period.
