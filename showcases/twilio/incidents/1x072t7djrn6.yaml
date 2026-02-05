@@ -1,9 +1,17 @@
 version: incident/v1
 id: 1x072t7djrn6
-name: On Call Engineers are Investigating an issue with Virtual Agent Service
-impact: none
-systems: []
+name: Virtual Agent Failures
+impact: minor
+systems:
+    - s91kksd3hqjp
 timeline:
     - ts: "2026-02-05 01:26:15"
       description: Our monitoring systems have detected a potential issue Virtual Agent Service. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2026-02-05 02:02:22"
+      description: Virtual Agent in US East is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-02-05 02:02:38"
+      description: Virtual Agent in US East is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-02-05 02:39:01"
+      description: Our engineers have monitored the fix and confirmed the issue with Virtual Agent in US East has been resolved. All services are now operating normally at this time.
+      resolved: true
