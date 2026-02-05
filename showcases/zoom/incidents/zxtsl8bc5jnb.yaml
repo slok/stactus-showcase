@@ -3,8 +3,12 @@ id: zxtsl8bc5jnb
 name: A subset of users might have experienced an issue with Microsoft OneDrive for Organizations App.
 impact: none
 systems:
-    - 880tc1scvmp2
     - 6x4l2076whdn
 timeline:
     - ts: "2026-02-05 09:09:35"
       description: "On 02/05/2026, Between 06:05 AM UTC to 08:30 AM UTC, Subset of users may have experienced issues with Microsoft OneDrive for Organizations App. \nThis incident has been resolved and the affected services have been restored.\n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
+    - ts: "2026-02-05 09:30:29"
+      description: "Our team will continue to monitor the situation closely and keep you informed of any further developments. \n\nPlease note that Zoom Virtual Agent remained fully operational and was not impacted at any point during this event."
+    - ts: "2026-02-05 09:30:57"
+      description: This incident has been resolved.
+      resolved: true
