@@ -1,0 +1,9 @@
+version: incident/v1
+id: c5btnv5wkqd8
+name: Network issues on newly-created machines
+impact: minor
+systems:
+    - 15knchzwl5np
+timeline:
+    - ts: "2026-02-05 21:52:57"
+      description: Machines created after the delayed machine registration incident (https://status.flyio.net/incidents/3npj6935byt4) may have incomplete networking configurations and could be unable to receive traffic. We've identified the issue and are deploying code fixes as well as updating created machines. This affects a small number of machines on all our regions.
