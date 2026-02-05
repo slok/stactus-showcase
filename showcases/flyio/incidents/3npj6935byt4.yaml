@@ -13,3 +13,5 @@ timeline:
     - ts: "2026-02-05 17:42:08"
       description: "While Machine registration error rates have improved, we are now seeing elevated error rates verifying user tokens during some actions. \n\nUsers may see errors like \"failed to launch VM: permission_denied: bolt token: failed to verify service token: no verified tokens\" when deploying or creating machines. \n\nWe are investigating"
       investigating: true
+    - ts: "2026-02-05 18:19:09"
+      description: We have rolled out an initial fix for the token issues and are monitoring for improvements.
