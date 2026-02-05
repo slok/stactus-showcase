@@ -1,10 +1,13 @@
 version: incident/v1
 id: rkd3xz4g7m1b
-name: MPG Degraded clusters in AMS and IAD
+name: MPG Degraded clusters in AMS, IAD and SIN regions
 impact: major
 systems:
     - nv3vps27z635
     - 6b3gdnt5jyf2
+    - 1nlcpj3qhzxl
 timeline:
     - ts: "2026-02-05 17:03:08"
       description: "A small number of MPG clusters in the AMS and IAD region are currently in degraded states due to downstream impact from this Machines API issue: https://status.flyio.net/incidents/3npj6935byt4\n\nMost of the impacted clusters may see a degraded replica or PG Bouncer in their statuspage. A very small number may be unable to connect to their MPG primary  node, the team is working to restore connectivity as the top priority. \nUsers may also see delays registering new clusters in these regions at this time."
+    - ts: "2026-02-05 19:01:52"
+      description: "A number of clusters in IAD, AMS, and SIN regions continue to see degraded replicas and PGBouncers at this time. A smaller number of clusters in these regions are also seeing disruption to their primaries. \nWe continue to work on restoring full cluster health in all regions."

@@ -15,3 +15,5 @@ timeline:
       investigating: true
     - ts: "2026-02-05 18:19:09"
       description: We have rolled out an initial fix for the token issues and are monitoring for improvements.
+    - ts: "2026-02-05 19:03:23"
+      description: "We saw some improvement from the previous fix, however errors remained elevated on some hosts. \nWe have identified the root cause of the remaining errors as a communication issue between the hosts and our Token database. We are preparing a fix that should resolve these."
