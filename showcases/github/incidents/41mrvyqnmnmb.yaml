@@ -1,0 +1,16 @@
+version: incident/v1
+id: 41mrvyqnmnmb
+name: Incident with Pull Requests
+impact: minor
+systems:
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2026-02-06 17:49:13"
+      description: We are investigating reports of degraded performance for Pull Requests
+      investigating: true
+    - ts: "2026-02-06 18:00:59"
+      description: We're currently investigating an issue affecting the Mobile app that can prevent review comments from being posted on certain pull requests when commenting on deleted lines.
+      investigating: true
+    - ts: "2026-02-06 18:04:13"
+      description: Pull Requests is operating normally.
+      investigating: true
