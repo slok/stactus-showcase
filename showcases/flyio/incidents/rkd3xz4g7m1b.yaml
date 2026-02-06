@@ -15,3 +15,5 @@ timeline:
       description: With the underlying incident stabilizing (https://status.flyio.net/incidents/3npj6935byt4) we are seeing improvements amongst impacted clusters. We continue to work on restoring all clusters to full health.
     - ts: "2026-02-05 20:58:27"
       description: We are continuing to work on restoring all clusters to full health.
+    - ts: "2026-02-05 23:55:49"
+      description: "All cluster primary and pgBouncer machines are now healthy and operating normally. \n\nWe are still continuing cleanup on some clusters with lagging or degraded replicas, but this should not impact writes or reads to clusters."
