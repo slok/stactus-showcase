@@ -19,3 +19,5 @@ timeline:
       description: "All cluster primary and pgBouncer machines are now healthy and operating normally. \n\nWe are still continuing cleanup on some clusters with lagging or degraded replicas, but this should not impact writes or reads to clusters."
     - ts: "2026-02-06 03:36:56"
       description: We are still continuing cleanup on some clusters.
+    - ts: "2026-02-06 04:22:29"
+      description: All MPG clusters are reachable.
