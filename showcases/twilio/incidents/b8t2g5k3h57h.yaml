@@ -1,10 +1,13 @@
 version: incident/v1
 id: b8t2g5k3h57h
-name: On Call Engineers are Investigating an issue
-impact: none
+name: Elevated HTTP 11200 Errors Impacting Webhook Requests
+impact: minor
 systems:
     - mwcz6hw53t7c
 timeline:
     - ts: "2026-02-06 20:55:27"
       description: Our monitoring systems have detected a potential issue Platform Webhooks functionality. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-02-06 21:05:12"
+      description: We are currently investigating an increase in HTTP 11200 errors, which indicate a failure to retrieve responses from customer Webhooks. Our engineering teams are actively working to identify the root cause and mitigate the impact. Customers may experience delays or failures in Webhook processing as we continue our investigation. We will provide another update in 1 hours or as soon as more information becomes available.
       investigating: true
