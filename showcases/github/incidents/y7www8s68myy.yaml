@@ -1,0 +1,13 @@
+version: incident/v1
+id: y7www8s68myy
+name: Incident with Copilot
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-02-06 11:16:01"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2026-02-06 11:21:28"
+      description: Opus 4.6 is currently experiencing high demand and we are working on adding capacity.
+      investigating: true
