@@ -9,3 +9,6 @@ timeline:
       description: Machines created after the delayed machine registration incident (https://status.flyio.net/incidents/3npj6935byt4) may have incomplete networking configurations and could be unable to receive traffic. We've identified the issue and are deploying code fixes as well as updating created machines. This affects a small number of machines on all our regions.
     - ts: "2026-02-06 02:49:17"
       description: We have successfully run a fix to re-sync our global and regional state stores in order to bring machines back to a healthy state, and we're monitoring the situation to confirm that there are no more issues.
+    - ts: "2026-02-06 07:07:22"
+      description: This issue is now resolved.
+      resolved: true
