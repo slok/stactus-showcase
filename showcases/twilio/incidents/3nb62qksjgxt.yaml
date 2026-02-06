@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3nb62qksjgxt
+name: SMS Delivery Failures to United Wireless in United States from Toll-Free Numbers
+impact: minor
+systems:
+    - 32f2bm54nkvv
+timeline:
+    - ts: "2026-02-06 15:58:02"
+      description: We are experiencing SMS delivery failures when sending to United Wireless in United States from Toll-Free Numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
