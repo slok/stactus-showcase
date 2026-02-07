@@ -10,3 +10,5 @@ timeline:
       investigating: true
     - ts: "2026-02-07 16:40:55"
       description: "The issue has been identified and we are seeing Machines API performance improve in most regions since ~16:20 UTC. \n\nMachines API calls in the SYD, NRT, SIN region may continue to see 5xx errors or higher latency at this time. We are continuing to work on restoring full API performance in all regions"
+    - ts: "2026-02-07 17:17:23"
+      description: A fix has been implemented and we are seeing Machines API connectivity improve in APAC regions. We continue monitoring for full recovery.
