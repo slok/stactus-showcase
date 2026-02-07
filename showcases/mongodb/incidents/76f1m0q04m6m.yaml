@@ -19,3 +19,9 @@ timeline:
         This message was last updated at 09:10 UTC on 07 February 2026
     - ts: "2026-02-07 10:11:24"
       description: We are seeing some nodes in the impacted Azure West US region recovering. We will continue to monitor and provide updates.
+    - ts: "2026-02-07 11:43:28"
+      description: |-
+        Many nodes have recovered in the impacted region, however there are still some impacted nodes that are recovering. Azure's latest update at 11:05 UTC on 07 February 2026 indicates they are observing signs of partial recovery and that recovery efforts remain in progress.
+
+        We are resolving the status post as we expect our system to automatically remediate any lingering issues. Please follow the Azure status post for further updates on the regional outage remediation efforts from their end.
+      resolved: true
