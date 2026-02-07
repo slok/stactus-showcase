@@ -1,0 +1,18 @@
+version: incident/v1
+id: qy92kxdhg16t
+name: Increased HTTP 500 Errors
+impact: major
+systems: []
+timeline:
+    - ts: "2026-02-07 02:13:03"
+      description: |-
+        Cloudflare is investigating an increased level of HTTP 500 errors in Dallas, TX, United States.
+
+        We are working to analyse and mitigate this problem.  More updates to follow shortly.
+      investigating: true
+    - ts: "2026-02-07 02:16:18"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-02-07 02:50:14"
+      description: We're continuing to mitigate this issue, we are also seeing some impact in other data centers such as IAD and EWR.
+      investigating: true
