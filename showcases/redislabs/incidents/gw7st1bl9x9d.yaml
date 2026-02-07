@@ -1,9 +1,17 @@
 version: incident/v1
 id: gw7st1bl9x9d
-name: Network Issues
+name: Service Outage – Azure Hosting
 impact: none
 systems: []
 timeline:
     - ts: "2026-02-07 15:19:08"
       description: 'We are experiencing some network issues. This may affect resources that have the following pattern in their endpoint: azure'
+      investigating: true
+    - ts: "2026-02-07 15:45:23"
+      description: |-
+        We are currently experiencing a complete outage affecting all databases hosted on Microsoft Azure. This issue is the result of a broader Azure platform outage that is impacting our service.
+
+        Our teams are actively investigating and working closely to understand the scope and restore service as quickly as possible.
+
+        If you have any questions or require assistance, please open a support ticket at support@redis.com.
       investigating: true
