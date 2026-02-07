@@ -18,3 +18,5 @@ timeline:
         Private Networking (6PN) is degraded in SYD region. Communication between Machines in SYD region and Machines in other regions may fail at this time. Newly created Machines in SYD may fail to sync to other regions (may not show up in Machines API List endpoint, or state may be incorrect).
         We are working with our upstream providers to resolve this issue.
       investigating: true
+    - ts: "2026-02-07 16:24:51"
+      description: A fix has been implemented and we are seeing private networking / certificates in SYD improving. We are continuing to monitor for full recovery.

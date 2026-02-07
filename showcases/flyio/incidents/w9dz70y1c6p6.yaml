@@ -1,0 +1,10 @@
+version: incident/v1
+id: w9dz70y1c6p6
+name: Machines API issues
+impact: major
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2026-02-07 16:23:44"
+      description: We are investigating widespread Machines API issues since 16:00 UTC. You may experience 5xx errors or higher latency at this time.
+      investigating: true
