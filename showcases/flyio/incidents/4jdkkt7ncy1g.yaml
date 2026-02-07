@@ -1,0 +1,15 @@
+version: incident/v1
+id: 4jdkkt7ncy1g
+name: Certificate Resolution Issues in SYD
+impact: minor
+systems:
+    - k2t9fbjfxj8r
+    - mvnft391hph6
+    - 6g1pz83ylj1r
+timeline:
+    - ts: "2026-02-07 15:19:44"
+      description: "We are investigating communication issues between some SYD (Sydney, Australia) region hosts and our Certificate vault. \n\nRequests hitting SYD region edges may see issues resolving certificates at this time, especially for newly issued or not recently used certificates."
+      investigating: true
+    - ts: "2026-02-07 15:21:10"
+      description: We are continuing to investigate this issue.
+      investigating: true
