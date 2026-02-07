@@ -9,11 +9,11 @@ timeline:
       investigating: true
     - ts: "2026-02-07 15:45:23"
       description: |-
-        We are currently experiencing a complete outage affecting all databases hosted on Microsoft Azure. This issue is the result of a broader Azure platform outage that is impacting our service.
+        We are currently experiencing a service disruption impacting Redis Cloud databases deployed in Microsoft Azure. The disruption is related to an Azure platform issue affecting underlying infrastructure used by these deployments.
 
-        Our teams are actively investigating and working closely to understand the scope and restore service as quickly as possible.
+        Our engineering and operations teams are actively investigating, coordinating with Microsoft, and working to restore service as quickly as possible.
 
-        If you have any questions or require assistance, please open a support ticket at support@redis.com.
+        For assistance or questions, please open a support ticket at support@redis.com.
       investigating: true
     - ts: "2026-02-07 18:33:59"
       description: "We are actively recovering service for all Redis databases hosted on Microsoft Azure after the earlier Azure platform outage. \nWe are continuing to monitor and validate stability across the environment and will share updates as more information becomes available.\n\nFor questions or support, please reach out to support@redis.com."
