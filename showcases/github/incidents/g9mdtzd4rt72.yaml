@@ -11,5 +11,5 @@ timeline:
       description: Dependabot is currently experiencing an issue that may cause scheduled update jobs to fail when creating pull requests.<br /><br />Our team has identified the problem and deployed a fix. We’re seeing signs of recovery and expect full resolution within the next few hours.
       investigating: true
     - ts: "2026-02-02 18:46:39"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: From Jan 31, 2026 00:30 UTC to Feb 2, 2026 18:00 UTC Dependabot service was degraded and failed to create 10% of Automated Pull Requests. This was due to a cluster failover that connected to a read-only database.<br /><br />We mitigated the incident by pausing Dependabot queues until traffic was properly routed to healthy clusters. We’re working on identifying and rerunning all failed jobs during this time.<br /><br />We’re adding new monitors and alerts to reduce our time to detection and prevent this in the future.
       resolved: true
