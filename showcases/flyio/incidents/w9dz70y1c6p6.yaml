@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-02-07 16:23:44"
       description: We are investigating widespread Machines API issues since 16:00 UTC. You may experience 5xx errors or higher latency at this time.
       investigating: true
+    - ts: "2026-02-07 16:40:55"
+      description: "The issue has been identified and we are seeing Machines API performance improve in most regions since ~16:20 UTC. \n\nMachines API calls in the SYD, NRT, SIN region may continue to see 5xx errors or higher latency at this time. We are continuing to work on restoring full API performance in all regions"
