@@ -1,0 +1,10 @@
+version: incident/v1
+id: 76f1m0q04m6m
+name: Partial outage in Azure West US
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-02-07 09:07:32"
+      description: We are observing widespread issues in Azure West US. Customers may see nodes reporting as “down” and delayed cluster modifications for Azure clusters in West US.
+      investigating: true
