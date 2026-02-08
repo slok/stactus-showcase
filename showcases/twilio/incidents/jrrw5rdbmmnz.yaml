@@ -1,0 +1,10 @@
+version: incident/v1
+id: jrrw5rdbmmnz
+name: Call failures from Subset of Twilio Numbers In Denmark
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2026-02-08 19:55:33"
+      description: We are observing a subset of call failures from a subset of Twilio numbers in Denmark. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

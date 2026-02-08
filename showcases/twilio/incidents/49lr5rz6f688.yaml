@@ -1,0 +1,10 @@
+version: incident/v1
+id: 49lr5rz6f688
+name: Inbound Call Failures to a Subset of Twilio Numbers in Spain
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2026-02-08 19:56:35"
+      description: We are observing call failures to a subset of Twilio numbers in Spain. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
