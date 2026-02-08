@@ -5,5 +5,11 @@ impact: none
 systems: []
 timeline:
     - ts: "2026-02-08 17:14:49"
-      description: "Cloudflare is investigating an increased level of errors for customers using Workers KV. We are working to analyse and mitigate this problem. More updates to follow shortly. \n\nStart of Impact: 16:42 UTC\nEnd of Impact: 16:52 UTC"
+      description: |-
+        Cloudflare identified an issue in our Cloudflare One Gateway product that resulted in an increase level of errors. Customers that rely on identity based traffic policies in Zero Trust may have experience errors during this time.
+
+        Impacted products: Zero Trust, Browser Isolation, WARP, Access
+
+        Start of Impact: 16:42 UTC
+        End of Impact: 16:52 UTC
       resolved: true
