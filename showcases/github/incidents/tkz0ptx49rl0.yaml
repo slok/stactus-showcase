@@ -1,0 +1,13 @@
+version: incident/v1
+id: tkz0ptx49rl0
+name: Incident with Actions
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-02-09 14:17:02"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2026-02-09 14:17:12"
+      description: We are investigating an issue with Actions run start delays, impacting approximately 4% of users.
+      investigating: true
