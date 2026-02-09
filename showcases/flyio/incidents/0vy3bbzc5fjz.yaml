@@ -1,0 +1,13 @@
+version: incident/v1
+id: 0vy3bbzc5fjz
+name: Degraded network in AMS
+impact: major
+systems:
+    - 70nsqsjrthwf
+    - 6b3gdnt5jyf2
+timeline:
+    - ts: "2026-02-09 07:17:37"
+      description: One of our upstream providers is performing an emergency DC maintenance. You may see degraded connectivity on some of your apps in AMS. Most apps in AMS are not affected.
+      investigating: true
+    - ts: "2026-02-09 07:34:04"
+      description: One of our upstream providers is experiencing a major power issue in their AMS datacenter. Managed Postgres instances in AMS are experiencing an outage as our control plane for Managed Postgres is taken down by the incident.
