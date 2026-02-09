@@ -39,3 +39,21 @@ timeline:
     - ts: "2026-02-09 11:04:29"
       description: Git Operations is operating normally.
       investigating: true
+    - ts: "2026-02-09 11:11:31"
+      description: We have identified a faulty infrastructure component and have failed over to a healthy instance. We are continuing to monitor the system for recovery.
+      investigating: true
+    - ts: "2026-02-09 11:26:17"
+      description: Pull Requests is operating normally.
+      investigating: true
+    - ts: "2026-02-09 11:26:22"
+      description: Webhooks is operating normally.
+      investigating: true
+    - ts: "2026-02-09 11:26:26"
+      description: Issues is operating normally.
+      investigating: true
+    - ts: "2026-02-09 11:26:29"
+      description: Actions is operating normally.
+      investigating: true
+    - ts: "2026-02-09 11:26:33"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
