@@ -1,0 +1,12 @@
+version: incident/v1
+id: qrlc0jjgw517
+name: Degraded performance for Copilot Coding Agent
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-09 10:01:18"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-02-09 10:04:18"
+      description: We are investigating degraded availability for Copilot Coding Agent. We will continue to keep users updated on progress towards mitigation.
+      investigating: true
