@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2026-02-09 08:47:50"
       description: We have started seeing recovery on call failures to a subset of Twilio's Singapore numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-02-09 10:38:08"
+      description: The issue affecting call failures to a subset of Twilio's Singapore numbers has been resolved, and the service is functioning normally at this time.
+      resolved: true
