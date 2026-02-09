@@ -1,0 +1,51 @@
+version: incident/v1
+id: smf24rvl67v9
+name: Incident with Pull Requests
+impact: major
+systems:
+    - 8l4ygp009s5s
+    - 4230lsnqdsld
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2026-02-09 16:19:22"
+      description: We are investigating reports of degraded performance for Pull Requests
+      investigating: true
+    - ts: "2026-02-09 16:20:14"
+      description: Issues is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-02-09 16:21:45"
+      description: We are seeing intermittent errors on many pages and API requests and are investigating.
+      investigating: true
+    - ts: "2026-02-09 16:22:01"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-02-09 16:40:16"
+      description: Git Operations is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-02-09 16:40:44"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-02-09 16:50:58"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-02-09 16:58:25"
+      description: We have identified the cause of high error rates and taken steps to mitigate. We see early signs of recovery but are continuing to monitor impact.
+      investigating: true
+    - ts: "2026-02-09 17:08:38"
+      description: Pages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-02-09 17:25:31"
+      description: Issues is operating normally.
+      investigating: true
+    - ts: "2026-02-09 17:26:51"
+      description: Git Operations is operating normally.
+      investigating: true
+    - ts: "2026-02-09 17:29:35"
+      description: Pages is operating normally.
+      investigating: true
+    - ts: "2026-02-09 17:32:01"
+      description: We are seeing recovery across all products and are continuing to monitor service health.
+      investigating: true

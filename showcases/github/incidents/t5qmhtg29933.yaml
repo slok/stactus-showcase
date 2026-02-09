@@ -1,0 +1,16 @@
+version: incident/v1
+id: t5qmhtg29933
+name: Copilot Policy Propagation Delays
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-02-09 16:29:41"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2026-02-09 16:30:16"
+      description: We’ve identified an issue where Copilot policy updates are not propagating correctly for some customers. This may prevent newly enabled models from appearing when users try to access them.<br /><br />The team is actively investigating the cause and working on a resolution. We will provide updates as they become available.
+      investigating: true
+    - ts: "2026-02-09 17:24:00"
+      description: We're continuing to investigate a an issue where Copilot policy updates are not propagating correctly for all customers.<br /><br />This may prevent newly enabled models from appearing when users try to access them.
+      investigating: true

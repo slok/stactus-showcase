@@ -1,0 +1,10 @@
+version: incident/v1
+id: p2qlq3lkpxds
+name: 'Cloudflare WARP: Issues with msn.com'
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2026-02-09 16:39:17"
+      description: 'Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: using Cloudflare WARP while browsing msn.com domains might present an "Untrusted SSL Certificate" error. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.'
+      investigating: true

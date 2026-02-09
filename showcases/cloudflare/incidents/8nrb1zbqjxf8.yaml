@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8nrb1zbqjxf8
+name: Cache hit latency issues
+impact: minor
+systems:
+    - tmh50tx2nprs
+timeline:
+    - ts: "2026-02-09 17:00:39"
+      description: "Cloudflare is aware of, and investigating an issue which potentially impacts multiple Workers KV customers related to an increase in cache hit latency. \nFurther detail will be provided as more information becomes available"
+      investigating: true

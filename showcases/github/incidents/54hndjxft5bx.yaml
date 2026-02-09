@@ -7,3 +7,12 @@ timeline:
     - ts: "2026-02-09 15:54:52"
       description: We are investigating reports of impacted performance for some GitHub services.
       investigating: true
+    - ts: "2026-02-09 16:12:13"
+      description: We are investigating notification delivery delays with the current delay being around 50 minutes. We are working on mitigation.
+      investigating: true
+    - ts: "2026-02-09 16:51:19"
+      description: We continue to investigate delays in notification delivery with average delivery latency now nearing 1 hour 20 minutes. We are just now starting to see some signs of recovery.
+      investigating: true
+    - ts: "2026-02-09 17:25:50"
+      description: We are seeing recovery in notification delivery. Notifications are currently being delivered with an average delay of approximately 1 hour as we work through the backlog. We continue to monitor the situation closely.
+      investigating: true
