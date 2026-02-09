@@ -1,0 +1,11 @@
+version: incident/v1
+id: d398bk89dx53
+name: Issue creating new Sprites in IAD
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-09 20:29:26"
+      description: We're currently looking into an issue that's preventing new Sprites from being created in IAD. Sprite creation from other regions are unaffected.
+      investigating: true
+    - ts: "2026-02-09 20:45:25"
+      description: The issue has been identified and a fix is being implemented.
