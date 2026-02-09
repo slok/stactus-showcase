@@ -10,6 +10,7 @@ systems:
     - br0l2tvcx85d
     - st3j38cctv9l
     - vg70hn9s2tyj
+    - h2ftsgbw7kmk
 timeline:
     - ts: "2026-02-09 19:01:33"
       description: We are investigating reports of degraded performance for Actions, Git Operations and Issues
@@ -31,4 +32,10 @@ timeline:
       investigating: true
     - ts: "2026-02-09 19:10:43"
       description: Packages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-02-09 19:29:44"
+      description: We have applied mitigations and are seeing signs of recovery.<br /><br />We will continue to monitor for full recovery.
+      investigating: true
+    - ts: "2026-02-09 19:31:59"
+      description: Codespaces is experiencing degraded performance. We are continuing to investigate.
       investigating: true
