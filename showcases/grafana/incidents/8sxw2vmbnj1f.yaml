@@ -1,0 +1,14 @@
+version: incident/v1
+id: 8sxw2vmbnj1f
+name: Grafana Cloud Logs – Write Ingestion Degradation
+impact: minor
+systems:
+    - dy7xwydh5kv3
+timeline:
+    - ts: "2026-02-09 10:32:30"
+      description: |-
+        Between 09:47 and 10:14 UTC, Grafana Cloud Logs within a single cell residing in the prod-ap-southeast-1 region experienced an issue affecting write ingestion only. During this time, some log writes may have failed or been delayed. Log reads were not impacted and remained fully available throughout the incident.
+
+        Our engineering team quickly identified the cause of the issue and are monitoring the service. The service has been operating normally since 10:14 UTC.
+    - ts: "2026-02-09 10:36:28"
+      description: We are continuing to monitor for any further issues.

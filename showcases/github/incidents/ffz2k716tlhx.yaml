@@ -3,6 +3,7 @@ id: ffz2k716tlhx
 name: Degraded Performance in Webhooks API and UI, Pull Requests
 impact: minor
 systems:
+    - 8l4ygp009s5s
     - 4230lsnqdsld
     - kr09ddfgbfsf
     - hhtssxt0f5v2
@@ -25,4 +26,10 @@ timeline:
       investigating: true
     - ts: "2026-02-09 09:31:42"
       description: We are continuing to investigate intermittent elevated timeouts across the service. Current impact is estimated around 1% or less of requests.
+      investigating: true
+    - ts: "2026-02-09 10:09:50"
+      description: We are continuing to investigate intermittent elevated timeouts across the service.
+      investigating: true
+    - ts: "2026-02-09 10:33:48"
+      description: Git Operations is experiencing degraded performance. We are continuing to investigate.
       investigating: true

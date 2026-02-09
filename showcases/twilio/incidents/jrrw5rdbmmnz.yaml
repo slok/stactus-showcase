@@ -19,3 +19,6 @@ timeline:
       investigating: true
     - ts: "2026-02-09 08:44:37"
       description: We have started seeing recovery on calls to a subset of Twilio numbers in Denmark. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-02-09 10:33:52"
+      description: The issue affecting call failures from a subset of Twilio numbers in Denmark has been resolved, and the service is functioning normally at this time.
+      resolved: true
