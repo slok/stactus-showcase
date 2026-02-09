@@ -1,0 +1,10 @@
+version: incident/v1
+id: mblndh1by0nf
+name: Call Failures to a Subset of Twilio's Singapore Numbers
+impact: minor
+systems:
+    - 50pr269zqrwj
+timeline:
+    - ts: "2026-02-09 07:52:18"
+      description: We are observing a subset of call failures to a Twilio's Singapore Numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

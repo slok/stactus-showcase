@@ -11,3 +11,5 @@ timeline:
       investigating: true
     - ts: "2026-02-09 07:34:04"
       description: One of our upstream providers is experiencing a major power issue in their AMS datacenter. Managed Postgres instances in AMS are experiencing an outage as our control plane for Managed Postgres is taken down by the incident.
+    - ts: "2026-02-09 07:42:23"
+      description: Affected hosts are starting to come back online. We are working on restoring affected MPG clusters.
