@@ -39,3 +39,15 @@ timeline:
     - ts: "2026-02-09 19:31:59"
       description: Codespaces is experiencing degraded performance. We are continuing to investigate.
       investigating: true
+    - ts: "2026-02-09 19:54:03"
+      description: A number of services have recovered, but we are continuing to investigate issues with Dependabot, Actions, and a number of other services.<br /><br />We will continue to investigate and monitor for full recovery.
+      investigating: true
+    - ts: "2026-02-09 20:08:19"
+      description: We are seeing all services have returned to normal processing.
+      investigating: true
+    - ts: "2026-02-09 20:09:21"
+      description: Actions, Codespaces, Git Operations, Issues, Packages, Pages, Pull Requests and Webhooks are operating normally.
+      investigating: true
+    - ts: "2026-02-09 20:09:32"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
