@@ -1,0 +1,13 @@
+version: incident/v1
+id: glj33syccvxj
+name: Zoom.us was inaccessible for a subset of users in the Ohio region in North America
+impact: none
+systems:
+    - 9skbqhkvk721
+    - 8gftm750nwzm
+timeline:
+    - ts: "2026-02-10 19:50:27"
+      description: On 2/10/2026, between 15:13 UTC and 18:25 UTC on February 10, 2026, a subset of users routing through Cleveland, Ohio experienced connectivity errors caused by network timeouts. A fix has been implemented, and all traffic has returned to normal levels.
+    - ts: "2026-02-10 19:56:18"
+      description: This incident has been resolved
+      resolved: true
