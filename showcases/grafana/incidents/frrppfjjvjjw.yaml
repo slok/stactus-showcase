@@ -1,0 +1,13 @@
+version: incident/v1
+id: frrppfjjvjjw
+name: Write failures in prod-us-central-0
+impact: major
+systems:
+    - 1tt4gx4t4q87
+timeline:
+    - ts: "2026-02-10 00:39:50"
+      description: |-
+        As of 00:10, we are currently experiencing write failures in a single cell affecting customers in prod-us-central-0. Impacted customers may see failed or dropped writes.
+
+        Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
+      investigating: true
