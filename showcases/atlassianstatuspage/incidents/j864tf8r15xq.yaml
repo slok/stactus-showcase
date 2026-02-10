@@ -1,0 +1,16 @@
+version: incident/v1
+id: j864tf8r15xq
+name: Disrupted Statuspage availability
+impact: minor
+systems:
+    - rkld00070vm9
+    - fyzs60wyq01d
+    - 3bg3nq9mm436
+    - 2k3fhq6zhd4j
+    - s0p4y2k09klc
+    - tpvwg6y7ltx2
+    - 7x37zxqc4gq0
+timeline:
+    - ts: "2026-02-10 21:48:07"
+      description: We are actively investigating reports of an intermittent partial service disruption affecting Statuspage. We'll share updates here as more information is available.
+      investigating: true
