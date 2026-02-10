@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2qhw6xch63c6
+name: Audit Events From Twiml-Application-Service Lost in au1/ie1
+impact: none
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2026-02-10 21:16:16"
+      description: Small number of audit events lost in au1/ie1. The issue has now been resolved.
+      resolved: true
