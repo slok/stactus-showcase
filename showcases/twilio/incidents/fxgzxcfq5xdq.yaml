@@ -1,0 +1,10 @@
+version: incident/v1
+id: fxgzxcfq5xdq
+name: Degraded Audio Quality for Voice Calls to a Subset of Twilio Landline Numbers in Colombia
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2026-02-10 17:01:12"
+      description: We are investigating an issue with degraded audio quality with Voice calls from Network Subscribers to a subset of Twilio landline numbers in Colombia. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
