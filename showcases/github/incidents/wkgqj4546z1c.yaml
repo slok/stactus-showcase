@@ -1,0 +1,16 @@
+version: incident/v1
+id: wkgqj4546z1c
+name: Disruption with some GitHub services
+impact: minor
+systems:
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2026-02-10 15:07:05"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-02-10 15:08:13"
+      description: We are seeing intermittent timeouts on some pages and are investigating.
+      investigating: true
+    - ts: "2026-02-10 15:08:36"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
