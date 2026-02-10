@@ -14,3 +14,18 @@ timeline:
     - ts: "2026-02-10 15:08:36"
       description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
       investigating: true
+    - ts: "2026-02-10 15:33:18"
+      description: We continue investigating intermittent timeouts on some pages.
+      investigating: true
+    - ts: "2026-02-10 15:47:07"
+      description: We believe we have found the cause of the problem and are working on mitigation.
+      investigating: true
+    - ts: "2026-02-10 15:51:08"
+      description: We have deployed a mitigation for the issue and are observing what we believe is the start of recovery. We will continue to monitor.
+      investigating: true
+    - ts: "2026-02-10 15:58:47"
+      description: Pull Requests is operating normally.
+      investigating: true
+    - ts: "2026-02-10 15:58:49"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
