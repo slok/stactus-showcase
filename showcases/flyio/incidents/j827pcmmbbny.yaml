@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-02-10 19:00:29"
       description: We're currently looking into an issue with MPG clusters in the IAD region.
       investigating: true
+    - ts: "2026-02-10 19:15:13"
+      description: We've identified the issue - some MPG clusters in IAD should be seeing improvements, and we're working on rolling out a fix for the remaining impacted clusters.
