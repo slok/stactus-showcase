@@ -1,0 +1,13 @@
+version: incident/v1
+id: sqwg7n0cq94v
+name: SMS Delivery Report Delays When Sending to Telstra Network in Australia
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-02-10 01:23:26"
+      description: Our monitoring systems have detected a potential issue with SMS delivery report delays from Twilio to Telstra Network in Australia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-02-10 01:28:45"
+      description: We are experiencing delays in receiving message delivery reports when sending to Telstra Network in Australia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
