@@ -1,0 +1,9 @@
+version: incident/v1
+id: j4tgsbd6t5r7
+name: Tempo write path degradation in prod-us-west-0
+impact: none
+systems: []
+timeline:
+    - ts: "2026-02-10 11:44:29"
+      description: From 17:43 UTC to 18:05 UTC, a subset of customers experienced elevated latency and a peak error rate of approximately 22% for trace ingestion.
+      resolved: true
