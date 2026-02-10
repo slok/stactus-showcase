@@ -1,0 +1,13 @@
+version: incident/v1
+id: 6fy8xn91l7kr
+name: Workers AI - Customers might see elevated error rates
+impact: minor
+systems:
+    - d1r0plwsl5qb
+    - 3lbj8lp3d750
+    - 47xg28c02lnk
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2026-02-10 18:31:24"
+      description: "Team is investigating reports of elevated errors related to free allocations. \nDependent products are also affected.\nImpacted services -  Workers AI, Stream, Images, Firewall for AI, AI Search\n \nOverall Impact: Minor"
+      investigating: true
