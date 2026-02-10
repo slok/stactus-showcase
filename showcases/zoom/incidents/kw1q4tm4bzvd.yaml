@@ -1,0 +1,12 @@
+version: incident/v1
+id: kw1q4tm4bzvd
+name: Service degradation with clinical notes service.
+impact: minor
+systems:
+    - 63tynlbcxywz
+timeline:
+    - ts: "2026-02-10 13:53:30"
+      description: We are currently investigating a service degradation affecting Clinical notes impacting a subset of users.
+      investigating: true
+    - ts: "2026-02-10 14:07:35"
+      description: "We have identified the issue causing service degradation affecting Clinical Notes.  \n\nWe are working with the vendor and will provide updates as we have them."
