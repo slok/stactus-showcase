@@ -1,0 +1,10 @@
+version: incident/v1
+id: v86lxs9fkd3n
+name: App platform seeing delays in deployments across all regions.
+impact: minor
+systems:
+    - txysr8r0gn1n
+timeline:
+    - ts: "2026-02-11 11:50:09"
+      description: Our engineers are currently investigating an issue impacting new App Platform deployments. During this time, some users may experience delay when creating new App Platform apps. Existing apps are not affected and should continue to function normally. We apologize for any inconvenience, and we'll share more information as it becomes available.
+      investigating: true
