@@ -11,3 +11,6 @@ timeline:
     - ts: "2026-02-11 15:27:22"
       description: We're investigating increased latency for GraphQL traffic.
       investigating: true
+    - ts: "2026-02-11 15:54:34"
+      description: We've identified a dependency of GraphQL that is in a degraded state and are working on remediating the issue.
+      investigating: true

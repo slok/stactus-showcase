@@ -11,3 +11,12 @@ timeline:
     - ts: "2026-02-11 15:27:00"
       description: We are experiencing degraded availability for the Claude Haiku 4.5 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br />Other models are available and working as expected.
       investigating: true
+    - ts: "2026-02-11 15:46:31"
+      description: The issues with our upstream model provider have been resolved, and Claude Haiku 4.5 is once again available in Copilot Chat and across IDE integrations.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.
+      investigating: true
+    - ts: "2026-02-11 15:46:38"
+      description: Copilot is operating normally.
+      investigating: true
+    - ts: "2026-02-11 15:46:40"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
