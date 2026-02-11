@@ -1,0 +1,13 @@
+version: incident/v1
+id: 0rk4k27zfptw
+name: Sync Core Data Orchestratration Latency Spike
+impact: minor
+systems:
+    - 7ypw8tsmyr78
+timeline:
+    - ts: "2026-02-11 20:57:17"
+      description: We are seeing an increase in latency and errors in Sync Platform which could lead to latency in receiving updates to applications using Conversations SDK, Sync SDK and Flex SDK. Our engineers are currently investigating this issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-11 21:00:50"
+      description: We are seeing an increase in latency and errors in Sync Platform which could lead to latency in receiving updates to applications using Conversations SDK, Sync SDK and Flex SDK. Our engineers are currently investigating this issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
