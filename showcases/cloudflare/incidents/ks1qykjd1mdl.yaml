@@ -1,0 +1,14 @@
+version: incident/v1
+id: ks1qykjd1mdl
+name: Zone-Versioned Dashboard Analytics Issues
+impact: minor
+systems:
+    - 4c231tkdlpcl
+    - 4tv81hqpt2jt
+timeline:
+    - ts: "2026-02-11 10:42:35"
+      description: |-
+        Zone Versioning customers may see inaccurate data on their Cloudflare HTTP Traffic Analytics UIs.
+
+        We are currently investigating this issue
+      investigating: true
