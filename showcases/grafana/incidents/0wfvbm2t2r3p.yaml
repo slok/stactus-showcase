@@ -1,0 +1,12 @@
+version: incident/v1
+id: 0wfvbm2t2r3p
+name: Loki error response rate spike on prod-ap-southeast-1
+impact: minor
+systems:
+    - dy7xwydh5kv3
+timeline:
+    - ts: "2026-02-11 06:51:26"
+      description: cloud logging is facing write issues in this region, our team is looking into this.
+      investigating: true
+    - ts: "2026-02-11 06:54:54"
+      description: We have deployed temporary measures to mitigate the issue, but there was a writes outage from  06:26 to 06:37 UTC.
