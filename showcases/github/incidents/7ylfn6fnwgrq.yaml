@@ -1,0 +1,12 @@
+version: incident/v1
+id: 7ylfn6fnwgrq
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-11 18:58:10"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-02-11 19:00:30"
+      description: Actions is experiencing capacity constraints with larger hosted runners, leading to high wait times. Standard hosted labels and self-hosted runners are not impacted.<br /><br />We're working with the capacity provider to mitigate the impact.
+      investigating: true
