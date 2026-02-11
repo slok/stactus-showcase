@@ -1,0 +1,13 @@
+version: incident/v1
+id: frlwqbqgz113
+name: Incident with API Requests
+impact: minor
+systems:
+    - brv1bkgrwx7q
+timeline:
+    - ts: "2026-02-11 15:26:53"
+      description: We are investigating reports of degraded performance for API Requests
+      investigating: true
+    - ts: "2026-02-11 15:27:22"
+      description: We're investigating increased latency for GraphQL traffic.
+      investigating: true
