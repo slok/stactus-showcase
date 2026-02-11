@@ -17,3 +17,9 @@ timeline:
     - ts: "2026-02-11 16:54:57"
       description: We're continuing to remediate the service degradation and scaling out to further mitigate the potential for latency impact.
       investigating: true
+    - ts: "2026-02-11 17:13:20"
+      description: We've observed recovery for the GraphQL service latency.
+      investigating: true
+    - ts: "2026-02-11 17:15:03"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
