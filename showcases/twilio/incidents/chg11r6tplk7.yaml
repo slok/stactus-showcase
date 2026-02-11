@@ -1,0 +1,10 @@
+version: incident/v1
+id: chg11r6tplk7
+name: SMS Delivery Failures from a subset of Twilio Long Codes to AT&T in US and Canada
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2026-02-11 22:41:08"
+      description: We are experiencing SMS Delivery Failures from a subset of Twilio Long Codes to AT&T in US and Canada. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 Hour or as soon as more information becomes available.
+      investigating: true

@@ -11,3 +11,6 @@ timeline:
     - ts: "2026-02-11 21:00:50"
       description: We are seeing an increase in latency and errors in Sync Platform which could lead to latency in receiving updates to applications using Conversations SDK, Sync SDK and Flex SDK. Our engineers are currently investigating this issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-02-11 22:38:12"
+      description: We are no longer seeing an increase in latency and errors in Sync Platform which could lead to latency in receiving updates to applications using Conversations SDK, Sync SDK and Flex SDK. This issue is now resolved.
+      resolved: true
