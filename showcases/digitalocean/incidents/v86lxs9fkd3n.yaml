@@ -10,3 +10,11 @@ timeline:
       investigating: true
     - ts: "2026-02-11 12:03:50"
       description: "Our team has implemented a fix to address the issue causing delays in App Platform deployments. We are actively monitoring the situation to ensure overall stability. \n\nUsers may already notice improvements while deploying apps. We appreciate your patience throughout the process and will provide a further update once the issue is fully confirmed to be resolved."
+    - ts: "2026-02-11 13:08:38"
+      description: |-
+        The issue impacting delays in App Platform deployments has been confirmed to be resolved. Between approximately 08:52 UTC & 13:01 UTC, users may have noticed delays while creating or updating apps, or may have encountered failed deployments. For failed deployments, please trigger a redeploy, which should successfully resolve the issue.
+
+        We confirmed that the service is functioning as expected. Once again, we sincerely apologize for the inconvenience caused and appreciate your understanding.
+
+        However, if you continue to experience any issues, please don't hesitate to raise a support ticket for further investigation. We’ll be happy to assist you.
+      resolved: true
