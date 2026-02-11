@@ -1,0 +1,16 @@
+version: incident/v1
+id: fnz8zq82t5t1
+name: Creating new sprites is degraded
+impact: minor
+systems:
+    - gfjxlcdf8bf4
+timeline:
+    - ts: "2026-02-11 06:07:12"
+      description: Sprite creation generates an error that the sprite "is not assigned to compute." Eventually the sprite transitions from an unknown state to warm, so there is a delay before the sprite is usable.
+      investigating: true
+    - ts: "2026-02-11 06:08:20"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-02-11 06:09:08"
+      description: We are continuing to investigate this issue.
+      investigating: true
