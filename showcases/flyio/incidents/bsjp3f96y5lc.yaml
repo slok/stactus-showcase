@@ -1,0 +1,13 @@
+version: incident/v1
+id: bsjp3f96y5lc
+name: Issues with deploying apps using Depot builders for new accounts
+impact: minor
+systems:
+    - 49yq6v65b33l
+timeline:
+    - ts: "2026-02-11 20:44:06"
+      description: |-
+        Some new Fly.io users may encounter an "upgrade your organization" error message when attempting to deploy apps for the first time. We're currently working with Depot to figure out what's causing the issue.
+
+        In the meantime, you should be able to work around the issue by using Fly builders with `fly deploy --depot=false`.
+      investigating: true
