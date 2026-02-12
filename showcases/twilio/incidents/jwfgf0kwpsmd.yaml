@@ -1,9 +1,18 @@
 version: incident/v1
 id: jwfgf0kwpsmd
-name: On Call Engineers are Investigating an Issue with Help Center as Customers Cannot Chat or Submit Support Tickets
-impact: none
-systems: []
+name: OTA API Conversations Not Working
+impact: minor
+systems:
+    - xv01vfp8wvs4
 timeline:
     - ts: "2026-02-12 20:39:45"
       description: Our monitoring systems have detected a potential issue with Help Center which prevents AI help support chat or submitting support tickets. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2026-02-12 20:54:33"
+      description: We are currently seeing degraded performance on our account portal where the Twilio Help Center is non-responsive preventing AI chat conversations and submitting support tickets. Our engineering team is looking into the issue. We expect to provide another update in 15 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-12 21:06:23"
+      description: We are currently seeing improved performance on our account portal as Twilio Help Center is responsive allowing AI chat conversations and submitting support tickets. Our engineering team is looking into the issue. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-12 21:06:54"
+      description: The issue affecting degraded performance on our account portal where the Twilio Help Center is non-responsive preventing AI chat conversations and submitting support tickets has been identified and our engineering team is implementing a fix. We expect to provide another update in 30 minutes or as soon as more information becomes available.
