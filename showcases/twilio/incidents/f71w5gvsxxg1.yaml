@@ -1,0 +1,9 @@
+version: incident/v1
+id: f71w5gvsxxg1
+name: Multiple Customers In India Were Incorrectly Charged Taxes During the January End of Month Cycle.
+impact: minor
+systems:
+    - jw9dh2mf4392
+timeline:
+    - ts: "2026-02-12 11:45:26"
+      description: Multiple customers in India were incorrectly charged taxes during the January end-of-month cycle. On January 28th, a tax ID revalidation caused many tax exemption flags to be incorrectly removed. Our team is actively investigating the root cause with our tax platform team.
