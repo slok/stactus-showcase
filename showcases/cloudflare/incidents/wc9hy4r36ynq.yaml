@@ -1,0 +1,10 @@
+version: incident/v1
+id: wc9hy4r36ynq
+name: Cloudflare Turnstile new widgets failing validation
+impact: minor
+systems:
+    - m4jywscr0n0k
+timeline:
+    - ts: "2026-02-12 10:23:11"
+      description: Cloudflare is investigating an issue which potentially impacts multiple customers when trying to add new Turnstile Widgets. An error invalid-input-response on validation can be observed. Further detail will be provided as more information becomes available.
+      investigating: true

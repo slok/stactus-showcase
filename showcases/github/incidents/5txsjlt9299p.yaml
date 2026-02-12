@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5txsjlt9299p
+name: Disruption with some GitHub services
+impact: major
+systems: []
+timeline:
+    - ts: "2026-02-12 10:38:35"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-02-12 10:39:34"
+      description: We are investigating an issue with downloading repository archives that include Git LFS objects.
+      investigating: true
