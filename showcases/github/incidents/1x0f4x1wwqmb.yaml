@@ -1,0 +1,12 @@
+version: incident/v1
+id: 1x0f4x1wwqmb
+name: Intermittent disruption with Copilot completions and inline suggestions
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-12 14:06:48"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-02-12 14:08:21"
+      description: We are experiencing degraded availability in some regions for Copilot completions and suggestions. We are working to resolve the issue.
+      investigating: true
