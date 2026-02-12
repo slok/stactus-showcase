@@ -1,0 +1,12 @@
+version: incident/v1
+id: cww4r812fhdb
+name: Grafana Cloud Metrics elevated write and rule evaluation latency in prod-eu-west-2 region.
+impact: minor
+systems:
+    - kywjchj50pzs
+timeline:
+    - ts: "2026-02-12 12:33:14"
+      description: Since 12:17 UTC, we're observing an increased latency for data ingestion and rule evaluation in Grafana Cloud Metrics, prod-eu-west-2 region. We're currently investigating the issue.
+      investigating: true
+    - ts: "2026-02-12 12:40:19"
+      description: The issue has been identified and our team is currently working on a fix.
