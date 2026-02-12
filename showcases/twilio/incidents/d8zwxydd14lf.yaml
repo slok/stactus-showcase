@@ -1,10 +1,13 @@
 version: incident/v1
 id: d8zwxydd14lf
-name: On Call Engineers are Investigating an issue
+name: Intermittently Flex Agents are Unable to Accept Inbound Voice Calls in Flex
 impact: minor
 systems:
-    - q4d7rj555ljl
+    - vw9w2zyv9nk5
 timeline:
     - ts: "2026-02-12 12:42:58"
-      description: Our monitoring systems have detected a potential issue Flex. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      description: We are investigating an issue where some Flex Agents may intermittently be unable to accept inbound voice calls. Our engineering team has been engaged and is working to resolve this issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-12 13:33:07"
+      description: We are continuing to investigate this issue.
       investigating: true
