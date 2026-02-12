@@ -8,3 +8,10 @@ timeline:
     - ts: "2026-02-12 22:10:54"
       description: We are currently investigating elevated errors for customers attempting to create a cluster on AWS
       investigating: true
+    - ts: "2026-02-12 23:00:54"
+      description: We have identified the root cause and are implementing a fix to remediate the situation
+    - ts: "2026-02-12 23:08:38"
+      description: We have implemented the fix.  Customers will now be able to create new clusters on AWS.
+    - ts: "2026-02-12 23:10:31"
+      description: This incident has been resolved.
+      resolved: true
