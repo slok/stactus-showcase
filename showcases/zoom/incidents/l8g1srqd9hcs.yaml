@@ -1,0 +1,14 @@
+version: incident/v1
+id: l8g1srqd9hcs
+name: Service Degradation Affecting Zoom SMS Service in US and Canada Region
+impact: none
+systems:
+    - 5vvw5njz8qg5
+    - rkgptw5lc3pw
+    - 9qv6bp63zynp
+timeline:
+    - ts: "2026-02-11 23:49:51"
+      description: Between 02/11/2026 23:07 UTC and 23:15 UTC, a subset of users may have experienced issues with SMS Delivery from a subset of Twilio Long Codes to AT&T in US and Canada Region. Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-02-12 00:24:44"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
