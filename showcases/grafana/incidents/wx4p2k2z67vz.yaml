@@ -1,0 +1,33 @@
+version: incident/v1
+id: wx4p2k2z67vz
+name: Loki Delete Endpoint Bug
+impact: critical
+systems:
+    - bg6nnf5n3pjx
+    - 1cj80yl7f6dy
+    - 9z18xdj3j8c7
+    - gx6m1v8jy475
+    - ttlshz10ly19
+    - 318npch70m7f
+    - nfll10wmx61f
+    - dy7xwydh5kv3
+    - k21kfy4lhmdw
+    - 2lyhl59mn4dl
+    - 6rlxmdg0t6v3
+    - hqf81r9207h6
+    - tpk4cdhtsm82
+    - 2gj2jt684k11
+    - d6hp5brmvsbt
+    - rwvs9fvrnhp2
+    - x40g7bxm0q2d
+    - v3g3j6krw8rp
+    - gp2m13gyj6x2
+    - 662yyglvgqpm
+    - l72f5c7651n5
+    - 98skfgrdgchf
+timeline:
+    - ts: "2026-02-12 23:16:33"
+      description: |-
+        As of 22:45 UTC, we have identified a serious bug affecting the delete endpoint for all Loki regions. As a precaution, the endpoint has been temporarily disabled.
+
+        Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
