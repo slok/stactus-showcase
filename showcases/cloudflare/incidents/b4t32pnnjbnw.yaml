@@ -1,0 +1,10 @@
+version: incident/v1
+id: b4t32pnnjbnw
+name: Zero Trust posture checks missing in the dashboard
+impact: minor
+systems:
+    - 276xk3r83js7
+timeline:
+    - ts: "2026-02-12 19:53:21"
+      description: Cloudflare is investigating reports that posture checks are not appearing in the zero trust dashboard. Currently believe there are no impact to running posture checks.
+      resolved: true
