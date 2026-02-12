@@ -1,0 +1,9 @@
+version: incident/v1
+id: ktdymzz6g6z6
+name: Conversations API failures in us1
+impact: none
+systems: []
+timeline:
+    - ts: "2026-02-12 02:16:08"
+      description: During the timeframe from 23:15 UTC to 23:38 UTC on 2/11, 1% of Conversations API requests were unable to be processed. This included, but was not limited to, the creation of new Conversations, sending Messages, and adding Participants to Conversations.
+      resolved: true
