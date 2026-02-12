@@ -1,0 +1,10 @@
+version: incident/v1
+id: t1kptvmmxtp5
+name: Cloudflare dashboard SSO connector issue
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-02-12 01:30:11"
+      description: Cloudflare is investigating issues with the dashboard SSO connector. Customer may be unable to make changes to dashboard SSO configuration. We will update as we continue our investigation.
+      investigating: true

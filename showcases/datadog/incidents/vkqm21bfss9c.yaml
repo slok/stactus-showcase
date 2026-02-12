@@ -11,3 +11,9 @@ timeline:
         We are investigating increased latency processing Traces in APM Trace Search and AWS streams metrics.
         As a result of this issue, some users may see missing or delayed traces in APM Trace Search, and delayed AWS stream metrics since 00:13 UTC.
       investigating: true
+    - ts: "2026-02-12 01:20:35"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-02-12 01:32:45"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-02-12 01:49:18"
+      description: The remaining impact is limited to AWS Streams metrics. We are continuing to monitor for any further issues.
