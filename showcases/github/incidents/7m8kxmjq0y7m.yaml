@@ -14,3 +14,6 @@ timeline:
     - ts: "2026-02-12 08:32:24"
       description: We now understand the source of the VM create/resume failures and are working with our partners to mitigate the impact.
       investigating: true
+    - ts: "2026-02-12 09:04:39"
+      description: We have identified the issue causing Codespace create/resume actions to fail and are applying a fix. This is estimated to take ~2 hours to complete but impact will begin to reduce sooner than that.<br /><br />We will continue to monitor recovery progress and will report back when more information is available.
+      investigating: true
