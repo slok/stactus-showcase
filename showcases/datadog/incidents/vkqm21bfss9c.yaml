@@ -1,0 +1,13 @@
+version: incident/v1
+id: vkqm21bfss9c
+name: Delayed Traces in APM
+impact: minor
+systems:
+    - p4hwj4wsc5wf
+    - qrnng5l7z80l
+timeline:
+    - ts: "2026-02-12 00:57:47"
+      description: |-
+        We are investigating increased latency processing Traces in APM Trace Search and AWS streams metrics.
+        As a result of this issue, some users may see missing or delayed traces in APM Trace Search, and delayed AWS stream metrics since 00:13 UTC.
+      investigating: true
