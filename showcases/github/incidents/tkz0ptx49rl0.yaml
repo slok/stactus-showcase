@@ -24,5 +24,5 @@ timeline:
       description: Actions is operating normally.
       investigating: true
     - ts: "2026-02-09 15:46:39"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On February 9th, 2026, between 09:16 UTC and 15:12 UTC GitHub Actions customers experienced run start delays. Approximately 0.6% of runs across 1.8% of repos were affected, with an average delay of 19 minutes for those delayed runs.<br /><br />The incident occurred when increased load exposed a bottleneck in our event publishing system, causing one compute node to fall behind on processing Actions Jobs. We mitigated by rebalancing traffic and increasing timeouts for event processing. We have since isolated performance critical events to a new, dedicated publisher to prevent contention between events and added safeguards to better tolerate processing timeouts.
       resolved: true
