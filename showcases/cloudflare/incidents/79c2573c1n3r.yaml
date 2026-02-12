@@ -1,0 +1,10 @@
+version: incident/v1
+id: 79c2573c1n3r
+name: Increase in R2 Sippy 404s
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-02-12 18:15:38"
+      description: "Cloudflare is investigating reports of Sippy returning 404 on objects which do exist at the upstream provider. We are working to understand the full impact and mitigate this problem. \nUpdates will be posted as they become available."
+      investigating: true
