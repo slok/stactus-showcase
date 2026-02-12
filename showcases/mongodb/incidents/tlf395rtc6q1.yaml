@@ -1,0 +1,10 @@
+version: incident/v1
+id: tlf395rtc6q1
+name: Elevated errors for cluster creation
+impact: critical
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-02-12 22:10:54"
+      description: We are currently investigating elevated errors for customers attempting to create a cluster.
+      investigating: true
