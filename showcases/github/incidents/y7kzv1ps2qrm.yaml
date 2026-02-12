@@ -1,0 +1,12 @@
+version: incident/v1
+id: y7kzv1ps2qrm
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-12 18:36:09"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-02-12 18:46:26"
+      description: We are experiencing degraded availability in Australia for Copilot completions and suggestions. We are working to resolve the issue<br />
+      investigating: true
