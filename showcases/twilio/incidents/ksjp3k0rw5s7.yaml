@@ -1,9 +1,13 @@
 version: incident/v1
 id: ksjp3k0rw5s7
 name: AccSec SNA Failure Increase for US AT&T
-impact: none
-systems: []
+impact: minor
+systems:
+    - whldrk77jnm4
+    - xk8z50jy8hcs
 timeline:
     - ts: "2026-02-12 03:59:15"
       description: Our monitoring systems have detected a potential issue with an intermittent SNA failure increase for US AT&T - Identities has been identified.  Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2026-02-12 04:09:47"
+      description: Our engineering team is investigating an issue causing an intermittent SNA failure increase for US AT&T.  We expect to provide another update in 1 hour or as soon as more information becomes available.
