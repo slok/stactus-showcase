@@ -11,3 +11,6 @@ timeline:
     - ts: "2026-02-12 08:02:00"
       description: We are seeing an increase in Codespaces creation and resuming failures across multiple regions, primarily in EMEA. Our team are analysing the situation and are working to mitigate this impact.<br /><br />While we are working, customers are advised to create Codespaces in US East and US West regions via the "New with options..." button when creating a Codespace.<br /><br />More updates as we have them.
       investigating: true
+    - ts: "2026-02-12 08:32:24"
+      description: We now understand the source of the VM create/resume failures and are working with our partners to mitigate the impact.
+      investigating: true
