@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2pgzpdjwkzjj
+name: AI Gateway
+impact: minor
+systems:
+    - 0311l882p558
+timeline:
+    - ts: "2026-02-13 19:42:20"
+      description: Unified Billing users may see elevated 500 error rates when attempting to load credits
+      investigating: true

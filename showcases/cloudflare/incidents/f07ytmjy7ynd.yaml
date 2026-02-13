@@ -1,0 +1,14 @@
+version: incident/v1
+id: f07ytmjy7ynd
+name: Analytics delay on Load Balancing Health Events
+impact: minor
+systems:
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2026-02-13 19:32:14"
+      description: Analytics for some Load Balancing health monitoring events are delayed. the impact is limited to analytics and Load Balancing steering and notifications are fully functional.
+      investigating: true
+    - ts: "2026-02-13 19:33:04"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-02-13 19:33:10"
+      description: We are continuing to monitor for any further issues.
