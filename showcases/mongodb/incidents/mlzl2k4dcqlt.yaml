@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-02-13 16:11:17"
       description: We are investigating an issue with DNS resolution for public IP addresses within 31.89.0.0/24.  We are engaging with AWS support to remediate the situation.
       investigating: true
+    - ts: "2026-02-13 16:42:50"
+      description: "We have identified the root cause and are working on backfilling those records with AWS support. \n\nWe have also disabled that ip range for new clusters so moving forward this issue will not be hit for new AWS clusters."
