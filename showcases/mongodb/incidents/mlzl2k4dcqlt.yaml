@@ -1,0 +1,10 @@
+version: incident/v1
+id: mlzl2k4dcqlt
+name: DNS Resolution failures for public IP addresses within 31.89.0.0/24
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-02-13 16:11:17"
+      description: We are investigating an issue with DNS resolution for public IP addresses within 31.89.0.0/24.  We are engaging with AWS support to remediate the situation.
+      investigating: true
