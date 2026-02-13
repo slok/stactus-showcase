@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2026-02-13 16:42:50"
       description: "We have identified the root cause and are working on backfilling those records with AWS support. \n\nWe have also disabled that ip range for new clusters so moving forward this issue will not be hit for new AWS clusters."
+    - ts: "2026-02-13 17:57:19"
+      description: The DNS records have been backfilled and clusters that had these IP addresses should be recovered.
+      resolved: true
