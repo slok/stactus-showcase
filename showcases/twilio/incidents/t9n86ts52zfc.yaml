@@ -1,0 +1,13 @@
+version: incident/v1
+id: t9n86ts52zfc
+name: Call Failures From a Subset of Twilio's Phone Numbers to Dishwireless in US
+impact: minor
+systems:
+    - 2v3v92mz2m4h
+timeline:
+    - ts: "2026-02-13 02:16:09"
+      description: We are experiencing call failures from a subset of Twilio's phone numbers to Dishwireless in US. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-13 03:16:12"
+      description: We continue to experience call failures from a subset of Twilio's phone numbers to Dishwireless in US. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
