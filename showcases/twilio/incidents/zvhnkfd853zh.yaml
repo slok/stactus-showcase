@@ -1,0 +1,16 @@
+version: incident/v1
+id: zvhnkfd853zh
+name: AccSec Canada API Errors
+impact: minor
+systems:
+    - trrz5ztt7pl8
+    - t4bxfcg2ppvb
+    - q0hp6vfr4vvh
+    - qt4vzyg2g7b4
+timeline:
+    - ts: "2026-02-13 15:21:02"
+      description: Our monitoring systems have detected a potential issue with Twilio Verify. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-02-13 15:46:32"
+      description: We are investigating a potential issue with AccSec - Canada API Errors. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
