@@ -27,5 +27,5 @@ timeline:
       description: Pull Requests is operating normally.
       investigating: true
     - ts: "2026-02-10 15:58:49"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On February 10th, 2026, between 14:35 UTC and 15:58 UTC web experiences on GitHub.com were degraded including Pull Requests and Authentication, resulting in intermittent 5xx errors and timeouts. The error rate on web traffic peaked at approximately 2%. This was due to increased load on a critical database, which caused significant memory pressure resulting in intermittent errors. <br /><br />We mitigated the incident by applying a configuration change to the database to increase available memory on the host. <br /><br />We are working to identify changes in load patterns and are reviewing the configuration of our databases to ensure there is sufficient capacity to meet growth. Additionally, we are improving monitoring and self-healing functionalities for database memory issues to reduce our time to detect and mitigation.
       resolved: true
