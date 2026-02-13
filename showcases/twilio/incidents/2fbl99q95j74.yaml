@@ -1,6 +1,6 @@
 version: incident/v1
 id: 2fbl99q95j74
-name: Call Failures From Twilio to Emergency Phone Numbers in United States
+name: 'Automated Alert: No Customer Impact'
 impact: minor
 systems:
     - 2v3v92mz2m4h
@@ -8,3 +8,6 @@ timeline:
     - ts: "2026-02-13 17:16:14"
       description: We are observing call failures from Twilio phone numbers to Emergency Numbers in US. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-02-13 17:23:05"
+      description: We have fully investigated the intermittent call failure from Twilio phone numbers to Emergency Numbers in US issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
