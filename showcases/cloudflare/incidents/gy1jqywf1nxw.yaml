@@ -2,7 +2,8 @@ version: incident/v1
 id: gy1jqywf1nxw
 name: Elevated 4xx errors being returned from Cloudflare AI Search
 impact: minor
-systems: []
+systems:
+    - c9mqrzw6nzvg
 timeline:
     - ts: "2026-02-13 13:02:40"
       description: We are investigating an issue where AI Search instances are failing to index new documents. This is likely caused by elevated 4xx error rates from Vectorize.
@@ -10,3 +11,8 @@ timeline:
     - ts: "2026-02-13 13:12:37"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2026-02-13 13:32:40"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-02-13 13:54:31"
+      description: The issue has been identified and a fix is being implemented.
