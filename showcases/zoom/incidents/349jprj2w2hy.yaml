@@ -1,0 +1,12 @@
+version: incident/v1
+id: 349jprj2w2hy
+name: Service Degradation Affecting Zoom Virtual Agent for a Subset of users in North America
+impact: none
+systems:
+    - 4kh81f5m9fbm
+timeline:
+    - ts: "2026-02-13 21:46:42"
+      description: "On 2/13/2026, between 14:32 UTC and 20:14 UTC we observed a service degradation that affected Zoom Virtual Agent in North America region which has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
+    - ts: "2026-02-13 21:51:21"
+      description: This incident has been resolved.
+      resolved: true
