@@ -1,0 +1,10 @@
+version: incident/v1
+id: k85tnjpxlpyg
+name: 'MongoDB Atlas: Atlas UI loading slowly'
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-02-13 07:20:57"
+      description: We are currently investigating reports of the slow loading of the Atlas web UI.
+      investigating: true

@@ -1,0 +1,15 @@
+version: incident/v1
+id: 20kj6nxm24pz
+name: Loki writes outage in prod-ca-east-0
+impact: critical
+systems:
+    - 9z18xdj3j8c7
+timeline:
+    - ts: "2026-02-13 06:59:55"
+      description: We have been alerted to an ongoing Loki writes outage in the prod-ca-east-0 region. Our Engineering team is actively investigating this.
+      investigating: true
+    - ts: "2026-02-13 07:09:22"
+      description: We have scaled up to handle the increased traffic and are seeing marked improvement. We will continue to monitor and provide updates.
+    - ts: "2026-02-13 07:29:36"
+      description: We continue to observe a continued period of recovery. At this time, we are considering this issue resolved.
+      resolved: true
