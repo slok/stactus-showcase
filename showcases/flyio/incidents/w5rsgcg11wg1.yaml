@@ -12,3 +12,5 @@ timeline:
       description: The issue has been identified and we are working on a fix. The majority of MPG clusters in ORD continue to run normally, though some users may still see degraded replicas at this time. Some clusters in the region will have experienced a primary -> replica failover.
     - ts: "2026-02-14 13:47:45"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2026-02-14 14:07:44"
+      description: A fix has been implemented and we are seeing full recovery of the control plane in ORD. With that recovery we are seeing impacted replicas catching up and clusters returning to normal health. We're continuing to monitor for full recovery.
