@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-02-14 11:33:19"
       description: We are currently investigating issues with the MPG control plane in ORD. A small number of clusters in the region may be seeing replication lag or PGBouncers connectivity issues at this time.
       investigating: true
+    - ts: "2026-02-14 11:47:51"
+      description: The issue has been identified and we are working on a fix. The majority of MPG clusters in ORD continue to run normally, though some users may still see degraded replicas at this time. Some clusters in the region will have experienced a primary -> replica failover.
