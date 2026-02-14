@@ -14,5 +14,5 @@ timeline:
       description: We have resolved the issue and are seeing full recovery.
       investigating: true
     - ts: "2026-02-12 11:12:16"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: From Feb 12, 2026 09:16:00 UTC to Feb 12, 2026 11:01 UTC, users attempting to download repository archives (tar.gz/zip) that include Git LFS objects received errors. Standard repository archives without LFS objects were not affected. On average, the archive download error rate was 0.0042% and peaked at 0.0339% of requests to the service. This was caused by deploying a corrupt configuration bundle, resulting in missing data used for network interface connections by the service.<br /><br />We mitigated the incident by applying the correct configuration to each site. We have added checks for corruption in this deployment, and will add auto-rollback detection for this service to prevent issues like this in the future.
       resolved: true
