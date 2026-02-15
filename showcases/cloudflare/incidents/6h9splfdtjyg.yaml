@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6h9splfdtjyg
+name: Stream Live Playback Issues
+impact: minor
+systems:
+    - 47xg28c02lnk
+timeline:
+    - ts: "2026-02-15 18:19:10"
+      description: Cloudflare is investigating buffering and stalling in playback for Stream Live broadcasts. On-demand videos and Media Transformations are unaffected.
+      investigating: true
