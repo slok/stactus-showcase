@@ -1,0 +1,13 @@
+version: incident/v1
+id: dx1bdz9yvmsj
+name: SMS Delivery Delays and Failures to TeleTalk in Bangladesh
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-02-15 05:58:07"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-02-15 06:00:27"
+      description: We are experiencing SMS delivery delays and failures to TeleTalk in Bangladesh. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
