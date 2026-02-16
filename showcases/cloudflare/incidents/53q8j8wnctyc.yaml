@@ -1,0 +1,14 @@
+version: incident/v1
+id: 53q8j8wnctyc
+name: Increased Error Rates Accessing R2 from APAC
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-02-16 10:26:49"
+      description: We are currently investigating an issue where users accessing R2 and dependent services from APAC will see an increase in HTTP 5xx error responses. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-02-16 11:02:20"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-02-16 11:18:30"
+      description: A fix has been implemented and we are monitoring the results.
