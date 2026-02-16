@@ -1,0 +1,17 @@
+version: incident/v1
+id: l10ntywl5ssb
+name: Spaces Availability in NYC3
+impact: none
+systems:
+    - hnqx47tg75cw
+    - tz43j53blsmy
+timeline:
+    - ts: "2026-02-16 07:36:35"
+      description: |-
+        Between 5:34 and 6:32 UTC, our Engineering team identified the issue that was impacting the availability of Spaces and the Container Registry in the NYC3 region. A fix has been implemented to resolve the issue.
+
+        During this time users may have experienced errors while interacting with Spaces. Additionally, CRUD operations (create, read, update, delete) within the Container Registry may have failed or returned errors during this time.
+
+        We are now monitoring the platform to ensure services remain stable and operating as expected. We will provide a final update once the issue is fully resolved.
+
+        If you continue to experience any issues, please contact our Support team.
