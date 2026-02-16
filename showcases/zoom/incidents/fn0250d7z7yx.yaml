@@ -1,0 +1,9 @@
+version: incident/v1
+id: fn0250d7z7yx
+name: Service Degradation Affecting AIC Web Search for a subset of users in US Region
+impact: minor
+systems:
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2026-02-16 22:02:54"
+      description: "We have identified an issue with our third party vendor which is affecting AIC Web Search for a subset of users in the US Region. Our team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
