@@ -1,0 +1,12 @@
+version: incident/v1
+id: 73dzdfmfjy84
+name: Increased HTTP Errors in Mumbai
+impact: minor
+systems:
+    - t3d07wlg67nl
+timeline:
+    - ts: "2026-02-16 11:54:42"
+      description: "Cloudflare is investigating an increased level of HTTP errors in the Mumbai region. \nWe are working to analyze and mitigate this problem.  More updates to follow shortly."
+      investigating: true
+    - ts: "2026-02-16 12:16:34"
+      description: The issue has been identified and a fix is being implemented.

@@ -7,8 +7,10 @@ systems:
     - rppy995xymxv
 timeline:
     - ts: "2026-02-16 10:19:45"
-      description: Cloudflare has detected an issue regarding elevated latency affecting a subset of HTTP requests in Newark, NJ. we are investigating this region actively. Some customers using  Cloudflare Data Loss Prevention (DLP) suite may see intermittent errors for traffic in this datacenter.
+      description: Cloudflare has detected an issue regarding elevated latency affecting a subset of HTTP requests in Newark, NJ. We are actively investigating this region. Some customers using Cloudflare Data Loss Prevention (DLP) suite may see intermittent errors for traffic in this datacenter.
       investigating: true
     - ts: "2026-02-16 10:23:33"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2026-02-16 12:02:08"
+      description: The issue has been identified and a fix is being implemented.
