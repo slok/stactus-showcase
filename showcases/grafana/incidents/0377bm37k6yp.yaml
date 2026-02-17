@@ -1,0 +1,23 @@
+version: incident/v1
+id: 0377bm37k6yp
+name: Maintenance task for Synthetic Monitoring ProbeFailedExecutionsTooHigh alert rule
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-17 14:53:07"
+      description: |-
+        Alert instances for Synthetic Monitoring ProbeFailedExecutionsTooHigh provisioned alert rule that are firing during this maintenance might resolve and fire again in the next evaluation. Only the API is affected.
+
+        Estimated time window is 15:00–16:00 UTC
+
+        Impacted clusters are:
+
+        prod-eu-west-5
+        prod-us-east-4
+        prod-eu-west-6
+        prod-sa-east-0
+        prod-ap-south-0
+        prod-ap-southeast-0
+        prod-me-central-0
+        prod-au-southeast-0
+        prod-ap-southeast-2
