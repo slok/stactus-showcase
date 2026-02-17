@@ -1,6 +1,6 @@
 version: incident/v1
 id: cc565dz5s18g
-name: SMS Delivery Delays and Failures to Bouygues Telecom in France Via a Subset of Longcodes
+name: SMS Delivery Delays and Failures to and from Bouygues Telecom in France Via a Subset of Longcodes
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -12,4 +12,4 @@ timeline:
       description: We continue experiencing SMS delivery delays and failures in France when sending messages to Bouygues Telecom via a subset of long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
     - ts: "2026-02-17 15:15:47"
-      description: We are observing recovery in SMS delivery delays and failures when sending messages to Bouygues Telecom in France vi a subset of long codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+      description: We are observing recovery in SMS delivery delays and failures when sending messages to and from Bouygues Telecom in France vi a subset of long codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
