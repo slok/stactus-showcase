@@ -1,9 +1,12 @@
 version: incident/v1
 id: rp2699ljwqfh
-name: On Call Engineers are Investigating an issue
+name: No Customer Impact
 impact: none
 systems: []
 timeline:
     - ts: "2026-02-17 22:58:10"
-      description: Our monitoring systems have detected a potential issue with KYC compliance registration. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      description: Our monitoring systems have detected a potential issue with KYC V4 compliance registration. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2026-02-17 23:22:31"
+      description: We have fully investigated the KYC V4 compliance registration issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
