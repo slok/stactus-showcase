@@ -1,8 +1,9 @@
 version: incident/v1
 id: 9qhh93l3jnfj
-name: MMS Delivery Delays To and From a Subset of Twilio Numbers in Australia
+name: SMS and MMS Delivery Delays To and From a Subset of Twilio Phone Numbers in Australia
 impact: minor
 systems:
+    - 8qjql0kqnd33
     - 2nd0jdj36wpq
 timeline:
     - ts: "2026-01-09 03:21:37"
@@ -55,3 +56,223 @@ timeline:
     - ts: "2026-01-19 20:53:01"
       description: We have confirmed that this incident is impacting MMS Delivery Report delays when sending messages to and from a subset of Twilio phone numbers in Australia rather than MMS message delivery when sending messages to and from a subset of Twilio phone numbers in Australia, and we can confirm that MMS delivery is operating normally; delayed delivery reports may be more noticeable during peak traffic in Australia between 14:00–20:00 PST. Our investigation indicates the primary contributor is an ongoing undersea cable fault causing increased latency, and our engineers are working closely with our carrier partner to mitigate the impact and restore normal delivery report timing. We will provide another update within 24 hours, or sooner if more information becomes available.
       investigating: true
+    - ts: "2026-01-20 20:48:07"
+      description: We have confirmed that this incident is impacting MMS Delivery Report delays when sending messages to and from a subset of Twilio phone numbers in Australia rather than MMS message delivery when sending messages to and from a subset of Twilio phone numbers in Australia, and we can confirm that MMS delivery is operating normally; delayed delivery reports may be more noticeable during peak traffic in Australia between 14:00–20:00 PST. Our investigation indicates the primary contributor is an ongoing undersea cable fault causing increased latency, and our engineers are working closely with our carrier partner to mitigate the impact and restore normal delivery report timing. We will provide another update within 24 hours, or sooner if more information becomes available.
+      investigating: true
+    - ts: "2026-01-20 23:57:46"
+      description: We have confirmed that this incident is impacting SMS and MMS Delivery Report delays when sending messages to and from a subset of Twilio phone numbers in Australia rather than SMS and MMS message delivery when sending messages to and from a subset of Twilio phone numbers in Australia, and we can confirm that SMS and MMS delivery is operating normally; delayed delivery reports may be more noticeable during peak traffic in Australia between 14:00–20:00 PST. Our investigation indicates the primary contributor is an ongoing undersea cable fault causing increased latency, and our engineers are working closely with our carrier partner to mitigate the impact and restore normal delivery report timing. We will provide another update within 24 hours, or sooner if more information becomes available.
+      investigating: true
+    - ts: "2026-01-22 00:11:43"
+      description: We have confirmed that this incident is impacting SMS and MMS Delivery Report delays when sending messages to and from a subset of Twilio phone numbers in Australia rather than SMS and MMS message delivery when sending messages to and from a subset of Twilio phone numbers in Australia, and we can confirm that SMS and MMS delivery is operating normally; delayed delivery reports may be more noticeable during peak traffic in Australia between 14:00–20:00 PST. Our investigation indicates the primary contributor is an ongoing undersea cable fault causing increased latency, and our engineers are working closely with our carrier partner to mitigate the impact and restore normal delivery report timing. We will provide another update within 24 hours, or sooner if more information becomes available.
+      investigating: true
+    - ts: "2026-01-22 07:41:21"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 until 20:00 PST. However, the actual SMS and MMS are being delivered on time. <br>
+        <br>
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays. <br>
+        <br>
+        We have identified that the primary cause of this latency is an on-going undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-22 07:50:36"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 until 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+        <br>
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+        <br>
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-23 08:29:10"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 until 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-24 09:38:24"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 until 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-25 09:31:18"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 until 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-26 09:34:44"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 until 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-27 09:31:05"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-28 09:16:58"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-29 09:31:03"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-30 09:31:06"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-01-31 09:24:42"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-01 09:32:49"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-02 09:39:31"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-03 09:36:37"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-04 09:24:17"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-05 09:22:17"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-06 09:23:09"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-07 09:18:19"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-08 09:08:41"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-09 02:32:41"
+      description: |-
+        We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time.
+
+        For the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.
+
+        We have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue.
+
+        We are currently encountering problems with actual MMS delivery from and to Twilio specifically to Telstra 515-01 network only. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-09 06:48:41"
+      description: "We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time. \n\nFor the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.\n\nWe have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available. \n\nThe issue with the MMS delivery from and to Twilio specifically to Telstra 505-01 network has been resolved now. We will provide another update in 24 hours or as soon as more information becomes available."
+      investigating: true
+    - ts: "2026-02-10 08:05:22"
+      description: "We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time. \n\nFor the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.\n\nWe have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available. \n\nThe issue with the MMS delivery from and to Twilio specifically to Telstra 505-01 network has been resolved now. We will provide another update in 24 hours or as soon as more information becomes available."
+      investigating: true
+    - ts: "2026-02-11 08:00:23"
+      description: "We continue to observe latency in SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers, specially during the peak traffic between 14:00 and 20:00 PST. However, the actual SMS and MMS are being delivered on time. \n\nFor the SMS and MMS from network subscribers to a subset of Twilio phone numbers in Australia, we are observing delivery delays.\n\nWe have identified that the primary cause of this latency is an ongoing undersea cable fault. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available. \n\nThe issue with the MMS delivery from and to Twilio specifically to Telstra 505-01 network has been resolved now. We will provide another update in 24 hours or as soon as more information becomes available."
+      investigating: true
+    - ts: "2026-02-12 07:02:03"
+      description: |-
+        We are seeing recovery across our SMS and MMS delivery reports (DLR) metrics, including our SMS and MMS traffic from network subscribers to a subset of Twilio phone numbers in Australia. <BR>
+
+        To confirm the issue is fully resolved, Twilio will continue to have extended monitoring and run verification tests through this week into early next week. We’ll provide a final confirmation once those checks are complete. <BR>
+
+        We will provide another update in 24 hours or as soon as more information becomes available.
+    - ts: "2026-02-13 07:02:08"
+      description: |-
+        We are seeing recovery across our SMS and MMS delivery reports (DLR) metrics, including our SMS and MMS traffic from network subscribers to a subset of Twilio phone numbers in Australia.
+
+        To confirm the issue is fully resolved, Twilio will continue to have extended monitoring and run verification tests through this week into early next week. We’ll provide a final confirmation once those checks are complete.
+
+        We will provide another update in 24 hours or as soon as more information becomes available.
+    - ts: "2026-02-14 07:00:15"
+      description: |-
+        We are seeing recovery across our SMS and MMS delivery reports (DLR) metrics, including our SMS and MMS traffic from network subscribers to a subset of Twilio phone numbers in Australia.
+
+        To confirm the issue is fully resolved, Twilio will continue to have extended monitoring and run verification tests through this week into early next week. We’ll provide a final confirmation once those checks are complete.
+
+        We will provide another update in 24 hours or as soon as more information becomes available.
+    - ts: "2026-02-15 07:00:10"
+      description: |-
+        We are seeing recovery across our SMS and MMS delivery reports (DLR) metrics, including our SMS and MMS traffic from network subscribers to a subset of Twilio phone numbers in Australia.
+
+        To confirm the issue is fully resolved, Twilio will continue to have extended monitoring and run verification tests through this week into early next week. We’ll provide a final confirmation once those checks are complete.
+
+        We will provide another update in 24 hours or as soon as more information becomes available.
+    - ts: "2026-02-16 07:01:02"
+      description: |-
+        We are seeing recovery across our SMS and MMS delivery reports (DLR) metrics, including our SMS and MMS traffic from network subscribers to a subset of Twilio phone numbers in Australia.
+
+        To confirm the issue is fully resolved, Twilio will continue to have extended monitoring and run verification tests through this week into early next week. We’ll provide a final confirmation once those checks are complete.
+
+        We will provide another update in 24 hours or as soon as more information becomes available.
+    - ts: "2026-02-17 07:00:24"
+      description: We are no longer experiencing SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers. This incident has been resolved.
+    - ts: "2026-02-17 07:01:58"
+      description: We are no longer experiencing SMS and MMS delivery reports sent from a subset of Twilio phone numbers in Australia to network subscribers. This incident has been resolved.
+      resolved: true
