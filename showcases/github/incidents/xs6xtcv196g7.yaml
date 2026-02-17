@@ -1,0 +1,14 @@
+version: incident/v1
+id: xs6xtcv196g7
+name: Intermittent authentication failures on GitHub
+impact: minor
+systems:
+    - 8l4ygp009s5s
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-02-17 17:46:12"
+      description: We are investigating reports of degraded performance for Actions and Git Operations
+      investigating: true
+    - ts: "2026-02-17 17:46:32"
+      description: We have identified a low rate of authentication failures affecting GitHub App server to server tokens, GitHub Actions authentication tokens, and git operations. Some customers may experience intermittent API request failures when using these tokens. We believe we've identified the cause and are working to mitigate impact.
+      investigating: true
