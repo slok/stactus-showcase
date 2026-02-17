@@ -1,0 +1,9 @@
+version: incident/v1
+id: n0q9zdwc447d
+name: Degradation of service on Synthetic Monitoring Public Probe AWS Canada (Calgary)
+impact: none
+systems: []
+timeline:
+    - ts: "2026-02-17 12:50:40"
+      description: There was a service degradation today from ~12:09 UTC until ~12:35 UTC on the Public Probe of Calgary for  Synthetic Monitoring. Impact may include SM check fails where the probe was used.
+      resolved: true

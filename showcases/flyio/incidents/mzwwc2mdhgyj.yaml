@@ -1,0 +1,12 @@
+version: incident/v1
+id: mzwwc2mdhgyj
+name: flyctl deploy timeouts
+impact: major
+systems:
+    - 49yq6v65b33l
+timeline:
+    - ts: "2026-02-17 13:06:09"
+      description: |-
+        We’re investigating elevated 429 errors from flaps causing deployment timeouts. Affected deploys are failing with:
+        ✖ Failed: error waiting for release_command machine XX to finish running: timeout reached waiting for machine's state to change
+        Your machine never reached the state "destroyed".
