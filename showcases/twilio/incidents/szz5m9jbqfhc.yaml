@@ -1,10 +1,13 @@
 version: incident/v1
 id: szz5m9jbqfhc
-name: Webhook Timeout Issue for Some Webhook HTTP Requests
-impact: none
+name: Issue Causing Some Webhook HTTP Requests to Timeout
+impact: minor
 systems:
     - m5b6twz4h52d
 timeline:
     - ts: "2026-02-17 19:59:41"
       description: Our monitoring systems have detected a potential issue regarding webhook timeouts. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-02-17 20:18:33"
+      description: We are investigating an issue causing some webhook HTTP requests to timeout. We expect to provide another update in 1 hour or as soon as more information becomes available
       investigating: true
