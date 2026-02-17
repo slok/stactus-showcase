@@ -1,0 +1,10 @@
+version: incident/v1
+id: j60l4c2f0yg4
+name: SMS Delivery Delays To Guam
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-02-17 08:54:25"
+      description: We are experiencing SMS delivery delays when sending messages to Guam. Our engineers are working with our carrier partners to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
