@@ -12,3 +12,6 @@ timeline:
         Your machine never reached the state "destroyed".
     - ts: "2026-02-17 13:42:14"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-02-17 14:24:57"
+      description: Earlier today, an issue caused elevated rate limiting and some deployment timeouts. A fix is in place and deployments are back to normal.
+      resolved: true
