@@ -1,9 +1,12 @@
 version: incident/v1
 id: 81x75kg2fv97
-name: On Call Engineers are Investigating an issue
+name: Minimal Customer Impact
 impact: none
 systems: []
 timeline:
     - ts: "2026-02-17 22:22:11"
       description: Our monitoring systems have detected a potential issue with users unable to access the Twilio Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2026-02-17 23:10:56"
+      description: We have fully investigated the Twilio Console permissions issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
