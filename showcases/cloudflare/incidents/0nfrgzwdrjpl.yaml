@@ -1,0 +1,17 @@
+version: incident/v1
+id: 0nfrgzwdrjpl
+name: Certificate Issuance through Google Trust Services Unavailable
+impact: minor
+systems:
+    - cghykwlwsmn5
+    - 9p2qlpt19nqb
+timeline:
+    - ts: "2026-02-17 20:53:21"
+      description: 'Google Trust Services is experiencing an unplanned outage: https://status.pki.goog'
+      investigating: true
+    - ts: "2026-02-17 20:54:34"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-02-17 21:08:32"
+      description: We are continuing to investigate this issue.
+      investigating: true
