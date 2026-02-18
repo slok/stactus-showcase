@@ -1,0 +1,9 @@
+version: incident/v1
+id: vbnc13cks551
+name: Workers AI elevated error rates
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2026-02-18 18:42:53"
+      description: Users might experience higher 429 errors
