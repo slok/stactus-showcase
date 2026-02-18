@@ -1,0 +1,10 @@
+version: incident/v1
+id: hc315f9tf16q
+name: SSL Errors for Newly Enabled R2 Users
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-02-18 04:43:01"
+      description: We are aware of an issue where newly enabled R2 accounts encounter SSL errors when making requests via the S3-compatible API.
+      investigating: true
