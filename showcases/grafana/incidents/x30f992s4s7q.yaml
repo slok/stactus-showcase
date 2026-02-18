@@ -1,0 +1,9 @@
+version: incident/v1
+id: x30f992s4s7q
+name: Brief Disruption in Azure prod-us-7-central
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-18 14:56:23"
+      description: We experienced an issue impacting a cell within the Azure prod-us-central-7 region, which occurred between 14:26 and 14:36. Affected users may have noticed increased errors with rule evaluations, as well as a some read/write errors. We have resolved this issue, and will continue to monitor.
+      resolved: true

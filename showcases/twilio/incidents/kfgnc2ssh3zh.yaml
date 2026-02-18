@@ -1,10 +1,16 @@
 version: incident/v1
 id: kfgnc2ssh3zh
-name: SMS Delivery Delays and Failures from Twilio to Multiple Jazz Networks in Pakistan
+name: SMS Delivery Delays and Failures from Twilio to Jazz Network in Pakistan
 impact: minor
 systems:
     - 8qjql0kqnd33
 timeline:
     - ts: "2026-02-18 14:08:29"
-      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Jazz network subscribers on multiple networks in Pakistan. Our team is actively investigating this issue. We will provide another update as soon as more information becomes available.
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Jazz network subscribers in Pakistan. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-18 14:34:15"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Jazz network subscribers in Pakistan. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-18 14:58:23"
+      description: We are continuing to investigate SMS delivery delays and failures from Twilio to Jazz network subscribers in Pakistan. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
