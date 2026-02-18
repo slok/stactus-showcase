@@ -1,0 +1,16 @@
+version: incident/v1
+id: 6mx27qsd8wxj
+name: Control plane state delayed on some hosts possibly causing network or deployment disruption
+impact: major
+systems:
+    - 15knchzwl5np
+    - 80ykv2p95qgy
+    - 49yq6v65b33l
+    - ws3nmzf32kyd
+timeline:
+    - ts: "2026-02-18 16:22:39"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-02-18 16:23:19"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-02-18 16:28:09"
+      description: A fix has been implemented and we are monitoring the results.
