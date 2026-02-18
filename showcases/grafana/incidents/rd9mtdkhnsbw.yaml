@@ -1,0 +1,10 @@
+version: incident/v1
+id: rd9mtdkhnsbw
+name: Degraded performance of Grafana Cloud k6 test runs
+impact: minor
+systems:
+    - m79yjv169r06
+timeline:
+    - ts: "2026-02-18 08:27:56"
+      description: We see intermittent failures and slow start-up of test-runs. We are currently investigating this issue.
+      investigating: true
