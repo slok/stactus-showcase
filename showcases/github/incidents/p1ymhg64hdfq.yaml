@@ -1,0 +1,16 @@
+version: incident/v1
+id: p1ymhg64hdfq
+name: Degraded performance in merge queue
+impact: minor
+systems:
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2026-02-18 18:25:38"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-02-18 18:26:02"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-02-18 18:27:00"
+      description: We are investigating reports of issues with merge queue. We will continue to keep users updated on progress towards mitigation.
+      investigating: true
