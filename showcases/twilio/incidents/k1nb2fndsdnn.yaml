@@ -1,10 +1,49 @@
 version: incident/v1
 id: k1nb2fndsdnn
-name: SMS Delivery Delays and Failures to MTN Network Across Multiple Countries
+name: SMS Delivery Delays and Failures to Multiple MTN Networks across African Countries
 impact: minor
 systems:
     - 9z5gsqyjs4rl
 timeline:
     - ts: "2026-02-18 10:29:40"
-      description: We are experiencing SMS delivery delays when sending messages to MTN Network in Nigeria and Ghana. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      description: |-
+        We are experiencing SMS delivery delays and failures to multiple MTN networks across African countries. Our engineers are working with our carrier partner to resolve the issue. We will provide an update in 1 hour or as soon as more information becomes available.
+
+        List of Impacted MTN Networks in African Countries
+
+        Uganda
+        Swaziland
+        Guinea
+        Guinea-Bissau
+        Zambia
+        Sudan
+        Rwanda
+        Nigeria
+        Liberia
+        Ivory Coast
+        Ghana
+        Congo, Republic
+        Cameroon
+        Benin
+      investigating: true
+    - ts: "2026-02-18 11:27:59"
+      description: |-
+        We continue experiencing SMS delivery delays and failures to multiple MTN networks across African countries. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+
+        List of Impacted MTN Networks in African Countries
+
+        Uganda
+        Swaziland
+        Guinea
+        Guinea-Bissau
+        Zambia
+        Sudan
+        Rwanda
+        Nigeria
+        Liberia
+        Ivory Coast
+        Ghana
+        Congo, Republic
+        Cameroon
+        Benin
       investigating: true
