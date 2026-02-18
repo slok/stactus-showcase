@@ -1,0 +1,10 @@
+version: incident/v1
+id: m2zhwt86vrmq
+name: WARP iOS connectivity
+impact: minor
+systems:
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2026-02-18 03:49:00"
+      description: Cloudflare is investigating issues with Cloudflare WARP and Cloudflare Zero Trust. Cloudflare WARP and Zero Trust users using iOS may experience connectivity issues or a degraded Internet experience.
+      investigating: true

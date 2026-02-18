@@ -1,0 +1,13 @@
+version: incident/v1
+id: 9pjvtr8pb6mt
+name: Grafana Cloud metrics degredation
+impact: minor
+systems:
+    - czngbgg4qfq5
+timeline:
+    - ts: "2026-02-18 03:43:09"
+      description: We've been alerted to issues querying and are investigating
+      investigating: true
+    - ts: "2026-02-18 03:47:03"
+      description: We are continuing to investigate this issue.
+      investigating: true
