@@ -1,0 +1,10 @@
+version: incident/v1
+id: ys7rnc3wffjf
+name: SMS Delivery Delays from Twilio to Telekom Srbija Serbia
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-02-18 21:08:22"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Telekom Srbija network subscribers in Serbia. Our team is actively investigating this issue.  We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
