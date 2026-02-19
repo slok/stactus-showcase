@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4fyjxr6dv8qk
+name: FSILG Network outages
+impact: none
+systems:
+    - qbxg9tr9gslw
+timeline:
+    - ts: "2026-02-19 13:53:52"
+      description: "The network is down in several FSILG locations.  This is due to a cut fiber optic cable in Boston. The fiber vendor is currently working on restoring the circuits.  \n\nAt this time we do not have an ETA on the repair but IS&T will continue to monitor and update as the situation progresses.\n\nAffected Houses  ET - ZBT - PIKA - CP - XF - PKT -  DTD - PLP - ND"
+      investigating: true
