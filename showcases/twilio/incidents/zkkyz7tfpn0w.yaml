@@ -1,0 +1,15 @@
+version: incident/v1
+id: zkkyz7tfpn0w
+name: Twilio Websites Sites Returning 500 Errors
+impact: minor
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2026-02-19 23:28:40"
+      description: Our monitoring systems have detected a potential issue with Twilio Marketing Sites. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-02-19 23:39:18"
+      description: |-
+        We are currently investigating an issue where some Twilio websites are returning 500 errors. Our engineering teams are actively working to identify the root cause and restore full functionality as quickly as possible. We want to emphasize that Twilio Products continue to work without any issues. We will provide updates in 15 minutes or as soon as more information becomes available.
+
+        Thank you for your patience while we work to resolve this.
