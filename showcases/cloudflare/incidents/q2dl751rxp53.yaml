@@ -1,0 +1,9 @@
+version: incident/v1
+id: q2dl751rxp53
+name: Occasional loss of WARP connectivity on iOS
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2026-02-19 03:36:54"
+      description: "Cloudflare has identified an issue with WARP connectivity on iOS and a fix is being implemented. \n\nIt is possible for the latest version of the Cloudflare One Agent app on iOS to end up in a bad state where it cannot connect to Cloudflare's edge network. When the app is open and this issue is occurring, the on/off toggle will be rapidly changing between states endlessly. This is caused by a bug in app version 1.12.0. A fix has been developed, and we are working on deploying a new app version that includes it. For now, a known workaround is to uninstall then reinstall the app."
