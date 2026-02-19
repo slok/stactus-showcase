@@ -17,5 +17,5 @@ timeline:
       description: Next Edit Suggestions availability is recovering. We are continuing to monitor until fully restored.
       investigating: true
     - ts: "2026-02-12 20:34:55"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between February 11th 21:30 UTC and February 12th 15:40 UTC, users in Western Europe experienced degraded quality for all Next Edit Suggestions requests. Additionally, on February 12th, between 18:40 UTC and 20:30 UTC, users in Australia and South America experienced degraded quality and increased latency of up to 500ms for all Next Edit Suggestions requests. The root cause was a newly introduced regression in an upstream service dependency.<br /> <br />The incident was mitigated by failing over Next Edit Suggestions traffic to unaffected regions, which caused the increased latency. Once the regression was identified and rolled back, we restored the impacted capacity. We have improved our quality analysis tooling and are working on more robust quality impact alerting to accelerate detection of these issues in the future.
       resolved: true
