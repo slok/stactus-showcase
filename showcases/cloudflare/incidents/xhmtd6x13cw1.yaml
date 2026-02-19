@@ -1,0 +1,13 @@
+version: incident/v1
+id: xhmtd6x13cw1
+name: Increased HTTP 5xx Errors
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2026-02-19 10:39:57"
+      description: |-
+        Cloudflare is investigating an increased level of HTTP 5xx errors for content served by cdnjs.cloudflare.com
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
