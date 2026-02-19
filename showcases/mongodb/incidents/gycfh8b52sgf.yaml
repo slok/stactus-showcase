@@ -10,3 +10,10 @@ timeline:
         We are investigating reports of Atlas Data Federation and Online Archive schema tables failing to load. As a workaround, please connect directly and run the sqlGetSchema command: https://www.mongodb.com/docs/sql-interface/schema/view/
         If that does not work, you may need to generate the schema first: https://www.mongodb.com/docs/sql-interface/schema/create/#create-schema-using-mongosh
       investigating: true
+    - ts: "2026-02-19 21:35:58"
+      description: |-
+        We are continuing to investigate reports of Atlas Data Federation and Online Archive schema tables failing to load. As a workaround, please connect directly and run the sqlGetSchema command: https://www.mongodb.com/docs/sql-interface/schema/view/
+        If that does not work, you may need to generate the schema first: https://www.mongodb.com/docs/sql-interface/schema/create/#create-schema-using-mongosh
+
+        It appears to affect only a very small number of users, but we will keep this alert open until the issue is resolved.
+      investigating: true
