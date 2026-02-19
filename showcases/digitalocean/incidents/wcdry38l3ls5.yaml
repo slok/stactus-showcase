@@ -1,0 +1,13 @@
+version: incident/v1
+id: wcdry38l3ls5
+name: Control Panel Visibility
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2026-02-19 17:34:37"
+      description: |-
+        Our team is currently investigating an issue impacting the visibility of the Control Panel. Users may notice unexpected behavior, such as being prompted for login credentials when accessing the console, being unable to select radio buttons for any plans during resize, columns appearing squished, etc.
+
+        We apologize for the inconvenience and will share further updates as soon as more information becomes available.
+      investigating: true
