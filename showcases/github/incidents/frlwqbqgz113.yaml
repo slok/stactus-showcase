@@ -21,5 +21,5 @@ timeline:
       description: We've observed recovery for the GraphQL service latency.
       investigating: true
     - ts: "2026-02-11 17:15:03"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On February 11, 2026, between 13:51 UTC and 17:03 UTC, the GraphQL API experienced degraded performance due to elevated resource utilization. This resulted in incoming client requests waiting longer than normal, timing out in certain cases. During the impact window, approximately 0.65% of GraphQL requests experienced these issues, peaking at 1.06%. <br /><br />The increased load was due to an increase in query patterns that drove higher than expected resource utilization of the GraphQL API. We mitigated the incident by scaling out resource capacity and limiting the capacity available to these query patterns. <br /><br />We're improving our telemetry to identify slow usage growth and changes in GraphQL workloads. We’ve also added capacity safeguards to prevent similar incidents in the future.
       resolved: true

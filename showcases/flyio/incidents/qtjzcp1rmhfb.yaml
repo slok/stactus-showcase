@@ -14,3 +14,8 @@ timeline:
       description: The issue has been identified and a fix is being implemented.
     - ts: "2026-02-19 21:49:12"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-02-19 22:24:23"
+      description: |-
+        While we have seen some improvement from the previous fix, we are still seeing elevated rates of Registry connection issues. Users may continue to see slower machine creates and deploys due to slow image pulls. Deploys may succeed on a retry.
+
+        We are continuing to work on restoring normal registry performance
