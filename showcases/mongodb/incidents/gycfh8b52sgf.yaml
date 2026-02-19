@@ -1,0 +1,12 @@
+version: incident/v1
+id: gycfh8b52sgf
+name: 'MongoDB Atlas Data Federation and Online Archive: Schema Table fails to load'
+impact: minor
+systems:
+    - lh7m7lhnf3rj
+timeline:
+    - ts: "2026-02-19 18:50:56"
+      description: |-
+        We are investigating reports of Atlas Data Federation and Online Archive schema tables failing to load. As a workaround, please connect directly and run the sqlGetSchema command: https://www.mongodb.com/docs/sql-interface/schema/view/
+        If that does not work, you may need to generate the schema first: https://www.mongodb.com/docs/sql-interface/schema/create/#create-schema-using-mongosh
+      investigating: true
