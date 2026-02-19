@@ -7,3 +7,6 @@ timeline:
     - ts: "2026-02-19 09:09:19"
       description: Our monitoring systems have detected a potential issue with SMS delivery delays between a subset of Twilio short codes and multiple networks in Ireland. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2026-02-19 09:27:41"
+      description: We have fully investigated the SMS delivery delays between a subset of Twilio short codes and multiple networks in Ireland issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
