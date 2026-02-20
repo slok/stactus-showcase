@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2026-02-20 06:37:42"
       description: We have observed a recovery in SMS delivery from Twilio to Claro network subscribers in Puerto Rico and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-02-20 08:37:28"
+      description: We are no longer experiencing SMS delivery delays when sending messages from Twilio to Claro network subscribers in Puerto Rico. This incident has been resolved.
+      resolved: true
