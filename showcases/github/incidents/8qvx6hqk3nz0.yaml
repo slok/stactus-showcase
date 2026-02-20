@@ -14,3 +14,6 @@ timeline:
     - ts: "2026-02-20 10:36:21"
       description: We are still experiencing degraded availability for the GPT 5.1 Codex model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br />
       investigating: true
+    - ts: "2026-02-20 11:19:32"
+      description: The issues with our upstream model provider have been resolved, and GPT 5.1 Codex is once again available in Copilot Chat and across IDE integrations [VSCode, Visual Studio, JetBrains].<br />We will continue monitoring to ensure stability, but mitigation is complete.
+      investigating: true
