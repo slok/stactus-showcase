@@ -7,5 +7,7 @@ systems:
     - k04jkcpzxn94
 timeline:
     - ts: "2026-02-20 18:45:17"
-      description: We are investigating reported connectivity issues blocking users from accessing some sites through Cloudflare One
+      description: Cloudflare is investigating issues with our services and/or network. Users may experience errors or timeouts reaching Cloudflare’s network or services. We will update this status page to clarify the scope of impact as we continue the investigation.
       investigating: true
+    - ts: "2026-02-20 19:09:46"
+      description: Cloudflare has identified impact to a subset of BYOIP prefixes. Cloudflare has identified and mitigated the underlying issue and is working to restore availability to impacted advertisements.
