@@ -11,3 +11,5 @@ timeline:
       investigating: true
     - ts: "2026-02-20 19:09:46"
       description: Cloudflare has identified impact to a subset of BYOIP prefixes. Cloudflare has identified and mitigated the underlying issue and is working to restore availability to impacted advertisements.
+    - ts: "2026-02-20 19:20:03"
+      description: Cloudflare is continuing to restore service to customers.  Cloudflare has also identified a way for impacted customers to self-resolve impact by readvertising prefixes via the Cloudflare dashboard.
