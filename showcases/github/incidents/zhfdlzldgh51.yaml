@@ -1,0 +1,12 @@
+version: incident/v1
+id: zhfdlzldgh51
+name: Extended job start delays for larger hosted runners
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-20 20:00:07"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-02-20 20:01:19"
+      description: We are investigating reports of degraded performance for Larger Hosted Runners
+      investigating: true
