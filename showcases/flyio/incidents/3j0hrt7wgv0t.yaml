@@ -13,3 +13,6 @@ timeline:
       description: A fix is being rolled out. Fly builders continue to be the default while this is deployed
     - ts: "2026-02-20 19:38:28"
       description: "The fix has been rolled out and we are seeing deploys using depot builder succeeding normally. We continue to monitor to ensure full recovery. \n\nDepot builders have been reenabled as the default option for new deploys"
+    - ts: "2026-02-20 20:49:34"
+      description: This incident has been resolved.
+      resolved: true

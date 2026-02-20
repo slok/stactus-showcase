@@ -22,3 +22,10 @@ timeline:
         Customers are still able to restore service from the dashboard by readvertising their IPs. Refer to: https://developers.cloudflare.com/magic-transit/how-to/advertise-prefixes/#advertise-or-withdraw-a-bgp-prefix
 
         Cloudflare is aware that some customers are unable to reload their IPs through the dashboard and are working on a fix.
+    - ts: "2026-02-20 20:50:40"
+      description: |-
+        Cloudflare is continuing to restore prefixes to their previous state.  Any customer who withdrew their IPs as a result of this incident will see their IPs withdrawn upon full impact mitigation.
+
+        Customers are still able to restore service from the dashboard by readvertising their IPs.
+
+        Cloudflare is aware that some customers are unable to reload their IPs through the dashboard and are working on a fix.
