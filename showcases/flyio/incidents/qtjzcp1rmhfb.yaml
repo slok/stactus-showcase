@@ -19,3 +19,6 @@ timeline:
         While we have seen some improvement from the previous fix, we are still seeing elevated rates of Registry connection issues. Users may continue to see slower machine creates and deploys due to slow image pulls. Deploys may succeed on a retry.
 
         We are continuing to work on restoring normal registry performance
+    - ts: "2026-02-20 00:05:17"
+      description: This incident has been resolved.
+      resolved: true
