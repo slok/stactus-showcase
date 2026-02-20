@@ -1,0 +1,10 @@
+version: incident/v1
+id: hf9sftsvg5fs
+name: SMS Delivery Report Delays to 1&1 Network in Germany
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-02-20 00:36:41"
+      description: Twilio customers may be experiencing SMS delivery rreport delays from Twilio to 1&1 network subscribers in Germany. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery report may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
