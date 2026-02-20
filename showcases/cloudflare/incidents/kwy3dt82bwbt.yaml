@@ -1,0 +1,11 @@
+version: incident/v1
+id: kwy3dt82bwbt
+name: Cloudflare is investigating connectivity issues
+impact: minor
+systems:
+    - bjlxcss20fsl
+    - k04jkcpzxn94
+timeline:
+    - ts: "2026-02-20 18:45:17"
+      description: We are investigating reported connectivity issues blocking users from accessing some sites through Cloudflare One
+      investigating: true

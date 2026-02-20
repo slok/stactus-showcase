@@ -1,0 +1,25 @@
+version: incident/v1
+id: nl1gbhzyzjqh
+name: Service Degradation Affecting Zoom Services in Sao Paulo
+impact: minor
+systems:
+    - 3z7b6jks10hm
+    - y8ktp5pnbwt3
+    - 3ml2fn8g0psv
+timeline:
+    - ts: "2026-02-20 18:31:18"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Services in Sao Paulo.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-02-20 18:36:26"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Services in Soa Paulo.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true

@@ -1,0 +1,10 @@
+version: incident/v1
+id: g3ny6xp5f6nw
+name: Elevated errors on one.one.one.one landing page
+impact: minor
+systems:
+    - dp8ppfycqxcs
+timeline:
+    - ts: "2026-02-20 18:47:37"
+      description: Customers are experiencing elevated 403 errors on 1.1.1.1 landing page. DNS resolution using Public DNS resolver 1.1.1.1  is not impacted. Cache purge and Debugging page is impacted.
+      investigating: true
