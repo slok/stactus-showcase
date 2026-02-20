@@ -1,0 +1,9 @@
+version: incident/v1
+id: 5gkddqpfmpzj
+name: Hyperdrive issue
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-20 02:23:42"
+      description: "Between the two following periods, there was Hyperdrive degradation in IAD which resulted in increased rates of failed queries for some customers.\n\n2026-02-17 05:20 UTC to 2026-02-17 05:43 UTC \n2026-02-19 07:22 UTC to 2026-02-19 07:42 UTC"
+      resolved: true
