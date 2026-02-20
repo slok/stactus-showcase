@@ -1,0 +1,9 @@
+version: incident/v1
+id: tqgl26f7wkxs
+name: Bot Management Issues
+impact: minor
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2026-02-20 12:51:42"
+      description: "Cloudflare is investigating issues with our Bot Management feature. Customers may experience a decrease in the percentage of traffic detected as automated since JSD detections have been turned off due to false positives since Feb 18 2026. \nWe are working to mitigate this problem. \nMore updates to follow shortly."
