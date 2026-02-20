@@ -1,0 +1,9 @@
+version: incident/v1
+id: 3j0hrt7wgv0t
+name: Deploys hanging at waiting for Depot Builder
+impact: none
+systems:
+    - 49yq6v65b33l
+timeline:
+    - ts: "2026-02-20 16:14:29"
+      description: "We have seen elevated latency provisioning Depot builders during deployments over the past hour. This caused some deploys to hang or timeout at the \"Waiting for Depot Builder\" step in this period. \n\nLatency has improved and builder provision times are back to normal. We're continuing to monitor to ensure latency remains normal."
