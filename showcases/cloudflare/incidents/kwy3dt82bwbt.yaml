@@ -15,3 +15,10 @@ timeline:
       description: 'Cloudflare is continuing to restore service to customers.  Cloudflare has also identified a way for impacted customers to self-resolve impact by readvertising prefixes via the Cloudflare dashboard. Refer to: https://developers.cloudflare.com/magic-transit/how-to/advertise-prefixes/#advertise-or-withdraw-a-bgp-prefix for details on how to advertise a prefix.'
     - ts: "2026-02-20 19:45:56"
       description: 'Cloudflare is continuing to work on restoring service for impacted customers to what it was before the outage.  Customers can self-mitigate by readvertising their prefixes in the dashboard. Refer to: https://developers.cloudflare.com/magic-transit/how-to/advertise-prefixes/#advertise-or-withdraw-a-bgp-prefix for details on how to advertise a prefix.'
+    - ts: "2026-02-20 20:35:26"
+      description: |-
+        Cloudflare is continuing to restore prefixes to their previous state.
+
+        Customers are still able to restore service from the dashboard by readvertising their IPs. Refer to: https://developers.cloudflare.com/magic-transit/how-to/advertise-prefixes/#advertise-or-withdraw-a-bgp-prefix
+
+        Cloudflare is aware that some customers are unable to reload their IPs through the dashboard and are working on a fix.
