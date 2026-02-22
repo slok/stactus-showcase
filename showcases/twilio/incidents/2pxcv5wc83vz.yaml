@@ -1,0 +1,16 @@
+version: incident/v1
+id: 2pxcv5wc83vz
+name: SMS Delivery Delays To Claro Network Multiple Destination
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-02-22 14:16:50"
+      description: Our monitoring systems have detected a potential issue SMS Delivery Delays To Claro Network Multiple Destination Nicaragua, Guatemala, El Salvador, Honduras and Costa Rica. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+      investigating: true
+    - ts: "2026-02-22 14:21:13"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Claro network subscribers in Nicaragua, Guatemala, El Salvador, Honduras, and Costa Rica. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-22 14:22:23"
+      description: We are continuing to investigate this issue.
+      investigating: true
