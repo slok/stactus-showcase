@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5f3s58qkbjd6
+name: SMS Delivery Delays from Twilio to Tigo Paraguay
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-02-22 05:46:15"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Tigo network subscribers in Paraguay. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
