@@ -1,0 +1,10 @@
+version: incident/v1
+id: 97x6ymy4dd74
+name: Analytics Engine API Increased 500s
+impact: minor
+systems:
+    - g4tb35rs9yw7
+timeline:
+    - ts: "2026-02-22 19:36:54"
+      description: Cloudflare is aware of and investigating an issue impacting the Analytics Engine API. Users may be experiencing an increase of 500 errors when querying. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
