@@ -1,0 +1,10 @@
+version: incident/v1
+id: 131c02g3r68n
+name: SMS Delivery Delays from Twilio to Algar Telecom Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-02-22 05:52:44"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Algar Telecom network subscribers in Brazil. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
