@@ -1,7 +1,7 @@
 version: incident/v1
 id: 6ndy5983j4c5
 name: Duo Authentication Issues
-impact: minor
+impact: none
 systems:
     - dpdsycjtknlz
 timeline:
@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2026-02-23 18:06:28"
       description: The gateway issue with Duo authentication has been resolved and we are monitoring. The phone authentication issue is still being investigated by Duo. https://status.duo.com/
+    - ts: "2026-02-23 21:30:04"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,9 @@
+version: incident/v1
+id: 1zc2sgn17z1y
+name: R2 degraded performance in APAC buckets
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-23 21:37:15"
+      description: Between 20:00 and 20:36 UTC, R2 buckets in the APAC region experienced elevated latency and timeouts.
+      resolved: true
