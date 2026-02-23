@@ -16,3 +16,6 @@ timeline:
     - ts: "2026-02-23 22:22:56"
       description: Elevated latency and timeouts for code search is isolated to a single shard experiencing elevated CPU. We are taking steps to isolate and mitigate the affected shard.
       investigating: true
+    - ts: "2026-02-23 23:10:02"
+      description: Customers using code search continue to see increased latency and timeout errors. We are working to mitigate issues on the affected shard.
+      investigating: true
