@@ -1,0 +1,13 @@
+version: incident/v1
+id: h8z3w9ycj0pm
+name: Incident with Copilot
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-02-23 14:56:09"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2026-02-23 14:56:37"
+      description: We are experiencing degraded availability for the Haiku 4.5 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.
+      investigating: true

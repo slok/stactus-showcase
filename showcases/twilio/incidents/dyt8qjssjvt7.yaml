@@ -1,10 +1,13 @@
 version: incident/v1
 id: dyt8qjssjvt7
-name: AccSec Indonesia API Errors
+name: User Authentication Identity API Errors in Indonesia
 impact: minor
 systems:
-    - whldrk77jnm4
+    - trrz5ztt7pl8
 timeline:
     - ts: "2026-02-23 14:23:41"
-      description: We are experiencing Indonesia API Errors, Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      description: Twilio customers may be experiencing User Authentication Identity API errors in Indonesia. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-23 14:37:00"
+      description: We are continuing to investigate this issue.
       investigating: true
