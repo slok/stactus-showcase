@@ -14,3 +14,9 @@ timeline:
     - ts: "2026-02-23 15:13:14"
       description: Our provider has recovered and we are not seeing errors but we are awaiting a signal from them that the issue will not regress before we go green.
       investigating: true
+    - ts: "2026-02-23 15:59:39"
+      description: The issues with our upstream model provider have been resolved, and Haiku 4.5 is once again available in Copilot Chat and across IDE integrations.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.
+      investigating: true
+    - ts: "2026-02-23 15:59:59"
+      description: Copilot is operating normally.
+      investigating: true
