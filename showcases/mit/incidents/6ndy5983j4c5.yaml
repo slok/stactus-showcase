@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6ndy5983j4c5
+name: Duo Authentication Issues
+impact: minor
+systems:
+    - dpdsycjtknlz
+timeline:
+    - ts: "2026-02-23 16:16:13"
+      description: 'Authentication issues with Duo are currently affecting access to Microsoft services such as Outlook. Users may be unable to sign in. Status updates: https://status.duo.com/'
+      investigating: true

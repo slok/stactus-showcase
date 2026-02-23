@@ -1,0 +1,10 @@
+version: incident/v1
+id: 00myb4cslwtq
+name: Microsoft 365 MFA Access Issues
+impact: minor
+systems:
+    - dpdsycjtknlz
+timeline:
+    - ts: "2026-02-23 16:18:31"
+      description: Some users may experience problems accessing Microsoft 365 services that require multi-factor authentication. We are investigating and will provide updates as more information becomes available. https://x.com/MSFT365Status
+      investigating: true
