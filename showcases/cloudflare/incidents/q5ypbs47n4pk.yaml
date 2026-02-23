@@ -1,0 +1,10 @@
+version: incident/v1
+id: q5ypbs47n4pk
+name: Issues with Dashboard Sessions
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-02-23 20:54:22"
+      description: An issue in the Dashboard's Session Management systems resulted in a subset of users not being able to log into the Dashboard or being unexpectedly logged out.
+      resolved: true
