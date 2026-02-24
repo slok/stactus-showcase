@@ -1,0 +1,13 @@
+version: incident/v1
+id: j1yq6sg6k2rc
+name: SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Multiple Small Networks in United States
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2026-02-24 16:44:00"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Long Codes to network subscribers on multiple networks in the United States. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-24 16:45:21"
+      description: We are continuing to investigate this issue.
+      investigating: true
