@@ -13,3 +13,6 @@ timeline:
       description: Metrics are coming back online, but it will take a little time to process what's backed up in the queues.
     - ts: "2026-02-24 09:35:02"
       description: Delayed metrics are still being processed.
+    - ts: "2026-02-24 11:06:08"
+      description: Metrics processing has caught up, and we don't see any data loss.
+      resolved: true
