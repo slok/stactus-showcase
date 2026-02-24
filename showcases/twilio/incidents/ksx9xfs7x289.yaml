@@ -1,0 +1,10 @@
+version: incident/v1
+id: ksx9xfs7x289
+name: SMS Delivery Delays from Twilio to Liberty Mobile Puerto Rico
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-02-24 04:24:08"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Liberty Mobile network subscribers in Puerto Rico. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

@@ -1,0 +1,9 @@
+version: incident/v1
+id: 4chgr12dtjqj
+name: Metrics are degraded
+impact: minor
+systems:
+    - k2zhkw7wryv2
+timeline:
+    - ts: "2026-02-24 04:33:56"
+      description: In some cases data is missing or lagging. We've identified the problem and are working on a fix.
