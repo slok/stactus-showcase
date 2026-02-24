@@ -11,3 +11,7 @@ timeline:
         We are investigating increased latency processing RUM data.
         As a result of this issue, some users may see gaps or delays in RUM graphs as well as empty or partial query results on RUM Sessions, RUM Analytics, RUM Application, and Error Tracking pages.
       investigating: true
+    - ts: "2026-02-24 05:29:47"
+      description: |-
+        We have identified the underlying issue and are working on a fix.
+        It is important to note that no data has been lost, and it will be backfilled and available once the service is operational again.
