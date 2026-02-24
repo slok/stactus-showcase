@@ -1,0 +1,10 @@
+version: incident/v1
+id: jdc2tftw8s5g
+name: Elevated errors and latency for R2 in WNAM
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-02-24 12:36:33"
+      description: Customers leveraging R2 in the Western North American region may experience increase latency and/or error rates.
+      investigating: true
