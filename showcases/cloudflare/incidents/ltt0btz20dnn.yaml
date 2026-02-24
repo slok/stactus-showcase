@@ -1,10 +1,13 @@
 version: incident/v1
 id: ltt0btz20dnn
 name: Unable to access Settings Page for Cloudflare Pages Projects
-impact: minor
+impact: none
 systems:
     - vgxj684rcw7t
 timeline:
     - ts: "2026-02-24 23:08:18"
       description: Cloudflare is aware of and investigating an issue where users are unable to access the settings page for Cloudflare Pages Projects, particularly when no repository is connected. We are working to analyze and resolve this problem. More updates to follow shortly.
       investigating: true
+    - ts: "2026-02-24 23:20:55"
+      description: We have determined this did not have user impact.
+      resolved: true
