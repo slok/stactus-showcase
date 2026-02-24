@@ -1,0 +1,10 @@
+version: incident/v1
+id: p3x3xdm5dfh5
+name: Some Alert Rule Evaluations Failing
+impact: major
+systems:
+    - 33nzwl8kffd6
+timeline:
+    - ts: "2026-02-24 14:31:23"
+      description: We are currently investigating an issue impacting a subset of users in the prod-us-east-0 region. Impacted customers will receive a "failed to execute query" error when evaluating alert rules.
+      investigating: true
