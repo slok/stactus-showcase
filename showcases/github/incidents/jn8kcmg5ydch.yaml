@@ -19,3 +19,6 @@ timeline:
     - ts: "2026-02-23 23:10:02"
       description: Customers using code search continue to see increased latency and timeout errors. We are working to mitigate issues on the affected shard.
       investigating: true
+    - ts: "2026-02-24 00:38:50"
+      description: We have identified a cause for the latency and timeouts and have implemented a fix. We are observing initial recovery now.
+      investigating: true
