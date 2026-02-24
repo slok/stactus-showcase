@@ -1,0 +1,15 @@
+version: incident/v1
+id: 5g4pfp1rrf8b
+name: Issues with Cloudflare Images
+impact: minor
+systems:
+    - 3lbj8lp3d750
+timeline:
+    - ts: "2026-02-24 01:29:29"
+      description: Cloudflare is investigating issues when transforming images from R2 buckets. Customers may see errors when serving transformations on free zones. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-02-24 01:52:06"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-02-24 01:56:56"
+      description: This incident has been resolved.
+      resolved: true
