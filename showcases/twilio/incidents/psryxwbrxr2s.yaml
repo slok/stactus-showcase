@@ -1,0 +1,10 @@
+version: incident/v1
+id: psryxwbrxr2s
+name: SMS Delivery Delays and Failures Between a subset of Twilio Long Codes and Multiple Networks in Chile
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-02-25 18:12:12"
+      description: Twilio customers may be experiencing SMS delivery delays and failures between a subset of Twilio Long Codes and network subscribers on multiple networks in Chile. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

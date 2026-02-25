@@ -1,0 +1,9 @@
+version: incident/v1
+id: dtt7mqb3zkxm
+name: Workers Cron Triggers not firing
+impact: none
+systems: []
+timeline:
+    - ts: "2026-02-25 18:31:19"
+      description: Cloudflare is aware of and has mitigated an issue which impacted Workers Cron Triggers not firing for some customers. This impacted some users from 17:54 to 18:18 UTC.
+      resolved: true
