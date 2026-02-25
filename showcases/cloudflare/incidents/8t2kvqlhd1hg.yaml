@@ -1,0 +1,12 @@
+version: incident/v1
+id: 8t2kvqlhd1hg
+name: Dashboard SSO Briefly Experienced Errors
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-25 14:32:20"
+      description: |-
+        For a brief period, logging into the Dashboard via SSO was resulting in an error for all users.
+
+        Impacted Services: Dashboard
+      resolved: true
