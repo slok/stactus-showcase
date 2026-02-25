@@ -10,3 +10,5 @@ timeline:
         We identified an issue with the incorrect URL endpoint being shown for traces ingestion in prod-eu-west-6 region (AWS Ireland). Using the displayed URL will result in traces not being able to be ingested. The AWS private link ingestion should work without issues though.
 
         The issue affects all tenants in this region and our team is in the process of deploying a fix to address this issue.
+    - ts: "2026-02-25 12:53:25"
+      description: The fix was deployed to all affected, already existing tenants. All newly created tenants will not face the issue as well. We're monitoring the incident, but it should be resolved by now.
