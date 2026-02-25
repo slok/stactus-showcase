@@ -13,3 +13,6 @@ timeline:
       investigating: true
     - ts: "2026-02-25 13:01:29"
       description: We have observed a recovery in SMS delivery from the United Kingdom to a subset of Twilio Long Codes and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-02-25 14:47:45"
+      description: We are no longer experiencing SMS delivery delays when sending messages to the United Kingdom to a subset of Twilio Long Codes. This incident has been resolved.
+      resolved: true

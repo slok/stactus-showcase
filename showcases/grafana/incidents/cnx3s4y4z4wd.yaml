@@ -1,0 +1,11 @@
+version: incident/v1
+id: cnx3s4y4z4wd
+name: Partial Write & Rule Evaluation Outage in prod-eu-west-3
+impact: major
+systems:
+    - 82s7r3tjyb6n
+    - 65sdf5lsflql
+timeline:
+    - ts: "2026-02-25 15:05:18"
+      description: We are currently investigating an issue which is causing a partial write, and rule evaluation outage in the specified region. We will continue to provide updates as they are available
+      investigating: true

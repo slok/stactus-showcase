@@ -1,0 +1,15 @@
+version: incident/v1
+id: s62xdxljxjq0
+name: Service Degradation with Zoom Virtual Agent.
+impact: minor
+systems:
+    - 4kh81f5m9fbm
+timeline:
+    - ts: "2026-02-25 15:00:12"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom virtual agent.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
