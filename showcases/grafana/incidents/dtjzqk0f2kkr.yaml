@@ -1,0 +1,12 @@
+version: incident/v1
+id: dtjzqk0f2kkr
+name: Grafana Cloud Traces prod-eu-west-6 region (AWS Ireland) wrong URL endpoint shown for traces ingestion.
+impact: major
+systems:
+    - kc4d59cc84z7
+timeline:
+    - ts: "2026-02-25 12:41:39"
+      description: |-
+        We identified an issue with the incorrect URL endpoint being shown for traces ingestion in prod-eu-west-6 region (AWS Ireland). Using the displayed URL will result in traces not being able to be ingested. The AWS private link ingestion should work without issues though.
+
+        The issue affects all tenants in this region and our team is in the process of deploying a fix to address this issue.
