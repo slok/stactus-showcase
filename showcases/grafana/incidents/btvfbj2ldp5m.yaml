@@ -1,0 +1,13 @@
+version: incident/v1
+id: btvfbj2ldp5m
+name: Issues Loading Dashboards and Alert Folders in Hosted Grafana
+impact: major
+systems:
+    - hbqgpzmf8h9k
+timeline:
+    - ts: "2026-02-25 17:44:42"
+      description: Some users may be experiencing issues loading dashboard and alert folders in Hosted Grafana. We will provide more information as it becomes available to us.
+      investigating: true
+    - ts: "2026-02-25 17:49:22"
+      description: While we work on narrowing down the scope, we can confirm that deployments in the prod-us-east-0 region are impacted.
+      investigating: true
