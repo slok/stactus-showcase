@@ -1,0 +1,32 @@
+version: incident/v1
+id: nw7n087r2qkp
+name: Grafana Cloud Faro slowness of listing and uploading sourcemaps in all regions.
+impact: minor
+systems:
+    - fv8mjxqsls0c
+    - 35qz76yfv9rv
+    - gqmwwczllvq5
+    - 0z4j4nzmq7hs
+    - ytxxc3znw5jw
+    - kzsv2pc2s30t
+    - n90lmkqjvtcf
+    - hkh69v8nwgz5
+    - 72qxjs1p29q7
+    - qf9z45tkj8s4
+    - kklwl18sstbm
+    - 00r5jb2jl7pt
+    - 0s84b5yjppwy
+    - cxvhcw6k5b06
+    - csppcd2xw8l1
+    - gz7h5z3g2fy0
+    - 19pbz44xbzcg
+    - 8wq67tm1cg31
+    - 8klb6l621gd7
+    - fn320fztp9hc
+    - vpb3frsm6q5h
+timeline:
+    - ts: "2026-02-26 13:00:06"
+      description: |-
+        We're experiencing an issue for all Grafana Cloud regions, which manifest in slowness when uploading and listing sourcemaps. The issue most significantly affects users who have a large sourcemap files.
+
+        We've identified the issue and our team is currently working on a fix.
