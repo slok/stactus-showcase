@@ -11,3 +11,7 @@ timeline:
         Symptoms: Users may encounter intermittent errors when making serverless inference requests via APIs and Agents.
         Current Status: Our engineering team is actively investigating the issue to determine the root cause.
       investigating: true
+    - ts: "2026-02-26 21:52:12"
+      description: |-
+        Fix deployed. Monitoring resources related to the Llama 3.3-70B.
+        Users should no longer experience intermittent errors when making serverless inference requests via APIs and Agents . Awaiting confirmation before closure.

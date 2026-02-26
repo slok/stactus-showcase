@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6mrm8hykwn1f
+name: Errors Uploading Custom Block Pages in Cloudflare Access
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-02-26 21:41:21"
+      description: Customers are currently unable to upload block pages in Cloudflare Access
+      investigating: true
