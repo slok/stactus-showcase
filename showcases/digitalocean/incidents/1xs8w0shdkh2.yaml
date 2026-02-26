@@ -15,3 +15,10 @@ timeline:
       description: |-
         Fix deployed. Monitoring resources related to the Llama 3.3-70B.
         Users should no longer experience intermittent errors when making serverless inference requests via APIs and Agents . Awaiting confirmation before closure.
+    - ts: "2026-02-26 22:23:32"
+      description: |-
+        Issue resolved.
+        Cause: A few requests made to the Llama 3.3-70B model caused issues.
+        Impact: Intermittent errors when interacting with the model through serverless inference and/or with agents created using this model.
+        Contact support if issues persist.
+      resolved: true
