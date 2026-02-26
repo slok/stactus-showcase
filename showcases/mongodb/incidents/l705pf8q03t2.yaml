@@ -1,0 +1,13 @@
+version: incident/v1
+id: l705pf8q03t2
+name: DataDog Integration Degraded Experience
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-02-26 19:21:05"
+      description: |-
+        We are currently experiencing degraded service with our DataDog integration for several DataDog regions. This may result in incomplete metrics, or issues with alerting for customers using the DataDog integration.
+
+        We are investigating this issue.
+      investigating: true
