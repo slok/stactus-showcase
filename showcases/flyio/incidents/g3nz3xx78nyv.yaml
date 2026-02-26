@@ -16,3 +16,8 @@ timeline:
       description: We've identified some newly created Managed Postgres clusters are failing to come up healthy in these regions.
     - ts: "2026-02-26 18:57:31"
       description: "We have added additional capacity in DFW and IAD regions and are monitoring the impact. \n\nNew machine  creates and deploys without volumes are seeing improved success rates. Deploys using depot builders in those regions are also improving, with much quicker builder start times.\n\nDeploys or machine starts using existing volumes in these regions may still hit a capacity issue.  Users should use `fly volume fork --vm-memory <size>` to fork the volume to a host with more capacity, then retry the deploy or start command using the new volume."
+    - ts: "2026-02-26 20:19:31"
+      description: |-
+        We're continuing to monitor after having added more capacity to our DFW and IAD regions.
+
+        Deploys or machine starts using existing volumes in these regions may still hit a capacity issue.  Users should use `fly volume fork --vm-memory <size>` to fork the volume to a host with more capacity, then retry the deploy or start command using the new volume.

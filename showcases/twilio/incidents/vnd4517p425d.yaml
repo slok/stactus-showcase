@@ -1,0 +1,12 @@
+version: incident/v1
+id: vnd4517p425d
+name: SMS Delivery Delays from a Subset of Twilio Short Codes to Union Telecom network in  United States
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2026-02-26 20:37:22"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to Union Telecom network subscribers in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-02-26 20:42:03"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to Union Telecom network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
