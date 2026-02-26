@@ -1,0 +1,14 @@
+version: incident/v1
+id: d5myb7yb0dm2
+name: Custom Error Pages Not Applying
+impact: minor
+systems:
+    - 4sfd950kf38n
+timeline:
+    - ts: "2026-02-26 22:41:19"
+      description: We are investigating an issue currently impacting the rendering of Custom Error Pages. Our team is working to identify the cause, and we will provide updates as they become available.
+      investigating: true
+    - ts: "2026-02-26 22:44:34"
+      description: We are aware of an issue currently impacting Custom Error Pages. The team is investigating and we’ll provide updates when we know more.
+    - ts: "2026-02-26 22:46:13"
+      description: Cloudflare is aware of a rare condition by which some Custom Error Pages are not being shown. A gradual resolution has been implemented.
