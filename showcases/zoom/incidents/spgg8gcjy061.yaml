@@ -1,11 +1,13 @@
 version: incident/v1
 id: spgg8gcjy061
-name: A subset of customers experiencing search delay for Zoom Docs/Zoom Hub/Zmail/File Service/Whiteboard Services/Zoom Marketplace/Shared Notes
+name: A subset of customers experiencing search delay for Zoom Docs/Zoom Hub/Zmail/File Service/Whiteboard Services/Zoom Marketplace/Shared Notes/Zoom Rooms/Zoom Workspace Reservation
 impact: minor
 systems:
+    - xtgr15yv6hbn
     - 03szj78zknyt
     - rmphw6f34qk9
     - 5nb7nq17c6g5
+    - qmwgsb4jbrst
     - 576m25cw4prj
     - tvtkg7hq9qdd
     - gtf6dl08hrk1
@@ -43,6 +45,14 @@ timeline:
         A subset of customers experiencing search delay for Zoom Docs/Zoom Hub/Zmail/File Service/Whiteboard Services/Zoom Marketplace/Shared Notes
 
         Our team continues to diligently work to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-02-26 22:04:44"
+      description: |-
+        A subset of customers experiencing search delay for Zoom Docs/Zoom Hub/Zmail/File Service/Whiteboard Services/Zoom Marketplace/Shared Notes/Zoom Rooms/Zoom Workspace Reservation
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
 
         We appreciate your patience as we work to resolve this issue.
       investigating: true

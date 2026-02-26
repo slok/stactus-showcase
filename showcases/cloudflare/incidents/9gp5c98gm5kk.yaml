@@ -1,0 +1,11 @@
+version: incident/v1
+id: 9gp5c98gm5kk
+name: Network Performance Issues in Vancouver datacenter (YVR)
+impact: none
+systems:
+    - 5141vc6fcrgp
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-02-26 22:05:53"
+      description: Cloudflare is investigating issues with Network Performance in Vancouver, Canada datacenter (YVR)
+      resolved: true
