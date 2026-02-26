@@ -30,3 +30,5 @@ timeline:
         We're experiencing an issue for all Grafana Cloud regions, which manifest in slowness when uploading and listing sourcemaps. The issue most significantly affects users who have a large sourcemap files.
 
         We've identified the issue and our team is currently working on a fix.
+    - ts: "2026-02-26 14:43:31"
+      description: Uploads should work without an issue now. However, listing might still result in occasional timeouts - we're actively addressing this problem.
