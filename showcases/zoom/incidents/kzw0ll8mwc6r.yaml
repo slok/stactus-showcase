@@ -1,0 +1,11 @@
+version: incident/v1
+id: kzw0ll8mwc6r
+name: Service degradation with Hebrew offline transcription for ZVA and Zoom Phone
+impact: minor
+systems:
+    - sxvjt0xxfnbs
+    - kvrj9x7kgp2b
+timeline:
+    - ts: "2026-02-26 16:20:49"
+      description: "We have successfully identified the root cause affecting Hebrew offline transcription for Zoom Virtual Agent and Zoom Phone.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \nThank you for your patience."
+      investigating: true

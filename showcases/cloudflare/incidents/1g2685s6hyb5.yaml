@@ -1,0 +1,20 @@
+version: incident/v1
+id: 1g2685s6hyb5
+name: Network Performance issues in Frankfurt, Germany
+impact: minor
+systems:
+    - rbnhbzgld936
+timeline:
+    - ts: "2026-02-26 16:13:25"
+      description: Some users in Frankfurt, Germany may experience increased latency or timeouts.
+      investigating: true
+    - ts: "2026-02-26 16:14:20"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-02-26 16:23:01"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-02-26 16:25:38"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-02-26 16:35:15"
+      description: This incident has been resolved.
+      resolved: true
