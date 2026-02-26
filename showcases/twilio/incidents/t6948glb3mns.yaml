@@ -1,0 +1,10 @@
+version: incident/v1
+id: t6948glb3mns
+name: Elevated rate of failures for messages towards the US Cell network
+impact: none
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2026-02-26 17:14:58"
+      description: Between 06:37 UTC 02/26/2026 & 15:48 UTC 02/26/2026 Twilio Short Code Customers saw an elevated rate of failures for messages towards the US Cell network. The issue is now resolved.
+      resolved: true

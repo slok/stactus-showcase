@@ -1,0 +1,17 @@
+version: incident/v1
+id: 7pxx131dr1qt
+name: App Platform Deployments
+impact: minor
+systems:
+    - txysr8r0gn1n
+timeline:
+    - ts: "2026-02-26 17:14:56"
+      description: |-
+        As of 14:30 UTC, our Engineering team is investigating reports of build failures on App Platform for customers using older version of the Node.js buildpack. Users may experience errors when attempting to build their applications, resulting in failed deployments.
+
+        Our Engineering team is working to fix the issue and will share an update once we have more information. In the meantime, as a workaround, we recommend that customers upgrade to the latest version of Node.js build packs. This may help to resolve the build failures and allow for successful deployments. To upgrade, please follow the instructions outlined here:
+
+        https://docs.digitalocean.com/products/app-platform/how-to/migrate-nodejs-buildpack/
+
+        We apologize for the inconvenience this issue may be causing and appreciate your patience as we work to resolve it.
+      investigating: true

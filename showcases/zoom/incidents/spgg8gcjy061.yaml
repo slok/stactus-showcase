@@ -1,0 +1,27 @@
+version: incident/v1
+id: spgg8gcjy061
+name: A subset of customers experiencing search delay for Zoom Docs/Zoom Hub/Zmail/File service/Whiteboard services
+impact: minor
+systems:
+    - 03szj78zknyt
+    - 5nb7nq17c6g5
+    - 576m25cw4prj
+    - gtf6dl08hrk1
+    - 2twszjk8b2jy
+timeline:
+    - ts: "2026-02-26 17:20:16"
+      description: |-
+        A subset of customers experiencing search delay for Zoom Docs/Zoom Hub/Zmail/File service/Whiteboard services
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-02-26 17:28:11"
+      description: |-
+        A subset of customers experiencing search delay for Zoom Docs/Zoom Hub/Zmail/File service/Whiteboard services
+
+        Our team continue to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true

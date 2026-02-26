@@ -3,6 +3,7 @@ id: g3nz3xx78nyv
 name: Capacity isssues in iad and dfw
 impact: none
 systems:
+    - nv3vps27z635
     - ffsz24mbcxfz
     - 3y5pzyxr1cbz
     - qyh8qlklk7mx
@@ -11,3 +12,5 @@ timeline:
       description: We have identified the problem and are working on a fix.
     - ts: "2026-02-26 17:05:46"
       description: New machine creates in these regions might fail temporarily, and Depot builders may be unavailable. If you are having issues with Depot builders, consider moving them to a different region, or try `--depot=false`.
+    - ts: "2026-02-26 17:18:49"
+      description: We've identified some newly created Managed Postgres clusters are failing to come up healthy in these regions.
