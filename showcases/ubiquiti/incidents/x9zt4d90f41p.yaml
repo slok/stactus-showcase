@@ -1,0 +1,14 @@
+version: incident/v1
+id: x9zt4d90f41p
+name: Intermittent Connectivity in EU Region
+impact: none
+systems:
+    - f4txj806xph9
+    - 50j8z65sq9pt
+timeline:
+    - ts: "2026-02-26 17:41:10"
+      description: The issue has been identified.
+    - ts: "2026-02-26 17:41:36"
+      description: We are observing intermittent connectivity affecting some EU ISPs, impacting access to unifi.ui.com. We are closely monitoring the situation. Connectivity is expected to return to normal as regional network conditions recover.
+    - ts: "2026-02-26 17:42:17"
+      description: We are continuing to work on a fix for this issue.
