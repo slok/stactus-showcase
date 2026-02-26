@@ -1,0 +1,13 @@
+version: incident/v1
+id: g3nz3xx78nyv
+name: Capacity isssues in iad and dfw
+impact: none
+systems:
+    - ffsz24mbcxfz
+    - 3y5pzyxr1cbz
+    - qyh8qlklk7mx
+timeline:
+    - ts: "2026-02-26 17:00:53"
+      description: We have identified the problem and are working on a fix.
+    - ts: "2026-02-26 17:05:46"
+      description: New machine creates in these regions might fail temporarily, and Depot builders may be unavailable. If you are having issues with Depot builders, consider moving them to a different region, or try `--depot=false`.

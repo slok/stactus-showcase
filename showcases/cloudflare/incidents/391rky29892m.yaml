@@ -1,7 +1,7 @@
 version: incident/v1
 id: 391rky29892m
 name: Newark (EWR) Datacenter Increase in HTTP Request latency
-impact: minor
+impact: none
 systems:
     - grpnztl4pd46
     - rppy995xymxv
@@ -28,3 +28,5 @@ timeline:
       description: We are continuing to work on a fix for this issue.
     - ts: "2026-02-26 10:12:43"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-02-26 17:08:10"
+      description: We are continuing to monitor for any further issues.
