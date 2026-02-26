@@ -1,0 +1,13 @@
+version: incident/v1
+id: 1xs8w0shdkh2
+name: Intermittent Errors with Llama 3.3-70B
+impact: minor
+systems:
+    - br95fz33h6td
+timeline:
+    - ts: "2026-02-26 19:38:23"
+      description: |-
+        We are currently investigating an issue affecting the Llama 3.3-70B model.
+        Symptoms: Users may encounter intermittent errors when making serverless inference requests via APIs and Agents.
+        Current Status: Our engineering team is actively investigating the issue to determine the root cause.
+      investigating: true
