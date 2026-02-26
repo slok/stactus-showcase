@@ -1,0 +1,13 @@
+version: incident/v1
+id: h9mms36bdtnz
+name: Issues displaying system metrics
+impact: critical
+systems:
+    - 3218pv5ggw0q
+    - xw42ff1v5rmm
+    - 4s2tjjrhf4d5
+    - yfp2yt5fx9cn
+timeline:
+    - ts: "2026-02-26 06:18:12"
+      description: We are currently investigating an issue affecting the display of system metrics on statuspages.
+      investigating: true
