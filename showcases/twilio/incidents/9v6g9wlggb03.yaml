@@ -12,3 +12,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery failures from a subset of Twilio Long Codes to Shelcomm network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
     - ts: "2026-02-26 02:25:49"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Long Codes to Shelcomm network subscribers in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-02-26 04:04:09"
+      description: We no longer experience SMS delivery failures from a subset of Twilio Long Codes to Shelcomm network subscribers in the United States. This incident has been resolved.
+      resolved: true
