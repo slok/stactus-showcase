@@ -1,0 +1,12 @@
+version: incident/v1
+id: kv1lzpgzr9yp
+name: Code view fails to load when content contains some non-ASCII characters
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-27 03:08:23"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-02-27 03:28:00"
+      description: We are looking into recent code changes to mitigate the error loading some code view pages.
+      investigating: true
