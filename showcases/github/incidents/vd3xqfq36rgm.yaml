@@ -1,0 +1,16 @@
+version: incident/v1
+id: vd3xqfq36rgm
+name: High latency on webhook API requests
+impact: minor
+systems:
+    - 4230lsnqdsld
+timeline:
+    - ts: "2026-02-27 00:01:45"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-02-27 00:02:16"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-02-27 00:04:01"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
