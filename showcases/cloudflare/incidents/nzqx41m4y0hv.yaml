@@ -9,3 +9,6 @@ timeline:
     - ts: "2026-02-27 17:21:45"
       description: "Cloudflare is investigating issues creating API tokens that result in a \"1001: Failed common permission check against resources\" error. \n\nThis specifically impacts token creation attempts that include the Zero Trust Write permission group for accounts where the token owner is not a Super Admin. API token creation for users with Super Admin privileges or payloads excluding this specific permission group remain unaffected.\n\nWe will provide further updates as soon as more information is available."
       investigating: true
+    - ts: "2026-02-27 20:05:13"
+      description: This incident has been resolved.
+      resolved: true
