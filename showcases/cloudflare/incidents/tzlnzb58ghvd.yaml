@@ -1,0 +1,13 @@
+version: incident/v1
+id: tzlnzb58ghvd
+name: Cloudflare Peering Portal Authentication Issue
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-27 02:27:42"
+      description: |-
+        Cloudflare is aware of, and investigating an issue which impacts multiple customers/peers who use peering.cloudflare.com. This issue does not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+
+        Authentication to peering.cloudflare.com is currently affected due to an outage with our third party authentication provider.
+
+        Further detail will be provided as more information becomes available.
