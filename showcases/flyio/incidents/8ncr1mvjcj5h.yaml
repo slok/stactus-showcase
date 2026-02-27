@@ -34,3 +34,6 @@ timeline:
         We are working through a backlog of background jobs. New app / organization creations and other other operations that use these will continue to see increased latency or failures while we work thorough these. New MPG cluster and new Sprite creation continues to be impacted.
     - ts: "2026-02-27 20:05:40"
       description: "API and platform operations have normalized. We are continuing to monitor to ensure full and stable recovery. \n\nBackground jobs are almost fully caught up. Users may still see slightly slower requests creating new apps / orgs, but they should complete successfully.\n\nSprite and MPG cluster creations are processing as normal."
+    - ts: "2026-02-27 20:21:51"
+      description: This incident has been resolved. All platform and API operations are working normally.
+      resolved: true
