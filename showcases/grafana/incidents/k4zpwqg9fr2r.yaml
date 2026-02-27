@@ -1,0 +1,16 @@
+version: incident/v1
+id: k4zpwqg9fr2r
+name: Increased Latency for Small Subset of Customers
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-27 16:25:16"
+      description: |-
+        A recent rollout caused the AuthZ (RBAC) service to perform many redundant folder-tree fetches for each authorization check. For a small number of tenants in the prod-us-east-0 and prod-eu-west-2 regions with very large folder trees. This added a few milliseconds to every check, which increased request latency.
+
+        The approximate timeframe of the impact is:
+
+        2026-02-26 17:24:43 UTC to 2026-02-27 14:33:53 UTC.
+
+        This has now been resolved.
+      resolved: true
