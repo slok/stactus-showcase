@@ -1,0 +1,10 @@
+version: incident/v1
+id: ybx14rhks0fp
+name: Cloudflare One Network Services - Magic Tunnels control plane is down
+impact: critical
+systems:
+    - bjlxcss20fsl
+    - qgnxz00j1f2v
+timeline:
+    - ts: "2026-02-27 23:32:50"
+      description: The conduit-api which is the control plane for configuring IPSec/GRE/CNI tunnels for Cloudflare One Network Services' or Magic transit, Magic WAN services' tunnels is currently down. Any new magic tunnel creation, updates to current tunnels will fail. Route reprioritization would not be impacted. All Magic-related UI is impacted as well (tunnels, interconnects, network overview, network health).

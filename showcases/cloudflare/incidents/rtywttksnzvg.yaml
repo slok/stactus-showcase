@@ -1,0 +1,9 @@
+version: incident/v1
+id: rtywttksnzvg
+name: Increased HTTP 520 Errors in Newark, New Jersey datacenter (EWR)
+impact: none
+systems: []
+timeline:
+    - ts: "2026-02-27 23:26:10"
+      description: Between 17:37 and 21:15 UTC, Cloudflare observed an elevated rate of HTTP 520 errors affecting traffic in Newark, New Jersey datacenter (EWR). After investigation, a fix was applied to mitigate the issue.
+      resolved: true
