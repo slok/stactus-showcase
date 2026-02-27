@@ -14,3 +14,9 @@ timeline:
     - ts: "2026-02-27 23:35:19"
       description: We are investigating networking issues with some requests to our models.
       investigating: true
+    - ts: "2026-02-27 23:45:42"
+      description: We have identified the cause of the elevated errors and are rolling out a fix to production. We are observing initial recovery in Copilot agent sessions.
+      investigating: true
+    - ts: "2026-02-27 23:49:05"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
