@@ -1,9 +1,12 @@
 version: incident/v1
 id: yv3y6xrkxpjm
-name: On Call Engineers are Investigating an issue with Account deletions involving shared A2P 10dlc Brands with other accounts
+name: 'Automated Alert: No Customer Impact'
 impact: none
 systems: []
 timeline:
     - ts: "2026-02-27 21:43:50"
       description: We have identified an issue impacting Account deletions involving shared A2P 10dlc Brands with other accounts. Until we post an update, please refrain from deleting accounts if they have brands shared with other accounts.
       investigating: true
+    - ts: "2026-02-27 22:36:10"
+      description: We have fully investigated the issue impacting account deletions involving shared A2P 10dlc Brands with other accounts, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
