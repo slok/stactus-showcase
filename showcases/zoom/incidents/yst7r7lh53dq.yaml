@@ -1,0 +1,21 @@
+version: incident/v1
+id: yst7r7lh53dq
+name: Service degradation affecting report generation on the Zoom Dashboard.
+impact: minor
+systems:
+    - cn1j8pttz0wy
+timeline:
+    - ts: "2026-02-27 03:52:51"
+      description: |-
+        We are currently investigating a service degradation affecting generate or download report from Zoom Dashboard.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-02-27 04:08:24"
+      description: |-
+        We have successfully identified the root cause affecting generate or download report from Zoom Dashboard.
+
+        Our team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.
+
+        Thank you for your patience.
