@@ -1,0 +1,11 @@
+version: incident/v1
+id: nd8py5j6t30z
+name: Capacity issues in iad and dfw
+impact: minor
+systems:
+    - 49yq6v65b33l
+timeline:
+    - ts: "2026-02-27 15:34:00"
+      description: |-
+        These regions (Dallas, TX dfw and Ashburn, VA iad) are currently low on capacity. New machine creates in these regions might fail temporarily, and Depot builders may be unavailable, causing deploys to hang in "Waiting for Depot builder".
+        If you are having issues with Depot builders, consider moving them to a different non-iad, non-dfw region in your fly.io dashboard's "Settings" page under "App builders", or try `--depot=false`.
