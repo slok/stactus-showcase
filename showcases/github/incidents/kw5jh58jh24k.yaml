@@ -1,0 +1,13 @@
+version: incident/v1
+id: kw5jh58jh24k
+name: Incident with Copilot agent sessions
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-02-27 23:18:12"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2026-02-27 23:18:36"
+      description: We are investigating a spike in errors in Copilot agent sessions
+      investigating: true
