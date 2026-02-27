@@ -1,0 +1,12 @@
+version: incident/v1
+id: 2js3wb445jm0
+name: Potential service degradation in South America datacenters
+impact: minor
+systems:
+    - 2htqrtyxmmtr
+    - wg0b1zzm2f2w
+    - dkc0m9hg3dp3
+timeline:
+    - ts: "2026-02-27 21:54:40"
+      description: Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers and services in South America which includes datacenters located in Chile. Further detail will be provided as more information becomes available.
+      investigating: true
