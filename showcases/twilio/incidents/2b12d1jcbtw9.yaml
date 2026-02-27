@@ -1,6 +1,6 @@
 version: incident/v1
 id: 2b12d1jcbtw9
-name: AccSec SNA and Gateway API Failure Increase in T-Mobile US
+name: User Authentication Identity SNA and Gateway API Errors for T-Mobile in United States
 impact: minor
 systems:
     - trrz5ztt7pl8
@@ -11,3 +11,5 @@ timeline:
     - ts: "2026-02-27 16:39:19"
       description: Twilio customers may be experiencing User Authentication Identity SNA and Gateway API failure increases in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-02-27 18:31:30"
+      description: We have observed a recovery in User Authentication Identity for T-Mobile in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
