@@ -9,3 +9,6 @@ systems:
 timeline:
     - ts: "2026-02-27 19:08:47"
       description: Our engineers have identified an issue, customers using taskrouter and flex would have delays in routing of calls and messages to agents. Insights data in taskrouter and flex insights may be incomplete. We working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-02-27 19:18:49"
+      description: We have fully investigated the issue regarding customers using taskrouter and flex would have delays in routing of calls and messages to agents and have now resolved the issue.
+      resolved: true
