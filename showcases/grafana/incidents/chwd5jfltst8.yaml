@@ -1,0 +1,32 @@
+version: incident/v1
+id: chwd5jfltst8
+name: Trace querying issue in all Tempo clusters
+impact: minor
+systems:
+    - dl02wr0yw2p0
+    - 36qk48w0m0zb
+    - r373pr6j4m8g
+    - hp6lb56782c9
+    - s6y4n77rfpj2
+    - ffzvv723s0q8
+    - 22ys7hx3f2xw
+    - 2smqz5gmhtq7
+    - q8160vpq47xz
+    - ctqprgdj7scn
+    - 2ryg39v5zpqj
+    - zq01gnnnsqsd
+    - hrz0zytmsvzw
+    - qnthhwhwm4lt
+    - b9t8x3b43vyr
+    - z2x4pmp3hqq2
+    - d8jx77r80mb4
+    - f31l4xz41q8t
+    - kyyy438yhc9h
+    - 9xz0880z67zl
+    - 6prz8xx323ym
+    - 5r0fnpc11np4
+    - kc4d59cc84z7
+timeline:
+    - ts: "2026-02-27 13:46:15"
+      description: We're currently working on an issue where portions of data may be temporarily unretrievable, affecting a small percentage of tenants in all Tempo clusters.
+      investigating: true
