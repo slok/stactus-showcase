@@ -15,3 +15,11 @@ timeline:
 
         We apologize for the inconvenience this issue may be causing and appreciate your patience as we work to resolve it.
       investigating: true
+    - ts: "2026-02-27 04:55:52"
+      description: |-
+        Our Engineering team has confirmed that the issue impacting build failures on App Platform has been resolved. Between approximately 14:30 UTC on the 26th and 00:01 UTC on the 27th, users may have experienced errors when attempting to build or deploy applications using older versions of the Node.js buildpack. A fix has been implemented, and build and deployment operations have been restored to normal.
+
+        All App Platform builds are now succeeding as expected. Customers who previously encountered build failures should now be able to deploy their applications without further issues.
+
+        If you continue to experience any problems, please open a ticket with our support team. Thank you for your patience, and we apologize for any inconvenience.
+      resolved: true
