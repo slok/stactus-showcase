@@ -12,3 +12,5 @@ timeline:
     - ts: "2026-02-26 16:23:32"
       description: We have begun rolling out mitigation steps to reduce write latency in the prod-us-central-0 and prod-us-central-5 regions. While these measures are expected to improve performance, we are continuing to investigate the underlying root cause of the issue. We will provide additional updates as more information becomes available.
       investigating: true
+    - ts: "2026-02-27 14:55:11"
+      description: We've implemented mitigation in place and are continuing to monitoring and investigating this issue.
