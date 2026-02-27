@@ -1,0 +1,16 @@
+version: incident/v1
+id: cnlkjjh22z3f
+name: Cloudflare is investigating dashboard login issues
+impact: minor
+systems:
+    - g4tb35rs9yw7
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-02-27 10:03:33"
+      description: Cloudflare is investigating issues with Cloudflare Dashboard and related APIs. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed.
+      investigating: true
+    - ts: "2026-02-27 10:05:01"
+      description: The issue has been identified, and a fix is being implemented
+    - ts: "2026-02-27 10:09:37"
+      description: This incident has been resolved.
+      resolved: true
