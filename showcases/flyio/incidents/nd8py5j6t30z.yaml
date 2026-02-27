@@ -11,3 +11,6 @@ timeline:
         If you are having issues with Depot builders, consider moving them to a different non-iad, non-dfw region in your fly.io dashboard's "Settings" page under "App builders", or try `--depot=false`.
     - ts: "2026-02-27 17:31:22"
       description: We have provisioned additional capacity in dfw and iad and are monitoring to ensure machine and builder starts are succeeding consistently.
+    - ts: "2026-02-27 17:54:43"
+      description: This incident has been resolved.
+      resolved: true
