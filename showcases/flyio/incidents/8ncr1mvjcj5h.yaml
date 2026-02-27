@@ -1,0 +1,27 @@
+version: incident/v1
+id: 8ncr1mvjcj5h
+name: Slow API requests
+impact: major
+systems:
+    - 66r6rhq3hn9n
+    - 80ykv2p95qgy
+    - 49yq6v65b33l
+    - ffsz24mbcxfz
+    - gfjxlcdf8bf4
+timeline:
+    - ts: "2026-02-27 18:50:43"
+      description: |-
+        We are investigating increased in API request latency and timeouts with the main platform API.
+         This is impacting multiple operations, including creating, querying or performing actions against machines, as well as platform level operations like adding payment methods.
+      investigating: true
+    - ts: "2026-02-27 18:52:28"
+      description: |-
+        We have identified the cause of the increased latency and are working on a fix.
+
+        The most common errors we are seeing is timeouts when users attempt to perform an action against a newly created app / machine resource. Those may timeout or fail with an `app|machine not found` error
+    - ts: "2026-02-27 18:53:41"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-02-27 18:59:12"
+      description: New Sprite creations are also timing out or failing at this time. We are continuing to work on a fix for this issue.
+    - ts: "2026-02-27 19:05:14"
+      description: "We are currently seeing full API failures for requests to our Graphql API and elevated failures for the machines API. Direct calls to these apis may fail, along with many flyctl commands. \n\nWe have identified the cause of the issue and are continuing to work on a fix. \n\nExisting running machines and apps should continue to be reachable, but creates, deploys, or other features relying on platform API calls will fail at this time."

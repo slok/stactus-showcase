@@ -3,11 +3,14 @@ id: s894gcrd8ybt
 name: Elevated Error Rates in Connect App
 impact: minor
 systems:
-    - 6cn0g627h62p
+    - g4hs7h64k9fv
 timeline:
     - ts: "2026-02-27 18:36:44"
       description: Our monitoring systems have detected a potential issue with increased traffic. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
     - ts: "2026-02-27 18:39:49"
       description: We are currently investigating increased error rates affecting the Connect App. Customers may experience potential errors when using the application. Our engineering teams have identified a drop in success rates due to elevated traffic and are actively working to mitigate the impact. We will provide update in 1 hour or as more information becomes available. Thank you for your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-02-27 18:49:29"
+      description: We are continuing to investigate this issue.
       investigating: true

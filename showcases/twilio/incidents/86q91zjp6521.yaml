@@ -1,10 +1,12 @@
 version: incident/v1
 id: 86q91zjp6521
-name: On Call Engineers Are Investigating an Issue With Registering New Campaigns From the Twilio Console
+name: Unable to Create Campaigns via Console
 impact: minor
 systems:
-    - 6cn0g627h62p
+    - yvvy3vlp4djf
 timeline:
     - ts: "2026-02-27 18:26:12"
       description: Our monitoring systems have detected a potential issue with registering new campaigns from the Twilio console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
       investigating: true
+    - ts: "2026-02-27 19:12:47"
+      description: 'We are experiencing Issues when creating new campaigns for accounts and subaccounts via Console. Error is displayed: "There was an error while processing your request, please try again. Error details: undefined." Our engineers are working internally to resolve this issue. We expect to provide another update in 1 hour or as soon as more information becomes available.'

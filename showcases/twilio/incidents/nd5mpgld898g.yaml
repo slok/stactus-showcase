@@ -1,0 +1,11 @@
+version: incident/v1
+id: nd5mpgld898g
+name: Customers Using TaskRouter and Flex Would Have Delays in Routing of Calls and Messages to Agents. Insights Data in TaskRouter and Flex Insights May Be Incomplete.
+impact: minor
+systems:
+    - lv1md8v28lhr
+    - vxjqr22fbl36
+    - b9z92qjr2p04
+timeline:
+    - ts: "2026-02-27 19:08:47"
+      description: Our engineers have identified an issue, customers using taskrouter and flex would have delays in routing of calls and messages to agents. Insights data in taskrouter and flex insights may be incomplete. We working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
