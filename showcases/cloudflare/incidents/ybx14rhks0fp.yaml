@@ -1,10 +1,13 @@
 version: incident/v1
 id: ybx14rhks0fp
 name: Magic Transit Control Plane Issues
-impact: critical
+impact: none
 systems:
     - bjlxcss20fsl
     - qgnxz00j1f2v
 timeline:
     - ts: "2026-02-27 23:32:50"
       description: "Cloudflare is investigating issues with the Magic Transit and Cloudflare WAN control plane. Customers may be unable to make configuration changes to GRE/IPsec tunnels, CNI connections or routing policies via the Dashboard or API. \n\nExisting Magic Transit and Cloudflare WAN tunnel configurations and traffic forwarding are operating normally. This issue does not affect the data plane - active tunnels and health checks continue to function.\n\nWe are working to mitigate this problem. More updates to follow shortly."
+    - ts: "2026-02-28 00:38:49"
+      description: This incident has been resolved.
+      resolved: true
