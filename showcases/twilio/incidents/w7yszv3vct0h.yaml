@@ -1,0 +1,10 @@
+version: incident/v1
+id: w7yszv3vct0h
+name: SMS Delivery Delays and Failures from Twilio to MTS Kazakhstan
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-02-28 11:09:56"
+      description: We are experiencing SMS Delivery Delays and Failures to MTS Network in Kazakhstan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
