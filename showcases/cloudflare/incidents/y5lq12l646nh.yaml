@@ -1,0 +1,16 @@
+version: incident/v1
+id: y5lq12l646nh
+name: Increased traffic and elevated 5xx errors in Salt Lake City, US region
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-28 11:01:18"
+      description: |-
+        Cloudflare is aware and has already mitigated an increased level of errors in our data centers in the Salt Lake City area.
+
+        This may have impacted customers web site visitors in the region for about 15 minutes each time, in these timestamps:
+
+        23/02 - 03:30 UTC
+        26/02 - 03:45 UTC
+        27/02 - 06:25 UTC
+      resolved: true
