@@ -1,0 +1,9 @@
+version: incident/v1
+id: ct0pn2kwtfn1
+name: Elevated 500 error rate on Cache Purge API requests
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-02-28 12:02:23"
+      description: Cloudflare investigated and mitigated an issue that caused customers on Europe, Middle East, Africa and western Asia Pacific regions to observe a higher 500 error rate  on Cache Purge API requests from 10:35 to 11:00 today.
+      resolved: true
