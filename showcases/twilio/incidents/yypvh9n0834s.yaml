@@ -13,3 +13,6 @@ timeline:
       investigating: true
     - ts: "2026-02-28 04:35:21"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Phone Numbers to network subscribers on multiple networks in India and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-02-28 06:24:27"
+      description: We are no longer experiencing SMS delivery delays and failures from Twilio Phone Numbers to networks in India. This incident has been resolved.
+      resolved: true
