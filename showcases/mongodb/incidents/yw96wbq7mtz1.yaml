@@ -1,0 +1,10 @@
+version: incident/v1
+id: yw96wbq7mtz1
+name: 'MongoDB App Services: Connectivity issues'
+impact: major
+systems:
+    - crrq7qqlqfsh
+timeline:
+    - ts: "2026-02-28 19:53:36"
+      description: We are currently investigating an issue with Atlas App Services Device Sync. Affected users of this deprecated service may see SSL validation errors. We will update this post with more details as they become available.
+      investigating: true
