@@ -1,7 +1,7 @@
 version: incident/v1
 id: nm7zsjzv8kd2
 name: Continued issues with presence and DM delivery
-impact: none
+impact: major
 systems:
     - x7rnz0t7dpnp
 timeline:
@@ -10,3 +10,7 @@ timeline:
       investigating: true
     - ts: "2026-02-28 22:28:06"
       description: We are currently investigating this issue. Restarting your sessions *should* fix it but existing sessions may have not be seeing new DMs
+    - ts: "2026-02-28 22:42:41"
+      description: This is actually a continuation of the incident from earlier today, which we marked "resolved" in error. We have now identified and are remediating the issue
+    - ts: "2026-02-28 22:51:20"
+      description: A fix has been implemented and we are monitoring the results.
