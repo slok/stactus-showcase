@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1h9mv91p8nps
+name: SMS Delivery Delays from Twilio to MobiFone Vietnam
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-02-28 16:27:23"
+      description: We are experiencing SMS delivery delays when sending messages to MobiFone network subscribers in Vietnam. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
