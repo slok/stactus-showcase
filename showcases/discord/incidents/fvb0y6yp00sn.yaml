@@ -1,0 +1,10 @@
+version: incident/v1
+id: fvb0y6yp00sn
+name: possible issues with presence and DM delivery
+impact: minor
+systems:
+    - x7rnz0t7dpnp
+timeline:
+    - ts: "2026-02-28 14:39:39"
+      description: you may need to refresh your client to see new DM messages. We are working on identifying the extent of the issue
+      investigating: true
