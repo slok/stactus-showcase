@@ -1,0 +1,23 @@
+version: incident/v1
+id: 7g5qmxgkc2y4
+name: Delayed Cluster Operations – AWS me-central-1 (United Arab Emirates)
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-03-01 13:48:14"
+      description: |-
+        Impact: Some Atlas customers with deployments in the AWS me-central-1 (United Arab Emirates) region may experience delays in cluster operations (for example, creating, scaling, or modifying clusters and infrastructure-level maintenance tasks).
+
+        Root cause: AWS is reporting connectivity and power issues affecting APIs and instances in a single Availability Zone in the me-central-1 Region, which can cause increased errors and latency for some AWS services and workflows. For the latest details from AWS, see the AWS Health Dashboard.
+
+        What you might see:
+        - Cluster create/scale/modify operations remaining in a pending or in-progress state longer than usual
+        - Slower completion of some maintenance and infrastructure operations in the affected region
+
+        Our actions:
+        - Monitoring the AWS incident and Atlas fleet behavior in me-central-1
+
+        Customer action: No action is required at this time. We expect delayed operations to complete as AWS resolves the underlying issue. If you have time-sensitive changes that are blocked and need urgent assistance, please contact MongoDB Support.
+
+        Next update: We will provide updates on this page as AWS progresses mitigation or if we observe any change in impact to Atlas customers.
