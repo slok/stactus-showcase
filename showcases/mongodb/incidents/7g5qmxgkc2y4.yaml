@@ -26,3 +26,8 @@ timeline:
         Update: One or more instances backing MongoDB Atlas clusters in the AWS ME-CENTRAL-1 (United Arab Emirates) region may have been temporarily unavailable due to an underlying AWS issue in a single Availability Zone . According to AWS, a localized power issue in this Availability Zone has affected connectivity and power for some APIs and instances, and may have caused increased errors, latency, or unavailability for certain workloads. For the latest information from AWS, see the AWS Health Dashboard.
 
         We continue to closely monitor Atlas deployments in ME-CENTRAL-1 and will provide additional updates if we observe any further impact to Atlas customers.
+    - ts: "2026-03-01 19:30:04"
+      description: |-
+        Update: We are continuing to monitor an ongoing issue in AWS me-central-1 (United Arab Emirates) caused by an underlying AWS infrastructure disruption isolated to a single Availability Zone. Please visit the AWS Health Dashboard for detailed information on the Availability Zone outage (https://health.aws.amazon.com/health/status).
+
+        If you have time-sensitive changes that are blocked and need urgent assistance, please contact MongoDB Support.
