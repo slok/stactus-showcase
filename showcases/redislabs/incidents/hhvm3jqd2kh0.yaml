@@ -7,3 +7,6 @@ timeline:
     - ts: "2026-03-01 14:33:58"
       description: "Type - network issues \nStatus - investigating  \n\nWe are aware of an ongoing AWS service disruption impacting an availability zone within the me-east-1 region (zone ID: mec1az2). This zone may appear under different availability zone names across AWS accounts. As a result, some Redis Cloud clusters located in this zone may experience connectivity issues, increased latency, or temporary service interruptions.\n\nOur teams are actively tracking the situation and working closely with AWS as they work toward full service restoration. We will continue to share updates as more information becomes available.\n\nIf you have any questions or are experiencing issues, please contact our Support team."
       investigating: true
+    - ts: "2026-03-01 16:59:47"
+      description: "Update-\n\nAWS is actively working to restore service following an ongoing disruption affecting an availability zone in the me-east-1 region (zone ID: mec1az2).\n\nSome Redis Cloud clusters in this zone may continue to experience connectivity issues or increased latency while recovery is in progress. \nWe will provide additional updates as more information becomes available.\n\nFor further assistance, please contact our Support team."
+      investigating: true
