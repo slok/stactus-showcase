@@ -1,0 +1,9 @@
+version: incident/v1
+id: hhvm3jqd2kh0
+name: AWS me-central-1 Zone Issue
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-01 14:33:58"
+      description: "Type - network issues \nStatus - investigating  \n\nWe are aware of an ongoing AWS service disruption impacting an availability zone within the me-east-1 region (zone ID: mec1az2). This zone may appear under different availability zone names across AWS accounts. As a result, some Redis Cloud clusters located in this zone may experience connectivity issues, increased latency, or temporary service interruptions.\n\nOur teams are actively tracking the situation and working closely with AWS as they work toward full service restoration. We will continue to share updates as more information becomes available.\n\nIf you have any questions or are experiencing issues, please contact our Support team."
+      investigating: true
