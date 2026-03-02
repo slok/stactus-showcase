@@ -1,0 +1,12 @@
+version: incident/v1
+id: sx5zh206myxg
+name: 'MongoDB Atlas: Email notifications may be failing'
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-03-02 15:50:09"
+      description: |-
+        We are currently investigating this issue.
+        Some users may not be receiving emails from MongoDB. We are looking into the cause and will provide an update as soon as we know more.
+      investigating: true
