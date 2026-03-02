@@ -60,3 +60,32 @@ timeline:
         We recognize the severity of this situation and the impact it may have on your workloads. The situation continues to evolve, and we are closely monitoring AWS status and regional health signals. We are validating Atlas behavior across affected and unaffected regions, and working to mitigate customer impact where possible.
 
         We will provide further updates as circumstances continue to change.
+    - ts: "2026-03-02 19:58:09"
+      description: |-
+        CURRENT IMPACT
+
+        According to AWS, two Availability Zones in me-central-1 (UAE) and one Availability Zone in me-south-1 (Bahrain) continue to experience impairments. The latest information from AWS is available at: https://health.aws.amazon.com/health/status.
+
+        AWS is currently experiencing infrastructure impairments in two Middle East regions:
+        * ME-CENTRAL-1 (Middle East – Central): Two Availability Zones are impaired due to an underlying power and facilities issue. This is resulting in elevated error rates and latency across several AWS services. Recovery is currently expected to take at least a day, per AWS.
+        * ME-SOUTH-1 (Middle East – Bahrain): A single Availability Zone is experiencing a localized power issue. While some services have shifted traffic to unaffected Availability Zones, resources deployed in the impacted zone may continue to experience availability issues, elevated error rates, or extended recovery timelines. Recovery is also currently expected to take at least a day.
+
+        Because MongoDB Atlas runs on AWS infrastructure, Atlas clusters deployed in the affected Availability Zones may be unavailable or experience operational impact, and certain Atlas management operations (including the Atlas UI, API, and CLI) may show increased error rates during this time.
+
+        The impact of these events depends on your Atlas cluster topology and configuration:
+        * Customers using multi–region deployments, global clusters, or replicas located in unaffected Availability Zones or regions may see little to no impact.
+        * Customers with clusters or workloads primarily located in the affected Availability Zones may experience reduced availability or degraded performance.
+        * Clusters deployed entirely in unaffected Availability Zones or outside the impacted regions are operating normally.
+
+        AVAILABLE OPTIONS
+
+        Depending on your application requirements and cluster configuration, you may consider the following options:
+        1. Move the cluster to another region that is not impacted.
+        2. Add electable nodes in another region, which can enable the cluster to establish a minimum viable topology and restore database operations.
+        3. Take no action and wait for the affected Availability Zones to be fully recovered.
+
+        HOW TO GET HELP
+
+        If you would like assistance assessing how these events may affect your Atlas deployment, our support team is available:
+        * Open a support case through the MongoDB Support Portal
+        * Start a chat with Support using the Intercom widget within the MongoDB Atlas interface
