@@ -1,0 +1,11 @@
+version: incident/v1
+id: k22tny62jcw3
+name: A/V E2EE Enforcement for Non-stage Voice Calls
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-02 20:02:15"
+      description: |-
+        Updated clients which support the DAVE (Audio & Video End-to-End Encryption) Protocol are now required to connect to non-stages voice calls across the Discord Platform. If you attempt to connect with an out of date client, the voice gateway will reject your connection with close code 4017.
+
+        See https://support.discord.com/hc/en-us/articles/38025123604631-Minimum-Client-Version-Requirements-for-Voice-Chat for minimum client version requirements and https://support.discord.com/hc/en-us/articles/25968222946071-End-to-End-Encryption-for-Audio-and-Video for further details.

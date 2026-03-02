@@ -11,3 +11,6 @@ timeline:
     - ts: "2026-03-02 19:23:30"
       description: We are seeing a degraded experience when attempting to filter the /pulls dashboard. We are working on a mitigation.
       investigating: true
+    - ts: "2026-03-02 20:02:29"
+      description: We are experiencing issues with the Pull Requests dashboard that prevent users from filtering their pull requests. We have identified a mitigation and are deploying a fix. We'll post another update by 21:00 UTC.
+      investigating: true
