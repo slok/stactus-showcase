@@ -1,0 +1,11 @@
+version: incident/v1
+id: txcxl9sxxqm9
+name: Elevated write and read path errors in prod-me-central-1
+impact: major
+systems:
+    - bsw2w0c5p6wm
+    - n72tkbyzr423
+timeline:
+    - ts: "2026-03-02 06:43:29"
+      description: We are seeing elevated write and read path errors in prod-me-central-1, due to an on-going AWS UAE data center issue. We will provide further updates accordingly.
+      investigating: true
