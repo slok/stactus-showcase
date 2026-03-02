@@ -23,3 +23,6 @@ timeline:
     - ts: "2026-03-02 08:36:15"
       description: We are updating this incident to reflect a complete outage in prod-me-central-1, due to an on-going AWS UAE data center issue. We will provide further updates accordingly.
       investigating: true
+    - ts: "2026-03-02 10:04:23"
+      description: Customers are recommended to configure a new blank stack in an alternative Grafana Cloud region and to reconfigure their clients (such as Grafana Alloy) to send telemetry to that region, Fleet Management can be used for this purpose https://grafana.com/docs/grafana-cloud/send-data/fleet-management/introduction/
+      investigating: true
