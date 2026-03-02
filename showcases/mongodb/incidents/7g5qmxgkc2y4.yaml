@@ -38,19 +38,25 @@ timeline:
         If you have time-sensitive changes that are blocked and need urgent assistance, please contact MongoDB Support.
     - ts: "2026-03-02 09:20:30"
       description: |-
-        According to AWS, two Availability Zones in me-central-1 (UAE) and one Availability Zone in me-south-1 (Bahrain) are now experiencing outages. This increases the scope of the underlying infrastructure incident in these regions. The latest information from AWS is available at https://health.aws.amazon.com/health/status.
+        According to AWS, two Availability Zones in me-central-1 (UAE) and one Availability Zone in me-south-1 (Bahrain) continue to experience outages. The latest information from AWS is available at:  https://health.aws.amazon.com/health/status.
 
         CURRENT IMPACT
-        Atlas clusters deployed only in me-central-1 may now be fully unavailable.
-        For these clusters operating solely in me-central-1, backup operations in this region are impaired.
-        Backups should remain operational in me-south-1 at this time.
-        We do not yet have an ETA from AWS for full restoration of service in the impacted Regions and Availability Zones.
+        Atlas clusters deployed only in me-central-1 may be fully unavailable.
+
+        For clusters operating solely in me-central-1, backup operations in this region are impaired.
+
+        Clusters and backups should remain operational in me-south-1 at this time. Clusters in me-south-1 may be running at reduced capacity due to zonal constraints.
+
+        AWS has indicated an extended resolution timeline for service in the impacted Regions and Availability Zones.
 
         RECOMMENDED CUSTOMER ACTIONS
-        If you have a multi-region configuration that includes a healthy secondary region, we recommend  routing  application traffic to that secondary region.
+        If you have a multi-region configuration that includes a healthy secondary region, we recommend routing application traffic to that secondary region.
+
         If you have clusters in me-south-1 taking backups, we recommend enabling "Additional Snapshot Copies Policy" to a different region.
+
         If you have time-sensitive production changes or operations that are blocked and need urgent assistance, please contact MongoDB Support via the Support Portal, Support Chat or in-product support.
 
         WHAT WE ARE DOING
-        We recognize the severity of this situation and the impact it may have on your workloads. The incident continues to evolve, and we are closely monitoring AWS status and regional health signals. We are validating Atlas behavior across affected and unaffected regions, and working to mitigate customer impact where possible.
-        We will provide further updates as soon as we have materially new information.
+        We recognize the severity of this situation and the impact it may have on your workloads. The situation continues to evolve, and we are closely monitoring AWS status and regional health signals. We are validating Atlas behavior across affected and unaffected regions, and working to mitigate customer impact where possible.
+
+        We will provide further updates as circumstances continue to change.

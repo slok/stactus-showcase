@@ -13,5 +13,5 @@ timeline:
       description: Some customers are seeing timeout errors when searching for issues or pull requests. Team is currently investigating a fix.
       investigating: true
     - ts: "2026-02-23 21:30:42"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On February 23, 2026, between 21:01 UTC and 21:30 UTC the Search service experienced degraded performance, resulting in an average of 3.5% of search requests for Issues and Pull Requests being rejected. During this period, updates to Issues and Pull Requests may not have been immediately reflected in search results. <br /><br />During a routine migration, we observed a spike in internal traffic due to a configuration change in our search index. We were alerted to the increase in traffic as well as the increase in error rates and rolled back to the previous stable index. <br /><br />We are working to enable more controlled traffic shifting when promoting a new index to allow us to detect potential limitations earlier and ensure these operations succeed in a more controlled manner.
       resolved: true
