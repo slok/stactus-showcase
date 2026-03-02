@@ -1,0 +1,16 @@
+version: incident/v1
+id: 0yjbtp1d2cpc
+name: Delayed visibility of newly added issues on project boards
+impact: minor
+systems:
+    - kr09ddfgbfsf
+timeline:
+    - ts: "2026-03-02 23:10:28"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-03-02 23:11:56"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-02 23:12:46"
+      description: Newly added issues can take up to 30 minutes to appear on project boards. We're investigating the cause of this delay.
+      investigating: true
