@@ -1,10 +1,13 @@
 version: incident/v1
 id: 06fcmn5wn2l2
-name: Increased write latency for logs in prod-eu-west-3
-impact: minor
+name: Write outage for logs in prod-eu-west-3
+impact: critical
 systems:
     - hqf81r9207h6
 timeline:
     - ts: "2026-03-02 07:37:35"
       description: We are experiencing increased write latency for logs in prod-eu-west-3. Our Engineering team is aware and currently investigating this. We will provide further updates accordingly.
+      investigating: true
+    - ts: "2026-03-02 08:08:45"
+      description: We are now experiencing write outage for logs in prod-eu-west-3. Our Engineering team is aware and currently investigating this. We will provide further updates accordingly.
       investigating: true
