@@ -1,0 +1,12 @@
+version: incident/v1
+id: d6yvhvqy3b2f
+name: Unable to view logs in Durable Objects dashboard
+impact: minor
+systems:
+    - pqt7t1dwt0dz
+timeline:
+    - ts: "2026-03-02 11:58:43"
+      description: Cloudflare is aware of and investigating an issue impacting viewing logs in the Durable Objects dashboard. We are working to understand and mitigate the impact
+      investigating: true
+    - ts: "2026-03-02 12:10:53"
+      description: The issue has been identified and a fix is being implemented.
