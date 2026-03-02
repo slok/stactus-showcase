@@ -8,7 +8,7 @@ systems:
 timeline:
     - ts: "2026-03-02 20:45:38"
       description: |-
-        Cloudflare is aware of and investigating an issue impacting Workers and Pages builds, and the Cloudflare Pages API. Customers may experience 5xx errors, and builds may fail to start or complete.
+        Cloudflare is aware of and investigating an issue impacting Workers and Pages builds, and the Cloudflare Pages API starting at 20:22 UTC. Customers may experience 5xx errors, and builds may fail to start or complete.
 
         We are actively working to understand and mitigate the impact.
       investigating: true
@@ -17,3 +17,8 @@ timeline:
       investigating: true
     - ts: "2026-03-02 21:16:04"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-03-02 21:32:04"
+      description: Builds have been stable since 21:12 UTC and we are monitoring the fix.
+    - ts: "2026-03-02 21:48:23"
+      description: This incident has been resolved.
+      resolved: true
