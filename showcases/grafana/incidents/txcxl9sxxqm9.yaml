@@ -1,9 +1,10 @@
 version: incident/v1
 id: txcxl9sxxqm9
-name: Write and read outage across all databases in prod-me-central-1
+name: Complete outage in prod-me-central-1
 impact: critical
 systems:
     - ttlshz10ly19
+    - hl40gbs2zkn4
     - bsw2w0c5p6wm
     - n72tkbyzr423
     - nldbcgt153q4
@@ -18,4 +19,7 @@ timeline:
       investigating: true
     - ts: "2026-03-02 08:21:28"
       description: We are observing write and read outage errors across all databases (metrics, logs, traces) in prod-me-central-1, due to an on-going AWS UAE data center issue. We will provide further updates accordingly.
+      investigating: true
+    - ts: "2026-03-02 08:36:15"
+      description: We are updating this incident to reflect a complete outage in prod-me-central-1, due to an on-going AWS UAE data center issue. We will provide further updates accordingly.
       investigating: true
