@@ -24,3 +24,14 @@ timeline:
         Some Redis Cloud clusters in this zone may continue to experience connectivity issues or increased latency while service is being restored. We will provide further updates as more information becomes available.
 
         For further assistance, please contact our Support team.
+    - ts: "2026-03-03 03:22:06"
+      description: |-
+        Update — The issue impacting multiple Availability Zones in the me-central-1 (UAE) region remains ongoing. Recovery efforts are continuing, and restoration timelines may be extended due to the nature of the underlying infrastructure disruption.
+
+        Customers with workloads in mec1-az2 and mec1-az3 may continue to experience service degradation or availability issues. The mec1-az1 Availability Zone remains operational, and we recommend customers direct new and existing workloads to this zone where possible.
+
+        AWS customers can continue monitoring updates directly via the AWS Account Health Dashboard - https://health.console.aws.amazon.com/
+
+        If you require assistance creating new subscriptions or migrating workloads to unaffected capacity, please contact Redis Support at support@redis.com.
+
+        We will continue to provide updates as more information becomes available.
