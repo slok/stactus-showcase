@@ -1,0 +1,14 @@
+version: incident/v1
+id: f32jccgkcl0p
+name: Certificates issues affecting API and proxy
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-03 02:05:15"
+      description: |-
+        Between 19:54 and 20:06 UTC, our Vault cluster serving app certificates was unavailable. This caused various API requests to fail, mainly operations on certificates but also app creates and IP assignments.
+
+        As the failure mode was Vault requests hanging rather than failing immediately, TLS requests through fly-proxy for domains where the certificate was not cached on the local node remained open for a long time while proxy attempted to fetch the certificate; this caused some connections to fail as too many connection slots were taken up by requests waiting on Vault.
+
+        The root cause of this incident was a partially completed update to the Vault cluster. We will be implementing safeguards in the proxy for this failure mode, as well as improving certificate storage longer-term.
+      resolved: true

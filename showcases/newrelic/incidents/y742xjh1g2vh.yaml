@@ -2,26 +2,7 @@ version: incident/v1
 id: y742xjh1g2vh
 name: Data Irregularities
 impact: major
-systems:
-    - rbts0zzw73dl
-    - 2vkckmpm1kh6
-    - 5x10l9g2z3t6
-    - 1ccpnwlhg6xx
-    - 028b05n94my0
-    - 45zc1fn1w80h
-    - 5p33lkzzqm0z
-    - 5kywhg5j0l21
-    - ymfwncrn2dnh
-    - 2jrn08x58ps2
-    - 9jndj4kfv59w
-    - pmtvnzg1dzfm
-    - lm2qpsbfggh7
-    - s27h21w34qhk
-    - prjgs1mvmqg9
-    - 6x8hq64xfvwl
-    - 833c8h98qq4g
-    - czn9jxzshjxn
-    - xlzs28xhd8bw
+systems: []
 timeline:
     - ts: "2026-03-03 00:19:16"
       description: Some customers in the US and EU regions may be experiencing delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data.
@@ -35,3 +16,8 @@ timeline:
     - ts: "2026-03-03 01:02:43"
       description: We are still investigating the an issue where some customers in the US region may be experiencing delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data. We have been seeing signs of recovery, and will continue to provide updates until services are restored to normal operations.
       investigating: true
+    - ts: "2026-03-03 02:28:32"
+      description: We continue to see signs of recovery as we monitor impacted services. Some customers in the US region may be experiencing delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data. We will continue to provide updates until services return to normal operations.
+    - ts: "2026-03-03 02:59:34"
+      description: We resolved this service interruption and impacted services have returned to normal operation. Between 00:11 UTC and 02:45 UTC on March 3rd, 2026, some customers may have experienced delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for impacted data.
+      resolved: true
