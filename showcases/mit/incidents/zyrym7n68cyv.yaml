@@ -1,0 +1,10 @@
+version: incident/v1
+id: zyrym7n68cyv
+name: 'OC25 (Haystack): Network Connectivity to MITnet'
+impact: major
+systems:
+    - qbxg9tr9gslw
+timeline:
+    - ts: "2026-03-03 11:44:21"
+      description: Connectivity between MITnet and Haystack (Buildings OC21, OC24, OC25, OC26) is currently down due to fiber/optical circuit issues. IS&T has engaged MIT-LL to further investigate optical network.
+      investigating: true
