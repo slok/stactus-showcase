@@ -32,3 +32,9 @@ timeline:
     - ts: "2026-03-03 03:22:49"
       description: The fix is still building and is expected to deploy within 60 minutes. The current delay for GitHub Projects updates has increased to up to 5 hours.
       investigating: true
+    - ts: "2026-03-03 04:17:15"
+      description: The fix has been deployed and processing speeds have returned to normal. There is a backlog of delayed updates that will continue to be worked through — we're estimating how long that will take and will provide an update in the next 60 minutes.
+      investigating: true
+    - ts: "2026-03-03 04:36:47"
+      description: The backlog of delayed updates is expected to fully clear within approximately 1 hour, after which project board updates will return to near-real-time.
+      investigating: true
