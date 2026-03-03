@@ -20,3 +20,6 @@ timeline:
     - ts: "2026-03-03 00:05:59"
       description: The impact extends beyond adding issues to project boards. Adding pull requests and updating fields such as "Status" may also be affected. We're continuing to investigate the root cause.
       investigating: true
+    - ts: "2026-03-03 00:52:48"
+      description: Project board updates — including adding issues, pull requests, and changing fields such as "Status" — are currently delayed by 1–2 hours. Normal behavior is near-real-time. We're actively investigating the root cause.
+      investigating: true
