@@ -11,3 +11,9 @@ timeline:
       investigating: true
     - ts: "2026-03-03 20:36:45"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-03 21:15:48"
+      description: |-
+        This incident was caused by a failed Redis node that powers our GraphQL API. We were able to recreate the Redis node and restore service.
+
+        We are still investigating the root cause of the failure. In the mean time, all API endpoints now appear to be stable and errors have dropped to baseline level.
+      resolved: true

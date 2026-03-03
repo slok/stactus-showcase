@@ -1,0 +1,13 @@
+version: incident/v1
+id: d16lvqqfbgl6
+name: Pages builds unable to start
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2026-03-03 21:03:30"
+      description: |-
+        Cloudflare is aware of and investigating an issue impacting Pages builds. Customers may see their Pages builds fail to start or fail while running.
+
+        We are actively working to resolve this issue and will provide updates as more information becomes available.
+      investigating: true
