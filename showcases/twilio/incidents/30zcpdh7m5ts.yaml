@@ -1,0 +1,13 @@
+version: incident/v1
+id: 30zcpdh7m5ts
+name: Delays in Transcription Completion
+impact: minor
+systems:
+    - qphgn531prd5
+timeline:
+    - ts: "2026-03-03 23:28:00"
+      description: Customers may experience delays in Transcription completion for services with PII Redaction enabled. Our team is currently investigating the issue and we will provide an update in 1 hour or as soon as more information is available.
+      investigating: true
+    - ts: "2026-03-03 23:34:11"
+      description: Customers may experience delays in Transcription completion for services with PII Redaction enabled. Our team is currently investigating the issue and we will provide an update in 1 hour or as soon as more information is available.
+      investigating: true
