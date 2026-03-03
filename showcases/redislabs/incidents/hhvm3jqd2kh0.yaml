@@ -35,3 +35,14 @@ timeline:
         If you require assistance creating new subscriptions or migrating workloads to unaffected capacity, please contact Redis Support at support@redis.com.
 
         We will continue to provide updates as more information becomes available.
+    - ts: "2026-03-03 21:29:30"
+      description: |-
+        UPDATE — The issue impacting availability in the AWS Middle East (UAE) Region (me-central-1) remains ongoing at the cloud provider level. While recovery efforts continue, the timeline for full restoration remains unclear. At this stage, Redis Cloud services are operating within the current regional constraints, and we are resolving this incident from active monitoring.
+
+        We recommend following AWS's current guidance, which is for customers to consider migrating workloads to alternate regions while recovery efforts continue. Redis Cloud supports workloads across multiple AWS and GCP regions, and customers may consider deploying in alternative locations such as ap-south-1 (Mumbai) or other unaffected regions.
+
+        Customers should continue monitoring updates via the AWS Health Dashboard:
+        https://health.console.aws.amazon.com/
+
+        If you require assistance planning or executing migrations, please contact support@redis.com. Our teams will also proactively reach out to impacted customers with additional best practices and support.
+      resolved: true
