@@ -21,5 +21,5 @@ timeline:
       description: Copilot is operating normally.
       investigating: true
     - ts: "2026-02-23 16:19:33"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On February 23, 2026, between 14:45 UTC and 16:19 UTC, the Copilot service was degraded for Claude Haiku 4.5 model. On average, 6% of the requests to this model failed due to an issue with an upstream provider. During this period, automated model degradation notifications directed affected users to alternative models. No other models were impacted. The upstream provider identified and resolved the issue on their end. <br />We are working to improve automatic model failover mechanisms to reduce our time to mitigation of issues like this one in the future.
       resolved: true
