@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7msnpn3f09fm
+name: 'Cloudflare Zero Trust: Gateway Issues'
+impact: minor
+systems:
+    - gyx2yygg7lmd
+timeline:
+    - ts: "2026-03-03 16:44:40"
+      description: Cloudflare is investigating issues with Gateway. Performance and connectivity through Gateway may be impacted. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
