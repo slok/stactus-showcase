@@ -1,0 +1,46 @@
+version: incident/v1
+id: n07yy1bk6kc4
+name: Incident with Copilot and Actions
+impact: major
+systems:
+    - 4230lsnqdsld
+    - brv1bkgrwx7q
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+    - h2ftsgbw7kmk
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-03-03 18:59:49"
+      description: We are investigating reports of degraded availability for Actions, Copilot and Issues
+      investigating: true
+    - ts: "2026-03-03 19:00:20"
+      description: API Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-03 19:00:27"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-03 19:02:40"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-03 19:03:36"
+      description: We're seeing some service degradation across GitHub services. We're currently investigating impact.
+      investigating: true
+    - ts: "2026-03-03 19:04:24"
+      description: Webhooks is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-03 19:05:51"
+      description: Pull Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-03 19:11:53"
+      description: Codespaces is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-03 19:14:29"
+      description: API Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-03 19:15:25"
+      description: API Requests is operating normally.
+      investigating: true
+    - ts: "2026-03-03 19:17:16"
+      description: We've identified the issue and have applied a mitigation. We're seeing recovery of services. We continue to montitor for full recovery.
+      investigating: true
