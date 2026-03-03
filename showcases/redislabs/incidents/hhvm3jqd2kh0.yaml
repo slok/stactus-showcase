@@ -28,7 +28,7 @@ timeline:
       description: |-
         Update — The issue impacting multiple Availability Zones in the me-central-1 (UAE) region remains ongoing. Recovery efforts are continuing, and restoration timelines may be extended due to the nature of the underlying infrastructure disruption.
 
-        Customers with workloads in mec1-az2 and mec1-az3 may continue to experience service degradation or availability issues. The mec1-az1 Availability Zone remains operational, and we recommend customers direct new and existing workloads to this zone where possible.
+        Customers with workloads in mec1-az2 and mec1-az3 may continue to experience service degradation or availability issues. The mec1-az1 Availability Zone remains operational; however, capacity and deployment options may currently be limited. Customers are encouraged to follow AWS guidance and consider deploying workloads in alternate regions while recovery efforts continue.
 
         AWS customers can continue monitoring updates directly via the AWS Account Health Dashboard - https://health.console.aws.amazon.com/
 

@@ -9,5 +9,5 @@ timeline:
       description: We are investigating reports of degraded performance for Actions
       investigating: true
     - ts: "2026-02-23 17:03:56"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On February 23, 2026, between 15:00 UTC and 17:00 UTC, GitHub Actions experienced degraded performance. During the time, 1.8% of Actions workflow runs experienced delayed starts with an average delay of 15 minutes. The issue was caused by a connection rebalancing event in our internal load balancing layer, which temporarily created uneven traffic distribution across sites and led to request throttling. <br /><br />To prevent recurrence, we are tuning connection rebalancing behavior to spread client reconnections more gradually during load balancer reloads. We are also evaluating improvements to site-level traffic affinity to eliminate the uneven distribution at its source. We have overprovisioned critical paths to prevent any impact if a similar event occurs before those workstreams finish. Finally, we are enhancing our monitoring to detect capacity imbalances proactively.
       resolved: true
