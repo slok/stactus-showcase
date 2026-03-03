@@ -17,3 +17,6 @@ timeline:
     - ts: "2026-03-02 23:46:24"
       description: Newly added issues are taking 30–60 minutes to appear on project boards, compared to the normal near-real-time behavior. We're investigating the root cause and possible mitigations.
       investigating: true
+    - ts: "2026-03-03 00:05:59"
+      description: The impact extends beyond adding issues to project boards. Adding pull requests and updating fields such as "Status" may also be affected. We're continuing to investigate the root cause.
+      investigating: true

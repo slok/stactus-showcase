@@ -1,0 +1,34 @@
+version: incident/v1
+id: y742xjh1g2vh
+name: Data Irregularities
+impact: major
+systems:
+    - rbts0zzw73dl
+    - 2vkckmpm1kh6
+    - 5x10l9g2z3t6
+    - 1ccpnwlhg6xx
+    - 028b05n94my0
+    - 45zc1fn1w80h
+    - 5p33lkzzqm0z
+    - 5kywhg5j0l21
+    - ymfwncrn2dnh
+    - 2jrn08x58ps2
+    - 9jndj4kfv59w
+    - pmtvnzg1dzfm
+    - lm2qpsbfggh7
+    - s27h21w34qhk
+    - prjgs1mvmqg9
+    - 6x8hq64xfvwl
+    - 833c8h98qq4g
+    - czn9jxzshjxn
+    - xlzs28xhd8bw
+timeline:
+    - ts: "2026-03-03 00:19:16"
+      description: Some customers in the US and EU regions may be experiencing delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data.
+      investigating: true
+    - ts: "2026-03-03 00:21:35"
+      description: Some customers in the US and EU regions may be experiencing delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data.
+      investigating: true
+    - ts: "2026-03-03 00:36:53"
+      description: We are continuing to investigate an issue where some customers in the US region may be experiencing delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data.
+      investigating: true
