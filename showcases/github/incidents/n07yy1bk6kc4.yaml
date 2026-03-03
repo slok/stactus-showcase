@@ -3,6 +3,7 @@ id: n07yy1bk6kc4
 name: Incident with Copilot and Actions
 impact: major
 systems:
+    - 8l4ygp009s5s
     - 4230lsnqdsld
     - brv1bkgrwx7q
     - kr09ddfgbfsf
@@ -43,4 +44,34 @@ timeline:
       investigating: true
     - ts: "2026-03-03 19:17:16"
       description: We've identified the issue and have applied a mitigation. We're seeing recovery of services. We continue to montitor for full recovery.
+      investigating: true
+    - ts: "2026-03-03 19:23:47"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-03 19:24:23"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-03 19:25:05"
+      description: Codespaces is operating normally.
+      investigating: true
+    - ts: "2026-03-03 19:25:21"
+      description: Webhooks is operating normally.
+      investigating: true
+    - ts: "2026-03-03 19:27:23"
+      description: Issues is operating normally.
+      investigating: true
+    - ts: "2026-03-03 19:28:50"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-03 19:31:41"
+      description: Pull Requests is operating normally.
+      investigating: true
+    - ts: "2026-03-03 19:31:50"
+      description: Copilot is operating normally.
+      investigating: true
+    - ts: "2026-03-03 19:33:38"
+      description: We are seeing recovery across multiple services. Impact is mostly isolated to git operations at this point, we continue to investigate
+      investigating: true
+    - ts: "2026-03-03 19:36:42"
+      description: Git Operations is experiencing degraded availability. We are continuing to investigate.
       investigating: true
