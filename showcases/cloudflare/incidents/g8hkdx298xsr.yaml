@@ -1,0 +1,11 @@
+version: incident/v1
+id: g8hkdx298xsr
+name: Performance degradation in Paris, France
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+    - w1br383gmlwj
+timeline:
+    - ts: "2026-03-03 09:17:03"
+      description: Some users in Paris, France may experience increased latency or timeouts.
+      investigating: true
