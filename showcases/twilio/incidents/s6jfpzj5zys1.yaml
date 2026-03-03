@@ -1,0 +1,10 @@
+version: incident/v1
+id: s6jfpzj5zys1
+name: MMS Delivery Delays from a Subset of Twilio Long Codes to Altice United States
+impact: minor
+systems:
+    - 8vdlvw3dsq8h
+timeline:
+    - ts: "2026-03-03 22:17:55"
+      description: Twilio customers may be experiencing MMS delivery delays from a subset of Twilio Long Codes to Altice network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

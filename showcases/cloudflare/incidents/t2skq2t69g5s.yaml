@@ -1,0 +1,13 @@
+version: incident/v1
+id: t2skq2t69g5s
+name: WAF Challenge requests incorrectly forwarded to origin
+impact: minor
+systems:
+    - d1r0plwsl5qb
+timeline:
+    - ts: "2026-03-03 22:15:50"
+      description: |-
+        Cloudflare is investigating an issue where origins may receive challenge solve requests instead of the original challenged request. This issue affects customers using WAF Challenge actions globally.
+
+        We are actively working to resolve this issue and will provide updates as more information becomes available.
+      investigating: true
