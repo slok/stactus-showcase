@@ -12,5 +12,5 @@ timeline:
       description: We believe that all expected users still have access to Claude Opus 4.6. We confirm that no users have lost access.
       investigating: true
     - ts: "2026-03-03 21:11:30"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On March 3, 2026, between 19:44 UTC and 21:05 UTC, some GitHub Copilot users reported that the Claude Opus 4.6 Fast model was no longer available in their IDE model selection. After investigation, we confirmed that this was caused by enterprise administrators adjusting their organization's model policies, which correctly removed the model for users in those organizations. No users outside the affected organizations lost access.<br /><br />We confirmed that the Copilot settings were functioning as designed, and all expected users retained access to the model. The incident was resolved once we verified that the change was intentional and no platform regression had occurred.
       resolved: true
