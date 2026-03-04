@@ -1,0 +1,13 @@
+version: incident/v1
+id: hqklcj73l0wr
+name: SMS Delivery Delays from Twilio to Yemen Mobile in Yemen
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-03-04 22:48:43"
+      description: Our monitoring systems have detected a potential issue with SMS Delivery Delays from Twilio to Yemen Mobile in Yemen. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-03-04 22:51:39"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Yemen Mobile network subscribers in Yemen. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
