@@ -1,0 +1,10 @@
+version: incident/v1
+id: 43xc3kydkg09
+name: Temporary Increase in 4xx Errors When Sending Messages
+impact: none
+systems:
+    - x3z86l06nvl7
+timeline:
+    - ts: "2026-03-04 00:37:35"
+      description: Between 4:03PM PST and 4:09PM PST, customers may have experienced 4xx errors when attempting to send messages from the Messaging API. This issue has been resolved.
+      resolved: true
