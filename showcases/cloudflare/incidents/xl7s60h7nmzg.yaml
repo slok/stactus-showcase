@@ -1,0 +1,17 @@
+version: incident/v1
+id: xl7s60h7nmzg
+name: Cloudflare Dashboard displaying incorrect API token type
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-03-04 18:13:54"
+      description: |-
+        Cloudflare is investigating an issue with the Cloudflare Dashboard where Account API Tokens are not being displayed correctly. Customers may see User API Tokens returned instead of Account API Tokens.
+
+        This issue does not impact existing active Account API Tokens. API functionality remains unaffected.
+
+        We are actively working to resolve this issue and will provide updates as more information becomes available.
+      investigating: true
+    - ts: "2026-03-04 18:17:34"
+      description: The issue has been identified and a fix is being implemented.
