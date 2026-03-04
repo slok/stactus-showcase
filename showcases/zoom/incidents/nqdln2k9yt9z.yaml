@@ -1,0 +1,15 @@
+version: incident/v1
+id: nqdln2k9yt9z
+name: Service Degradation Affecting Zoom Meeting SDK
+impact: minor
+systems:
+    - rmphw6f34qk9
+timeline:
+    - ts: "2026-03-04 16:41:32"
+      description: |-
+        We are currently investigating a service degradation affecting subset of meeting SDK developers unable to authenticate.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
