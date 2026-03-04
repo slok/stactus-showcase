@@ -1,0 +1,9 @@
+version: incident/v1
+id: 4dxj1cn1gcjl
+name: Cloudflare GraphQL API outage for DNS metrics
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-04 18:53:17"
+      description: Cloudflare GraphQL API experienced an outage between 11:56 and 17:00 UTC affecting DNS metrics queries across all regions. This issue has been resolved.
+      resolved: true
