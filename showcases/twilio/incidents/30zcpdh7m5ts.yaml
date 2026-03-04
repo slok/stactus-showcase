@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2026-03-04 01:50:56"
       description: We are observing recovery in Transcription completion times for services with PII Redaction enabled. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-03-04 02:15:57"
+      description: We are moving the incident status from 'Monitoring' back to 'Investigating', as customers may continue to experience delays in transcription completion for services with PII Redaction enabled. Our team is actively investigating the issue and will provide an update within 2 hours or sooner if additional information becomes available.
+      investigating: true
