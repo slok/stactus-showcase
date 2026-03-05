@@ -17,3 +17,12 @@ timeline:
     - ts: "2026-03-05 23:15:20"
       description: Actions and dependent services, including Pages, are recovering.
       investigating: true
+    - ts: "2026-03-05 23:37:57"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-05 23:40:20"
+      description: We are close to full recovery. Actions and dependent services should be functioning normally now.
+      investigating: true
+    - ts: "2026-03-05 23:55:20"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
