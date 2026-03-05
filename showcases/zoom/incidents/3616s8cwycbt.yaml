@@ -1,0 +1,15 @@
+version: incident/v1
+id: 3616s8cwycbt
+name: Service Degradation for a Subset of Users Affecting the Offline Status in Zoom Rooms
+impact: minor
+systems:
+    - xtgr15yv6hbn
+timeline:
+    - ts: "2026-03-05 21:16:43"
+      description: |-
+        We are currently investigating a service degradation for a subset of users that is only impacting the offline status for Zoom Rooms in the admin dashboard.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
