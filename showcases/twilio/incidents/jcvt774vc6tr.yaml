@@ -1,0 +1,13 @@
+version: incident/v1
+id: jcvt774vc6tr
+name: WhatsApp phone number not displayed for senders created via senders API
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2026-03-05 18:35:13"
+      description: Our monitoring systems have detected a potential issue with WhatsApp phone number not displayed for senders created via senders API. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-03-05 18:49:40"
+      description: Twilio customers may be experiencing WhatsApp phone number not displayed for senders created via senders API. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

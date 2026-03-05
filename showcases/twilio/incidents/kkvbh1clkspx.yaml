@@ -1,0 +1,13 @@
+version: incident/v1
+id: kkvbh1clkspx
+name: SMS delivery delays from Twilio to Orange Cameroon
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-03-05 18:37:07"
+      description: Our monitoring systems have detected a potential issue with SMS Delivery Delays from Twilio to Orange Cameroon. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-03-05 18:42:04"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Orange network subscribers in Cameroon. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
