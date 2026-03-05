@@ -7,3 +7,8 @@ timeline:
     - ts: "2026-03-05 19:24:29"
       description: We're aware of routing issues affecting some customers in North America regions, and we're actively investigating.
       investigating: true
+    - ts: "2026-03-05 19:38:16"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-05 19:50:59"
+      description: This incident has been resolved. Due to a BGP issue, we saw some North American traffic routed to edges in Singapore (sin). Users in North America would have seen additional request latency during this period.
+      resolved: true
