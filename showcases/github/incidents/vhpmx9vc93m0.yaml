@@ -21,5 +21,5 @@ timeline:
       description: The issue on https://github.com/pulls is now fully resolved. All tabs are working again.
       investigating: true
     - ts: "2026-03-02 22:04:27"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On March 2nd, 2026, between 7:10 UTC and 22:04 UTC the pull requests service was degraded. Users navigating between tabs on the pull requests dashboard were met with 404 errors or blank pages.<br /><br />This was due to a configuration change deployed on February 27th at 11:03 PM UTC. We mitigated the incident by reverting the change.<br /><br />We’re working to improve monitoring for the page to automatically detect and alert us to routing failures.
       resolved: true

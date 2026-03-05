@@ -1,0 +1,13 @@
+version: incident/v1
+id: 9qqh3y86gnt8
+name: SMS Delivery Receipt Delays from Twilio to Drillisch 1&1 in Germany
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-03-05 00:34:08"
+      description: Our monitoring systems have detected a potential issue with SMS Delivery Receipt Delays to Drillisch 1&1 in Germany. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-03-05 00:36:03"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from Twilio to Drillisch 1&1 network subscribers in Germany. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

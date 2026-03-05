@@ -1,0 +1,13 @@
+version: incident/v1
+id: c7z5d74zrdhp
+name: Internal Load Balancers Connectivity
+impact: minor
+systems:
+    - ctwhml01vvw1
+timeline:
+    - ts: "2026-03-05 00:23:31"
+      description: |-
+        Our Engineering team is investigating an issue affecting Internal Load Balancers. Customers may experience connectivity loss between Internal Load Balancers and their associated target droplets.
+
+        We apologize for the inconvenience and will share an update as soon as more information becomes available.
+      investigating: true

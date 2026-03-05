@@ -1,0 +1,11 @@
+version: incident/v1
+id: 58yt4r2xxw8v
+name: Elevated Durable Objects and R2 API Latency
+impact: minor
+systems:
+    - bty1yz6dhh0v
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-03-05 00:34:52"
+      description: We are investigating elevated latency affecting Durable Objects and R2 API requests in Western North America region. Some requests may experience timeouts or increase response times.
+      investigating: true
