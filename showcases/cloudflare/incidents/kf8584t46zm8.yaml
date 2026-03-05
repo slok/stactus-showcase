@@ -1,0 +1,10 @@
+version: incident/v1
+id: kf8584t46zm8
+name: Cloudflare Radar Delays
+impact: minor
+systems:
+    - 0fw91jq1bzxx
+timeline:
+    - ts: "2026-03-05 11:03:00"
+      description: Cloudflare Radar is experiencing response delays. These services are still fully operational, just delayed. We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
