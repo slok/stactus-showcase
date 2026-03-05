@@ -1,0 +1,15 @@
+version: incident/v1
+id: 9w7z40fbpggr
+name: A subset of customers globally are observing messages being delayed for delivery.
+impact: minor
+systems:
+    - qfc0730q37d7
+timeline:
+    - ts: "2026-03-05 17:12:59"
+      description: |-
+        A subset of customers globally are observing messages being delayed for delivery. Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-03-05 18:01:04"
+      description: "The issue affecting customers messages being delayed for delivery has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."

@@ -1,0 +1,29 @@
+version: incident/v1
+id: g5gnt5l5hf56
+name: Multiple services are affected, service degradation
+impact: major
+systems:
+    - 4230lsnqdsld
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-03-05 16:35:32"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2026-03-05 16:41:14"
+      description: Actions is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-05 16:47:11"
+      description: Webhooks is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-05 16:52:53"
+      description: We are observing delays in queuing Actions workflow runs. We’re still investigating the causes of these delays.
+      investigating: true
+    - ts: "2026-03-05 17:25:59"
+      description: We have applied mitigations for connection failures across backend resources and we are observing a recovery in queueing Actions workflow runs.
+      investigating: true
+    - ts: "2026-03-05 17:48:26"
+      description: We are back to queueing Actions workflow runs at nominal rates and we are monitoring the clearing of queued runs during the incident.
+      investigating: true
+    - ts: "2026-03-05 18:15:56"
+      description: The queue of requested Actions jobs continues to make progress.  Job delays are now approximately 6 minutes and continuing to decrease.
+      investigating: true
