@@ -1,0 +1,16 @@
+version: incident/v1
+id: g9j4tmfqdd09
+name: Actions is experiencing degraded availability
+impact: major
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-03-05 22:53:42"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2026-03-05 22:54:35"
+      description: Actions is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-05 23:00:55"
+      description: We applied a mitigation and we should see a recovery soon.
+      investigating: true
