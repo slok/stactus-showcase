@@ -1,0 +1,14 @@
+version: incident/v1
+id: sh5lty3t5m0t
+name: Write failures in prod-eu-west-0
+impact: major
+systems:
+    - 9rtx96d2z01z
+    - d2vdtkjjdzjy
+timeline:
+    - ts: "2026-03-05 22:27:19"
+      description: |-
+        A recent incident affecting the data read path and rule execution within prod-eu-west-0 began at ~21:05 UTC on March 5, 2026. Customers with instances in this region may experience write failures and delays in rule evaluation.
+
+        Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
+      investigating: true
