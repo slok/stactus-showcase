@@ -16,3 +16,11 @@ timeline:
         Our Engineering team has implemented mitigation measures to address the connectivity issues affecting Internal Load Balancers and their associated target droplets. We are actively monitoring the situation to ensure stability and to prevent any recurrence.
 
         We will provide a further update once we confirm the issue is fully resolved.
+    - ts: "2026-03-05 01:52:23"
+      description: |-
+        From 19:57 UTC to 01:03 UTC, customers may have experienced connectivity issues between Internal Load Balancers and their associated target droplets, which could have resulted in service disruption or traffic routing failures.
+
+        Our Engineering team has confirmed full resolution of the issue, and Internal Load Balancers should now be functioning normally.
+
+        If you continue to experience any problems, please open a ticket with our Support team. We apologize for any inconvenience caused.
+      resolved: true
