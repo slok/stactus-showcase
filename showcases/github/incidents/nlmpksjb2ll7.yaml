@@ -1,0 +1,18 @@
+version: incident/v1
+id: nlmpksjb2ll7
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-03-05 01:13:44"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-03-05 01:21:49"
+      description: Users were temporarily unable to see tasks listed in mission control surfaces. The ability to submit new tasks, view existing tasks via direct link, or manage tasks was unaffected throughout. A revert is currently being deployed and we are seeing recovery.
+      investigating: true
+    - ts: "2026-03-05 01:30:17"
+      description: Copilot coding agent mission control is fully restored. Tasks are now listed as expected.
+      investigating: true
+    - ts: "2026-03-05 01:30:37"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

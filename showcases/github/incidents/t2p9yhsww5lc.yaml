@@ -1,0 +1,19 @@
+version: incident/v1
+id: t2p9yhsww5lc
+name: Some OpenAI models degraded in Copilot
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-03-05 00:47:42"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2026-03-05 00:53:28"
+      description: We are experiencing degraded availability for the gpt-5.3-codex model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br />
+      investigating: true
+    - ts: "2026-03-05 01:13:17"
+      description: The issues with our upstream model provider have been resolved, and gpt-5.3-codex is once again available in Copilot Chat and across IDE integrations. We will continue monitoring to ensure stability, but mitigation is complete.
+      investigating: true
+    - ts: "2026-03-05 01:13:31"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
