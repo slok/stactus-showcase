@@ -1,0 +1,23 @@
+version: incident/v1
+id: mspvc4jjl2mb
+name: Service Degradation Affecting Zoom Billing Web Pages.
+impact: minor
+systems:
+    - 8gftm750nwzm
+    - y9q5bf5pd4tm
+timeline:
+    - ts: "2026-03-05 14:42:01"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Billing web pages in all the regions.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-03-05 15:03:01"
+      description: |-
+        We have identified a service degradation affecting Zoom Billing web pages in all the regions.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
