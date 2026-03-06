@@ -38,3 +38,12 @@ timeline:
     - ts: "2026-03-06 22:35:08"
       description: We are preparing a new mitigation for the issue affecting the webhook deliveries API (https://docs.github.com/en/rest/repos/webhooks?apiVersion=2022-11-28#list-deliveries-for-a-repository-webhook) and its organization and integration variants. Overall impact remains low, with under 1% of requests failing for a subset of customers.
       investigating: true
+    - ts: "2026-03-06 23:26:47"
+      description: We have deployed a fix and are observing a full recovery. The affected endpoint was the webhook deliveries API (https://docs.github.com/en/rest/repos/webhooks?apiVersion=2022-11-28#list-deliveries-for-a-repository-webhook) and its organization and integration variants. We will continue monitoring to confirm stability.
+      investigating: true
+    - ts: "2026-03-06 23:28:10"
+      description: Webhooks is operating normally.
+      investigating: true
+    - ts: "2026-03-06 23:28:13"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
