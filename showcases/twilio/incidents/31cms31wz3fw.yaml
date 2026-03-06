@@ -18,3 +18,6 @@ timeline:
     - ts: "2026-03-06 11:59:38"
       description: We continue to experience MMS delivery receipt delays from Twilio to Verizon network subscribers in the United States. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-03-06 19:11:06"
+      description: We are no longer experiencing MMS/SMS delivery delays when sending messages to SMS Delivery Receipt Delays from a Subset of Twilio Long Codes and Short Codes to GTA United States. This incident has been resolved.
+      resolved: true
