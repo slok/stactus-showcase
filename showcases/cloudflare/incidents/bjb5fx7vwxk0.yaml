@@ -1,0 +1,13 @@
+version: incident/v1
+id: bjb5fx7vwxk0
+name: Issues with 1.1.1.1 public resolver in North America
+impact: minor
+systems:
+    - 8w536gxk7dvq
+timeline:
+    - ts: "2026-03-06 14:24:16"
+      description: Cloudflare is aware of, and investigating, an issue which potentially impacts multiple users in North America that use 1.1.1.1 public resolver. Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2026-03-06 14:43:22"
+      description: This incident has been resolved.
+      resolved: true
