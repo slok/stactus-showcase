@@ -1,0 +1,13 @@
+version: incident/v1
+id: jvqsklfdcvt8
+name: 'UK/AU: Issues Completing Age Verification via k-ID'
+impact: minor
+systems:
+    - ly7bf56hshjc
+    - dmyjqtpgpjkr
+    - 8r4xqnt9jslk
+    - 6j5lgxtyjfc2
+timeline:
+    - ts: "2026-03-06 03:26:36"
+      description: Some users in the UK and Australia may be unable to complete new age verification via k-ID. Users who have already completed age verification should not be impacted. We’re actively working with k-ID on a resolution and will share updates here as we learn more.
+      investigating: true
