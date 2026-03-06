@@ -1,0 +1,13 @@
+version: incident/v1
+id: k0cd863c8105
+name: HTTP 522 Error on App Platform
+impact: none
+systems:
+    - txysr8r0gn1n
+timeline:
+    - ts: "2026-03-06 21:22:50"
+      description: |-
+        Our Engineering team identified an issue affecting the App Platform. During the incident, users may have experienced HTTP 522 (Connection Timed Out) errors when accessing their apps. The issue seems to be resolved now.
+
+        We apologize for the inconvenience caused. If you continue to experience any related errors, please contact our Support team by opening a ticket at https://www.digitalocean.com/support/contact/.
+      resolved: true
