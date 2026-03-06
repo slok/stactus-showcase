@@ -11,3 +11,8 @@ timeline:
     - ts: "2026-03-06 03:26:36"
       description: Some users in the UK and Australia may be unable to complete new age verification via k-ID. Users who have already completed age verification should not be impacted. We’re actively working with k-ID on a resolution and will share updates here as we learn more.
       investigating: true
+    - ts: "2026-03-06 03:38:36"
+      description: k-ID has deployed a fix for UK/AU age verification issues. We’re monitoring to ensure age verification is working normally. Previously age verified users should not be impacted.
+    - ts: "2026-03-06 03:49:19"
+      description: k-ID age verification is operating normally again in the UK and Australia. Previously age verified users were not impacted.
+      resolved: true

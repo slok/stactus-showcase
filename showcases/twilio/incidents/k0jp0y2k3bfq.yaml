@@ -1,0 +1,10 @@
+version: incident/v1
+id: k0jp0y2k3bfq
+name: SMS Delivery Delays from a Subset of Twilio Long Codes to AT&T United States
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+timeline:
+    - ts: "2026-03-06 04:15:26"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to AT&T network subscribers in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
