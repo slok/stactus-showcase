@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9sbjbzxxfpbl
+name: Access Configuration Updates Delayed
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-03-06 19:30:47"
+      description: Access configuration changes are experiencing delays propagating to the edge. Existing configurations and logins are not impacted.
+      investigating: true
