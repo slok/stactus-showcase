@@ -32,3 +32,6 @@ timeline:
     - ts: "2026-03-06 20:18:25"
       description: We have deployed a fix for the issue causing some users to experience intermittent failures when accessing the Webhooks API and configuration pages. We are monitoring to confirm full recovery.
       investigating: true
+    - ts: "2026-03-06 21:34:55"
+      description: The previous mitigation did not resolve the issue. We are investigating further. The affected endpoint is the webhook deliveries API (https://docs.github.com/en/rest/repos/webhooks?apiVersion=2022-11-28#list-deliveries-for-a-repository-webhook) and its organization and integration variants. Overall impact remains low, with under 1% of requests failing for a subset of customers.
+      investigating: true
