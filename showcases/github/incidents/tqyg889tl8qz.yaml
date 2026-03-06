@@ -8,3 +8,9 @@ timeline:
     - ts: "2026-03-06 16:58:10"
       description: We are investigating reports of degraded performance for Webhooks
       investigating: true
+    - ts: "2026-03-06 17:12:40"
+      description: We are investigating an issue affecting a subset of customers experiencing errors when viewing webhook delivery histories and retrying webhook deliveries. UI and webhook API is impacted. Engineers have identified the cause and are actively working on mitigation.
+      investigating: true
+    - ts: "2026-03-06 17:19:48"
+      description: This problem is impacting less than 1% of UI and webhook API calls.
+      investigating: true
