@@ -1,0 +1,10 @@
+version: incident/v1
+id: wm96ft0nnw3y
+name: SMS Delivery Failures from Twilio to ETL Laos
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-03-06 04:40:14"
+      description: Twilio customers may be experiencing SMS delivery failures from Twilio to ETL network subscribers in Laos. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
