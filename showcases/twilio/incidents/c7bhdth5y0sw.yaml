@@ -1,0 +1,10 @@
+version: incident/v1
+id: c7bhdth5y0sw
+name: SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Verizon United States
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2026-03-06 06:00:20"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Short Codes to Verizon network subscribers in the United States. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
