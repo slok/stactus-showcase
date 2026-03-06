@@ -29,3 +29,6 @@ timeline:
     - ts: "2026-03-06 19:39:05"
       description: We continue working on mitigations to restore service.
       investigating: true
+    - ts: "2026-03-06 20:18:25"
+      description: We have deployed a fix for the issue causing some users to experience intermittent failures when accessing the Webhooks API and configuration pages. We are monitoring to confirm full recovery.
+      investigating: true

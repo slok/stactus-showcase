@@ -14,5 +14,5 @@ timeline:
       description: Copilot coding agent mission control is fully restored. Tasks are now listed as expected.
       investigating: true
     - ts: "2026-03-05 01:30:37"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On March 5, 2026, between 12:53 UTC and 13:35 UTC, the Copilot mission control service was degraded. This resulted in empty responses returned for users' agent session lists across GitHub web surfaces. Impacted users were unable to see their lists of current and previous agent sessions in GitHub web surfaces. This was caused by an incorrect database query that falsely excluded records that have an absent field.<br /><br />We mitigated the incident by rolling back the database query change. There were no data alterations nor deletions during the incident.<br /><br />To prevent similar issues in the future, we're improving our monitoring depth to more easily detect degradation before changes are fully rolled out.
       resolved: true
