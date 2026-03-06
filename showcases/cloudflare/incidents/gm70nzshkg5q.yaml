@@ -1,0 +1,9 @@
+version: incident/v1
+id: gm70nzshkg5q
+name: Intermittent connectivity issues in Ashburn, VA
+impact: minor
+systems:
+    - 3t0npclljyyg
+timeline:
+    - ts: "2026-03-06 16:31:09"
+      description: Cloudflare investigated intermittent connectivity issues in Ashburn, VA. A fix for this issue was implemented and we are currently monitoring the results. We will update the status once the issue is resolved.
