@@ -1,0 +1,10 @@
+version: incident/v1
+id: c75bw9zmd403
+name: SMS Delivery Delays and Delivery Receipt Delays from a Subset of Twilio Short Codes to ISP Telecom United States
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2026-03-07 11:25:44"
+      description: Twilio customers may be experiencing SMS delivery delays and SMS delivery receipt delays from a subset of Twilio Short Codes to ISP Telecom network subscribers in the United States. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
