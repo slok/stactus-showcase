@@ -1,0 +1,9 @@
+version: incident/v1
+id: jpt7lz833ccw
+name: Outage for prod-eu-central-0 due to AWS S3 outage.
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-07 20:07:37"
+      description: We are seeing elevated errors rate and outages across many of our services in prod-eu-central-0, due to an on-going AWS S3 outage in that region.
+      investigating: true
