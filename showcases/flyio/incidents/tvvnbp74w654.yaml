@@ -1,0 +1,10 @@
+version: incident/v1
+id: tvvnbp74w654
+name: Private networking issues in SYD region
+impact: major
+systems:
+    - 6g1pz83ylj1r
+timeline:
+    - ts: "2026-03-07 14:42:30"
+      description: We are investigating a private networking failure between SYD and other regions. Apps continue to run, and private networking within SYD is unaffected.
+      investigating: true
