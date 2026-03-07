@@ -7,3 +7,9 @@ timeline:
     - ts: "2026-03-07 20:07:37"
       description: We are seeing elevated errors rate and outages across many of our services in prod-eu-central-0, due to an on-going AWS S3 outage in that region.
       investigating: true
+    - ts: "2026-03-07 20:10:06"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-03-07 20:10:35"
+      description: Since about 20:03 UTC we have seen AWS S3 recover and also our services are recovering, we are monitoring.
+      investigating: true
