@@ -9,3 +9,6 @@ timeline:
       investigating: true
     - ts: "2026-03-07 02:32:15"
       description: We have identified an issue causing errors about conflicting properties in variants. A fix has been implemented and remaining errors can be cleared by republishing the affected components and accepting updates. We are continuing to monitor.
+    - ts: "2026-03-07 18:08:40"
+      description: From 5:50PM 3/6 UTC to 1:15AM 3/7 UTC, there was a bug that would cause library publishes to be incorrect. Files pulling in those updates would experience errors related to conflicting properties in variants. The issue with library publishes has been resolved. If you continue to see this error, please re-publish the affected components (by making a small change) and re-update the consuming files to apply the fix.
+      resolved: true
