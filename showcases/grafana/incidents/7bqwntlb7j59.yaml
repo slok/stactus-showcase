@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-03-08 14:17:32"
       description: "Our engineering team is investigating issues on the read path of Loki services on AWS US West since today aroun ~13:25UTC. \nThese issues can cause timeouts and 5xx errors when query logs for customers on the cluster. The team is currently working to restore the service."
       investigating: true
+    - ts: "2026-03-08 18:29:24"
+      description: Since 16:35 UTC we have experienced stability and services are recovering. We are actively monitoring and working to fully stabilize
