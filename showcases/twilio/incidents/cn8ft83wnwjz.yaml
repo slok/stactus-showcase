@@ -1,0 +1,10 @@
+version: incident/v1
+id: cn8ft83wnwjz
+name: Elastic SIP Trunking ACL Configuration Issues
+impact: minor
+systems:
+    - w7nxj548smhd
+timeline:
+    - ts: "2026-03-08 02:45:39"
+      description: We are aware of an issue affecting Elastic SIP Trunking Access Control List (ACL) configuration. Customers may experience difficulty adding Access Control Lists to their SIP domains. Our team is actively investigating the situation. We will provide another update as within 1 hour or as soon as there is more information becomes available.
+      investigating: true
