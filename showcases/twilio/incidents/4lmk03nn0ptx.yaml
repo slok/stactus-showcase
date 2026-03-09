@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4lmk03nn0ptx
+name: SMS Delivery Delays from Twilio to Claro Chile
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-03-09 16:22:34"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Claro network subscribers in Chile. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
