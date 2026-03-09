@@ -1,10 +1,13 @@
 version: incident/v1
 id: ps8ymq2n6gc6
-name: On Call Engineers are Investigating an issue with AI Chatbots in Help Centers
+name: Twilio and SendGrid Help Center AI Assistant Issues
 impact: none
 systems:
-    - m5b6twz4h52d
+    - xv01vfp8wvs4
 timeline:
     - ts: "2026-03-09 22:54:10"
       description: Our monitoring systems have detected a potential issue with AI chatbots in the Twilio and SendGrid Help Centers. Our engineers have been alerted and are investigating. We will provide an update when we have more details
+      investigating: true
+    - ts: "2026-03-09 23:25:09"
+      description: Twilio and SendGrid customers may be experiencing issues interacting with AI chatbots in our Help Centers. Customers may not be able to speak with AI Chatbot in Twilio Help Center and SendGrid Help Center. Some customers may not be able to contact Twilio Support. Our engineers have been alerted and are investigating the root cause. We expect to provide another update in 15 minutes or as soon as more information becomes available.
       investigating: true
