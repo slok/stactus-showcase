@@ -1,10 +1,13 @@
 version: incident/v1
 id: pdrvn72f7bmz
-name: On Call Engineers are Investigating a potential issue with Flex agent page
+name: Flex Agents Experiencing Errors with Interaction Participants
 impact: none
 systems:
-    - rk4qzxxbwj7t
+    - vw9w2zyv9nk5
 timeline:
     - ts: "2026-03-09 19:08:32"
       description: Our monitoring systems have detected a potential issue with Flex agent page. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
       investigating: true
+    - ts: "2026-03-09 20:19:30"
+      description: We have fully investigated the Flex Agents delays or errors when fetching Interaction Participants, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
