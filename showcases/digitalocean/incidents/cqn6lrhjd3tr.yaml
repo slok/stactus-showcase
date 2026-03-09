@@ -1,0 +1,10 @@
+version: incident/v1
+id: cqn6lrhjd3tr
+name: Ubuntu/Debian Package Mirror Failure
+impact: none
+systems:
+    - dkbfnt2ghbw4
+timeline:
+    - ts: "2026-03-09 19:23:11"
+      description: From 17:50 to 19:06 UTC, Our Engineering team observed an issue with mirrors.digitalocean.com. During this time, users may have experienced errors when trying to update packages on Debian and Ubuntu Images. Our team has fully resolved the issues as of 19:06 UTC. If you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel. We apologize for any inconvenience caused.
+      resolved: true
