@@ -11,3 +11,12 @@ timeline:
     - ts: "2026-03-09 03:04:16"
       description: We are seeing about 5% of new Codespace creation requests failing. We are investigating the root cause and identifying the impacted regions.
       investigating: true
+    - ts: "2026-03-09 03:32:35"
+      description: We are seeing recovery, with the failure rate for new Codespace creation requests dropping from 5% to about 3%.
+      investigating: true
+    - ts: "2026-03-09 03:51:32"
+      description: This incident has been resolved. New Codespace creation requests are now completing successfully.
+      investigating: true
+    - ts: "2026-03-09 03:51:42"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
