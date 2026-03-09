@@ -1,0 +1,13 @@
+version: incident/v1
+id: 7zmpwktntxb0
+name: Pages API and builds unavailable
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2026-03-09 21:35:37"
+      description: "Cloudflare is aware of and investigating an issue impacting the Cloudflare Pages API and Pages builds. \n\nCustomers may be experiencing 5xx errors and builds may be failing to start or complete.\nWe are working to understand and mitigate the impact"
+    - ts: "2026-03-09 21:36:32"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-03-09 21:42:38"
+      description: We are continuing to work on a fix for this issue.
