@@ -1,0 +1,13 @@
+version: incident/v1
+id: tp8m3544w2g8
+name: Incident with Codespaces
+impact: minor
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2026-03-09 03:04:04"
+      description: We are investigating reports of degraded performance for Codespaces
+      investigating: true
+    - ts: "2026-03-09 03:04:16"
+      description: We are seeing about 5% of new Codespace creation requests failing. We are investigating the root cause and identifying the impacted regions.
+      investigating: true
