@@ -1,0 +1,11 @@
+version: incident/v1
+id: 323h3hp193hd
+name: Metrics write path outage in prod-us-central-0 and prod-us-central-5
+impact: minor
+systems:
+    - prvf5mm6kh38
+timeline:
+    - ts: "2026-03-09 18:03:19"
+      description: |-
+        From 15:30 to 15:45 UTC and from 16:53 to 17:03 UTC, the prod-us-central-0 and prod-us-central-5 regions saw elevated latency and error rates on the write path.
+        We're monitoring now.
