@@ -1,0 +1,14 @@
+version: incident/v1
+id: clqzb7y8t0r8
+name: Issues sending and loading messages
+impact: major
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2026-03-09 17:08:03"
+      description: Users may experience issues sending and receiving messages.
+      investigating: true
+    - ts: "2026-03-09 17:22:03"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-03-09 17:29:18"
+      description: A fix has been implemented and we are monitoring the results.

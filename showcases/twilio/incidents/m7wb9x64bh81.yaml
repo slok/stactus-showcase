@@ -1,0 +1,13 @@
+version: incident/v1
+id: m7wb9x64bh81
+name: Delays in Processing Pricing Events
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2026-03-09 17:10:16"
+      description: We are currently investigating an issue where our pricing event processing service is not handling messages as expected. As a result, some customers may notice missing billing information in their logs and pricing callbacks not being triggered. Our engineering teams are actively working to identify the root cause and restore normal processing as quickly as possible. We will provide an update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-09 17:12:49"
+      description: We are continuing to investigate this issue.
+      investigating: true
