@@ -1,0 +1,11 @@
+version: incident/v1
+id: dyt6ss96wf45
+name: Instance failure
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-10 06:03:58"
+      description: 'We are experiencing an instance failure. This may affect resources that have the following pattern in their endpoint: c6.eu-west-mz.1'
+    - ts: "2026-03-10 06:12:35"
+      description: This incident has been resolved.
+      resolved: true
