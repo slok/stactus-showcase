@@ -1,0 +1,9 @@
+version: incident/v1
+id: x90mg8x2thmw
+name: Service degradation on Logs Read path in AWS US West (us-west-0)
+impact: minor
+systems:
+    - 6rlxmdg0t6v3
+timeline:
+    - ts: "2026-03-10 15:26:25"
+      description: "There has been a reoccurrence o the issues on the Read path of Loki services on AWS US West since yesterday 9th around ~17:15UTC. \nThe issue has been identified, and resolutions steps has been taken to restore full service. We are currently monitoring the service status.\n\nThe impact of this includes timeouts and 5xx errors when query logs for customers on this cluster."
