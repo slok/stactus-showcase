@@ -8,3 +8,6 @@ timeline:
     - ts: "2026-03-10 13:28:26"
       description: Cloudflare is investigating an issue where browser-based RDP is not working with Firefox. Other browsers, such as Chrome, are unaffected.
       investigating: true
+    - ts: "2026-03-10 15:04:21"
+      description: An interim solution has been identified. Users can open a new tab in Firefox, enter `about:config`, and locate the `dom.events.testing.asyncClipboard` setting, and set it to `true`.
+      resolved: true
