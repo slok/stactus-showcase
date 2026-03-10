@@ -1,0 +1,12 @@
+version: incident/v1
+id: 2mc9kc25crkx
+name: SMS Delivery Delays and Failures between Twilio and Multiple Networks in Germany
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-03-10 14:11:21"
+      description: Twilio customers may be experiencing SMS delivery delays and failures between Twilio and network subscribers on multiple networks in Germany. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-10 14:31:47"
+      description: wilio customers may be experiencing SMS delivery delays and failures between Twilio and network subscribers on multiple networks in Germany. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
