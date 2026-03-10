@@ -1,0 +1,10 @@
+version: incident/v1
+id: rgc4vyz7skzy
+name: SMS Delivery Delays and Failures to Airtel in Zambia
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-03-10 09:00:32"
+      description: We are experiencing SMS delivery failures from Twilio to Airtel network subscribers in Zambia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.
+      investigating: true
