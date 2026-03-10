@@ -1,6 +1,6 @@
 version: incident/v1
 id: 531ggntl570r
-name: Fleet Managment Elevanted Rate of Errors
+name: Fleet Managment Elevated Rate of Errors
 impact: minor
 systems:
     - 3jbh6nyxv692
@@ -11,3 +11,6 @@ timeline:
     - ts: "2026-03-10 18:11:57"
       description: Our engineering team continues to work towards a resolution for this issue.
       investigating: true
+    - ts: "2026-03-10 20:54:15"
+      description: This incident has been resolved.
+      resolved: true
