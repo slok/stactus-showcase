@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-03-10 18:00:51"
       description: We are currently investigating an issue impacting a subset of users in the prod-eu-west-3 region. Impacted users are experiencing elevated transit write failures, with no degradation to the read path.
       investigating: true
+    - ts: "2026-03-10 18:42:58"
+      description: A fix has been implemented, and we are monitoring.

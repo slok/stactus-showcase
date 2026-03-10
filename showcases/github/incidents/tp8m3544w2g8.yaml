@@ -18,5 +18,5 @@ timeline:
       description: This incident has been resolved. New Codespace creation requests are now completing successfully.
       investigating: true
     - ts: "2026-03-09 03:51:42"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On March 9, 2026, between 01:23 UTC and 03:25 UTC, users attempting to create or resume codespaces in the Australia East region experienced elevated failures, peaking at a 100% failure rate for this region. Codespaces in other regions were not affected.<br /><br />The create and resume failures were caused by degraded network connectivity between our control plane services and the VMs hosting the codespaces. This was resolved by redirecting traffic to an alternate site within the region. While we are addressing the core network infrastructure issue, we have also improved our observability of components in this area to improve detection. This will also enable our existing automated failovers to cover this failure mode. These changes will prevent or significantly reduce the time any similar incident causes user impact.
       resolved: true
