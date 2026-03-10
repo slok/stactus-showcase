@@ -1,0 +1,10 @@
+version: incident/v1
+id: qnrqslq9w8lk
+name: Browser-based RDP experiencing issues with Firefox
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-03-10 13:28:26"
+      description: Cloudflare is investigating an issue where browser-based RDP is not working with Firefox. Other browsers, such as Chrome, are unaffected.
+      investigating: true
