@@ -1,0 +1,10 @@
+version: incident/v1
+id: 75hvc76hvrn6
+name: SMS Delivery Delays from Twilio to Claro Colombia
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-03-10 05:22:49"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Claro network subscribers in Colombia. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
