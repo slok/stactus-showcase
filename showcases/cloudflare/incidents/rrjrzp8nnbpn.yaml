@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-03-10 19:56:54"
       description: "Cloudflare is investigating permission issues within the Zero Trust Dashboard UI where customers assigned the Zero Trust Edit role are unable to create Cloudflare Tunnels. \n\nThis specifically impacts users attempting to provision new tunnels via the dashboard interface when they do not have Super Admin privileges for the account. All other tunnel management functions and workflows for users with Super Admin permissions remain unaffected.\n\nOur engineering team is actively working on resolving the root cause, and we will provide further updates as soon as more information is available."
       investigating: true
+    - ts: "2026-03-10 20:15:18"
+      description: A fix has been implemented and we are monitoring the results.
