@@ -1,0 +1,10 @@
+version: incident/v1
+id: t2zclr5m459y
+name: Setting secrets and creating apps is degraded
+impact: minor
+systems:
+    - 80ykv2p95qgy
+    - 49yq6v65b33l
+timeline:
+    - ts: "2026-03-11 09:19:43"
+      description: An ongoing data migration in our secret storage service is causing degraded Machines API functionality.
