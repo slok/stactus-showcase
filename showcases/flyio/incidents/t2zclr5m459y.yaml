@@ -1,7 +1,7 @@
 version: incident/v1
 id: t2zclr5m459y
 name: Setting secrets and creating apps is degraded
-impact: minor
+impact: major
 systems:
     - 80ykv2p95qgy
     - 49yq6v65b33l
@@ -10,3 +10,5 @@ timeline:
       description: An ongoing data migration in our secret storage service is causing degraded Machines API functionality.
     - ts: "2026-03-11 10:14:04"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-11 11:03:30"
+      description: While the secret storage service was in a read-only state, app creation requests queued up, due to the retry logic and insufficient request concurrency limits in our GraphQL API. We have scaled up the GraphQL API and are continuing to monitor the situation.
