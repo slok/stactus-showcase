@@ -1,0 +1,10 @@
+version: incident/v1
+id: qb0y7kvh71sh
+name: SMS Delivery Delays to and From a Subset of Twilio Long Codes in Portugal
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-03-11 01:23:36"
+      description: Twilio customers may be experiencing SMS delivery delays to and from a subset of Twilio Long Codes in Portugal. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
