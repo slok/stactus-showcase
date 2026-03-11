@@ -1,0 +1,10 @@
+version: incident/v1
+id: ggrxstpcnljv
+name: Issue affecting stream processing within the AWS US-EAST-1 region
+impact: none
+systems:
+    - prk6bb5j7h4l
+timeline:
+    - ts: "2026-03-11 20:10:35"
+      description: At approximately 10:30 AM CT, we identified an issue affecting stream processing within the AWS US-EAST-1 region. As of now, normal operations have resumed. We have initiated a full investigation to determine the root cause and prevent future recurrence.
+      resolved: true
