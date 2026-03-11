@@ -15,5 +15,5 @@ timeline:
       description: The issues with our upstream model provider have been resolved, and gpt-5.3-codex is once again available in Copilot Chat and across IDE integrations. We will continue monitoring to ensure stability, but mitigation is complete.
       investigating: true
     - ts: "2026-03-05 01:13:31"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On March 5th, 2026, between approximately 00:26 and 00:44 UTC, the Copilot service experienced a degradation of the GPT 3.5 Codex model due to an issue with our upstream provider. Users encountered elevated error rates when using GPT 3.5 Codex, impacting approximately 30% of requests. No other models were impacted.<br /><br />The issue was resolved by a mitigation put in place by our provider.
       resolved: true
