@@ -1,6 +1,6 @@
 version: incident/v1
 id: gzlr0c5k0hg3
-name: Increased Errors in the Budapest regio
+name: Increased Errors in the Budapest region
 impact: minor
 systems:
     - 38tc7m3dl7v6
@@ -8,4 +8,7 @@ systems:
 timeline:
     - ts: "2026-03-11 16:50:33"
       description: Cloudflare One traffic routed through Cloudflare's Budapest point of presence may experience an increase in the frequency in timeouts.
+      investigating: true
+    - ts: "2026-03-11 17:33:18"
+      description: We are continuing to investigate this issue.
       investigating: true

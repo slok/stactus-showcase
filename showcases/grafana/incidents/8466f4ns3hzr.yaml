@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8466f4ns3hzr
+name: Rule Evaluation Outage in prod-us-west-0
+impact: major
+systems:
+    - 2cc4g3q2g0xn
+timeline:
+    - ts: "2026-03-11 17:10:54"
+      description: We are currently investigating an issue impacting rule evaluation for a subset of customers in the prod-us-west-0 region. We will provide updates as they become available.
+      investigating: true
