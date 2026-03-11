@@ -1,0 +1,15 @@
+version: incident/v1
+id: 3rsy9xmdvl9w
+name: Elevated 500 errors from Browser Rendering REST API
+impact: minor
+systems:
+    - q9p27cmrspf8
+timeline:
+    - ts: "2026-03-11 14:45:18"
+      description: |-
+        Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers, who can observe 500 error response codes being returned from the Browser Rendering REST API endpoints.
+
+        Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2026-03-11 14:53:48"
+      description: The issue has been identified and a fix is being implemented.
