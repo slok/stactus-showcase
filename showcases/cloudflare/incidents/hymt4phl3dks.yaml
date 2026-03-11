@@ -1,0 +1,13 @@
+version: incident/v1
+id: hymt4phl3dks
+name: issues with Cloudflare Dashboard
+impact: major
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-03-11 19:01:13"
+      description: "Cloudflare is investigating issues with Cloudflare Dashboard and related APIs. \nThese issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed."
+      investigating: true
+    - ts: "2026-03-11 19:01:28"
+      description: We are continuing to investigate this issue.
+      investigating: true
