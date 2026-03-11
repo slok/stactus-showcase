@@ -12,3 +12,6 @@ timeline:
       description: A fix has been implemented and we are monitoring the results.
     - ts: "2026-03-11 11:03:30"
       description: While the secret storage service was in a read-only state, app creation requests queued up, due to the retry logic and insufficient request concurrency limits in our GraphQL API. We have scaled up the GraphQL API and are continuing to monitor the situation.
+    - ts: "2026-03-11 11:37:10"
+      description: This incident has been resolved.
+      resolved: true
