@@ -1,0 +1,16 @@
+version: incident/v1
+id: wrzzm1vzdbzq
+name: Cloudflare Pages Availability Issues
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2026-03-11 20:57:42"
+      description: |-
+        Cloudflare is investigating availability issues with Cloudflare Pages API, Pages builds and Workers builds.
+        Customers may be experiencing an increase of errors from the Pages API or seeing build failures in Pages or Workers builds. This does not impact any Pages or Workers traffic.
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-03-11 21:01:46"
+      description: This incident has been resolved, users may have seen impact from 11th March 2026 20:10 UTC to 20:55 UTC.
+      resolved: true
