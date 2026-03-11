@@ -1,0 +1,11 @@
+version: incident/v1
+id: cl1hd88p3v74
+name: Network Connectivity/52X errors in KUL
+impact: none
+systems:
+    - hr78s04g1r5b
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-03-11 19:15:18"
+      description: Customers connecting through Kuala Lumpur may have noticed degraded network connectivity and 52X errors between 18:16 and 18:25 UTC
+      resolved: true
