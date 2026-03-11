@@ -1,0 +1,10 @@
+version: incident/v1
+id: frcp4hcsfvrq
+name: Mass Account Suspension Error
+impact: minor
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2026-03-11 14:29:54"
+      description: A small subset of accounts were suspended in error. We are working to resolve this as quickly as possible. We will provide another update in 1 hours or sooner if more information becomes available.
+      investigating: true

@@ -1,0 +1,11 @@
+version: incident/v1
+id: 78s4l7y4tn2v
+name: Degraded experience with Copilot Code Review
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-03-11 14:25:17"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-03-11 14:28:04"
+      description: We are investigating degraded performance with Copilot Code Review. Customers may experience extended review times or occasional failures. We are seeing signs of improvement as our team works to restore normal service. We'll post another update by 15:30 UTC.
