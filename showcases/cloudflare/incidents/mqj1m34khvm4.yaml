@@ -1,0 +1,13 @@
+version: incident/v1
+id: mqj1m34khvm4
+name: Intermittent Challenge page issues
+impact: minor
+systems:
+    - s0991jwsqllx
+    - x0tkn0hzrtw7
+timeline:
+    - ts: "2026-03-11 17:35:39"
+      description: Some customers may find challenge pages may be impossible to solve.
+      investigating: true
+    - ts: "2026-03-11 18:01:08"
+      description: The issue has been identified and a fix is being implemented.
