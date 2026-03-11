@@ -1,0 +1,18 @@
+version: incident/v1
+id: rtbthsrxzt6x
+name: 'MongoDB Atlas Admin API: Temporary failures for tools using older API versions'
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-11 10:00:32"
+      description: |-
+        Users may have seen tools and integrations that rely on older MongoDB Atlas Admin API versions (for example, 2023-01-01 and 2023-02-01) start failing with HTTP 410 responses indicating that the requested version was no longer available. This affected workflows using the MongoDB Atlas Admin API through the Terraform provider, the Atlas CLI, and custom automation.
+
+        This behavior was triggered by our planned retirement process for older API versions, but the resulting user impact was unintended because these versions were still in active use.
+
+        We have extended the end-of-life date for the affected API versions to mid-2027 (tentative date 2027-07-01) and deployed a configuration change to restore compatibility for these workflows. All affected tools and integrations should now be operating normally & will be updated prior to the modified end-of-life-date.
+
+        From 2026-03-01 00:00 UTC to 2026-03-02 12:01 UTC, users relying on these older API versions may have experienced failed requests and associated automation errors.
+
+        No user action is required. Previously failed operations can be retried and should now succeed.
+      resolved: true
