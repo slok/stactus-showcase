@@ -12,3 +12,5 @@ timeline:
     - ts: "2026-02-02 16:40:32"
       description: The incident has been resolved.
       resolved: true
+    - ts: "2026-03-11 03:53:49"
+      description: On 2 February 2026 between 08:52 and 16:40 UTC, some Statuspage customers’ API-based integrations started failing with authorization errors when a planned cleanup of old API keys unintentionally disabled new keys as well. Statuspage UI and core product functions remained available. We provided a workaround by creating new API keys and then fully restored affected keys from a point‑in‑time database backup. We are implementing safeguards around bulk key operations, improved detection of abnormal API error rates, and stronger operational checks for similar maintenance activities to reduce the likelihood and duration of similar incidents in the future.
