@@ -1,9 +1,12 @@
 version: incident/v1
 id: 7gkqjhx0b67y
-name: On Call Engineers are Investigating
+name: 'Automated Alert: Minimal Customer Impact'
 impact: none
 systems: []
 timeline:
     - ts: "2026-03-11 23:37:12"
       description: Our monitoring systems have detected a potential issue with Twilio Accounts not reactivating after successfully adding funds to the Account. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
       investigating: true
+    - ts: "2026-03-11 23:55:22"
+      description: We have fully investigated the Twilio Accounts not reactivating after successfully adding funds to the Account issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
