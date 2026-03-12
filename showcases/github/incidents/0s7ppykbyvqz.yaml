@@ -26,3 +26,6 @@ timeline:
     - ts: "2026-03-12 17:20:20"
       description: We're seeing intermittent failures downloading from the extension marketplace from codespaces, caused by IP blocks for some codespaces. We're working to remove those blocks.
       investigating: true
+    - ts: "2026-03-12 17:59:56"
+      description: Codespaces IPs are no longer being blocked from Visual Studio Marketplace operations and we are monitoring for full recovery
+      investigating: true

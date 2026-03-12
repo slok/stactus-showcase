@@ -1,0 +1,9 @@
+version: incident/v1
+id: fxwny246hv9h
+name: Degraded performance for retrieving documents
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-03-12 17:53:38"
+      description: Users were unable to retrieve documents across multiple platforms. This included degraded performance or failures when attempting to access documents via the CLI as well as through other interfaces.
+      resolved: true
