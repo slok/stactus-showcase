@@ -17,3 +17,6 @@ timeline:
     - ts: "2026-03-12 14:29:31"
       description: We have deployed a fix for the issue affecting extension installation in newly created Codespaces. New Codespaces are now being created with working extensions. We'll post another update by 15:30 UTC.
       investigating: true
+    - ts: "2026-03-12 15:08:15"
+      description: We're seeing partial recovery for the issue affecting extension installation in newly created Codespaces. Some users may still experience degraded functionality where extensions hit errors. The team continues to investigate the root cause while monitoring the recovery.
+      investigating: true
