@@ -1,0 +1,10 @@
+version: incident/v1
+id: y4728lkyp8xq
+name: Fix for Bot Management Cookie Issue with Cloudflare for SaaS (O2O) Deployments
+impact: none
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2026-03-12 20:40:40"
+      description: "Cloudflare is deploying a fix for a bug affecting customers using Bot Management with Cloudflare for SaaS origin-to-origin (O2O) configurations. \n\nThese customers may have observed an issue where the __cf_bm cookie was repeatedly being reset on each O2O request. This occurred because the bot cookie code runs twice during O2O requests – once on the eyeball zone and once on the origin zone – causing the cookie to be overwritten due to a mismatch in origin and eyeball domains.\n\nA fix is being implemented to prevent the __cf_bm cookie from being set on the origin hop of O2O requests. This will allow eyeball zones to properly utilize session scoring functionality and improve cacheability for O2O requests. The fix is expected to be completed by March 16, 2026."
+      resolved: true

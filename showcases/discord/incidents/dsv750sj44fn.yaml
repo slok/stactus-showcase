@@ -1,0 +1,9 @@
+version: incident/v1
+id: dsv750sj44fn
+name: Applications experiencing 503 errors
+impact: major
+systems: []
+timeline:
+    - ts: "2026-03-12 20:50:26"
+      description: We are aware that bot traffic may be hitting 503 errors and are investigating the issue.
+      investigating: true
