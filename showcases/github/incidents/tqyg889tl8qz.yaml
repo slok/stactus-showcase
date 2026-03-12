@@ -45,5 +45,5 @@ timeline:
       description: Webhooks is operating normally.
       investigating: true
     - ts: "2026-03-06 23:28:13"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On March 6, 2026, between 16:16 UTC and 23:28 UTC the Webhooks service was degraded and some users experienced intermittent errors when accessing webhook delivery histories, retrying webhook deliveries, and listing webhooks via the UI and API. On average, the error rate was 0.57% and peaked at approximately 2.73% of requests to the service. This was due to unhealthy infrastructure affecting a portion of webhook API traffic.<br /><br />We mitigated the incident by redeploying affected services, after which service health returned to normal.<br /><br />We are working to improve detection of unhealthy infrastructure and strengthen service safeguards to reduce time to detection and mitigation of issues like this one in the future.
       resolved: true

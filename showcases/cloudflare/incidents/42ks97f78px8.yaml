@@ -1,0 +1,12 @@
+version: incident/v1
+id: 42ks97f78px8
+name: Increased Error Rates in North America West
+impact: major
+systems: []
+timeline:
+    - ts: "2026-03-12 16:45:51"
+      description: Users may experience increased error rates when interacting with Cloudflare services in the Seattle region.
+      investigating: true
+    - ts: "2026-03-12 16:46:10"
+      description: We are continuing to investigate this issue.
+      investigating: true
