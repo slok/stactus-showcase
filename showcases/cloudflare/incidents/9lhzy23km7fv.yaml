@@ -1,0 +1,12 @@
+version: incident/v1
+id: 9lhzy23km7fv
+name: AI Gateway
+impact: minor
+systems:
+    - 0311l882p558
+timeline:
+    - ts: "2026-03-12 23:04:31"
+      description: Prepaid billing unable to purchase credits.
+      investigating: true
+    - ts: "2026-03-12 23:07:47"
+      description: A fix has been implemented and we are monitoring the results.
