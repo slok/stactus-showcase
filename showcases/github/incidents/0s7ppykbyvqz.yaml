@@ -23,3 +23,6 @@ timeline:
     - ts: "2026-03-12 16:09:52"
       description: We're seeing intermittent failures downloading from the extension marketplace from codespaces and are investigating.
       investigating: true
+    - ts: "2026-03-12 17:20:20"
+      description: We're seeing intermittent failures downloading from the extension marketplace from codespaces, caused by IP blocks for some codespaces. We're working to remove those blocks.
+      investigating: true
