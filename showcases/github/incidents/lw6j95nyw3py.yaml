@@ -7,3 +7,12 @@ timeline:
     - ts: "2026-03-12 01:54:18"
       description: We are investigating reports of impacted performance for some GitHub services.
       investigating: true
+    - ts: "2026-03-12 02:13:26"
+      description: We are investigating elevated error rates. Error rates are now decreasing and we're continuing to monitor the situation.
+      investigating: true
+    - ts: "2026-03-12 02:44:51"
+      description: We've identified the root cause and are working on resolving the underlying issue. Some users may have encountered intermittent failures and errors. We're continuing to see reduced error rates.
+      investigating: true
+    - ts: "2026-03-12 02:45:55"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
