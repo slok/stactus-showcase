@@ -1,0 +1,13 @@
+version: incident/v1
+id: 0s7ppykbyvqz
+name: Degraded Codespaces experience
+impact: minor
+systems:
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2026-03-12 13:06:55"
+      description: We are investigating reports of degraded performance for Codespaces
+      investigating: true
+    - ts: "2026-03-12 13:07:45"
+      description: We're investigating an issue where extensions fail to install in newly created Codespaces. Users can still create and access Codespaces, but extensions will not be operational, resulting in a degraded development experience. Our team is actively working to identify and resolve the root cause. We'll post another update by 14:00 UTC.
+      investigating: true
