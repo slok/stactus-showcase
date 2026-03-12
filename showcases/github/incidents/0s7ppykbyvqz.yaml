@@ -20,3 +20,6 @@ timeline:
     - ts: "2026-03-12 15:08:15"
       description: We're seeing partial recovery for the issue affecting extension installation in newly created Codespaces. Some users may still experience degraded functionality where extensions hit errors. The team continues to investigate the root cause while monitoring the recovery.
       investigating: true
+    - ts: "2026-03-12 16:09:52"
+      description: We're seeing intermittent failures downloading from the extension marketplace from codespaces and are investigating.
+      investigating: true
