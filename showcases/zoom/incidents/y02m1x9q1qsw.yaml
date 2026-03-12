@@ -1,0 +1,23 @@
+version: incident/v1
+id: y02m1x9q1qsw
+name: Issues Affecting Zoom Phone and Zoom Contact Center Inbound and Outbound SMS in Australia
+impact: minor
+systems:
+    - z1zykmz9tq24
+    - krxmw136qgjw
+timeline:
+    - ts: "2026-03-12 01:14:44"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Phone and Zoom Contact Center Inbound and Outbound SMS in Australia.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-03-12 01:53:28"
+      description: |-
+        We have identified the issue affecting inbound and outbound SMS delivery.
+
+        We are working with our carrier to resolve the issue and will keep you informed with timely updates as progress is made.
+
+        Thank you for your patience.
