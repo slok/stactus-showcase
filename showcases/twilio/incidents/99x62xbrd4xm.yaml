@@ -1,0 +1,10 @@
+version: incident/v1
+id: 99x62xbrd4xm
+name: PayG (Pay-As-You-Go) Accounts Remaining Suspended After Payment
+impact: minor
+systems:
+    - jw9dh2mf4392
+timeline:
+    - ts: "2026-03-13 16:04:26"
+      description: Some Twilio PayG (Pay-As-You-Go) accounts may be experiencing an issue where their account remains in a suspended state after increasing their account balance, or remain active when their balance falls below $0. Our engineers are aware of this and are actively investigating this incident. We will provide another update in 1 hour or as soon as we have additional information.
+      investigating: true

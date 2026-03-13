@@ -16,3 +16,9 @@ timeline:
     - ts: "2026-03-13 15:20:01"
       description: Packages is experiencing degraded performance. We are continuing to investigate.
       investigating: true
+    - ts: "2026-03-13 15:47:51"
+      description: We are investigating intermittent performance degradation affecting Actions, Feeds, Issues, Package Registry, Profiles, Registry Metadata, Star, and User Dashboard. Users may experience elevated error rates and slower response times when accessing these services. We have identified a potential cause and are implementing mitigations to restore normal service. We'll post another update by 16:15 UTC.
+      investigating: true
+    - ts: "2026-03-13 16:02:54"
+      description: We have deployed mitigations and are actively monitoring for recovery. We'll post another update by 17:00 UTC.
+      investigating: true
