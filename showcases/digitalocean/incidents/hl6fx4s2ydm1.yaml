@@ -1,0 +1,10 @@
+version: incident/v1
+id: hl6fx4s2ydm1
+name: Newly Created Managed Kubernetes Nodes
+impact: minor
+systems:
+    - ljktrzzffk6j
+timeline:
+    - ts: "2026-03-13 11:26:31"
+      description: Our Engineering team is investigating an issue impacting newly provisioned Managed Kubernetes nodes. During this time, new nodes may experience DNS timeouts, which could temporarily affect cluster services. We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
