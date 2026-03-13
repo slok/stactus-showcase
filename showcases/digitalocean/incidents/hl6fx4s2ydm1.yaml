@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-03-13 11:26:31"
       description: Our Engineering team is investigating an issue impacting newly provisioned Managed Kubernetes nodes. During this time, new nodes may experience DNS timeouts, which could temporarily affect cluster services. We apologize for the inconvenience and will share an update once we have more information.
       investigating: true
+    - ts: "2026-03-13 12:32:57"
+      description: Our Engineering team has identified the cause of the issue which was impacting Managed Kubernetes nodes and is actively working on a fix. We will post an update as soon as additional information is available.
