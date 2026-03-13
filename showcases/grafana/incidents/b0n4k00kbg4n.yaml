@@ -8,3 +8,6 @@ timeline:
     - ts: "2026-03-13 10:28:23"
       description: We are seeing issues on the write path for Loki in cluster Azure Netherlands (eu-west-3). Impact will reflect in degradation of logs ingestion on that cluster. Our engineering team is already working on restoring the service.
       investigating: true
+    - ts: "2026-03-13 21:22:37"
+      description: We are continuing to investigate this issue with our CSP, and will provide updates as they become available.
+      investigating: true
