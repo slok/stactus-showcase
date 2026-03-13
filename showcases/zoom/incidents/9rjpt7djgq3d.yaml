@@ -1,0 +1,19 @@
+version: incident/v1
+id: 9rjpt7djgq3d
+name: Service Degradation Affecting Zoom Services in Saudi Arabia
+impact: minor
+systems:
+    - c68zyh2h6bv2
+    - fq7t6wgfw16p
+    - zhgjct3grx1z
+    - 5nb7nq17c6g5
+    - gkx8x46kw77h
+timeline:
+    - ts: "2026-03-13 17:13:46"
+      description: |-
+        We are currently investigating a service degradation affecting any file related operations in Saudi Arabia.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
