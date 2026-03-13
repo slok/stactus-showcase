@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2026-03-13 16:54:34"
       description: Twilio PayG (Pay-As-You-Go) accounts should no longer be experiencing delays in account reactivations after payment, or delays in suspensions when their balance reaches $0. Our team has implemented a fix and we are continuing to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-03-13 18:46:08"
+      description: Twilio PayG (Pay-As-You-Go) accounts are no longer be experiencing delays in account reactivations after payment, or delays in suspensions when their balance reaches $0. This incident is resolved.
+      resolved: true
