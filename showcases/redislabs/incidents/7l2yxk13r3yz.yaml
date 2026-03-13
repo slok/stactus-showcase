@@ -1,0 +1,31 @@
+version: incident/v1
+id: 7l2yxk13r3yz
+name: Upcoming status page platform transition - Reminder
+impact: none
+systems:
+    - nn6rqzz85xg5
+    - t2gz62m72xtf
+    - jp7zzppvbk0x
+    - thqc9y54vgk3
+    - zt0clr5hgpd5
+timeline:
+    - ts: "2026-03-13 02:48:58"
+      description: |-
+        Dear Customer,
+
+        This is a friendly reminder that we will be transitioning our customer status page to a new platform on March 23, 2026, as part of our efforts to improve reliability and enhance the overall user experience.
+
+        As previously communicated:
+
+        No impact to Redis services is expected during this transition.
+
+        If you are subscribed to status notifications, you will receive a one-time confirmation email during the transition. This is expected and confirms your subscription on the new platform.
+
+        Action Required for RSS Subscribers:
+        If you follow updates via RSS, please ensure your feed URL is updated to:
+        https://status.redis.io/data/rss.xml
+
+        We will post a confirmation update once the transition has been successfully completed.
+
+        If you have any questions, please do not hesitate to reach out.
+      resolved: true
