@@ -10,3 +10,8 @@ timeline:
       investigating: true
     - ts: "2026-03-13 12:32:57"
       description: Our Engineering team is investigating an issue impacting newly provisioned Managed Kubernetes nodes. During this time, Only customers who run a NAT Gateway in their VPC and a VPC-native clusters are affected and may experience DNS timeouts. We apologize for the inconvenience and will share an update once we have more information.
+    - ts: "2026-03-13 13:55:58"
+      description: |-
+        Our Engineering team has implemented a fix to address the issue causing DNS timeouts for newly provisioned Managed Kubernetes nodes. Further investigation has confirmed that this issue primarily affected customers utilizing a NAT Gateway within their VPC and running a VPC-native cluster. We are actively monitoring the situation to ensure overall stability.
+
+        We appreciate your patience and will provide a further update once the issue is fully confirmed to be resolved.
