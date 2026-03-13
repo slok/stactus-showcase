@@ -14,5 +14,5 @@ timeline:
     - ts: "2026-03-11 15:53:07"
       description: Copilot Code Review queue processing has returned to normal levels.
     - ts: "2026-03-11 15:53:15"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On March 11, 2026, between 13:00 UTC and 15:23 UTC the Copilot Code Review service was degraded and experienced longer than average review times. On average, Copilot Code Review requests took 4 minutes and peaked at just under 8 minutes. This was due to hitting worker capacity limits and CPU throttling. We mitigated the incident by increasing partitions, and we are improving our resource monitoring to identify potential issues sooner.
       resolved: true
