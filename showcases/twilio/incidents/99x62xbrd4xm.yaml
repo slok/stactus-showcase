@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-03-13 16:04:26"
       description: Some Twilio PayG (Pay-As-You-Go) accounts may be experiencing an issue where their account remains in a suspended state after increasing their account balance, or remain active when their balance falls below $0. Our engineers are aware of this and are actively investigating this incident. We will provide another update in 1 hour or as soon as we have additional information.
       investigating: true
+    - ts: "2026-03-13 16:54:34"
+      description: Twilio PayG (Pay-As-You-Go) accounts should no longer be experiencing delays in account reactivations after payment, or delays in suspensions when their balance reaches $0. Our team has implemented a fix and we are continuing to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.

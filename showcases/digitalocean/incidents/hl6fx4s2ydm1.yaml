@@ -15,3 +15,6 @@ timeline:
         Our Engineering team has implemented a fix to address the issue causing DNS timeouts for newly provisioned Managed Kubernetes nodes. Further investigation has confirmed that this issue primarily affected customers utilizing a NAT Gateway within their VPC and running a VPC-native cluster. We are actively monitoring the situation to ensure overall stability.
 
         We appreciate your patience and will provide a further update once the issue is fully confirmed to be resolved.
+    - ts: "2026-03-13 16:35:05"
+      description: Our Engineering team has confirmed the resolution of the issue impacting DNS timeouts for newly provisioned Managed Kubernetes nodes. At this time all cluster services should now be functioning normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true
