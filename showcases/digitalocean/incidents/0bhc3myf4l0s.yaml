@@ -1,9 +1,14 @@
 version: incident/v1
 id: 0bhc3myf4l0s
 name: Delay in App Platform Deployments
-impact: none
+impact: minor
 systems:
     - txysr8r0gn1n
 timeline:
     - ts: "2026-03-13 21:30:19"
       description: "Starting at 20:40 UTC, users may have seen delays with deploying new apps on App Platform. \n\nAt this time, our Engineering team is seeing signs of recovery, and users should be able to deploy new apps without issue. We're currently monitoring the situation to ensure full recovery.\n\nWe apologize for the inconvenience. We'll post an update once the issue has been confirmed to be resolved."
+    - ts: "2026-03-13 22:01:06"
+      description: |-
+        Our Engineering team is starting see delays once again with new App Platform deployments. During this time, users may still see delays with deploying new apps. We're working with our upstream provider to resolve the issue.
+
+        We again apologize for the inconvenience. We will post further updates once we have more information.
