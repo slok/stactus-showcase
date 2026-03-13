@@ -1,0 +1,16 @@
+version: incident/v1
+id: 9ksfbdb59mtn
+name: Web Application Not Loading
+impact: critical
+systems:
+    - b5fx9rfn6137
+timeline:
+    - ts: "2026-03-13 09:26:35"
+      description: We are investigating loading issues on our web application. As a result, some users might be getting errors when loading the web application.
+      investigating: true
+    - ts: "2026-03-13 09:27:16"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-03-13 09:32:12"
+      description: We are continuing to investigate this issue.
+      investigating: true
