@@ -7,6 +7,9 @@ systems:
 timeline:
     - ts: "2026-03-14 13:55:50"
       description: |-
-        Organizations with names prefixed with numerical digits may experience 401 errors. Operations include actions such as Sprite creation, listing, etc...
+        Organizations with names prefixed with numerical digits may experience 401 errors. Affected operations include actions such as Sprite creation, listing, etc...
 
-        A fix has been implemented and we are monitoring the results.
+        A fix has been implemented since 2026-03-14 12:30 UTC and we are monitoring the results!
+    - ts: "2026-03-14 14:05:21"
+      description: This incident has been resolved.
+      resolved: true
