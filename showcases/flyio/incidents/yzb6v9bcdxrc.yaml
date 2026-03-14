@@ -1,0 +1,9 @@
+version: incident/v1
+id: yzb6v9bcdxrc
+name: 'Sprite Operations: 401 errors for certain organizations'
+impact: none
+systems:
+    - gfjxlcdf8bf4
+timeline:
+    - ts: "2026-03-14 13:33:11"
+      description: Organizations with numerical prefixes might experience failing sprite operations ( like creating a sprite, listing sprites, etc... ) due to 401 errors
