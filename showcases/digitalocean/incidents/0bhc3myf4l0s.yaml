@@ -14,3 +14,11 @@ timeline:
         We again apologize for the inconvenience. We will post further updates once we have more information.
     - ts: "2026-03-13 23:39:10"
       description: "After working with our upstream provider, our Engineering team has implemented a fix to resolve the issue that was causing delays in the deployment of new apps, and they are currently monitoring the situation. \n\nDuring this time, users should no longer experience issues with creating new apps and all the stalled creation events should provision completely.\n\nWe will post an update as soon as the issue is fully resolved."
+    - ts: "2026-03-14 01:47:40"
+      description: |-
+        As of 23:00 UTC, our Engineering team has confirmed that the issue causing delays in App Platform deployments has been fully resolved. The fix implemented earlier has been successful, and we are no longer seeing any delays or errors with deployments.
+
+        Users should now be able to deploy their apps successfully and without any issues. We apologize again for the inconvenience caused.
+
+        However, if you continue to experience any issues, please don't hesitate to raise a support ticket for further investigation.
+      resolved: true

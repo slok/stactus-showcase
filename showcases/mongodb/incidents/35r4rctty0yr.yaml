@@ -1,0 +1,15 @@
+version: incident/v1
+id: 35r4rctty0yr
+name: Cluster Provisioning Impaired in Azure Virginia-East2 (eastus2)
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-03-14 01:50:01"
+      description: We are experiencing high failure rates when provisioning clusters in Azure Virginia-East2 (eastus2). Please note that cluster creation in this region will likely experience delays until the issue is resolved.
+      investigating: true
+    - ts: "2026-03-14 01:59:53"
+      description: |-
+        Azure has an active service issue for virtual machines in East US 2. According to their service health page, "customers using Virtual Machines in East US 2 may have encountered errors when performing service management operations - such as create, update, scale, or start - for resources in this region. [...] During peak impact, an unexpected surge in usage caused backend Virtual Machine components to reach operational limits, resulting in deployment failures for some VMs. We are actively mitigating through load balancing and resource reclamation. Capacity constraints for affected SKUs persist, and our teams continue working to restore normal levels."
+
+        We are actively engaging with Azure support.
