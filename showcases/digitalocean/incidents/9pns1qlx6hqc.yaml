@@ -1,0 +1,18 @@
+version: incident/v1
+id: 9pns1qlx6hqc
+name: Degraded performance with BYOK Anthropic models
+impact: minor
+systems:
+    - br95fz33h6td
+timeline:
+    - ts: "2026-03-15 02:55:12"
+      description: |-
+        Our Engineering team is investigating an issue related to all Gradient AI agents and serverless inference that require BYOK Anthropic modles.
+        Impacted users may experience degraded performance.
+        We will provide an update as soon as possible
+      investigating: true
+    - ts: "2026-03-15 03:31:58"
+      description: |-
+        The issue is now resolved, all Anthropic BYOK models in Gradient AI should work normally.
+        Contact support if issues persist.
+      resolved: true
