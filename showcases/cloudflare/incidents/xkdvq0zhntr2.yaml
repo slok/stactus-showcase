@@ -1,0 +1,18 @@
+version: incident/v1
+id: xkdvq0zhntr2
+name: SSL Certificate Provisioning Delays
+impact: minor
+systems:
+    - cghykwlwsmn5
+timeline:
+    - ts: "2026-03-15 22:46:07"
+      description: |-
+        Cloudflare is investigating delays in provisioning SSL certificates. New SSL certificate provisioning is taking up to 45 minutes in some cases.
+
+        SSL certificates already in production remain unaffected and are operating normally.
+      investigating: true
+    - ts: "2026-03-15 22:50:26"
+      description: We have identified and implemented a fix for this issue. We are currently monitoring the results.
+    - ts: "2026-03-15 23:10:30"
+      description: This incident is now resolved.
+      resolved: true
