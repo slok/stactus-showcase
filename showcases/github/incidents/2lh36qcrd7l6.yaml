@@ -1,0 +1,12 @@
+version: incident/v1
+id: 2lh36qcrd7l6
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-03-16 15:01:06"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-03-16 15:06:35"
+      description: We are investigating reports of users experiencing errors when starting or connecting to Codespaces. Some users may be unable to access their development environments during this time. We are working to identify the root cause and will implement a fix as soon as possible.
+      investigating: true
