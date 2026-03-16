@@ -1,0 +1,13 @@
+version: incident/v1
+id: dq1cmmm2d4wf
+name: SMS Delivery Delays and Failures to Algar Telecom in Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-03-16 14:17:24"
+      description: Our monitoring systems have detected a potential issue with SMS Delivery Delays and Failures to Algar Telecom in Brazil. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-03-16 14:18:58"
+      description: We are experiencing SMS Delivery Delays and Failures to Algar Telecom in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

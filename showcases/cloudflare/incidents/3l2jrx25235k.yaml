@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3l2jrx25235k
+name: Elevated Error Rates for Workers AI Services
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2026-03-16 13:58:32"
+      description: We are currently investigating an elevated rate of errors, specifically an increase in timeout (408) errors, affecting multiple Workers AI models. Our engineering teams are actively engaged in identifying the root cause and implementing a fix. Further updates will be provided.
+      investigating: true
