@@ -1,0 +1,11 @@
+version: incident/v1
+id: 4zjnm7y44tzv
+name: Feature Availability Issue Affecting Some Customers
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-16 17:11:54"
+      description: Our team is investigating an issue where features have been turned off for some customers.
+      investigating: true
+    - ts: "2026-03-16 17:26:50"
+      description: A fix has been implemented and we are monitoring the results.
