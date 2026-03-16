@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-03-16 13:58:32"
       description: We are currently investigating an elevated rate of errors, specifically an increase in timeout (408) errors, affecting multiple Workers AI models. Our engineering teams are actively engaged in identifying the root cause and implementing a fix. Further updates will be provided.
       investigating: true
+    - ts: "2026-03-16 15:31:05"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-16 15:35:13"
+      description: This incident has been resolved.
+      resolved: true

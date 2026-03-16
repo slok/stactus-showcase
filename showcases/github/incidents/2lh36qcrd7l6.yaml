@@ -1,6 +1,6 @@
 version: incident/v1
 id: 2lh36qcrd7l6
-name: Disruption with some GitHub services
+name: Errors starting and connecting to Codespaces
 impact: minor
 systems: []
 timeline:
@@ -10,3 +10,9 @@ timeline:
     - ts: "2026-03-16 15:06:35"
       description: We are investigating reports of users experiencing errors when starting or connecting to Codespaces. Some users may be unable to access their development environments during this time. We are working to identify the root cause and will implement a fix as soon as possible.
       investigating: true
+    - ts: "2026-03-16 15:27:21"
+      description: Errors starting or resuming Codespaces have resolved.
+      investigating: true
+    - ts: "2026-03-16 15:28:22"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
