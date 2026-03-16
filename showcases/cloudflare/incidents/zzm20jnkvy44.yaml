@@ -1,0 +1,13 @@
+version: incident/v1
+id: zzm20jnkvy44
+name: Elevated R2 Error Rate in India
+impact: minor
+systems:
+    - 3q1jnbdbn845
+    - 3lbj8lp3d750
+    - hb7g5sq2zz0h
+    - 47xg28c02lnk
+timeline:
+    - ts: "2026-03-16 21:56:25"
+      description: We are currently investigating an issue where customers accessing R2 from India may see high error rates and increased latency for their R2 requests.
+      investigating: true
