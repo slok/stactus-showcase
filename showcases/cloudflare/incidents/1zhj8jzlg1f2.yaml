@@ -1,0 +1,13 @@
+version: incident/v1
+id: 1zhj8jzlg1f2
+name: Cloudflare Workers Issues
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-03-16 21:41:14"
+      description: |-
+        Cloudflare is investigating an increased level of errors for customers running Workers scripts.
+
+        We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
