@@ -1,7 +1,7 @@
 version: incident/v1
 id: 4zjnm7y44tzv
 name: Feature Availability Issue Affecting Some Customers
-impact: none
+impact: minor
 systems: []
 timeline:
     - ts: "2026-03-16 17:11:54"
@@ -9,3 +9,6 @@ timeline:
       investigating: true
     - ts: "2026-03-16 17:26:50"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-16 17:43:02"
+      description: This incident has been resolved.
+      resolved: true

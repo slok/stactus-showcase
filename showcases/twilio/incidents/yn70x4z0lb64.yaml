@@ -1,0 +1,10 @@
+version: incident/v1
+id: yn70x4z0lb64
+name: Issues with Status CallBack Webhooks for WhatsApp
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2026-03-16 17:54:16"
+      description: Some customers may not be receiving the status of outbound messages on their Status Callback webhook for WhatsApp. Engineers have been alerted and are investigation. We will post another update in 30 minutes.
+      investigating: true

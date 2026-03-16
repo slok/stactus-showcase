@@ -1,8 +1,9 @@
 version: incident/v1
 id: r5swflw3b537
 name: Service Degradation Affecting Real Time Media Streams (RTMS)
-impact: none
-systems: []
+impact: minor
+systems:
+    - y2j8tr9wxv49
 timeline:
     - ts: "2026-03-16 17:37:25"
       description: |-
@@ -12,3 +13,5 @@ timeline:
 
         We appreciate your patience as we work to resolve this issue.
       investigating: true
+    - ts: "2026-03-16 17:49:49"
+      description: "We have successfully identified the root cause affecting Real Time Media Streams.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
