@@ -1,0 +1,10 @@
+version: incident/v1
+id: r245q93sbv69
+name: Cloudflare Analytics Availability Issues
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-03-16 18:55:37"
+      description: We are currently investigating issues with Cloudflare Analytics. Customers might experience elevated rate of errors, increased latency while reading data via Cloudflare API, and/or delays in updating analytics data.
+      investigating: true
