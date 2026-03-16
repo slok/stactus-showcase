@@ -1,0 +1,18 @@
+version: incident/v1
+id: 73vhdtfqgrcl
+name: SMS Delivery Delays from Twilio Numbers to Multiple Networks in Colombia
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-03-16 15:55:38"
+      description: Our monitoring systems have detected a potential issue with SMS Delivery Delays from Twilio numbers to Multiple Networks in Colombia. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-03-16 15:56:28"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to network subscribers on multiple networks in Colombia. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-16 16:07:56"
+      description: We are observing recovery in SMS delivery delays from Twilio to network subscribers on multiple networks in Colombia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-03-16 16:08:25"
+      description: We are no longer experiencing SMS delivery delays from Twilio to network subscribers on multiple networks in Colombia. This incident has been resolved.
+      resolved: true

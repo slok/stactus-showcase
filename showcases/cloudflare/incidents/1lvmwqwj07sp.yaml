@@ -1,0 +1,16 @@
+version: incident/v1
+id: 1lvmwqwj07sp
+name: 'Cloudflare Zero Trust: Gateway Issues'
+impact: minor
+systems:
+    - gyx2yygg7lmd
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2026-03-16 15:42:28"
+      description: |-
+        Cloudflare is investigating issues with intermittent failures in the API for Zero Trust Gateway.
+
+        Customers may be unable to view or edit their policies in the Zero Trust dashboard. Existing policies are not impacted.
+
+        More updates to follow shortly.
+      investigating: true
