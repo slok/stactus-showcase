@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2026-03-17 12:46:56"
       description: We are observing recovery in SMS delivery delays when sending messages to Entel in Chile. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-03-17 14:46:31"
+      description: The incident has been resolved and SMS delivery from Twilio to Entel network subscribers in Chile is operating normally.
+      resolved: true
