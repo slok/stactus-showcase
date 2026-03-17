@@ -14,5 +14,5 @@ timeline:
       description: Errors starting or resuming Codespaces have resolved.
       investigating: true
     - ts: "2026-03-16 15:28:22"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On 16 March 2026, between 14:16 UTC and 15:18 UTC, Codespaces users encountered a download failure error message when starting newly created or resumed codespaces. At peak, 96% of the created or resumed codespaces were impacted. Active codespaces with a running VSCode environment were not affected.  <br /><br />The error was a result of an API deployment issue with our VS Code remote experience dependency and was resolved by rolling back that deployment. We are working with our partners to reduce our incident engagement time, improve early detection before they impact our customers, and ensure safe rollout of similar changes in the future.
       resolved: true
