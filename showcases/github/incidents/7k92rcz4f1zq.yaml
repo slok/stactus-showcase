@@ -15,5 +15,5 @@ timeline:
       description: Webhooks is operating normally.
       investigating: true
     - ts: "2026-03-09 17:03:40"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On March 9, 2026, between 15:03 and 20:52 UTC, the Webhooks API experienced was degraded, resulted in higher average latency on requests and in certain cases error responses. Approximately 0.6% of total requests exceeded the normal latency threshold of 3s, while 0.4% of requests resulted in 500 errors. At peak, 2.0% experienced latency greater than 3 seconds and 2.8% of requests returned 500 errors.<br /><br />The issue was caused by a noisy actor that led to resource contention on the Webhooks API service. We mitigated the issue initially by increasing CPU resources for the Webhooks API service, and ultimately applied lower rate limiting thresholds to the noisy actor to prevent further impact to other users.<br /><br />We are working to improve monitoring to more quickly ascertain noisy traffic and will continue to improve our rate-limiting mechanisms to help prevent similar issues in the future.
       resolved: true
