@@ -24,3 +24,13 @@ timeline:
       description: We have seen an increase in latency in our cloud providers services, and are rolling out a change to mitigate the issue. We are monitoring.
     - ts: "2026-03-06 21:44:14"
       description: We are rolling out a mitigation across the environments in these regions, and preemptively where possible to ensure it doesn’t spread elsewhere.
+    - ts: "2026-03-17 18:22:19"
+      description: |-
+        This incident is now resolved.
+
+        During the incident the Cloud Metrics platform experienced intermittent latency spikes communicating with a backend cloud service in the prod-us-central-0 and prod-us-central-5 regions. During the incident the internal CSP-facing issue was escalated to a P1. After determining the scope of the latency spikes was limited to only one availability zone, the team mitigated the situation by migrating all write traffic from to the single nearly unaffected availability zone.
+
+        As the CSP service team attempted to remedy the situation, the situation became worse and began affecting the previously unaffected zone. Given this, another mitigation path was needed. Changing the connection strategy employed by Cloud Metrics to a different method was deployed to all environments, stabilizing the write path once again as we found the different connection method was more reliable and not affected by these increases in latency.
+
+        We have migrated all tenants back to multi-zone write paths and are happy with and confident in the current method of connectivity to the backend cloud service, which is the one we migrated to during the course of the incident. We have no immediate plans to use the previous problematic connectivity method for the foreseeable future.
+      resolved: true
