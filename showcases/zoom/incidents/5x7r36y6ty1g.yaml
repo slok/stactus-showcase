@@ -1,0 +1,18 @@
+version: incident/v1
+id: 5x7r36y6ty1g
+name: Service Degradation Affecting Zoom AIC and Zoom Virtual Agent in US region.
+impact: minor
+systems:
+    - 4kh81f5m9fbm
+    - kz70pym162vg
+    - 07fc2bfpjgct
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2026-03-17 02:30:28"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom AIC and Zoom Virtual Agent in US region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
