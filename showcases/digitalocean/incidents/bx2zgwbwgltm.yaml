@@ -8,3 +8,6 @@ timeline:
     - ts: "2026-03-17 15:00:37"
       description: "Our Engineering team is investigating reports of Gradient AI model availability issues impacting multiple models. Users may experience issues with models availability, including Llama3.1-8b and Qwen3-32b, as well as embedding models such as GTE Large (v1.5), All-MiniLM-L6-v2, Multi-QA-mpnet-base-dot-v1, and Qwen3 Embedding 0.6B. \n\nAdditionally, Guardrails are not available, affecting associated agents, and users attempting to run inference on the Llama3.3-70b model will see degraded performance. \n\nWe apologize for the inconvenience and will share an update once we have more information."
       investigating: true
+    - ts: "2026-03-17 19:49:27"
+      description: Our Engineering team has implemented a fix, the issues impacting model availability and performance have been resolved. All models, including those previously degraded, are back up and healthy. Service has been fully restored.
+      resolved: true
