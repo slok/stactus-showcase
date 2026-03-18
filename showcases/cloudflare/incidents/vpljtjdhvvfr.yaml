@@ -1,0 +1,16 @@
+version: incident/v1
+id: vpljtjdhvvfr
+name: Pages API, Pages Builds and Workers Builds issues
+impact: minor
+systems:
+    - vgxj684rcw7t
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2026-03-18 20:51:33"
+      description: |-
+        Cloudflare has identified and resolved an issue impacting the Pages API, Pages Builds and Workers Builds. Customers may have experienced an elevated number of 500s or build failures.
+
+        Customers may have seen impact from 18th March 2026 20:22 UTC to 20:50 UTC
+    - ts: "2026-03-18 21:08:44"
+      description: This incident has been resolved.
+      resolved: true

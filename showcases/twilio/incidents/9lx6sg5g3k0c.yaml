@@ -3,7 +3,7 @@ id: 9lx6sg5g3k0c
 name: SMS deliver delays from Twilio to MTN network subscribers in Cameroon
 impact: minor
 systems:
-    - yvvy3vlp4djf
+    - 9z5gsqyjs4rl
 timeline:
     - ts: "2026-03-18 19:23:25"
       description: Twilio customers may be experiencing SMS delivery delays from Twilio to MTN network subscribers in Cameroon. Our team is actively investigating this issue. We will provide anotheras soon as more information becomes available.
@@ -13,3 +13,6 @@ timeline:
       investigating: true
     - ts: "2026-03-18 19:40:22"
       description: Twilio customers may be experiencing SMS delivery delays from Twilio to MTN network subscribers in Cameroon. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-03-18 20:53:40"
+      description: We are no longer observing SMS delivery delays from Twilio to MTN network subscribers in Cameroon. The issue has been resolved.
+      resolved: true
