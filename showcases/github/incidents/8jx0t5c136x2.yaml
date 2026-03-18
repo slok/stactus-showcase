@@ -1,0 +1,14 @@
+version: incident/v1
+id: 8jx0t5c136x2
+name: Incident With Webhooks
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-18 16:04:49"
+      description: |-
+        On March 10, 2026, between 23:00 UTC and 23:40 UTC, the Webhooks service was degraded and ~6% of users experienced intermittent errors when accessing webhook delivery history, retrying webhook deliveries, and listing webhooks via the UI and API. Approximately 0.37% of requests resulted in errors, while at peak 0.5% of requests resulted in errors.
+
+        This was due to unhealthy infrastructure. We mitigated the incident by redeploying affected services, after which service health returned to normal.
+
+        We are working to improve detection of unhealthy infrastructure and strengthen service safeguards to reduce time to detect and mitigate similar issues in the future.
+      resolved: true
