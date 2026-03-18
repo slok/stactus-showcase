@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7jl4r0h1mzrl
+name: Load Balancing Health Monitor Delays
+impact: minor
+systems:
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2026-03-18 22:09:59"
+      description: We are investigating an issue where processing of Load Balancing health events is degraded, leading to delays in notifications and analytics regarding Load Balancing health monitoring, as well as delays in steering decisions for some customers.
+      investigating: true
