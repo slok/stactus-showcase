@@ -1,0 +1,12 @@
+version: incident/v1
+id: sk35rx5zpdxw
+name: Cloudflare Access experiencing delays with Access app creation and updates
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-03-18 02:19:34"
+      description: "Cloudflare is investigating an issue causing configuration changes for creating, updating, and removing Access applications to be delayed. \n\nExisting Access applications are not impacted and access will continue to work as intended."
+      investigating: true
+    - ts: "2026-03-18 02:24:18"
+      description: The issue has been identified and a fix is being implemented.
