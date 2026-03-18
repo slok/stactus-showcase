@@ -1,0 +1,10 @@
+version: incident/v1
+id: wfhk060gdd3s
+name: Dashboard Login Issues
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-03-18 20:30:12"
+      description: Investigating issues with logging into the Dashboard silently failing, especially via SSO
+      investigating: true
