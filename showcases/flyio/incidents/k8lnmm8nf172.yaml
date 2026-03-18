@@ -1,0 +1,14 @@
+version: incident/v1
+id: k8lnmm8nf172
+name: Machines failing to start in DFW
+impact: major
+systems: []
+timeline:
+    - ts: "2026-03-18 09:58:10"
+      description: |-
+        We are investigating reports of machines failing to start in the DFW (Dallas) region with "insufficient memory" errors. This may cause deployment failures for applications running in DFW.
+
+        Our team is actively working to restore full capacity in the region. If you are affected, deploying to an alternate region may serve as a temporary workaround.
+
+        We will provide updates as the situation progresses.
+      investigating: true
