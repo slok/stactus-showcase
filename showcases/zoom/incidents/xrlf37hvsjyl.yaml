@@ -1,0 +1,12 @@
+version: incident/v1
+id: xrlf37hvsjyl
+name: Service degradation affecting Zoom phone outbound calls to Australia and New Zealand impacting a subset of users.
+impact: none
+systems:
+    - xf8s6w88yqg6
+timeline:
+    - ts: "2026-03-18 04:43:27"
+      description: Between 19:42 UTC on 03/17/2026 and 03:23 UTC on 3/18/2026, A subset of users experienced issues with Zoom phone outbound calls to Australia and New Zealand. The incident is now resolved, and all affected services are fully restored.
+    - ts: "2026-03-18 04:53:54"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
