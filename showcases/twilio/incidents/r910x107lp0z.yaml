@@ -1,0 +1,12 @@
+version: incident/v1
+id: r910x107lp0z
+name: On Call Engineers are Investigating
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-18 01:23:27"
+      description: Our monitoring systems have detected a potential issue with RCS Delivery Failure. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-03-18 01:51:26"
+      description: We have fully investigated the RCS Delivery Failure issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
