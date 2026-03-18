@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7wr0lk70fcpj
+name: Recharge Triggers Were Fired for Inactive Accounts
+impact: minor
+systems:
+    - jw9dh2mf4392
+timeline:
+    - ts: "2026-03-18 14:57:27"
+      description: An account balance adjustment activity was performed by our team for inactive and old accounts, this resulted in charging some of our customer credit cards inadvertently. Our team is working on invalidating those transactions. We will provide another update in 2 hour or as soon as more information becomes available.
+      investigating: true
