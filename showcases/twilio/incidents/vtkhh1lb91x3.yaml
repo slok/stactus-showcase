@@ -1,0 +1,10 @@
+version: incident/v1
+id: vtkhh1lb91x3
+name: Cloudflare Captcha not Loading in Certain Regions
+impact: minor
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2026-03-18 18:32:29"
+      description: We are investigating intermittent failures when loading captchas in certain regions on the Twilio platform. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
