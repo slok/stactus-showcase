@@ -2,8 +2,7 @@ version: incident/v1
 id: cb2f14js09zh
 name: SMS Delivery Delays To Multiple Networks In Multiple Countries Via Subset of Twilio Numbers
 impact: minor
-systems:
-    - 8qjql0kqnd33
+systems: []
 timeline:
     - ts: "2026-03-18 13:27:06"
       description: Twilio customers may be experiencing SMS delivery delays to multiple networks in multiple countries via a subset of Twilio numbers. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
@@ -11,3 +10,8 @@ timeline:
     - ts: "2026-03-18 14:27:07"
       description: We are still experiencing SMS delivery delays to multiple networks in multiple countries via a subset of Twilio numbers. Our team is actively investigating this issue. We will provide another update in 2 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-03-18 16:55:13"
+      description: We have observed a recovery in SMS delivery from a subset of Twilio Phone Numbers to multiple networks in multiple countries and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-18 16:56:40"
+      description: We have observed a recovery in SMS delivery from a subset of Twilio Phone Numbers to multiple networks in multiple countries and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
