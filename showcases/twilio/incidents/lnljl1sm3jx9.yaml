@@ -1,10 +1,13 @@
 version: incident/v1
 id: lnljl1sm3jx9
-name: On Call Engineers are Investigating High latency impacting outgoing messages for msg-send
+name: High latency impacting sending outgoing messages for Programmable Messaging API
 impact: minor
 systems:
-    - yvvy3vlp4djf
+    - x3z86l06nvl7
 timeline:
     - ts: "2026-03-18 21:31:54"
       description: Our monitoring systems have detected a potential issue with High latency impacting outgoing messages for msg-send. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-03-18 21:47:03"
+      description: We are experiencing High latency impacting sending outgoing messages for Programmable Messaging API. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
