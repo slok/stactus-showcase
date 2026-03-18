@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2lvpd472lrs8
+name: Performance degradation in one of the Cloudflare Los Angeles POP
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+    - 38w4zp21dlkc
+timeline:
+    - ts: "2026-03-18 21:29:47"
+      description: We have mitigated an issue in one of the Cloudflare Los Angeles POPs causing performance degradation between 20:32 to 20:53 UTC
