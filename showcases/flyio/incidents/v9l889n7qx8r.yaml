@@ -1,0 +1,13 @@
+version: incident/v1
+id: v9l889n7qx8r
+name: Connection Issues in SJC
+impact: minor
+systems:
+    - 3zgl1nsfpms9
+    - 49qj4qjyzlzn
+timeline:
+    - ts: "2026-03-18 14:07:08"
+      description: "Between 13:55 and 14:03 UTC machines and MPG clusters hosted in the SJC region saw elevated connection errors. Users may have seen errors connecting to or from most machines in the region, as well as with deployments or updates to machines in the region. \n\nNetworking has returned to normal in the region, and we are continuing to monitor closely to ensure stable recovery."
+    - ts: "2026-03-18 14:18:47"
+      description: This incident has been resolved.
+      resolved: true

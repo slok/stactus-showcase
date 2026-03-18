@@ -1,0 +1,14 @@
+version: incident/v1
+id: 6q019yjgm856
+name: Fly ssh console command failing
+impact: minor
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2026-03-18 14:12:42"
+      description: We have identified an issue causing new `fly ssh console` connections to fail with 500 errors. A fix is in progress.
+    - ts: "2026-03-18 14:17:44"
+      description: A fix has been implemented and we are seeing `ssh console` commands succeed as normal.
+    - ts: "2026-03-18 14:18:32"
+      description: This incident has been resolved.
+      resolved: true
