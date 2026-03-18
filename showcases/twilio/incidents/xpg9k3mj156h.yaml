@@ -1,0 +1,10 @@
+version: incident/v1
+id: xpg9k3mj156h
+name: On Call Engineers are Investigating SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in United States
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-03-18 20:14:54"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to MTN network subscribers in Cameroon. Our team has identified the cause, and is working to resolve the issue. We will provide another update as soon as more information becomes available.
+      investigating: true
