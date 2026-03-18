@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2c0xskfq9gpq
+name: Some R2 assets incomplete on 206 responses
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-03-18 17:11:19"
+      description: Some R2 customers may experience incomplete assets and broken connections during 206 responses
+      investigating: true
