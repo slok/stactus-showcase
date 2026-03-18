@@ -1,0 +1,13 @@
+version: incident/v1
+id: 49xnkj77r7vl
+name: Disruption with some GitHub services
+impact: minor
+systems:
+    - 8l4ygp009s5s
+timeline:
+    - ts: "2026-03-18 22:36:15"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-03-18 22:36:34"
+      description: Git Operations is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
