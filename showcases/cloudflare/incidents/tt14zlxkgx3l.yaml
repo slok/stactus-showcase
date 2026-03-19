@@ -1,0 +1,10 @@
+version: incident/v1
+id: tt14zlxkgx3l
+name: Increased HTTP 530 Errors in Atlanta (ATL)
+impact: minor
+systems:
+    - 03wwgmh4vbnl
+timeline:
+    - ts: "2026-03-19 11:36:38"
+      description: "Cloudflare is investigating an increased rate of HTTP 530 errors specifically affecting traffic routed through our Atlanta (ATL) data center. \nWe are working to identify the root cause and will provide updates as they become available."
+      investigating: true
