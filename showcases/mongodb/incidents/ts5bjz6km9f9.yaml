@@ -1,0 +1,22 @@
+version: incident/v1
+id: ts5bjz6km9f9
+name: 'MongoDB Atlas for Government: SSO login failures for some users'
+impact: minor
+systems:
+    - q57ng8brt2td
+timeline:
+    - ts: "2026-03-19 00:24:26"
+      description: |-
+        Impact: Some users may be unable to log into the Atlas for Government UI using SSO. Specifically, users accessing Atlas for Government via a saved SSO login URL may receive an error, and users attempting to log in via a federated identity provider link may be unable to complete authentication.
+
+        Root cause: We have identified an issue with SSO routing that is preventing some federated login flows from completing successfully. These issues started around 2026-03-18 2:30 UTC.
+
+        What you might see:
+        - A 400 error when navigating to Atlas for Government via a bookmarked or direct SSO URL.
+        - An inability to complete login when using a federated identity provider link.
+
+        Our actions: A fix is being implemented. Actively working to restore full SSO login functionality for affected users.
+
+        User action: As a workaround, users can log in by entering their email address directly at https://account.mongodbgov.com and following the standard prompts. If you have time-sensitive changes that are blocked and need urgent assistance, please contact MongoDB Support.
+
+        Next update: We will provide updates on this page as we progress toward resolution, or if we observe any change in impact to Atlas for Government.
