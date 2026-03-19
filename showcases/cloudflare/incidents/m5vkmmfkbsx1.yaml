@@ -1,0 +1,15 @@
+version: incident/v1
+id: m5vkmmfkbsx1
+name: Cloudflare Pages API is seeing increased error rate.
+impact: minor
+systems:
+    - vgxj684rcw7t
+    - 57srcl8zcn7c
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2026-03-19 15:54:15"
+      description: "Cloudflare Pages API is seeing increased error rate. This affects the Workers & Pages section in the Cloudflare Dashboard, as well as Workers Builds. \nDeployed Workers and Pages projects are unaffected"
+      investigating: true
+    - ts: "2026-03-19 15:57:33"
+      description: This incident has been resolved.
+      resolved: true
