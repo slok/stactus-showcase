@@ -1,0 +1,12 @@
+version: incident/v1
+id: cy5vvcwnrgxq
+name: Issue querying Azure blob storage containers in Atlas Data Federation
+impact: major
+systems:
+    - lh7m7lhnf3rj
+timeline:
+    - ts: "2026-03-19 18:11:03"
+      description: We are currently investigating an issue when Atlas Data Federation tries to read data from customer Azure blob storage containers.
+      investigating: true
+    - ts: "2026-03-19 18:25:28"
+      description: The issue has been identified and we are working on a fix.
