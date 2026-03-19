@@ -11,3 +11,6 @@ timeline:
     - ts: "2026-03-19 17:01:25"
       description: We are redirecting traffic back to our Seattle region and customers should see a decrease in latency for Git operations
       investigating: true
+    - ts: "2026-03-19 17:49:51"
+      description: We are still seeing elevated latency for Git operations in the west coast and are continuing to investigate
+      investigating: true
