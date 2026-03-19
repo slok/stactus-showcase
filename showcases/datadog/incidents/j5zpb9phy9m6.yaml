@@ -1,0 +1,13 @@
+version: incident/v1
+id: j5zpb9phy9m6
+name: Intermittent "No Data" Status for Monitors
+impact: major
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2026-03-19 00:54:23"
+      description: We are investigating an issue causing some metric monitors to intermittently report "No Data" status. This primarily affects monitors based on distribution metrics. Monitor alerting may be unreliable during this time. We are actively investigating and will provide updates as available.
+      investigating: true
+    - ts: "2026-03-19 01:27:45"
+      description: We are continuing to investigate the issue and will provide updates as available.
+      investigating: true
