@@ -1,0 +1,10 @@
+version: incident/v1
+id: p08cncy05m4k
+name: Git operations for users in the west coast are experiencing an increase in latency
+impact: minor
+systems:
+    - 8l4ygp009s5s
+timeline:
+    - ts: "2026-03-19 16:25:04"
+      description: We are investigating reports of degraded performance for Git Operations
+      investigating: true
