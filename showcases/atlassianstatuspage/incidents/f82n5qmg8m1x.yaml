@@ -1,0 +1,13 @@
+version: incident/v1
+id: f82n5qmg8m1x
+name: Latency in System Metrics
+impact: minor
+systems:
+    - 3218pv5ggw0q
+    - xw42ff1v5rmm
+    - 4s2tjjrhf4d5
+    - yfp2yt5fx9cn
+timeline:
+    - ts: "2026-03-19 22:52:43"
+      description: We are investigating a processing delay affecting system metrics. We are working on a fix and will update you shortly.
+      investigating: true
