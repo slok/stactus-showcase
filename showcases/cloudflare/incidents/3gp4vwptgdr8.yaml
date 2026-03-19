@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3gp4vwptgdr8
+name: Network Performance Issues in Mumbai, India
+impact: minor
+systems:
+    - t3d07wlg67nl
+timeline:
+    - ts: "2026-03-19 08:37:14"
+      description: "Cloudflare is investigating network performance issues that may impact a subset of users in Mumbai, India. \nSome users may experience increased latency or intermittent errors. We are actively working to mitigate this problem. \nMore updates to follow shortly."
+      investigating: true
+    - ts: "2026-03-19 08:43:20"
+      description: A fix has been implemented and we are monitoring the results.
