@@ -1,0 +1,19 @@
+version: incident/v1
+id: 3gflh59mjhmf
+name: Issues with Copilot Coding Agent
+impact: major
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-03-19 13:44:15"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-03-19 13:45:13"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-19 14:02:55"
+      description: We are investigating reports that Copilot Coding Agent session logs are not available in the UI.
+      investigating: true
+    - ts: "2026-03-19 14:06:44"
+      description: Copilot is operating normally.
+      investigating: true
