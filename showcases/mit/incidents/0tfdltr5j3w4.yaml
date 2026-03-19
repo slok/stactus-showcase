@@ -1,0 +1,13 @@
+version: incident/v1
+id: 0tfdltr5j3w4
+name: 'Degraded Performance: AFS and Moira Services'
+impact: minor
+systems:
+    - dpdsycjtknlz
+    - qbxg9tr9gslw
+timeline:
+    - ts: "2026-03-19 19:36:46"
+      description: |-
+        IS&T is currently investigating reports of degraded network performance affecting AFS on Athena and Moira, including the web-based Moira interface. Users may experience slower response times, intermittent delays, or client timeouts.
+        We will provide updates as more information becomes available.
+      investigating: true
