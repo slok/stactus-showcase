@@ -1,0 +1,12 @@
+version: incident/v1
+id: djmkyscrj9jh
+name: Disruption with Copilot Coding Agent sessions
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-03-19 02:05:59"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-03-19 02:25:17"
+      description: We are seeing widespread issues starting and viewing Copilot Agent sessions. We have a hypothesis for the cause and are working on remediation.
+      investigating: true
