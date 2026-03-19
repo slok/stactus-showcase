@@ -1,0 +1,10 @@
+version: incident/v1
+id: l08xlp1gxpf3
+name: Metrics currently experiencing issues
+impact: critical
+systems:
+    - k2zhkw7wryv2
+timeline:
+    - ts: "2026-03-19 06:28:51"
+      description: We are currently investigating an issue with our metrics cluster.
+      investigating: true
