@@ -1,10 +1,14 @@
 version: incident/v1
 id: 3m684fqxfxkl
-name: Authentication API Database Down in prod-eu-west-2
+name: Authentication API Database Down in prod-eu-west-2 and prod-eu-west-4
 impact: major
 systems:
     - 6wgslg1s3bzr
+    - wdcnfc3drb8s
 timeline:
     - ts: "2026-03-20 15:00:59"
       description: We are currently investigating an issue impacting the main database for Authentication API's in the prod-eu-west-2 region. Writes are currently failing, but reads are operational.
+      investigating: true
+    - ts: "2026-03-20 15:08:04"
+      description: We have observed impact in prod-eu-west-4 as well.
       investigating: true
