@@ -1,0 +1,10 @@
+version: incident/v1
+id: lg35bbsgn1cp
+name: App platform seeing delays in deployments across FRA1 region
+impact: minor
+systems:
+    - ttzvwy2wf0k3
+timeline:
+    - ts: "2026-03-20 10:32:51"
+      description: Our engineers are currently investigating an issue impacting new App Platform deployments using Dedicated Egress IP in FRA1 region. During this time, some users may experience delay when creating new App Platform apps or deploying existing apps. Existing apps are not affected and should continue to function normally. We apologize for any inconvenience, and we'll share more information as it becomes available.
+      investigating: true
