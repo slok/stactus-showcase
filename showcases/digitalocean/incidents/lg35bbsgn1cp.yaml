@@ -10,3 +10,11 @@ timeline:
       investigating: true
     - ts: "2026-03-20 11:14:54"
       description: Our Engineering team has deployed a fix to resolve the issue impacting new App Platform deployments using Dedicated Egress IP in FRA1 region. We are actively monitoring the situation to ensure stability and will provide an update once the incident has been fully resolved. Thank you for your patience and we apologize for the inconvenience.
+    - ts: "2026-03-20 12:01:24"
+      description: |-
+        The issue impacting delays in App Platform deployments has been confirmed to be resolved. Between approximately 00:08am UTC & 11:46am UTC, users may have noticed delays while creating or updating apps, or may have encountered failed deployments. For failed deployments, please trigger a redeploy, which should successfully resolve the issue.
+
+        We confirmed that the service is functioning as expected. Once again, we sincerely apologize for the inconvenience caused and appreciate your understanding.
+
+        However, if you continue to experience any issues, please don't hesitate to raise a support ticket for further investigation. We'll be happy to assist you.
+      resolved: true
