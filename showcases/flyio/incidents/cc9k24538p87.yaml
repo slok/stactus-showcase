@@ -1,0 +1,10 @@
+version: incident/v1
+id: cc9k24538p87
+name: Machines failing to start in DFW
+impact: minor
+systems:
+    - 3y5pzyxr1cbz
+timeline:
+    - ts: "2026-03-20 07:26:24"
+      description: The Machines start failure rate is elevated in DFW.
+      investigating: true
