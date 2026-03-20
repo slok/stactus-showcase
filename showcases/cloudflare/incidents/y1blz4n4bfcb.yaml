@@ -1,0 +1,16 @@
+version: incident/v1
+id: y1blz4n4bfcb
+name: Network Performance Issues in Jakarta
+impact: minor
+systems:
+    - gdywyg76bgy3
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-03-20 11:09:03"
+      description: |-
+        Cloudflare is investigating issues with Network Performance for customers in the Jakarta area
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-03-20 11:21:32"
+      description: The issue has been identified and a fix is being implemented.
