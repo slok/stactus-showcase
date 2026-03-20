@@ -1,0 +1,18 @@
+version: incident/v1
+id: 5cfsmy4fwlcv
+name: Data Irregularities - US Region
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-03-20 15:52:35"
+      description: We are investigating a service interruption where some customers in the US region with Azure integrations may experience 5xx errors when sending data to New Relic, issues in viewing data in real time, and delayed or missing alert notifications related to real time data. Impacted data may not be recoverable.
+      investigating: true
+    - ts: "2026-03-20 15:53:31"
+      description: We are investigating a service interruption where some customers in the US region with Azure integrations may experience 5xx errors when sending data to New Relic, issues in viewing data in real time, and delayed or missing alert notifications related to real time data. Impacted data may not be recoverable.
+      investigating: true
+    - ts: "2026-03-20 15:59:39"
+      description: We are seeing recovery for Azure integrations at this time. Some customers in the US region with Azure integrations may experience errors when sending data to New Relic, issues in viewing data in real time, and delayed or missing alert notifications related to real time data. Impacted data may not be recoverable.
+      investigating: true
+    - ts: "2026-03-20 16:10:34"
+      description: We have resolved this service interruption and impacted services have returned to normal operation. Between 15:10 UTC and 16:08 UTC, some customers in the US region with Azure integrations may have experiencde errors when sending data to New Relic, issues in viewing data in real time, and delayed or missing alert notifications related to real time data. Impacted data may not be recoverable.
+      resolved: true
