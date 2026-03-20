@@ -1,0 +1,9 @@
+version: incident/v1
+id: 2vw56wyzvjqn
+name: Failure to start new voice calls
+impact: major
+systems: []
+timeline:
+    - ts: "2026-03-20 02:47:07"
+      description: New voice calls are failing to be created. We are currently investigating.
+      investigating: true
