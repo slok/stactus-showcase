@@ -1,6 +1,6 @@
 version: incident/v1
 id: svw6yvr9vvcp
-name: Grafana Assistant TOS Check
+name: Grafana Assistant Unavailable in prod-us-east-0
 impact: major
 systems:
     - qt1bbc3yrddv
@@ -13,3 +13,8 @@ timeline:
     - ts: "2026-03-23 18:01:53"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2026-03-23 18:07:15"
+      description: The impact extends beyond the TOS check. Assistant is completely unavailable in the impacted region.
+      investigating: true
+    - ts: "2026-03-23 18:25:20"
+      description: The issue has been identified, and we are implementing a fix.
