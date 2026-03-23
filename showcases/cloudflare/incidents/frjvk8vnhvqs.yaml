@@ -1,0 +1,10 @@
+version: incident/v1
+id: frjvk8vnhvqs
+name: Request Trace is failing for some requests
+impact: minor
+systems:
+    - f0jjgwcxtmk8
+timeline:
+    - ts: "2026-03-23 20:25:37"
+      description: The request trace feature is failing for some cacheable assets. Failing requests are returning 400 Bad Request.
+      investigating: true
