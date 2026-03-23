@@ -1,10 +1,9 @@
 version: incident/v1
 id: 4jcn90ly1m9b
-name: Call quality issue to and from Subset of Twilio Phone Numbers in Australia
+name: Call Quality Issue From a Subset of Australian and New Zealand Network Subscribers to a Subset of Twilio Phone Numbers
 impact: minor
 systems:
     - db8wmg130zcm
-    - pv5w18vrltfl
 timeline:
     - ts: "2026-03-23 15:26:57"
       description: Twilio customers may be experiencing voice call audio quality degradation between a subset of Twilio Australia Phone Numbers and network subscribers in Australia. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
@@ -14,3 +13,5 @@ timeline:
       description: Twilio customers may be continuing to experience voice call audio quality degradation between a subset of Twilio Australia Phone Numbers and network subscribers in Australia. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-03-23 19:54:39"
       description: Twilio customers may be continuing to experience voice call audio quality degradation between a subset of Twilio Australia Phone Numbers and network subscribers in Australia. Our team is actively investigating this issue. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-03-23 20:54:22"
+      description: Twilio customers may be continuing to experience voice call audio quality degradation between network subscribers in Australia and New Zealand and a subset of Twilio Australia and New Zealand phone numbers. Our team is actively investigating this issue. We will provide another update in 4 hours or as soon as more information becomes available.
