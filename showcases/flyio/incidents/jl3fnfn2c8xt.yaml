@@ -12,3 +12,6 @@ timeline:
       description: Using the Logs panel in Grafana at https://fly-metrics.net/ will show a 502 error from the backend and won't show any logs. You can use `fly logs` or the live log viewer directly on https://fly.io/dashboard to view streaming logs for the time being.
     - ts: "2026-03-23 15:55:16"
       description: We've deployed a fix and are monitoring the results. Logs are now be visible on Grafana.
+    - ts: "2026-03-23 16:27:32"
+      description: This incident is resolved, Grafana logs are now working properly.
+      resolved: true
