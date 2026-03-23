@@ -1,0 +1,10 @@
+version: incident/v1
+id: 65g5fr99tlwg
+name: Workers API increased latency
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-03-23 15:02:37"
+      description: Cloudflare is investigating an issue causing increased latency for the Workers API
+      investigating: true
