@@ -1,9 +1,13 @@
 version: incident/v1
 id: wt6hcmrx5vmp
-name: On Call Engineers are Investigating
-impact: none
-systems: []
+name: Voice Insights Sub-Account Dashboard Impacted in US1
+impact: minor
+systems:
+    - yf5px6tdl6yt
 timeline:
     - ts: "2026-03-23 07:40:13"
       description: Our monitoring systems have detected a potential issue with Programmable Voice. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-03-23 07:56:53"
+      description: We have identified the issue with Twilio Programmable Voice Insights where Admin and Console users may be unable to fetch the last 24 hours of data or apply realm filters on the Sub-Account Dashboard. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
