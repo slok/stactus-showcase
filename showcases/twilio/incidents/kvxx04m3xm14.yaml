@@ -1,0 +1,10 @@
+version: incident/v1
+id: kvxx04m3xm14
+name: On Call Engineers are Investigating
+impact: minor
+systems:
+    - pf1lb8dq2g3b
+timeline:
+    - ts: "2026-03-23 13:46:06"
+      description: Our monitoring systems have detected a potential issue with the SMPP API impacting delivery receipts. Outgoing MT messages are unaffected. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
