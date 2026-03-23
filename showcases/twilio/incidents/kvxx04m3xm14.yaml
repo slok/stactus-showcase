@@ -8,3 +8,6 @@ timeline:
     - ts: "2026-03-23 13:46:06"
       description: Our monitoring systems have detected a potential issue with the SMPP API impacting delivery receipts. Outgoing MT messages are unaffected. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
       investigating: true
+    - ts: "2026-03-23 14:33:36"
+      description: We have fully investigated the SMPP API issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
