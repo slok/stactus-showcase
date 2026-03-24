@@ -1,0 +1,10 @@
+version: incident/v1
+id: k4p963r6606k
+name: Schema Validation Block Reason Not Displayed on Dashboard
+impact: minor
+systems:
+    - g9yx473yjk9t
+timeline:
+    - ts: "2026-03-24 16:10:23"
+      description: Customers may notice that when a request is blocked by schema validation, the associated reason or description is not being displayed within the dashboard.
+      investigating: true
