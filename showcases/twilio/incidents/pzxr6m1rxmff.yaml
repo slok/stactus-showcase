@@ -1,9 +1,13 @@
 version: incident/v1
 id: pzxr6m1rxmff
-name: On Call Engineers are Investigating
-impact: none
-systems: []
+name: Call Failures From a Subset of Twilio Phone Numbers to Multiple Networks in Mexico
+impact: minor
+systems:
+    - 2v3v92mz2m4h
 timeline:
     - ts: "2026-03-24 00:12:30"
       description: Our monitoring systems have detected a potential issue with outbound calls to Mexico, resulting in a SIP 484. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-03-24 00:50:17"
+      description: We are observing call failures from a subset of Twilio phone numbers to multiple network subscribers in Mexico. We are currently working with our carrier partners to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
