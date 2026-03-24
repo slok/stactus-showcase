@@ -1,0 +1,17 @@
+version: incident/v1
+id: 7zs5m7sh8dc4
+name: Increase in AI Gateway errors
+impact: minor
+systems:
+    - 0311l882p558
+timeline:
+    - ts: "2026-03-24 02:03:56"
+      description: |-
+        Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers. Customers may be seeing an increase of errors using AI Gateway.
+        We are working to identify the root cause and will provide updates as they become available.
+      investigating: true
+    - ts: "2026-03-24 02:09:43"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-24 02:16:14"
+      description: This incident has been resolved.
+      resolved: true
