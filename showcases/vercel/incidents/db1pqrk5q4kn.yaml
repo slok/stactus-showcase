@@ -1,0 +1,19 @@
+version: incident/v1
+id: db1pqrk5q4kn
+name: Elevated error rates across new deployments and Vercel API
+impact: major
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2025-12-10 06:16:10"
+      description: We are currently investigating reports of elevated errors for new deployments, Vercel API, and Vercel dashboard. Existing deployments and live traffic are not affected by this issue. We will share updates as they become available.
+      investigating: true
+    - ts: "2025-12-10 06:16:33"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-12-10 06:48:27"
+      description: |-
+        Vercel API errors have been resolved and dashboard access is restored across all regions.
+
+        Queued deployments are recovering automatically, but failed deployments may need to be redeployed manually.
+      resolved: true

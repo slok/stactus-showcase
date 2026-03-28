@@ -1,0 +1,15 @@
+version: incident/v1
+id: 4y3l17mpwlyg
+name: Network Analytics Issues
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-03-25 12:32:34"
+      description: "Cloudflare has identified an issue causing Spectrum Analytics to not displaying correctly within the dashboard. \n\nService traffic and protection remain unaffected as this is a reporting-only delay."
+      investigating: true
+    - ts: "2026-03-25 15:57:20"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-03-27 15:56:49"
+      description: This incident has been resolved.
+      resolved: true

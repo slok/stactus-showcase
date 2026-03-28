@@ -1,0 +1,21 @@
+version: incident/v1
+id: 66wxjy8wc8fx
+name: Elevated errors on Claude Sonnet 4.6
+impact: minor
+systems:
+    - rwppv331jlwc
+timeline:
+    - ts: "2026-03-17 08:04:45"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-03-17 08:23:02"
+      description: The issue has been identified and a fix is being implemented. At this stage, only free Claude.ai users are being impacted.
+    - ts: "2026-03-17 10:05:00"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-03-17 11:59:41"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-03-17 12:13:21"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-17 13:03:10"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,9 @@
+version: incident/v1
+id: q7y53s9624h2
+name: Elevated API Latency in Programmable Messaging
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-27 12:35:36"
+      description: Twilio Programmable Messaging API was partially degraded for 3 minutes between 04:52 and 04:54 Pacific Time on 03/27/2026. During this period of time customers may have experienced elevated latency in API response time. The issue has now been resolved.
+      resolved: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: vwcmm5l4tc6n
+name: ConversationRelay Degradation
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-26 22:33:22"
+      description: |-
+        Twilio Voice ConversationRelay was degraded for 1 day 18 hours and 54 minutes between 18:29 Pacific Time on 03/24/2026 and 13:23 Pacific Time on 03/26/2026.
+        During this period, ConversationRelay sessions could intermittently fail to terminate when the WebSocket Application sent an end message while still streaming text-to-speech tokens. If all tokens completed before the end message, the session terminated normally. However, if the end message arrived mid-stream, the remaining tokens were discarded and the session entered a state where it could not complete. Affected calls remained silent until the caller hung up or a 60-second safety timeout fired. In both cases, the <Connect action> callback did not receive the end message's handoff data, preventing call transfers from completing.
+        The issue has now been resolved.
+      resolved: true

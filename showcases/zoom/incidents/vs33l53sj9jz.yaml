@@ -1,0 +1,42 @@
+version: incident/v1
+id: vs33l53sj9jz
+name: Service degradation affecting a subset of admins using Workspace Reservation Dashboard
+impact: minor
+systems:
+    - 2tky4nd16my2
+timeline:
+    - ts: "2026-03-27 03:53:00"
+      description: "We are currently investigating service degradation affecting a subset of admins, which results in incorrect data being displayed on the Zoom Workspace Reservation Dashboard. \n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue."
+      investigating: true
+    - ts: "2026-03-27 04:27:06"
+      description: "We continue to investigate service degradation affecting a subset of admins, which results in incorrect data being displayed on the Zoom Workspace Reservation Dashboard. \n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue."
+      investigating: true
+    - ts: "2026-03-27 04:46:45"
+      description: "We have successfully identified an issue affecting a subset of admins, which results in incorrect data being displayed on the Zoom Workspace Reservation Dashboard. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+    - ts: "2026-03-27 05:49:17"
+      description: |-
+        We continue to work on a fix for this issue and will provide updates as soon as there is more information to share.
+
+        Thank you for your patience.
+    - ts: "2026-03-27 07:01:25"
+      description: |-
+        We continue to work on a fix for this issue and will provide updates as soon as there is more information to share.
+
+        Thank you for your patience.
+    - ts: "2026-03-27 08:32:12"
+      description: |-
+        We continue to work on a fix for this issue and will provide updates as soon as there is more information to share.
+
+        Thank you for your patience.
+    - ts: "2026-03-27 09:32:43"
+      description: |-
+        We continue to work on a fix for this issue and will provide updates as soon as there is more information to share.
+
+        Thank you for your patience.
+    - ts: "2026-03-27 10:21:58"
+      description: |-
+        The service degradation affecting Zoom Workspace Reservation Dashboard data has been successfully resolved.
+        Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-03-27 10:35:42"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true

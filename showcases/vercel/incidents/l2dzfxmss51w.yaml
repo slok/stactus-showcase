@@ -1,0 +1,24 @@
+version: incident/v1
+id: l2dzfxmss51w
+name: Elevated Errors on API & Dashboard, Delayed Builds
+impact: major
+systems:
+    - fk66q26xp7hh
+    - 7ckq6xr6nsbv
+    - rxynwj392p81
+timeline:
+    - ts: "2026-02-03 15:22:46"
+      description: We are currently investigating reports of elevated error rates and slowness on the Vercel Dashboard and APIs. Existing deployments and live traffic are not affected by this issue. We will share updates as they become available.
+      investigating: true
+    - ts: "2026-02-03 15:43:11"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-02-03 15:43:50"
+      description: The issue has been identified, and we are working on a fix.
+    - ts: "2026-02-03 16:22:08"
+      description: We have begun applying fixes and are seeing partial recovery across API, dashboard, and builds. We are continuing to apply fixes. We will share additional updates as they become available.
+    - ts: "2026-02-03 16:50:13"
+      description: A fix has been implemented, and we are monitoring results.
+    - ts: "2026-02-03 17:30:38"
+      description: This incident has been resolved.
+      resolved: true

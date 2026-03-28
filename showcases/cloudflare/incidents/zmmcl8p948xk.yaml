@@ -1,0 +1,16 @@
+version: incident/v1
+id: zmmcl8p948xk
+name: Intermittent 500s on RealtimeKit API
+impact: minor
+systems:
+    - yxhtws7ltl9t
+timeline:
+    - ts: "2026-03-27 23:57:07"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Realtime APIs. RealtimeKit meetings are unaffected.
+
+        These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+      investigating: true
+    - ts: "2026-03-28 05:36:00"
+      description: This incident has been resolved. There was no customer impact.
+      resolved: true

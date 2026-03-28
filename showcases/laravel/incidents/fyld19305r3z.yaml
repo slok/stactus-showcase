@@ -1,0 +1,12 @@
+version: incident/v1
+id: fyld19305r3z
+name: GitHub Webhook Disruption Impacting Deployments
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-08-05 17:49:11"
+      description: |-
+        We observed a temporary interruption in deployments lasting approximately 45 minutes due to an upstream issue with GitHub webhooks. The issue has been identified and resolved by GitHub.
+
+        More details are available in GitHub’s incident report: https://www.githubstatus.com/incidents/6swp0zf7lk8h
+      resolved: true

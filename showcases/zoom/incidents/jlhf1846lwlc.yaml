@@ -1,0 +1,14 @@
+version: incident/v1
+id: jlhf1846lwlc
+name: Service Degradation Affecting Zoom Virtual Agent - Voice bot  in North America
+impact: minor
+systems:
+    - 4kh81f5m9fbm
+timeline:
+    - ts: "2026-03-26 21:42:14"
+      description: "We have identified a service degradation with Zoom Virtual Agent - Voice bot  in the North America region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nWe appreciate your patience as we work to resolve this issue."
+    - ts: "2026-03-26 22:34:47"
+      description: The service degradation affecting Zoom Virtual Agent - Voice bot in the North America region has been successfully resolved.
+    - ts: "2026-03-26 22:41:29"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,13 @@
+version: incident/v1
+id: jpg837zrbsfb
+name: Access for Infrastructure RDP intermittent connectivity issues
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-03-25 22:02:47"
+      description: Customers may experience transient issues using Access Browser-based RDP
+      investigating: true
+    - ts: "2026-03-26 01:20:37"
+      description: This incident has been resolved.
+      resolved: true

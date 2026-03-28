@@ -1,0 +1,18 @@
+version: incident/v1
+id: 4sn7csnxsgrj
+name: Elevated Latency on Queue Messages, Increased Message Retry Latency in iad1
+impact: minor
+systems:
+    - y0nl08tmsz12
+    - c3yjhlfbv34z
+timeline:
+    - ts: "2026-03-06 20:53:07"
+      description: We are investigating reports of elevated queue message latency and message retry latency in iad1, as well as elevated sleep times and increased step retries in Workflow. We will provide additional updates as they become available.
+      investigating: true
+    - ts: "2026-03-06 21:00:18"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-03-06 21:10:51"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-06 21:22:01"
+      description: This incident has been resolved.
+      resolved: true

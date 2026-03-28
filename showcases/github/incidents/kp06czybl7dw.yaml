@@ -1,0 +1,28 @@
+version: incident/v1
+id: kp06czybl7dw
+name: Disruption with some GitHub services
+impact: minor
+systems:
+    - 4230lsnqdsld
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-03-24 20:18:06"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2026-03-24 20:20:11"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-24 20:23:44"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-24 20:23:45"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-03-24 20:38:04"
+      description: We are investigating elevated error rates affecting multiple GitHub services including Actions, Issues, Pull Requests, Webhooks, Codespaces, and login functionality. Some users may have experienced errors when accessing these features. Most services are now showing signs of recovery. We'll post another update by 21:00 UTC.
+      investigating: true
+    - ts: "2026-03-24 20:56:05"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

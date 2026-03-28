@@ -1,0 +1,17 @@
+version: incident/v1
+id: 28hx7gp8hnzw
+name: Elevated errors on Claude Sonnet 4.6 and on Claude.ai
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-03-12 16:07:58"
+      description: |-
+        We recently had an incident on Sonnet 4.6 between 8:30 PT / 15:30 UTC and 8:44 PT / 15:44 UTC where users would have seen a higher error rate across Claude Code, Claude API, and Claude.ai.
+
+        Separately, we also had at around 8:27 PT an incident relate to Claude.ai that lasted a minute.
+    - ts: "2026-03-12 16:28:26"
+      description: This incident has been resolved.
+      resolved: true

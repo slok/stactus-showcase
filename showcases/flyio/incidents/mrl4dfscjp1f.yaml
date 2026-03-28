@@ -1,0 +1,20 @@
+version: incident/v1
+id: mrl4dfscjp1f
+name: Machine Creates Failing in ORD Region
+impact: major
+systems:
+    - vfq82tp9wp5r
+timeline:
+    - ts: "2026-03-26 15:21:28"
+      description: "We are currently investigating elevated errors creating machines in the ORD (Chicago, Illinois) region. Users may see `failed to launch VM: request returned non-2xx status: 408` errors when creating, updating, or scaling machines in ORD.  \n\nExisting, already running machines in the ORD region continue to run as normal."
+      investigating: true
+    - ts: "2026-03-26 16:08:57"
+      description: We are continuing to investigate this issue. We are seeing 408 errors decreasing in ORD, though still above baseline.
+      investigating: true
+    - ts: "2026-03-26 16:50:28"
+      description: We've identified the cause of this increased failure rate and a fix is in progress. We are seeing most creates in ORD succeed at this time, though failure rate is still above baseline.
+    - ts: "2026-03-26 17:28:26"
+      description: We've implemented a fix and have seen error rates for machine creates in ORD drop off. We're continuing to monitor the results.
+    - ts: "2026-03-26 17:54:48"
+      description: This incident has been resolved.
+      resolved: true

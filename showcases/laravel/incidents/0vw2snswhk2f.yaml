@@ -1,0 +1,17 @@
+version: incident/v1
+id: 0vw2snswhk2f
+name: GitHub webhooks issue affecting Laravel Cloud
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-05 17:29:40"
+      description: |-
+        GitHub is experiencing issues sending Webhooks, which may cause delays in automated Laravel Cloud deployments and/or connecting GitHub to your organization. You can track GitHub's status for this incident here: https://www.githubstatus.com/incidents/g5gnt5l5hf56
+
+        Within Laravel Cloud you can still deploy manually at https://cloud.laravel.com, via the API, or via the CLI.
+
+        API docs: https://cloud.laravel.com/docs/api/deployments/initiate-deployment
+        CLI docs: https://cloud.laravel.com/docs/api/cli
+    - ts: "2026-03-05 20:14:45"
+      description: 'GitHub webhooks are flowing again. See their status updates here: https://www.githubstatus.com/incidents/g5gnt5l5hf56'
+      resolved: true

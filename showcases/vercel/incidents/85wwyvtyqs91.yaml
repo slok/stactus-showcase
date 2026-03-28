@@ -1,0 +1,15 @@
+version: incident/v1
+id: 85wwyvtyqs91
+name: Elevated Build Errors
+impact: major
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-03-13 22:32:52"
+      description: We are currently investigating elevated error reports of deployment creation during the build phase. Existing deployments and live traffic are not affected by this issue. We will share updates as they become available.
+      investigating: true
+    - ts: "2026-03-13 22:53:59"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-13 23:15:00"
+      description: This incident has been resolved.
+      resolved: true

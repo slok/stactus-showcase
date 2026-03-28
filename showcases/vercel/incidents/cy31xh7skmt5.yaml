@@ -1,0 +1,16 @@
+version: incident/v1
+id: cy31xh7skmt5
+name: On-Demand Usage Invoices Delayed
+impact: none
+systems:
+    - fk66q26xp7hh
+timeline:
+    - ts: "2025-10-25 01:12:24"
+      description: Issuance of on-demand usage invoices is currently delayed. We’re working to resolve this and expect the delayed invoices to be issued within the next 24 hours.
+    - ts: "2025-10-25 23:46:21"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2025-10-26 09:51:25"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-10-27 05:10:02"
+      description: This incident has been resolved.
+      resolved: true

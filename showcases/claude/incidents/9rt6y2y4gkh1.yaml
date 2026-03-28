@@ -1,0 +1,20 @@
+version: incident/v1
+id: 9rt6y2y4gkh1
+name: Elevated Errors on claude.ai
+impact: none
+systems:
+    - rwppv331jlwc
+timeline:
+    - ts: "2026-03-25 13:45:25"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-03-25 13:52:44"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-03-25 14:33:40"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-03-25 15:27:34"
+      description: We are currently seeing recovery, and our engineers are working to ensure no further recurrences. We will provide an update as soon as possible.
+    - ts: "2026-03-25 15:43:20"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,27 @@
+version: incident/v1
+id: ycfd8q0x22zy
+name: Elevated git clone duration at build time
+impact: minor
+systems:
+    - hpqj1ys9gr78
+timeline:
+    - ts: "2026-01-30 02:40:54"
+      description: "We are currently observing elevated `git clone` durations on a subset of builds. Some builds are taking significantly longer than expected to clone repositories, resulting in slower overall build start times. \n\nWe are actively analyzing clone performance metrics and infrastructure behavior to identify the root cause."
+      investigating: true
+    - ts: "2026-01-30 03:47:50"
+      description: "We’ve confirmed the issue is intermittent, and redeploying a failed build may succeed. \n\nAlternatively, as a temporary workaround, builds can be run locally and deployed as prebuilt output using Vercel CLI:\n`vercel build && vercel deploy --prebuilt`"
+      investigating: true
+    - ts: "2026-01-30 06:21:06"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-01-30 09:02:43"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-01-30 10:24:41"
+      description: We have mitigated the impact of the underlying issue by moving builds from pdx1 to iad1 while we continue to investigate the underlying cause.
+      investigating: true
+    - ts: "2026-01-30 10:42:40"
+      description: The new build routing has addressed the issue. We are monitoring the results.
+    - ts: "2026-01-30 11:08:38"
+      description: This incident has been resolved.
+      resolved: true

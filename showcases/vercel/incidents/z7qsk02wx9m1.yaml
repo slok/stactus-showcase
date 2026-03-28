@@ -1,0 +1,18 @@
+version: incident/v1
+id: z7qsk02wx9m1
+name: Delayed Firewall Observability Data
+impact: minor
+systems:
+    - fk66q26xp7hh
+    - xxh50pzvy03x
+timeline:
+    - ts: "2026-02-12 22:41:03"
+      description: We are investigating delays in firewall observability appearing on the dashboard. We will provide additional updates as they become available.
+      investigating: true
+    - ts: "2026-02-12 22:59:04"
+      description: The issue with delayed firewall observability data has been identified. New data has recovered and old data may be delayed.
+    - ts: "2026-02-13 01:52:41"
+      description: The cause of this issue has been resolved. We are working to recover data on a subset of requests from 21:58-22:50 UTC.
+    - ts: "2026-02-13 02:56:00"
+      description: The cause of this issue has been resolved. We are working to recover data on a subset of requests from 21:58-22:50 UTC.
+      resolved: true

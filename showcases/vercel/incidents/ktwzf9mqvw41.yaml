@@ -1,0 +1,12 @@
+version: incident/v1
+id: ktwzf9mqvw41
+name: Elevated errors loading Vercel Logs and Speed Insights
+impact: none
+systems: []
+timeline:
+    - ts: "2025-12-08 21:46:38"
+      description: |-
+        We received reports of elevated errors loading Vercel Logs and Speed Insights at 21:15 UTC.
+
+        A fix was released at 21:25 UTC, and full functionality was restored by 21:38 UTC.
+      resolved: true

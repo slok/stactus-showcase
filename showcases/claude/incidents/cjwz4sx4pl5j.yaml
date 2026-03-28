@@ -1,0 +1,15 @@
+version: incident/v1
+id: cjwz4sx4pl5j
+name: Delayed response completion on Claude.ai
+impact: minor
+systems:
+    - rwppv331jlwc
+timeline:
+    - ts: "2026-03-22 11:14:20"
+      description: Since approximately 20:00 UTC / 13:00 PT on Friday, March 20, Claude.ai responses may appear to "hang" for around 5 seconds after the text has finished streaming before the message completes. The Anthropic API is not affected.
+      investigating: true
+    - ts: "2026-03-22 12:34:12"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-03-22 13:13:29"
+      description: As of 13:02 UTC / 06:02 PT this incident has been mitigated.
+      resolved: true

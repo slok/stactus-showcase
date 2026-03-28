@@ -1,0 +1,19 @@
+version: incident/v1
+id: p88wl8gmb05c
+name: Elevated errors on Claude.ai
+impact: major
+systems:
+    - rwppv331jlwc
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-03-18 15:16:38"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-03-18 15:19:28"
+      description: Claude Code login/logout actions are also affected by this outage.
+      investigating: true
+    - ts: "2026-03-18 15:27:48"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-18 16:05:10"
+      description: This incident has been resolved.
+      resolved: true

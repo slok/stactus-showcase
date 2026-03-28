@@ -1,0 +1,18 @@
+version: incident/v1
+id: xdv869lr3x7n
+name: Elevated Connection Latency in dub1 (Dublin, Ireland) Edge Region
+impact: minor
+systems:
+    - lb2cgptkdw9b
+timeline:
+    - ts: "2026-01-28 17:19:37"
+      description: We have identified elevated connection latency and intermittent timeouts affecting serving traffic in the dub1 Edge region. A fix is currently being rolled out.
+    - ts: "2026-01-28 17:43:28"
+      description: The dub1 Edge traffic is currently being rerouted to the nearest Edge region (lhr1) to mitigate the impact. We are continuing to work on a fix for this issue.
+    - ts: "2026-01-28 18:27:58"
+      description: We have rerouted all dub1 Edge region traffic as of 17:15 UTC, and traffic should no longer see increased latency. We are continuing to work on a fix to restore traffic back to dub1.
+    - ts: "2026-01-28 19:56:22"
+      description: A fix has been implemented and we have routed traffic back to dub1. We are actively monitoring the results.
+    - ts: "2026-01-28 20:21:00"
+      description: This incident has been resolved, and traffic has been fully routed back to the dub1 region.
+      resolved: true

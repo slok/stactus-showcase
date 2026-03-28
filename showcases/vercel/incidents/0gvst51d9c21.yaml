@@ -1,0 +1,18 @@
+version: incident/v1
+id: 0gvst51d9c21
+name: Degraded Logs and Traces in Dubai region (dxb1)
+impact: minor
+systems:
+    - pps71v7cb51j
+    - r1xxpy1znh4j
+timeline:
+    - ts: "2026-03-02 06:54:02"
+      description: We are currently investigating issues collecting Logs and Traces in Dubai (dxb1). We will share updates as they become available.
+      investigating: true
+    - ts: "2026-03-02 08:01:59"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-03-02 08:49:38"
+      description: The dxb1 Edge traffic is currently being rerouted to the nearest Edge region (bom1) to mitigate the impact. We will provide additional updates as they become available.
+    - ts: "2026-03-02 12:08:39"
+      description: This incident was resolved.
+      resolved: true

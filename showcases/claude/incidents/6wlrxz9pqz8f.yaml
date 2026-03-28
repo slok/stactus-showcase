@@ -1,0 +1,18 @@
+version: incident/v1
+id: 6wlrxz9pqz8f
+name: Elevated errors across surfaces
+impact: major
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-03-19 00:28:57"
+      description: We are currently investigating this issue. Our team is actively working to identify the root cause.
+      investigating: true
+    - ts: "2026-03-19 01:21:03"
+      description: From 23:59–00:30 UTC, users experienced elevated errors when trying to authenticate across various Claude surfaces including Claude.ai and Claude Code. This issue has been resolved, and we are monitoring closely to ensure no further issues.
+    - ts: "2026-03-19 01:38:31"
+      description: This incident has been resolved.
+      resolved: true

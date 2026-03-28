@@ -1,0 +1,9 @@
+version: incident/v1
+id: h54pgd2pqdrn
+name: Builds and Deployments were Temporarily in a Queued State
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-11-17 10:44:39"
+      description: Builds and deployments were stuck in a queued state between 10:05 to 10:30 UTC. Our team identified the root cause and deployed a fix, and everything is now operating normally.
+      resolved: true

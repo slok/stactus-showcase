@@ -1,0 +1,12 @@
+version: incident/v1
+id: jv8xt784fxrz
+name: On Call Engineers are Investigating 503 Responses to Billing Endpoints
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-25 20:59:14"
+      description: Our monitoring systems have detected a potential issue with 503 Responses to billing endpoints. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-03-25 21:03:55"
+      description: This incident has been resolved.
+      resolved: true

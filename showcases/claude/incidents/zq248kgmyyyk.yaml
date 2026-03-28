@@ -1,0 +1,14 @@
+version: incident/v1
+id: zq248kgmyyyk
+name: Elevated errors for MCP calls
+impact: major
+systems:
+    - rwppv331jlwc
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-03-26 22:25:40"
+      description: We are currently investigating an issue resulting in elevated errors for some MCP calls. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-03-26 22:41:19"
+      description: This incident has been resolved.
+      resolved: true

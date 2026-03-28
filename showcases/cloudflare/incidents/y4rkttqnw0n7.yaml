@@ -1,0 +1,15 @@
+version: incident/v1
+id: y4rkttqnw0n7
+name: Cloudflare Workers AI Issues
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2026-03-26 03:03:29"
+      description: Cloudflare has identified an issue whereby customers might experience errors from inference requests to @cf/openai/gpt-oss-120b model using Workers AI. We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-03-26 04:16:59"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-26 04:26:01"
+      description: This incident has been resolved.
+      resolved: true

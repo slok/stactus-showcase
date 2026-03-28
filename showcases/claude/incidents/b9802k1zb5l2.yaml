@@ -1,0 +1,32 @@
+version: incident/v1
+id: b9802k1zb5l2
+name: Elevated error rates on Opus 4.6
+impact: major
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - 0scnb50nvy53
+timeline:
+    - ts: "2026-03-27 06:59:38"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-03-27 11:04:15"
+      description: We are continuing to investigate the ongoing incident.
+      investigating: true
+    - ts: "2026-03-27 11:21:47"
+      description: Sonnet 4.6 is also showing elevated errors.
+      investigating: true
+    - ts: "2026-03-27 12:09:16"
+      description: As of 5:00 PT / 12:00 UTC Sonnet 4.6 is now healthy. We are still working to fix Opus 4.6.
+      investigating: true
+    - ts: "2026-03-27 13:34:20"
+      description: We have mitigated the main issue and the error rate for Opus 4.6 is hovering around 0.4% which is still high, but much better than the performance during the previous hours. We are waiting for a more permanent fix to land in the near future.
+    - ts: "2026-03-27 13:46:20"
+      description: As of 6:40 PT / 13:40 UTC our error rate has returned to the baseline. We are still monitoring the current situation.
+    - ts: "2026-03-27 16:46:24"
+      description: This incident has been mitigated as of 9:30 PT / 16:30 UTC.
+      resolved: true
+    - ts: "2026-03-27 17:36:52"
+      description: On March 26–27, 2026, customers experienced elevated error rates when using Claude Opus 4.6 and Claude Sonnet 4.6. The issue was caused by a networking performance degradation within our infrastructure that disrupted communication between components of our serving stack. We resolved the incident by migrating the affected workloads to healthy infrastructure, restoring normal service by 9:30 AM PT on March 27.

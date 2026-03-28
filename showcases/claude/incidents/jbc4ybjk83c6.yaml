@@ -1,0 +1,12 @@
+version: incident/v1
+id: jbc4ybjk83c6
+name: Filesystem connector missing from Claude Desktop
+impact: minor
+systems:
+    - rwppv331jlwc
+timeline:
+    - ts: "2026-03-06 17:16:12"
+      description: The issue has been identified and a fix has been implemented. Users may need to re-add the Filesystem connector to their organization allowlist in order to reactivate it.
+    - ts: "2026-03-08 15:49:03"
+      description: Filesystem extension has been restored to allowlists
+      resolved: true

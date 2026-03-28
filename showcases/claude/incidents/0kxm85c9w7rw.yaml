@@ -1,0 +1,16 @@
+version: incident/v1
+id: 0kxm85c9w7rw
+name: Elevated errors on Claude.ai [retroactive]
+impact: minor
+systems:
+    - rwppv331jlwc
+timeline:
+    - ts: "2026-03-23 17:03:37"
+      description: |-
+        Between 9:10 PT / 16:10 UTC and 9:26 PT / 16:26 UTC users saw an elevated rate of errors on Claude.ai
+
+        The Claude API was unaffected.
+      investigating: true
+    - ts: "2026-03-23 17:10:14"
+      description: This incident has been resolved.
+      resolved: true

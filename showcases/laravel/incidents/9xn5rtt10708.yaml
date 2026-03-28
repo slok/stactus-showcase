@@ -1,0 +1,20 @@
+version: incident/v1
+id: 9xn5rtt10708
+name: Partial degradation of platform services
+impact: none
+systems: []
+timeline:
+    - ts: "2025-09-25 00:31:58"
+      description: |-
+        We’re currently experiencing issues with some internal platform components, such as metrics and related services.
+
+        While customer applications continue to run normally, some features such as metrics collection may be temporarily degraded.
+
+        Our team is actively looking into impact and mitigation steps.
+      investigating: true
+    - ts: "2025-09-25 01:24:22"
+      description: |-
+        The issues affecting metrics has been fully resolved. All platform components are operating normally.
+
+        We’ll continue to monitor for stability.
+      resolved: true

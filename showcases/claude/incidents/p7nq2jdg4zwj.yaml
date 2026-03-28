@@ -1,0 +1,32 @@
+version: incident/v1
+id: p7nq2jdg4zwj
+name: Outage in Usage Reporting
+impact: major
+systems:
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+timeline:
+    - ts: "2026-03-03 16:49:50"
+      description: The team is currently investigating an issue affecting the admin API and some reporting screens in the Console
+      investigating: true
+    - ts: "2026-03-03 17:29:57"
+      description: |-
+        The team has applied a fix for the admin API. Console and admin API endpoints
+
+        The team is still investigating an ongoing issue with usage reporting in the console and admin API
+      investigating: true
+    - ts: "2026-03-03 18:03:46"
+      description: The team is investigating ongoing impact to admin API and usage reporting in the console
+      investigating: true
+    - ts: "2026-03-04 00:08:37"
+      description: The team has identified the issues affecting admin API and cost reporting and are working on a fix
+    - ts: "2026-03-04 00:58:20"
+      description: |-
+        A fix has been applied and the admin API is operational.
+
+        We are continuing to investigate issues with usage reporting via Console and admin API
+    - ts: "2026-03-04 01:29:39"
+      description: We have applied a fix for usage reporting and are monitoring the recovery
+    - ts: "2026-03-04 08:32:41"
+      description: This incident has been resolved.
+      resolved: true

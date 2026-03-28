@@ -1,0 +1,21 @@
+version: incident/v1
+id: 5qn029bd1sts
+name: Cloud Control Panel not accessible
+impact: none
+systems:
+    - k648vlw65tzw
+timeline:
+    - ts: "2025-12-09 14:17:49"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-12-09 14:28:43"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-12-09 14:46:30"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2025-12-09 15:42:40"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-12-09 15:42:58"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2025-12-09 15:47:37"
+      description: This incident has been resolved.
+      resolved: true

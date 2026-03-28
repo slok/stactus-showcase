@@ -1,0 +1,17 @@
+version: incident/v1
+id: rt17d8zh9x4n
+name: Network Error Logging Issues
+impact: minor
+systems:
+    - qt59p3cr1grx
+timeline:
+    - ts: "2026-03-25 09:20:11"
+      description: "Cloudflare has identified an issue causing intermittent data gaps within Network Error Logging (NEL). \nOur engineering team has identified the root cause and is currently implementing a fix. There is no impact to customer traffic."
+      investigating: true
+    - ts: "2026-03-25 11:29:59"
+      description: As the fix is deployed, customers may notice an increase in NEL reports as data that was previously not forwarded is correctly reported.
+    - ts: "2026-03-25 20:36:39"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-26 17:55:37"
+      description: This incident has been resolved.
+      resolved: true

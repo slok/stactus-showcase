@@ -1,0 +1,27 @@
+version: incident/v1
+id: 1x2wqn9l3lwt
+name: Major outage on API, Dashboard, and Builds
+impact: critical
+systems:
+    - fk66q26xp7hh
+    - 7ckq6xr6nsbv
+    - rxynwj392p81
+timeline:
+    - ts: "2025-10-20 20:00:23"
+      description: Increased Vercel dashboard failures, API failures, and deployment failures. CDN requests are functioning as expected.
+      investigating: true
+    - ts: "2025-10-20 21:12:47"
+      description: We have identified the root cause of the Dashboard degradation, and a fix is being worked on.
+    - ts: "2025-10-20 21:52:57"
+      description: We have identified the root cause of build failures and are working on a fix.
+    - ts: "2025-10-20 22:08:00"
+      description: We have processed a backlog of builds but we are still observing errors initiating new builds. We have determined the root cause and are working on a fix.
+    - ts: "2025-10-20 22:20:21"
+      description: We continue to work on resolving the Dashboard and API failures.
+    - ts: "2025-10-20 23:27:39"
+      description: Builds are now being created as expected and are fully resolved.
+    - ts: "2025-10-20 23:50:50"
+      description: The Vercel API has now been fully resolved. We are continuing to monitor the Dashboard performance.
+    - ts: "2025-10-21 00:04:33"
+      description: This incident has been resolved.
+      resolved: true

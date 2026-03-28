@@ -1,0 +1,16 @@
+version: incident/v1
+id: fz7fq66rfqs4
+name: Issues With Explore Products Page in 1Console
+impact: minor
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2026-03-24 17:13:11"
+      description: We are investigating intermittent issues with accessing the Explore Products Page in 1Console. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-24 18:03:43"
+      description: We are continuing to investigate an issue affecting access to the Explore Products Page in 1Console. We expect to provide another update in 2 hours, or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-24 19:04:41"
+      description: Issue affecting access to the Explore Products Page in 1Console has been resolved and 1Console is operating normally at this time.
+      resolved: true

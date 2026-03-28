@@ -1,0 +1,18 @@
+version: incident/v1
+id: zpwwq7t1q59q
+name: Disruption in metrics system
+impact: critical
+systems:
+    - kd1tz09zf801
+timeline:
+    - ts: "2025-11-17 22:09:19"
+      description: |-
+        We're currently experiencing some issues within the metrics system, this is causing some pages in the dashboard to become unavailable and could result in delay of slack or email notifications.
+
+        Applications and deployments remain unaffected.
+      investigating: true
+    - ts: "2025-11-17 23:34:13"
+      description: A fix has been implemented and we are monitoring results.
+    - ts: "2025-11-18 07:50:11"
+      description: This incident has been resolved.
+      resolved: true

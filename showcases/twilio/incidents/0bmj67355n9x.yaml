@@ -1,0 +1,21 @@
+version: incident/v1
+id: 0bmj67355n9x
+name: SMS Delivery Receipt Delays from Twilio to DigiTel Venezuela
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-03-25 21:53:29"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from Twilio to DigiTel network subscribers in Venezuela. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-25 22:27:35"
+      description: We continue to experience SMS delivery receipt delays from Twilio to DigiTel network subscribers in Venezuela. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-26 00:01:56"
+      description: We continue to experience SMS delivery receipt delays from Twilio to DigiTel network subscribers in Venezuela. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-26 01:13:57"
+      description: We have observed a recovery in SMS delivery receipts from Twilio to DigiTel network subscribers in Venezuela and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-03-26 03:08:03"
+      description: The incident has been resolved and SMS delivery receipts from Twilio to DigiTel network subscribers in Venezuela are operating normally.
+      resolved: true

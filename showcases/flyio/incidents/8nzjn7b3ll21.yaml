@@ -1,0 +1,18 @@
+version: incident/v1
+id: 8nzjn7b3ll21
+name: Network issues in FRA region
+impact: critical
+systems:
+    - dz36cj1q2s1r
+    - zb68fzjgtq5s
+timeline:
+    - ts: "2026-03-26 12:37:18"
+      description: We are investigating network issues in FRA region. Apps and/or Managed Postgres clusters in the region may be inaccessible at this time.
+      investigating: true
+    - ts: "2026-03-26 13:14:30"
+      description: Apps and Managed Postgres clusters in FRA region should be back online at this time. We are monitoring for any further issues.
+    - ts: "2026-03-26 13:16:05"
+      description: Some Managed Postgres clusters in FRA region are still unreachable, we are investigating this issue.
+    - ts: "2026-03-26 14:19:30"
+      description: This incident has been resolved.
+      resolved: true

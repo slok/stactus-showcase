@@ -1,0 +1,15 @@
+version: incident/v1
+id: pkf5bm3ckx38
+name: Cloud Control Panel inaccessible
+impact: critical
+systems:
+    - k648vlw65tzw
+timeline:
+    - ts: "2026-03-26 13:23:34"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-03-26 13:26:26"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-26 13:41:23"
+      description: This incident has been resolved.
+      resolved: true

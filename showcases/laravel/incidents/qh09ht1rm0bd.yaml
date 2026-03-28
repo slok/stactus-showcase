@@ -1,0 +1,12 @@
+version: incident/v1
+id: qh09ht1rm0bd
+name: Build service and Deployments outage in US East (Virginia)
+impact: major
+systems: []
+timeline:
+    - ts: "2025-10-20 09:48:58"
+      description: |-
+        An outage in one of our infrastructure partner’s regions was affecting new deployments and redeployments.
+
+        All existing applications on Laravel Cloud continue to run normally and were not impacted.
+      resolved: true

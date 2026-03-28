@@ -1,0 +1,16 @@
+version: incident/v1
+id: qckr492dq4v8
+name: Intermittent errors affecting APIs and new builds
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+    - rxynwj392p81
+timeline:
+    - ts: "2025-10-30 17:15:03"
+      description: We are investigating an issue causing intermittent errors from our public APIs and impacting new builds. Existing deployments are not impacted.
+      investigating: true
+    - ts: "2025-10-30 17:34:40"
+      description: We have identified the root cause of the issue and have deployed a fix.
+    - ts: "2025-10-30 18:00:27"
+      description: The issue has been fully mitigated, and this incident has been resolved. No action is needed for customers with queued builds.
+      resolved: true

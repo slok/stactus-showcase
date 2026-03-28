@@ -1,0 +1,27 @@
+version: incident/v1
+id: nt2llc4k0p41
+name: Elevated deployment and function invocations failures
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+    - pdnc30nkdqth
+    - 1w4lc3s3q2pz
+    - kgcsn9c73xzf
+timeline:
+    - ts: "2026-03-02 06:06:28"
+      description: Starting from 5:00 am UTC, we have started seeing failures to deploy and invoke functions in Dubai region (dxb1). Deployments with Middleware Functions are also impacted in all regions, because Middleware Functions are deployed globally for production deployments. Our team is actively investigating the issue.
+    - ts: "2026-03-02 06:24:47"
+      description: We have rolled out mitigations and are seeing recovery. If you are still seeing build failures and are using Dubai (dxb1) as your primary Vercel Functions region, you can switch to another region as a workaround.
+    - ts: "2026-03-02 07:56:57"
+      description: The dxb1 Edge traffic is currently being rerouted to the nearest Edge region (bom1) to mitigate the impact. We will provide additional updates as they become available.
+    - ts: "2026-03-02 10:50:17"
+      description: We are still seeing elevated errors in Builds in all regions, because Middleware and Edge Functions may be deployed globally. Builds that don't use Middleware and Edge Functions are not impacted. We are continuing to work on a fix for this issue.
+    - ts: "2026-03-02 11:59:55"
+      description: We are currently deploying a mitigation for elevated Build errors. Builds that use Middleware or Edge Functions will exclude the Dubai region (dxb1) from their deployment targets as a temporary measure. We will provide additional updates as they become available.
+    - ts: "2026-03-02 13:00:15"
+      description: We have rolled out a first mitigation for elevated Build errors. Builds that use Middleware are now excluding the Dubai region (dxb1) from their deployment targets as a temporary measure, and should complete successfully again. We are now working on a mitigation for Builds that are using Edge Functions.
+    - ts: "2026-03-02 14:59:44"
+      description: We have rolled out a second mitigation for elevated Build errors and are seeing recovery. All builds are now excluding the Dubai region (dxb1) from their deployment targets as a temporary measure. We will provide additional updates as they become available.
+    - ts: "2026-03-02 15:20:31"
+      description: This incident has been resolved.
+      resolved: true

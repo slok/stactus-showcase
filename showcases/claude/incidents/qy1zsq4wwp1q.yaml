@@ -1,0 +1,15 @@
+version: incident/v1
+id: qy1zsq4wwp1q
+name: Elevated errors on Claude Haiku 4.5
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-03-07 13:58:19"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-03-07 16:58:12"
+      description: Today between 5:35 PT / 13:35 UTC and 6:44 PT / 14:44 UTC Haiku 4.5 had an elevated error rate. We are now at the baseline error rate.
+      resolved: true

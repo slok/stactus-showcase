@@ -1,0 +1,35 @@
+version: incident/v1
+id: d6zq49ykv2fd
+name: GitHub Incident Effecting Cloud Deployments
+impact: minor
+systems:
+    - q8chffw359pz
+    - vhd4h127zqt5
+    - ffc2w3q5j6fx
+    - d4z7n3kvpgp0
+    - mf51szgphyxp
+    - nfc2yzmxzw4s
+    - j7npqf9nr7qp
+    - s3zm1t588bky
+    - 29lv3lp08fw1
+    - r5wtfz1xy72b
+    - 359qq1ltvtft
+    - 0d75ngbkyzz2
+    - 29r8t4n835qg
+    - z90jsvy9c3h1
+    - k7bvq41n41zs
+    - rnyz50rjb4p5
+    - mg346jtzzkzh
+    - 80w020z26b48
+timeline:
+    - ts: "2026-02-09 16:43:15"
+      description: Operational issues in GitHub (https://www.githubstatus.com/) are causing intermittent errors within Laravel Cloud deployments when deploying applications from GitHub repositories or pulling in dependencies from GitHub.
+    - ts: "2026-02-09 17:49:03"
+      description: GitHub has marked the issues (that effected Laravel Cloud deployments) as resolved. We're continuing to monitor deployments. https://www.githubstatus.com/
+    - ts: "2026-02-09 19:05:42"
+      description: 'We continue to monitor the situation. GitHub has reported a new status update with Issues, Actions, and Git Operations (stay safe out there, fam and send positive vibes to GitHub''s ops team): https://www.githubstatus.com/'
+    - ts: "2026-02-09 20:29:30"
+      description: GitHub seems to be restored for the functionality affecting Laravel Cloud and Git operations. We are monitoring further.
+    - ts: "2026-02-09 22:43:37"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,28 @@
+version: incident/v1
+id: l4rb2vdhf6nl
+name: Intermittent build service failures
+impact: minor
+systems:
+    - q8chffw359pz
+    - ffc2w3q5j6fx
+    - mf51szgphyxp
+    - j7npqf9nr7qp
+    - 29lv3lp08fw1
+    - 359qq1ltvtft
+    - z90jsvy9c3h1
+    - k7bvq41n41zs
+    - mg346jtzzkzh
+timeline:
+    - ts: "2026-03-11 14:21:51"
+      description: We're investigating reports of failed builds and will update this status with more information shortly.
+      investigating: true
+    - ts: "2026-03-11 14:29:36"
+      description: |-
+        GitHub has updated their status page to reflect operational issues, please see:  https://www.githubstatus.com/incidents/zy1gjfc6x2z9
+
+        Those not using GitHub should not be affected.
+    - ts: "2026-03-11 15:24:04"
+      description: GitHub has reported their API incident as resolved (https://www.githubstatus.com/incidents/zy1gjfc6x2z9) - we are monitoring results on our side.
+    - ts: "2026-03-11 15:56:10"
+      description: This incident has been resolved.
+      resolved: true

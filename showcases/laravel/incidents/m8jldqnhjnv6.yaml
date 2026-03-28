@@ -1,0 +1,16 @@
+version: incident/v1
+id: m8jldqnhjnv6
+name: Laravel Serverless Postgres Connectivity
+impact: major
+systems:
+    - q34j9zqvbj7h
+timeline:
+    - ts: "2025-06-20 18:01:26"
+      description: Our upstream provider of Serverless Postgres is having connectivity issues due to high latencies.
+      investigating: true
+    - ts: "2025-06-20 20:39:17"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-06-20 20:39:48"
+      description: Upstream issue appears to be resolved
+      resolved: true

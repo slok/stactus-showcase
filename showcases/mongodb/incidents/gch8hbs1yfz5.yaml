@@ -1,0 +1,20 @@
+version: incident/v1
+id: gch8hbs1yfz5
+name: Intermittent 503 Errors on Atlas Admin API and Automation Tooling
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-03-25 21:31:18"
+      description: |-
+        We are currently investigating intermittent spikes of HTTP 503 errors affecting Atlas control plane operations performed via the Atlas Admin API and automation tooling such as Terraform. Impacted requests typically fail for a short period and succeed on retry. Atlas database connectivity and data plane operations remain healthy.
+
+        Our engineering teams are working to resolve the issue with high urgency and to prevent recurrence. Customers encountering 503 responses are advised to retry failed Admin API and Terraform operations with appropriate retry logic and backoff while we continue our investigation.
+      investigating: true
+    - ts: "2026-03-25 23:39:37"
+      description: The team has identified the root cause of intermittent spikes of HTTP 503 errors and has applied a fix.
+    - ts: "2026-03-26 19:12:11"
+      description: We continue to monitor our systems for intermittent spikes in 503 HTTP errors following our deployed fix. We will provide another update tomorrow by 3 PM UTC.
+    - ts: "2026-03-27 13:21:19"
+      description: We are no longer seeing intermittent spikes in HTTP 503 errors.
+      resolved: true

@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8gl73hjc6vl2
+name: Elevated latencies with Rulesets API
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-25 17:41:28"
+      description: Customers using the Rulesets API may have experienced elevated latencies, averaging 4 seconds, between March 24, 20:40 UTC and March 25, 13:42 UTC. Service has since returned to normal levels thereafter.
+      resolved: true

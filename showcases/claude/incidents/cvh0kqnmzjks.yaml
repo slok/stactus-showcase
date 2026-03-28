@@ -1,0 +1,15 @@
+version: incident/v1
+id: cvh0kqnmzjks
+name: Elevated errors on Claude Opus 4.6
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-03-04 14:14:17"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-03-04 15:57:48"
+      description: This incident has been resolved.
+      resolved: true

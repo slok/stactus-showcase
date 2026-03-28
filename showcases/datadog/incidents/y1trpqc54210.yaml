@@ -1,0 +1,19 @@
+version: incident/v1
+id: y1trpqc54210
+name: Delayed Traces in APM Trace Search
+impact: major
+systems:
+    - p4hwj4wsc5wf
+timeline:
+    - ts: "2026-03-27 18:57:08"
+      description: |-
+        We are investigating increased latency in processing and storing Traces in APM.
+        As a result of this issue, some users may see missing or delayed traces in APM Trace Search since 5pm UTC. They may also experience delay in APM trace-based monitors.
+      investigating: true
+    - ts: "2026-03-27 19:17:56"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-03-27 19:21:54"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-27 19:30:04"
+      description: This incident has been resolved.
+      resolved: true

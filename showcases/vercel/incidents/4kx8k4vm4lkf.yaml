@@ -1,0 +1,9 @@
+version: incident/v1
+id: 4kx8k4vm4lkf
+name: Runtime logs not showing in Dashboard
+impact: none
+systems: []
+timeline:
+    - ts: "2025-11-14 19:37:08"
+      description: A change was merged to the Vercel dashboard that introduced a bug in the query for runtime logs in some situations. Upon being alerted, the dashboard was rolled back, which restored the ability to see runtime logs. The change was then reverted. Data was still being collected and no logs are missing.
+      resolved: true

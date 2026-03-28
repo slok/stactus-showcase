@@ -1,0 +1,18 @@
+version: incident/v1
+id: rx73drs78r1k
+name: Web Analytics and Speed insights data not recorded on some projects
+impact: minor
+systems:
+    - kscyjm1qp3cw
+    - zr2j7y9kv5hd
+timeline:
+    - ts: "2025-12-12 10:17:37"
+      description: On some projects, traffic is miscategorised and not recorded on Speed Insights and Web Analytics
+      investigating: true
+    - ts: "2025-12-12 11:16:22"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-12-12 11:17:47"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-12-12 11:47:15"
+      description: This incident has been resolved.
+      resolved: true

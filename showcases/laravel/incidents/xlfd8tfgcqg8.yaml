@@ -1,0 +1,15 @@
+version: incident/v1
+id: xlfd8tfgcqg8
+name: GitHub issues may impact deployments
+impact: minor
+systems:
+    - d4z7n3kvpgp0
+    - nfc2yzmxzw4s
+    - s3zm1t588bky
+    - 0d75ngbkyzz2
+timeline:
+    - ts: "2025-08-12 14:41:12"
+      description: 'GitHub has an active incident which may effect deployments on Laravel Cloud. Please follow their status page here: https://www.githubstatus.com/incidents/9rfydl2xdqqj'
+    - ts: "2025-08-12 18:06:48"
+      description: GitHub has reported that this issue is resolved.
+      resolved: true

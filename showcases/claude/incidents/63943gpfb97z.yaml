@@ -1,0 +1,13 @@
+version: incident/v1
+id: 63943gpfb97z
+name: Elevated errors in claude.ai
+impact: minor
+systems:
+    - rwppv331jlwc
+timeline:
+    - ts: "2026-03-02 17:08:29"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-03-02 17:23:25"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,18 @@
+version: incident/v1
+id: x6v2pmf14f75
+name: Elevated build failure rates
+impact: major
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-01-14 01:13:57"
+      description: We've identified an issue causing builds to fail for some projects. Existing deployments and live traffic are not affected by this issue. We will share updates as they become available.
+      investigating: true
+    - ts: "2026-01-14 01:43:55"
+      description: We're continuing to investigate this issue and will provide further updates as soon as they become available.
+      investigating: true
+    - ts: "2026-01-14 02:22:46"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-01-14 10:50:15"
+      description: After monitoring our fix, we found no new occurrences of build errors. This issue has been resolved.
+      resolved: true

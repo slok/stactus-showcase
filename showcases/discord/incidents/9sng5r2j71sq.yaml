@@ -1,0 +1,21 @@
+version: incident/v1
+id: 9sng5r2j71sq
+name: Issues connecting to Discord
+impact: critical
+systems:
+    - rhznvxg4v7yh
+    - x7rnz0t7dpnp
+timeline:
+    - ts: "2026-03-25 19:21:47"
+      description: We're aware of an issue that is preventing people from connecting to Discord - we're actively investigating
+      investigating: true
+    - ts: "2026-03-25 19:46:21"
+      description: We're continuing to investigate impacts to voice connectivity. There may be some temporary impacts to other features as we work to accelerate recovery.
+      investigating: true
+    - ts: "2026-03-25 20:07:21"
+      description: We believe we have identified the issue and are taking action to try and restore voice traffic
+    - ts: "2026-03-25 21:26:33"
+      description: "Voice and video should have recovered and users should be able to connect to voice calls. \nWe are still tracking down issues with our API."
+    - ts: "2026-03-25 22:38:17"
+      description: This incident has been resolved.
+      resolved: true

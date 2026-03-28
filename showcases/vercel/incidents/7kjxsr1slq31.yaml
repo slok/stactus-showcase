@@ -1,0 +1,17 @@
+version: incident/v1
+id: 7kjxsr1slq31
+name: Some domain purchases are failing
+impact: minor
+systems:
+    - w94qwkg1z68w
+timeline:
+    - ts: "2026-01-23 03:35:00"
+      description: We are currently investigating an issue where some domain purchases are failing.
+      investigating: true
+    - ts: "2026-01-23 03:48:53"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-01-23 03:49:47"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-01-23 04:28:49"
+      description: After monitoring, we do not see the issue persisting. This incident is resolved.
+      resolved: true

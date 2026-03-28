@@ -1,0 +1,19 @@
+version: incident/v1
+id: q88l5787p3qw
+name: Delays Loading Firewall, Billing, and Observability Data
+impact: minor
+systems:
+    - fk66q26xp7hh
+timeline:
+    - ts: "2026-02-05 16:11:24"
+      description: We are investigating delays in firewall observability appearing on the dashboard. We will provide additional updates as they become available.
+      investigating: true
+    - ts: "2026-02-05 16:53:01"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-02-05 18:28:09"
+      description: We are continuing to implement a fix for delays in data appearing in the dashboard for firewall, billing, and observability. We will share additional updates as they become available.
+    - ts: "2026-02-05 19:35:51"
+      description: A fix has been implemented and we are beginning to see gradual recovery. We are actively monitoring results and will share more updates as they become available.
+    - ts: "2026-02-05 20:51:12"
+      description: This incident has been resolved.
+      resolved: true

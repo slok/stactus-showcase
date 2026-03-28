@@ -1,0 +1,17 @@
+version: incident/v1
+id: 80qvc1mrnr8f
+name: Delays Loading Observability, Usage, Analytics, and Speed Insights Data
+impact: minor
+systems:
+    - fk66q26xp7hh
+    - kscyjm1qp3cw
+    - zr2j7y9kv5hd
+timeline:
+    - ts: "2026-03-03 17:10:19"
+      description: Dashboard pages that use Observability data, including Observability, Speed Insights, Web Analytics, Usage, Firewall, and Activity, are experiencing delays while loading data. These pages are also experiencing delays ingesting new data. We are investigating this issue and will provide additional updates as they become available.
+      investigating: true
+    - ts: "2026-03-03 19:14:59"
+      description: A fix has been implemented and we are seeing recovery for data loading and ingestion across services. We are continuing to monitor and will provide additional updates as they become available.
+    - ts: "2026-03-03 21:10:27"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,107 @@
+version: incident/v1
+id: 5m5fd7ljhf26
+name: Elevated errors across multiple services
+impact: major
+systems:
+    - fk66q26xp7hh
+    - 7ckq6xr6nsbv
+    - 3fm17p8bsb40
+    - 1vhy91zktp01
+    - w94qwkg1z68w
+    - pdnc30nkdqth
+    - jrd979g6ssl0
+    - 1w4lc3s3q2pz
+    - pps71v7cb51j
+    - r1xxpy1znh4j
+    - kscyjm1qp3cw
+    - zr2j7y9kv5hd
+timeline:
+    - ts: "2025-10-20 07:30:44"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-10-20 07:33:03"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-10-20 07:33:43"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-10-20 07:40:43"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-10-20 07:50:02"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-10-20 08:03:07"
+      description: Multiple services are affected. We have re-routed CDN traffic from iad1 to a healthy region and are working on managing impact by component. Builds have also been rerouted.
+    - ts: "2025-10-20 08:45:31"
+      description: We are seeing recovery across services and CDN traffic is healthy.
+    - ts: "2025-10-20 10:16:35"
+      description: New deployments using Routing Middleware, or Vercel Functions with iad1 region may still be failing. We are continuing to investigate this issue.
+    - ts: "2025-10-20 10:27:45"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2025-10-20 10:28:27"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2025-10-20 12:17:25"
+      description: "We are seeing recovery across deployment creation using Routing Middleware and Functions in IAD1. \n\nCDN traffic in IAD1 continues to be rerouted as we work toward full recovery. During this period, users may experience increased latency."
+    - ts: "2025-10-20 15:32:53"
+      description: We are currently investigating reports of delayed data for Speed Insights and Web Analytics.
+    - ts: "2025-10-20 15:38:01"
+      description: We are currently investigating reports of delayed data for Speed Insights and Web Analytics.
+    - ts: "2025-10-20 16:12:32"
+      description: |-
+        Historical data for Speed Insights and Web Analytics is currently being backfilled.
+        Deployment creation for customers not using Secure Compute or Static IPs has been fully restored.
+        Traffic is still successfully being rerouted away from IAD1, which may result in increased latency.
+    - ts: "2025-10-20 17:36:12"
+      description: |-
+        We are investigating an intermittent elevation of Edge Function and Middleware invocation errors in our IAD1 region. Impacted customers may encounter errors with the code INTERNAL_FUNCTION_INVOCATION_FAILED.
+        Historical data for Speed Insights and Web Analytics is currently being backfilled.
+        Deployment creation for customers using Secure Compute or Static IPs are still impacted.
+        Traffic is still successfully being rerouted away from iad1, which may result in increased latency.
+    - ts: "2025-10-20 18:06:56"
+      description: |-
+        We are seeing recovery across Edge Functions and Middleware invocation errors in our IAD1 region.
+        Historical data for Speed Insights and Web Analytics is currently being backfilled.
+        Deployment creation for customers using Secure Compute or Static IPs are still impacted.
+        Traffic is still successfully being rerouted away from iad1, which may result in increased latency.
+    - ts: "2025-10-20 18:40:03"
+      description: |-
+        New deployments using Routing Middleware or Vercel Functions in the IAD1 region may fail to deploy.
+        Traffic is still successfully being rerouted away from IAD1, which may result in increased latency.
+        We are seeing full recovery of Edge Function and Middleware invocation errors in our IAD1 region.
+        We are investigating an intermittent elevation of Cron Jobs not being executed.
+        Historical data for Speed Insights and Web Analytics is currently being backfilled.
+    - ts: "2025-10-20 18:45:40"
+      description: |-
+        New deployments using Routing Middleware or Vercel Functions in the IAD1 region may fail to deploy.
+        Traffic is still successfully being rerouted away from IAD1, which may result in increased latency.
+        We are seeing full recovery of Edge Function and Middleware invocation errors in our IAD1 region.
+        We are investigating an intermittent elevation of Cron Jobs not being executed.
+        Historical data for Speed Insights and Web Analytics is currently being backfilled.
+    - ts: "2025-10-20 20:24:46"
+      description: We have identified degraded performance with Edge Config storage and are working to restore service.
+    - ts: "2025-10-20 21:34:08"
+      description: We have identified Domain Registration failures and are working to restore service.
+    - ts: "2025-10-20 21:50:07"
+      description: A fix has been implemented for Domain Registrations, and we are monitoring the result.
+    - ts: "2025-10-20 21:57:27"
+      description: A fix has been implemented for Edge Config, and we are monitoring the result.
+    - ts: "2025-10-20 23:14:33"
+      description: Domain Registrations issues are now resolved.
+    - ts: "2025-10-21 00:08:49"
+      description: Edge Config issues are now resolved.
+    - ts: "2025-10-21 00:32:48"
+      description: We are investigating errors affecting runtime Logs and Log Drains.
+    - ts: "2025-10-21 00:56:12"
+      description: We have identified the root cause of the Logs and Log Drains issue and we are rolling out a fix.
+    - ts: "2025-10-21 01:47:07"
+      description: We are investigating intermittent errors on the Vercel dashboard.
+    - ts: "2025-10-21 03:42:49"
+      description: Traffic has been rerouted from neighboring regions back to IAD1. Historical runtime Logs data is now being backfilled and will resume normal processing shortly.
+    - ts: "2025-10-21 07:05:40"
+      description: We are seeing recovery across all of our products, and Logs have resumed. Historical data in Logs and Speed Insights has been backfilled. Our on-call teams continue to monitor the situation regularly.
+    - ts: "2025-10-21 07:31:39"
+      description: All products have been completely recovered. Our on-call teams continue to monitor the situation.
+    - ts: "2025-10-21 07:32:09"
+      description: This incident has been resolved.
+      resolved: true

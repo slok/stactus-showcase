@@ -1,0 +1,21 @@
+version: incident/v1
+id: 262wldl871w4
+name: Delayed Dashboard Data Across Multiple Services
+impact: minor
+systems:
+    - fk66q26xp7hh
+    - kscyjm1qp3cw
+    - zr2j7y9kv5hd
+timeline:
+    - ts: "2026-01-26 15:14:22"
+      description: We are currently investigating reports of delayed metrics for Observability, Speed Insights, Web Analytics, Usage, and Audit Logs. We will share updates as they become available.
+      investigating: true
+    - ts: "2026-01-26 15:25:12"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-01-26 16:04:42"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-01-26 17:35:20"
+      description: A fix is currently being rolled out. Most customers should now be seeing recovery, and we expect this incident to be fully resolved shortly.
+    - ts: "2026-01-26 17:57:04"
+      description: This incident has been resolved.
+      resolved: true

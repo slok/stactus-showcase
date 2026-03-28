@@ -1,0 +1,20 @@
+version: incident/v1
+id: 8sm9t09dzflk
+name: Cloudflare Pages - Custom Domain Management Degraded
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2026-03-27 22:36:58"
+      description: |-
+        Cloudflare has identified an issue impacting the API for managing and adding custom domains in Cloudflare Pages. Customers may experience failures or errors when attempting to add or manage custom domains via the Pages API or dashboard.
+
+        Additionally, the SSL for SaaS Custom Hostnames API is experiencing high latency and intermittent errors, which may be contributing to the impact on custom domain management.
+
+        Deployed Workers and Pages projects continue to serve traffic normally. Only custom domain management is affected.
+      investigating: true
+    - ts: "2026-03-27 22:37:54"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-03-27 23:32:53"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,15 @@
+version: incident/v1
+id: pmx7385vm0z1
+name: Elevated errors on Claude Opus 4.6
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-02-28 18:09:40"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-02-28 18:34:20"
+      description: Between 9:50 PT / 17:50 UTC and 10:12 PT / 18:12 UTC we had a high rate of errors on Claude Opus 4.6. This has now ended
+      resolved: true

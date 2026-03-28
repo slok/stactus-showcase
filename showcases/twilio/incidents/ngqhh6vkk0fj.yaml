@@ -1,0 +1,16 @@
+version: incident/v1
+id: ngqhh6vkk0fj
+name: Increase errors in whatsapp channel for verify
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2026-03-25 17:06:15"
+      description: Our engineers have identified an issue causing errors and message delays on the WhatsApp channel for Verify. We are working with the provider on a resolution and expect to provide another update in one hour or as soon as more information becomes available.
+    - ts: "2026-03-25 18:16:58"
+      description: Our engineers have identified an issue causing errors and message delays on the WhatsApp channel for Verify. We are working with the provider on a resolution and expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-03-25 20:08:14"
+      description: Our engineers have begun to see recovery for the issue causing errors and message delays on the WhatsApp channel for Verify. We will continue to monitor to ensure a full recovery. We expect to provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-03-25 21:06:21"
+      description: Our engineers have confirmed full recovery for the issue causing errors and message delays on the WhatsApp channel for Verify. This incident is resolved.
+      resolved: true

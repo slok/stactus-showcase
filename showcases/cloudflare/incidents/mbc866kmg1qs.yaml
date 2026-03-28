@@ -1,0 +1,18 @@
+version: incident/v1
+id: mbc866kmg1qs
+name: Network Performance Issues in Warsaw, Poland (WAW)
+impact: minor
+systems:
+    - 0gh2jr9mdr7v
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-03-25 12:29:53"
+      description: "Cloudflare is investigating issues with network performance in Warsaw, Poland (WAW).  \n\nWe are working to analyse and mitigate this problem. More updates to follow shortly."
+      investigating: true
+    - ts: "2026-03-25 12:43:50"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-03-25 12:53:53"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-25 13:31:37"
+      description: This incident has been resolved.
+      resolved: true

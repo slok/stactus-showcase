@@ -1,0 +1,16 @@
+version: incident/v1
+id: hm33xk31dk46
+name: Elevated errors for streaming and messaging
+impact: minor
+systems:
+    - rhznvxg4v7yh
+    - 354mn7xfxz1h
+timeline:
+    - ts: "2026-03-25 15:18:46"
+      description: We are investigating degraded performance affecting some Discord features, including streaming and messaging, due to a networking issue beginning at approximately 7:53 AM PT; our team is actively engaged with our cloud provider to resolve the issue.
+      investigating: true
+    - ts: "2026-03-25 15:43:58"
+      description: We have identified the source of the issues and are monitoring recovery.
+    - ts: "2026-03-25 15:51:12"
+      description: This incident has been resolved.
+      resolved: true

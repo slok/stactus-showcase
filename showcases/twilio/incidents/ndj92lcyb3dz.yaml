@@ -1,0 +1,27 @@
+version: incident/v1
+id: ndj92lcyb3dz
+name: Issues When Attempting to Update Whatsapp Profiles via API and Console for a Subset of Users
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2026-03-26 18:11:58"
+      description: Performance issues have been reported with WhatsApp Business Profile management. This is affecting a subset of users attempting to update profiles via the API and Twilio Console. Engineers are investigating. We will provide an update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-26 18:59:18"
+      description: Performance issues are still reported with WhatsApp Business Profile management. This is affecting a subset of users attempting to update profiles via the API and Twilio Console. Engineers are investigating. We will provide an update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-26 20:32:20"
+      description: Performance issues are still reported with WhatsApp Business Profile management. This is affecting a subset of users attempting to update profiles via the API and Twilio Console. Engineers are investigating. We will provide an update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-26 23:57:41"
+      description: Performance issues are still reported with WhatsApp Business Profile management. This is affecting a subset of users attempting to update profiles via the API and Twilio Console. Engineers are investigating. We will provide an update in 8 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-27 07:45:18"
+      description: Performance issues are still reported with WhatsApp Business Profile management. This is affecting a subset of users attempting to update profiles via the API and Twilio Console. Engineers are investigating. We will provide an update in 16 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-27 13:49:51"
+      description: WhatsApp Business Profile management is now operating normally and we are no longer seeing performance issues. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-03-27 14:19:07"
+      description: WhatsApp Business Profile management performance issues have been resolved and the WhatsApp Messaging Channel is operating normally at this time.
+      resolved: true

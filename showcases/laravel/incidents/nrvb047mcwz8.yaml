@@ -1,0 +1,16 @@
+version: incident/v1
+id: nrvb047mcwz8
+name: Log Service Degradation
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-08-06 18:32:15"
+      description: Viewing application logs is returning an error within the application. Application logs across all regions are still being collected successfully.
+      investigating: true
+    - ts: "2025-08-06 18:34:26"
+      description: The issue has been identified and a fix is being deployed.
+    - ts: "2025-08-06 19:19:35"
+      description: A fix has been deployed and we are monitoring to ensure there are no regressions.
+    - ts: "2025-08-06 19:29:05"
+      description: This incident has been resolved.
+      resolved: true

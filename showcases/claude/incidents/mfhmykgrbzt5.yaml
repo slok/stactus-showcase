@@ -1,0 +1,15 @@
+version: incident/v1
+id: mfhmykgrbzt5
+name: Elevated errors on Claude Sonnet 4.6
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-03-19 15:37:52"
+      description: We are currently investigating elevated errors that started at 8:23 PT / 15:23 UTC.
+      investigating: true
+    - ts: "2026-03-19 15:46:09"
+      description: As of 8:42 PT / 15:42 UTC the error rate has now returned to baseline.
+      resolved: true

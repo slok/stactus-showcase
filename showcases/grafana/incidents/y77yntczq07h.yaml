@@ -1,0 +1,22 @@
+version: incident/v1
+id: y77yntczq07h
+name: Prometheus writes in prod-eu-west-3 are degraded
+impact: minor
+systems:
+    - 82s7r3tjyb6n
+timeline:
+    - ts: "2026-03-25 14:11:30"
+      description: |-
+        The metric writes issue reported in https://status.grafana.com/incidents/gfshj17lxj5z is still ongoing.
+
+        Our Engineering team is actively investigating this and we will provide further updates as our investigation progresses.
+      investigating: true
+    - ts: "2026-03-25 21:35:11"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-03-26 12:04:56"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-26 17:45:37"
+      description: We are continuing to monitor the previously impacted environments.
+    - ts: "2026-03-27 21:05:15"
+      description: We are continuing to monitor this through the weekend.

@@ -1,0 +1,14 @@
+version: incident/v1
+id: mlhhr2sxhwwy
+name: Increase in 502 errors
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2026-03-26 23:30:51"
+      description: Cloudflare is aware of reports and has identified an issue causing an increase of 502 errors for a subset of customers. A fix is being implemented
+    - ts: "2026-03-26 23:40:43"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-26 23:51:08"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,22 @@
+version: incident/v1
+id: 61y6y9cbvx58
+name: Laravel Serverless Postgres service degradation
+impact: minor
+systems:
+    - q34j9zqvbj7h
+timeline:
+    - ts: "2025-08-06 15:32:55"
+      description: |-
+        We've been alerted by our Serverless Postgres provider of a pending restart for several Laravel Serverless Postgres databases. If you are effected you have been emailed directly from cloud@laravel.com.
+
+        Your database will be restarted, which is expected to take a matter of seconds when initiated. Your application may experience a dropped database connection during the database restart.
+      investigating: true
+    - ts: "2025-08-06 15:33:51"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-08-06 19:20:22"
+      description: We are waiting to hear back about restarts being initiated.
+    - ts: "2025-08-06 23:25:54"
+      description: Effected databases have been restarted, we are monitoring for any issues.
+    - ts: "2025-08-07 07:09:02"
+      description: This incident has been resolved.
+      resolved: true

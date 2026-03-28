@@ -1,0 +1,13 @@
+version: incident/v1
+id: 4wsjq8gn2tsk
+name: Elevated GitHub Deployment Failures
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-12 06:17:13"
+      description: |-
+        Between 01:15 and 05:45 UTC, customers might have experienced elevated GitHub deployment failures, including delays in triggering new deployments for commits and redeploy errors displaying the message "There is no GitHub account connected to this Vercel account". This was due to GitHub API degradations, which they have since resolved.
+
+        https://www.githubstatus.com/incidents/lw6j95nyw3py
+        https://www.githubstatus.com/incidents/02z04m335tvv
+      resolved: true

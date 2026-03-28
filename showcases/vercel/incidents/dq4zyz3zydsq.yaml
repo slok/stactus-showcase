@@ -1,0 +1,17 @@
+version: incident/v1
+id: dq4zyz3zydsq
+name: Speed Insights elevated errors
+impact: minor
+systems:
+    - kscyjm1qp3cw
+timeline:
+    - ts: "2025-12-07 23:40:11"
+      description: We are currently investigating reports of elevated errors loading Speed Insights data.
+      investigating: true
+    - ts: "2025-12-07 23:47:04"
+      description: The issue has been identified, and a fix is in progress.
+    - ts: "2025-12-07 23:47:53"
+      description: The fix has been released, and we're observing recovery in loading Speed Insights data.
+    - ts: "2025-12-07 23:55:00"
+      description: This incident has been resolved.
+      resolved: true

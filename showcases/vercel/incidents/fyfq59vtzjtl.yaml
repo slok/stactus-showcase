@@ -1,0 +1,13 @@
+version: incident/v1
+id: fyfq59vtzjtl
+name: Drains delayed in iad1
+impact: none
+systems:
+    - r1xxpy1znh4j
+timeline:
+    - ts: "2025-10-21 17:06:38"
+      description: Data delivered to drains, like logs, traces, web analytics and speed insights, may be delayed in iad1
+      investigating: true
+    - ts: "2025-10-22 01:25:40"
+      description: The delay affecting data delivery to drains in the iad1 region has been resolved. All services are now operating normally.
+      resolved: true

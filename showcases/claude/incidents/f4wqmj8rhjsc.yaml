@@ -1,0 +1,19 @@
+version: incident/v1
+id: f4wqmj8rhjsc
+name: Claude.ai and Claude login down
+impact: critical
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+timeline:
+    - ts: "2026-03-22 18:31:58"
+      description: We are investigating an issue preventing logins on Claude Console (platform.claude.com)
+      investigating: true
+    - ts: "2026-03-22 18:33:13"
+      description: We are investigating an issue with users authenticating to claude.ai and Claude Console (platform.claude.com)
+      investigating: true
+    - ts: "2026-03-22 18:43:45"
+      description: A mitigation has been applied. Logins have returned to normal, the team is continuing to monitor the situation.
+    - ts: "2026-03-22 18:51:39"
+      description: This incident has been resolved. Logins and authentication for claude.ai and platform.claude.com have returned to normal
+      resolved: true

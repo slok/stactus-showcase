@@ -1,0 +1,15 @@
+version: incident/v1
+id: d8r794mwjg8d
+name: Elevated connection reset errors in Cowork
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-03-25 14:33:53"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-03-25 16:56:52"
+      description: We are continuing to investigate connection errors which occur during Claude Cowork sessions. This issue can be resolved by restarting the Claude Desktop application.
+      investigating: true
+    - ts: "2026-03-27 15:05:30"
+      description: This incident has been resolved.
+      resolved: true

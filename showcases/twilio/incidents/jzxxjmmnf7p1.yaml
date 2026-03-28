@@ -1,0 +1,21 @@
+version: incident/v1
+id: jzxxjmmnf7p1
+name: SMS Delivery Delays from a Subset of Twilio Short Codes to Algar Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-03-27 17:49:13"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to Algar network subscribers in Brazil. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-27 18:09:57"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to Algar network subscribers in Brazil. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-03-27 19:06:40"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to Algar network subscribers in Brazil. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-03-27 20:54:40"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to Algar network subscribers in Brazil. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-03-27 22:39:45"
+      description: We are observing recovery in SMS delivery delays from a subset of Twilio Short Codes to Algar network subscribers in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-03-28 00:33:31"
+      description: We are no longer experiencing SMS delivery delays from a subset of Twilio Short Codes to Algar network subscribers in Brazil. This incident has been resolved.
+      resolved: true

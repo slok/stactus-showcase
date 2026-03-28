@@ -1,0 +1,17 @@
+version: incident/v1
+id: 3fsq3yfsdlxn
+name: Elevated Error Rates for Domain Registrations
+impact: major
+systems:
+    - w94qwkg1z68w
+timeline:
+    - ts: "2025-12-02 09:51:53"
+      description: We are currently investigating elevated error rates affecting Domain Registrations. All existing domains, DNS functionality, deployments, and live traffic remain fully operational. We will provide additional updates as more information becomes available.
+      investigating: true
+    - ts: "2025-12-02 10:34:25"
+      description: We have identified the cause of the elevated error rates affecting Domain Registrations, and we are currently implementing a fix.
+    - ts: "2025-12-02 10:50:34"
+      description: We have deployed a fix for the issue affecting Domain Registrations and are currently monitoring the service to ensure stability.
+    - ts: "2025-12-02 11:06:32"
+      description: The issue causing elevated error rates for Domain Registrations has been resolved. Domains are now successfully provisioned and available for immediate use. Some payment attempts may not have completed; we will automatically retry those payments later. No action is needed from customers.
+      resolved: true

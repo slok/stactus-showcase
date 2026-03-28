@@ -1,0 +1,17 @@
+version: incident/v1
+id: 8tcngg98hl2h
+name: Laravel Cloud Dashboard Downtime
+impact: major
+systems:
+    - k648vlw65tzw
+timeline:
+    - ts: "2025-09-25 21:31:40"
+      description: We are currently investigating this issue. All hosted applications continue running without interruption.
+      investigating: true
+    - ts: "2025-09-25 21:33:23"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-09-25 21:40:42"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-09-25 21:50:27"
+      description: This incident has been resolved.
+      resolved: true

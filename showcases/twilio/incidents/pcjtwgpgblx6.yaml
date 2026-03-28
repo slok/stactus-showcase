@@ -1,0 +1,12 @@
+version: incident/v1
+id: pcjtwgpgblx6
+name: Twilio Voice ConversationRelay Transcription Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-24 16:54:15"
+      description: |-
+        Twilio Voice ConversationRelay was degraded for 120 minutes between 09:00 and 11:00 Pacific Time on 03/23/2026.
+        During this period of time, customers using Deepgram Nova-2 with multilingual support enabled may have experienced missing transcriptions.
+        The issue has now been resolved.
+      resolved: true

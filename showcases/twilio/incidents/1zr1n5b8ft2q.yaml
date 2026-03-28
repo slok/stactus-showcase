@@ -1,0 +1,19 @@
+version: incident/v1
+id: 1zr1n5b8ft2q
+name: Register workflows failing with meta 403 code
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2026-03-25 18:42:33"
+      description: We are currently experiencing issues with WhatsApp Sender Onboarding. Our team is actively investigating the problem. We expect to provide another update in one hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-25 19:38:18"
+      description: We continue to experience issues with WhatsApp Sender Onboarding. Our team is actively investigating the problem. We expect to provide another update in two hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-25 21:40:59"
+      description: We continue to experience issues with WhatsApp Sender Onboarding. Our team is actively investigating the problem. We expect to provide another update in four hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-25 21:59:23"
+      description: Our engineers have confirmed fully recovery with WhatsApp Sender Onboarding. This incident is resolved.
+      resolved: true

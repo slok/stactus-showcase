@@ -1,0 +1,20 @@
+version: incident/v1
+id: tj7zxr47cfx6
+name: Elevated error rates on Claude Opus and Sonnet 4.6
+impact: major
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-03-21 00:07:41"
+      description: We are currently investigating elevated error rates affecting Claude Opus 4.6. Our team is actively working to identify the root cause.
+      investigating: true
+    - ts: "2026-03-21 00:17:40"
+      description: We have identified an issue resulting in elevated errors on both Claude Opus and Sonnet 4.6, and are working to resolve this issue as quickly as possible.
+    - ts: "2026-03-21 00:58:01"
+      description: We have observed success rates return to normal for Claude Opus 4.6, and are working to fully resolve elevated errors for Claude Sonnet 4.6.
+    - ts: "2026-03-21 01:42:55"
+      description: This incident has been resolved.
+      resolved: true

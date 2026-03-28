@@ -1,0 +1,14 @@
+version: incident/v1
+id: 9vyj2jwsk8by
+name: Incident with Copilot
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-27 18:42:58"
+      description: |-
+        On March 27, 2026, from 02:30 to 04:56 UTC, a misconfiguration in our rate limiting system caused users on Copilot Free, Student, Pro, and Pro+ plans to experience unexpected rate limit errors. The configuration that was incorrectly applied was intended solely for internal staff testing of rate-limiting experiences. Copilot Business and Copilot Enterprise accounts were not affected.
+
+        During this period, affected users received error messages instructing them to retry after a certain time. Approximately 32% of active Free users, 35% of active Student users, 46% of active Pro users, and 66% of active Pro+ users were affected.
+
+        After identifying the root cause, we reverted the change and restored the expected rate limits. We are reviewing our deployment and validation processes to help ensure configurations used for internal testing cannot be inadvertently applied to production environments.
+      resolved: true

@@ -11,5 +11,5 @@ timeline:
       description: We are investigating intermittently high latency and errors from Git operations.
       investigating: true
     - ts: "2026-03-22 10:02:05"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On March 22, 2026, between 09:05 UTC and 10:02 UTC, users may have experienced intermittent errors and increased latency when performing Git http read operations. On average, the error rate was 3.84% and peaked at 15.55% of requests to the service. The issue was caused by elevated latency in an internal authentication service within one of our regional clusters. We mitigated the issue by redirecting traffic away from the affected cluster at 09:39 UTC, after which error rates returned to normal. The incident was fully resolved at 10:02 UTC.  <br /><br />We are working to scale the authentication service and reduce our time to detection and mitigation of issues like this one in the future.
       resolved: true

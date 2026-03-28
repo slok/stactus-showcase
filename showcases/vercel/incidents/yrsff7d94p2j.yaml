@@ -1,0 +1,17 @@
+version: incident/v1
+id: yrsff7d94p2j
+name: Errors creating Support Center cases
+impact: minor
+systems: []
+timeline:
+    - ts: "2025-12-12 13:12:34"
+      description: |-
+        We are investigating an issue with creating new Support Center cases.
+
+        For affected Enterprise customers, please escalate out to Vercel contacts via Slack or email for support. For Pro and Hobby customers, please use the Vercel Community: https://community.vercel.com/
+      investigating: true
+    - ts: "2025-12-12 14:45:16"
+      description: We've identified the issue, and we are working on a fix. Vercel customers should be able to create cases normally while we monitor case operation metrics closely.
+    - ts: "2025-12-12 15:34:24"
+      description: This incident has been resolved.
+      resolved: true

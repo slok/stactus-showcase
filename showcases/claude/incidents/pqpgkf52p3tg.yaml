@@ -1,0 +1,23 @@
+version: incident/v1
+id: pqpgkf52p3tg
+name: Claude Desktop app unresponsive
+impact: major
+systems: []
+timeline:
+    - ts: "2026-03-08 17:57:17"
+      description: We have identified the issue and are working on a mitigation. Currently, scheduled tasks are disabled for cowork and claude code desktop.
+      investigating: true
+    - ts: "2026-03-08 18:27:55"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-03-08 19:42:42"
+      description: 'Root cause: Users with scheduled tasks in Claude Cowork or Claude Code who are in a timezone that observed daylight saving time last night were affected by an infinite loop. When the app tried to locate tasks scheduled during the “skipped” hour, it couldn’t resolve them and got stuck.'
+    - ts: "2026-03-08 19:42:57"
+      description: |-
+        Root cause: Users with scheduled tasks in Claude Cowork or Claude Code who are in a timezone that observed daylight saving time last night were affected by an infinite loop. When the app tried to locate tasks scheduled during the “skipped” hour, it couldn’t resolve them and got stuck.
+
+        Fix: Update to version 1.1.5749 via https://claude.com/download. If you’re unable to update right away, temporarily switching to a timezone that doesn’t observe daylight saving time will also resolve the issue.
+
+        We’re working on a backend fix as well. We know disruptions to Claude affect your work, and we apologize for the trouble.
+    - ts: "2026-03-10 16:52:45"
+      description: This incident has been resolved.
+      resolved: true

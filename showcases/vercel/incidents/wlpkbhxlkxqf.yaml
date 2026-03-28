@@ -1,0 +1,15 @@
+version: incident/v1
+id: wlpkbhxlkxqf
+name: Elevated Errors Loading Deployments on Dashboard
+impact: minor
+systems:
+    - fk66q26xp7hh
+timeline:
+    - ts: "2026-03-24 15:19:45"
+      description: We are currently investigating reports of elevated error rates loading the Deployment Overview on the Vercel Dashboard. Existing deployments and live traffic are not affected by this issue. We will share updates as they become available.
+      investigating: true
+    - ts: "2026-03-24 16:14:40"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-24 16:31:02"
+      description: This incident has been resolved.
+      resolved: true

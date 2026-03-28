@@ -1,0 +1,16 @@
+version: incident/v1
+id: 2l512gwfrrkj
+name: Issues passing Challenge Pages and Turnstile
+impact: minor
+systems:
+    - x0tkn0hzrtw7
+    - m4jywscr0n0k
+timeline:
+    - ts: "2026-03-25 07:58:52"
+      description: Visitors encountering Turnstile or Cloudflare Challenge Pages are encountering intermittent issues solving the challenge and may have to retry.
+      investigating: true
+    - ts: "2026-03-25 08:39:31"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-25 10:24:38"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,21 @@
+version: incident/v1
+id: z7gsp4wd05c5
+name: Teams Github Notifications App is down
+impact: major
+systems: []
+timeline:
+    - ts: "2026-03-24 16:59:27"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-03-24 17:09:57"
+      description: We found an issue impacting notifications from GitHub to Microsoft Teams. We are working on mitigation and will keep users updated on progress towards mitigation.
+      investigating: true
+    - ts: "2026-03-24 17:43:14"
+      description: We are experiencing degraded availability from Azure APIs, which is impacting notifications from GitHub to Microsoft Teams. We are working with Azure to resolve the issue.
+      investigating: true
+    - ts: "2026-03-24 18:50:56"
+      description: We are experiencing degraded availability from Azure Teams APIs, which is impacting notifications from GitHub to Microsoft Teams. We are awaiting resolution from Azure.
+      investigating: true
+    - ts: "2026-03-24 19:51:16"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

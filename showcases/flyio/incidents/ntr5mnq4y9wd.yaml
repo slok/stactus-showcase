@@ -1,0 +1,21 @@
+version: incident/v1
+id: ntr5mnq4y9wd
+name: Low capacity in IAD
+impact: minor
+systems:
+    - 49yq6v65b33l
+    - qyh8qlklk7mx
+timeline:
+    - ts: "2026-03-27 18:08:41"
+      description: We're currently investigating capacity issues in IAD that is preventing machine starts (machine creates are currently unaffected). This may result in deploys failing to complete (even for apps outside of the IAD region). As a workaround, using legacy Fly builders explicitly located in another region (i.e., `FLY_REMOTE_BUILDER_REGION=lhr fly deploy --depot=false --recreate-builder`) may help in the meantime.
+      investigating: true
+    - ts: "2026-03-27 18:47:12"
+      description: We're continuing to evaluate our options for increasing short-term capacity in the IAD region.
+      investigating: true
+    - ts: "2026-03-27 19:21:15"
+      description: We've brought some additional capacity online in IAD and are seeing improvements, and we're continuing to work on adding more and freeing up additional room.
+    - ts: "2026-03-27 21:09:48"
+      description: With the additional capacity we've brought online, machine start failure rates in IAD have now recovered. We'll continue to monitor IAD capacity.
+    - ts: "2026-03-27 21:51:36"
+      description: This incident has been resolved.
+      resolved: true

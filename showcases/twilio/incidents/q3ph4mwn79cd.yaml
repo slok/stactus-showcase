@@ -1,0 +1,13 @@
+version: incident/v1
+id: q3ph4mwn79cd
+name: Voice Call Failures from Network Subscribers to a Subset of Twilio United States Toll-Free Numbers
+impact: minor
+systems:
+    - 2v3v92mz2m4h
+timeline:
+    - ts: "2026-03-25 10:24:59"
+      description: Twilio customers may be experiencing voice call failures from network subscribers to a subset of Twilio United States Toll-Free Numbers. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-25 10:30:24"
+      description: The issue affecting calls failures from network subscribers to a subset of Twilio United States Toll-Free numbers has been resolved, and the service is functioning normally at this time.
+      resolved: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: rw896k7wm3nf
+name: Deployments are failing for customers using Static IPs in Dubai region (dxb1)
+impact: major
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-03-01 21:17:54"
+      description: Deployments for customers that use Static IPs are failing when deploying functions to the Dubai region. Customers can remove the Dubai region from the Static IPs configuration to avoid deployment failures. Our team is actively investigating the issue. Deployments to other regions are not affected.
+    - ts: "2026-03-02 00:22:31"
+      description: A fix has been implemented and new deployments are no longer failing.
+      resolved: true

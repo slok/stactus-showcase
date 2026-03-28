@@ -1,0 +1,22 @@
+version: incident/v1
+id: f46d6c5wnykr
+name: Increased Error Rates - Middle East (UAE)
+impact: major
+systems:
+    - mg346jtzzkzh
+    - 80w020z26b48
+    - 0nm0lhj2k7mm
+    - gwzcfg2q5lzh
+    - m0v7yfy5x7m7
+    - 566dvh83f8ly
+    - l7cfpcjhp313
+    - kpxk9fmfx8vd
+    - gzvpw6lgdd4p
+timeline:
+    - ts: "2026-03-01 13:43:57"
+      description: |-
+        AWS is currently investigating connectivity and power issues affecting the ME-CENTRAL-1 region due to a localized power issue.
+        We are seeing multiple service degradation across several Laravel Cloud components.
+    - ts: "2026-03-03 16:03:37"
+      description: This incident has been moved to a maintenance action as its resolution is contingent on ongoing conflict in the middle east and AWS's ability to repair damaged availability zones in their me-central-1 region.
+      resolved: true

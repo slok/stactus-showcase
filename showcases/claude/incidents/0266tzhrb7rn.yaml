@@ -1,0 +1,27 @@
+version: incident/v1
+id: 0266tzhrb7rn
+name: Elevated errors on Claude Sonnet 4.6
+impact: minor
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - 0scnb50nvy53
+timeline:
+    - ts: "2026-03-16 14:02:12"
+      description: There's an elevated error rate for free tier users on Claude Sonnet 4.6. We are investigating
+      investigating: true
+    - ts: "2026-03-16 14:02:57"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-03-16 14:04:58"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-03-16 14:05:37"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-03-16 15:13:28"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-03-16 15:35:22"
+      description: We are continuing to work on a fix for this issue. This is currently only impacting free Claude.ai users.
+    - ts: "2026-03-16 16:35:27"
+      description: This incident has been resolved.
+      resolved: true

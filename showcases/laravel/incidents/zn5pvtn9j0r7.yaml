@@ -1,0 +1,16 @@
+version: incident/v1
+id: zn5pvtn9j0r7
+name: Logs partially inaccessible
+impact: minor
+systems:
+    - mqqdb4hthn3c
+timeline:
+    - ts: "2025-10-02 20:28:35"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-10-02 21:41:54"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2025-10-03 01:46:09"
+      description: Logs are currently functioning in Frankfurt, however we have remaining maintenance work to do.
+    - ts: "2025-10-03 11:20:11"
+      description: Logs continue to be stable in the Frankfurt region.
+      resolved: true

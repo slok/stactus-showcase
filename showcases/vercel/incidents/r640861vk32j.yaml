@@ -1,0 +1,20 @@
+version: incident/v1
+id: r640861vk32j
+name: Domain details for domains owned by account scopes can't be accessed
+impact: minor
+systems:
+    - fk66q26xp7hh
+timeline:
+    - ts: "2025-10-16 05:25:30"
+      description: Details for domains belonging to account scopes (https://vercel.com/account/domains) return 404. If changes need to be made, we recommend transferring these domains to a team scope from this dashboard.
+      investigating: true
+    - ts: "2025-10-16 07:09:41"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-10-16 08:38:23"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-10-16 08:50:12"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-10-16 09:20:25"
+      description: This incident has been resolved.
+      resolved: true

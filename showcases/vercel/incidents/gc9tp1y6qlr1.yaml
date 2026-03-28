@@ -1,0 +1,18 @@
+version: incident/v1
+id: gc9tp1y6qlr1
+name: Intermittent failures for builds using Secure Compute or Static IPs
+impact: none
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2025-10-28 23:15:22"
+      description: New deployments that use Secure Compute or Static IPs are currently experiencing intermittent failures. We've identified the issue and are working to resolve this. Users will need to redeploy affected deployments after the issue is resolved. Existing deployments are not affected.
+    - ts: "2025-10-28 23:50:02"
+      description: We're seeing recovery for this issue. Users can redeploy the affected deployments.
+    - ts: "2025-10-29 00:22:27"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-10-29 00:51:20"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2025-10-29 00:51:46"
+      description: This incident has been resolved.
+      resolved: true

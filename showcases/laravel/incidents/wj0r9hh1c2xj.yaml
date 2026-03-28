@@ -1,0 +1,14 @@
+version: incident/v1
+id: wj0r9hh1c2xj
+name: Disruption with new deployments in EU West (London)
+impact: major
+systems:
+    - j7npqf9nr7qp
+timeline:
+    - ts: "2025-11-09 18:18:48"
+      description: Previously running deployments remain running, but new builds and deployments are disrupted
+    - ts: "2025-11-09 18:36:32"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-11-09 18:54:34"
+      description: This incident has been resolved. If you have any long running builds in EU West (London), please cancel and retry.
+      resolved: true

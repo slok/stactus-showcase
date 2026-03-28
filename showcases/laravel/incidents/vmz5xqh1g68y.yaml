@@ -1,0 +1,14 @@
+version: incident/v1
+id: vmz5xqh1g68y
+name: New Laravel MySQL instances may not come online in Sydney
+impact: minor
+systems:
+    - ytr4j2lk4pxt
+timeline:
+    - ts: "2025-09-23 16:21:49"
+      description: "We've identified a condition that may potentially cause new Laravel MySQL instances to not come online in our Sydney region. Existing instances continue to operate normally. A fix is being implemented. \n\nAt this time no service disruption for existing instances seems necessary but we will communicate updates if that changes."
+    - ts: "2025-09-23 16:38:19"
+      description: A fix has been implemented and we are monitoring results.
+    - ts: "2025-09-23 18:02:10"
+      description: This incident has been resolved.
+      resolved: true

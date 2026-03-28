@@ -1,0 +1,17 @@
+version: incident/v1
+id: jbj95zp0rnd6
+name: Incorrect IP source information in spectrum HTTP/HTTPS apps
+impact: minor
+systems:
+    - 6dd6ssg7plt0
+timeline:
+    - ts: "2026-03-26 17:08:56"
+      description: Cloudflare is investigating reports of incorrect client source IP addresses and geolocation information being reported for Spectrum HTTP/HTTPS applications.
+      investigating: true
+    - ts: "2026-03-26 18:29:58"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-03-26 18:35:12"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-26 19:08:39"
+      description: This incident has been resolved.
+      resolved: true

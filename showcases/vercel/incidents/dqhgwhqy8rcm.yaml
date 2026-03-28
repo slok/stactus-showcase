@@ -1,0 +1,17 @@
+version: incident/v1
+id: dqhgwhqy8rcm
+name: Elevated Dashboard Errors
+impact: minor
+systems:
+    - fk66q26xp7hh
+    - 7ckq6xr6nsbv
+    - rxynwj392p81
+timeline:
+    - ts: "2026-03-25 16:32:01"
+      description: We are currently investigating reports of elevated error rates on the Vercel Dashboard. Existing deployments and live traffic are not affected by this issue. We will share updates as they become available.
+      investigating: true
+    - ts: "2026-03-25 16:41:39"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-25 17:31:26"
+      description: This incident has been resolved.
+      resolved: true

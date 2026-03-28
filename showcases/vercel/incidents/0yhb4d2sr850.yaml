@@ -1,0 +1,18 @@
+version: incident/v1
+id: 0yhb4d2sr850
+name: AI Gateway is unavailable
+impact: major
+systems:
+    - rsp3h37vv009
+timeline:
+    - ts: "2025-11-04 20:00:39"
+      description: AI Gateway model requests and metadata API calls are unavailable.
+      investigating: true
+    - ts: "2025-11-04 20:19:27"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-11-04 20:36:55"
+      description: We have implemented a fix and are seeing no errors as of 20:26 UTC.
+    - ts: "2025-11-04 20:47:20"
+      description: This incident has been resolved.
+      resolved: true

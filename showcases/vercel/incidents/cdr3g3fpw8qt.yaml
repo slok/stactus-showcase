@@ -1,0 +1,15 @@
+version: incident/v1
+id: cdr3g3fpw8qt
+name: Elevated latency creating new deployments
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-02-03 20:48:00"
+      description: We are investigating elevated latency creating new deployments. Some deployments may be delayed.
+      investigating: true
+    - ts: "2026-02-03 21:12:00"
+      description: A fix has been applied resolving the queue for new deployments. We are continuing to monitor the results.
+    - ts: "2026-02-03 21:36:31"
+      description: The issue has been resolved and all deployments are building normally.
+      resolved: true

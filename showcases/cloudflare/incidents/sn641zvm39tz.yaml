@@ -1,0 +1,23 @@
+version: incident/v1
+id: sn641zvm39tz
+name: Cloudflare API service issues
+impact: minor
+systems:
+    - 4c231tkdlpcl
+    - g4tb35rs9yw7
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-03-24 17:52:58"
+      description: The Cloudflare Workers API is experiencing increased errors and changes to Cron Triggers may be delayed. Already deployed Workers and existing Cron Triggers are unaffected.
+      investigating: true
+    - ts: "2026-03-24 17:58:52"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-03-24 17:59:49"
+      description: The Cloudflare Workers and GraphQL API is experiencing increased errors and changes to Cron Triggers may be delayed. Already deployed Workers and existing Cron Triggers are unaffected.
+      investigating: true
+    - ts: "2026-03-24 18:15:17"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-25 07:32:40"
+      description: This incident has been resolved.
+      resolved: true

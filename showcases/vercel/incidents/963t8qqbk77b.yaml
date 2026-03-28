@@ -1,0 +1,19 @@
+version: incident/v1
+id: 963t8qqbk77b
+name: Elevated Errors on Middleware Invocations
+impact: minor
+systems:
+    - 1w4lc3s3q2pz
+timeline:
+    - ts: "2026-03-06 15:25:59"
+      description: Some deployments created between 11:20 UTC and 15:14 UTC with Edge Middleware may be seeing elevated errors. Deployments created outside of this time window are unaffected. If you are experiencing issues, we recommend redeploying.
+    - ts: "2026-03-06 19:18:02"
+      description: |-
+        We are applying a fix for the deployments experiencing elevated errors.
+
+        We continue to recommend redeploying if you are seeing errors on deployments created between 11:20 UTC and 15:14 UTC. Deployments created outside of this window are unaffected and no action is required. Additionally, deployments with middleware on the Node runtime are unaffected.
+    - ts: "2026-03-06 21:20:30"
+      description: A fix has been applied and we are seeing recovery for affected deployments. We are continuing to monitor.
+    - ts: "2026-03-06 21:38:34"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,9 @@
+version: incident/v1
+id: x2bwhlhg1xbj
+name: Elevated Error Rate on AI Gateway in cle1 and fra1
+impact: none
+systems: []
+timeline:
+    - ts: "2026-02-11 21:28:12"
+      description: On February 11, 2026, between 15:00 and 19:26 UTC, AI Gateway experienced elevated error rates due to an issue affecting Vercel Functions infrastructure in the cle1 and fra1 Vercel Regions. Requests routed to these regions, including requests originating from other regions, may have experienced failed requests or timeouts during this time. We have resolved the issue, and the service is now operating normally. We apologize for the disruption.
+      resolved: true

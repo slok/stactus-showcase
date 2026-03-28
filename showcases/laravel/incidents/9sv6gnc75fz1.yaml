@@ -1,0 +1,11 @@
+version: incident/v1
+id: 9sv6gnc75fz1
+name: Laravel Cloud Dashboard Downtime
+impact: major
+systems: []
+timeline:
+    - ts: "2025-07-24 23:18:53"
+      description: The Laravel Cloud dashboard became unavailable, including the ability to deploy applications via webhooks. All hosted applications continued running without interruption.
+      resolved: true
+    - ts: "2025-07-24 23:21:14"
+      description: "**What happened**    \nStarting at 09:21 UTC on July 24, 2025, the Laravel Cloud dashboard became unavailable, including the ability to deploy applications. All hosted applications continued running without interruption — we only impacted the part of the platform you use to manage and deploy your applications. Full service was restored at 09:37 UTC, for a total downtime of 16 minutes.\n\n**What caused it**    \nA scheduled database migration that added a new column to our deployments table was blocked by an existing long-running query against that same table. Because the migration couldn’t acquire the necessary lock, the deployment pipeline stalled. Once we identified and terminated the blocking query, the migration completed successfully.\n\n**How we fixed it**\n\n1. We identified the long running query that was holding the lock and causing the deployment to fail.\n2. We deployed a hotfix for that query, and fixed our migration to handle any partial state changes.\n3. We retriggered the deployment pipeline, which completed successfully and restored all services.\n\n**What we’re doing next**\n\n* We have added alerts in place to notify us of long-running queries that could block deployments in the future.\n* We're reviewing and optimizing our schema to prevent similar issues happening in the future.\n* We will ensure our status page is updated with the most detailed information about incidents like this in the future."

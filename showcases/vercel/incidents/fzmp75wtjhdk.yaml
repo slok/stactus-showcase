@@ -1,0 +1,13 @@
+version: incident/v1
+id: fzmp75wtjhdk
+name: Issues upgrading v0 plans and adding v0 credits
+impact: major
+systems:
+    - hvqpg17xq8vv
+timeline:
+    - ts: "2025-10-23 01:34:06"
+      description: We are currently investigating an issue where v0 teams are unable to be upgraded to Business or Team plans, and v0 credits are unable to be added.
+      investigating: true
+    - ts: "2025-10-23 01:41:14"
+      description: This incident has been resolved.
+      resolved: true

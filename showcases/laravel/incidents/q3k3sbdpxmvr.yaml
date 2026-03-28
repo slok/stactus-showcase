@@ -1,0 +1,28 @@
+version: incident/v1
+id: q3k3sbdpxmvr
+name: Network issues affecting serveral services in Singapore
+impact: major
+systems:
+    - 359qq1ltvtft
+    - 0d75ngbkyzz2
+    - xnlhg7vcwn21
+timeline:
+    - ts: "2026-02-27 00:53:37"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-02-27 00:53:55"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-02-27 01:36:11"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-02-27 02:58:17"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-02-27 03:24:00"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-02-27 08:29:23"
+      description: Database remediations have been applied and are performing as expected. We continue to monitor for any further impact.
+    - ts: "2026-02-27 09:20:31"
+      description: |-
+        We completed a planned infrastructure migration for our Singapore region. During the process, we identified region-specific configurations that required additional manual adjustments which extended the process beyond our estimated timeframe.
+        The migration is now complete and all services are operating normally.
+      resolved: true

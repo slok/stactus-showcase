@@ -1,0 +1,53 @@
+version: incident/v1
+id: 1dhy5v1lj9bx
+name: Some Grafana Instances Unavailable
+impact: major
+systems:
+    - wfc1hb7m917l
+    - 9zgd4n4s874v
+    - zvfc1jlr92kg
+    - 6wgslg1s3bzr
+    - wdcnfc3drb8s
+    - 2vj35rbpdr7s
+    - nrv6vyr5l7m8
+    - hl40gbs2zkn4
+    - y8p2jm7hpwy0
+    - tv6d4zqb6nz7
+    - hbqgpzmf8h9k
+    - t0592d5sxhgh
+    - 8wq97lhx59x7
+    - v2sp8gjnhwk6
+    - lxb7122px698
+    - b562z2mrff79
+    - fs80tlfpb7kx
+    - h1t1253xs6k9
+    - 1mnpb5g27m21
+    - sc8qqdx6j1h5
+    - c66zgq8xld33
+    - kw9wxv34yw80
+    - bh5f9ggjnj60
+    - 54tht9mpb5sk
+    - yt6pjkj14lvk
+    - qqj6ssvvsqmq
+    - m7cr9xxllhpn
+    - jky8f03q6zfj
+    - 2yn7w8rnphcp
+    - 4vfjcc6ptw32
+    - 4sk1vxpqgb7s
+timeline:
+    - ts: "2026-03-27 13:36:03"
+      description: We’re currently investigating an issue which is affecting primarily users on the Free tier. Impacted users will be met with a "your Grafana instance is loading" message indefinitely. Our team is actively working to identify the cause and will share an update within 1-2 hours. Thank you for your patience.
+      investigating: true
+    - ts: "2026-03-27 14:51:53"
+      description: We’re continuing to investigate the issue with Grafana instances. While we don’t have new information to share yet, our team is working to identify the root cause. Next update in 1-2 hours.
+      investigating: true
+    - ts: "2026-03-27 16:36:43"
+      description: We’re continuing to investigate the issue with Grafana instances. While we don’t have new information to share yet, our team is working to identify the root cause. Next update in 1-2 hours.
+      investigating: true
+    - ts: "2026-03-27 18:10:05"
+      description: We’ve identified the cause of the issue impacting the instances. Our team is currently implementing a fix. We’ll provide another update in 1–2 hours, or sooner, if the situation changes.
+    - ts: "2026-03-27 20:16:14"
+      description: We’ve implemented a fix and are monitoring the results to confirm the issue is fully resolved. Services may start to recover during this time. We’ll update again in 1 hour.
+    - ts: "2026-03-27 20:48:49"
+      description: This incident has been resolved. Thank you for your patience.
+      resolved: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: 8qnmmcygjfpj
+name: Increased delays delivering Hosted Numbers Order Completion
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-03-26 19:23:35"
+      description: We are investigating delays in Hosted Numbers order completion. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
+    - ts: "2026-03-26 20:00:55"
+      description: Hosted Numbers order completion has been resolved, and Hosted Numbers is operating normally.
+      resolved: true

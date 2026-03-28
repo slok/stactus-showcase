@@ -1,0 +1,13 @@
+version: incident/v1
+id: 0jd0h783r2ck
+name: Elevated errors serving traffic in dub1 Edge Region
+impact: minor
+systems:
+    - lb2cgptkdw9b
+timeline:
+    - ts: "2025-11-14 21:39:22"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-11-14 21:41:26"
+      description: This incident has been resolved.
+      resolved: true

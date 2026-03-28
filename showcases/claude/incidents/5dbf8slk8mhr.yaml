@@ -1,0 +1,17 @@
+version: incident/v1
+id: 5dbf8slk8mhr
+name: Elevated errors on Claude Haiku 4.5
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-03-04 15:58:24"
+      description: The earlier issues with Haiku 4.5 have reappeared.
+      investigating: true
+    - ts: "2026-03-04 16:13:47"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-04 17:01:30"
+      description: Errors have returned to the baseline as of 8:08 PT / 16:08 UTC.
+      resolved: true

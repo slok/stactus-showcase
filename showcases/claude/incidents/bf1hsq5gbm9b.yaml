@@ -1,0 +1,15 @@
+version: incident/v1
+id: bf1hsq5gbm9b
+name: Elevated errors on Claude Opus 4.6
+impact: critical
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-03-19 15:59:48"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-03-19 16:16:37"
+      description: This incident started at 8:53 PT / 15:53 UTC and the errors have now returned to baseline since 9:14 PT / 16:14 UTC.
+      resolved: true

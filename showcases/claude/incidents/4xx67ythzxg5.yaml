@@ -1,0 +1,15 @@
+version: incident/v1
+id: 4xx67ythzxg5
+name: Elevated errors on Claude Haiku 4.5
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-03-04 14:47:44"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-03-04 14:55:24"
+      description: The incident for Haiku 4.5 has been between 6:45 PT / 14:45 UTC and 6:50 PT / 14:50 UTC.
+      resolved: true

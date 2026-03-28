@@ -1,0 +1,18 @@
+version: incident/v1
+id: 3ry5v1645f12
+name: Problems Loading Dashboard & Elevated Builds Error Rate
+impact: major
+systems:
+    - fk66q26xp7hh
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-02-07 08:38:41"
+      description: We are investigating elevated dashboard load times and error rates on builds. We will provide updates as they become available.
+      investigating: true
+    - ts: "2026-02-07 09:35:23"
+      description: We have identified the issue and begun applying a fix. We are beginning to see partial recovery across builds and parts of the dashboard. We will provide additional updates as they become available.
+    - ts: "2026-02-07 10:23:35"
+      description: We have applied a fix and are seeing recovery across builds and dashboard. We are continuing to monitor.
+    - ts: "2026-02-07 11:18:12"
+      description: This incident has been resolved.
+      resolved: true

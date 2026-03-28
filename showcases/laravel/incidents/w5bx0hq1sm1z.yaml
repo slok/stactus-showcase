@@ -1,0 +1,25 @@
+version: incident/v1
+id: w5bx0hq1sm1z
+name: Faling builds
+impact: none
+systems:
+    - q8chffw359pz
+    - ffc2w3q5j6fx
+    - mf51szgphyxp
+    - j7npqf9nr7qp
+    - 29lv3lp08fw1
+    - 359qq1ltvtft
+    - z90jsvy9c3h1
+    - k7bvq41n41zs
+    - mg346jtzzkzh
+timeline:
+    - ts: "2026-02-17 16:32:49"
+      description: Builds are currently failing. We are working on mitigating the issue.
+      investigating: true
+    - ts: "2026-02-17 16:42:36"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-02-17 16:58:33"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-02-17 17:00:37"
+      description: This incident has been resolved.
+      resolved: true

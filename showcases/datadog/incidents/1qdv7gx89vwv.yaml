@@ -1,0 +1,32 @@
+version: incident/v1
+id: 1qdv7gx89vwv
+name: Delayed Monitors Notifications
+impact: major
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2026-03-26 14:24:24"
+      description: We are investigating delays in monitor notifications, which began at 12:00 UTC.
+      investigating: true
+    - ts: "2026-03-26 14:55:24"
+      description: We are continuing investigating delays in monitor notifications that started at 12:00 UTC.
+      investigating: true
+    - ts: "2026-03-26 15:32:11"
+      description: We are still continuing investigating delays in monitor notifications that started at 12:00 UTC. We've identified the root cause and are working on a fix.
+      investigating: true
+    - ts: "2026-03-26 16:11:46"
+      description: We are continuing to investigate delays in monitor notifications.
+      investigating: true
+    - ts: "2026-03-26 16:48:29"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-03-26 17:28:57"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-03-26 18:38:40"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-03-26 19:07:44"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-03-26 19:42:31"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-26 19:56:35"
+      description: This incident has been resolved.
+      resolved: true

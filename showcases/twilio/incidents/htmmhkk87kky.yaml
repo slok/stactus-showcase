@@ -1,0 +1,25 @@
+version: incident/v1
+id: htmmhkk87kky
+name: SMS Delivery Delays and Failures from a Subset of Twilio Long Codes to Vodafone Italy
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-03-26 00:22:20"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to Vodafone network subscribers in Italy. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-26 00:30:09"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to Vodafone network subscribers in Italy. Our team has identified the cause and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-03-26 01:28:24"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to Vodafone network subscribers in Italy. Our team has identified the cause and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-03-26 03:27:19"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to Vodafone network subscribers in Italy. Our team has identified the cause and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-03-26 07:22:52"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to Vodafone network subscribers in Italy. Our team has identified the cause and is working to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+    - ts: "2026-03-26 15:12:56"
+      description: We continue experiencing SMS delivery delays and failures from a subset of Twilio Long Codes to Vodafone network subscribers in Italy. Our team has identified the cause and is working to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
+    - ts: "2026-03-26 18:01:40"
+      description: We have observed a recovery in SMS delivery from a subset of Twilio Long Codes to Vodafone network subscribers in Italy and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-03-26 19:41:54"
+      description: We are no longer experiencing SMS delivery delays when sending messages to Vodafone network subscribers in Italy. This incident has been resolved.
+      resolved: true

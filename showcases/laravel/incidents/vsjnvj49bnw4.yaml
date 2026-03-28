@@ -1,0 +1,28 @@
+version: incident/v1
+id: vsjnvj49bnw4
+name: Edge Network Performance Issues in Europe
+impact: minor
+systems:
+    - jmw0wwg6553f
+timeline:
+    - ts: "2025-08-04 10:40:03"
+      description: |-
+        Cloudflare has detected that the scope of the impact is mostly affecting datacenters located in Frankfurt. The issue has been identified and a fix is being implemented.
+
+        https://www.cloudflarestatus.com/incidents/ffwzxb94kxk9
+    - ts: "2025-08-04 11:57:24"
+      description: |-
+        Cloudflare is continuing to work on a fix for this issue.
+
+        https://www.cloudflarestatus.com/incidents/ffwzxb94kxk9
+    - ts: "2025-08-04 12:22:24"
+      description: |-
+        Cloudflare has mitigated the current impact and continues to work on a fix for this issue. More updates will follow.
+
+        https://www.cloudflarestatus.com/incidents/ffwzxb94kxk9
+    - ts: "2025-08-04 22:22:21"
+      description: |-
+        This incident was resolved Aug 04, 2025 - 19:35 UTC.
+
+        https://www.cloudflarestatus.com/incidents/ffwzxb94kxk9
+      resolved: true

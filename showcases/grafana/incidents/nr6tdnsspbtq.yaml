@@ -1,0 +1,9 @@
+version: incident/v1
+id: nr6tdnsspbtq
+name: Service degradation on Dashboard loading in several clusters.
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-25 10:30:00"
+      description: "An issue affecting Grafana Cloud instances was diagnosed yesterday 24th of March that avoided Dashboards to be loaded correctly. \nThe incident impacted the following clusters:\n- GCP US Central (us-central-0) between 13:15 and 13:50 UTC \n- AWS US East (us-east-0) between 13:43 and 13:55 UTC \n- AWS US West (us-west-2) between 14:05 and 14:06 UTC\n\nThe issue has been identified and measurement corrections has been applied."
+      resolved: true

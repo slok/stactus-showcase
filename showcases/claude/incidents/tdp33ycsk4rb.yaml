@@ -1,0 +1,14 @@
+version: incident/v1
+id: tdp33ycsk4rb
+name: Elevated errors on Claude Sonnet 4.6
+impact: major
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-03-12 16:34:27"
+      description: A repeat of an earlier issue today started at 9:27 PT / 16:27 UTC.
+    - ts: "2026-03-12 19:48:19"
+      description: This incident has been resolved.
+      resolved: true

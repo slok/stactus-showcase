@@ -1,0 +1,15 @@
+version: incident/v1
+id: htjkfrfnzq12
+name: Elevated TCP three-way handshake failures on api.anthropic.com
+impact: minor
+systems:
+    - rwppv331jlwc
+timeline:
+    - ts: "2026-03-06 15:34:38"
+      description: Some API requests to api.anthropic.com are experiencing connection timeouts due to network degradation at an upstream peering point. Requests that successfully connect are unaffected. We are working with our upstream providers to resolve the issue.
+      investigating: true
+    - ts: "2026-03-06 16:01:36"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-03-06 16:23:02"
+      description: This incident has been resolved.
+      resolved: true

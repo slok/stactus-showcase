@@ -1,0 +1,12 @@
+version: incident/v1
+id: sv9qct667fdc
+name: Container Logs issues
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-03-25 23:13:08"
+      description: |-
+        Cloudflare has identified an issue impacting Containers Logs, customers may have seen a reduced level of logs between March 25th 15:50 UTC to 22:55 UTC
+
+        This incident has now been resolved and logs are now flowing in correctly.
+      resolved: true

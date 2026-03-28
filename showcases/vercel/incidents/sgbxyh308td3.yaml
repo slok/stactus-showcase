@@ -1,0 +1,17 @@
+version: incident/v1
+id: sgbxyh308td3
+name: Elevated errors creating deployments with Neon and Supabase integrations
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2025-12-09 02:57:30"
+      description: We are currently investigating intermittent `Resource provisioning timed out` errors that occur when creating new deployments with the Neon or Supabase integration. Existing deployments are not affected.
+      investigating: true
+    - ts: "2025-12-09 03:55:42"
+      description: We've identified a potential root cause in our webhook service affecting the build process. We will continue to provide further updates as we learn more.
+    - ts: "2025-12-09 04:21:24"
+      description: Deployments using the Supabase integration are now working as expected. We are continuing to work on `Resource provisioning timed out` errors related to the Neon integration.
+    - ts: "2025-12-09 05:51:37"
+      description: This incident has been resolved.
+      resolved: true

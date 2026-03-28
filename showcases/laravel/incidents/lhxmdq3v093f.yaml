@@ -1,0 +1,17 @@
+version: incident/v1
+id: lhxmdq3v093f
+name: Laravel MySQL connection issues
+impact: major
+systems:
+    - bb24744tntll
+timeline:
+    - ts: "2025-06-25 08:54:59"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2025-06-25 09:12:18"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-06-25 09:44:17"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2025-06-25 09:53:00"
+      description: This incident has been resolved.
+      resolved: true

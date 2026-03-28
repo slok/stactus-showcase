@@ -1,0 +1,17 @@
+version: incident/v1
+id: 20v5r3njkcwc
+name: Dubai region (dxb1) is unavailable and traffic is being re-routed
+impact: minor
+systems:
+    - xqxqkh85qkqn
+timeline:
+    - ts: "2026-03-02 15:29:37"
+      description: |-
+        Due to operational issues in the dxb1 region, traffic is currently re-routed to bom1. Additionally, dxb1 is currently unavailable as a Function Region for new deployments.
+
+        If your existing deployments that use the dxb1 region are experiencing elevated function invocation errors, we strongly recommend switching to the nearest region (such as bom1) and redeploy until capacity is restored in dxb1. Deployments using multiple regions or failover regions are not affected since traffic is automatically routed to the nearest region based on the configured settings.
+    - ts: "2026-03-02 18:23:53"
+      description: We are monitoring the situation and continue to work toward restoring capacity in the dxb1 region. We will send further updates when new information is available.
+    - ts: "2026-03-16 18:44:04"
+      description: Due to ongoing issues in the dxb1 region, traffic and regional Vercel services are currently re-routed to bom1. We will share more details on recovery when they become available.
+      resolved: true

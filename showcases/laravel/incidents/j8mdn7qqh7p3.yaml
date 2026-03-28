@@ -1,0 +1,19 @@
+version: incident/v1
+id: j8mdn7qqh7p3
+name: Network failures in several regions
+impact: major
+systems:
+    - jmw0wwg6553f
+timeline:
+    - ts: "2025-11-18 11:38:41"
+      description: We are seeing network failures in several regions. We are investigating and will update this incident as soon as we know more.
+      investigating: true
+    - ts: "2025-11-18 12:10:46"
+      description: We've identified the issue with an upstream provider.
+    - ts: "2025-11-18 12:36:06"
+      description: We can confirm observation of recoveries, but customers may continue to experience higher than normal error rates as remediation efforts progress upstream.
+    - ts: "2025-11-18 14:43:28"
+      description: A fix has been implemented upstream and we are monitoring the full resolution.
+    - ts: "2025-11-18 15:05:27"
+      description: This incident has been resolved.
+      resolved: true

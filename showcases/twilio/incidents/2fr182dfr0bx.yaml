@@ -1,0 +1,28 @@
+version: incident/v1
+id: 2fr182dfr0bx
+name: User Authentication Identity API Errors in Canada
+impact: minor
+systems:
+    - trrz5ztt7pl8
+    - fsxs9n9yf4m7
+    - cfy5cxrly95b
+    - q0hp6vfr4vvh
+    - qt4vzyg2g7b4
+timeline:
+    - ts: "2026-03-25 02:16:33"
+      description: Twilio customers may be experiencing User Authentication Identity API errors in Canada. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-25 03:16:15"
+      description: Twilio customers may be experiencing User Authentication Identity API errors in Canada. Our team has identified the cause and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-25 05:23:23"
+      description: Twilio customers may be experiencing User Authentication Identity API errors in Canada. Our team has identified the cause and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-25 08:01:35"
+      description: We are continuing our investigation and have discovered that the Lookup API is also affected by this issue.
+      investigating: true
+    - ts: "2026-03-25 09:19:53"
+      description: We have observed a recovery in User Authentication Identity in Canada and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-03-25 11:21:19"
+      description: The issue affecting User Authentication Identity in Canada has been resolved, and the service is operating normally at this time.
+      resolved: true

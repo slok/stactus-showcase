@@ -1,0 +1,34 @@
+version: incident/v1
+id: 9s41j28flfrn
+name: Delayed Account Reactivations
+impact: minor
+systems:
+    - jw9dh2mf4392
+timeline:
+    - ts: "2026-03-25 22:17:15"
+      description: Twilio users who have a positive account balance are not being automatically reactivated and are reporting to Support.
+      investigating: true
+    - ts: "2026-03-25 22:41:49"
+      description: We are investigating reports of customer accounts not automatically reactivating after a successful payment. We will provide another update in 1 hour or as soon as more information is available.
+      investigating: true
+    - ts: "2026-03-25 23:34:19"
+      description: We continue investigating reports of customer accounts not automatically reactivating after a successful payment. We will provide another update in 2 hours or as soon as more information is available.
+      investigating: true
+    - ts: "2026-03-26 01:33:42"
+      description: We continue investigating reports of customer accounts not automatically reactivating after a successful payment. We will provide another update in 4 hours or as soon as more information is available.
+      investigating: true
+    - ts: "2026-03-26 01:45:51"
+      description: The issue causing the customer accounts to not automatically reactivate after a successful payment has been identified. We are actively working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-03-26 02:43:40"
+      description: The issue causing the customer accounts to not automatically reactivate after a successful payment has been identified. We are actively working to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-03-26 04:39:37"
+      description: The issue causing the customer accounts to not automatically reactivate after a successful payment has been identified. We are actively working to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-03-26 08:57:40"
+      description: The issue causing the customer accounts to not automatically reactivate after a successful payment has been identified. We are actively working to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.
+    - ts: "2026-03-26 10:31:52"
+      description: We have observed a recovery in the issue where customer accounts were not automatically reactivating after a successful payment. We are now monitoring service stability to ensure a full recovery. We will provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-03-26 11:02:17"
+      description: We have observed a recovery in the issue where customer accounts were not automatically reactivating after a successful payment. We are now monitoring service stability to ensure a full recovery. We will provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-03-26 11:37:24"
+      description: We are no longer experiencing issues with Automatic Account Reactivations following successful payments. This incident has been resolved.
+      resolved: true

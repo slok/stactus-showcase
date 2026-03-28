@@ -1,0 +1,9 @@
+version: incident/v1
+id: c8vd4vv2r7z1
+name: Workloads in ap-southeast-1 (Singapore) had intermittent connectivity issues from Asia-Pacific areas.
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-03-06 23:48:13"
+      description: Workloads in ap-southeast-1 (Singapore) had intermittent connectivity issues from APAC areas, notably from New Zealand, Australia, and India. We saw intermittent reports of this for roughly 3 hours.
+      resolved: true

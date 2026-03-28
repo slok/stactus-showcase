@@ -1,0 +1,23 @@
+version: incident/v1
+id: h9qmrh7f14gk
+name: SMS Delivery Delays from Twilio to T-Mobile Netherlands
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-03-26 15:46:48"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to T-Mobile network subscribers in the Netherlands. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-26 16:38:09"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to T-Mobile network subscribers in the Netherlands. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-26 18:34:33"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to T-Mobile network subscribers in the Netherlands. Our team is actively investigating this issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-03-26 21:48:53"
+      description: We are observing recovery in SMS delivery delays when sending messages to T-Mobile network subscribers in the Netherlands. We will continue monitoring the service to ensure a full recovery. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-03-26 22:06:55"
+      description: We have observed a recovery in SMS delivery from Twilio to T-Mobile network subscribers in the Netherlands and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-03-26 23:33:14"
+      description: The incident has been resolved and SMS delivery from Twilio to T-Mobile network subscribers in the Netherlands is operating normally.
+      resolved: true

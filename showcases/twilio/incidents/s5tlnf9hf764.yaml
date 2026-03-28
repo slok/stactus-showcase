@@ -1,0 +1,14 @@
+version: incident/v1
+id: s5tlnf9hf764
+name: Disruption to Conferences
+impact: minor
+systems:
+    - l2p2s96tdsf4
+    - 2lchkffbp2k9
+    - vjcnzg66l66t
+timeline:
+    - ts: "2026-03-24 16:48:53"
+      description: We are investigating an issue that is resulting in some Conference users not being able to hear each other. We will provide another update in 30 minutes
+    - ts: "2026-03-24 16:51:55"
+      description: Issue with Conference users not being able to hear each other has been resolved and Conference service is operating normally at this time.
+      resolved: true

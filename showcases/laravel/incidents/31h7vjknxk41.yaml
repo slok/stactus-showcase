@@ -1,0 +1,27 @@
+version: incident/v1
+id: 31h7vjknxk41
+name: Laravel Cloud Deployments
+impact: none
+systems:
+    - ffc2w3q5j6fx
+    - mf51szgphyxp
+    - j7npqf9nr7qp
+    - 359qq1ltvtft
+timeline:
+    - ts: "2025-06-16 09:54:24"
+      description: We’re currently investigating an issue preventing new deployments. Updates to follow shortly.
+      investigating: true
+    - ts: "2025-06-16 09:54:59"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2025-06-16 10:06:24"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-06-16 10:12:33"
+      description: We've deployed a fix and builds are working again.
+    - ts: "2025-06-16 10:19:44"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2025-06-16 10:20:19"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2025-06-16 11:37:57"
+      description: This incident has been resolved.
+      resolved: true

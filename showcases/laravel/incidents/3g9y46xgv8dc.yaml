@@ -1,0 +1,27 @@
+version: incident/v1
+id: 3g9y46xgv8dc
+name: Domain Verification Delays
+impact: minor
+systems:
+    - k648vlw65tzw
+    - jmw0wwg6553f
+timeline:
+    - ts: "2026-03-15 16:41:28"
+      description: |-
+        An issue with our Edge Network provider, Cloudflare has resulted in delays in processing Custom Domain verification and SSL Issuance.
+
+        This issue is currently under investigation and has not yet been declared as an active incident with Cloudflare.
+
+        Domains stuck in "Verifying" status in the Cloud Control Panel should progress as normal once the issue at Cloudflare has been resolved. This may take a few minutes to a few hours, depending on their current status on the Edge.
+
+        This does not affect any custom domains that are already verified.
+
+        We are monitoring the situation and will provide updates as required.
+    - ts: "2026-03-15 18:35:05"
+      description: |-
+        We've been monitoring the Domain Verification process carefully and have confirmed that Domains are now verifying in a reasonable amount of time.
+
+        If you're having trouble verifying your domain now, please refer to our documentation: https://cloud.laravel.com/docs/knowledge-base/domain-verification
+
+        We apologize for any inconvenience experienced during this third-party issue.
+      resolved: true

@@ -1,0 +1,25 @@
+version: incident/v1
+id: dlt07jgj25k0
+name: Cloud control panel and edge network reachability issues
+impact: none
+systems:
+    - k648vlw65tzw
+    - jmw0wwg6553f
+timeline:
+    - ts: "2026-02-20 18:48:49"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-02-20 18:51:53"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-02-20 19:06:11"
+      description: We’re aware of the ongoing connectivity issues affecting Laravel Cloud. The root cause has been identified and is related to an infrastructure incident outside of our systems. Services will recover automatically as the situation resolves. We’re monitoring closely and will update as things progress.
+    - ts: "2026-02-20 19:58:32"
+      description: We are actively working with our partners to restore service and will provide another update once recovery is complete.
+    - ts: "2026-02-20 21:08:06"
+      description: The issue has been traced to a networking disruption at one of our infrastructure partners affecting IP prefix advertisements. Our partner has identified the underlying cause and is actively restoring affected prefixes. While a manual workaround has been made available, it is not currently accessible to all affected customers, including us. We are in direct contact with their team and monitoring recovery closely.
+    - ts: "2026-02-20 21:59:38"
+      description: A fix has been been implemented and we are seeing recovery across all applications.
+    - ts: "2026-02-20 22:43:58"
+      description: This incident has been resolved.
+      resolved: true

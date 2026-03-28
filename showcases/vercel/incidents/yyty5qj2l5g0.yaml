@@ -1,0 +1,15 @@
+version: incident/v1
+id: yyty5qj2l5g0
+name: Builds and Deployments are Currently in a Queued State
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2025-11-16 18:54:51"
+      description: All builds are stuck in a queued state. Our team is currently investigating this issue. Live deployments are not affected.
+      investigating: true
+    - ts: "2025-11-16 18:56:21"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2025-11-16 19:29:43"
+      description: This incident has been resolved.
+      resolved: true
