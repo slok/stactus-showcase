@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2026-03-29 00:53:21"
       description: We've identified an issue in the latest Claude Desktop release (Claude 1.1.9310) where Dispatch sessions stop responding. Messages sent to Dispatch are received and processed, but replies do not appear in the conversation. We have identified the cause and are working on a fix. As a workaround, you can continue using standard Cowork sessions, which are unaffected.
+    - ts: "2026-03-29 04:44:46"
+      description: The issue affecting Dispatch has been resolved. We fixed an underlying issue that prevent the agent from sending responses to user messages. Please update to Claude desktop app 1.1.9493. We apologize for any inconvenience caused.
+      resolved: true
