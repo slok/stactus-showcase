@@ -1,0 +1,9 @@
+version: incident/v1
+id: q5qk1234v205
+name: Dispatch sessions not responding in Claude Desktop
+impact: major
+systems:
+    - rwppv331jlwc
+timeline:
+    - ts: "2026-03-29 00:53:21"
+      description: We've identified an issue in the latest Claude Desktop release (Claude 1.1.9310) where Dispatch sessions stop responding. Messages sent to Dispatch are received and processed, but replies do not appear in the conversation. We have identified the cause and are working on a fix. As a workaround, you can continue using standard Cowork sessions, which are unaffected.
