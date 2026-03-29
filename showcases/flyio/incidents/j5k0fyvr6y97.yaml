@@ -1,6 +1,6 @@
 version: incident/v1
 id: j5k0fyvr6y97
-name: Machine Creates and Starts Failing in SIN and AMS Regions
+name: Low Capacity in SIN and AMS regions
 impact: none
 systems:
     - 70nsqsjrthwf
@@ -14,3 +14,5 @@ timeline:
         This may also affect:
         - Remote builders in AMS and SIN regions, which could currently be experiencing degraded performance or failures.
         - Sprites starting from a cold state, which may experience failures in starting
+    - ts: "2026-03-29 15:19:44"
+      description: "We are currently investigating capacity issues in SIN and AMS regions that are affecting:\n- Machine Create and Start events\n- Deployments, due to affected, degraded Remote Builders \n- Sprite startup from cold state"
