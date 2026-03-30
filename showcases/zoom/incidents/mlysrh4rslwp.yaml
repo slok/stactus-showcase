@@ -1,0 +1,18 @@
+version: incident/v1
+id: mlysrh4rslwp
+name: Service Degradation Affecting Zoom Phone and Zoom Contact Center PCI Integration
+impact: minor
+systems:
+    - 97j86xk8dflw
+    - q0w0x5hdvymm
+timeline:
+    - ts: "2026-03-30 16:55:53"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Phone and Zoom Contact Center PCI Integration.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-03-30 17:01:12"
+      description: "We have identified an issue with our vendor partner impacting Zoom Phone and Zoom Contact Center PCI integration. \n\nWe are actively working with our vendor partner to resolve the issue.\n\nWe will share updates as soon as they become available."
