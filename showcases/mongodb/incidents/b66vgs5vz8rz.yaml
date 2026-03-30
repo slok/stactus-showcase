@@ -12,3 +12,6 @@ timeline:
         What you might see: Delays in provisioning new clusters or adding additional nodes in Azure East US 2 region.
 
         User action: As a workaround, users can provision clusters in other Azure regions.
+    - ts: "2026-03-30 23:10:14"
+      description: We are no longer seeing capacity issues in Azure East US 2. This issue is now resolved.
+      resolved: true
