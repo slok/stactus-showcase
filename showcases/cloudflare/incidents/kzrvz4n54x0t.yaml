@@ -1,0 +1,9 @@
+version: incident/v1
+id: kzrvz4n54x0t
+name: Increase in 5xx Errors in Fortaleza, Brazil datacenter (FOR)
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-30 22:08:54"
+      description: Cloudflare identified an increase in 5xx errors with our CDN service in the Fortaleza, Brazil datacenter (FOR). Users may have experienced an increase in errors between 18:44 UTC and 19:12 UTC on March 30, 2026. The issue has been resolved
+      resolved: true
