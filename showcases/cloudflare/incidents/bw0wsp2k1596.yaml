@@ -1,0 +1,9 @@
+version: incident/v1
+id: bw0wsp2k1596
+name: CNI Maintenance Completed Ahead of Communicated Schedule
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-30 20:08:46"
+      description: "Cloudflare Network Interconnect (CNI) edge devices at multiple locations underwent scheduled maintenance ahead of the times communicated to affected customers.\n\nOn March 30, 2026, between 12:00 UTC and 17:00 UTC, a total of 8 devices across 7 locations were rebooted between 2 hours and 2 days prior to their notified maintenance windows. This was caused by an internal scheduling error where an outdated version of the maintenance schedule was used for execution, while the current version was used for customer notifications. \n\nAll affected devices successfully completed maintenance and are operating normally. We are contacting affected customers directly to discuss the impact on their specific configurations."
+      resolved: true
