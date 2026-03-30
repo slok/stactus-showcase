@@ -1,0 +1,9 @@
+version: incident/v1
+id: 4rnw3vh8w64l
+name: Tempo Reads Outage for Small Subset of Customers
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-30 18:34:37"
+      description: We encountered an issue impacting only a small subset of customers in the prod-us-central-0 region. The incident occurred between 16:20 and 17:50 UTC on 3/30/26. This incident is now resolved.
+      resolved: true
