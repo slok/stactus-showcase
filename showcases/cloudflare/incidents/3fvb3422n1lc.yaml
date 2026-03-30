@@ -1,0 +1,13 @@
+version: incident/v1
+id: 3fvb3422n1lc
+name: Workers Assets increased upload failure
+impact: minor
+systems:
+    - pg21w9xb991r
+timeline:
+    - ts: "2026-03-30 11:51:51"
+      description: |-
+        Cloudflare is aware of and investigating an issue impacting Workers Assets uploads. Customers may be seeing an increase in Workers Assets upload failures.
+
+        This issues does not affect the serving of Workers Assets traffic. We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
