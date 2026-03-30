@@ -1,0 +1,11 @@
+version: incident/v1
+id: c3ctbhdcvcc8
+name: Elevated delays in Actions workflow runs and Pull Request status updates
+impact: minor
+systems:
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-03-30 13:02:28"
+      description: We are investigating reports of degraded performance for Actions and Pull Requests
+      investigating: true
