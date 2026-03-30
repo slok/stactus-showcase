@@ -1,0 +1,14 @@
+version: incident/v1
+id: b66vgs5vz8rz
+name: Delays in cluster creation and adding new cluster nodes in Azure East US 2 region
+impact: none
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-03-30 21:47:40"
+      description: |-
+        Identified: Some clusters in the Azure East US 2 region will see delays provisioning new clusters or adding additional nodes to their existing clusters due to Azure capacity constraints.
+
+        What you might see: Delays in provisioning new clusters or adding additional nodes in Azure East US 2 region.
+
+        User action: As a workaround, users can provision clusters in other Azure regions.
