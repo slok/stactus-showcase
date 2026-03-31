@@ -26,3 +26,6 @@ timeline:
     - ts: "2026-03-31 18:42:04"
       description: We continue to experience elevated error rates affecting Pull Requests. An earlier fix resolved one component of the issue, but some users may still encounter intermittent timeouts when viewing or interacting with pull requests. Our teams are actively investigating the remaining causes.
       investigating: true
+    - ts: "2026-03-31 19:28:29"
+      description: Error rates remain elevated across multiple pull request endpoints. We are pursuing multiple potential mitigations.
+      investigating: true
