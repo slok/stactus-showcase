@@ -1,0 +1,16 @@
+version: incident/v1
+id: n5507k22wp62
+name: Service Degradation Affecting Sign In and Joining Meetings
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-31 17:28:21"
+      description: |-
+        A subset of users might have experienced error code 1132 with sign in and joining meetings.
+
+        On 03/31/206 Between 03:15 UTC to 17:02 UTC, A subset of us may have experienced error code 1132 with sign in and joining meetings.
+
+        This incident has been resolved and the affected services have been restored.
+
+        Our team will continue to monitor the situation closely and keep you informed of any further developments.
+      resolved: true

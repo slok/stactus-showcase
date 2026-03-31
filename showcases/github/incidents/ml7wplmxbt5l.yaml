@@ -20,3 +20,6 @@ timeline:
     - ts: "2026-03-31 16:35:22"
       description: We are seeing recovery in latency and timeouts of requests related to pull requests, even though 500s are still elevated. While we are continuing to investigate, we are applying a mitigation and expect further recovery after it is applied.
       investigating: true
+    - ts: "2026-03-31 17:16:32"
+      description: We identified an issue causing increased errors when accessing Pull Requests. The mitigation is being applied across our infrastructure and we will continue to provide updates as the mitigation rolls out.
+      investigating: true
