@@ -1,0 +1,13 @@
+version: incident/v1
+id: ml7wplmxbt5l
+name: 'Incident with Pull Requests: High percentage of 500s'
+impact: minor
+systems:
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2026-03-31 15:05:39"
+      description: We are investigating reports of degraded performance for Pull Requests
+      investigating: true
+    - ts: "2026-03-31 15:06:48"
+      description: We are seeing a higher than average number of 500s due to timeouts across GitHub services. We have a potential mitigation in flight and are continuing to investigate.
+      investigating: true

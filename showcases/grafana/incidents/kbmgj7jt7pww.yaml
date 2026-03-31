@@ -1,0 +1,9 @@
+version: incident/v1
+id: kbmgj7jt7pww
+name: k6 Cloud Degradation
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-31 14:59:40"
+      description: From approximately 11:00 UTC - 15:00 UTC we had a degradation that caused test start errors for a large percentage of Cloud runs managed as scripts in the GCK6 app. This has since been resolved.
+      resolved: true

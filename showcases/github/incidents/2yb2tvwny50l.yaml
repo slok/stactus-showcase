@@ -10,3 +10,14 @@ timeline:
     - ts: "2026-03-31 13:56:41"
       description: We're seeing issues related to metered billing reports, intermittently affecting metered usage graphs and reports on the billing page. We have identified an issue with a data store, and are working on mitigations.
       investigating: true
+    - ts: "2026-03-31 14:39:15"
+      description: We're continuing to see high failure rates on billing report generation, and are working on mitigations for a data store related to billing reports.
+      investigating: true
+    - ts: "2026-03-31 14:56:22"
+      description: We are seeing a high number of 500s due to timeouts across GitHub services. We are redeploying some of our core services and we expect that this allow us to recover.
+      investigating: true
+    - ts: "2026-03-31 14:59:06"
+      description: We have applied mitigations to a data store related to billing reports, and are seeing partial recovery to billing report generation. We continue to monitor for full recovery.
+      investigating: true
+    - ts: "2026-03-31 15:01:43"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
