@@ -7,3 +7,6 @@ timeline:
     - ts: "2026-03-31 13:47:46"
       description: We are investigating reports of impacted performance for some GitHub services.
       investigating: true
+    - ts: "2026-03-31 13:56:41"
+      description: We're seeing issues related to metered billing reports, intermittently affecting metered usage graphs and reports on the billing page. We have identified an issue with a data store, and are working on mitigations.
+      investigating: true

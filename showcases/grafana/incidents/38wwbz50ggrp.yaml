@@ -1,0 +1,42 @@
+version: incident/v1
+id: 38wwbz50ggrp
+name: 'Synthetic Monitoring: Some Check Creations & Updates Might be Blocked.'
+impact: major
+systems:
+    - gqmrtkv44snw
+    - w2sv65flwjyg
+    - vdp8ff0sncsj
+    - 72cbdqh1qfxk
+    - 1dqyw0njnkxv
+    - 6xm6mc51pr03
+    - sq2b0zbgtbwn
+    - r5nqbrqbw0k2
+    - wlk38l1st21f
+    - cjgks1bz26rw
+    - pz96v0pznswg
+    - dcwlkh9jb6xh
+    - 43fvknltd9m1
+    - k82d2w8b7lcz
+    - b6vy9syblc9x
+    - dpny9b8qb952
+    - czpt94dvn18t
+    - 191t9x68nj8s
+    - fh680ftdss7w
+    - tcskx9mfsz1c
+    - 7p6gpdprypb9
+    - x9gl5ndz8q5s
+    - kxgy5bvsj4c8
+    - jwb1v6jvz2j7
+    - mjrzgsddgcb6
+    - zxy59lwk24qj
+    - 9jryt04nrsmb
+    - 7jyhc50smfkc
+timeline:
+    - ts: "2026-03-31 14:01:33"
+      description: |-
+        Synthetic Monitoring check creation/update for scripted and browser checks might be blocked in the plugin app for some probes. The issue only impacts creating/updating checks from the plugin app. It does not affect checks handled from Terraform or directly to the API.
+
+        We’ve identified the cause of an issue impacting Synthetic Monitoring. Our team is currently implementing a fix. We’ll provide another update in 1-2 hours or sooner if the situation changes.
+    - ts: "2026-03-31 14:25:37"
+      description: This incident has been resolved.
+      resolved: true
