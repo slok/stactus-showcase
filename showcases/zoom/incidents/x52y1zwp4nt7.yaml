@@ -1,0 +1,12 @@
+version: incident/v1
+id: x52y1zwp4nt7
+name: Issue affecting Zoom Phone Outbound calls in Hyderabad Region
+impact: none
+systems:
+    - jsk0584rpghr
+timeline:
+    - ts: "2026-03-31 12:36:04"
+      description: On 2026-03-31 11:08 to 12:25 UTC users might have experienced issues with Zoom Phone outbound calls in the Hyderabad region. We have successfully resolved this issue. Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-03-31 12:51:54"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
