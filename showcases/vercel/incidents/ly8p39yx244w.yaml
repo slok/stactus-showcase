@@ -1,0 +1,10 @@
+version: incident/v1
+id: ly8p39yx244w
+name: Elevated Errors Creating Deployments
+impact: major
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-03-31 21:11:26"
+      description: We are investigating reports of elevated errors when creating deployments. Existing deployments and live traffic are unaffected. We will provide updates as they become available.
+      investigating: true

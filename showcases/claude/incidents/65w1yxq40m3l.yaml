@@ -1,7 +1,7 @@
 version: incident/v1
 id: 65w1yxq40m3l
-name: Opus 4.6 error rate elevated
-impact: minor
+name: Opus 4.6 and Sonnet 4.6 error rate elevated
+impact: major
 systems:
     - rwppv331jlwc
     - 0qbwn08sd68x
@@ -10,3 +10,5 @@ systems:
 timeline:
     - ts: "2026-03-31 19:41:35"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-03-31 21:01:33"
+      description: We are continuing to work on a fix for this issue.

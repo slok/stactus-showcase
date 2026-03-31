@@ -29,3 +29,8 @@ timeline:
     - ts: "2026-03-31 19:28:29"
       description: Error rates remain elevated across multiple pull request endpoints. We are pursuing multiple potential mitigations.
       investigating: true
+    - ts: "2026-03-31 21:12:17"
+      description: We continue to see a small subset of repositories experiencing timeouts and elevated latency in Pull Requests, affecting under 1% of requests.
+      investigating: true
+    - ts: "2026-03-31 21:16:01"
+      description: The degradation affecting Pull Requests has been mitigated. We are monitoring to ensure stability.
