@@ -30,5 +30,5 @@ timeline:
       description: We have reached stability with git operations through our changes deployed today.
       investigating: true
     - ts: "2026-03-20 00:05:15"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On March 19, 2026 between 16:10 UTC and 00:05 UTC (March 20), Git operations (clone, fetch, push) from the US west coast experienced elevated latency and degraded throughput. Users reported clone speeds dropping from typical speeds to under 1 MiB/s in extreme cases. The root cause was network transport link saturation at our Seattle edge site, where a fiber cut affecting our backbone transport resulted in saturation and packet loss. We had a planned scale-up in progress for the site that was accelerated to resolve the backbone capacity pressure. We also brought online additional edge capacity in a cloud region and redirected some users there. Current scale with the upgraded network capacity is sufficient to prevent reoccurrence, as we upgraded from 800Gbps to 3.2Tbps total capacity on this path. We will continue to monitor network health and respond to any further issues.
       resolved: true
