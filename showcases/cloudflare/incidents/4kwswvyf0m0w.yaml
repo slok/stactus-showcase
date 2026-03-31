@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4kwswvyf0m0w
+name: Elevated Error Rate for R2 APAC Buckets
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-03-31 20:34:17"
+      description: Some customers may have experienced elevated error rates accessing R2 buckets in the APAC region. We are investigating the issue and will provide updates as more information becomes available.
+      investigating: true
