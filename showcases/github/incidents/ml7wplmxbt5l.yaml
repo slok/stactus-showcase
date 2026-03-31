@@ -23,3 +23,6 @@ timeline:
     - ts: "2026-03-31 17:16:32"
       description: We identified an issue causing increased errors when accessing Pull Requests. The mitigation is being applied across our infrastructure and we will continue to provide updates as the mitigation rolls out.
       investigating: true
+    - ts: "2026-03-31 18:42:04"
+      description: We continue to experience elevated error rates affecting Pull Requests. An earlier fix resolved one component of the issue, but some users may still encounter intermittent timeouts when viewing or interacting with pull requests. Our teams are actively investigating the remaining causes.
+      investigating: true
