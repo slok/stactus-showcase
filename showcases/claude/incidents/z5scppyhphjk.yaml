@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2026-03-31 20:12:05"
       description: We have identified an issue which has resulted in some Claude.ai connectors becoming unavailable within the desktop application. We are working to restore access to these extensions, and will provide an update as soon as possible.
+    - ts: "2026-03-31 22:59:37"
+      description: We have resolved an issue that resulted in the unavailability of connectors in the Claude.ai desktop application. Affected connectors were removed from organization allowlists, and can be manually re-added while we work to automatically restore impacted allowlists.
+      resolved: true
