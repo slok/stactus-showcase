@@ -14,3 +14,9 @@ timeline:
     - ts: "2026-03-31 15:39:48"
       description: We are investigating increased 500 errors affecting GitHub services. You may experience intermittent failures when using Pull Requests and other features. We are actively working to identify and resolve the underlying cause.
       investigating: true
+    - ts: "2026-03-31 16:15:37"
+      description: We are continuing to investigate increased 500 errors affecting GitHub services. You may experience intermittent failures when using Pull Requests and other features. We are actively working to identify and resolve the underlying cause.
+      investigating: true
+    - ts: "2026-03-31 16:35:22"
+      description: We are seeing recovery in latency and timeouts of requests related to pull requests, even though 500s are still elevated. While we are continuing to investigate, we are applying a mitigation and expect further recovery after it is applied.
+      investigating: true
