@@ -1,9 +1,12 @@
 version: incident/v1
 id: t0s0v2352397
-name: On Call Engineers are Investigating
+name: 'Automated Alert: Minimal Customer Impact'
 impact: none
 systems: []
 timeline:
     - ts: "2026-03-30 22:30:50"
       description: Our monitoring systems have detected a potential issue with SMS Delivery Failures in Mongolia. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
       investigating: true
+    - ts: "2026-03-30 23:49:17"
+      description: We have fully investigated the SMS Delivery Failures in Mongolia issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true
