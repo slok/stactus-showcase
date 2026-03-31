@@ -17,5 +17,5 @@ timeline:
       description: We are experiencing degraded availability from Azure Teams APIs, which is impacting notifications from GitHub to Microsoft Teams. We are awaiting resolution from Azure.
       investigating: true
     - ts: "2026-03-24 19:51:16"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On March 24, 2026, between 15:57 UTC and 19:51 UTC, the Microsoft Teams Integration and Teams Copilot Integration services were degraded and unable to deliver GitHub event notifications to Microsoft Teams. On average, the error rate was 37.4% and peaked at 90.1% of requests to the service -- approximately 19% of all integration installs failed to receive GitHub-to-Teams notifications in this time period.<br /><br />This was due to an outage at one of our upstream dependencies, which caused HTTP 500 errors and connection resets for our Teams integration.<br /><br />We coordinated with the relevant service teams, and the issue was resolved at 19:51 UTC when the upstream incident was mitigated.<br /><br />We are working to update observability and runbooks to reduce time to mitigation for issues like this in the future.
       resolved: true
