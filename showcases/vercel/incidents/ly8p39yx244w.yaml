@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-03-31 21:11:26"
       description: We are investigating reports of elevated errors when creating deployments. Existing deployments and live traffic are unaffected. We will provide updates as they become available.
       investigating: true
+    - ts: "2026-03-31 21:17:39"
+      description: A fix has been applied for an issue where deployments were erroring with "invalid request" and we are monitoring the results. We recommend redeploying any failed deployments.
+    - ts: "2026-03-31 21:23:25"
+      description: This incident has been resolved.
+      resolved: true
