@@ -1,0 +1,9 @@
+version: incident/v1
+id: 4z67j5mg92gn
+name: Delivery Failures on a Subset of Messages With Media
+impact: none
+systems: []
+timeline:
+    - ts: "2026-03-31 23:24:43"
+      description: Between 19:03 PM and 19:29 PM PT on March 30, an internal deployment caused a subset of messages with media to fail with Twilio error code 11200. The issue was promptly identified and the deployment was rolled back to restore normal service.
+      resolved: true
