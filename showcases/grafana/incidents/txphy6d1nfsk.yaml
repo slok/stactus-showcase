@@ -1,0 +1,14 @@
+version: incident/v1
+id: txphy6d1nfsk
+name: Query degradation and possible rule evaluation failure on prod-eu-west-0.cortex-prod-01
+impact: minor
+systems:
+    - 9rtx96d2z01z
+    - d2vdtkjjdzjy
+timeline:
+    - ts: "2026-04-01 09:56:56"
+      description: We are currently observing delays in ingesting data, possibly causing partial query results and failed rule evaluations for prod-eu-west-0.cortex-prod-01 metrics cell.
+      investigating: true
+    - ts: "2026-04-01 10:11:32"
+      description: We are continuing to investigate this issue.
+      investigating: true

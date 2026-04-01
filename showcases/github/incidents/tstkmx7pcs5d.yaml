@@ -1,0 +1,13 @@
+version: incident/v1
+id: tstkmx7pcs5d
+name: Incident with Copilot
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-04-01 09:58:13"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2026-04-01 10:00:26"
+      description: 'We are investigating reports of issues with service(s): Copilot Dotcom Agents. We will continue to keep users updated on progress towards mitigation.'
+      investigating: true
