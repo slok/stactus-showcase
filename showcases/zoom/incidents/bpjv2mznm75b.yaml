@@ -1,0 +1,13 @@
+version: incident/v1
+id: bpjv2mznm75b
+name: Service Degradation for a subset of users Affecting Zoom Client in the North America Region
+impact: minor
+systems:
+    - t2jk6yrqbp4j
+timeline:
+    - ts: "2026-04-01 21:24:00"
+      description: |-
+        We are currently investigating a service degradation with a subset of users affecting Zoom Client in the North America Region.
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
