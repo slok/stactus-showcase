@@ -1,0 +1,9 @@
+version: incident/v1
+id: 3lm82hkft7tg
+name: Elevated errors creating deployments with integrations and increased delays in delivering webhooks
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-04-01 20:48:18"
+      description: We have identified an issue causing elevated latency and errors with delivering webhooks and creating deployments that use integrations. We are working on a fix for this issue and will provide further updates as soon as they become available.
