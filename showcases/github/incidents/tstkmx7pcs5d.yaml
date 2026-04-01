@@ -14,3 +14,5 @@ timeline:
     - ts: "2026-04-01 10:31:24"
       description: Users may see increased latency and intermittent errors when viewing or creating agent sessions. We are working on mitigations to return to baseline performance and success rate.
       investigating: true
+    - ts: "2026-04-01 10:56:30"
+      description: The degradation affecting Copilot has been mitigated. We are monitoring to ensure stability.
