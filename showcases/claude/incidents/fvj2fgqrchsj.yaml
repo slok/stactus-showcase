@@ -1,0 +1,12 @@
+version: incident/v1
+id: fvj2fgqrchsj
+name: Elevated timeouts on requests to Claude Opus 4.6 and Sonnet 4.6
+impact: major
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-04-01 07:01:04"
+      description: We have identified an issue which resulted in elevated rates of timeouts when making requests to Claude Opus 4.6 and Sonnet 4.6 from 17:45 UTC on March 31 through 05:52 UTC on April 1. This issue has been resolved.
+      resolved: true
