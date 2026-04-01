@@ -7,3 +7,6 @@ timeline:
     - ts: "2026-04-01 15:02:54"
       description: We are investigating reports of impacted performance for some GitHub services.
       investigating: true
+    - ts: "2026-04-01 16:00:31"
+      description: We identified an issue in our ingestion pipeline that degraded the freshness of Code Search results. While fixing the issue with the ingestion pipeline, a deployment caused a loss of dynamic configuration which is causing most requests for Code Search results to fail. We are working to restore the service and to re-ingest the misaligned data.
+      investigating: true

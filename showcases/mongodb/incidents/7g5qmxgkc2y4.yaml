@@ -245,3 +245,15 @@ timeline:
         If you would like assistance assessing how these events may affect your Atlas deployment, our support team is available:
         * Open a support case through the MongoDB Support Portal
         * Start a chat with Support using the Intercom widget within the MongoDB Atlas interface
+    - ts: "2026-04-01 16:02:48"
+      description: |-
+        Two Availability Zones in AWS me-central-1 (UAE) continue to experience significant impairments. In addition, workloads in me-south-1 (Bahrain) are currently not operational, cannot be modified, and are not able to migrate to other regions or support other disaster recovery actions such as backup and restore.
+
+        We strongly recommend that customers with workloads in AWS me-central-1 act now to move their clusters to alternate regions instead of waiting for full availability to be restored. There are currently no recovery options available for data that is only present in the AWS me-south-1 region.
+
+        We continue to assist customers in their chosen remediation path to the extent possible. Customers running workloads in the Middle East should consider alternate Atlas regions, such as those in North America, Europe, or Asia Pacific, as appropriate for your latency and data residency requirements. Customers may continue to extend their backup snapshot expirations in me-central-1 as needed.
+
+        We will continue with a weekly status post update cadence, and provide another update by April 8 at 16:00 UTC, or sooner if new information becomes available.
+        If you would like assistance assessing how these events may affect your Atlas deployment, our support team is available:
+        * Open a support case through the MongoDB Support Portal
+        * Start a chat with Support using the Intercom widget within the MongoDB Atlas interface

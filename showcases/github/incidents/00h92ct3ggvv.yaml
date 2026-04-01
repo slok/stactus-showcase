@@ -1,0 +1,15 @@
+version: incident/v1
+id: 00h92ct3ggvv
+name: GitHub audit logs are unavailable
+impact: major
+systems: []
+timeline:
+    - ts: "2026-04-01 16:06:11"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-01 16:07:10"
+      description: A routine credential rotation has failed for our our audit logs service; we have re-deployed our service and are waiting for recovery.
+      investigating: true
+    - ts: "2026-04-01 16:10:17"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
