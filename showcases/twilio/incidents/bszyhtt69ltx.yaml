@@ -1,0 +1,12 @@
+version: incident/v1
+id: bszyhtt69ltx
+name: Intelligent Alerts unavailable
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-01 15:13:23"
+      description: Our monitoring systems have detected a potential issue with alerts. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-04-01 15:27:24"
+      description: Twilio customers that are currently subscribed for Intelligent Alerts will not be notified on the latest alerts. We are currently restoring the data in our system and Intelligent Alerts should be available within 30 minutes.
+      investigating: true
