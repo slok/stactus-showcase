@@ -1,0 +1,10 @@
+version: incident/v1
+id: d74nshb79dgz
+name: Atlas Charts users unable to login
+impact: none
+systems:
+    - 7wbvh4zlbmmh
+timeline:
+    - ts: "2026-04-01 12:55:24"
+      description: Some Atlas users may be unable to access Charts and the Visualization page due to repeated login prompts or unauthorized errors when attempting to sign in. Our engineers have identified a recent change as the likely cause, have rolled it back, and are monitoring the service to confirm that normal access has been restored.
+      resolved: true
