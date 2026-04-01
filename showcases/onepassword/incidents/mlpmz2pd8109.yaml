@@ -1,0 +1,14 @@
+version: incident/v1
+id: mlpmz2pd8109
+name: Teams accounts are unable to access Developer Environments
+impact: minor
+systems:
+    - 128z2hc5zph2
+    - n6fq28slnzfs
+    - fjtgq974czxh
+    - 03vs2j75ds22
+    - hrf7z97d0wll
+    - lbpw3d2bs1p4
+timeline:
+    - ts: "2026-04-01 14:13:38"
+      description: Teams accounts are currently unable to access their Environments. Our engineering team has identified the issue and are working towards deploying a fix.
