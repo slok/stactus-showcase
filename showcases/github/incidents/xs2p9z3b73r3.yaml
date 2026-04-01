@@ -10,3 +10,6 @@ timeline:
     - ts: "2026-04-01 16:00:31"
       description: We identified an issue in our ingestion pipeline that degraded the freshness of Code Search results. While fixing the issue with the ingestion pipeline, a deployment caused a loss of dynamic configuration which is causing most requests for Code Search results to fail. We are working to restore the service and to re-ingest the misaligned data.
       investigating: true
+    - ts: "2026-04-01 17:48:15"
+      description: We are observing some recovery for Code Search queries, but customers should be aware that the data being served may be stale, especially for changes that took place after 07:00 UTC today (1 April 2026). We are still working on recovering our ingestion pipeline, and synchronizing the indexed data.<br /><br />We will update again within 2 hours.
+      investigating: true
