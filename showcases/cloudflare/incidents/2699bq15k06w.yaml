@@ -1,0 +1,14 @@
+version: incident/v1
+id: 2699bq15k06w
+name: Network Performance Issues in Phoenix, AZ
+impact: minor
+systems:
+    - n05d51gmgf0f
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-04-01 20:03:58"
+      description: Cloudflare is investigating issues affecting traffic in the Phoenix, AZ area. Customers proxied through this location may experience errors or degraded performance.
+      investigating: true
+    - ts: "2026-04-01 20:18:20"
+      description: This incident has been resolved.
+      resolved: true

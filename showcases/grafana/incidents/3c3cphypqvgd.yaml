@@ -1,0 +1,15 @@
+version: incident/v1
+id: 3c3cphypqvgd
+name: AWS integration Degraded Performance
+impact: minor
+systems:
+    - z5ysrlvblv9t
+timeline:
+    - ts: "2026-04-01 20:17:39"
+      description: |-
+        We are investigating a noticeable drop in active series for the AWS integration that began around 18:15 UTC.
+
+        This issue may cause scrapes to hit rate limits, which can result in individual data points not being collected for the serverless integration. The impact is intermittent and may affect any customer using the AWS integration, regardless of region.
+
+        We are currently working to identify the cause and will provide an update as soon as we have more information.
+      investigating: true
