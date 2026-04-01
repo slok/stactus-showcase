@@ -13,3 +13,6 @@ timeline:
     - ts: "2026-04-01 17:48:15"
       description: We are observing some recovery for Code Search queries, but customers should be aware that the data being served may be stale, especially for changes that took place after 07:00 UTC today (1 April 2026). We are still working on recovering our ingestion pipeline, and synchronizing the indexed data.<br /><br />We will update again within 2 hours.
       investigating: true
+    - ts: "2026-04-01 19:37:57"
+      description: We are still working on recovering back to a serviceable state and expect to have a more substantial update within another two hours.
+      investigating: true
