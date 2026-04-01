@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3bg93cy9bk1v
+name: Elevated errors on requests to Claude Opus 4.6
+impact: major
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-04-01 09:06:19"
+      description: We have identified an issue resulting in elevated errors on requests to Claude Opus 4.6, and are working to resolve this. We will provide an update as soon as possible.
