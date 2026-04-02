@@ -1,13 +1,13 @@
 version: incident/v1
 id: 2hh3phljpr7x
-name: Increased 1003 / 403 errors in Durable Object Alarms
+name: Increased 1003 / 403 errors in Workers
 impact: minor
 systems:
     - 57srcl8zcn7c
 timeline:
     - ts: "2026-04-02 00:47:27"
       description: |-
-        Cloudflare is aware of and investigating an issue impacting Durable Object Alarms. Customers may be seeing 1003/403 errors when doing fetch() calls inside an alarm.
+        Cloudflare is aware of and investigating an issue impacting some Workers invocations. Customers may be seeing 1003/403 errors when doing fetch() calls inside a Worker.
 
         We are working to mitigate this problem. More updates to follow shortly.
       investigating: true
