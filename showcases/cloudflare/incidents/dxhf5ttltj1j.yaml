@@ -1,0 +1,10 @@
+version: incident/v1
+id: dxhf5ttltj1j
+name: Digital Experience Monitoring (DEX) Delay
+impact: minor
+systems:
+    - nmp96vgn1hpl
+timeline:
+    - ts: "2026-04-02 16:50:25"
+      description: Cloudflare is investigating an issue affecting Digital Experience Monitoring (DEX). Customers may experience delays in DEX data. We will provide updates as our investigation progresses.
+      investigating: true
