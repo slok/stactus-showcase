@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5r9bp5y8rql2
+name: Elevated errors (SIGSEGV) for Vercel Functions running Node.js 20
+impact: minor
+systems:
+    - kgcsn9c73xzf
+timeline:
+    - ts: "2026-04-02 14:10:14"
+      description: We are currently investigating increased rates of Vercel Functions running on Node.js 20 terminating with SIGSEGV. We recommend redeploying affected Vercel Functions or upgrading them to either Node.js 22 or 24.
+      investigating: true

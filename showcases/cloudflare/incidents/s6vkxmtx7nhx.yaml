@@ -8,3 +8,10 @@ timeline:
     - ts: "2026-04-02 12:42:36"
       description: Cloudflare is investigating issues with creating Managed Rules exceptions via the Cloudflare Dashboard. These issues do not affect the Cloudflare API, serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Dashboard to make these changes are impacted as requests might fail and/or errors may be displayed.
       investigating: true
+    - ts: "2026-04-02 14:02:52"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-04-02 14:07:09"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-04-02 14:17:18"
+      description: This incident has been resolved.
+      resolved: true
