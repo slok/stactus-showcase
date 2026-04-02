@@ -1,0 +1,11 @@
+version: incident/v1
+id: n8ynj6lygzw3
+name: Cloudflare Workers Issues in Chicago
+impact: minor
+systems:
+    - z9v8znl25w0f
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-04-02 08:08:03"
+      description: Cloudflare is investigating an increased level of errors for customers running Workers scripts in Chicago. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
