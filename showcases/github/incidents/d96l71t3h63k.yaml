@@ -1,0 +1,12 @@
+version: incident/v1
+id: d96l71t3h63k
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-02 17:49:36"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-02 17:59:23"
+      description: When assigning tasks to Copilot Cloud Agent, the task will appear to be working, but may not actually be running.<br /><br />We are investigating.
+      investigating: true

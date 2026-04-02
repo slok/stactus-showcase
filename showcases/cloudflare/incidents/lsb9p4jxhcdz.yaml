@@ -1,0 +1,10 @@
+version: incident/v1
+id: lsb9p4jxhcdz
+name: Elevated latency uploading Workers Static Assets
+impact: minor
+systems:
+    - pg21w9xb991r
+timeline:
+    - ts: "2026-04-02 17:39:48"
+      description: Cloudflare is investigating elevated latency uploading Workers Static Assets. Workers scripts which are already uploaded are not impacted.
+      investigating: true
