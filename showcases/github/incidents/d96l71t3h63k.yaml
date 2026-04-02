@@ -16,3 +16,6 @@ timeline:
     - ts: "2026-04-02 19:28:43"
       description: This issue has recurred. Customers will once again experience false job starts when assigning tasks to Copilot Cloud Agent. <br /><br />We are still investigating and trying to understand the pattern of degradation.
       investigating: true
+    - ts: "2026-04-02 20:35:53"
+      description: Although we are observing recovery once again, we expect continued periods of degradation. <br /><br />Work that is queued during times of degradation does eventually get processed. <br /><br />We continue to investigate and find a mitigation, and will update again within 2 hours.
+      investigating: true
