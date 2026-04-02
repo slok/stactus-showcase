@@ -1,0 +1,17 @@
+version: incident/v1
+id: jp2x96lr8rsz
+name: Cache Purging Delays
+impact: minor
+systems:
+    - fbvx0hxhhdj0
+    - rmjk2n758yzc
+timeline:
+    - ts: "2026-04-02 12:41:24"
+      description: Cloudflare single-file cache purging (purge by URL) called via the Dashboard/API are delayed. We are working to resolve this issue as soon as possible. Until then you may use the Purge Everything feature but do be aware it may cause a surge in traffic to your origin server(s). More updates to follow.
+      investigating: true
+    - ts: "2026-04-02 12:43:28"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-04-02 12:58:44"
+      description: This incident has been resolved.
+      resolved: true
