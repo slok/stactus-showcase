@@ -1,0 +1,9 @@
+version: incident/v1
+id: 820l7jdlx34z
+name: Elevated INTERNAL_UNEXPECTED_ERROR error rates for some deployments
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-02 18:39:57"
+      description: We are investigating reports of elevated INTERNAL_UNEXPECTED_ERROR responses affecting some customer deployments. We will provide updates as we learn more.
+      investigating: true
