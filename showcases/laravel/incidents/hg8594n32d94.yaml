@@ -4,8 +4,13 @@ name: Applications experiencing 5xx errors
 impact: minor
 systems:
     - d4z7n3kvpgp0
+    - b3rrfdqndjm6
     - nfc2yzmxzw4s
     - p0gmgcfh7y0n
+    - s3zm1t588bky
+    - kws9341143r3
+    - 7vhl6zlf6jnl
+    - 29r8t4n835qg
 timeline:
     - ts: "2026-04-02 14:52:17"
       description: We are currently investigating this issue.
@@ -18,3 +23,5 @@ timeline:
         We have identified the root cause of the issue and are working on a resolution.
 
         An increase in DNS requests is causing additional stress on our internal DNS resolvers.
+    - ts: "2026-04-02 15:49:38"
+      description: A config change has caused an overload to our internal DNS services. We're continuing to work on resolving the issue.
