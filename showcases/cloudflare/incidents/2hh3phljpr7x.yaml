@@ -1,0 +1,15 @@
+version: incident/v1
+id: 2hh3phljpr7x
+name: Increased 1003 / 403 errors in Durable Object Alarms
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-04-02 00:47:27"
+      description: |-
+        Cloudflare is aware of and investigating an issue impacting Durable Object Alarms. Customers may be seeing 1003/403 errors when doing fetch() calls inside an alarm.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-04-02 01:10:29"
+      description: The issue has been identified and a fix is being implemented.

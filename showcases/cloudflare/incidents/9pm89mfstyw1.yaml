@@ -1,0 +1,14 @@
+version: incident/v1
+id: 9pm89mfstyw1
+name: Cache Assets in Buenos Aires
+impact: minor
+systems:
+    - 26gznn8sts5z
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2026-04-02 01:07:59"
+      description: |-
+        A small percentage of cache assets in buenos aires are seeing elevated latency.
+
+        Cloudflare is investigating the issue.
+      investigating: true
