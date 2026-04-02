@@ -1,0 +1,15 @@
+version: incident/v1
+id: j3sgbdw2lw3c
+name: Copilot Coding Agent failing to start some jobs
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-02 16:18:04"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-02 16:28:28"
+      description: When assigning tasks to Copilot Cloud Agent, the task will appear to be working, but may not actually be running. <br /><br />We are investigating.
+      investigating: true
+    - ts: "2026-04-02 16:30:05"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
