@@ -3,8 +3,18 @@ id: hg8594n32d94
 name: Applications experiencing 5xx errors
 impact: minor
 systems:
+    - d4z7n3kvpgp0
+    - nfc2yzmxzw4s
     - p0gmgcfh7y0n
 timeline:
     - ts: "2026-04-02 14:52:17"
       description: We are currently investigating this issue.
       investigating: true
+    - ts: "2026-04-02 15:09:19"
+      description: We are continuing to investigate an increase in 5xx errors in eu-central-1 and failing deployments in eu-central-1 and us-east-2.
+      investigating: true
+    - ts: "2026-04-02 15:34:19"
+      description: |-
+        We have identified the root cause of the issue and are working on a resolution.
+
+        An increase in DNS requests is causing additional stress on our internal DNS resolvers.
