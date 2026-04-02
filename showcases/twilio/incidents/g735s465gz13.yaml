@@ -1,0 +1,9 @@
+version: incident/v1
+id: g735s465gz13
+name: SMS Delivery Delays to Orange network in France via a subset of Twilio numbers
+impact: none
+systems: []
+timeline:
+    - ts: "2026-04-02 13:32:25"
+      description: Twilio Messaging was degraded for ~50 minutes between 10:05 and 10:58 UTC on 04/02/2026. During this period of time customers may have experienced Delivery Delays to Orange network in France. The issue has now been resolved.
+      resolved: true
