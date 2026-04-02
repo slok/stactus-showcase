@@ -11,3 +11,5 @@ timeline:
     - ts: "2026-04-02 16:13:20"
       description: We are continuing to investigate increased rates of Vercel Functions running on Node.js 20 terminating with SIGSEGV in Vercel's cle1 and dub1 regions. Other regions are unaffected. We recommend redeploying affected Vercel Functions or upgrading them to either Node js 22 or 24.
       investigating: true
+    - ts: "2026-04-02 18:09:23"
+      description: The root cause has been identified, a fix has been rolled out, and we are actively monitoring. Newly deployed Vercel Functions on Node.js 20 in cle1 and dub1 no longer terminate with SIGSEGV. We recommend redeploying affected Vercel Functions if you are still seeing issues.
