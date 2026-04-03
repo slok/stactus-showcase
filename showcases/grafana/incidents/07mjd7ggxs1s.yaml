@@ -1,0 +1,15 @@
+version: incident/v1
+id: 07mjd7ggxs1s
+name: Partial K6 Test Run Outage
+impact: major
+systems:
+    - m79yjv169r06
+    - wbhrnd130mb0
+    - qwkkscbddtdw
+timeline:
+    - ts: "2026-04-03 15:29:40"
+      description: |-
+        We're experiencing an outage affecting test runs that use k6 extensions. The issue prevents users from executing these types of test runs both locally and in Grafana Cloud.
+
+        Test runs that do not use extensions are not affected by this incident.
+      investigating: true
