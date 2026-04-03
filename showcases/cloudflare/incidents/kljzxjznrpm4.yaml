@@ -1,0 +1,11 @@
+version: incident/v1
+id: kljzxjznrpm4
+name: Customers using our Email Security product might see some links flagged as suspicious
+impact: none
+systems:
+    - h9z388jfrjsm
+    - 8jjy5n5bfl9v
+timeline:
+    - ts: "2026-04-03 22:47:02"
+      description: "Emails were sent today with a signature that had a  a minor typo inadvertently caused it to flag legitimate emails. \nWe have immediately corrected the issue, and going forward, these emails will no longer be incorrectly flagged."
+      resolved: true
