@@ -1,0 +1,9 @@
+version: incident/v1
+id: 45bv19jtvnl9
+name: Pages increased deployment errors
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2026-04-03 16:50:13"
+      description: "Cloudflare has identified an issue impacting Cloudflare Pages deployments of Pages Functions with R2 bindings. \nCustomers may experience failures deploying their Pages Functions\n\nWe are working to analyze and mitigate this problem. More updates to follow shortly."
