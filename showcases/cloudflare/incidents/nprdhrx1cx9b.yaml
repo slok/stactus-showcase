@@ -1,6 +1,6 @@
 version: incident/v1
 id: nprdhrx1cx9b
-name: WARP connectivity issues
+name: WARP connectivity issues affecting a subset of windows users, using latest version 2026.3.846.0.
 impact: minor
 systems:
     - w4k8yvhfb3vp
@@ -8,3 +8,13 @@ timeline:
     - ts: "2026-04-03 08:08:05"
       description: We are currently investigating WARP connectivity issues after upgrade.
       investigating: true
+    - ts: "2026-04-03 08:39:36"
+      description: We are continuing the investigation of this issue
+      investigating: true
+    - ts: "2026-04-03 08:45:05"
+      description: A fix has been implemented, and we are currently monitoring.
+    - ts: "2026-04-03 08:45:23"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-04-03 09:03:02"
+      description: The incident has been resolved
+      resolved: true
