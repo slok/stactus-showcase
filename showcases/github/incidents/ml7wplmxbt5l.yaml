@@ -35,5 +35,5 @@ timeline:
     - ts: "2026-03-31 21:16:01"
       description: The degradation affecting Pull Requests has been mitigated. We are monitoring to ensure stability.
     - ts: "2026-03-31 21:23:43"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On Monday March 31st, 2026, between 13:53 UTC and 21:23 UTC the Pull Requests service experienced elevated latency and failures. On average, the error rate was 0.15% and peaked at 0.28% of requests to the service. This was due to a change in garbage collection (GC) settings for a Go-based internal service that provides access to Git repository data. The changes caused more frequent GC activity and elevated CPU consumption on a subset of storage nodes, increasing latency and failure rates for some internal API operations.<br /><br />We mitigated the incident by reverting the GC changes. To prevent future incidents and improve time to detection and mitigation, we are instrumenting additional metrics and alerting for GC-related behavior, improving our visibility into other signals that could cause degraded impact of this type, and updating our best practices and standards for garbage collection in Go-based services.<br />
       resolved: true
