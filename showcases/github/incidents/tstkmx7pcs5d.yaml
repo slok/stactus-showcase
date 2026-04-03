@@ -25,5 +25,5 @@ timeline:
     - ts: "2026-04-01 12:10:19"
       description: The success rate and latency for creating and viewing agent sessions has stabilized at baseline levels, we are continuing to monitor recovery
     - ts: "2026-04-01 12:41:38"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On April 1, 2026, between 07:29 and 12:41 UTC, some customers experienced elevated 5xx errors and increased latency when using GitHub Copilot features that rely on `/agents/sessions` endpoints (including creating or viewing agent sessions). The issue was caused by resource exhaustion in one of the Copilot backend services handling these requests, in turn, causing timeouts and failed requests. We mitigated the incident by increasing the service’s available compute resources and tuning its runtime concurrency settings. Service health returned to normal and the incident was fully resolved by 12:41 UTC.
       resolved: true
