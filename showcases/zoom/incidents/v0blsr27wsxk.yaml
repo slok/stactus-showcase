@@ -1,0 +1,12 @@
+version: incident/v1
+id: v0blsr27wsxk
+name: Service Degradation of Zoom Phone Calls Affected a Subset of Users in North America Region.
+impact: none
+systems:
+    - yh2t02zm6fhq
+timeline:
+    - ts: "2026-04-04 08:22:16"
+      description: "On 04/04/2026, between 6:05 UTC and 7:50 UTC, a subset of users may have experienced issues with Zoom Phone calls in North America region. \n\nThis incident has been resolved and the affected services have been restored."
+    - ts: "2026-04-04 08:32:05"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
