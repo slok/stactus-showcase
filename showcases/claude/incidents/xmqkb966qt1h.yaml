@@ -1,0 +1,17 @@
+version: incident/v1
+id: xmqkb966qt1h
+name: Sonnet 4.6 elevated rate of errors
+impact: minor
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-04-06 21:26:57"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-04-06 21:45:48"
+      description: This incident has been resolved.
+      resolved: true

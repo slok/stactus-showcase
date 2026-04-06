@@ -1,0 +1,9 @@
+version: incident/v1
+id: 5w9bnp4tpqnq
+name: Cloudflare API Availability
+impact: minor
+systems:
+    - g4tb35rs9yw7
+timeline:
+    - ts: "2026-04-06 21:38:09"
+      description: "Cloudflare resolved issues with Cloudflare Dashboard and related APIs. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed\n\nThis was observed between 2024-04-06 21:12 -21:16 UTC \n\nWe are monitoring the issue right now."
