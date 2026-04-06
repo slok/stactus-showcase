@@ -1,0 +1,73 @@
+version: incident/v1
+id: 4wq005g80j7c
+name: Notification Policies and Contact Points Missing in UI on the Slow Release Channel
+impact: minor
+systems:
+    - wjtq7dhjcyrm
+    - 6p5vk5f6rx2k
+    - tzt37d0skmyd
+    - qnfgxdpw26sw
+    - z19pj782t1x2
+    - 3pxb2s9gd3qk
+    - ggbpwgk90fsf
+    - 0y4zgt70mcc2
+    - y2fvl0w81hnk
+    - hcj5p68bp2kc
+    - 95tmjrzs9h1f
+    - kckd7qfk2gql
+    - dzw0w3t3gt3y
+    - 8ycwcfl7gk6r
+    - 2xrvqwtmgk1j
+    - f072zpmfqxhf
+    - zljxmjgrpj4q
+    - n1jdxm9d6yxp
+    - z8vdj0jttj7s
+    - 46jslxh7dbr1
+    - 6lyq8vngbrgw
+    - qr8ttrr50lnd
+    - 5n2wz8bkz9b6
+    - 4vcmfvslpghq
+    - cjh7n4pgpzhn
+    - 33nzwl8kffd6
+    - hzw0yd89s9ny
+    - fgtp31zqpw8v
+    - 2cc4g3q2g0xn
+    - 2fvfdmcnplg5
+    - 57jn84fvz98t
+    - vcm0cw90htxx
+    - bvbh2cdx84ww
+    - 65sdf5lsflql
+    - k6ywy2zqz7fn
+    - vcfc8qc5zj9n
+    - 23wmy7zb3076
+    - tpvdjr2xyb7x
+    - y5ymzvw0c99f
+    - bkkn21bgy3c4
+    - 3q70xrw38s7y
+    - p932bbpwynd4
+    - lykc1jl88zz3
+    - jw3c386xwr40
+    - tgt3hljzszy8
+    - v0xq65xvldk8
+    - d9g9gg8d9yyl
+    - tfcmnh8pbnh9
+    - 42bjhxc1h49y
+    - zm76x8lqb4rk
+    - hd6qyr8hc0yt
+    - fjr5y6v3qvx4
+    - dx4hj364b8sj
+    - 5shpb4hb9xd1
+    - 7vr04qdqjtn6
+    - 062dycqds9gm
+    - ybvy0jrqz78d
+    - xkjgscz19z6c
+    - qjwn7tbhdl8y
+    - x2sf2zvf07cy
+    - lv9z30y5w7lm
+timeline:
+    - ts: "2026-04-06 14:48:52"
+      description: |-
+        We’re currently investigating an issue affecting notification policies and contact points for instances on the slow release channel. Alerting API calls for contact points and notification policies return data as expected, so this appears to be limited to the UI.
+
+        Our team is actively working to identify the cause and will share an update within 1-2 hours. Thank you for your patience.
+      investigating: true
