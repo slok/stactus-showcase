@@ -16,3 +16,6 @@ timeline:
       description: We are continuing to work on a fix for this issue.
     - ts: "2026-04-06 16:44:42"
       description: We have applied a fix, and are seeing success rates recover across affected services. We are continuing to monitor to ensure there is no recurrence of issues.
+    - ts: "2026-04-06 17:16:41"
+      description: From 15:00–16:30 UTC on April 6, we saw elevated errors on login for Claude.ai and Claude Code. This issue also affected some Claude.ai conversations and other product functionality such as voice mode. This issue is now resolved.
+      resolved: true
