@@ -1,0 +1,11 @@
+version: incident/v1
+id: 124yr07585k9
+name: Elevated errors on Claude.ai
+impact: critical
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-04-07 14:55:10"
+      description: We have identified an issue resulting in elevated errors on Claude.ai, including desktop and mobile. Users may experience errors when attempting to login, engaging with voice mode, or completing chats with Claude. We are working to resolve this issue as soon as possible.
