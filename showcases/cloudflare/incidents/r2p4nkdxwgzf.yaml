@@ -1,0 +1,10 @@
+version: incident/v1
+id: r2p4nkdxwgzf
+name: Cloudflare Debian Mirror Issues
+impact: minor
+systems:
+    - 8qwmwg7ytljv
+timeline:
+    - ts: "2026-04-07 11:08:33"
+      description: Cloudflare is aware of and investigating an issue with https://cloudflaremirrors.com/debian returning errors when trying to pull from it. This issue does not affect any other Cloudflare services. We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
