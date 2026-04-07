@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3dkdcdt3pr2p
+name: SMS Delivery Delays and Failures from Twilio to Multiple Networks in Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-04-07 14:27:37"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to network subscribers on multiple networks in Brazil. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-07 14:34:41"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to network subscribers on multiple networks in Brazil. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
