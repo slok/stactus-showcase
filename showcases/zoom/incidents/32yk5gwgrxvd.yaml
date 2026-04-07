@@ -1,0 +1,13 @@
+version: incident/v1
+id: 32yk5gwgrxvd
+name: Service Degradation Affecting Zoom Phone and Zoom Contact Center in the Singapore Region
+impact: none
+systems:
+    - jsk0584rpghr
+    - dkz3yppqdg9h
+timeline:
+    - ts: "2026-04-07 17:17:28"
+      description: |-
+        On 4/7/2026 between 16:42 UTC to 16:53 UTC, a subset of users may have experienced issues with Zoom Phone and Zoom Contact center with call drops in Singapore region.
+
+        This incident has been resolved and the affected services have been restored.
