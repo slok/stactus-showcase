@@ -1,0 +1,11 @@
+version: incident/v1
+id: dj2ry9zz8jdg
+name: Smart Routing currently has reduced performance
+impact: minor
+systems:
+    - z9w398bsjvnq
+timeline:
+    - ts: "2026-04-06 23:56:59"
+      description: Cloudflare has identified performance issues with Smart Routing. We have identified and applied related mitigations
+    - ts: "2026-04-07 00:27:32"
+      description: We are continuing to work on a fix for this issue.
