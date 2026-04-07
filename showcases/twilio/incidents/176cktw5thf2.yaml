@@ -1,0 +1,13 @@
+version: incident/v1
+id: 176cktw5thf2
+name: SMS Delivery Delays from Twilio to Multiple Networks in Multiple Countries
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+    - 8qjql0kqnd33
+    - llgdln3dcs6p
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-04-07 16:40:42"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to network subscribers on multiple networks in multiple countries. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
