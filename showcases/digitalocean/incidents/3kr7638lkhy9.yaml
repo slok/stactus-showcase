@@ -1,0 +1,11 @@
+version: incident/v1
+id: 3kr7638lkhy9
+name: Control Plane
+impact: none
+systems:
+    - p1x9rv4137gx
+    - czck17wcspr5
+timeline:
+    - ts: "2026-04-07 17:49:19"
+      description: "Our Engineering team has resolved the control plane disruption that occurred from 17:06 to 17:18 UTC. During this time, users may have experienced intermittent issues with managing their resources through the Cloud Control Panel or DigitalOcean API. The root cause of the disruption was identified and addressed, and all services are now operating normally. \n\nIf you continue to experience any problems, please open a ticket with our Support team. We apologize for any inconvenience this may have caused."
+      resolved: true
