@@ -1,0 +1,9 @@
+version: incident/v1
+id: bnsx15h1zws7
+name: Elevated queue times for deployments on the Hobby plan
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-04-07 18:06:45"
+      description: We have identified an issue causing elevated queue times for deployments on the Hobby plan. We are investigating a fix and will share more updates as soon as we have more information.
