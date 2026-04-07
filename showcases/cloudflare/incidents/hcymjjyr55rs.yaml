@@ -1,0 +1,10 @@
+version: incident/v1
+id: hcymjjyr55rs
+name: Analytics Delays and Errors
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-04-07 15:55:29"
+      description: Cloudflare Analytics processing is running behind. This affects timely delivery of customer data. This also affects querying data, and some users may see errors when trying to view or access analytics.
+      investigating: true

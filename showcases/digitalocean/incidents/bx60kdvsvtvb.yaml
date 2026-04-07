@@ -17,3 +17,6 @@ timeline:
         Our analysis determined that the model was experiencing higher-than-expected request volume without sufficient resources to scale accordingly. To address this, the node pool size has been increased to improve available capacity. However, there are still insufficient nodes to fully support the desired number of model replicas.
 
         Following the node pool expansion, a new pod-related error has been identified. Our Engineering team is actively working to resolve this issue and restore full service performance.
+    - ts: "2026-04-07 15:50:48"
+      description: Service has been fully restored, and the model is now operating normally. We have implemented improvements to enhance stability and reduce the likelihood of similar issues in the future.
+      resolved: true
