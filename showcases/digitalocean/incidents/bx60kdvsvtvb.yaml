@@ -1,0 +1,19 @@
+version: incident/v1
+id: bx60kdvsvtvb
+name: Serverless Inference - High error rates for open source models ( Qwen 3 32B)
+impact: minor
+systems:
+    - br95fz33h6td
+timeline:
+    - ts: "2026-04-07 12:49:27"
+      description: Serverless inference for alibaba-qwen3-32b (Qwen 3 32B) in tor1 is experiencing high error rates starting at 10:46 UTC.
+      investigating: true
+    - ts: "2026-04-07 12:55:16"
+      description: |-
+        We are currently investigating reports of elevated latency affecting requests to this model when using Serverless Inference and Agents.
+
+        Earlier observations indicated increased error rates for the open-source Qwen 3 32B model. The Ray dashboard also showed multiple workers in a pending state, suggesting capacity constraints.
+
+        Our analysis determined that the model was experiencing higher-than-expected request volume without sufficient resources to scale accordingly. To address this, the node pool size has been increased to improve available capacity. However, there are still insufficient nodes to fully support the desired number of model replicas.
+
+        Following the node pool expansion, a new pod-related error has been identified. Our Engineering team is actively working to resolve this issue and restore full service performance.
