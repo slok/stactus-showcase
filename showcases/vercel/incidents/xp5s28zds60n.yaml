@@ -1,0 +1,11 @@
+version: incident/v1
+id: xp5s28zds60n
+name: Builds logs stuck in loading state
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+    - pps71v7cb51j
+timeline:
+    - ts: "2026-04-07 07:19:44"
+      description: We are investigating reports of build logs stuck in loading state.
+      investigating: true
