@@ -1,6 +1,6 @@
 version: incident/v1
 id: xp5s28zds60n
-name: Builds logs stuck in loading state
+name: Builds logs stuck in loading state in iad1
 impact: minor
 systems:
     - 7ckq6xr6nsbv
@@ -9,3 +9,8 @@ timeline:
     - ts: "2026-04-07 07:19:44"
       description: We are investigating reports of build logs stuck in loading state.
       investigating: true
+    - ts: "2026-04-07 08:29:08"
+      description: We identified the cause of build logs stuck in the loading state affecting iad1 and are working around the issue for new builds. Please redeploy to your build to view build logs.
+    - ts: "2026-04-07 08:37:27"
+      description: The incident has been resolved. If you don't see build logs for a specific deployment, please redeploy.
+      resolved: true
