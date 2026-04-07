@@ -24,5 +24,5 @@ timeline:
       description: We are close to full recovery. Actions and dependent services should be functioning normally now.
       investigating: true
     - ts: "2026-03-05 23:55:20"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On March 5, between 22:39 and 23:55 UTC, Actions was degraded due to a repeat of an incident a few hours prior. In this case, a Redis cluster topology change made as a follow-up to the earlier incident caused a repeat of the earlier degradation of Actions jobs. Details of both incidents and the follow-ups are shared at https://www.githubstatus.com/incidents/g5gnt5l5hf56.
       resolved: true
