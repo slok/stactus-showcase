@@ -11,5 +11,5 @@ timeline:
       description: When assigning tasks to Copilot Cloud Agent, the task will appear to be working, but may not actually be running. <br /><br />We are investigating.
       investigating: true
     - ts: "2026-04-02 16:30:05"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between 15:20 and 20:18 UTC on Thursday April 2, Copilot Cloud Agent entered a period of reduced performance. Due to an internal feature being developed for Copilot Code Review, the Copilot Cloud Agent infrastructure started to receive an increased number of jobs. This load eventually caused us to hit an internal rate limit, causing all work to suspend for an hour. During this hour, some new jobs would time out, while others would resume once rate limiting ended. Roughly 40% of jobs in this period were affected.<br /><br />Once the cause of this rate limiting was identified, we were able to disable the new CCR feature via a feature flag. Once the jobs that were already in the queue were able to clear, we didn't see additional instances of rate limiting afterwards.<br /><br />This was the same incident declared in https://www.githubstatus.com/incidents/d96l71t3h63k
       resolved: true
