@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-04-07 11:08:33"
       description: Cloudflare is aware of and investigating an issue with https://cloudflaremirrors.com/debian returning errors when trying to pull from it. This issue does not affect any other Cloudflare services. We are working to mitigate this problem. More updates to follow shortly.
       investigating: true
+    - ts: "2026-04-07 11:39:26"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-04-07 11:51:48"
+      description: This incident has been resolved.
+      resolved: true
