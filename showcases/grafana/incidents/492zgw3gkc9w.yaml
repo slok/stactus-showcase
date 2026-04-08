@@ -1,0 +1,9 @@
+version: incident/v1
+id: 492zgw3gkc9w
+name: Stability Issues for Some Customers in the prod-gb-south-1 Region.
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-08 17:00:26"
+      description: We had a stability issue for a subset of customers in the prod-gb-south-1 region. The impact was between UTC 15:20-16:30 which impacted roughly 30% of queries and rules evaluations. We've applied mitigations, queries should be back to normal.
+      resolved: true
