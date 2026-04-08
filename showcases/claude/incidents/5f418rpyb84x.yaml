@@ -1,0 +1,17 @@
+version: incident/v1
+id: 5f418rpyb84x
+name: Elevated errors on Claude.ai, API, Claude Code
+impact: minor
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-04-08 17:46:29"
+      description: We are currently investigating an issue with authentication across multiple product surfaces.
+      investigating: true
+    - ts: "2026-04-08 17:50:17"
+      description: From 17:25–17:44 UTC, we saw elevated errors on attempts to log into Claude.ai (mobile, web, and desktop) and platform.claude.com, as well as /login attempts via Claude Code. This issue is now resolved.
+      resolved: true
