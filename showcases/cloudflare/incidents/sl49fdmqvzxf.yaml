@@ -1,0 +1,13 @@
+version: incident/v1
+id: sl49fdmqvzxf
+name: Issues with the Cloudflare One Dashboard
+impact: minor
+systems:
+    - 276xk3r83js7
+timeline:
+    - ts: "2026-04-08 07:28:25"
+      description: |-
+        Cloudflare is investigating issues with operations on the Cloudflare One Dashboard.
+
+        Customers using the Cloudflare One dashboard are impacted. Customers may face issues when creating a new device profile on the Cloudflare One dashboard.
+      investigating: true
