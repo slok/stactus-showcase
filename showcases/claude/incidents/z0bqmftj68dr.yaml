@@ -1,0 +1,17 @@
+version: incident/v1
+id: z0bqmftj68dr
+name: Outage affecting Workspace Creation
+impact: none
+systems: []
+timeline:
+    - ts: "2026-04-08 19:22:09"
+      description: |-
+        We are investigating errors related to creating workspaces via the Claude Console at platform.claude.com and via the admin API
+
+        Other functionality including inference and the messages API is not impacted
+      investigating: true
+    - ts: "2026-04-08 19:28:25"
+      description: A fix has been deployed for the issue affecting API workspace creation and we are monitoring for recovery.
+    - ts: "2026-04-08 19:40:06"
+      description: The issue affecting API workspace creation has been resolved. Impact occurred from approximately 4:15 PM to 7:30 PM UTC.
+      resolved: true
