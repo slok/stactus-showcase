@@ -1,0 +1,13 @@
+version: incident/v1
+id: sgl34l18tvsy
+name: Billing Payment Processing for Mexican Peso Accounts
+impact: minor
+systems:
+    - jw9dh2mf4392
+timeline:
+    - ts: "2026-04-08 23:29:19"
+      description: We are aware of an issue affecting payment processing for accounts using Mexican Peso currency. Customers may experience payment failures and account suspension when attempting to complete account upgrades. Our team is actively investigating. We will provide another update as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-08 23:40:08"
+      description: We are aware of an issue affecting payment processing for accounts using Mexican Peso currency. Customers may experience payment failures and account suspension when attempting to complete account upgrades. Our team is actively investigating. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
