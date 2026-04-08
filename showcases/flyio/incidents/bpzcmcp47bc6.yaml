@@ -1,0 +1,10 @@
+version: incident/v1
+id: bpzcmcp47bc6
+name: Metrics currently experiencing issues
+impact: major
+systems:
+    - k2zhkw7wryv2
+timeline:
+    - ts: "2026-04-08 08:34:30"
+      description: We are currently investigating an issue with our metrics cluster.
+      investigating: true
