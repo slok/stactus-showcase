@@ -1,0 +1,9 @@
+version: incident/v1
+id: 9wt5yhn1lcm1
+name: Network performance issues in MIA and ATL regions
+impact: none
+systems: []
+timeline:
+    - ts: "2026-04-08 23:16:50"
+      description: "Between 19:47 and 21:57UTC on April 8, 2026, Cloudflare identified and mitigated a network performance issue specifically affecting our Miami and Atlanta regions. \nUsers may have experienced increased latency or intermittent connectivity due to degraded routing paths in the Southeast. \nOur engineering team has since stabilized the connection and confirmed that all systems are back to full operational capacity; we will continue to monitor these nodes closely to ensure ongoing performance."
+      resolved: true
