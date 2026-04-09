@@ -10,3 +10,8 @@ timeline:
       investigating: true
     - ts: "2026-04-09 04:12:34"
       description: We are seeing an improvement in control plane performance in the SYD region. Some clusters in the region currently are showing degraded standby nodes and we are working to bring those back to full health.
+    - ts: "2026-04-09 05:20:34"
+      description: Control plane operations in SYD have returned to normal and all clusters are healthy at this time. We're continuing to monitor to ensure stable recovery.
+    - ts: "2026-04-09 05:30:00"
+      description: This incident has been resolved.
+      resolved: true
