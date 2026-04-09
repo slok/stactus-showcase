@@ -1,0 +1,12 @@
+version: incident/v1
+id: 8pwjk05c8275
+name: Managed Postgres Control Plane Issues in SYD
+impact: major
+systems:
+    - k2t9fbjfxj8r
+timeline:
+    - ts: "2026-04-09 03:50:23"
+      description: "We are investigating elevated control plane issues for Managed Postgres clusters in SYD. \n\nThe majority of clusters appear to be running fine, but new creates, backup restores, and upgrades may show errors or take longer than usual to complete. Some clusters will have seen a failover event from primary to standby."
+      investigating: true
+    - ts: "2026-04-09 04:12:34"
+      description: We are seeing an improvement in control plane performance in the SYD region. Some clusters in the region currently are showing degraded standby nodes and we are working to bring those back to full health.
