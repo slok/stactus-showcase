@@ -1,0 +1,20 @@
+version: incident/v1
+id: 163dqwlrmgbx
+name: Service Degradation Affecting Zoom Meetings via Web Client in Saudi Arabia.
+impact: minor
+systems:
+    - 3z7b6jks10hm
+timeline:
+    - ts: "2026-04-09 04:19:41"
+      description: |-
+        We are currently investigating a service degradation affecting users ability to join Zoom meetings via web client in Saudi Arabia.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-04-09 04:39:47"
+      description: The issue preventing users from joining meetings via Web client in Saudi Arabia has been successfully resolved. Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-04-09 05:05:31"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true

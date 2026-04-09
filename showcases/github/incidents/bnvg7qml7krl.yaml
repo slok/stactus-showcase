@@ -1,0 +1,14 @@
+version: incident/v1
+id: bnvg7qml7krl
+name: Disruption with GitHub notifications
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-09 04:42:06"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-09 04:57:04"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-04-09 04:57:17"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
