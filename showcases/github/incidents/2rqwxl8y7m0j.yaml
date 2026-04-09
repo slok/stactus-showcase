@@ -1,0 +1,12 @@
+version: incident/v1
+id: 2rqwxl8y7m0j
+name: Disruption with some GitHub services
+impact: major
+systems: []
+timeline:
+    - ts: "2026-04-09 16:20:03"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-09 16:20:12"
+      description: We are experiencing issues where jobs are being delayed to start for copilot coding agent
+      investigating: true
