@@ -11,3 +11,5 @@ timeline:
     - ts: "2026-04-08 23:40:08"
       description: We are aware of an issue affecting payment processing for accounts using Mexican Peso currency. Customers may experience payment failures and account suspension when attempting to complete account upgrades. Our team is actively investigating. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-04-09 00:20:03"
+      description: We have identified the root cause and deployed a payment processing fix for accounts using Mexican Peso currency. Please retry any payments if you encountered errors during the day. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.
