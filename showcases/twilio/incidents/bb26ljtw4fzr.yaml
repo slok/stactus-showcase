@@ -1,0 +1,10 @@
+version: incident/v1
+id: bb26ljtw4fzr
+name: SMS Delivery Delays from Twilio to T-Mobile Czech Republic
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-04-09 14:28:55"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to T-Mobile network subscribers in the Czech Republic. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
