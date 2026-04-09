@@ -1,0 +1,13 @@
+version: incident/v1
+id: dbpcv4ywkjb5
+name: Mexico Customers Unable to Activate Their Accounts
+impact: minor
+systems:
+    - jw9dh2mf4392
+timeline:
+    - ts: "2026-04-09 02:07:39"
+      description: We are currently investigating an issue where some customers in Mexico using USD currency may experience problems with their account balance not updating successfully. This may result in account suspension and prevent activation. Our engineering team is actively investigating this issue. We will provide another update within 1 hour or as soon as more information becomes available. Thank you for your patience.
+      investigating: true
+    - ts: "2026-04-09 03:13:15"
+      description: 'We are closing this incident as it is being tracked under a duplicate incident. For any further updates, please refer to the following incident page: https://status.twilio.com/incidents/sgl34l18tvsy'
+      resolved: true
