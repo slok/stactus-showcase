@@ -10,3 +10,8 @@ timeline:
     - ts: "2026-04-09 09:57:01"
       description: We are investigating an issue affecting GitHub Copilot coding agent. Users may experience significant delays when starting new agent sessions, with jobs remaining queued longer than expected. Our team has identified increased load as a contributing factor and is actively working to restore normal performance.
       investigating: true
+    - ts: "2026-04-09 10:15:35"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-04-09 10:15:37"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
