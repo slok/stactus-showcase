@@ -1,0 +1,13 @@
+version: incident/v1
+id: cb0h2zyzl0kd
+name: Elevated Connector Error Rates
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-04-09 16:54:18"
+      description: Certain connectors are experiencing higher error rates. We are investigating the issue.
+      investigating: true

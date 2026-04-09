@@ -1,0 +1,9 @@
+version: incident/v1
+id: ysv5lb7wdwht
+name: Increased HTTP 5xx errors in Philadelphia colo
+impact: none
+systems: []
+timeline:
+    - ts: "2026-04-09 17:09:03"
+      description: Between 14:41 and 16:34 UTC on April 9th, 2026, we experienced an elevated level of HTTP 5xx errors affecting traffic through our Philadelphia (PHL) data center. The issue has been mitigated now.
+      resolved: true
