@@ -1,0 +1,13 @@
+version: incident/v1
+id: xymxw56vx4ts
+name: Mexico Customers Unable to Activate Their Accounts
+impact: none
+systems:
+    - jw9dh2mf4392
+timeline:
+    - ts: "2026-04-09 01:35:14"
+      description: Our monitoring systems have detected a potential issue with Twilio Billing. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-04-09 01:53:50"
+      description: We are currently investigating an issue where some Mexico customers using USD currency might experience issue related to account balance not getting updated successfully which is resulting in account suspension and preventing activation. Our engineering are actively investigating on this. We will provide another update as soon as more information becomes available. Thank you for your patience.
+      investigating: true
