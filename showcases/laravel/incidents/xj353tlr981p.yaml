@@ -1,0 +1,17 @@
+version: incident/v1
+id: xj353tlr981p
+name: Initial deployment of a new application
+impact: minor
+systems:
+    - jmw0wwg6553f
+timeline:
+    - ts: "2026-04-09 13:29:48"
+      description: We are investigating an issue with the generation of Cloud vanity domains on new environments causing initial deployments to fail.
+      investigating: true
+    - ts: "2026-04-09 13:51:50"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-04-09 13:54:08"
+      description: The issue has been narrowed down to impacting only our free trial customers trying to setup new application and environments.
+    - ts: "2026-04-09 13:57:18"
+      description: A fix has been implemented, the team is now monitoring.
