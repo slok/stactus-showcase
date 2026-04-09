@@ -1,6 +1,6 @@
 version: incident/v1
 id: cqs61n5bh5mk
-name: SMS Delivery Delays and Delivery Receipt Delays from a Subset of Twilio Short Codes to New Zealand
+name: SMS Delivery Delays and Delivery Receipt Delays from Twilio Short Codes to New Zealand
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -14,3 +14,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays and SMS delivery receipt delays from a subset of Twilio Short Codes to New Zealand. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-04-09 06:13:13"
       description: We have observed a recovery in SMS delivery and delivery receipts from a subset of Twilio Short Codes to New Zealand and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-04-09 08:12:11"
+      description: The incident has been resolved and SMS delivery and delivery receipts from Twilio Short Codes to New Zealand are operating normally.
+      resolved: true
