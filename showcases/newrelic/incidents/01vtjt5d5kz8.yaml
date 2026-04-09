@@ -1,0 +1,10 @@
+version: incident/v1
+id: 01vtjt5d5kz8
+name: Synthethcis Manager
+impact: minor
+systems:
+    - 5kj1rklxtgzg
+timeline:
+    - ts: "2026-04-09 09:51:05"
+      description: Some customers in the US region may be experiencing delayed Synthetics Checks execution data in queries with Synthetics Job Manager.
+      investigating: true

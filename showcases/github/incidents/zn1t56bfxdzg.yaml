@@ -1,0 +1,12 @@
+version: incident/v1
+id: zn1t56bfxdzg
+name: Disruption with some GitHub services
+impact: major
+systems: []
+timeline:
+    - ts: "2026-04-09 09:50:21"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-09 09:57:01"
+      description: We are investigating an issue affecting GitHub Copilot coding agent. Users may experience significant delays when starting new agent sessions, with jobs remaining queued longer than expected. Our team has identified increased load as a contributing factor and is actively working to restore normal performance.
+      investigating: true
