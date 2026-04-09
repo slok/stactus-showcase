@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-04-09 17:34:22"
       description: "We’re currently investigating an issue affecting browser testing. \n\nUsers running browser tests will not be able to see the browser timeline.\n\nOur team is actively working to identify the cause and will share an update within two hours. \n\nThank you for your patience."
       investigating: true
+    - ts: "2026-04-09 18:39:38"
+      description: We’ve identified the cause of the issue impacting k6 browser testing/timeline. Our team is currently implementing a fix. We’ll provide another update in two hours or sooner if the situation changes.
+    - ts: "2026-04-09 18:50:19"
+      description: This incident has been resolved. Thank you for your patience.
+      resolved: true
