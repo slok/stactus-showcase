@@ -1,6 +1,6 @@
 version: incident/v1
 id: zxgrdybq2b7f
-name: User Authentication Identity SNA and Gateway API Failures for T-Mobile in United States
+name: User Authentication Identity Silent Network Auth and API Failures for T-Mobile in United States
 impact: minor
 systems:
     - trrz5ztt7pl8
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2026-04-10 11:41:38"
       description: Twilio customers may be experiencing User Authentication Identity SNA and Gateway API failures for T-Mobile in the United States. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-10 13:43:56"
+      description: Twilio customers may be experiencing User Authentication Identity Silent Network Auth and API failures for T-Mobile in the United States. Our team is actively investigating this issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
