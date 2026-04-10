@@ -1,0 +1,10 @@
+version: incident/v1
+id: 80yc5t3fwf8c
+name: Tempo Write Outage
+impact: major
+systems:
+    - c4xq0y1xrywv
+timeline:
+    - ts: "2026-04-10 19:42:47"
+      description: We are currently investigating a write outage affecting prod-us-east-3. The issue began at 18:50 UTC. Users may experience errors, timeouts, or unavailability while we work to identify the cause and restore service.
+      investigating: true
