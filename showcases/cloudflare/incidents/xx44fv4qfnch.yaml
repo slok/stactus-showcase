@@ -1,0 +1,11 @@
+version: incident/v1
+id: xx44fv4qfnch
+name: Increased HTTP 5xx errors in Philadelphia colo
+impact: minor
+systems:
+    - bss3xc7lbmgw
+timeline:
+    - ts: "2026-04-10 15:55:36"
+      description: Cloudflare is investigating an increased level of 5xx errors in Philadelphia. We are working to analyse and mitigate this problem. More updates to follow shortly.
+    - ts: "2026-04-10 15:56:14"
+      description: We are continuing to work on a fix for this issue.
