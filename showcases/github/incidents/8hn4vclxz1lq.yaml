@@ -1,0 +1,12 @@
+version: incident/v1
+id: 8hn4vclxz1lq
+name: Problems with third-party Claude and Codex Agent sessions not being listed in the agents tab dashboard
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-10 13:07:21"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-10 13:08:00"
+      description: We are investigating third party Claude and Codex Cloud Agent sessions not being listed in the agents tab dashboard.
+      investigating: true
