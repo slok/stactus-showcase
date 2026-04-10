@@ -1,0 +1,12 @@
+version: incident/v1
+id: jktv58q563ty
+name: Twilio virtual phone number is unusable
+impact: minor
+systems:
+    - pv5w18vrltfl
+timeline:
+    - ts: "2026-04-10 09:44:04"
+      description: Our engineers are investigating the issue where Twilio virtual phone numbers are unusable and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-10 10:01:54"
+      description: Our engineers are seeing recovery for the issue where Twilio virtual phone numbers are unusable. We expect to provide another update in 2 hour or as soon as more information becomes available.
