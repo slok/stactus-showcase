@@ -1,0 +1,14 @@
+version: incident/v1
+id: 2j9b03y3wfs9
+name: User Authentication Identity API High Latency in Multiple Countries Across North America and Latin America
+impact: minor
+systems:
+    - fsxs9n9yf4m7
+    - t4bxfcg2ppvb
+    - cfy5cxrly95b
+    - q0hp6vfr4vvh
+    - qt4vzyg2g7b4
+timeline:
+    - ts: "2026-04-10 06:39:13"
+      description: Twilio customers may be experiencing User Authentication Identity API high latency across multiple networks in USA, Brazil, Colombia across North America and Latin America. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
