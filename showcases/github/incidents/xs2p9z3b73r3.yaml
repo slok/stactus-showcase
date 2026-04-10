@@ -23,5 +23,5 @@ timeline:
       description: Code search has recovered and is serving production traffic.
       investigating: true
     - ts: "2026-04-01 23:45:45"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On April 1st, 2026 between 14:40 and 17:00 UTC the GitHub code search service had an outage which resulted in users being unable to perform searches.<br /><br />The issue was initially caused by an upgrade to the code search Kafka cluster ZooKeeper instances which caused a loss of quorum.  This resulted in application-level data inconsistencies which required the index to be reset to a point in time before the loss of quorum occurred. Meanwhile, an accidental deploy resulted in query services losing their shard-to-host mappings, which are typically propagated by Kafka.<br /><br />We remediated the problem by performing rolling restarts in the Kafka cluster, allowing quorum to be reestablished. From there we were able to reset our index to a point in time before the inconsistencies occurred.<br /><br />The team is working on ways to improve our time to respond and mitigate issues relating to Kafka in the future.
       resolved: true

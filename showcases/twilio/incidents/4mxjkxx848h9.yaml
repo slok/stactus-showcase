@@ -1,0 +1,12 @@
+version: incident/v1
+id: 4mxjkxx848h9
+name: On Call Engineers are Investigating
+impact: none
+systems: []
+timeline:
+    - ts: "2026-04-10 19:01:52"
+      description: Our monitoring systems have detected a potential issue with alarm event delivery. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-04-10 19:21:32"
+      description: We have fully investigated the potential issue with Twilio Alarms triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
