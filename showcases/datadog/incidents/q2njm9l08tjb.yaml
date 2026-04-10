@@ -32,3 +32,25 @@ timeline:
       description: Webhooks and Slack notifications are still catching up.
     - ts: "2026-04-10 20:13:41"
       description: Webhooks and Slack notifications are still catching up.
+    - ts: "2026-04-10 20:59:49"
+      description: |-
+        Between approximately 9:42 AM and 10:38 AM ET on April 10, we observed delivery failures for customers in the US1, AP1, and AP2 regions. During this window, notifications to the following integrations were delayed or temporarily undelivered:
+
+        • PagerDuty
+        • Slack
+        • Microsoft Teams
+        • Webhooks
+        • Jira
+        • ServiceNow
+        • OpsGenie
+        • VictorOps
+        • BigPanda
+        • Zendesk
+        • Sumologic
+
+        All delayed notifications have been replayed with the following exceptions: PagerDuty pages and Slack notifications queued during the outage window were not replayed, as they were no longer actionable at the time of recovery. Webhook notifications will be reprocessed and delivered at a later date.
+
+        No monitoring data was lost during this incident. Monitor evaluations continued normally — only the delivery of triggered notifications was affected.
+
+        Thank you for your patience.
+      resolved: true
