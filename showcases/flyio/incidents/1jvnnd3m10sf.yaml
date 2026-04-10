@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-04-10 18:42:52"
       description: We are investigating instability in the MPG control plane in the NRT (Toyko, Japan) region causing unexpected cluster failovers. Clusters return to health shortly after, but some users with clusters in NRT may see dropped connections or degraded performance  at this time.
       investigating: true
+    - ts: "2026-04-10 20:13:11"
+      description: The issue has been identified and a fix is being implemented. Users with clusters in NRT may continue to see instability at this time
