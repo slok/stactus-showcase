@@ -1,0 +1,15 @@
+version: incident/v1
+id: 2z4mf00ffcwd
+name: Degraded Performance on Vaults
+impact: minor
+systems:
+    - 0qbwn08sd68x
+timeline:
+    - ts: "2026-04-10 04:28:06"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-04-10 04:36:07"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-04-10 04:38:02"
+      description: This incident has been resolved.
+      resolved: true
