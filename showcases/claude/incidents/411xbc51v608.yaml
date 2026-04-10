@@ -1,0 +1,17 @@
+version: incident/v1
+id: 411xbc51v608
+name: Elevated errors on requests to Claude models
+impact: minor
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+    - 0scnb50nvy53
+timeline:
+    - ts: "2026-04-10 16:30:39"
+      description: We are investigating reports of elevated errors on requests to Claude across all products. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-04-10 16:42:05"
+      description: We have identified the current issue as affecting requests to models other than Claude Opus 4.6, and are working to fully resolve this issue. We will provide additional updates shortly.
