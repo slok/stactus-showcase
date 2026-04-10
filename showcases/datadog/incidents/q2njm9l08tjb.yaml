@@ -1,0 +1,12 @@
+version: incident/v1
+id: q2njm9l08tjb
+name: Notifications to Pagerduty, VictorOps, Slack, Webhook, Microsoft Teams and OpsGenie are not delivered
+impact: major
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2026-04-10 14:54:11"
+      description: We are investigating an issue to send notifications to Pagerduty, VictorOps, Slack, Webhook, Microsoft Teams and OpsGenie.
+      investigating: true
+    - ts: "2026-04-10 15:00:20"
+      description: The issue has been identified and a fix is being implemented.

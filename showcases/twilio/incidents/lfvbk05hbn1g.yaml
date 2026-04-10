@@ -1,0 +1,13 @@
+version: incident/v1
+id: lfvbk05hbn1g
+name: Flex AI Copilot Failures Generating Notes
+impact: minor
+systems:
+    - vw9w2zyv9nk5
+timeline:
+    - ts: "2026-04-10 14:54:51"
+      description: Our monitoring systems have detected a potential issue with Flex AI Copilot Failures. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-04-10 15:02:23"
+      description: We are currently investigating an issue where approximately 30% of wrap-up notes generation requests are failing in the Agent Copilot UI within Flex. This may prevent some users from creating notes using the AI Summarization feature. Our engineering team is actively working to resolve the issue. We will provide an update in 1 hour or as soon as more information becomes available.
+      investigating: true
