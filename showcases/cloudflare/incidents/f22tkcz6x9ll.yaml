@@ -1,0 +1,10 @@
+version: incident/v1
+id: f22tkcz6x9ll
+name: Workers AI Gemma 4 model unhealthy
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2026-04-11 21:52:00"
+      description: Cloudflare is investigating isssues with Workers AI Gemma 4 model. Users may experience elevated error rates when trying to use Gemma 4 on Workers AI
+      investigating: true
