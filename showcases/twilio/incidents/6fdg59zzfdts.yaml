@@ -1,6 +1,6 @@
 version: incident/v1
 id: 6fdg59zzfdts
-name: SMS Delivery Delays from a Subset of Twilio Short Codes to Algar Brazil
+name: SMS Delivery Delays From a Subset of Twilio Short Codes to Algar Brazil
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -18,3 +18,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to Algar network subscribers in Brazil. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
     - ts: "2026-04-11 01:36:53"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Short Codes to Algar network subscribers in Brazil and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-04-11 03:42:16"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Short Codes to Algar network subscribers in Brazil is operating normally.
+      resolved: true
