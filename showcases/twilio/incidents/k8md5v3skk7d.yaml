@@ -1,6 +1,6 @@
 version: incident/v1
 id: k8md5v3skk7d
-name: SMS Delivery Failures from Brazil to a Subset of Twilio Phone Numbers
+name: SMS Delivery Failures from Network Subscribers to a Subset of Twilio Brazil Phone Numbers
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2026-04-12 17:34:37"
       description: We have observed a recovery in SMS delivery from network subscribers in Brazil to a subset of Twilio Phone Numbers and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-04-12 19:13:56"
+      description: The incident has been resolved and SMS delivery from network subscribers to a subset of Twilio Brazil Phone Numbers is operating normally.
+      resolved: true
