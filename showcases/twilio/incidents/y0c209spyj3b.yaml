@@ -1,0 +1,10 @@
+version: incident/v1
+id: y0c209spyj3b
+name: SMS Delivery Delays from Twilio to Telefonica Costa Rica
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-04-12 04:03:58"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Telefonica network subscribers in Costa Rica. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
