@@ -1,6 +1,6 @@
 version: incident/v1
 id: 4t95tgr9bsgy
-name: SMS Delivery Failures from a Subset of Twilio Short Codes to Multiple Networks in Brazil
+name: SMS Delivery Failures between a subset of Twilio Short Codes and Long Codes and Multiple Networks in Brazil
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-04-12 14:48:34"
       description: Twilio customers may be experiencing SMS delivery failures from a subset of Twilio Short Codes to network subscribers on multiple networks in Brazil. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-04-12 15:21:52"
+      description: We have observed a recovery in SMS delivery between a subset of Twilio Short Codes and Long Codes and network subscribers on multiple networks in Brazil and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-04-12 15:22:17"
+      description: The incident has been resolved and SMS delivery between a subset of Twilio Short Codes and Long Codes and affected networks in Brazil is operating normally.
+      resolved: true
