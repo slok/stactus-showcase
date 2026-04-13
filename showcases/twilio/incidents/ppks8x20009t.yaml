@@ -1,9 +1,13 @@
 version: incident/v1
 id: ppks8x20009t
-name: On Call Engineers are Investigating an Issue Leading to 503 Errors
-impact: none
-systems: []
+name: Unexpected 503 Errors When Connecting to Twilio APIs
+impact: minor
+systems:
+    - 4rv9xfxmdjg9
 timeline:
     - ts: "2026-04-13 20:13:38"
       description: Our monitoring systems have detected a potential issue leading to 503 Errors. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-04-13 20:53:07"
+      description: We are currently investigating an issue causing unexpected 503 errors (less than 0.01% error rate) at 19:30 UTC and again from 20:00 - 20:02 UTC for customers using Twilio APIs. Our engineers are investigating root cause and will provide another update in one hour or as soon as more information becomes available.
       investigating: true
