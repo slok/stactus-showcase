@@ -1,0 +1,13 @@
+version: incident/v1
+id: 96r9hyz795sv
+name: Incident with Pages
+impact: major
+systems:
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2026-04-13 19:56:04"
+      description: We are investigating reports of degraded availability for Pages
+      investigating: true
+    - ts: "2026-04-13 19:57:17"
+      description: We are investigating reports of issues with Pages. We will continue to keep users updated on progress towards mitigation.
+      investigating: true

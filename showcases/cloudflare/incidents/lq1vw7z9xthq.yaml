@@ -1,0 +1,11 @@
+version: incident/v1
+id: lq1vw7z9xthq
+name: Increased KV latency and timeouts
+impact: minor
+systems:
+    - 57srcl8zcn7c
+    - tmh50tx2nprs
+timeline:
+    - ts: "2026-04-13 20:15:54"
+      description: Cloudflare is aware of and investigating an issue impacting a subset of KV API requests, resulting in increased latency and timeouts. Workers using Assets are also experiencing errors. This does not impact KV through the binding.
+      investigating: true
