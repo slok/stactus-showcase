@@ -1,0 +1,17 @@
+version: incident/v1
+id: mgly7jkjkmkr
+name: Issue when querying live edge data in the US region
+impact: minor
+systems:
+    - nw4g7754n7tl
+    - xrzsz1k79xbd
+timeline:
+    - ts: "2026-04-13 12:44:01"
+      description: We are investigating an issue where some customers may be unable to query live edge data in the US region. Data ingest and alert notifications are not impacted by this interruption.
+      investigating: true
+    - ts: "2026-04-13 12:49:56"
+      description: We are investigating an issue where some customers may be unable to query live edge data in the US region. Data ingest and alert notifications are not impacted by this interruption.
+      investigating: true
+    - ts: "2026-04-13 12:55:30"
+      description: We are investigating an issue where some customers may be unable to query live edge data in the US region. Data ingest and alert notifications are not impacted by this interruption.
+      investigating: true
