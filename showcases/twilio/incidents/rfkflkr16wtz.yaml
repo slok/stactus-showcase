@@ -1,0 +1,12 @@
+version: incident/v1
+id: rfkflkr16wtz
+name: SMS Delivery Delays from Twilio to Shelcomm United States
+impact: minor
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2026-04-13 04:47:56"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Shelcomm network subscribers in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-13 04:54:03"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Shelcomm network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
