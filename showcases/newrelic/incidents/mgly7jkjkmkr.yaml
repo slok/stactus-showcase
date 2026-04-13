@@ -5,6 +5,7 @@ impact: minor
 systems:
     - nw4g7754n7tl
     - xrzsz1k79xbd
+    - 5kj1rklxtgzg
 timeline:
     - ts: "2026-04-13 12:44:01"
       description: We are investigating an issue where some customers may be unable to query live edge data in the US region. Data ingest and alert notifications are not impacted by this interruption.
@@ -14,4 +15,10 @@ timeline:
       investigating: true
     - ts: "2026-04-13 12:55:30"
       description: We are investigating an issue where some customers may be unable to query live edge data in the US region. Data ingest and alert notifications are not impacted by this interruption.
+      investigating: true
+    - ts: "2026-04-13 13:58:59"
+      description: We are continuing to investigate an issue where some customers may be unable to query live edge data and some customers may notice stopped synthetic monitors in the US region. Technical teams are actively engaged and are exploring mitigation steps to address the issue. Data ingest and alert notifications are not impacted by this interruption.
+      investigating: true
+    - ts: "2026-04-13 14:41:27"
+      description: We are still investigating an issue where some customers may be unable to query live edge data and some customers may notice stopped synthetic monitors in the US region. We continue to work on the issue and understand root cause. We will continue to provide updates as we have more information to share, or by 3:30 PM UTC.
       investigating: true

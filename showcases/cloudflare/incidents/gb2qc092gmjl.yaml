@@ -1,0 +1,15 @@
+version: incident/v1
+id: gb2qc092gmjl
+name: Wrangler logins failing due to scope error
+impact: minor
+systems:
+    - q1h7j6g2jcjw
+timeline:
+    - ts: "2026-04-13 14:00:49"
+      description: "Cloudflare are aware of reports of `wrangler login` failing due to a scope error. This is affecting versions 4.82 of wrangler which is being deprecated and re-released. \nUsers can work around the problem by using previous versions of wrangler, eg. `npx wrangler@4.81.1 login`"
+      investigating: true
+    - ts: "2026-04-13 14:02:38"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-04-13 14:10:11"
+      description: This incident has been resolved.
+      resolved: true
