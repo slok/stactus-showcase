@@ -1,0 +1,12 @@
+version: incident/v1
+id: 1ghdqdbyyjmt
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-13 16:41:27"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-13 16:59:20"
+      description: We have identified the root cause and are rolling out a fix for Copilot. The services should now be in recovery, with expected full recovery in 5 to 10 minutes.
+      investigating: true
