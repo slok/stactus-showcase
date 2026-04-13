@@ -2,10 +2,7 @@ version: incident/v1
 id: mgly7jkjkmkr
 name: Issue when querying live edge data in the US region
 impact: minor
-systems:
-    - nw4g7754n7tl
-    - xrzsz1k79xbd
-    - 5kj1rklxtgzg
+systems: []
 timeline:
     - ts: "2026-04-13 12:44:01"
       description: We are investigating an issue where some customers may be unable to query live edge data in the US region. Data ingest and alert notifications are not impacted by this interruption.
@@ -22,3 +19,6 @@ timeline:
     - ts: "2026-04-13 14:41:27"
       description: We are still investigating an issue where some customers may be unable to query live edge data and some customers may notice stopped synthetic monitors in the US region. We continue to work on the issue and understand root cause. We will continue to provide updates as we have more information to share, or by 3:30 PM UTC.
       investigating: true
+    - ts: "2026-04-13 15:17:33"
+      description: Between 10:30 AM and 2:40 PM UTC on April 13th, some customers may have experienced an issue to query live edge data and some customers may have noticed stopped synthetic monitors in the US region. The issue is now resolved and impacted services have returned to normal operations.
+      resolved: true
