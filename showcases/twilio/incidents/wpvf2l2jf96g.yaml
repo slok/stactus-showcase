@@ -1,6 +1,6 @@
 version: incident/v1
 id: wpvf2l2jf96g
-name: SMS Delivery Failures from a Subset of Twilio Long Codes and Alphanumeric Sender IDs to Sudani One Sudan
+name: SMS Delivery Failures from a Subset of Twilio Long Codes to Sudani One Sudan
 impact: minor
 systems:
     - 9z5gsqyjs4rl
@@ -25,3 +25,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery failures from a subset of Twilio Long Codes and Alphanumeric Sender IDs to Sudani One network subscribers in Sudan. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-04-13 20:59:49"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Long Codes and Alphanumeric Sender IDs to Sudani One network subscribers in Sudan and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-04-13 22:55:32"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Long Codes to Sudani One network subscribers in Sudan is operating normally.
+      resolved: true
