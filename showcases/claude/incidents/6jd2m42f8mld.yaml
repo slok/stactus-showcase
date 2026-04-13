@@ -4,7 +4,17 @@ name: Claude.ai down
 impact: critical
 systems:
     - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+    - 0scnb50nvy53
 timeline:
     - ts: "2026-04-13 15:40:43"
       description: We are currently investigating this issue.
       investigating: true
+    - ts: "2026-04-13 15:58:13"
+      description: We are continuing to investigate elevated errors on Claude.ai, primarily affecting login. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-04-13 16:16:54"
+      description: We have identified the issue affecting Claude.ai and Claude Code logins. We are working to apply a fix for this issue, and will provide an additional update as soon as possible.
