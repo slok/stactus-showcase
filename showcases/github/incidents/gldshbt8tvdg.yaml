@@ -1,0 +1,12 @@
+version: incident/v1
+id: gldshbt8tvdg
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-14 01:57:55"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-14 02:37:51"
+      description: Degradation of Service - Insights Page
+      investigating: true
