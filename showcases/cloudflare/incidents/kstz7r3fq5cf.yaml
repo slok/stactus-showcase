@@ -1,7 +1,7 @@
 version: incident/v1
 id: kstz7r3fq5cf
 name: WARP device configuration issues
-impact: minor
+impact: major
 systems:
     - kf0ktv29xrfy
 timeline:
@@ -25,5 +25,11 @@ timeline:
       description: Cloudflare is investigating issues where WARP device registrations are impacted.
       investigating: true
     - ts: "2026-04-14 09:35:44"
-      description: "We are continuing to investigate and work on a fix for the Warp registration issues \nAt this moment, there are is workaround available."
+      description: We are continuing to investigate and work on a fix for the Warp registration issues
+      investigating: true
+    - ts: "2026-04-14 10:01:47"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-04-14 10:02:34"
+      description: We are continuing to investigate this issue.
       investigating: true
