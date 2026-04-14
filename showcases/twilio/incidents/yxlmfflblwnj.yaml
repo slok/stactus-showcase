@@ -1,6 +1,6 @@
 version: incident/v1
 id: yxlmfflblwnj
-name: On Call Engineers Are Investigating an Issue With Customers Being Unable to Complete Sender Registration Process for Whatsapp
+name: On Call Engineers Are Investigating an Issue with WhatsApp Sender Registration in Meta Embedded Signup
 impact: minor
 systems:
     - 1gkv0mxhzsjv
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2026-04-14 18:42:01"
       description: We are investigating issues for some customers who may be unable to complete sender registration prrocess for Whatsapp. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
+    - ts: "2026-04-14 18:57:54"
+      description: We are investigating an issue with WhatsApp sender registration in Meta embedded signup. We expect to provide another update in 1 hour or as soon as more information becomes available
       investigating: true
