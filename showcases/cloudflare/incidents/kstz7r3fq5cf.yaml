@@ -1,10 +1,18 @@
 version: incident/v1
 id: kstz7r3fq5cf
-name: WARP device revocation issues
+name: WARP device configuration issues
 impact: minor
 systems:
     - kf0ktv29xrfy
 timeline:
     - ts: "2026-04-14 06:49:00"
-      description: Cloudflare is investigating issues with Cloudflare WARP device revocations.
+      description: Cloudflare is investigating issues where WARP device configuration changes may be materially delayed.
+      investigating: true
+    - ts: "2026-04-14 06:51:36"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-04-14 07:01:57"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-04-14 07:30:15"
+      description: We are currently investigating this issue.
       investigating: true
