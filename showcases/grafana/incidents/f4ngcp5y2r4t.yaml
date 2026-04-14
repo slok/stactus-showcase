@@ -1,0 +1,9 @@
+version: incident/v1
+id: f4ngcp5y2r4t
+name: K6 Sporadic DNS Issues
+impact: minor
+systems:
+    - m79yjv169r06
+timeline:
+    - ts: "2026-04-14 09:22:32"
+      description: We are having sporadic DNS issues that occasionally affect the start of cloud test runs, causing them to abort. We are currently working to resolve. The issue has been occurring since April 9.

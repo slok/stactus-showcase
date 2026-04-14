@@ -1,0 +1,15 @@
+version: incident/v1
+id: w3389p5qg7kp
+name: Degraded service on usage and analytics admin API endpoints
+impact: minor
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+    - 0scnb50nvy53
+timeline:
+    - ts: "2026-04-14 09:24:52"
+      description: We are investigating reports of degraded performance affecting the usage and analytics admin API endpoints. We will provide an update as soon as possible.
+      investigating: true
