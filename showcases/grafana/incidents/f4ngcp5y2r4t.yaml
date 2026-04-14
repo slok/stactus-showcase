@@ -7,3 +7,7 @@ systems:
 timeline:
     - ts: "2026-04-14 09:22:32"
       description: We are having sporadic DNS issues that occasionally affect the start of cloud test runs, causing them to abort. We are currently working to resolve. The issue has been occurring since April 9.
+    - ts: "2026-04-14 14:29:15"
+      description: We’ve implemented a fix and are monitoring the results to confirm the issue is fully resolved. Services may start to recover during this time.
+    - ts: "2026-04-14 14:29:22"
+      description: Our engineering team has deployed a fix and we are currently monitoring the behaviour of the system until full resolution.
