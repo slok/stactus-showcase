@@ -1,0 +1,10 @@
+version: incident/v1
+id: v7298p1rwvvr
+name: Inaccurate values in Health Check Events Analytics
+impact: minor
+systems:
+    - vn1h2pfctsvn
+timeline:
+    - ts: "2026-04-14 17:36:04"
+      description: Cloudflare is investigating an issue where Health Check Events analytics are returning incorrect round-trip time (rttMs) values. Affected users may observe abnormally large values in Health Check latency analytics on the dashboard. This does not affect the actual health check functionality or monitoring — health checks continue to operate normally. The issue is limited to the analytics data displayed for health check events.
+      investigating: true

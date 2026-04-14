@@ -1,0 +1,23 @@
+version: incident/v1
+id: sd38vryb6ng1
+name: 1Password Hosted Service in the US experiencing high latency and errors
+impact: critical
+systems:
+    - cgltwfnt80mm
+    - 44mr9pvxy2h1
+    - 5g595mfvxrwb
+    - wdd0686w5v3k
+    - dd7j6hgdy98l
+    - nb2s2j09f6sc
+    - mxh1682h05hp
+    - c1hyq57z8lnq
+    - 03vs2j75ds22
+    - bqxt4w06fczc
+    - 4q3h5fw7rv4w
+    - jclfgrsyfl37
+    - wst05glrkprt
+    - ngrr6v6zh4r3
+timeline:
+    - ts: "2026-04-14 17:25:14"
+      description: The 1Password Hosted Service in the US is experiencing high latency and errors. The response team is currently investigating.
+      investigating: true
