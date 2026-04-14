@@ -13,3 +13,5 @@ timeline:
     - ts: "2026-04-14 09:24:52"
       description: We are investigating reports of degraded performance affecting the usage and analytics admin API endpoints. We will provide an update as soon as possible.
       investigating: true
+    - ts: "2026-04-14 11:47:03"
+      description: Root cause identified. Fixes have been merged and are progressing through our deployment pipeline. Intermittent 503 errors on usage and analytics admin API endpoints may continue until the rollout completes. We will update once the fix is live in production.
