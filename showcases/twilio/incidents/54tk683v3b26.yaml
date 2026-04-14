@@ -1,6 +1,6 @@
 version: incident/v1
 id: 54tk683v3b26
-name: SMS Delivery Failures from a Subset of Twilio Long Codes to Orange Côte d'Ivoire
+name: SMS Delivery Failures From a Subset of Twilio Long Codes to Orange Côte d'Ivoire
 impact: minor
 systems:
     - 9z5gsqyjs4rl
@@ -15,3 +15,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery failures from a subset of Twilio Long Codes to Orange network subscribers in Côte d'Ivoire. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
     - ts: "2026-04-14 06:39:19"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Long Codes to Orange network subscribers in Côte d'Ivoire and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-04-14 08:54:08"
+      description: We have observed a recovery in SMS delivery from a subset of Twilio Long Codes to Orange network subscribers in Côte d'Ivoire and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
