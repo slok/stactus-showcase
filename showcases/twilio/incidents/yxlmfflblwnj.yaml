@@ -1,0 +1,13 @@
+version: incident/v1
+id: yxlmfflblwnj
+name: On Call Engineers Are Investigating an Issue With Customers Being Unable to Complete Sender Registration Process for Whatsapp
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2026-04-14 18:14:34"
+      description: Our monitoring systems have detected a potential issue with customers being unable to complete sender registration process for WhatsApp. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-04-14 18:42:01"
+      description: We are investigating issues for some customers who may be unable to complete sender registration prrocess for Whatsapp. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
