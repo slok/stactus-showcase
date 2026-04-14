@@ -1,0 +1,18 @@
+version: incident/v1
+id: y4bd7y66vkj9
+name: Reassigned Number Package Degradation for Lookup V2 API
+impact: minor
+systems:
+    - xk8z50jy8hcs
+timeline:
+    - ts: "2026-04-14 20:51:06"
+      description: The reassigned number package is experiencing errors in the responses returned through the API. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
+    - ts: "2026-04-14 20:51:29"
+      description: The reassigned number package is experiencing errors in the responses returned through the API. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
+    - ts: "2026-04-14 21:11:41"
+      description: We have started seeing recovery for the reassigned number package experiencing errors in the responses returned through the API. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-04-14 21:19:22"
+      description: The issue affecting intermittent errors for the reassigned number package in the responses returned through the API has been resolved and the service is functioning normally at this time.
+      resolved: true
