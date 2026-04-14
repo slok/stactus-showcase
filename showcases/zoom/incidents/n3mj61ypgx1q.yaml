@@ -1,0 +1,15 @@
+version: incident/v1
+id: n3mj61ypgx1q
+name: Service degradation affecting Trimming Meeting Recording in Europe Region
+impact: minor
+systems:
+    - gkx8x46kw77h
+timeline:
+    - ts: "2026-04-14 16:18:44"
+      description: |-
+        We are currently investigating a service degradation impacting Trimming Meeting Recordings for subset of users in Europe region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
