@@ -16,3 +16,11 @@ timeline:
         Our Engineering team has implemented a fix for the issue causing elevated error rates due to service instability. We are currently monitoring the situation to ensure stability and confirm that error rates, including HTTP 500 responses, have returned to normal levels.
 
         We will provide a further update once we confirm the issue is fully resolved.
+    - ts: "2026-04-15 02:56:44"
+      description: |-
+        From 23:20 UTC to 02:00 UTC, users may have experienced elevated error rates due to service instability, which resulted in intermittent HTTP 500 errors and terminated connections.
+
+        Our Engineering team has confirmed full resolution of the issue, and all systems are now operating normally.
+
+        If you continue to experience any issues, please open a ticket with our support team. We apologize for any inconvenience caused.
+      resolved: true
