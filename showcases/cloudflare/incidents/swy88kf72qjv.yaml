@@ -1,0 +1,13 @@
+version: incident/v1
+id: swy88kf72qjv
+name: Some Cloudflare one Client users might be experiencing device registration issues
+impact: minor
+systems:
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2026-04-15 21:01:22"
+      description: Some Cloudflare One Client users might be experiencing issues with their device registration that's causing them to have to re-register. The team is investigating.
+      investigating: true
+    - ts: "2026-04-15 21:03:41"
+      description: We are continuing to investigate this issue.
+      investigating: true
