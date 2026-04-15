@@ -12,3 +12,10 @@ timeline:
 
         To prevent false monitor alerts due to delayed data, monitors affected by the delay will not notify and will automatically resume once current data is available. All other monitors will operate normally.
       investigating: true
+    - ts: "2026-04-15 23:16:37"
+      description: |-
+        We are investigating increased latency processing Distribution Metrics.
+        As a result of this issue, some users may see delays or gaps for distribution metrics on graphs.
+
+        To prevent false monitor alerts due to delayed data, monitors affected by the delay will not notify and will automatically resume once current data is available. All other monitors will operate normally.
+      investigating: true

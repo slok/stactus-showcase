@@ -1,6 +1,6 @@
 version: incident/v1
 id: pmcls1x3y32j
-name: Voice Call Failures from Network Subscribers to a Subset of Twilio Brazil Phone Numbers
+name: Voice Call Failures from Subscribers to a Subset of Twilio Brazil Phone Numbers
 impact: minor
 systems:
     - fbtv2g9t3z25
@@ -12,3 +12,6 @@ timeline:
       description: Twilio customers may be experiencing voice call failures from network subscribers to a subset of Twilio Brazil Phone Numbers. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
     - ts: "2026-04-15 21:58:35"
       description: We have observed a recovery in voice calls from network subscribers to a subset of Twilio Brazil Phone Numbers and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-04-15 22:55:57"
+      description: The incident has been resolved and voice calls from network subscribers to a subset of Twilio Brazil Phone Numbers are operating normally.
+      resolved: true
