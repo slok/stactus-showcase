@@ -1,0 +1,12 @@
+version: incident/v1
+id: 8pfx6s2n7lxp
+name: User Authentication Identity Gateway API High Latency for T-Mobile in United States
+impact: minor
+systems:
+    - q0hp6vfr4vvh
+timeline:
+    - ts: "2026-04-15 16:46:20"
+      description: Twilio customers may be experiencing User Authentication Identity Gateway API high latency for T-Mobile in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-15 16:53:18"
+      description: Twilio customers may be experiencing User Authentication Identity Gateway API high latency for T-Mobile in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
