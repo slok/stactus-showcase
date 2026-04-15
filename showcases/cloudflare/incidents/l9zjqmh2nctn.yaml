@@ -1,0 +1,14 @@
+version: incident/v1
+id: l9zjqmh2nctn
+name: Network Performance issues - Increased HTTP 5xx Errors
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-15 19:13:57"
+      description: Cloudflare is investigating an increased level of HTTP 5xx errors. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-04-15 19:14:28"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-04-15 19:27:38"
+      description: The issue has been identified and a fix is being implemented.
