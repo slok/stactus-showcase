@@ -1,0 +1,18 @@
+version: incident/v1
+id: f00h6l76tsjs
+name: Elevated errors on Claude.ai, API, Claude Code
+impact: critical
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-04-15 14:53:02"
+      description: We are seeing increased errors on Claude.ai, API, and Claude Code
+      investigating: true
+    - ts: "2026-04-15 14:55:35"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-04-15 15:03:39"
+      description: The issue has been identified and a fix is being implemented.
