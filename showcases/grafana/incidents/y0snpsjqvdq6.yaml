@@ -1,0 +1,18 @@
+version: incident/v1
+id: y0snpsjqvdq6
+name: Degraded Ticket Visibility in Support System
+impact: minor
+systems:
+    - 8s9ngcb02t90
+timeline:
+    - ts: "2026-04-15 16:07:45"
+      description: |-
+        We are currently experiencing an issue with our ticketing system provider that is affecting how tickets appear within our internal support views.
+
+        We are continuing to receive all new tickets successfully, and no requests are being lost at this time.
+
+        Our team is actively monitoring the situation and working to ensure all incoming requests are reviewed, including those that may not be immediately visible in standard views.
+
+        We will provide further updates as we receive more information from our provider.
+
+        We appreciate your patience.
