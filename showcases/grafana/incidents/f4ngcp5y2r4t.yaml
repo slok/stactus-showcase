@@ -11,3 +11,6 @@ timeline:
       description: We’ve implemented a fix and are monitoring the results to confirm the issue is fully resolved. Services may start to recover during this time.
     - ts: "2026-04-14 14:29:22"
       description: Our engineering team has deployed a fix and we are currently monitoring the behaviour of the system until full resolution.
+    - ts: "2026-04-15 12:59:23"
+      description: This incident is now resolved. We had intermediary issues with a flaky DNS server that caused random tests to not start properly. Since the DNS server was fixed, we haven't been seeing the issue anymore.
+      resolved: true
