@@ -1,0 +1,14 @@
+version: incident/v1
+id: 7ht7d7xsnbhy
+name: Delayed Metrics
+impact: major
+systems:
+    - qrnng5l7z80l
+timeline:
+    - ts: "2026-04-15 22:38:22"
+      description: |-
+        We are investigating increased latency processing Metrics.
+        As a result of this issue, some users may see delays or gaps for metrics on graphs.
+
+        To prevent false monitor alerts due to delayed data, monitors affected by the delay will not notify and will automatically resume once current data is available. All other monitors will operate normally.
+      investigating: true
