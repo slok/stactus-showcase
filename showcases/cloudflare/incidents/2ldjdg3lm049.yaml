@@ -1,0 +1,14 @@
+version: incident/v1
+id: 2ldjdg3lm049
+name: Elevated Error Rate for Durable Objects and R2 Buckets in the APAC region
+impact: minor
+systems:
+    - 3q1jnbdbn845
+    - bty1yz6dhh0v
+    - 3lbj8lp3d750
+    - hb7g5sq2zz0h
+    - 47xg28c02lnk
+timeline:
+    - ts: "2026-04-15 17:33:30"
+      description: Customers with R2 data or Durable Objects in APAC may experience high latency or elevated error rates.
+      investigating: true
