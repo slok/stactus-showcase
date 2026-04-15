@@ -1,0 +1,10 @@
+version: incident/v1
+id: ydt10jsg02jq
+name: Cloudflare Workers API Latency
+impact: minor
+systems:
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2026-04-15 14:37:30"
+      description: Cloudflare is investigating an increased latency when interacting with Workers Builds via webhooks from git providers. Customers might experience longer wait times on Workers endpoints, particularly when build a project from a git connection. Workers that are already running in production are not affected. More updates to follow shortly.
+      investigating: true

@@ -1,0 +1,9 @@
+version: incident/v1
+id: g1ds3j4z8hpn
+name: Cloudflare Billing Issues
+impact: minor
+systems:
+    - z9w398bsjvnq
+timeline:
+    - ts: "2026-04-15 14:19:56"
+      description: Cloudflare is experiencing problems in processing changes through our billing subscription service for Argo Smart Routing. All other services are operating normally. We will provide an update once billing subscription services return to normal.
