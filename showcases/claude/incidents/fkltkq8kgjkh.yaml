@@ -1,0 +1,17 @@
+version: incident/v1
+id: fkltkq8kgjkh
+name: Failures to add Credentials to Vaults
+impact: minor
+systems:
+    - 0qbwn08sd68x
+timeline:
+    - ts: "2026-04-16 22:26:00"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-04-16 22:33:41"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-04-16 22:40:22"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-04-16 22:41:12"
+      description: This incident has been resolved.
+      resolved: true
