@@ -1,0 +1,17 @@
+version: incident/v1
+id: 6529jcjv5v9m
+name: Service Degradation Affecting Meeting Joins for Users with WEBRTC 2.0 feature in Amsterdam and Germany.
+impact: minor
+systems:
+    - 3z7b6jks10hm
+timeline:
+    - ts: "2026-04-16 07:12:22"
+      description: |-
+        We are currently investigating a service degradation affecting users with WEBRTC 2.0 feature ability to join Zoom meetings in Amsterdam and Germany.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-04-16 07:16:31"
+      description: "We have successfully identified the root cause preventing users with WEBRTC 2.0 feature with joining meetings in Amsterdam and Germany.\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \nThank you for your patience."
