@@ -1,0 +1,10 @@
+version: incident/v1
+id: qj05p69fff9h
+name: Claude Cowork not starting for some users
+impact: major
+systems:
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-04-16 19:24:38"
+      description: We are currently investigating this issue on the v1.3036.0 release of Claude Desktop
+      investigating: true
