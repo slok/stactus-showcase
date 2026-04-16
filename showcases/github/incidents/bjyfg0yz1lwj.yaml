@@ -1,7 +1,7 @@
 version: incident/v1
 id: bjyfg0yz1lwj
 name: Incident with Codespaces
-impact: minor
+impact: major
 systems:
     - h2ftsgbw7kmk
 timeline:
@@ -10,4 +10,10 @@ timeline:
       investigating: true
     - ts: "2026-04-16 15:08:26"
       description: We are experiencing degraded performance in Codespaces related to creating a new Codespace or starting an existing Codespace from the VS Code editor. SSH connections to Codespaces are not impacted. We are working toward mitigation and will continue to keep you updated on progress.
+      investigating: true
+    - ts: "2026-04-16 15:41:45"
+      description: Codespaces is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-04-16 15:49:13"
+      description: We found an issue that impacts 70% of Codespaces. We are engaged with the provider and working towards mitigation.
       investigating: true
