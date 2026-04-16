@@ -1,0 +1,14 @@
+version: incident/v1
+id: 947scltt0c6j
+name: Issues with invites
+impact: major
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2026-04-16 19:47:09"
+      description: We are currently investigating issues interacting with invites.
+      investigating: true
+    - ts: "2026-04-16 19:49:08"
+      description: The issue has been identified and changes are being rolled back.
+    - ts: "2026-04-16 20:05:42"
+      description: The rollback is progressing and we are monitoring recovery.
