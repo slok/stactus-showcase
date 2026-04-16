@@ -1,0 +1,10 @@
+version: incident/v1
+id: hj0sdpxfz18g
+name: API Analytics Delays
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-04-16 14:22:38"
+      description: We are currently investigating a temporary drop in the availability of our Analytics API. We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
