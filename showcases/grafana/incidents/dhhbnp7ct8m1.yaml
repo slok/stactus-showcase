@@ -39,3 +39,5 @@ timeline:
       description: |-
         Since today 16th at ~12:11UTC we are seeing issues on stack creation across all our regions. Customers will experience error message when attempting to create a stack.
         Our engineering team has identified the source of the issue as external to Grafana (provider), and they are tracking its recovery.
+    - ts: "2026-04-16 13:19:58"
+      description: The issue is fixed and we are currently monitoring the service.
