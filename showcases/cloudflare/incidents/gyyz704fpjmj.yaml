@@ -1,0 +1,10 @@
+version: incident/v1
+id: gyyz704fpjmj
+name: CF1 Client DEX - Device analytics overtime gaps
+impact: minor
+systems:
+    - nmp96vgn1hpl
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2026-04-16 22:10:28"
+      description: The DEX analytics overtime data for CF1 client devices may show missing data.
