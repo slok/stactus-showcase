@@ -1,0 +1,12 @@
+version: incident/v1
+id: xsbv8vx4wm5g
+name: Cloudflare API failures/errors
+impact: minor
+systems:
+    - g4tb35rs9yw7
+timeline:
+    - ts: "2026-04-16 12:11:50"
+      description: Cloudflare is investigating issues with Cloudflare APIs. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Cloudflare APIs are impacted as requests might fail and/or errors may be displayed.
+      investigating: true
+    - ts: "2026-04-16 12:40:28"
+      description: A fix has been implemented and we are monitoring the results.
