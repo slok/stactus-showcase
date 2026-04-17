@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9pfwpmcrldqw
+name: Increased errors in Seattle or Argo Smart Routing
+impact: minor
+systems:
+    - bvtc2f85ft3p
+timeline:
+    - ts: "2026-04-17 18:01:22"
+      description: Customers connecting in Seattle or who have Argo Smart Routing enabled that is routing them through Seattle may be seeing increased errors.
+      investigating: true
