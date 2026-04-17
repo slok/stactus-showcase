@@ -1,0 +1,15 @@
+version: incident/v1
+id: 4t4qg3vkrz6z
+name: Errors uploading documents to Google Drive in Claude.ai
+impact: minor
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+    - 0scnb50nvy53
+timeline:
+    - ts: "2026-04-17 18:59:56"
+      description: We are investigating an issue causing errors when uploading documents to Google Drive from Claude.ai, including the desktop app and Cowork.
+      investigating: true
