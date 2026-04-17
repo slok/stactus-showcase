@@ -10,3 +10,5 @@ timeline:
         Our Engineering team is aware of a widespread, external issue affecting .co top-level domain (TLD). While this incident originates outside of DigitalOcean's infrastructure, you may experience errors when querying a .co domain, regardless of the DNS resolver being used.
 
         Our Engineers are actively deploying temporary backend mitigations to help minimize the impact on our customers. We will continue to monitor the situation closely and post updates as more information becomes available.
+    - ts: "2026-04-17 22:53:11"
+      description: "Our Engineering team has implemented a fix to resolve the issue that was affecting the DNS resolution of .co top-level domain (TLD).\n\nDuring this time, users who are using DigitalOcean DNS resolvers in their resources should no longer experience issues related to the DNS resolution. \n\nOur Engineers are currently monitoring the situation. We will post an update as soon as the issue is fully resolved."
