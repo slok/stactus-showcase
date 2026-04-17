@@ -1,6 +1,6 @@
 version: incident/v1
 id: h64bf3slh2x8
-name: SMS Delivery Delays and Failures between Twilio Long Codes and Multiple Networks in Germany
+name: SMS Delivery Delays and Failures Between Twilio Long Codes and Multiple Networks in Germany
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -18,3 +18,6 @@ timeline:
       description: We have observed a recovery in SMS delivery To And From Twilio for a Subset of Longcode In Germany and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-04-17 19:23:18"
       description: We have observed a recovery in SMS delivery To And From Twilio for a Subset of Longcode In Germany and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-04-17 23:30:03"
+      description: The incident has been resolved and SMS delivery between Twilio Long Codes and affected networks in Germany is operating normally.
+      resolved: true
