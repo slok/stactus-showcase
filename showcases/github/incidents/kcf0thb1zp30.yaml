@@ -1,0 +1,16 @@
+version: incident/v1
+id: kcf0thb1zp30
+name: Disruption with some GitHub services
+impact: minor
+systems:
+    - kr09ddfgbfsf
+timeline:
+    - ts: "2026-04-17 14:56:22"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-17 14:56:58"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-04-17 14:57:34"
+      description: We are experiencing an issue that impacts approximately 10% of traffic to the web, resulting in slow and failed calls. We are investigating and will continue to post updates as we work toward mitigation.
+      investigating: true
