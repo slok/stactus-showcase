@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8whvfslclskl
+name: Spaces availability in NYC3
+impact: none
+systems:
+    - tz43j53blsmy
+timeline:
+    - ts: "2026-04-17 18:27:09"
+      description: From 17:22 to 17:46 UTC, our Engineering team observed an issue impacting Spaces availability in the NYC3 region. During this time, customers may have encountered 500 errors and degraded performance while accessing Spaces buckets. The issue has now been fully resolved. If you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel. We apologize for any inconvenience caused.
+      resolved: true
