@@ -1,0 +1,12 @@
+version: incident/v1
+id: chw5ddsrpdnx
+name: DNS resolution intermittently failing for .co domains
+impact: minor
+systems:
+    - 8w536gxk7dvq
+timeline:
+    - ts: "2026-04-17 21:50:37"
+      description: "Cloudflare is aware of DNS resolution intermittently failing for domains using .co ccTLD. \n\nWe are trying to reach the ccTLD operator to resolve this issue."
+      investigating: true
+    - ts: "2026-04-17 21:55:38"
+      description: A fix has been implemented and we are monitoring the results.
