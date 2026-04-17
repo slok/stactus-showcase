@@ -1,0 +1,13 @@
+version: incident/v1
+id: z3b5zxjtp6g1
+name: co ccTLD DNS errors
+impact: minor
+systems:
+    - 8w536gxk7dvq
+timeline:
+    - ts: "2026-04-17 15:13:06"
+      description: |-
+        Cloudflare is aware of and investigating problems with Cloudflare sites with .co ccTLDs intermittently returning DNS errors.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
