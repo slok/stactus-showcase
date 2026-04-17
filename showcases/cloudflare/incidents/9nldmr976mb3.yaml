@@ -1,0 +1,14 @@
+version: incident/v1
+id: 9nldmr976mb3
+name: Elevated 502 errors returned from some locations
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+    - hb7g5sq2zz0h
+    - tmh50tx2nprs
+timeline:
+    - ts: "2026-04-17 16:57:33"
+      description: Elevated 502 errors returned from some locations
+      investigating: true
+    - ts: "2026-04-17 17:03:44"
+      description: A fix has been implemented and we are monitoring the results.

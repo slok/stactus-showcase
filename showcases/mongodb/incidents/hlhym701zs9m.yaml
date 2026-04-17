@@ -1,0 +1,13 @@
+version: incident/v1
+id: hlhym701zs9m
+name: 'MongoDB Atlas BI Connector: Connections and queries fail'
+impact: major
+systems:
+    - q57ng8brt2td
+timeline:
+    - ts: "2026-04-17 17:03:13"
+      description: |-
+        We are currently investigating reports in MongoDB Atlas for Government that the Business Intelligence Connector (BI Connector) is failing. Affected users will have issues connecting to and querying their BI Connectors. No workaround has been identified at this time.
+
+        Underlying cluster health is not affected.
+      investigating: true
