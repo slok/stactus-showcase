@@ -1,0 +1,15 @@
+version: incident/v1
+id: kl8g88627544
+name: Cloudflare Workers AI Issues
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2026-04-17 22:17:48"
+      description: |-
+        Cloudflare has identified an issue whereby customers might experience errors from inference requests to @cf/baai/bge-m3 model using Workers AI.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-04-17 22:36:39"
+      description: The issue has been identified and a fix is being implemented.
