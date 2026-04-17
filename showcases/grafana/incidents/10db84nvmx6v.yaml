@@ -1,0 +1,15 @@
+version: incident/v1
+id: 10db84nvmx6v
+name: Query Caching - Degraded Performance
+impact: minor
+systems:
+    - hbqgpzmf8h9k
+    - 1mnpb5g27m21
+    - qqj6ssvvsqmq
+timeline:
+    - ts: "2026-04-17 21:23:50"
+      description: |-
+        As of 20:52 UTC, we are currently investigating degraded Query Caching performance in multiple regions. For datasources where query caching is configured, some queries may take longer than usual.
+
+        Our team is actively working to identify the cause. Thank you for your patience.
+      investigating: true
