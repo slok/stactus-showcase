@@ -1,0 +1,13 @@
+version: incident/v1
+id: q6jpylk84lk4
+name: Increase in API errors and latency
+impact: minor
+systems:
+    - g4tb35rs9yw7
+timeline:
+    - ts: "2026-04-17 20:19:32"
+      description: |-
+        Cloudflare is aware of an increase of errors and latency across a number of APIs.
+        We are working to analyse and mitigate this problem.  More updates to follow shortly.
+    - ts: "2026-04-17 20:25:05"
+      description: A fix has been implemented and we are monitoring the results.

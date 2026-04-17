@@ -11,3 +11,8 @@ timeline:
 
         Underlying cluster health is not affected.
       investigating: true
+    - ts: "2026-04-17 20:24:40"
+      description: |-
+        We have identified the issue affecting the Business Intelligence (BI) Connector in MongoDB Atlas for Government. We are working on a fix. While no workaround exists, data remains accessible to MongoDB clients. Affected users will not be able to connect to their clusters' BI Connectors.
+
+        Cluster health is unaffected.
