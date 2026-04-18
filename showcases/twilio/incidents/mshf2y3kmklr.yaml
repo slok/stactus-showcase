@@ -1,6 +1,6 @@
 version: incident/v1
 id: mshf2y3kmklr
-name: SMS and MMS Delivery Delays Between Twilio and AT&T in United States
+name: SMS and MMS Delivery Delays and Failures Between Twilio and AT&T in United States
 impact: minor
 systems:
     - 7d8w22hqrh6s
@@ -13,7 +13,6 @@ systems:
     - 5cv0b6y86d2f
     - 32f2bm54nkvv
     - tvjwfvczkf46
-    - 2vs63pk0qq23
 timeline:
     - ts: "2026-04-18 01:58:04"
       description: Twilio customers may be experiencing SMS and MMS delivery delays and failures between Twilio and AT&T network subscribers in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
@@ -24,3 +23,5 @@ timeline:
       description: Twilio customers may be experiencing SMS and MMS delivery delays between Twilio and AT&T network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-04-18 03:58:34"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2026-04-18 05:24:10"
+      description: Twilio customers may be experiencing SMS and MMS delivery delays and failures between Twilio and AT&T network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
