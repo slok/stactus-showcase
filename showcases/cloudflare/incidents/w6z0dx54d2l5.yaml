@@ -11,3 +11,11 @@ timeline:
 
         We are working to mitigate this problem.  More updates to follow shortly.
       investigating: true
+    - ts: "2026-04-18 13:42:21"
+      description: |-
+        We identified that a small percentage of customers may see http analytics delayed by up to about 6 hours before being shown in the Cloudflare Dashboard. All Cloudflare traffic and security services remain operational and unimpacted.
+        Remediation is in progress
+    - ts: "2026-04-18 13:45:52"
+      description: |-
+        We identified that 0.05% of customers may see http analytics delayed by up to about 6 hours before being shown in the Cloudflare Dashboard. All Cloudflare traffic and security services remain operational and unimpacted.
+        Remediation is in progress
