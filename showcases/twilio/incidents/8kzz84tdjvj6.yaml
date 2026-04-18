@@ -1,10 +1,13 @@
 version: incident/v1
 id: 8kzz84tdjvj6
-name: Receipts for RCS messages on ATT devices are delayed
+name: RCS Messages and Receipts are delayed on AT&T Network
 impact: minor
 systems:
     - t32hnkr2q793
 timeline:
     - ts: "2026-04-18 03:00:00"
       description: Receipts for RCS messages on ATT devices are delayed, We are working with ATT provider to resolve this issue. We will provide an update as soon as possible or within the next 1 hour
+      investigating: true
+    - ts: "2026-04-18 04:13:17"
+      description: Receipts for RCS messages on ATT devices are still delayed, We are working with ATT provider to resolve this issue. We will provide an update as soon as possible or within the next 2 hours
       investigating: true
