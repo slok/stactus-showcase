@@ -1,0 +1,15 @@
+version: incident/v1
+id: 1gr3tzmbxd4d
+name: Service Degradation Affecting SMS Delivery in North America Region.
+impact: minor
+systems:
+    - 9qv6bp63zynp
+timeline:
+    - ts: "2026-04-18 02:29:05"
+      description: |-
+        We are currently investigating a service degradation impacting SMS Delivery in North America region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
