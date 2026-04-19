@@ -1,0 +1,13 @@
+version: incident/v1
+id: y0nj9lwzywk3
+name: Delays Loading Observability, Analytics and Speed Insights
+impact: minor
+systems:
+    - fk66q26xp7hh
+    - pps71v7cb51j
+    - kscyjm1qp3cw
+    - zr2j7y9kv5hd
+timeline:
+    - ts: "2026-04-19 20:43:03"
+      description: We are currently experiencing delays in loading Observability, Analytics and Speed Insights data on the dashboard. This may also affect User Activity Events and Firewall UI. Vercel Alerts may also be delayed. We will provide additional updates as they become available.
+      investigating: true
