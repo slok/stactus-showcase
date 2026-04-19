@@ -1,0 +1,9 @@
+version: incident/v1
+id: 02xt3xcybqn4
+name: R2 customers may see an increase of HTTP 500s in KIX
+impact: minor
+systems:
+    - pkzjg0k7vjsj
+timeline:
+    - ts: "2026-04-19 05:07:45"
+      description: Cloudflare is investigating reports of HTTP 500 responses for R2 services in the KIX (Osaka) location. We are working to mitigate this, more updates to follow shortly.
