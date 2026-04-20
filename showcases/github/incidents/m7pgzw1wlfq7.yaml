@@ -25,3 +25,13 @@ timeline:
     - ts: "2026-04-20 17:32:37"
       description: We continue to work on mitigation regarding new issues not showing on project boards.
       investigating: true
+    - ts: "2026-04-20 18:08:33"
+      description: A deployment to fix this issue of new issues not showing up in projects is underway.
+      investigating: true
+    - ts: "2026-04-20 18:20:26"
+      description: The issue has been mitigated. Newly created issues linked to projects should now function as expected. Issues that were linked to projects during the incident may take approximately five hours to render correctly while we complete a re-index.
+      investigating: true
+    - ts: "2026-04-20 18:20:38"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-04-20 18:21:15"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
