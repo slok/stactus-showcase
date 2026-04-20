@@ -16,3 +16,6 @@ timeline:
     - ts: "2026-04-20 15:20:46"
       description: We are continuing to work on a mitigation to unblock code scanning default setup and code quality features on pull requests.
       investigating: true
+    - ts: "2026-04-20 16:16:24"
+      description: Code scanning default setup and Code Quality triggers are back up and running. PRs not processed before or during this incident will require a new push to trigger code scanning or code quality analysis.<br /><br />We are seeing problems with new issues not showing on project boards and are working on mitigation.
+      investigating: true
