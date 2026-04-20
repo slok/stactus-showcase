@@ -1,0 +1,11 @@
+version: incident/v1
+id: mq881xjms6bq
+name: Elevated errors on Vercel Dashboard and API endpoints
+impact: minor
+systems:
+    - fk66q26xp7hh
+    - 7ckq6xr6nsbv
+    - rxynwj392p81
+timeline:
+    - ts: "2026-04-20 19:40:59"
+      description: We have identified an issue causing elevated error rates on the Vercel Dashboard and API endpoints. Some users may experience an issue creating new deployments, but existing deployments are not impacted. We will share more updates as they become available.
