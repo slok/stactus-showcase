@@ -1,0 +1,19 @@
+version: incident/v1
+id: 8rg3l7v56ngc
+name: Claude Sonnet 4.5 error spike
+impact: major
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+    - 0scnb50nvy53
+timeline:
+    - ts: "2026-04-20 06:14:02"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-04-20 06:38:16"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-04-20 06:41:55"
+      description: We are continuing to monitor for any further issues.
