@@ -1,9 +1,13 @@
 version: incident/v1
 id: hc0btb5mc8n0
-name: Generic Update for Identified Status
-impact: none
-systems: []
+name: Customers Delayed for Emergency Address Registrations
+impact: minor
+systems:
+    - pv5w18vrltfl
 timeline:
     - ts: "2026-04-20 17:33:55"
       description: Our engineers are investigating the issue with delays with Emergency Address registrations. Numbers are show "Pending Registration" for longer than usual and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-20 17:45:26"
+      description: We are investigating delays in with Emergency Address registrations. Numbers are show "Pending Registration" for longer than usual and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
