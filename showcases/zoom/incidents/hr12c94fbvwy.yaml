@@ -1,6 +1,6 @@
 version: incident/v1
 id: hr12c94fbvwy
-name: Service Degradation Affecting Live Transcriptions in Zoom Client 7.0.0 and Above.
+name: Service Degradation Affecting Live Transcriptions in Zoom Client 7.0.0 and Above
 impact: minor
 systems:
     - 8vtcg8np4n8c
@@ -15,3 +15,5 @@ timeline:
       investigating: true
     - ts: "2026-04-20 06:25:43"
       description: "We have successfully identified the root cause affecting users using Zoom Client 7.0.0 and above with My Notes feature disabled to view live transcriptions in Meetings. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience."
+    - ts: "2026-04-20 08:14:48"
+      description: "Our team continue to work on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
