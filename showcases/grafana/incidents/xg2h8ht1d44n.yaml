@@ -1,6 +1,6 @@
 version: incident/v1
 id: xg2h8ht1d44n
-name: Restrictions on Alerts & Reports for Grafana Cloud Free Users
+name: Restrictions on Alerts & Reports for Grafana Cloud Free/Trial Users
 impact: minor
 systems:
     - wfc1hb7m917l
@@ -95,4 +95,6 @@ systems:
     - lv9z30y5w7lm
 timeline:
     - ts: "2026-04-20 21:12:52"
-      description: Grafana Labs is taking steps to safeguard our Grafana Cloud platform against unauthorized access while maintaining the Grafana Cloud Free tier of service our users and the community have come to rely on. As of Monday April 20, alerting and reporting capabilities have been disabled in new Grafana Cloud Free and trial stacks. We are working towards deploying improvements and restoring those functionalities in a way that keeps our platform secure and open for all of our users.
+      description: Grafana Labs is taking steps to safeguard our Grafana Cloud platform against unauthorized use while maintaining the Grafana Cloud Free and Trial tiers of service our users and the community have come to rely on. As of Monday April 20, alerting and reporting capabilities have been disabled in new Grafana Cloud Free and trial stacks. We are working towards deploying improvements and restoring those functionalities in a way that keeps our platform secure and open for all of our users.
+    - ts: "2026-04-20 22:07:54"
+      description: We are continuing to monitor for any further issues.
