@@ -1,0 +1,10 @@
+version: incident/v1
+id: d6v8pn1phpky
+name: Observability Alerts degraded
+impact: minor
+systems:
+    - 5d8svglj5s34
+timeline:
+    - ts: "2026-04-20 09:38:32"
+      description: We are currently investigating Observability Alerts not detecting new alerts.
+      investigating: true
