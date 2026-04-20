@@ -10,3 +10,6 @@ timeline:
     - ts: "2026-04-20 13:57:43"
       description: We are actively working to mitigate an issue affecting code scanning default setup and code quality features on pull requests. Users may experience pull request code scanning and code quality analyses not being triggered on new pull requests. Our engineering team has identified the root cause and working on mitigating the issue.
       investigating: true
+    - ts: "2026-04-20 14:38:51"
+      description: We are currently deploying mitigations that should unblock code scanning default setup and code quality features on pull requests.
+      investigating: true
