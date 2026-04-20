@@ -1,0 +1,11 @@
+version: incident/v1
+id: 8482mmb5n1n1
+name: Elevated errors for uploading files
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+timeline:
+    - ts: "2026-04-20 13:31:05"
+      description: We are currently investigating an issue related to uploading files on Claude.ai and Claude API. Some users will see their uploads failing and they are advised to retry.
+      investigating: true

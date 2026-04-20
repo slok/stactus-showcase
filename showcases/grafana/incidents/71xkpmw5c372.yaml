@@ -1,0 +1,17 @@
+version: incident/v1
+id: 71xkpmw5c372
+name: Elevated 429 Errors Impacting Metrics Querying Across Multiple Regions
+impact: critical
+systems:
+    - mk0mjmlmp2ms
+    - 5270kl9kd6l2
+    - jhc34sjt42wd
+timeline:
+    - ts: "2026-04-20 14:09:09"
+      description: |-
+        We are currently experiencing a major incident causing elevated 429 (rate limit) errors across multiple regions, primarily impacting metrics querying.
+
+        This is a high-priority issue, and our engineering team is actively engaged and working urgently to identify the root cause and restore full service as quickly as possible. Customers may experience widespread failures or delays when querying metrics during this time.
+
+        We understand the significant impact this may have and will continue to provide updates as more information becomes available.
+      investigating: true
