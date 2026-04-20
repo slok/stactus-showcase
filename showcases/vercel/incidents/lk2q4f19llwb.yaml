@@ -1,0 +1,10 @@
+version: incident/v1
+id: lk2q4f19llwb
+name: Unaccessible runtime logs in the dashboard
+impact: major
+systems:
+    - pps71v7cb51j
+timeline:
+    - ts: "2026-04-20 10:10:28"
+      description: We are currently investigating runtime logs not loading properly in the dashboard. We will share more updates as soon as we have more information.
+      investigating: true

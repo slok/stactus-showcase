@@ -1,0 +1,10 @@
+version: incident/v1
+id: fmz74mc27dkf
+name: Rulesets Rate Limiting accuracy
+impact: minor
+systems:
+    - ch3mwx0hr4k6
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-04-20 10:13:18"
+      description: Cloudflare is aware of, and investigating an issue where some requests processed by workers may not be correctly enforcing rulesets rate limiting counts.
