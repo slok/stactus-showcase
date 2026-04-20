@@ -1,0 +1,12 @@
+version: incident/v1
+id: hnwwtf2zd2tp
+name: SMS Delivery Delays From a Subset of Twilio Alphanumeric Sender IDs and Long Codes to MTN Ghana
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-04-20 15:39:11"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric Sender IDs and Long Codes to MTN network subscribers in Ghana. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-20 15:51:32"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric Sender IDs and Long Codes to MTN network subscribers in Ghana. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
