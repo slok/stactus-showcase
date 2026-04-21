@@ -1,6 +1,6 @@
 version: incident/v1
 id: djfv8crcy5f2
-name: MMS Delivery Receipt Delays between a Subset of Twilio Short Codes and Multiple Networks in United States
+name: MMS Delivery Receipt Delays and Delivery Failures between a Subset of Twilio Short Codes and Multiple Networks in United States
 impact: minor
 systems:
     - h0fl7prwfhvm
@@ -13,3 +13,6 @@ timeline:
       investigating: true
     - ts: "2026-04-20 22:12:16"
       description: We have observed a recovery in MMS Delivery Receipt Delays between a subset of Twilio Short Codes and multiple networks in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-04-21 00:17:59"
+      description: The incident has been resolved and MMS delivery receipts and MMS delivery between a subset of Twilio Short Codes and network subscribers on affected networks in the United States are operating normally.
+      resolved: true
