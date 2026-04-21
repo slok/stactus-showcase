@@ -1,6 +1,6 @@
 version: incident/v1
 id: b54c985kcd04
-name: SMS Delivery Delays from Twilio Short Codes and Long Codes to Datora Brazil
+name: SMS Delivery Delays from Twilio Short Codes, Long Codes, and Alphanumeric Sender IDs to Datora Brazil
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -53,3 +53,7 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays from Twilio Short Codes, Long Codes, and Alphanumeric Sender IDs to Datora network subscribers in Brazil. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
     - ts: "2026-04-20 06:38:16"
       description: Twilio customers may be experiencing SMS delivery delays from Twilio Short Codes and Long Codes to Datora network subscribers in Brazil. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+    - ts: "2026-04-21 06:34:10"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Short Codes and Long Codes to Datora network subscribers in Brazil. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+    - ts: "2026-04-21 06:38:44"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Short Codes, Long Codes, and Alphanumeric Sender IDs to Datora network subscribers in Brazil. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
