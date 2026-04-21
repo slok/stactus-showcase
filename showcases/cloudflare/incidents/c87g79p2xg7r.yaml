@@ -1,0 +1,10 @@
+version: incident/v1
+id: c87g79p2xg7r
+name: Cloudflare Pages build issues
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2026-04-21 15:46:28"
+      description: Cloudflare is aware of and investigating an issue with Cloudflare Pages builds which potentially impacts multiple customers. Users may not be able to push changes to their repos, or pushed changes may fail to or be delayed in propagating to Cloudflare Pages. These changes may not be deployed, or may be delayed. This issue only impacts new changes, existing sites and traffic to those sites are not affected.
+      investigating: true
