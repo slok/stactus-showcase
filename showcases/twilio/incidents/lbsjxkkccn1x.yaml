@@ -4,10 +4,14 @@ name: Degraded service for Voice and Video
 impact: minor
 systems:
     - 2vfx22h9nhbk
+    - 1rcq4fprxs8j
 timeline:
     - ts: "2026-04-21 16:53:20"
-      description: Due to a third-party provider outage, customers may be experiencing degraded service for Voice and Video. Customers may not be able to transcribe a recording from request to completion. The next update will be provided in 1 hour or sooner.
+      description: Due to a third-party provider outage, customers may be experiencing degraded live transcription services for Voice and Video. Customers may not be able to transcribe their calls at this time. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2026-04-21 16:54:53"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-04-21 16:58:32"
       description: We are continuing to investigate this issue.
       investigating: true
