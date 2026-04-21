@@ -1,0 +1,10 @@
+version: incident/v1
+id: pykgy6sq109l
+name: Log Explorer Issues
+impact: minor
+systems:
+    - w324dr932r05
+timeline:
+    - ts: "2026-04-21 15:02:55"
+      description: "Cloudflare is investigating issues with Log Explorer. \n\nSome customers may be seeing slower queries in Log Explorer than usual.\nMore updates to follow shortly."
+      investigating: true

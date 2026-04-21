@@ -1,0 +1,12 @@
+version: incident/v1
+id: b4235qyfzx2z
+name: Disruption with projects service
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-21 15:03:21"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-21 15:07:30"
+      description: We are investigating reports of delays with GitHub Projects. Users may notice that changes made to projects are not reflected immediately. Our team has identified the source of the delays and is actively working to resolve the issue.
+      investigating: true
