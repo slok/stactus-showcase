@@ -20,5 +20,5 @@ timeline:
     - ts: "2026-04-17 15:18:05"
       description: The degradation affecting Issues has been mitigated. We are monitoring to ensure stability.
     - ts: "2026-04-17 15:18:14"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On April 17, 2026, between 14:46 UTC and 15:12 UTC, users experienced a degraded web experience on GitHub.com. During this time, approximately 1.5% of web requests resulted in errors, with some users encountering slow page loads or failed requests. The issue was caused by capacity saturation of a caching component in one of our data center regions. We mitigated the issue by redirecting traffic to an unaffected region and rolling back a recent deployment. The incident was fully resolved at 15:18 UTC. We are taking steps to provide appropriate capacity for this caching path to prevent recurrence.
       resolved: true
