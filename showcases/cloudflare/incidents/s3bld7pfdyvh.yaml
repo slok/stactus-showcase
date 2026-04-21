@@ -1,0 +1,16 @@
+version: incident/v1
+id: s3bld7pfdyvh
+name: Degraded network performance for some users around Dallas, Texas
+impact: minor
+systems:
+    - r8ppmb3xm98j
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-04-21 04:58:39"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in Dallas, Texas.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-04-21 04:58:55"
+      description: The issue has been identified and a fix is being implemented.
