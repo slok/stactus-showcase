@@ -1,6 +1,6 @@
 version: incident/v1
 id: qc4xdpjkd3p6
-name: SMS Delivery Delays from a Subset of Twilio Short Codes and Long Codes to United States
+name: SMS Delivery Delays From a Subset of Twilio Short Codes and Long Codes to United States
 impact: minor
 systems:
     - 7d8w22hqrh6s
@@ -11,4 +11,10 @@ timeline:
       investigating: true
     - ts: "2026-04-21 11:47:24"
       description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes and Long Codes to the United States. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-21 13:45:53"
+      description: Twilio customers may be experiencing SMS delivery delays and delivery receipt delays from a subset of Twilio Short Codes and Long Codes to the United States. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-21 13:48:09"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes and Long Codes to the United States. Our team is actively investigating this issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
