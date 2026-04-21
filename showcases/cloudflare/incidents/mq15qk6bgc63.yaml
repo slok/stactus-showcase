@@ -1,0 +1,10 @@
+version: incident/v1
+id: mq15qk6bgc63
+name: Cloudflare Access Availability Issues
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-04-21 12:58:49"
+      description: "Cloudflare is investigating issues with Cloudflare Access in a limited number of geographic locations.\n\nCustomers using Cloudflare Access can experience a small number of errors. \n\nWe are working to understand the full impact and mitigate this problem.  More updates to follow shortly."
+      investigating: true
