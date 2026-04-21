@@ -16,3 +16,6 @@ timeline:
     - ts: "2026-04-21 16:18:24"
       description: We are deploying a fix to relieve the queue of delayed data. Some users may still experience delays with GitHub Projects where changes are not reflected immediately as remaining backlogs are processed.
       investigating: true
+    - ts: "2026-04-21 16:45:22"
+      description: The mitigation is deployed and we are seeing recorvery in the queues and will provide an update as to when full recovery will be realized.
+      investigating: true
