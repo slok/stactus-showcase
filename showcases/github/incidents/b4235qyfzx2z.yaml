@@ -13,3 +13,6 @@ timeline:
     - ts: "2026-04-21 15:42:20"
       description: We continue to investigate delays with GitHub Projects where changes may not be reflected immediately. Our team has identified the cause and applied mitigations to address the issue. We are seeing initial signs of recovery, though some delays may persist as the system works through a backlog of pending updates.
       investigating: true
+    - ts: "2026-04-21 16:18:24"
+      description: We are deploying a fix to relieve the queue of delayed data. Some users may still experience delays with GitHub Projects where changes are not reflected immediately as remaining backlogs are processed.
+      investigating: true
