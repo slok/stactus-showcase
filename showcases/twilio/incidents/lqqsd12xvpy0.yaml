@@ -1,0 +1,9 @@
+version: incident/v1
+id: lqqsd12xvpy0
+name: Delays for Subset of SMPP API Mobile Originated Messages
+impact: none
+systems: []
+timeline:
+    - ts: "2026-04-21 09:56:56"
+      description: Subset of SMPP API MO messages were delayed. Impact lasted for 235 minutes between 00:03 and 03:58 UTC on 04/21/2026. During this period of time customers may have experienced delays. The issue has now been resolved.
+      resolved: true
