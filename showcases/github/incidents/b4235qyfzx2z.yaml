@@ -22,3 +22,6 @@ timeline:
     - ts: "2026-04-21 17:21:33"
       description: The queues are continuing to decrease and we are working to accelerate the rate of processing through the queues.
       investigating: true
+    - ts: "2026-04-21 19:41:18"
+      description: Recovery from the delays affecting GitHub Projects continues to progress. We have deployed additional mitigations that are accelerating processing of the backlog. Users may still experience delays where changes to projects are not reflected immediately. We expect full recovery within approximately six hours.
+      investigating: true
