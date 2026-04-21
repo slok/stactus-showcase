@@ -1,0 +1,9 @@
+version: incident/v1
+id: tk5wlkj00hfj
+name: Page Rules with Host Header Override issues
+impact: minor
+systems:
+    - ch3mwx0hr4k6
+timeline:
+    - ts: "2026-04-21 18:09:32"
+      description: Cloudflare has identified an issue with customers creating/updating Page Rules with the Host Header Override setting. Other settings are not impacted. We are working to mitigate the problem, more updates to follow shortly.
