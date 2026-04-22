@@ -1,0 +1,9 @@
+version: incident/v1
+id: 9wx6bv6lfnr7
+name: Zone Activation Delays
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-22 08:30:33"
+      description: Cloudflare is experiencing delays in activating customer sites. This does not impact existing active sites already in production. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true

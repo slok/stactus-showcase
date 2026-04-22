@@ -1,0 +1,9 @@
+version: incident/v1
+id: s2tw9gb67yqp
+name: Network Performance Issues in parts of Asia and Europe.
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-22 08:26:55"
+      description: Between approximately 18:00 UTC on April 20 and 07:35 UTC on April 22, a subset of users in parts of Asia and Europe experienced degraded performance when reaching Cloudflare's network. This was caused by a configuration issue in Singapore that resulted in suboptimal traffic routing. The issue has been identified and resolved.
+      resolved: true
