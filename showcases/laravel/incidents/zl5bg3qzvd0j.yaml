@@ -1,0 +1,15 @@
+version: incident/v1
+id: zl5bg3qzvd0j
+name: Logs dashboard page unavailable in us-east-2
+impact: minor
+systems:
+    - p6b2gqg6g107
+timeline:
+    - ts: "2026-04-22 04:47:38"
+      description: We are aware of an issue affecting the Logs dashboard page for applications hosted in us-east-2. Log collection is not impacted. Our team is actively investigating. Next update in 30 minutes.
+      investigating: true
+    - ts: "2026-04-22 04:57:48"
+      description: The issue has been identified and a fix is being deployed.
+    - ts: "2026-04-22 04:59:28"
+      description: The fix has been deployed and the issue is resolved.
+      resolved: true
