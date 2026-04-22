@@ -1,0 +1,12 @@
+version: incident/v1
+id: hp14hlgrsmsr
+name: SMS Delivery Delays from Twilio Phone Numbers to Movistar Chile
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-04-22 15:59:15"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Phone Numbers to Movistar network subscribers in Chile. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-22 16:06:26"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Phone Numbers to Movistar network subscribers in Chile. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
