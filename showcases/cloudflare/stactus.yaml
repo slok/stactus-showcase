@@ -769,25 +769,27 @@ systems:
       description: Public-facing marketing website at https://www.cloudflare.com
     - id: 5ynnmbhcqkv2
       name: Asia / Vientiane, Laos - (VTE)
+    - id: 8wk7c6y5dgfc
+      name: Cloudflare Sites and Services / Mesh
     - id: j9jl2gb9zywx
       name: Cloudflare Sites and Services / Mirage
       description: Automatic Responsive Web Design via Intelligent Image Loading
     - id: 4n0gb0kh02gf
       name: Cloudflare Sites and Services / Network
-    - id: 5xvn0m7tthlf
-      name: Cloudflare Sites and Services / Notifications
     - id: c11j1dyzn0j4
       name: Latin America & the Caribbean / Neuquen, Argentina - (NQN)
     - id: 84ynm0c8bkm4
       name: Asia / Xinyu, China - (KHN)
+    - id: 5xvn0m7tthlf
+      name: Cloudflare Sites and Services / Notifications
     - id: mfty6kskddpf
       name: Cloudflare Sites and Services / Observatory
       description: Observatory uses synthetic tests and real user data from browsers to assess the performance of your website. These data sources produce metrics that provide different types of insights into your website’s performance.
+    - id: 56zs2vmr81l0
+      name: Asia / Yerevan, Armenia - (EVN)
     - id: hk5dqm69klkp
       name: Cloudflare Sites and Services / Page Shield
       description: Page Shield simplifies external script management by tracking loaded resources like scripts and providing alerts when it detects new resources or malicious scripts. Page Shield also tracks the connections made by scripts on your domain’s pages and checks if they are malicious based on their destination.
-    - id: 56zs2vmr81l0
-      name: Asia / Yerevan, Armenia - (EVN)
     - id: vgxj684rcw7t
       name: Cloudflare Sites and Services / Pages
     - id: yrlfvdv9yv53
@@ -806,23 +808,23 @@ systems:
     - id: z4wlt5jx9szq
       name: Cloudflare Sites and Services / Realtime SFU
       description: Cloudflare Realtime is infrastructure for real-time audio/video/data applications. It allows you to build real-time apps without worrying about scaling or regions. It can act as a selective forwarding unit (WebRTC SFU), as a fanout delivery system for broadcasting (WebRTC CDN) or anything in between.
+    - id: y1hwrbmkgw5p
+      name: Latin America & the Caribbean / Goiania, Brazil - (GYN)
     - id: 5s616lljfwdz
       name: Cloudflare Sites and Services / Realtime TURN Service
       description: "Separately from the SFU, Realtime offers a managed TURN service. TURN acts as a relay point for traffic between WebRTC clients like the browser and SFUs, particularly in scenarios where direct communication is obstructed by NATs or firewalls. TURN maintains an allocation of public IP addresses and ports for each session, ensuring connectivity even in restrictive network environments.\r\n\r\nUsing Cloudflare Realtime TURN service is available free of charge when used together with the Realtime SFU. Otherwise, it costs $0.05/real-time GB outbound from Cloudflare to the TURN client."
-    - id: y1hwrbmkgw5p
-      name: Latin America & the Caribbean / Goiania, Brazil - (GYN)
+    - id: 0k3fygt2bgzr
+      name: Europe / Valletta, Malta - (MLA)
+    - id: wyq8p07mvlkf
+      name: Asia / Cagayan de Oro, Philippines - (CGY)
     - id: yxhtws7ltl9t
       name: Cloudflare Sites and Services / RealtimeKit
       description: "Build real-time serverless video, audio and data applications.\r\n\r\nCloudflare Realtime is infrastructure for real-time audio/video/data applications. It allows you to build real-time apps without worrying about scaling or regions. It can act as a selective forwarding unit (WebRTC SFU), as a fanout delivery system for broadcasting (WebRTC CDN) or anything in between."
-    - id: 0k3fygt2bgzr
-      name: Europe / Valletta, Malta - (MLA)
+    - id: ytbzfqk2y4k6
+      name: Europe / Ljubljana, Slovenia - (LJU)
     - id: 8w536gxk7dvq
       name: Cloudflare Sites and Services / Recursive DNS
       description: Free recursive DNS service at 1.1.1.1 and 1.0.0.1
-    - id: wyq8p07mvlkf
-      name: Asia / Cagayan de Oro, Philippines - (CGY)
-    - id: ytbzfqk2y4k6
-      name: Europe / Ljubljana, Slovenia - (LJU)
     - id: kn2xkt469vyh
       name: Cloudflare Sites and Services / Registrar
       description: Cloudflare Registrar securely registers and manages customer domain names
@@ -834,32 +836,32 @@ systems:
     - id: q2w4kkkzw5gs
       name: Cloudflare Sites and Services / Secondary DNS
       description: Secondary DNS capabilities allow for incoming as well as outgoing zone transfers between Cloudflare and other DNS providers.
+    - id: h75hprrmg1wd
+      name: Asia / Kochi, India - (COK)
     - id: 18qkc83zzmxb
       name: Cloudflare Sites and Services / Security Center
       description: Cloudflare Security Center brings together our suite of security products, our security expertise, and unique Internet intelligence as a unified security intelligence solution to strengthen your security posture.
-    - id: h75hprrmg1wd
-      name: Asia / Kochi, India - (COK)
+    - id: hq55hw1x6yb2
+      name: Latin America & the Caribbean / Cuiaba, Brazil - (CGB)
     - id: 570kfpd0dgg7
       name: Cloudflare Sites and Services / Snippets
       description: Cloudflare Snippets provide a flexible way to customize the behavior of your website or application using short pieces of JavaScript code. Use snippets to customize HTTP response headers, implement JWT validation, define complex redirect functionality, and more.
-    - id: hq55hw1x6yb2
-      name: Latin America & the Caribbean / Cuiaba, Brazil - (CGB)
     - id: 6dd6ssg7plt0
       name: Cloudflare Sites and Services / Spectrum
       description: Spectrum allows you to route MQTT, email, file transfer, version control, games, and more over TCP or UDP through Cloudflare to mask the origin and protect it from DDoS attacks
+    - id: n332jkf8s56z
+      name: Asia / Denpasar, Indonesia - (DPS)
     - id: fcx388ss9k9x
       name: Cloudflare Sites and Services / Speed Optimizations
       description: Cloudflare products that are recommended for enhancing your website’s performance like AMP, APO (Automatic Platform Optimization), Auto Minify, Fonts, Rocket Loader, and SXGs.
     - id: 47xg28c02lnk
       name: Cloudflare Sites and Services / Stream
       description: Cloudflare Stream lets you or your end users upload, store, encode, and deliver live and on-demand video with one API, without configuring or maintaining infrastructure
-    - id: n332jkf8s56z
-      name: Asia / Denpasar, Indonesia - (DPS)
+    - id: bn06brrnz2n2
+      name: Asia / Kannur, India - (CNN)
     - id: cghykwlwsmn5
       name: Cloudflare Sites and Services / SSL Certificate Provisioning
       description: Provisioning service for edge certificates like Universal and Advanced SSL
-    - id: bn06brrnz2n2
-      name: Asia / Kannur, India - (CNN)
     - id: 9p2qlpt19nqb
       name: Cloudflare Sites and Services / SSL for SaaS Provisioning
       description: Certificate provisioning service for custom hostnames on the edge
@@ -878,33 +880,33 @@ systems:
     - id: y98zlwj1d7zh
       name: Cloudflare Sites and Services / Tunnel
       description: Cloudflare Tunnel provides you with a secure way to connect your resources to Cloudflare without a publicly routable IP address
+    - id: 64n90y8p9rp3
+      name: Latin America & the Caribbean / Cacador, Brazil - (CFC)
     - id: m4jywscr0n0k
       name: Cloudflare Sites and Services / Turnstile
       description: Turnstile is a user-friendly, privacy-preserving alternative to CAPTCHA.
-    - id: 64n90y8p9rp3
-      name: Latin America & the Caribbean / Cacador, Brazil - (CFC)
     - id: b92xct6jm48g
       name: Cloudflare Sites and Services / User Profiles
       description: Changes to the My Profile area of the Cloudflare Dashboard or New Sign Ups
     - id: mncrnv8ys2x2
       name: Cloudflare Sites and Services / URL Scanner
+    - id: fbrfz0lxsdk1
+      name: Latin America & the Caribbean / Uberlandia, Brazil - (UDI)
     - id: dfrxmxffp7r2
       name: Cloudflare Sites and Services / Vectorize
       description: Vectorize is a globally distributed vector database that powers full-stack AI applications, seamlessly integrated with Cloudflare Workers.
     - id: 9c7cbxnhk1dq
       name: Cloudflare Sites and Services / Waiting Room
       description: Cloudflare Waiting Room protects websites by queueing site visitors when a website experiences unmanageable surges in legitimate traffic that may otherwise bring an application down.
-    - id: fbrfz0lxsdk1
-      name: Latin America & the Caribbean / Uberlandia, Brazil - (UDI)
-    - id: k04jkcpzxn94
-      name: Cloudflare Sites and Services / Cloudflare One Client
     - id: s0xwzmmmmv3l
       name: Latin America & the Caribbean / Cali, Colombia - (CLO)
+    - id: k04jkcpzxn94
+      name: Cloudflare Sites and Services / Cloudflare One Client
+    - id: 7g58rb9tl036
+      name: Latin America & the Caribbean / San Pedro Sula, Honduras - (SAP)
     - id: qt59p3cr1grx
       name: Cloudflare Sites and Services / Web Analytics
       description: Cloudflare Web Analytics provides free, privacy-first analytics for your website without changing your DNS or using Cloudflare’s proxy. Cloudflare Web Analytics helps you understand the performance of your web pages as experienced by your site visitors.
-    - id: 7g58rb9tl036
-      name: Latin America & the Caribbean / San Pedro Sula, Honduras - (SAP)
     - id: 411nh1g3zgx8
       name: Cloudflare Sites and Services / WebSockets
       description: Cloudflare proxied WebSocket connections.
