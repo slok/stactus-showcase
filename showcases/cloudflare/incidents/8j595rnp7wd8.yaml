@@ -1,0 +1,15 @@
+version: incident/v1
+id: 8j595rnp7wd8
+name: Cloudflare Registration Data Access Protocol (RDAP) Issues
+impact: minor
+systems:
+    - vsj8h17tq59r
+timeline:
+    - ts: "2026-04-22 20:46:49"
+      description: |-
+        Cloudflare is investigating issues with its Registration Data Access Protocol endpoint: https://rdap.cloudflare.com/
+
+        RDAP lookup functionality is unavailable.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
