@@ -1,6 +1,6 @@
 version: incident/v1
 id: hp14hlgrsmsr
-name: SMS Delivery Delays from Twilio to Movistar Chile
+name: SMS Delivery Delays from Twilio Phone Numbers to Movistar Chile
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -16,3 +16,6 @@ timeline:
       description: We have observed a recovery in SMS delivery from Twilio Phone Numbers to Movistar network subscribers in Chile and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-04-22 19:38:42"
       description: We have observed a recovery in SMS delivery from Twilio to Movistar network subscribers in Chile and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-04-22 22:08:33"
+      description: The incident has been resolved and SMS delivery from Twilio Phone Numbers to Movistar network subscribers in Chile is operating normally.
+      resolved: true
