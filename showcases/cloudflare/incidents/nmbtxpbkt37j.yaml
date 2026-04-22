@@ -1,0 +1,12 @@
+version: incident/v1
+id: nmbtxpbkt37j
+name: Unavailability of Sampled Logs and Suspicious Activity in Security Analytics
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-22 10:21:27"
+      description: |-
+        For some users, sampled Logs and Suspicious Activity were not available in the Security analytics dashboard between 16:48:31 UTC on 21st April 2026 and 09:04 UTC on 22nd April 2026.
+
+        No data loss occurred, and all graphs and visualizations were restored once the issue was resolved. The GraphQL API and Logpush remained fully functional throughout this period.
+      resolved: true
