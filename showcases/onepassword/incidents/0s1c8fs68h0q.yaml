@@ -1,0 +1,12 @@
+version: incident/v1
+id: 0s1c8fs68h0q
+name: Sign-in issues affecting 1Password SaaS Manager
+impact: major
+systems:
+    - cgltwfnt80mm
+timeline:
+    - ts: "2026-04-22 15:18:52"
+      description: We’re aware of an issue affecting sign-in to 1Password SaaS Manager. Our teams are actively investigating and working to resolve this as quickly as possible.
+      investigating: true
+    - ts: "2026-04-22 15:27:19"
+      description: The issue affecting sign-in to 1Password SaaS Manager has been mitigated. Our teams are continuing to monitor the situation to ensure stability.

@@ -1,0 +1,12 @@
+version: incident/v1
+id: 8790jgb3ky6t
+name: Disruption with Copilot chat and Copilot Coding Agent
+impact: critical
+systems: []
+timeline:
+    - ts: "2026-04-22 15:35:45"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-22 15:43:55"
+      description: We are aware of users seeing errors interacting with Copilot chat on github.com and Copilot cloud agent. We have identified the cause and are investigating remediations.
+      investigating: true
