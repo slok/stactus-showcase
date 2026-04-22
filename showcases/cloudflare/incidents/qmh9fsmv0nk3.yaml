@@ -1,0 +1,10 @@
+version: incident/v1
+id: qmh9fsmv0nk3
+name: Analytics Engine API increased errors
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-04-22 13:01:39"
+      description: Cloudflare is investigating issues with the Analytics Engine API. Some customers may be seeing an increase of 5xx errors. We are working to mitigate the problem, more updates to follow shortly.
+      investigating: true
