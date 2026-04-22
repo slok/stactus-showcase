@@ -1,0 +1,16 @@
+version: incident/v1
+id: c53mty24vwg8
+name: Disruption with some GitHub services
+impact: minor
+systems:
+    - kr09ddfgbfsf
+timeline:
+    - ts: "2026-04-22 19:53:49"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-22 19:55:47"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-04-22 20:02:21"
+      description: Copilot @-mentions on pull requests are currently not being processed by Copilot Cloud Agent. We have found the issue and are investigating remediations.
+      investigating: true
