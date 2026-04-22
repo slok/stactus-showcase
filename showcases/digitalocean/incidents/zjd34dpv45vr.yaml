@@ -1,0 +1,16 @@
+version: incident/v1
+id: zjd34dpv45vr
+name: Cloud Control Panel and API
+impact: minor
+systems:
+    - p1x9rv4137gx
+    - czck17wcspr5
+timeline:
+    - ts: "2026-04-22 11:06:49"
+      description: |-
+        Our Engineering team is currently investigating an issue affecting the Cloud Control Panel and API. During this time, API requests to create, destroy, or trigger events on droplets may not succeed. Additionally, the Droplets page in the Cloud Control Panel may not load properly, and users could experience issues while reviewing the droplet listing.
+
+        We are actively looking into the root cause and will provide updates as soon as more information becomes available.
+
+        We apologize for the inconvenience and appreciate your patience.
+      investigating: true
