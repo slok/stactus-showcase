@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8bzvjgqwbj2w
+name: Issues with Cloudflare One Appliance, Cloudflare Tunnel, and Cloudflare Mesh connections on 2026-04-21
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-22 17:55:40"
+      description: "An issue prevented Cloudflare One Appliance as well as a subset of new connections for Cloudflare Tunnel and Cloudflare Mesh from being successfully established between 04:08 and 06:45 AM UTC on Tuesday, April 21st. This issue has been fully resolved, and all services are operating normally.\n\nDuring this timeframe, customers may have experienced connectivity errors when attempting to register new devices, nodes, or tunnels. \n\nThe impact was most significant for the Cloudflare One Appliance, with data plane issues impacting the majority of devices. \n\nFor Cloudflare Tunnel and Cloudflare Mesh, the issue was strictly limited to the registration or re-initiation of connections during the impact window. For these products, existing tunnels, devices, and connections that were already active prior to the incident remained unaffected and continued to function as usual.\n\nOur engineering team identified a bug that caused certain connection updates to be lost silently. We have since addressed the root cause and are monitoring the environment to ensure continued stability. \n\nWe apologize for any disruption this may have caused."
+      resolved: true
