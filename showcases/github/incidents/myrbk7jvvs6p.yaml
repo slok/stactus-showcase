@@ -4,6 +4,7 @@ name: Incident with multple GitHub services
 impact: critical
 systems:
     - 4230lsnqdsld
+    - br0l2tvcx85d
     - pjmpxvq2cmr2
 timeline:
     - ts: "2026-04-23 16:12:47"
@@ -11,4 +12,10 @@ timeline:
       investigating: true
     - ts: "2026-04-23 16:19:33"
       description: We are investigating multiple unavailable services.
+      investigating: true
+    - ts: "2026-04-23 16:34:19"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-04-23 16:52:50"
+      description: We have identified the root problem and are working on mitigation.
       investigating: true
