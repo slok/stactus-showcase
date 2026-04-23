@@ -1,6 +1,6 @@
 version: incident/v1
 id: myrbk7jvvs6p
-name: Incident with multple GitHub services
+name: Incident with multiple GitHub services
 impact: critical
 systems:
     - 4230lsnqdsld
@@ -19,3 +19,15 @@ timeline:
     - ts: "2026-04-23 16:52:50"
       description: We have identified the root problem and are working on mitigation.
       investigating: true
+    - ts: "2026-04-23 17:03:00"
+      description: The degradation affecting Actions and Copilot has been mitigated. We are monitoring to ensure stability.
+      investigating: true
+    - ts: "2026-04-23 17:04:30"
+      description: Many services are mitigated and are validating the remaining services.
+      investigating: true
+    - ts: "2026-04-23 17:10:29"
+      description: Webhooks is operating normally.
+      investigating: true
+    - ts: "2026-04-23 17:30:49"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
