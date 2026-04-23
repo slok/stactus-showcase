@@ -1,0 +1,16 @@
+version: incident/v1
+id: 9tyl1z4b03cs
+name: MCP apps unavailable on Claude.ai
+impact: minor
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+    - 0scnb50nvy53
+timeline:
+    - ts: "2026-04-23 00:41:43"
+      description: We have identified an issue impacting the availability of MCP applications on Claude.ai, including desktop and mobile. We are working on a fix and will provide an update as soon as possible.
+    - ts: "2026-04-23 00:57:59"
+      description: We have resolved the issue impacting MCP Apps on Claude.ai.
