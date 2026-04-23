@@ -1,0 +1,17 @@
+version: incident/v1
+id: 2rby4tk1q6mm
+name: App Platform Deployments
+impact: minor
+systems:
+    - txysr8r0gn1n
+timeline:
+    - ts: "2026-04-23 08:08:37"
+      description: "Our Engineering team is currently investigating reports of build failures on App Platform. Users may experience errors when attempting to build their applications, resulting in failed deployments.\n\nOur Engineering team is working to fix the issue and will share an update once we have more information. \n\nWe apologize for the inconvenience this issue may be causing and appreciate your patience as we work to resolve it."
+      investigating: true
+    - ts: "2026-04-23 08:31:00"
+      description: |-
+        Our Engineering team is currently investigating reports of build failures on App Platform. During this time, some users may encounter errors while building their applications, which may result in failed deployments.
+        In addition, we are observing an issue where Kubernetes (DOKS) nodes are being marked as unhealthy by load balancers, which may impact traffic routing for affected services.
+        Our Engineering team is actively working to resolve these issues and will share an update as soon as more information becomes available.
+        We apologize for the inconvenience this may be causing and appreciate your patience.
+      investigating: true
