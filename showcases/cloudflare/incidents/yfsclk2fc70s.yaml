@@ -1,0 +1,12 @@
+version: incident/v1
+id: yfsclk2fc70s
+name: Intermittent 5xx errors for Cloudflare Access authentication requests
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-04-23 21:05:59"
+      description: |-
+        Beginning April 21, a subset of Cloudflare Access customers experienced intermittent HTTP 500 errors on authentication requests. Impact is limited to a small percentage of requests in specific geographies. Service authentication requests are seeing the highest share of the errors.
+
+        Cloudflare engineering is progressing a corrected rollout under tighter monitoring.

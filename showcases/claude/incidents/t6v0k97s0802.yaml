@@ -1,0 +1,9 @@
+version: incident/v1
+id: t6v0k97s0802
+name: Issues with responses using structured outputs on the API
+impact: none
+systems: []
+timeline:
+    - ts: "2026-04-23 21:25:21"
+      description: 'We have identified and resolved an issue which resulted in issues with model responses when making use of structured outputs via the Anthropic API between 16:10 UTC on April 22 and 01:59 UTC on April 23. During this period, structured outputs containing some forms of grammar requirements returned with reduced quality. This did not impact any requests not using structured outputs, as detailed here: https://platform.claude.com/docs/en/build-with-claude/structured-outputs.'
+      resolved: true
