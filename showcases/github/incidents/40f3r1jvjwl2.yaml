@@ -1,0 +1,15 @@
+version: incident/v1
+id: 40f3r1jvjwl2
+name: Disruption with users unable to start Claude and Codex agent task from the web
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-23 19:28:43"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-23 19:33:27"
+      description: We have identified the root cause of the issue and are working on mitigation.
+      investigating: true
+    - ts: "2026-04-23 19:42:25"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
