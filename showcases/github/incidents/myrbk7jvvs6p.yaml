@@ -1,0 +1,14 @@
+version: incident/v1
+id: myrbk7jvvs6p
+name: Incident with multple GitHub services
+impact: critical
+systems:
+    - 4230lsnqdsld
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-04-23 16:12:47"
+      description: We are investigating reports of degraded availability for Copilot and Webhooks
+      investigating: true
+    - ts: "2026-04-23 16:19:33"
+      description: We are investigating multiple unavailable services.
+      investigating: true

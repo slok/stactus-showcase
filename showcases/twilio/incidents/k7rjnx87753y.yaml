@@ -1,0 +1,10 @@
+version: incident/v1
+id: k7rjnx87753y
+name: SMS Delivery Delays and Failures from Twilio Numbers to Telefonica O2 UK
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-04-23 15:44:20"
+      description: Twilio SMS was degraded for ~ 90 minutes between ~ 04:16 and 05:42 Pacific Time on 23/04/2026. During this period of time customers may have experienced intermittent delays delivering SMS to Telefonica O2 network in UK. The issue has now been resolved.
+      resolved: true

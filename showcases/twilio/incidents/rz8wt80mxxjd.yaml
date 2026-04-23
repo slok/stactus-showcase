@@ -1,10 +1,13 @@
 version: incident/v1
 id: rz8wt80mxxjd
-name: SMS Delivery Delays from Antel network in country Uruguay
+name: SMS Delivery Delays from Twilio to Antel Uruguay
 impact: minor
 systems:
     - 42zx9w2kmtvf
 timeline:
     - ts: "2026-04-23 15:13:09"
       description: Twilio customers may be experiencing SMS delivery delays from Twilio to Antel network subscribers in Uruguay. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-23 16:13:40"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Antel network subscribers in Uruguay. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
