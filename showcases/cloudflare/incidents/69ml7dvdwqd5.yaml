@@ -1,0 +1,12 @@
+version: incident/v1
+id: 69ml7dvdwqd5
+name: Cloudflare Dashboard API Issues Affecting R2 Buckets
+impact: minor
+systems:
+    - g4tb35rs9yw7
+    - 3sq3s4d20ywk
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-04-23 10:37:30"
+      description: Cloudflare is investigating issues with Loading R2 buckets via dashboard and higher API latency. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true

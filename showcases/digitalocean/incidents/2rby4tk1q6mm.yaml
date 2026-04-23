@@ -19,3 +19,11 @@ timeline:
       description: |-
         Our Engineering team has implemented a fix to address the issue causing in App Platform deployments and Kubernetes (DOKS) nodes. We are actively monitoring the situation to ensure overall stability.
         Users may already notice improvements while deploying apps and DOKS nodes. We appreciate your patience throughout the process and will provide a further update once the issue is fully confirmed to be resolved.
+    - ts: "2026-04-23 10:09:54"
+      description: |-
+        Our Engineering team has confirmed that the issue impacting App Platform deployments and Kubernetes (DOKS) nodes has been fully resolved at 09:22 UTC. Users may already notice improvements while deploying apps and DOKS nodes.
+
+        All App Platform deployments are now succeeding as expected. Customers who previously encountered build failures should now be able to deploy their applications without further issues.
+
+        If you continue to experience any problems, please open a ticket with our support team. Thank you for your patience, and we apologize for any inconvenience.
+      resolved: true
