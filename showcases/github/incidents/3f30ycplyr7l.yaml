@@ -23,3 +23,11 @@ timeline:
     - ts: "2026-04-23 14:51:12"
       description: Users are experiencing errors loading various web pages on github.com. Actions and Copilot Cloud Agent runs will be delayed.
       investigating: true
+    - ts: "2026-04-23 15:02:15"
+      description: A mitigation was applied and services have recovered.  Actions is working through queued work before fully recovering.
+      investigating: true
+    - ts: "2026-04-23 15:02:29"
+      description: The degradation affecting Actions, Codespaces, Copilot and Packages has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-04-23 15:18:41"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
