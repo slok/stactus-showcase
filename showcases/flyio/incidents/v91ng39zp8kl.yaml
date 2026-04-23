@@ -1,0 +1,10 @@
+version: incident/v1
+id: v91ng39zp8kl
+name: Errors (5xx, timeouts) in Fly.io dashboard
+impact: major
+systems:
+    - 66r6rhq3hn9n
+timeline:
+    - ts: "2026-04-23 11:17:42"
+      description: We are investigating issues with web dashboard.
+      investigating: true
