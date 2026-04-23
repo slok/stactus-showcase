@@ -17,3 +17,6 @@ timeline:
     - ts: "2026-04-23 21:18:15"
       description: We have resolved a regression present when using merge queue with either squash merges or rebases. If you use merge queue in this configuration, some pull requests may have been merged incorrectly between 2026-04-23 16:05-20:43 UTC. <br /><br />This behavior is still present in GitHub Enterprise Cloud with Data Residency, and we are rolling out the same fix.
       investigating: true
+    - ts: "2026-04-23 21:43:26"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
