@@ -1,0 +1,25 @@
+version: incident/v1
+id: 3f30ycplyr7l
+name: Investigating errors on GitHub
+impact: minor
+systems:
+    - br0l2tvcx85d
+    - st3j38cctv9l
+    - pjmpxvq2cmr2
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2026-04-23 14:40:18"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2026-04-23 14:41:32"
+      description: Packages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-04-23 14:42:43"
+      description: Codespaces is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-04-23 14:44:55"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-04-23 14:51:12"
+      description: Users are experiencing errors loading various web pages on github.com. Actions and Copilot Cloud Agent runs will be delayed.
+      investigating: true

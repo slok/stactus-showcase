@@ -1,0 +1,12 @@
+version: incident/v1
+id: c51mcllk07rb
+name: Cloudwatch Datasource Outage
+impact: major
+systems:
+    - qqj6ssvvsqmq
+timeline:
+    - ts: "2026-04-23 14:26:43"
+      description: We’re currently investigating an issue affecting Cloudwatch datasources. Our team is actively working to identify the cause. Thank you for your patience.
+      investigating: true
+    - ts: "2026-04-23 14:39:27"
+      description: We’ve implemented a fix and are monitoring the results to confirm the issue is fully resolved. Services may start to recover during this time.
