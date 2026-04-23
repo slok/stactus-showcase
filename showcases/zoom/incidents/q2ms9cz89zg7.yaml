@@ -1,0 +1,17 @@
+version: incident/v1
+id: q2ms9cz89zg7
+name: Service Degradation Affecting Zoom Phone Services in North America.
+impact: minor
+systems:
+    - jh6w5p8b9yv9
+timeline:
+    - ts: "2026-04-23 04:11:17"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Phone Services in North America.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-04-23 04:28:40"
+      description: The issue affecting Zoom Phone Services in North America has been successfully resolved. Our team will continue to monitor the situation closely and keep you informed of any further developments.
