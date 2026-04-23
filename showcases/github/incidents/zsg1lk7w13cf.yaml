@@ -1,0 +1,13 @@
+version: incident/v1
+id: zsg1lk7w13cf
+name: Incident with Pull Requests
+impact: minor
+systems:
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2026-04-23 19:50:51"
+      description: We are investigating reports of degraded performance for Pull Requests
+      investigating: true
+    - ts: "2026-04-23 19:58:14"
+      description: We have identified a regression in merge queue behavior present when squash merging or rebasing. We have identified the root-cause and are in the process of reverting the change.
+      investigating: true
