@@ -1,0 +1,13 @@
+version: incident/v1
+id: p1jbzg2bvhj9
+name: Create Page for Kubernetes
+impact: minor
+systems:
+    - ljktrzzffk6j
+timeline:
+    - ts: "2026-04-23 07:01:46"
+      description: |-
+        Our Engineering team is currently investigating an issue impacting Managed Kubernetes UI across all regions. During this time, some users may experience the Kubernetes UI page not loading in DigitalOcean Onboarding.
+
+        We apologize for the inconvenience and will share more information as soon as it's available.
+      investigating: true
