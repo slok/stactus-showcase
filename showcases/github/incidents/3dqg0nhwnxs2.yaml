@@ -7,3 +7,9 @@ timeline:
     - ts: "2026-04-24 19:02:39"
       description: We are investigating reports of impacted performance for some GitHub services.
       investigating: true
+    - ts: "2026-04-24 19:09:12"
+      description: We are investigating reports of degraded performance for Larger Runners with vnet injection in East US and we are working with our service provider on mitigation.
+      investigating: true
+    - ts: "2026-04-24 19:14:51"
+      description: This is related to the public impact, "Multiservice impact for Azure Workloads in East US" shared at https://azure.status.microsoft/
+      investigating: true
