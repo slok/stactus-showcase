@@ -1,0 +1,12 @@
+version: incident/v1
+id: 0n62ktcf8sb7
+name: Cloudflare Health check issues
+impact: minor
+systems:
+    - 4c231tkdlpcl
+    - vn1h2pfctsvn
+    - 5xvn0m7tthlf
+timeline:
+    - ts: "2026-04-24 02:40:13"
+      description: Cloudflare is investigating issues with Healthchecks monitoring, alert notifications and analytics. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
