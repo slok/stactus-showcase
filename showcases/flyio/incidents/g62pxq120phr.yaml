@@ -11,3 +11,11 @@ timeline:
     - ts: "2026-04-24 22:58:35"
       description: We are deploying a partial mitigation while we continue investigating.
       investigating: true
+    - ts: "2026-04-24 23:18:38"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-04-24 23:19:45"
+      description: Network packet loss has returned to normal levels. We are monitoring the Machines API for stability.
+    - ts: "2026-04-24 23:31:22"
+      description: This incident has been resolved.
+      resolved: true
