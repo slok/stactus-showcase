@@ -1,0 +1,25 @@
+version: incident/v1
+id: wlysnq540b32
+name: Elevated errors on Sonnet 4.6
+impact: critical
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+    - 0scnb50nvy53
+timeline:
+    - ts: "2026-04-24 02:55:26"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-04-24 02:55:59"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-04-24 03:09:21"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-04-24 03:15:59"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-04-24 03:34:28"
+      description: This incident has been resolved.
+      resolved: true

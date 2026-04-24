@@ -1,0 +1,15 @@
+version: incident/v1
+id: npmy39sb6n4s
+name: Network Performance Issues in Miami
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-04-24 03:46:59"
+      description: Cloudflare is observing network performance issues in Miami. We are actively working to reduce or eliminate any impact to Internet users in this locations.
+      investigating: true
+    - ts: "2026-04-24 03:47:51"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-04-24 03:48:00"
+      description: This incident has been resolved.
+      resolved: true
