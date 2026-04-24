@@ -1,0 +1,10 @@
+version: incident/v1
+id: skp2cqydhpqy
+name: WARP connectivity issues in Bulgaria
+impact: minor
+systems:
+    - 7m2yh22kzgbw
+timeline:
+    - ts: "2026-04-24 14:34:54"
+      description: Cloudflare is investigating issues with Cloudflare WARP and Cloudflare Zero Trust. Cloudflare WARP and Zero Trust users in Bulgaria may experience connectivity issues or a degraded Internet experience.
+      investigating: true
