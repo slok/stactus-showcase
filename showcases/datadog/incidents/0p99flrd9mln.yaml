@@ -1,0 +1,11 @@
+version: incident/v1
+id: 0p99flrd9mln
+name: Delays in AWS and Azure cloud integration metrics ingestion
+impact: major
+systems:
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2026-04-24 16:27:20"
+      description: We are currently investigating this issue.
+      investigating: true
