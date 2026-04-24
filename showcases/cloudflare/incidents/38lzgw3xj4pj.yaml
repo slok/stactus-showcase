@@ -1,0 +1,10 @@
+version: incident/v1
+id: 38lzgw3xj4pj
+name: Load Balancing Dashboard Issues
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-04-24 00:35:23"
+      description: "Cloudflare is investigating issues with Cloudflare Dashboard and related APIs where the dashboard is displaying an incorrect error message on the UI at the bottom banner. \n\nThese issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge."
+      investigating: true

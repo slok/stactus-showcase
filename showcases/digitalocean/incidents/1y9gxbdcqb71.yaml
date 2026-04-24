@@ -8,3 +8,6 @@ timeline:
     - ts: "2026-04-23 22:26:34"
       description: As of 21:53 UTC, our Engineering team is investigating reports of increased internal errors for models Llama 3.3 70B, GPT OSS 120B, GPT OSS 20B, Qwen3 32B and Deepseek R1 70B hosted in the ATL1 region, impacting Serverless Inference. At this point, users with models hosted in ATL1 may experience intermittent errors when using Serverless Inference. We apologize for the inconvenience and will share an update once we have more information.
       investigating: true
+    - ts: "2026-04-23 23:51:58"
+      description: This incident has been resolved.
+      resolved: true
