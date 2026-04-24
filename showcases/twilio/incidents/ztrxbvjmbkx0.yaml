@@ -1,0 +1,18 @@
+version: incident/v1
+id: ztrxbvjmbkx0
+name: User Authentication Identity Gateway API Failure Increase in United States
+impact: minor
+systems:
+    - fsxs9n9yf4m7
+    - qt4vzyg2g7b4
+timeline:
+    - ts: "2026-04-24 06:05:32"
+      description: Twilio customers may be experiencing User Authentication Identity Gateway API failure increase to multiple networks in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-24 06:28:38"
+      description: Twilio customers may be experiencing User Authentication Identity Gateway API failure increase to multiple networks in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-04-24 06:38:46"
+      description: We have observed a recovery in User Authentication Identity Gateway API failure increase to multiple networks in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-04-24 06:40:17"
+      description: The incident has been resolved and User Authentication Identity Gateway API Failure Increase in the United States is operating normally.
+      resolved: true
