@@ -1,0 +1,12 @@
+version: incident/v1
+id: jzslkpxzv3x1
+name: Partial Observability Outage Affecting Compute Telemetry
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-25 00:54:52"
+      description: |-
+        We've identified an issue causing missing observability data for compute products between April 22, 2026 23:00 UTC and April 23, 2026 05:00 UTC affecting a subset of customers, resulting in missing or incomplete metrics in Observability dashboard during this period.
+
+        All underlying compute services - including Vercel Functions, Workflows, and Cron Jobs - continued to operate normally. Logs were not affected and remain fully available.
+      resolved: true

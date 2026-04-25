@@ -1,0 +1,15 @@
+version: incident/v1
+id: q93x64nrhwnn
+name: Elevated error rates on Claude Opus 4.7
+impact: minor
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+    - 0scnb50nvy53
+timeline:
+    - ts: "2026-04-25 01:35:55"
+      description: We are investigating elevated errors for requests to Claude Opus 4.7. We will provide an update as soon as possible.
+      investigating: true
