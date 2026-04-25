@@ -1,0 +1,13 @@
+version: incident/v1
+id: 01qbp5n6d4rm
+name: Delays in Whatsapp Template Approvals
+impact: minor
+systems:
+    - 3p1q1qbw970c
+timeline:
+    - ts: "2026-04-25 00:04:50"
+      description: Our monitoring systems have detected a potential issue with Whatsapp Content Templates. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-04-25 00:19:08"
+      description: We are currently investigating an issue causing delays in the approval of new WhatsApp templates. Our engineers have been alerted and are investigating. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
