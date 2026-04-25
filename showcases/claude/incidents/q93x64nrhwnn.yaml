@@ -13,3 +13,8 @@ timeline:
     - ts: "2026-04-25 01:35:55"
       description: We are investigating elevated errors for requests to Claude Opus 4.7. We will provide an update as soon as possible.
       investigating: true
+    - ts: "2026-04-25 02:15:52"
+      description: A fix has been deployed for Claude Opus 4.7 and we are seeing success rates at normal levels. We are continuing to monitor, and ensure no further recurrence.
+    - ts: "2026-04-25 02:34:30"
+      description: The issue affecting requests to Claude Opus 4.7 has been resolved. Impact occurred from 01:24–01:59 UTC.
+      resolved: true
