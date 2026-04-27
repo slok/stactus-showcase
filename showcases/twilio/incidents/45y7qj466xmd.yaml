@@ -1,0 +1,13 @@
+version: incident/v1
+id: 45y7qj466xmd
+name: Programmable Messaging - Service Interruption With Programmable Messaging for a Percentage of Messaging Services
+impact: minor
+systems:
+    - 6cn0g627h62p
+timeline:
+    - ts: "2026-04-27 04:28:56"
+      description: We are investigating a service interruption with Programmable Messaging for a percentage of Messaging Services where messages sent with Messaging Services failed to honor {force-opt-in}. We expect to provide another update in 60 minutes or as soon as more information becomes available
+      investigating: true
+    - ts: "2026-04-27 04:59:11"
+      description: We are no longer seeing service interruption with Programmable Messaging for a percentage of Messaging Services where messages sent with Messaging Services failed to honor {force-opt-in}. This incident is Resolved.
+      resolved: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: 95n79xjdtpjw
+name: Network Performance Issues in Brazil
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-04-27 04:25:56"
+      description: "Cloudflare is investigating issues with Network Performance in Brazil. Customers may observe increase disconnects and CNI tunnel degradation. \nWe are working to analyze and mitigate this problem. More updates to follow shortly."
+    - ts: "2026-04-27 04:50:49"
+      description: This incident has been resolved.
+      resolved: true
