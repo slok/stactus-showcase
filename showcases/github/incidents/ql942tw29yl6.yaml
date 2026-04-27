@@ -38,3 +38,8 @@ timeline:
     - ts: "2026-04-27 20:06:40"
       description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
       investigating: true
+    - ts: "2026-04-27 21:32:59"
+      description: We've applied a mitigation and continuing to monitor
+      investigating: true
+    - ts: "2026-04-27 21:33:20"
+      description: The degradation affecting Actions, Issues, Packages and Pull Requests has been mitigated. We are monitoring to ensure stability.

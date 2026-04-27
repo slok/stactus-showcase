@@ -1,0 +1,12 @@
+version: incident/v1
+id: 453zvjlcw1fj
+name: SMS Delivery Delays and Failures From a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Jazz Pakistan
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-04-27 21:29:28"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Alphanumeric Sender IDs and Long Codes to Jazz network subscribers in Pakistan. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-27 21:34:35"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Alphanumeric Sender IDs and Long Codes to Jazz network subscribers in Pakistan. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
