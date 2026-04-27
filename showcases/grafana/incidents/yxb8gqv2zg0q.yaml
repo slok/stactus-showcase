@@ -1,0 +1,13 @@
+version: incident/v1
+id: yxb8gqv2zg0q
+name: InfluxDB Datasource - Intermittent Failures
+impact: major
+systems:
+    - z5ysrlvblv9t
+timeline:
+    - ts: "2026-04-27 17:08:05"
+      description: |-
+        We’re currently investigating an issue affecting the InfluxDB plugin. Some users may see intermittent failures.
+
+        Our team is actively working to identify the cause. Thank you for your patience.
+      investigating: true

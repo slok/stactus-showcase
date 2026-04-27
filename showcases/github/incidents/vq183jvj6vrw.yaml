@@ -7,3 +7,9 @@ timeline:
     - ts: "2026-04-27 16:48:18"
       description: We are investigating reports of impacted performance for some GitHub services.
       investigating: true
+    - ts: "2026-04-27 17:01:56"
+      description: Copilot Cloud Agent (CCA) jobs using the Codex agent are failing after starting. To avoid this issue, please choose a different agent. We are investigating the cause and working towards remediation
+      investigating: true
+    - ts: "2026-04-27 17:26:59"
+      description: We've found the issue and are working on deploying a solution to get Codex agent runs working again.
+      investigating: true

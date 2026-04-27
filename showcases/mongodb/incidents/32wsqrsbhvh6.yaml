@@ -1,0 +1,14 @@
+version: incident/v1
+id: 32wsqrsbhvh6
+name: Increase in Billing for Backup Usage
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-04-27 17:16:46"
+      description: |-
+        We have identified a bug affecting some Atlas customers that resulted in higher-than-expected backup charges on invoices for the billing date of April 24, 2026. This is a billing-only issue; your backup configuration, cluster health, and data are unaffected.
+
+        We are actively working to correct all affected invoices. Any overcharges will be automatically refunded — no action is required on your end.
+
+        Please contact MongoDB Support with any questions. We will post another update by April 24 at 22:00 UTC.

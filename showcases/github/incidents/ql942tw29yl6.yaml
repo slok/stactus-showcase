@@ -4,6 +4,7 @@ name: GitHub search is degraded
 impact: minor
 systems:
     - kr09ddfgbfsf
+    - hhtssxt0f5v2
     - br0l2tvcx85d
     - st3j38cctv9l
 timeline:
@@ -18,4 +19,7 @@ timeline:
       investigating: true
     - ts: "2026-04-27 16:39:04"
       description: Packages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-04-27 16:53:22"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
       investigating: true
