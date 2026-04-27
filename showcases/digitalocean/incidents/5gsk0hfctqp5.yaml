@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5gsk0hfctqp5
+name: Serverless Inference - Intermittent Rate Limiting Affecting Some Customers Using Anthropic Models
+impact: major
+systems:
+    - br95fz33h6td
+timeline:
+    - ts: "2026-04-27 10:38:30"
+      description: We are investigating an issue affecting some customers using DigitalOcean Serverless Inference with Anthropic models. Over the last two hours, impacted customers may have experienced intermittent request failures, including HTTP 429 responses, on some Anthropic model requests. Our engineering team is actively investigating the issue. We apologize for the inconvenience and will share another update as soon as more information is available.
+      investigating: true
+    - ts: "2026-04-27 11:07:50"
+      description: We identified the cause of intermittent HTTP 429 responses affecting some customers using Anthropic models on DigitalOcean Serverless Inference and applied a mitigation. Service has recovered, and we are monitoring stability.
