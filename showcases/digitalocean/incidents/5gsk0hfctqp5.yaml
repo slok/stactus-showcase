@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2026-04-27 11:07:50"
       description: We identified the cause of intermittent HTTP 429 responses affecting some customers using Anthropic models on DigitalOcean Serverless Inference and applied a mitigation. Service has recovered, and we are monitoring stability.
+    - ts: "2026-04-27 11:37:36"
+      description: The issue is resolved, and service is operating normally.
+      resolved: true
