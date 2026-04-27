@@ -35,3 +35,6 @@ timeline:
     - ts: "2026-04-27 19:50:03"
       description: We have identified the source of the additional load causing stress on our ElasticSearch clusters. We have disabled the source of that load and are seeing signs of recovery
       investigating: true
+    - ts: "2026-04-27 20:06:40"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
