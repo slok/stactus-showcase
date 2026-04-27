@@ -27,3 +27,7 @@ timeline:
     - ts: "2026-04-27 15:08:14"
       description: Our teams continue to investigate an issue causing errors and increased latency across our services. Customers may experience failures or delays when logging in and syncing, including via CLI. We are actively working to identify the root cause and will provide further updates as more information becomes available.
       investigating: true
+    - ts: "2026-04-27 15:22:43"
+      description: We are seeing signs of recovery for the issue causing errors and increased latency across our services. Some customers may still experience intermittent failures or delays when logging in and syncing, including via CLI. Our teams continue to monitor the situation closely.
+    - ts: "2026-04-27 15:41:40"
+      description: Service has largely recovered, and we are continuing to monitor the situation closely. Some customers may still experience intermittent issues with login and syncing, including via CLI.
