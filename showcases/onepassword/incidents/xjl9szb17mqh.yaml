@@ -1,0 +1,29 @@
+version: incident/v1
+id: xjl9szb17mqh
+name: Login and Sync Issues
+impact: critical
+systems:
+    - qv4yvwwdyzj0
+    - cgltwfnt80mm
+    - 44mr9pvxy2h1
+    - 5g595mfvxrwb
+    - wdd0686w5v3k
+    - 128z2hc5zph2
+    - dd7j6hgdy98l
+    - nb2s2j09f6sc
+    - mxh1682h05hp
+    - c1hyq57z8lnq
+    - 03vs2j75ds22
+    - bqxt4w06fczc
+    - 4q3h5fw7rv4w
+    - jclfgrsyfl37
+    - swb607d557vz
+    - wst05glrkprt
+    - ngrr6v6zh4r3
+timeline:
+    - ts: "2026-04-27 14:54:26"
+      description: We are currently investigating an issue causing errors and increased latency across our services. Customers may experience failures or delays when logging in and syncing, including via CLI.
+      investigating: true
+    - ts: "2026-04-27 15:08:14"
+      description: Our teams continue to investigate an issue causing errors and increased latency across our services. Customers may experience failures or delays when logging in and syncing, including via CLI. We are actively working to identify the root cause and will provide further updates as more information becomes available.
+      investigating: true
