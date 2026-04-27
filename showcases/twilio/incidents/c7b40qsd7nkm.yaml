@@ -1,0 +1,9 @@
+version: incident/v1
+id: c7b40qsd7nkm
+name: Lookup Identity Match Lookup V2 API package Increased Error Rate
+impact: none
+systems:
+    - xk8z50jy8hcs
+timeline:
+    - ts: "2026-04-27 23:17:10"
+      description: Our engineers identified an issue where we were seeing an increased error rate for some customers using the Identity Match Lookup V2 API package, all other packages are normal. A fix has been applied and we are observing improvements. We will provide an update in 2 hours or a soon as more information becomes available.

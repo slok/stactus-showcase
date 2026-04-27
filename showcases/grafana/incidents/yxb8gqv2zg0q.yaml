@@ -13,3 +13,8 @@ timeline:
       investigating: true
     - ts: "2026-04-27 18:01:15"
       description: We’ve identified the cause of the issue impacting the InfluxDB datasource. Our team is currently implementing a fix.
+    - ts: "2026-04-27 23:13:47"
+      description: We’ve implemented a fix and are monitoring the results to confirm the issue is fully resolved. Services may start to recover during this time.
+    - ts: "2026-04-27 23:24:35"
+      description: This incident has been resolved. Thank you for your patience.
+      resolved: true
