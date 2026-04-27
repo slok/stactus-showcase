@@ -1,0 +1,21 @@
+version: incident/v1
+id: ql942tw29yl6
+name: GitHub search is degraded
+impact: minor
+systems:
+    - kr09ddfgbfsf
+    - br0l2tvcx85d
+    - st3j38cctv9l
+timeline:
+    - ts: "2026-04-27 16:31:07"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2026-04-27 16:33:05"
+      description: 'Customers across GitHub are experiencing failures with searches. Examples include: workflow run failures, projects failing to load, and timed out search requests. This is due to an ongoing infrastructure issue that we have been investigating.'
+      investigating: true
+    - ts: "2026-04-27 16:36:39"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-04-27 16:39:04"
+      description: Packages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
