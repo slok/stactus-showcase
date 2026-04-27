@@ -1,7 +1,7 @@
 version: incident/v1
 id: ql942tw29yl6
 name: GitHub search is degraded
-impact: minor
+impact: critical
 systems:
     - kr09ddfgbfsf
     - hhtssxt0f5v2
@@ -25,4 +25,10 @@ timeline:
       investigating: true
     - ts: "2026-04-27 17:35:01"
       description: Users are experiencing intermittent failures to view issues, pull requests, projects and Actions workflow runs.<br /><br />We are still investigating and attempting mitigations. We will provide further updates.
+      investigating: true
+    - ts: "2026-04-27 18:17:13"
+      description: We're continuing to see connectivity issues reaching elasticsearch. Impact on downstream services will be intermittent as we find the root cause
+      investigating: true
+    - ts: "2026-04-27 18:19:33"
+      description: Pull Requests is experiencing degraded availability. We are continuing to investigate.
       investigating: true
