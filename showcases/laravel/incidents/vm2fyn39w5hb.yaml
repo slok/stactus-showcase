@@ -1,0 +1,15 @@
+version: incident/v1
+id: vm2fyn39w5hb
+name: Degraded performance in Cloud dashboard
+impact: minor
+systems:
+    - k648vlw65tzw
+timeline:
+    - ts: "2026-04-27 13:56:57"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-04-27 14:11:16"
+      description: "The issue has been identified and resolved. \nThe team is now monitoring the Cloud control panel performance"
+    - ts: "2026-04-27 14:23:49"
+      description: This incident has been resolved.
+      resolved: true
