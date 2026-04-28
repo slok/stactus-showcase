@@ -17,3 +17,6 @@ timeline:
     - ts: "2026-04-28 21:43:17"
       description: Elastic search reindexing of pull requests is continuing. All data is preserved, but may not be available on pages relying on elasticsearch until the reindex is complete.<br /><br />Pages and APIs that do not rely on elasticsearch, including the GitHub CLI (gh pr list) and API (/repos/{owner}/{repo}/pulls), are not impacted and can be used to retrieve pull request data in the interim.
       investigating: true
+    - ts: "2026-04-28 22:46:59"
+      description: We have made an interim mitigation to improve availability for some impacted repositories while reindexing continues, and we are actively monitoring the indexing progress.
+      investigating: true
