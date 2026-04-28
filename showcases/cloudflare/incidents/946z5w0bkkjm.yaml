@@ -1,0 +1,13 @@
+version: incident/v1
+id: 946z5w0bkkjm
+name: Network Performance Issues in IST
+impact: minor
+systems:
+    - 1njzngd1wdrj
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-04-28 08:41:05"
+      description: We are currently investigating network performance issues in IST
+      investigating: true
+    - ts: "2026-04-28 08:45:44"
+      description: The issue has been identified, and we are implementing a fix
