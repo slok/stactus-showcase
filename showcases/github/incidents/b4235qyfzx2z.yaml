@@ -32,5 +32,5 @@ timeline:
     - ts: "2026-04-22 00:00:49"
       description: The issue remains mitigated. Users may still experience small delays in changes to projects while we process the backlog of events. We expect a full recovery in approximately two hours.
     - ts: "2026-04-22 01:24:13"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On April 21, 2026, between 13:35 UTC and 01:24 UTC the following day the projects service was degraded. During this time period, projects may have been out of sync and users may have experienced delays in changes to projects and their items. Delays in reflected changes peaked at approximately 45 minutes. The delays were caused by serialization errors that failed events and triggered a flood of resyncs, overloading our event processing layers.<br /><br />We mitigated the incident by speeding up processing time for incoming changes and otherwise waiting for all changes to be processed.<br /><br />We are working to increase our capacity for processing updates to projects to reduce our time to mitigation of issues like this one in the future.
       resolved: true
