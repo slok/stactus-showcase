@@ -1,0 +1,10 @@
+version: incident/v1
+id: rtwg3ncmp1nm
+name: Gateway Slowness Detected in Prod (US-East-1)
+impact: major
+systems:
+    - 2yn7w8rnphcp
+timeline:
+    - ts: "2026-04-28 09:20:02"
+      description: Successful requests have dropped, users may not be able to access their instances.. The issue is under investigation.
+      investigating: true
