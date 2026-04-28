@@ -1,0 +1,14 @@
+version: incident/v1
+id: yg4t0swj39fg
+name: Duplicated values in X-Forwarded-For header
+impact: critical
+systems:
+    - 5wnz34mhfhrk
+    - fbvx0hxhhdj0
+timeline:
+    - ts: "2026-04-28 18:31:17"
+      description: Cloudflare is investigating duplicated values in the X-Forwarded-For header. Origins depending on this header may exhibit unexpected behavior.
+      investigating: true
+    - ts: "2026-04-28 18:34:05"
+      description: We are continuing to investigate this issue.
+      investigating: true

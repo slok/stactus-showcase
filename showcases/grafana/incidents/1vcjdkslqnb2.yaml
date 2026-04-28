@@ -1,0 +1,15 @@
+version: incident/v1
+id: 1vcjdkslqnb2
+name: Investigating Issues Saving SQL Datasource Credentials
+impact: minor
+systems:
+    - z5ysrlvblv9t
+timeline:
+    - ts: "2026-04-28 18:46:21"
+      description: |-
+        We are currently investigating reports of issues affecting SQL-based data sources where users are unable to save credentials.
+
+        This appears to impact a subset of customers and may be occurring across multiple regions. We are actively working to determine the scope and root cause.
+
+        We will provide updates as more information becomes available.
+      investigating: true

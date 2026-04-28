@@ -16,5 +16,5 @@ timeline:
     - ts: "2026-04-27 19:01:53"
       description: The degradation has been mitigated. We are monitoring to ensure stability.
     - ts: "2026-04-27 19:02:59"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On April 22, 2026 from 18:49 to 19:32 UTC , the Copilot Cloud Agent service began failing during session execution for users running the Agent HQ Codex agent. Codex agent sessions failed to start for all entry points (issue assignment, @copilot comment mentions). 0.5% of total Copilot Cloud Agent jobs were impacted (~2,000 failed jobs). Copilot and other agent sessions were unaffected.<br /><br />This was caused by a model resolution mismatch in Codex agent sessions, resulting in an incompatible model being used at runtime. A mitigation was deployed to select a stable default model for Codex agent sessions.<br /><br />We are working to harden the underlying model-resolution path so it correctly scopes to the requesting agent's supported models to prevent similar failure mode in the future.
       resolved: true
