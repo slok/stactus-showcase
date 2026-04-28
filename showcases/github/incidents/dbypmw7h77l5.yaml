@@ -16,3 +16,9 @@ timeline:
     - ts: "2026-04-28 14:49:49"
       description: We're still investigating the root cause for run start delays and failures for Actions hosted Ubuntu jobs, around 5% of jobs are impacted as of now.
       investigating: true
+    - ts: "2026-04-28 15:20:16"
+      description: We've applied a mitigation to unblock running Actions. We're continuing to monitor.
+      investigating: true
+    - ts: "2026-04-28 15:41:48"
+      description: Currently less than 2% of hosted ubuntu-latest and ubuntu-24.04 runs are delayed or failing. We are continuing to monitor for full recovery.
+      investigating: true

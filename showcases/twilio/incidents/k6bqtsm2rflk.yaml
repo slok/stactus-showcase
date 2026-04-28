@@ -1,0 +1,14 @@
+version: incident/v1
+id: k6bqtsm2rflk
+name: SMS Delivery Delays and Failures from Twilio to MTS Russia
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-04-28 15:34:25"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to MTS network subscribers in Russia. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-28 15:43:32"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to MTS network subscribers in Russia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-04-28 15:43:52"
+      description: We have observed a recovery in SMS delivery from Twilio to MTS network subscribers in Russia and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
