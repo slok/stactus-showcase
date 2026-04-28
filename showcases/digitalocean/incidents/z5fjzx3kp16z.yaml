@@ -1,0 +1,10 @@
+version: incident/v1
+id: z5fjzx3kp16z
+name: Elevated 5xx “context canceled” errors impacting serverless inference
+impact: minor
+systems:
+    - br95fz33h6td
+timeline:
+    - ts: "2026-04-28 13:45:20"
+      description: Serverless inference customers are experiencing elevated 5xx errors, including “context canceled” responses. This may result in intermittent request failures. Our team is actively investigating and will provide updates as more information becomes available.
+      investigating: true

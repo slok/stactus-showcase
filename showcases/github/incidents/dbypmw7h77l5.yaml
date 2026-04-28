@@ -1,0 +1,18 @@
+version: incident/v1
+id: dbypmw7h77l5
+name: Disruption with some GitHub services
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-04-28 13:59:16"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-04-28 13:59:52"
+      description: Actions is experiencing capacity constraints with hosted ubuntu-latest and ubuntu-24.02, leading to high wait times. Other hosted labels and self-hosted runners are not impacted.
+    - ts: "2026-04-28 14:02:36"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-04-28 14:49:49"
+      description: We're still investigating the root cause for run start delays and failures for Actions hosted Ubuntu jobs, around 5% of jobs are impacted as of now.
+      investigating: true

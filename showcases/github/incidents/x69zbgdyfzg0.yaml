@@ -1,0 +1,13 @@
+version: incident/v1
+id: x69zbgdyfzg0
+name: Incomplete pull request results in repositories
+impact: minor
+systems:
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2026-04-28 14:17:34"
+      description: We are investigating reports of degraded performance for Pull Requests
+      investigating: true
+    - ts: "2026-04-28 14:51:17"
+      description: After yesterday’s incident, we are investigating cases where /pulls and /repo/pulls pages are not showing all indexed pull requests. This is because our Elasticsearch cluster does not currently contain all indexed documents.<br /><br />No pull request data has been lost. As pull requests are updated, they will be reindexed. We are also working on accelerating a full reindex so these pages return complete results again.
+      investigating: true

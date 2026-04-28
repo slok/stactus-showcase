@@ -1,0 +1,13 @@
+version: incident/v1
+id: x1y91zcb2rp2
+name: Elevated errors on Claude Sonnet 4.5
+impact: minor
+systems:
+    - k8w3r06qmzrp
+timeline:
+    - ts: "2026-04-28 13:29:56"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-04-28 13:50:06"
+      description: The incident has now been resolved. The timeline for the elevated errors was 6:22 PT / 13:22 UTC -> 6:39 PT / 13:39 UTC.
+      resolved: true
