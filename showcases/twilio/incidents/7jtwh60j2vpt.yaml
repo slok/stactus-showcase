@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7jtwh60j2vpt
+name: SMS Delivery Receipt Delays from Twilio to Globe Philippines
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-04-28 01:07:33"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from Twilio to Globe network subscribers in the Philippines. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
