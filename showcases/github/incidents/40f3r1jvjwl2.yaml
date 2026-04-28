@@ -11,5 +11,5 @@ timeline:
       description: We have identified the root cause of the issue and are working on mitigation.
       investigating: true
     - ts: "2026-04-23 19:42:25"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between 18:45 and 19:42 UTC on April 23, users were unable to start new agent tasks using either Claude or Codex agent on github.com. This was caused by a code change to how Copilot mission control routes task creation requests. Ongoing agent tasks and other Copilot agent features were not affected. We mitigated the impact by reverting the breaking change. We are adding extra monitoring and integration test coverage for the task creation path to prevent future recurrence.
       resolved: true

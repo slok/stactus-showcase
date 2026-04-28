@@ -11,3 +11,6 @@ timeline:
     - ts: "2026-04-28 14:51:17"
       description: After yesterday’s incident, we are investigating cases where /pulls and /repo/pulls pages are not showing all indexed pull requests. This is because our Elasticsearch cluster does not currently contain all indexed documents.<br /><br />No pull request data has been lost. As pull requests are updated, they will be reindexed. We are also working on accelerating a full reindex so these pages return complete results again.
       investigating: true
+    - ts: "2026-04-28 15:58:40"
+      description: We are actively reindexing the remaining ElasticSearch indexes. Our priority is ensuring correctness and avoiding further impact.  We are taking a measured approach to safely backfill data and will share additional updates as progress continues.
+      investigating: true
