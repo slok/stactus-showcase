@@ -1,0 +1,17 @@
+version: incident/v1
+id: 9l93x2ht4s5w
+name: Claude.ai unavailable and elevated errors on the API
+impact: major
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+    - 0scnb50nvy53
+timeline:
+    - ts: "2026-04-28 17:41:55"
+      description: We are investigating an issue preventing users from reaching Claude.ai, and will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-04-28 17:51:36"
+      description: We have identified an issue resulting in elevated errors on the Anthropic API, as well as issues accessing Claude.ai, including log-in paths for Claude Code. We are working to resolve these issues, and will provide an update as soon as possible.
