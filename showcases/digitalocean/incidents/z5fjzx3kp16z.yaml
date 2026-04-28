@@ -13,3 +13,14 @@ timeline:
         We have identified an issue affecting our service and are currently working to implement a fix. Our team is actively investigating and taking the necessary steps to restore normal operations as quickly as possible.
 
         We appreciate your patience and will provide updates as soon as more information becomes available.
+    - ts: "2026-04-28 19:00:24"
+      description: |-
+        Service for Serverless Inference has been restored.
+        We’ve implemented tighter rate limits to help prevent recurrence and are closely monitoring system performance. Some users may still experience intermittent latency as we complete final stabilization efforts.
+        Our team remains actively engaged to ensure full recovery. We appreciate your patience and will provide further updates as needed.
+    - ts: "2026-04-28 19:33:38"
+      description: |-
+        All services are operating normally. We will continue to monitor the system to ensure ongoing reliability.
+
+        Thank you for your patience while we worked to resolve this issue.
+      resolved: true

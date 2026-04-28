@@ -17,3 +17,8 @@ timeline:
       description: We have identified an issue resulting in elevated errors on the Anthropic API, as well as issues accessing Claude.ai, including log-in paths for Claude Code. We are working to resolve these issues, and will provide an update as soon as possible.
     - ts: "2026-04-28 18:33:55"
       description: We are continuing to work to resolve the issues preventing users from accessing Claude.ai, and causing elevated authentication errors for requests to the API and Claude Code.
+    - ts: "2026-04-28 18:59:47"
+      description: We are seeing success rates across all services return to normal, and are monitoring closely to prevent any further issues. Impact occurred from 17:34–18:52 UTC.
+    - ts: "2026-04-28 19:15:52"
+      description: This incident has been resolved.
+      resolved: true

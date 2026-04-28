@@ -1,0 +1,13 @@
+version: incident/v1
+id: mjj0126tzs2r
+name: Connection Delays
+impact: minor
+systems:
+    - x7rnz0t7dpnp
+timeline:
+    - ts: "2026-04-28 19:20:14"
+      description: Users are experiencing delays connecting to the platform. We are investigating
+      investigating: true
+    - ts: "2026-04-28 19:29:39"
+      description: We are investigating issues with large guilds being unavailable
+      investigating: true
