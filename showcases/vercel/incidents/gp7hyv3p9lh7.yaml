@@ -5,5 +5,5 @@ impact: minor
 systems: []
 timeline:
     - ts: "2026-04-28 19:47:04"
-      description: "We have identified an issue resulting in delayed and/or missing usage data for observability events between 9:00 - 10:30 UTC and 16:50 - 19:30 UTC. \n\nThe issue has been identified and resolved, and we are working to backfill missing the data for the affected time buckets. No additional actions are required for customers at this time."
+      description: "We have identified an issue resulting in delayed and/or missing usage data for observability events between 9:00 - 10:30 UTC and 16:50 - 19:30 UTC. \n\nThe issue has been identified and resolved. Usage data for observability events for the affected time buckets have been recovered. The affected windows will continue to show missing data - the recovered data will show up as additional usage at recovery timestamps. The total usage count for the period is accurate and no additional actions are required for customers at this time."
       resolved: true
