@@ -1,0 +1,15 @@
+version: incident/v1
+id: yhp2dw512p4b
+name: Cloudflare Access experiencing delays with audit logs
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-04-29 19:19:06"
+      description: Cloudflare is investigating issues with delayed Access authentication logs.
+      investigating: true
+    - ts: "2026-04-29 19:22:31"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-04-29 19:33:46"
+      description: The issue has been identified and a fix is being implemented.
