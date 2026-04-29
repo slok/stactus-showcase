@@ -1,0 +1,13 @@
+version: incident/v1
+id: 6kyrwz51cv9n
+name: flyctl deploy creating new app instances
+impact: minor
+systems:
+    - 49yq6v65b33l
+timeline:
+    - ts: "2026-04-28 23:50:49"
+      description: |-
+        We're investigating an issue where fly deploy is creating new Fly machine instances rather than updating existing ones, leading to apps with a mixed state. We're currently investigating the issue.
+
+        As a workaround, please try removing the "processes = [ "app" ]" line from your fly.toml configuration file and redeploying - this should resolve the issue in the meantime.
+      investigating: true
