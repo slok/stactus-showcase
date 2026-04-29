@@ -1,0 +1,13 @@
+version: incident/v1
+id: vhn17m89ljh2
+name: Voice Call Failures from Network Subscribers to Twilio Sweden Phone Numbers
+impact: minor
+systems:
+    - bnzggd37p61w
+timeline:
+    - ts: "2026-04-29 10:23:26"
+      description: We are observing a subset of call failures to Twilio Sweden phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-04-29 10:53:12"
+      description: Twilio customers may be experiencing voice call failures from network subscribers to Twilio Sweden Phone Numbers. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
