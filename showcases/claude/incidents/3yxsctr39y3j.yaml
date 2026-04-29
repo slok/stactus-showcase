@@ -1,0 +1,15 @@
+version: incident/v1
+id: 3yxsctr39y3j
+name: Elevated errors on Claude Haiku 4.5
+impact: minor
+systems:
+    - k8w3r06qmzrp
+timeline:
+    - ts: "2026-04-29 13:47:45"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-04-29 14:01:16"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-04-29 14:14:34"
+      description: The incident is resolved. The elevated error rate was between 05:37 PT / 12:37 UTC and 06:58 PT / 13:37 UTC.
+      resolved: true
