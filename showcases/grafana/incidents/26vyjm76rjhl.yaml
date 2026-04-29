@@ -1,0 +1,12 @@
+version: incident/v1
+id: 26vyjm76rjhl
+name: Elevated write latency for AWS Metrics Streaming integration in us-east-3 region.
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-29 12:57:49"
+      description: |-
+        We were facing an incident with AWS Metrics Streaming integration in us-east-3 region manifesting in elevated ingestion latency. The incident started at around 10:45 UTC and was resolved at around 12:30 UTC. Some tenants could see an elevated write latency, but all requests were being processed and we don't expect any data loss during the time of the incident.
+
+        The incident is now resolved, but we keep monitoring the system's health.
+      resolved: true
