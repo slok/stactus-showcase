@@ -1,9 +1,14 @@
 version: incident/v1
 id: 441kvr95r8xj
-name: New Accounts Are Being Incorrectly Tagged With Legacy Whatsapp Account Flags
-impact: none
-systems: []
+name: New Accounts Are Being Incorrectly Identified as Legacy Whatsapp Account
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
 timeline:
     - ts: "2026-04-29 17:40:36"
       description: Our monitoring systems have detected a potential issue with New Accounts Are Being Incorrectly Tagged With Legacy Whatsapp Account Flags. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
       investigating: true
+    - ts: "2026-04-29 18:24:21"
+      description: |-
+        Our engineers have identified an issue where new accounts are being incorrectly identified as legacy Whatsapp accounts
+        and are working to deploy a fix. We expect to provide another update in 1h or as soon as more information becomes available.
