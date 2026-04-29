@@ -9,5 +9,12 @@ timeline:
       description: |-
         We're investigating an issue where fly deploy is creating new Fly machine instances rather than updating existing ones, leading to apps with a mixed state. We're currently investigating the issue.
 
-        As a workaround, please try removing the "processes = [ "app" ]" line from your fly.toml configuration file and redeploying - this should resolve the issue in the meantime.
+        As a workaround, please try removing the "processes = [ "app" ]" line from your fly.toml configuration file and redeploying. Another workaround is to downgrade flyctl to 0.4.40 - this should resolve the issue in the meantime.
       investigating: true
+    - ts: "2026-04-29 00:07:50"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-04-29 00:31:57"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-04-29 00:40:41"
+      description: This incident has been resolved.
+      resolved: true
