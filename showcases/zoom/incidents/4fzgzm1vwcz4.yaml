@@ -1,0 +1,12 @@
+version: incident/v1
+id: 4fzgzm1vwcz4
+name: Service Degradation Affecting Zoom Clinical Notes in United States
+impact: minor
+systems:
+    - 63tynlbcxywz
+timeline:
+    - ts: "2026-04-29 15:45:59"
+      description: |-
+        We have identified an issue with our external vendor in United States where users are experiencing issues with Zoom Clinical Notes.
+        We are actively working with vendor partner to resolve the issue.
+        We will share updates as soon as they become available.
