@@ -1,0 +1,16 @@
+version: incident/v1
+id: l8wh12zjc360
+name: Analytics - Web Analytics Delays
+impact: minor
+systems:
+    - ll1x88wwz4fq
+    - cghykwlwsmn5
+timeline:
+    - ts: "2026-04-30 23:23:30"
+      description: Cloudflare Web Analytics processing is running behind. This affects timely delivery of customer data. These delays do not impact analytics for DNS and Rate Limiting.
+      investigating: true
+    - ts: "2026-04-30 23:23:54"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-04-30 23:26:49"
+      description: This incident has been resolved.
+      resolved: true
