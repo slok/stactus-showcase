@@ -1,0 +1,9 @@
+version: incident/v1
+id: sf999wvjjsfb
+name: Increased HTTP 5xx Errors in South Korea region
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-04-30 14:47:58"
+      description: Some Cloudflare customers in South Korea region may have observed an increased rate of 5xx errors from 12:40 to 13:00 UTC.
+      resolved: true
