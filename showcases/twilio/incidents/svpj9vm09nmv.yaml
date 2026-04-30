@@ -1,6 +1,6 @@
 version: incident/v1
 id: svpj9vm09nmv
-name: Voice Call Audio Quality Degradation Between Twilio Phone Numbers and Hutchison H3G in United Kingdom
+name: Voice Call Audio Quality Degradation Between Twilio Phone Numbers and Multiple Networks in United Kingdom
 impact: minor
 systems:
     - bnzggd37p61w
@@ -10,3 +10,5 @@ timeline:
       investigating: true
     - ts: "2026-04-30 20:03:19"
       description: Twilio customers may be experiencing voice call audio quality degradation between Twilio Phone Numbers and Hutchison H3G network subscribers in the United Kingdom. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-04-30 21:03:53"
+      description: Twilio customers may be experiencing voice call audio quality degradation between Twilio Phone Numbers and network subscribers on multiple networks in the United Kingdom. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
