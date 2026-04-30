@@ -1,0 +1,9 @@
+version: incident/v1
+id: c71g27517lwx
+name: Twilio WhatsApp Message Sending Affected
+impact: none
+systems: []
+timeline:
+    - ts: "2026-04-30 14:19:59"
+      description: Twilio WhatsApp was degraded for 61 minutes between 4:30AM and 5:31AM Pacific Time on 04/30/2026. During this period of time customers may have experienced a delay in message delivery and an increase in 63012 errors in Twilio. The issue has now been resolved.
+      resolved: true
