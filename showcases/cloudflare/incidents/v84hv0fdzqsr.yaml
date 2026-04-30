@@ -1,0 +1,13 @@
+version: incident/v1
+id: v84hv0fdzqsr
+name: DLP API Currently Unavailable
+impact: critical
+systems:
+    - rppy995xymxv
+timeline:
+    - ts: "2026-04-29 23:38:12"
+      description: Latency in the DLP API is causing some functionality to become unavailable
+      investigating: true
+    - ts: "2026-04-29 23:48:58"
+      description: This incident has been resolved.
+      resolved: true
