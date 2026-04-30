@@ -1,0 +1,10 @@
+version: incident/v1
+id: tn894r5df81p
+name: Load Balancing health monitoring impacted
+impact: minor
+systems:
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2026-04-30 22:31:52"
+      description: Cloudflare is currently investigating issues with its Load Balancing Health Monitoring services. During this time there may be a delay in responding to endpoint health changes.
+      investigating: true
