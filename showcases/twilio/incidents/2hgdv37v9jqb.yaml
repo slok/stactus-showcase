@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2hgdv37v9jqb
+name: Flex Insights Historical Reporting is observing data load errors while uploading data to Gooddata.
+impact: minor
+systems:
+    - lv1md8v28lhr
+timeline:
+    - ts: "2026-04-30 20:38:53"
+      description: We are investigating intermittent issues with Flex Insights. Some customers might see delayed data. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
