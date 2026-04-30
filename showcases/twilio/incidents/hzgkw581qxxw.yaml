@@ -11,3 +11,8 @@ timeline:
     - ts: "2026-04-30 18:28:01"
       description: We are currently investigating elevated latency for Twilio Phone Numbers API search. Customer may experience timeouts when searching for numbers via api. Our engineering team is actively working on the issue, and we will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-04-30 18:59:48"
+      description: Searches performed via the Twilio Phone Numbers API are now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-04-30 19:34:48"
+      description: We are no longer experiencing an issue with Twilio Phone Numbers API search. All systems are operational.
+      resolved: true
