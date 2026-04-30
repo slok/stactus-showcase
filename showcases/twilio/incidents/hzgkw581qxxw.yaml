@@ -1,0 +1,13 @@
+version: incident/v1
+id: hzgkw581qxxw
+name: Latency and Timeouts for Phone Numbers API Search
+impact: minor
+systems:
+    - pv5w18vrltfl
+timeline:
+    - ts: "2026-04-30 18:18:48"
+      description: Our monitoring systems have detected a potential issue with the Phone Numbers API. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-04-30 18:28:01"
+      description: We are currently investigating elevated latency for Twilio Phone Numbers API search. Customer may experience timeouts when searching for numbers via api. Our engineering team is actively working on the issue, and we will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
