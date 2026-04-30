@@ -26,3 +26,6 @@ timeline:
     - ts: "2026-04-29 22:22:22"
       description: We have restored search/indexing functionality for over 99% of impacted pull requests. We are continuing to address the remaining affected pull requests and are reviewing outstanding gaps as part of the restoration process.
       investigating: true
+    - ts: "2026-04-30 03:49:37"
+      description: We have repaired the missing search records for affected Pull Requests and are working to identify and repair records left in a stale state after the recovery.
+      investigating: true
