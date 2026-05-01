@@ -7,7 +7,12 @@ systems:
 timeline:
     - ts: "2026-05-01 09:14:44"
       description: |-
-        We are investigating an issue with ingesting Metrics for AWS Cloud Provider Observability with Metric Streams. Users experiencing this issue may encounter ingestion errors in the "prod-us-central-7" region only.
+        We are investigating an issue with ingesting Metrics for AWS Cloud Provider Observability with Metric Streams. Users experiencing this issue may encounter ingestion errors in the "prod-us-central-7" region only starting from ~06:30UTC.
 
         Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
       investigating: true
+    - ts: "2026-05-01 09:42:54"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-05-01 09:43:30"
+      description: A fix has been implemented and we are monitoring the results.
