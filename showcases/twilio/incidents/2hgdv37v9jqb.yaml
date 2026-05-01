@@ -17,3 +17,8 @@ timeline:
     - ts: "2026-05-01 00:48:08"
       description: We are continuing to address the intermittent issues with Flex Insights. The root cause has been traced to a specific vendor-side datacenter outage. While some accounts remain unaffected, others may experience stale data or errors when loading reports. We expect to provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-05-01 01:22:31"
+      description: We are no longer observing data load errors for Flex Insights Historical Reporting while uploading data to Gooddata but we will continue to monitor the situation. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-05-01 01:43:02"
+      description: We are no longer observing data load errors for Flex Insights Historical Reporting while uploading data to Gooddata and the service is functioning normally at this time.
+      resolved: true
