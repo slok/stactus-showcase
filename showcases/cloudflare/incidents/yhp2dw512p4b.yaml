@@ -1,6 +1,6 @@
 version: incident/v1
 id: yhp2dw512p4b
-name: Cloudflare Access experiencing delays with audit logs
+name: Cloudflare Access processing delayed audit logs
 impact: minor
 systems:
     - w4k8yvhfb3vp
@@ -20,4 +20,6 @@ timeline:
     - ts: "2026-04-29 20:15:30"
       description: All logging data was preserved; no data was lost. We continue to populate the delayed logs.
     - ts: "2026-04-29 20:15:36"
+      description: Cloudflare Access is currently processing a backlog of audit logs from April 28, 17:00 UTC through April 29, 19:00 UTC. We expect this processing to continue through the weekend and will provide our next update on Monday. Please be assured that all Access services remain fully operational and no log data has been lost.
+    - ts: "2026-05-01 22:32:57"
       description: We are continuing to monitor for any further issues.

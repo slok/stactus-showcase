@@ -1,0 +1,10 @@
+version: incident/v1
+id: nvnjk9821x0k
+name: Cloudflare One client connectivity issues in Turkey (IST) while using the MASQUE protocol
+impact: minor
+systems:
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2026-05-01 22:06:21"
+      description: Clouldflare is currently investigating connectivity issues affecting Cloudflare One users in the Turkey (IST) region specifically when utilizing the MASQUE protocol. While this may result in intermittent connectivity or a degraded experience, users can restore stable service by temporarily switching their client profile settings to the Wireguard protocol as a workaround while our team works toward a full resolution.
+      investigating: true
