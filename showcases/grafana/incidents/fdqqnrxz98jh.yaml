@@ -1,0 +1,13 @@
+version: incident/v1
+id: fdqqnrxz98jh
+name: Ingestion Errors for AWS Cloud Provider Observability Metric Streams in prod-us-central-7
+impact: major
+systems:
+    - 69x626rm9jpv
+timeline:
+    - ts: "2026-05-01 09:14:44"
+      description: |-
+        We are investigating an issue with ingesting Metrics for AWS Cloud Provider Observability with Metric Streams. Users experiencing this issue may encounter ingestion errors in the "prod-us-central-7" region only.
+
+        Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
+      investigating: true
