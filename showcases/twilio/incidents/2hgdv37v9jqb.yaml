@@ -14,3 +14,6 @@ timeline:
     - ts: "2026-04-30 23:14:09"
       description: We are continually investigating intermittent issues with Flex Insights. Some customers might see delayed data, and the issue is actively being investigated by Gooddata. We expect to provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-05-01 00:48:08"
+      description: We are continuing to address the intermittent issues with Flex Insights. The root cause has been traced to a specific vendor-side datacenter outage. While some accounts remain unaffected, others may experience stale data or errors when loading reports. We expect to provide another update in 8 hours or as soon as more information becomes available.
+      investigating: true

@@ -1,0 +1,17 @@
+version: incident/v1
+id: dw41jpjjghhs
+name: Elevated Error Rates for Metrics Queries
+impact: major
+systems:
+    - p4hwj4wsc5wf
+    - qrnng5l7z80l
+timeline:
+    - ts: "2026-05-01 00:45:48"
+      description: |-
+        We are actively investigating elevated error rates for Metrics Queries.
+        As a result of this issue, some users may see errors with metrics graphs on the web application or API.
+      investigating: true
+    - ts: "2026-05-01 01:09:25"
+      description: |-
+        We have deployed a fix and we are monitoring the results.
+        We will provide another update once the service is fully operational.
