@@ -1,0 +1,10 @@
+version: incident/v1
+id: fnsj0jqpsnsq
+name: Incorrect rejection of 400 errors for AI Gateway
+impact: none
+systems:
+    - 0311l882p558
+timeline:
+    - ts: "2026-05-01 16:15:10"
+      description: "Between 05:00 and 15:04 UTC on May 1st, AI Gateway requests using the AI binding may have been incorrectly rejected with 400 errors due to a schema validation change. \nThis is now resolved."
+      resolved: true
