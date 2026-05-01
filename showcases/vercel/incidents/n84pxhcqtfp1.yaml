@@ -1,0 +1,12 @@
+version: incident/v1
+id: n84pxhcqtfp1
+name: Elevated Functions Invocation Errors in ICN1 (Seoul, South Korea) Region
+impact: none
+systems:
+    - pdnc30nkdqth
+    - 1w4lc3s3q2pz
+    - kgcsn9c73xzf
+timeline:
+    - ts: "2026-05-01 11:30:44"
+      description: Between May 1, 11:01 am – May 1, 11:09 am UTC, users may have seen increased function invocation errors for traffic originated near the ICN1 Vercel CDN region. Requests to static assets/cached content were unaffected this time. We have reverted the change that caused the issue to mitigate this.
+      resolved: true
