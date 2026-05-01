@@ -1,0 +1,13 @@
+version: incident/v1
+id: 609mykdv6hrn
+name: Elevated Error rate for R2 in Western North America
+impact: minor
+systems:
+    - 3q1jnbdbn845
+    - 3lbj8lp3d750
+    - hb7g5sq2zz0h
+    - 47xg28c02lnk
+timeline:
+    - ts: "2026-05-01 22:47:31"
+      description: Customers with R2 Buckets in Western North America may experience elevated error rates.
+      investigating: true
