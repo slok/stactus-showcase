@@ -1,0 +1,12 @@
+version: incident/v1
+id: bcmh7z6rb6t2
+name: Cloudflare Page Rules Unexpected Behaviour
+impact: minor
+systems:
+    - ch3mwx0hr4k6
+timeline:
+    - ts: "2026-05-01 10:53:56"
+      description: Cloudflare is investigating issues with Page Rules which cause HTTP redirects not triggering when expected on worker subrequests. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-05-01 11:05:12"
+      description: The issue has been identified and a fix is being implemented.
