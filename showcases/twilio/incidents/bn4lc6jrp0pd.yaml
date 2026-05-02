@@ -1,0 +1,10 @@
+version: incident/v1
+id: bn4lc6jrp0pd
+name: Flex Insights HR Delayed Gooddata loads
+impact: minor
+systems:
+    - lv1md8v28lhr
+timeline:
+    - ts: "2026-05-02 01:36:00"
+      description: Flex Insights HR is observing delayed data loads to Goddata workspaces. The team is actively working with vendor Goodata. WhiIe the GoodData portal UI remains functional, some users may encounter outdated or stale data in the interim. We will update you with in next 1 hour or as soon as there is an update.
+      investigating: true
