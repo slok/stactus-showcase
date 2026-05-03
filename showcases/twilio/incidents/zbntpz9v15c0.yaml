@@ -1,6 +1,6 @@
 version: incident/v1
 id: zbntpz9v15c0
-name: SMS Delivery Delays From a Subset of Twilio Short Codes to Multiple Networks in United States
+name: SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in United States
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -16,3 +16,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to network subscribers on multiple networks in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
     - ts: "2026-05-03 18:53:26"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Short Codes to network subscribers on multiple networks in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-05-03 20:36:18"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Short Codes to network subscribers on affected networks in the United States is operating normally.
+      resolved: true
