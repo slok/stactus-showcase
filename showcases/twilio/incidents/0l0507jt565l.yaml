@@ -1,0 +1,14 @@
+version: incident/v1
+id: 0l0507jt565l
+name: MMS Delivery Failures From a Subset of Twilio Long Codes to Liberty Media Puerto Rico
+impact: minor
+systems:
+    - 8vdlvw3dsq8h
+timeline:
+    - ts: "2026-05-04 20:49:59"
+      description: Twilio customers may be experiencing MMS delivery failures from a subset of Twilio Long Codes to Liberty Media network subscribers in Puerto Rico. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-04 21:06:29"
+      description: Twilio customers may be experiencing MMS delivery failures from a subset of Twilio Long Codes to Liberty Media network subscribers in Puerto Rico. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-05-04 21:13:35"
+      description: We are continuing to work on a fix for this issue.
