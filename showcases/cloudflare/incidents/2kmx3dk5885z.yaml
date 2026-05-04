@@ -1,0 +1,11 @@
+version: incident/v1
+id: 2kmx3dk5885z
+name: Network hardware failure in Hong Kong
+impact: minor
+systems:
+    - wf2gdmxg7cv3
+    - jm5mggc2wp95
+timeline:
+    - ts: "2026-05-04 22:00:46"
+      description: Reduced redundancy due to network hardware failure in Hong Kong
+      investigating: true
