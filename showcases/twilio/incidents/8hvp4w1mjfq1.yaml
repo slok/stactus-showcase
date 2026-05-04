@@ -6,3 +6,6 @@ systems: []
 timeline:
     - ts: "2026-05-04 08:03:57"
       description: We are currently investigating a service disruption that is causing SIP registration failures with 503/32008 errors on iOS Bria Softphone, while the same configurations work on PC and Android devices. The current workaround is to use a PC or Android device for SIP registration. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-05-04 09:54:30"
+      description: Following a thorough investigation, we can confirm that Twilio’s services are operating as expected. The SIP registration issue appears to be specific to the interaction between Bria iOS and the Twilio registrar. No action is required for other platforms, and Twilio infrastructure is fully functional.
+      resolved: true
