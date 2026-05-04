@@ -1,0 +1,16 @@
+version: incident/v1
+id: hjly4mlqydn8
+name: k6 Partial Outage
+impact: major
+systems:
+    - 3gvy1n7fg4x4
+    - m79yjv169r06
+    - wbhrnd130mb0
+    - z9074fpyx6sb
+    - 236539c2nt69
+    - qwkkscbddtdw
+    - 8n34hh3y2yd0
+timeline:
+    - ts: "2026-05-04 22:58:05"
+      description: We’re currently investigating an issue affecting k6. Our team is actively working to identify the cause. Thank you for your patience.
+      investigating: true

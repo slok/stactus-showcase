@@ -1,6 +1,6 @@
 version: incident/v1
 id: rl8r7s06jyp3
-name: SMS Delivery Delays from Multiple Networks in Croatia to Twilio Long Codes
+name: SMS Delivery Delays From Multiple Networks in Croatia to Twilio Long Codes
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -17,3 +17,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays from network subscribers on multiple networks in Croatia to Twilio Long Codes. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-05-04 22:05:04"
       description: We have observed a recovery in SMS delivery from network subscribers on multiple networks in Croatia to Twilio Long Codes and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-05-04 22:40:30"
+      description: The incident has been resolved and SMS delivery from network subscribers on multiple networks in Croatia to Twilio Long Codes is operating normally.
+      resolved: true
