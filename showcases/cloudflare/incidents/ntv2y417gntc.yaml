@@ -1,0 +1,10 @@
+version: incident/v1
+id: ntv2y417gntc
+name: Increased build dequeue duration in Workers Builds
+impact: minor
+systems:
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2026-05-04 20:20:20"
+      description: Some Workers Builds users may experience increased build dequeue times, or builds that are stuck in a queued state indefinitely.
+      investigating: true
