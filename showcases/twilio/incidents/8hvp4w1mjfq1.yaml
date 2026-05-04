@@ -1,0 +1,8 @@
+version: incident/v1
+id: 8hvp4w1mjfq1
+name: SIP Registration Failure on iOS Bria Softphone
+impact: none
+systems: []
+timeline:
+    - ts: "2026-05-04 08:03:57"
+      description: We are currently investigating a service disruption that is causing SIP registration failures with 503/32008 errors on iOS Bria Softphone, while the same configurations work on PC and Android devices. The current workaround is to use a PC or Android device for SIP registration. We expect to provide another update in 2 hours or as soon as more information becomes available.
