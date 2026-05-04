@@ -9,3 +9,8 @@ systems:
 timeline:
     - ts: "2026-05-04 17:59:28"
       description: Workflows and integrations have not run as of approximately 12:30pm ET today, this means that automatic onboarding and off-boarding are currently not occurring. In addition, the Workflows and Integrations pages are failing to load. Our Engineering team has identified the issue and are currently working on a fix.
+    - ts: "2026-05-04 18:27:10"
+      description: A fix has been implemented and we are now monitoring the results. Failed workflows will need to be manually re-run, failed integrations will re-run automatically within 24 hours but likely sooner.
+    - ts: "2026-05-04 18:34:49"
+      description: This incident has been resolved.
+      resolved: true
