@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-05-04 18:57:21"
       description: 'Log search in Grafana is currently unavailable. You may see `failed to make http request: 502` errors when accessing logs from fly-metrics.net at this time. App logs continue to be available using the `fly logs` command and in the Fly.io dashboard.'
       investigating: true
+    - ts: "2026-05-04 20:00:06"
+      description: We have a mitigation in place and are monitoring results.
