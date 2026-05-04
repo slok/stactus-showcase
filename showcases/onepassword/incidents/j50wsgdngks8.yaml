@@ -1,0 +1,11 @@
+version: incident/v1
+id: j50wsgdngks8
+name: SaaS Manager workflows and integrations are failing
+impact: critical
+systems:
+    - jclfgrsyfl37
+    - txr1bwd3rlvh
+    - b5171ttx5ngd
+timeline:
+    - ts: "2026-05-04 17:59:28"
+      description: Workflows and integrations have not run as of approximately 12:30pm ET today, this means that automatic onboarding and off-boarding are currently not occurring. In addition, the Workflows and Integrations pages are failing to load. Our Engineering team has identified the issue and are currently working on a fix.
