@@ -1,0 +1,16 @@
+version: incident/v1
+id: 77j6yv8kc0vn
+name: Elevated errors on Claude Opus 4.5 and Sonnet 4.5
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-05-04 13:59:17"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-05-04 14:08:19"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-05-04 14:27:54"
+      description: A fix has been implemented and we are monitoring the results.

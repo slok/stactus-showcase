@@ -1,0 +1,15 @@
+version: incident/v1
+id: wynkzw6vy9tv
+name: Workers Analytics increased query failures
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-05-04 14:19:32"
+      description: |-
+        Cloudflare has identified an issue impacting a subset of Workers Analytics queries returning a 403 error. This does not impact writing Analytics Engine events.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+    - ts: "2026-05-04 14:29:42"
+      description: This incident has been resolved.
+      resolved: true
