@@ -39,3 +39,32 @@ timeline:
     - ts: "2026-05-04 16:06:30"
       description: Pages is experiencing degraded performance. We are continuing to investigate.
       investigating: true
+    - ts: "2026-05-04 16:25:34"
+      description: Git Operations is operating normally.
+      investigating: true
+    - ts: "2026-05-04 16:28:59"
+      description: Actions and Packages are operating normally.
+      investigating: true
+    - ts: "2026-05-04 16:29:07"
+      description: Latency across services has normalized. We are continuing to investigate the root cause and prevent reoccurrence.
+      investigating: true
+    - ts: "2026-05-04 16:29:12"
+      description: Pages is operating normally.
+      investigating: true
+    - ts: "2026-05-04 16:32:40"
+      description: Pull Requests is operating normally.
+      investigating: true
+    - ts: "2026-05-04 16:34:14"
+      description: The degradation affecting Issues has been mitigated. We are monitoring to ensure stability.
+      investigating: true
+    - ts: "2026-05-04 16:35:03"
+      description: The degradation affecting Codespaces has been mitigated. We are monitoring to ensure stability.
+      investigating: true
+    - ts: "2026-05-04 16:35:58"
+      description: Webhooks is operating normally.
+      investigating: true
+    - ts: "2026-05-04 16:36:45"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-05-04 16:40:05"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
