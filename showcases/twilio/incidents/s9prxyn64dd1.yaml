@@ -1,6 +1,6 @@
 version: incident/v1
 id: s9prxyn64dd1
-name: SMS Delivery Delays and Failures from a Subset of Twilio Short Codes to Cellularone NE Arizona United States
+name: SMS Delivery Delays and Failures From a Subset of Twilio Short Codes to Cellularone NE Arizona United States
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -11,3 +11,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Short Codes to Cellularone network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-05-04 02:32:19"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Short Codes to Cellularone NE Arizona network subscribers in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-05-04 04:32:51"
+      description: We have observed a recovery in SMS delivery from a subset of Twilio Short Codes to Cellularone NE Arizona network subscribers in the United States and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
