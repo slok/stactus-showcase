@@ -1,0 +1,41 @@
+version: incident/v1
+id: 72q3n8yxthcy
+name: Incident with Issues and Webhooks
+impact: critical
+systems:
+    - 8l4ygp009s5s
+    - 4230lsnqdsld
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+    - st3j38cctv9l
+    - vg70hn9s2tyj
+    - h2ftsgbw7kmk
+timeline:
+    - ts: "2026-05-04 15:45:35"
+      description: We are investigating reports of degraded performance for Issues and Webhooks
+      investigating: true
+    - ts: "2026-05-04 15:48:49"
+      description: We are investigating Increased latency and timeouts across multiple GitHub services.
+      investigating: true
+    - ts: "2026-05-04 15:48:49"
+      description: Git Operations is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-05-04 15:50:35"
+      description: Packages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-05-04 15:51:57"
+      description: Pull Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-05-04 15:51:59"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-05-04 15:56:39"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-05-04 16:05:18"
+      description: Codespaces is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-05-04 16:06:30"
+      description: Pages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
