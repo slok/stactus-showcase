@@ -1,0 +1,10 @@
+version: incident/v1
+id: dp81d3xgn76y
+name: SMS Delivery Delays from Twilio to Tigo Guatemala
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-05-05 23:11:42"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Tigo network subscribers in Guatemala. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
