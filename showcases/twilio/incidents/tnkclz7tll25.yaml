@@ -1,6 +1,6 @@
 version: incident/v1
 id: tnkclz7tll25
-name: SMS Delivery Delays and Failures from Twilio numbers to Elisa and Telia Finland
+name: SMS Delivery Delays and Failures from Twilio Phone Numbers to Elisa and Telia Finland
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -8,3 +8,7 @@ timeline:
     - ts: "2026-05-05 09:04:08"
       description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio numbers to Elisa and Telia network subscribers in Finland. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-05-05 10:07:51"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Elisa and Telia network subscribers in Finland. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-05-05 10:18:27"
+      description: We have observed a recovery in SMS delivery from Twilio Phone Numbers to Elisa and Telia network subscribers in Finland and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
