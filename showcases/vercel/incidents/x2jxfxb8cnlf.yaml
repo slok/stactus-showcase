@@ -1,7 +1,7 @@
 version: incident/v1
 id: x2jxfxb8cnlf
 name: Failures to load data across multiple services on the Vercel dashboard, API, and CLI
-impact: major
+impact: minor
 systems:
     - fk66q26xp7hh
     - rxynwj392p81
@@ -24,3 +24,7 @@ timeline:
       description: Reading data from impacted services has recovered. We are working to backfill any missing data in Observability.
     - ts: "2026-05-05 16:50:15"
       description: Impacted services have recovered. We are continuing to monitoring, while backfilling remaining missing data.
+    - ts: "2026-05-05 17:12:05"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-05-05 17:14:51"
+      description: All systems are operational. We are continuing to monitor the backfill process, which is expected to take a couple of hours. New data is being processed as expected.

@@ -1,0 +1,13 @@
+version: incident/v1
+id: g1xx1d9t8prr
+name: Delayed Network Analytics and Alerting
+impact: minor
+systems:
+    - m1cm5tqpkqtm
+    - bjlxcss20fsl
+    - 4n0gb0kh02gf
+    - 6dd6ssg7plt0
+timeline:
+    - ts: "2026-05-05 17:19:57"
+      description: "We are currently experiencing a delay in processing network analytics across our L4 DDoS protection products. There is no impact to DDoS mitigation functionality; however, customers may notice a lag in the population of Network Analytics dashboards. \n\nThis delay also affects the delivery of real-time alerts for these products. We are working to resolve the issue and will provide further updates as they become available."
+      investigating: true

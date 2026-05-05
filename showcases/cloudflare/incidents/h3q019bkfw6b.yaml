@@ -1,11 +1,26 @@
 version: incident/v1
 id: h3q019bkfw6b
-name: Issues with new Cloudflare Tunnel connections and Browser Isolation registrations
-impact: minor
+name: Issues with Cloudflare Tunnel connections and Browser Isolation sessions
+impact: major
 systems:
     - q0dfbn0p6hyt
     - y98zlwj1d7zh
 timeline:
     - ts: "2026-05-05 16:49:16"
-      description: "Cloudflare is investigating connectivity issues affecting Cloudflare Tunnel and Browser Isolation. This issue is currently limited to the establishment of new connections. \n\nCustomers may experience errors or timeouts when attempting to register new tunnels via cloudflared or when initiating new Browser Isolation sessions. Existing tunnels and active sessions are not affected and continue to operate normally. \n\nOur engineering team is actively investigating the root cause, and we will provide additional updates as soon as more information is available."
+      description: |-
+        Cloudflare is investigating an issue causing connectivity disruptions for both Cloudflare Tunnel and Browser Isolation.
+
+        Initially identified as affecting only new connections, we have confirmed that existing connections might also be impacted. Due to internal service restarts across our edge infrastructure, currently active tunnels and sessions may be forced to reconnect. During this re-establishment process, customers may encounter elevated error rates or registration failures.
+
+        Our engineering team is prioritized on stabilizing the underlying services to allow connections to resume normal operations. We will provide frequent updates as we work toward a resolution.
       investigating: true
+    - ts: "2026-05-05 16:58:40"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-05-05 17:24:32"
+      description: |-
+        The connectivity issues affecting Cloudflare Tunnel and Browser Isolation have stabilized, and we have identified the root cause.
+
+        Our investigation confirms that internal service restarts across our edge infrastructure led to significant connection churn. This caused active Cloudflare Tunnel connections and Browser Isolation sessions to disconnect and attempt to re-establish simultaneously. While this surge initially resulted in elevated error rates and registration failures, service health has now recovered, and connection success rates have returned to normal levels.
+
+        Most customers should see services operating normally at this time.

@@ -2,8 +2,17 @@ version: incident/v1
 id: 8kn8t67gdy36
 name: Increased Latency and Failures for SSH Git Operations
 impact: minor
-systems: []
+systems:
+    - 8l4ygp009s5s
 timeline:
     - ts: "2026-05-05 16:49:36"
       description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-05-05 16:54:25"
+      description: Between approximately 14:00 and 16:10 UTC, customers using SSH-based Git operations may have experienced elevated latency and failures. HTTP-based operations were not impacted. We've identified a suspected root cause and are working to implement a mitigation to prevent further impact.
+    - ts: "2026-05-05 17:23:59"
+      description: Git Operations is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-05-05 17:26:03"
+      description: We're continuing to work on preventing further impact from the earlier issue. No SSH-based impact is expected at this time. We'll post new updates if impact recurs or once our mitigation is in place.
       investigating: true

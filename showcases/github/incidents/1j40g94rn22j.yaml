@@ -1,7 +1,7 @@
 version: incident/v1
 id: 1j40g94rn22j
 name: Incident with Actions
-impact: major
+impact: critical
 systems:
     - br0l2tvcx85d
 timeline:
@@ -23,3 +23,12 @@ timeline:
     - ts: "2026-05-05 16:33:18"
       description: We've seen signs of recovery for Standard Hosted Runners and are continuing to monitor for full recovery. Hosted Runners with Private Networking in the East US region remain affected as we continue working with our compute provider to restore capacity.
       investigating: true
+    - ts: "2026-05-05 17:11:09"
+      description: Standard hosted runners have now reached full recovery. Hosted Runners with Private Networking in the East US region remain degraded as we continue working with our compute provider to restore capacity. Hosted Runners with private networking can fail over to a different Region to mitigate the issue.
+      investigating: true
+    - ts: "2026-05-05 17:11:56"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-05-05 17:26:52"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
