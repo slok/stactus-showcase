@@ -24,3 +24,5 @@ timeline:
         Our investigation confirms that internal service restarts across our edge infrastructure led to significant connection churn. This caused active Cloudflare Tunnel connections and Browser Isolation sessions to disconnect and attempt to re-establish simultaneously. While this surge initially resulted in elevated error rates and registration failures, service health has now recovered, and connection success rates have returned to normal levels.
 
         Most customers should see services operating normally at this time.
+    - ts: "2026-05-05 19:19:47"
+      description: A fix has been implemented and we are monitoring the results.
