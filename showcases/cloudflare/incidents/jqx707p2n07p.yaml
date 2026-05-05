@@ -1,0 +1,14 @@
+version: incident/v1
+id: jqx707p2n07p
+name: Network Performance Issues in Ashburn
+impact: minor
+systems:
+    - 3t0npclljyyg
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-05-05 05:38:07"
+      description: |-
+        Cloudflare is investigating issues with network performance in Ashburn.
+
+        We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
