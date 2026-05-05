@@ -1,0 +1,16 @@
+version: incident/v1
+id: 1j40g94rn22j
+name: Incident with Actions
+impact: major
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-05-05 13:37:58"
+      description: We are investigating reports of degraded availability for Actions
+      investigating: true
+    - ts: "2026-05-05 13:48:39"
+      description: We are investigating elevated queue times on Actions Jobs running on Standard Hosted Runners in East US affecting 10% of runs
+      investigating: true
+    - ts: "2026-05-05 14:14:20"
+      description: We are investigating elevated queue times and failures on Actions Jobs running on Hosted Runners in East US affecting 8% of runs. Hosted Runners with private networking can fail over to a different Azure region to mitigate the issue.
+      investigating: true
