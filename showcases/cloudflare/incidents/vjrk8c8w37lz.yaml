@@ -16,3 +16,5 @@ timeline:
       description: We are continuing to work on a fix for this issue.
     - ts: "2026-05-05 22:14:42"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2026-05-05 22:37:37"
+      description: The issue has been identified as a DNSSEC signing problem at DENIC, the organization responsible for the .DE top-level domain. Cloudflare has temporarily disabled DNSSEC validation on 1.1.1.1 resolver in order to allow .DE names to continue to resolve. DNSSEC validation will be re-enabled when the signing problems at DENIC are known to have been resolved.
