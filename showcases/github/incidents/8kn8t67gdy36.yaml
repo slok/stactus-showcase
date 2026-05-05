@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8kn8t67gdy36
+name: Increased Latency and Failures for SSH Git Operations
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-05-05 16:49:36"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true

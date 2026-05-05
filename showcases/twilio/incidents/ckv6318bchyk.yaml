@@ -1,6 +1,6 @@
 version: incident/v1
 id: ckv6318bchyk
-name: SMS Delivery Delays and Failures between Twilio and Multiple Networks in Malaysia
+name: SMS Delivery Delays and Failures Between Twilio and Multiple Networks in Malaysia
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -21,3 +21,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays and failures between Twilio and network subscribers on multiple networks in Malaysia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
     - ts: "2026-05-05 12:33:26"
       description: We have observed a recovery in SMS delivery between Twilio and network subscribers on multiple networks in Malaysia and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-05-05 14:33:57"
+      description: We have observed a recovery in SMS delivery between Twilio and network subscribers on multiple networks in Malaysia and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+      resolved: true

@@ -14,3 +14,12 @@ timeline:
     - ts: "2026-05-05 14:14:20"
       description: We are investigating elevated queue times and failures on Actions Jobs running on Hosted Runners in East US affecting 8% of runs. Hosted Runners with private networking can fail over to a different Azure region to mitigate the issue.
       investigating: true
+    - ts: "2026-05-05 15:12:19"
+      description: We are working with our compute provider to alleviate elevated queue times and failures for Actions Jobs running on Hosted Runners in the East US region affecting 10% of runs. Hosted Runners with private networking can fail over to a different Region to mitigate the issue.
+      investigating: true
+    - ts: "2026-05-05 15:54:34"
+      description: We've applied a mitigation for long queue times and failures on Standard Hosted Runners and are monitoring for full recovery. Hosted Runners with Private Networking in the East US region remain affected as we continue working with our compute provider to restore capacity.
+      investigating: true
+    - ts: "2026-05-05 16:33:18"
+      description: We've seen signs of recovery for Standard Hosted Runners and are continuing to monitor for full recovery. Hosted Runners with Private Networking in the East US region remain affected as we continue working with our compute provider to restore capacity.
+      investigating: true

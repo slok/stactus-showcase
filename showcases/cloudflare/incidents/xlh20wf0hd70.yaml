@@ -13,3 +13,5 @@ timeline:
       investigating: true
     - ts: "2026-05-05 09:17:42"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-05-05 15:59:59"
+      description: We have identified an issue with our Bot Management feature causing rules with IDs 50331648 and 50331649 to match traffic unexpectedly.  Customers using Bot Management may have seen an increase in requests flagged by these rules.  We have disabled the affected feature to prevent further impact. Our team is actively working on a fix.

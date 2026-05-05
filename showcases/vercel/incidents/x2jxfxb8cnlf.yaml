@@ -1,0 +1,26 @@
+version: incident/v1
+id: x2jxfxb8cnlf
+name: Failures to load data across multiple services on the Vercel dashboard, API, and CLI
+impact: major
+systems:
+    - fk66q26xp7hh
+    - rxynwj392p81
+    - kscyjm1qp3cw
+    - zr2j7y9kv5hd
+    - 5d8svglj5s34
+timeline:
+    - ts: "2026-05-05 15:15:40"
+      description: |-
+        We've identified an issue where various services in the Vercel dashboard, API, and CLI are failing to load data. These services include Observability, Speed Insights, Alerts, Usage, Web Analytics, Firewall, and CDN observability. Broadly, areas backed by analytical data are affected.
+
+        We have identified the issue and are working on a fix.
+
+        Production applications running on Vercel are not impacted.
+    - ts: "2026-05-05 15:58:21"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-05-05 16:30:07"
+      description: We are seeing services start to recover as we incrementally apply the fix.
+    - ts: "2026-05-05 16:37:36"
+      description: Reading data from impacted services has recovered. We are working to backfill any missing data in Observability.
+    - ts: "2026-05-05 16:50:15"
+      description: Impacted services have recovered. We are continuing to monitoring, while backfilling remaining missing data.

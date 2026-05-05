@@ -1,0 +1,14 @@
+version: incident/v1
+id: hpp89fn4g199
+name: Slower build start time in Workers Builds
+impact: minor
+systems:
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2026-05-05 15:24:56"
+      description: Some Workers Builds users may experience increased build dequeue times
+      investigating: true
+    - ts: "2026-05-05 16:15:51"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-05-05 16:34:29"
+      description: A fix has been implemented and we are monitoring the results.

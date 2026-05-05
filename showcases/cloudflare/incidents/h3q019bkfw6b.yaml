@@ -1,0 +1,11 @@
+version: incident/v1
+id: h3q019bkfw6b
+name: Issues with new Cloudflare Tunnel connections and Browser Isolation registrations
+impact: minor
+systems:
+    - q0dfbn0p6hyt
+    - y98zlwj1d7zh
+timeline:
+    - ts: "2026-05-05 16:49:16"
+      description: "Cloudflare is investigating connectivity issues affecting Cloudflare Tunnel and Browser Isolation. This issue is currently limited to the establishment of new connections. \n\nCustomers may experience errors or timeouts when attempting to register new tunnels via cloudflared or when initiating new Browser Isolation sessions. Existing tunnels and active sessions are not affected and continue to operate normally. \n\nOur engineering team is actively investigating the root cause, and we will provide additional updates as soon as more information is available."
+      investigating: true
