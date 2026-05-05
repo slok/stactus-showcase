@@ -11,3 +11,8 @@ timeline:
     - ts: "2026-05-05 17:19:57"
       description: "We are currently experiencing a delay in processing network analytics across our L4 DDoS protection products. There is no impact to DDoS mitigation functionality; however, customers may notice a lag in the population of Network Analytics dashboards. \n\nThis delay also affects the delivery of real-time alerts for these products. We are working to resolve the issue and will provide further updates as they become available."
       investigating: true
+    - ts: "2026-05-05 17:49:10"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-05-05 18:07:54"
+      description: This incident has been resolved.
+      resolved: true
