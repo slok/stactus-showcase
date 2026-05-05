@@ -1,6 +1,6 @@
 version: incident/v1
 id: z84sjf1m148n
-name: User Authentication Identity Gateway API Failure Increase and High Latency to Verizon in United States
+name: User Authentication Identity Gateway API Failure Increase and High Latency for Verizon in United States
 impact: minor
 systems:
     - q0hp6vfr4vvh
@@ -9,3 +9,5 @@ timeline:
     - ts: "2026-05-05 06:43:17"
       description: Twilio customers may be experiencing User Authentication Identity Gateway API failure increase and high latency to Verizon in United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-05-05 07:40:57"
+      description: Twilio customers may be experiencing User Authentication Identity Gateway API failure increase and high latency for Verizon in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.

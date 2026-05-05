@@ -1,0 +1,13 @@
+version: incident/v1
+id: xlh20wf0hd70
+name: Bot Management Issues
+impact: minor
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2026-05-05 08:04:42"
+      description: |-
+        Cloudflare is investigating issues with our Bot Management feature. Customers may experience an unexpected increase in Bot Management rules matching detection IDs 50331648 and 50331649.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
