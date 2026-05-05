@@ -1,0 +1,13 @@
+version: incident/v1
+id: hswtxrx0fkd1
+name: Errors adding R2 custom domains
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-05-05 11:33:14"
+      description: |-
+        Cloudflare is aware of and investigating an issue with adding R2 custom domains which potentially impacts multiple customers. This does not impact serving or uploading R2 objects.
+
+        We are working to analyse and mitigate this problem.  More updates to follow shortly.
+      investigating: true
