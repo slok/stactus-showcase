@@ -1,0 +1,14 @@
+version: incident/v1
+id: s1mcpzcxhr9x
+name: Delays in APM-based Monitor Notifications
+impact: minor
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2026-05-05 18:14:03"
+      description: We’re currently investigating an issue affecting APM monitor delays in our US1 datacenter. As a result, some users may experience delayed alert triggering or temporary inconsistencies in monitors.
+      investigating: true
+    - ts: "2026-05-05 18:29:16"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-05-05 18:44:24"
+      description: A fix has been implemented and we are monitoring the results.

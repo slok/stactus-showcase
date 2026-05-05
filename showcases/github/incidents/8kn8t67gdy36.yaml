@@ -16,3 +16,10 @@ timeline:
     - ts: "2026-05-05 17:26:03"
       description: We're continuing to work on preventing further impact from the earlier issue. No SSH-based impact is expected at this time. We'll post new updates if impact recurs or once our mitigation is in place.
       investigating: true
+    - ts: "2026-05-05 18:25:36"
+      description: The degradation affecting Git Operations has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-05-05 18:35:36"
+      description: We've completed our mitigation to prevent further impact. At this time the incident is considered resolved.
+    - ts: "2026-05-05 18:35:41"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
