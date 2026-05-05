@@ -1,0 +1,12 @@
+version: incident/v1
+id: vjrk8c8w37lz
+name: Resolution Issues for .de Domains
+impact: minor
+systems:
+    - 4l9qztbt6rbj
+timeline:
+    - ts: "2026-05-05 21:17:17"
+      description: We are observing issues with authoritative resolution for the .de TLD.
+      investigating: true
+    - ts: "2026-05-05 21:20:40"
+      description: The issue has been identified and a fix is being implemented.
