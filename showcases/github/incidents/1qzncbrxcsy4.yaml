@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1qzncbrxcsy4
+name: Incident with Actions, we are investigating reports of degraded availability
+impact: major
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-05-06 07:19:07"
+      description: We are investigating reports of degraded availability for Actions
+      investigating: true
