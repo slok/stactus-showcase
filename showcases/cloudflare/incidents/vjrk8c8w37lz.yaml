@@ -11,10 +11,18 @@ timeline:
     - ts: "2026-05-05 21:20:40"
       description: The issue has been identified and a fix is being implemented.
     - ts: "2026-05-05 22:01:04"
-      description: The issue has been identified as a DNSSEC signing problem at DENIC, the organization responsible for the .DE top-level domain. Cloudflare is temporarily disabling DNSSEC validation on 1.1.1.1 resolver in order to allow .DE names to continue to resolve. DNSSEC validation will be re-enabled when the signing problems at DENIC are known to have been resolved.
+      description: |-
+        The issue has been identified as a DNSSEC signing problem at DENIC, the organization responsible for the .DE top-level domain. Cloudflare is temporarily disabling DNSSEC validation for .de domains on 1.1.1.1 resolver (as per RFC 7646) in order to allow .DE names to continue to resolve. DNSSEC validation will be re-enabled when the signing problems at DENIC are known to have been resolved.
+
+        See RFC 7646 for more details:
+        https://datatracker.ietf.org/doc/html/rfc7646
     - ts: "2026-05-05 22:07:37"
       description: We are continuing to work on a fix for this issue.
     - ts: "2026-05-05 22:14:42"
       description: We are continuing to work on a fix for this issue.
     - ts: "2026-05-05 22:37:37"
-      description: The issue has been identified as a DNSSEC signing problem at DENIC, the organization responsible for the .DE top-level domain. Cloudflare has temporarily disabled DNSSEC validation on 1.1.1.1 resolver in order to allow .DE names to continue to resolve. DNSSEC validation will be re-enabled when the signing problems at DENIC are known to have been resolved.
+      description: |-
+        The issue has been identified as a DNSSEC signing problem at DENIC, the organization responsible for the .DE top-level domain. Cloudflare has temporarily disabled DNSSEC validation for .de domains on 1.1.1.1 resolver (as per RFC 7646) in order to allow .DE names to continue to resolve. DNSSEC validation will be re-enabled when the signing problems at DENIC are known to have been resolved.
+
+        See RFC 7646 for more details:
+        https://datatracker.ietf.org/doc/html/rfc7646

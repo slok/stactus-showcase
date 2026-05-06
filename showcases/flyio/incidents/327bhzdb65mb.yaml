@@ -1,0 +1,13 @@
+version: incident/v1
+id: 327bhzdb65mb
+name: Elevated error rates on List Machines endpoint
+impact: minor
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2026-05-06 00:06:54"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-05-06 00:41:38"
+      description: We mitigated the problem. The issue only affected apps having machines in the sin region.
+      resolved: true

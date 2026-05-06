@@ -1,0 +1,14 @@
+version: incident/v1
+id: d5nm9qbpj2gq
+name: Increased error rate in Workflows
+impact: major
+systems:
+    - c3yjhlfbv34z
+timeline:
+    - ts: "2026-05-06 00:10:08"
+      description: We are experiencing increased error rates with Workflows running on Vercel. We have identified the issue and are implementing a fix.
+    - ts: "2026-05-06 00:13:11"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-05-06 00:19:54"
+      description: This incident has been resolved.
+      resolved: true
