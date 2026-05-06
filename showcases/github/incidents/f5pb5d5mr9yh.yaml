@@ -23,3 +23,9 @@ timeline:
     - ts: "2026-05-06 17:52:49"
       description: Creation of new Pull Request threads (including line and file comments) continues to be affected although we are seeing partial recovery.<br /><br />A mitigation is being applied to continue to accelerate recovery with complete recovery expected by 8:00pm UTC.<br /><br />Top-level comments on pull requests still function and should remain usable during recovery. Opening and merging pull requests, actions, and other pull request operations remain functional.
       investigating: true
+    - ts: "2026-05-06 19:04:12"
+      description: Mitigations have been fully applied and we are seeing full recovery of functionality on Pull Request threads. We are continuing to monitor to ensure sustained recovery.
+      investigating: true
+    - ts: "2026-05-06 19:04:36"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
