@@ -1,7 +1,7 @@
 version: incident/v1
 id: f5pb5d5mr9yh
 name: Incident with Pull Requests
-impact: minor
+impact: critical
 systems:
     - hhtssxt0f5v2
 timeline:
@@ -13,4 +13,10 @@ timeline:
       investigating: true
     - ts: "2026-05-06 15:55:59"
       description: Creation of new Pull Request threads (including line and file comments) continues to be affected. We have identified the cause of the issue and have started taking steps to mitigate this issue.
+      investigating: true
+    - ts: "2026-05-06 16:07:50"
+      description: Pull Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-05-06 16:20:41"
+      description: Creation of new Pull Request threads (including line and file comments) continues to be affected. <br /><br />Top-level comments on pull requests still function and should remain usable during recovery.  Opening and merging pull requests, actions, and other pull request operations remain functional. <br /><br />A mitigation is being applied. Recovery is expected to be gradual, with complete recovery expected by 8:00pm UTC.
       investigating: true

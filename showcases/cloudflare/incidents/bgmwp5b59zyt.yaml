@@ -1,0 +1,9 @@
+version: incident/v1
+id: bgmwp5b59zyt
+name: Cloudflare Dashboard Workers Editor Unavailable
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-05-06 16:26:04"
+      description: "Cloudflare has identified an issue affecting the Workers Editor. Customers can continue to deploy and update Worker code using Wrangler, Terraform, or the API. \n\nWe are working to mitigate the issue and will provide updates as our investigation progresses."
