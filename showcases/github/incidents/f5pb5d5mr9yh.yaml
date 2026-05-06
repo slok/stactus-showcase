@@ -1,0 +1,16 @@
+version: incident/v1
+id: f5pb5d5mr9yh
+name: Incident with Pull Requests
+impact: minor
+systems:
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2026-05-06 15:25:23"
+      description: We are investigating reports of degraded performance for Pull Requests
+      investigating: true
+    - ts: "2026-05-06 15:28:49"
+      description: We are investigating failures for new thread creation on Pull Requests. Responses to existing pull request threads are unaffected.
+      investigating: true
+    - ts: "2026-05-06 15:55:59"
+      description: Creation of new Pull Request threads (including line and file comments) continues to be affected. We have identified the cause of the issue and have started taking steps to mitigate this issue.
+      investigating: true
