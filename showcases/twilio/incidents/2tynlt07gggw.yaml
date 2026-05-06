@@ -1,9 +1,13 @@
 version: incident/v1
 id: 2tynlt07gggw
-name: On Call Engineers are Investigating a Call Failure Issue
-impact: none
-systems: []
+name: Intermittent Call Failures to Spain
+impact: minor
+systems:
+    - bnzggd37p61w
 timeline:
     - ts: "2026-05-06 16:27:44"
       description: Our monitoring systems have detected a potential Call Failure Issue. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-05-06 16:54:02"
+      description: We are experiencing intermittent call failures to Spain. Our engineers are working with our carrier partners to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true

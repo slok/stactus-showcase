@@ -7,3 +7,8 @@ systems:
 timeline:
     - ts: "2026-05-06 16:26:04"
       description: "Cloudflare has identified an issue affecting the Workers Editor. Customers can continue to deploy and update Worker code using Wrangler, Terraform, or the API. \n\nWe are working to mitigate the issue and will provide updates as our investigation progresses."
+    - ts: "2026-05-06 16:50:32"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-05-06 16:55:15"
+      description: This incident has been resolved.
+      resolved: true
