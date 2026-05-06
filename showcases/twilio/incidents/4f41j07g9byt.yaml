@@ -18,3 +18,6 @@ timeline:
       description: We have identified an issue involving inbound RCS message delivery failures affecting iOS devices in conversation threads older than a few minutes. Customers may experience messages failing to arrive until an outbound message is sent first. We have escalated this issue to our vendor. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-05-06 22:25:19"
       description: Our third party vendors have implemented a fix and we are seeing recovery in RCS messages. We will provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-05-06 22:52:43"
+      description: Our engineers have monitored the fix and confirmed the issue with inbound RCS message delivery failures affecting iOS devices in conversation threads older than a few minutes has been resolved. All services are now operating normally at this time.
+      resolved: true

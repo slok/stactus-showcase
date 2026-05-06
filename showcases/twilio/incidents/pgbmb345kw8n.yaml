@@ -1,0 +1,10 @@
+version: incident/v1
+id: pgbmb345kw8n
+name: Customers Unable to Select Address in Drop Down During Phone Number Purchase
+impact: minor
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2026-05-06 23:00:23"
+      description: We are investigating an issue where Customers are unable to select Address in the drop down during phone number purchase in the Twilio Console. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
