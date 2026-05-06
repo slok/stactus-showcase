@@ -1,0 +1,9 @@
+version: incident/v1
+id: jy31606b8w62
+name: R2 enablement temporarily degraded on Dash (09:30–10:06 UTC)
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-05-06 10:42:50"
+      description: Between 09:30 and 10:06 UTC, the R2 entitlements service experienced a brief outage that prevented customers from enabling R2 subscriptions from the Cloudflare Dashboard. Existing R2 workloads were unaffected. The issue has been resolved and enablement is fully operational.
+      resolved: true
