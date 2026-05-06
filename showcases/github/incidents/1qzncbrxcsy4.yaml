@@ -11,3 +11,13 @@ timeline:
     - ts: "2026-05-06 08:00:18"
       description: Actions is experiencing issues with ubuntu standard hosted runners leading to high wait times. We are actively investigating the issue
       investigating: true
+    - ts: "2026-05-06 09:08:07"
+      description: We've applied a mitigation to fix the issues with queuing and running Actions jobs. We are seeing improvements in telemetry and are monitoring for full recovery.
+      investigating: true
+    - ts: "2026-05-06 09:19:48"
+      description: The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-05-06 09:44:17"
+      description: Actions wait times have fully recovered.
+    - ts: "2026-05-06 09:44:26"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
