@@ -1,0 +1,10 @@
+version: incident/v1
+id: vnfcmj7vk2rf
+name: Cloudflare One Dashboard Analytics Intermittently Not Loading
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-05-06 21:13:42"
+      description: We are investigating intermittent loading issues affecting Cloudflare Access and Gateway Analytics within the Cloudflare One dashboard. This is a display-only issue specifically impacting the rendering of rollup analytics. Please be assured that all data collection remains uninterrupted. Access and Gateway analytics are fully operational.
+      investigating: true
