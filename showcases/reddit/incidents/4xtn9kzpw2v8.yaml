@@ -1,0 +1,11 @@
+version: incident/v1
+id: 4xtn9kzpw2v8
+name: Search experience and subreddit experience is degraded
+impact: none
+systems: []
+timeline:
+    - ts: "2026-05-05 23:44:02"
+      description: We are currently investigating an issue which has caused bad search and subreddit feed experience
+      investigating: true
+    - ts: "2026-05-05 23:45:15"
+      description: We have identified the issue and a fix is being implemented.
