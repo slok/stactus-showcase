@@ -1,0 +1,10 @@
+version: incident/v1
+id: z0jcgk6n56s7
+name: Atlas Backup Export Jobs Degraded Performance
+impact: minor
+systems:
+    - 98lbmdz85yp0
+    - q57ng8brt2td
+timeline:
+    - ts: "2026-05-06 21:48:39"
+      description: Identified - We have identified an issue causing failures for a subset of Atlas backup export jobs. We are actively working on a fix. Your cluster health and data are unaffected. We will provide another update by May 7 01:30 UTC
