@@ -1,0 +1,12 @@
+version: incident/v1
+id: sj2rb14xy2z5
+name: Error When Submitting Tickets on help.twilio.com
+impact: minor
+systems:
+    - xv01vfp8wvs4
+timeline:
+    - ts: "2026-05-06 11:01:45"
+      description: Our monitoring systems have detected a potential issue with the support ticket submission page on help.twilio.com. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-05-06 11:21:40"
+      description: Our engineers have identified an issue with submitting support tickets on help.twilio.com and are working to deploy a fix. The issue is intermittent and the current workaround is to refresh the page. We expect to provide another update in 1 hour or as soon as more information becomes available.

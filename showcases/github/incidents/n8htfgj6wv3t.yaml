@@ -1,0 +1,12 @@
+version: incident/v1
+id: n8htfgj6wv3t
+name: Disruption with some GitHub services
+impact: critical
+systems: []
+timeline:
+    - ts: "2026-05-06 11:21:28"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-05-06 11:25:34"
+      description: We are investigating issues with the ability to start Copilot Cloud Agent sessions and view them.
+      investigating: true
