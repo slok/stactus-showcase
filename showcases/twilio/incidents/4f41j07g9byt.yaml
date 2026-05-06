@@ -1,6 +1,6 @@
 version: incident/v1
 id: 4f41j07g9byt
-name: Customers Are Not Receiving RCS Messages From Their iOS Users for Conversations That Are More Than Few Minutes Old
+name: RCS inbound message delivery failures for iOS devices
 impact: minor
 systems:
     - t32hnkr2q793
@@ -14,3 +14,5 @@ timeline:
     - ts: "2026-05-06 20:09:02"
       description: We are continuing to investigate an issue where Customers are not receiving RCS messages from their iOS users for conversations that are more than few minutes old. We will provide another update in 1 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-05-06 20:38:02"
+      description: We have identified an issue involving inbound RCS message delivery failures affecting iOS devices in conversation threads older than a few minutes. Customers may experience messages failing to arrive until an outbound message is sent first. We have escalated this issue to our vendor. We will provide another update in 2 hours or as soon as more information becomes available.
