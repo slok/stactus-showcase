@@ -1,0 +1,10 @@
+version: incident/v1
+id: h8dkrz5z4dp9
+name: SMS Delivery Delays from Twilio to KPN Netherlands
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-05-07 08:50:41"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to KPN network subscribers in the Netherlands. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

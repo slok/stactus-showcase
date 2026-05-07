@@ -1,6 +1,6 @@
 version: incident/v1
 id: shhrhbqxflt1
-name: SMS Delivery Delays from Twilio to Orange and Digi Romania
+name: SMS Delivery Delays from Twilio to Multiple Networks in Multiple Countries in Europe
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-05-07 08:07:11"
       description: Twilio customers may be experiencing SMS delivery delays from Twilio to Orange and Digi network subscribers in Romania. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-05-07 08:52:45"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to network subscribers on multiple networks in multiple countries in Europe. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.

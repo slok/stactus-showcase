@@ -1,6 +1,6 @@
 version: incident/v1
 id: 3fpxznxbn4gp
-name: User Authentication Identity Gateway API Failure Increase and Gateway API High Latency for T-Mobile in United States
+name: User Authentication Identity Gateway API Failure Increase and High Latency for T-Mobile in United States
 impact: minor
 systems:
     - q0hp6vfr4vvh
@@ -9,3 +9,5 @@ timeline:
     - ts: "2026-05-07 08:13:36"
       description: Twilio customers may be experiencing User Authentication Identity Gateway API failure increase and Gateway API high latency for T-Mobile in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-05-07 09:18:43"
+      description: We have observed a recovery in User Authentication Identity Gateway API failure increase and high latency for T-Mobile in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
