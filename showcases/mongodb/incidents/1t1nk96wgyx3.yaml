@@ -1,0 +1,11 @@
+version: incident/v1
+id: 1t1nk96wgyx3
+name: AWS Cluster DNS Changes Degraded Performance
+impact: major
+systems:
+    - q57ng8brt2td
+timeline:
+    - ts: "2026-05-07 15:17:23"
+      description: DNS changes for AWS clusters are currently degraded. We've identified the issue and are pushing out a patch.
+    - ts: "2026-05-07 15:20:14"
+      description: DNS changes for AWS clusters are currently degraded. Cluster topology modifications may be delayed or not able to complete successfully. We've identified the issue and are pushing out a patch.

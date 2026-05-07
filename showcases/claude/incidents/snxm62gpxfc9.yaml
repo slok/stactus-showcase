@@ -8,3 +8,5 @@ systems:
 timeline:
     - ts: "2026-05-06 22:32:54"
       description: We have identified an issue affecting organizations that restrict GitHub access by source IP address. A recent infrastructure change altered the IP addresses Anthropic uses for outbound connections to GitHub, which may cause Claude Code remote sessions, GitHub Enterprise plugin syncing, and Claude Security to fail. We are reverting the change to restore the previous IP ranges; no allowlist changes will be needed on your side. We will post an update once the fix is deployed.
+    - ts: "2026-05-07 15:17:03"
+      description: A fix has been implemented and we are monitoring the results.
