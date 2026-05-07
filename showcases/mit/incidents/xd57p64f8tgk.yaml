@@ -1,7 +1,7 @@
 version: incident/v1
 id: xd57p64f8tgk
 name: Nationwide Canvas Security Incident
-impact: minor
+impact: major
 systems:
     - nnqd6kx93rnc
 timeline:
@@ -12,4 +12,9 @@ timeline:
         This incident originates with the vendor and is affecting multiple institutions; it is not the result of an issue within our local systems.
 
         Canvas remains available and operational for users. We are continuing to review information from the vendor and will share updates as more details become available, including any recommended actions or guidance.
+      investigating: true
+    - ts: "2026-05-07 21:01:25"
+      description: |-
+        Due to a nationwide security incident involving Canvas that is affecting multiple institutions, Canvas is currently unavailable. The issue originates with the vendor and is not the result of an issue within MIT’s local systems.
+        We are actively monitoring updates and will share additional information as it becomes available.
       investigating: true
