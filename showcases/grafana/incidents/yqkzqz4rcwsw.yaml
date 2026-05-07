@@ -1,0 +1,13 @@
+version: incident/v1
+id: yqkzqz4rcwsw
+name: Metrics read errors in prod-ap-south-1 region
+impact: critical
+systems:
+    - ngh62blxrpkq
+timeline:
+    - ts: "2026-05-07 07:18:04"
+      description: |-
+        From approximately 06:24 UTC, we were alerted to an issue with read errors in mimir-prod-43. Users with instances hosted in the prod-ap-south-1 region experiencing this issue may encounter an error message when querying metrics.
+
+        Engineering is actively engaged and assessing the issue. We will provide updates accordingly.
+      investigating: true
