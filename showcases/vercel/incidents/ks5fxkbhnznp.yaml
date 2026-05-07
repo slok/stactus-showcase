@@ -1,0 +1,10 @@
+version: incident/v1
+id: ks5fxkbhnznp
+name: Elevated Errors Creating New Deployments
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-05-07 21:14:53"
+      description: We are investigating an issue affecting new deployments that are stuck in the provisioning state. We will share more information as it becomes available.
+      investigating: true
