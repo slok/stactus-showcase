@@ -1,6 +1,6 @@
 version: incident/v1
 id: 8d23nj7szbq2
-name: SMS Delivery Delays From a Subset of Twilio Alphanumeric Sender IDs to Orange Botswana
+name: SMS Delivery Delays from a Subset of Twilio Alphanumeric Sender IDs to Orange Botswana
 impact: minor
 systems:
     - 9z5gsqyjs4rl
@@ -10,3 +10,5 @@ timeline:
       investigating: true
     - ts: "2026-05-07 09:29:20"
       description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric Sender IDs to Orange network subscribers in Botswana. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-05-07 10:30:29"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric Sender IDs to Orange network subscribers in Botswana. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
