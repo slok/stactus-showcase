@@ -1,0 +1,13 @@
+version: incident/v1
+id: t7r8sr78xjks
+name: User Authentication Identity Gateway API High Latency in United States
+impact: minor
+systems:
+    - fsxs9n9yf4m7
+    - qt4vzyg2g7b4
+timeline:
+    - ts: "2026-05-07 19:03:00"
+      description: Twilio customers may be experiencing User Authentication Identity Gateway API high latency in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-07 19:08:53"
+      description: Twilio customers may be experiencing User Authentication Identity Gateway API high latency in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.

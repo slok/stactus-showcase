@@ -1,6 +1,6 @@
 version: incident/v1
 id: k2zf4jkzjhp8
-name: SMS Delivery Delays and Failures from Twilio to MTel Bosnia and Herzegovina
+name: SMS Delivery Delays and Failures from Twilio Phone Numbers to MTel Bosnia and Herzegovina
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -10,3 +10,5 @@ timeline:
       investigating: true
     - ts: "2026-05-07 18:06:29"
       description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to MTel network subscribers in Bosnia and Herzegovina. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-05-07 19:08:03"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio Phone Numbers to MTel network subscribers in Bosnia and Herzegovina. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
