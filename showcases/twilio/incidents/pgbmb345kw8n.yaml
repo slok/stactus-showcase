@@ -8,3 +8,9 @@ timeline:
     - ts: "2026-05-06 23:00:23"
       description: We are investigating an issue where Customers are unable to select Address in the drop down during phone number purchase in the Twilio Console. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-05-06 23:52:50"
+      description: We are still investigating an issue where Customers are unable to select Address in the drop down during phone number purchase in the Twilio Console. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-07 00:23:01"
+      description: We determined this as a false positive incident. All services are now operating normally at this time.
+      resolved: true
