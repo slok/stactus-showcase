@@ -9,3 +9,5 @@ timeline:
       description: DNS changes for AWS clusters are currently degraded. We've identified the issue and are pushing out a patch.
     - ts: "2026-05-07 15:20:14"
       description: DNS changes for AWS clusters are currently degraded. Cluster topology modifications may be delayed or not able to complete successfully. We've identified the issue and are pushing out a patch.
+    - ts: "2026-05-07 16:58:42"
+      description: Mitigation is in progress; recovery for DNS operations and downstream cluster topology changes has begun.
