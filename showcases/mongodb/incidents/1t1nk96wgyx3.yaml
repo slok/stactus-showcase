@@ -18,3 +18,6 @@ timeline:
       description: We've identified a bad piece of metadata causing DNS issues. We've since patched this metadata and are seeing recovery in ACME updates for cluster topology changes. We will continue to monitor recovery.
     - ts: "2026-05-07 19:47:33"
       description: We are continuing to monitor for any further issues.
+    - ts: "2026-05-07 22:15:21"
+      description: DNS updates for ACME are confirmed healthy. Cluster updates are now proceeding as expected.
+      resolved: true
