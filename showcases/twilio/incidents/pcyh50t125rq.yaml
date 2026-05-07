@@ -1,0 +1,10 @@
+version: incident/v1
+id: pcyh50t125rq
+name: Twilio Knowledge API calls are Failing Through Python SDK and Package
+impact: minor
+systems:
+    - 4rv9xfxmdjg9
+timeline:
+    - ts: "2026-05-07 09:51:57"
+      description: While using the Twilio Python SDK and Package calls to knowledge.twilio.com will fail. We are working on fixing it as soon as possible and will release a new minor version with the fix. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

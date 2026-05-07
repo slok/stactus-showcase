@@ -1,0 +1,9 @@
+version: incident/v1
+id: 9095k4g4nczj
+name: Intermittent machines issues in BOM
+impact: minor
+systems:
+    - k6fbt4mk0xv1
+timeline:
+    - ts: "2026-05-07 10:16:39"
+      description: Creation and updating of machines in BOM are affected. Some metrics and logs for resources in BOM may be delayed.
