@@ -14,3 +14,7 @@ timeline:
     - ts: "2026-05-07 17:50:06"
       description: We are still seeing cases where new cluster update requests are failing to go through due to ACME related DNS issues. We are actively investigating this issue.
       investigating: true
+    - ts: "2026-05-07 19:47:25"
+      description: We've identified a bad piece of metadata causing DNS issues. We've since patched this metadata and are seeing recovery in ACME updates for cluster topology changes. We will continue to monitor recovery.
+    - ts: "2026-05-07 19:47:33"
+      description: We are continuing to monitor for any further issues.
