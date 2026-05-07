@@ -1,0 +1,10 @@
+version: incident/v1
+id: jcnlfndp7sjv
+name: Connectivity issues in SJC
+impact: major
+systems:
+    - 49qj4qjyzlzn
+timeline:
+    - ts: "2026-05-07 17:49:46"
+      description: Some hosts in SJC are currently experiencing an upstream network issue. Apps running on these hosts may be temporarily unavailable.
+      investigating: true

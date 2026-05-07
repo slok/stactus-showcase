@@ -14,5 +14,5 @@ timeline:
       description: We have applied a mitigation and Copilot services have recovered.
       investigating: true
     - ts: "2026-05-06 11:59:51"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 6, 2026 between 11:02 UTC and 11:13 UTC, users were unable to start or view Copilot Cloud Agent or remote sessions. During this time, requests to the session API returned errors, preventing users from creating new sessions or viewing existing ones. The issue was caused by a configuration change to the service's network routing that inadvertently removed the ingress path for the service. The team reverted the change at 11:13 UTC which restored service. The incident remained open until 11:59 UTC while the team verified full recovery. We are taking steps to improve our deployment validation process to prevent similar configuration changes from impacting production traffic in the future.
       resolved: true
