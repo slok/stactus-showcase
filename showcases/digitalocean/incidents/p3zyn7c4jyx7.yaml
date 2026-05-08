@@ -1,0 +1,13 @@
+version: incident/v1
+id: p3zyn7c4jyx7
+name: Let's Encrypt Outage Affecting Certificate Issuance and Managed Databases Operations
+impact: minor
+systems:
+    - txysr8r0gn1n
+    - mzkgffp35tq4
+    - ctwhml01vvw1
+    - nkx0nmdx9vrs
+    - 8cp93lvtlh32
+timeline:
+    - ts: "2026-05-08 20:46:22"
+      description: "Our Engineering team is aware of an upstream outage with Let's Encrypt (see https://letsencrypt.status.io/) which impacts the following services: \n\n- Inability to create new Let's Encrypt certificates for Spaces, Load Balancers, and App Platform Custom Domains\n- Stuck or delayed creates/forks/restores on Mongo, PG, and MySQL databases. \n\nPlease note that operations related to Managed Databases and App Platform Custom Domains will automatically retry and should complete successfully once the upstream outage is resolved. \n\nWe'll continue to monitor this situation and provide updates. We apologize for the inconvenience."
