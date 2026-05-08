@@ -1,0 +1,25 @@
+version: incident/v1
+id: wjrkhvg9ydc1
+name: Delayed Monitors Notifications
+impact: critical
+systems:
+    - p4hwj4wsc5wf
+    - kbbhp1p4g26q
+    - 9y11dv57sdjd
+    - 1w2mz2hzw0cz
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+    - wb6d6tss5zph
+timeline:
+    - ts: "2026-05-08 00:06:53"
+      description: We are investigating delays in Monitors Notifications, which began at 23:39 UTC.
+      investigating: true
+    - ts: "2026-05-08 00:24:05"
+      description: We are investigating increased latency across multiple products which began at 23:39 UTC. As a result of this issue, some users may see delays in data across the platform.
+      investigating: true
+    - ts: "2026-05-08 00:47:17"
+      description: |-
+        Due to upstream provider issues, we are also continuing to see unavailability of telemetry data coming from AWS into Datadog.
+
+        https://health.aws.amazon.com/health/status
+      investigating: true

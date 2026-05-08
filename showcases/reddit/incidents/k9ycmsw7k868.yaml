@@ -1,0 +1,12 @@
+version: incident/v1
+id: k9ycmsw7k868
+name: AWS availability causing degradation in user experiences for various services
+impact: minor
+systems:
+    - 0wf8j1vtry0v
+    - 2kyn2wrh7xdk
+    - jx663dxlwgdt
+timeline:
+    - ts: "2026-05-08 00:47:39"
+      description: We are currently investigating some degradation in user experience which are being caused due to AWS issues in us-east-1
+      investigating: true
