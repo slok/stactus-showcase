@@ -1,0 +1,12 @@
+version: incident/v1
+id: npnzjlk4vhs0
+name: Wrangler users may experience frequent log out
+impact: none
+systems:
+    - q1h7j6g2jcjw
+timeline:
+    - ts: "2026-05-08 10:35:52"
+      description: We are currently investigating an issue where Wrangler users experience frequent log out.
+      investigating: true
+    - ts: "2026-05-08 10:36:58"
+      description: The issue has been identified, and we are working on a fix
