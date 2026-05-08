@@ -1,0 +1,9 @@
+version: incident/v1
+id: 3vnlpmlcglh7
+name: SSL Certificate Generation Delays
+impact: none
+systems: []
+timeline:
+    - ts: "2026-05-08 19:20:44"
+      description: Between 18:36 and 19:04 UTC, issuing SSL certificates was delayed for new domains. These certificates have now been issued. Certificate renewals were not affected.
+      resolved: true

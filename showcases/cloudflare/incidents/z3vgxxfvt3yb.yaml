@@ -1,0 +1,14 @@
+version: incident/v1
+id: z3vgxxfvt3yb
+name: Certificate Issuance through Let's Encrypt unavailable
+impact: minor
+systems:
+    - cghykwlwsmn5
+    - 9p2qlpt19nqb
+timeline:
+    - ts: "2026-05-08 19:46:40"
+      description: |-
+        We are aware of an issue affecting certificate issuance through Let's Encrypt. Customers using Universal SSL, Advanced Certificate Manager, or Cloudflare for SaaS may experience delays or failures when issuing or renewing certificates that use Let's Encrypt as the Certificate Authority.
+        Certificates issued through other CAs (such as Google Trust Services) are not affected. Existing certificates that have already been issued remain valid and are unaffected.
+        We are actively monitoring Let's Encrypt availability and will issue certificates as soon as service is restored. We will provide updates as more information becomes available.
+      investigating: true

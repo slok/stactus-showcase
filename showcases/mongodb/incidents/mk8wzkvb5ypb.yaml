@@ -1,0 +1,10 @@
+version: incident/v1
+id: mk8wzkvb5ypb
+name: Impaired Cluster Operations due to Lets Encrypt Outage
+impact: minor
+systems:
+    - 98lbmdz85yp0
+    - q57ng8brt2td
+timeline:
+    - ts: "2026-05-08 19:33:45"
+      description: Cluster operations are currently impaired due to issues with Lets Encrypt. We are actively monitoring the situation as more updates come in.
