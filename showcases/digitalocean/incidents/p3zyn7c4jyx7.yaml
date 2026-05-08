@@ -11,3 +11,6 @@ systems:
 timeline:
     - ts: "2026-05-08 20:46:22"
       description: "Our Engineering team is aware of an upstream outage with Let's Encrypt (see https://letsencrypt.status.io/) which impacts the following services: \n\n- Inability to create new Let's Encrypt certificates for Spaces, Load Balancers, and App Platform Custom Domains\n- Stuck or delayed creates/forks/restores on Mongo, PG, and MySQL databases. \n\nPlease note that operations related to Managed Databases and App Platform Custom Domains will automatically retry and should complete successfully once the upstream outage is resolved. \n\nWe'll continue to monitor this situation and provide updates. We apologize for the inconvenience."
+    - ts: "2026-05-08 21:54:44"
+      description: "The upstream outage with Let's Encrypt has been resolved. Customers should now be able to issue Let's Encrypt certificates for Spaces, Load Balancers, and App Platform Custom Domains. Our Engineering team has also confirmed that stuck or delayed actions with Mongo, Advanced PG, and Advanced MySQL databases should complete normally now. \n\nWe appreciate your patience. If you continue to experience any issues, please open a support ticket from within your account."
+      resolved: true
