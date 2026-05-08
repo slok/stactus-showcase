@@ -1,0 +1,10 @@
+version: incident/v1
+id: rqlltbpn6m1z
+name: On Call Engineers are Investigating Widespread 5xx Errors
+impact: none
+systems:
+    - zxhmy448yyn3
+timeline:
+    - ts: "2026-05-07 23:46:00"
+      description: Our monitoring systems have detected a potential issue with errors when receiving updates from Sync. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
