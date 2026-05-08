@@ -3,48 +3,10 @@ id: rqlltbpn6m1z
 name: Widespread 5xx Errors Across APIs
 impact: minor
 systems:
-    - g4hs7h64k9fv
-    - q4d7rj555ljl
-    - 8j15n81jrlbn
-    - zxhmy448yyn3
-    - xqxxnl8rsmlc
-    - 6ltxq62mkxd0
-    - lv1md8v28lhr
-    - 68slck3djwv7
-    - jw9dh2mf4392
-    - b81y83zrvglj
-    - vw9w2zyv9nk5
-    - m8vfg5ddymxk
-    - 4rv9xfxmdjg9
-    - fhrcxjv8wcjs
-    - y0thq9hlt5m8
-    - yk293200bcps
-    - mw3ktpy92305
-    - vxjqr22fbl36
-    - 7ypw8tsmyr78
-    - xv01vfp8wvs4
-    - lzm53c2kjxkh
-    - d1j2nx64rpq3
-    - m5b6twz4h52d
-    - h056tfqk3q97
+    - whldrk77jnm4
+    - qf1ppcsw1jvh
     - yvvy3vlp4djf
-    - kvyjw7lg97l1
-    - b1n7jklp0rv4
-    - pf1lb8dq2g3b
-    - gk7b1lwzf93x
-    - z6wf7g459vzh
-    - 1gkv0mxhzsjv
-    - v95b6qqhp58v
-    - 3mryzdr7rssr
-    - 5bv1plmydbzf
     - 2vs63pk0qq23
-    - dgkv7yc7sqdg
-    - 6cn0g627h62p
-    - 3p1q1qbw970c
-    - brty2vw4qv6v
-    - t32hnkr2q793
-    - x3z86l06nvl7
-    - y0hyz9ck5jht
 timeline:
     - ts: "2026-05-07 23:46:00"
       description: Our monitoring systems have detected a potential issue with errors when receiving updates from Sync. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
@@ -54,4 +16,10 @@ timeline:
       investigating: true
     - ts: "2026-05-08 00:27:45"
       description: We are continuing to investigate an issue with intermittent 5xx errors in across APIs. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-08 01:27:24"
+      description: We are continuing to investigate the cause of the degradation to several Twilio products and work to fully remediate all impacts. We will provide another update in 30 minutes or as soon as we have more information.
+      investigating: true
+    - ts: "2026-05-08 01:31:52"
+      description: We are continuing to investigate the cause of the degradation to several Twilio products and work to fully remediate all impacts. We will provide another update in 30 minutes or as soon as we have more information.
       investigating: true

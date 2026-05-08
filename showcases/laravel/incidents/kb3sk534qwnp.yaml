@@ -1,0 +1,17 @@
+version: incident/v1
+id: kb3sk534qwnp
+name: Impairment in US-East-1 (Virginia)
+impact: minor
+systems:
+    - 9pd3tysrv4tn
+    - f4yjvdf1gy6p
+    - fp1qb51hl6d9
+timeline:
+    - ts: "2026-05-08 01:22:06"
+      description: AWS has reported an issue in a single availability zone within us-east-1 (Virginia). We are investigating impact.
+      investigating: true
+    - ts: "2026-05-08 01:40:38"
+      description: |-
+        Some Laravel MySQL, Laravel Valkey, and Serverless Postgres workloads are effected by this AWS outage is us-east-1 - specifically use1-az4.
+
+        AWS is working on repairing that AZ.
