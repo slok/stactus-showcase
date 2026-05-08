@@ -11,3 +11,6 @@ timeline:
     - ts: "2026-05-08 10:03:28"
       description: We are currently investigating an issue impacting Messaging Logs. New message logs may be delayed and unavailable for querying. Additionally, some queries to the Message Log indexes could respond with 5xx errors. Our engineering team is actively working to deploy a fix. We will provide another update in 2 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-05-08 11:31:13"
+      description: We are continuing to investigate the issue impacting Messaging Logs. New message logs may be delayed and unavailable for querying. Additionally, some queries to the Message Logs API will temporarily respond with HTTP 5xx errors. Our engineering team is actively working to deploy a fix. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
