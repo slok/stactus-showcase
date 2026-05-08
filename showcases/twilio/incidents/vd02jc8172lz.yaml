@@ -19,3 +19,6 @@ timeline:
     - ts: "2026-05-08 11:48:29"
       description: We are continuing to investigate the issue impacting Messaging Logs. Sending messages is fully functional, however new message logs may be delayed and unavailable for querying. Additionally, some queries to the Message Logs API will temporarily respond with HTTP 5xx errors. Our engineering team is actively working to deploy a fix. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-05-08 13:02:42"
+      description: The issue impacting Messaging Logs has been resolved and is operating normally at this time.
+      resolved: true
