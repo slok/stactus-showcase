@@ -1,0 +1,9 @@
+version: incident/v1
+id: td0dlmx6y8nc
+name: Hardware failure on CSP within prod-us-west-0
+impact: major
+systems: []
+timeline:
+    - ts: "2026-05-08 11:04:16"
+      description: We observed an underlying hardware failure on our CSP which triggered an automatic live VM migration. The situation caused a (severe) degradation in write performance for Grafana Cloud Metrics on prod-us-west-0 between 05:26 UTC and 05:43 UTC
+      resolved: true
