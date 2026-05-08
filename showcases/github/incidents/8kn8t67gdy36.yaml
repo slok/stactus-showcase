@@ -21,5 +21,5 @@ timeline:
     - ts: "2026-05-05 18:35:36"
       description: We've completed our mitigation to prevent further impact. At this time the incident is considered resolved.
     - ts: "2026-05-05 18:35:41"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between approximately 14:00 and 16:10 UTC on May 5, 2026, SSH-based Git operations experienced elevated latency and intermittent failures. On average, the error rate was 0.46% and peaked at 0.6% of SSH write requests. HTTP-based Git operations, including web UI and HTTPS clones, were not affected. <br /><br />The impact was caused by reduced SSH capacity at one of our data center sites. During a period of high traffic, the remaining hosts became overloaded, leading to connection exhaustion and some failures for SSH-based operations. <br /><br />Additional capacity was provisioned to expand SSH capacity and resolve the incident. The expanded capacity was fully online by 18:18 UTC. <br /><br />To reduce the likelihood of similar incidents, we will implement faster scaling solutions for SSH infrastructure and improved alerting for host availability and capacity thresholds.
       resolved: true
