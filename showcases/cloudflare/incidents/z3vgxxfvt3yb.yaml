@@ -12,3 +12,8 @@ timeline:
         Certificates issued through other CAs (such as Google Trust Services) are not affected. Existing certificates that have already been issued remain valid and are unaffected.
         We are actively monitoring Let's Encrypt availability and will issue certificates as soon as service is restored. We will provide updates as more information becomes available.
       investigating: true
+    - ts: "2026-05-08 20:53:47"
+      description: We have confirmed recovery and will continue monitoring for improvement.
+    - ts: "2026-05-08 20:58:30"
+      description: This incident has been resolved.
+      resolved: true

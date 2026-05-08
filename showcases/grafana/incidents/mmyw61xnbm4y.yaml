@@ -1,0 +1,12 @@
+version: incident/v1
+id: mmyw61xnbm4y
+name: Cloud Metrics -High Write Latency and Errors in prod-us-central-7
+impact: minor
+systems:
+    - 7xgglzcpb274
+timeline:
+    - ts: "2026-05-08 21:16:55"
+      description: |-
+        From approximately 20:40-21:00 UTc, we experienced an issue affecting Grafana Cloud Metrics in prod-us-central-7. Affected users may have experienced high latency and/or errors during ingestion and rule evaluation.
+
+        Our team has identified the cause and mitigated. We are currently monitoring for long-term stability.

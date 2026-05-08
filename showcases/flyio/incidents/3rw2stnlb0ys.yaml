@@ -7,3 +7,8 @@ systems:
 timeline:
     - ts: "2026-05-08 20:25:26"
       description: "Due to a service outage at LetsEncrypt, creating new certificates with `fly certs add` is failing. \n\nExisting certificates and `*.fly.dev` preview certificates are not impacted. For additional details please see LetsEncrypt's statuspage https://letsencrypt.status.io/pages/incident/55957a99e800baa4470002da/69fe2d6698ca07050eb4b1b3"
+    - ts: "2026-05-08 21:02:14"
+      description: We are seeing recovery and certificates are now issuing normally. We are continuing to monitor to ensure full recovery.
+    - ts: "2026-05-08 21:09:56"
+      description: This incident has been resolved.
+      resolved: true
