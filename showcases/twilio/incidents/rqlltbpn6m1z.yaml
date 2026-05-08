@@ -1,12 +1,48 @@
 version: incident/v1
 id: rqlltbpn6m1z
-name: Widespread 5xx Errors Across APIs
+name: Degradation to multiple Twilio products
 impact: minor
 systems:
+    - g4hs7h64k9fv
+    - q4d7rj555ljl
     - whldrk77jnm4
+    - zxhmy448yyn3
+    - 6ltxq62mkxd0
+    - lv1md8v28lhr
+    - jw9dh2mf4392
+    - b81y83zrvglj
+    - vw9w2zyv9nk5
+    - 4rv9xfxmdjg9
     - qf1ppcsw1jvh
+    - fhrcxjv8wcjs
+    - y0thq9hlt5m8
+    - yk293200bcps
+    - mw3ktpy92305
+    - vxjqr22fbl36
+    - 7ypw8tsmyr78
+    - xv01vfp8wvs4
+    - lzm53c2kjxkh
+    - d1j2nx64rpq3
+    - yf5px6tdl6yt
+    - m5b6twz4h52d
+    - h056tfqk3q97
     - yvvy3vlp4djf
+    - kvyjw7lg97l1
+    - b1n7jklp0rv4
+    - pf1lb8dq2g3b
+    - gk7b1lwzf93x
+    - z6wf7g459vzh
+    - 1gkv0mxhzsjv
+    - v95b6qqhp58v
+    - 3mryzdr7rssr
+    - 5bv1plmydbzf
     - 2vs63pk0qq23
+    - 6cn0g627h62p
+    - 3p1q1qbw970c
+    - mwcz6hw53t7c
+    - t32hnkr2q793
+    - x3z86l06nvl7
+    - y0hyz9ck5jht
 timeline:
     - ts: "2026-05-07 23:46:00"
       description: Our monitoring systems have detected a potential issue with errors when receiving updates from Sync. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
@@ -22,4 +58,19 @@ timeline:
       investigating: true
     - ts: "2026-05-08 01:31:52"
       description: We are continuing to investigate the cause of the degradation to several Twilio products and work to fully remediate all impacts. We will provide another update in 30 minutes or as soon as we have more information.
+      investigating: true
+    - ts: "2026-05-08 02:05:44"
+      description: We are continuing to investigate the cause of the degradation to several Twilio products and work to fully remediate all impacts. We will provide another update in 30 minutes or as soon as we have more information.
+      investigating: true
+    - ts: "2026-05-08 02:13:42"
+      description: Some customers may be experiencing higher than normal latency. Our team is actively investigating the issue and we will provide another update in 30 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-08 02:50:44"
+      description: Some customers may be experiencing higher than normal latency. Our team is actively investigating the issue and we will provide another update in 30 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-08 02:59:53"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-05-08 03:09:18"
+      description: We are continuing to investigate this issue.
       investigating: true

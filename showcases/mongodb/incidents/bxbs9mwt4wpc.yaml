@@ -1,0 +1,14 @@
+version: incident/v1
+id: bxbs9mwt4wpc
+name: AWS Availability Zone use1-az4 in US-EAST-1 Region is Impaired
+impact: none
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-05-08 02:24:06"
+      description: |-
+        AWS Availability Zone use1-az4 in US-EAST-1 region is impaired. For some clusters in AWS US-EAST-1 region, cluster nodes in that availability zone may have impaired health. Some Atlas operations, including instance scaling and cluster configuration changes, may also be delayed for clusters in AWS US-EAST-1.
+
+        Please see https://health.aws.amazon.com/health/status for more information.
+    - ts: "2026-05-08 03:12:20"
+      description: "AWS Availability Zone use1-az4 in US-EAST-1 region is still impaired and AWS is working to restore the full availability of the availability zone. The Atlas system is taking healing actions on impacted nodes where possible to restore node health.   \n\nWe continue to monitor the situation. Please see https://health.aws.amazon.com/health/status for more information."

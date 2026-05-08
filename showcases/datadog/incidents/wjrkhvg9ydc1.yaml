@@ -6,7 +6,6 @@ systems:
     - p4hwj4wsc5wf
     - kbbhp1p4g26q
     - 9y11dv57sdjd
-    - 1w2mz2hzw0cz
     - qrnng5l7z80l
     - s6jxgrkjjj6p
     - wb6d6tss5zph
@@ -28,3 +27,19 @@ timeline:
         We have identified upstream provider issues and are continuing to experience delays in processing data across multiple products. We are working on a fix.
 
         https://health.aws.amazon.com/health/status
+    - ts: "2026-05-08 02:02:49"
+      description: |-
+        We have identified upstream provider issues and are continuing to experience delays in processing data across multiple products. We are working on a fix.
+
+        https://health.aws.amazon.com/health/status
+    - ts: "2026-05-08 02:16:54"
+      description: |-
+        We have identified due to upstream provider issues, we are continuing to see unavailability of telemetry data coming from AWS into Datadog. We are continuing to work on a fix.
+
+        https://health.aws.amazon.com/health/status
+    - ts: "2026-05-08 02:59:28"
+      description: |-
+        We have identified due to upstream provider issues, we are continuing to see unavailability of telemetry data coming from AWS into Datadog. We are continuing to work on a fix.
+        https://health.aws.amazon.com/health/status
+
+        For metrics we are still seeing delays in distribution metrics. Counts, rates and gauge metrics are being processed normally for most customers

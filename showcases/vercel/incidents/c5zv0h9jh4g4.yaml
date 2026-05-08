@@ -1,13 +1,21 @@
 version: incident/v1
 id: c5zv0h9jh4g4
-name: Elevated function invocation failures in IAD1
+name: Elevated errors across multiple services in IAD1
 impact: minor
 systems:
     - pdnc30nkdqth
     - 1w4lc3s3q2pz
     - kgcsn9c73xzf
+    - y0nl08tmsz12
+    - c3yjhlfbv34z
 timeline:
     - ts: "2026-05-08 01:18:59"
       description: Some Vercel functions that run in the IAD1 region are experiencing elevated invocation failures. We are investigating the issue and will share more information as it becomes available.
     - ts: "2026-05-08 01:47:09"
       description: Traffic to the IAD1 region has been re-routed to nearby regions. Functions configured in IAD1 will be invoked in a different region if failover regions are configured, but if no other regions are configured, the function will still be invoked in IAD1.
+    - ts: "2026-05-08 02:13:23"
+      description: New messages to Vercel Workflows and Vercel Queues are being queued, but message processing is paused. Queued messages will be processed when service is restored.
+    - ts: "2026-05-08 02:18:42"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-05-08 02:33:12"
+      description: New workflow runs and queue messages are being processed now. Processing the backlog of existing workflow runs and queued messages is still being investigated.
