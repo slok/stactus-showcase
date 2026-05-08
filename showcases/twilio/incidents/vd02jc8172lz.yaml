@@ -1,0 +1,12 @@
+version: incident/v1
+id: vd02jc8172lz
+name: Messaging Logs Experiencing Delays
+impact: minor
+systems:
+    - d1j2nx64rpq3
+    - yvvy3vlp4djf
+    - dgkv7yc7sqdg
+timeline:
+    - ts: "2026-05-08 09:06:07"
+      description: We are currently investigating a service interruption causing delays with Messaging Logs. We will provide another update within 1 hour or as soon as more information becomes available.
+      investigating: true
