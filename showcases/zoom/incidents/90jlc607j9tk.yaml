@@ -1,0 +1,12 @@
+version: incident/v1
+id: 90jlc607j9tk
+name: Zoom Rooms incorrectly showing as offline in dashboard.
+impact: none
+systems:
+    - xtgr15yv6hbn
+timeline:
+    - ts: "2026-05-08 03:38:02"
+      description: During a recent maintenance operation Zoom Rooms may have appeared offline in the dashboard causing alerts to be triggered however the Zoom Rooms themselves did remain online despite the alerts being sent. There was no impact to end users.
+    - ts: "2026-05-08 04:01:33"
+      description: This incident has been resolved.
+      resolved: true
