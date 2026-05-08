@@ -1,0 +1,11 @@
+version: incident/v1
+id: 418yk87trzt0
+name: Delays Processing Builds
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-05-08 16:30:46"
+      description: We've identified an issue where some customers may experience delays in builds starting and/or builds stuck in an initializing state. We are applying a fix and will provide additional updates as they become available.
+    - ts: "2026-05-08 16:33:51"
+      description: We have applied a fix and are observing recovery across all builds. We'll provide additional updates as-needed.
