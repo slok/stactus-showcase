@@ -1,0 +1,20 @@
+version: incident/v1
+id: h9t3sfjx36l3
+name: Multiple Services in NYC2
+impact: minor
+systems:
+    - p1x9rv4137gx
+    - fkf61qj12vby
+    - vzxxv27h45m4
+    - 9czvz44l7dp3
+    - 12w0d51pyjvh
+    - r2cw20w0r9zx
+timeline:
+    - ts: "2026-05-08 18:01:42"
+      description: |-
+        We are currently investigating an issue affecting multiple services in our NYC2 region. Our engineering team is aware of the situation and is working to identify the root cause and restore full connectivity as quickly as possible.
+
+        Users with resources in the NYC2 region may experience issues with Droplet connectivity, API requests, or other services.
+
+        We will provide additional updates as more information becomes available. We apologize for any inconvenience this may cause.
+      investigating: true
