@@ -62,3 +62,8 @@ timeline:
         https://health.aws.amazon.com/health/status
 
         For metrics, distribution metrics and point metrics are being processed normally for all customers.
+    - ts: "2026-05-08 05:44:23"
+      description: |-
+        We have identified upstream provider issues. Metrics, Logs, APM and RUM data are being processed normally for all customers. Alerting is also functional. There are still processing delays for CI visibility.
+        We are monitoring the situation.
+        https://health.aws.amazon.com/health/status
