@@ -66,5 +66,5 @@ timeline:
     - ts: "2026-05-04 16:36:45"
       description: The degradation has been mitigated. We are monitoring to ensure stability.
     - ts: "2026-05-04 16:40:05"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On 2026-05-04 at 3:37:17 PM UTC we detected increased latency on issues resulting in timeouts, and elevated 500 errors on webhooks. A scheduled workload drove high utilization on the primary host of a critical datastore, saturating the connection pool. We paused the job to mitigate the problem at 4:40:05 PM UTC and have implemented measures to prevent recurrence.
       resolved: true

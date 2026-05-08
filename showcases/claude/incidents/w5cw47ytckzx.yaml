@@ -1,0 +1,12 @@
+version: incident/v1
+id: w5cw47ytckzx
+name: Claude Code IDE extension unable to load on Windows
+impact: major
+systems:
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-05-08 22:30:44"
+      description: We are investigating an issue in Claude Code version 2.1.136 that prevents the IDE extension from loading on Windows. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-05-08 22:32:19"
+      description: The issue has been identified and a fix is being implemented.
