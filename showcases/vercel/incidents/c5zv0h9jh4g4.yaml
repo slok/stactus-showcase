@@ -1,6 +1,6 @@
 version: incident/v1
 id: c5zv0h9jh4g4
-name: Elevated errors across multiple services in IAD1
+name: Elevated errors across multiple services in IAD1 (Washington, D.C., USA)
 impact: minor
 systems:
     - pdnc30nkdqth
@@ -21,3 +21,6 @@ timeline:
       description: New workflow runs and queue messages are being processed now. Processing the backlog of existing workflow runs and queued messages is still being investigated.
     - ts: "2026-05-08 04:54:34"
       description: We implemented a fix and are monitoring the results. Backlogs for Workflows and Queues will be processed within the next few hours.
+    - ts: "2026-05-08 06:39:41"
+      description: We've deployed mitigations and all services are operating normally. Traffic may continue to reroute to nearby regions for the next few hours, but we will restore traffic gradually after verifying system availability in the IAD1 region.
+      resolved: true
