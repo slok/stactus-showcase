@@ -19,5 +19,5 @@ timeline:
     - ts: "2026-05-06 09:44:17"
       description: Actions wait times have fully recovered.
     - ts: "2026-05-06 09:44:26"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 6, 2026, from approximately 06:45 UTC to 09:15 UTC, GitHub Actions Standard Ubuntu hosted runners were degraded. 17.1% of jobs requesting a standard runner failed.<br /><br />This was caused by an unexpected data shape in the allocation configuration data for standard runners. That data was introduced as part of post-incident remediation work for an incident the previous day and caused new allocations to be blocked as load ramped up for the day. Removing that data at 08:51 allowed allocations to proceed and hosted runner pools to scale up and recover.<br /><br />We are updating the filter logic for this allocation data to be resilient to abnormal data shapes and improving monitoring to alert when allocations are blocked, allowing the team to respond before customer impact starts.
       resolved: true
