@@ -1,0 +1,11 @@
+version: incident/v1
+id: 5flhxtdnxhqg
+name: User Authentication Identity SNA Failure Increase for T-Mobile in United States
+impact: minor
+systems:
+    - trrz5ztt7pl8
+    - q0hp6vfr4vvh
+timeline:
+    - ts: "2026-05-09 00:46:05"
+      description: Twilio customers may be experiencing User Authentication Identity SNA failure increase for T-Mobile in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
