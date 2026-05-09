@@ -1,0 +1,13 @@
+version: incident/v1
+id: 7hb39w1wzmwf
+name: Control Panel Errors - Unable to Enable 2FA and Google/GitHub
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2026-05-09 11:15:11"
+      description: |-
+        Our Engineering team is investigating an issue affecting the ability to enable Two-Factor Authentication (2FA) and Google/GitHub authentication through the Control Panel. During this time, users may encounter errors while enabling these authentication methods and could also experience issues accessing teams with secure sign-in enabled.
+
+        We apologize for the inconvenience and will provide an update as soon as more information becomes available.
+      investigating: true
