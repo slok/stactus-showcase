@@ -8,3 +8,6 @@ systems:
 timeline:
     - ts: "2026-05-09 04:45:55"
       description: Between 1:30 to 3:44 UTC, messages in Vercel Queues in iad1 were enqueued but not processed, and Vercel Workflows were blocked from making progress (i.e. remaining in pending / active states). This is recovering, Vercel Queues backlogs are being processed, and Vercel Workflows are unblocked.
+    - ts: "2026-05-09 05:40:31"
+      description: This incident has been resolved.
+      resolved: true
