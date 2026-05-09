@@ -1,0 +1,15 @@
+version: incident/v1
+id: c6774wj54fdc
+name: Service Degradation Affecting Zoom Healthcare Integration in North America Region.
+impact: minor
+systems:
+    - 08fp2rr1spx0
+timeline:
+    - ts: "2026-05-09 10:36:50"
+      description: |-
+        We are currently investigating a service degradation affecting users' ability to schedule and list medical appointments in North America region.
+
+        Our team is actively working with our vendor to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
