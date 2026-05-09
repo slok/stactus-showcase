@@ -1,0 +1,24 @@
+version: incident/v1
+id: 3rlxyj2n2md4
+name: Network Degradation Between Regions Impacting Voice Calls
+impact: minor
+systems:
+    - g2dt752kwqs0
+    - db8wmg130zcm
+    - hzh0mwy93r9z
+    - w7nxj548smhd
+    - f2jt1m2lnqc2
+    - 1700gf9qlhmh
+    - x6drb5vw27bs
+    - lt39ggc88lpj
+    - 44qvnc64kvr4
+    - 6f5zbh4rqx3m
+    - ycjkfktz828s
+    - pl7dbt6st8v2
+    - l2p2s96tdsf4
+    - 2lchkffbp2k9
+    - vjcnzg66l66t
+timeline:
+    - ts: "2026-05-09 04:00:21"
+      description: We are currently investigating issues affecting cross region connectivity. Customers could experience degradation of calls traversing between regions. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
