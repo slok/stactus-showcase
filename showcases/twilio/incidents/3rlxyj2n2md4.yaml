@@ -4,6 +4,7 @@ name: Network Degradation Between Regions Impacting Voice Calls
 impact: minor
 systems:
     - g2dt752kwqs0
+    - ys1jhy2ys04z
     - db8wmg130zcm
     - hzh0mwy93r9z
     - w7nxj548smhd
@@ -21,4 +22,10 @@ systems:
 timeline:
     - ts: "2026-05-09 04:00:21"
       description: We are currently investigating issues affecting cross region connectivity. Customers could experience degradation of calls traversing between regions. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-09 04:18:20"
+      description: We are currently investigating issues affecting cross region connectivity. Customers could experience degradation of calls traversing between regions. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-09 05:00:18"
+      description: We are currently still investigating issues affecting cross region connectivity. Customers could experience degradation of calls traversing between regions. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true

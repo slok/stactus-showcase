@@ -1,0 +1,10 @@
+version: incident/v1
+id: g2s8l4dkcy0p
+name: Vercel Queues, and Vercel Workflow runs were delayed
+impact: minor
+systems:
+    - y0nl08tmsz12
+    - c3yjhlfbv34z
+timeline:
+    - ts: "2026-05-09 04:45:55"
+      description: Between 1:30 to 3:44 UTC, messages in Vercel Queues in iad1 were enqueued but not processed, and Vercel Workflows were blocked from making progress (i.e. remaining in pending / active states). This is recovering, Vercel Queues backlogs are being processed, and Vercel Workflows are unblocked.
