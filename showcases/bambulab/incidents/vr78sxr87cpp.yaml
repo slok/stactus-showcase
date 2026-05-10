@@ -1,0 +1,11 @@
+version: incident/v1
+id: vr78sxr87cpp
+name: Network Issues Affecting Bambu Lab Cloud Services in Parts of Europe
+impact: major
+systems:
+    - 5fs3yzwktd3t
+timeline:
+    - ts: "2026-05-10 14:02:47"
+      description: We have detected network issues in parts of Europe that may cause abnormal access to Bambu Lab cloud services. Our team is monitoring the situation and will provide updates as more information becomes available.
+    - ts: "2026-05-10 14:21:07"
+      description: We have confirmed that some users in Europe are affected. Our cloud service provider has found that part of the European network is currently experiencing issues, which may cause unstable connections to our services hosted in AWS.
