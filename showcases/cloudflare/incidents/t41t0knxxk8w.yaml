@@ -1,0 +1,12 @@
+version: incident/v1
+id: t41t0knxxk8w
+name: Network Performance Issues
+impact: minor
+systems:
+    - z9v8znl25w0f
+timeline:
+    - ts: "2026-05-10 03:28:50"
+      description: Cloudflare is investigating issues with network performance in Chicago. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-05-10 03:46:05"
+      description: The issue has been identified and a fix is being implemented.
