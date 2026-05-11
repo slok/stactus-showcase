@@ -1,0 +1,10 @@
+version: incident/v1
+id: yj0qn3nfvg7b
+name: log search unavailable
+impact: major
+systems:
+    - 6sckg8qmrnzz
+timeline:
+    - ts: "2026-05-11 20:02:59"
+      description: 'Log search in Grafana is currently unavailable. You may see `failed to make http request: 503` errors when accessing logs from fly-metrics.net at this time. App logs are still available using the `fly logs` command and in the Fly.io dashboard.'
+      investigating: true
