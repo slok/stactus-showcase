@@ -1,6 +1,6 @@
 version: incident/v1
 id: ds6rd8q1dlqc
-name: SMS Delivery Failures from Twilio to Axiata Across Multiple Countries in APAC
+name: SMS Delivery Receipt Delays from Twilio to Axiata in Bangladesh, Indonesia, and Cambodia
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -12,3 +12,8 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery receipt delays from Twilio to Robi network subscribers in Bangladesh. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
     - ts: "2026-05-11 12:46:32"
       description: We have observed a recovery in SMS Delivery Failures from Twilio to Axiata network subscribers in Bangladesh, Indonesia, and Cambodia and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-05-11 14:46:55"
+      description: We have observed a recovery in SMS delivery receipts from Twilio to Axiata network subscribers in multiple countries in APAC and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-05-11 15:27:55"
+      description: The incident has been resolved and SMS delivery receipts from Twilio to Axiata network subscribers in Bangladesh, Indonesia, and Cambodia are operating normally.
+      resolved: true
