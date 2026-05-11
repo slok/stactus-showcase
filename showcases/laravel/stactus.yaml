@@ -4,6 +4,30 @@ url: https://status.laravel.cloud
 systems:
     - id: k648vlw65tzw
       name: Cloud Control Panel
+    - id: ffc2w3q5j6fx
+      name: Build Service / Build Service - US East (Ohio)
+    - id: d4z7n3kvpgp0
+      name: Deployments / Deployments - US East (Ohio)
+    - id: bb24744tntll
+      name: Laravel MySQL / Laravel MySQL - US East (Ohio)
+    - id: q34j9zqvbj7h
+      name: Serverless Postgres / Serverless Postgres - US East (Ohio)
+    - id: 1l2y2sbfr0pt
+      name: Laravel Valkey / Laravel Valkey - US East (Ohio)
+    - id: p6b2gqg6g107
+      name: Logs / Logs - US East (Ohio)
+    - id: bdb8kxgywtzr
+      name: Laravel Reverb WebSockets / Laravel Reverb WebSockets - US East (Ohio)
+    - id: x73d4pgpq7mm
+      name: Redis by Upstash / Redis by Upstash - US East (Ohio)
+    - id: rlns2rvxp7hh
+      name: AWS RDS MySQL / AWS RDS MySQL - US East (Ohio)
+    - id: h414bbsqptgy
+      name: AWS RDS Postgres / AWS RDS Postgres - US East (Ohio)
+    - id: b3rrfdqndjm6
+      name: App compute / App compute - US East (Ohio)
+    - id: 6nzkkdm3lz7g
+      name: Billing
     - id: q8chffw359pz
       name: Build Service / Build Service - US East (Virginia)
     - id: vhd4h127zqt5
@@ -26,146 +50,11 @@ systems:
       name: AWS RDS Postgres / AWS RDS Postgres - US East (Virginia)
     - id: fp1qb51hl6d9
       name: App compute / App compute - US East (Virginia)
-    - id: ffc2w3q5j6fx
-      name: Build Service / Build Service - US East (Ohio)
-    - id: d4z7n3kvpgp0
-      name: Deployments / Deployments - US East (Ohio)
-    - id: bb24744tntll
-      name: Laravel MySQL / Laravel MySQL - US East (Ohio)
-    - id: q34j9zqvbj7h
-      name: Serverless Postgres / Serverless Postgres - US East (Ohio)
-    - id: 1l2y2sbfr0pt
-      name: Laravel Valkey / Laravel Valkey - US East (Ohio)
-    - id: 6nzkkdm3lz7g
-      name: Billing
-    - id: p6b2gqg6g107
-      name: Logs / Logs - US East (Ohio)
-    - id: bdb8kxgywtzr
-      name: Laravel Reverb WebSockets / Laravel Reverb WebSockets - US East (Ohio)
-    - id: x73d4pgpq7mm
-      name: Redis by Upstash / Redis by Upstash - US East (Ohio)
-    - id: rlns2rvxp7hh
-      name: AWS RDS MySQL / AWS RDS MySQL - US East (Ohio)
-    - id: h414bbsqptgy
-      name: AWS RDS Postgres / AWS RDS Postgres - US East (Ohio)
-    - id: b3rrfdqndjm6
-      name: App compute / App compute - US East (Ohio)
-    - id: mf51szgphyxp
-      name: Build Service / Build Service - EU Central (Frankfurt)
-    - id: nfc2yzmxzw4s
-      name: Deployments / Deployments - EU Central (Frankfurt)
     - id: jmw0wwg6553f
       name: Edge Network
       description: "Laravel Cloud has partnered with Cloudflare to provide edge networking.\r\n\r\nCloudflare’s edge networking is a global network that boosts security, speed, and reliability. \r\nWith 300+ data centers, it reduces latency, blocks DDoS attacks, caches content, and optimizes traffic."
-    - id: jnfvms7yxwqz
-      name: Laravel MySQL / Laravel MySQL - EU Central (Frankfurt)
     - id: mc3dt6vwg2ts
       name: Serverless Postgres / Serverless Postgres - EU Central (Frankfurt)
-    - id: z6126sr4pm0k
-      name: Laravel Valkey / Laravel Valkey - EU Central (Frankfurt)
-    - id: mqqdb4hthn3c
-      name: Logs / Logs - EU Central (Frankfurt)
-    - id: 9bqv37hf5ffm
-      name: Laravel Reverb WebSockets / Laravel Reverb WebSockets - EU Central (Frankfurt)
-    - id: 8hhw0873jpzs
-      name: Redis by Upstash / Redis by Upstash - EU Central (Frankfurt)
-    - id: q6k3jg0zw0p3
-      name: AWS RDS MySQL / AWS RDS MySQL - EU Central (Frankfurt)
-    - id: kzsjv768hmz4
-      name: AWS RDS Postgres / AWS RDS Postgres - EU Central (Frankfurt)
-    - id: p0gmgcfh7y0n
-      name: App compute / App compute - EU Central (Frankfurt)
-    - id: kd1tz09zf801
-      name: Metrics
-    - id: j7npqf9nr7qp
-      name: Build Service / Build Service - EU West (London)
-    - id: s3zm1t588bky
-      name: Deployments / Deployments - EU West (London)
-    - id: 2njxzcmxn5yk
-      name: Laravel MySQL / Laravel MySQL - EU West (London)
-    - id: fb6l4chnb34p
-      name: Serverless Postgres / Serverless Postgres - EU West (London)
-    - id: wcqhvp90m9xh
-      name: Laravel Valkey / Laravel Valkey - EU West (London)
-    - id: q37r9gpc541r
-      name: Logs / Logs - EU West (London)
-    - id: 1305lv02j2tj
-      name: Laravel Reverb WebSockets / Laravel Reverb WebSockets - EU West (London)
-    - id: j9ckr5svpg9x
-      name: Redis by Upstash / Redis by Upstash - EU West (London)
-    - id: 7bq6py0tdzs9
-      name: AWS RDS MySQL / AWS RDS MySQL - EU West (London)
-    - id: s9n6sx83qwhz
-      name: AWS RDS Postgres / AWS RDS Postgres - EU West (London)
-    - id: kws9341143r3
-      name: App compute / App compute - EU West (London)
-    - id: 44l81fnqm59d
-      name: Laravel Object Storage
-      description: Laravel Object Storage is offered in partnership with Cloudflare R2.
-    - id: 29lv3lp08fw1
-      name: Build Service / Build Service - EU West (Ireland)
-    - id: r5wtfz1xy72b
-      name: Deployments / Deployments - EU West (Ireland)
-    - id: qrw0bkd5v9y8
-      name: Laravel MySQL / Laravel MySQL - EU West (Ireland)
-    - id: 1ss1gtcyw6m1
-      name: Laravel Valkey / Laravel Valkey - EU West (Ireland)
-    - id: 1qvrcgg6fnn2
-      name: Logs / Logs - EU West (Ireland)
-    - id: td3vxqg9r917
-      name: Laravel Reverb WebSockets / Laravel Reverb WebSockets - EU West (Ireland)
-    - id: 96pf7ctym2st
-      name: Redis by Upstash / Redis by Upstash - EU West (Ireland)
-    - id: 46gdhyrspys1
-      name: AWS RDS MySQL / AWS RDS MySQL - EU West (Ireland)
-    - id: 0zzvnv1229z1
-      name: AWS RDS Postgres / AWS RDS Postgres - EU West (Ireland)
-    - id: v3rs8ldrdvpl
-      name: App compute / App compute - EU West (Ireland)
-    - id: 359qq1ltvtft
-      name: Build Service / Build Service - Asia Pacific (Singapore)
-    - id: 0d75ngbkyzz2
-      name: Deployments / Deployments - Asia Pacific (Singapore)
-    - id: xnlhg7vcwn21
-      name: Laravel MySQL / Laravel MySQL - Asia Pacific (Singapore)
-    - id: d99mk5dgxnqc
-      name: Serverless Postgres / Serverless Postgres - Asia Pacific (Singapore)
-    - id: 6zk24gh8kp7x
-      name: Laravel Valkey / Laravel Valkey - Asia Pacific (Singapore)
-    - id: kgtw1gfxsjnw
-      name: Logs / Logs - Asia Pacific (Singapore)
-    - id: j6xl0jc43rfr
-      name: Laravel Reverb WebSockets / Laravel Reverb WebSockets - Asia Pacific (Singapore)
-    - id: k7thf0ywg8qq
-      name: Redis by Upstash / Redis by Upstash - Asia Pacific (Singapore)
-    - id: ws19nwpc55f8
-      name: AWS RDS MySQL / AWS RDS MySQL - Asia Pacific (Singapore)
-    - id: 09h5t52403rl
-      name: AWS RDS Postgres / AWS RDS Postgres - Asia Pacific (Singapore)
-    - id: 7vhl6zlf6jnl
-      name: App compute / App compute - Asia Pacific (Singapore)
-    - id: vcn5j3zqb52y
-      name: Laravel Valkey / Laravel Valkey - Asia Pacific (Sydney)
-    - id: d4zz74n7qr2l
-      name: Serverless Postgres / Serverless Postgres - Asia Pacific (Sydney)
-    - id: ytr4j2lk4pxt
-      name: Laravel MySQL / Laravel MySQL - Asia Pacific (Sydney)
-    - id: 29r8t4n835qg
-      name: Deployments / Deployments - Asia Pacific (Sydney)
-    - id: z90jsvy9c3h1
-      name: Build Service / Build Service - Asia Pacific (Sydney)
-    - id: sgcs3b4mlzcz
-      name: Logs / Logs - Asia Pacific (Sydney)
-    - id: t1t3fwckxs26
-      name: Laravel Reverb WebSockets / Laravel Reverb WebSockets - Asia Pacific (Sydney)
-    - id: wtm5312txnyc
-      name: Redis by Upstash / Redis by Upstash - Asia Pacific (Sydney)
-    - id: 95ltx1rcnlbx
-      name: AWS RDS MySQL / AWS RDS MySQL - Asia Pacific (Sydney)
-    - id: 54h6yxxsx4lj
-      name: AWS RDS Postgres / AWS RDS Postgres - Asia Pacific (Sydney)
-    - id: hkscfv3r4jr4
-      name: App compute / App compute - Asia Pacific (Sydney)
     - id: k7bvq41n41zs
       name: Build Service / Build Service - Canada (Central)
     - id: rnyz50rjb4p5
@@ -186,6 +75,137 @@ systems:
       name: AWS RDS Postgres / AWS RDS Postgres - Canada (Central)
     - id: tdf3n0tt8f46
       name: App compute / App compute - Canada (Central)
+    - id: mf51szgphyxp
+      name: Build Service / Build Service - EU Central (Frankfurt)
+    - id: nfc2yzmxzw4s
+      name: Deployments / Deployments - EU Central (Frankfurt)
+    - id: kd1tz09zf801
+      name: Metrics
+    - id: jnfvms7yxwqz
+      name: Laravel MySQL / Laravel MySQL - EU Central (Frankfurt)
+    - id: fb6l4chnb34p
+      name: Serverless Postgres / Serverless Postgres - EU West (London)
+    - id: z6126sr4pm0k
+      name: Laravel Valkey / Laravel Valkey - EU Central (Frankfurt)
+    - id: mqqdb4hthn3c
+      name: Logs / Logs - EU Central (Frankfurt)
+    - id: 9bqv37hf5ffm
+      name: Laravel Reverb WebSockets / Laravel Reverb WebSockets - EU Central (Frankfurt)
+    - id: 8hhw0873jpzs
+      name: Redis by Upstash / Redis by Upstash - EU Central (Frankfurt)
+    - id: q6k3jg0zw0p3
+      name: AWS RDS MySQL / AWS RDS MySQL - EU Central (Frankfurt)
+    - id: kzsjv768hmz4
+      name: AWS RDS Postgres / AWS RDS Postgres - EU Central (Frankfurt)
+    - id: p0gmgcfh7y0n
+      name: App compute / App compute - EU Central (Frankfurt)
+    - id: 44l81fnqm59d
+      name: Laravel Object Storage
+      description: Laravel Object Storage is offered in partnership with Cloudflare R2.
+    - id: d99mk5dgxnqc
+      name: Serverless Postgres / Serverless Postgres - Asia Pacific (Singapore)
+    - id: 29lv3lp08fw1
+      name: Build Service / Build Service - EU West (Ireland)
+    - id: r5wtfz1xy72b
+      name: Deployments / Deployments - EU West (Ireland)
+    - id: qrw0bkd5v9y8
+      name: Laravel MySQL / Laravel MySQL - EU West (Ireland)
+    - id: 1ss1gtcyw6m1
+      name: Laravel Valkey / Laravel Valkey - EU West (Ireland)
+    - id: 1qvrcgg6fnn2
+      name: Logs / Logs - EU West (Ireland)
+    - id: td3vxqg9r917
+      name: Laravel Reverb WebSockets / Laravel Reverb WebSockets - EU West (Ireland)
+    - id: 96pf7ctym2st
+      name: Redis by Upstash / Redis by Upstash - EU West (Ireland)
+    - id: 46gdhyrspys1
+      name: AWS RDS MySQL / AWS RDS MySQL - EU West (Ireland)
+    - id: 0zzvnv1229z1
+      name: AWS RDS Postgres / AWS RDS Postgres - EU West (Ireland)
+    - id: v3rs8ldrdvpl
+      name: App compute / App compute - EU West (Ireland)
+    - id: j7npqf9nr7qp
+      name: Build Service / Build Service - EU West (London)
+    - id: s3zm1t588bky
+      name: Deployments / Deployments - EU West (London)
+    - id: 2njxzcmxn5yk
+      name: Laravel MySQL / Laravel MySQL - EU West (London)
+    - id: wcqhvp90m9xh
+      name: Laravel Valkey / Laravel Valkey - EU West (London)
+    - id: d4zz74n7qr2l
+      name: Serverless Postgres / Serverless Postgres - Asia Pacific (Sydney)
+    - id: q37r9gpc541r
+      name: Logs / Logs - EU West (London)
+    - id: 1305lv02j2tj
+      name: Laravel Reverb WebSockets / Laravel Reverb WebSockets - EU West (London)
+    - id: j9ckr5svpg9x
+      name: Redis by Upstash / Redis by Upstash - EU West (London)
+    - id: 7bq6py0tdzs9
+      name: AWS RDS MySQL / AWS RDS MySQL - EU West (London)
+    - id: s9n6sx83qwhz
+      name: AWS RDS Postgres / AWS RDS Postgres - EU West (London)
+    - id: kws9341143r3
+      name: App compute / App compute - EU West (London)
+    - id: 359qq1ltvtft
+      name: Build Service / Build Service - Asia Pacific (Singapore)
+    - id: 0d75ngbkyzz2
+      name: Deployments / Deployments - Asia Pacific (Singapore)
+    - id: xnlhg7vcwn21
+      name: Laravel MySQL / Laravel MySQL - Asia Pacific (Singapore)
+    - id: 6zk24gh8kp7x
+      name: Laravel Valkey / Laravel Valkey - Asia Pacific (Singapore)
+    - id: kgtw1gfxsjnw
+      name: Logs / Logs - Asia Pacific (Singapore)
+    - id: j6xl0jc43rfr
+      name: Laravel Reverb WebSockets / Laravel Reverb WebSockets - Asia Pacific (Singapore)
+    - id: k7thf0ywg8qq
+      name: Redis by Upstash / Redis by Upstash - Asia Pacific (Singapore)
+    - id: ws19nwpc55f8
+      name: AWS RDS MySQL / AWS RDS MySQL - Asia Pacific (Singapore)
+    - id: 09h5t52403rl
+      name: AWS RDS Postgres / AWS RDS Postgres - Asia Pacific (Singapore)
+    - id: 7vhl6zlf6jnl
+      name: App compute / App compute - Asia Pacific (Singapore)
+    - id: vcn5j3zqb52y
+      name: Laravel Valkey / Laravel Valkey - Asia Pacific (Sydney)
+    - id: ytr4j2lk4pxt
+      name: Laravel MySQL / Laravel MySQL - Asia Pacific (Sydney)
+    - id: 29r8t4n835qg
+      name: Deployments / Deployments - Asia Pacific (Sydney)
+    - id: z90jsvy9c3h1
+      name: Build Service / Build Service - Asia Pacific (Sydney)
+    - id: sgcs3b4mlzcz
+      name: Logs / Logs - Asia Pacific (Sydney)
+    - id: t1t3fwckxs26
+      name: Laravel Reverb WebSockets / Laravel Reverb WebSockets - Asia Pacific (Sydney)
+    - id: wtm5312txnyc
+      name: Redis by Upstash / Redis by Upstash - Asia Pacific (Sydney)
+    - id: 95ltx1rcnlbx
+      name: AWS RDS MySQL / AWS RDS MySQL - Asia Pacific (Sydney)
+    - id: 54h6yxxsx4lj
+      name: AWS RDS Postgres / AWS RDS Postgres - Asia Pacific (Sydney)
+    - id: hkscfv3r4jr4
+      name: App compute / App compute - Asia Pacific (Sydney)
+    - id: 7pp548h9j9k6
+      name: Build Service / Build Service - Asia Pacific (Tokyo)
+    - id: sr7vs6x5c6cf
+      name: Deployments / Deployments - Asia Pacific (Tokyo)
+    - id: ttj82j4dt8ly
+      name: App compute / App compute - Asia Pacific (Tokyo)
+    - id: ts6s08kvlhnw
+      name: Logs / Logs - Asia Pacific (Tokyo)
+    - id: 2x0fgd1wxkdf
+      name: Laravel MySQL / Laravel MySQL - Asia Pacific (Tokyo)
+    - id: jdz1rw1rf8gy
+      name: Laravel Valkey / Laravel Valkey - Asia Pacific (Tokyo)
+    - id: 724k0nydh8hx
+      name: Laravel Reverb WebSockets / Laravel Reverb WebSockets - Asia Pacific (Tokyo)
+    - id: b03rl90rgc4w
+      name: AWS RDS MySQL / AWS RDS MySQL - Asia Pacific (Tokyo)
+    - id: 1547tny5dlpd
+      name: AWS RDS Postgres / Laravel RDS Postgres - Asia Pacific (Tokyo)
+    - id: 5b6h2jjw9drd
+      name: Redis by Upstash / Redis by Upstash - Asia Pacific (Tokyo)
     - id: mg346jtzzkzh
       name: Build Service / Build Service - Middle East (UAE)
     - id: 80w020z26b48

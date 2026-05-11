@@ -16,6 +16,10 @@ systems:
       name: 'UI : Europe / Alerts : Europe'
     - id: wkr8nc95bgdx
       name: 'Data Ingest : JP / APM Agent : JP'
+    - id: frs43nvc9kl0
+      name: 'Alert Notifications : JP / APM : JP'
+    - id: 3qxs50my4fk4
+      name: 'UI : JP / Alerts : JP'
     - id: ty1004s644gq
       name: 'UI : US / APM : US'
     - id: 5x10l9g2z3t6
@@ -30,6 +34,10 @@ systems:
       name: 'Data Ingest : Europe / Browser Agent : Europe'
     - id: hsjpx4sky6c1
       name: 'Data Ingest : JP / Browser Agent : JP'
+    - id: s6r7bv52mzh0
+      name: 'Alert Notifications : JP / Browser : JP'
+    - id: 2nz9v1h7737z
+      name: 'UI : JP / APM : JP'
     - id: 028b05n94my0
       name: 'Alert Notifications : US / Infrastructure : US'
     - id: zj32brg420jm
@@ -44,6 +52,10 @@ systems:
       name: 'UI : Europe / Auto-Telemetry with Pixie : Europe'
     - id: zm2bwnwx6p58
       name: 'Data Ingest : JP / Event API : JP'
+    - id: 470z24k6m1nr
+      name: 'Alert Notifications : JP / Infrastructure : JP'
+    - id: r3vb84ksqhnk
+      name: 'UI : JP / Auto-Telemetry with Pixie : JP'
     - id: 5p33lkzzqm0z
       name: 'Alert Notifications : US / Logs : US'
     - id: j6v4tzmw08t4
@@ -58,6 +70,10 @@ systems:
       name: 'Data Ingest : Europe / Incident Intelligence API : Europe'
     - id: 3l84b0hc184j
       name: 'Data Ingest : JP / Incident Intelligence API : JP'
+    - id: 17k3txw7t1px
+      name: 'Alert Notifications : JP / Logs : JP'
+    - id: f9zhqnwcl09b
+      name: 'UI : JP / AWS Lambda Integration : JP'
     - id: 1mwh21hqrxlw
       name: 'UI : US / Browser : US'
     - id: ymfwncrn2dnh
@@ -70,6 +86,12 @@ systems:
       name: 'Data Ingest : US / Infrastructure Agent : US'
     - id: hm4r9fn1gr93
       name: 'Data Ingest : Europe / Infrastructure Agent : Europe'
+    - id: 611fw8zhvpl9
+      name: 'Data Ingest : JP / Infrastructure Agent : JP'
+    - id: rc8wgr47t580
+      name: 'Alert Notifications : JP / Mobile : JP'
+    - id: fd06tftdnr15
+      name: 'UI : JP / Browser : JP'
     - id: nw4g7754n7tl
       name: 'UI : US / Dashboards : US'
     - id: 6qh38lgrdr8v
@@ -82,6 +104,12 @@ systems:
       name: 'Data Ingest : US / Log API : US'
     - id: 858xlnc93b96
       name: 'Data Ingest : Europe / Log API : Europe'
+    - id: 5qkjs3mvw7c3
+      name: 'Data Ingest : JP / Log API : JP'
+    - id: p711gv5qb66r
+      name: 'Alert Notifications : JP / NRQL : JP'
+    - id: s1cwr4g04g7c
+      name: 'UI : JP / Dashboards : JP'
     - id: yhld3kylj6fn
       name: isNewUser
     - id: lm2qpsbfggh7
@@ -96,6 +124,12 @@ systems:
       name: 'UI : Europe / Incident Intelligence : Europe'
     - id: vdkznxzlr7nn
       name: 'Data Ingest : Europe / Metric API : Europe'
+    - id: zg4d9xgwf7rk
+      name: 'Data Ingest : JP / Metric API : JP'
+    - id: hqztf58qdv53
+      name: 'Alert Notifications : JP / Serverless : JP'
+    - id: md6dmzdl9539
+      name: 'UI : JP / Incident Intelligence : JP'
     - id: prjgs1mvmqg9
       name: 'Alert Notifications : US / Synthetics : US'
     - id: g3mtj9z8c1cq
@@ -108,6 +142,12 @@ systems:
       name: 'Data Ingest : US / Mobile Agent : US'
     - id: jdszr85tpvd1
       name: 'Data Ingest : Europe / Mobile Agent : Europe'
+    - id: 1hz72fc6m1v9
+      name: 'Data Ingest : JP / Mobile Agent : JP'
+    - id: 1ww3dl13h9n6
+      name: 'Alert Notifications : JP / Synthetics : JP'
+    - id: x7llxytzc439
+      name: 'UI : JP / Infrastructure : JP'
     - id: 833c8h98qq4g
       name: 'Data Ingest : US / OTLP API : US'
     - id: 0ggq3l63l1sh
@@ -116,6 +156,10 @@ systems:
       name: 'UI : US / Infrastructure Integrations : US'
     - id: dw81gfk0f10y
       name: 'UI : Europe / Infrastructure Integrations : Europe'
+    - id: 905n3vhk7y6x
+      name: 'Data Ingest : JP / OTLP API : JP'
+    - id: 84m8hvtjrlsk
+      name: 'UI : JP / Infrastructure Integrations : JP'
     - id: xrzsz1k79xbd
       name: 'UI : US / Logs : US'
     - id: r6fg75bj1j7h
@@ -124,6 +168,10 @@ systems:
       name: 'Data Ingest : US / Trace API : US'
     - id: 15b9hc4j611g
       name: 'Data Ingest : Europe / Trace API : Europe'
+    - id: pf2fy0zgdkmp
+      name: 'Data Ingest : JP / Trace API : JP'
+    - id: fk0w00c9c65h
+      name: 'UI : JP / Logs : JP'
     - id: 5qhzckvc2ncn
       name: 'UI : US / Lookout : US'
     - id: 36218xs1zbvy
@@ -132,23 +180,37 @@ systems:
       name: 'Data Ingest : US / Synthetics : US'
     - id: 64hk5ch1ww5b
       name: 'Data Ingest : Europe / Synthetics : Europe'
+    - id: xnssl33msst3
+      name: 'Data Ingest : JP / Synthetics : JP'
+    - id: zww4vhxntq5r
+      name: 'UI : JP / Lookout : JP'
     - id: mc4f9x2xl1zg
       name: 'UI : US / Mobile : US'
     - id: 5wk3qb87hk5h
       name: 'UI : Europe / Mobile : Europe'
+    - id: rgmw02zgx8hy
+      name: 'UI : JP / Mobile : JP'
     - id: 927km3k58wgb
       name: 'UI : US / Open Instrumentation : US'
     - id: s7j157s900c3
       name: 'UI : Europe / Open Instrumentation : Europe'
+    - id: 2tqbckpycmxr
+      name: 'UI : JP / Open Instrumentation : JP'
     - id: 8k5pmrjbl1w0
       name: 'UI : US / Proactive Detection : US'
     - id: jgl5xywwz8l3
       name: 'UI : Europe / Proactive Detection : Europe'
+    - id: x1c4jpvncy0f
+      name: 'UI : JP / Proactive Detection : JP'
     - id: 7yqy1ctsjw35
       name: 'UI : US / Serverless : US'
     - id: zbbfpr0656gw
       name: 'UI : Europe / Serverless : Europe'
+    - id: 2wk886w700q4
+      name: 'UI : JP / Serverless : JP'
     - id: 5kj1rklxtgzg
       name: 'UI : US / Synthetics : US'
     - id: 0zhztcy8gf0v
       name: 'UI : Europe / Synthetics : Europe'
+    - id: 149p96614ds2
+      name: 'UI : JP / Synthetics : JP'
