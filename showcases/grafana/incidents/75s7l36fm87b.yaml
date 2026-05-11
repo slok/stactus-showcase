@@ -1,0 +1,15 @@
+version: incident/v1
+id: 75s7l36fm87b
+name: SSL/TLS Connectivity Issues
+impact: major
+systems:
+    - h6c5t69fh0lr
+timeline:
+    - ts: "2026-05-11 20:49:06"
+      description: |-
+        We are currently investigating reports of service disruption affecting a subset of customers.
+
+        Customers may experience intermittent connectivity issues, degraded performance, or SSL/TLS certificate validation errors when accessing affected services. Our engineering teams are actively working to identify the scope of impact and restore full functionality as quickly as possible.
+
+        We will continue to provide updates as more information becomes available.
+      investigating: true
