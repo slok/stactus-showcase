@@ -14,3 +14,8 @@ timeline:
     - ts: "2026-05-11 17:31:50"
       description: We are continuing to work with Upstash on this issue. We have received reports of partial recovery for some users, however we are still seeing higher levels of degraded or failing connections connecting to Upstash Redis databases at this time.
       investigating: true
+    - ts: "2026-05-11 18:26:09"
+      description: A fix has been implemented and we are seeing Upstash Redis  connectivity return to normal across all regions. We continuing to monitor to ensure stable recovery.
+    - ts: "2026-05-11 18:41:22"
+      description: This incident has been resolved.
+      resolved: true
