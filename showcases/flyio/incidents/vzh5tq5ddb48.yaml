@@ -1,0 +1,10 @@
+version: incident/v1
+id: vzh5tq5ddb48
+name: Upstash Redis Outage
+impact: major
+systems:
+    - 1d32j80lw7xs
+timeline:
+    - ts: "2026-05-11 14:36:57"
+      description: We are working with Upstash to investigate issues with their Fly hosted Redis service. Users may see degraded or failing connections connecting to their Upstash Redis databases at this time.
+      investigating: true
