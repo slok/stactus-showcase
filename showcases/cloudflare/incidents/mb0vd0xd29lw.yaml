@@ -1,0 +1,12 @@
+version: incident/v1
+id: mb0vd0xd29lw
+name: Issue accessing the Cloudflare IP ranges page
+impact: minor
+systems:
+    - 6239kkkfzfnf
+timeline:
+    - ts: "2026-05-12 19:57:18"
+      description: Cloudflare is investigating an issue with https://www.cloudflare.com/ips-v4. Customers attempting to view the published list of Cloudflare IPv4 ranges may receive an HTTP 500 error. This issue is limited to the IP-ranges page on www.cloudflare.com and does not affect Cloudflare's CDN, DNS, security, or any other production services. We are working to mitigate this problem
+      investigating: true
+    - ts: "2026-05-12 20:23:11"
+      description: A fix has been implemented and we are monitoring the results.
