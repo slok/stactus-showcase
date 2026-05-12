@@ -1,6 +1,6 @@
 version: incident/v1
 id: 08m0h8m4lbtp
-name: SMS Delivery Report Delays from a Subset of Twilio Long Codes and Toll-Free Numbers to AT&T United States
+name: SMS Delivery Delays from a Subset of Twilio Long Codes and Toll-Free Numbers to AT&T United States
 impact: minor
 systems:
     - 7d8w22hqrh6s
@@ -28,3 +28,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery report delays from a subset of Twilio Long Codes and Toll-Free Numbers to AT&T network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
     - ts: "2026-05-11 22:53:35"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Long Codes and Toll-Free Numbers to AT&T network subscribers in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-05-12 01:04:53"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Long Codes and Toll-Free Numbers to AT&T network subscribers in the United States is operating normally.
+      resolved: true
