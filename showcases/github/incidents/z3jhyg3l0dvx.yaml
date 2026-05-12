@@ -3,6 +3,7 @@ id: z3jhyg3l0dvx
 name: Incident with CodeQL
 impact: minor
 systems:
+    - 4230lsnqdsld
     - br0l2tvcx85d
 timeline:
     - ts: "2026-05-12 14:38:14"
@@ -10,4 +11,19 @@ timeline:
       investigating: true
     - ts: "2026-05-12 15:13:26"
       description: CodeQL actions are currently experiencing delays, which may result in those actions being stuck in a pending state or having failed due to a timeout.
+      investigating: true
+    - ts: "2026-05-12 15:42:52"
+      description: We're continuing to investigate issues with CodeQL actions workflows. We're additionally seeing delays for notifications, webhooks, and the Slack integration.
+      investigating: true
+    - ts: "2026-05-12 15:44:44"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-05-12 16:18:49"
+      description: We've established that most delays are related to a queuing service and are working to scale out. Early signals from the scale-out are showing signs of recovery for some services. We'll provide an update when services are fully recovered.
+      investigating: true
+    - ts: "2026-05-12 16:28:53"
+      description: Webhooks is operating normally.
+      investigating: true
+    - ts: "2026-05-12 16:29:23"
+      description: Webhooks have fully recovered. Continuing to work on recovery for the other services.
       investigating: true
