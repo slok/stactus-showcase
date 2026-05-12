@@ -1,6 +1,6 @@
 version: incident/v1
 id: z3jhyg3l0dvx
-name: Incident with CodeQL
+name: Incident with CodeQL, Webhooks, Notifications, and Slack Integration
 impact: minor
 systems:
     - 4230lsnqdsld
@@ -26,4 +26,7 @@ timeline:
       investigating: true
     - ts: "2026-05-12 16:29:23"
       description: Webhooks have fully recovered. Continuing to work on recovery for the other services.
+      investigating: true
+    - ts: "2026-05-12 16:59:58"
+      description: CodeQL has fully recovered. We're continuing to work on recovery for the remaining impacted services.
       investigating: true
