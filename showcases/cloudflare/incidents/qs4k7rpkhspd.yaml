@@ -1,0 +1,16 @@
+version: incident/v1
+id: qs4k7rpkhspd
+name: Increased HTTP 4xx and 502 Errors in Perth
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-05-12 03:24:47"
+      description: "Cloudflare is investigating issues with Network connectivity in Perth. \n\nWe have identified the problem and are currently working towards mitigating it. More updates to follow shortly."
+    - ts: "2026-05-12 03:40:22"
+      description: |-
+        Cloudflare is investigating an increased level of HTTP 4xx and 502 errors in Perth.
+
+        We have identified the problem and are working towards mitigating it. More updates to follow shortly.
+    - ts: "2026-05-12 03:44:27"
+      description: A mitigation is in place and the team is working towards restoring the services.
