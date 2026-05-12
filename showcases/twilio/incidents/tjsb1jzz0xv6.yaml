@@ -1,0 +1,10 @@
+version: incident/v1
+id: tjsb1jzz0xv6
+name: Notify SMS Requests Failed With 500s Errors if the Request Landed on OTK Pods
+impact: none
+systems:
+    - 5bv1plmydbzf
+timeline:
+    - ts: "2026-05-12 13:41:09"
+      description: 'Notify SMS was degraded between 05/06/2026, 23:00 and 05/11/2026, 7:00 Pacific Time. During this period of time customers may have experienced Notify: SMS requests not getting delivered to users. The issue has now been resolved.'
+      resolved: true
