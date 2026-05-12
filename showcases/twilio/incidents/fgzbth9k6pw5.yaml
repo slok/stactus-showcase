@@ -1,9 +1,16 @@
 version: incident/v1
 id: fgzbth9k6pw5
-name: Credit Cards Will Not Be Charged for Payg
-impact: none
-systems: []
+name: Customer Low Balance Notification and Automatic Recharge of Balance Is Not Working
+impact: minor
+systems:
+    - jw9dh2mf4392
 timeline:
     - ts: "2026-05-12 17:09:26"
       description: Our monitoring systems have detected a potential issue with Credit cards will not be charged for PAYG. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-05-12 17:29:00"
+      description: Our engineering team has identified an issue affecting customer low balance notifications and the automatic balance recharge feature. We are actively working to deploy a fix. We will provide an update in 1 hour, or sooner if additional information becomes available.
+      investigating: true
+    - ts: "2026-05-12 18:05:47"
+      description: We are still investigating an issue affecting customer low balance notifications and the automatic balance recharge feature. We are actively working to deploy a fix. We will provide an update in 2 hours, or sooner if additional information becomes available.
       investigating: true
