@@ -1,6 +1,6 @@
 version: incident/v1
 id: 58g8rb3t8979
-name: SMS Delivery Delays and Failures From a Subset of Twilio Long Codes to U Mobile Malaysia
+name: SMS Delivery Delays and Failures from a Subset of Twilio Long Codes to U Mobile Malaysia
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -20,3 +20,6 @@ timeline:
       description: We have observed a recovery in SMS delivery from a subset of Twilio Long Codes to U Mobile network subscribers in Malaysia and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-05-12 05:19:03"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Long Codes to U Mobile network subscribers in Malaysia and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-05-12 06:36:08"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Long Codes to U Mobile network subscribers in Malaysia is operating normally.
+      resolved: true
