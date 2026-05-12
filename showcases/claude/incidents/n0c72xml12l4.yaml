@@ -1,0 +1,15 @@
+version: incident/v1
+id: n0c72xml12l4
+name: Elevated Error Rate for Vaults and Credentials
+impact: minor
+systems:
+    - 0qbwn08sd68x
+timeline:
+    - ts: "2026-05-12 18:47:02"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-05-12 18:51:08"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-05-12 18:57:59"
+      description: This incident has been resolved.
+      resolved: true

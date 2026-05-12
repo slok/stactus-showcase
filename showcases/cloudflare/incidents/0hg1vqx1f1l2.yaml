@@ -1,0 +1,12 @@
+version: incident/v1
+id: 0hg1vqx1f1l2
+name: Network Performance Issues
+impact: minor
+systems:
+    - 2661q193p08w
+timeline:
+    - ts: "2026-05-12 19:04:27"
+      description: Cloudflare is investigating issues with network performance near Johannesburg (JNB). We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-05-12 19:07:16"
+      description: The issue has been identified and a fix is being implemented.
