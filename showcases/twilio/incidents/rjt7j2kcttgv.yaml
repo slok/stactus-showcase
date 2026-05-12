@@ -1,0 +1,12 @@
+version: incident/v1
+id: rjt7j2kcttgv
+name: SMS Delivery Delivery Delays from Twilio to Vodafone Germany
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-05-12 02:25:41"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Vodafone Germany. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-12 02:29:22"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Vodafone Germany. Our team has identified the cause, and is working to resolve the issue.  We will provide another update in 1 hour or as soon as more information becomes available.
