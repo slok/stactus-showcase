@@ -10,3 +10,6 @@ timeline:
     - ts: "2026-05-12 21:00:26"
       description: Cloudflare is investigating issues with the DNS resolver component within Gateway in our Chennai (MAA) and Mumbai (BOM) data centers. Performance and connectivity through Gateway may be impacted, and identity-based Gateway policies may not be enforced correctly for users in these regions. We are working to understand the full impact and mitigate this problem
       investigating: true
+    - ts: "2026-05-12 21:20:37"
+      description: This incident has been resolved.
+      resolved: true
