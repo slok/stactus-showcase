@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4k2wr9d5svxx
+name: DLR Degradation for a Subset of SMPP API Customers.
+impact: none
+systems:
+    - pf1lb8dq2g3b
+timeline:
+    - ts: "2026-05-12 09:32:15"
+      description: A small set of SMPP API Customers were affected by issues with DLR deliveries between 2026-05-07 23:53 UTC and 2026-05-11 13:46 UTC. During this time some DLRs may not have been delivered to the end customer. All systems are fully operational
+      resolved: true
