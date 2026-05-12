@@ -1,0 +1,12 @@
+version: incident/v1
+id: bnq93nhgvtm6
+name: 'GradientAI: Agent Platform Playground Interaction Errors'
+impact: major
+systems:
+    - br95fz33h6td
+timeline:
+    - ts: "2026-05-12 10:24:07"
+      description: We are currently investigating an issue affecting the GradientAI Agent Platform Playground. Users may see a “Something went wrong” error for all agent interactions in the Playground. Agent functionality through API endpoints remains unaffected. We are actively working to identify the cause and will provide an update as soon as more information is available.
+      investigating: true
+    - ts: "2026-05-12 10:50:10"
+      description: The issue affecting the GradientAI Agent Platform Playground has been identified by our engineering team. A fix is being implemented to resolve this issue.
