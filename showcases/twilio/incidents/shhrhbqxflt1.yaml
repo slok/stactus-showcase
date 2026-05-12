@@ -1,6 +1,6 @@
 version: incident/v1
 id: shhrhbqxflt1
-name: SMS Delivery Delays from Twilio Phone Numbers to Multiple Networks in Multiple Countries in Europe
+name: SMS Delivery Delays from Twilio to Multiple Networks in Multiple Countries in Europe
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -30,3 +30,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays from Twilio to network subscribers on multiple networks in multiple countries in Europe. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
     - ts: "2026-05-11 16:16:12"
       description: Twilio customers may be experiencing SMS delivery delays from Twilio Phone Numbers to network subscribers on multiple networks in multiple countries in Europe. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+    - ts: "2026-05-11 23:40:19"
+      description: Twilio customers may be experiencing SMS delivery delays to Multiple Networks in Romania, Serbia, Poland, Bosnia and Herzegovina, and Cabo Verde. Other affected countries across Europe have now recovered and returned to normal operations. Our team continues to investigate the remaining impacted countries. We will provide the next update within 24 hours, or sooner if additional information becomes available.
