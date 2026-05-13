@@ -1,0 +1,9 @@
+version: incident/v1
+id: 4gnymdwds91g
+name: Network Route Leak
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-05-13 00:57:22"
+      description: One of Cloudflare's upstream transit providers is currently experiencing a route leak, impacting a subset of traffic reaching Cloudflare's network. Customers whose traffic traverses affected paths may experience connection timeouts or errors. We have identified the source and are working with the transit provider to resolve the issue.
