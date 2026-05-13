@@ -1,0 +1,13 @@
+version: incident/v1
+id: bv7nvq042pvx
+name: Messages delayed on RCS and WhatsApp
+impact: minor
+systems:
+    - t32hnkr2q793
+timeline:
+    - ts: "2026-05-13 01:57:06"
+      description: We are experiencing delays on RCS and WhatsApp messages. Customers may encounter messages queueing longer than expected during this time. Our engineers are working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-13 02:02:26"
+      description: We are experiencing delays on RCS and WhatsApp messages. Customers may encounter messages queueing longer than expected during this time. Our engineers are working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
