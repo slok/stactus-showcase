@@ -18,3 +18,5 @@ timeline:
     - ts: "2026-05-13 10:25:54"
       description: We have identified expanded impact affecting Grafana Cloud Logs and Grafana Cloud Traces in addition to Cloud Metrics, causing intermittent errors and increased latency when writing data. Our teams continue working on a fix and investigating the issue with the cloud provider’s support team.
       investigating: true
+    - ts: "2026-05-13 13:37:21"
+      description: We are seeing signs of recovery and improved stability across impacted services over the past hour. Our teams continue to closely monitor the situation while working with the cloud provider.
