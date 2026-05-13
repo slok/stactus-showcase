@@ -1,0 +1,12 @@
+version: incident/v1
+id: qfwrzsn7y7mk
+name: Twilio Accounts May Not Be Able to Capture Speech Using <gather>
+impact: minor
+systems:
+    - xnzrm2zg4qbv
+    - mjdj8ggz03v3
+    - vxpx4whmf0zt
+timeline:
+    - ts: "2026-05-13 21:25:41"
+      description: We are currently investigating an issue where Twilio accounts may not be able to capture speech using "gather" verb. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
