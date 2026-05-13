@@ -10,3 +10,6 @@ timeline:
     - ts: "2026-05-13 21:25:41"
       description: We are currently investigating an issue where Twilio accounts may not be able to capture speech using "gather" verb. We expect to provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-05-13 22:10:25"
+      description: We have fully investigated the issue where Twilio accounts may not be able to capture speech using "gather" verb, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
