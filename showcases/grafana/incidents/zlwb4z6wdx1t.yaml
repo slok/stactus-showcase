@@ -1,0 +1,14 @@
+version: incident/v1
+id: zlwb4z6wdx1t
+name: Intermittent Errors and High latency Writing to Cloud Metrics
+impact: minor
+systems:
+    - 1tt4gx4t4q87
+    - l778xg16mls4
+timeline:
+    - ts: "2026-05-13 08:50:46"
+      description: We’re currently investigating an issue causing intermittent errors and high latency when writing to Cloud Metrics. Our team is actively working to identify the cause. Thank you for your patience.
+      investigating: true
+    - ts: "2026-05-13 10:01:48"
+      description: We’re continuing to investigate the issue causing intermittent errors and high latency when writing to Cloud Metrics. We are in contact with the cloud provider’s support team, and they are investigating the issue alongside us.
+      investigating: true
