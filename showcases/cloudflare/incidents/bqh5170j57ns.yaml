@@ -1,0 +1,14 @@
+version: incident/v1
+id: bqh5170j57ns
+name: Cache Purging and Cache Rule Update Issues
+impact: major
+systems:
+    - 5wnz34mhfhrk
+    - fbvx0hxhhdj0
+timeline:
+    - ts: "2026-05-13 15:24:18"
+      description: Cloudflare has identified an issue affecting cache purge requests for Cache Reserve customers and updates to cache-related zone settings. Affected customers may see failures or timeouts when attempting to purge cached content or change cache rules via the Dashboard or API. Other Cloudflare services and cached content delivery are not affected. A fix has been identified and will be deployed shortly.
+      investigating: true
+    - ts: "2026-05-13 15:26:38"
+      description: This incident has been resolved.
+      resolved: true

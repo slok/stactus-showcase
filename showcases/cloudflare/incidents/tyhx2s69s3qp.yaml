@@ -1,0 +1,13 @@
+version: incident/v1
+id: tyhx2s69s3qp
+name: Increased HTTP 502 Errors in Hong Kong region
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-05-13 14:49:53"
+      description: Cloudflare is investigating an increased level of HTTP 502 errors impacting customers in Hong Kong region
+      investigating: true
+    - ts: "2026-05-13 15:08:44"
+      description: This incident has been resolved.
+      resolved: true

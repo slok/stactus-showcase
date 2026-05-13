@@ -1,0 +1,16 @@
+version: incident/v1
+id: 6vssbvyphmlt
+name: Errors with Email Sending via the Worker Binding
+impact: minor
+systems:
+    - ljfdq8wbsmp6
+timeline:
+    - ts: "2026-05-13 14:39:12"
+      description: |-
+        Cloudflare is investigating issues with Email Sending via the Worker Binding where an error message "Invalid email address: Invalid input" can be returned if the recipient list is an array.
+
+        More updates to follow soon.
+      investigating: true
+    - ts: "2026-05-13 14:44:21"
+      description: We are continuing to investigate this issue.
+      investigating: true

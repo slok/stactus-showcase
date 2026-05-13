@@ -1,0 +1,15 @@
+version: incident/v1
+id: bht3z2p2mccb
+name: Increased HTTP 502 Errors in San Jose, CA, United States region
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-05-13 14:27:55"
+      description: |-
+        Cloudflare is investigating an increased level of HTTP 502 errors impacting customers in San Jose, CA, , United States region
+
+        We are working to analyse and mitigate this problem.  More updates to follow shortly.
+      investigating: true
+    - ts: "2026-05-13 14:38:36"
+      description: A fix has been implemented and we are monitoring the results.

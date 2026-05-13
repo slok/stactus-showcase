@@ -1,0 +1,17 @@
+version: incident/v1
+id: 8wxkrmhm6744
+name: Incident with CodeQL
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-05-13 14:41:28"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-05-13 14:43:50"
+      description: We are investigating delays affecting CodeQL, the code analysis engine used by Code Scanning. Some users may experience delayed or incomplete code scanning results. Our engineering team is investigating. We will provide another update by 15:15 UTC.
+      investigating: true
+    - ts: "2026-05-13 14:58:50"
+      description: We have applied a mitigation to increase processing capacity. We are continuing to monitor to confirm full recovery. We will provide another update by 15:30 UTC.
+      investigating: true
+    - ts: "2026-05-13 15:26:42"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
