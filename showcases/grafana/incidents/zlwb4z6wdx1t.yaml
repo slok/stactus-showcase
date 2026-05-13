@@ -1,14 +1,20 @@
 version: incident/v1
 id: zlwb4z6wdx1t
-name: Intermittent Errors and High latency Writing to Cloud Metrics
+name: Intermittent Errors and High latency Writing to Cloud Metrics, Cloud Logs and Cloud Traces
 impact: minor
 systems:
+    - l72f5c7651n5
+    - 98skfgrdgchf
     - 1tt4gx4t4q87
     - l778xg16mls4
+    - t7pbglh025rz
 timeline:
     - ts: "2026-05-13 08:50:46"
       description: We’re currently investigating an issue causing intermittent errors and high latency when writing to Cloud Metrics. Our team is actively working to identify the cause. Thank you for your patience.
       investigating: true
     - ts: "2026-05-13 10:01:48"
       description: We’re continuing to investigate the issue causing intermittent errors and high latency when writing to Cloud Metrics. We are in contact with the cloud provider’s support team, and they are investigating the issue alongside us.
+      investigating: true
+    - ts: "2026-05-13 10:25:54"
+      description: We have identified expanded impact affecting Grafana Cloud Logs and Grafana Cloud Traces in addition to Cloud Metrics, causing intermittent errors and increased latency when writing data. Our teams continue working on a fix and investigating the issue with the cloud provider’s support team.
       investigating: true
