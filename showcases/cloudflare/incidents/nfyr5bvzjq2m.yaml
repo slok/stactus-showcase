@@ -1,0 +1,13 @@
+version: incident/v1
+id: nfyr5bvzjq2m
+name: Cloudflare Dashboard and API service issues
+impact: minor
+systems:
+    - g4tb35rs9yw7
+    - 2469qcw8rvjp
+    - 3sq3s4d20ywk
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2026-05-13 23:53:23"
+      description: Cloudflare is investigating issues affecting the Load Balancer API and dashboard, along with delays in audit log delivery for some services. Customers may experience failed or delayed requests to the Load Balancer API, and some dashboard operations may return errors. The serving of cached content and other security features at the Cloudflare edge are not affected. We are working to mitigate this problem and will provide an update shortly.
+      investigating: true
