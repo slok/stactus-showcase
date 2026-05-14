@@ -1,0 +1,11 @@
+version: incident/v1
+id: shjkvbwy06nl
+name: Delayed Metric Loading
+impact: minor
+systems:
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2026-05-14 18:24:38"
+      description: We are investigating increased latency querying Metrics. As a result of this issue, some users may experience delays loading graphs in dashboards and notebooks, and delayed monitor evaluations.
+      investigating: true
