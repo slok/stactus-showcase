@@ -3,6 +3,7 @@ id: gwgh41d5r0nz
 name: DNS service and Certificates
 impact: minor
 systems:
+    - mzkgffp35tq4
     - qdnryq0lymfk
 timeline:
     - ts: "2026-05-14 13:57:38"
@@ -10,4 +11,14 @@ timeline:
         Our Engineering team is investigating an issue affecting our DNS service. At this time, DNS resolution remains functional but any changes to DNS records are not being reflected at the edge. Additionally, customers may be unable to create new Let's Encrypt certificates at this time. Our engineering team is actively working to identify the root cause and restore full functionality.
 
         We apologize for any inconvenience, and we'll share more information as it becomes available.
+      investigating: true
+    - ts: "2026-05-14 15:52:48"
+      description: |-
+        Our engineering team continues to investigate an issue affecting our DNS service. At this time, DNS resolution remains functional; however, new changes to DNS records are currently not being reflected at the edge.
+
+        This issue is also impacting related services. Specifically, customers may be unable to create new Let's Encrypt certificates. Regarding Managed MongoDB, customers will be able to submit requests to create new clusters or scale existing ones, but the completion of the provisioning process is currently delayed. This is due to the dependency on Let's Encrypt certificate issuance, which requires functional DNS propagation.
+
+        Affected clusters will automatically recover and complete their provisioning once the DNS issue is resolved. Our engineering team is actively working to restore full functionality across all affected services.
+
+        We apologize for the inconvenience and will share more information as it becomes available.
       investigating: true
