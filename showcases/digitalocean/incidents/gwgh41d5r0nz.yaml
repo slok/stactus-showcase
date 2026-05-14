@@ -29,3 +29,6 @@ timeline:
         As a result, Let's Encrypt certificate issuance and Managed MongoDB provisioning (including scaling operations) should resume. We are currently monitoring the systems as they process the backlog of delayed requests. Affected MongoDB clusters and certificate requests should complete their provisioning automatically.
 
         We will continue to monitor the situation closely to ensure full stability. We appreciate your patience throughout this process and will provide an update once the issue is fully confirmed as resolved.
+    - ts: "2026-05-14 20:46:40"
+      description: "As of 19:50 UTC, the issue affecting the DNS service has been fully resolved, and all related services, including Let's Encrypt certificate issuance and Managed MongoDB provisioning, are now operating normally.\n\nThe backlog of delayed requests has been successfully processed, and all DNS record updates, pending certificate, and MongoDB operations should now be complete. \n\nWe apologize for the disruption this caused and appreciate your patience while our team worked to restore full functionality.\n\nHowever, if you continue to experience any issues, please don't hesitate to raise a support ticket for further investigation. We'll be happy to assist you."
+      resolved: true
