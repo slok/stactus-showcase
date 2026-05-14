@@ -1,0 +1,13 @@
+version: incident/v1
+id: xn3ctv50hxmf
+name: Conversation Intelligence (Classic) is Unavailable in the new Console
+impact: minor
+systems:
+    - qphgn531prd5
+timeline:
+    - ts: "2026-05-14 08:25:25"
+      description: We are investigating an issue where the Conversation Intelligence (classic) is unavailable in the new console to manage Intelligence Services and Language Operators. Our engineers are working to make it available for customers again. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-14 09:18:23"
+      description: We are still investigating the issue where the Conversation Intelligence (classic) is unavailable in the new console to manage Intelligence Services and Language Operators. Our engineers are working to make it available for customers again. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
