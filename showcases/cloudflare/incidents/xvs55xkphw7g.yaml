@@ -1,0 +1,10 @@
+version: incident/v1
+id: xvs55xkphw7g
+name: Elevated error rate on Cloudflare Stream API operations
+impact: minor
+systems:
+    - 47xg28c02lnk
+timeline:
+    - ts: "2026-05-14 15:30:44"
+      description: We are investigating increased errors on certain API operations. Customers may experience HTTP 503 errors when creating or updating videos, or starting/stopping live broadcasts. Playback is unaffected.
+      investigating: true
