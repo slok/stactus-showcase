@@ -1,6 +1,6 @@
 version: incident/v1
 id: gwgh41d5r0nz
-name: DNS service and Certificates
+name: DNS service, Certificates and Managed MongoDB
 impact: minor
 systems:
     - mzkgffp35tq4
@@ -22,3 +22,10 @@ timeline:
 
         We apologize for the inconvenience and will share more information as it becomes available.
       investigating: true
+    - ts: "2026-05-14 16:42:45"
+      description: |-
+        Our Engineering team has implemented a fix for the issue affecting our DNS service and are now seeing DNS record updates successfully propagate to the edge.
+
+        As a result, Let's Encrypt certificate issuance and Managed MongoDB provisioning (including scaling operations) should resume. We are currently monitoring the systems as they process the backlog of delayed requests. Affected MongoDB clusters and certificate requests should complete their provisioning automatically.
+
+        We will continue to monitor the situation closely to ensure full stability. We appreciate your patience throughout this process and will provide an update once the issue is fully confirmed as resolved.
