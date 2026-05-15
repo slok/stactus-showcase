@@ -34,6 +34,9 @@ systems:
       name: Container Registry / Global
     - id: 8cp93lvtlh32
       name: Spaces CDN / Global
+    - id: br95fz33h6td
+      name: Agentic Inference Cloud / Agent Runtime
+      description: Managed execution environment for running AI agents on GPU-powered infrastructure. Handles orchestration, scaling, and lifecycle management for deployed agents.
     - id: djw4tbjb0dq2
       name: Network File Storage / ATL1
     - id: 65brl8m428rn
@@ -68,6 +71,9 @@ systems:
       name: Functions / AMS3
     - id: cxxt9nh9v10h
       name: GPU Droplets / ATL1
+    - id: 2z9ldz1t4dgp
+      name: Agentic Inference Cloud / Inference
+      description: Serverless access to foundation models (e.g. Llama, Mistral, GPT) via OpenAI-compatible API.
     - id: 9q2dq7jc5bk9
       name: Droplets / AMS3
     - id: nz589c69ymyy
@@ -100,6 +106,9 @@ systems:
       name: App Platform / Atlanta
     - id: ncxxw3cs6pgm
       name: BYOIP
+    - id: zjmmzjfcbh16
+      name: Agentic Inference Cloud / ADK
+      description: (Agent Development Kit) Open-source toolkit for building, testing, and deploying AI agents locally or in the cloud via CLI and SDK integrations.
     - id: 1c2vrfy9qbvv
       name: App Platform / Bangalore
     - id: sk01cyydqy7b
@@ -132,6 +141,9 @@ systems:
       name: Volumes / ATL1
     - id: 30f69kx2hvgr
       name: VPC / ATL1
+    - id: ks0p9z6mcksw
+      name: Agentic Inference Cloud / Knowledge Bases
+      description: RAG-powered document stores that give agents access to your data. Supports multiple data sources for accurate, context-aware responses.
     - id: ttzvwy2wf0k3
       name: App Platform / Frankfurt
     - id: 6xz356g340vj
@@ -162,6 +174,9 @@ systems:
       name: Networking / BLR1
     - id: pg9zc33244c7
       name: Cloud Firewall
+    - id: s40901432yn0
+      name: Agentic Inference Cloud / Guardrails
+      description: Content safety layer that filters agent inputs and outputs. Enforces topic restrictions and behavioral boundaries to keep agents on-task and compliant.
     - id: 56cjsvgf3vk4
       name: App Platform / London
     - id: kkg2cfkqkwj1
@@ -192,6 +207,9 @@ systems:
       name: Community
     - id: 8pntc51v5prb
       name: Container Registry / SFO2
+    - id: pmy8cw253ck9
+      name: Agentic Inference Cloud / Model Services
+      description: Hosts and serves foundation and embedding models for serverless and dedicated inference workloads across the Gradient AI Platform.
     - id: ffghd7w93zbw
       name: Volumes / LON1
     - id: zfnbgvbvc6bd
@@ -328,8 +346,6 @@ systems:
       name: Droplets / SFO1
     - id: txy6938s4dhq
       name: Event Processing / SFO1
-    - id: br95fz33h6td
-      name: Gradient AI
     - id: smyg0ljwwb5r
       name: Spaces / LON1
     - id: q9wrfk6yn5m8
