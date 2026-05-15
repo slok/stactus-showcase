@@ -1,0 +1,23 @@
+version: incident/v1
+id: ctf7nxpq5jzn
+name: Actions is experiencing degraded availability
+impact: critical
+systems:
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2026-05-15 08:13:44"
+      description: We are investigating reports of degraded availability for Actions
+      investigating: true
+    - ts: "2026-05-15 08:14:10"
+      description: Pages is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-05-15 08:26:58"
+      description: The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.
+      investigating: true
+    - ts: "2026-05-15 08:27:21"
+      description: The degradation affecting Pages has been mitigated. We are monitoring to ensure stability.
+      investigating: true
+    - ts: "2026-05-15 08:29:41"
+      description: We are monitoring an issue that was affecting GitHub Actions and causing downstream issues in GitHub Coding Agent and GitHub Code Review Agent. The issue has resolved now but we are closely monitoring our systems for full recovery.
+      investigating: true
