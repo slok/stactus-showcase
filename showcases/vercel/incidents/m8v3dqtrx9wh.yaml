@@ -1,0 +1,10 @@
+version: incident/v1
+id: m8v3dqtrx9wh
+name: Workflow usage amounts are incorrectly calculated
+impact: minor
+systems:
+    - c3yjhlfbv34z
+timeline:
+    - ts: "2026-05-15 10:34:55"
+      description: Workflow Storage Retention and Workflow Storage Writes are being incorrectly calculated in usage data. The team is investigating and working to resolve the discrepancy.
+      investigating: true
