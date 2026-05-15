@@ -21,3 +21,8 @@ timeline:
     - ts: "2026-05-15 08:29:41"
       description: We are monitoring an issue that was affecting GitHub Actions and causing downstream issues in GitHub Coding Agent and GitHub Code Review Agent. The issue has resolved now but we are closely monitoring our systems for full recovery.
       investigating: true
+    - ts: "2026-05-15 08:41:47"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-05-15 08:48:30"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
