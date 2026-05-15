@@ -26,3 +26,11 @@ timeline:
     - ts: "2026-05-15 00:42:19"
       description: 'We continue investigating an interruption where some customers in the US region may be experiencing issues loading the different pages in the New Relic UI. Some customers in the US region may be experiencing delayed data in queries, charts, and dashboards. After further review, Alerts were not impacted. If you are experiencing issues and unable to access In-App support, please reach out to our Support team through this form: https://support.newrelic.com/s/contact-new-relic-support-form.'
       investigating: true
+    - ts: "2026-05-15 01:16:23"
+      description: We are seeing recovery for impacted services, and continue monitoring New Relic systems for full recovery. Some customers in the US region may have experienced issues loading different pages in the New Relic UI. Some customers in the US region may have also experienced delayed data in queries, charts, and dashboards. Data ingest and alerts were not impacted.
+    - ts: "2026-05-15 01:45:19"
+      description: |-
+        Between 22:30 UTC on May 14th and 01:00 UTC on May 15th, 2026, some customers in the US region may have experienced issues loading different pages in the New Relic UI. Some customers may have also experienced delayed data in queries, charts, and dashboards. Data ingest and alerts were not impacted.
+
+        We resolved this issue and the above services have returned to normal operation.
+      resolved: true

@@ -1,0 +1,14 @@
+version: incident/v1
+id: lrrw084g3whn
+name: Anthropic reported outage that's impacting access to their Serverless Inference models
+impact: major
+systems:
+    - br95fz33h6td
+timeline:
+    - ts: "2026-05-15 01:21:51"
+      description: As of the current time, our Engineering team is aware of an ongoing incident with our provider, Anthropic, that is impacting Serverless Inference. The outage is affecting all users attempting to use Sonnet 4.6 and Opus 4.7 models. According to Anthropic's status page (https://status.claude.com/incidents/8z7l5zcy0v3b), they are currently experiencing an outage that is causing this disruption. We apologize for the inconvenience and will provide updates as more information becomes available.
+    - ts: "2026-05-15 01:23:56"
+      description: According to Anthropic's status page (https://status.claude.com/incidents/8z7l5zcy0v3b), they have identified the root cause and are actively working on a fix. At this time, users may continue to experience errors when attempting to use Sonnet 4.6 and Opus 4.7 models. We will provide another update once Anthropic has implemented a fix and service is restored.
+    - ts: "2026-05-15 02:00:39"
+      description: As of the current time, our Engineering team has confirmed that the issue with Serverless Inference has been resolved. The root cause of the issue was an outage with our provider, Anthropic, which affected users of Sonnet 4.6 and Opus 4.7 models. According to Anthropic's status page (https://status.claude.com/incidents/8z7l5zcy0v3b), they have resolved the outage. If you continue to experience problems, please open a ticket with our Support team. We apologize for any inconvenience this may have caused.
+      resolved: true
