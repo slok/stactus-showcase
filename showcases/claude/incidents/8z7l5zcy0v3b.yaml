@@ -1,0 +1,16 @@
+version: incident/v1
+id: 8z7l5zcy0v3b
+name: Elevated error rates on requests to some models
+impact: major
+systems:
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-05-15 00:18:38"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-05-15 00:19:33"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-05-15 01:06:24"
+      description: We are currently working to resolve issues affecting requests to Claude Opus and Sonnet 4.6, though success rates for Opus 4.7 have returned to normal.
