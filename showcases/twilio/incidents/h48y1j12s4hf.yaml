@@ -1,6 +1,6 @@
 version: incident/v1
 id: h48y1j12s4hf
-name: SMS Delivery Delays and Failures Between Twilio Phone Numbers and Multiple Networks in Thailand
+name: SMS Delivery Delays and Failures between Twilio Phone Numbers and Multiple Networks in Thailand
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -17,3 +17,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays and failures between Twilio Phone Numbers and network subscribers on multiple networks in Thailand. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-05-15 12:04:02"
       description: Twilio customers may be experiencing SMS delivery delays and failures between Twilio Phone Numbers and multiple networks in Thailand. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-05-15 15:02:22"
+      description: We have observed a recovery in SMS delivery between Twilio Phone Numbers and network subscribers on multiple networks in Thailand and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
