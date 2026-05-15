@@ -1,6 +1,6 @@
 version: incident/v1
 id: v0c0pktz89x4
-name: Voice Call Audio Quality Degradation From a Subset of Twilio United States Phone Numbers to United States
+name: Voice Call Audio Quality Degradation from a Subset of Twilio United States Phone Numbers to United States
 impact: minor
 systems:
     - 2v3v92mz2m4h
@@ -10,3 +10,5 @@ timeline:
       investigating: true
     - ts: "2026-05-15 03:25:01"
       description: Twilio customers may be experiencing voice call audio quality degradation from a subset of Twilio United States Phone Numbers to network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-05-15 03:36:27"
+      description: We have observed a recovery in voice calls from a subset of Twilio United States Phone Numbers to network subscribers in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.

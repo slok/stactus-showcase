@@ -1,0 +1,12 @@
+version: incident/v1
+id: t5mch8tlq6vl
+name: '[Retroactive] Incident with GitHub.com'
+impact: none
+systems: []
+timeline:
+    - ts: "2026-05-15 03:57:42"
+      description: |-
+        Beginning at 02:49 UTC on May 15 2026 and lasting until 03:04 UTC, GitHub.com was unavailable for a subset of customers. This impact has been mitigated and normal service resumed.
+
+        The issue was rooted in a sudden spike in traffic, with intermittent impact. We've identified the source of the traffic and prevented further disruption.
+      resolved: true
