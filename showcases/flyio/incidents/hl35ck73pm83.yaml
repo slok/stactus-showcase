@@ -11,3 +11,6 @@ timeline:
         Our team has identified the cause and is deploying a fix.
     - ts: "2026-05-15 16:40:13"
       description: We've deployed a fix and are monitoring as error rates normalize. `fly ssh console` should be working now.
+    - ts: "2026-05-15 17:24:56"
+      description: This issue has been resolved, fly ssh console invocations are now working correctly.
+      resolved: true
