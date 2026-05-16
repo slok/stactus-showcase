@@ -5,7 +5,16 @@ impact: minor
 systems:
     - bty1yz6dhh0v
     - hb7g5sq2zz0h
+    - 5df6y9z3fsky
 timeline:
     - ts: "2026-05-16 01:55:48"
       description: Cloudflare is aware of and investigating an increase of R2 and Durable Object errors in Eastern North America. We are working to analyse and mitigate this problem. More updates to follow shortly.
       investigating: true
+    - ts: "2026-05-16 02:07:13"
+      description: Customers may also see impact with Worker uploads with R2 bindings and when creating Workflow instances.
+      investigating: true
+    - ts: "2026-05-16 02:27:44"
+      description: |-
+        The increase in errors are resolved and the services are stable again.
+
+        Customers using Queues, Cache Reserve and Cache Purge API may have also been impacted.

@@ -1,0 +1,14 @@
+version: incident/v1
+id: xqyrslhjs303
+name: Azure Metrics Reporting
+impact: critical
+systems:
+    - qrnng5l7z80l
+timeline:
+    - ts: "2026-05-16 02:17:25"
+      description: We are investigating an issue submitting Azure metrics.
+      investigating: true
+    - ts: "2026-05-16 02:40:11"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-05-16 03:09:05"
+      description: We are continuing to work on a fix for this issue.
