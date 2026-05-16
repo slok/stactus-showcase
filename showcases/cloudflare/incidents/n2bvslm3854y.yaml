@@ -1,0 +1,11 @@
+version: incident/v1
+id: n2bvslm3854y
+name: R2 and Durable Objects increased errors in Eastern North America
+impact: minor
+systems:
+    - bty1yz6dhh0v
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-05-16 01:55:48"
+      description: Cloudflare is aware of and investigating an increase of R2 and Durable Object errors in Eastern North America. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
