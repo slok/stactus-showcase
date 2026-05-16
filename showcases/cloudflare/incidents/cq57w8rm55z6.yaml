@@ -1,0 +1,10 @@
+version: incident/v1
+id: cq57w8rm55z6
+name: PayPal Billing Issues
+impact: minor
+systems:
+    - ll1x88wwz4fq
+timeline:
+    - ts: "2026-05-16 17:54:09"
+      description: Cloudflare is aware of and investigating issues paying for products with PayPal. Customers may experience an error when attempting to purchase or renew a product using PayPal. We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
