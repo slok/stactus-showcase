@@ -1,0 +1,37 @@
+version: incident/v1
+id: 8ty0m8545y97
+name: FPM Worker Configuration Issue on Larger Compute Sizes
+impact: none
+systems:
+    - b3rrfdqndjm6
+    - fp1qb51hl6d9
+    - tdf3n0tt8f46
+    - p0gmgcfh7y0n
+    - v3rs8ldrdvpl
+    - kws9341143r3
+    - 7vhl6zlf6jnl
+    - hkscfv3r4jr4
+    - ttj82j4dt8ly
+    - 028yfvzmt52x
+timeline:
+    - ts: "2026-05-18 19:23:55"
+      description: |-
+        We identified a configuration issue that caused some environments running on larger compute sizes to be provisioned with fewer FPM workers than expected. Only applications that deployed today (Monday May 18, 2026) were potentially affected.
+
+        A fix has been deployed and we are monitoring the results.
+
+        What to do if you may be affected:
+
+        If your app deployed today and you've noticed degraded performance or request queuing, you can confirm impact by visiting your environment's Metrics page and checking the Web Workers graph — if the worker limit dropped recently, your environment was affected.
+        To apply the fix, simply redeploy your application. New deployments will pick up the corrected configuration automatically.
+        We'll post another update once monitoring confirms the fix is fully effective. We apologize for the disruption.
+    - ts: "2026-05-18 19:33:04"
+      description: |-
+        The configuration issue affecting FPM worker counts on larger compute sizes has been resolved. Monitoring confirms the fix is working as expected for new deployments.
+
+        We have identified all environments that were potentially impacted and are reaching out to those customers directly with details and next steps. If you have not been contacted, your environment was not affected.
+
+        If you were affected and want to apply the fix immediately, redeploying your application will pick up the corrected configuration. You can verify worker counts on your environment's Metrics page under the Web workers graph.
+
+        Thanks for your patience while we worked through this.
+      resolved: true
