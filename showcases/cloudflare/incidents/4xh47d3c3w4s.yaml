@@ -1,0 +1,9 @@
+version: incident/v1
+id: 4xh47d3c3w4s
+name: Remote preview failing on Workers with attached Durable Object
+impact: none
+systems: []
+timeline:
+    - ts: "2026-05-18 20:06:01"
+      description: Cloudflare identified an issue affecting the remote preview feature between 15:00 and 19:46 UTC. Workers configured with both a remote binding and a Durable Object failed to launch, throwing error code 10375.
+      resolved: true
