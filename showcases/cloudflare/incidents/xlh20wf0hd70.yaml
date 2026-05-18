@@ -25,3 +25,6 @@ timeline:
       description: 'We are continuing to update the identified issues with our Bot Management features for the rule IDs: 50331648, 50331649. After an additional review, we determined that impact existed prior to April 1st, 2026, and was present for a subset of Bot Management Customers. We have disabled the affected feature globally to prevent further impact; we are currently monitoring for stability over the weekend and detections are scheduled to be re-enabled on Monday, May 18th.'
     - ts: "2026-05-18 11:06:54"
       description: "Following a stable monitoring period over the weekend, we are now turning the detections back on for detection IDs: 50331648, 50331649 via a gradual, phased release. \n\nWe will continue to closely monitor system performance and customer impact throughout this rollout to ensure ongoing stability."
+    - ts: "2026-05-18 21:59:12"
+      description: This incident has been resolved.
+      resolved: true
