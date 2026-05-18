@@ -1,0 +1,13 @@
+version: incident/v1
+id: qlnkw0cn54hb
+name: Grafana K6 metrics processing and test runs degradation
+impact: minor
+systems:
+    - m79yjv169r06
+    - wbhrnd130mb0
+    - z9074fpyx6sb
+    - qwkkscbddtdw
+timeline:
+    - ts: "2026-05-18 08:24:06"
+      description: We’re currently investigating an issue that is resulting in degraded performance in metrics processing and test run metrics may take longer than usual to show up. Our team is actively working to identify the cause. Thank you for your patience.
+      investigating: true
