@@ -1,0 +1,9 @@
+version: incident/v1
+id: pnfchwtft08w
+name: Alerts and Data Irregularities - US and EU region
+impact: none
+systems: []
+timeline:
+    - ts: "2026-05-18 16:25:20"
+      description: Between 10:30 UTC and 13:32 UTC on May 16th, some customers in the US and EU regions may have experienced delayed data in queries, charts, and dashboards as well as delayed, missing, or false alert notifications for impacted data related to a service interruption involving a 3rd party cloud provider. The cloud provider resolved the service interruption and impacted services have returned to normal operations.
+      resolved: true
