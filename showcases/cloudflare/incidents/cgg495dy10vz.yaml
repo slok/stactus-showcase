@@ -1,0 +1,19 @@
+version: incident/v1
+id: cgg495dy10vz
+name: Issues with Cloudflare Log Explorer
+impact: minor
+systems:
+    - 38w4zp21dlkc
+    - w324dr932r05
+timeline:
+    - ts: "2026-05-18 05:37:41"
+      description: |-
+        Cloudflare is aware of and investigating an issue with Cloudflare Log Explorer. Affected customers may see delays with Cloudflare logs in their dashboard and api.
+
+        We are currently working on a resolution. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-05-18 05:57:32"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-05-18 06:33:29"
+      description: This incident has been resolved.
+      resolved: true
