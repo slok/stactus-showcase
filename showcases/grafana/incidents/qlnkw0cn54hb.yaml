@@ -11,3 +11,9 @@ timeline:
     - ts: "2026-05-18 08:24:06"
       description: We’re currently investigating an issue that is resulting in degraded performance in metrics processing and test run metrics may take longer than usual to show up. Our team is actively working to identify the cause. Thank you for your patience.
       investigating: true
+    - ts: "2026-05-18 10:27:26"
+      description: |-
+        We have identified that test runs are getting timed out as a result of the issue
+
+        This issue first occurred on May 05/15/2026 at 8:00PM UTC.
+      investigating: true
