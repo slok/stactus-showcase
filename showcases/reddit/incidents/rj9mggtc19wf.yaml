@@ -1,0 +1,15 @@
+version: incident/v1
+id: rj9mggtc19wf
+name: Investigating elevated site errors and issues accessing media
+impact: minor
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jtcwwb8fzd0k
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2026-05-18 17:39:06"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-05-18 18:06:20"
+      description: The issue has been identified and we are working on implementing a fix. While this is ongoing, you may encounter errors and general loading issues across feeds, posts, and search. Recently uploaded images and videos may not appear as expected.
