@@ -10,3 +10,9 @@ timeline:
       investigating: true
     - ts: "2026-05-18 21:53:29"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-05-18 22:11:52"
+      description: We're continuing to work on rolling out a fix. In the mean time, customers may use Instant Rollback to a previous deployment version as an immediate workaround in order to recover.
+    - ts: "2026-05-18 22:16:40"
+      description: A fix is rolled out for the function invocation errors affecting React Router 7 deployments. To recover, redeploy your application or use Instant Rollback to a previous deployment from the dashboard. We're continuing to monitor.
+    - ts: "2026-05-18 22:19:32"
+      description: We are continuing to monitor for any further issues.

@@ -1,0 +1,17 @@
+version: incident/v1
+id: 6qbg6ft2r9j4
+name: Elevated errors for Claude Opus 4.7
+impact: major
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-05-18 22:10:49"
+      description: We are investigating elevated errors on requests to Claude Opus 4.7. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-05-18 22:19:34"
+      description: The issue affecting Claude services has been resolved. Impact occurred from 21:47 to 22:18 UTC.
+      resolved: true
