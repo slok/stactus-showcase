@@ -1,0 +1,12 @@
+version: incident/v1
+id: qngjxgf9x5w5
+name: Support cases cannot be submitted
+impact: minor
+systems:
+    - tgqww0wpxntp
+timeline:
+    - ts: "2026-05-18 15:00:40"
+      description: We are investigating an issue where support cannot be submitted through the dashboard.
+      investigating: true
+    - ts: "2026-05-18 15:17:06"
+      description: We have implemented a fix. New support cases can be created. We continue to monitor.

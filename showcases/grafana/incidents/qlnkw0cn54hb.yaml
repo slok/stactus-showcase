@@ -17,3 +17,5 @@ timeline:
 
         This issue first occurred on May 05/15/2026 at 8:00PM UTC.
       investigating: true
+    - ts: "2026-05-18 14:30:01"
+      description: We've stabilized the system and test runs no longer result in timeout. There is a small delay (a few minutes) in processing metrics at the end of the test run, but most users shouldn't be too negatively impacted by that. We expected the delay/lag to also resolve within the next 30-60 minutes.
