@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5lg76w3216r2
+name: Issues Storing Real-Time Transcriptions in Conversational Intelligence
+impact: minor
+systems:
+    - qphgn531prd5
+timeline:
+    - ts: "2026-05-18 09:10:19"
+      description: We are currently investigating an issue where a small percentage of real-time transcripts generated via the transcription TwiML verb are failing to be stored in Conversational Intelligence. This is also preventing the subsequent intelligence analysis of those transcripts from being completed. Our team is actively working to resolve this service disruption, and we expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-18 09:45:45"
+      description: Our engineers have implemented a fix and are monitoring system performance. We are currently seeing recovery for the storage of real-time transcripts and their subsequent intelligence analysis. We will provide another update in 2 hours or as soon as more information becomes available.
