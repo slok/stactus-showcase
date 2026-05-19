@@ -1,6 +1,6 @@
 version: incident/v1
 id: 0pl74z9tcpmk
-name: React Router 7 function invocation errors
+name: Increased Function Invocation Errors - ERR_MODULE_NOT_FOUND
 impact: minor
 systems:
     - pdnc30nkdqth
@@ -17,5 +17,10 @@ timeline:
     - ts: "2026-05-18 22:19:32"
       description: We are continuing to monitor for any further issues.
     - ts: "2026-05-18 23:52:05"
-      description: This incident has been resolved.
+      description: |-
+        This incident has been resolved.
+
+        Some deployments created between May 18, 2026, 06:15 PM - 10:16 PM UTC may have experienced increased ERR_MODULE_NOT_FOUND function invocation errors due to a bad rollout. Deployments created outside of this window are unaffected.
+
+        The fix is being rolled out to existing deployments retrospectively and is expected to finish in the next few hours.
       resolved: true

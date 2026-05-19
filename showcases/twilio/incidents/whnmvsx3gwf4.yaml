@@ -1,0 +1,10 @@
+version: incident/v1
+id: whnmvsx3gwf4
+name: SMS Delivery Delays from Twilio to Hi3G Denmark
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-05-19 05:57:09"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Hi3G network subscribers in Denmark. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
