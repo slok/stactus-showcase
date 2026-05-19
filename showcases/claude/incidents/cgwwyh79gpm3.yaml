@@ -1,0 +1,13 @@
+version: incident/v1
+id: cgwwyh79gpm3
+name: Elevated errors on Claude.ai and Claude Code login
+impact: minor
+systems:
+    - rwppv331jlwc
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-05-19 04:46:49"
+      description: From 04:34–04:42 UTC, we saw elevated errors and latency on requests within the Claude.ai applications. Additionally, users may have experienced errors when attempting to login, including authenticating Claude Code via Claude.ai. We are monitoring closely to ensure no further issues, and will provide an additional update shortly.
+    - ts: "2026-05-19 04:51:51"
+      description: This issue has been resolved.
+      resolved: true
