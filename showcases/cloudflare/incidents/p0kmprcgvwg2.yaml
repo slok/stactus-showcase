@@ -1,0 +1,11 @@
+version: incident/v1
+id: p0kmprcgvwg2
+name: Digital Experience in Cloudflare Zero Trust Latency
+impact: minor
+systems:
+    - nmp96vgn1hpl
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2026-05-19 15:25:56"
+      description: Actions related to Digital Experience are delayed, Cloudflare is aware and investigating.
+      investigating: true

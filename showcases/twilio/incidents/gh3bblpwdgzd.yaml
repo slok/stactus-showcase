@@ -1,0 +1,12 @@
+version: incident/v1
+id: gh3bblpwdgzd
+name: One Console Voice Sip Domain Regional Pages Degraded
+impact: minor
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2026-05-19 15:21:24"
+      description: Our monitoring systems have detected a potential issue with One Console Voice SIP Domain regional pages. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-05-19 15:38:47"
+      description: Customers trying access SIP Domains details created on au1 and ie1 regions are facing an error that prevents the details from being displayed on OneConsole. We expect to provide another update in 1 hour or as soon as more information becomes available.
