@@ -7,5 +7,11 @@ systems:
     - hb7g5sq2zz0h
 timeline:
     - ts: "2026-05-19 08:13:16"
-      description: Durable Objects and R2 buckets in our WNAM buckets may see increased latency, reduced throughput and slightly increased error rates.
+      description: Durable Objects and R2 buckets in WNAM may see increased latency, reduced throughput and slightly increased error rates.
+      investigating: true
+    - ts: "2026-05-19 08:14:05"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-05-19 08:23:08"
+      description: We are continuing to investigate this issue.
       investigating: true
