@@ -1,0 +1,15 @@
+version: incident/v1
+id: 0myxk19xsyby
+name: Intermittent Cloudflare Dashboard SSO login failures with Okta
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-05-19 19:16:29"
+      description: |-
+        Cloudflare is investigating reports of intermittent authentication failures when logging into the Cloudflare Dashboard using SSO with Okta as the identity provider. Affected users may see a "failed to fetch" error during the login process.
+
+        Dashboard access via other identity providers and direct username/password login are not currently reported as affected. Cloudflare Access application authentication is not currently reported as affected.
+
+        Cloudflare Engineering is actively investigating the issue and will provide updates as more information becomes available.
+      investigating: true

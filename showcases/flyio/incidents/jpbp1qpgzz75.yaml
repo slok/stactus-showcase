@@ -1,0 +1,11 @@
+version: incident/v1
+id: jpbp1qpgzz75
+name: Logs issues in IAD
+impact: major
+systems:
+    - 6sckg8qmrnzz
+    - k2zhkw7wryv2
+timeline:
+    - ts: "2026-05-19 19:16:08"
+      description: We are investigating an issue with logs and metrics in IAD region. New logs and metrics from machines in IAD region may be missing, but past logs/metrics are still accessible. Apps continue to run.
+      investigating: true
