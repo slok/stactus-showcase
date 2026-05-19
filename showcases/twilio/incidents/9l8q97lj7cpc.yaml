@@ -1,6 +1,6 @@
 version: incident/v1
 id: 9l8q97lj7cpc
-name: SMS Delivery Receipt Delays from a Subset of Twilio Alphanumeric Sender IDs to T-Mobile Czech Republic
+name: SMS Delivery Receipt Delays from a Subset of Twilio Alphanumeric Numbers to T-Mobile Czech Republic
 impact: major
 systems:
     - 8qjql0kqnd33
@@ -13,3 +13,5 @@ timeline:
       investigating: true
     - ts: "2026-05-19 16:55:31"
       description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Alphanumeric Sender IDs to T-Mobile network subscribers in the Czech Republic. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-05-19 17:56:48"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Alphanumeric Numbers to T-Mobile network subscribers in the Czech Republic. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 2 hours or as soon as more information becomes available.
