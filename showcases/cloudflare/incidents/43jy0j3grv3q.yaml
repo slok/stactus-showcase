@@ -1,0 +1,11 @@
+version: incident/v1
+id: 43jy0j3grv3q
+name: Degraded latency for Durable Objects and R2 buckets in WNAM
+impact: major
+systems:
+    - bty1yz6dhh0v
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-05-19 08:13:16"
+      description: Durable Objects and R2 buckets in our WNAM buckets may see increased latency, reduced throughput and slightly increased error rates.
+      investigating: true

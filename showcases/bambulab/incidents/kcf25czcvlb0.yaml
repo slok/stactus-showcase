@@ -1,0 +1,14 @@
+version: incident/v1
+id: kcf25czcvlb0
+name: Europe & South Africa → AWS Network Issues
+impact: minor
+systems:
+    - 5fs3yzwktd3t
+timeline:
+    - ts: "2026-05-19 07:40:48"
+      description: Network connectivity between parts of Europe/South Africa and AWS North America is degraded. Investigation with upstream providers is in progress.
+      investigating: true
+    - ts: "2026-05-19 07:56:04"
+      description: We have identified the root cause as a network anomaly at upstream carriers serving parts of South Africa and Europe. The South Africa network has now recovered. Investigation continues for the affected European regions, and we will provide further updates as the situation evolves.
+    - ts: "2026-05-19 08:11:49"
+      description: The network anomaly affecting access from Europe to AWS is gradually easing. We are actively monitoring the situation alongside our upstream carriers and will share further updates as full recovery is confirmed.
