@@ -1,0 +1,13 @@
+version: incident/v1
+id: qss5qzrvx05l
+name: Cloudflare Access AI control -  MCP server creation impacted
+impact: minor
+systems:
+    - gcnzpkhvnqs7
+timeline:
+    - ts: "2026-05-19 21:59:24"
+      description: Customers may experience issue adding new MCP Servers or authenticating existing ones through the Zero Trust Dash
+      investigating: true
+    - ts: "2026-05-19 22:09:15"
+      description: We are continuing to investigate this issue.
+      investigating: true
