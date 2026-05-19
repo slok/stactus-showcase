@@ -12,3 +12,6 @@ timeline:
       description: We have identified the root cause as a network anomaly at upstream carriers serving parts of South Africa and Europe. The South Africa network has now recovered. Investigation continues for the affected European regions, and we will provide further updates as the situation evolves.
     - ts: "2026-05-19 08:11:49"
       description: The network anomaly affecting access from Europe to AWS is gradually easing. We are actively monitoring the situation alongside our upstream carriers and will share further updates as full recovery is confirmed.
+    - ts: "2026-05-19 11:54:22"
+      description: The issue has been fully resolved. It has been confirmed as a network configuration issue on the carrier side. All affected regions have returned to normal. We apologize for any inconvenience caused.
+      resolved: true

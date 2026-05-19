@@ -1,6 +1,6 @@
 version: incident/v1
 id: btnm4pglm9d6
-name: SMS Delivery Failures and Delays between Twilio Phone Numbers and AT&T in Mexico
+name: SMS Delivery Failures between Twilio Phone Numbers and AT&T in Mexico
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -32,3 +32,6 @@ timeline:
       description: We have observed a recovery in SMS delivery between Twilio Phone Numbers and AT&T network subscribers in Mexico and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-05-19 07:56:07"
       description: We have observed a recovery in SMS delivery between Twilio Phone Numbers and AT&T network subscribers in Mexico and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-05-19 12:01:30"
+      description: The incident has been resolved and SMS delivery between Twilio Phone Numbers and AT&T network subscribers in Mexico is operating normally.
+      resolved: true

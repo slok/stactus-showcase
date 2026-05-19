@@ -1,0 +1,17 @@
+version: incident/v1
+id: 63gg68hd2kk3
+name: Workers AI availability issues
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2026-05-19 10:56:52"
+      description: Cloudflare is investigating availability issues with several workers AI models.
+      investigating: true
+    - ts: "2026-05-19 11:09:14"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-05-19 11:35:23"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-05-19 11:55:46"
+      description: This incident has been resolved.
+      resolved: true
