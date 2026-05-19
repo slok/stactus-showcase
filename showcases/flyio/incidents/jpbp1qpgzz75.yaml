@@ -9,3 +9,6 @@ timeline:
     - ts: "2026-05-19 19:16:08"
       description: We are investigating an issue with logs and metrics in IAD region. New logs and metrics from machines in IAD region may be missing, but past logs/metrics are still accessible. Apps continue to run.
       investigating: true
+    - ts: "2026-05-19 20:56:12"
+      description: This incident has been resolved.
+      resolved: true
