@@ -1,0 +1,13 @@
+version: incident/v1
+id: spgd2scvttth
+name: Block Storage Volume Performance
+impact: minor
+systems:
+    - fkzl92xwpwc9
+timeline:
+    - ts: "2026-05-20 01:05:16"
+      description: |-
+        Our Engineering team is currently investigating an ongoing infrastructure issue in the NYC3 region affecting Block Storage Volumes at the storage layer. Users may experience degraded write performance and intermittent impact to services dependent on the affected storage infrastructure.
+
+        We apologize for the inconvenience and will continue to provide updates as more information becomes available.
+      investigating: true
