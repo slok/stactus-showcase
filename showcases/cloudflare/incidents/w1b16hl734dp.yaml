@@ -1,0 +1,11 @@
+version: incident/v1
+id: w1b16hl734dp
+name: Cloudflare Access delayed audit logs
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-05-20 19:40:08"
+      description: An issue with delay audit logs for Access has been identified. A fix is being prepared to resolve the delayed logs.
+    - ts: "2026-05-20 19:47:17"
+      description: A fix has been implemented and we are monitoring the results.
