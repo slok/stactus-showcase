@@ -1,0 +1,13 @@
+version: incident/v1
+id: sv0tfb6jhqz8
+name: Cloud Firewall
+impact: minor
+systems:
+    - pg9zc33244c7
+timeline:
+    - ts: "2026-05-20 05:35:48"
+      description: |-
+        We are currently investigating an issue with incorrect Cloud Firewall rules appearing on the cloud panel. Our engineering team is aware of the situation and actively working to identify the root cause. Since this is a user interface issue, users should not experience any problems with other services or networking.
+
+        We apologize for the inconvenience and appreciate your patience. We will continue to provide updates as we learn more.
+      investigating: true
