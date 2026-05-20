@@ -1,0 +1,10 @@
+version: incident/v1
+id: cd2wntsc21lq
+name: Increased HTTP 502 Errors in Buenos Aires
+impact: minor
+systems:
+    - 26gznn8sts5z
+timeline:
+    - ts: "2026-05-20 13:06:14"
+      description: Cloudflare is investigating an increased level of HTTP 502 errors in Buenos Aires. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true

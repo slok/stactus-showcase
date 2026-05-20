@@ -1,0 +1,14 @@
+version: incident/v1
+id: gpsq1xqywp4h
+name: Increase of deployment failures
+impact: minor
+systems:
+    - nfc2yzmxzw4s
+    - s3zm1t588bky
+timeline:
+    - ts: "2026-05-20 13:24:18"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-05-20 13:28:21"
+      description: We are continuing to investigate this issue.
+      investigating: true
