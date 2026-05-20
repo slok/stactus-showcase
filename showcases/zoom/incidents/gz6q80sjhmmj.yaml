@@ -9,6 +9,8 @@ systems:
     - 576m25cw4prj
     - 3mgjlwf5953y
     - q4msk5dl4bhm
+    - rgfwsk3p56gd
+    - 398c07wcwfdw
 timeline:
     - ts: "2026-05-20 20:33:00"
       description: |-
@@ -34,3 +36,10 @@ timeline:
       investigating: true
     - ts: "2026-05-20 21:06:49"
       description: "We have successfully identified the root cause affecting multiple services in the North America region. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+    - ts: "2026-05-20 21:13:54"
+      description: "We have successfully identified the root cause affecting multiple services in the North America region. \n\nSeveral services have restored and we are actively investigating restoration for the remaining services.\n\nThank you for your patience."
+    - ts: "2026-05-20 21:22:26"
+      description: We have successfully restored all affected services. We apologies for the service interruption and will be monitoring closely.
+    - ts: "2026-05-20 21:45:05"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true

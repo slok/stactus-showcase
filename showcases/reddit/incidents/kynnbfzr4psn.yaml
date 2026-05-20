@@ -1,7 +1,7 @@
 version: incident/v1
 id: kynnbfzr4psn
 name: Investigating elevated errors and issues loading comments
-impact: major
+impact: none
 systems:
     - 0wf8j1vtry0v
     - jx663dxlwgdt
@@ -14,3 +14,7 @@ timeline:
     - ts: "2026-05-20 20:58:27"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2026-05-20 21:22:47"
+      description: We've identified the issue and you should now start to see comments load properly again. We're still monitoring the situation!
+    - ts: "2026-05-20 21:37:19"
+      description: Most errors have cleared up and comments should be appearing as expected. We're continuing to monitor the situation.
