@@ -1,0 +1,14 @@
+version: incident/v1
+id: 37szr7sz1t5r
+name: Workers subrequests returning 1006
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-05-20 17:19:34"
+      description: |-
+        Cloudflare is aware of and investigating customer reports of some Workers subrequests returning 1006 errors.
+        We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-05-20 17:21:06"
+      description: We have identified the problem and working to resolve.
