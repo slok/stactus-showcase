@@ -1,0 +1,16 @@
+version: incident/v1
+id: kynnbfzr4psn
+name: Investigating elevated errors and issues loading comments
+impact: major
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+    - fggy4fg1hdmj
+timeline:
+    - ts: "2026-05-20 20:58:02"
+      description: We're currently investigating this issue. While this is ongoing, you may have trouble loading comment threads on www.reddit.com, and the native apps
+      investigating: true
+    - ts: "2026-05-20 20:58:27"
+      description: We are continuing to investigate this issue.
+      investigating: true

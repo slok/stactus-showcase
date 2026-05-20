@@ -1,0 +1,36 @@
+version: incident/v1
+id: gz6q80sjhmmj
+name: Service Degradation affecting multiple Services in the North America region
+impact: minor
+systems:
+    - rmphw6f34qk9
+    - dnpn46x85j1v
+    - lj388xsd0lyh
+    - 576m25cw4prj
+    - 3mgjlwf5953y
+    - q4msk5dl4bhm
+timeline:
+    - ts: "2026-05-20 20:33:00"
+      description: |-
+        We are currently investigating a service degradation with multiple services in the North America region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-05-20 20:42:20"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-05-20 20:54:00"
+      description: "We have successfully identified the root cause affecting multiple services in the North America region. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+    - ts: "2026-05-20 20:58:22"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-05-20 21:00:58"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-05-20 21:01:51"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-05-20 21:06:49"
+      description: "We have successfully identified the root cause affecting multiple services in the North America region. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
