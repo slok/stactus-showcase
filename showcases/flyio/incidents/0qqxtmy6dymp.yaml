@@ -1,0 +1,11 @@
+version: incident/v1
+id: 0qqxtmy6dymp
+name: Networking issues in SIN
+impact: minor
+systems:
+    - 1nlcpj3qhzxl
+    - b97pv9yxbzv7
+timeline:
+    - ts: "2026-05-20 08:06:21"
+      description: Machines may see high packet loss. Some MPGs are unable to connect to their config store and may be unreachable right now.
+      investigating: true
