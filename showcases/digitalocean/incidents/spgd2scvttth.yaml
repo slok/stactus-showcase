@@ -13,3 +13,11 @@ timeline:
       investigating: true
     - ts: "2026-05-20 02:19:45"
       description: Our Engineering team has implemented mitigation measures for the infrastructure issue affecting Block Storage Volumes in the NYC3 region. The team is monitoring the situation, and we will share another update once the issue is fully resolved
+    - ts: "2026-05-20 05:13:50"
+      description: |-
+        From 00:00 UTC to 05:15 UTC, users may have experienced degraded write performance and intermittent impacts to workloads dependent on Block Storage Volumes in the NYC3 region.
+
+        Our Engineering team has confirmed that the underlying infrastructure issue affecting Block Storage Volumes at the storage layer has been fully resolved, and services are now operating normally.
+
+        If you continue to experience any issues, please contact our Support team by opening a ticket. We apologize for any inconvenience caused.
+      resolved: true
