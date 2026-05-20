@@ -9,3 +9,7 @@ timeline:
     - ts: "2026-05-20 08:06:21"
       description: Machines may see high packet loss. Some MPGs are unable to connect to their config store and may be unreachable right now.
       investigating: true
+    - ts: "2026-05-20 08:23:25"
+      description: One of our upstreams is experiencing high packet loss and latency. We are actively working with them.
+    - ts: "2026-05-20 08:59:42"
+      description: All MPGs in SIN are reachable again. We are seeing high latency to the affected provider. This may affect a subset of machines hosted in SIN.
