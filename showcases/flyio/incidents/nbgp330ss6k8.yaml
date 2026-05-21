@@ -1,0 +1,10 @@
+version: incident/v1
+id: nbgp330ss6k8
+name: IPv6 outage for some machines in ORD
+impact: none
+systems:
+    - vfq82tp9wp5r
+timeline:
+    - ts: "2026-05-21 12:02:03"
+      description: We're working with our upstream providers to investigate an IPv6 networking failure in ORD. Impacted apps may wish to temporarily provision additional capacity in nearby regions.
+      investigating: true
