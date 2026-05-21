@@ -1,0 +1,16 @@
+version: incident/v1
+id: d8n7rk3npq86
+name: Network issues in SIN region
+impact: major
+systems:
+    - 1nlcpj3qhzxl
+    - b97pv9yxbzv7
+timeline:
+    - ts: "2026-05-21 18:30:27"
+      description: We are investigating network issues in the Singapore region. Apps may experience higher latency or be unreachable at this time. Some Managed Postgres clusters may be unreachable.
+      investigating: true
+    - ts: "2026-05-21 18:45:24"
+      description: |-
+        Our upstream provider has implemented a fix and all apps and Managed Postgres clusters are now reachable.
+
+        For the time being, ingress traffic is being re-routed to other regions, so users around the Singapore area may experience higher latency.

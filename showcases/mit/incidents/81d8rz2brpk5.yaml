@@ -1,7 +1,7 @@
 version: incident/v1
 id: 81d8rz2brpk5
 name: Investigating Issue with MIT Secure Wireless Network
-impact: minor
+impact: none
 systems:
     - qbxg9tr9gslw
 timeline:
@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2026-05-21 00:56:35"
       description: Connection to the MIT Secure network has been restored. Contact the service desk if you have difficulty connecting to the network.
+    - ts: "2026-05-21 18:26:44"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,6 +1,6 @@
 version: incident/v1
 id: s174m0z3vkn9
-name: SMS Delivery Delays and MMS Delivery Delays from Twilio to T-Mobile United States
+name: SMS Delivery Delays from Twilio Phone Numbers to T-Mobile United States
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -24,3 +24,5 @@ timeline:
       description: We have been able to confirm stability and recovery with the traffic sent to T-Mobile Network in the US with the exception of a subset of short codes, Our team has identified the cause, and is working to resolve the issue. We will provide another update in 8 hour or as soon as more information becomes available.
     - ts: "2026-05-21 12:01:36"
       description: We have been able to confirm stability and recovery with the traffic sent to T-Mobile Network in the US with the exception of a subset of short codes, Our team has identified the cause, and is working to resolve the issue. We will provide another update in 24 hour or as soon as more information becomes available.
+    - ts: "2026-05-21 18:03:28"
+      description: We have been able to confirm stability and recovery with the traffic sent to T-Mobile Network in the US , Our team has monitoring the cause, and is working to resolve the issue. We will provide another update in 2 hour or as soon as more information becomes available.
