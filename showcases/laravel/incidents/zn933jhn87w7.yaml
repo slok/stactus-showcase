@@ -1,0 +1,15 @@
+version: incident/v1
+id: zn933jhn87w7
+name: Increased latency and timeouts in EU Central Cache Clusters
+impact: minor
+systems:
+    - z6126sr4pm0k
+timeline:
+    - ts: "2026-05-21 17:31:45"
+      description: |-
+        We're investigating increased latency and timeout errors on Cache Clusters in the EUC1 region.
+
+        An update will be provided as soon as possible.
+      investigating: true
+    - ts: "2026-05-21 17:45:13"
+      description: We have identified the cause of this issue and are actively working on mitigation.
