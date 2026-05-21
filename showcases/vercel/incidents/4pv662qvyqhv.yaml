@@ -1,0 +1,9 @@
+version: incident/v1
+id: 4pv662qvyqhv
+name: Elevated Build Errors
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-05-21 15:01:57"
+      description: We are currently investigating elevated build failures affecting a subset of Vite projects. Affected deployments may be timing out. We’ve identified an issue and are working on the fix.
