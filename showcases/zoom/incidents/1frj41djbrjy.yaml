@@ -1,0 +1,12 @@
+version: incident/v1
+id: 1frj41djbrjy
+name: Service Degradation Affecting Zoom Contact Center SMS in US Region
+impact: minor
+systems:
+    - rkgptw5lc3pw
+timeline:
+    - ts: "2026-05-21 08:38:45"
+      description: "On 05/21/2025, Between 04:30 UTC to 06:45 UTC, a small number of SMS engagements might have experienced issues with Zoom Contact Center in US Region. \n\nWe have mitigated the issue and our team will continue to monitor the situation closely and keep you informed of any further developments."
+    - ts: "2026-05-21 08:49:29"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
