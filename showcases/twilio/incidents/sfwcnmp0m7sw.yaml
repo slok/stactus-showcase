@@ -1,6 +1,6 @@
 version: incident/v1
 id: sfwcnmp0m7sw
-name: SMS Delivery Delays and Failures between a Subset of Twilio Long Codes and Multiple Networks in France
+name: SMS Delivery Delays and Failures Between a Subset of Twilio Long Codes and Multiple Networks in France
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-05-21 19:44:20"
       description: Twilio customers may be experiencing SMS delivery delays and failures between a subset of Twilio Long Codes and multiple networks in France. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-05-21 20:47:30"
+      description: We have observed a recovery in SMS delivery between a subset of Twilio Long Codes and multiple networks in France and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.

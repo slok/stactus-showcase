@@ -1,0 +1,12 @@
+version: incident/v1
+id: zvlgr3k8lny0
+name: Elevated errors on Claude.ai
+impact: minor
+systems:
+    - rwppv331jlwc
+timeline:
+    - ts: "2026-05-21 20:24:32"
+      description: We are investigating elevated errors for users of Claude.ai, and will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-05-21 20:42:54"
+      description: We have applied a fix and success rates for requests on Claude.ai have returned to normal. We are monitoring closely to ensure no further issues.
