@@ -18,5 +18,5 @@ timeline:
     - ts: "2026-05-13 15:30:52"
       description: CodeQL impact has been mitigated. We are continuing to monitor for durable recovery.
     - ts: "2026-05-13 16:03:53"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 13, 2026, between 14:31 and 16:03 UTC, the Code Scanning service experienced processing delays and 12% of check runs took over 15 minutes to complete. The delays were caused by replication lag due to an internal database migration, resulting in insufficient worker capacity for our high rate of job enqueues. <br /><br />We mitigated the impact by scaling our processing workers by 34%. Code Scanning results returned to normal processing times after the mitigation was applied.  <br /><br />The capacity increases are permanent, and we are looking into more ways to decrease the load on our workers to help prevent this in the future.
       resolved: true

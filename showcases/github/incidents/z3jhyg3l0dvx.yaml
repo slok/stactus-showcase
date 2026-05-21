@@ -34,5 +34,5 @@ timeline:
       description: All services have fully recovered.
       investigating: true
     - ts: "2026-05-12 17:43:32"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 12, 2026, between 13:41 and 17:43 UTC, some services experienced delays in processing. For the Code Scanning service, 53% of check runs took over 15 minutes to complete. Additionally, notifications took an average of 22 minutes to be delivered and Slack integration webhooks took an average of 20 minutes to be delivered. The delays were caused by replication lag due to an internal database migration, resulting in insufficient worker capacity for our high rate of job enqueues. <br /><br />We mitigated the impact by scaling our processing workers to handle the increased load. All services returned to normal processing times after the mitigation was applied. <br /><br />We are working to create dedicated worker pools for some of our high usage shared queues to help prevent this in the future.
       resolved: true

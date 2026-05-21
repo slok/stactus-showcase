@@ -14,3 +14,6 @@ timeline:
         Our upstream provider has implemented a fix and all apps and Managed Postgres clusters are now reachable.
 
         For the time being, ingress traffic is being re-routed to other regions, so users around the Singapore area may experience higher latency.
+    - ts: "2026-05-21 19:59:02"
+      description: This incident has been resolved.
+      resolved: true
