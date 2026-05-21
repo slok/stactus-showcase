@@ -9,3 +9,8 @@ timeline:
       description: We are currently investigating elevated build failures affecting a subset of Vite projects. Affected deployments may be timing out. We’ve identified an issue and are working on the fix.
     - ts: "2026-05-21 19:55:08"
       description: The root cause has been identified and we are rolling out a mitigation.
+    - ts: "2026-05-21 21:20:56"
+      description: The mitigation was successfully rolled out, and builds are stable.
+    - ts: "2026-05-21 21:31:15"
+      description: This incident has been resolved.
+      resolved: true
