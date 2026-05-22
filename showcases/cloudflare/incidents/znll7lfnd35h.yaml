@@ -6,7 +6,21 @@ systems:
     - 3sq3s4d20ywk
 timeline:
     - ts: "2026-05-22 15:36:55"
-      description: Cloudflare is investigating issues with Cloudflare Dashboard and related APIs. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed.
+      description: "Cloudflare is investigating issues with Cloudflare Dashboard and related APIs. \n\nThese issues do not affect the serving of traffic via our CDN, security features or compute & storage services already deployed.\n\nCreation of new services or modification of existing services are impacted.\n\nCustomers using the Dashboard and Cloudflare APIs are impacted as requests might fail and/or errors may be displayed."
       investigating: true
     - ts: "2026-05-22 15:41:57"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-05-22 16:05:28"
+      description: We are continuing efforts to restore our APIs and the Cloudflare dashboard after identifying an issue with our entitlements service.
+    - ts: "2026-05-22 16:05:52"
+      description: We are continuing efforts to restore our APIs and the Cloudflare dashboard after identifying an issue with our entitlements service.
+    - ts: "2026-05-22 16:19:28"
+      description: We are working to safely roll back the affected service underpinning our API entitlements system. We expect recovery to be gradual as in-memory caches (not our CDN caches) associated with this service repopulate.
+    - ts: "2026-05-22 16:22:50"
+      description: |-
+        We have rolled back the affected service and are seeing impacted APIs and our dashboard begin to recover.
+        We expect recovery to be gradual as in-memory caches (not our CDN caches) associated with this service repopulate.
+        We will provide another update once error rates return to normal, nominal levels.
+    - ts: "2026-05-22 16:33:00"
+      description: Impacted APIs and the Cloudflare dashboard have fully recovered.
+      resolved: true

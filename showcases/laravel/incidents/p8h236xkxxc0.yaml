@@ -1,0 +1,26 @@
+version: incident/v1
+id: p8h236xkxxc0
+name: Edge services disruption effecting Environments, Domains and Object Storage
+impact: minor
+systems:
+    - k648vlw65tzw
+    - b3rrfdqndjm6
+    - fp1qb51hl6d9
+    - tdf3n0tt8f46
+    - p0gmgcfh7y0n
+    - 44l81fnqm59d
+    - v3rs8ldrdvpl
+    - kws9341143r3
+    - 7vhl6zlf6jnl
+    - hkscfv3r4jr4
+    - ttj82j4dt8ly
+timeline:
+    - ts: "2026-05-22 16:06:22"
+      description: |-
+        Our edge provider Cloudflare has an API outage effecting the creation of Environments, Custom Domains and Laravel Object Storage (R2 buckets). Existing Environments, Domains and R2 buckets are not effected. Editing Domains and R2 buckets may also fail.
+
+        See https://www.cloudflarestatus.com/incidents/znll7lfnd35h for updates from Cloudflare. We are monitoring the situation.
+    - ts: "2026-05-22 16:12:03"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-05-22 16:35:48"
+      description: Cloudflare has reported they have recovered, and we are monitoring our own logs and infrastructure.
