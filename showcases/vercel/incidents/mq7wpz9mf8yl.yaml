@@ -1,0 +1,10 @@
+version: incident/v1
+id: mq7wpz9mf8yl
+name: Build Failures for Some Next.js Deployments
+impact: none
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-05-22 17:11:29"
+      description: Between 16:10 and 16:43 UTC on May 22, some customers using Next.js above 16.2.0-canary.28 with Preview Comments enabled experienced build failures during deployments. The issue has been mitigated and follow-up deployments should no longer encounter this error.
+      resolved: true

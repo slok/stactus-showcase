@@ -1,0 +1,10 @@
+version: incident/v1
+id: mms05jc4jw5g
+name: Audit Log Delays
+impact: minor
+systems:
+    - 2469qcw8rvjp
+timeline:
+    - ts: "2026-05-22 16:55:36"
+      description: Cloudflare Audit Log processing is running behind, causing a delay in timely delivery of audit data. This impacts v2 audit logs. v1 is unaffected.
+      investigating: true
