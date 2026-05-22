@@ -1,0 +1,13 @@
+version: incident/v1
+id: 1bc8qlj1fb5t
+name: IPv6 outage for some machines in SIN
+impact: minor
+systems:
+    - b97pv9yxbzv7
+timeline:
+    - ts: "2026-05-22 13:32:11"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-05-22 13:34:34"
+      description: We are continuing to investigate this issue.
+      investigating: true
