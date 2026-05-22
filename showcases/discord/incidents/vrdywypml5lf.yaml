@@ -1,0 +1,9 @@
+version: incident/v1
+id: vrdywypml5lf
+name: API errors affecting message sends, session starts, and billing operations
+impact: major
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2026-05-22 01:55:44"
+      description: We're aware of an issue that is affecting a subset of users trying to interact with our services. We are working on  a fix to address the issues.
