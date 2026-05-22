@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-05-22 16:55:36"
       description: Cloudflare Audit Log processing is running behind, causing a delay in timely delivery of audit data. This impacts v2 audit logs. v1 is unaffected.
       investigating: true
+    - ts: "2026-05-22 17:33:24"
+      description: The cause of this issue has been identified and a fix is being implemented.
