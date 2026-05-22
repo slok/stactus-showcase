@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6g80s88xb3fy
+name: '[Atlas for Government] Data plane node logs unavailable for last 6 days'
+impact: minor
+systems:
+    - q57ng8brt2td
+timeline:
+    - ts: "2026-05-22 20:32:17"
+      description: The data plane node logs (mongod, audit logs, etc.) are unavailable since May 14th 4am UTC for clusters in Azure, GCP, and AWS gov-cloud regions. We have identified the root cause and are actively working on a fix.
+      investigating: true
