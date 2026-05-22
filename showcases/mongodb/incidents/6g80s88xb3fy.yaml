@@ -6,7 +6,7 @@ systems:
     - q57ng8brt2td
 timeline:
     - ts: "2026-05-22 20:32:17"
-      description: The data plane node logs (mongod, audit logs, etc.) are unavailable since May 14th 4am UTC for clusters in Azure, GCP, and AWS gov-cloud regions. We have identified the root cause and are actively working on a fix.
+      description: The data plane node logs (mongod, audit logs, etc.) are unavailable since May 14th 4am UTC for clusters in GCP and AWS gov-cloud regions. We have identified the root cause and are actively working on a fix.
       investigating: true
     - ts: "2026-05-22 21:17:42"
       description: We have applied the fix. The data plane node logs will start to be available to customers within the next 30 minutes.
