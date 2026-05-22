@@ -1,6 +1,6 @@
 version: incident/v1
 id: v48m5vk6jfpm
-name: MMS Delivery Delays from a Subset of Twilio Short Codes to T-Mobile United States
+name: MMS Delivery Delays From a Subset of Twilio Short Codes to T-Mobile United States
 impact: minor
 systems:
     - h0fl7prwfhvm
@@ -13,3 +13,5 @@ timeline:
       investigating: true
     - ts: "2026-05-22 18:12:02"
       description: Twilio customers may be experiencing MMS delivery delays from a subset of Twilio Short Codes to T-Mobile network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-05-22 19:12:43"
+      description: Twilio customers may be experiencing MMS delivery delays from a subset of Twilio Short Codes to T-Mobile network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.

@@ -1,0 +1,10 @@
+version: incident/v1
+id: znxrxl4ptjmh
+name: Worker Pages Post-Deployment Errors
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2026-05-22 19:10:31"
+      description: We are investigating an issue where some customers are experiencing 5xx errors after a Pages deployment completes.
+      investigating: true
