@@ -1,0 +1,11 @@
+version: incident/v1
+id: 5qfbf2w3ksqm
+name: Networking performance degraded in BOM and SJC
+impact: minor
+systems:
+    - k6fbt4mk0xv1
+    - 49qj4qjyzlzn
+timeline:
+    - ts: "2026-05-23 01:01:00"
+      description: We're currently looking into this issue.
+      investigating: true
