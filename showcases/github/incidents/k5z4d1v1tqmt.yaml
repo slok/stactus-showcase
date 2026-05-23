@@ -1,0 +1,12 @@
+version: incident/v1
+id: k5z4d1v1tqmt
+name: Intermittent errors with app installation token authentication
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-05-23 16:00:55"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-05-23 16:01:39"
+      description: We are seeing an increased rate of authentication failures for app installation tokens, affecting approximately 1% of tokens.  We are continuing to investigate.
+      investigating: true
