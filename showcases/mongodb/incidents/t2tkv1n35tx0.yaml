@@ -1,0 +1,11 @@
+version: incident/v1
+id: t2tkv1n35tx0
+name: Authentication failures when running search queries for some clusters
+impact: minor
+systems:
+    - 98lbmdz85yp0
+    - c17x9n8yy8pz
+timeline:
+    - ts: "2026-05-23 19:48:03"
+      description: We are investigating an issue impacting some clusters that causes search queries to fail with authentication failures.
+      investigating: true
