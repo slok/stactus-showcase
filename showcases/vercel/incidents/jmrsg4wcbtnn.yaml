@@ -8,3 +8,9 @@ timeline:
     - ts: "2026-05-23 10:43:45"
       description: We are currently investigating this issue.
       investigating: true
+    - ts: "2026-05-23 11:09:23"
+      description: |-
+        We've been observing increased failures of git operations with GitHub since around 06:00 UTC. Some deployments triggered by GitHub commits might have seen git-related errors in failed build logs.
+
+        CLI deployments are unaffected at this time.
+      investigating: true
