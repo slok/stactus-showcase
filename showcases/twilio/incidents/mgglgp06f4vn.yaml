@@ -1,0 +1,12 @@
+version: incident/v1
+id: mgglgp06f4vn
+name: SMS Delivery Delays from a Subset of Twilio Phone Numbers to TCell Tajikistan
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-05-23 05:17:55"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Phone Numbers to TCell network subscribers in Tajikistan. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-23 05:18:13"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Phone Numbers to TCell network subscribers in Tajikistan. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
