@@ -1,0 +1,9 @@
+version: incident/v1
+id: vtsx6yx86w32
+name: High Number of Errors Related to Email Channel
+impact: none
+systems: []
+timeline:
+    - ts: "2026-05-23 16:26:11"
+      description: Between 15:17 and 15:33 UTC, the Verify Email channel was degraded, and customers might have experienced increased latencies and errors. This may have resulted in duplicate emails to be sent to users. The issue has now been resolved.
+      resolved: true
