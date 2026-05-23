@@ -1,0 +1,17 @@
+version: incident/v1
+id: wjzswh39dsy8
+name: Cloudflare Zero Trust Gateway Issues — FedRAMP High
+impact: major
+systems:
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2026-05-23 19:25:46"
+      description: Cloudflare is investigating issues with the DNS resolver component within Gateway for customers in the FedRAMP High environment. Affected customers using WARP may experience DNS lookup failures and be unable to reach sites through Gateway. This issue is limited to the FedRAMP High environment and does not affect commercial Cloudflare Gateway customers. We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-05-23 19:29:27"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-05-23 19:35:28"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-05-23 19:37:55"
+      description: This incident has been resolved.
+      resolved: true

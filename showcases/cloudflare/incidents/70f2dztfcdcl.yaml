@@ -1,0 +1,10 @@
+version: incident/v1
+id: 70f2dztfcdcl
+name: API Errors
+impact: minor
+systems:
+    - g4tb35rs9yw7
+timeline:
+    - ts: "2026-05-23 19:41:04"
+      description: We are investigating elevated error rates for API requests. Customers may experience failures when making API calls.
+      investigating: true
