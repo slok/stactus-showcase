@@ -1,6 +1,6 @@
 version: incident/v1
 id: 8135930xg9yz
-name: Serverless Postgress Connectivity Issues
+name: Serverless Postgres Connectivity Issues In Singapore Region
 impact: minor
 systems:
     - d99mk5dgxnqc
@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-05-24 17:44:52"
       description: We are currently investigating this issue.
       investigating: true
+    - ts: "2026-05-24 20:56:09"
+      description: We've identified an issue with Serverless Postgres hostnames in the Singapore region and are working on a fix with our upstream provider.
