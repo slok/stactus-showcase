@@ -1,0 +1,10 @@
+version: incident/v1
+id: b9nwc6350127
+name: Twilio Accounts may not be able to Connect to Dialogflow VirtualAgent for Voice
+impact: minor
+systems:
+    - s91kksd3hqjp
+timeline:
+    - ts: "2026-05-25 01:30:50"
+      description: Our engineers have identified an issue with elevated latency conversing with Dialogflow CX agents via <Connect><VirtualAgent> and are currently investigating.  We expect to provide another update in 1h or as soon as more information becomes available.
+      investigating: true
