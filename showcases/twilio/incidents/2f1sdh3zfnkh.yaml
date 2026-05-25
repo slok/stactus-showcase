@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2f1sdh3zfnkh
+name: Voice Call Failures From Network Subscribers to a Subset of Twilio Singapore Phone Numbers
+impact: minor
+systems:
+    - 50pr269zqrwj
+timeline:
+    - ts: "2026-05-25 16:14:34"
+      description: Twilio customers may be experiencing voice call failures from network subscribers to a subset of Twilio Singapore Phone Numbers. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

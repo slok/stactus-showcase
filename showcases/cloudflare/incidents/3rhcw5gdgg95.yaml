@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3rhcw5gdgg95
+name: Slow build start time in Workers Builds
+impact: minor
+systems:
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2026-05-25 16:05:33"
+      description: |-
+        Workers Builds are experiencing increased queue times.
+        We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
