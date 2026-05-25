@@ -1,0 +1,15 @@
+version: incident/v1
+id: v3f1v15mldyn
+name: Service Degradation Affected Zoom Revenue Accelerator's Outbound Calls in Japan Region.
+impact: minor
+systems:
+    - g3x1x7ffg5b0
+timeline:
+    - ts: "2026-05-25 10:59:29"
+      description: |-
+        On 05/25/2026, Between 07:39 UTC and 10:19 UTC, Users may have experienced issues with Zoom Revenue Accelerator's Outbound Calls in Japan Region.
+
+        This incident has been resolved and the affected services have been restored.
+    - ts: "2026-05-25 11:12:03"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true

@@ -1,0 +1,38 @@
+version: incident/v1
+id: l756vzbl52tk
+name: Service Degradation Affecting Translations and Transcriptions of Zoom Rooms in Japan Region.
+impact: minor
+systems:
+    - xtgr15yv6hbn
+    - wd4r76v08631
+    - t3l1kpn3hwkh
+timeline:
+    - ts: "2026-05-25 10:51:19"
+      description: |-
+        We are currently investigating a service degradation affecting Translations and Transcriptions of Zoom Rooms in Japan region.
+
+        Translations and Transcriptions of Zoom Rooms in English, Korean and Japanese languages and a subset of users who have enabled Smart Name Tags feature in their Zoom Rooms accounts might be affected.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-05-25 10:52:28"
+      description: |-
+        We have successfully identified the root cause of a service degradation affecting Translations and Transcriptions of Zoom Rooms in Japan region.
+
+        Translations and Transcriptions of Zoom Rooms in English, Korean and Japanese languages and a subset of users who have enabled Smart Name Tags feature in their Zoom Rooms accounts might be affected.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+    - ts: "2026-05-25 11:21:14"
+      description: |-
+        We have successfully resolved a service degradation affecting Translations and Transcriptions of Zoom Rooms in Japan region.
+
+        Translations and Transcriptions of Zoom Rooms in English, Korean and Japanese languages and a subset of users who have enabled Smart Name Tags feature in their Zoom Rooms accounts were affected.
+
+        We will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-05-25 11:37:32"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true

@@ -1,0 +1,16 @@
+version: incident/v1
+id: 44pgyz54d48z
+name: Elevated error rates on Opus 4.7
+impact: none
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-05-25 10:32:38"
+      description: We had an elevated error rate on Opus 4.7 from 6:30 UTC until 10:30 UTC
+    - ts: "2026-05-25 10:39:30"
+      description: This incident has been resolved.
+      resolved: true
