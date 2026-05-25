@@ -1,0 +1,10 @@
+version: incident/v1
+id: xxfj4qsz4qk6
+name: Delays Loading Runtime Logs
+impact: minor
+systems:
+    - pps71v7cb51j
+timeline:
+    - ts: "2026-05-25 14:58:41"
+      description: We are currently investigating elevated latency in loading runtime logs (Vercel Functions) in live mode. Log Drains are unaffected at this time.
+      investigating: true
