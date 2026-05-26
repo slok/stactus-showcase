@@ -1,0 +1,17 @@
+version: incident/v1
+id: d877fy0zpl77
+name: Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.
+impact: minor
+systems:
+    - t2jk6yrqbp4j
+timeline:
+    - ts: "2026-05-26 18:22:24"
+      description: |-
+        We are currently investigating a service degradation with Giphy.
+
+        Users may be unable to search or send GIFs In Zoom Chat and Zoom In-Meeting Chat.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-05-26 18:25:34"
+      description: "We have successfully identified the root cause affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
