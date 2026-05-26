@@ -1,0 +1,13 @@
+version: incident/v1
+id: xflkh26pm7vv
+name: Disruption with some GitHub services
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-05-26 15:44:22"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-05-26 15:48:43"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
