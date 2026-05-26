@@ -1,6 +1,6 @@
 version: incident/v1
 id: c4b50jyx3ny7
-name: SMS Delivery Delays From a Subset of Twilio Short Codes to Brisanet Brazil
+name: SMS Delivery Delays from a Subset of Twilio Short Codes to Brisanet Brazil
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -15,3 +15,6 @@ timeline:
       description: We have observed a recovery in SMS delivery from a subset of Twilio Short Codes to Brisanet network subscribers in Brazil and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-05-26 05:18:56"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Short Codes to Brisanet network subscribers in Brazil and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-05-26 09:21:51"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Short Codes to Brisanet network subscribers in Brazil is operating normally.
+      resolved: true
