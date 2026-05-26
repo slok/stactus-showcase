@@ -1,0 +1,16 @@
+version: incident/v1
+id: vj2tstpwyx4n
+name: High Error Rate for Programmable Video
+impact: minor
+systems:
+    - ys1jhy2ys04z
+    - q015c7mrst1s
+    - 0xfc03jgk5g4
+    - by1b8ylwwgs6
+timeline:
+    - ts: "2026-05-26 14:18:33"
+      description: Our engineers have identified the issue high where customer might experience timeouts when connecting to Video API and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-05-26 14:27:29"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-05-26 14:32:35"
+      description: Our engineers have identified the issue high where customer might experience timeouts when connecting to Video API and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.

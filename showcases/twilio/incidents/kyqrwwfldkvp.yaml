@@ -1,0 +1,9 @@
+version: incident/v1
+id: kyqrwwfldkvp
+name: Verify Endpoint Receiving Back Intermittent 502 Bd Gateway
+impact: minor
+systems:
+    - whldrk77jnm4
+timeline:
+    - ts: "2026-05-26 14:35:04"
+      description: Our engineers have identified the issue with Twilio Verify endpoints timeout and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
