@@ -1,0 +1,13 @@
+version: incident/v1
+id: rcr92ddx8z8k
+name: AI Gateway Prompts not scanned for DLP
+impact: minor
+systems:
+    - 0311l882p558
+timeline:
+    - ts: "2026-05-26 19:31:31"
+      description: Cloudflare is investigating issues about not correctly scanning certain AI gateway prompts for DLP
+      investigating: true
+    - ts: "2026-05-26 19:52:50"
+      description: This incident has been resolved.
+      resolved: true

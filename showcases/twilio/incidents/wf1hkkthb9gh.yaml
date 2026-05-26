@@ -1,0 +1,12 @@
+version: incident/v1
+id: wf1hkkthb9gh
+name: SMS Delivery Delays from Twilio Phone Numbers to Megafon Russia
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-05-26 20:05:12"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Phone Numbers to Megafon network subscribers in Russia. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-26 20:12:07"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Phone Numbers to Megafon network subscribers in Russia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
