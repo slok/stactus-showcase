@@ -1,0 +1,11 @@
+version: incident/v1
+id: vyxdttndzsz3
+name: Capacity issues in EWR region
+impact: none
+systems:
+    - 7dkv4qp80325
+timeline:
+    - ts: "2026-05-26 17:34:21"
+      description: |-
+        The EWR region is low on available host capacity. Creating new machines, or starting currently stopped/suspended machines, may fail at this time.
+        We are working on provisioning new host capacity in the region. Please consider using nearby regions such as ord if possible.
