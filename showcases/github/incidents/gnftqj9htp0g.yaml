@@ -1,0 +1,30 @@
+version: incident/v1
+id: gnftqj9htp0g
+name: Incident with Actions and Pages
+impact: critical
+systems:
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2026-05-26 10:57:14"
+      description: We are investigating reports of degraded performance for Actions and Pages
+      investigating: true
+    - ts: "2026-05-26 11:19:04"
+      description: Actions is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-05-26 11:53:31"
+      description: We are investigating authentication issues leading to failure in starting Actions runs and downloading actions. At this time the majority of Actions runs is impacted.
+      investigating: true
+    - ts: "2026-05-26 12:17:55"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-05-26 12:37:29"
+      description: We have identified the cause of the authentication issues affecting GitHub Actions and are actively working on mitigation
+      investigating: true
+    - ts: "2026-05-26 13:00:45"
+      description: The degradation affecting Actions and Pages has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-05-26 13:01:46"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-05-26 13:18:48"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
