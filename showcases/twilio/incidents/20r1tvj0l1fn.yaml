@@ -1,0 +1,12 @@
+version: incident/v1
+id: 20r1tvj0l1fn
+name: Twilio Accounts May Not Be Able to Add a Participant to a Conference Using the Create Participant API, or Modify the State of a Conference Participant (Hold, Unhold, Mute, Unmute) via the Participants API
+impact: minor
+systems:
+    - l2p2s96tdsf4
+    - 2lchkffbp2k9
+    - vjcnzg66l66t
+timeline:
+    - ts: "2026-05-27 21:22:36"
+      description: We are investigating an issue with Twilio Accounts that may not be able to add a participant to a Conference using the Create Participant API, or modify the state of a Conference Participant (Hold, Unhold, Mute, Unmute) via the Participants API. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
