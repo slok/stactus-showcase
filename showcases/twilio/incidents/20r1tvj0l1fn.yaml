@@ -6,7 +6,10 @@ systems:
     - l2p2s96tdsf4
     - 2lchkffbp2k9
     - vjcnzg66l66t
+    - h056tfqk3q97
 timeline:
     - ts: "2026-05-27 21:22:36"
       description: We are investigating an issue with Twilio Accounts that may not be able to add a participant to a Conference using the Create Participant API, or modify the state of a Conference Participant (Hold, Unhold, Mute, Unmute) via the Participants API. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-05-27 22:06:04"
+      description: We also determined that this issue is also impacting Flex. Our engineers have implemented a fix and are monitoring system performance. We will provide another update in 2 hours or as soon as more information becomes available.

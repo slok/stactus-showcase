@@ -8,3 +8,14 @@ timeline:
     - ts: "2026-05-27 20:22:53"
       description: We’re currently investigating an issue affecting Prometheus datasources causing 500 internal or Unexpected errors. Our team is actively working to identify the cause. Thank you for your patience.
       investigating: true
+    - ts: "2026-05-27 21:36:26"
+      description: "We continue to investigate an issue affecting Prometheus datasources causing intermittent timeouts and unexpected errors, primarily impacting alert rule evaluations. \n\nOur team is actively working to identify the cause. Thank you for your patience."
+      investigating: true
+    - ts: "2026-05-27 21:57:17"
+      description: |-
+        We are seeing recovery across affected Prometheus datasources, and error rates have significantly improved.
+
+        The service is recovering without any required customer action, and our team continues to monitor stability while we investigate the underlying cause.
+
+        We’ll provide another update as we learn more.
+      investigating: true
