@@ -1,0 +1,10 @@
+version: incident/v1
+id: m53vhwszn7hb
+name: Cloudflare Analytics availability degraded
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-05-27 11:14:20"
+      description: Cloudflare Analytics is degraded and customers might experience elevated rate of errors, and or increased latency while reading data via Cloudflare API.
+      investigating: true

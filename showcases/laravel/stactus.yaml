@@ -26,6 +26,8 @@ systems:
       name: AWS RDS Postgres / AWS RDS Postgres - US East (Ohio)
     - id: b3rrfdqndjm6
       name: App compute / App compute - US East (Ohio)
+    - id: 2xlsw3n1x9qn
+      name: AWS ElastiCache / AWS ElastiCache - US East (Ohio)
     - id: 6nzkkdm3lz7g
       name: Billing
     - id: q8chffw359pz
@@ -50,6 +52,8 @@ systems:
       name: AWS RDS Postgres / AWS RDS Postgres - US East (Virginia)
     - id: fp1qb51hl6d9
       name: App compute / App compute - US East (Virginia)
+    - id: g0fxjr0v5g11
+      name: AWS ElastiCache / AWS ElastiCache - US East (Virginia)
     - id: jmw0wwg6553f
       name: Edge Network
       description: "Laravel Cloud has partnered with Cloudflare to provide edge networking.\r\n\r\nCloudflare’s edge networking is a global network that boosts security, speed, and reliability. \r\nWith 300+ data centers, it reduces latency, blocks DDoS attacks, caches content, and optimizes traffic."
@@ -75,6 +79,8 @@ systems:
       name: AWS RDS Postgres / AWS RDS Postgres - Canada (Central)
     - id: tdf3n0tt8f46
       name: App compute / App compute - Canada (Central)
+    - id: bvlcngw4lz0n
+      name: AWS ElastiCache / AWS ElastiCache - Canada (Central)
     - id: mf51szgphyxp
       name: Build Service / Build Service - EU Central (Frankfurt)
     - id: nfc2yzmxzw4s
@@ -99,6 +105,8 @@ systems:
       name: AWS RDS Postgres / AWS RDS Postgres - EU Central (Frankfurt)
     - id: p0gmgcfh7y0n
       name: App compute / App compute - EU Central (Frankfurt)
+    - id: g65xxgw7945n
+      name: AWS ElastiCache / AWS ElastiCache - EU Central (Frankfurt)
     - id: 44l81fnqm59d
       name: Laravel Object Storage
       description: Laravel Object Storage is offered in partnership with Cloudflare R2.
@@ -124,6 +132,8 @@ systems:
       name: AWS RDS Postgres / AWS RDS Postgres - EU West (Ireland)
     - id: v3rs8ldrdvpl
       name: App compute / App compute - EU West (Ireland)
+    - id: jzvkdqfdzs8p
+      name: AWS ElastiCache / AWS ElastiCache - EU West (Ireland)
     - id: j7npqf9nr7qp
       name: Build Service / Build Service - EU West (London)
     - id: s3zm1t588bky
@@ -146,6 +156,8 @@ systems:
       name: AWS RDS Postgres / AWS RDS Postgres - EU West (London)
     - id: kws9341143r3
       name: App compute / App compute - EU West (London)
+    - id: 33r6q5llm7lh
+      name: AWS ElastiCache / AWS ElastiCache - EU West (London)
     - id: 359qq1ltvtft
       name: Build Service / Build Service - Asia Pacific (Singapore)
     - id: 0d75ngbkyzz2
@@ -166,6 +178,8 @@ systems:
       name: AWS RDS Postgres / AWS RDS Postgres - Asia Pacific (Singapore)
     - id: 7vhl6zlf6jnl
       name: App compute / App compute - Asia Pacific (Singapore)
+    - id: sbs5hvf1tpv9
+      name: AWS ElastiCache / AWS ElastiCache - Asia Pacific (Singapore)
     - id: vcn5j3zqb52y
       name: Laravel Valkey / Laravel Valkey - Asia Pacific (Sydney)
     - id: ytr4j2lk4pxt
@@ -186,6 +200,8 @@ systems:
       name: AWS RDS Postgres / AWS RDS Postgres - Asia Pacific (Sydney)
     - id: hkscfv3r4jr4
       name: App compute / App compute - Asia Pacific (Sydney)
+    - id: 1rc14pvpjc08
+      name: AWS ElastiCache / AWS ElastiCache - Asia Pacific (Sydney)
     - id: 7pp548h9j9k6
       name: Build Service / Build Service - Asia Pacific (Tokyo)
     - id: sr7vs6x5c6cf
@@ -206,3 +222,5 @@ systems:
       name: AWS RDS Postgres / Laravel RDS Postgres - Asia Pacific (Tokyo)
     - id: 5b6h2jjw9drd
       name: Redis by Upstash / Redis by Upstash - Asia Pacific (Tokyo)
+    - id: n9jvzv37311c
+      name: AWS ElastiCache / AWS ElastiCache - Asia Pacific (Tokyo)
