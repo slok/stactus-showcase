@@ -16,3 +16,21 @@ timeline:
 
         Another update will be provided soon.
       investigating: true
+    - ts: "2026-05-27 08:46:05"
+      description: |-
+        We are continuing to investigate the issue affecting the Laravel Cloud Control Panel. We apologise for the disruption this is causing and appreciate your patience while we work to resolve it.
+
+        Your applications and workloads are completely unaffected. Deployments, scheduled jobs, queues, and all running services are operating normally. If you have Push to Deploy configured, deployments will continue to process as usual when your target branch is updated.
+
+        For those who need to manage resources in the meantime, the Laravel Cloud CLI and API remain fully available.
+
+        This issue is isolated entirely to the Control Panel UI. We will provide another update shortly.
+      investigating: true
+    - ts: "2026-05-27 09:06:27"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-05-27 09:59:11"
+      description: |-
+        This incident has been resolved.
+
+        Throughout this incident, customer applications, deployments, the Cloud CLI, and the API remained fully operational. The disruption was isolated entirely to the Cloud Control Panel.
+      resolved: true
