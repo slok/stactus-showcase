@@ -1,0 +1,26 @@
+version: incident/v1
+id: 094fjr4jhcjr
+name: Service Degradation Affecting Zoom Contact Center’s AI Companion, Zoom Virtual Agent's Chat and Voice AI Engagements.
+impact: minor
+systems:
+    - pr3j87tpjmy9
+    - db6bc5vbbb4f
+    - jmnt9sm0q4b2
+timeline:
+    - ts: "2026-05-27 15:33:32"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Contact Center’s AI Companion, Zoom Virtual Agent’s Chat and Voice AI Engagements.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-05-27 15:35:53"
+      description: |-
+        We have successfully identified the root cause of a service degradation affecting Zoom Contact Center’s AI Companion, Zoom Virtual Agent’s Chat and Voice AI Engagements.
+
+        Our team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.
+
+        Thank you for your patience.
+    - ts: "2026-05-27 16:15:26"
+      description: "A service degradation affecting Zoom Contact Center’s AI Companion, Zoom Virtual Agent’s Chat and Voice AI Engagements has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
