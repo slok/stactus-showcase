@@ -1,0 +1,16 @@
+version: incident/v1
+id: rqs9fn6trp82
+name: Elevated Errors on Vercel Dashboard (Project Overview Page)
+impact: minor
+systems:
+    - fk66q26xp7hh
+timeline:
+    - ts: "2026-05-27 04:50:59"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-05-27 05:02:13"
+      description: |-
+        This incident has been resolved.
+
+        We've rolled back a bad release to resolve the issue. Customers were unable to access the project overview page between 04:13 and 05:00 AM UTC.
+      resolved: true
