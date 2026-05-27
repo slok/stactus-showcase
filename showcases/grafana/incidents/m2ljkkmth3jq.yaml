@@ -1,0 +1,10 @@
+version: incident/v1
+id: m2ljkkmth3jq
+name: Prometheus Datasource Errors/Outage in prod-us-east-0
+impact: major
+systems:
+    - 5270kl9kd6l2
+timeline:
+    - ts: "2026-05-27 20:22:53"
+      description: We’re currently investigating an issue affecting Prometheus datasources causing 500 internal or Unexpected errors. Our team is actively working to identify the cause. Thank you for your patience.
+      investigating: true
