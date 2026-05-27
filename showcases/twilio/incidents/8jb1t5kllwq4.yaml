@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8jb1t5kllwq4
+name: Errors With Flex Agent Copilot
+impact: minor
+systems:
+    - vw9w2zyv9nk5
+timeline:
+    - ts: "2026-05-27 17:40:42"
+      description: Our engineers have identified the issue where we are seeing errors with Flex Agent Copilot generating Conversation Wrap Up Notes. This issue is due to upstream performance degradation with one of our vendors. Our team is actively monitoring the situation alongside their team to ensure services return to normal as quickly as possible. We expect to provide another update in 1 hour or as soon as more information becomes available.

@@ -1,0 +1,14 @@
+version: incident/v1
+id: y20dsh0mz4rb
+name: Delays in Conference Insights Pipeline Voice Insights
+impact: minor
+systems:
+    - yf5px6tdl6yt
+timeline:
+    - ts: "2026-05-27 17:00:42"
+      description: Our engineers have identified Delays in Conference Insights Pipeline Voice Insights and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-05-27 17:20:03"
+      description: Conference Insights Pipeline Voice Insights is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-05-27 17:44:09"
+      description: Conference Insights Pipeline Voice Insights issue has been resolved and is operating normally at this time.
+      resolved: true
