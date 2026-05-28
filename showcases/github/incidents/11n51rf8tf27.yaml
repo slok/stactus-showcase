@@ -1,0 +1,9 @@
+version: incident/v1
+id: 11n51rf8tf27
+name: Elevated error rates across multiple services
+impact: none
+systems: []
+timeline:
+    - ts: "2026-05-28 23:10:36"
+      description: "On May 28, 2026, between 19:07 UTC and 19:16 UTC, multiple GitHub services experienced elevated error rates. This was due to a change that was partially deployed to an authentication service, causing errors for dependent services including the web experience, REST API, Git operations, and GitHub Actions. At peak impact, 10% of GitHub Actions runs failed to queue or encountered errors while downloading actions. We mitigated the incident by rolling back the change. \n\nWe are expanding test coverage and improving our deployment validation process to prevent recurrence of this issue in the future."
+      resolved: true
