@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-05-28 21:08:27"
       description: We are currently investigating increased latency in SJC.
       investigating: true
+    - ts: "2026-05-28 21:56:23"
+      description: We have implemented a mitigation for the issue and are monitoring for stability. This issue happened on the edge hosts in SJC, which means that any traffic near/around SJC would have been affected during the incident. We will provide a more detailed write-up on our Infra Log (https://fly.io/infra-log/) later once we have a better picture of the entire incident.

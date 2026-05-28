@@ -1,0 +1,13 @@
+version: incident/v1
+id: ydcfcmqzgvf7
+name: Metrics may fail to send to DataDog Gov integrations
+impact: minor
+systems:
+    - q57ng8brt2td
+timeline:
+    - ts: "2026-05-28 22:02:24"
+      description: |-
+        Starting approximately 17:00 UTC, some Atlas for Government users may be experiencing gaps in metrics sent to their DataDog Gov integration.
+
+        We are investigating this issue.
+      investigating: true
