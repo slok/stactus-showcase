@@ -1,7 +1,7 @@
 version: incident/v1
 id: rhqcgg8lg6mm
 name: Disruption with Copilot Cloud Agent and Copilot Code Review
-impact: minor
+impact: critical
 systems:
     - pjmpxvq2cmr2
 timeline:
@@ -14,3 +14,9 @@ timeline:
     - ts: "2026-05-28 19:40:54"
       description: We are investigating errors with Copilot requests using OpenAI models
       investigating: true
+    - ts: "2026-05-28 20:06:53"
+      description: Open AI models are currently unavailable. We are shifting requests to other models to reduce impact.
+      investigating: true
+    - ts: "2026-05-28 20:41:58"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
