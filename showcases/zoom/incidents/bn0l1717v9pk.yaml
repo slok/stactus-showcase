@@ -1,0 +1,32 @@
+version: incident/v1
+id: bn0l1717v9pk
+name: Service Degradation Affecting Zoom Support Website
+impact: minor
+systems:
+    - yvbblg5f0rdt
+    - 9mhsm7sbmhnr
+timeline:
+    - ts: "2026-05-28 15:20:46"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Support Website.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        If you need any assistance, please visit our website at zoom.com and use the chat to reach our support team. Our phone agents are also available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-05-28 16:02:47"
+      description: |-
+        We have successfully identified the root cause of a service degradation affecting Zoom Support Website.
+
+        Our team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.
+
+        If you need any assistance, please visit our website at zoom.com and use the chat to reach our support team. Our phone agents are also available.
+
+        Thank you for your patience.
+    - ts: "2026-05-28 16:15:15"
+      description: |-
+        A service degradation affecting Zoom Support Website has been successfully resolved.
+
+        Our team will continue to monitor the situation closely and keep you informed of any further developments.
