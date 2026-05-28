@@ -3,6 +3,7 @@ id: nzv6xbhnkzs2
 name: SMS and MMS Delivery Delays from Twilio to Verizon United States
 impact: minor
 systems:
+    - llqd4rmn8k8y
     - h0fl7prwfhvm
     - 5cv0b6y86d2f
     - tvjwfvczkf46
@@ -24,4 +25,6 @@ timeline:
     - ts: "2026-05-28 08:37:49"
       description: We have observed a recovery in SMS delivery however, customers may still experience MMS delivery delays when sending from Twilio phone numbers to Verizon subscribers in the United States. Our engineering team has identified the root cause and is actively working on a resolution. We will provide another update in 8 hours, or sooner if new information becomes available.
     - ts: "2026-05-28 09:47:46"
+      description: We have observed a recovery in SMS delivery however, customers may still experience MMS delivery delays when sending from Twilio phone numbers to Verizon subscribers in the United States. Our engineering team has identified the root cause and is actively working on a resolution. We will provide another update in 8 hours, or sooner if new information becomes available.
+    - ts: "2026-05-28 20:56:25"
       description: We have observed a recovery in SMS delivery however, customers may still experience MMS delivery delays when sending from Twilio phone numbers to Verizon subscribers in the United States. Our engineering team has identified the root cause and is actively working on a resolution. We will provide another update in 8 hours, or sooner if new information becomes available.
