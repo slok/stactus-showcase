@@ -3,7 +3,7 @@ name: Grafana Cloud
 url: https://status.grafana.com
 systems:
     - id: m0qkgdzwyr6l
-      name: Website & Support / Grafana.com
+      name: Website and Support / Grafana.com
     - id: 3m9g8wn04c52
       name: Profiles / AWS Australia - prod-au-southeast-1
     - id: wfc1hb7m917l
@@ -53,7 +53,7 @@ systems:
     - id: 84fnwytt05df
       name: Private Datasource Connect (PDC) / AWS Brazil - prod-sa-east-1
     - id: 8s9ngcb02t90
-      name: Website & Support / Support Tickets
+      name: Website and Support / Support Tickets
     - id: m79yjv169r06
       name: Performance and Load Testing / Cloud Test Runs
     - id: 6njc1l458r8s
@@ -673,8 +673,6 @@ systems:
       name: 'Alerting and SLO / AWS US West - prod-us-west-0: Alertmanager and Rules Configuration API'
     - id: vy7fxf1zsfkl
       name: 'Traces / AWS US West - prod-us-west-0: Metrics Generator'
-    - id: qwwgh8smkncf
-      name: AWS Australia - prod-ap-southeast-2
     - id: 5q4p7yvyhvwb
       name: Grafana Assistant / AWS Ireland - prod-eu-west-6
     - id: vc52wtjdh6db
@@ -685,8 +683,6 @@ systems:
       name: 'Alerting and SLO / AWS US West - prod-us-west-0: Alertmanager'
     - id: 2ryg39v5zpqj
       name: 'Traces / Azure Germany - prod-eu-west-1: Querying'
-    - id: yk84sd01ybdm
-      name: AWS Brazil - prod-sa-east-1
     - id: 4sk1vxpqgb7s
       name: Grafana / Federal Cloud - AWS US Gov West
     - id: 5xlh6b4dtf2t
@@ -697,8 +693,6 @@ systems:
       name: 'Synthetic Monitoring / GCP Belgium - prod-eu-west-0: Public Probes'
     - id: fqw5kyd5qknh
       name: 'Traces / Azure Germany - prod-eu-west-1: Ingestion'
-    - id: gpb0cqy8bv8j
-      name: AWS Canada - prod-ca-east-0
     - id: vcm0cw90htxx
       name: Alerting and SLO / AWS Ireland - prod-eu-west-6
     - id: d2vdtkjjdzjy
@@ -707,8 +701,6 @@ systems:
       name: 'Synthetic Monitoring / GCP Brazil - prod-sa-east-0: API'
     - id: yhz2gzdqcw4k
       name: 'Traces / Azure Germany - prod-eu-west-1: Metrics Generator'
-    - id: 3g2hwc7qlftk
-      name: AWS Germany - prod-eu-west-2
     - id: bvbh2cdx84ww
       name: Alerting and SLO / AWS Switzerland - prod-eu-central-0
     - id: 65sdf5lsflql
@@ -719,8 +711,6 @@ systems:
       name: 'Metrics / GCP Brazil - prod-sa-east-0: Querying'
     - id: czpt94dvn18t
       name: 'Synthetic Monitoring / GCP Brazil - prod-sa-east-0: Public Probes'
-    - id: 3270rcqlh5g8
-      name: AWS India - prod-ap-south-1
     - id: cm40jcy1klhh
       name: 'Traces / Azure Netherlands - prod-eu-west-3: Ingestion'
     - id: ly7gqcr2bm3m
@@ -729,8 +719,6 @@ systems:
       name: 'Alerting and SLO / Azure Netherlands - prod-eu-west-3: Alertmanager and Rules Configuration API'
     - id: 1bt7lpllyc97
       name: 'Synthetic Monitoring / GCP India - prod-ap-south-0: API'
-    - id: q8frv03bzq56
-      name: AWS Germany - prod-eu-west-4
     - id: lr4wf5bv4lk1
       name: 'Metrics / GCP India - prod-ap-south-0: Querying'
     - id: vcfc8qc5zj9n
@@ -739,8 +727,6 @@ systems:
       name: 'Synthetic Monitoring / GCP India - prod-ap-south-0: Public Probes'
     - id: gcwgxxhzztdh
       name: 'Traces / Azure Netherlands - prod-eu-west-3: Metrics Generator'
-    - id: 7jl93tsztst1
-      name: AWS Japan - prod-ap-northeast-0
     - id: 23wmy7zb3076
       name: 'Alerting and SLO / Azure US Central - us-central2: Rule Evaluation'
     - id: b74p2737fm3r
@@ -749,8 +735,6 @@ systems:
       name: 'Traces / Azure US Central - us-central2: Querying'
     - id: 4whxks101kq7
       name: 'Synthetic Monitoring / GCP Singapore - prod-ap-southeast-0: API'
-    - id: hdlsgt9hd5bj
-      name: AWS UAE - prod-me-central-1
     - id: tpvdjr2xyb7x
       name: 'Alerting and SLO / Azure US Central - us-central2: Alertmanager and Rules Configuration API'
     - id: szkwf5rlkrxq
@@ -759,8 +743,6 @@ systems:
       name: 'Traces / Azure US Central - us-central2: Ingestion'
     - id: fh680ftdss7w
       name: 'Synthetic Monitoring / GCP Singapore - prod-ap-southeast-0: Public Probes'
-    - id: 9ct3g98t7ldf
-      name: AWS Singapore - prod-ap-southeast-1
     - id: y5ymzvw0c99f
       name: 'Alerting and SLO / Azure US Central - us-central2: Alertmanager'
     - id: 24jq47r3m6gj
@@ -769,16 +751,12 @@ systems:
       name: 'Synthetic Monitoring / GCP UK - prod-gb-south-0: API'
     - id: 3lqbsd6gbn1r
       name: 'Traces / Azure US Central - us-central2: Metrics Generator'
-    - id: 24jd5vf7wydy
-      name: AWS Sweden - prod-eu-north-0
     - id: 5dvwqvtb0t84
       name: 'Metrics / GCP UK - prod-gb-south-0: Querying'
     - id: bkkn21bgy3c4
       name: 'Alerting and SLO / GCP Australia - prod-au-southeast-0: Rule Evaluation'
     - id: tcskx9mfsz1c
       name: 'Synthetic Monitoring / GCP UK - prod-gb-south-0: Public Probes'
-    - id: yt87tyqz5q9l
-      name: AWS US East - prod-us-east-0
     - id: xjv0q11xqq2b
       name: 'Traces / Azure US Central - us-central7: Ingestion'
     - id: yx5996c1lfnj
@@ -789,8 +767,6 @@ systems:
       name: 'Traces / GCP Australia - prod-au-southeast-0: Querying'
     - id: 3q70xrw38s7y
       name: 'Alerting and SLO / GCP Australia - prod-au-southeast-0: Alertmanager and Rules Configuration API'
-    - id: mg1slxgz8znp
-      name: AWS US East - prod-us-east-2
     - id: jhc34sjt42wd
       name: 'Metrics / GCP US Central - prod-us-central-0: Querying'
     - id: 7p6gpdprypb9
@@ -799,8 +775,6 @@ systems:
       name: 'Traces / GCP Australia - prod-au-southeast-0: Ingestion'
     - id: p932bbpwynd4
       name: 'Alerting and SLO / GCP Australia - prod-au-southeast-0: Alertmanager'
-    - id: xvwm5l82qb58
-      name: AWS US West - prod-us-west-0
     - id: 1tt4gx4t4q87
       name: 'Metrics / GCP US Central - prod-us-central-0: Ingestion'
     - id: lykc1jl88zz3
@@ -810,8 +784,6 @@ systems:
       name: 'Traces / GCP Australia - prod-au-southeast-0: Metrics Generator'
     - id: lkslwcgxp26b
       name: 'Synthetic Monitoring / AWS UAE - prod-me-central-1: API'
-    - id: k4kths6bgl74
-      name: Azure Netherlands - prod-eu-west-3
     - id: jw3c386xwr40
       name: 'Alerting and SLO / GCP Belgium - prod-eu-west-0: Alertmanager and Rules Configuration API'
       description: The API gateway that allows programmatic access to managing configuration of rules and Alertmanager configuration.
@@ -821,8 +793,6 @@ systems:
       name: 'Synthetic Monitoring / AWS UAE - prod-me-central-1: Public Probes'
     - id: cp7lzhn0jrgw
       name: 'Metrics / GCP US Central - prod-us-central-5: Querying'
-    - id: nnp25r4p5lbp
-      name: Azure US Central - us-central2
     - id: tgt3hljzszy8
       name: 'Alerting and SLO / GCP Belgium - prod-eu-west-0: Alertmanager'
       description: Prometheus-based Alertmanager responsible for reception of alerts and notification delivery.
@@ -832,16 +802,12 @@ systems:
       name: 'Synthetic Monitoring / AWS UK - prod-gb-south-1: API'
     - id: l778xg16mls4
       name: 'Metrics / GCP US Central - prod-us-central-5: Ingestion'
-    - id: 9bp53m2t714y
-      name: Azure US Central - us-central2
     - id: v0xq65xvldk8
       name: 'Alerting and SLO / GCP Brazil - prod-sa-east-0: Rule Evaluation'
     - id: rzzvpv70t4nj
       name: 'Traces / GCP Belgium - prod-eu-west-0: Metrics Generator'
     - id: kxgy5bvsj4c8
       name: 'Synthetic Monitoring / AWS UK - prod-gb-south-1: Public Probes'
-    - id: f91qvn8yjc46
-      name: GCP Australia - prod-au-southeast-0
     - id: dw1zzwblgd66
       name: 'Metrics / GCS US - cortex-prod-04: Ingestion'
       description: Prod US Central
@@ -851,8 +817,6 @@ systems:
       name: 'Traces / GCP Brazil - prod-sa-east-0: Querying'
     - id: 1k94p80bbj1c
       name: 'Synthetic Monitoring / AWS Switzerland - prod-eu-central-0: API'
-    - id: 5gtrkg95mbpk
-      name: GCP Belgium - prod-eu-west-0
     - id: wg8xtz9dq3j4
       name: 'Metrics / GCS US - cortex-prod-04: Querying'
     - id: tfcmnh8pbnh9
@@ -861,8 +825,6 @@ systems:
       name: 'Traces / GCP Brazil - prod-sa-east-0: Ingestion'
     - id: jwb1v6jvz2j7
       name: 'Synthetic Monitoring / AWS Switzerland - prod-eu-central-0: Public Probes'
-    - id: 6bbthn4jb441
-      name: GCP Brazil - prod-sa-east-0
     - id: 90x90mfp0tj5
       name: Metrics / Federal Cloud - AWS US Gov West
     - id: 42bjhxc1h49y
@@ -871,8 +833,6 @@ systems:
       name: 'Traces / GCP Brazil - prod-sa-east-0: Metrics Generator'
     - id: 7wmzc5vhxl2l
       name: 'Synthetic Monitoring / AWS Indonesia - prod-ap-southeast-2: API'
-    - id: 4qws4j0k51ky
-      name: GCP India - prod-ap-south-0
     - id: slqwr2vp7rrn
       name: 'Metrics / Azure US Central - prod-us-central-7: Querying'
     - id: zm76x8lqb4rk
@@ -881,58 +841,42 @@ systems:
       name: 'Traces / GCP India - prod-ap-south-0: Querying'
     - id: mjrzgsddgcb6
       name: 'Synthetic Monitoring / AWS Indonesia - prod-ap-southeast-2: Public Probes'
-    - id: dgjcx39p16sl
-      name: GCP Singapore - prod-ap-southeast-0
     - id: 7xgglzcpb274
       name: 'Metrics / Azure US Central - prod-us-central-7: Ingestion'
     - id: hd6qyr8hc0yt
       name: 'Alerting and SLO / GCP India - prod-ap-south-0: Alertmanager'
     - id: jn3knsdtkxky
       name: 'Traces / GCP India - prod-ap-south-0: Ingestion'
-    - id: 6kqxbchc8zfp
-      name: GCP UK - prod-gb-south-0
     - id: 6mr3pt5kmwz2
       name: 'Synthetic Monitoring / AWS Ireland - prod-eu-west-6: API'
     - id: fjr5y6v3qvx4
       name: 'Alerting and SLO / GCP Singapore - prod-ap-southeast-0: Rule Evaluation'
     - id: 4drvmsz6yhjj
       name: 'Traces / GCP India - prod-ap-south-0: Metrics Generator'
-    - id: wl6tknkr13qq
-      name: GCP US Central - prod-us-central-0
     - id: zxy59lwk24qj
       name: 'Synthetic Monitoring / AWS Ireland - prod-eu-west-6: Public Probes'
     - id: dx4hj364b8sj
       name: 'Alerting and SLO / GCP Singapore - prod-ap-southeast-0: Alertmanager and Rules Configuration API'
     - id: f31l4xz41q8t
       name: 'Traces / GCP Singapore - prod-ap-southeast-0: Querying'
-    - id: lhx3rldx24z5
-      name: GCP US Central - prod-us-central-3
-    - id: 1bw8lyxrq0d0
-      name: 'AWS Australia - prod-ap-southeast-2: Querying'
     - id: 5shpb4hb9xd1
       name: 'Alerting and SLO / GCP Singapore - prod-ap-southeast-0: Alertmanager'
     - id: 9mzvpj5nz0k1
       name: 'Traces / GCP Singapore - prod-ap-southeast-0: Ingestion'
     - id: 7vr04qdqjtn6
       name: 'Alerting and SLO / GCP UK - prod-gb-south-0: Rule Evaluation'
-    - id: yr9hl8zby0nz
-      name: 'AWS Australia - prod-ap-southeast-2: Ingestion'
     - id: x1by88b7wf03
       name: 'Traces / GCP Singapore - prod-ap-southeast-0: Metrics Generator'
     - id: fvdlwnkvrd5y
       name: 'Synthetic Monitoring / GCP Saudi Arabia - prod-me-central-0: API'
     - id: 062dycqds9gm
       name: 'Alerting and SLO / GCP UK - prod-gb-south-0: Alertmanager and Rules Configuration API'
-    - id: snn02khlfzw3
-      name: 'AWS Brazil - prod-sa-east-1: Querying'
     - id: kyyy438yhc9h
       name: 'Traces / GCP UK - prod-gb-south-0: Querying'
     - id: 9jryt04nrsmb
       name: 'Synthetic Monitoring / GCP Saudi Arabia - prod-me-central-0: Public Probes'
     - id: ybvy0jrqz78d
       name: 'Alerting and SLO / GCP UK - prod-gb-south-0: Alertmanager'
-    - id: l0fw88rs7hsy
-      name: 'AWS Brazil - prod-sa-east-1: Ingestion'
     - id: t9ytx3trjw7h
       name: 'Traces / GCP UK - prod-gb-south-0: Ingestion'
     - id: pwlnwwwjlpwg
@@ -940,8 +884,6 @@ systems:
     - id: xkjgscz19z6c
       name: 'Alerting and SLO / GCP US Central - prod-us-central-0: Rule Evaluation'
       description: Prometheus-based alerting engine responsible for evaluating alerting and recording rules. Alerting rules are then sent to the Alertmanager and recording rules are ingested to the metrics instance.
-    - id: zhmkxcl5dlwc
-      name: 'AWS Canada - prod-ca-east-0: Querying'
     - id: 76gd22w5ys6c
       name: 'Traces / GCP UK - prod-gb-south-0: Metrics Generator'
     - id: 7jyhc50smfkc
@@ -951,120 +893,48 @@ systems:
       description: The API gateway that allows programmatic access to managing configuration of rules and Alertmanager configuration.
     - id: 9xz0880z67zl
       name: 'Traces / GCP US Central - prod-us-central-0: Querying'
-    - id: lsc1rmchyyqh
-      name: 'AWS Canada - prod-ca-east-0: Ingestion'
     - id: x2sf2zvf07cy
       name: 'Alerting and SLO / GCP US Central - prod-us-central-0: Alertmanager'
       description: Prometheus-based Alertmanager responsible for reception of alerts and notification delivery.
     - id: t7pbglh025rz
       name: 'Traces / GCP US Central - prod-us-central-0: Ingestion'
-    - id: r5qjzd5r3k0h
-      name: 'AWS Germany - prod-eu-west-2: Querying'
-    - id: fc28jv1gvb1y
-      name: 'AWS Germany - prod-eu-west-2: Ingestion'
     - id: p1qsknnnbdqn
       name: 'Traces / GCP US Central - prod-us-central-0: Metrics Generator'
     - id: lv9z30y5w7lm
       name: Alerting and SLO / Federal Cloud - AWS US Gov West
-    - id: 7czc6kg52h84
-      name: 'AWS UAE - prod-me-central-1: Querying'
     - id: 6prz8xx323ym
       name: 'Traces / AWS US East - prod-us-east-2: Querying'
-    - id: wtzppsvldkdj
-      name: 'AWS UAE - prod-me-central-1: Ingestion'
     - id: bgpplfx1cz4r
       name: 'Traces / AWS US East - prod-us-east-2: Ingestion'
-    - id: rwd1gm8x0pd9
-      name: 'AWS India - prod-ap-south-1: Querying'
     - id: cmzwpyr8bqq1
       name: 'Traces / AWS US East - prod-us-east-2: Metrics Generator'
-    - id: fq2nnssxxg6g
-      name: 'AWS India - prod-ap-south-1: Ingestion'
     - id: 5r0fnpc11np4
       name: 'Traces / GCP US Central - prod-us-central-5: Querying'
-    - id: t30md4sps65l
-      name: 'AWS Japan - prod-ap-northeast-0: Querying'
     - id: x1brj4vmt5py
       name: 'Traces / GCP US Central - prod-us-central-5: Ingestion'
-    - id: srl8p5qnlj0z
-      name: 'AWS Japan - prod-ap-northeast-0: Ingestion'
     - id: nldbcgt153q4
       name: 'Traces / AWS UAE - prod-me-central-1: Querying'
-    - id: 6hw7dwq3g9tp
-      name: 'AWS Singapore - prod-ap-southeast-1: Querying'
     - id: tgq5tf35s6nv
       name: 'Traces / AWS UAE - prod-me-central-1: Ingestion'
-    - id: 6qzb5rlwd9bj
-      name: 'AWS Singapore - prod-ap-southeast-1: Ingestion'
     - id: jshyfn8wpm5b
       name: 'Traces / AWS UAE - prod-me-central-1: Metrics Generator'
-    - id: gk2nt3x2nn7j
-      name: 'AWS Sweden - prod-eu-north-0: Querying'
     - id: 056fh0hc7mw7
       name: 'Traces / AWS Switzerland - prod-eu-central-0: Querying'
-    - id: 03bk3x0sp775
-      name: 'AWS Sweden - prod-eu-north-0: Ingestion'
     - id: 830f7bwkttjv
       name: 'Traces / AWS Switzerland - prod-eu-central-0: Ingestion'
-    - id: sn6tkms0qjs1
-      name: 'AWS US East - prod-us-east-0: Querying'
     - id: m1js1fdv9h31
       name: 'Traces / AWS Switzerland - prod-eu-central-0: Metrics Generator'
-    - id: 9g6rbrbpph64
-      name: 'AWS US East - prod-us-east-0: Ingestion'
     - id: kc4d59cc84z7
       name: 'Traces / AWS Ireland - prod-eu-west-6: Querying'
-    - id: 09xsn36s7l6b
-      name: 'AWS US West - prod-us-west-0: Querying'
     - id: sz3xprhc4qmn
       name: 'Traces / AWS Ireland - prod-eu-west-6: Ingestion'
-    - id: mnz8ljld0pcz
-      name: 'AWS US West - prod-us-west-0: Ingestion'
     - id: 27281hjx0jzv
       name: 'Traces / AWS Ireland - prod-eu-west-6: Metrics Generator'
-    - id: kmtwq09s2x4d
-      name: AWS Ireland - prod-eu-west-6
     - id: 3k70lb3bytq2
       name: Traces / Federal Cloud - AWS US Gov West
-    - id: b1dg002kg4zl
-      name: AWS Switzerland - prod-eu-central-0
     - id: zstphlt7hkx4
       name: 'Traces / AWS US East - prod-us-east-3: Querying'
-    - id: nt45cdfmbxyy
-      name: 'Azure Netherlands - prod-eu-west-3: Querying'
     - id: c4xq0y1xrywv
       name: 'Traces / AWS US East - prod-us-east-3: Ingestion'
-    - id: ydp3d5blm9km
-      name: 'Azure Netherlands - prod-eu-west-3: Ingestion'
     - id: 97ndftl19f6c
       name: 'Traces / AWS US East - prod-us-east-3: Metrics Generator'
-    - id: m8lw9yjt4jvh
-      name: 'Azure US Central - us-central2: Querying'
-    - id: j0ldhc4ytmxq
-      name: 'Azure US Central - us-central2: Ingestion'
-    - id: kf7c8ts1z3t4
-      name: 'GCP Australia - prod-au-southeast-0: Querying'
-    - id: mvlbzhrwwdyz
-      name: 'GCP Australia - prod-au-southeast-0: Ingestion'
-    - id: d61y3kyh24jg
-      name: 'GCP Belgium - prod-eu-west-0: Querying'
-    - id: ygtk4b5jc7sp
-      name: 'GCP Belgium - prod-eu-west-0: Ingestion'
-    - id: 7jvxmktxvx89
-      name: 'GCP Brazil - prod-sa-east-0: Querying'
-    - id: p45wx6nl2ktq
-      name: 'GCP Brazil - prod-sa-east-0: Ingestion'
-    - id: 91j1qcf99b07
-      name: 'GCP India - prod-ap-south-0: Querying'
-    - id: f3hgtfct7dz1
-      name: 'GCP India - prod-ap-south-0: Ingestion'
-    - id: t0mtz3km32nw
-      name: 'GCP Singapore - prod-ap-southeast-0: Querying'
-    - id: 758z5fjwjvqr
-      name: 'GCP Singapore - prod-ap-southeast-0: Ingestion'
-    - id: tnh13jh75l79
-      name: 'GCP UK - prod-gb-south-0: Querying'
-    - id: c5r124rvv5yl
-      name: 'GCP UK - prod-gb-south-0: Ingestion'
-    - id: 3qmtgh968xn5
-      name: 'GCP US Central - prod-us-central-0: Querying'

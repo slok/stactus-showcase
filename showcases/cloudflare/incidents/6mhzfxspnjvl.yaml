@@ -1,0 +1,12 @@
+version: incident/v1
+id: 6mhzfxspnjvl
+name: Pages upload failures
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2026-05-28 14:42:18"
+      description: |-
+        Cloudflare is aware of and investigating an issue impacting a subset of Pages uploads. Some customers may experience their uploads returning a 502 error.
+        We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true

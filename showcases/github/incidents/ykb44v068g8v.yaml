@@ -6,9 +6,9 @@ systems: []
 timeline:
     - ts: "2026-05-28 12:40:00"
       description: |-
-        On May 19, 2026, between 05:30 UTC and 14:50 UTC, GitHub Copilot API requests supporting completions, chat sessions, and agent interactions experienced elevated error rates. At peak impact, approximately 13% of API requests failed, and approximately 24% of remote sessions failed to initialize. A partial mitigation at 08:16 UTC reduced the Copilot API error rate to approximately 0.3%, but intermittent failures persisted until a full fix was deployed at 14:15 UTC and recovery was verified by 14:50 UTC.
+        On May 19, 2026, between 05:30 UTC and 14:50 UTC, some Copilot users experienced failures when using code completions, chat sessions, and cloud agent sessions. At peak impact, approximately 13% of Copilot API requests failed, and approximately 24% of remote sessions failed to initialize. A partial mitigation at 08:16 UTC reduced the Copilot API error rate to approximately 0.3%, but intermittent failures persisted until a full fix was deployed at 14:15 UTC and recovery was verified by 14:50 UTC.
 
-        The incident was caused by an internal rate limit being exceeded on a dependency shared by two Copilot backend services. A recently enabled feature increased call volume to this dependency, and both services were counted under the same rate limit scope. The combined volume exceeded the limit as traffic increased during business hours.
+        The incident was caused by rate limits being exceeded on a shared infrastructure component. A recently enabled feature increased call volume to this component, and the combined load exceeded capacity limits as traffic increased during business hours.
 
-        We mitigated the incident by deploying a caching layer to reduce call volume. To prevent recurrence, we are separating rate limit scopes between services, fixing monitoring gaps for internal dependency rate limiting, and reducing redundant calls.
+        We mitigated the incident by deploying a caching layer to reduce load on shared infrastructure. To prevent recurrence, we are separating rate limit scopes between services, adding monitoring for internal dependency rate limiting, and reducing redundant calls.
       resolved: true
