@@ -1,0 +1,20 @@
+version: incident/v1
+id: g7b13hkvckqq
+name: Cloudflare Tunnel Connectivity Issues via Anchorage (ANC) from 2026-05-14 to 2026-05-28
+impact: major
+systems:
+    - 4npbr7cg7zgn
+    - y98zlwj1d7zh
+timeline:
+    - ts: "2026-05-28 12:13:11"
+      description: |-
+        Between May 14th and May 28th, 2026, an issue with network routing impacted a subset of Cloudflare Tunnel connections routing through our Anchorage, AK (ANC) point of presence. This issue has been fully mitigated by rerouting traffic to the nearest healthy data centers, and all services are now operating normally.
+
+        During this time frame, customers with traffic routing through Anchorage may have experienced intermittent or persistent connection failures, manifesting primarily as HTTP 522 errors or connection timeouts.
+
+        This problem specifically impacted Cloudflare Tunnels routing back to origin servers via this path. Because internal path-optimization systems incorrectly perceived the degraded path as functional, automated failover did not immediately trigger for this specific traffic profile. Traffic routing through all other Cloudflare regions remained entirely unaffected.
+
+        We sincerely apologize for the duration of this disruption and the impact on our customers. We are actively prioritizing updates to our automated detection and mitigation systems to ensure similar infrastructure and transit anomalies are automatically identified and mitigated moving forward.
+    - ts: "2026-05-28 12:18:20"
+      description: This incident has been resolved.
+      resolved: true

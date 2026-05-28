@@ -1,0 +1,12 @@
+version: incident/v1
+id: g8ms43d20z2q
+name: '[Retro]SMS Delivery Delays and Failures between Twilio and Multiple Networks in United Kingdom'
+impact: none
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-05-28 12:16:46"
+      description: Twilio customers may be experiencing SMS delivery delays and failures between a subset of Twilio Phone Numbers and multiple networks in the United Kingdom. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-05-28 12:19:51"
+      description: The incident has been resolved and SMS delivery between Twilio and affected networks in the United Kingdom is operating normally.
+      resolved: true
