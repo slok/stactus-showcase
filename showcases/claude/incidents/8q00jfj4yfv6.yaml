@@ -2,9 +2,12 @@ version: incident/v1
 id: 8q00jfj4yfv6
 name: Billing and subscription management issues
 impact: minor
-systems:
-    - rwppv331jlwc
-    - 0qbwn08sd68x
+systems: []
 timeline:
     - ts: "2026-05-28 19:04:04"
       description: We are currently experiencing issues with billing and subscription management on claude.ai and the Anthropic Console. Users may see errors when viewing subscription details, payment methods, or attempting to upgrade or change plans. Chat and API access are not affected. We have identified the cause and are working on a fix.
+    - ts: "2026-05-28 19:17:35"
+      description: A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery.
+    - ts: "2026-05-28 19:23:57"
+      description: The issue affecting Claude services has been resolved. Impact occurred from 18:27 UTC to 19:05 UTC.
+      resolved: true

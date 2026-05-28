@@ -2,8 +2,15 @@ version: incident/v1
 id: rhqcgg8lg6mm
 name: Disruption with Copilot Cloud Agent and Copilot Code Review
 impact: minor
-systems: []
+systems:
+    - pjmpxvq2cmr2
 timeline:
     - ts: "2026-05-28 19:01:00"
       description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-05-28 19:20:58"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-05-28 19:40:54"
+      description: We are investigating errors with Copilot requests using OpenAI models
       investigating: true
