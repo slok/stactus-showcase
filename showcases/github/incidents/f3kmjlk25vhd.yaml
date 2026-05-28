@@ -1,0 +1,15 @@
+version: incident/v1
+id: f3kmjlk25vhd
+name: Webhook APIs and UI Degraded
+impact: minor
+systems:
+    - 4230lsnqdsld
+timeline:
+    - ts: "2026-05-28 01:13:31"
+      description: We are investigating reports of degraded performance for Webhooks
+      investigating: true
+    - ts: "2026-05-28 01:27:22"
+      description: The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-05-28 01:32:27"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

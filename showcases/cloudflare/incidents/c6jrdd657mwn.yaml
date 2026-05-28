@@ -1,0 +1,9 @@
+version: incident/v1
+id: c6jrdd657mwn
+name: Elevated number of 5xx errors in Dallas Texas
+impact: none
+systems: []
+timeline:
+    - ts: "2026-05-28 01:52:50"
+      description: Between 01:17 UTC - 01:28 UTC, customers reaching Dallas Texas region would have experienced an elevated number of 5xx errors. This incident is now resolved
+      resolved: true
