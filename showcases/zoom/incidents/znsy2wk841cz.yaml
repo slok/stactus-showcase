@@ -1,0 +1,15 @@
+version: incident/v1
+id: znsy2wk841cz
+name: Service Degradation with Live Transcription and Call Summary in the Australia Region
+impact: none
+systems:
+    - 8vtcg8np4n8c
+    - tpnwmnw74wp5
+    - ytpvvb8n0s31
+    - 0cblr6n7pz0x
+timeline:
+    - ts: "2026-05-29 01:30:24"
+      description: On 5/29/2026 between 00:04 UTC and 00:41 UTC Live Transcription and Call Summary in the Australia region was degraded for a subset of users.  The issue has been resolved and services has been restored.
+    - ts: "2026-05-29 01:41:00"
+      description: This incident has been resolved
+      resolved: true
