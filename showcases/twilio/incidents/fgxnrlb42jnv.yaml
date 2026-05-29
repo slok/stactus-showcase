@@ -1,9 +1,15 @@
 version: incident/v1
 id: fgxnrlb42jnv
-name: On Call Engineers are Investigating
-impact: none
-systems: []
+name: National Phone Numbers Outside of the US Blocked in 1Console
+impact: minor
+systems:
+    - pv5w18vrltfl
 timeline:
     - ts: "2026-05-29 15:05:57"
       description: Our monitoring systems have detected a potential issue with purchasing non-US national phone numbers. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
       investigating: true
+    - ts: "2026-05-29 15:27:39"
+      description: Our engineers have identified an issue where customers attempting to purchase national phone numbers outside of the US through 1Console are unable to complete the flow and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-29 16:26:24"
+      description: Our engineers have identified an issue where customers attempting to purchase national phone numbers outside of the US through 1Console are unable to complete the flow and are working to deploy a fix. We expect to provide another update in 24 hours or as soon as more information becomes available.
