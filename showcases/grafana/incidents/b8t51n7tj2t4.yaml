@@ -23,3 +23,8 @@ timeline:
     - ts: "2026-05-29 09:03:28"
       description: We’re currently investigating an issue affecting Loki queries in Grafana. We have had reports from customers showing the logs are not loading or showing missing logs. Our team is actively working to identify the cause. Thank you for your patience.
       investigating: true
+    - ts: "2026-05-29 10:28:13"
+      description: We have identified the cause of this incident and a fix has been applied. Normal functions are returning. We are currently monitoring the recovery process.
+    - ts: "2026-05-29 10:59:34"
+      description: This incident has been resolved.
+      resolved: true
