@@ -1,0 +1,15 @@
+version: incident/v1
+id: y3p9v8vm4tfn
+name: App Platform Deployments
+impact: minor
+systems:
+    - txysr8r0gn1n
+timeline:
+    - ts: "2026-05-29 00:14:19"
+      description: |-
+        Our Engineering team is currently investigating an issue with build failures on App Platform in multiple regions. Users may experience errors when attempting to build their applications, resulting in failed deployments.
+
+        Our Engineering team is working to fix the issue and will share an update once we have more details.
+
+        We apologize for the inconvenience this issue may be causing and appreciate your patience as we work to resolve it.
+      investigating: true
