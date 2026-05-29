@@ -1,0 +1,13 @@
+version: incident/v1
+id: 36nvdzmpz476
+name: HTTP Rollups delays
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-05-29 16:41:54"
+      description: Reporting and analytics for HTTP requests rollups is delayed. Edge services are still fully operational, just analytics are delayed. We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-05-29 17:24:01"
+      description: This incident has been resolved.
+      resolved: true
