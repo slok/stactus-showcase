@@ -1,0 +1,17 @@
+version: incident/v1
+id: kn25r9syw5xs
+name: Cloudflare Notifications issues
+impact: minor
+systems:
+    - 5xvn0m7tthlf
+timeline:
+    - ts: "2026-05-29 07:32:02"
+      description: |-
+        Cloudflare is investigating issues with the Cloudflare Notifications product. Some alerts might be temporarily delayed.
+
+        Impact is restricted to the notification functionality and it does not affect any connectivity, security, CDN or Area1 functionality.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+    - ts: "2026-05-29 07:32:36"
+      description: This incident has been resolved.
+      resolved: true
