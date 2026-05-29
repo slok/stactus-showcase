@@ -1,6 +1,6 @@
 version: incident/v1
 id: fmdrcrwqrlbl
-name: SMS Delivery Failures Between Twilio and Multiple Networks in France
+name: SMS Delivery Delays and Failures Between Twilio and Multiple Networks in France
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -13,3 +13,5 @@ timeline:
       investigating: true
     - ts: "2026-05-29 00:47:58"
       description: We have observed a recovery in SMS delivery between Twilio and multiple networks in France and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-05-29 02:48:22"
+      description: We have observed a recovery in SMS delivery between Twilio and network subscribers on multiple networks in France and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
