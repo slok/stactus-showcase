@@ -1,0 +1,14 @@
+version: incident/v1
+id: jrtd833dsyxx
+name: Networking issues in ORD
+impact: minor
+systems:
+    - vfq82tp9wp5r
+timeline:
+    - ts: "2026-05-29 19:09:32"
+      description: We are aware of increased latency and connection drops for clients located near Chicago (ORD) and are currently working on a fix.
+    - ts: "2026-05-29 19:21:39"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-05-29 19:45:59"
+      description: This incident has been resolved.
+      resolved: true
