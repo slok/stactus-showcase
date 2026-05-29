@@ -1,0 +1,16 @@
+version: incident/v1
+id: 2zr0rkdxjdtc
+name: Elevated errors for Claude Opus 4.8
+impact: major
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-05-29 18:35:23"
+      description: We are investigating elevated errors on requests to Claude Opus 4.8. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-05-29 18:55:06"
+      description: A fix has been deployed for Claude Opus 4.8 and success rates have returned to normal. Users saw elevated errors on requests to the model from 18:16–18:42 UTC.

@@ -15,5 +15,5 @@ timeline:
       description: We're continuing to investigate degraded performance of Git operations, Issues and Pull requests.
       investigating: true
     - ts: "2026-05-27 13:16:54"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 27, 2026, between 12:07 UTC and 13:16 UTC, users experienced degraded performance for Git operations, Pull Requests, Issues, GraphQL API, and related services on github.com. During this time, operations that depended on Git file servers experienced elevated error rates (3.5% of pushes via HTTPS and 0.2% of pushes via SSH failed; no fetches/clones failed). An internal analytics component generated unexpectedly high load, which caused CPU saturation on the underlying infrastructure. This led to cascading slowdowns and errors across services that depend on Git operations. The issue was mitigated by stopping the offending component. Services began recovering shortly after mitigation and were fully restored by 13:16 UTC. We are taking steps to add resource limits and kill switches for internal analytics components to prevent similar issues in the future.
       resolved: true
