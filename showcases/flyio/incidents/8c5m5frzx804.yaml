@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8c5m5frzx804
+name: Networking issues in ORD
+impact: minor
+systems:
+    - vfq82tp9wp5r
+timeline:
+    - ts: "2026-05-29 06:59:31"
+      description: We are currently investigating increased latency and dropped connections in ORD (Chicago).
+      investigating: true
