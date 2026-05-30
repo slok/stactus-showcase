@@ -1,0 +1,13 @@
+version: incident/v1
+id: 6hbqlhfcbkbs
+name: Increased errors when accessing Workers secrets
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-05-30 14:51:31"
+      description: Cloudflare Secrets Store users may see increased errors when accessing secrets
+      investigating: true
+    - ts: "2026-05-30 14:52:21"
+      description: We are continuing to investigate this issue.
+      investigating: true
