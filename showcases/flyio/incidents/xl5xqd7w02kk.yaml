@@ -1,0 +1,14 @@
+version: incident/v1
+id: xl5xqd7w02kk
+name: Elevated deployment errors
+impact: minor
+systems:
+    - 49yq6v65b33l
+timeline:
+    - ts: "2026-05-30 02:42:54"
+      description: 'We''re investigating an increase in deployment errors affecting some users. At this time, creating or updating Machines may erroneously fail with the message: "We require your billing information, please add it at https://fly.io/dashboard/<org>/billing".'
+      investigating: true
+    - ts: "2026-05-30 03:13:44"
+      description: We identified the issue and are working on a fix.
+    - ts: "2026-05-30 03:37:05"
+      description: A fix has been implemented and we are monitoring the results.
