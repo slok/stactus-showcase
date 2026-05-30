@@ -1,0 +1,19 @@
+version: incident/v1
+id: 529rr0g2d2rx
+name: Private networking issues in SYD
+impact: minor
+systems:
+    - 6g1pz83ylj1r
+timeline:
+    - ts: "2026-05-30 13:29:10"
+      description: |-
+        Due to an upstream provider issue, Private Networking (6PN) is currently degraded in SYD region. Communication between Machines in SYD region and Machines in other regions may fail at this time. Newly created Machines in SYD may fail to sync to other regions (may not show up in Machines API List endpoint, or state may be incorrect).
+
+        Additionally, TLS certificate resolution and Machines API authentication may currently be degraded in the SYD region.
+
+        We are working with our upstream providers to resolve this issue.
+    - ts: "2026-05-30 13:32:30"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-05-30 13:37:37"
+      description: This incident has been resolved.
+      resolved: true

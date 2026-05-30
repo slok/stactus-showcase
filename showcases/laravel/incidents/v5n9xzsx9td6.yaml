@@ -1,0 +1,12 @@
+version: incident/v1
+id: v5n9xzsx9td6
+name: Stuck deployments in eu-central-1 (Frankfurt)
+impact: minor
+systems:
+    - nfc2yzmxzw4s
+timeline:
+    - ts: "2026-05-30 13:35:10"
+      description: We're investigating an issue causing deployments to become stuck in the eu-central-1 (Frankfurt) region. New deploys initiated in this region may not complete as expected. Existing running applications are not affected.
+      investigating: true
+    - ts: "2026-05-30 14:06:58"
+      description: Deploy failures have stabilized though we're continuing to see some slower-than-usual deploy times in this region. Existing applications remain unaffected and the team is continuing to monitor.
