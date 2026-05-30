@@ -1,6 +1,6 @@
 version: incident/v1
 id: hbs26c74lvtj
-name: SMS Delivery Delays from a Subset of Twilio Phone Numbers to Movistar Mexico
+name: SMS Delivery Delays From a Subset of Twilio Phone Numbers to Movistar Mexico
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -14,3 +14,6 @@ timeline:
       description: We have observed a recovery in SMS delivery from a subset of Twilio Phone Numbers to Movistar network subscribers in Mexico and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-05-30 00:57:59"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Phone Numbers to Movistar network subscribers in Mexico and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-05-30 01:32:09"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Phone Numbers to Movistar network subscribers in Mexico is operating normally.
+      resolved: true
