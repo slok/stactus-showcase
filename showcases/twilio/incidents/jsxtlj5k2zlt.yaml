@@ -1,0 +1,12 @@
+version: incident/v1
+id: jsxtlj5k2zlt
+name: SMS Delivery Delays from Twilio to Chunghwa and FarEasTone Taiwan
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-05-31 14:00:38"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Chunghwa and FarEasTone network subscribers in Taiwan. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-05-31 14:03:52"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Chunghwa and FarEasTone network subscribers in Taiwan. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
