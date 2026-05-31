@@ -1,0 +1,13 @@
+version: incident/v1
+id: 59gsh0xrh6gg
+name: Custom Hostname API issue
+impact: minor
+systems:
+    - 9p2qlpt19nqb
+timeline:
+    - ts: "2026-05-31 01:06:32"
+      description: |-
+        Cloudflare is investigating increased latency for customers using the Cloudflare for SaaS Custom Hostname API. Customers may experience slow responses while adding a new R2 subscription.
+
+        Existing Custom Hostnames remain unaffected and are operating normally.
+      investigating: true
