@@ -1,0 +1,12 @@
+version: incident/v1
+id: jzz2hx0bvjvx
+name: IPv6 outage for some machines in ORD
+impact: major
+systems:
+    - vfq82tp9wp5r
+timeline:
+    - ts: "2026-05-31 06:34:59"
+      description: We're working with our upstream providers to investigate an IPv6 networking failure in ORD.
+      investigating: true
+    - ts: "2026-05-31 07:03:54"
+      description: A fix has been implemented and we are monitoring the results.
