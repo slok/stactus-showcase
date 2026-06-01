@@ -1,0 +1,18 @@
+version: incident/v1
+id: g3zsqdnkq2l2
+name: Alert manager unavailable in prod-us-central-0
+impact: minor
+systems:
+    - qjwn7tbhdl8y
+    - x2sf2zvf07cy
+timeline:
+    - ts: "2026-06-01 19:53:58"
+      description: |-
+        Starting at 18:30 UTC, we noticed alert manager unavailability limited to prod-us-central-0 which affects grafana-managed and datasource-managed alerting, causing disruption to updating alertmanager config and limited disruption to alert sending.
+
+        We have identified the cause and are in the process of remediation.
+    - ts: "2026-06-01 20:02:17"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-01 20:26:16"
+      description: This incident has been resolved.
+      resolved: true

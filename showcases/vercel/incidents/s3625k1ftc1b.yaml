@@ -1,0 +1,17 @@
+version: incident/v1
+id: s3625k1ftc1b
+name: Elevated Errors Creating New Deployments
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-06-01 19:21:13"
+      description: We are investigating reports of some customers experiencing elevated errors creating new deployments. We will provide additional updates as they become available.
+      investigating: true
+    - ts: "2026-06-01 19:50:07"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-01 19:55:06"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-01 20:02:11"
+      description: This incident has been resolved.
+      resolved: true
