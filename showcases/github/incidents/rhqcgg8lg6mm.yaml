@@ -18,5 +18,5 @@ timeline:
       description: Open AI models are currently unavailable. We are shifting requests to other models to reduce impact.
       investigating: true
     - ts: "2026-05-28 20:41:58"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 28th, 2026, between approximately 18:27 and 20:41 UTC, the GitHub Copilot service was degraded due to an issue with the Responses API of an upstream provider affecting the GPT-5.2, GPT-5.3-Codex, GPT-5.4, and GPT-5.5 models. Requests routed to these models via the Responses API returned elevated error rates, which also affected Copilot coding agent and Copilot code review. No other models were impacted. <br /><br />We mitigated the incident by shifting traffic away from the affected models while the upstream provider deployed a fix. <br /><br />GitHub is working to improve automated failover for the affected models and strengthen monitoring to prevent similar incidents in the future.
       resolved: true

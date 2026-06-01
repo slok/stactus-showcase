@@ -1,0 +1,17 @@
+version: incident/v1
+id: vxp8fdrckj7q
+name: Degraded performance for Claude Sonnet 4.6
+impact: minor
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-06-01 18:28:42"
+      description: We are investigating elevated errors on requests to Claude Sonnet 4.6. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-06-01 19:06:53"
+      description: This issue has been resolved.
+      resolved: true

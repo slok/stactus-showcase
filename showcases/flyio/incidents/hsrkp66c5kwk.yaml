@@ -1,0 +1,15 @@
+version: incident/v1
+id: hsrkp66c5kwk
+name: Issues with flyctl ssh console and Machines OIDC
+impact: minor
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2026-06-01 18:33:08"
+      description: We're currently investigating an issue affecting flyctl ssh console functionality and machines' OIDC tokens.
+      investigating: true
+    - ts: "2026-06-01 18:35:13"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-01 18:43:36"
+      description: This incident has been resolved.
+      resolved: true

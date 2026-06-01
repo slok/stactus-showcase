@@ -1,0 +1,10 @@
+version: incident/v1
+id: wrdzjsxff5yj
+name: Cloudflare Dashboard and Cloudflare API service issues
+impact: minor
+systems:
+    - g4tb35rs9yw7
+timeline:
+    - ts: "2026-06-01 17:48:32"
+      description: Cloudflare is investigating issues with Cloudflare APIs that are specifically impacting OAuth/Wrangler API calls. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed.
+      investigating: true
