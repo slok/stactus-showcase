@@ -1,0 +1,26 @@
+version: incident/v1
+id: dmm95yg5slsr
+name: Deployment failure on new compute sizes
+impact: minor
+systems:
+    - d4z7n3kvpgp0
+    - nfc2yzmxzw4s
+    - s3zm1t588bky
+timeline:
+    - ts: "2026-06-01 09:46:12"
+      description: |-
+        The rollout of new compute sizes is causing deployments failure for environments using those compute sizes.
+        Running environments are not impacted.
+      investigating: true
+    - ts: "2026-06-01 09:50:20"
+      description: |-
+        Root cause identified.
+
+        Deployments - EU West (London) now working.
+    - ts: "2026-06-01 09:52:00"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-06-01 10:00:16"
+      description: Fix rolled out to every impacted regions, the team is now monitoring
+    - ts: "2026-06-01 10:34:14"
+      description: Incident confirmed resolved across all regions.
+      resolved: true
