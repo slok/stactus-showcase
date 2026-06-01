@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-06-01 17:48:32"
       description: Cloudflare is investigating issues with Cloudflare APIs that are specifically impacting OAuth/Wrangler API calls. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed.
       investigating: true
+    - ts: "2026-06-01 21:30:34"
+      description: The issue has been identified and a fix is being implemented.
