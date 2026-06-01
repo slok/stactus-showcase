@@ -1,0 +1,18 @@
+version: incident/v1
+id: 5wdgxw2rvbt3
+name: Delays with Code Scanning and Billing
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-06-01 15:17:09"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-06-01 15:17:27"
+      description: We are investigating reports of delayed code scanning runs and delayed billing updates.  We will continue to keep users updated on progress towards mitigation.
+      investigating: true
+    - ts: "2026-06-01 15:43:07"
+      description: We are investigating reports of delayed code scanning runs, billing updates, email and mobile push notifications. We are investigating delays in our job processing architecture. We will continue to keep users updated on progress towards mitigation.
+      investigating: true
+    - ts: "2026-06-01 16:42:27"
+      description: We are investigating reports of delayed billing updates, on GitHub.com. We are continuing to investigate delays in our job processing architecture. We are attempting to mitigate at the infrastructure level.  Code scanning runs and notifications have recovered.  We will continue to keep users updated on progress towards mitigation.<br /><br />GitHub Enterprise Cloud with Data Residency is not impacted.
+      investigating: true

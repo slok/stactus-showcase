@@ -1,0 +1,12 @@
+version: incident/v1
+id: hgztq9r8b00x
+name: Intermittent Service Degradation Affecting submitting inquiries through our Contact Sales pages
+impact: none
+systems:
+    - wm1bsqy8d9jv
+timeline:
+    - ts: "2026-06-01 15:50:45"
+      description: "On 1 June 2026, between 11:00 and 14:50 UTC, a subset of customers experienced intermittent issues submitting inquiries through our Contact Sales pages. The issue has been resolved, and all services are operating normally. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
+    - ts: "2026-06-01 16:47:48"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
