@@ -14,5 +14,5 @@ timeline:
     - ts: "2026-05-26 16:24:11"
       description: The degradation affecting Copilot has been mitigated. We are monitoring to ensure stability.
     - ts: "2026-05-26 16:35:57"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 26, 2026, between 15:10 UTC and 16:35 UTC the Copilot service was degraded and many models were no longer available for use. On average, the error rate was ~5% and peaked at 11% of requests to the service. This was due to a change that introduced a configuration mismatch in HMAC signing credentials which caused the list of available models to be truncated. This was mitigated by rolling back the change. This rollback was complete by 15:34 UTC though users continued to see impact until cache TTLs expired. <br /><br />We are working to improve our monitoring and error handling to reduce time to detection and better experience for issues like this in the future.
       resolved: true

@@ -1,6 +1,6 @@
 version: incident/v1
 id: rxrxxx78j420
-name: SMS Delivery Delays from Twilio to Smartfren Indonesia
+name: SMS Delivery Delays from Twilio to Smartfren Telecom Indonesia
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2026-06-01 11:36:12"
       description: Twilio customers may be experiencing SMS delivery delays from Twilio to Smartfren network subscribers in Indonesia. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-01 13:37:03"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Smartfren Telecom network subscribers in Indonesia. Our team is actively investigating this issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
