@@ -1,0 +1,18 @@
+version: incident/v1
+id: b3d4m37jklc8
+name: MMS Delivery Delays from a Subset of Twilio Short Codes to Verizon and T-Mobile United States
+impact: minor
+systems:
+    - h0fl7prwfhvm
+timeline:
+    - ts: "2026-06-02 19:23:50"
+      description: Twilio customers may be experiencing MMS delivery delays from a subset of Twilio Short Codes to Verizon network subscribers in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-02 19:28:48"
+      description: Twilio customers may be experiencing MMS delivery delays from a subset of Twilio Short Codes to Verizon and T-mobile networks subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-06-02 19:42:25"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-06-02 19:44:01"
+      description: Twilio customers may be experiencing MMS delivery delays from a subset of Twilio Short Codes to Verizon and T-mobile networks subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-06-02 20:31:53"
+      description: We have observed a recovery in MMS delivery from a subset of Twilio Short Codes to Verizon and T-Mobile network subscribers in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.

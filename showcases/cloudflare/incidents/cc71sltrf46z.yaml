@@ -1,0 +1,17 @@
+version: incident/v1
+id: cc71sltrf46z
+name: Browser Run
+impact: minor
+systems:
+    - q9p27cmrspf8
+timeline:
+    - ts: "2026-06-02 19:18:20"
+      description: Cloudflare is investigating an increased level of errors for customers of Browser Run API.  We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-06-02 19:25:02"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-02 19:47:03"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-02 20:48:16"
+      description: This incident has been resolved.
+      resolved: true

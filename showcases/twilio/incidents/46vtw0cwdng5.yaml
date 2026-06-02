@@ -1,9 +1,19 @@
 version: incident/v1
 id: 46vtw0cwdng5
-name: On Call Engineers are Investigating
-impact: none
+name: Unified Profiles Configuration Degraded
+impact: minor
 systems: []
 timeline:
     - ts: "2026-06-02 18:01:44"
       description: Our monitoring systems have detected a potential issue with unified profiles. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
       investigating: true
+    - ts: "2026-06-02 18:30:22"
+      description: We've identified an issue with Unified Profiles that prevents the creation and configuration of Unified Profiles Connections. Our teams are actively working to address this
+      investigating: true
+    - ts: "2026-06-02 18:32:38"
+      description: We've identified an issue with Unified Profiles that prevents the creation and configuration of Unified Profiles Connections. Our teams are actively working to address this
+    - ts: "2026-06-02 19:21:04"
+      description: We’ve identified an issue with Unified Profiles that prevents the creation and configuration of Unified Profiles Connections. Our teams have identified the root cause, and are in the process of deploying a fix. We will update within the next 60 minutes.
+    - ts: "2026-06-02 19:32:23"
+      description: The issue affecting issue with Unified Profiles that prevents the creation and configuration of Unified Profiles Connections has been resolved, and the service is functioning normally at this time.
+      resolved: true
