@@ -1,6 +1,6 @@
 version: incident/v1
 id: zkr25thltwc9
-name: Elevated errors across multiple models
+name: Elevated errors on Opus 4.6
 impact: major
 systems:
     - rwppv331jlwc
@@ -13,3 +13,5 @@ timeline:
       investigating: true
     - ts: "2026-06-02 06:39:05"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-02 09:33:06"
+      description: We are continuing to work on a fix for this issue.
