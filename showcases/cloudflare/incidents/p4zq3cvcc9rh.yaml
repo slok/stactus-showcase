@@ -1,0 +1,13 @@
+version: incident/v1
+id: p4zq3cvcc9rh
+name: Customers with traffic using China Network may see an increased in Challenge failures
+impact: minor
+systems:
+    - x0tkn0hzrtw7
+    - m4jywscr0n0k
+timeline:
+    - ts: "2026-06-02 04:48:19"
+      description: Cloudflare is aware that some customers may see an increased in Challenge failures within the China network. We are currently investigating the issue.
+      investigating: true
+    - ts: "2026-06-02 06:08:22"
+      description: The issue has been identified and a fix is being implemented.
