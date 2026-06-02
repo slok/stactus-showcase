@@ -4,9 +4,8 @@ name: Elevated deployment and function invocations failures
 impact: minor
 systems:
     - 7ckq6xr6nsbv
-    - pdnc30nkdqth
-    - 1w4lc3s3q2pz
     - kgcsn9c73xzf
+    - 1w4lc3s3q2pz
 timeline:
     - ts: "2026-03-02 06:06:28"
       description: Starting from 5:00 am UTC, we have started seeing failures to deploy and invoke functions in Dubai region (dxb1). Deployments with Middleware Functions are also impacted in all regions, because Middleware Functions are deployed globally for production deployments. Our team is actively investigating the issue.
