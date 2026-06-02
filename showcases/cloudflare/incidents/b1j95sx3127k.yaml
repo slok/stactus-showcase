@@ -1,0 +1,11 @@
+version: incident/v1
+id: b1j95sx3127k
+name: Network performance issues in US Eastern region
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-02 14:39:30"
+      description: |-
+        Between 13:39 and  14:06 on June 2nd, 2026  Cloudflare identified and mitigated a network performance issue specifically affecting the US Eastern region.
+        Users may have experienced increased latency or intermittent connectivity.
+      resolved: true

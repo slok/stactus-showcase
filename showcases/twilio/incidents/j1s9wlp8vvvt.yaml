@@ -1,0 +1,12 @@
+version: incident/v1
+id: j1s9wlp8vvvt
+name: SMS Delivery Delays and Failures from Twilio to NumberBarn United States
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - 39mb8cmw8y2v
+    - 32f2bm54nkvv
+timeline:
+    - ts: "2026-06-02 14:11:25"
+      description: Twilio customers may be experiencing SMS delivery delays and delivery failures from Twilio to NumberBarn network subscribers in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
