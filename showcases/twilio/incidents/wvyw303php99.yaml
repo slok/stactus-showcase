@@ -1,0 +1,12 @@
+version: incident/v1
+id: wvyw303php99
+name: On Call Engineers are Investigating
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-02 13:03:25"
+      description: Our monitoring systems have detected a potential issue with inbound messaging delays on Conversations. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-06-02 13:23:06"
+      description: We have fully investigated the issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
