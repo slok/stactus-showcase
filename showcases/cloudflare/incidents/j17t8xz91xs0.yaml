@@ -1,0 +1,9 @@
+version: incident/v1
+id: j17t8xz91xs0
+name: Issue with TLS certificates using Lets Encrypt CA
+impact: minor
+systems:
+    - cghykwlwsmn5
+timeline:
+    - ts: "2026-06-02 00:25:44"
+      description: Cloudflare has identified an issue affecting a subset of Let's Encrypt certificates, in which unsupported CA bundling may result in TLS connectivity issues for some visitors. Customers requiring immediate resolution may order a replacement certificate; re-issuance from the same Certificate Authority will resolve the issue. Customer action is not required for a permanent fix — Cloudflare engineering is rebuilding all impacted certificate chains, and affected certificates will be automatically restored to a valid state.
