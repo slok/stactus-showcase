@@ -1,0 +1,9 @@
+version: incident/v1
+id: 18584fl9v5fy
+name: tempo prod-25 write-path-down
+impact: minor
+systems:
+    - lxb7122px698
+timeline:
+    - ts: "2026-06-02 23:15:06"
+      description: Between 21:20 and 22:40 UTC, writes to tempo-prod-25 failed due to an outage. tempo-prod-24 was also affected during an overlapping window from 22:32 to 22:40 UTC."

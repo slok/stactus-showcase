@@ -1,0 +1,10 @@
+version: incident/v1
+id: gwq51m3r62jc
+name: Investigating connection issues to ADFA in GCP
+impact: major
+systems:
+    - lh7m7lhnf3rj
+timeline:
+    - ts: "2026-06-02 23:00:06"
+      description: We are currently investigating issues connecting and querying to Atlas Data Federation and Online Archive instances in GCP regions
+      investigating: true
