@@ -1,0 +1,11 @@
+version: incident/v1
+id: y8lx39y2g4ls
+name: Cloudflare is investigating an increased level of HTTP 5xx errors in the Miami and Bogota areas
+impact: minor
+systems:
+    - 171wlzvlxttk
+    - mvbjk0vw3krv
+timeline:
+    - ts: "2026-06-02 03:24:37"
+      description: Cloudflare is investigating an increased level of HTTP 5xx errors between Miami and Bogota. We are working to analyse and mitigate this problem.  More updates to follow shortly.
+      investigating: true
