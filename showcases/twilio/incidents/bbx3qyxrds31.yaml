@@ -1,6 +1,6 @@
 version: incident/v1
 id: bbx3qyxrds31
-name: SMS Delivery Delays and Failures from a Subset of Twilio Long Codes to WOM Colombia
+name: SMS Delivery Delays and Failures From a Subset of Twilio Long Codes to WOM Colombia
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -15,3 +15,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Long Codes to WOM network subscribers in Colombia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
     - ts: "2026-06-02 14:48:09"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Long Codes to WOM network subscribers in Colombia and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-06-02 16:51:38"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Long Codes to WOM network subscribers in Colombia is operating normally.
+      resolved: true

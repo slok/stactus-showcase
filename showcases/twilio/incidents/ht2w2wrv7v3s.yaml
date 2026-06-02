@@ -1,6 +1,6 @@
 version: incident/v1
 id: ht2w2wrv7v3s
-name: Voice Call Silent and One-Way Audio From a Subset of Twilio United Kingdom Phone Numbers to United Kingdom
+name: Voice Call Silent and One-Way Audio from a Subset of Twilio Phone Numbers to United Kingdom
 impact: minor
 systems:
     - bnzggd37p61w
@@ -8,3 +8,12 @@ timeline:
     - ts: "2026-06-02 14:59:21"
       description: Twilio customers may be experiencing voice call silent and one-way audio from a subset of Twilio United Kingdom Phone Numbers to network subscribers in the United Kingdom. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-06-02 15:28:19"
+      description: We have observed a recovery in voice calls from a subset of Twilio United Kingdom Phone Numbers to network subscribers in the United Kingdom and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-06-02 15:29:02"
+      description: |-
+        The incident has been resolved and voice calls from a subset of Twilio Phone Numbers to network subscribers in the United Kingdom are operating normally.
+
+
+        Invalid incident
+      resolved: true
