@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3xzf6gwrv137
+name: Bot Management - Increased False Positives
+impact: minor
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2026-06-03 02:26:24"
+      description: Cloudflare is investigating reports of some legitimate requests being incorrectly assigned a high bot score. Customers using Bot Management rules to challenge or block traffic based on bot score may see legitimate visitors incorrectly actioned. We are actively investigating and will provide updates as we learn more.
+      investigating: true
+    - ts: "2026-06-03 02:38:37"
+      description: The issue has been identified and a fix is being implemented.
