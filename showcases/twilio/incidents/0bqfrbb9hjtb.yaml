@@ -1,10 +1,16 @@
 version: incident/v1
 id: 0bqfrbb9hjtb
-name: On Call Engineers are Investigating
-impact: none
+name: Subset of Inbound Calls from AT&T are Failing Shaken/Stir Verification
+impact: minor
 systems:
     - 2v3v92mz2m4h
 timeline:
     - ts: "2026-06-03 18:40:19"
       description: Our monitoring systems have detected a potential issue with Shaken/Stir validation for a subset of inbound calls. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-06-03 19:42:05"
+      description: Twilio customers may be experiencing Shaken/Stir verification failures for inbound calls originating from the AT&T network the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-03 20:42:50"
+      description: Twilio customers may be experiencing Shaken/Stir verification failures for inbound calls originating from the AT&T network the United States. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true

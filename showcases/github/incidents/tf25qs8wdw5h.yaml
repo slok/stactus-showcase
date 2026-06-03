@@ -1,0 +1,18 @@
+version: incident/v1
+id: tf25qs8wdw5h
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-06-03 19:42:56"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-06-03 19:43:05"
+      description: We're seeing delays in Dependabot scheduled version update runs. Our team is actively working on a fix and will share updates as the situation develops.
+      investigating: true
+    - ts: "2026-06-03 20:18:52"
+      description: Customers may see delays of up to two days in Dependabot version updates.<br /><br />Dependabot Security updates are not delayed.<br /><br />The team is investigating mitigations for the backlog.<br /><br />Next update in 1 hour.
+      investigating: true
+    - ts: "2026-06-03 21:10:56"
+      description: We are preparing a mitigation for the delayed Dependabot scheduled version updates.<br /><br />Next update in 2 hours.
+      investigating: true
