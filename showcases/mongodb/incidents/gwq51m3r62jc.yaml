@@ -8,3 +8,12 @@ timeline:
     - ts: "2026-06-02 23:00:06"
       description: We are currently investigating issues connecting and querying to Atlas Data Federation and Online Archive instances in GCP regions
       investigating: true
+    - ts: "2026-06-02 23:42:56"
+      description: We've identified an issue with networking in GCP regions and are working on fix
+    - ts: "2026-06-03 00:01:14"
+      description: Issues connecting to ADF and OA instances in GCP belgium-eu region has been mitigated, and working on other GCP regions.
+    - ts: "2026-06-03 00:05:36"
+      description: All ADF and OA connections in GCP are reporting as successful, and we will continue to monitor.
+    - ts: "2026-06-03 00:11:32"
+      description: Issue has been mitigated and connections should be working now to ADF and OA instances in GCP regions.
+      resolved: true
