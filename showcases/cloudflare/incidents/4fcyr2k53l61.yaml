@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4fcyr2k53l61
+name: Issue with Bot Management Traffic Categorization For Verified Bots
+impact: minor
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2026-06-03 22:31:58"
+      description: Cloudflare is investigating issues with our Bot Management feature. Customers may observe a limited number of verified bots incorrectly identified as automated traffic.
+      investigating: true
