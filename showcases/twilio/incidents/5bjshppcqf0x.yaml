@@ -1,6 +1,6 @@
 version: incident/v1
 id: 5bjshppcqf0x
-name: SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico and Multiple Networks in United States
+name: SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico and Multiple Networks in the United States
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -13,3 +13,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Short Codes to Liberty Mobile network subscribers in Puerto Rico and network subscribers on multiple networks in the United States. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
     - ts: "2026-06-03 15:53:50"
       description: We have observed a recovery in SMS delivery receipts from a subset of Twilio Short Codes to Liberty Mobile network subscribers in Puerto Rico and multiple networks in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-06-03 17:55:22"
+      description: The incident has been resolved and SMS delivery receipts from a subset of Twilio Short Codes to Liberty Mobile network subscribers in Puerto Rico and network subscribers on affected networks in the United States are operating normally.
+      resolved: true
