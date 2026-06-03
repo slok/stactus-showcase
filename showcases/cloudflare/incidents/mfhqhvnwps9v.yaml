@@ -1,0 +1,14 @@
+version: incident/v1
+id: mfhqhvnwps9v
+name: Customers are facing an increase in API errors when requesting Audit Logs
+impact: minor
+systems:
+    - g4tb35rs9yw7
+    - 2469qcw8rvjp
+timeline:
+    - ts: "2026-06-03 13:30:28"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-06-03 14:29:36"
+      description: This incident has been resolved.
+      resolved: true

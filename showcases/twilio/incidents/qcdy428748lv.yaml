@@ -1,0 +1,10 @@
+version: incident/v1
+id: qcdy428748lv
+name: SMS Delivery Delays and Failures from a Subset of Twilio Long Codes to T-Mobile Netherlands
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-06-03 14:01:38"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Long Codes to T-Mobile network subscribers in Netherlands. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
