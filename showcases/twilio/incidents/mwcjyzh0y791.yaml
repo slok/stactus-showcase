@@ -1,6 +1,6 @@
 version: incident/v1
 id: mwcjyzh0y791
-name: SMS Delivery Delays from Twilio to Vodacom Tanzania
+name: SMS Delivery Delays From a Subset of Twilio Alphanumeric Sender IDs to Vodacom Tanzania
 impact: minor
 systems:
     - 9z5gsqyjs4rl
@@ -17,3 +17,10 @@ timeline:
     - ts: "2026-06-03 02:32:09"
       description: Twilio customers may be experiencing SMS delivery delays from Twilio to Vodacom network subscribers in Tanzania. Our team is actively investigating this issue. We will provide another update in 8 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-06-03 10:32:23"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Vodacom network subscribers in Tanzania. Our team is actively investigating this issue. We will provide another update in 16 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-03 10:37:14"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric Sender IDs to Vodacom network subscribers in Tanzania. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-06-03 11:39:02"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric Sender IDs to Vodacom network subscribers in Tanzania. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
