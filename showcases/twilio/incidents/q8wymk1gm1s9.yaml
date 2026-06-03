@@ -1,6 +1,6 @@
 version: incident/v1
 id: q8wymk1gm1s9
-name: SMS Delivery Delays and Failures from Twilio to Jazz Pakistan
+name: SMS Delivery Delays and Failures from Twilio Phone Numbers to Jazz Pakistan
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2026-06-02 23:30:15"
       description: We have observed a recovery in SMS delivery from Twilio to Jazz network subscribers in Pakistan and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-06-03 01:32:48"
+      description: The incident has been resolved and SMS delivery from Twilio Phone Numbers to Jazz network subscribers in Pakistan is operating normally.
+      resolved: true
