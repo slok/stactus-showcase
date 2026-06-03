@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8mygwgyr9w2y
+name: SMS Delivery Delays from a Subset of Twilio Short Codes to Telcel Mexico
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-06-03 06:56:09"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to Telcel network subscribers in Mexico. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-03 07:56:33"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to Telcel network subscribers in Mexico. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true

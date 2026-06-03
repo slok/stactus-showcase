@@ -1,0 +1,18 @@
+version: incident/v1
+id: thp2kyjx60qn
+name: Elevated errors on Opus 4.7
+impact: minor
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-06-03 07:10:01"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-06-03 07:28:39"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-03 07:38:04"
+      description: This incident has been resolved.
+      resolved: true
