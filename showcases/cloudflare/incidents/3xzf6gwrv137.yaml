@@ -6,7 +6,12 @@ systems:
     - s0991jwsqllx
 timeline:
     - ts: "2026-06-03 02:26:24"
-      description: Cloudflare is investigating reports of some legitimate requests being incorrectly assigned a high bot score. Customers using Bot Management rules to challenge or block traffic based on bot score may see legitimate visitors incorrectly actioned. We are actively investigating and will provide updates as we learn more.
+      description: Cloudflare is investigating reports of some legitimate requests being incorrectly assigned a low bot score. Customers using Bot Management rules to challenge or block traffic based on bot score may see legitimate visitors incorrectly actioned. We are actively investigating and will provide updates as we learn more.
       investigating: true
     - ts: "2026-06-03 02:38:37"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-03 04:50:57"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-03 05:58:34"
+      description: This incident has been resolved.
+      resolved: true

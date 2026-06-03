@@ -1,0 +1,12 @@
+version: incident/v1
+id: j240y90h4g0r
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-06-03 03:13:28"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-06-03 03:45:54"
+      description: 'We are investigating reports of impacted performance for some GitHub services.<br /><br />---<br />Relevant stamps: dotcom'
+      investigating: true
