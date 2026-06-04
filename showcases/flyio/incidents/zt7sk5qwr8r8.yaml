@@ -11,3 +11,6 @@ timeline:
         Impact is limited to these legacy products and does not affect deployments, running Fly applications in general, or Managed Postgres clusters.
     - ts: "2026-06-04 16:02:43"
       description: 'We have restored the degraded Consul cluster and are monitoring for stability. All affected functionality should now be working correctly: Unmanaged Postgres and LiteFS with dynamic leases.'
+    - ts: "2026-06-04 17:03:41"
+      description: 'We have restored the degraded Consul cluster. All affected functionality is now working correctly: Unmanaged Postgres and LiteFS with dynamic leases.'
+      resolved: true

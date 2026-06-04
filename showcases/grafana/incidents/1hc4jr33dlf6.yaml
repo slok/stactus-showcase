@@ -1,0 +1,45 @@
+version: incident/v1
+id: 1hc4jr33dlf6
+name: Grafana Assistant Skills Page Blank
+impact: major
+systems:
+    - x9t5gzt89qzk
+    - 6njc1l458r8s
+    - 5kktvpq2qys8
+    - 9fpjqnx4cbpb
+    - mp5h0nb80qmx
+    - 7wqgqsd15n69
+    - s16nnryhyp57
+    - r5h2nlp8w12b
+    - ttpjsxc9hb92
+    - pwvs5s3tf1m9
+    - hfpjdbt42ppw
+    - qt1bbc3yrddv
+    - vdtfhpf8zpdz
+    - 8bpfp6sdks03
+    - 5341wrt12x5p
+    - g0d9yzm5c6mn
+    - wnvpx2hglsns
+    - n01mwnhf678k
+    - fk83z2b7w8m4
+    - k3lrpx0sk11f
+    - fxtb405qq97r
+    - 2nmddqjqhm20
+    - nsdmlzxxdxg4
+    - y0236bp3njgb
+    - 4gf2kxp258h2
+    - kr2bkfg6r3q4
+    - qp0s0s1dkqht
+    - 66xk1htkzm07
+    - pshdmtd378dc
+    - 5q4p7yvyhvwb
+    - 5xlh6b4dtf2t
+timeline:
+    - ts: "2026-06-04 16:44:07"
+      description: We are currently investigating an issue affecting the Skills page of Grafana Assistant. Impacted deployments will encounter a blank screen when attempting to access this page. At this time, we have observed partial impact in the us-east-0 and us-central-0 regions, and will provide an update here if the scope of impact expands.
+      investigating: true
+    - ts: "2026-06-04 16:56:13"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-06-04 17:00:15"
+      description: The issue has been identified, and we are working on a fix.
