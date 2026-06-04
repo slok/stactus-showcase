@@ -1,9 +1,13 @@
 version: incident/v1
 id: f1zhs84fj3q5
-name: On Call Engineers are Investigating
-impact: none
-systems: []
+name: Pricing Callback Delays
+impact: minor
+systems:
+    - jw9dh2mf4392
 timeline:
     - ts: "2026-06-04 00:47:24"
       description: Our monitoring systems have detected a potential issue with Billable Items Service Errors. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-06-04 02:14:12"
+      description: We are currently investigating a service interruption affecting some pricing callbacks being delayed. We will provide another update within 1 hour or as soon as additional information becomes available.
       investigating: true

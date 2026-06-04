@@ -19,3 +19,7 @@ timeline:
     - ts: "2026-06-03 23:38:20"
       description: We have applied mitigations and are continuing to see improvements in the Dependabot scheduled version updates. <br /><br />Next update in 12 hours.
       investigating: true
+    - ts: "2026-06-04 02:35:59"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-06-04 02:37:07"
+      description: Job lag has recovered from a peak of 1.71 days to 9h 9m at 19:29 UTC and continues to decrease. Backlog is draining at a healthy rate with no signs of reversal. New jobs are processing on schedule. Remaining lag will continue to drain over the next few hours as queued work completes; this is expected post-incident catch-up, not active impact. We will continue monitoring and re-engage if lag trend reverses.
