@@ -1,6 +1,6 @@
 version: incident/v1
 id: 966p0bggwkrl
-name: SMS Delivery Failures between a Subset of Twilio Short Codes and Multiple Networks in Ireland
+name: SMS Delivery Delays and Failures between a Subset of Twilio Short Codes and Multiple Networks in Ireland
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -8,3 +8,6 @@ timeline:
     - ts: "2026-06-04 20:19:19"
       description: Twilio customers may be experiencing SMS delivery failures between a subset of Twilio Short Codes and network subscribers on multiple networks in Ireland. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-06-04 20:45:03"
+      description: We have completed our investigation and determined that this event did  result in a subset of  customer's  impact. We have contacted impacted customers to provide additional information about the incident.
+      resolved: true
