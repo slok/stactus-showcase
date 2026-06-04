@@ -9,3 +9,5 @@ timeline:
         One of our Consul clusters is in degraded state due to a failed node. This can cause issues with LiteFS primary node selection, Unmanaged Postgres (14.x and older *only*), and creation of new Unmanaged Postgres clusters.
 
         Impact is limited to these legacy products and does not affect deployments, running Fly applications in general, or Managed Postgres clusters.
+    - ts: "2026-06-04 16:02:43"
+      description: 'We have restored the degraded Consul cluster and are monitoring for stability. All affected functionality should now be working correctly: Unmanaged Postgres and LiteFS with dynamic leases.'

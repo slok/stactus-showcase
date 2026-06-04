@@ -11,5 +11,5 @@ timeline:
     - ts: "2026-05-28 01:27:22"
       description: The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability.
     - ts: "2026-05-28 01:32:27"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On May 28, 2026, between 00:54 UTC and 01:19 UTC, some users experienced errors when interacting with the Webhooks API, including webhook delivery history and configuration endpoints. On average, the error rate was 0.28% and peaked at 0.45%. This was due to a bug that caused a single Kubernetes pod to enter a CrashLoopBackOff after receiving a 500 with an empty response body from Cosmos DB.<br /><br />We mitigated the incident by restarting the service. To prevent future incidents, we are pushing a change to handle this response scenario from Cosmos DB appropriately.
       resolved: true
