@@ -21,3 +21,10 @@ timeline:
       investigating: true
     - ts: "2026-06-04 19:07:42"
       description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-06-04 19:41:26"
+      description: The mitigation for Copilot Code Review is now fully deployed, and new reviews are working as expected.  We are continuing to monitor for full resolution.<br /><br /> Customers may need to re-request Copilot Code Review. Copilot Code Review Actions runs running for longer than 20 minutes may be safely cancelled.
+    - ts: "2026-06-04 19:59:13"
+      description: This issue is now fully resolved and Copilot Code Review is working as expected.
+    - ts: "2026-06-04 19:59:27"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
