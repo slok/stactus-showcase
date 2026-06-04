@@ -1,0 +1,13 @@
+version: incident/v1
+id: nnt4rfbgn1y6
+name: DNS API Service
+impact: minor
+systems:
+    - qdnryq0lymfk
+timeline:
+    - ts: "2026-06-04 10:12:10"
+      description: |-
+        Our Engineering team is investigating an issue impacting our DNS API service. During this time, users may experience issues performing domain and DNS record management operations from the Control Panel and API, including creating, updating, or deleting DNS records. As a result, services that rely on DNS API operations, such as Let's Encrypt certificate provisioning and MongoDB cluster creation, may also be impacted.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
