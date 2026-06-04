@@ -1,0 +1,11 @@
+version: incident/v1
+id: kwnypgwqyths
+name: Cloudflare Analytics API latency out of AMS
+impact: minor
+systems:
+    - 57ctn3f2qsyj
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-06-04 15:21:37"
+      description: Cloudflare is investigating latency issues with Cloudflare Analytics API, specifically affecting the Amsterdam (AMS) region. These issues do not affect other API services nor the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+      investigating: true
