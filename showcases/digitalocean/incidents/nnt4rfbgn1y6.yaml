@@ -30,3 +30,11 @@ timeline:
         Our Engineering team has implemented a fix to resolve the issue impacting our DNS API service. Users should now be able to perform domain and DNS record management operations successfully through the Control Panel and API. Additionally, services affected by this issue, including Let's Encrypt certificate provisioning, MongoDB cluster creation, App Platform deployments, and DigitalOcean Kubernetes (DOKS) cluster create and delete operations, should now be functioning as expected.
 
         We are monitoring the situation closely and will share an update once the issue is resolved completely.
+    - ts: "2026-06-04 11:47:05"
+      description: |-
+        Between 09:41 and 11:24 UTC, our Engineering team identified an issue impacting the DNS API service. During this period, users may have experienced issues performing domain and DNS record management operations through the Control Panel and API. Services dependent on DNS API operations, including Let's Encrypt certificate provisioning, MongoDB cluster creation, App Platform deployments, and DigitalOcean Kubernetes (DOKS) cluster create and delete operations, were also impacted.
+
+        Our Engineering team has confirmed that the underlying issue affecting the DNS API service has been fully resolved, and all affected services are now operating normally.
+
+        If you continue to experience any issues, please contact our Support team by opening a ticket. We apologize for any inconvenience caused.
+      resolved: true
