@@ -1,0 +1,23 @@
+version: incident/v1
+id: 5h5lmbffp07c
+name: Copilot Code Review Failing
+impact: critical
+systems: []
+timeline:
+    - ts: "2026-06-04 18:02:54"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-06-04 18:03:24"
+      description: We have identified that Copilot Code Review.  Users may see "Copilot ran into an error" on Pull Requests that requested Copilot Code Review.<br /><br />A mitigation is in progress.
+      investigating: true
+    - ts: "2026-06-04 18:22:27"
+      description: We have identified that Copilot Code Review users may see "Copilot ran into an error" on Pull Requests that requested Copilot Code Review.<br /><br />A mitigation is in progress, we expect mitigation in approximately 30m.<br /><br />GitHub Enterprise Cloud with Data Residency is not impacted.
+      investigating: true
+    - ts: "2026-06-04 18:52:02"
+      description: The mitigation for Copilot Code Review is rolling out and we are seeing early signs of recovery.
+      investigating: true
+    - ts: "2026-06-04 19:07:25"
+      description: The mitigation for Copilot Code Review is now fully deployed, and new reviews are working as expected.<br /><br />Customers may need to re-request Copilot Code Review.  Copilot Code Review Actions runs running for longer than 20 minutes may be safely cancelled.
+      investigating: true
+    - ts: "2026-06-04 19:07:42"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
