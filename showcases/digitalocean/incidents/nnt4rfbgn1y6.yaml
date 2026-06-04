@@ -3,6 +3,9 @@ id: nnt4rfbgn1y6
 name: DNS API Service
 impact: minor
 systems:
+    - txysr8r0gn1n
+    - mzkgffp35tq4
+    - ljktrzzffk6j
     - qdnryq0lymfk
 timeline:
     - ts: "2026-06-04 10:12:10"
@@ -11,3 +14,19 @@ timeline:
 
         We apologize for the inconvenience and will share an update once we have more information.
       investigating: true
+    - ts: "2026-06-04 10:59:17"
+      description: |-
+        Our Engineering team continues to investigate an issue impacting our DNS API service. During this time, users may experience issues performing domain and DNS record management operations from the Control Panel and API, including creating, updating, or deleting DNS records. As a result, services that depend on DNS API operations, including Let's Encrypt certificate provisioning, MongoDB cluster creation, App Platform deployments, and DigitalOcean Kubernetes (DOKS) cluster create and delete operations, may also be impacted.
+
+        We apologize for the inconvenience and will share more information as it becomes available.
+      investigating: true
+    - ts: "2026-06-04 11:32:22"
+      description: |-
+        Our Engineering team has identified the cause of the issue impacting our DNS API service and is actively working on a fix. During this time, users may experience errors when attempting to create, update, or delete domains and DNS records through the Control Panel and API. As a result, services that depend on DNS API operations, including Let's Encrypt certificate provisioning, MongoDB cluster creation, App Platform deployments, and DigitalOcean Kubernetes (DOKS) cluster create and delete operations, may also be impacted.
+
+        We will post an update as soon as additional information is available.
+    - ts: "2026-06-04 11:39:16"
+      description: |-
+        Our Engineering team has implemented a fix to resolve the issue impacting our DNS API service. Users should now be able to perform domain and DNS record management operations successfully through the Control Panel and API. Additionally, services affected by this issue, including Let's Encrypt certificate provisioning, MongoDB cluster creation, App Platform deployments, and DigitalOcean Kubernetes (DOKS) cluster create and delete operations, should now be functioning as expected.
+
+        We are monitoring the situation closely and will share an update once the issue is resolved completely.
