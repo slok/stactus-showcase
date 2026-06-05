@@ -1,10 +1,13 @@
 version: incident/v1
 id: bsp4gs9bc6mj
-name: SMS Delivery Delays from Twilio Phone Numbers to Sky United Kingdom
+name: SMS Delivery Delays from Twilio to Sky UK Limited United Kingdom
 impact: minor
 systems:
     - llgdln3dcs6p
 timeline:
     - ts: "2026-06-05 01:26:37"
       description: Twilio customers may be experiencing SMS delivery delays from Twilio Phone Numbers to Sky network subscribers in the United Kingdom. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-05 02:27:04"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Sky UK Limited network subscribers in the United Kingdom. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true

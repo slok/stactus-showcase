@@ -59,3 +59,6 @@ timeline:
       description: GIFs remain enabled for unaffected clients (versions below 7.0.0 and above 7.0.4). Users may need to re-login to use GIFs. We will provide updates as more information becomes available.
     - ts: "2026-06-02 18:58:50"
       description: GIFs are re-enabled for clients on versions below 7.0.0 and above 7.0.4, but users may need to re-login to send GIFs. Users on affected versions (7.0.0 – 7.0.4) can upgrade to 7.0.5 to send GIFs.
+    - ts: "2026-06-05 02:44:54"
+      description: 'This incident has been resolved and GIF functionality has been restored for client versions below 7.0.0 and above 7.0.4. Users may need to re-login to send GIFs. Users on affected versions (7.0.0 – 7.0.4) should refer to the support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0086088'
+      resolved: true
