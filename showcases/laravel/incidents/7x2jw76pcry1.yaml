@@ -1,0 +1,18 @@
+version: incident/v1
+id: 7x2jw76pcry1
+name: Intermittent deployment failures
+impact: minor
+systems:
+    - d4z7n3kvpgp0
+    - vhd4h127zqt5
+    - rnyz50rjb4p5
+    - nfc2yzmxzw4s
+    - r5wtfz1xy72b
+    - s3zm1t588bky
+    - 0d75ngbkyzz2
+    - 29r8t4n835qg
+    - sr7vs6x5c6cf
+timeline:
+    - ts: "2026-06-05 16:33:40"
+      description: We are aware of intermittent failing deployments for users in some regions, often citing a missing package.lock or composer.lock file. We are currently isolating the issue to potential upstream providers.
+      investigating: true

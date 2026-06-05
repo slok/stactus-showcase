@@ -1,6 +1,6 @@
 version: incident/v1
 id: msr6bcbhtw4x
-name: SMS Delivery Delays From a Subset of Twilio Short Codes to Verizon United States
+name: SMS Delivery Delays from a Subset of Twilio Short Codes to Verizon United States
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -18,3 +18,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to Verizon Wireless network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
     - ts: "2026-06-05 14:09:51"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Short Codes to Verizon network subscribers in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-06-05 16:16:22"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Short Codes to Verizon network subscribers in the United States is operating normally.
+      resolved: true

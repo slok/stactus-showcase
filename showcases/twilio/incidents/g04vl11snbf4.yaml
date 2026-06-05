@@ -1,0 +1,10 @@
+version: incident/v1
+id: g04vl11snbf4
+name: Empty Catalog Index within Segment Documents
+impact: minor
+systems:
+    - b81y83zrvglj
+timeline:
+    - ts: "2026-06-05 16:32:44"
+      description: We are observing an issue where customers are unable to see Catalog entries on index page within Segment documents. We are currently working with our Engineering Team to resolve the issue as soon as possible. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
