@@ -17,3 +17,5 @@ timeline:
       description: The degradation has been mitigated. We are monitoring to ensure stability.
     - ts: "2026-06-05 18:43:49"
       description: We are still exploring options to restore the deleted subscriptions, and we will provide another update soon. In the meantime, customers can manually re-subscribe their Slack and Teams channels to repositories.
+    - ts: "2026-06-05 20:34:00"
+      description: 'Additional detail on the scope of impact during the 14:49 UTC to 16:45 UTC window: a small but elevated percentage of authenticated requests to GitHub.com received incorrect authorization failures. We saw a 1 to 2% increase in 4xx responses for a small number of endpoints (/repos/{owner}/{repo}/pulls/{pull_number}, /repos/{owner}/{repo}, /repos/{owner}/{repo}/contents/{path}). The vast majority of requests completed normally; customers who saw errors during the window can retry now and should see them succeed.'
