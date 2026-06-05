@@ -10,3 +10,8 @@ timeline:
     - ts: "2026-06-05 17:25:44"
       description: Customers may see unexpected repo unsubscription events in their Slack or Teams channels.
       investigating: true
+    - ts: "2026-06-05 18:04:43"
+      description: During 14:49 UTC to 16:45 UTC, customers may have experienced authorization failures for legitimate requests. This was caused by a recently enabled feature flag, which has now been turned off as a mitigation. Customers should now see normal authorization behavior. This is also the cause of the chat integration issue, and we are exploring options to restore it. In the meantime, customers can manually re-subscribe their repo.
+      investigating: true
+    - ts: "2026-06-05 18:05:00"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
