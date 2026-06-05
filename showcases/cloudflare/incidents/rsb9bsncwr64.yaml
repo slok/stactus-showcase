@@ -1,0 +1,10 @@
+version: incident/v1
+id: rsb9bsncwr64
+name: TLS Connectivity Issues Affecting Subset of Let's Encrypt Certificates
+impact: minor
+systems:
+    - cghykwlwsmn5
+timeline:
+    - ts: "2026-06-05 17:22:51"
+      description: Cloudflare has identified an issue affecting a subset of Let's Encrypt certificates, in which unsupported CA bundling may result in TLS connectivity issues for some visitors.
+      investigating: true

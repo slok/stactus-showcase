@@ -16,3 +16,8 @@ timeline:
     - ts: "2026-06-05 16:33:40"
       description: We are aware of intermittent failing deployments for users in some regions, often citing a missing package.lock or composer.lock file. We are currently isolating the issue to potential upstream providers.
       investigating: true
+    - ts: "2026-06-05 16:45:04"
+      description: We are monitoring recovery of impacted services provided through upstream Git providers impacting deployments roughly between 15:40 - 16:20 UTC. If you had a prior deployment failure, please redeploy your application. Applications already deployed were unimpacted and are handling traffic normally.
+    - ts: "2026-06-05 16:53:18"
+      description: The incident has been resolved. Temporary deployment failures from applications citing missing composer.lock or package.lock files was isolated to a transient failure on a Github endpoint that fetches codebase contents. Any prior failed deployments can be safely retried.
+      resolved: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: 2nmfnbknhlnv
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-06-05 17:20:31"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-06-05 17:25:44"
+      description: Customers may see unexpected repo unsubscription events in their Slack or Teams channels.
+      investigating: true
