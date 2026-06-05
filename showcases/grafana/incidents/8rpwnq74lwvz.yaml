@@ -12,8 +12,10 @@ timeline:
       description: Our engineering team is still investigating this issue. We do not have any new information to share at this time, but will continue to provide timely updates.
       investigating: true
     - ts: "2026-06-05 17:14:02"
-      description: We've identified an issue with RBAC syncing for a small number of customers and are working on a fix to restore permission services for those affected.
+      description: We've identified an issue with RBAC, and are working on a fix to restore permission services for those affected.
     - ts: "2026-06-05 18:00:35"
       description: A fix is being deployed now, and we are monitoring the progress.
     - ts: "2026-06-05 18:40:49"
       description: We've identified an earlier regression in one of our recent code changes that was affecting resolution of our previous fix. We're deploying this change now and applying a hot fix in the interim to restore access quickly
+    - ts: "2026-06-05 19:34:32"
+      description: A fix has been released to prod and rolling out across the fleet for IRM, restoring access to affected customers. Thanks for your patience through this work. We're continuing to monitor to confirm we've returned to a steady state.

@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6xtwfgsc7kv3
+name: Media Message Delivery Affected Across Messaging Channels
+impact: none
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2026-06-05 19:24:01"
+      description: Twilio media message delivery was degraded for 44 minutes between 11:02 and 11:46 Pacific Time on 06/05/2026 During this period of time customers may have experienced failed media message delivery due to 11205 errors. The issue has now been resolved.
+      resolved: true
