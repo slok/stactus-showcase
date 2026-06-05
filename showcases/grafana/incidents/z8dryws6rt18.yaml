@@ -24,3 +24,6 @@ systems:
 timeline:
     - ts: "2026-06-05 14:02:31"
       description: We have identified an issue causing Silences to not work as expected in the Cloud (Mimir) Alertmanager. Grafana Alertmanager is working ok, this is only affecting Data source-managed alerts.
+    - ts: "2026-06-05 15:01:16"
+      description: This incident has been resolved.
+      resolved: true

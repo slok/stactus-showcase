@@ -1,0 +1,15 @@
+version: incident/v1
+id: fprlnsvdnr2k
+name: Elevated errors on many Claude models
+impact: major
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-06-05 15:19:26"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-06-05 15:43:19"
+      description: We have identified the issue and we are working to mitigate the issue. Current ongoing issues with frontier models are with Opus 4.7 and Opus 4.8 and other models have recovered.
