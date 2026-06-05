@@ -2,11 +2,7 @@ version: incident/v1
 id: fprlnsvdnr2k
 name: Elevated errors on many Claude models
 impact: major
-systems:
-    - rwppv331jlwc
-    - k8w3r06qmzrp
-    - yyzkbfz2thpt
-    - bpp5gb3hpjcl
+systems: []
 timeline:
     - ts: "2026-06-05 15:19:26"
       description: We are currently investigating this issue.
@@ -17,3 +13,17 @@ timeline:
       description: We are continuing to work to resolve issues affecting success rates on Opus 4.7 and 4.8, and will provide additional updates as soon as possible.
     - ts: "2026-06-05 17:13:32"
       description: Success rates across all models have returned to expected levels. We are continuing to monitor closely to ensure no further issues will recur.
+    - ts: "2026-06-05 18:27:34"
+      description: |-
+        The incident started at 8:08 PT / 15:08 UTC. Recovery times per model were:
+
+        Opus 4.6 - 8:25 PT / 15:25 UTC
+        Sonnet 4.6 — 9:23 PT / 16:23 UTC
+        Opus 4.8 — 9:59 PT / 16:59 UTC
+        Opus 4.7 — 10:12 PT / 17:12 UTC
+        Opus 4.5 — 10:29 PT / 17:29 UTC
+
+        All models have now fully recovered.
+    - ts: "2026-06-05 18:28:04"
+      description: This incident has been resolved.
+      resolved: true

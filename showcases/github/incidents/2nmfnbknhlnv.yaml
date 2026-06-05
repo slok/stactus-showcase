@@ -1,6 +1,6 @@
 version: incident/v1
 id: 2nmfnbknhlnv
-name: Disruption with some GitHub services
+name: Accidentally deleted subscriptions for chat integrations (Slack and MS Teams)
 impact: minor
 systems: []
 timeline:
@@ -15,3 +15,5 @@ timeline:
       investigating: true
     - ts: "2026-06-05 18:05:00"
       description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-06-05 18:43:49"
+      description: We are still exploring options to restore the deleted subscriptions, and we will provide another update soon. In the meantime, customers can manually re-subscribe their Slack and Teams channels to repositories.

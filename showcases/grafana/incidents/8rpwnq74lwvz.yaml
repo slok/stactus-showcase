@@ -15,3 +15,5 @@ timeline:
       description: We've identified an issue with RBAC syncing for a small number of customers and are working on a fix to restore permission services for those affected.
     - ts: "2026-06-05 18:00:35"
       description: A fix is being deployed now, and we are monitoring the progress.
+    - ts: "2026-06-05 18:40:49"
+      description: We've identified an earlier regression in one of our recent code changes that was affecting resolution of our previous fix. We're deploying this change now and applying a hot fix in the interim to restore access quickly
