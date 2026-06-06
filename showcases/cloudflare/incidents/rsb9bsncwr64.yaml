@@ -12,3 +12,6 @@ timeline:
       description: "Cloudflare has identified an issue affecting a subset of Let's Encrypt certificates, in which unsupported CA bundling may result in TLS connectivity issues for some visitors. Customers requiring immediate resolution may order a replacement certificate; re-issuance from the same Certificate Authority will resolve the issue. \n\nCustomer action is not required for a permanent fix — Cloudflare engineering is rebuilding all impacted certificate chains, and affected certificates will be automatically restored to a valid state."
     - ts: "2026-06-06 03:42:02"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-06 03:53:15"
+      description: This incident has been resolved.
+      resolved: true
