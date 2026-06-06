@@ -1,0 +1,16 @@
+version: incident/v1
+id: b0plzff6yl6f
+name: Disruption with some GitHub services in the EU region
+impact: minor
+systems:
+    - st3j38cctv9l
+timeline:
+    - ts: "2026-06-06 16:53:35"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-06-06 16:56:49"
+      description: Packages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-06-06 17:07:46"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
