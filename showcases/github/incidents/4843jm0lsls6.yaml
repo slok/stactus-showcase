@@ -1,6 +1,6 @@
 version: incident/v1
 id: 4843jm0lsls6
-name: Disruption with some GitHub services
+name: EU Network Maintenance
 impact: minor
 systems: []
 timeline:
@@ -8,7 +8,7 @@ timeline:
       description: We are investigating reports of impacted performance for some GitHub services.
       investigating: true
     - ts: "2026-06-06 15:31:43"
-      description: We are conducting routine maintenance on our network infrastructure in the EU. This will not impact production traffic, but may result in slightly increased latency for the remainder of our work. We expect this to last until 15:00 UTC.
+      description: We are conducting routine maintenance on our network infrastructure in the EU. This will not impact production traffic, but may result in slightly increased latency for the remainder of our work. We expect this to last until 17:00 UTC.
       investigating: true
     - ts: "2026-06-06 15:36:41"
       description: The degradation has been mitigated. We are monitoring to ensure stability.
