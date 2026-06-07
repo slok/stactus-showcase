@@ -1,6 +1,6 @@
 version: incident/v1
 id: lvh3fbt7rc2c
-name: SMS Delivery Delays and Failures from Germany to Twilio Phone Numbers
+name: SMS Delivery Failures From Germany to Twilio Phone Numbers
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2026-06-07 15:41:12"
       description: We have observed a recovery in SMS delivery from Germany to Twilio Phone Numbers and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-06-07 17:42:47"
+      description: The incident has been resolved and SMS delivery from Germany to Twilio Phone Numbers is operating normally.
+      resolved: true
