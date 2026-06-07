@@ -1,0 +1,15 @@
+version: incident/v1
+id: s4pq658bt69h
+name: Degraded performance for multiple models
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-06-07 03:31:30"
+      description: We are investigating elevated errors on requests to Claude Opus 4.7. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-06-07 03:41:42"
+      description: We have identified the cause of elevated errors on requests to several Claude models and are working to resolve these issues.

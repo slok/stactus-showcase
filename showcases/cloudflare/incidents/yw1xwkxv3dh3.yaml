@@ -1,0 +1,13 @@
+version: incident/v1
+id: yw1xwkxv3dh3
+name: Network Connectivity Issues observed in Dallas (DFW)
+impact: minor
+systems:
+    - r8ppmb3xm98j
+    - 5wnz34mhfhrk
+    - jm5mggc2wp95
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-06-07 02:47:40"
+      description: Connectivity errors (HTTP 500s) and elevated latency observed due to a hardware failure between 20:45 - 21:05 UTC 2026-06-06. Cloudflare have mitigated the issue.
+      resolved: true
