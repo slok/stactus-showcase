@@ -1,7 +1,7 @@
 version: incident/v1
 id: hg4y9xv98d9v
 name: Brief Rule Evaluation Failures in prod-eu-west-3
-impact: minor
+impact: major
 systems:
     - 82s7r3tjyb6n
 timeline:
@@ -10,4 +10,7 @@ timeline:
       investigating: true
     - ts: "2026-06-07 02:46:56"
       description: Intermittent spikes in rule evaluations continuing.
+      investigating: true
+    - ts: "2026-06-07 03:50:03"
+      description: We are continuing to investigate this issue.
       investigating: true
