@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5q28t2lttcm7
+name: Elevated 500 errors on CF1 SaaS Integrations API
+impact: critical
+systems:
+    - h2p0jj4ltvcq
+timeline:
+    - ts: "2026-06-08 17:36:21"
+      description: Cloudflare One's SaaS integrations page has reported elevated HTTP 500 errors on API requests impacting ability to create, view, and manage integrations.
+      investigating: true
+    - ts: "2026-06-08 17:51:46"
+      description: A fix has been implemented and we are monitoring the results.
