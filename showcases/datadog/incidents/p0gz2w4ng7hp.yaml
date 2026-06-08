@@ -1,0 +1,18 @@
+version: incident/v1
+id: p0gz2w4ng7hp
+name: Increased latency across multiple products
+impact: minor
+systems:
+    - wxl8hfbylpf5
+    - zf9789bp3s1k
+    - cwp97nbkd47t
+    - 2ng88yhsvb74
+timeline:
+    - ts: "2026-06-08 11:05:03"
+      description: We are investigating and have identified a fix for increased latency across multiple products. As a result of this issue, some users may see delays in data across the platform.
+    - ts: "2026-06-08 11:21:57"
+      description: We have deployed a fix and we are monitoring the results.
+    - ts: "2026-06-08 12:21:47"
+      description: |-
+        We are continuing to monitor the fix deployed earlier.
+        We will provide another update once the issue is fully resolved.

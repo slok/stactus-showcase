@@ -3,6 +3,7 @@ id: 3dp46bcp6tg5
 name: IRM Degraded Performance
 impact: minor
 systems:
+    - jw3c386xwr40
     - qjwn7tbhdl8y
 timeline:
     - ts: "2026-06-08 10:45:31"
@@ -11,3 +12,7 @@ timeline:
     - ts: "2026-06-08 10:47:14"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2026-06-08 11:15:25"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-08 12:26:01"
+      description: We are continuing to work on a fix for this issue.
