@@ -1,0 +1,13 @@
+version: incident/v1
+id: m7n7sm0sr1pz
+name: Disruption with some GitHub services
+impact: critical
+systems:
+    - kr09ddfgbfsf
+timeline:
+    - ts: "2026-06-08 07:11:37"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-06-08 07:14:01"
+      description: Issues is experiencing degraded availability. We are continuing to investigate.
+      investigating: true

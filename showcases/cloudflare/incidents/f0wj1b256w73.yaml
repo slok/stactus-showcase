@@ -1,0 +1,13 @@
+version: incident/v1
+id: f0wj1b256w73
+name: DNS Resolver issue
+impact: minor
+systems:
+    - r8ppmb3xm98j
+    - 8w536gxk7dvq
+timeline:
+    - ts: "2026-06-08 05:56:24"
+      description: Cloudflare is investigating an issue with DNS resolution for `.co` and `.xyz` TLDs in Dallas, US. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-06-08 06:32:05"
+      description: A fix has been implemented and we are monitoring the results.
