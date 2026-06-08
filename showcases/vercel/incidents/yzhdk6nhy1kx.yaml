@@ -1,0 +1,14 @@
+version: incident/v1
+id: yzhdk6nhy1kx
+name: Elevated Functions Invocation Errors in DUB1 (Dublin, Ireland) Region
+impact: minor
+systems:
+    - kgcsn9c73xzf
+timeline:
+    - ts: "2026-06-08 18:57:47"
+      description: |-
+        The issue has been identified and a fix is being implemented.
+
+        A small number of requests may have seen elevated error rates in function invocations during this period.
+    - ts: "2026-06-08 19:04:25"
+      description: We're continuing to work on a fix. In the meantime, deployments with multiple function regions or failover regions are being rerouted to the nearest healthy region.
