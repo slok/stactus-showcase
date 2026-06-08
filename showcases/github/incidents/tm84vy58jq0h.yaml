@@ -1,0 +1,16 @@
+version: incident/v1
+id: tm84vy58jq0h
+name: Elevated rate of Git push errors
+impact: major
+systems: []
+timeline:
+    - ts: "2026-06-08 13:56:31"
+      description: |-
+        On May 25, 2026, between 09:02 UTC and 09:11 UTC, Git push operations over HTTPS and SSH experienced elevated failures. During this window, an average of 31% and a peak of 43% of push requests failed.
+
+        The incident was caused by a recently enabled code path that issued an unexpectedly expensive database query against a primary database. The resulting load exhausted the database's connection pool, which caused the push failures above. The acute impact resolved automatically as in-flight work completed.
+
+        We mitigated the incident by disabling the feature flag controlling the new code path.
+
+        We are working to route the affected read to a replica to reduce the likelihood of issues like this in the future.
+      resolved: true
