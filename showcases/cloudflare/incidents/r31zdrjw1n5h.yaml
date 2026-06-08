@@ -1,0 +1,13 @@
+version: incident/v1
+id: r31zdrjw1n5h
+name: GraphQL elevated latency
+impact: minor
+systems:
+    - 4c231tkdlpcl
+    - k0mgxrls5y1b
+timeline:
+    - ts: "2026-06-08 15:47:45"
+      description: Cloudflare has identified an issue where some customers may experience latency querying the GraphQL API. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-06-08 16:14:08"
+      description: A fix has been implemented and we are monitoring the results.
