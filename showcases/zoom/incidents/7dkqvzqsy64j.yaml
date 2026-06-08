@@ -1,0 +1,23 @@
+version: incident/v1
+id: 7dkqvzqsy64j
+name: A Subset of users experiencing Issues with Inbound and Outbound Calls for Zoom Phone and Zoom Contact Center in Singapore region
+impact: minor
+systems:
+    - jsk0584rpghr
+    - dkz3yppqdg9h
+timeline:
+    - ts: "2026-06-08 08:06:40"
+      description: "We are currently investigating an issue related to our carrier which is affecting Inbound and Outbound Calls for Zoom Phone and Zoom Contact Center in Singapore region. \n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue."
+      investigating: true
+    - ts: "2026-06-08 08:28:23"
+      description: |-
+        We have identified the root cause affecting Inbound and Outbound Calls for Zoom Phone and Zoom Contact Center in Singapore region.
+
+        We are working with our carrier partner on a resolution, and we will keep you informed with timely updates as progress is made.
+
+        Thank you for your patience.
+    - ts: "2026-06-08 08:41:59"
+      description: Our carrier partner has resolved the issue where a subset of users experiencing issues with Inbound and Outbound Calls for Zoom Phone and Zoom Contact Center in Singapore region. Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-06-08 08:55:38"
+      description: This incident has been resolved.
+      resolved: true

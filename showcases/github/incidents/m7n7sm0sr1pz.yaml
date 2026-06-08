@@ -1,9 +1,11 @@
 version: incident/v1
 id: m7n7sm0sr1pz
-name: Disruption with some GitHub services
+name: Pull Requests and Issues unavailable for signed-out users
 impact: critical
 systems:
     - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
 timeline:
     - ts: "2026-06-08 07:11:37"
       description: We are investigating reports of impacted performance for some GitHub services.
@@ -11,3 +13,20 @@ timeline:
     - ts: "2026-06-08 07:14:01"
       description: Issues is experiencing degraded availability. We are continuing to investigate.
       investigating: true
+    - ts: "2026-06-08 07:31:22"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-06-08 07:32:28"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-06-08 08:13:25"
+      description: Following investigation, we are seeing that impact is limited to unauthenticated users when accessing Pull Requests, Issues, or Actions. Our team continues to work towards mitigation with more updates to follow as we have them.
+      investigating: true
+    - ts: "2026-06-08 08:27:48"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-06-08 08:35:21"
+      description: The degradation affecting Actions, Issues and Pull Requests has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-06-08 08:36:22"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

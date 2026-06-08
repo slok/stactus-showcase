@@ -1,0 +1,13 @@
+version: incident/v1
+id: 71hv2q6tk693
+name: Disruption with Claude Opus 4.7
+impact: minor
+systems:
+    - cnnb39dkkk82
+timeline:
+    - ts: "2026-06-08 09:05:44"
+      description: We are investigating reports of degraded performance for Copilot AI Model Providers
+      investigating: true
+    - ts: "2026-06-08 09:08:58"
+      description: We are experiencing degraded availability for the Claude Opus 4.7 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.
+      investigating: true
