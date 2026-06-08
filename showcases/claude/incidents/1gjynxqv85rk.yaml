@@ -1,0 +1,16 @@
+version: incident/v1
+id: 1gjynxqv85rk
+name: Elevated errors on Claude Opus 4.8
+impact: minor
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-06-08 22:20:42"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-06-08 22:36:14"
+      description: This issue has been resolved. Claude Opus 4.8 saw elevated errors from 3:06 PT / 22:06 UTC through 3:28 PT / 22:28 UTC.
+      resolved: true
