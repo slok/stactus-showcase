@@ -11,3 +11,9 @@ timeline:
     - ts: "2026-06-08 09:08:58"
       description: We are experiencing degraded availability for the Claude Opus 4.7 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.
       investigating: true
+    - ts: "2026-06-08 09:49:32"
+      description: We are experiencing degraded availability for the Claude Opus 4.7 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue, and starting to see recovery.<br />
+      investigating: true
+    - ts: "2026-06-08 10:03:32"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

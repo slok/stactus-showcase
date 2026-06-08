@@ -1,0 +1,13 @@
+version: incident/v1
+id: 3dp46bcp6tg5
+name: IRM Degraded Performance
+impact: minor
+systems:
+    - qjwn7tbhdl8y
+timeline:
+    - ts: "2026-06-08 10:45:31"
+      description: We are experiencing access issues in IRM as there are elevated 500 API responses in prod-us-central-0.
+      investigating: true
+    - ts: "2026-06-08 10:47:14"
+      description: We are continuing to investigate this issue.
+      investigating: true

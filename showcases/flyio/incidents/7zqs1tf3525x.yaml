@@ -1,0 +1,13 @@
+version: incident/v1
+id: 7zqs1tf3525x
+name: Capacity issues in ARN region
+impact: minor
+systems:
+    - gpwm5n91bxsk
+timeline:
+    - ts: "2026-06-08 10:31:59"
+      description: |-
+        The ARN region is low on available host capacity. Creating new machines, or starting currently stopped/suspended machines, may fail at this time.
+
+        We are working on provisioning new host capacity in the region. Please consider using nearby regions if possible.
+      investigating: true

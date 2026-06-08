@@ -1,0 +1,13 @@
+version: incident/v1
+id: qdhhz5vbdpvj
+name: R2 and Teams' payments failing during Checkout flow
+impact: minor
+systems:
+    - ll1x88wwz4fq
+    - hb7g5sq2zz0h
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2026-06-08 10:05:23"
+      description: Starting June 5, 2026 (~12:00 UTC), users adding R2 and Teams products see "An unexpected error occurred while processing your payment." blocking them from creating subscriptions.
+    - ts: "2026-06-08 10:06:25"
+      description: We are continuing to work on a fix for this issue.
