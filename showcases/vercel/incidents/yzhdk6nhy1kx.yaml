@@ -11,4 +11,11 @@ timeline:
 
         A small number of requests may have seen elevated error rates in function invocations during this period.
     - ts: "2026-06-08 19:04:25"
-      description: We're continuing to work on a fix. In the meantime, deployments with multiple function regions or failover regions are being rerouted to the nearest healthy region.
+      description: |-
+        We're continuing to work on a fix. In the meantime, deployments with multiple function regions or failover regions are being rerouted to the nearest healthy region.
+
+        If your project uses only the dub1 function region, you can switch to the nearest region, lhr1, and redeploy to mitigate the issue.
+    - ts: "2026-06-08 19:36:38"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-08 19:36:44"
+      description: We are continuing to monitor for any further issues.

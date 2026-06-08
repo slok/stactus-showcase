@@ -1,0 +1,16 @@
+version: incident/v1
+id: 829kf0y1f7pn
+name: Elevated errors on Claude Haiku 4.5
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-06-08 19:10:50"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-06-08 19:52:06"
+      description: The incident is now resolved. The impact started at 11:35 PT / 18:35 UTC and ended at 12:30 PT / 19:30 UTC.
+      resolved: true
