@@ -1,0 +1,12 @@
+version: incident/v1
+id: h0m57pzbf31r
+name: egress ips are broken in ORD
+impact: minor
+systems:
+    - vfq82tp9wp5r
+timeline:
+    - ts: "2026-06-09 09:16:11"
+      description: Egress ips are broken in most of ORD, we are currently investigating this issue
+      investigating: true
+    - ts: "2026-06-09 09:37:36"
+      description: A fix has been implemented and we are monitoring the results.
