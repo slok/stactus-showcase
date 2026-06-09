@@ -1,0 +1,12 @@
+version: incident/v1
+id: jpd6l1jq0r54
+name: Degraded availability for GitHub.com, GraphQL API, and Webhooks UI/API
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-09 15:48:39"
+      description: |-
+        On June 8, 2026, between 14:49 and 14:54 UTC, a subset of requests to GitHub.com, the REST API, GraphQL API, and Webhooks UI/API experienced elevated error rates due to a transient infrastructure capacity issue that self-resolved within approximately 5 minutes.
+
+        Users experienced HTTP 500 errors and timeouts when accessing GitHub.com, the REST API, GraphQL API, and Webhooks UI/API for approximately 5 minutes, with the REST API taking up to 12 minutes to fully recover.
+      resolved: true
