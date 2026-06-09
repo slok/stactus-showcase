@@ -1,0 +1,12 @@
+version: incident/v1
+id: c6rm3xxqvhcf
+name: GraphQL elevated latency
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-06-09 10:33:59"
+      description: |-
+        Cloudflare identified an issue where some customers may have experienced latency querying the GraphQL API between 07:15 and 09:30 UTC.
+
+        This has been resolved.
+      resolved: true

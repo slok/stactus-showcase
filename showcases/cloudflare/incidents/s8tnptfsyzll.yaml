@@ -1,0 +1,11 @@
+version: incident/v1
+id: s8tnptfsyzll
+name: Cloudflare Workers and Pages build delays
+impact: minor
+systems:
+    - vgxj684rcw7t
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2026-06-09 10:37:10"
+      description: Cloudflare is aware of and investigating an issue with Cloudflare Workers and Pages build delays which potentially impacts multiple customers. Further detail will be provided as more information becomes available.
+      investigating: true
