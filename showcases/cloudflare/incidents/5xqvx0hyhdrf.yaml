@@ -1,0 +1,11 @@
+version: incident/v1
+id: 5xqvx0hyhdrf
+name: Hyperdrive and KV API errors
+impact: minor
+systems:
+    - d0x62dsm4c9n
+    - tmh50tx2nprs
+timeline:
+    - ts: "2026-06-09 14:20:16"
+      description: Cloudflare has identified an issue where some customers may experience latency or errors using Hyperdrive over Tunnels or the Workers KV API. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
