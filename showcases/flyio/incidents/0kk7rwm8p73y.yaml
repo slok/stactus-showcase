@@ -1,0 +1,9 @@
+version: incident/v1
+id: 0kk7rwm8p73y
+name: Emergency maintenance of Petsem causing some control plane errors
+impact: major
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2026-06-09 18:20:03"
+      description: We're performing an emergency maintenance on Petsem, our secrets management service. Some control plane write operations may temporarily fail, for example, creating new apps or secrets. Existing apps and machines should keep functioning without issues.
