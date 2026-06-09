@@ -1,0 +1,60 @@
+version: incident/v1
+id: bf75n17ts7tt
+name: Investigating Issues with Data Source-Managed Alerting
+impact: major
+systems:
+    - 6p5vk5f6rx2k
+    - tzt37d0skmyd
+    - z19pj782t1x2
+    - 3pxb2s9gd3qk
+    - 0y4zgt70mcc2
+    - y2fvl0w81hnk
+    - 95tmjrzs9h1f
+    - kckd7qfk2gql
+    - 8ycwcfl7gk6r
+    - 2xrvqwtmgk1j
+    - zljxmjgrpj4q
+    - z8vdj0jttj7s
+    - 6lyq8vngbrgw
+    - qr8ttrr50lnd
+    - 5n2wz8bkz9b6
+    - 4vcmfvslpghq
+    - hzw0yd89s9ny
+    - fgtp31zqpw8v
+    - 2fvfdmcnplg5
+    - 57jn84fvz98t
+    - vcm0cw90htxx
+    - bvbh2cdx84ww
+    - k6ywy2zqz7fn
+    - vcfc8qc5zj9n
+    - tpvdjr2xyb7x
+    - y5ymzvw0c99f
+    - 3q70xrw38s7y
+    - p932bbpwynd4
+    - jw3c386xwr40
+    - tgt3hljzszy8
+    - d9g9gg8d9yyl
+    - tfcmnh8pbnh9
+    - zm76x8lqb4rk
+    - hd6qyr8hc0yt
+    - dx4hj364b8sj
+    - 5shpb4hb9xd1
+    - 062dycqds9gm
+    - ybvy0jrqz78d
+    - qjwn7tbhdl8y
+    - x2sf2zvf07cy
+timeline:
+    - ts: "2026-06-09 23:11:23"
+      description: |-
+        We are currently investigating an issue affecting data source-managed alerting management functionality in Grafana Cloud.
+
+        Customers may experience problems viewing, creating, updating, or managing alerts through Grafana when using data source-managed alerting. This issue is limited to alert management functionality within Grafana.
+
+        Alert evaluation and backend alerting services continue to operate normally. Direct alerting APIs for Mimir and Loki remain fully operational and are unaffected.
+
+        Grafana-managed alerting is not impacted.
+
+        We identified this issue at approximately 20:45 UTC and are actively working on a resolution. We will provide additional updates as more information becomes available.
+
+        Workaround: Customers can continue to use the direct Mimir and Loki alerting APIs while we work to restore normal functionality.
+      investigating: true
