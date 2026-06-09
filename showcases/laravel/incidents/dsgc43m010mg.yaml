@@ -1,0 +1,14 @@
+version: incident/v1
+id: dsgc43m010mg
+name: Laravel MySQL Intermittent Connectivity Issues
+impact: minor
+systems:
+    - bb24744tntll
+    - jnfvms7yxwqz
+    - 2njxzcmxn5yk
+timeline:
+    - ts: "2026-06-09 21:28:01"
+      description: We are investigating reports of intermittent connectivity issues experienced by some Laravel MySQL customers in the EUC1, EUW2, and USE2 regions.
+      investigating: true
+    - ts: "2026-06-09 21:45:36"
+      description: A DNS issue has been identified (affecting only a small percentage of customers) and a fix is being implemented.
