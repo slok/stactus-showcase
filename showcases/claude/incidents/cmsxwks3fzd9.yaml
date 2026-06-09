@@ -1,0 +1,16 @@
+version: incident/v1
+id: cmsxwks3fzd9
+name: Elevated errors on Claude Opus 4.8 (Fast Mode)
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-06-09 03:13:08"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-06-09 03:42:08"
+      description: This issue has been resolved. Claude Opus 4.8 (Fast Mode) saw elevated errors from 7:50 PM PT / 02:50 UTC to 8:30 PM PT / 03:30 UTC.
+      resolved: true

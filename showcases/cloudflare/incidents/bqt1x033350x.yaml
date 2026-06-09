@@ -1,0 +1,9 @@
+version: incident/v1
+id: bqt1x033350x
+name: Network Performance Issues in Mexico
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-09 02:46:21"
+      description: Connectivity errors (HTTP 500s) and elevated latency observed due to a hardware failure between 01:32 - 01:36 UTC 2026-06-09. Cloudflare has mitigated the issue.
+      resolved: true
