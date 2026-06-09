@@ -9,3 +9,8 @@ timeline:
     - ts: "2026-06-09 14:20:16"
       description: Cloudflare has identified an issue where some customers may experience latency or errors using Hyperdrive over Tunnels or the Workers KV API. We are working to analyze and mitigate this problem. More updates to follow shortly.
       investigating: true
+    - ts: "2026-06-09 14:37:50"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-09 15:05:42"
+      description: This incident has been resolved.
+      resolved: true

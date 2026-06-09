@@ -1,0 +1,14 @@
+version: incident/v1
+id: tkfr3cdcgt58
+name: Managed Postgres Control Plane Issues in IAD
+impact: major
+systems:
+    - nv3vps27z635
+timeline:
+    - ts: "2026-06-09 14:57:49"
+      description: We are investigating MPG control plane instability in a subset of the IAD region. A small number of clusters in the region may have seen unexpected failovers or connection issues over the past 30m.
+      investigating: true
+    - ts: "2026-06-09 15:06:42"
+      description: We are continuing to address this issue. Some clusters in IAD are unavailable at this time, some users may have seen unexpected cluter restarts. We are working on restoring normal performance for all clusters in IAD
+    - ts: "2026-06-09 15:19:24"
+      description: An initial fix has been implemented and connectivity to all impacted clusters has been restored. We are continuing to monitor to ensure stable recovery.
