@@ -24,3 +24,5 @@ systems:
 timeline:
     - ts: "2026-06-10 17:23:15"
       description: We are seeing some deployments fail because of GitHub HTTP 504 responses. A subset of deployments seems to be affected across all regions.
+    - ts: "2026-06-10 19:09:45"
+      description: GitHub API calls are succeeding but we continue to monitor the situation.

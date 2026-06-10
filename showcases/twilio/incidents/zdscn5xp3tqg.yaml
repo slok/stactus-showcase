@@ -1,6 +1,6 @@
 version: incident/v1
 id: zdscn5xp3tqg
-name: SMS Delivery Delays and Delivery Receipt Delays from Twilio to Multiple Networks in Italy
+name: SMS Delivery Receipt Delays from Twilio to Vodafone Omnitel in Italy
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -18,4 +18,4 @@ timeline:
     - ts: "2026-06-10 14:22:43"
       description: Twilio customers may be experiencing SMS delivery delays and delivery receipt delays from Twilio to network subscribers on multiple networks in Italy. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 4 hours or as soon as more information becomes available.
     - ts: "2026-06-10 18:28:06"
-      description: Twilio customers may be experiencing SMS delivery delays and SMS delivery receipt delays from Twilio to network subscribers on multiple networks in Italy. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 8 hours or as soon as more information becomes available.
+      description: We have observed a recovery in SMS delivery report from Twilio to Multiple network subscribers in Italy Except Vodafone Omnitel. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 8 hours or as soon as more information becomes available.
