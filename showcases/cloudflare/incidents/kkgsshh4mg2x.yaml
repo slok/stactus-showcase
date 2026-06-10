@@ -1,0 +1,10 @@
+version: incident/v1
+id: kkgsshh4mg2x
+name: Pages Build & Deployment Delays
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2026-06-10 22:18:31"
+      description: Cloudflare Pages customers may be experiencing delays in builds, project creation, or deployments.
+      investigating: true
