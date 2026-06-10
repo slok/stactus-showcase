@@ -1,0 +1,18 @@
+version: incident/v1
+id: 05jd5z3kf571
+name: Degradation in Voice calls
+impact: minor
+systems:
+    - vd76z27sk12v
+    - 2lchkffbp2k9
+    - vjcnzg66l66t
+    - 69t29fzy6yjb
+    - t7rg8fd47zcv
+    - lbb242csk6j2
+    - 333kb66wbbx3
+timeline:
+    - ts: "2026-06-10 03:35:23"
+      description: We are currently monitoring possible issues affecting voice calls. Customers could experience degradation during this time. We will continue to monitor for system stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-06-10 04:25:41"
+      description: We are no longer experiencing issues affecting voice calls. This incident has been resolved.
+      resolved: true

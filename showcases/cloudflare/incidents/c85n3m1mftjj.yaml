@@ -1,0 +1,16 @@
+version: incident/v1
+id: c85n3m1mftjj
+name: Increased Errors for Durable Objects in the Denver and Chicago region
+impact: minor
+systems:
+    - z9v8znl25w0f
+    - 6s4lzp8vmxr5
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2026-06-10 04:02:34"
+      description: Cloudflare is aware of, and investigating an issue with Durable Objects which potentially impacts multiple customers in the Denver and Chicago region. Durable Objects are experiencing an elevated level of overload errors in the aforementioned region. We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-06-10 04:19:52"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-10 04:25:40"
+      description: A fix has been implemented and we are monitoring the results.
