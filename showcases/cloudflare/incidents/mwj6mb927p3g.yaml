@@ -1,0 +1,14 @@
+version: incident/v1
+id: mwj6mb927p3g
+name: Increased HTTP 526 Errors
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-06-10 09:36:48"
+      description: "Cloudflare is aware of and investigating an issue where \nsome customers with valid origin certificates are receiving 526 errors."
+      investigating: true
+    - ts: "2026-06-10 10:20:43"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-10 10:50:01"
+      description: A fix has been implemented and we are monitoring the results.
