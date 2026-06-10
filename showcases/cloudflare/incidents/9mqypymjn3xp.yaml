@@ -1,0 +1,12 @@
+version: incident/v1
+id: 9mqypymjn3xp
+name: Image Resizing on R2 issues
+impact: minor
+systems:
+    - dw7t39j5syzl
+timeline:
+    - ts: "2026-06-10 23:44:18"
+      description: Cloudflare has identified an issue where some customers may experience failures using Image Resizing with R2. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-06-10 23:46:03"
+      description: The issue has been identified and a fix is being implemented.
