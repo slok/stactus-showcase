@@ -1,0 +1,10 @@
+version: incident/v1
+id: zq7s3588j5xs
+name: Log Explorer queries failing
+impact: minor
+systems:
+    - w324dr932r05
+timeline:
+    - ts: "2026-06-10 07:34:38"
+      description: We are currently investigating an issue where a small proportion of Log Explorer queries are observed to be failing. More updates to follow shortly.
+      investigating: true
