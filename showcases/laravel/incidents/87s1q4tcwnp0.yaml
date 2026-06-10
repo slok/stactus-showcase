@@ -1,0 +1,26 @@
+version: incident/v1
+id: 87s1q4tcwnp0
+name: Intermittent deployment failures due to GitHub issues
+impact: major
+systems:
+    - ffc2w3q5j6fx
+    - d4z7n3kvpgp0
+    - q8chffw359pz
+    - vhd4h127zqt5
+    - k7bvq41n41zs
+    - rnyz50rjb4p5
+    - mf51szgphyxp
+    - nfc2yzmxzw4s
+    - 29lv3lp08fw1
+    - r5wtfz1xy72b
+    - j7npqf9nr7qp
+    - s3zm1t588bky
+    - 359qq1ltvtft
+    - 0d75ngbkyzz2
+    - 29r8t4n835qg
+    - z90jsvy9c3h1
+    - 7pp548h9j9k6
+    - sr7vs6x5c6cf
+timeline:
+    - ts: "2026-06-10 17:23:15"
+      description: We are seeing some deployments fail because of GitHub HTTP 504 responses. A subset of deployments seems to be affected across all regions.

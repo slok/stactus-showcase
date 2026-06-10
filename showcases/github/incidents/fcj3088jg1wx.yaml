@@ -24,3 +24,14 @@ timeline:
     - ts: "2026-06-10 15:46:53"
       description: The degradation affecting Issues has been mitigated. We are monitoring to ensure stability.
       investigating: true
+    - ts: "2026-06-10 16:21:01"
+      description: We continue to investigate issues related to sporadic authentication failures, impacting approximately 15% of API traffic. Erroneous 401 responses are causing app integrations to trigger authentication flows. We have identified a problematic component in our infrastructure and are working to mitigate.
+      investigating: true
+    - ts: "2026-06-10 16:36:15"
+      description: The degradation affecting API Requests has been mitigated. We are monitoring to ensure stability.
+      investigating: true
+    - ts: "2026-06-10 16:37:16"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-06-10 16:39:05"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

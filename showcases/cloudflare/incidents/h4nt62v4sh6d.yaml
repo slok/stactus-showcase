@@ -1,0 +1,14 @@
+version: incident/v1
+id: h4nt62v4sh6d
+name: Network Connectivity issues in Western North America impacting R2 and Containers
+impact: minor
+systems:
+    - nd77krz8224v
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-06-10 16:35:55"
+      description: Customers may see increased latency while using R2 buckets and scheduling containers in the Western North America (WNAM) region
+      investigating: true
+    - ts: "2026-06-10 17:01:08"
+      description: We are continuing to investigate this issue.
+      investigating: true
