@@ -1,0 +1,28 @@
+version: incident/v1
+id: kssq4m40qvyf
+name: Disruption with GitHub authentication related to API requests
+impact: major
+systems:
+    - ffc2w3q5j6fx
+    - d4z7n3kvpgp0
+    - q8chffw359pz
+    - vhd4h127zqt5
+    - k7bvq41n41zs
+    - rnyz50rjb4p5
+    - mf51szgphyxp
+    - nfc2yzmxzw4s
+    - 29lv3lp08fw1
+    - r5wtfz1xy72b
+    - j7npqf9nr7qp
+    - s3zm1t588bky
+    - 359qq1ltvtft
+    - 0d75ngbkyzz2
+    - 29r8t4n835qg
+    - z90jsvy9c3h1
+    - 7pp548h9j9k6
+    - sr7vs6x5c6cf
+timeline:
+    - ts: "2026-06-10 15:37:10"
+      description: GitHub is currently investigating issues related to sporadic authentication failures impacting approximately 15% of API traffic.
+    - ts: "2026-06-10 15:53:32"
+      description: GitHub reports the issue has been mitigated. We are monitoring to ensure stability.

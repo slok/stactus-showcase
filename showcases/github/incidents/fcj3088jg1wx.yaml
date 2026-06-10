@@ -1,0 +1,26 @@
+version: incident/v1
+id: fcj3088jg1wx
+name: Authentication issues related to API requests
+impact: critical
+systems:
+    - brv1bkgrwx7q
+    - kr09ddfgbfsf
+timeline:
+    - ts: "2026-06-10 15:20:36"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-06-10 15:23:58"
+      description: API Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-06-10 15:27:00"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-06-10 15:27:46"
+      description: We are investigating issues related to sporadic authentication failures impacting approximately 15% of API traffic. We will continue to investigate and provide updates.
+      investigating: true
+    - ts: "2026-06-10 15:46:22"
+      description: We continue to investigate issues related to sporadic authentication failures, impacting approximately 15% of API traffic. Further updates will be provided as we work to mitigate.
+      investigating: true
+    - ts: "2026-06-10 15:46:53"
+      description: The degradation affecting Issues has been mitigated. We are monitoring to ensure stability.
+      investigating: true
