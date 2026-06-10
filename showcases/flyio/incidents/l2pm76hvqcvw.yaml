@@ -1,0 +1,12 @@
+version: incident/v1
+id: l2pm76hvqcvw
+name: Ingress Traffic issues in GRU
+impact: major
+systems:
+    - 5cmbhyzyb3lr
+timeline:
+    - ts: "2026-06-10 19:39:19"
+      description: 'Some of our edge nodes in GRU has suffered an error that crashed some of the critical services. We''re currently working to bring them back online. Some traffic entering through GRU (i.e. users connecting from around GRU) may be temporarily affected: connections may see increased latency or be occasionally dropped.'
+    - ts: "2026-06-10 19:52:28"
+      description: This incident has been resolved.
+      resolved: true
