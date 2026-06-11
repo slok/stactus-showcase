@@ -1,0 +1,13 @@
+version: incident/v1
+id: fvxwxrkdwbk8
+name: Increased network latency in North America
+impact: minor
+systems:
+    - q5hm9x2qx9l9
+    - vfq82tp9wp5r
+timeline:
+    - ts: "2026-06-11 01:16:11"
+      description: We are investigating elevated network instability across some hosts in ORD. Apps and managed postgres clusters on impacted hosts may see elevated latency or networking errors at this time.
+      investigating: true
+    - ts: "2026-06-11 01:59:20"
+      description: "Managed Postgres in ORD has returned to normal operation. \n\nWe continue to see slightly elevated latencies and loss over transits in North America. We are working with our upstream network providers to improve performance."
