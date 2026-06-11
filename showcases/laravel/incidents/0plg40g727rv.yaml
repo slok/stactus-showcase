@@ -1,0 +1,10 @@
+version: incident/v1
+id: 0plg40g727rv
+name: DNS resolution issues for Laravel Valkey in London and Frankfurt
+impact: major
+systems:
+    - z6126sr4pm0k
+    - wcqhvp90m9xh
+timeline:
+    - ts: "2026-06-11 19:39:28"
+      description: We’ve identified DNS issues for some workloads in Laravel Valkey in London and Frankfurt

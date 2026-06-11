@@ -1,0 +1,18 @@
+version: incident/v1
+id: 4yz3c18qmdxn
+name: Incident with Webhooks
+impact: minor
+systems:
+    - 4230lsnqdsld
+timeline:
+    - ts: "2026-06-11 19:42:05"
+      description: We are investigating reports of degraded performance for Webhooks
+      investigating: true
+    - ts: "2026-06-11 19:42:41"
+      description: We are currently experiencing delays in Web Hook delivery and are actively investigating the root cause.
+      investigating: true
+    - ts: "2026-06-11 19:58:11"
+      description: We have applied a mitigation and are monitoring for recovery.
+      investigating: true
+    - ts: "2026-06-11 20:00:29"
+      description: The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability.
