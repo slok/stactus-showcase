@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8qysl6lfzp0b
+name: 'Retroactive Incident: Mail Delivery Delay to a Small Subset of Users'
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-11 17:04:56"
+      description: Twilio-Sengrid mail delivery was degraded for approximately 9 minutes between 9:18 AM and 9:27AM Pacific Time on 06/11/2026. During this period of time customers may have experienced delays affecting a subset of users. User experience was degraded with delayed mail delivery during this window, though the scope was limited to affected users rather than system-wide outage. The issue has now been resolved.
+      resolved: true
