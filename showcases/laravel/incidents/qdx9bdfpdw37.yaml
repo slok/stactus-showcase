@@ -1,0 +1,27 @@
+version: incident/v1
+id: qdx9bdfpdw37
+name: Degraded performance in Bitbucket
+impact: minor
+systems:
+    - ffc2w3q5j6fx
+    - d4z7n3kvpgp0
+    - q8chffw359pz
+    - vhd4h127zqt5
+    - k7bvq41n41zs
+    - rnyz50rjb4p5
+    - mf51szgphyxp
+    - nfc2yzmxzw4s
+    - 29lv3lp08fw1
+    - r5wtfz1xy72b
+    - j7npqf9nr7qp
+    - s3zm1t588bky
+    - 359qq1ltvtft
+    - 0d75ngbkyzz2
+    - 29r8t4n835qg
+    - z90jsvy9c3h1
+    - 7pp548h9j9k6
+    - sr7vs6x5c6cf
+timeline:
+    - ts: "2026-06-11 21:16:55"
+      description: We are seeing increased error rates from the Bitbucket APIs, affecting deployments
+      investigating: true

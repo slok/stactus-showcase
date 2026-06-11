@@ -1,0 +1,10 @@
+version: incident/v1
+id: pfr2v2vwlbvy
+name: Device Trust Authentication Service Experiencing Timeout Errors
+impact: minor
+systems:
+    - v3gbkx6f1m94
+timeline:
+    - ts: "2026-06-11 21:49:05"
+      description: We are currently investigating an issue affecting the Device Trust Authentication Service. Customers may experience timeouts or receive 503 responses when attempting to authenticate with Device Trust. Our team is actively working to identify the cause and restore normal service as quickly as possible.
+      investigating: true
