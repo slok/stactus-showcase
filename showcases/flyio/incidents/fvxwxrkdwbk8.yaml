@@ -13,3 +13,5 @@ timeline:
       description: "Managed Postgres in ORD has returned to normal operation. \n\nWe continue to see slightly elevated latencies and loss over transits in North America. We are working with our upstream network providers to improve performance."
     - ts: "2026-06-11 03:30:30"
       description: Impacted NA backbones have been sidestepped where possible, and we're continuing to monitor network health.
+    - ts: "2026-06-11 05:24:59"
+      description: The network between our regions has been performing well for the majority of traffic. We're still continuing to monitor a few impacted routes in North America that may be seeing elevated latency and packet loss.
