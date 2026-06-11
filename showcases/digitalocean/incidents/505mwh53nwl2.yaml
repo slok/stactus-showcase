@@ -1,0 +1,15 @@
+version: incident/v1
+id: 505mwh53nwl2
+name: DeepSeek V4 Pro is returning HTTP 429 "Rate limit exceeded"
+impact: major
+systems:
+    - pmy8cw253ck9
+timeline:
+    - ts: "2026-06-11 14:24:20"
+      description: We are currently facing issues with Gradient AI DeepSeek V4 Pro is returning HTTP 429 "Rate limit exceeded"
+      investigating: true
+    - ts: "2026-06-11 14:30:20"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-06-11 14:31:01"
+      description: The issue has been identified and a fix is being implemented.
