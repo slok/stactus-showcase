@@ -2,14 +2,13 @@ version: incident/v1
 id: j8ghp7dk6lym
 name: Elevated errors across models
 impact: major
-systems:
-    - rwppv331jlwc
-    - k8w3r06qmzrp
-    - yyzkbfz2thpt
-    - bpp5gb3hpjcl
+systems: []
 timeline:
     - ts: "2026-06-11 16:54:52"
       description: We are currently investigating this issue.
       investigating: true
     - ts: "2026-06-11 17:27:29"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-11 17:56:08"
+      description: The issue affecting various models has been resolved. Impact occurred from 09:42am PT / 16:42 UTC to 10:03am PT / 17:03 UTC.
+      resolved: true
