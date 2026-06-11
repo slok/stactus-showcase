@@ -1,0 +1,19 @@
+version: incident/v1
+id: b2xfwx536qgs
+name: Issue creating new Laravel Serverless PostgreSQL databases
+impact: minor
+systems:
+    - q34j9zqvbj7h
+    - 0q72ktwc449p
+    - mc3dt6vwg2ts
+    - fb6l4chnb34p
+    - d99mk5dgxnqc
+    - d4zz74n7qr2l
+timeline:
+    - ts: "2026-06-11 00:11:09"
+      description: We've identified an issue creating new Laravel Serverless PostgreSQL databases. Existing databases are not affected.
+    - ts: "2026-06-11 00:46:50"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-11 01:00:11"
+      description: This incident has been resolved.
+      resolved: true

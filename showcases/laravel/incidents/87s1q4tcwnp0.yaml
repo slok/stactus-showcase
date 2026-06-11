@@ -26,3 +26,6 @@ timeline:
       description: We are seeing some deployments fail because of GitHub HTTP 504 responses. A subset of deployments seems to be affected across all regions.
     - ts: "2026-06-10 19:09:45"
       description: GitHub API calls are succeeding but we continue to monitor the situation.
+    - ts: "2026-06-11 00:09:42"
+      description: This incident has been resolved.
+      resolved: true
