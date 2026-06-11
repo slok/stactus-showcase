@@ -15,3 +15,5 @@ timeline:
       description: Impacted NA backbones have been sidestepped where possible, and we're continuing to monitor network health.
     - ts: "2026-06-11 05:24:59"
       description: The network between our regions has been performing well for the majority of traffic. We're still continuing to monitor a few impacted routes in North America that may be seeing elevated latency and packet loss.
+    - ts: "2026-06-11 07:58:52"
+      description: We are seeing a recurrence of elevated latency across some hosts in ORD impacting the MPG control plane and a subset of clusters there. We are working to address this.
