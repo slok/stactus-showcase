@@ -1,0 +1,27 @@
+version: incident/v1
+id: 1qzbf7378jzw
+name: Service Degradation Affecting Zoom Meeting Recordings in Australia and Japan
+impact: minor
+systems:
+    - gkx8x46kw77h
+timeline:
+    - ts: "2026-06-11 09:23:40"
+      description: |-
+        We are seeing a subset of users can’t start Zoom Meeting Recordings in Australia and Japan
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-06-11 09:43:10"
+      description: |-
+        We have successfully identified the root cause affecting Zoom Meeting Recordings in Australia and Japan.
+
+        Our team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.
+
+        Thank you for your patience.
+    - ts: "2026-06-11 10:08:08"
+      description: |-
+        The service degradation affecting Zoom Meeting Recordings in Australia and Japan has been successfully resolved.
+
+        Our team will continue to monitor the situation closely and keep you informed of any further developments.

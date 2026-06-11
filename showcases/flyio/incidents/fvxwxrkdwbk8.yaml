@@ -17,3 +17,5 @@ timeline:
       description: The network between our regions has been performing well for the majority of traffic. We're still continuing to monitor a few impacted routes in North America that may be seeing elevated latency and packet loss.
     - ts: "2026-06-11 07:58:52"
       description: We are seeing a recurrence of elevated latency across some hosts in ORD impacting the MPG control plane and a subset of clusters there. We are working to address this.
+    - ts: "2026-06-11 09:35:59"
+      description: We are working with our upstream network provider to address periodic loss of connectivity over transit in ord
