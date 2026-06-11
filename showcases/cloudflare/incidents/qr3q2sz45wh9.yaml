@@ -1,0 +1,14 @@
+version: incident/v1
+id: qr3q2sz45wh9
+name: Workers Observability query failures
+impact: minor
+systems:
+    - pqt7t1dwt0dz
+timeline:
+    - ts: "2026-06-11 15:39:21"
+      description: Cloudflare has identified an issue impacting some customers where Workers Observability queries may be returning errors. We are working to mitigate the impact.
+    - ts: "2026-06-11 15:52:03"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-11 16:09:57"
+      description: This incident has been resolved.
+      resolved: true
