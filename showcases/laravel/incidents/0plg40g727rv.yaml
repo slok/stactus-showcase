@@ -8,3 +8,8 @@ systems:
 timeline:
     - ts: "2026-06-11 19:39:28"
       description: We’ve identified DNS issues for some workloads in Laravel Valkey in London and Frankfurt
+    - ts: "2026-06-11 20:04:17"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-11 20:11:40"
+      description: This incident has been resolved.
+      resolved: true
