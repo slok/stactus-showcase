@@ -1,0 +1,12 @@
+version: incident/v1
+id: 7hwhns4znf7h
+name: Elevated Sprites error rates in SIN
+impact: major
+systems:
+    - gfjxlcdf8bf4
+timeline:
+    - ts: "2026-06-12 02:35:45"
+      description: We are investigating elevated 500 / internal server error rates with Sprites in the SIN region. Users may see increased errors when accessing sprites located in this region, or for requests to the Sprites API originating from SIN
+      investigating: true
+    - ts: "2026-06-12 03:24:54"
+      description: A fix has been implemented and we are seeing error rates for sprites in SIN normalize. We are continuing to monitor to ensure full recovery.
