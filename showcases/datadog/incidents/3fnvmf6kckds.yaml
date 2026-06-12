@@ -3,6 +3,7 @@ id: 3fnvmf6kckds
 name: Delayed Evaluation
 impact: minor
 systems:
+    - p4hwj4wsc5wf
     - qrnng5l7z80l
     - s6jxgrkjjj6p
 timeline:
@@ -10,3 +11,17 @@ timeline:
       description: We are investigating delays in monitor evaluation, which began at 16:10 UTC.
     - ts: "2026-06-12 17:59:27"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2026-06-12 18:30:46"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-06-12 18:39:16"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-06-12 19:01:17"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-06-12 19:08:04"
+      description: |-
+        We are continuing to work on a fix for this issue. During this time, the following components are affected:
+
+        Monitor evaluation
+        Metrics and Infra Monitoring
+        APM metrics
+        Estimated usage metrics
