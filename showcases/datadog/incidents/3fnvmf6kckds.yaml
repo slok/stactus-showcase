@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3fnvmf6kckds
+name: Delayed Evaluation
+impact: minor
+systems:
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2026-06-12 17:12:28"
+      description: We are investigating delays in monitor evaluation, which began at 16:10 UTC.
