@@ -1,0 +1,9 @@
+version: incident/v1
+id: h10cp76zjck0
+name: Elevated number of TTFB in PHL
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-06-12 01:29:57"
+      description: Between 00:45 - 00:55 UTC customers reaching Philadelphia, PA may have experienced an elevated number of Time To First Byte.
+      resolved: true

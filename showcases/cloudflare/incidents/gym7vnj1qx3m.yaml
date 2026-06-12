@@ -1,0 +1,16 @@
+version: incident/v1
+id: gym7vnj1qx3m
+name: Network Performance Issues in Brisbane, QLD, Australia - (BNE)
+impact: minor
+systems:
+    - qk5t7j00dgkj
+timeline:
+    - ts: "2026-06-12 01:17:21"
+      description: Cloudflare is investigating issues with network performance in Brisbane, QLD, Australia - (BNE). We are working to analyze and mitigate this problem. More updates to follow shortly.
+    - ts: "2026-06-12 01:24:42"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-06-12 01:30:44"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-12 01:39:12"
+      description: This incident has been resolved.
+      resolved: true
