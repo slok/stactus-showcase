@@ -1,0 +1,16 @@
+version: incident/v1
+id: 03gdj4l85y9m
+name: Delivery Delays and Failures from WhatsApp, Verify, and Messenger Platform
+impact: minor
+systems:
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2026-06-12 13:56:32"
+      description: Our monitoring systems have detected a potential issue with WhatsApp. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-06-12 14:10:19"
+      description: We are experiencing delivery delays and failures when sending messages from WhatsApp, Verify, and Messenger platform. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-12 15:05:55"
+      description: We continue to experience delivery delays and failures when sending messages from WhatsApp, Verify, and Messenger platform. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true

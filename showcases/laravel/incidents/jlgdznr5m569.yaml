@@ -1,0 +1,10 @@
+version: incident/v1
+id: jlgdznr5m569
+name: Cloudflare API degradation affecting Laravel Cloud domains and Object Storage
+impact: minor
+systems:
+    - jmw0wwg6553f
+    - 44l81fnqm59d
+timeline:
+    - ts: "2026-06-12 14:50:49"
+      description: 'Cloudflare API issues is causing intermittent issues with Laravel Cloud. Customers may see issues adding/removing Domains,  and managing Object Storage buckets. Existing domains and buckets should be unaffected. Cloudflare status here: https://www.cloudflarestatus.com/incidents/443x5fm5hzch'

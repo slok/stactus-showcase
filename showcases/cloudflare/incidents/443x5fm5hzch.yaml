@@ -1,0 +1,15 @@
+version: incident/v1
+id: 443x5fm5hzch
+name: Cloudflare Dashboard and Cloudflare API service issues
+impact: minor
+systems:
+    - g4tb35rs9yw7
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-06-12 14:27:54"
+      description: "Cloudflare is investigating issues with Cloudflare Dashboard and related APIs. \n\nThese issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. \n\nCustomers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed."
+      investigating: true
+    - ts: "2026-06-12 14:56:25"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-12 15:03:38"
+      description: A fix has been implemented and we are monitoring the results.
