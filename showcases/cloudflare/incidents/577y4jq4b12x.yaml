@@ -1,0 +1,11 @@
+version: incident/v1
+id: 577y4jq4b12x
+name: Waiting Room analytics showing a drop in number of active users
+impact: minor
+systems:
+    - 9c7cbxnhk1dq
+timeline:
+    - ts: "2026-06-12 10:55:26"
+      description: We are currently investigating an issue where Waiting Room analytics are showing a drop in the number of active users.
+    - ts: "2026-06-12 11:14:24"
+      description: The issue has been identified, and a fix is being implemented.
