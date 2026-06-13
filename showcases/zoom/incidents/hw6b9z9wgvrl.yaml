@@ -1,0 +1,18 @@
+version: incident/v1
+id: hw6b9z9wgvrl
+name: Service Degradation Affecting Zoom Whiteboard and Notes in Saudi Arabia.
+impact: minor
+systems:
+    - tvtkg7hq9qdd
+    - gtf6dl08hrk1
+timeline:
+    - ts: "2026-06-13 03:08:29"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Whiteboard and Notes in Saudi Arabia.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-06-13 03:18:27"
+      description: "We have identified the service degradation with the Zoom Whiteboard and Notes. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience."
