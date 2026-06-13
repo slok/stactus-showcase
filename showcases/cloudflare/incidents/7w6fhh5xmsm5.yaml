@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7w6fhh5xmsm5
+name: Intermittent Slow Cache Responses
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2026-06-13 23:22:51"
+      description: We are currently investigating an issue where a small number of requests are experiencing higher than expected latency on cache HITs.
+      investigating: true
