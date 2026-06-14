@@ -1,0 +1,12 @@
+version: incident/v1
+id: 2f4kf430rmlz
+name: Elevated latency and errors in FRA1 Vercel Region (Frankfurt, Germany)
+impact: major
+systems:
+    - zwrthypbz06f
+timeline:
+    - ts: "2026-06-14 21:03:53"
+      description: We are currently re-routing traffic from the FRA1 Vercel Region to the CDG1 Vercel Region. We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-06-14 21:07:51"
+      description: We are currently re-routing traffic from the FRA1 Vercel Region to the CDG1 Vercel Region.
