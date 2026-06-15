@@ -1,6 +1,6 @@
 version: incident/v1
 id: 2z162qb7mj3d
-name: SMS Delivery Failures from Brazil to a Subset of Twilio Short Codes
+name: SMS Delivery Failures From Network Subscribers to a Subset of Twilio Brazil Short Codes
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -12,3 +12,6 @@ timeline:
       description: We have observed a recovery in SMS delivery from Brazil to a subset of Twilio Short Codes and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-06-15 18:36:55"
       description: We have observed a recovery in SMS delivery from network subscribers in Brazil to a subset of Twilio Short Codes and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-06-15 21:22:25"
+      description: The incident has been resolved and SMS delivery from network subscribers to a subset of Twilio Brazil Short Codes is operating normally.
+      resolved: true

@@ -1,0 +1,9 @@
+version: incident/v1
+id: pxhtsgrwcylj
+name: Elevated Media message delivery delays and degradation in Media Fetch APIs
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-15 21:20:21"
+      description: Media message delivery and Media Fetch API performance were degraded for 13 minutes, from 09:00 to 09:13 Pacific Time on 06/02/2026. During this window, customers may have experienced delays in media message delivery and 5xx responses from the Media Fetch API. The issue has been resolved.
+      resolved: true
