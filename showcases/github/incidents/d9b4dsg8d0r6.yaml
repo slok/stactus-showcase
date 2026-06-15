@@ -1,0 +1,9 @@
+version: incident/v1
+id: d9b4dsg8d0r6
+name: Multiple services have elevated errors and endpoint failures when checking feature flags
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-06-15 18:32:03"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true

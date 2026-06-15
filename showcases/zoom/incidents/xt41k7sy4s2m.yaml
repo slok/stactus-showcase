@@ -1,0 +1,16 @@
+version: incident/v1
+id: xt41k7sy4s2m
+name: Incorrect offline status display for Zoom Rooms Scheduling Displays
+impact: minor
+systems:
+    - tk62l6f2mjgj
+timeline:
+    - ts: "2026-06-15 17:05:19"
+      description: "We are investigating an issue where some Zoom Rooms Scheduling Displays may incorrectly appear as offline in the Zoom Dashboard, despite the devices remaining online and operational.\n\nThis issue is limited to the status displayed in the Dashboard and does not impact the functionality of the affected scheduling displays. \n\nAs a workaround, users may perform a physical reboot of the affected scheduling display device to restore the correct status in the Dashboard.\n\nOur team is actively working to identify the impact and root cause and will provide further updates as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue."
+      investigating: true
+    - ts: "2026-06-15 18:10:33"
+      description: |-
+        Our team is actively working to identify the impact and root cause and will provide further updates as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true

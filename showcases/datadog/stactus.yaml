@@ -2,8 +2,6 @@ version: stactus/v1
 name: Datadog US1
 url: https://status.datadoghq.com
 systems:
-    - id: 3shj2d34rr4w
-      name: Agent Repository
     - id: p4hwj4wsc5wf
       name: APM
       description: Application Performance Monitoring (services and traces)
@@ -61,6 +59,8 @@ systems:
       description: Network Device Monitoring
     - id: 7t0ql8p0jwp1
       name: Observability Pipelines
+    - id: 3shj2d34rr4w
+      name: Package Repositories
     - id: 30bdq3z1195p
       name: Product Analytics
     - id: wb6d6tss5zph
