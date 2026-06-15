@@ -1,0 +1,12 @@
+version: incident/v1
+id: 4khqq6pnl5x6
+name: SMS Delivery Delays and Failures from Twilio Phone Numbers to H3G Sweden
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-06-15 22:21:12"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio Phone Numbers to H3G network subscribers in Sweden. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-15 22:34:06"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio Phone Numbers to H3G network subscribers in Sweden. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
