@@ -1,12 +1,47 @@
 version: incident/v1
 id: 1c5sc17x7wnh
 name: Macaroon Auth + Machines API Issues
-impact: major
+impact: critical
 systems:
+    - q5hm9x2qx9l9
     - 66r6rhq3hn9n
+    - nv3vps27z635
     - 80ykv2p95qgy
+    - dz36cj1q2s1r
+    - vnhk0y6jtn3q
+    - rc5yp3480n5g
     - 49yq6v65b33l
+    - k2t9fbjfxj8r
+    - 6b3gdnt5jyf2
+    - wsvw4rnbxf0k
+    - k2zhkw7wryv2
+    - d8dmkvyb21x5
+    - 1nlcpj3qhzxl
+    - 3zgl1nsfpms9
+    - zkrdhxtr5trp
 timeline:
     - ts: "2026-06-15 15:03:28"
       description: We are investigating issues with Macaroon based authentication. This is impacting parts of the Machines API, Fly.io Dashboard, some flyctl operations and other platform features that rely on this.
       investigating: true
+    - ts: "2026-06-15 15:13:02"
+      description: "We are continuing to address this issue. Platform authentication with macaroon based tokens is currently failing. \n\nPlatform features that authenticate with macaroons including Machines API operations, Dashboard logins, some flyctl commands, fly-metrics.net Grafana, and deployments  are failing at this time. Existing, running customer applications and machines remain reachable and running.\n\nWe will provide another update within 15 minutes"
+    - ts: "2026-06-15 15:30:14"
+      description: |-
+        We have identified the cause of the issue and are working on deploying a fix. Impacted features remain unavailable or degraded at this time.
+
+         Already running customer applications/machines remain available.  MPG clusters remain generally reachable and healthy, however new clusters cannot be provisioned and failovers may not complete.
+
+        We will provide another update within 15 minutes.
+    - ts: "2026-06-15 15:41:34"
+      description: "An initial fix has been deployed and we are starting to see platform features recover. Users may still see degraded performance and intermittent failures at this time. \n\nWe are continuing to address the issue to ensure a full stable recovery."
+    - ts: "2026-06-15 15:57:05"
+      description: We continue to seeing degraded performance and increased errors with the Machines API and other platform features at this time. We are continuing to work on fully restoring service.
+    - ts: "2026-06-15 16:00:04"
+      description: "We are seeing elevated cluster errors with Managed Postgres clusters as the MPG control plane recovers from the API outage. MPG Users may see elevated rates of failing or slow connections, as well as increased primary/replica failovers. The managed postgres team is addressing any degraded clusters. \n\nWe will provide a further update within 15m."
+    - ts: "2026-06-15 16:15:51"
+      description: "We have deployed another change and are seeing wider improvements in platform stability across all regions. Performance is trending to normal, though users may still see some degradation at this time. \n\nWe are continuing to closely monitor to ensure full, stable recovery. We will provide another update in 15m."
+    - ts: "2026-06-15 16:15:59"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-15 16:41:07"
+      description: This incident has been resolved and we are seeing all platform functions operate normally.
+      resolved: true

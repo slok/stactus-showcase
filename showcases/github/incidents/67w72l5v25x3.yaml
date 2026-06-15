@@ -1,0 +1,15 @@
+version: incident/v1
+id: 67w72l5v25x3
+name: Increased latency with webhooks
+impact: minor
+systems:
+    - 4230lsnqdsld
+timeline:
+    - ts: "2026-06-15 15:37:36"
+      description: We are investigating reports of degraded performance for Webhooks
+      investigating: true
+    - ts: "2026-06-15 16:39:34"
+      description: Webhooks delivery latency has returned to normal levels. The backlog that built up during the incident has been cleared at approximately 4:29 UTC. We consider this incident resolved.
+      investigating: true
+    - ts: "2026-06-15 16:39:52"
+      description: The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability.

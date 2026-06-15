@@ -1,0 +1,17 @@
+version: incident/v1
+id: dhb870jxn030
+name: Service Degradation Affecting Zoom Meeting Recordings
+impact: minor
+systems:
+    - gkx8x46kw77h
+timeline:
+    - ts: "2026-06-15 16:07:24"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Meeting Recordings.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-06-15 16:34:23"
+      description: "We have successfully identified the root cause affecting Zoom Meeting Records. Users may observe two recording files instead of one.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
