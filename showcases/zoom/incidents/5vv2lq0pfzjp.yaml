@@ -1,0 +1,25 @@
+version: incident/v1
+id: 5vv2lq0pfzjp
+name: Service Degradation Affecting Zoom Web AIC Docs creation.
+impact: minor
+systems:
+    - 4jcnpddkkjtq
+timeline:
+    - ts: "2026-06-15 11:03:28"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Web AIC Docs creation.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-06-15 11:51:49"
+      description: |-
+        We are continuing to investigate this issue and will provide updates as soon as there is more information to share.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-06-15 12:14:15"
+      description: "We have successfully identified the root cause affecting Zoom Web AIC Docs creation.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+    - ts: "2026-06-15 12:47:35"
+      description: "The service degradation affecting Zoom Web AIC Docs creation has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
