@@ -1,0 +1,12 @@
+version: incident/v1
+id: lgpj6rrst0lc
+name: 'Automated Alert: No Customer Impact'
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-15 13:33:13"
+      description: Our monitoring systems have detected a potential issue with customers in regions Australia and Europe might receive incorrect redirects or missing features in the Twilio Console. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-06-15 13:52:55"
+      description: We have fully investigated the issue with customers in regions Australia and Europe might receive incorrect redirects or missing features in the Twilio Console triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
