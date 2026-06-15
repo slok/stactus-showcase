@@ -1,0 +1,12 @@
+version: incident/v1
+id: zgvyh0jhhn4x
+name: MPG cluster provisioning is broken
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-15 06:20:28"
+      description: New MPG cluster provisioning is broken. Existing MPG clusters are not affected. Newly created organizations may see errors while SSHing into their machines. We are investigating the issue.
+      investigating: true
+    - ts: "2026-06-15 06:39:10"
+      description: This incident has been resolved.
+      resolved: true

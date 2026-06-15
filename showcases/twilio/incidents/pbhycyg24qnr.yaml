@@ -1,0 +1,10 @@
+version: incident/v1
+id: pbhycyg24qnr
+name: Issues with SMPP Delivery Receipts
+impact: none
+systems:
+    - pf1lb8dq2g3b
+timeline:
+    - ts: "2026-06-15 07:29:15"
+      description: Twilio Programmable Messaging was degraded for 159 minutes between 16:35 and 19:15 UTC on 06/12/2026. During this period of time, customers may have experienced delayed or dropped SMPP delivery receipts. The issue has now been resolved.
+      resolved: true

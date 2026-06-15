@@ -1,0 +1,27 @@
+version: incident/v1
+id: f0lj585jpfj0
+name: Service Degradation Affecting My Notes
+impact: minor
+systems:
+    - tvtkg7hq9qdd
+timeline:
+    - ts: "2026-06-15 04:31:30"
+      description: |-
+        We are currently investigating a service degradation affecting My Notes.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-06-15 04:49:27"
+      description: |-
+        We have successfully identified the root cause affecting My Notes.
+
+        Our team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.
+
+        Thank you for your patience.
+    - ts: "2026-06-15 06:24:38"
+      description: The issue affecting My Notes has been successfully resolved. Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-06-15 06:35:40"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
