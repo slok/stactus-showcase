@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8q88rrz9rjd0
+name: Opus 4.8 errors
+impact: none
+systems:
+    - rwppv331jlwc
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-06-16 19:59:26"
+      description: Opus 4.8 error rates were elevated from 12:41 PDT to approximately 12:53 PDT. The team is monitoring.
+    - ts: "2026-06-16 20:16:07"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,15 @@
+version: incident/v1
+id: 41395mspl1rf
+name: Elevated errors for Claude Opus 4.8
+impact: major
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-06-16 20:50:02"
+      description: We are investigating elevated errors on requests to Claude Opus 4.8. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-06-16 21:01:31"
+      description: We have resolved the issue resulting in elevated errors on requests to Claude Opus 4.8, and are currently monitoring closely to prevent any further issues.

@@ -16,3 +16,5 @@ timeline:
       description: Sign in attempt audit events are currently delayed and admins are unable to migrate to hosted provisioning. Our engineering team has identified the issue and are actively working on a fix.
     - ts: "2026-06-16 16:58:48"
       description: A fix has been deployed and we are now monitoring the results.
+    - ts: "2026-06-16 21:11:45"
+      description: We are still monitoring the results of the deployed fix. Hosted provisioning issues are resolved. Audit events in some regions are caught up while others are still in progress.

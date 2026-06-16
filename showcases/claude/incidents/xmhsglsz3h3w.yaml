@@ -19,3 +19,13 @@ timeline:
       description: We are continuing to work to resolve an elevated rate of errors on requests to Claude Opus 4.8, and will provide an additional update as soon as possible.
     - ts: "2026-06-16 19:08:55"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2026-06-16 19:22:38"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-16 19:32:23"
+      description: |-
+        The incident has now been resolved. We had two phases:
+        * between 10:23 PT / 17:23 UTC to 11:00 PT / 18:00 UTC -- all Sonnet and Opus models were affected, reaching an error rate of around 10%
+        * after 11:00 PT / 18:00 UTC and until 12:20 PT / 19:20 UTC -- Opus 4.8 had an average error rate of 10%
+
+        The incident is now resolved.
+      resolved: true
