@@ -1,0 +1,16 @@
+version: incident/v1
+id: 19dt24m7s0kw
+name: Whatsapp Media Message Delivery Errors
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2026-06-16 16:42:14"
+      description: Our monitoring systems have detected a potential issue with WhatsApp. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-06-16 16:50:21"
+      description: We are aware of elevated error rates affecting WhatsApp media message delivery. Customers may experience failures when sending media messages. Our team is actively investigating the root cause. We will provide another update as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-16 17:56:13"
+      description: We are aware of elevated error rates affecting WhatsApp media message delivery. Customers may still experience failures when sending media messages. Our team is actively investigating the root cause. We will provide another update as soon as more information becomes available.
+      investigating: true

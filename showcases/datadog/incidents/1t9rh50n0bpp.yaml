@@ -1,0 +1,11 @@
+version: incident/v1
+id: 1t9rh50n0bpp
+name: Delayed AWS/GCP/Azure Metrics
+impact: minor
+systems:
+    - qrnng5l7z80l
+timeline:
+    - ts: "2026-06-16 17:42:02"
+      description: |-
+        We have identified the underlying issue and are working on a fix.
+        It is important to note that no data has been lost, and it will be backfilled and available once the service is operational again. (edited)

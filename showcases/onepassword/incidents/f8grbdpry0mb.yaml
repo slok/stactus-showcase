@@ -1,0 +1,18 @@
+version: incident/v1
+id: f8grbdpry0mb
+name: Sign in events are not appearing and admins are unable to migrate to hosted provisioning
+impact: minor
+systems:
+    - swb607d557vz
+    - f4pnnp38y8ls
+    - dr779hkh3q8m
+    - rrz7rpwzv908
+    - ngrr6v6zh4r3
+    - 49lvw42v4m48
+    - qvvfv6ljjp96
+    - 918j1lc5gk94
+timeline:
+    - ts: "2026-06-16 16:24:03"
+      description: Sign in attempt audit events are currently delayed and admins are unable to migrate to hosted provisioning. Our engineering team has identified the issue and are actively working on a fix.
+    - ts: "2026-06-16 16:58:48"
+      description: A fix has been deployed and we are now monitoring the results.

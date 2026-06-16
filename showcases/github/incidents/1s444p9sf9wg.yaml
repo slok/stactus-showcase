@@ -1,0 +1,13 @@
+version: incident/v1
+id: 1s444p9sf9wg
+name: Disruption with some GitHub services
+impact: major
+systems:
+    - cnnb39dkkk82
+timeline:
+    - ts: "2026-06-16 17:45:34"
+      description: We are investigating reports of degraded availability for Copilot AI Model Providers
+      investigating: true
+    - ts: "2026-06-16 17:47:32"
+      description: We are experiencing degraded availability for the Opus 4.8 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.
+      investigating: true
