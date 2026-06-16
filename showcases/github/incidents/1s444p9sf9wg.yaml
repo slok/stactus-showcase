@@ -11,3 +11,10 @@ timeline:
     - ts: "2026-06-16 17:47:32"
       description: We are experiencing degraded availability for the Opus 4.8 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.
       investigating: true
+    - ts: "2026-06-16 18:00:30"
+      description: The degradation affecting Copilot AI Model Providers has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-06-16 18:14:20"
+      description: The issues with our upstream model provider have been resolved, and Opus 4.8 is once again available in Copilot products and IDE surfaces.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.
+    - ts: "2026-06-16 18:15:24"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

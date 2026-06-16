@@ -1,0 +1,8 @@
+version: incident/v1
+id: 404gg8wp0yzy
+name: Figma Make and Agent Service Disruption
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-16 17:58:30"
+      description: We've identified an issue leading to errors while prompting Figma Make and and Agent using Anthropic models. A fix has been implemented and this should now be operational. We are continuing to monitor.
