@@ -1,0 +1,16 @@
+version: incident/v1
+id: nq5q2glxd4yw
+name: We are investigating an issue where customers see paid invoices as unpaid.
+impact: minor
+systems:
+    - ll1x88wwz4fq
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-06-16 22:50:32"
+      description: |-
+        Customers may not see invoice payment status accurately reflected in the Cloudflare UI for payments made since June 11.
+
+        Impacted customers will see paid Invoices shown as Unpaid via the Cloudflare Dashboard.
+    - ts: "2026-06-16 22:51:43"
+      description: We are currently investigating this issue.
+      investigating: true
