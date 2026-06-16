@@ -1,7 +1,7 @@
 version: incident/v1
 id: bfsh34myw3bc
 name: Intermittent 500 Errors on Serverless/GenAI Inference API
-impact: major
+impact: minor
 systems:
     - 2z9ldz1t4dgp
 timeline:
@@ -10,3 +10,5 @@ timeline:
         We are actively investigating an issue causing elevated HTTP 500 error rates for customers utilizing our Serverless/GenAI Inference API.
         Customer Impact: Customers making calls to the inference API—specifically targeting /v1/* endpoints—will experience intermittent HTTP 500 errors and failed requests.
       investigating: true
+    - ts: "2026-06-16 23:29:14"
+      description: Our engineering teams have successfully begun implementing mitigation steps to resolve the connectivity issues affecting the inference API. We will provide another update once the API has fully recovered and error rates return to normal.
