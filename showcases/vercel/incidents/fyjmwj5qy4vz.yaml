@@ -1,0 +1,13 @@
+version: incident/v1
+id: fyjmwj5qy4vz
+name: Partial disruption of Observability, Analytics, and Firewall
+impact: minor
+systems:
+    - 5d8svglj5s34
+    - kscyjm1qp3cw
+    - zr2j7y9kv5hd
+    - xxh50pzvy03x
+timeline:
+    - ts: "2026-06-16 13:39:02"
+      description: We are investigating a partial disruption to Observability, Web Analytics, Speed Analytics and Firewall features.
+      investigating: true

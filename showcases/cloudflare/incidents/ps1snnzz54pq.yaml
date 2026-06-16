@@ -1,0 +1,18 @@
+version: incident/v1
+id: ps1snnzz54pq
+name: Cloudflare is aware of and investigating Workers AI experiencing degraded availability in some models.
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2026-06-16 14:02:19"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-06-16 14:04:46"
+      description: |-
+        Cloudflare is aware of and investigating Workers AI experiencing degraded availability in some models.
+
+        Impacted models:
+        - @cf/moonshotai/kimi-k2.6
+        - @cf/moonshotai/kimi-k2.7-code
+      investigating: true
