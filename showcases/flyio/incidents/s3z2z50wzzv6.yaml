@@ -1,0 +1,10 @@
+version: incident/v1
+id: s3z2z50wzzv6
+name: Network Issues in SIN
+impact: major
+systems:
+    - b97pv9yxbzv7
+timeline:
+    - ts: "2026-06-17 03:21:10"
+      description: We are currently investigating network connectivity issues in the SIN region. Hosted apps may be unavailable.
+      investigating: true
