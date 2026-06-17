@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5v2txrvcyzk1
+name: Browser Isolation Availability Issues
+impact: minor
+systems:
+    - q0dfbn0p6hyt
+timeline:
+    - ts: "2026-06-17 17:08:25"
+      description: Cloudflare is investigating an issue with the Browser Isolation service. Impact is limited to customers accessing websites secured with Cloudflare Turnstile, who may observe errors when attempting to load these sites through the service. Other Cloudflare services are not affected. We are working to mitigate this problem and will provide further updates shortly.
+      investigating: true
