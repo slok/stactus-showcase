@@ -8,6 +8,8 @@ systems:
     - bsw2w0c5p6wm
     - n72tkbyzr423
     - c4g0whb6dmw4
+    - lkslwcgxp26b
+    - x9gl5ndz8q5s
     - nldbcgt153q4
     - tgq5tf35s6nv
     - jshyfn8wpm5b
@@ -45,3 +47,34 @@ timeline:
     - ts: "2026-04-20 15:11:46"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2026-05-13 21:59:07"
+      description: |-
+        We do not have any additional updates to share at this time. Our team is actively monitoring the situation and will provide further information as it becomes available.
+
+        In the meantime, please continue to refer to the AWS Status Page for the most detailed and up-to-date information.
+      investigating: true
+    - ts: "2026-05-21 11:41:28"
+      description: 'AWS UAE - prod-me-central-1: Public Probe checks might suffer degraded experience. We recommend migrating checks from the UAE probe to the next nearest probe suitable for your use case.'
+      investigating: true
+    - ts: "2026-05-27 17:10:51"
+      description: |-
+        The TLS certificates serving prod-me-central-1 endpoints expire on May 30, 2026. Replacement certificates have been imported, but the ongoing AWS regional incident is preventing them from propagating to all load balancer nodes, so customers may see certificate errors after that date until AWS restores normal operation.
+
+        We do not have any additional updates to share at this time. Our team is actively monitoring the situation and will provide further information as it becomes available.
+
+        In the meantime, please continue to refer to the AWS Status Page for the most detailed and up-to-date information.
+      investigating: true
+    - ts: "2026-06-17 09:58:13"
+      description: |-
+        Following our ongoing communications regarding the complete outage in prod-me-central-1, we are now closing this incident.
+        As noted in the latest AWS update, the Middle East (UAE) region (ME-CENTRAL-1) has suffered significant damage and restoration is expected to take several months. We strongly recommend all affected customers migrate workloads to an alternate Grafana Cloud region as soon as possible.
+
+        If you have not already done so, please follow the migration steps outlined in our previous updates:
+        1. Create a Grafana Cloud stack in an alternate region
+        2. Update clients to send telemetry to the new region, if using Grafana Alloy then you can use Fleet Management https://grafana.com/docs/grafana-cloud/send-data/fleet-management/introduction/
+        3. If your instance remains available and you have not configured your dashboards as code, then you may be able to use `grafanactl` to migrate dashboards https://grafana.com/docs/grafana/latest/as-code/observability-as-code/grafana-cli/grafanacli-workflows/ https://grafana.github.io/grafanactl/
+
+        For further details, please refer to the AWS incident communication directly: https://health.aws.amazon.com/health/status
+        Please reach out to our Support team if you need any assistance with the above - https://grafana.com/profile/org#support
+        We will continue to monitor the situation and update the incident once circumstances change.
+      resolved: true
