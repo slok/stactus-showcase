@@ -1,0 +1,10 @@
+version: incident/v1
+id: zd1x9vg8jfj1
+name: '[SNOC] SMS DLR Delays and Failures to Bitel Networks in Peru.'
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-06-17 08:42:40"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from Twilio to Bitel network subscribers in Peru. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
