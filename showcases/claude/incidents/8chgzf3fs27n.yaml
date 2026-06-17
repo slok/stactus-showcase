@@ -1,6 +1,6 @@
 version: incident/v1
 id: 8chgzf3fs27n
-name: Sonnet 4.6 errors
+name: Elevated errors on Claude Sonnet 4.6 and Opus 4.8
 impact: minor
 systems:
     - rwppv331jlwc
@@ -12,3 +12,5 @@ timeline:
     - ts: "2026-06-17 00:47:11"
       description: We are currently investigating this issue.
       investigating: true
+    - ts: "2026-06-17 01:52:15"
+      description: At this time, success rates for Claude Sonnet 4.6 have recovered and we are working to resolve an issue resulting in elevated errors on Opus 4.8. We will provide additional updates as soon as possible.
