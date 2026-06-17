@@ -7,3 +7,11 @@ timeline:
     - ts: "2026-06-17 17:57:49"
       description: We are investigating reports of impacted performance for some GitHub services.
       investigating: true
+    - ts: "2026-06-17 18:40:25"
+      description: We have identified a likely cause and are applying a mitigation
+      investigating: true
+    - ts: "2026-06-17 19:09:47"
+      description: We have applied mitigation and are seeing recovery
+      investigating: true
+    - ts: "2026-06-17 19:14:46"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
