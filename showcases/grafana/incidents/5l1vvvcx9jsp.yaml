@@ -1,0 +1,37 @@
+version: incident/v1
+id: 5l1vvvcx9jsp
+name: Loki data source-managed alert rules not visible in the Grafana Cloud Alerting UI
+impact: major
+systems:
+    - 6p5vk5f6rx2k
+    - z19pj782t1x2
+    - 0y4zgt70mcc2
+    - 95tmjrzs9h1f
+    - 8ycwcfl7gk6r
+    - zljxmjgrpj4q
+    - z8vdj0jttj7s
+    - 6lyq8vngbrgw
+    - 5n2wz8bkz9b6
+    - hzw0yd89s9ny
+    - 2fvfdmcnplg5
+    - k6ywy2zqz7fn
+    - tpvdjr2xyb7x
+    - 3q70xrw38s7y
+    - jw3c386xwr40
+    - d9g9gg8d9yyl
+    - zm76x8lqb4rk
+    - dx4hj364b8sj
+    - 062dycqds9gm
+    - qjwn7tbhdl8y
+timeline:
+    - ts: "2026-06-17 20:17:37"
+      description: |-
+        We have identified an issue where alert rules and alerts managed directly in a Loki data source (data source-managed alerting) are not displayed in the Grafana Cloud Alerting UI. Rules created via Prometheus/Mimir data sources and Grafana-managed alert rules are not affected.
+
+        Impact is limited to visibility and management in the UI. Affected alert rules continue to evaluate and send notifications normally — there is no impact to alert delivery.
+
+        Workaround: Loki alert rules can still be viewed and managed directly through the Loki ruler API (for example, using cortextool against /loki/api/v1/rules).
+
+        A fix has been identified and is in progress. We will provide a further update once it has been rolled out.
+    - ts: "2026-06-17 20:55:38"
+      description: Our Engineering Team has implemented a fix which is now being rolled out. We will continue to monitor the situation and update as soon as we have more information.
