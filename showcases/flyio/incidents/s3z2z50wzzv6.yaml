@@ -8,3 +8,12 @@ timeline:
     - ts: "2026-06-17 03:21:10"
       description: We are currently investigating network connectivity issues in the SIN region. Hosted apps may be unavailable.
       investigating: true
+    - ts: "2026-06-17 03:47:00"
+      description: Some machines in SIN are unreachable. A few Managed Postgres clusters may fail to fail-over or update. We are in the process of fixing this with our upstream provider.
+    - ts: "2026-06-17 04:22:16"
+      description: We are seeing recovery of network connectivity between SIN and most destinations. We're continuing to work with our upstream provider to resolve the remaining issues.
+    - ts: "2026-06-17 04:38:51"
+      description: Network connectivity in SIN has been fully restored. We're continuing to monitor.
+    - ts: "2026-06-17 04:55:07"
+      description: This incident has been resolved.
+      resolved: true

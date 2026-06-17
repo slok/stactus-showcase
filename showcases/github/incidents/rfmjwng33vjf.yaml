@@ -1,0 +1,21 @@
+version: incident/v1
+id: rfmjwng33vjf
+name: Incident with Copilot Availability
+impact: critical
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-06-17 03:50:23"
+      description: We are investigating reports of degraded availability for Copilot
+      investigating: true
+    - ts: "2026-06-17 03:52:07"
+      description: We are experiencing degraded availability for chat & agent models in Copilot. Multiple models are impacted and customers may experience requests failing. We are investigating and will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-06-17 04:26:20"
+      description: We've applied a mitigation to unblock Copilot functionality. Users may start to see signs of recovery. Relaunching your client should accelerate signs of recovery. We will continue to monitor the situation.
+      investigating: true
+    - ts: "2026-06-17 04:44:06"
+      description: Copilot is operating normally.
+    - ts: "2026-06-17 04:44:07"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
