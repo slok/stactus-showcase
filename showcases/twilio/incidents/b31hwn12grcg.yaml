@@ -1,0 +1,16 @@
+version: incident/v1
+id: b31hwn12grcg
+name: Customers Unable to Update Certain Voice Configurations Via Console
+impact: minor
+systems:
+    - w7nxj548smhd
+timeline:
+    - ts: "2026-06-18 21:02:18"
+      description: Our monitoring systems have detected a potential issue with Updating Voice Configuration With SIP Trunk. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-06-18 21:12:37"
+      description: We are investigating an issue where customers can not apply certain Voice configurations via Console. When updating Voice Configurations, saving those new configurations via the console is not successful. We expect to provide another update in 60 minutes or as soon as more information becomes available
+      investigating: true
+    - ts: "2026-06-18 21:24:24"
+      description: Updating voice configurations via the console is not successful has been resolved and it is operating normally at this time.
+      resolved: true

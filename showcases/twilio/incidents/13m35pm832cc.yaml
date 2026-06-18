@@ -1,0 +1,13 @@
+version: incident/v1
+id: 13m35pm832cc
+name: Errors Attempting to Add US HostedSMS Numbers to Messaging Services Via Console
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2026-06-18 21:35:10"
+      description: Customers are experiencing errors when attempting to add US HostedSMS numbers to Messaging Services via the Console. US A2P registration process can not be triggered and customers can not use the numbers to send messages to other numbers in the US. We will provide an update in 60 minutes or when we have additional information.
+      investigating: true
+    - ts: "2026-06-18 21:48:52"
+      description: We are continuing to investigate this issue.
+      investigating: true
