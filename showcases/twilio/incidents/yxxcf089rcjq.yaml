@@ -1,9 +1,16 @@
 version: incident/v1
 id: yxxcf089rcjq
 name: V3 Transcription API experiencing service issues
-impact: none
-systems: []
+impact: minor
+systems:
+    - 4rv9xfxmdjg9
 timeline:
     - ts: "2026-06-18 18:46:36"
       description: Our monitoring systems have detected a potential issue with V3 transcriptions API failures. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-06-18 19:46:13"
+      description: |-
+        We are investigating a service interruption with the V3 Transcriptions API. At this time, all batch transcription requests using the Google TTS chirp_2 (en-US) model are failing with PERMISSION_DENIED errors, resulting in a complete service outage for V3 transcription workflows. The root cause is a vendor-side issue as Google has blocked access to the chirp_2 model. We are actively working with our provider to resolve this and will provide another update once more information becomes available.
+
+        If users are seeing issues with Google TTS chirp_2, using the Deepgram Nova3 language model is a potential workaround at this time.
       investigating: true
