@@ -1,0 +1,17 @@
+version: incident/v1
+id: k40jp75sc0l0
+name: Sync Issues Affecting Legacy 1Password 7 Clients
+impact: minor
+systems:
+    - 5g595mfvxrwb
+    - 2pgpk5ny5rq5
+    - gj9k2mn8mhlq
+    - bqqv1rkltq6k
+timeline:
+    - ts: "2026-06-18 17:54:12"
+      description: |-
+        We have identified the cause of the synchronization issues affecting legacy 1Password 7 clients (OPI7 and OPM7) with 1Password and are deploying a fix.
+
+        Affected customers may experience item creations or updates not synchronizing to 1Password, in some cases without a visible error. We expect service to be restored shortly and will provide another update once the fix has been fully deployed and verified.
+
+        Modern clients and broader 1Password functionality do not appear to be affected.
