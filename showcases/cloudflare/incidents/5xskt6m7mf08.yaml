@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5xskt6m7mf08
+name: Cloudflare pages build failures
+impact: minor
+systems:
+    - vgxj684rcw7t
+timeline:
+    - ts: "2026-06-18 20:52:09"
+      description: Some Cloudflare Pages customers may be experiencing failures. Affected customers can retry their builds through the Dashboard.
+      investigating: true
