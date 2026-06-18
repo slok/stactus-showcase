@@ -9,3 +9,6 @@ timeline:
       description: We're noticing an uptick in users being unable to respond to actions on the mobile app (acknowledging and silencing alerts, for example). Users working in the web UI should not be affected. Ingestion and notification delivery are working as expected. We have a fix in place and are in the process of deploying.
     - ts: "2026-06-18 18:09:14"
       description: We've verified a fix in our staging environment to restore functionality to the mobile app. The fix is currently being deployed to production. Thanks for your patience as we continue to roll this out and monitor the resolution.
+    - ts: "2026-06-18 18:50:38"
+      description: This incident has been resolved. Thank you for your patience.
+      resolved: true
