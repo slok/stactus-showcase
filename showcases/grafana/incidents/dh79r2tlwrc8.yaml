@@ -1,0 +1,15 @@
+version: incident/v1
+id: dh79r2tlwrc8
+name: Degraded k6 cloud UI performance
+impact: critical
+systems:
+    - 3gvy1n7fg4x4
+    - m79yjv169r06
+    - 236539c2nt69
+timeline:
+    - ts: "2026-06-18 11:25:50"
+      description: We’re currently investigating an issue resulting in degraded k6 cloud UI performance and API response time. Our team is actively working to rectify this issue.
+      investigating: true
+    - ts: "2026-06-18 11:45:41"
+      description: We are continuing to investigate this issue.
+      investigating: true
