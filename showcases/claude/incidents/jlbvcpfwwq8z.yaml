@@ -1,0 +1,12 @@
+version: incident/v1
+id: jlbvcpfwwq8z
+name: Service disruption on Claude services
+impact: major
+systems:
+    - rwppv331jlwc
+timeline:
+    - ts: "2026-06-18 07:41:30"
+      description: We have identified the cause of the issue affecting Claude.ai and are working on a fix. We will provide an update as soon as possible.
+    - ts: "2026-06-18 08:19:22"
+      description: The issue affecting Claude services has been resolved. Impact occurred from 06:55 to 07:40 UTC.
+      resolved: true
