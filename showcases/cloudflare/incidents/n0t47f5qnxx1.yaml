@@ -7,3 +7,8 @@ systems:
 timeline:
     - ts: "2026-06-18 00:46:54"
       description: Cloudflare is aware of an issue impacting a small subset of customers where Snippets may be returning "Worker threw exception" errors. We are working to mitigate the impact.
+    - ts: "2026-06-18 01:44:47"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-18 01:52:14"
+      description: This incident has been resolved.
+      resolved: true

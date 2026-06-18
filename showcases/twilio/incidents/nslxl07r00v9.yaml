@@ -1,0 +1,15 @@
+version: incident/v1
+id: nslxl07r00v9
+name: Intelligent Alerts Unavailable
+impact: minor
+systems:
+    - y0hyz9ck5jht
+timeline:
+    - ts: "2026-06-18 02:04:38"
+      description: Our monitoring systems have identified a potential issue affecting alerts. Our engineers have been alerted and are investigating. We will share an update within 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-18 02:42:17"
+      description: Our engineers have restored the data in our system and Intelligent Alerts should now be available. We will continue to monitor to ensure full service recovery. We'll provide another update in 30 minutes or as soon as more information becomes available
+    - ts: "2026-06-18 03:14:08"
+      description: Issue affecting alerts has been resolved and Intelligent Alerts is operating normally at this time.
+      resolved: true
