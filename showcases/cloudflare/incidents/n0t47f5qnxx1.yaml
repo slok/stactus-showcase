@@ -1,0 +1,9 @@
+version: incident/v1
+id: n0t47f5qnxx1
+name: Snippets requests returning Worker threw exception
+impact: minor
+systems:
+    - 570kfpd0dgg7
+timeline:
+    - ts: "2026-06-18 00:46:54"
+      description: Cloudflare is aware of an issue impacting a small subset of customers where Snippets may be returning "Worker threw exception" errors. We are working to mitigate the impact.
