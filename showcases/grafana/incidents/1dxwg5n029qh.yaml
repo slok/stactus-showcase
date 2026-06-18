@@ -1,0 +1,9 @@
+version: incident/v1
+id: 1dxwg5n029qh
+name: Issues with actions in the Grafana IRM mobile app
+impact: major
+systems:
+    - 1mxpk7q1bkb6
+timeline:
+    - ts: "2026-06-18 17:01:48"
+      description: We're noticing an uptick in users being unable to respond to actions on the mobile app (acknowledging and silencing alerts, for example). Users working in the web UI should not be affected. Ingestion and notification delivery are working as expected. We have a fix in place and are in the process of deploying.

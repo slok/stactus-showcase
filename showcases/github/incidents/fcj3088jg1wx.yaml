@@ -33,5 +33,5 @@ timeline:
     - ts: "2026-06-10 16:37:16"
       description: The degradation has been mitigated. We are monitoring to ensure stability.
     - ts: "2026-06-10 16:39:05"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between 15:05 UTC and 16:25 UTC, GitHub API services experienced degraded availability due to sporadic authentication failures affecting approximately 9% of requests. Customers experienced intermittent "logged out" behavior as erroneous 401 responses triggered repeated authentication flows in app integrations. Affected requests also experienced approximately 800ms of additional latency.   <br /><br />A memcached proxy service rollout to our internal API infrastructure caused our authentication service to pick up an incorrect memcached host configuration, leading to intermittent authentication lookup failures. We mitigated the incident by deploying a configuration change to memcached to use the correct host. <br /><br />To prevent similar issues in the future, we plan to migrate our authentication system to the new memcached infrastructure to improve resilience and strengthen overall reliability posture.
       resolved: true

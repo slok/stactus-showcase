@@ -1,0 +1,18 @@
+version: incident/v1
+id: 7l0kwdnv43j8
+name: Delayed Events
+impact: minor
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2026-06-18 16:13:18"
+      description: |-
+        We are investigating increased latency processing Events.
+        As a result of this issue, some users may see delays or gaps in the event stream or for event queries on dashboards
+        To prevent false monitor alerts due to delayed data, monitors affected by the delay will not notify and will automatically resume once current data is available. All other monitors will operate normally..
+      investigating: true
+    - ts: "2026-06-18 16:22:43"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-18 16:33:28"
+      description: This incident has been resolved.
+      resolved: true

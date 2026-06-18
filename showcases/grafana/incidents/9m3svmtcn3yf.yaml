@@ -43,3 +43,10 @@ timeline:
 
         Impacted users may receive error messages such as "Error Loading" or "Failed to load Assets". To be clear, it does not matter the region the stack is located, but the geography where the user is physically in. We are currently investigating this issue from our end, and will provide updates as they are available.
       investigating: true
+    - ts: "2026-06-18 16:57:58"
+      description: |-
+        Due to the linked GCP outage below, users located in India may have trouble loading parts of Grafana.
+
+        https://status.cloud.google.com/incidents/5fGQt4VbkDnr3Yp8PXPr
+
+        Impacted users may receive intermittent error messages such as "Error Loading" or "Failed to load Assets". To be clear, it does not matter the region the stack is located, but the geography where the user is physically in. We continue to work with our CSP on this investigation.
