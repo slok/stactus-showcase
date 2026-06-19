@@ -11,3 +11,8 @@ timeline:
 
         Streaming logs using `fly logs`, the Live Logs page in the dashboard, and Fly Log Shipper services continue to work as expected.
       investigating: true
+    - ts: "2026-06-19 18:10:26"
+      description: Log search is available; however, new app logs since ~1 hour ago are missing and new logs are not being ingested. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-06-19 18:19:03"
+      description: We've applied a fix for this issue. Historical logs are currently backfilling. We will post an update once logs have finished backfilling and current logs are being ingested normally.
