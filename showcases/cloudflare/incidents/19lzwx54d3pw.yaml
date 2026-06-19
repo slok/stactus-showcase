@@ -1,0 +1,10 @@
+version: incident/v1
+id: 19lzwx54d3pw
+name: Delayed entitlements after zone upgrade
+impact: minor
+systems:
+    - 8m7bb706rh1c
+timeline:
+    - ts: "2026-06-19 11:15:21"
+      description: Cloudflare is investigating reports of customers not seeing entitlements after upgrading plans.
+      investigating: true
