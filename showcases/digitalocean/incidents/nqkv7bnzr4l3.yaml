@@ -16,3 +16,11 @@ timeline:
         Our engineering team has implemented the necessary fixes to address the issue affecting the visibility of monitoring graphs within the Cloud Panel. Users should now be able to view monitoring graphs for their services, including Droplets with DO Agent installed, Load Balancers, Databases, etc.
 
         We are currently monitoring the situation to ensure that the service has returned to normal operation and remain stable. We appreciate your patience and will provide an update once the issue is fully confirmed as resolved.
+    - ts: "2026-06-19 16:37:38"
+      description: |-
+        Between 13:22 & 14:26 UTC today, users have experienced missing monitoring graphs for Droplets (with DO agent installed), Load Balancers, Databases, and other services within the Cloud Control Panel.
+
+        Our engineering team has identified the root cause of the issue and has taken appropriate steps to restore functionality. We can confirm that services have been restored and are functioning as expected.
+
+        We apologize for any inconvenience this may have caused. If you continue to experience issues viewing monitoring graphs, please create a support ticket for further analysis. Thank you for your patience and understanding
+      resolved: true

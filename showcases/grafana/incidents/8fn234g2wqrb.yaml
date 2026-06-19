@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8fn234g2wqrb
+name: Rule Evaluation Outage in prod-us-central-0
+impact: major
+systems:
+    - xkjgscz19z6c
+timeline:
+    - ts: "2026-06-19 16:39:22"
+      description: "We had an outage affecting rule evaluations between 15:16-15:59 UTC in the prod-us-central-0 region. \n\nOur team quickly identified the issue and has since mitigated. The engineering team is monitoring."
