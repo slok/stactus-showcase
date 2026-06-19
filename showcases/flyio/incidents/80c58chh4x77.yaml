@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2026-06-19 18:19:03"
       description: We've applied a fix for this issue. Historical logs are currently backfilling. We will post an update once logs have finished backfilling and current logs are being ingested normally.
+    - ts: "2026-06-19 21:53:31"
+      description: Most queued historical logs have been ingested and should now be available through log search. Log ingestion rates have returned to normal levels.
+      resolved: true
