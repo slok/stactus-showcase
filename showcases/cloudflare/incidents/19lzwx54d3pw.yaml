@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-06-19 11:15:21"
       description: Cloudflare is investigating reports of customers not seeing entitlements after upgrading plans.
       investigating: true
+    - ts: "2026-06-19 11:59:27"
+      description: We identified a cache invalidation issue delaying changes to customer services and features. We're working on remediation and validating the fix.
+    - ts: "2026-06-19 12:15:02"
+      description: This incident has been resolved.
+      resolved: true
