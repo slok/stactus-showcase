@@ -1,0 +1,13 @@
+version: incident/v1
+id: nqkv7bnzr4l3
+name: Monitoring Graphs in the Cloud Control Panel
+impact: minor
+systems:
+    - yht2qc1zfp6x
+timeline:
+    - ts: "2026-06-19 14:00:33"
+      description: |-
+        Our Engineering team is currently investigating an issue affecting the visibility of monitoring graphs within the Cloud Panel. During this period, users may notice missing or unavailable monitoring graphs for services such as Droplets(with DO agent installed), Load Balancers, Databases, etc.
+
+        We apologize for the inconvenience caused. We'll update once we have more information
+      investigating: true

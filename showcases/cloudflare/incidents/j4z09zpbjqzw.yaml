@@ -1,0 +1,11 @@
+version: incident/v1
+id: j4z09zpbjqzw
+name: GraphQL queries failing
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-06-19 13:06:29"
+      description: |-
+        Today (2026-06-19) from 11:19 to 11:31 UTC, Customers in North America using GraphQL to query Datasets may have observed their queries failing.
+        This issue was fixed and queries on GraphQL are working well since.
+      resolved: true
