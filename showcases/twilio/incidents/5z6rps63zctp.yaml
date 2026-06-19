@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5z6rps63zctp
+name: Voice Insights Call Summary and Call Meta Record Delays
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-19 20:20:17"
+      description: Our monitoring systems have detected a potential issue with Voice Insights, call summary and call meta record delays. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-06-19 20:32:58"
+      description: We have fully investigated the voice insights issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
