@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8761p8rndm4z
+name: Browser Isolation experiencing intermittent issues with keyboard input
+impact: minor
+systems:
+    - q0dfbn0p6hyt
+timeline:
+    - ts: "2026-06-19 17:53:55"
+      description: Cloudflare is investigating an issue with the Browser Isolation service that is preventing some users from keyboard input. Other Cloudflare services are not affected. We are working to mitigate this problem and will provide further updates shortly.
+      investigating: true

@@ -1,0 +1,15 @@
+version: incident/v1
+id: 3h7jsmmrljwt
+name: 'Resolved: Elevated ERR_STREAM_PREMATURE_CLOSE errors in Vercel Functions'
+impact: none
+systems:
+    - kgcsn9c73xzf
+timeline:
+    - ts: "2026-06-19 17:54:16"
+      description: |-
+        Between Jun 19 09:09 and 16:16 UTC, a subset of Vercel Functions using node-fetch@2 may have experienced intermittent invocation errors that surfaced as ERR_STREAM_PREMATURE_CLOSE.
+
+        As part of Node.js June 2026 security releases, we began rolling out new Node.js versions. Those versions contain an upstream regression that breaks response streaming for node-fetch@2, which caused the errors https://github.com/nodejs/node/issues/63989
+
+        We have resolved the issue by reverting to the previous Node.js version. No action is required — affected functions are now operating normally. We will re-land the Node.js upgrade once the upstream issue is fixed.
+      resolved: true

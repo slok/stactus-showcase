@@ -1,0 +1,13 @@
+version: incident/v1
+id: 80c58chh4x77
+name: Log search unavailable
+impact: minor
+systems:
+    - 6sckg8qmrnzz
+timeline:
+    - ts: "2026-06-19 18:05:55"
+      description: |-
+        We are investigating an issue causing application log search to be unavailable. This is affecting the Fly Metrics log search panels, and historical application logs initially returned from the `fly logs` command.
+
+        Streaming logs using `fly logs`, the Live Logs page in the dashboard, and Fly Log Shipper services continue to work as expected.
+      investigating: true
