@@ -1,0 +1,23 @@
+version: incident/v1
+id: f9kyt2y1bg4z
+name: Durable Objects seeing increased error rates in ENAM region
+impact: minor
+systems:
+    - bty1yz6dhh0v
+    - hb7g5sq2zz0h
+    - z4wlt5jx9szq
+    - 5s616lljfwdz
+    - yxhtws7ltl9t
+timeline:
+    - ts: "2026-06-18 23:58:58"
+      description: Cloudflare is investigating increased errors for Durable Objects. Errors will be observed for users in Eastern NAMER regions only
+      investigating: true
+    - ts: "2026-06-18 23:59:53"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-06-19 00:01:19"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-06-19 00:02:27"
+      description: We are continuing to investigate this issue.
+      investigating: true
