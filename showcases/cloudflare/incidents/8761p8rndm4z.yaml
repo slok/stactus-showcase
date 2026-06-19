@@ -1,7 +1,7 @@
 version: incident/v1
 id: 8761p8rndm4z
 name: Browser Isolation experiencing intermittent issues with keyboard input
-impact: minor
+impact: none
 systems:
     - q0dfbn0p6hyt
 timeline:
@@ -10,3 +10,10 @@ timeline:
       investigating: true
     - ts: "2026-06-19 18:02:08"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-19 21:05:15"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-19 21:15:14"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-06-19 21:15:36"
+      description: This incident has been resolved.
+      resolved: true
