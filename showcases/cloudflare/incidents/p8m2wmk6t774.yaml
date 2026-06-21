@@ -1,0 +1,13 @@
+version: incident/v1
+id: p8m2wmk6t774
+name: SSL Certificate Provisioning Delays
+impact: minor
+systems:
+    - cghykwlwsmn5
+timeline:
+    - ts: "2026-06-21 13:46:52"
+      description: Cloudflare is investigating multiple reports of advanced certificate issuance delays
+      investigating: true
+    - ts: "2026-06-21 14:01:16"
+      description: This incident has been resolved.
+      resolved: true
