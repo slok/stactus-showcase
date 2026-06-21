@@ -1,0 +1,18 @@
+version: incident/v1
+id: 73jtx37zq1pr
+name: Intermittent deployment timeouts
+impact: none
+systems:
+    - d4z7n3kvpgp0
+    - vhd4h127zqt5
+    - rnyz50rjb4p5
+    - nfc2yzmxzw4s
+    - r5wtfz1xy72b
+    - s3zm1t588bky
+    - 0d75ngbkyzz2
+    - 29r8t4n835qg
+    - sr7vs6x5c6cf
+timeline:
+    - ts: "2026-06-21 15:00:17"
+      description: An issue causing deployment timeouts has been identified and resolved. Running applications were unaffected; only deployments were impacted. Please retry any failed deployments.
+      resolved: true
