@@ -18,3 +18,9 @@ timeline:
         Customers using the Legacy Twilio Console are currently unable to re-route phone numbers between the US1, AU1, and IE1 home regions. Customers using the API are unaffected.
         Our engineers have been alerted and are actively investigating. We will provide another update in 2 hours, or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-06-21 08:30:39"
+      description: |-
+        We have identified the cause of the issue affecting phone number routing configuration updates in the Legacy Twilio Console. Customers using the Legacy Twilio Console may be unable to update phone number routing between home regions such as US1, IE1, and AU1, and may receive an error when saving changes.
+        The issue is isolated to the Legacy Console workflow. Customers using One Console or the API directly are not impacted and can use those options as a workaround.
+
+        Our engineering team is planning to apply a fix during regular business hours. We will provide another update once implementation begins or as more information becomes available
