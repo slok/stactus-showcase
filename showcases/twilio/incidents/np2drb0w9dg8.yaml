@@ -1,0 +1,20 @@
+version: incident/v1
+id: np2drb0w9dg8
+name: Cannot Change Phone Number Home Region in the Twilio Legacy Console
+impact: minor
+systems:
+    - pv5w18vrltfl
+timeline:
+    - ts: "2026-06-21 06:28:55"
+      description: |-
+        Customers using the Legacy Twilio Console are currently unable to re-route phone numbers between the US1, AU1, and IE1 home regions. Customers using the API are unaffected.
+        Our engineers have been alerted and are actively investigating. We will provide another update in 1 hour, or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-21 06:29:40"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-06-21 07:35:24"
+      description: |-
+        Customers using the Legacy Twilio Console are currently unable to re-route phone numbers between the US1, AU1, and IE1 home regions. Customers using the API are unaffected.
+        Our engineers have been alerted and are actively investigating. We will provide another update in 2 hours, or as soon as more information becomes available.
+      investigating: true
