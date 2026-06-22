@@ -1,0 +1,12 @@
+version: incident/v1
+id: 2km31wxx0033
+name: Elevated Logs Query Usage — Unexpected Billing Impact
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-22 22:10:32"
+      description: |-
+        Starting June 20, 2026 at approximately 20:00 UTC, some Grafana Cloud customers experienced unexpectedly elevated logs query usage. The issue persisted until it was resolved on June 22, 2026 at approximately 16:00 UTC.
+
+        Our engineering team identified and mitigated the issue. Systems have since stabilized and are operating normally. Grafana Labs is reviewing affected accounts for appropriate remediation.
+      resolved: true

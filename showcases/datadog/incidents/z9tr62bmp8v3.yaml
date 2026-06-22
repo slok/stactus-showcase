@@ -1,0 +1,16 @@
+version: incident/v1
+id: z9tr62bmp8v3
+name: Metrics Queries
+impact: major
+systems:
+    - qrnng5l7z80l
+timeline:
+    - ts: "2026-06-22 21:27:41"
+      description: We are currently investigating elevated latency on metrics queries. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-06-22 21:43:42"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-06-22 22:09:59"
+      description: We are continuing to investigate this issue.
+      investigating: true
