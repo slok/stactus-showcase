@@ -1,10 +1,17 @@
 version: incident/v1
 id: 5g50l37rgw25
-name: SIN network issues
+name: SIN, NRT network issues
 impact: major
 systems:
+    - m0gqlhds44dr
     - b97pv9yxbzv7
 timeline:
     - ts: "2026-06-22 17:10:08"
       description: We are investigating an upstream network issue in the SIN (Singapore) region. Apps may be unreachable or have higher packet loss.
       investigating: true
+    - ts: "2026-06-22 17:24:27"
+      description: Our upstream provider has identified the issue and is working on a fix. Apps running in NRT (Tokyo) region may also have issues reaching certain destinations at this time.
+    - ts: "2026-06-22 17:44:53"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-22 18:33:01"
+      description: We are continuing to experience network issues with an upstream provider in SIN and NRT regions.

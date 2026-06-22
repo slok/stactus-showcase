@@ -1,0 +1,16 @@
+version: incident/v1
+id: 5m6r9440qkhc
+name: Service Degradation Affected Zoom Contact Center in the US Region.
+impact: none
+systems:
+    - s5s5m6flk56z
+timeline:
+    - ts: "2026-06-22 17:22:24"
+      description: |-
+        Between 14:46 and 16:54 UTC 06/22/2026, a subset of users may have experienced an issue connecting to Zoom Contact Center.
+        This incident has been resolved, and the affected services have been restored.
+
+        Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-06-22 17:39:24"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
