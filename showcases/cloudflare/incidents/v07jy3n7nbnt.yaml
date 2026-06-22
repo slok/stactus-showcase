@@ -1,0 +1,17 @@
+version: incident/v1
+id: v07jy3n7nbnt
+name: Cloudflare is investigating an issue where customers are being blocked deploying Managed Rules
+impact: minor
+systems:
+    - d1r0plwsl5qb
+timeline:
+    - ts: "2026-06-22 14:24:34"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-06-22 14:25:41"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-22 15:01:54"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-22 15:15:34"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,22 @@
+version: incident/v1
+id: l2fft0vnwxq5
+name: Service Degradation Affecting Zoom Meetings in US Region
+impact: minor
+systems:
+    - 3z7b6jks10hm
+timeline:
+    - ts: "2026-06-22 14:25:46"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Meetings in US Region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-06-22 14:46:28"
+      description: "We have successfully identified the root cause affecting Zoom Meetings in US Region.\n\nOur vendor is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+    - ts: "2026-06-22 15:02:12"
+      description: "The service degradation affecting Zoom Meetings in US Region has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
+    - ts: "2026-06-22 15:16:47"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true

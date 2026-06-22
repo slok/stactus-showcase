@@ -1,0 +1,10 @@
+version: incident/v1
+id: m1xml7ll8frp
+name: SMS Delivery Delays between a Subset of Twilio Long Codes and Multiple Networks in Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-06-22 15:09:30"
+      description: Twilio customers may be experiencing SMS delivery delays between a subset of Twilio Long Codes and network subscribers on multiple networks in Brazil. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
