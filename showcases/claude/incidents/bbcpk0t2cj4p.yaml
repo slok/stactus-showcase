@@ -1,0 +1,18 @@
+version: incident/v1
+id: bbcpk0t2cj4p
+name: Elevated errors across many models
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-06-22 19:14:19"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-06-22 19:20:27"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-22 19:45:45"
+      description: This incident has been resolved.
+      resolved: true
