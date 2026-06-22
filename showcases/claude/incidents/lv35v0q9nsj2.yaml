@@ -1,0 +1,18 @@
+version: incident/v1
+id: lv35v0q9nsj2
+name: Elevated Error Rates for Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6
+impact: major
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-06-22 00:37:06"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-06-22 00:37:25"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-06-22 01:11:04"
+      description: The issue has been identified and a fix is being implemented.
