@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5g50l37rgw25
+name: SIN network issues
+impact: major
+systems:
+    - b97pv9yxbzv7
+timeline:
+    - ts: "2026-06-22 17:10:08"
+      description: We are investigating an upstream network issue in the SIN (Singapore) region. Apps may be unreachable or have higher packet loss.
+      investigating: true

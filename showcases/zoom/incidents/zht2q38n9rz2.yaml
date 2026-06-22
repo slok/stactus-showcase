@@ -1,0 +1,21 @@
+version: incident/v1
+id: zht2q38n9rz2
+name: Service Degradation Affecting ZoomMate and Zoom AI services in US Region.
+impact: minor
+systems:
+    - 4jcnpddkkjtq
+    - rsh1v3gbhtsy
+    - n1llzwc1cxtr
+timeline:
+    - ts: "2026-06-22 16:31:52"
+      description: |-
+        We are currently investigating a service degradation affecting ZoomMate and Zoom AI services in US Region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-06-22 16:44:41"
+      description: "We have successfully identified the root cause affecting ZoomMate and Zoom AI services in US Region. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+    - ts: "2026-06-22 16:56:04"
+      description: "The service degradation affecting ZoomMate and Zoom AI services in the US Region has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."

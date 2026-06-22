@@ -20,3 +20,11 @@ timeline:
       description: We are investigating a fiber cut in Eastern North America.  Customers connecting through North America or accessing services in Europe may see increased latencies and timeouts as Cloudflare engineers look to mitigate
     - ts: "2026-06-22 15:12:19"
       description: We are continuing our traffic engineering work to mitigate the impact.
+    - ts: "2026-06-22 15:38:57"
+      description: Our network teams are continuing active traffic engineering efforts to reroute traffic away from congested links and restore full service stability. We are closely monitoring dashboards and customer reports to confirm recovery and will continue to provide status updates as we manage the remaining load.
+    - ts: "2026-06-22 15:40:40"
+      description: Our Engineers are continuing our traffic engineering work to mitigate the impact.
+    - ts: "2026-06-22 16:30:56"
+      description: Traffic engineering efforts have successfully mitigated the majority of congestion and packet drops. Services are largely stable, with only minor residual impact remaining. A small number of intermittent errors may still be observed for services with origins in North America as we work to fully clear the remaining load.
+    - ts: "2026-06-22 16:50:01"
+      description: Traffic engineering efforts have successfully mitigated the majority of congestion and packet drops.

@@ -1,0 +1,12 @@
+version: incident/v1
+id: c5px2vph181z
+name: SMS Delivery Delays and Delivery Receipt Failures from Twilio to C&W Saint Lucia
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-06-22 16:35:40"
+      description: Twilio customers may be experiencing SMS delivery delays and SMS delivery receipt failures from Twilio to C&W network subscribers in Saint Lucia. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be failing. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-22 16:39:26"
+      description: Twilio customers may be experiencing SMS delivery delays and SMS delivery receipt failures from Twilio to C&W network subscribers in Saint Lucia. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be failing. We will provide another update in 1 hour or as soon as more information becomes available.
