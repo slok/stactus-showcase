@@ -1,6 +1,6 @@
 version: incident/v1
 id: lv35v0q9nsj2
-name: Elevated Error Rates for Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6
+name: Elevated Error Rates for Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 4.6, and Haiku 4.5
 impact: major
 systems:
     - rwppv331jlwc
@@ -16,3 +16,14 @@ timeline:
       investigating: true
     - ts: "2026-06-22 01:11:04"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-22 01:16:33"
+      description: Opus 4.8 has recovered.
+    - ts: "2026-06-22 01:33:29"
+      description: Haiku 4.5 has recovered
+    - ts: "2026-06-22 01:56:25"
+      description: Opus 4.7 has recovered
+    - ts: "2026-06-22 02:01:31"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-22 02:06:43"
+      description: This incident has been resolved.
+      resolved: true
