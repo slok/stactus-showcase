@@ -1,0 +1,9 @@
+version: incident/v1
+id: j6n2l9lh0z91
+name: Cloudflare Notification Issue
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-23 03:10:21"
+      description: Users would have seen Cloudflare Advanced Security Events and Advanced HTTP DDoS attack alerts impacted between 2026-06-19 11:35 to 2026-06-23 02:50 UTC. Impact is restricted to the notification functionality, and it does not affect any connectivity, security, CDN or Area1 functionality. This issue is now resolved.
+      resolved: true
