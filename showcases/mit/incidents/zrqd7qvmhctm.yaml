@@ -1,0 +1,10 @@
+version: incident/v1
+id: zrqd7qvmhctm
+name: Issues Sending Email via outgoing.mit.edu
+impact: minor
+systems:
+    - pm1c4cxx88h1
+timeline:
+    - ts: "2026-06-23 20:05:50"
+      description: IS&T is investigating an issue affecting outgoing.mit.edu. Applications and services that rely on outgoing.mit.edu for outbound email delivery may be unable to send email at this time. We are actively working to restore service and will post updates as they become available.
+      investigating: true
