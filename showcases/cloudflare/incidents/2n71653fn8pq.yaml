@@ -1,0 +1,9 @@
+version: incident/v1
+id: 2n71653fn8pq
+name: Network Performance Issues - Increased HTTP 5XX Errors in Ashburn, US
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-23 18:25:58"
+      description: "Between 17:07 and 17:45 UTC, Cloudflare experienced network performance issues in the Ashburn, US region, resulting in an elevated rate of 5xx errors for a subset of traffic. During this time, impacted users may have encountered intermittent connectivity issues or unexpected server responses. The underlying issue was successfully mitigated, and all error rates have fully subsided. \n\nThis incident has been resolved."
+      resolved: true

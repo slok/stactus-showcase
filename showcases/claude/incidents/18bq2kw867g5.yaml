@@ -1,0 +1,15 @@
+version: incident/v1
+id: 18bq2kw867g5
+name: Claude.ai is experiencing elevated error rates
+impact: minor
+systems:
+    - rwppv331jlwc
+timeline:
+    - ts: "2026-06-23 18:24:12"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-06-23 18:32:50"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-23 18:32:57"
+      description: This incident has been resolved.
+      resolved: true
