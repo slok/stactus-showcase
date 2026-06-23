@@ -1,0 +1,12 @@
+version: incident/v1
+id: 2zp16l477frd
+name: SMS Delivery Delays from Twilio to MTN Nigeria
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-06-23 21:09:39"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to MTN network subscribers in Nigeria. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-23 21:10:07"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to MTN network subscribers in Nigeria. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
