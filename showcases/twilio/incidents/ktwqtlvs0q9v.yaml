@@ -1,0 +1,16 @@
+version: incident/v1
+id: ktwqtlvs0q9v
+name: On Call Engineers are Investigating Meta services being unavailable.
+impact: none
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2026-06-23 22:03:42"
+      description: Our monitoring systems have detected a potential issue with Meta Services unavailable. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-06-23 22:04:30"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-06-23 22:06:33"
+      description: We have fully investigated the META Services issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
