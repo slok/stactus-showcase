@@ -1,0 +1,12 @@
+version: incident/v1
+id: cq71yj57t20b
+name: SMS Delivery Delays from Twilio to Etisalat Egypt
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-06-23 06:42:16"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Etisalat network subscribers in Egypt. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-23 06:48:43"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Etisalat network subscribers in Egypt. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
