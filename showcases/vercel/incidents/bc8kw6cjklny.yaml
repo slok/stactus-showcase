@@ -1,0 +1,17 @@
+version: incident/v1
+id: bc8kw6cjklny
+name: Degraded Domain Search in Vercel Dashboard
+impact: minor
+systems:
+    - w94qwkg1z68w
+timeline:
+    - ts: "2026-06-23 23:24:24"
+      description: We're investigating an issue preventing customers from searching for and purchasing domains in the Vercel Dashboard.
+      investigating: true
+    - ts: "2026-06-23 23:26:31"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-23 23:28:31"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-23 23:34:35"
+      description: This incident has been resolved.
+      resolved: true

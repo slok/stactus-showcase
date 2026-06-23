@@ -7,3 +7,11 @@ timeline:
     - ts: "2026-06-23 23:04:50"
       description: We are investigating reports of impacted performance for some GitHub services.
       investigating: true
+    - ts: "2026-06-23 23:26:55"
+      description: We have applied a rollback and are seeing recovery.
+      investigating: true
+    - ts: "2026-06-23 23:27:25"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-06-23 23:29:34"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
