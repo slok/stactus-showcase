@@ -14,3 +14,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery receipt delays from Twilio to Tinkoff Mobile network subscribers in Russia. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-06-23 09:20:17"
       description: We have observed a recovery in SMS delivery receipts from Twilio to Tinkoff Mobile network subscribers in Russia and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-06-23 11:27:03"
+      description: The incident has been resolved and SMS delivery receipts from Twilio to Tinkoff Mobile network subscribers in Russia are operating normally.
+      resolved: true
