@@ -3,6 +3,7 @@ id: nhcn76sq79v8
 name: Messaging Service Whatsapp Geo Match Degraded
 impact: minor
 systems:
+    - 1gkv0mxhzsjv
     - 6cn0g627h62p
 timeline:
     - ts: "2026-06-24 18:16:56"
@@ -11,3 +12,8 @@ timeline:
     - ts: "2026-06-24 18:41:36"
       description: Messaging Service WhatsApp channel sender selection resolves the destination region to the US default for 100% of sends. Messaging Services will always select a US Whatsapp Sender if available or default to any Whatsapp Sender in the Sender Pool. Additionally, all Whatsapp Senders added to a Messaging Service in the past 2 weeks are missing a valid region. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-06-24 20:59:37"
+      description: Messaging Service WhatsApp channel sender selection resolves the destination region to the US default for 100% of sends. Messaging Services will always select a US Whatsapp Sender if available or default to any Whatsapp Sender in the Sender Pool. Additionally, all Whatsapp Senders added to a Messaging Service in the past 2 weeks are missing a valid region. We expect to provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-24 21:03:22"
+      description: Some WhatsApp senders might not be properly selected to match the desired destinations. Engineering teams have identified the cause and are working to deploy a fix. We will provide another update in 1 hour.
