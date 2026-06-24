@@ -1,0 +1,19 @@
+version: incident/v1
+id: fgp75tc5mvkd
+name: Restoring Access with a Recovery Code Is Failing for Some Users
+impact: minor
+systems:
+    - xgs4k9r41xf6
+    - bc33bxyk1phv
+    - cgltwfnt80mm
+    - 5mb7qcyd6jtf
+timeline:
+    - ts: "2026-06-24 17:15:10"
+      description: Some users who are locked out of their 1Password account are encountering a “Something went wrong” error when attempting to restore access using a recovery code. Our development team is aware of the issue and is actively investigating the cause. We will provide updates as more information becomes available.
+      investigating: true
+    - ts: "2026-06-24 17:30:10"
+      description: Our teams continue to investigate this issue. We are actively working to determine the cause and will share additional updates as they become available.
+      investigating: true
+    - ts: "2026-06-24 17:50:11"
+      description: The issue is still under investigation. We will continue to share updates as they become available.
+      investigating: true
