@@ -16,5 +16,5 @@ timeline:
     - ts: "2026-06-16 18:14:20"
       description: The issues with our upstream model provider have been resolved, and Opus 4.8 is once again available in Copilot products and IDE surfaces.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.
     - ts: "2026-06-16 18:15:24"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On June 16, 2026, between 17:20 UTC and 18:15 UTC, the Opus 4.8 model experienced degraded availability in GitHub Copilot. During this window, some requests to Opus 4.8 failed or errored. Other Copilot models were not affected and remained available as alternatives. This was caused by an issue with an upstream model provider. The upstream provider resolved the issue, and we monitored Opus 4.8 until success rates returned to normal. The incident is fully resolved.
       resolved: true
