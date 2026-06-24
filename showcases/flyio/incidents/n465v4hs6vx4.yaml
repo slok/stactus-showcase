@@ -1,0 +1,15 @@
+version: incident/v1
+id: n465v4hs6vx4
+name: Degraded networking in North America
+impact: minor
+systems:
+    - 7dkv4qp80325
+    - qyh8qlklk7mx
+    - 4zqk2hwhfmvb
+    - vfq82tp9wp5r
+    - 49qj4qjyzlzn
+    - mwwcgsqt0z7t
+timeline:
+    - ts: "2026-06-24 01:42:04"
+      description: We are currently investigating degraded network performance between sites in NA due to an upstream incident
+      investigating: true
