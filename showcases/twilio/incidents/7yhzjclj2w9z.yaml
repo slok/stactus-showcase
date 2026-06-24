@@ -1,0 +1,12 @@
+version: incident/v1
+id: 7yhzjclj2w9z
+name: User Authentication Identity SNA Failure Increase and Gateway API Failure Increase in United Kingdom
+impact: minor
+systems:
+    - trrz5ztt7pl8
+timeline:
+    - ts: "2026-06-24 14:54:04"
+      description: Twilio customers may be experiencing User Authentication Identity SNA failure increase and Gateway API failure increase in the United Kingdom. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-24 14:56:53"
+      description: Twilio customers may be experiencing User Authentication Identity SNA failure increase and Gateway API failure increase in the United Kingdom. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.

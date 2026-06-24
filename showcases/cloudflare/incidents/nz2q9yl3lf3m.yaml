@@ -1,0 +1,16 @@
+version: incident/v1
+id: nz2q9yl3lf3m
+name: Issues with granular roles for Cloudflare Tunnel and Mesh
+impact: minor
+systems:
+    - 8wk7c6y5dgfc
+    - y98zlwj1d7zh
+timeline:
+    - ts: "2026-06-24 15:16:41"
+      description: |-
+        Cloudflare is investigating permission issues with resource-based granular roles where a subset of users are not being granted access to their scoped Cloudflare Tunnel and Cloudflare Mesh resources.
+
+        This specifically impacts users attempting to view, configure, or manage individual Tunnel instances or Mesh nodes via the Cloudflare Dashboard or API when relying on resource-scoped policies. All account-level roles, global permissions, and active tunnel and mesh data traffic remain unaffected.
+
+        Our engineering team is actively working on resolving the root cause, and we will provide further updates as soon as more information is available.
+      investigating: true
