@@ -17,3 +17,6 @@ timeline:
       description: Most networking is largely healthy between primary North American regions. Some Machines may see ongoing packet loss and higher latency communicating with other Machines on certain routes. We're continuing to monitor the backbone health upstream.
     - ts: "2026-06-24 03:42:40"
       description: Some 6PN Private Networking traffic remains impacted into and out of our LAX region, pending upstream resolution.
+    - ts: "2026-06-24 06:57:37"
+      description: This incident has been resolved.
+      resolved: true
