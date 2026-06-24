@@ -1,0 +1,12 @@
+version: incident/v1
+id: ymfmxxwzry8t
+name: SMS Delivery Delays and Failures from Twilio to Orange Botswana
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-06-24 11:45:09"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Orange network subscribers in Botswana. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-24 12:03:07"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Orange network subscribers in Botswana. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
