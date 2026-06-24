@@ -1,0 +1,9 @@
+version: incident/v1
+id: ly5grfp3vqw3
+name: SMS Delivery Report Delays to Multiple Networks in Ireland via Subset of Long Codes and Alphanumeric Numbers
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-24 11:12:20"
+      description: Twilio SMS was degraded for approximate 10 hours between 23/06/2026 18:24 and 24/06/2026 04:30 UTC. During this period of time customers may have experienced delivery report delays to multiple Ireland networks. The issue has now been resolved
+      resolved: true
