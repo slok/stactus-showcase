@@ -1,0 +1,21 @@
+version: incident/v1
+id: 9ndxtnrwjf37
+name: Degradation with Webhooks, Pull Requests and Actions
+impact: major
+systems:
+    - 4230lsnqdsld
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-06-25 17:50:19"
+      description: We are investigating reports of degraded performance for Actions, Pull Requests and Webhooks
+      investigating: true
+    - ts: "2026-06-25 17:53:09"
+      description: Actions is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-06-25 17:58:46"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-06-25 18:07:44"
+      description: The degradation affecting Actions, Issues, Pull Requests and Webhooks has been mitigated. We are monitoring to ensure stability.
