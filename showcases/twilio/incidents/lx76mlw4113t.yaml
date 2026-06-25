@@ -1,6 +1,6 @@
 version: incident/v1
 id: lx76mlw4113t
-name: Voice Call Failures from Italy Network Subscribers to a Subset of Twilio Phone Numbers
+name: Voice Call Failures and Audio Quality Degradation from Italy to a Subset of Twilio Phone Numbers
 impact: minor
 systems:
     - bnzggd37p61w
@@ -14,3 +14,5 @@ timeline:
     - ts: "2026-06-25 14:41:29"
       description: Twilio customers may be experiencing voice call failures from network subscribers to Subset of  Twilio Italy Phone Numbers. Our team is actively investigating this issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-06-25 18:53:27"
+      description: Twilio customers may be experiencing voice call failures and audio quality degradation from network subscribers in Italy to a subset of Twilio Phone Numbers. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.

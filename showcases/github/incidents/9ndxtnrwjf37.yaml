@@ -19,3 +19,8 @@ timeline:
       investigating: true
     - ts: "2026-06-25 18:07:44"
       description: The degradation affecting Actions, Issues, Pull Requests and Webhooks has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-06-25 18:27:23"
+      description: We identified an issue that caused degradation across multiple services including Webhooks, Pull Requests, Actions, and Issues. Customers may have experienced delays or failures with these services. We have applied mitigations and affected services have recovered.
+    - ts: "2026-06-25 18:27:52"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
