@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-06-25 13:41:59"
       description: "We are investigating delays provisioning Depot backed builders for deploys. We have switched the default `fly deploy` strategy to use fly hosted builders at this time. \n\nUsers can still trigger a depot based deploy with `fly deploy --depot=true`"
       investigating: true
+    - ts: "2026-06-25 15:08:14"
+      description: |-
+        We are seeing improvements in Depot builder provision times and are switching the default deploy strategy back to them. We will continue to monitor builder performance closely.
+
+        Users with a preference can trigger a Fly builder based deploy with `fly deploy --depot=false`  or use `fly deploy --depot=true` to force a depot-based deployment.

@@ -3,6 +3,7 @@ id: nmy6ps27xf0f
 name: Workers KV errors via REST API
 impact: minor
 systems:
+    - vgxj684rcw7t
     - tmh50tx2nprs
 timeline:
     - ts: "2026-06-25 13:13:27"
@@ -10,3 +11,8 @@ timeline:
       investigating: true
     - ts: "2026-06-25 14:04:06"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-25 14:21:58"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-06-25 14:31:01"
+      description: This incident has been resolved.
+      resolved: true
