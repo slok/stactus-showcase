@@ -1,10 +1,13 @@
 version: incident/v1
 id: lx76mlw4113t
-name: Voice Call Failures from Network Subscribers to Twilio Italy Phone Numbers
+name: Voice Call Failures from Italy Network Subscribers to a Subset of Twilio Phone Numbers
 impact: minor
 systems:
     - bnzggd37p61w
 timeline:
     - ts: "2026-06-25 11:13:08"
       description: Twilio customers may be experiencing voice call failures from network subscribers to Twilio Italy Phone Numbers. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-25 12:18:11"
+      description: Twilio customers may be experiencing voice call failures from network subscribers to a Subset of  Italy Phone Numbers. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
