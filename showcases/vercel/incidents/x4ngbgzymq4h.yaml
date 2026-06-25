@@ -1,0 +1,10 @@
+version: incident/v1
+id: x4ngbgzymq4h
+name: Increase in Workflow runs stuck as pending
+impact: major
+systems:
+    - c3yjhlfbv34z
+timeline:
+    - ts: "2026-06-25 07:45:00"
+      description: We are currently investigating an issue where some recently deployed Workflow projects are stuck as pending and not delivering queued messages as expected.
+      investigating: true
