@@ -1,0 +1,13 @@
+version: incident/v1
+id: 3n6m136ll01g
+name: 'MongoDB Atlas: Atlas UI loading issues'
+impact: none
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-06-25 10:16:22"
+      description: |-
+        From 2026-06-25 06:55 UTC to 2026-06-25 07:10 UTC, some users may have experienced intermittent Atlas UI loading failures. We identified elevated traffic to a number of endpoints that increased latency in the Atlas UI service. This caused internal health checks to fail and temporarily reduced healthy Atlas UI capacity.
+
+        We restored healthy Atlas UI capacity and applied additional rate limiting to the affected traffic paths. We are continuing follow-up work to further  reduce the risk of recurrence.
+      resolved: true
