@@ -3,8 +3,10 @@ id: h0krgqfhf2vy
 name: Intermittent Issues with Inbound Message Status Updates Across Multiple Channels
 impact: minor
 systems:
+    - 7ypw8tsmyr78
     - yvvy3vlp4djf
     - 1gkv0mxhzsjv
+    - 2vs63pk0qq23
     - t32hnkr2q793
 timeline:
     - ts: "2026-06-25 21:14:50"
@@ -12,4 +14,7 @@ timeline:
       investigating: true
     - ts: "2026-06-25 21:27:16"
       description: We are investigating intermittent issues with inbound message delivery status across multiple messaging channels. At this time customers may experience issues with inbound messages not going to RECEIVED status. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-25 22:02:51"
+      description: We are continuing our investigation and have discovered Messaging Conversations and Flex Conversations is affected by the issue with inbound message delivery status.
       investigating: true
