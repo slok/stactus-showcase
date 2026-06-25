@@ -1,0 +1,10 @@
+version: incident/v1
+id: jn1x3cwjqynp
+name: Engineers are Investigating Issues with a Subset of Pages in Console
+impact: minor
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2026-06-25 16:24:34"
+      description: Our monitoring systems have detected a potential issue with the video/insights/video-rooms pages in the Twilio console. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
