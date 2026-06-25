@@ -12,3 +12,5 @@ timeline:
       description: The issue has been identified and a fix is being implemented.
     - ts: "2026-06-25 09:25:34"
       description: The issue has been identified. We are continuing to work on a fix for this issue.
+    - ts: "2026-06-25 10:42:09"
+      description: We are still working on a fix for this issue. While we fix the issue, users experiencing pending Workflow runs can trigger an instant rollback to a working deployment created before Jun 24 21:00 UTC to resume operation on new runs.
