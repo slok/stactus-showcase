@@ -1,0 +1,10 @@
+version: incident/v1
+id: qhbdhr9pmhhx
+name: 'Retroactive Incident: Twilio Verify API Affected'
+impact: none
+systems:
+    - 4rv9xfxmdjg9
+timeline:
+    - ts: "2026-06-25 13:28:17"
+      description: On June 25th between 04:53 and 04:54 UTC, Twilio Verify API experienced an increased number of HTTP 5xx errors and higher latencies across the verification endpoints. The issue has now been resolved.
+      resolved: true

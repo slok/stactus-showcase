@@ -16,3 +16,8 @@ timeline:
       description: We are still working on a fix for this issue. While we fix the issue, users experiencing pending Workflow runs can trigger an instant rollback to a working deployment created before Jun 24 21:00 UTC to resume operation on new runs.
     - ts: "2026-06-25 12:15:05"
       description: We are currently rolling a fix for the issue. We are monitoring the results.
+    - ts: "2026-06-25 13:30:43"
+      description: The fix has been fully rolled out and we are monitoring the results.
+    - ts: "2026-06-25 13:43:22"
+      description: This incident has been resolved.
+      resolved: true

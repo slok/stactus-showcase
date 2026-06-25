@@ -1,0 +1,10 @@
+version: incident/v1
+id: ltkp5s03xr58
+name: Deploys defaulting to Fly-hosted Builders
+impact: minor
+systems:
+    - 49yq6v65b33l
+timeline:
+    - ts: "2026-06-25 13:41:59"
+      description: "We are investigating delays provisioning Depot backed builders for deploys. We have switched the default `fly deploy` strategy to use fly hosted builders at this time. \n\nUsers can still trigger a depot based deploy with `fly deploy --depot=true`"
+      investigating: true

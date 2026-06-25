@@ -9,3 +9,7 @@ timeline:
     - ts: "2026-06-25 12:11:01"
       description: We're addressing elevated control plane latency and saturation affecting the BOM and NRT regions. Apps with machines in this region might experience longer response times and possible timeouts (502 errors).
       investigating: true
+    - ts: "2026-06-25 13:20:05"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-25 13:48:17"
+      description: A fix has been implemented and we are monitoring the results.

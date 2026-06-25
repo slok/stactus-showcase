@@ -1,0 +1,13 @@
+version: incident/v1
+id: 2h6156v6cfpw
+name: Increased 5xx errors in the India Region
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-06-25 14:10:19"
+      description: Cloudflare is aware of and investigating an increase of 5xx errors on requests in the India region
+      investigating: true
+    - ts: "2026-06-25 14:12:36"
+      description: We are continuing to investigate this issue.
+      investigating: true
