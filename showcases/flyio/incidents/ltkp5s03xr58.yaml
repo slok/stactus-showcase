@@ -13,3 +13,6 @@ timeline:
         We are seeing improvements in Depot builder provision times and are switching the default deploy strategy back to them. We will continue to monitor builder performance closely.
 
         Users with a preference can trigger a Fly builder based deploy with `fly deploy --depot=false`  or use `fly deploy --depot=true` to force a depot-based deployment.
+    - ts: "2026-06-25 15:38:02"
+      description: This incident has been resolved.
+      resolved: true
