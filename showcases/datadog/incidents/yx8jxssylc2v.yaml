@@ -1,0 +1,21 @@
+version: incident/v1
+id: yx8jxssylc2v
+name: Delayed CI Visibility data
+impact: minor
+systems:
+    - kbbhp1p4g26q
+timeline:
+    - ts: "2026-06-25 23:23:01"
+      description: |-
+        We are investigating increased latency processing CI Visibility data.
+
+        As a result of this issue, some users may see delays with pipeline executions.
+      investigating: true
+    - ts: "2026-06-25 23:24:22"
+      description: |-
+        We have identified the underlying issue and are working on a fix.
+
+        It is important to note that no data has been lost, and it will be backfilled and available once the service is operational again.
+    - ts: "2026-06-25 23:32:26"
+      description: This incident has been resolved.
+      resolved: true

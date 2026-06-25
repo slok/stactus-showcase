@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9gwzn3pyh1lk
+name: SMS Delivery Delays from Twilio to Wind tre Italy
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-06-25 23:30:20"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Wind tre network subscribers in Italy. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
