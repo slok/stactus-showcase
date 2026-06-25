@@ -1,0 +1,19 @@
+version: incident/v1
+id: 36hs3bryww30
+name: Service Degradation Affecting Zoom Web Service in Philippines.
+impact: minor
+systems:
+    - 8gftm750nwzm
+timeline:
+    - ts: "2026-06-25 06:10:36"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Web Service in Philippines.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-06-25 06:27:41"
+      description: "We have successfully identified the root cause affecting Zoom Web Service in Philippines. \n\nOur team is actively working on a resolution with our partner, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+    - ts: "2026-06-25 06:44:32"
+      description: The issue affecting Zoom Web Service in Philippines between 04:31 UTC - 06:10 UTC has been successfully resolved. Our team will continue to monitor the situation closely and keep you informed of any further developments.
