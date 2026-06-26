@@ -1,6 +1,6 @@
 version: incident/v1
 id: 8ncfrdm0ljh4
-name: SMS Delivery Delays from and to a subset Network Subscribers to Twilio Peru and Ireland Phone Numbers
+name: SMS Delivery Delays and Failures from and to a subset of  Multiple Networks in Peru and Ireland to a Subset of Twilio Phone Numbers
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -25,3 +25,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays from and to a subset network subscribers to Twilio Peru and Twilio Ireland Phone Numbers. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-06-26 11:11:32"
       description: Twilio customers may be experiencing SMS delivery delays from and to a subset network subscribers to Twilio Peru and Ireland Phone Numbers. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-06-26 15:14:00"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from and to a subset of multiple networks in Peru and Ireland to a subset of Twilio Phone Numbers. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
