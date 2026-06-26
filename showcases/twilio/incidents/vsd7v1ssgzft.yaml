@@ -1,6 +1,6 @@
 version: incident/v1
 id: vsd7v1ssgzft
-name: SMS Delivery Delays and Failures from a Subset of Twilio Sender IDs to SmartFren Indonesia
+name: SMS Delivery Delays and Failures From a Subset of Twilio Sender IDs to SmartFren Indonesia
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -20,3 +20,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Pre-Registered Twilio Sender IDs to SmartFren network subscribers in Indonesia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
     - ts: "2026-06-26 05:33:57"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Sender IDs to SmartFren network subscribers in Indonesia and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-06-26 07:35:20"
+      description: We have observed a recovery in SMS delivery from a subset of Twilio Sender IDs to SmartFren network subscribers in Indonesia and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+      resolved: true
