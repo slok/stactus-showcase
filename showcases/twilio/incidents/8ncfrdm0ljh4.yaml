@@ -1,6 +1,6 @@
 version: incident/v1
 id: 8ncfrdm0ljh4
-name: SMS Delivery Delays From Peru Mobile Handsets to a Subset of Twilio Phone Numbers In Peru
+name: SMS Delivery Delays from Peru Mobile Handset to a Subset of Twilio Phone Numbers
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-06-25 23:28:12"
       description: Twilio customers may be experiencing SMS delivery delays from Peru Mobile Handsets  to a subset of Twilio Phone Numbers In Peru. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-06-25 23:51:57"
+      description: Twilio customers may be experiencing SMS delivery delays from network subscribers in Peru to a subset of Twilio Phone Numbers. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
