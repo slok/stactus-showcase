@@ -1,6 +1,6 @@
 version: incident/v1
 id: xvrx99zddm4j
-name: K6 - Test runs are not showing metrics
+name: K6 - Test run metrics processing is delayed
 impact: minor
 systems:
     - m79yjv169r06
@@ -14,4 +14,7 @@ timeline:
       investigating: true
     - ts: "2026-06-26 14:09:37"
       description: We are experiencing intermittent delays with secondary metrics processing for k6 Cloud test runs due to heavy load. We don't expect any data loss or impact on user runs, but results may take longer time to appear in UI.
+      investigating: true
+    - ts: "2026-06-26 16:33:09"
+      description: "Update: Changed incident title to \"Test run metrics processing is delayed\" \n\nWe have found the issue and are working on deploying the fix."
       investigating: true
