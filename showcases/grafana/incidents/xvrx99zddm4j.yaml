@@ -1,7 +1,7 @@
 version: incident/v1
 id: xvrx99zddm4j
 name: K6 - Test runs are not showing metrics
-impact: critical
+impact: minor
 systems:
     - m79yjv169r06
     - z9074fpyx6sb
@@ -11,4 +11,7 @@ timeline:
       investigating: true
     - ts: "2026-06-26 13:19:41"
       description: 'A small update: The issue is isolated to new test runs, and users can go see the metrics of all the previous test runs'
+      investigating: true
+    - ts: "2026-06-26 14:09:37"
+      description: We are experiencing intermittent delays with secondary metrics processing for k6 Cloud test runs due to heavy load. We don't expect any data loss or impact on user runs, but results may take longer time to appear in UI.
       investigating: true
