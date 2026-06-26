@@ -1,6 +1,6 @@
 version: incident/v1
 id: xs6bw3qj42ym
-name: SMS Delivery Delays and Failures From a Subset of Twilio Long Codes to Multiple Networks in Philippines
+name: SMS Delivery Delays and Failures from a Subset of Twilio Long Codes to Multiple Networks in Philippines
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -12,3 +12,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Long Codes to network subscribers on multiple networks in the Philippines. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
     - ts: "2026-06-26 06:43:38"
       description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Long Codes to network subscribers on multiple networks in the Philippines. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-06-26 08:33:37"
+      description: We have observed a recovery in SMS delivery from a subset of Twilio Long Codes to network subscribers on multiple networks in the Philippines and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
