@@ -1,0 +1,16 @@
+version: incident/v1
+id: 29t1p0vx8sjz
+name: Delayed APM Trace Metrics
+impact: none
+systems: []
+timeline:
+    - ts: "2026-06-26 13:38:59"
+      description: |-
+        We have identified increased latency processing APM Trace Metrics and are working on a fix.
+        As a result of this issue, some users may see delayed APM Trace Metrics since 13:07 UTC.
+        To prevent false monitor alerts due to delayed data, monitors affected by the delay will not notify and will automatically resume once current data is available. All other monitors will operate normally..
+    - ts: "2026-06-26 13:41:24"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-26 13:45:37"
+      description: This incident has been resolved.
+      resolved: true

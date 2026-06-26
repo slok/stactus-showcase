@@ -1,0 +1,14 @@
+version: incident/v1
+id: xvrx99zddm4j
+name: K6 - Test runs are not showing metrics
+impact: critical
+systems:
+    - m79yjv169r06
+    - z9074fpyx6sb
+timeline:
+    - ts: "2026-06-26 13:08:48"
+      description: We’re currently investigating an issue causing metrics not to appear during test runs. . Our team is actively working to identify the cause. Thank you for your patience.
+      investigating: true
+    - ts: "2026-06-26 13:19:41"
+      description: 'A small update: The issue is isolated to new test runs, and users can go see the metrics of all the previous test runs'
+      investigating: true

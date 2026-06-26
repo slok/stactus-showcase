@@ -1,0 +1,13 @@
+version: incident/v1
+id: 9mwnzxknwysy
+name: Elevated Errors on Vercel Dashboard
+impact: critical
+systems:
+    - fk66q26xp7hh
+timeline:
+    - ts: "2026-06-26 13:08:09"
+      description: We are currently investigating the issue. Some users are experiencing errors logging in.
+      investigating: true
+    - ts: "2026-06-26 13:23:02"
+      description: We are continuing to investigate this issue.
+      investigating: true
