@@ -1,0 +1,17 @@
+version: incident/v1
+id: wb7gkg5ls7r8
+name: Increased error rates from the GitHub APIs, affecting deployments
+impact: minor
+systems:
+    - ffc2w3q5j6fx
+    - q8chffw359pz
+    - k7bvq41n41zs
+    - mf51szgphyxp
+    - 29lv3lp08fw1
+    - j7npqf9nr7qp
+    - 359qq1ltvtft
+    - z90jsvy9c3h1
+    - 7pp548h9j9k6
+timeline:
+    - ts: "2026-06-27 15:47:12"
+      description: We are seeing increased error rates from the GitHub APIs, affecting deployments.
