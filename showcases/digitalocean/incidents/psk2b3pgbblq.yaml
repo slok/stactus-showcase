@@ -1,0 +1,18 @@
+version: incident/v1
+id: psk2b3pgbblq
+name: Anthropic Inference Model Availability
+impact: none
+systems:
+    - 2z9ldz1t4dgp
+timeline:
+    - ts: "2026-06-27 04:43:29"
+      description: |-
+        Our Engineering team has mitigated an issue with Anthropic models. Previously, users may have encountered 400 errors when attempting to use any Anthropic model.
+
+        Although the root cause of the issue is still being addressed by Anthropic, users should now be able to access and use Anthropic models again. We will continue to monitor the situation and provide updates if necessary. If you continue to experience problems, please open a ticket with our Support team. We apologize for any inconvenience this may have caused.
+    - ts: "2026-06-27 05:15:38"
+      description: |-
+        Our Engineering team has resolved the issue that was causing HTTP 400 errors for requests to Anthropic models. Users should now be able to access Anthropic models without any issues.
+        If you continue to experience problems, please open a ticket with our Support team so we can investigate further.
+        We apologize for any inconvenience this may have caused.
+      resolved: true
