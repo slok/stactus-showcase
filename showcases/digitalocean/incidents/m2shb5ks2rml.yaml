@@ -1,0 +1,15 @@
+version: incident/v1
+id: m2shb5ks2rml
+name: Droplet Backup Service
+impact: none
+systems:
+    - dkbfnt2ghbw4
+timeline:
+    - ts: "2026-06-27 18:24:25"
+      description: |-
+        Between 00:00 UTC & 16:00 UTC today, our Engineering team identified an issue affecting backup operations on Droplets.  During this period, backups scheduled within this window may not have been created and may appear as missing.
+
+        Our team has taken necessary measures to resolve the issue, and we can confirm that the backup service has been restored and is now functioning normally. Upcoming scheduled backups should be performed as expected.
+
+        We sincerely apologize for any inconvenience this may have caused and appreciate your understanding. However, if you have any further questions or concerns, please create a support ticket for further analysis.
+      resolved: true
