@@ -21,3 +21,6 @@ timeline:
     - ts: "2026-06-26 23:30:00"
       description: We've improved the metric ingestion delay time and are working on additional fixes to bring it down to expected range. Customers can currently expect a delay of 2 to 5 minutes before their test run metrics show up (after starting a test).
       investigating: true
+    - ts: "2026-06-28 02:35:56"
+      description: This incident has been resolved.
+      resolved: true
