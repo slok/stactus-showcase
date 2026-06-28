@@ -1,0 +1,12 @@
+version: incident/v1
+id: 0rkjjs2ssp7z
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-06-28 17:50:30"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-06-28 17:59:07"
+      description: Copilot cloud agent is experiencing intermittent problems with opening pull requests, pushing changes and replying to comments. We have identified the issue and are validating a fix.
+      investigating: true
