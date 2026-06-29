@@ -1,0 +1,18 @@
+version: incident/v1
+id: ndxjszdjtj0x
+name: Service Degradation Affecting Zoom Voice Agent Service.
+impact: minor
+systems:
+    - pr3j87tpjmy9
+    - db6bc5vbbb4f
+timeline:
+    - ts: "2026-06-29 06:17:30"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Voice Agent Service.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-06-29 06:38:18"
+      description: "We have successfully identified the root cause affecting Zoom Voice Agent Service.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
