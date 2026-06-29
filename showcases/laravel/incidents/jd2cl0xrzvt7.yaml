@@ -1,0 +1,10 @@
+version: incident/v1
+id: jd2cl0xrzvt7
+name: Elevated connection error rates on Laravel MySQL
+impact: minor
+systems:
+    - jnfvms7yxwqz
+timeline:
+    - ts: "2026-06-29 18:35:56"
+      description: We're investigating increased connectivity errors to Laravel MySQL databases in Frankfurt.
+      investigating: true
