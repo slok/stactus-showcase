@@ -1,0 +1,10 @@
+version: incident/v1
+id: 6fdsld9f0nsn
+name: Rule evaluation error on cluster prod-gb-south-0
+impact: minor
+systems:
+    - 7vr04qdqjtn6
+timeline:
+    - ts: "2026-06-29 10:34:06"
+      description: We are currently investigating Rule Evaluation errors on the cluster prod-gb-south-0 which is leading to error codes showing within the stacks. We are looking into the issue and will update accordingly.
+      investigating: true

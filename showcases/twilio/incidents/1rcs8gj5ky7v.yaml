@@ -1,0 +1,12 @@
+version: incident/v1
+id: 1rcs8gj5ky7v
+name: SMS Delivery Delays from Twilio Phone Numbers to Lycamobile United Kingdom
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-06-29 10:38:33"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Phone Numbers to Lycamobile network subscribers in the United Kingdom. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-06-29 10:40:47"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Phone Numbers to Lycamobile network subscribers in the United Kingdom. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
