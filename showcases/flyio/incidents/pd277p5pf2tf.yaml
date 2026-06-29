@@ -12,3 +12,5 @@ timeline:
       description: We've identified an issue on multiple hosts causing delayed metric ingestion into our hosted fly-metrics.net dashboards. We are working on a fix.
     - ts: "2026-06-29 02:58:38"
       description: We are continuing to see delayed metric exports from a number of hosts. Users will see delayed or missing metrics for machines on impacted hosts at this time.
+    - ts: "2026-06-29 05:34:27"
+      description: We are continuing to see delayed metrics due to resource contention on a subset of metrics ingestion hosts, and we are working to rebalance ingestion traffic and reduce the backlog.
