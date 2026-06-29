@@ -1,0 +1,11 @@
+version: incident/v1
+id: grtt5vk2dd3v
+name: Mimir read errors and high latency in prod-eu-west-0
+impact: minor
+systems:
+    - 9rtx96d2z01z
+    - d2vdtkjjdzjy
+timeline:
+    - ts: "2026-06-29 11:37:40"
+      description: We are currently investigating an issue with Mimir in prod-eu-west-0 we are seeing read errors and high latency. This incident is currently ongoing. The errors are recovering but we are currently looking into the route cause of this.
+      investigating: true
