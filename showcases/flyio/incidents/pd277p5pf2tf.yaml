@@ -16,3 +16,5 @@ timeline:
       description: We are continuing to see delayed metrics due to resource contention on a subset of metrics ingestion hosts, and we are working to rebalance ingestion traffic and reduce the backlog.
     - ts: "2026-06-29 08:43:37"
       description: We are still in the process of increasing the metrics cluster throughput to catch up with metric backlog.
+    - ts: "2026-06-29 15:56:46"
+      description: Metric ingestion is still delayed for some customers. We’re seeing gradual improvement and continue to monitor the situation while the system catches up.
