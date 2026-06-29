@@ -1,0 +1,10 @@
+version: incident/v1
+id: pd277p5pf2tf
+name: Delayed Metrics
+impact: major
+systems:
+    - k2zhkw7wryv2
+timeline:
+    - ts: "2026-06-29 01:03:08"
+      description: We are investigating issues with customer facing metrics in the fly-metrics.net dashboard. Users may see delayed or missing metrics at this time.
+      investigating: true
