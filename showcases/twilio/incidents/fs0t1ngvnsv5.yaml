@@ -1,6 +1,6 @@
 version: incident/v1
 id: fs0t1ngvnsv5
-name: USD charges are failing for customers in Twilio Mexico CISA subsidiary
+name: USD Charges Are Failing for Customers in Twilio Mexico Cisa Subsidiary
 impact: minor
 systems:
     - jw9dh2mf4392
@@ -10,3 +10,7 @@ timeline:
         Some Twilio customers in Mexico may be experiencing issues when attempting to make credit card payments. We have identified the root cause as related to a recent migration of certain existing customers to our Mexico entity, while their account currency remains in USD. This is causing payment processing failures for the impacted accounts. This issue only affects customers whose accounts were migrated to CISA Mexico. Invoiced customers can continue making payments using the bank transfer details provided on their invoice.
         PAYG customers: we are actively working on a resolution. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-06-29 21:45:12"
+      description: |-
+        Some Twilio customers in Mexico may be experiencing issues when attempting to make credit card payments. We have identified the root cause as related to a recent migration of certain existing customers to our Mexico entity, while their account currency remains in USD. This is causing payment processing failures for the impacted accounts. This issue only affects customers whose accounts were migrated to CISA Mexico. Invoiced customers can continue making payments using the bank transfer details provided on their invoice.
+        PAYG customers that were impacted can now try to make payments again. We will provide another update in 2 hours or as soon as more information becomes available.
