@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-06-29 01:03:08"
       description: We are investigating issues with customer facing metrics in the fly-metrics.net dashboard. Users may see delayed or missing metrics at this time.
       investigating: true
+    - ts: "2026-06-29 01:46:18"
+      description: We've identified an issue on multiple hosts causing delayed metric ingestion into our hosted fly-metrics.net dashboards. We are working on a fix.
