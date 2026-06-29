@@ -1,0 +1,15 @@
+version: incident/v1
+id: rlzh0q260g4q
+name: intermittent Service Degradation Affecting ZoomMate in the US Region.
+impact: minor
+systems:
+    - n1llzwc1cxtr
+timeline:
+    - ts: "2026-06-29 21:14:14"
+      description: |-
+        We are currently investigating an intermittent service degradation with ZoomMate in the US Region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
