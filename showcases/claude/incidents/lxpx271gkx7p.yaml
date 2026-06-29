@@ -1,0 +1,17 @@
+version: incident/v1
+id: lxpx271gkx7p
+name: Elevated errors on Opus 4.5
+impact: minor
+systems:
+    - k8w3r06qmzrp
+timeline:
+    - ts: "2026-06-29 13:35:42"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-06-29 13:52:16"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-29 14:13:31"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-29 14:27:35"
+      description: This incident has been resolved.
+      resolved: true

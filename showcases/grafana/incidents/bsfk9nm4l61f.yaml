@@ -1,0 +1,13 @@
+version: incident/v1
+id: bsfk9nm4l61f
+name: Confluent API Outage
+impact: major
+systems:
+    - z5ysrlvblv9t
+timeline:
+    - ts: "2026-06-29 12:37:29"
+      description: We are investigating an issue affecting Confluent metrics ingestion across all regions. Due to an elevated error rate on the Confluent side, some metrics may not be ingested, resulting in potential data loss. We are actively investigating the issue and will provide updates as more information becomes available.
+      investigating: true
+    - ts: "2026-06-29 14:27:13"
+      description: This incident has been resolved.
+      resolved: true

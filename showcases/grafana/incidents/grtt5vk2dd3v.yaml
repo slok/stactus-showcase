@@ -9,3 +9,6 @@ timeline:
     - ts: "2026-06-29 11:37:40"
       description: We are currently investigating an issue with Mimir in prod-eu-west-0 we are seeing read errors and high latency. This incident is currently ongoing. The errors are recovering but we are currently looking into the route cause of this.
       investigating: true
+    - ts: "2026-06-29 13:52:03"
+      description: The errors are recovering, and we are still looking into the root cause of this.
+      investigating: true
