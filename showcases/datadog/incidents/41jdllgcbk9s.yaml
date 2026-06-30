@@ -1,0 +1,14 @@
+version: incident/v1
+id: 41jdllgcbk9s
+name: Delayed Monitors Notifications
+impact: major
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2026-06-30 10:35:02"
+      description: We are investigating delays in Monitors Notifications, which began at 09:52 UTC.
+      investigating: true
+    - ts: "2026-06-30 10:53:02"
+      description: |-
+        We have identified the underlying issue and are working on a fix.
+        It is important to note that no data has been lost, and notifications will be caught up once the service is operational again.
