@@ -28,3 +28,6 @@ timeline:
       description: Backlogged metrics are still being processed. We're bringing extra processing capacity online to speed up the process.
     - ts: "2026-06-30 19:58:58"
       description: Almost all metrics have caught up aside from a small handful in `sin` and `syd`. We're continuing to monitor and expect these to complete in the next few hours.
+    - ts: "2026-06-30 22:19:56"
+      description: This incident has been resolved.
+      resolved: true
