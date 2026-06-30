@@ -29,3 +29,6 @@ timeline:
         Some Twilio customers in Mexico may be experiencing issues when attempting to make credit card payments. We have identified the root cause as related to a recent migration of certain existing customers to our Mexico entity, while their account currency remains in USD. This is causing payment processing failures for the impacted accounts. This issue only affects customers whose accounts were migrated to CISA Mexico. Invoiced customers can continue making payments using the bank transfer details provided on their invoice.
         PAYG customers that were impacted can now try to make payments again. We will provide another update in 16 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-06-30 19:19:41"
+      description: Payment processing failures has been resolved and and it is operating normally at this time.
+      resolved: true
