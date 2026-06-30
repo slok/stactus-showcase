@@ -17,3 +17,6 @@ timeline:
       investigating: true
     - ts: "2026-06-29 17:47:19"
       description: We've identified a possible cause, and a mitigation is in place to prevent further occurrences.
+    - ts: "2026-06-30 08:20:53"
+      description: Since the mitigation has been applied, we have not seen the errors return. At this point, we are considering the incident resolved.
+      resolved: true
