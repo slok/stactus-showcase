@@ -1,0 +1,16 @@
+version: incident/v1
+id: lycfg3ll64j1
+name: Web Analytics Errors and Workers Smart Placement delays
+impact: minor
+systems:
+    - 4c231tkdlpcl
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-06-30 13:06:58"
+      description: Cloudflare Web Analytics processing is returning errors for queries related to Workers and Pages. Changes made to Workers with Smart Placement enabled may see delays in Smart Placement taking effect. More updates to follow.
+      investigating: true
+    - ts: "2026-06-30 13:38:06"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-06-30 13:42:53"
+      description: The issue has been identified and a fix is being implemented.

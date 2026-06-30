@@ -1,0 +1,16 @@
+version: incident/v1
+id: kf5zjmm65wn2
+name: MTLS Validation issues
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2026-06-30 13:08:30"
+      description: |-
+        Cloudflare is aware of and investigating issues with forwarding cf-client-cert-* headers with mTLS.
+        More updates to follow.
+      investigating: true
+    - ts: "2026-06-30 13:11:08"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-06-30 13:33:04"
+      description: A fix has been implemented and we are monitoring the results.

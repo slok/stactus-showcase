@@ -1,0 +1,11 @@
+version: incident/v1
+id: z1474bw3cxmy
+name: Cloudflare fonts issues
+impact: minor
+systems:
+    - vgxj684rcw7t
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-06-30 13:30:28"
+      description: Customers using Cloudflare fonts may experience difficulties in rendering fonts on Cloudflare hosted sites.
+      investigating: true
