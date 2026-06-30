@@ -1,0 +1,21 @@
+version: incident/v1
+id: 71vvxf0rxxnz
+name: Delayed data processing and errors in multiple products
+impact: major
+systems:
+    - kbbhp1p4g26q
+    - jfvglst6sc77
+    - 2ng88yhsvb74
+    - 9y11dv57sdjd
+    - wb6d6tss5zph
+    - v4w9qhyrkwc2
+timeline:
+    - ts: "2026-06-30 17:51:54"
+      description: |-
+        We are currently investigating an issue affecting CI Visibility, Test Optimization, Code Coverage, Software Delivery, Preemptive Alerting, Session Replay, RUM Explorer, Agent Observability, Database Monitoring, Event Correlation, Error Tracking, and all Security products in our US1 datacenter. As a result, some users may experience delays in data processing and errors when using affected products. Our engineering teams have identified the issue and are actively working on a resolution.
+
+        Our engineering teams are actively working to resolve the issue, and we'll follow up with more information shortly. Please let us know if you have any questions or need anything else in the meantime.
+      investigating: true
+    - ts: "2026-06-30 17:54:31"
+      description: We are continuing to investigate this issue.
+      investigating: true
