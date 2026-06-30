@@ -1,0 +1,10 @@
+version: incident/v1
+id: 0955vj167g80
+name: R2 Returning 503 for Buckets in WNAM
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-06-30 14:19:18"
+      description: Cloudflare is aware of, and is investigating, reports of R2 Buckets based in WNAM returning errors, like 503.  Further updates to follow.
+      investigating: true

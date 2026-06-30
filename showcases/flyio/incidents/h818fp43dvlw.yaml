@@ -1,0 +1,15 @@
+version: incident/v1
+id: h818fp43dvlw
+name: Egress IP issues in SIN and NRT
+impact: minor
+systems:
+    - m0gqlhds44dr
+    - b97pv9yxbzv7
+timeline:
+    - ts: "2026-06-30 13:45:42"
+      description: We are aware of egress IP issues in SIN and NRT and are working on a fix. Some machines in SIN and NRT using egress IPs may temporarily lose connectivity or otherwise see degraded performance.
+    - ts: "2026-06-30 13:49:33"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-06-30 14:03:50"
+      description: This incident has been resolved.
+      resolved: true

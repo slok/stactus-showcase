@@ -1,0 +1,17 @@
+version: incident/v1
+id: 7ykkywg6yln4
+name: Elevated error rates on Opus 4.8
+impact: minor
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+    - 0scnb50nvy53
+timeline:
+    - ts: "2026-06-30 14:31:04"
+      description: We are currently investigating elevated error rates on Opus 4.8. Our team is actively working to identify the root cause.
+      investigating: true
+    - ts: "2026-06-30 14:45:50"
+      description: A fix has been implemented and we are monitoring the results.
