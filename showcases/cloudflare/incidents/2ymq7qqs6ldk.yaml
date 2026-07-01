@@ -1,0 +1,11 @@
+version: incident/v1
+id: 2ymq7qqs6ldk
+name: Workers Observability issues
+impact: minor
+systems:
+    - pqt7t1dwt0dz
+timeline:
+    - ts: "2026-07-01 23:00:42"
+      description: |-
+        Cloudflare has identified an issue impacting users ability to query Workers Observability, users may see empty responses for their queries.
+        We are working to mitigate this problem. More updates to follow shortly.
