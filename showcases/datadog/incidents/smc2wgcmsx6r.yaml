@@ -1,0 +1,12 @@
+version: incident/v1
+id: smc2wgcmsx6r
+name: Elevated Error Rates
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-01 18:31:20"
+      description: We are actively investigating elevated error rates across multiple Datadog products.
+      investigating: true
+    - ts: "2026-07-01 18:57:38"
+      description: 'We are investigating elevated error rates across multiple products including: Fleet Automation, Security Products, Cloudcraft, Cloud Network Monitoring, Serverless, Kubernetes Autoscaling, and Database Monitoring.'
+      investigating: true
