@@ -1,0 +1,13 @@
+version: incident/v1
+id: f525m1njcyk9
+name: Even Though the AU Sender Ids Were Registered With Acma and Shared Across the Sub Accounts Sms Are Delivered as Unverified From Today
+impact: minor
+systems:
+    - whldrk77jnm4
+timeline:
+    - ts: "2026-07-01 00:16:48"
+      description: We are investigating Verify messages being delivered using default TWVerify and the custom template is not being used, instead Verify sms are delivered using default template. We expect to provide another update in 1hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-01 00:22:29"
+      description: The issue affecting Verify messages being delivered using default TWVerify has been resolved, and the service is functioning normally at this time.
+      resolved: true

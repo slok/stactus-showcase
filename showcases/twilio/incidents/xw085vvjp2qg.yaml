@@ -1,0 +1,10 @@
+version: incident/v1
+id: xw085vvjp2qg
+name: Issue With Some Verified Senders Appearing as Unverified
+impact: minor
+systems:
+    - whldrk77jnm4
+timeline:
+    - ts: "2026-07-01 01:02:31"
+      description: Twilio is aware that some sender ids used to send messages to Australia are being incorrectly overwritten as Unverified even though they are compliant with ACMA. We are working on identifying the impacted accounts and resolving the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
