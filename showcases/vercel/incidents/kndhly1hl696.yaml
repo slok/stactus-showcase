@@ -7,3 +7,5 @@ systems:
 timeline:
     - ts: "2026-07-01 16:57:03"
       description: "We've identified an issue where some workflow runs created between June 30 at 22:24 UTC and July 1 at 16:08 UTC may be stuck in a pending state or have reached a failed state. \n\nNew workflow runs are not impacted. We are working on a fix for runs stuck in a pending state and will provide additional updates as they become available."
+    - ts: "2026-07-01 17:49:13"
+      description: "We are continuing to work on recovering affected workflow runs that may be stuck in a pending state or have reached a failed state. \n\nNew workflow runs are not impacted."
