@@ -1,0 +1,10 @@
+version: incident/v1
+id: xv7tj1hxdcw4
+name: Static Egress IPv6 issues in NRT
+impact: minor
+systems:
+    - m0gqlhds44dr
+timeline:
+    - ts: "2026-07-01 13:06:58"
+      description: We are investigating issues with static egress IPv6 addresses in NRT region. Apps using static egress IPs may experience connectivity failures to some destinations.
+      investigating: true
