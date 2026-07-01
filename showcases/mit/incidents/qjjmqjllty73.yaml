@@ -1,0 +1,10 @@
+version: incident/v1
+id: qjjmqjllty73
+name: OC1 - Network Down
+impact: major
+systems:
+    - qbxg9tr9gslw
+timeline:
+    - ts: "2026-07-01 02:54:35"
+      description: All circuits connecting OC1 to MITnet are down due to a currently unknown issue affecting the provider's service. A ticket has been opened with the vendor who is currently investigating the issue. Updates will be provided as they are received.
+      investigating: true

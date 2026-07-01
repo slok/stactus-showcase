@@ -1,0 +1,14 @@
+version: incident/v1
+id: yhgqk5n7qwg0
+name: SMS Delivery Delays From Network Subscribers to Twilio United States, Canada, and Puerto Rico Phone Numbers
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - 39mb8cmw8y2v
+    - 32f2bm54nkvv
+timeline:
+    - ts: "2026-07-01 03:01:33"
+      description: Twilio customers may be experiencing SMS delivery delays from network subscribers to Twilio United States, Canada, and Puerto Rico Phone Numbers. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-01 03:13:43"
+      description: Twilio customers may be experiencing SMS delivery delays from network subscribers to Twilio United States, Canada, and Puerto Rico Phone Numbers. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
