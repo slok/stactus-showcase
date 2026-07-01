@@ -1,0 +1,15 @@
+version: incident/v1
+id: 8mvnl6s4cmdt
+name: Droplet Resize
+impact: none
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2026-07-01 11:13:21"
+      description: |-
+        Our Engineering team is investigating an issue affecting Droplet resizes using the "Downscale Anytime" option. At this time users may find this option unavailable or unresponsive in the Cloud Control Panel.
+
+        As a workaround, resizes can be performed via the API while we work to resolve this issue.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true

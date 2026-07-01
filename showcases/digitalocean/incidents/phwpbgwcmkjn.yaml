@@ -1,0 +1,15 @@
+version: incident/v1
+id: phwpbgwcmkjn
+name: DNS Lookup Failures for Managed Database
+impact: minor
+systems:
+    - 566bp0vk7mwx
+    - l8lxzfpgpc39
+    - qdnryq0lymfk
+timeline:
+    - ts: "2026-07-01 11:35:29"
+      description: "As of 06:39 UTC, our Engineering team is investigating reports of intermittent DNS lookup failures for Managed Database hostnames from Managed Kubernetes, primarily affecting connections from Managed Kubernetes to Managed Database hostnames. \n\nAt this point, customers in the FRA1 region may experience intermittent connectivity issues. \n\nWe apologize for the inconvenience and will share an update once we have more information."
+      investigating: true
+    - ts: "2026-07-01 12:15:49"
+      description: We are continuing to investigate this issue.
+      investigating: true
