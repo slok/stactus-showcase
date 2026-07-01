@@ -13,3 +13,6 @@ timeline:
     - ts: "2026-07-01 12:15:49"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2026-07-01 16:28:25"
+      description: The intermittent DNS lookup failures between Managed Kubernetes and Managed Database hostnames in the FRA1 region have been resolved for now but please let us know if you see the issue again. Connectivity has remained stable, and all systems are operating normally. If you continue to experience any problems, please open a ticket with our support team. Thank you for your patience, and we apologize for any inconvenience.
+      resolved: true
