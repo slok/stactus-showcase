@@ -22,5 +22,5 @@ timeline:
     - ts: "2026-06-25 18:27:23"
       description: We identified an issue that caused degradation across multiple services including Webhooks, Pull Requests, Actions, and Issues. Customers may have experienced delays or failures with these services. We have applied mitigations and affected services have recovered.
     - ts: "2026-06-25 18:27:52"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On June 25, 2026, between 17:33 UTC and 17:55 UTC, our background job service experienced degradation which increased delays to pull requests, repository pushes, Actions workflows, and Webhooks, with delays peaking at 7m. The issue was caused by underlying hypervisor issues and an incoming traffic spike, causing service timeouts which led to a connection storm and continual rebalances. <br /><br />The issue was mitigated by replacing the problem node at 17:49, after which all services saw recovery by 18:07.
       resolved: true
