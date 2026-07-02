@@ -1,7 +1,7 @@
 version: incident/v1
 id: 76l7xym7jd5m
 name: Agent Timeouts While Retrieving Data from Knowledge Bases
-impact: minor
+impact: none
 systems:
     - br95fz33h6td
     - ks0p9z6mcksw
@@ -23,3 +23,6 @@ timeline:
         Please be assured that our Engineering team is actively working on a fix and is treating this issue with high priority.
 
         We sincerely apologise for any inconvenience this may have caused and appreciate your patience and understanding. If you have any further questions, please create a support ticket so that we can investigate your specific case further.
+    - ts: "2026-07-02 03:38:53"
+      description: This incident has been resolved, and our teams continue to monitor the results. If you experience any further issues, please contact support.
+      resolved: true

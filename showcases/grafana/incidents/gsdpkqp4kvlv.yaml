@@ -1,0 +1,17 @@
+version: incident/v1
+id: gsdpkqp4kvlv
+name: Loki and Frontend Observability - Major Outage in prod-us-central-0 region
+impact: critical
+systems:
+    - fn320fztp9hc
+    - l72f5c7651n5
+timeline:
+    - ts: "2026-07-02 04:55:52"
+      description: We are currently investigating a major outage in Loki writes and Frontend Observability in the prod-us-central-0 region. Our Engineering team is investigating this and we will provide further updates as our investigation progresses.
+      investigating: true
+    - ts: "2026-07-02 04:57:44"
+      description: The AWS Logs integration in the same region is affected as well. We will provide further updates as our investigation progresses.
+      investigating: true
+    - ts: "2026-07-02 06:49:44"
+      description: This incident has been resolved by restarting the affected services.
+      resolved: true
