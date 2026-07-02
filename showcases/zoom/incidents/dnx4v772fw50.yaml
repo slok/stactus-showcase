@@ -1,0 +1,22 @@
+version: incident/v1
+id: dnx4v772fw50
+name: Service Degradation Affecting Zoom AI Services in Japan.
+impact: minor
+systems:
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2026-07-02 10:23:36"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom AI services in Japan.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-07-02 10:33:34"
+      description: "We have successfully identified the root cause affecting Zoom AI services in Japan.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+    - ts: "2026-07-02 10:42:21"
+      description: "The issue affecting Zoom AI services in Japan has been successfully resolved. Our team will continue to monitor the situation closely and keep you informed of any further developments. \n\nAfter conducting a thorough investigation, We can confirm that all services are operating normally and no impact has been observed.\n\nThank you for your patience."
+    - ts: "2026-07-02 11:15:58"
+      description: After conducting a thorough investigation, we can confirm that all services are operating normally and no impact has been observed. This incident has been resolved.
+      resolved: true

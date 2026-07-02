@@ -1,0 +1,14 @@
+version: incident/v1
+id: 8nsvv1x5cfgd
+name: Degraded Performance on the Cloud Control Panel
+impact: minor
+systems:
+    - k648vlw65tzw
+timeline:
+    - ts: "2026-07-02 10:34:39"
+      description: We've identified the issue and a fix is being rolled out.
+    - ts: "2026-07-02 10:52:08"
+      description: The dashboard is loading normally again and we're monitoring to confirm it's stable.
+    - ts: "2026-07-02 11:04:47"
+      description: The dashboard is fully back up. Your running apps were unaffected throughout. We apologize for the disruption.
+      resolved: true

@@ -1,0 +1,18 @@
+version: incident/v1
+id: m3x674snxdk6
+name: AWS cluster backup and restore operations are failing
+impact: none
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-07-02 10:45:57"
+      description: |-
+        We are currently investigating the issue where AWS cluster backup and restores are failing. This includes exports and manual downloads as well as restoring to another cluster.
+
+        We are also investigation potential impact to other operations on AWS clusters such as modifying instance size.
+      investigating: true
+    - ts: "2026-07-02 10:50:36"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-02 11:09:20"
+      description: This incident has been resolved. AWS clusters should no longer encounter errors during backup and restore.
+      resolved: true
