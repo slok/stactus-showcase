@@ -1,0 +1,20 @@
+version: incident/v1
+id: bgmdgj7m7bgm
+name: Degraded performance on CDN, Dashboard, Functions in Washington, Cleveland (iad1, cle1)
+impact: minor
+systems:
+    - fk66q26xp7hh
+    - s8mxhp2r4ztt
+    - jrd979g6ssl0
+    - kgcsn9c73xzf
+timeline:
+    - ts: "2026-07-02 16:31:55"
+      description: We are investigating an issue causing degraded performance across CDN, Dashboard, & Functions in Washington, Cleveland (iad1, cle1). We'll provide additional updates as they become available.
+      investigating: true
+    - ts: "2026-07-02 16:33:07"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-07-02 16:39:55"
+      description: A fix has been implemented and we are observing recovery across CDN, Dashboard, & Functions in Washington, Cleveland (iad1, cle1). We are continuing to monitor.
+    - ts: "2026-07-02 16:46:33"
+      description: This incident has been resolved.
+      resolved: true

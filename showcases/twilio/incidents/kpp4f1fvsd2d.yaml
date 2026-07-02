@@ -1,0 +1,12 @@
+version: incident/v1
+id: kpp4f1fvsd2d
+name: SMS Delivery Delays From a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Altice Dominican Republic
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-07-02 17:14:10"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric Sender IDs and Long Codes to Altice network subscribers in the Dominican Republic. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-02 17:14:59"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric Sender IDs and Long Codes to Altice network subscribers in the Dominican Republic. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.

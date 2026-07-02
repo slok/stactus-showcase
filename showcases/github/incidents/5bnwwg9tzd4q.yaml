@@ -1,0 +1,16 @@
+version: incident/v1
+id: 5bnwwg9tzd4q
+name: Incident with Pages
+impact: minor
+systems:
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2026-07-02 16:54:10"
+      description: We are investigating reports of degraded performance for Pages
+      investigating: true
+    - ts: "2026-07-02 16:56:46"
+      description: We are investigating reports of slow and failing Pages deployments. Access to Pages is unaffected.
+      investigating: true
+    - ts: "2026-07-02 17:57:15"
+      description: Pages deployment latency is recovering. The team continues working toward full mitigation and a return to nominal state.
+      investigating: true
