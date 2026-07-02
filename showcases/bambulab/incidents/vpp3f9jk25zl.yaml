@@ -1,0 +1,17 @@
+version: incident/v1
+id: vpp3f9jk25zl
+name: ISP Network Disruption in Parts of Europe Impacting Cloud Service Access
+impact: major
+systems:
+    - 5fs3yzwktd3t
+timeline:
+    - ts: "2026-07-02 08:25:33"
+      description: |-
+        We have observed a network disruption affecting several Internet Service Providers (ISPs) in parts of Europe. As a result, some users may experience the following when accessing our cloud services:
+        - Slow page loads, timeouts, or intermittent connectivity;
+        - Increased API latency or connection errors;
+        - Failures when signing in, syncing, or uploading/downloading data.
+        Initial investigation indicates the issue originates from upstream ISP networks and is not caused by an outage of our cloud services. Users in unaffected regions and on other ISPs are able to access the service normally.
+      investigating: true
+    - ts: "2026-07-02 09:56:54"
+      description: Since 09:15 (UTC), the ISP network issues in the affected regions have significantly recovered. We are now seeing success rates and latency for cloud service access in those regions return to normal levels.

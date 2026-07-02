@@ -21,3 +21,13 @@ timeline:
       description: Twilio is aware that some Sender IDs used to send messages to Australia are being incorrectly overwritten as Unverified even though they are compliant with ACMA. Verify customers may see traffic incorrectly being sent using the TWVerify sender and a brandless template. We are working on identifying the impacted accounts and resolving the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.
     - ts: "2026-07-01 17:25:16"
       description: Twilio is aware that some Sender IDs used to send messages to Australia are being incorrectly overwritten as Unverified even though they are compliant with ACMA. Verify customers may see traffic incorrectly being sent using the TWVerify sender and a brandless template. We are working on identifying the impacted accounts and resolving the issue. We expect to provide another update in 16 hours or as soon as more information becomes available.
+    - ts: "2026-07-02 07:28:35"
+      description: |-
+        Twilio has made significant progress in resolving the issue where certain compliant Sender IDs for Australia were incorrectly overwritten as Unverified. The vast majority of impacted accounts have now been successfully remediated, and normal behavior has been restored for these customers.
+
+        We are actively working to resolve the issue for the remaining small subset of affected accounts. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-07-02 09:39:21"
+      description: |-
+        Twilio has made significant progress in resolving the issue where certain compliant Sender IDs for Australia were incorrectly overwritten as Unverified. The vast majority of impacted accounts have now been successfully remediated, and normal behavior has been restored for these customers.
+
+        We are actively working to resolve the issue for the remaining small subset of affected accounts. We expect to provide another update in another 2 hours or as soon as more information becomes available.
