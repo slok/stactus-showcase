@@ -1,0 +1,14 @@
+version: incident/v1
+id: rjfr3rbzxlx1
+name: Managed Database Clusters
+impact: minor
+systems:
+    - 558h1l1q0c2w
+    - mzkgffp35tq4
+timeline:
+    - ts: "2026-07-02 22:04:53"
+      description: |-
+        Our engineering team is investigating an issue affecting Managed Database Clusters. Currently, users may encounter delays when creating/scaling/forking and restoring Standard MySQL, Standard PostgreSQL, OpenSearch, Kafka, and Valkey clusters through the Cloud Control Panel or API.
+
+        We apologize for the inconvenience and will provide further updates as soon as more information is available.
+      investigating: true

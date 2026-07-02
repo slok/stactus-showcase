@@ -1,0 +1,12 @@
+version: incident/v1
+id: 4zk590z2jmfz
+name: Errors issuing new SSL certificates
+impact: critical
+systems:
+    - mvnft391hph6
+timeline:
+    - ts: "2026-07-02 21:38:33"
+      description: We are currently investigating errors when issuing new SSL certificates for hostnames.
+      investigating: true
+    - ts: "2026-07-02 22:26:42"
+      description: The issue has been identified and we are awaiting a fix.

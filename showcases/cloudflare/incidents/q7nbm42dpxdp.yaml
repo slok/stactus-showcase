@@ -1,0 +1,9 @@
+version: incident/v1
+id: q7nbm42dpxdp
+name: Network Congestion in Newark, NJ (EWR)
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-02 22:12:08"
+      description: Between 20:18-21:30 UTC customers reaching Newark, NJ (EWR) would have experienced an elevated number of network errors due to congestion. The impacted services would have included Cloudflare Zero Trust and R2.
+      resolved: true
