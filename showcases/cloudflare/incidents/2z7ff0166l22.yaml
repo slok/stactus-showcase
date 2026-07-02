@@ -1,0 +1,13 @@
+version: incident/v1
+id: 2z7ff0166l22
+name: Cloudflare Workers build delays
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-07-02 13:40:49"
+      description: Cloudflare is aware of and investigating an issue with Cloudflare Workers build delays which potentially impacts multiple customers. Further detail will be provided as more information becomes available
+      investigating: true
+    - ts: "2026-07-02 13:46:07"
+      description: We are continuing to investigate this issue.
+      investigating: true
