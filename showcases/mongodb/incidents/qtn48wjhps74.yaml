@@ -1,0 +1,10 @@
+version: incident/v1
+id: qtn48wjhps74
+name: Impaired Cluster Operations due to Lets Encrypt Outage
+impact: minor
+systems:
+    - 98lbmdz85yp0
+    - q57ng8brt2td
+timeline:
+    - ts: "2026-07-02 19:34:21"
+      description: We are currently monitoring the status of Lets Encrypt. Tenant clusters and Atlas for Government clusters will experience delays in provisioning due to Lets Encrypt service degradation.

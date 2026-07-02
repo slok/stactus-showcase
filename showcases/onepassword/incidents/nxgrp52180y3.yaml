@@ -1,0 +1,17 @@
+version: incident/v1
+id: nxgrp52180y3
+name: Device Trust Outage
+impact: critical
+systems:
+    - v3gbkx6f1m94
+    - 8w4n222hgfj5
+    - gpdfn3wv69f8
+    - x0445x7dwc1y
+    - 70fw02b3t40d
+    - lr4lg734r97v
+    - v6b8yw4hdyxw
+    - fh2xgkkpccd4
+timeline:
+    - ts: "2026-07-02 19:44:00"
+      description: We are aware of an outage of Device Trust and are investigating the issue.
+      investigating: true

@@ -1,0 +1,14 @@
+version: incident/v1
+id: v037gr8ph9cd
+name: SMS Delivery Delays from a Subset of Twilio Alphanumeric Numbers to Airtel Niger
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-07-02 18:29:52"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric Numbers to Airtel network subscribers in Niger. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-02 18:41:12"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric Numbers to Airtel network subscribers in Niger. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-07-02 19:41:53"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric Numbers to Airtel network subscribers in Niger. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
