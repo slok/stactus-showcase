@@ -13,5 +13,5 @@ timeline:
       description: |-
         The issue affecting workflow runs getting stuck in a pending or failed state has been resolved. New workflow runs after the impact period are unaffected.
 
-        We are continuing to work on recovering affected workflow runs that may be stuck in a pending state or have reached a failed state.
+        Affected workflow runs have been recovered where possible. Runs that could be resumed safely were resumed and runs that could not be resumed safely were transitioned to a cancelled state.
       resolved: true
