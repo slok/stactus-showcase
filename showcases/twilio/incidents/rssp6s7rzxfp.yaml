@@ -1,0 +1,13 @@
+version: incident/v1
+id: rssp6s7rzxfp
+name: On Call Engineers are Investigating an issue with Messaging Insights filtering
+impact: none
+systems:
+    - dgkv7yc7sqdg
+timeline:
+    - ts: "2026-07-03 19:10:14"
+      description: Our monitoring systems have detected a potential issue with Messaging Insights time range filtering. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-07-03 19:39:03"
+      description: We have fully investigated the Messaging Insights time range filtering issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true

@@ -1,0 +1,11 @@
+version: incident/v1
+id: vbpg34cx846v
+name: Loadbalancing and Standalone Healthcheck Services for FedRAMP customers are degraded
+impact: minor
+systems:
+    - vn1h2pfctsvn
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2026-07-03 18:27:09"
+      description: FedRAMP customers may experience delays in receiving notification emails with health status updates for their origin servers.
+      investigating: true
