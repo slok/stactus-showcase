@@ -1,6 +1,6 @@
 version: incident/v1
 id: t78w3x5xk4fy
-name: SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Zong Pakistan
+name: SMS Delivery Receipt Delays From a Subset of Twilio Long Codes to Zong Pakistan
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -14,3 +14,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Long Codes to Zong network subscribers in Pakistan. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-07-02 22:05:51"
       description: We have observed a recovery in SMS delivery receipts from a subset of Twilio Long Codes to Zong network subscribers in Pakistan and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-07-03 00:06:35"
+      description: We have observed a recovery in SMS delivery receipts from a subset of Twilio Long Codes to Zong network subscribers in Pakistan and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
