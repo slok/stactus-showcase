@@ -1,0 +1,17 @@
+version: incident/v1
+id: 64d6d3l2h1lt
+name: Resolution Issues for .AL Domains
+impact: minor
+systems:
+    - 8w536gxk7dvq
+timeline:
+    - ts: "2026-07-03 16:48:24"
+      description: We are observing issues with authoritative resolution for the .AL TLD because of DNSSEC issues at the TLD.
+    - ts: "2026-07-03 17:02:34"
+      description: |-
+        Cloudflare is temporarily disabling DNSSEC validation for .AL domains on 1.1.1.1 resolver (as per RFC 7646) in order to allow .AL names to continue to resolve. DNSSEC validation will be re-enabled when the signing problems are known to have been resolved.
+
+        See RFC 7646 for more details:
+        https://datatracker.ietf.org/doc/html/rfc7646
+    - ts: "2026-07-03 17:25:45"
+      description: A fix has been implemented and we are monitoring the results.

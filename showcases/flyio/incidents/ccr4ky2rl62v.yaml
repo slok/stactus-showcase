@@ -1,0 +1,18 @@
+version: incident/v1
+id: ccr4ky2rl62v
+name: Partial Outage in ORD
+impact: major
+systems:
+    - q5hm9x2qx9l9
+    - vfq82tp9wp5r
+timeline:
+    - ts: "2026-07-03 17:00:06"
+      description: |-
+        We are investigating an issue with one of our upstream providers in ORD. Machines across a subset of hosts may be unreachable or not running correctly. Deploys with machines on these hosts may fail at this time.
+
+        Some Managed Postgres clusters in ORD region may be unavailable or see connectivity issues at this time.
+      investigating: true
+    - ts: "2026-07-03 17:02:53"
+      description: We've identified the issue as a networking hardware failure impacting a subset of hosts at one of our Upstream providers in ORD. We are working with our provider to restore connectivity.
+    - ts: "2026-07-03 17:49:38"
+      description: A fix has been implemented and we are monitoring the results.
