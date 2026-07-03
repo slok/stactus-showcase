@@ -1,0 +1,17 @@
+version: incident/v1
+id: rnq609lkyl21
+name: Durable Objects increased errors in ENAM
+impact: minor
+systems:
+    - z0yd3sxqjqdm
+    - bty1yz6dhh0v
+    - z4wlt5jx9szq
+    - yxhtws7ltl9t
+    - 5df6y9z3fsky
+timeline:
+    - ts: "2026-07-03 16:13:00"
+      description: Cloudflare is aware of and investigating an increase of errors for Durable Objects and downstream services in Eastern North America.
+      investigating: true
+    - ts: "2026-07-03 16:18:23"
+      description: We are continuing to investigate this issue.
+      investigating: true
