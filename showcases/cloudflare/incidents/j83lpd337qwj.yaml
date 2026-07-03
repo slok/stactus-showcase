@@ -1,0 +1,12 @@
+version: incident/v1
+id: j83lpd337qwj
+name: Issues with network performance in ENAM and WNAM, US
+impact: major
+systems:
+    - z9w398bsjvnq
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-07-03 01:10:20"
+      description: Cloudflare has identified issues with network performance in ENAM and WNAM, US. Customers using Argo Smart Routing in the affected areas may be impacted.
+    - ts: "2026-07-03 01:36:31"
+      description: A fix has been implemented and we are monitoring the results.

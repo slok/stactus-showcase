@@ -1,0 +1,17 @@
+version: incident/v1
+id: rpj3lwgx1s3s
+name: Errors Pulling Container Images
+impact: critical
+systems:
+    - l0ttkj4bcvjj
+timeline:
+    - ts: "2026-07-03 00:25:57"
+      description: We are investigating errors pulling Datadog container images from registry.datadoghq.com. As a result of this issue, some users may be unable to download or deploy the Datadog Agent, Cluster Agent, and other Datadog container images. Containers that are already running are not affected.
+      investigating: true
+    - ts: "2026-07-03 00:55:53"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-07-03 01:21:10"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-03 01:29:11"
+      description: This incident has been resolved.
+      resolved: true

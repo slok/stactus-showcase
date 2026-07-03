@@ -1,0 +1,19 @@
+version: incident/v1
+id: mv0vhw24tkq8
+name: Partial outage in ORD
+impact: major
+systems:
+    - q5hm9x2qx9l9
+    - vfq82tp9wp5r
+timeline:
+    - ts: "2026-07-03 00:11:11"
+      description: |-
+        We are investigating an issue with one of our upstream providers in ORD. Machines across a subset of hosts may be unreachable or not running correctly. Deploys with machines on these hosts may fail at this time.
+        Some Managed Postgres clusters in ORD region may be unavailable at this time.
+      investigating: true
+    - ts: "2026-07-03 00:29:42"
+      description: We've identified and reported power issues with one of our upstream providers in ORD. We're waiting for an update from our upstream for a resolution. Some Managed Postgres clusters in ORD will be unavailable due to placement.
+    - ts: "2026-07-03 00:54:03"
+      description: Our provider has advised us their facilities team is working on restoring the power, we'll provide another update as soon as we learn more.
+    - ts: "2026-07-03 02:59:44"
+      description: Power restoration work in a subset of ORD is still in progress and impact remains ongoing for a subset of hosts and some Managed Postgres clusters.
