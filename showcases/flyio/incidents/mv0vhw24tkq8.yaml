@@ -17,3 +17,10 @@ timeline:
       description: Our provider has advised us their facilities team is working on restoring the power, we'll provide another update as soon as we learn more.
     - ts: "2026-07-03 02:59:44"
       description: Power restoration work in a subset of ORD is still in progress and impact remains ongoing for a subset of hosts and some Managed Postgres clusters.
+    - ts: "2026-07-03 04:21:06"
+      description: Power restoration is ongoing and we're making sure the hosts are healthy before starting customer workloads to avoid issues. Customer impact remains and updates to come.
+    - ts: "2026-07-03 04:41:04"
+      description: Customer workloads are now starting and we're monitoring the affected hosts. Affected Managed Postgres instances will be investigated.
+    - ts: "2026-07-03 05:59:18"
+      description: This incident has been resolved.
+      resolved: true
