@@ -1,0 +1,21 @@
+version: incident/v1
+id: 7vmz1hmlzzrc
+name: Droplet Actions in NYC3
+impact: none
+systems:
+    - mrdxgk8b9l9m
+    - ty601myjf6cj
+timeline:
+    - ts: "2026-07-04 14:42:47"
+      description: |-
+        Our Engineering team has implemented a fix to address the issue affecting Droplets in the NYC3 region. The issue, which began at 12:38 UTC, caused disruptions to customers attempting to perform actions on their Droplets in the NYC3 region.
+
+        During this time, customers may also have experienced errors when trying to create Droplets in this region.
+
+        We are actively monitoring the situation to ensure the fix remains effective and will provide another update once the issue has been fully resolved.
+    - ts: "2026-07-04 15:10:06"
+      description: |-
+        Our Engineering team has confirmed that the issue impacting Droplets in the NYC3 region has been fully resolved. Users can now perform actions on their Droplets or create new Droplets in this region without any issues.
+
+        We appreciate your patience while we worked to resolve this issue. If you continue to experience any problems, please open a support ticket from your account so our team can investigate further.
+      resolved: true
