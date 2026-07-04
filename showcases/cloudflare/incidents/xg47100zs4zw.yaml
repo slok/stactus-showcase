@@ -8,3 +8,6 @@ timeline:
     - ts: "2026-07-04 21:25:08"
       description: Cloudflare is investigating issues with the Vectorize service. Customers may receive an "Internal Server Error" (HTTP 500) response when sending requests to a Vectorize index that has been deleted, instead of the expected "Not Found" (HTTP 404) response. Creating, querying, and managing active indexes are not affected, and no other Cloudflare services are impacted. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
       investigating: true
+    - ts: "2026-07-04 22:47:19"
+      description: This incident has been resolved.
+      resolved: true
