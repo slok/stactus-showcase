@@ -1,6 +1,6 @@
 version: incident/v1
 id: p924c0q16ljp
-name: SMS Delivery Delays From a Subset of Twilio Long Codes to Multiple Networks in Italy
+name: SMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in Italy
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -8,3 +8,7 @@ timeline:
     - ts: "2026-07-04 13:24:37"
       description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to network subscribers on multiple networks in Italy. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-07-04 14:17:57"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to network subscribers on multiple networks in Italy. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-07-04 14:18:40"
+      description: We have observed a recovery in SMS delivery from a subset of Twilio Long Codes to multiple networks in Italy and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.

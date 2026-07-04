@@ -1,0 +1,9 @@
+version: incident/v1
+id: h1l9jsj2q6jc
+name: New users unable to deploy Workers
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-07-04 14:38:02"
+      description: Cloudflare has identified an issue where new users cannot deploy Workers in the dashboard. We are working to mitigate the impact and will update shortly.
