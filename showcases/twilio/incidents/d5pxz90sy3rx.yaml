@@ -1,0 +1,12 @@
+version: incident/v1
+id: d5pxz90sy3rx
+name: SMS Delivery Delays from Twilio Phone Numbers to Telkomsel Indonesia
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-07-04 04:00:31"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Phone Numbers to Telkomsel network subscribers in Indonesia. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-04 04:40:08"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Phone Numbers to Telkomsel network subscribers in Indonesia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
