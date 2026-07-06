@@ -1,0 +1,10 @@
+version: incident/v1
+id: d23j8s7t8rx2
+name: Claude Tag seeing elevated GitHub operation failures
+impact: minor
+systems:
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-07-06 21:49:14"
+      description: We are currently investigating elevated error rates on calls made Claude Tag. Our team is actively working to identify the root cause. You may experience errors such as GitHub operations denied.
+      investigating: true
