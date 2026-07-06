@@ -1,6 +1,6 @@
 version: incident/v1
 id: z84w0wl1n4q6
-name: Voice Call Failures from Twilio Phone Numbers to Multiple Countries Across North America and Europe
+name: Voice Call Failures from Twilio Phone Numbers to United States and Spain
 impact: minor
 systems:
     - 2v3v92mz2m4h
@@ -11,4 +11,7 @@ timeline:
       investigating: true
     - ts: "2026-07-06 07:55:55"
       description: Twilio customers may be experiencing voice call failures from Twilio Phone Numbers to network subscribers in multiple countries across North America and Europe. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-06 09:56:40"
+      description: Twilio customers may be experiencing voice call failures from Twilio Phone Numbers to network subscribers in the United States and Spain, including emergency call attempts. Our team is actively investigating this issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true

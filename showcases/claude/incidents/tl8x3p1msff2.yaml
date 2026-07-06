@@ -1,6 +1,6 @@
 version: incident/v1
 id: tl8x3p1msff2
-name: Elevated errors on Claude Haiku 4.5
+name: Elevated errors on several models
 impact: minor
 systems:
     - rwppv331jlwc
@@ -11,3 +11,8 @@ timeline:
     - ts: "2026-07-06 07:36:23"
       description: We are currently investigating this issue.
       investigating: true
+    - ts: "2026-07-06 08:45:51"
+      description: Fable 5 has now also started returning errors.
+    - ts: "2026-07-06 09:13:37"
+      description: This incident has been resolved.
+      resolved: true

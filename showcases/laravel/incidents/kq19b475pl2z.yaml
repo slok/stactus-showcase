@@ -1,0 +1,14 @@
+version: incident/v1
+id: kq19b475pl2z
+name: Delayed processing in US East (Virginia)
+impact: minor
+systems:
+    - fp1qb51hl6d9
+    - rtpkt0y32lds
+timeline:
+    - ts: "2026-07-06 11:08:23"
+      description: We've identified an ongoing AWS issue in the US East (Virginia) region that is affecting compute provisioning. Some applications may see delayed background/queued job processing, and other capacity-dependent operations could be affected. Applications remain online. We're monitoring closely and will post updates as we learn more.
+    - ts: "2026-07-06 11:09:14"
+      description: We've identified an ongoing AWS issue in the US East (Virginia) region that is affecting compute provisioning. Some applications may see delayed background/queued job processing, and other capacity-dependent operations could be affected. Applications remain online. We're monitoring closely and will post updates as we learn more.
+    - ts: "2026-07-06 11:57:35"
+      description: The AWS issue affecting the US East (N. Virginia) region is recovering. Background and queued job processing has largely returned to normal. We are continuing to monitor closely to confirm full recovery and will post an update once the issue is fully resolved.
