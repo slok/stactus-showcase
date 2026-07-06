@@ -1,0 +1,17 @@
+version: incident/v1
+id: k5yvlfppnp4f
+name: Elevated errors on Claude.ai
+impact: critical
+systems: []
+timeline:
+    - ts: "2026-07-06 19:18:49"
+      description: We are investigating elevated errors on Claude.ai, and will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-07-06 19:28:17"
+      description: We have identified and are working to resolve an issue impacting Claude.ai. An additional impact of the ongoing issue is the inability to log-in via Claude.ai OAuth for Claude Code. We will provide an additional update as soon as possible.
+      investigating: true
+    - ts: "2026-07-06 19:46:02"
+      description: We have applied a fix, and at this time are seeing recovery of Claude.ai and related services such as OAuth log-in for Claude Code.
+    - ts: "2026-07-06 20:05:43"
+      description: This issue has been resolved.
+      resolved: true
