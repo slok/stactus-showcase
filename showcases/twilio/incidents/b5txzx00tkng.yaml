@@ -1,0 +1,13 @@
+version: incident/v1
+id: b5txzx00tkng
+name: Voice Gather Speech Degraded in Eu-West-1
+impact: minor
+systems:
+    - 333kb66wbbx3
+timeline:
+    - ts: "2026-07-06 13:43:47"
+      description: Our engineers are investigating the issue with Gather speech and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-06 14:35:39"
+      description: We are still investigating the issue with Gather speech and are working to deploy a fix. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true

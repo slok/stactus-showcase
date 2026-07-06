@@ -12,3 +12,6 @@ timeline:
       description: We've identified an ongoing AWS issue in the US East (Virginia) region that is affecting compute provisioning. Some applications may see delayed background/queued job processing, and other capacity-dependent operations could be affected. Applications remain online. We're monitoring closely and will post updates as we learn more.
     - ts: "2026-07-06 11:57:35"
       description: The AWS issue affecting the US East (N. Virginia) region is recovering. Background and queued job processing has largely returned to normal. We are continuing to monitor closely to confirm full recovery and will post an update once the issue is fully resolved.
+    - ts: "2026-07-06 14:38:13"
+      description: This incident has been resolved.
+      resolved: true
