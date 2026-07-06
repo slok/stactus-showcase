@@ -1,0 +1,18 @@
+version: incident/v1
+id: xhp2sg7sv3xl
+name: Entity
+impact: none
+systems:
+    - ssdh7xpzvw1l
+    - gmn0nk8bzns7
+    - yqcw0krmvwj5
+    - jk2k3ln898rx
+    - 6qh38lgrdr8v
+    - 858xlnc93b96
+    - vdkznxzlr7nn
+    - 0ggq3l63l1sh
+    - 15b9hc4j611g
+timeline:
+    - ts: "2026-07-06 08:23:15"
+      description: Between 07:20 and 08:12 UTC on July 6th, we experienced an issue where some customers  in the EU region may experience a delay of entity relationships appearing and refreshing in the New Relic platform. The issue is now resolved and the impacted services have returned to normal service.
+      resolved: true

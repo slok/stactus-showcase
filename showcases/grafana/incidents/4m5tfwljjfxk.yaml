@@ -9,3 +9,6 @@ timeline:
       description: Some IRM alert groups in us-east-3 region may not be able to produce alerts and could be sluggish/misbehaving in general. The issue started around 01:00 UTC on July 3rd. The issue has been identified and the cause of the issue has been fixed. Our team is actively working on getting the service back to healthy state.
     - ts: "2026-07-05 13:38:34"
       description: The work on bringing services back to healthy state is completed and alerts should be created correctly, without a delay now. We're keeping the incident open and monitoring for any potential hiccups that might occur.
+    - ts: "2026-07-06 07:37:05"
+      description: We haven't noticed any further issues in this region for alert group processing since yesterday. This incident i fully resolved.
+      resolved: true
