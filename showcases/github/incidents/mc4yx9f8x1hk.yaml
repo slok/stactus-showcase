@@ -8,5 +8,5 @@ timeline:
       description: We are investigating reports of impacted performance for some GitHub services.
       investigating: true
     - ts: "2026-06-30 15:49:18"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between 15:19 UTC and 15:49 UTC on June 30, 2026, users were unable to complete the signup flow for GitHub.com/signup. Approximately 62% of new user signups failed for about 30 minutes during this window.<br /><br />This was caused by a configuration change to the signup flow that unintentionally blocked users from completing signup.<br /><br />We mitigated the incident by reverting the change, which restored successful signups. To reduce the likelihood and impact of similar issues, we are adopting staged, incremental rollouts for changes on the signup path, improving our ability to test these changes before they reach production, and adding checks to verify signup health before and during any change that affects this flow.
       resolved: true

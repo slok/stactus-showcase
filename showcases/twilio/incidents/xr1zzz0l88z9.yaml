@@ -1,9 +1,9 @@
 version: incident/v1
 id: xr1zzz0l88z9
-name: High Number of 500s Returned by Pied-Piper-Api Due to Elasticsearch Timeouts
+name: Debugger Console Errors
 impact: none
 systems: []
 timeline:
     - ts: "2026-07-01 16:40:11"
-      description: Twilio pied-piper-api was degraded for 10 minutes between 08:46 and 08:56 Pacific Time on 07/01/2026. During this period of time customers may have experienced High number of 500s returned by pied-piper-api due to Elasticsearch timeouts. The issue has now been resolved.
+      description: We are aware of elevated 500 errors affecting the Debugger console on July 1st, 2026, from 8:46 to 8:54 AM PT. Customers may have experienced timeouts or errors when loading debug events, notifications, and alerts. The issue has been resolved and Debugger is operating normally.
       resolved: true
