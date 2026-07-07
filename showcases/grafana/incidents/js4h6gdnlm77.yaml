@@ -1,0 +1,14 @@
+version: incident/v1
+id: js4h6gdnlm77
+name: Delayed usage and billing data
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-07 13:44:07"
+      description: |-
+        We identified an issue with the internal job that calculates month-to-date usage and cost data, which caused usage attribution and billing dashboards to display stale information. The root cause has been identified and resolved.
+
+        Your billing dashboard may show a sudden jump in usage. This is expected. It reflects several days of accumulated usage that hadn't been showing up while the issue was ongoing, not a sudden change in your actual usage.
+
+        This issue does not affect your end-of-month invoice. Your bill will be calculated based on actual usage, not the numbers displayed during this period.
+      resolved: true
