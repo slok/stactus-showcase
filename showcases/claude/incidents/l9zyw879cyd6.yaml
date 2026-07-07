@@ -1,0 +1,15 @@
+version: incident/v1
+id: l9zyw879cyd6
+name: Elevated errors for some models
+impact: major
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-07-07 20:02:33"
+      description: We are investigating elevated errors on requests to some models. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-07-07 20:28:40"
+      description: We have seen success rates return to normal, but we are continuing to work to fully resolve this issue and ensure no further recurrences.

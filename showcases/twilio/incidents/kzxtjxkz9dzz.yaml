@@ -11,3 +11,8 @@ timeline:
     - ts: "2026-07-07 18:26:34"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2026-07-07 18:59:31"
+      description: Engineers identified and fixed the issue that was causing customers to be unable to send messages from Twilio's WhatsApp sandbox. Customers can now send messages via the Twilio sandbox as normal.
+    - ts: "2026-07-07 19:31:27"
+      description: The issue impacting message send has been resolved and Twilio WhatsApp Sandbox is operating normally at this time.
+      resolved: true
