@@ -1,0 +1,18 @@
+version: incident/v1
+id: fjz7bzj079w9
+name: Service Degradation Affecting Zoom Phone and Zoom Contact Center Inbound calls in India
+impact: minor
+systems:
+    - jsk0584rpghr
+    - dkz3yppqdg9h
+timeline:
+    - ts: "2026-07-07 10:15:59"
+      description: "We are currently investigating a service degradation affecting a subset of Airtel subscribers for inbound call connectivity to Zoom India phone numbers for Zoom Phone and Zoom Contact Center. Outbound calls continue to function normally. \n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue."
+      investigating: true
+    - ts: "2026-07-07 10:53:02"
+      description: |-
+        We have identified the issue with our underlying carrier affecting a subset of Airtel subscribers, which is impacting inbound call connectivity to Zoom India phone numbers for Zoom Phone and Zoom Contact Center. Outbound calls continue to function normally.
+
+        We are actively working with our carrier partner to resolve the issue.
+
+        We will share updates as soon as they become available.

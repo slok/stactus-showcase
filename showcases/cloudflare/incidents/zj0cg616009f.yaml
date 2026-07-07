@@ -1,0 +1,13 @@
+version: incident/v1
+id: zj0cg616009f
+name: New members invitations to accounts not being sent
+impact: minor
+systems:
+    - wq0b65msmwpb
+timeline:
+    - ts: "2026-07-07 10:22:42"
+      description: |-
+        Cloudflare is investigating issues with invites for new members of accounts that are not being sent to the invitees, impacting their ability to join organizations.
+
+        We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
