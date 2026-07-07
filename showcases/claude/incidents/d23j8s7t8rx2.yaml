@@ -8,3 +8,9 @@ timeline:
     - ts: "2026-07-06 21:49:14"
       description: We are currently investigating elevated error rates on calls made Claude Tag. Our team is actively working to identify the root cause. You may experience errors such as GitHub operations denied.
       investigating: true
+    - ts: "2026-07-07 15:30:55"
+      description: Our team has made some changes to update the load to GitHub, that we think will reduce this error rate.
+      investigating: true
+    - ts: "2026-07-07 15:52:01"
+      description: Our team is observing a lower error rate after these changes. We will continue investigating in-case we observe any spikes.
+      resolved: true

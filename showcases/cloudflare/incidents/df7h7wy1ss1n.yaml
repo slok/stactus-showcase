@@ -1,0 +1,13 @@
+version: incident/v1
+id: df7h7wy1ss1n
+name: Cloudflare Registrar operations issues
+impact: minor
+systems:
+    - kn2xkt469vyh
+timeline:
+    - ts: "2026-07-07 15:41:53"
+      description: |-
+        Cloudflare is aware of and investigating an issue with Cloudflare Registrar that may prevent customers from registering, renewing, updating and transferring domains.
+
+        Further detail will be provided as more information becomes available.
+      investigating: true
