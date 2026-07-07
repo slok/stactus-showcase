@@ -1,0 +1,13 @@
+version: incident/v1
+id: kzxtjxkz9dzz
+name: Issues when utilizing WhatsApp Sandbox to Send Messages
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2026-07-07 17:02:08"
+      description: Customers may be unable to send messages from Twilio's WhatsApp sandbox. Engineers are investigating the issue.
+      investigating: true
+    - ts: "2026-07-07 18:26:34"
+      description: We are continuing to investigate this issue.
+      investigating: true
