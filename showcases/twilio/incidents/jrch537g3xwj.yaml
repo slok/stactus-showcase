@@ -1,6 +1,6 @@
 version: incident/v1
 id: jrch537g3xwj
-name: SMS Delivery Failures from Twilio to Entel Bolivia, Softbank Japan, and MTN Ghana
+name: SMS Delivery Failures from Twilio to Entel Bolivia, Softbank Japan and MTN Ghana
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -18,3 +18,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery failures from Twilio to Entel network subscribers in Bolivia and Softbank network subscribers in Japan. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-07-07 19:03:23"
       description: We have observed a recovery in SMS delivery from Twilio to Entel network subscribers in Bolivia, Softbank network subscribers in Japan, and MTN network subscribers in Ghana and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-07-07 21:03:12"
+      description: The incident has been resolved and SMS delivery from Twilio to Entel network subscribers in Bolivia, Softbank network subscribers in Japan and MTN network subscribers in Ghana is operating normally.
+      resolved: true
