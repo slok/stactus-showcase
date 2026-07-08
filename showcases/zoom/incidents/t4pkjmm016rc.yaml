@@ -1,0 +1,19 @@
+version: incident/v1
+id: t4pkjmm016rc
+name: Service Degradation Affecting Zoom Healthcare Integration services in US Region
+impact: minor
+systems:
+    - 1v9cn0m69cc1
+timeline:
+    - ts: "2026-07-08 15:02:19"
+      description: |-
+        We have successfully identified the root cause affecting users' ability to sync appointments with Zoom Healthcare Integration in US region.
+
+        We are working with our vendor to resolve the issue. We will keep you informed with timely updates as progress is made.
+
+        Thank you for your patience.
+    - ts: "2026-07-08 15:52:37"
+      description: "The issue affecting users' ability to sync appointments with Zoom Healthcare Integration in US region has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
+    - ts: "2026-07-08 16:03:31"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true

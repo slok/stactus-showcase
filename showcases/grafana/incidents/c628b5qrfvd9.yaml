@@ -1,0 +1,9 @@
+version: incident/v1
+id: c628b5qrfvd9
+name: Loki Billing Data Lost
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-07-08 15:33:23"
+      description: Between 13:57 and 14:20 UTC (23 minutes), a data gap occurred affecting billing usage data for Loki. Data for this window was not recorded and cannot be recovered.
+      resolved: true

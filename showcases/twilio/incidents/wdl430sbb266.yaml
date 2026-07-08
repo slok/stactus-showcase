@@ -1,0 +1,13 @@
+version: incident/v1
+id: wdl430sbb266
+name: Whatsapp and RCS Pages on One Console Are Not Loading
+impact: minor
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2026-07-08 15:23:30"
+      description: Our monitoring systems have detected a potential issue with Console. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-07-08 15:26:29"
+      description: We have detected an issue with WhatsApp and RCS pages on One Console, users may be unable to load them. Our team is actively working to resolve this issue and will provide with an update in 1 hour or as soon as we have news.
+      investigating: true
