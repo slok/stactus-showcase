@@ -1,0 +1,17 @@
+version: incident/v1
+id: tszxz2dzv1f3
+name: Cannot access dashboard set up as a home page
+impact: minor
+systems:
+    - 2vj35rbpdr7s
+    - y8p2jm7hpwy0
+    - h1t1253xs6k9
+    - 1mnpb5g27m21
+    - qqj6ssvvsqmq
+timeline:
+    - ts: "2026-07-08 10:28:27"
+      description: We are currently investigating an issue affecting some customers who are unable to load or access their dashboards when configured as their home page. We will update once we have more information on this.
+      investigating: true
+    - ts: "2026-07-08 11:00:43"
+      description: We have found that the issues are related to the grafana.unifiedHomepage feature rollout active 16:50 UTC yesterday, to 10:20 UTC today. We have rolled this back and systems are now working as expected.
+      resolved: true
