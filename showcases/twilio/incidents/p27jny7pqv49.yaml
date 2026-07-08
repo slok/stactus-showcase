@@ -1,0 +1,10 @@
+version: incident/v1
+id: p27jny7pqv49
+name: On Call Engineers are Investigating an issue with the Zipwhip API
+impact: none
+systems:
+    - wsqmv0q6zrz5
+timeline:
+    - ts: "2026-07-08 00:48:47"
+      description: Our monitoring systems have detected a potential issue with 'get' calls to the Zipwhip toll-free V2 API. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
