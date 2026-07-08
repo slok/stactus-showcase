@@ -1,6 +1,6 @@
 version: incident/v1
 id: pjcpg91ch7xb
-name: User Authentication Identity SNA Missing Redirects for Three in the United Kingdom
+name: User Authentication Identity SNA Missing Redirects for Three in United Kingdom
 impact: minor
 systems:
     - trrz5ztt7pl8
@@ -29,3 +29,6 @@ timeline:
       description: We have observed a recovery in User Authentication Identity SNA missing redirects for Three in the United Kingdom and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-07-08 19:43:32"
       description: We have observed a recovery in User Authentication Identity SNA missing redirects for Three in the United Kingdom and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-07-08 22:43:03"
+      description: The incident has been resolved and User Authentication Identity SNA missing redirects for Three in the United Kingdom is operating normally.
+      resolved: true
