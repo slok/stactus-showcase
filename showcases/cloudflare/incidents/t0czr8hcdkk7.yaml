@@ -1,0 +1,9 @@
+version: incident/v1
+id: t0czr8hcdkk7
+name: Cloudflare Dashboard and Cloudflare API service issues - Turnstile Widgets
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-08 16:32:58"
+      description: Between the times of 14:40 and 15:00 (UTC) on 2026-07-08 Cloudflare experienced issues with the listing of Turnstile widgets via the Dashboard and API. These requests may have failed and/or 500 errors may have been displayed.
+      resolved: true
