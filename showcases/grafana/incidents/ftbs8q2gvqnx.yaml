@@ -1,0 +1,11 @@
+version: incident/v1
+id: ftbs8q2gvqnx
+name: Grafana rulers crash-looping on prometheus
+impact: minor
+systems:
+    - 33nzwl8kffd6
+    - 2cc4g3q2g0xn
+timeline:
+    - ts: "2026-07-08 12:17:16"
+      description: We are investigating issues with the grafana-ruler service on prod-us-east-2 and prod-us-west-0 which are causing periodic crash conditions. A code fix is currently being deployed to mitigate this
+      investigating: true
