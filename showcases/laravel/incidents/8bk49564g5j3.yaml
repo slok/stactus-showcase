@@ -1,0 +1,15 @@
+version: incident/v1
+id: 8bk49564g5j3
+name: Network degradation in EU West (London)
+impact: none
+systems:
+    - jmw0wwg6553f
+timeline:
+    - ts: "2026-07-08 21:30:12"
+      description: We're investigating a network issue in EU West (London). Other regions are operating normally. We will update as soon as we know more.
+      investigating: true
+    - ts: "2026-07-08 21:48:02"
+      description: The issue seems to be confined to a single AZ in eu-west-2.
+    - ts: "2026-07-08 22:05:12"
+      description: This incident has been resolved.
+      resolved: true
