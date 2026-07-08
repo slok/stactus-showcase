@@ -1,0 +1,10 @@
+version: incident/v1
+id: rvb96c56gn6k
+name: Degraded performance for Claude Code on the web, Cowork Remote, Claude Tag, and Claude Code Review sessions
+impact: minor
+systems:
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-07-08 19:07:26"
+      description: We are currently investigating a performance issue affecting features such as Claude Code on the Web (claude.ai/code), Claude Code Review, Cowork Remote, Claude Tag, and document creation in claude.ai. Our team is working on mitigating this issue.
+      investigating: true

@@ -1,0 +1,21 @@
+version: incident/v1
+id: lf0pm7scd74x
+name: Delays Processing Builds
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-07-08 18:05:09"
+      description: We've identified an issue where some customers may experience delays in builds starting and/or builds stuck in an initializing state. We are currently investigating this issue and will provide additional updates as they become available.
+      investigating: true
+    - ts: "2026-07-08 18:40:41"
+      description: |-
+        We are seeing signs of recovery and the affected build queue has started to drain.
+
+        Some customers may continue to experience delayed build starts or builds stuck in an initializing state while recovery continues. We will provide additional updates as they become available.
+      investigating: true
+    - ts: "2026-07-08 19:13:18"
+      description: |-
+        Build queues have returned to normal levels, and build processing should be restored.
+
+        We are monitoring to ensure the service remains stable. We will provide additional updates as they become available.

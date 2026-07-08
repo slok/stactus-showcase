@@ -1,0 +1,12 @@
+version: incident/v1
+id: bw0n1ryjghj3
+name: Workers Builds Increased Failure Rate
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-08 18:37:44"
+      description: |-
+        Cloudflare has identified and mitigated an issue which impacted a small subset of projects running Workers Builds between 2026-07-07 20:10 UTC to 2026-07-08 18:30 UTC.
+
+        Customers experiencing the issue will have seen their builds fail with the error "A Worker named <worker-name> already exists in your account...".
+      resolved: true
