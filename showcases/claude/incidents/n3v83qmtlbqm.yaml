@@ -1,0 +1,16 @@
+version: incident/v1
+id: n3v83qmtlbqm
+name: Elevated errors on Claude Sonnet 5
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-07-08 06:26:16"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-07-08 06:40:31"
+      description: This incident has been resolved.
+      resolved: true
