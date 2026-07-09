@@ -1,0 +1,16 @@
+version: incident/v1
+id: 7g85gmjvb6wm
+name: Functions UI unavailable in One Console
+impact: minor
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2026-07-09 03:10:38"
+      description: Twilio customers may be experiencing issues with Functions UI inside the One Console (1C). Users are unable to view, create, or manage functions at this time.Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-09 03:13:20"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-07-09 04:09:25"
+      description: Twilio customers continue to experience issues with Functions UI inside the One Console (1C). Users are unable to view, create, or manage functions at this time. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
