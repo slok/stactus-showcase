@@ -1,0 +1,14 @@
+version: incident/v1
+id: 1469g7btf0yh
+name: SMS Delivery Delays from a Subset of Twilio Long Codes and Short Codes to Liberty Mobile Puerto Rico
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-07-09 19:22:34"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes and Short Codes to Liberty Mobile network subscribers in Puerto Rico. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-09 19:31:20"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes and Short Codes to Liberty Mobile network subscribers in Puerto Rico. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-07-09 20:31:47"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes and Short Codes to Liberty Mobile network subscribers in Puerto Rico. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.

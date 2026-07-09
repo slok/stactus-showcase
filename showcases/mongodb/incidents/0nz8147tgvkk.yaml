@@ -1,0 +1,10 @@
+version: incident/v1
+id: 0nz8147tgvkk
+name: Atlas is experiencing issues with issuing certificates from Lets Encrypt
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-07-09 19:37:32"
+      description: We are currently investigating issues related to certificate issuing failures with Lets Encrypt. Tenant cluster provisioning is currently impacted.
+      investigating: true

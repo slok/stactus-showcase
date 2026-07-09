@@ -1,0 +1,13 @@
+version: incident/v1
+id: 2kxtxyvzzzk0
+name: Kubernetes Deployments in NYC1
+impact: minor
+systems:
+    - jzv4wms5qc33
+timeline:
+    - ts: "2026-07-09 20:31:52"
+      description: |-
+        Our Engineering team is investigating an issue affecting Kubernetes deployments in NYC1. Users may see intermittent DNS failures and NodeNotReady events from application workloads during this time.
+
+        We apologize for the inconvenience, we'll share new information on this page as soon as it is available.
+      investigating: true
