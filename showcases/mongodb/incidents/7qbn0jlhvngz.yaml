@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7qbn0jlhvngz
+name: Atlas Stream Processing is experiencing issues in Azure - West Europe
+impact: minor
+systems:
+    - prk6bb5j7h4l
+timeline:
+    - ts: "2026-07-09 23:03:56"
+      description: We are currently investigating an issue affecting Stream Processing Azure West Europe. User initiated commands & workloads may see intermittent failures.
+      investigating: true
