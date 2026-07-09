@@ -1,0 +1,17 @@
+version: incident/v1
+id: q5ybj217pv4m
+name: Atlas Data Federation and Online Archive cloud-provider IAM authentication error
+impact: minor
+systems:
+    - lh7m7lhnf3rj
+timeline:
+    - ts: "2026-07-09 10:23:52"
+      description: Users of Atlas Data Federation and Online Archive using cloud-provider IAM authentication may see pipelines fail with an error when querying backing Atlas clusters. Other authentication methods are unaffected. As a temporary workaround, users can use SCRAM authentication.
+      investigating: true
+    - ts: "2026-07-09 10:57:24"
+      description: We have identified that the issue is caused by a recent configuration change to IAM authentication and are working on a fix.
+    - ts: "2026-07-09 11:01:46"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-09 11:06:48"
+      description: This incident has been resolved.
+      resolved: true

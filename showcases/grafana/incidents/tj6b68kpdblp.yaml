@@ -1,0 +1,13 @@
+version: incident/v1
+id: tj6b68kpdblp
+name: Delayed ingestion and recording rule evaluation failures for Mimir in prod-ap-south-1
+impact: minor
+systems:
+    - f072zpmfqxhf
+    - zljxmjgrpj4q
+timeline:
+    - ts: "2026-07-09 10:28:11"
+      description: We are observing delayed ingestion and recording rule evaluation failures for Mimir in prod-ap-south-1. As of yet we have not noticed any customer impact however we are currently observing the cell.
+      investigating: true
+    - ts: "2026-07-09 11:18:37"
+      description: A fix has been implemented. We are currently monitoring the results.

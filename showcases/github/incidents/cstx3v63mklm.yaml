@@ -1,7 +1,7 @@
 version: incident/v1
 id: cstx3v63mklm
 name: Delays starting Actions runs
-impact: minor
+impact: major
 systems:
     - br0l2tvcx85d
 timeline:
@@ -13,4 +13,10 @@ timeline:
       investigating: true
     - ts: "2026-07-09 06:01:43"
       description: We are continuing to work on a mitigation.
+      investigating: true
+    - ts: "2026-07-09 10:07:04"
+      description: Actions is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-09 10:15:25"
+      description: Approximately 30% of GitHub Actions runs on GitHub-hosted runners are experiencing run start delays exceeding 5 minutes. A smaller percentage of those are exhausting retries and failing to start.
       investigating: true

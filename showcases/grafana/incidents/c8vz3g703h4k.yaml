@@ -1,0 +1,13 @@
+version: incident/v1
+id: c8vz3g703h4k
+name: PDC Degraded performance
+impact: critical
+systems:
+    - pmc3jw5xsjwz
+    - 83pzb618q8t9
+    - r4t5cjg79lkv
+    - y081wmnk39py
+timeline:
+    - ts: "2026-07-09 11:37:05"
+      description: We are currently facing performance degradation on PDC service hosted on Multiple clusters. Our Engineering Team is currently working on fixing the issue, we do apologize for any inconvenience.
+      investigating: true
