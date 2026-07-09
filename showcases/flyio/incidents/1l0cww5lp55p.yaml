@@ -1,0 +1,14 @@
+version: incident/v1
+id: 1l0cww5lp55p
+name: Registry performance issues
+impact: minor
+systems:
+    - 49yq6v65b33l
+timeline:
+    - ts: "2026-07-09 15:33:31"
+      description: The fly.io registry is currently experiencing capacity constraints that reduced performance and may lead to temporary high latency or failed pushes. We are currently working to add capacity and restore service.
+    - ts: "2026-07-09 15:55:26"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-09 16:04:49"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,6 +1,6 @@
 version: incident/v1
 id: bdhfgwb883tg
-name: Voice Call Audio Quality Degradation from Network Subscribers to Twilio Colombia Landline Numbers
+name: Voice Call Audio Quality Degradation From Colombia to Twilio Colombia Landline Numbers
 impact: minor
 systems:
     - fbtv2g9t3z25
@@ -20,3 +20,6 @@ timeline:
       description: We have observed a recovery in voice calls from network subscribers in Colombia to Twilio Colombia Landline Numbers and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
     - ts: "2026-07-09 10:46:38"
       description: We have observed a recovery in voice calls from network subscribers to Twilio Colombia Landline Numbers and are monitoring service stability. We will provide another update in 8 hours or as soon as more information becomes available.
+    - ts: "2026-07-09 15:08:31"
+      description: The incident has been resolved and voice calls from network subscribers in Colombia to Twilio Colombia Landline Numbers are operating normally.
+      resolved: true

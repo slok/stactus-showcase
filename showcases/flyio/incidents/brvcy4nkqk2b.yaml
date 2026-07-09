@@ -1,0 +1,23 @@
+version: incident/v1
+id: brvcy4nkqk2b
+name: Delays starting Depot Builders in IAD
+impact: minor
+systems:
+    - 49yq6v65b33l
+    - ffsz24mbcxfz
+timeline:
+    - ts: "2026-07-09 15:21:15"
+      description: |-
+        We have identified an issue causing delays or failures when starting depoting builders located in the IAD region. Customers with builders in IAD may see delays or timeouts starting builds during `fly deploy`. We are working on a fix.
+
+        In the meantime customers can trigger a fly-hosted builder based deploy with `fly deploy --depot=false`. You can also change your builder region away from IAD via the `settings` tab of your Fly dashboard. We recommend DFW or ORD as  alternate builder regions at this time.
+
+        Please note, your builder region can differ from the region your machines are in.
+    - ts: "2026-07-09 15:43:20"
+      description: |-
+        A fix has been implemented and we are seeing improvements in builder performance, latency, and error rates. We are continuing to monitor for a full recovery.
+
+        Customers still seeing issues can trigger a fly-hosted builder based deploy with `fly deploy --depot=false`.
+    - ts: "2026-07-09 16:18:03"
+      description: This incident has been resolved.
+      resolved: true
