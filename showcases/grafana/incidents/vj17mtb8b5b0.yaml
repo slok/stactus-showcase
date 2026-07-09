@@ -1,0 +1,10 @@
+version: incident/v1
+id: vj17mtb8b5b0
+name: Loki read path in prod-eu-west-2 was down
+impact: none
+systems:
+    - gx6m1v8jy475
+timeline:
+    - ts: "2026-07-09 07:37:11"
+      description: Between 5:49 and 5:54 UTC, the read path in prod-eu-west-2 was down. This has completely recovered by 5:57 UTC. Recording rules may have failed to evaluate during this period which may result in gaps.
+      resolved: true

@@ -1,0 +1,10 @@
+version: incident/v1
+id: dxly6gzd8q8v
+name: SMS Delivery Delays from a Subset of Twilio Long Codes to United Kingdom
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-07-09 08:39:59"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to the United Kingdom. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

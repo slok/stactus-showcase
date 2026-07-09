@@ -1,0 +1,14 @@
+version: incident/v1
+id: 90f5hrb0hb4n
+name: SMS Delivery Failures from Twilio to MTN South Africa
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-07-09 06:52:10"
+      description: Twilio customers may be experiencing SMS delivery failures from Twilio to MTN network subscribers in South Africa. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-09 07:54:36"
+      description: Twilio customers may be experiencing SMS delivery failures from Twilio to MTN network subscribers in South Africa. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-07-09 07:55:17"
+      description: We have observed a recovery in SMS delivery from Twilio to MTN network subscribers in South Africa and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
