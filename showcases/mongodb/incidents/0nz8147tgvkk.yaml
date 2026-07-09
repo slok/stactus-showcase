@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-07-09 19:37:32"
       description: We are currently investigating issues related to certificate issuing failures with Lets Encrypt. Tenant cluster provisioning is currently impacted.
       investigating: true
+    - ts: "2026-07-09 21:22:06"
+      description: We are no longer seeing failures with cert issuance from Lets Encrypt. We are still investigating the root cause of the original errors and will continue to monitor.

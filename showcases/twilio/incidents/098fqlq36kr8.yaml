@@ -1,0 +1,12 @@
+version: incident/v1
+id: 098fqlq36kr8
+name: On Call Engineers are Investigating an increase in 30003 and 30005 errors for outbound SMS
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-09 21:30:26"
+      description: Our monitoring systems have detected a potential issue with an increase in 30003 and 30005 errors when sending outbound SMS to some carriers in the US. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-07-09 22:07:17"
+      description: We have fully investigated the increase in errors when sending outbound SMS triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
