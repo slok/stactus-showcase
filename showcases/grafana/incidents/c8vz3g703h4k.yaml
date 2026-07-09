@@ -4,6 +4,8 @@ name: PDC Degraded performance
 impact: critical
 systems:
     - pmc3jw5xsjwz
+    - hmyx8mtn3tjq
+    - wdcnfc3drb8s
     - 83pzb618q8t9
     - r4t5cjg79lkv
     - y081wmnk39py
@@ -11,3 +13,10 @@ timeline:
     - ts: "2026-07-09 11:37:05"
       description: We are currently facing performance degradation on PDC service hosted on Multiple clusters. Our Engineering Team is currently working on fixing the issue, we do apologize for any inconvenience.
       investigating: true
+    - ts: "2026-07-09 12:36:13"
+      description: We are still currently investigating the issue.
+      investigating: true
+    - ts: "2026-07-09 13:04:00"
+      description: A fix has been applied and we are seeing recovery. We will continue to monitor this.
+    - ts: "2026-07-09 14:10:20"
+      description: We are seeing recovery in some deployments, while others not just yet. We are continuing to monitor this incident.
