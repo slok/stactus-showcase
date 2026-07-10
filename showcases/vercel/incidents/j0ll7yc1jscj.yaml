@@ -1,0 +1,14 @@
+version: incident/v1
+id: j0ll7yc1jscj
+name: Increased Build failure rates
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-07-10 21:25:09"
+      description: |-
+        We've identified an issue where some customers may experience failed Builds beginning at 21:05 UTC.
+
+        A rollback is in progress to mitigate this issue. We will provide additional updates as they become available.
+
+        Failed deployments can be retried and should succeed.

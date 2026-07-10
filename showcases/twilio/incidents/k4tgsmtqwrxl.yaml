@@ -1,0 +1,10 @@
+version: incident/v1
+id: k4tgsmtqwrxl
+name: Failing Knowledge Sources of Type 'Web' are Stuck In Progress
+impact: minor
+systems:
+    - m8vfg5ddymxk
+timeline:
+    - ts: "2026-07-10 21:17:25"
+      description: We are observing knowledge sources of type 'web' are stuck in progress because the status update to set them to 'Failed' is failing. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

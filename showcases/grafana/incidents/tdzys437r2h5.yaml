@@ -1,0 +1,12 @@
+version: incident/v1
+id: tdzys437r2h5
+name: Network Degredation in prod-us-central-0
+impact: major
+systems: []
+timeline:
+    - ts: "2026-07-10 21:31:54"
+      description: |-
+        From approximately 20:24 UTC - 20:47 UTC a network issue in prod-us-central-0 isolated part of our infrastructure in one availability zone, temporarily cutting off connectivity to a subset of backend services. This caused elevated query latency and some delayed metric evaluations, along with related write-path errors in a logging subsystem. All systems recovered automatically once network connectivity was restored.
+
+        Impacted customers may have had queries or rule evaluations fail during the incident, but ingestion was not impacted.
+      resolved: true

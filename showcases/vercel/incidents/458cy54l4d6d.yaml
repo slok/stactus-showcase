@@ -1,7 +1,7 @@
 version: incident/v1
 id: 458cy54l4d6d
 name: Erroneous budget notifications
-impact: none
+impact: minor
 systems:
     - fk66q26xp7hh
     - 7ckq6xr6nsbv
@@ -10,4 +10,11 @@ timeline:
       description: We've identified an issue where some customers may receive erroneous spend management budget notifications due to a spend management budget miscalculation. Affected teams with spend management budgets configured to pause projects may also experience paused deployments. We are currently investigating this issue. We will provide additional updates as they become available.
       investigating: true
     - ts: "2026-07-10 19:53:44"
-      description: We've identified and fixed the underlying issue, which was caused by a third-party SaaS provider. Our team is now unpausing deployments that were inadvertently paused as a result.
+      description: We've identified and fixed the underlying issue. Our team is now unpausing deployments that were inadvertently paused as a result.
+    - ts: "2026-07-10 20:50:35"
+      description: We've compiled a list of deployments that were paused due to this incident and are now unpausing them in batches. If your deployment was paused, you can also navigate to the Vercel dashboard and click the unpause button in the banner.
+    - ts: "2026-07-10 21:32:58"
+      description: |-
+        We are still working to unpause affected teams that were erroneously paused due to the spend management budget miscalculation.
+
+        We will provide additional updates as they become available.
