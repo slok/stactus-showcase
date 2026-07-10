@@ -1,9 +1,13 @@
 version: incident/v1
 id: bzr1lg1tcz74
-name: On Call Engineers are Investigating an issue with dual channel conference recordings
+name: Dual Channel Conference Recordings Stuck In Progress
 impact: none
-systems: []
+systems:
+    - l2p2s96tdsf4
 timeline:
     - ts: "2026-07-10 21:24:19"
       description: Our monitoring systems have detected a potential issue with dual channel conference recordings. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
       investigating: true
+    - ts: "2026-07-10 22:11:01"
+      description: Twilio dual channel conference recording was degraded for 3 minutes between 9:59 AM and 10:02 AM Pacific Time on 07/10/2026. Dual channel conference recordings received during this time may be stuck 'in progress'. The issue has now been resolved.
+      resolved: true
