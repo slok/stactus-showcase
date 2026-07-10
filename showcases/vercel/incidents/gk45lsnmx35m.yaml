@@ -1,0 +1,12 @@
+version: incident/v1
+id: gk45lsnmx35m
+name: Delays loading Build Logs
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-10 17:44:16"
+      description: |-
+        The issue affecting Build Logs has been resolved. Between Jul 8 19:05 UTC and Jul 9 13:16 UTC, some Pro customers using standard machine types may have experienced missing Build Logs.
+
+        New builds after the impact period are unaffected.
+      resolved: true
