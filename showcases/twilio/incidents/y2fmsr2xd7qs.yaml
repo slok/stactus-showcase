@@ -1,0 +1,15 @@
+version: incident/v1
+id: y2fmsr2xd7qs
+name: Webhook Processing Issue for WhatsApp Conversations
+impact: minor
+systems:
+    - 2vs63pk0qq23
+timeline:
+    - ts: "2026-07-10 11:41:36"
+      description: Our engineers have identified the issue where Conversations Classic Customers using WhatsApp may have experienced an inability to process Webhooks if certain Participants had onboarded to WhatsApp Usernames and their Webhook logic only had the ability to process Phone Numbers and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-10 12:10:16"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-07-10 12:27:14"
+      description: Our engineers have deployed a fix for the Webhook Processing Issue for WhatsApp Conversations. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.
