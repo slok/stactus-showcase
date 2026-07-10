@@ -1,0 +1,21 @@
+version: incident/v1
+id: dy7gggxhx3b1
+name: IRM Mobile App forcing some users to logout
+impact: minor
+systems:
+    - 1mxpk7q1bkb6
+timeline:
+    - ts: "2026-07-10 20:27:32"
+      description: |-
+        We are aware of an issue in the latest mobile app release that is causing some users to be signed out and asked to log in again.
+
+        We have reproduced the behavior and are investigating and working on a fix. We will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2026-07-10 20:37:32"
+      description: |-
+        Our investigation has narrowed the impact to version 2.39.4 of the Grafana mobile app on iOS. Users should avoid upgrading to this version until an updated release is available.
+
+        As a precaution, we also recommend ensuring you have alternative notification methods configured (such as SMS, email, or phone calls) if you rely on mobile push notifications for alerting.
+
+        We are actively working on a resolution and will provide another update as soon as more information is available.
+      investigating: true

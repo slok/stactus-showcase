@@ -1,0 +1,13 @@
+version: incident/v1
+id: 458cy54l4d6d
+name: Erroneous budget notifications
+impact: none
+systems:
+    - fk66q26xp7hh
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-07-10 19:15:53"
+      description: We've identified an issue where some customers may receive erroneous spend management budget notifications due to a spend management budget miscalculation. Affected teams with spend management budgets configured to pause projects may also experience paused deployments. We are currently investigating this issue. We will provide additional updates as they become available.
+      investigating: true
+    - ts: "2026-07-10 19:53:44"
+      description: We've identified and fixed the underlying issue, which was caused by a third-party SaaS provider. Our team is now unpausing deployments that were inadvertently paused as a result.
