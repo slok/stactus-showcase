@@ -1,0 +1,15 @@
+version: incident/v1
+id: 9qt73ty9p9ph
+name: Delayed data streams data
+impact: major
+systems:
+    - hk7whmvszngs
+timeline:
+    - ts: "2026-07-10 14:09:23"
+      description: We are currently investigating an issue affecting Data Streams Monitoring (DSM) in our US1 datacenter. As a result, data stream latency metrics may be delayed or not updating for some users. If you have monitors configured on those metrics, they may fail to alert as expected during this incident. We are not aware of any data loss at this time. Our engineering team is actively working on a fix, and we'll follow up with more information shortly.
+      investigating: true
+    - ts: "2026-07-10 14:35:17"
+      description: We are continuing to investigate the issue.
+      investigating: true
+    - ts: "2026-07-10 15:18:40"
+      description: A fix has been implemented and we are monitoring the results. A small percentage of data sent between 6:23 UTC and 14:43 UTC is still being backfilled.
