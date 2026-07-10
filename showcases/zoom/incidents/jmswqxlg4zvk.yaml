@@ -1,0 +1,19 @@
+version: incident/v1
+id: jmswqxlg4zvk
+name: Service Degradation Affecting My Notes for Third-Party Meetings in Europe and US Region.
+impact: minor
+systems:
+    - tvtkg7hq9qdd
+timeline:
+    - ts: "2026-07-10 16:18:11"
+      description: |-
+        We are currently investigating a service degradation affecting My Notes for 3rd party in US and EU region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-07-10 16:33:14"
+      description: "We have successfully identified the root cause affecting My Notes for Third-Party Meetings in Europe and US Region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+    - ts: "2026-07-10 17:08:35"
+      description: "The service degradation with My Notes for Third-Party Meetings in Europe and US Region has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
