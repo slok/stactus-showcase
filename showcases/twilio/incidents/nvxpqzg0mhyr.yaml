@@ -1,6 +1,6 @@
 version: incident/v1
 id: nvxpqzg0mhyr
-name: SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in Colombia
+name: SMS Delivery Delays From a Subset of Twilio Short Codes to Multiple Networks in Colombia
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-07-11 19:19:56"
       description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to network subscribers on multiple networks in Colombia. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-07-11 20:21:39"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to network subscribers on multiple networks in Colombia. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
