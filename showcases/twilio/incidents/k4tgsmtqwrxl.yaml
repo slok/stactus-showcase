@@ -11,3 +11,11 @@ timeline:
     - ts: "2026-07-10 22:17:04"
       description: We are observing knowledge sources of type 'web' are stuck in progress because the status update to set them to 'Failed' is failing. We expect to provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-07-11 00:17:10"
+      description: We are observing knowledge sources of type 'web' are stuck in progress because the status update to set them to 'Failed' is failing. We expect to provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-11 00:30:18"
+      description: The issue has been identified and mitigated. All new knowledge sources for web should be process correctly now. For the affected Crawls, they are being re-processed. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-07-11 00:46:11"
+      description: All Knowledge Services are Operational and the Stuck Web Crawls are also completed. The issue has been resolved and Knowledge Services are operating normally at this time.
+      resolved: true
