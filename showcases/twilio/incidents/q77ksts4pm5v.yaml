@@ -1,0 +1,14 @@
+version: incident/v1
+id: q77ksts4pm5v
+name: SMS Delivery Delays and Failures from Twilio to Multiple Networks in Peru
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-07-11 14:12:16"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to multiple networks in Peru. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-11 15:10:50"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to network subscribers on multiple networks in Peru. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-07-11 15:11:19"
+      description: We have observed a recovery in SMS delivery from Twilio to network subscribers on multiple networks in Peru and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
