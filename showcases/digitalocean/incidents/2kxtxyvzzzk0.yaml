@@ -16,3 +16,6 @@ timeline:
         The issue affecting Kubernetes deployments in NYC1 has subsided. Workloads should now be functioning normally.
 
         Our Engineering team is continuing to monitor the affected systems to confirm full resolution. We'll update this page if any further action is needed. We apologize for the inconvenience this may have caused.
+    - ts: "2026-07-11 01:27:56"
+      description: "The issue affecting Kubernetes deployments in the NYC1 region has been resolved. Our investigation found intermittent DNS timeouts affecting a small number of DOKS clusters, with affected worker nodes running on shared-CPU Droplets. This is a documented limitation for latency-sensitive cluster DNS workloads such as CoreDNS.\n\nThe affected clusters are currently functional. To reduce the risk of recurrence, we recommend running CoreDNS on non-shared/dedicated CPU node pools and using sufficient CoreDNS replicas. \n\nIf you continue to see DNS failures or NodeNotReady events, please open a support ticket so we can investigate that cluster specifically."
+      resolved: true
