@@ -1,0 +1,14 @@
+version: incident/v1
+id: 8ryf5znhbhc4
+name: Connectivity issues with Serverless Postgres in US East (Virginia)
+impact: minor
+systems:
+    - 0q72ktwc449p
+timeline:
+    - ts: "2026-07-11 23:40:06"
+      description: We are investigating reports of connectivity issues with newly created Serverless Postgres databases in US East (Virginia)
+      investigating: true
+    - ts: "2026-07-11 23:46:36"
+      description: We've identified an issue with Serverless Postgres hostnames in the US East region and are working on a fix.
+    - ts: "2026-07-11 23:47:06"
+      description: A fix has been implemented and we are monitoring the results.
