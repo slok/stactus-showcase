@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1lyqqs442bqf
+name: Cloudflare Dashboard login issue
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-07-12 09:43:31"
+      description: Cloudflare is aware of and investigating an issue where some users are unable to login to the Cloudflare Dashboard. We are working to mitigate the problem and will update shortly.
+      investigating: true
