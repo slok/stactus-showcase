@@ -1,0 +1,12 @@
+version: incident/v1
+id: m6rgg5ypxjqd
+name: SMS Delivery Delays from Twilio to Vonage Clearsky United States
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - 39mb8cmw8y2v
+    - 32f2bm54nkvv
+timeline:
+    - ts: "2026-07-13 20:16:06"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Vonage Clearsky United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

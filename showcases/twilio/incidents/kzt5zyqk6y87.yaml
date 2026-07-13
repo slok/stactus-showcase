@@ -1,0 +1,10 @@
+version: incident/v1
+id: kzt5zyqk6y87
+name: Direct Send Whatsapp Template Failures
+impact: minor
+systems:
+    - 1gkv0mxhzsjv
+timeline:
+    - ts: "2026-07-13 20:27:54"
+      description: We are aware of an issue affecting Direct Send WhatsApp templates, where templates are receiving unexpected status updates that are causing message send failures. Customers using Direct Send to send WhatsApp outbound messages may be experiencing failures. Our team is actively investigating the root cause. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
