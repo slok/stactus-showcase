@@ -1,0 +1,11 @@
+version: incident/v1
+id: 8sjb7kmqnvk9
+name: Serverless Inference - Gemma4 Latency Issues Causing Timeouts & Slow Responses
+impact: minor
+systems:
+    - 2z9ldz1t4dgp
+timeline:
+    - ts: "2026-07-13 19:04:10"
+      description: |-
+        We are currently experiencing an issue where customers using the Gemma 4 model on our Serverless Inference and Dedicated Inference platforms may experience severe latency or request timeouts.
+        Our engineering team has identified a backend configuration issue as the root cause, which is temporarily degrading performance. We are actively working on a fix to restore normal response times and will provide another update as soon as the mitigation is in place

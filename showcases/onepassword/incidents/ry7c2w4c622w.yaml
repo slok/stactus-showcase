@@ -1,0 +1,19 @@
+version: incident/v1
+id: ry7c2w4c622w
+name: Degraded user-related operations for individual and family accounts
+impact: minor
+systems:
+    - 4q3h5fw7rv4w
+    - tcjm3f6gplpq
+    - 4lgpnh64dld3
+    - pldb8pj9zcr9
+    - ngrr6v6zh4r3
+    - 49lvw42v4m48
+    - qvvfv6ljjp96
+    - 918j1lc5gk94
+timeline:
+    - ts: "2026-07-13 18:59:34"
+      description: Our engineering team is investigating an issue causing degraded user-related operations for individual and family accounts. Users are unable to confirm or delete users or create and delete service accounts. Users are also unable to load the Integrations page.
+      investigating: true
+    - ts: "2026-07-13 19:37:29"
+      description: The issue has been identified and our Engineering team are working towards deploying a fix.
