@@ -1,0 +1,18 @@
+version: incident/v1
+id: t59l3x1w3nj8
+name: Unexpected pauses in Conference Recordings
+impact: minor
+systems:
+    - l2p2s96tdsf4
+    - 2lchkffbp2k9
+    - vjcnzg66l66t
+timeline:
+    - ts: "2026-07-13 13:32:44"
+      description: Conference customers may be experiencing unexpected pauses in Conference recordings. As a result, some recordings may be incomplete with audit logs showing additional pause actions. We expect to provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-07-13 14:32:12"
+      description: Conference customers are still experiencing unexpected pauses in Conference recordings. As a result, some recordings may be incomplete with audit logs showing additional pause actions. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-07-13 14:42:43"
+      description: Unexpected pauses in Conference Recordings is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-07-13 15:23:16"
+      description: Unexpected pauses in conference recordings has been resolved and conference recordings is operating normally at this time.
+      resolved: true

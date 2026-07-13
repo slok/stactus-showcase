@@ -1,0 +1,9 @@
+version: incident/v1
+id: 5wtyg72mgrzp
+name: Password Manager Update Server Outage
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-13 15:47:57"
+      description: A fix for this issue has been implemented, and our teams are monitoring. During the outage, GitHub Actions might have failed to pull the latest CLI version, causing the pipeline to fail.
+      resolved: true

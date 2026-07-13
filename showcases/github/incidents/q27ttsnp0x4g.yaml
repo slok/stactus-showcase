@@ -1,0 +1,19 @@
+version: incident/v1
+id: q27ttsnp0x4g
+name: Actions runs are experiencing failures to start
+impact: major
+systems:
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2026-07-13 13:32:22"
+      description: We are investigating reports of degraded availability for Actions
+      investigating: true
+    - ts: "2026-07-13 13:32:44"
+      description: Pages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-13 13:39:27"
+      description: The degradation affecting Actions and Pages has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-07-13 13:53:57"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
