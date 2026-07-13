@@ -9,3 +9,5 @@ timeline:
       description: |-
         We are currently experiencing an issue where customers using the Gemma 4 model on our Serverless Inference and Dedicated Inference platforms may experience severe latency or request timeouts.
         Our engineering team has identified a backend configuration issue as the root cause, which is temporarily degrading performance. We are actively working on a fix to restore normal response times and will provide another update as soon as the mitigation is in place
+    - ts: "2026-07-13 22:24:14"
+      description: A fix has been deployed to resolve the backend configuration issue. We are closely monitoring system performance to ensure full recovery and normal response times for all Gemma 4 inference workflows.

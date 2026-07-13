@@ -1,0 +1,15 @@
+version: incident/v1
+id: mypsn6xy9ymv
+name: Some DFW hosts offline
+impact: minor
+systems:
+    - 3y5pzyxr1cbz
+timeline:
+    - ts: "2026-07-13 22:25:41"
+      description: A subset of hosts in DFW are currently offline, and we're investigating the issue.
+      investigating: true
+    - ts: "2026-07-13 22:36:58"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-13 22:58:51"
+      description: This incident has been resolved.
+      resolved: true
