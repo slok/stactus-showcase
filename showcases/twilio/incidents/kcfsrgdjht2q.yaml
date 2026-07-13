@@ -1,0 +1,17 @@
+version: incident/v1
+id: kcfsrgdjht2q
+name: MMS/SMS Delivery Failures towards Vodafone users
+impact: minor
+systems:
+    - 8qjql0kqnd33
+    - 2nd0jdj36wpq
+timeline:
+    - ts: "2026-07-13 02:20:43"
+      description: We are experiencing MMS/SMS delivery failures sending towards Vodafone users. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-13 03:12:35"
+      description: We are experiencing MMS/SMS delivery failures sending towards Vodafone users. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-13 03:37:31"
+      description: 'We are still experiencing issues with Vodafone, however, we have consolidated all impacting products in to one incident. You can check the status of this here: https://status.twilio.com/incidents/988fwg2tdkn5.'
+      resolved: true

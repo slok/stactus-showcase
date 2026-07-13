@@ -1,6 +1,6 @@
 version: incident/v1
 id: 1hdv5rv7b8mf
-name: SMS Delivery Delays from Twilio Phone Numbers to GTA Wireless United States
+name: SMS Delivery Delays from Twilio to GTA Wireless United States
 impact: minor
 systems:
     - 7d8w22hqrh6s
@@ -23,3 +23,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays from Twilio Phone Numbers to GTA Wireless network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
     - ts: "2026-07-12 23:03:10"
       description: We have observed a recovery in SMS delivery from Twilio Phone Numbers to GTA Wireless network subscribers in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-07-13 01:05:53"
+      description: The incident has been resolved and SMS delivery from Twilio to GTA Wireless network subscribers in the United States is operating normally.
+      resolved: true
