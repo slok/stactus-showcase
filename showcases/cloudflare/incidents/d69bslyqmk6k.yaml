@@ -1,0 +1,13 @@
+version: incident/v1
+id: d69bslyqmk6k
+name: Incorrect zone limits impacting some customers
+impact: minor
+systems:
+    - 4vx2clltvc89
+timeline:
+    - ts: "2026-07-13 16:36:03"
+      description: Some customers may see "You have exceeded the limit for adding zones" messages when there are within the limits. A fix has been identified and is in progress
+      investigating: true
+    - ts: "2026-07-13 16:52:02"
+      description: This incident has been resolved.
+      resolved: true
