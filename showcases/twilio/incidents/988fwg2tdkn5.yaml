@@ -1,6 +1,6 @@
 version: incident/v1
 id: 988fwg2tdkn5
-name: SMS Delivery Failures from Twilio Alphanumeric Sender IDs to Vodafone Australia
+name: SMS Delivery Failures from Twilio to Vodafone Australia
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -31,3 +31,5 @@ timeline:
       description: We have observed a recovery in SMS delivery from Twilio to Vodafone network subscribers in Australia and are monitoring service stability. We will provide another update in 8 hours or as soon as more information becomes available.
     - ts: "2026-07-14 05:24:12"
       description: We have observed a recovery in SMS delivery from Twilio Alphanumeric Sender IDs to Vodafone network subscribers in Australia and are monitoring service stability. We will provide another update in 16 hours or as soon as more information becomes available.
+    - ts: "2026-07-14 21:24:35"
+      description: We have observed a recovery in SMS delivery from Twilio to Vodafone network subscribers in Australia and are monitoring service stability. We will provide another update in 24 hours or as soon as more information becomes available.
