@@ -1,6 +1,6 @@
 version: incident/v1
 id: fblzq6cknkvh
-name: SMS Delivery Delays From a Subset of Twilio Short Codes to Multiple Networks in India
+name: SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in India
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -18,3 +18,6 @@ timeline:
       description: We have observed a recovery in SMS delivery from a subset of Twilio Short Codes to multiple networks in India and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-07-14 01:06:08"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Short Codes to network subscribers on multiple networks in India and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-07-14 05:07:36"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Short Codes to network subscribers on affected networks in India is operating normally.
+      resolved: true

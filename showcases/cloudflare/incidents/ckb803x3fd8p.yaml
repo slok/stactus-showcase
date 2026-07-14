@@ -1,0 +1,13 @@
+version: incident/v1
+id: ckb803x3fd8p
+name: Elevated errors in item PUT requests to AI Search
+impact: minor
+systems:
+    - c9mqrzw6nzvg
+timeline:
+    - ts: "2026-07-14 04:01:14"
+      description: |-
+        Cloudflare is observing issues with Cloudflare AI Search service.
+
+        We are currently working on a resolution. More updates to follow shortly.
+      investigating: true

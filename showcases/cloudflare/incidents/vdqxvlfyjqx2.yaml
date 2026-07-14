@@ -1,0 +1,18 @@
+version: incident/v1
+id: vdqxvlfyjqx2
+name: Elevated R2 errors in EU region
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-07-14 03:46:39"
+      description: |-
+        Cloudflare is observing issues with Cloudflare R2 service.
+
+        We are currently working on a resolution. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-07-14 04:00:24"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-14 04:36:09"
+      description: This incident has been resolved.
+      resolved: true
