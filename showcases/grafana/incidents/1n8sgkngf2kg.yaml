@@ -1,0 +1,12 @@
+version: incident/v1
+id: 1n8sgkngf2kg
+name: Mimir Partial Write Outage
+impact: major
+systems:
+    - jhc34sjt42wd
+    - 1tt4gx4t4q87
+timeline:
+    - ts: "2026-07-14 17:09:42"
+      description: We're investigating backend degradation which has resulted in a partial write outage beginning around 16:40 UTC.  This degradation has also impacted reads and rule evaluation.  Issue has been identified and we are working on mitigation.
+    - ts: "2026-07-14 17:23:12"
+      description: The outage is recovered as of 16:56 UTC, and we're continuing to monitor.

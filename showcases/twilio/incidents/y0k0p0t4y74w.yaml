@@ -1,0 +1,15 @@
+version: incident/v1
+id: y0k0p0t4y74w
+name: Users cannot select plans in the account onboarding flow
+impact: minor
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2026-07-14 17:40:04"
+      description: Our monitoring systems have detected a potential issue with Upgrade. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-07-14 17:45:55"
+      description: In the Onboarding plan-selection screen clicking a card doesn't select the chosen card. The radio dot flashes and defaults to the default value. We will provide an update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-14 18:04:08"
+      description: The issue has been identified and a fix is being implemented. We will provide an update in 1 hour or as soon as more information becomes available.

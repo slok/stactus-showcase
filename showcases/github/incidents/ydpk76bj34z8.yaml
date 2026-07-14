@@ -1,0 +1,18 @@
+version: incident/v1
+id: ydpk76bj34z8
+name: Incident with Webhooks
+impact: minor
+systems:
+    - 4230lsnqdsld
+timeline:
+    - ts: "2026-07-14 17:38:28"
+      description: We are investigating reports of degraded performance for Webhooks
+      investigating: true
+    - ts: "2026-07-14 17:55:45"
+      description: Between 15:17 and 15:27 UTC, an ongoing deployment had an unintended side effect where webhook delivery states were not persisted in all cases, even when deliveries were accepted and processed. Customers may notice missing webhook deliveries in the UI, and these deliveries will not be retryable.<br /><br />Impact resolved automatically once the deployment completed.
+      investigating: true
+    - ts: "2026-07-14 17:55:50"
+      description: The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-07-14 18:01:57"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

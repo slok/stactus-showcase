@@ -1,0 +1,9 @@
+version: incident/v1
+id: bm56rtyhk7tr
+name: Elevated number of 502 errors for CDN/Cache in SIN
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-14 17:33:06"
+      description: Between 16:52-17:10 UTC today, customers would have experienced an elevated number of 502 errors from our CDN/Cache and Durable Objects in SIN.
+      resolved: true
