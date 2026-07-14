@@ -1,0 +1,12 @@
+version: incident/v1
+id: j5bb4p568wxm
+name: SMS Delivery Delays from a Subset of Twilio Alphanumeric Numbers to Vodafone Italy
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-07-14 22:54:57"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric Numbers to Vodafone network subscribers in Italy. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-14 23:00:23"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric Numbers to Vodafone network subscribers in Italy. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
