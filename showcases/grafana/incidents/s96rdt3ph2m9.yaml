@@ -1,0 +1,9 @@
+version: incident/v1
+id: s96rdt3ph2m9
+name: Mimir Write Performance Degradation
+impact: minor
+systems:
+    - 1tt4gx4t4q87
+timeline:
+    - ts: "2026-07-14 20:28:03"
+      description: From 19:24 until 19:40 UTC, backend performance degradation impacted ingestion.  We are currently monitoring.
