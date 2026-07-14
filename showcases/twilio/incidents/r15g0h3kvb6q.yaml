@@ -1,0 +1,12 @@
+version: incident/v1
+id: r15g0h3kvb6q
+name: Users are unable to create a SIP Trunking Phone Number Resource
+impact: minor
+systems:
+    - pv5w18vrltfl
+timeline:
+    - ts: "2026-07-14 16:10:49"
+      description: |-
+        Users are experiencing unexpected 404 errors when attempting to create a SIP Trunking Phone Number Resource.
+        Content: Users are experiencing unexpected 404 errors when attempting to create a SIP Trunking Phone Number Resource. As a work around, https://www.twilio.com/docs/phone-numbers/api/incomingphonenumber-resource#update-an-incomingphonenumber-resource can be used to successfully associate phone numbers with trunks.  We are investigating the root cause and will provide an update as more information becomes available.
+      investigating: true

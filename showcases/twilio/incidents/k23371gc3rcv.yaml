@@ -1,0 +1,13 @@
+version: incident/v1
+id: k23371gc3rcv
+name: Flex AI Copilot Wrap-up notes and topics classification requests timing out - OpenAI Timeouts
+impact: minor
+systems:
+    - lv1md8v28lhr
+timeline:
+    - ts: "2026-07-14 15:53:09"
+      description: Our monitoring systems have detected a potential issue with Flex. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-07-14 15:57:46"
+      description: Flex customers who are using Agent Copilot for Wrap-up notes might see delayed note generation or failure to generate ai-notes and topics classification. We will provide an update in 1 hour or as soon as more information is available.
+      investigating: true
