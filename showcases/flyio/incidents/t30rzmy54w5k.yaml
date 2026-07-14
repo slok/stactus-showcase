@@ -1,0 +1,9 @@
+version: incident/v1
+id: t30rzmy54w5k
+name: Partial outage in SJC
+impact: major
+systems:
+    - 49qj4qjyzlzn
+timeline:
+    - ts: "2026-07-14 14:51:39"
+      description: A subset of hosts in SJC are currently offline. Some apps may be unreachable at this time.

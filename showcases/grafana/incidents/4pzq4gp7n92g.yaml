@@ -38,3 +38,5 @@ timeline:
     - ts: "2026-07-14 08:10:45"
       description: "This is related to https://status.grafana.com/incidents/rhrk2ck6ly0y which was resolved by mistake. \n\nFor some dashboards, the Views/Error counts in the Dashboards/Folder list renders as `-` and never updates, even after dashboards are viewed repeatedly. This is ultimately causing inaccurate or missing view counts.\n\nWe are continuing to investigate the underlying cause of this issue. At this time, the scope and impact remain unchanged, and we have no new information to share. We will provide another update as soon as more information becomes available."
       investigating: true
+    - ts: "2026-07-14 14:27:37"
+      description: We've identified the cause of the issue impacting dashboard view and error counts in the Dashboards and Folder list. Our team is currently working on implementing a fix and validating the solution. We will provide another update within the next 24 hours, or sooner if we have additional information to share.
