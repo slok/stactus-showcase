@@ -1,6 +1,6 @@
 version: incident/v1
 id: m6rgg5ypxjqd
-name: SMS Delivery Delays from Twilio to Vonage United States
+name: SMS Delivery Delays from Twilio to United States
 impact: minor
 systems:
     - 7d8w22hqrh6s
@@ -17,3 +17,6 @@ timeline:
       description: We have observed a recovery in SMS delivery from Twilio to Vonage Clearsky United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-07-13 22:57:46"
       description: We have observed a recovery in SMS delivery from Twilio to Vonage United States and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-07-14 00:57:25"
+      description: The incident has been resolved and SMS delivery from Twilio to network subscribers in the United States is operating normally.
+      resolved: true
