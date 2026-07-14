@@ -1,0 +1,12 @@
+version: incident/v1
+id: jtfqjqqdpmlx
+name: SMS Delivery Delays and Failures from a Subset of Twilio Short Codes and Long Codes to Vodafone New Zealand
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-07-14 22:13:08"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Short Codes and Long Codes to Vodafone network subscribers in New Zealand. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-14 22:26:26"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Short Codes and Long Codes to Vodafone network subscribers in New Zealand. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
