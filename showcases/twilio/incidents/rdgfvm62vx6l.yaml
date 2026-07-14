@@ -1,0 +1,9 @@
+version: incident/v1
+id: rdgfvm62vx6l
+name: SSL Validation Settings Affected
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-14 12:42:24"
+      description: We have resolved an issue where updating an account name could cause the SSL certificate validation setting to be disabled, temporarily impacting secure connectivity for some accounts. Our systems are now functioning normally, and we are actively working to restore the original SSL configurations for all affected accounts.
+      resolved: true

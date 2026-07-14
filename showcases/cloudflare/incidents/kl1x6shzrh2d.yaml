@@ -1,0 +1,14 @@
+version: incident/v1
+id: kl1x6shzrh2d
+name: Gateway List updates using CSV not applied
+impact: minor
+systems:
+    - gyx2yygg7lmd
+timeline:
+    - ts: "2026-07-14 11:55:41"
+      description: Cloudflare is aware of and investigating an issue where changes applied via CSV to Gateway Lists are not being applied.  More updates to follow shortly.
+    - ts: "2026-07-14 12:41:47"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-14 12:52:44"
+      description: This incident has been resolved.
+      resolved: true
