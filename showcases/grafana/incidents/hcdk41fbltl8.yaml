@@ -1,0 +1,15 @@
+version: incident/v1
+id: hcdk41fbltl8
+name: Loki Query Errors in prod-eu-west-2
+impact: major
+systems:
+    - gx6m1v8jy475
+timeline:
+    - ts: "2026-07-15 22:24:44"
+      description: |-
+        We are investigating an issue affecting Loki queries in prod-eu-west-2.
+
+        We first observed this behavior at approximately 21:57 UTC. Affected users may see elevated query errors, timeouts, or intermittent failures when running Loki queries in this region.
+
+        The issue appears to be improving, but it is not fully resolved yet. We are continuing to investigate and will share another update as soon as we have more information.
+      investigating: true
