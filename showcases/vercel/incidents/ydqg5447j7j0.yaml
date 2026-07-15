@@ -1,0 +1,16 @@
+version: incident/v1
+id: ydqg5447j7j0
+name: Errors accessing teams that require 2FA
+impact: minor
+systems:
+    - fk66q26xp7hh
+    - rsp3h37vv009
+    - rxynwj392p81
+timeline:
+    - ts: "2026-07-15 23:04:43"
+      description: We have identified an increase in erroneous 2FA (two-factor authentication) challenges and errors when accessing the Vercel dashboard and multiple API services for teams that require 2FA. We will share more information once we have it.
+    - ts: "2026-07-15 23:16:23"
+      description: A fix has been implemented and services have recovered. We are continuing to monitor to ensure that the services remain stable. We will provide additional updates as they become available.
+    - ts: "2026-07-15 23:34:54"
+      description: This incident has been resolved.
+      resolved: true

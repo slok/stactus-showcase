@@ -1,0 +1,12 @@
+version: incident/v1
+id: 6cpmfcnxbj4k
+name: Impaired compute in EU Central (Frankfurt)
+impact: minor
+systems:
+    - p0gmgcfh7y0n
+timeline:
+    - ts: "2026-07-15 22:34:09"
+      description: We've identified an AWS issue in the EU Central (Frankfurt) region that is affecting compute provisioning. Some applications may see delayed background/queued job processing, and other capacity-dependent operations could be affected. Applications remain online. We're monitoring closely and will post updates as we learn more.
+      investigating: true
+    - ts: "2026-07-15 22:58:25"
+      description: The AWS issue affecting the EU Central (Frankfurt) region is recovering. We are continuing to monitor closely.

@@ -1,9 +1,26 @@
 version: incident/v1
 id: hcdk41fbltl8
-name: Loki Query Errors in prod-eu-west-2
+name: Partial Outage in prod-eu-west-2
 impact: major
 systems:
+    - 6wgslg1s3bzr
+    - 14rfvnlhlt5n
+    - 0pr42n719w3x
     - gx6m1v8jy475
+    - 550jn4w511kw
+    - 0z4j4nzmq7hs
+    - hmyx8mtn3tjq
+    - 9fpjqnx4cbpb
+    - mk0mjmlmp2ms
+    - 3p25y2zfwhtc
+    - kywjchj50pzs
+    - 72cbdqh1qfxk
+    - hcj5p68bp2kc
+    - hp6lb56782c9
+    - 95tmjrzs9h1f
+    - bg7pryvvh19l
+    - kckd7qfk2gql
+    - f9lywhj1rpkl
 timeline:
     - ts: "2026-07-15 22:24:44"
       description: |-
@@ -13,3 +30,19 @@ timeline:
 
         The issue appears to be improving, but it is not fully resolved yet. We are continuing to investigate and will share another update as soon as we have more information.
       investigating: true
+    - ts: "2026-07-15 22:35:15"
+      description: |-
+        We are investigating a broader issue affecting multiple Grafana Cloud products in prod-eu-west-2. This appears to be caused by a third-party provider issue rather than a Loki-specific problem.
+
+        Impact is currently inconsistent: some components are affected while others continue to function normally. We have also seen some impact to Tempo write paths.
+
+        We are continuing to investigate and will share another update as soon as we have more information.
+      investigating: true
+    - ts: "2026-07-15 22:38:56"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-07-15 22:53:45"
+      description: We’ve implemented a fix and are monitoring the results to confirm the issue is fully resolved. Services may start to recover during this time.
+    - ts: "2026-07-15 23:36:59"
+      description: This incident has been resolved. Thank you for your patience.
+      resolved: true
