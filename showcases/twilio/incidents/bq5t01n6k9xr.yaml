@@ -1,0 +1,13 @@
+version: incident/v1
+id: bq5t01n6k9xr
+name: SMS Delivery Delays from Twilio to Romania
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-07-15 09:58:04"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Romania. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-15 10:59:04"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Romania. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
