@@ -1,0 +1,10 @@
+version: incident/v1
+id: dh9z0bbs723r
+name: Network Performance issues - Increased HTTP 502 Errors in HKG
+impact: minor
+systems:
+    - wf2gdmxg7cv3
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-07-15 13:16:03"
+      description: Cloudflare is investigating an increased level of HTTP 502 errors originating from the Hong Kong datacenter. We are working to analyse and mitigate this problem. More updates to follow shortly.

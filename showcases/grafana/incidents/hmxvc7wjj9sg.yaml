@@ -1,0 +1,14 @@
+version: incident/v1
+id: hmxvc7wjj9sg
+name: Fleet Managment Interface 404's
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-07-15 13:54:13"
+      description: |-
+        Between 9:45 and 12:00 UTC, we experienced an issue affecting the Fleet Management interface. During this time, the Remote Configuration tab for production stacks returned a 404 error when accessed through the UI.
+
+        Backend systems were not affected. Configuration-as-code workflows and other non-UI methods of interacting with Fleet Management continued to operate normally throughout the incident.
+
+        This issue has since been resolved.
+      resolved: true

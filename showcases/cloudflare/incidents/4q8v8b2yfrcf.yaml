@@ -1,0 +1,13 @@
+version: incident/v1
+id: 4q8v8b2yfrcf
+name: Network Performance Issues in AMS
+impact: minor
+systems:
+    - 57ctn3f2qsyj
+    - 8qwmwg7ytljv
+timeline:
+    - ts: "2026-07-15 14:03:27"
+      description: Cloudflare is investigating issues with network performance in Amsterdam. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-07-15 14:19:38"
+      description: The issue has been identified and a fix is being implemented.
