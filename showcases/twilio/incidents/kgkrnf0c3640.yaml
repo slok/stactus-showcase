@@ -1,0 +1,12 @@
+version: incident/v1
+id: kgkrnf0c3640
+name: SMS Delivery Delays and Failures between Twilio Long Codes and Bouygues Telecom France
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-07-15 11:17:49"
+      description: Twilio customers may be experiencing SMS delivery delays and failures between Twilio Long Codes and Bouygues Telecom network subscribers in France. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-15 12:15:07"
+      description: Twilio customers may be experiencing SMS delivery delays and failures fbetween Twilio Long Codes and Bouygues Telecom network subscribers in France. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
