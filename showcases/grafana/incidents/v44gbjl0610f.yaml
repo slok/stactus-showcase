@@ -1,0 +1,9 @@
+version: incident/v1
+id: v44gbjl0610f
+name: Delayed Aggregated Metrics (prod-us-central-0)
+impact: minor
+systems:
+    - 1tt4gx4t4q87
+timeline:
+    - ts: "2026-07-15 19:19:13"
+      description: "We are currently investigating a delay in aggregated metric results for tenants using Adaptive Metrics in the prod-us-central-0 region. \n\nOur engineering team has identified the issue and is actively working on a mitigation. We will provide further updates as the investigation progresses."
