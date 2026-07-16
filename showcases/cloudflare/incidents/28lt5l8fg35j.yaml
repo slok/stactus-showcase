@@ -1,0 +1,12 @@
+version: incident/v1
+id: 28lt5l8fg35j
+name: Elevated Errors China Network
+impact: minor
+systems:
+    - 8qwmwg7ytljv
+timeline:
+    - ts: "2026-07-16 21:47:49"
+      description: We are investigating an issue with errors in China Network.
+      investigating: true
+    - ts: "2026-07-16 22:10:59"
+      description: The cause of this issue has been identified and a fix is being implemented.
