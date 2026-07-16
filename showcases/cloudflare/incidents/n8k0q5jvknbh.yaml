@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-07-16 19:07:06"
       description: We are currently investigating an issue where customers may experience errors when attempting to view CNI 2.0 interconnections from the API or Dashboard. Data plane traffic is unaffected.
       investigating: true
+    - ts: "2026-07-16 19:47:16"
+      description: We have identified and applied a fix for this issue and are currently monitoring the results.
+    - ts: "2026-07-16 20:20:56"
+      description: This incident is now resolved.
+      resolved: true
