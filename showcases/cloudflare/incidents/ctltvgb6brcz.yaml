@@ -1,0 +1,11 @@
+version: incident/v1
+id: ctltvgb6brcz
+name: Cloudflare R2 Issues
+impact: minor
+systems:
+    - w324dr932r05
+    - hb7g5sq2zz0h
+    - 47xg28c02lnk
+timeline:
+    - ts: "2026-07-16 01:12:16"
+      description: Cloudflare is investigating elevated error rates affecting R2 and some services that depend on it, including Stream, Pipelines, and Log Explorer. Customers may have experienced increased errors reading or writing objects and delayed data processing. Impact was partially mitigated at approximately 21:52 UTC, and dependent services have recovered. A low level of R2 errors is still occurring, and we are actively working toward full resolution.
