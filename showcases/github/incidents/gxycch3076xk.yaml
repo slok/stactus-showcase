@@ -1,0 +1,19 @@
+version: incident/v1
+id: gxycch3076xk
+name: Degraded REST API Availability
+impact: major
+systems:
+    - brv1bkgrwx7q
+timeline:
+    - ts: "2026-07-16 22:51:13"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-07-16 22:58:03"
+      description: We are aware of degraded REST API availability and are investigating
+      investigating: true
+    - ts: "2026-07-16 22:58:23"
+      description: API Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-16 23:29:04"
+      description: We are continuing to investigate an issue causing approximately 35% of REST API requests to fail.  Based on our current understanding, requests are not consistently reaching the application layer, resulting in failed requests returning HTML responses instead of the expected API response format. We are actively investigating the issue and will provide another update as soon as more information is available.
+      investigating: true

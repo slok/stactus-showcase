@@ -1,0 +1,20 @@
+version: incident/v1
+id: shkkcqlhlmxq
+name: Deployment failures
+impact: minor
+systems:
+    - d4z7n3kvpgp0
+    - vhd4h127zqt5
+    - rnyz50rjb4p5
+    - nfc2yzmxzw4s
+    - r5wtfz1xy72b
+    - s3zm1t588bky
+    - 0d75ngbkyzz2
+    - 29r8t4n835qg
+    - sr7vs6x5c6cf
+timeline:
+    - ts: "2026-07-16 23:35:55"
+      description: |-
+        Some deployments on Cloud are failing for some users due to a degradation on the GitHub API. If your deployments are failing, please wait a while and try again.
+
+        More information is available at https://www.githubstatus.com/incidents/gxycch3076xk

@@ -1,0 +1,10 @@
+version: incident/v1
+id: vqndbxzgzhx9
+name: Errors logging in with GitHub
+impact: minor
+systems:
+    - fk66q26xp7hh
+timeline:
+    - ts: "2026-07-16 23:09:29"
+      description: We are investigating elevated error rates for users logging in to Vercel using their GitHub account and connecting their GitHub accounts to Vercel. Login with email or other sign-in methods is unaffected.
+      investigating: true
