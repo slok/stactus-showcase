@@ -9,3 +9,8 @@ systems:
 timeline:
     - ts: "2026-07-16 01:12:16"
       description: Cloudflare is investigating elevated error rates affecting R2 and some services that depend on it, including Stream, Pipelines, and Log Explorer. Customers may have experienced increased errors reading or writing objects and delayed data processing. Impact was partially mitigated at approximately 21:52 UTC, and dependent services have recovered. A low level of R2 errors is still occurring, and we are actively working toward full resolution.
+    - ts: "2026-07-16 04:38:10"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-16 04:49:58"
+      description: This incident has been resolved.
+      resolved: true
