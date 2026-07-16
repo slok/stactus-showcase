@@ -1,0 +1,10 @@
+version: incident/v1
+id: n8k0q5jvknbh
+name: CNI 2.0 Experiencing Intermittent 5XX Errors
+impact: minor
+systems:
+    - jm5mggc2wp95
+timeline:
+    - ts: "2026-07-16 19:07:06"
+      description: We are currently investigating an issue where customers may experience errors when attempting to view CNI 2.0 interconnections from the API or Dashboard. Data plane traffic is unaffected.
+      investigating: true

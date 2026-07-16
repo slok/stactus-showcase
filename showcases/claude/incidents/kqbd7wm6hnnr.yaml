@@ -1,0 +1,15 @@
+version: incident/v1
+id: kqbd7wm6hnnr
+name: Elevated errors for multiple models
+impact: major
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-07-16 18:36:58"
+      description: We are investigating elevated errors on requests to multiple models. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-07-16 19:14:08"
+      description: We have identified the cause of elevated errors on requests to multiple models, and are working to resolve this issue. We will provide an update as soon as possible.

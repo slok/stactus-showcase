@@ -1,0 +1,21 @@
+version: incident/v1
+id: t0tbswgkrjzs
+name: SMS and MMS Delivery Delays and Failures from Twilio to T-Mobile United States
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - qj606bzkg4s8
+    - 8vdlvw3dsq8h
+    - llqd4rmn8k8y
+    - 39mb8cmw8y2v
+    - k7rg1rqk2nwk
+    - h0fl7prwfhvm
+    - 5cv0b6y86d2f
+    - 32f2bm54nkvv
+    - tvjwfvczkf46
+timeline:
+    - ts: "2026-07-16 18:14:52"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio Phone Numbers to T-Mobile network subscribers in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-16 18:21:59"
+      description: Twilio customers may be experiencing SMS and MMS delivery delays and failures from Twilio to T-Mobile network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
