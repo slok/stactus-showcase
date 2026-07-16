@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-07-16 08:39:35"
       description: We are investigating SAML Single Sign-On (SSO) errors, leading to inability to login using SAML/SSO or access SSO-protected teams through the Vercel dashboard and CLI.
       investigating: true
+    - ts: "2026-07-16 10:23:48"
+      description: The root cause of the SAML Single Sign-On (SSO) errors has been identified and a fix has been implemented. We are seeing error rates decrease. Users should be able to login with SAML/SSO or access their SSO-protected teams through the Vercel dashboard and CLI again. We are continuing to monitor.
+    - ts: "2026-07-16 10:45:23"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,6 +1,6 @@
 version: incident/v1
 id: 6mx6m2c9yx45
-name: SMS Delivery Failures and Delays between a Subset of Twilio Long Codes and Multiple Networks in Mexico
+name: SMS Delivery Failures Between a Subset of Twilio Long Codes and Multiple Networks in Mexico
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2026-07-16 08:11:46"
       description: We have observed a recovery in SMS delivery between a subset of Twilio Long Codes and network subscribers on multiple networks in Mexico and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-07-16 09:38:09"
+      description: The incident has been resolved and SMS delivery between a subset of Twilio Long Codes and affected networks in Mexico is operating normally.
+      resolved: true
