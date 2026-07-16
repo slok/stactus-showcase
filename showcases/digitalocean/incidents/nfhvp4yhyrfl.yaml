@@ -21,3 +21,16 @@ timeline:
         Detaching and reassigning the Reserved IP to the Droplet may restore connectivity in the meantime. We recommend trying this workaround if you are still experiencing issues with your Reserved IP in TOR1.
 
         Our engineering team is now working on implementing a fix. We will provide updates as more information becomes available.
+    - ts: "2026-07-16 17:01:27"
+      description: |-
+        Our Engineering team has implemented a fix for the issue affecting Reserved IP routing in the TOR1 region, and we are currently monitoring the results.
+
+        Inbound and outbound traffic to and from Reserved IPs in TOR1 should now be restored. If you reassigned your Reserved IP as a workaround and are still experiencing issues, please reach out to our support team.
+
+        We will continue to monitor the situation closely and provide a further update once we have confirmed the issue is fully resolved.
+    - ts: "2026-07-16 17:24:35"
+      description: |-
+        Our Engineering team has confirmed that the underlying issue affecting Reserved IP routing in the TOR1 region has been fully resolved, and services are now operating normally.
+
+        If you continue to experience any issues, please contact our Support team by opening a ticket. We apologize for any inconvenience caused.
+      resolved: true
