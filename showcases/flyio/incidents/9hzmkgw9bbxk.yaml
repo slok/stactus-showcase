@@ -1,0 +1,12 @@
+version: incident/v1
+id: 9hzmkgw9bbxk
+name: Edge proxy issues
+impact: minor
+systems:
+    - 15knchzwl5np
+timeline:
+    - ts: "2026-07-16 11:34:25"
+      description: We are investigating increased connection latency and "connection reset" errors from our edge proxy. Apps continue to run, but requests may experience increased connection latency or fail at this time.
+      investigating: true
+    - ts: "2026-07-16 12:27:21"
+      description: A fix has been implemented and we are monitoring the results.

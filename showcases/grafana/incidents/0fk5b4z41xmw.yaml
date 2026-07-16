@@ -1,0 +1,9 @@
+version: incident/v1
+id: 0fk5b4z41xmw
+name: Adaptive Metrics aggregation delay in eu-west-0 region.
+impact: minor
+systems:
+    - d2vdtkjjdzjy
+timeline:
+    - ts: "2026-07-16 12:56:06"
+      description: We're currently facing an issue with Adaptive Metrics aggregation delay in the eu-west-0 region (GCP Belgium). The issue started at around 11:50 UTC, but we were able to identify the issue and the appropriate fix is already deployed. We're seeing services recovering. More updated to come soon.

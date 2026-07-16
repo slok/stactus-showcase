@@ -1,0 +1,12 @@
+version: incident/v1
+id: 27h5grjg09dl
+name: App creation failing
+impact: minor
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2026-07-16 11:54:59"
+      description: An issue with our Machines API is causing app creations to fail in some cases. We are working on a fix.
+    - ts: "2026-07-16 12:17:03"
+      description: This incident has been resolved.
+      resolved: true

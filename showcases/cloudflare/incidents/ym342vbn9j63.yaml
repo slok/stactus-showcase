@@ -1,11 +1,20 @@
 version: incident/v1
 id: ym342vbn9j63
-name: Cloudflare Dashboard and Cloudflare API service issues
+name: Increase in errors for Zone Settings API
 impact: minor
 systems:
     - g4tb35rs9yw7
     - 3sq3s4d20ywk
 timeline:
     - ts: "2026-07-16 11:00:56"
-      description: Cloudflare is investigating issues with Cloudflare Dashboard and related APIs. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed.
+      description: Cloudflare has identified issue causing an increase of errors for the Zone Settings API. We are working to analyse and mitigate this problem. More updates to follow shortly.
       investigating: true
+    - ts: "2026-07-16 11:22:01"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-07-16 11:37:17"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-07-16 11:46:41"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-16 11:57:55"
+      description: This incident has been resolved.
+      resolved: true
