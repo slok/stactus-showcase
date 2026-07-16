@@ -7,3 +7,8 @@ systems:
 timeline:
     - ts: "2026-07-16 12:56:06"
       description: We're currently facing an issue with Adaptive Metrics aggregation delay in the eu-west-0 region (GCP Belgium). The issue started at around 11:50 UTC, but we were able to identify the issue and the appropriate fix is already deployed. We're seeing services recovering. More updated to come soon.
+    - ts: "2026-07-16 13:45:37"
+      description: Services are fully recovered now. We're monitoring to be sure the issue won't re-occur.
+    - ts: "2026-07-16 14:58:43"
+      description: The incident is now fully resolved.
+      resolved: true

@@ -1,0 +1,16 @@
+version: incident/v1
+id: nfhvp4yhyrfl
+name: Reserved IP routing in TOR1
+impact: minor
+systems:
+    - yvh4g97h7mk7
+    - 3hwkzd3pqd0p
+timeline:
+    - ts: "2026-07-16 13:39:47"
+      description: |-
+        Our Engineering team is investigating an issue affecting Reserved IP routing in the TOR1 region. The issue is causing inbound and outbound traffic to and from Reserved IPs in TOR1 to fail.
+
+        In the meantime, detaching and reassigning the Reserved IP to the Droplet may restore connectivity. We recommend trying this workaround if you are experiencing issues with your Reserved IP in TOR1.
+
+        Our engineering team is actively investigating the root cause and working towards a resolution. We will provide updates as more information becomes available.
+      investigating: true
