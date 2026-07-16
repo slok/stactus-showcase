@@ -14,3 +14,10 @@ timeline:
 
         Our engineering team is actively investigating the root cause and working towards a resolution. We will provide updates as more information becomes available.
       investigating: true
+    - ts: "2026-07-16 15:30:04"
+      description: |-
+        Our Engineering team has identified the cause of the issue affecting Reserved IP routing in the TOR1 region, which was causing inbound and outbound traffic to and from Reserved IPs in TOR1 to fail.
+
+        Detaching and reassigning the Reserved IP to the Droplet may restore connectivity in the meantime. We recommend trying this workaround if you are still experiencing issues with your Reserved IP in TOR1.
+
+        Our engineering team is now working on implementing a fix. We will provide updates as more information becomes available.
