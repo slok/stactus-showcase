@@ -1,0 +1,12 @@
+version: incident/v1
+id: 55xnv1tpgx50
+name: Cloud Control Panel unavailable
+impact: critical
+systems:
+    - k648vlw65tzw
+timeline:
+    - ts: "2026-07-16 08:26:17"
+      description: We're aware the Cloud dashboard is currently unavailable for all users. Your running apps and servers are unaffected.
+      investigating: true
+    - ts: "2026-07-16 08:35:25"
+      description: Our upstream authentication provider acknowledged facing issues and their team is actively working on a fix

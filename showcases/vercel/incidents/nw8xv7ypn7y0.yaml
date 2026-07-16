@@ -1,0 +1,10 @@
+version: incident/v1
+id: nw8xv7ypn7y0
+name: SAML Single Sign-On (SSO) errors
+impact: major
+systems:
+    - w5nffyn79vx9
+timeline:
+    - ts: "2026-07-16 08:39:35"
+      description: We are investigating SAML Single Sign-On (SSO) errors, leading to inability to login using SAML/SSO or access SSO-protected teams through the Vercel dashboard and CLI.
+      investigating: true

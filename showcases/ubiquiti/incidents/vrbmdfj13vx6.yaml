@@ -1,0 +1,14 @@
+version: incident/v1
+id: vrbmdfj13vx6
+name: Increased CloudFront 5xx Errors
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-07-16 09:05:47"
+      description: |-
+        We are investigating elevated 5xx errors that may impact all UI Cloud services, including web portals, APIs, authentication, and cloud-managed applications.
+
+        The issue appears to be related to an ongoing AWS CloudFront incident affecting customers using CloudFront VPC Origins. We are actively monitoring the situation, assessing the impact across our platform, and working with AWS as they investigate.
+
+        We will provide updates as more information becomes available.
+      investigating: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: 96p8c95pqqzt
+name: Magic WAN / Magic Transit tunnel health alert delivery
+impact: minor
+systems:
+    - 5xvn0m7tthlf
+timeline:
+    - ts: "2026-07-16 08:13:46"
+      description: |-
+        We are investigating an issue that may prevent some Magic WAN and Magic Transit tunnel health alert notifications from being delivered. Affected customers may not have received expected notifications for tunnel state changes during this period. Tunnel traffic and routing are not impacted — this issue is limited to alert notifications only.
+        We have identified the likely cause and are working on a fix.
+      investigating: true

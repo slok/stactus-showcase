@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2026-07-16 06:07:15"
       description: We've identified an issue where some users may see missing Build CPU Minutes data on Usage pages in the Vercel Dashboard. The issue has been resolved, and we are backfilling the affected usage data.
+    - ts: "2026-07-16 09:27:19"
+      description: The missing Build CPU Minutes data has been backfilled. Users with missing Build CPU Minutes data will be able to see it on Usage pages in the Vercel Dashboard.
+      resolved: true
