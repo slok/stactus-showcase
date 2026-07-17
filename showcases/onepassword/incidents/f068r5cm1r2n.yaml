@@ -1,0 +1,13 @@
+version: incident/v1
+id: f068r5cm1r2n
+name: SaaS Manager Workflows are not running as expected
+impact: minor
+systems:
+    - k7qm78bl9tdx
+    - 1c7tq3skq2xr
+timeline:
+    - ts: "2026-07-17 18:52:15"
+      description: SaaS Manager customers with active workflows may have experienced a service degradation that prevented some workflows from running as scheduled. Our teams quickly identified the issue and implemented a fix. We are now monitoring the recovery to ensure services continue to return to normal.
+    - ts: "2026-07-17 18:57:38"
+      description: This incident has been resolved.
+      resolved: true

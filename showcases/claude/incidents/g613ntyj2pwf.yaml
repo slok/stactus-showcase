@@ -1,0 +1,18 @@
+version: incident/v1
+id: g613ntyj2pwf
+name: Elevated errors across Fable 5
+impact: major
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-07-17 18:32:32"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-07-17 18:36:40"
+      description: We are aware of an issue preventing users from selecting Claude Fable 5 within Claude.ai, Claude Code, and other surfaces, and are working to resolve this issue.
+      investigating: true
+    - ts: "2026-07-17 18:48:23"
+      description: We have applied a fix to resolve the erroneous requirement for usage credits on Fable 5, and are monitoring to ensure no further issues. You may need to relaunch Claude.ai or Claude Code to restore access as expected.

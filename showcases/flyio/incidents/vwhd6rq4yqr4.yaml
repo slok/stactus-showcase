@@ -1,0 +1,9 @@
+version: incident/v1
+id: vwhd6rq4yqr4
+name: Brief Flycast / MPG interruption in YYZ
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-17 19:13:35"
+      description: A bad deployment momentarily caused issues with Flycast connectivity, and, by extension, MPG, in our YYZ region. The deployment was immediately rolled back and connectivity was restored shortly after.
+      resolved: true
