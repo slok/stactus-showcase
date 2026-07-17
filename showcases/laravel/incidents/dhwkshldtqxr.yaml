@@ -1,0 +1,18 @@
+version: incident/v1
+id: dhwkshldtqxr
+name: Elevated MySQL read-only errors on Cloud databases
+impact: none
+systems:
+    - bb24744tntll
+    - 9pd3tysrv4tn
+    - 9pbzbsx65181
+    - jnfvms7yxwqz
+    - qrw0bkd5v9y8
+    - 2njxzcmxn5yk
+    - xnlhg7vcwn21
+    - ytr4j2lk4pxt
+    - 2x0fgd1wxkdf
+timeline:
+    - ts: "2026-07-17 22:10:59"
+      description: We are investigating an increase in errors affecting some Cloud databases across multiple regions. Affected applications may intermittently hit read-only errors (MySQL error 1290) on write queries.
+      investigating: true
