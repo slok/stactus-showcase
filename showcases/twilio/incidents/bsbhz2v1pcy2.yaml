@@ -1,6 +1,6 @@
 version: incident/v1
 id: bsbhz2v1pcy2
-name: SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric and Long Codes to MPT Myanmar
+name: SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to MPT Myanmar
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -16,3 +16,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Alphanumeric and Long Codes to MPT network subscribers in Myanmar. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
     - ts: "2026-07-17 05:56:33"
       description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Alphanumeric and Long Codes to MPT network subscribers in Myanmar. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+    - ts: "2026-07-17 10:20:04"
+      description: We have observed a recovery in SMS delivery from a subset of Twilio Alphanumeric Sender IDs and Long Codes to MPT network subscribers in Myanmar and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.

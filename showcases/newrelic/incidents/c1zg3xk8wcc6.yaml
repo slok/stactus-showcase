@@ -1,0 +1,15 @@
+version: incident/v1
+id: c1zg3xk8wcc6
+name: E2M (Events-2-Metrics) authorization issues
+impact: none
+systems:
+    - rbts0zzw73dl
+    - d9pwhb6snl77
+    - k4c77k6bzcl7
+    - ssdh7xpzvw1l
+    - frs43nvc9kl0
+    - 3qxs50my4fk4
+timeline:
+    - ts: "2026-07-17 10:21:26"
+      description: Between 15:00 UTC on July 14th and 10:00 UTC on July 17th, we experienced an issue where some customers experienced authorization issues when attempting to create, read or update E2M (Events-2-Metrics) rules in the US, EU and JP regions. This was due to a recent change we have made to our authorization endpoints. These endpoints now require S2S authentication which has caused requests to our E2M (Events-2-Metrics) to fail. Our teams have rolled back these changes until a permanent fix can be put in place. The issue is now resolved, and the impacted services have returned to normal service.
+      resolved: true

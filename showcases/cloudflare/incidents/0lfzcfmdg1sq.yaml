@@ -1,0 +1,12 @@
+version: incident/v1
+id: 0lfzcfmdg1sq
+name: Network Performance Issues in Paris, France (CDG)
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-07-17 09:24:42"
+      description: Cloudflare is investigating issues with network performance in Paris, France (CDG). A subset of traffic transiting the Paris data center may observe slightly higher latency. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-07-17 09:25:36"
+      description: We are continuing to investigate this issue.
+      investigating: true
