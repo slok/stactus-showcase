@@ -1,0 +1,20 @@
+version: incident/v1
+id: sh22gggdcpjb
+name: Network Performance Issues for AWS ap-northeast-1 region
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-07-17 07:31:00"
+      description: |-
+        Cloudflare is investigating issues with Network Performance for customers using AWS ap-northeast-1 region. Customers may see increased latency and HTTP 5xx errors.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-07-17 07:36:01"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-07-17 07:44:12"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-17 07:50:45"
+      description: This incident has been resolved.
+      resolved: true
