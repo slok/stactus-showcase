@@ -1,0 +1,13 @@
+version: incident/v1
+id: hkbqwn4gdtfp
+name: CNI 2.0 issues in London
+impact: minor
+systems:
+    - jm5mggc2wp95
+timeline:
+    - ts: "2026-07-17 05:47:50"
+      description: "Cloudflare is currently investigating issues related to CNI 2.0 in London. Customers utilizing CNI 2.0 through London (LHR) data center will experience a failure to send traffic over their CNI. \nWe are working to mitigate impact to CNI customers. More updates to follow shortly."
+      investigating: true
+    - ts: "2026-07-17 06:16:09"
+      description: This incident has been resolved.
+      resolved: true
