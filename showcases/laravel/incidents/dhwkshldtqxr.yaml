@@ -1,18 +1,17 @@
 version: incident/v1
 id: dhwkshldtqxr
 name: Elevated MySQL read-only errors on Cloud databases
-impact: none
+impact: minor
 systems:
-    - bb24744tntll
     - 9pd3tysrv4tn
-    - 9pbzbsx65181
-    - jnfvms7yxwqz
-    - qrw0bkd5v9y8
-    - 2njxzcmxn5yk
-    - xnlhg7vcwn21
-    - ytr4j2lk4pxt
-    - 2x0fgd1wxkdf
 timeline:
     - ts: "2026-07-17 22:10:59"
       description: We are investigating an increase in errors affecting some Cloud databases across multiple regions. Affected applications may intermittently hit read-only errors (MySQL error 1290) on write queries.
       investigating: true
+    - ts: "2026-07-17 22:45:04"
+      description: We've traced the elevated read-only errors to a planned database migration that briefly placed a subset of Cloud databases into read-only mode. The migration has since completed and the affected databases have recovered and are accepting writes normally again.
+    - ts: "2026-07-17 22:50:24"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-07-17 22:51:59"
+      description: We've traced the elevated read-only errors to a planned database migration that briefly placed a subset of Cloud databases into read-only mode. The migration has since completed and the affected databases have recovered and are accepting writes normally again.
