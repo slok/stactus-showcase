@@ -1,0 +1,14 @@
+version: incident/v1
+id: k1fkr68crhsr
+name: Increased HTTP 500 Errors in Querétaro, Mexico
+impact: none
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-07-17 01:25:53"
+      description: "Cloudflare is investigating an increased level of HTTP 500 errors in Querétaro, Mexico. \n\nWe are working to analyse and mitigate this problem.  More updates to follow shortly."
+    - ts: "2026-07-17 01:26:35"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-17 01:42:54"
+      description: This incident has been resolved.
+      resolved: true
