@@ -1,0 +1,15 @@
+version: incident/v1
+id: qjk952jxg2kk
+name: 'MongoDB Atlas and Atlas for Government: New AWS Backup and AWS Data Transfer costs will be unavailable between July 17 and 20'
+impact: none
+systems:
+    - 98lbmdz85yp0
+    - q57ng8brt2td
+timeline:
+    - ts: "2026-07-17 16:14:17"
+      description: |-
+        Due to an ongoing incident with AWS's billing data, MongoDB Atlas and Atlas for Government will not be updating AWS network or backup consumption data over this weekend, 2026-07-17 through 2026-07-20. The products themselves will remain fully available. When the upstream issue has been resolved, we intend to display and bill for the correct amounts. Charges will have usage dates that correctly express the usage, but will have the billed date of when this is corrected.
+
+        Cluster and backup health are unaffected. Other cloud providers' billing data is unaffected.
+
+        You can follow the upstream incident at https://health.aws.amazon.com/health/status

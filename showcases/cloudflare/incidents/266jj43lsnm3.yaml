@@ -1,0 +1,11 @@
+version: incident/v1
+id: 266jj43lsnm3
+name: Containers Logs Issues
+impact: minor
+systems:
+    - nd77krz8224v
+    - pqt7t1dwt0dz
+timeline:
+    - ts: "2026-07-17 16:40:07"
+      description: 'A subset of Containers logs for Containers applications that are configured with ''observability.enabled: true'' are getting dropped.'
+      investigating: true
