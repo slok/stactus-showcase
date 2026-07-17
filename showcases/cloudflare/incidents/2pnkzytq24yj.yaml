@@ -1,0 +1,11 @@
+version: incident/v1
+id: 2pnkzytq24yj
+name: Cache Reserve users may see increased write errors in the APAC region
+impact: minor
+systems:
+    - 3q1jnbdbn845
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-07-17 18:06:42"
+      description: We are investigating an increase in write errors for the R2 cache reserve service
+      investigating: true
