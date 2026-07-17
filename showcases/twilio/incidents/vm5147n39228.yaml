@@ -1,0 +1,13 @@
+version: incident/v1
+id: vm5147n39228
+name: Outbound Call Failures to India Phone Numbers
+impact: minor
+systems:
+    - 50pr269zqrwj
+timeline:
+    - ts: "2026-07-17 15:00:16"
+      description: We are observing call failures to India phone numbers to Reliance Jio network. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-17 15:17:08"
+      description: We are resolving this post due to it being a duplicate of an existing status.
+      resolved: true

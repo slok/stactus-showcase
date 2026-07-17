@@ -1,0 +1,13 @@
+version: incident/v1
+id: 652w59bvnbsj
+name: POST requests not succeeding
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2026-07-17 15:02:12"
+      description: Cloudflare is aware of and investigating an issue where some customers may be experiencing POST requests not reaching origin servers correctly. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-07-17 15:06:16"
+      description: We are continuing to investigate this issue.
+      investigating: true

@@ -1,0 +1,20 @@
+version: incident/v1
+id: mskkl0ryk3zn
+name: Increased invocation failures for Hobby Team functions
+impact: minor
+systems:
+    - kgcsn9c73xzf
+timeline:
+    - ts: "2026-07-17 14:12:58"
+      description: There are elevated rates of invocation failures for Hobby Team functions in new deployments. Existing deployments are unaffected. We are investigating. Mitigation is possible by rolling back to a previous deployment.
+      investigating: true
+    - ts: "2026-07-17 14:19:52"
+      description: We have identified the source of errors and are implementing a fix.
+    - ts: "2026-07-17 14:27:39"
+      description: We have deployed a fix and are continuing to monitor. Function invocations for new Hobby Team deployments should no longer fail. If you are still experiencing function invocation errors, redeploy or rollback to a previous deployment.
+    - ts: "2026-07-17 15:19:53"
+      description: |-
+        This incident has been resolved.
+
+        A subset of deployments created under the Hobby plan teams during Jul 17, 2026 10:18 - Jul 17, 2026 14:10 UTC were impacted by this incident. New deployments after this window are unaffected.
+      resolved: true
