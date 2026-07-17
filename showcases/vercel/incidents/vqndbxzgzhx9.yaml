@@ -1,10 +1,19 @@
 version: incident/v1
 id: vqndbxzgzhx9
-name: Errors logging in with GitHub
+name: GitHub-linked deployments and authentication affected
 impact: minor
 systems:
     - fk66q26xp7hh
+    - 7ckq6xr6nsbv
+    - hpqj1ys9gr78
 timeline:
     - ts: "2026-07-16 23:09:29"
       description: We are investigating elevated error rates for users logging in to Vercel using their GitHub account and connecting their GitHub accounts to Vercel. Login with email or other sign-in methods is unaffected.
       investigating: true
+    - ts: "2026-07-16 23:39:29"
+      description: We've identified an issue affecting deployments for projects linked to GitHub repositories, as well as GitHub login, signup, and account connections. CLI deployments and other sign-in methods are unaffected. We will share updates as they become available.
+    - ts: "2026-07-17 00:07:15"
+      description: Deployments for projects linked to GitHub repositories are recovering. Some customers may continue to experience delayed build starts or builds stuck in an initializing state while recovery continues. We will provide additional updates as they become available. GitHub login, signup, and account connections are recovered.
+    - ts: "2026-07-17 00:42:10"
+      description: This incident has been resolved.
+      resolved: true

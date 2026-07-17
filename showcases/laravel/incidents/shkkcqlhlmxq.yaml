@@ -18,3 +18,8 @@ timeline:
         Some deployments on Cloud are failing for some users due to a degradation on the GitHub API. If your deployments are failing, please wait a while and try again.
 
         More information is available at https://www.githubstatus.com/incidents/gxycch3076xk
+    - ts: "2026-07-17 00:06:43"
+      description: Deployments are succeeding again. We are monitoring to confirm stability before considering this resolved.
+    - ts: "2026-07-17 00:30:56"
+      description: Deployments have fully returned to normal. If a deployment failed during this window, retrying should now succeed.
+      resolved: true

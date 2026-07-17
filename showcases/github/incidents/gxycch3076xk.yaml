@@ -17,3 +17,10 @@ timeline:
     - ts: "2026-07-16 23:29:04"
       description: We are continuing to investigate an issue causing approximately 35% of REST API requests to fail.  Based on our current understanding, requests are not consistently reaching the application layer, resulting in failed requests returning HTML responses instead of the expected API response format. We are actively investigating the issue and will provide another update as soon as more information is available.
       investigating: true
+    - ts: "2026-07-17 00:00:47"
+      description: The degradation affecting API Requests has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-07-17 00:14:04"
+      description: As of 23:46 UTC, the REST API service is reachable and responding to requests normally.
+    - ts: "2026-07-17 00:14:08"
+      description: From 22:21 UTC - 23:50 UTC on July 16, 2026, the REST API experienced significant degradation.  During this period, about 39% of REST API requests failed with HTTP 500 level responses, with the errors peaking at 44.3%. <br /><br />We identified the issue as an infrastructure change that wrongly marked the majority of API backends in a single region as unhealthy.  As a result, requests routed to those backends failed before reaching the application layer.  <br /><br />To prevent this from happening again, we're improving our systems to catch this kind of invalid configuration before it reaches production. We'll also audit the related systems to make them more resilient to future changes, and we're increasing our monitoring sensitivity so we're alerted to problems like this sooner.
+      resolved: true
