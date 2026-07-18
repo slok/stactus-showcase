@@ -1,0 +1,21 @@
+version: incident/v1
+id: zn4rzw901klb
+name: Service degradation affecting both inbound and outbound calls for a single Provider Exchange partner in the Japan region.
+impact: minor
+systems:
+    - dkz3yppqdg9h
+    - wnj6zbp7n7ks
+timeline:
+    - ts: "2026-07-18 08:03:49"
+      description: |-
+        We are currently investigating a service degradation that is affecting both inbound and outbound calls for a single Provider Exchange partner in the Japan region.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-07-18 08:05:06"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-07-18 08:08:52"
+      description: "We have successfully identified the root cause affecting both inbound and outbound calls for a single Provider Exchange partner in the Japan region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
