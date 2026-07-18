@@ -15,3 +15,6 @@ timeline:
       investigating: true
     - ts: "2026-07-17 22:51:59"
       description: We've traced the elevated read-only errors to a planned database migration that briefly placed a subset of Cloud databases into read-only mode. The migration has since completed and the affected databases have recovered and are accepting writes normally again.
+    - ts: "2026-07-18 00:17:54"
+      description: This incident has been resolved.
+      resolved: true
