@@ -42,3 +42,6 @@ timeline:
       description: We’ve identified the cause of the issue impacting users with the role of None from logging in. Our team is currently implementing a fix.
     - ts: "2026-07-17 21:33:17"
       description: We are in the process of implementing a fix and are monitoring the rollout. Thank you for your patience.
+    - ts: "2026-07-18 13:15:31"
+      description: Users with the None role authenticating via Grafana.com should be able to access their stacks again
+      resolved: true
