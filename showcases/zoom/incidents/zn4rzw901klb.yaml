@@ -3,7 +3,6 @@ id: zn4rzw901klb
 name: Service degradation affecting both inbound and outbound calls for a single Provider Exchange partner in the Japan region.
 impact: minor
 systems:
-    - dkz3yppqdg9h
     - wnj6zbp7n7ks
 timeline:
     - ts: "2026-07-18 08:03:49"
@@ -19,3 +18,11 @@ timeline:
       investigating: true
     - ts: "2026-07-18 08:08:52"
       description: "We have successfully identified the root cause affecting both inbound and outbound calls for a single Provider Exchange partner in the Japan region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+    - ts: "2026-07-18 08:35:06"
+      description: |-
+        The issue affecting both inbound and outbound calls for a single Provider Exchange partner in the Japan region has been successfully resolved.
+
+        Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-07-18 09:11:01"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
