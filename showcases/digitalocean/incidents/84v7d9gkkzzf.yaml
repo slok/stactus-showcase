@@ -1,0 +1,11 @@
+version: incident/v1
+id: 84v7d9gkkzzf
+name: Block Storage Volume NYC1 and NYC3
+impact: minor
+systems:
+    - p4l05gv4bg18
+    - fkzl92xwpwc9
+timeline:
+    - ts: "2026-07-19 09:51:19"
+      description: Our Engineering team is investigating an issue with attaching volume to the droplets in the NYC1 and NYC3 regions. During this time you may experience an issue with attaching volume to the Droplet(s). We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true

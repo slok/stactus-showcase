@@ -17,3 +17,11 @@ timeline:
         Customers may continue to experience intermittent timeouts or connectivity issues when attempting to reach external endpoints from Droplets in BLR1.
 
         We will provide another update once the issue has been fully resolved or when additional information becomes available.
+    - ts: "2026-07-19 09:31:03"
+      description: |-
+        Our engineering team has implemented the necessary fixes affecting upstream network connectivity for Droplet-based services in the BLR1 region. Users should now be able to connect to the external endpoints from Droplets in BLR1.
+
+        We are currently monitoring the situation to ensure that the service has returned to normal operation and remain stable. We appreciate your patience and will provide an update once the issue is fully confirmed as resolved.
+    - ts: "2026-07-19 09:52:00"
+      description: Our engineering team has resolved the outbound network connectivity issue in the BLR1 region. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+      resolved: true
