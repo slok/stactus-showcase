@@ -1,6 +1,6 @@
 version: incident/v1
 id: 6x7976298g5f
-name: SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Pelephone Israel
+name: SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric and Long Codes to Pelephone Israel
 impact: minor
 systems:
     - 9z5gsqyjs4rl
@@ -25,3 +25,5 @@ timeline:
       description: We have observed a recovery in SMS delivery from a subset of Twilio Alphanumeric and Long Codes to Pelephone network subscribers in Israel and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
     - ts: "2026-07-19 06:14:51"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Alphanumeric Sender IDs and Long Codes to Pelephone network subscribers in Israel and are monitoring service stability. We will provide another update in 8 hours or as soon as more information becomes available.
+    - ts: "2026-07-19 14:16:55"
+      description: We have observed a recovery in SMS delivery from a subset of Twilio Alphanumeric and Long Codes to Pelephone network subscribers in Israel and are monitoring service stability. We will provide another update in 16 hours or as soon as more information becomes available.
