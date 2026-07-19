@@ -1,0 +1,9 @@
+version: incident/v1
+id: mqvnnbhm1myy
+name: Egress IPv6 issues in BOM
+impact: minor
+systems:
+    - k6fbt4mk0xv1
+timeline:
+    - ts: "2026-07-19 03:48:45"
+      description: We have identified an upstream issue that is preventing egress IPv6 addresses in BOM from reaching parts of the internet, and we're currently working with an upstream provider to resolve this issue. Normal IPv6 addresses remain unaffected.
