@@ -1,0 +1,13 @@
+version: incident/v1
+id: 8vfyvq16hzh9
+name: Incident with GitHub Actions
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-07-19 23:34:03"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2026-07-19 23:37:51"
+      description: We are investigating degraded availability for GitHub Actions on github.com and in GHEC DR stamps. New workflows may delay or fail to start, and ongoing runs may fail. We will provide more information as soon as we can.
+      investigating: true
