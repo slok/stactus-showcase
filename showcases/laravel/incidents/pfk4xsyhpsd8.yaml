@@ -1,0 +1,26 @@
+version: incident/v1
+id: pfk4xsyhpsd8
+name: Intermittent build failures
+impact: minor
+systems:
+    - ffc2w3q5j6fx
+    - q8chffw359pz
+    - k7bvq41n41zs
+    - mf51szgphyxp
+    - 29lv3lp08fw1
+    - j7npqf9nr7qp
+    - 359qq1ltvtft
+    - z90jsvy9c3h1
+    - 7pp548h9j9k6
+timeline:
+    - ts: "2026-07-19 05:07:39"
+      description: We are investigating failures in our build service in EU Central (Frankfurt). Running apps are not affected.
+      investigating: true
+    - ts: "2026-07-19 05:11:49"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-07-19 05:36:40"
+      description: We are still investigating the build failures in EU Central (Frankfurt) and will update as soon as we know more.
+      investigating: true
+    - ts: "2026-07-19 06:13:07"
+      description: We've identified the cause of the build issues in EU Central (Frankfurt) and are applying a fix.

@@ -1,0 +1,12 @@
+version: incident/v1
+id: qzbsmdsw9lq8
+name: Networking in BLR1
+impact: minor
+systems:
+    - lmgn764lq04q
+timeline:
+    - ts: "2026-07-19 06:57:41"
+      description: |-
+        We are currently investigating an issue affecting outbound network traffic for Droplets in the BLR1 region. Customers may experience timeout errors or connectivity issues when attempting to reach external services.
+        Our Engineering team is actively investigating the issue and working to identify the root cause. We will provide additional updates as soon as more information becomes available.
+      investigating: true

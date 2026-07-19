@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2026-07-19 03:48:45"
       description: We have identified an upstream issue that is preventing egress IPv6 addresses in BOM from reaching parts of the internet, and we're currently working with an upstream provider to resolve this issue. Normal IPv6 addresses remain unaffected.
+    - ts: "2026-07-19 04:52:50"
+      description: This incident has been resolved.
+      resolved: true
