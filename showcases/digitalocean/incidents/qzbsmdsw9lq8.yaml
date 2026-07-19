@@ -10,3 +10,10 @@ timeline:
         We are currently investigating an issue affecting outbound network traffic for Droplets in the BLR1 region. Customers may experience timeout errors or connectivity issues when attempting to reach external services.
         Our Engineering team is actively investigating the issue and working to identify the root cause. We will provide additional updates as soon as more information becomes available.
       investigating: true
+    - ts: "2026-07-19 08:27:36"
+      description: |-
+        Our Engineering team has identified an issue affecting upstream network connectivity for Droplet-based services in the BLR1 region and is actively working with the relevant upstream providers to implement a resolution.
+
+        Customers may continue to experience intermittent timeouts or connectivity issues when attempting to reach external endpoints from Droplets in BLR1.
+
+        We will provide another update once the issue has been fully resolved or when additional information becomes available.

@@ -24,3 +24,8 @@ timeline:
       investigating: true
     - ts: "2026-07-19 06:13:07"
       description: We've identified the cause of the build issues in EU Central (Frankfurt) and are applying a fix.
+    - ts: "2026-07-19 07:29:12"
+      description: Builds are processing normally again in EU Central (Frankfurt). We're closely monitoring throughput.
+    - ts: "2026-07-19 07:59:30"
+      description: Build performance in EU Central (Frankfurt) has been fully restored. No running applications were affected, and no other regions were impacted.
+      resolved: true
