@@ -1,0 +1,14 @@
+version: incident/v1
+id: nk80gqnc1lfn
+name: MQTT service disruption preventing users from starting prints (recurring)
+impact: major
+systems:
+    - 5fs3yzwktd3t
+timeline:
+    - ts: "2026-07-20 17:27:12"
+      description: This issue has recurred after previously being resolved. We are aware some users are again unable to start print jobs due to an issue with our MQTT service. Our team is actively investigating.
+      investigating: true
+    - ts: "2026-07-20 17:28:37"
+      description: We have identified the root cause of this issue and are currently rolling back the related configuration to restore service.
+    - ts: "2026-07-20 18:25:57"
+      description: The configuration rollback is complete, and printing has been gradually recovering since 18:05 UTC. We have also identified a server with network connectivity issues and are replacing it to ensure full service stability. We're continuing to monitor closely.

@@ -14,3 +14,12 @@ timeline:
     - ts: "2026-07-20 16:39:46"
       description: We identified that an upstream provider is returning errors for GPT 5.3 Codex requests, causing some users to experience failed or interrupted responses. Traffic is being automatically rerouted to mitigate impact. We are working with the upstream provider to resolve the underlying issue. We recommend using a different model at this time while we resolve the problem.
       investigating: true
+    - ts: "2026-07-20 17:21:18"
+      description: The upstream provider continues to return intermittent errors for GPT 5.3 Codex requests. Some users may experience failed or interrupted responses when using this model. Traffic continues to be automatically rerouted to reduce impact, and we are actively working with the upstream provider on a resolution. In the meantime, selecting an alternative model will avoid disruption.
+      investigating: true
+    - ts: "2026-07-20 18:25:51"
+      description: We are seeing signs of sustained recovery from the upstream provider for GPT 5.3 Codex requests. Requests  are succeeding as expected. We are awaiting confirmation from the provider that the issue is fully mitigated before resolving this incident.
+      investigating: true
+    - ts: "2026-07-20 18:37:08"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
