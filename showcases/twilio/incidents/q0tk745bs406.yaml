@@ -1,6 +1,6 @@
 version: incident/v1
 id: q0tk745bs406
-name: Voice Call Post Dial Delay from Twilio Phone Numbers to Germany
+name: Voice Call Failures from Twilio Phone Numbers to a subset of network subscribers in Germany.
 impact: minor
 systems:
     - bnzggd37p61w
@@ -17,3 +17,7 @@ timeline:
       description: Twilio customers may be experiencing voice call post dial delay from Twilio Phone Numbers to network subscribers in Germany. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
     - ts: "2026-07-20 11:59:44"
       description: Twilio customers may be experiencing voice call post dial delay from Twilio Phone Numbers to network subscribers in Germany. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-07-20 14:05:15"
+      description: Twilio customers may be experiencing voice call post dial delay from Twilio Phone Numbers to network subscribers in Germany. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-07-20 15:21:25"
+      description: We have observed a recovery in voice calls from Twilio Phone Numbers to network subscribers in Germany and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.

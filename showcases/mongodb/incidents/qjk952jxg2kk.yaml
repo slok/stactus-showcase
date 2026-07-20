@@ -13,3 +13,5 @@ timeline:
         Cluster and backup health are unaffected. Other cloud providers' billing data is unaffected.
 
         You can follow the upstream incident at https://health.aws.amazon.com/health/status
+    - ts: "2026-07-20 15:06:07"
+      description: The upstream issue has been corrected. After approximately 0400 UTC on 2026-07-21, most, if not all, of the updated backup and network consumption on AWS will be reflected in MongoDB Atlas and Atlas for Government. Thank you for your patience during this incident.
