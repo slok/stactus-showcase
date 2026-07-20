@@ -1,0 +1,20 @@
+version: incident/v1
+id: gvgpvkt454h7
+name: High number of 5XX on the Machines API and dashboard
+impact: critical
+systems:
+    - 66r6rhq3hn9n
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2026-07-20 07:10:35"
+      description: Existing machines are unaffected. We are investigating the issue.
+      investigating: true
+    - ts: "2026-07-20 07:48:50"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-07-20 07:51:02"
+      description: We've identified an internal service providing authentication to our Machines API has failed, our team is currently looking at our options for restoring this service. Existing Machines/Apps will continue to run as normal. Thank you for your patience.
+    - ts: "2026-07-20 07:52:03"
+      description: We've identified an internal service providing authentication to our Machines API has failed, our team is currently looking at our options for restoring this service. Existing Machines/Apps will continue to run as normal. Thank you for your patience.
+    - ts: "2026-07-20 08:02:30"
+      description: A fix has been implemented and we are monitoring the results.

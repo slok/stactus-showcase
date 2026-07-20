@@ -1,0 +1,9 @@
+version: incident/v1
+id: tnypgb2jbqnq
+name: Fable 5 requiring usage credits on Max plans
+impact: minor
+systems:
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-07-20 07:35:29"
+      description: Some Claude Code Max plan users were incorrectly prompted to use usage credits to access Fable 5, which is included in their plan. If you were affected, please restart Claude Code.

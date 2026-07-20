@@ -1,0 +1,15 @@
+version: incident/v1
+id: hlt0yqp4lkww
+name: Elevated error rates for Opus 4.5
+impact: minor
+systems:
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-07-20 07:03:46"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-07-20 07:57:06"
+      description: The issue has been identified and a fix is being implemented.
