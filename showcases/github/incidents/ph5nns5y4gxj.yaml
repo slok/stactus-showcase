@@ -1,7 +1,7 @@
 version: incident/v1
 id: ph5nns5y4gxj
 name: Disruption with some GitHub services
-impact: minor
+impact: major
 systems: []
 timeline:
     - ts: "2026-07-20 00:25:09"
@@ -11,3 +11,12 @@ timeline:
       description: Some Git LFS operations, and loading files through the API are failing. We are investigating.
     - ts: "2026-07-20 00:26:10"
       description: Some Git LFS operations, and loading files through the API  are failing. We are investigating.
+    - ts: "2026-07-20 01:15:30"
+      description: The Git LFS API issues have been identified as being related to a separate incident where Actions is experiencing degraded availability. We’re consolidating our investigation efforts under that incident.
+      investigating: true
+    - ts: "2026-07-20 01:45:49"
+      description: Git LFS API success rates have returned to normal. We will continue to monitor the service closely.
+      investigating: true
+    - ts: "2026-07-20 01:46:02"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

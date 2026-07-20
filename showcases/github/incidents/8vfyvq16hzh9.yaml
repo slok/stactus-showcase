@@ -35,3 +35,28 @@ timeline:
     - ts: "2026-07-20 01:11:39"
       description: We continue to work on mitigative efforts to restore Actions workflow runners, and have observed that the extended downtime has started to cause knock-on effects to other services.<br /><br />A separate incident was opened before we understood they were related. We will continue to post updates on this incident.
       investigating: true
+    - ts: "2026-07-20 01:37:10"
+      description: Pages is operating normally.
+      investigating: true
+    - ts: "2026-07-20 02:20:04"
+      description: Issues is operating normally.
+      investigating: true
+    - ts: "2026-07-20 02:23:53"
+      description: API Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-20 02:43:43"
+      description: Issues, API Requests, and Pages have recovered. We are continuing to work on restoring GitHub Actions jobs using self-hosted or larger-hosted runners.
+      investigating: true
+    - ts: "2026-07-20 03:03:45"
+      description: API Requests is operating normally.
+      investigating: true
+    - ts: "2026-07-20 03:27:10"
+      description: We’re seeing recovery across all impacted Actions runners. The team is continuing to monitor for global recovery.
+      investigating: true
+    - ts: "2026-07-20 03:34:48"
+      description: The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-07-20 04:43:50"
+      description: Actions has fully recovered, and we will continue to monitor the platform to ensure stability.
+    - ts: "2026-07-20 04:44:03"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
