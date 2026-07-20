@@ -1,0 +1,13 @@
+version: incident/v1
+id: ph5nns5y4gxj
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-07-20 00:25:09"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-07-20 00:25:49"
+      description: Some Git LFS operations, and loading files through the API are failing. We are investigating.
+    - ts: "2026-07-20 00:26:10"
+      description: Some Git LFS operations, and loading files through the API  are failing. We are investigating.

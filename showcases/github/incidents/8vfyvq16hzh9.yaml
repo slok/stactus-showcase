@@ -1,13 +1,37 @@
 version: incident/v1
 id: 8vfyvq16hzh9
 name: Incident with GitHub Actions
-impact: minor
+impact: critical
 systems:
+    - brv1bkgrwx7q
+    - kr09ddfgbfsf
     - br0l2tvcx85d
+    - vg70hn9s2tyj
 timeline:
     - ts: "2026-07-19 23:34:03"
       description: We are investigating reports of degraded performance for Actions
       investigating: true
     - ts: "2026-07-19 23:37:51"
       description: We are investigating degraded availability for GitHub Actions on github.com and in GHEC DR stamps. New workflows may delay or fail to start, and ongoing runs may fail. We will provide more information as soon as we can.
+      investigating: true
+    - ts: "2026-07-19 23:57:14"
+      description: We have identified the cause of failures in GitHub Actions and are working to restore service.
+      investigating: true
+    - ts: "2026-07-20 00:07:41"
+      description: API Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-20 00:20:23"
+      description: Actions is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-20 00:48:31"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-20 00:49:33"
+      description: Actions and Pages are experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-20 00:52:40"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-20 01:11:39"
+      description: We continue to work on mitigative efforts to restore Actions workflow runners, and have observed that the extended downtime has started to cause knock-on effects to other services.<br /><br />A separate incident was opened before we understood they were related. We will continue to post updates on this incident.
       investigating: true
