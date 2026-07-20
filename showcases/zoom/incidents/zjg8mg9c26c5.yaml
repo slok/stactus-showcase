@@ -1,0 +1,15 @@
+version: incident/v1
+id: zjg8mg9c26c5
+name: Service Degradation Affecting Zoom AI Expert Assist in US Region.
+impact: none
+systems:
+    - fdfgklvlyyd6
+timeline:
+    - ts: "2026-07-20 16:35:11"
+      description: |-
+        Between 07/20/2026 14:38 UTC and 16:01 UTC, a subset of users may have experienced issues affecting Zoom AI Expert Assist in US Region.
+
+        We have mitigated the issue and our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-07-20 16:55:07"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
