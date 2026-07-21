@@ -1,0 +1,20 @@
+version: incident/v1
+id: j0y67nj6w93z
+name: Elevated errors on Haiku 4.5
+impact: minor
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-07-21 13:04:36"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-07-21 13:14:56"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-07-21 13:22:30"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-21 14:44:53"
+      description: The issue has been identified and a fix is being implemented.
