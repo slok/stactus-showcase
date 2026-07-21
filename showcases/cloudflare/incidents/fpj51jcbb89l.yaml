@@ -1,0 +1,9 @@
+version: incident/v1
+id: fpj51jcbb89l
+name: Increase in R2 500 errors in ENAM
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-21 16:18:54"
+      description: Cloudflare has identified and resolved an issue impacting some customers where R2 requests would return 500 errors in ENAM between 20th July 2026 21:24 UTC to 21st July 2026 14:39 UTC.
+      resolved: true

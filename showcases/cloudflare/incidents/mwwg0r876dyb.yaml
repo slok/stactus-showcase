@@ -1,0 +1,12 @@
+version: incident/v1
+id: mwwg0r876dyb
+name: Durable Object startup errors in Eastern Europe
+impact: minor
+systems:
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2026-07-21 16:21:41"
+      description: Cloudflare has identified an issue causing an increase of errors for Durable Objects and downstream services in Eastern Europe. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-07-21 16:29:08"
+      description: A fix has been implemented and we are monitoring the results.
