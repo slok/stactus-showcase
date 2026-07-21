@@ -1,0 +1,12 @@
+version: incident/v1
+id: g40zcbvchny4
+name: Some SSH connections using deploy keys are failing
+impact: critical
+systems: []
+timeline:
+    - ts: "2026-07-21 10:31:44"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-07-21 11:04:43"
+      description: We are investigating reports of intermittent SSH authentication failures affecting connections that use deploy keys. Customers may experience failed SSH connections when interacting with repositories via deploy keys. Our engineering team is actively investigating the root cause and working toward resolution.
+      investigating: true

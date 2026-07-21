@@ -1,0 +1,18 @@
+version: incident/v1
+id: y65gwqbztbsp
+name: Elevated errors across models
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-07-21 10:11:10"
+      description: We are currently investigating issues with Claude Haiku 4.5 and Opus 4.8.
+      investigating: true
+    - ts: "2026-07-21 11:10:20"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-21 11:18:50"
+      description: This incident has been resolved.
+      resolved: true

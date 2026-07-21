@@ -12,5 +12,5 @@ timeline:
     - ts: "2026-07-16 10:17:11"
       description: The degradation has been mitigated. We are monitoring to ensure stability.
     - ts: "2026-07-16 12:20:56"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On July 16, 2026, between 08:50 UTC and 09:50 UTC, the GitHub MCP Server’s web_search tool experienced elevated failures. The average error rate was 42% and peaked at 82% of requests to the tool. Other GitHub MCP Server tools were unaffected. This was caused by degradation at a downstream web search provider.<br /><br />The incident was mitigated when the downstream provider recovered, after which we confirmed that the tool’s success rate had returned to normal.<br /><br />We are improving the tool’s resilience and failure handling to reduce the customer impact and duration of similar incidents.
       resolved: true
