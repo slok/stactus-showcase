@@ -1,0 +1,10 @@
+version: incident/v1
+id: py46dmbg0t0t
+name: Newly entitled R2 accounts are seeing delays when trying to access the S3-compatible API
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+    - cghykwlwsmn5
+timeline:
+    - ts: "2026-07-21 17:31:45"
+      description: We have identified an issue with issuance of advanced certificates for new R2 users, customers may see a delay while we process a backlog.

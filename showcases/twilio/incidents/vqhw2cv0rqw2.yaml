@@ -1,0 +1,15 @@
+version: incident/v1
+id: vqhw2cv0rqw2
+name: User Authentication Identity Gateway API High Latency for Verizon in United States
+impact: minor
+systems:
+    - q0hp6vfr4vvh
+    - qt4vzyg2g7b4
+timeline:
+    - ts: "2026-07-21 16:57:15"
+      description: Twilio customers may be experiencing User Authentication Identity Gateway API high latency for Verizon in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-21 17:22:16"
+      description: Twilio customers may be experiencing User Authentication Identity Gateway API high latency for Verizon in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-07-21 17:27:03"
+      description: We have observed a recovery in User Authentication Identity Gateway API high latency for Verizon in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
