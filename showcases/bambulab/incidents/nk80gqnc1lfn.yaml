@@ -14,3 +14,6 @@ timeline:
       description: The configuration rollback is complete, and printing has been gradually recovering since 18:05 UTC. We have also identified a server with network connectivity issues and are replacing it to ensure full service stability. We're continuing to monitor closely.
     - ts: "2026-07-20 19:26:44"
       description: As of 18:30 UTC, our MQTT service has fully recovered. Print job initiation is now operating normally. We apologize for the disruption this caused to your printing experience. We will share more details about this incident later this week.
+    - ts: "2026-07-21 02:58:48"
+      description: The incident is now fully resolved. We will publish a detailed post-mortem later this week. Thank you for your patience.
+      resolved: true
