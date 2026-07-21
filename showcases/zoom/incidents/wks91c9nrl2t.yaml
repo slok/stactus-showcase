@@ -1,0 +1,29 @@
+version: incident/v1
+id: wks91c9nrl2t
+name: Service Degradation Affecting functionality in Zoom Canvas, Clips, Slides, Sheets, Paper, and Hub.
+impact: minor
+systems:
+    - zhgjct3grx1z
+    - 576m25cw4prj
+    - 2twszjk8b2jy
+    - jjx4mtk4my78
+    - p1jwwf84ngpf
+    - 8214506690ws
+timeline:
+    - ts: "2026-07-21 18:25:26"
+      description: |-
+        We are currently investigating a service degradation with file upload functionality in Zoom Canvas, Clips and Hub.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-07-21 18:43:41"
+      description: "We have successfully identified the root cause affecting functionality in Zoom Canvas, Clips, Slides, Sheets, Paper, and Hub.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+    - ts: "2026-07-21 18:47:46"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-07-21 18:56:02"
+      description: "The service degradation affecting functionality in Zoom Canvas, Clips, Slides, Sheets, Paper, and Hub. has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
+    - ts: "2026-07-21 19:14:43"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true

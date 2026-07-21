@@ -1,0 +1,9 @@
+version: incident/v1
+id: yvnnyq581wzs
+name: Cloudflare IPsec tunnel and CF1 Appliance Availability Issues
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-21 19:18:34"
+      description: "Cloudflare has observed issues with Cloudflare IPsec tunnels and Cloudflare One Appliances (formerly Magic Connector devices) momentarily disconnecting. This issue does not affect any other Cloudflare services. Customer devices are expected to reconnect and heal the tunnels automatically. \n\nIf your device does not do so, we recommend forcing a manual restart of the impacted IPsec tunnels. Specifically for CF1 Appliances, no further action should be necessary and the timeframe of impact for most devices impacted happened between 16:30 UTC on July 20, 2026 to 18:30 UTC on July 21, 2026."
+      resolved: true
