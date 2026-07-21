@@ -1,0 +1,12 @@
+version: incident/v1
+id: 54mkqs4cl8kz
+name: SMS Delivery Delays from Twilio to Multiple Networks in Mexico
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-07-21 06:59:08"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to multiple networks in Mexico. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-07-21 07:33:19"
+      description: The incident has been resolved and SMS delivery from Twilio to affected networks in Mexico is operating normally.
+      resolved: true
