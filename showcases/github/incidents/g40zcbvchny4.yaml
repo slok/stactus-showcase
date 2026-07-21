@@ -10,3 +10,9 @@ timeline:
     - ts: "2026-07-21 11:04:43"
       description: We are investigating reports of intermittent SSH authentication failures affecting connections that use deploy keys. Customers may experience failed SSH connections when interacting with repositories via deploy keys. Our engineering team is actively investigating the root cause and working toward resolution.
       investigating: true
+    - ts: "2026-07-21 11:46:47"
+      description: We have identified a recent code change as a potential cause of the SSH authentication failures affecting deploy key connections. Our engineering team is rolling back this change. Customers using deploy keys for SSH access to repositories may continue to experience intermittent connection failures until the fix is deployed.
+      investigating: true
+    - ts: "2026-07-21 11:57:01"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

@@ -1,7 +1,7 @@
 version: incident/v1
 id: lw0sb1srtznh
 name: Elevated errors across Fable 5
-impact: critical
+impact: minor
 systems:
     - rwppv331jlwc
     - 0qbwn08sd68x
@@ -12,3 +12,13 @@ timeline:
     - ts: "2026-07-21 11:19:33"
       description: We are currently investigating this issue.
       investigating: true
+    - ts: "2026-07-21 11:24:15"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-07-21 11:28:23"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-07-21 11:47:39"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-21 12:07:32"
+      description: This incident has been resolved.
+      resolved: true

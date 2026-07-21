@@ -1,6 +1,6 @@
 version: incident/v1
 id: 36v9dgvm78zx
-name: Voice Call Audio Quality Degradation between Twilio Phone Numbers and Multiple Networks in United Kingdom
+name: Voice Call Audio Quality Degradation Between Twilio Phone Numbers and Multiple Networks in United Kingdom
 impact: minor
 systems:
     - bnzggd37p61w
@@ -11,3 +11,5 @@ timeline:
     - ts: "2026-07-21 11:18:09"
       description: Twilio customers may be experiencing voice call audio quality degradation between Twilio Phone Numbers and network subscribers on multiple networks in the United Kingdom. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-07-21 12:39:02"
+      description: Twilio customers may be experiencing voice call audio quality degradation between Twilio Phone Numbers and network subscribers on multiple networks in the United Kingdom. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
