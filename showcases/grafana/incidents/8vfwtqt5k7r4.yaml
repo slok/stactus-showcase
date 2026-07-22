@@ -1,0 +1,12 @@
+version: incident/v1
+id: 8vfwtqt5k7r4
+name: K6 - Cloud output test-runs are failing to fetch the script logs
+impact: minor
+systems:
+    - wbhrnd130mb0
+timeline:
+    - ts: "2026-07-22 10:27:55"
+      description: We are currently investigating an issue cloud output test-runs which is resulting in failure to fetch the script logs. We are working on identifying the cause and working on a fix.
+      investigating: true
+    - ts: "2026-07-22 10:52:36"
+      description: We have identified the cause and applied a fix which has has resulted in significant recovery. We will continue to monitor this before resolving.
