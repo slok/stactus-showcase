@@ -1,0 +1,12 @@
+version: incident/v1
+id: 8qbv9hjpf9wl
+name: Client Connectivity Europe Region
+impact: none
+systems:
+    - pl7dbt6st8v2
+timeline:
+    - ts: "2026-07-22 14:08:26"
+      description: We are aware of intermittent failures affecting mobile client calls in our Europe region. Customers may experience difficulty establishing or maintaining calls through mobile clients. Our team is actively investigating the root cause and monitoring service recovery. We will provide another update as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-22 14:25:04"
+      description: A fix has been implmented and we are monitoring the fix.

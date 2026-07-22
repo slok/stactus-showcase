@@ -1,0 +1,19 @@
+version: incident/v1
+id: llq0w65q0jps
+name: Service Degradation Affecting Multiple Services in US and Europe
+impact: none
+systems:
+    - xtgr15yv6hbn
+    - vttvjkwmdfps
+    - kmldw5k76q3v
+    - rsh1v3gbhtsy
+    - 7lvp52xc051q
+timeline:
+    - ts: "2026-07-22 13:12:14"
+      description: |-
+        Between 12:02 PM UTC to 12:40 PM UTC users might have experienced a service degradation affecting multiple services in US and Europe which has been successfully resolved.
+
+        Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-07-22 13:23:22"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
