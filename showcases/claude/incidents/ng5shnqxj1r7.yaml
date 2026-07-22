@@ -1,0 +1,16 @@
+version: incident/v1
+id: ng5shnqxj1r7
+name: Service disruption on Claude Services
+impact: minor
+systems:
+    - rwppv331jlwc
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-07-22 17:27:36"
+      description: We are investigating an outage affecting features such as document creation in claude.ai, Cowork Remote, Claude Code, Claude Code on the Web, Claude Tag, and Claude Design
+      investigating: true
+    - ts: "2026-07-22 17:28:16"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-07-22 17:45:37"
+      description: This incident has been resolved.
+      resolved: true

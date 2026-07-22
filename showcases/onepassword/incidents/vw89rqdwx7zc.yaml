@@ -1,0 +1,10 @@
+version: incident/v1
+id: vw89rqdwx7zc
+name: Account governance functions are unavailable in SaaS Manager
+impact: major
+systems:
+    - k7qm78bl9tdx
+timeline:
+    - ts: "2026-07-22 17:55:18"
+      description: SaaS Manager is currently unable to communicate with Managed Credentials. As a result, customers using Better Together features may be unable to make changes to credential ownership. We are actively investigating the issue and will provide updates as more information becomes available.
+      investigating: true
