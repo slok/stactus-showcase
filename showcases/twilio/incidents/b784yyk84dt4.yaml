@@ -1,6 +1,6 @@
 version: incident/v1
 id: b784yyk84dt4
-name: SMS Delivery Failures from Twilio Phone Numbers to Rakuten Japan
+name: SMS Delivery Failures from Twilio to Rakuten Japan
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -16,3 +16,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery failures from Twilio Phone Numbers to Rakuten network subscribers in Japan. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
     - ts: "2026-07-21 21:37:42"
       description: We have observed a recovery in SMS delivery from Twilio Phone Numbers to Rakuten network subscribers in Japan and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-07-21 23:43:32"
+      description: The incident has been resolved and SMS delivery from Twilio to Rakuten network subscribers in Japan is operating normally.
+      resolved: true

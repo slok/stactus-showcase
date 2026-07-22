@@ -1,0 +1,14 @@
+version: incident/v1
+id: wsft2v26snmm
+name: Loss of Audit Event Data for Twiml Applications From July/15 to July/21 - 2026
+impact: minor
+systems:
+    - ldpbqc660lk2
+    - whdt8w1wqpnw
+    - mwcz6hw53t7c
+timeline:
+    - ts: "2026-07-21 23:14:02"
+      description: Our monitoring systems have detected a potential issue with loss of audit event data for Twiml Applications From July/15 to July/21 - 2026. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-07-21 23:44:50"
+      description: Our engineers have identified the issue about some customers using TwiML applications that have experienced complete loss of audit event data spanning from July 15 through July 21, 2026.. We expect to provide another update in 1 hour or as soon as more information becomes available.
