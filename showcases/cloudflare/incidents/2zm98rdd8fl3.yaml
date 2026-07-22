@@ -1,0 +1,14 @@
+version: incident/v1
+id: 2zm98rdd8fl3
+name: Customers unable to create Access and Device Enrollment policies via the Dashboard and API
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-07-22 18:35:00"
+      description: "Cloudflare engineering is investigating an issue preventing customers from creating new Access and Device Enrollment policies in the Zero Trust Dashboard and via API. \n\nThis is not impacting any authentication or policy enforcement services."
+    - ts: "2026-07-22 19:02:33"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-22 19:38:11"
+      description: This incident has been resolved.
+      resolved: true

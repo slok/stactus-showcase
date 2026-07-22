@@ -1,0 +1,14 @@
+version: incident/v1
+id: 8fsls0xw3gq5
+name: Users unable to register their Authy Android app
+impact: minor
+systems:
+    - txt6v4g6pv74
+timeline:
+    - ts: "2026-07-22 18:16:41"
+      description: We are investigating an issue where some users are unable to register their Authy Android app
+    - ts: "2026-07-22 18:25:27"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-07-22 19:42:31"
+      description: We are investigating an issue where some users are unable to register their Authy Android app. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
