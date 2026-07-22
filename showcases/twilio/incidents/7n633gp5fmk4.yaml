@@ -1,0 +1,13 @@
+version: incident/v1
+id: 7n633gp5fmk4
+name: SMS Delivery Delays and Failures from Twilio to MPT Myanmar
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-07-22 00:59:05"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to MPT network subscribers in Myanmar. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-22 02:00:03"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to MPT network subscribers in Myanmar. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
