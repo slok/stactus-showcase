@@ -11,3 +11,8 @@ timeline:
     - ts: "2026-07-22 20:47:02"
       description: Approximately 3% of GitHub Actions runs on GitHub-hosted runners are experiencing run start delays exceeding 5 minutes. A small portion of these runs may fail after extended delays. We have identified the cause and are working on a mitigation.
       investigating: true
+    - ts: "2026-07-22 22:01:51"
+      description: The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.
+      investigating: true
+    - ts: "2026-07-22 22:01:57"
+      description: The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.
