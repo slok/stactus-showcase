@@ -10,3 +10,6 @@ timeline:
       description: The Twilio Programmable Messaging API is partially degraded starting from 04:56 PT. Customers sending an RCS message with automatic fallback to SMS/MMS may experience elevated levels of failures in message delivery. The root cause has been identified and oncall engineers are working on resolving the issue.
     - ts: "2026-07-22 14:30:15"
       description: A fix has been implmented and we our now monitoring.
+    - ts: "2026-07-22 15:51:48"
+      description: This incident has been resolved
+      resolved: true
