@@ -1,6 +1,6 @@
 version: incident/v1
 id: ph11ccctq43y
-name: SMS Delivery Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Multiple Countries in Europe
+name: SMS Delivery Failures From a Subset of Twilio Phone Numbers to Multiple Networks in Multiple Countries in Europe
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -12,3 +12,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery failures from a subset of Twilio Phone Numbers to network subscribers on multiple networks in multiple countries in Europe. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
     - ts: "2026-07-22 03:21:48"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Phone Numbers to multiple networks in multiple countries in Europe and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-07-22 05:01:03"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Phone Numbers to affected networks in affected countries in Europe is operating normally.
+      resolved: true

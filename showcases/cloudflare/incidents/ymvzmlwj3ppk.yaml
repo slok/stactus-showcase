@@ -1,0 +1,15 @@
+version: incident/v1
+id: ymvzmlwj3ppk
+name: Cloudflare Malicious Upload Detection Issues
+impact: minor
+systems:
+    - d1r0plwsl5qb
+timeline:
+    - ts: "2026-07-22 06:27:16"
+      description: |-
+        Cloudflare Malicious Upload Detection Issues
+
+        Cloudflare is investigating issues with elevated errors in Malicious Upload Detection service.
+
+        We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
