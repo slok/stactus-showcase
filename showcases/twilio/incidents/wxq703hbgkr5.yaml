@@ -1,0 +1,13 @@
+version: incident/v1
+id: wxq703hbgkr5
+name: Gather Speech-to-Text Failure
+impact: minor
+systems:
+    - lbb242csk6j2
+timeline:
+    - ts: "2026-07-23 15:44:13"
+      description: Our engineers have discovered a incident regarding related to Gather speech. Currently only text-to-speech functionality is affected, not speech-to-text. We will provide an update as soon as more information becomes avalible.
+      investigating: true
+    - ts: "2026-07-23 16:00:11"
+      description: We are continuing to investigate this issue.
+      investigating: true

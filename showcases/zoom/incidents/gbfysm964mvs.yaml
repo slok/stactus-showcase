@@ -1,0 +1,15 @@
+version: incident/v1
+id: gbfysm964mvs
+name: Service Degradation Affected Zoom Blog Website
+impact: none
+systems:
+    - 4grcx0jpnvgz
+timeline:
+    - ts: "2026-07-23 14:03:31"
+      description: |-
+        On 07/23/2026, Between 13:23 UTC to 13:25 UTC, the users may have experienced issue with Zoom Blog website.
+
+        This incident has been resolved and the affected services have been restored.
+    - ts: "2026-07-23 15:20:04"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true

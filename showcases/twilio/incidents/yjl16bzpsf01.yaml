@@ -1,0 +1,14 @@
+version: incident/v1
+id: yjl16bzpsf01
+name: Message Status Generation Failure
+impact: none
+systems:
+    - 5bv1plmydbzf
+timeline:
+    - ts: "2026-07-23 13:18:56"
+      description: Starting at 4:55 AM PST a number of outbound message status events could not be generated. Engineering has identified the issue and is working on a fix.
+    - ts: "2026-07-23 13:20:55"
+      description: A fix has been implmented and we are moniroting the results.
+    - ts: "2026-07-23 14:56:10"
+      description: This incident has been resolved.
+      resolved: true
