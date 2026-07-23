@@ -1,0 +1,12 @@
+version: incident/v1
+id: ktcy0km7x49f
+name: Cluster connectivity issues in Azure westus
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-07-23 16:21:52"
+      description: We are currently investigating an issue with Azure clusters in westus region.  Please refer to the azure status post here for more information https://azure.status.microsoft/en-us/status.
+      investigating: true
+    - ts: "2026-07-23 16:38:12"
+      description: Azure has confirmed that there are networking issues in the westus region.  Please follow the official azure status post for more detailed updates https://azure.status.microsoft/en-us/status

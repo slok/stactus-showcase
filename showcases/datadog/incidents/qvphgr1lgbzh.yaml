@@ -1,0 +1,12 @@
+version: incident/v1
+id: qvphgr1lgbzh
+name: Latency with Pages and Monitor state changes
+impact: minor
+systems:
+    - s6jxgrkjjj6p
+timeline:
+    - ts: "2026-07-23 17:08:39"
+      description: We are investigating increased latency with Pages and Monitor state changes. As a result of this issue, some users may see delays.
+      investigating: true
+    - ts: "2026-07-23 17:31:18"
+      description: The issue has been identified and a fix is being implemented.

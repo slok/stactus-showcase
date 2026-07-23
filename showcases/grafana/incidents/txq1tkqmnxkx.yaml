@@ -1,0 +1,12 @@
+version: incident/v1
+id: txq1tkqmnxkx
+name: Metrics Write Path Errors
+impact: major
+systems:
+    - zqsjp5p0d8n7
+timeline:
+    - ts: "2026-07-23 17:14:21"
+      description: We are currently investigating an elevated rate of error and latency in the impacted write path.
+      investigating: true
+    - ts: "2026-07-23 17:37:19"
+      description: Error rates have dropped, and we are monitoring this issue for any recurrence.
