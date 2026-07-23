@@ -1,0 +1,39 @@
+version: incident/v1
+id: zq3c1jst2vkq
+name: Latency issues across a number of services
+impact: major
+systems:
+    - 4230lsnqdsld
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-07-23 07:53:59"
+      description: We are investigating reports of degraded availability for Actions, Issues and Webhooks
+      investigating: true
+    - ts: "2026-07-23 08:25:16"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-23 08:34:23"
+      description: We're currently investigating latency across multiple services. This can show as Actions jobs taking longer to start, Issues search serving stale results, and other listed services being similarly impacted.
+      investigating: true
+    - ts: "2026-07-23 09:18:37"
+      description: The degradation affecting Issues has been mitigated. We are monitoring to ensure stability.
+      investigating: true
+    - ts: "2026-07-23 09:19:49"
+      description: The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.
+      investigating: true
+    - ts: "2026-07-23 09:22:21"
+      description: We identified the source of latency affecting multiple services and applied a fix. Issues and Actions are recovering, and remaining affected services are seeing improvement as processing backlogs clear. We are actively monitoring recovery across all services.
+      investigating: true
+    - ts: "2026-07-23 09:27:35"
+      description: The degradation affecting Pull Requests has been mitigated. We are monitoring to ensure stability.
+      investigating: true
+    - ts: "2026-07-23 09:35:17"
+      description: Webhooks is operating normally.
+      investigating: true
+    - ts: "2026-07-23 09:39:11"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-07-23 09:39:19"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

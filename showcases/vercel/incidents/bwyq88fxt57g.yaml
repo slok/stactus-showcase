@@ -1,0 +1,20 @@
+version: incident/v1
+id: bwyq88fxt57g
+name: Timeouts loading charts and observability data in Dashboard
+impact: major
+systems:
+    - 5d8svglj5s34
+    - kscyjm1qp3cw
+    - zr2j7y9kv5hd
+    - xxh50pzvy03x
+    - d77dj4pvw5y8
+    - c3yjhlfbv34z
+timeline:
+    - ts: "2026-07-23 07:33:48"
+      description: We are currently investigating timeouts loading observability data for Firewall, Observability, Sandboxes, Speed Insights, Web Analytics, and Workflows. This impacts charts in the Dashboard.
+      investigating: true
+    - ts: "2026-07-23 07:55:33"
+      description: The team identified the source of the issue and a fix has been implemented. We are starting to see recovery. Charts and observability data should be loading again for Firewall, Observability, Sandboxes, Speed Insights, Web Analytics, and Workflows. We continue to monitor.
+    - ts: "2026-07-23 08:18:49"
+      description: This incident has been resolved.
+      resolved: true
