@@ -1,0 +1,13 @@
+version: incident/v1
+id: ym1lj8ww7cpz
+name: Llama-4-Maverick Model Availability
+impact: minor
+systems:
+    - 2z9ldz1t4dgp
+timeline:
+    - ts: "2026-07-23 11:16:59"
+      description: |-
+        Our Engineering team is currently investigating an issue where the llama-4-maverick model is unavailable. Users may experience HTTP 500 errors while using this model with Serverless Inference.
+
+        We apologize for the inconvenience. Our Engineering team is working with high priority to resolve the issue. Thank you for your patience and understanding.
+      investigating: true
