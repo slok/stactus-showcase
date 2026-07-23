@@ -1,0 +1,12 @@
+version: incident/v1
+id: zxb1gkbxnktp
+name: Dashboard authentication errors
+impact: critical
+systems:
+    - fk66q26xp7hh
+timeline:
+    - ts: "2026-07-23 06:47:01"
+      description: We are investigating an issue causing the dashboard to be inaccessible for some users.
+      investigating: true
+    - ts: "2026-07-23 07:08:53"
+      description: A fix has been implemented and we are monitoring the results.
