@@ -14,3 +14,6 @@ timeline:
       description: We are aware of an ongoing Azure networking incident affecting the West US region. Some Atlas clusters hosted in Azure West US may experience intermittent connectivity issues, including failures connecting to clusters, issues with communication between cluster nodes, nodes appearing down, and delays to cluster modifications. Azure is investigating the issue and evaluating mitigation options. We will provide additional updates as more information becomes available.
     - ts: "2026-07-23 18:54:50"
       description: Azure is rolling out a mitigation for the ongoing networking incident affecting the West US region, and we are seeing signs of recovery. Some Atlas clusters hosted in Azure West US may continue to experience intermittent connectivity issues, including failures connecting to clusters, issues with communication between cluster nodes, nodes appearing down, and delays to cluster modifications. We are monitoring recovery closely and will provide additional updates as more information becomes available.
+    - ts: "2026-07-23 20:28:31"
+      description: Azure has rolled out mitigation for the networking incident affecting the West US region and recovery is complete.
+      resolved: true
