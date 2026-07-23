@@ -10,3 +10,7 @@ timeline:
       investigating: true
     - ts: "2026-07-23 16:38:12"
       description: Azure has confirmed that there are networking issues in the westus region.  Please follow the official azure status post for more detailed updates https://azure.status.microsoft/en-us/status
+    - ts: "2026-07-23 18:26:11"
+      description: We are aware of an ongoing Azure networking incident affecting the West US region. Some Atlas clusters hosted in Azure West US may experience intermittent connectivity issues, including failures connecting to clusters, issues with communication between cluster nodes, nodes appearing down, and delays to cluster modifications. Azure is investigating the issue and evaluating mitigation options. We will provide additional updates as more information becomes available.
+    - ts: "2026-07-23 18:54:50"
+      description: Azure is rolling out a mitigation for the ongoing networking incident affecting the West US region, and we are seeing signs of recovery. Some Atlas clusters hosted in Azure West US may continue to experience intermittent connectivity issues, including failures connecting to clusters, issues with communication between cluster nodes, nodes appearing down, and delays to cluster modifications. We are monitoring recovery closely and will provide additional updates as more information becomes available.
