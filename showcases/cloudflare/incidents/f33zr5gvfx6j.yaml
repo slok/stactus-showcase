@@ -1,0 +1,13 @@
+version: incident/v1
+id: f33zr5gvfx6j
+name: CSP rules not visible in dashboard
+impact: minor
+systems:
+    - hk5dqm69klkp
+timeline:
+    - ts: "2026-07-24 21:34:08"
+      description: Customers are unable to review their CSP Security rules in the dashboard. Although the policies are unchanged and working.
+      investigating: true
+    - ts: "2026-07-24 21:34:44"
+      description: We are continuing to investigate this issue.
+      investigating: true
