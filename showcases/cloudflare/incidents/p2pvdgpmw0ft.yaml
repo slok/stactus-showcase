@@ -1,0 +1,15 @@
+version: incident/v1
+id: p2pvdgpmw0ft
+name: Network Performance Issues in Western North America
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-07-24 11:24:31"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in Western North America
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-07-24 11:42:01"
+      description: Cloudflare is investigating partner network instability over shared interconnections in Western North America

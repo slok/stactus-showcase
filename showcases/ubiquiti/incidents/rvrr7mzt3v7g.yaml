@@ -1,0 +1,15 @@
+version: incident/v1
+id: rvrr7mzt3v7g
+name: 'Multiple Services: Degraded Performance'
+impact: major
+systems:
+    - f4txj806xph9
+    - r3g9q6y97kpr
+    - 50j8z65sq9pt
+timeline:
+    - ts: "2026-07-24 11:32:56"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-07-24 11:39:28"
+      description: We are continuing to investigate this issue.
+      investigating: true

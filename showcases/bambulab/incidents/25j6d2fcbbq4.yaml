@@ -1,0 +1,24 @@
+version: incident/v1
+id: 25j6d2fcbbq4
+name: AWS Services Encounter an Unknown Issue
+impact: critical
+systems:
+    - sw5q8tgl2864
+    - tlk3750f34v2
+    - lmqq1jxmb62p
+    - 5fs3yzwktd3t
+    - w7ycvnq5lw8s
+    - 6hkfwd93hvnk
+    - nfd5mclwftjw
+    - k1z8m42c0d7r
+timeline:
+    - ts: "2026-07-24 11:12:32"
+      description: We're experiencing a service disruption due to a regional outage at AWS. Some users may see slow loading, timeouts, or errors when accessing our services. The issue is with upstream AWS infrastructure, We're monitoring AWS and failing over to healthy regions where possible. Please retry in a few minutes.
+      investigating: true
+    - ts: "2026-07-24 11:13:00"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-07-24 11:13:39"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-07-24 11:14:05"
+      description: A fix has been implemented and we are monitoring the results.
