@@ -17,5 +17,5 @@ timeline:
     - ts: "2026-07-22 22:01:57"
       description: The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.
     - ts: "2026-07-22 22:09:26"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On July 22, 2026, between 19:36 UTC and 22:04 UTC, GitHub Actions experienced delayed and failed job starts on GitHub-hosted runners. The incident was caused by an unhealthy state in a backend data service responsible for provisioning hosted runners, preventing runner acquisition for a subset of workloads. During most of the incident, approximately 15% of workflow runs on hosted runners were delayed by more than 5 minutes, while roughly 1% failed to start.<br /><br />At 21:49 UTC, we restored the health of the backend data replication system, allowing provisioning to recover and the accumulated workflow backlog to drain. Service performance then returned to expected levels. We are improving provisioning-service resiliency, workload distribution, and capacity balancing to reduce the likelihood and impact of similar incidents.
       resolved: true
