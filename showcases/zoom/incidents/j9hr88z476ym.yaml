@@ -1,0 +1,21 @@
+version: incident/v1
+id: j9hr88z476ym
+name: Service Degradation Affecting Multiple Zoom Services in Europe and India Region.
+impact: none
+systems:
+    - xtgr15yv6hbn
+    - qmwgsb4jbrst
+    - gtf6dl08hrk1
+    - 40fjc1kq1jcb
+    - dvrth3dswrkz
+timeline:
+    - ts: "2026-07-24 02:11:19"
+      description: |-
+        Between 07/23/2026 23:46 UTC and 07/24/2026 01:20 UTC, users in the Europe and India regions may have experienced issues affecting multiple Zoom services.
+
+        Zoom Chat file upload functionality was also impacted.
+
+        We have mitigated the issue and will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-07-24 02:49:22"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
