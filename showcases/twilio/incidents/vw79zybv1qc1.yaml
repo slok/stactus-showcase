@@ -1,0 +1,13 @@
+version: incident/v1
+id: vw79zybv1qc1
+name: Gather Speech-to-Text Failure
+impact: minor
+systems:
+    - lbb242csk6j2
+timeline:
+    - ts: "2026-07-24 05:14:08"
+      description: We are Investigating an issue related to Gather Speech-to-Text Failures. We will provide an update as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-24 06:28:39"
+      description: We are continuing to investigate this issue related to Gather Speech-to-Text Failures.  We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
