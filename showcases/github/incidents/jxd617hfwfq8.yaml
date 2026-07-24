@@ -1,0 +1,21 @@
+version: incident/v1
+id: jxd617hfwfq8
+name: Incident with Pull Requests
+impact: critical
+systems:
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2026-07-24 19:37:28"
+      description: We are investigating reports of degraded performance for Pull Requests
+      investigating: true
+    - ts: "2026-07-24 19:40:45"
+      description: We are investigating errors creating pull requests
+      investigating: true
+    - ts: "2026-07-24 19:43:40"
+      description: Pull Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-24 19:59:57"
+      description: We have applied a mitigation and are monitoring for recovery
+      investigating: true
+    - ts: "2026-07-24 20:02:39"
+      description: The degradation affecting Pull Requests has been mitigated. We are monitoring to ensure stability.
