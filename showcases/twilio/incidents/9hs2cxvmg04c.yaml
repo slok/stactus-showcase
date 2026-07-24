@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9hs2cxvmg04c
+name: Conversations Classic Failure
+impact: minor
+systems:
+    - qphgn531prd5
+timeline:
+    - ts: "2026-07-24 16:48:42"
+      description: We are experiencing an issue where customers are unable to create configurations in Twilio Conversations Classic. Our engineers are working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

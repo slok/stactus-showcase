@@ -1,0 +1,39 @@
+version: incident/v1
+id: yjysg0xrl67m
+name: Disruption with some GitHub services
+impact: major
+systems:
+    - brv1bkgrwx7q
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-07-24 16:17:31"
+      description: We are investigating reports of degraded performance for API Requests and Issues
+      investigating: true
+    - ts: "2026-07-24 16:19:39"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-24 16:20:10"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-24 16:22:37"
+      description: We are investigating timeouts to some GitHub services
+      investigating: true
+    - ts: "2026-07-24 16:26:47"
+      description: Copilot is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-24 16:27:51"
+      description: Pages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-24 16:28:37"
+      description: Actions is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-24 16:40:27"
+      description: We have applied a mitigation and are monitoring for recovery
+      investigating: true
+    - ts: "2026-07-24 16:41:59"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true

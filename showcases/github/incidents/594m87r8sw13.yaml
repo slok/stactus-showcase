@@ -1,0 +1,12 @@
+version: incident/v1
+id: 594m87r8sw13
+name: Incident With Blocked GitHub.com Traffic
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-24 15:56:48"
+      description: |-
+        Between July 23, 2026 at 18:45 UTC and July 24, 2026 at 11:19 UTC, an abuse mitigation update caused some legitimate customers whose traffic was routed through our Central Europe and South America edge locations to be incorrectly blocked from GitHub.com. We estimate that approximately 0.25% of GitHub.com requests were affected during this period.
+
+        This was caused by an abuse mitigation configuration that incorrectly classified legitimate traffic. We mitigated the incident by reverting the update. We are adding validation and safeguards to prevent similar incorrect blocking in the future.
+      resolved: true
