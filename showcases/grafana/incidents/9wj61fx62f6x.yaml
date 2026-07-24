@@ -1,0 +1,12 @@
+version: incident/v1
+id: 9wj61fx62f6x
+name: Errors creating new Slack integration for Grafana IRM
+impact: major
+systems:
+    - 1mxpk7q1bkb6
+timeline:
+    - ts: "2026-07-24 09:17:44"
+      description: We are investigating a possible error creating Slack integrations. Will update the status soon.
+      investigating: true
+    - ts: "2026-07-24 09:49:23"
+      description: We have identified the root cause of the problem, and we are working on a fix
