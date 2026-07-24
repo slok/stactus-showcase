@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3fmhy6tm0fkl
+name: GraphQL API rate limit errors
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-07-24 14:07:54"
+      description: Cloudflare is investigating issues with rate limit errors in the analytics dashboards
+      investigating: true
