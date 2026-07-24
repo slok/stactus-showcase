@@ -1,6 +1,6 @@
 version: incident/v1
 id: 25j6d2fcbbq4
-name: AWS Services Encounter an Unknown Issue
+name: AWS Service Disruption
 impact: critical
 systems:
     - sw5q8tgl2864
@@ -19,6 +19,9 @@ timeline:
       description: We are continuing to investigate this issue.
       investigating: true
     - ts: "2026-07-24 11:13:39"
-      description: The issue has been identified and a fix is being implemented.
+      description: We have confirmed the disruption is caused by a network outage in AWS.
     - ts: "2026-07-24 11:14:05"
-      description: A fix has been implemented and we are monitoring the results.
+      description: Error rates have decreased significantly and most services are recovering. Sporadic errors may still occur and could affect access for some users in certain regions. We're continuing to monitor recovery and staying in contact with AWS. If a request fails, please retry in a few minutes.
+    - ts: "2026-07-24 13:18:52"
+      description: This incident has been resolved.
+      resolved: true

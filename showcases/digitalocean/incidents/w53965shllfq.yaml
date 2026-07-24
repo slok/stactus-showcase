@@ -7,3 +7,13 @@ systems:
 timeline:
     - ts: "2026-07-24 10:36:52"
       description: We have noticed ​​​​​​​network connectivity issues affecting some users connecting from India to resources in the NYC region. Based on our current investigation, users on Airtel and BSNL have reported increased latency, packet loss, or intermittent connectivity. We apologize for the inconvenience and will provide an update as soon as more information becomes available.
+    - ts: "2026-07-24 11:45:42"
+      description: We are observing improvements in network connectivity for users in India accessing resources in our NYC region. Our team is monitoring the situation to ensure that the service has returned to normal operation and remain stable. We appreciate your patience and will provide an update once the issue is fully confirmed as resolved.
+    - ts: "2026-07-24 12:42:25"
+      description: |-
+        Between 07:46  UTC & 10:24 UTC today, some users in India accessing resources in the NYC region may have experienced connectivity issues. The impact was limited to users using Airtel as their ISP.
+
+        Our investigation determined that the issue was caused by an internal network issue within Airtel and was not related to DigitalOcean network. The connectivity issue now appears to be resolved, and users should no longer experience problems accessing their resources.
+
+        We apologize for any inconvenience this may have caused. However, if you continue to experience any connectivity issues, please don't hesitate to open a support ticket for further investigation; we'll be happy to assist you further.
+      resolved: true

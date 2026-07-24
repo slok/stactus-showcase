@@ -1,0 +1,12 @@
+version: incident/v1
+id: wprmfrsmcgtl
+name: Managed Queues dashboard in the Cloud Control Panel unavailable
+impact: minor
+systems:
+    - k648vlw65tzw
+timeline:
+    - ts: "2026-07-24 13:20:00"
+      description: We're aware the Managed Queues dashboard is currently unavailable, resulting in a blank white screen. Your running apps and servers are unaffected. We're looking into it.
+      investigating: true
+    - ts: "2026-07-24 13:44:22"
+      description: The issue has been identified and a fix is being implemented.
