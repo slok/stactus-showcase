@@ -1,0 +1,16 @@
+version: incident/v1
+id: 3t7xtffbb544
+name: Degraded performance across the site
+impact: major
+systems:
+    - 0wf8j1vtry0v
+    - jx663dxlwgdt
+    - jk8d05fz3nwg
+timeline:
+    - ts: "2026-07-25 15:05:02"
+      description: We've identified a problem with our clusters, we're working to resolve the issue
+      investigating: true
+    - ts: "2026-07-25 15:07:52"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-07-25 15:33:27"
+      description: We've mitigated the issue, but not out of the woods yet
