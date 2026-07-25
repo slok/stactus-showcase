@@ -1,6 +1,6 @@
 version: incident/v1
 id: f1q2wvw4qj4j
-name: Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Haiku 4.5
+name: Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5
 impact: major
 systems:
     - rwppv331jlwc
@@ -11,3 +11,8 @@ timeline:
     - ts: "2026-07-25 18:40:32"
       description: We are investigating elevated errors on requests to Claude Mythos 5, Claude Fable 5, and Claude Haiku 4.5. We will provide an update as soon as possible.
       investigating: true
+    - ts: "2026-07-25 18:44:12"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-07-25 19:44:32"
+      description: This incident has been resolved.
+      resolved: true
