@@ -1,0 +1,17 @@
+version: incident/v1
+id: s65j9gslmfm8
+name: Incident with Actions
+impact: minor
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-07-25 08:59:37"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2026-07-25 09:13:09"
+      description: The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-07-25 09:20:23"
+      description: We identified an issue causing delays in GitHub Actions run starts. Some users may have experienced longer than expected wait times when triggering workflow runs. We have applied mitigations and have recovered. Our team continues to monitor and investigate the root cause.
+    - ts: "2026-07-25 09:25:30"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

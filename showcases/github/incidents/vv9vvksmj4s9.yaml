@@ -1,0 +1,13 @@
+version: incident/v1
+id: vv9vvksmj4s9
+name: Several GPT models degraded
+impact: major
+systems:
+    - cnnb39dkkk82
+timeline:
+    - ts: "2026-07-25 09:42:28"
+      description: We are investigating reports of degraded availability for Copilot AI Model Providers
+      investigating: true
+    - ts: "2026-07-25 09:48:30"
+      description: We are experiencing degraded availability for the GPT-5.2, GPT-5.3-Codex, GPT-5.4, GPT-5.4 Mini, GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna models in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.
+      investigating: true
