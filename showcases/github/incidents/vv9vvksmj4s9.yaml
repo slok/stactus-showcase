@@ -11,3 +11,8 @@ timeline:
     - ts: "2026-07-25 09:48:30"
       description: We are experiencing degraded availability for the GPT-5.2, GPT-5.3-Codex, GPT-5.4, GPT-5.4 Mini, GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna models in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.
       investigating: true
+    - ts: "2026-07-25 10:04:39"
+      description: The degradation affecting Copilot AI Model Providers has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-07-25 10:11:16"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
