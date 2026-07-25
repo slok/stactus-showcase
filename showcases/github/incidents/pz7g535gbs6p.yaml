@@ -1,0 +1,23 @@
+version: incident/v1
+id: pz7g535gbs6p
+name: Actions run failures and delays
+impact: critical
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-07-25 12:31:51"
+      description: We are investigating reports of degraded availability for Actions
+      investigating: true
+    - ts: "2026-07-25 12:34:26"
+      description: We are experiencing issues with GitHub Actions that are causing workflow run failures and delays for some users. Our engineering team is actively investigating the infrastructure issue and working to restore full functionality.
+      investigating: true
+    - ts: "2026-07-25 12:58:32"
+      description: We have applied a mitigation for the infrastructure issue affecting GitHub Actions. Workflow run failures and delays are improving but not yet fully resolved. Our engineering team continues to work on restoring full functionality across all affected infrastructure.
+      investigating: true
+    - ts: "2026-07-25 12:59:58"
+      description: The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-07-25 13:12:41"
+      description: We have seen recovery in GitHub Actions performance following our earlier mitigation. Workflow runs are processing normally, though jobs queued before 12:40 UTC may still experience failures and will need to be retried.
+    - ts: "2026-07-25 13:13:21"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
