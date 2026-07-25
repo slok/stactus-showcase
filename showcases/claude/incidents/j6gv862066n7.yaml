@@ -1,0 +1,16 @@
+version: incident/v1
+id: j6gv862066n7
+name: Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models
+impact: major
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-07-25 21:34:51"
+      description: We are investigating elevated errors on requests to Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other Claude models. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-07-25 22:08:41"
+      description: This incident has been resolved.
+      resolved: true
