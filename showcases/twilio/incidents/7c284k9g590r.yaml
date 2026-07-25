@@ -1,8 +1,11 @@
 version: incident/v1
 id: 7c284k9g590r
-name: SMS Delivery Delays and Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Multiple Countries
+name: SMS Delivery Delays and Failures from a Subset of Twilio Phone Numbers to Multiple Countries
 impact: minor
 systems:
+    - 7d8w22hqrh6s
+    - 39mb8cmw8y2v
+    - 32f2bm54nkvv
     - 42zx9w2kmtvf
     - 8qjql0kqnd33
     - llgdln3dcs6p
@@ -17,3 +20,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Phone Numbers to network subscribers on multiple networks in multiple countries. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
     - ts: "2026-07-25 15:41:12"
       description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Phone Numbers to network subscribers on multiple networks in multiple countries. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-07-25 17:46:32"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Phone Numbers to multiple countries. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
