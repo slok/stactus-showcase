@@ -1,0 +1,16 @@
+version: incident/v1
+id: ldrl97t5mv01
+name: Voice Call Post Dial Delay and Failures from Twilio Phone Numbers to Claro Guatemala
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2026-07-27 01:15:03"
+      description: Twilio customers may be experiencing voice call post dial delay and failures from Twilio Phone Numbers to Claro network subscribers in Guatemala. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-27 02:15:27"
+      description: Twilio customers may be experiencing voice call post dial delay and call failures from Twilio Phone Numbers to Claro network subscribers in Guatemala. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-27 04:16:03"
+      description: Twilio customers may be experiencing voice call post dial delay and failures from Twilio Phone Numbers to Claro network subscribers in Guatemala. Our team is actively investigating this issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
