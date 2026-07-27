@@ -1,0 +1,12 @@
+version: incident/v1
+id: 0gz6pdq1c141
+name: session starts, DM message delivery down
+impact: major
+systems: []
+timeline:
+    - ts: "2026-07-27 17:48:46"
+      description: You may have issues logging in or not receiving DM messages live
+      investigating: true
+    - ts: "2026-07-27 18:05:48"
+      description: This incident has been resolved.
+      resolved: true

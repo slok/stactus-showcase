@@ -1,0 +1,13 @@
+version: incident/v1
+id: 5z7smpdggp3m
+name: Errors in Security Rules Dashboard
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+    - ch3mwx0hr4k6
+timeline:
+    - ts: "2026-07-27 16:34:33"
+      description: Cloudflare is aware of, and investigating, reports of an error when viewing, editing or creating security rules in the dashboard. Customers may see an error 410 from the dashboard. This has no impact on the operation of those rules.
+      investigating: true
+    - ts: "2026-07-27 17:09:42"
+      description: The issue has been identified and a fix is being implemented.
