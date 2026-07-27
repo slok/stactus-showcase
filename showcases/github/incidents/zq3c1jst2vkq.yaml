@@ -35,5 +35,5 @@ timeline:
     - ts: "2026-07-23 09:39:11"
       description: The degradation has been mitigated. We are monitoring to ensure stability.
     - ts: "2026-07-23 09:39:19"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: 'On July 23, 2026, between 07:08 and 09:39 UTC, several services experienced delays: 8% of actions workflow runs experienced an average run start delay of 10 minutes, 5% of webhook deliveries exceeded SLO, and code scanning, repos, notifications, issues and pull requests experienced increased latency over the life of the incident.    <br /><br />The root cause of the incident was a node of our background job processing system which did not recover after entering scheduled host maintenance.  The incident was mitigated by identifying the problematic shard and restoring its correct state, after which queue backlogs drained and services recovered.  <br /><br />To speed mitigation, we have added monitors for nodes in this unhealthy state after maintenance operations.  To prevent future recurrence, we are adapting our lifecycle automation to verify host rejoin after a scheduled reboot.'
       resolved: true
