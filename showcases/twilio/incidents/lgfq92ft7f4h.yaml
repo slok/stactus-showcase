@@ -1,12 +1,18 @@
 version: incident/v1
 id: lgfq92ft7f4h
-name: SMS Delivery Delays from Twilio Phone Numbers to T-Mobile United States
+name: SMS Delivery Delays from Twilio to T-Mobile United States
 impact: minor
 systems:
     - 7d8w22hqrh6s
+    - qj606bzkg4s8
     - 39mb8cmw8y2v
+    - k7rg1rqk2nwk
     - 32f2bm54nkvv
 timeline:
     - ts: "2026-07-27 22:12:38"
       description: Twilio customers may be experiencing SMS delivery delays from Twilio Phone Numbers to T-Mobile network subscribers in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-07-27 22:34:21"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to T-Mobile network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-07-27 23:34:54"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to T-Mobile network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
