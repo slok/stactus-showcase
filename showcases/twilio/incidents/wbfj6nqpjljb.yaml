@@ -1,6 +1,6 @@
 version: incident/v1
 id: wbfj6nqpjljb
-name: SMS Delivery Failures From Network Subscribers to a Subset of Twilio United States Short Codes
+name: SMS Delivery Failures from Network Subscribers to a Subset of Twilio United States Short Codes
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -29,3 +29,8 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery failures from network subscribers to a subset of Twilio United States Short Codes. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-07-27 02:44:51"
       description: We have observed a recovery in SMS delivery from network subscribers to a subset of Twilio United States Short Codes and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-07-27 04:50:20"
+      description: We have observed a recovery in SMS delivery from network subscribers to a subset of Twilio United States Short Codes and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-07-27 05:15:16"
+      description: The incident has been resolved and SMS delivery from network subscribers to a subset of Twilio United States Short Codes is operating normally.
+      resolved: true
