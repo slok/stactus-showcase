@@ -1,0 +1,12 @@
+version: incident/v1
+id: fcfplv03vbwt
+name: Agent Platform Requests Returning HTTP 500 Errors
+impact: major
+systems:
+    - br95fz33h6td
+timeline:
+    - ts: "2026-07-27 18:31:40"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-07-27 19:44:00"
+      description: The issue has been identified and a fix is being implemented.

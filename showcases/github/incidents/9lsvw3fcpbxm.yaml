@@ -1,0 +1,15 @@
+version: incident/v1
+id: 9lsvw3fcpbxm
+name: Disruption with some GitHub services
+impact: critical
+systems: []
+timeline:
+    - ts: "2026-07-27 19:31:51"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-07-27 19:31:59"
+      description: This is just a test of our systems. Please ignore.
+      investigating: true
+    - ts: "2026-07-27 19:37:37"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
