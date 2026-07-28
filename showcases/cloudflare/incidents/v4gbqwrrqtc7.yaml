@@ -1,0 +1,9 @@
+version: incident/v1
+id: v4gbqwrrqtc7
+name: Increased HTTP 530 Errors in Frankfurt
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-28 07:46:50"
+      description: "Cloudflare had identified an increased level of HTTP 530 errors Frankfurt region from 06:21 UTC to 07:11 UTC. \n\nThe issue has now been resolved."
+      resolved: true
