@@ -1,7 +1,7 @@
 version: incident/v1
 id: wfpxl6xhnzmx
 name: Cloudflare Tunnel Availability Issues
-impact: major
+impact: minor
 systems:
     - y98zlwj1d7zh
 timeline:
@@ -13,3 +13,7 @@ timeline:
       investigating: true
     - ts: "2026-07-28 18:28:03"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-07-28 18:52:11"
+      description: A subset of customers using Cloudflare Tunnel may have experienced tunnel connectivity issues, including being unable to access private resources and services routed through Cloudflare Tunnel. Customers who are still experiencing issues should restart their cloudflared connectors to restore normal tunnel connectivity. This issue does not affect any other Cloudflare services.
+    - ts: "2026-07-28 18:53:13"
+      description: We are continuing to monitor for any further issues.

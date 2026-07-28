@@ -1,0 +1,19 @@
+version: incident/v1
+id: vp96psrp0tvn
+name: Partial OTLP Write Outage in prod-us-east-3
+impact: major
+systems:
+    - wpkdzdqpdf7d
+timeline:
+    - ts: "2026-07-28 19:40:17"
+      description: |-
+        We are investigating an issue affecting OTLP ingestion in the prod-us-east-3 region. Customers may experience intermittent failures when writing telemetry to the OTLP endpoint. Based on current information, logs are confirmed to be affected, and metrics and traces may also be impacted.
+
+        Our investigation indicates intermittent failures began around 08:00 UTC, with the primary period of impact occurring between 15:30 UTC and 17:45 UTC. We are continuing to investigate the scope and root cause of this issue and will provide additional updates as more information becomes available.
+      investigating: true
+    - ts: "2026-07-28 19:43:34"
+      description: |-
+        The issue affecting OTLP ingestion in the prod-us-east-3 region has been resolved. Between 13:30 UTC and 17:45 UTC, some customers experienced intermittent failures when writing telemetry to the OTLP endpoint. Logs were confirmed to be affected, and metrics and traces may also have experienced intermittent ingestion failures.
+
+        Our investigation has concluded, and the affected services have recovered.
+      resolved: true
