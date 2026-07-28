@@ -1,0 +1,14 @@
+version: incident/v1
+id: 7wdk25njv1jn
+name: SMS Delivery Delays from Twilio to MTN Zambia
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-07-28 20:19:54"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Phone Numbers to MTN network subscribers in Zambia. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-28 20:29:06"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to MTN network subscribers in Zambia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-07-28 21:29:47"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to MTN network subscribers in Zambia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
