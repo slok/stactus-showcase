@@ -1,0 +1,15 @@
+version: incident/v1
+id: wfpxl6xhnzmx
+name: Cloudflare Tunnel Availability Issues
+impact: major
+systems:
+    - y98zlwj1d7zh
+timeline:
+    - ts: "2026-07-28 17:56:57"
+      description: Investigating Cloudflare Tunnel availability issues. Multiple customers reporting tunnels degraded or fully down, including inability to access private resources behind Tunnel. Tunnel engineering team being engaged. No root cause identified yet.
+      investigating: true
+    - ts: "2026-07-28 17:57:20"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-07-28 18:28:03"
+      description: The issue has been identified and a fix is being implemented.
