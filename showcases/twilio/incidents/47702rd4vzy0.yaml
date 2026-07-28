@@ -1,0 +1,12 @@
+version: incident/v1
+id: 47702rd4vzy0
+name: SMS Delivery Delays from Twilio to Unitel Angola
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-07-28 05:05:38"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Unitel network subscribers in Angola. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-28 05:10:58"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Unitel network subscribers in Angola. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
