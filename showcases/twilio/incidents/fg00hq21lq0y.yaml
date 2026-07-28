@@ -1,0 +1,12 @@
+version: incident/v1
+id: fg00hq21lq0y
+name: Delays in Transcription being available
+impact: minor
+systems:
+    - qphgn531prd5
+timeline:
+    - ts: "2026-07-28 15:20:36"
+      description: |-
+        Due to an issue with transcription processing, customers might see delays in their transcriptions being available. (including the webhooks not firing)
+        Our Engineers are investigating this issue, and once services are correctly restored transcriptions will be generated and webhooks triggered. We will provide an update in 1 hour or as soon as more information becomes available.
+      investigating: true
