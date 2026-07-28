@@ -1,0 +1,12 @@
+version: incident/v1
+id: sz169wrk34pq
+name: Twilio Transcript for Voice and Video degraded
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-28 16:32:22"
+      description: Our monitoring systems have detected a potential issue with transcription. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-07-28 16:46:38"
+      description: Twilio Transcript was degraded for 38 minutes between 8:55 to 9:33 am PDT 7/28/2026. During this period of time customers may have experienced degraded speech recognition and realtime transcriptions for Voice and Video.. The issue has now been resolved.
+      resolved: true
