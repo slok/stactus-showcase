@@ -1,0 +1,18 @@
+version: incident/v1
+id: 75g5xmzptjqb
+name: Incident with Actions
+impact: major
+systems:
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-07-29 15:26:24"
+      description: We are investigating reports of degraded availability for Actions
+      investigating: true
+    - ts: "2026-07-29 15:34:07"
+      description: We are investigating an issue affecting GitHub Actions. Some customers may experience timeouts or failures with runner registration and workflow runs may be delayed during startup. Our team is actively working to mitigate the impact by scaling capacity across additional infrastructure.
+      investigating: true
+    - ts: "2026-07-29 15:40:35"
+      description: The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-07-29 16:00:54"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

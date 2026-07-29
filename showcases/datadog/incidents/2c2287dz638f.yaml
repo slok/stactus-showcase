@@ -1,0 +1,20 @@
+version: incident/v1
+id: 2c2287dz638f
+name: Real user monitoring, distribution and custom processes metrics delayed
+impact: minor
+systems:
+    - qrnng5l7z80l
+    - s6jxgrkjjj6p
+    - wb6d6tss5zph
+timeline:
+    - ts: "2026-07-29 15:41:51"
+      description: |-
+        We are currently investigating an issue delaying the ingestion of Real User Monitoring (RUM) measure metrics, custom process metrics, and a subset of distribution metrics for some customers.
+
+        As a result, some users may see delays or gaps in RUM, custom process, and distribution metrics. To prevent false alerts caused by delayed data, affected monitors will not notify and will automatically resume once current data is available. All other monitors will operate normally. No data has been lost.
+
+        We will provide further updates as the situation progresses.
+      investigating: true
+    - ts: "2026-07-29 15:42:12"
+      description: We are continuing to investigate this issue.
+      investigating: true

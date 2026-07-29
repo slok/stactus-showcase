@@ -1,0 +1,14 @@
+version: incident/v1
+id: shq1h521dfl3
+name: Sensitive Data Detection Configuration Issue
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-07-29 15:09:05"
+      description: "Cloudflare is investigating an issue with the Sensitive Data Detection feature in the Cloudflare Dashboard. Customers may be unable to enable Sensitive Data Detection via the Security settings toggle. Other dashboard features and security services remain unaffected. \nWe are working to identify and mitigate this problem.\nMore updates to follow shortly."
+      investigating: true
+    - ts: "2026-07-29 15:32:08"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-07-29 16:15:38"
+      description: A fix has been implemented and we are monitoring the results.

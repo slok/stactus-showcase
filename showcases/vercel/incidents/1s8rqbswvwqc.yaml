@@ -1,16 +1,14 @@
 version: incident/v1
 id: 1s8rqbswvwqc
 name: Telemetry data loss for Drains
-impact: none
+impact: major
 systems: []
 timeline:
     - ts: "2026-07-24 17:26:56"
       description: |-
-        Between 19:12 and 19:18 UTC on July 23, 2026, telemetry forwarded through Log Drains was not delivered. Logs, traces, and events emitted via drains during this window were dropped and are unrecoverable.
+        Between 19:12 and 19:18 UTC on July 23, 2026, telemetry forwarded through Drains was not delivered. Traces and events forwarded via Drains during this window were dropped and are unrecoverable. Logs forwarded via Drains during this window were also not delivered, but remain accessible in the Logs UI dashboard, where they can also be exported.
 
-        Customers with one or more Log Drains configured on their Vercel projects lost telemetry emitted during the affected window. Data emitted outside the 19:12 and 19:18 UTC window was not dropped.
-
-        We have deployed a fix and adding additional monitoring to detect and prevent this failure mode from happening in the future.
+        We have deployed a fix and are adding additional monitoring to detect and prevent this failure mode from happening in the future.
 
         We know how much you rely on this data, and we sincerely apologize for the disruption.
       resolved: true
