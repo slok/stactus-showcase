@@ -9,3 +9,6 @@ timeline:
       description: Cloudflare is investigating an issue where a subset of Workers script deployments are failing with errors. Customers may experience failures when attempting to deploy a Worker script via Wrangler or the Workers API. Workers that are already deployed and running in production are not affected. A fix is being prepared.
     - ts: "2026-07-29 20:04:39"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2026-07-29 20:31:15"
+      description: This incident has been resolved.
+      resolved: true

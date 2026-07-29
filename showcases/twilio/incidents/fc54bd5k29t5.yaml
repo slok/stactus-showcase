@@ -1,0 +1,13 @@
+version: incident/v1
+id: fc54bd5k29t5
+name: Studio Timeout Functionalities Are Degraded Potentially Causing Stuck Executions
+impact: minor
+systems:
+    - 7c6yv3vctfqv
+timeline:
+    - ts: "2026-07-29 20:55:35"
+      description: Our monitoring systems have detected a potential issue with Studio Timers failing to schedule causing workflow failure. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-07-29 21:27:10"
+      description: We are investigating a small number of Send & Wait for Reply widgets in studio are failing to take the no reply transition, also a small number of add Twiml redirect widgets in studio are failing to take the timeout transition.. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
