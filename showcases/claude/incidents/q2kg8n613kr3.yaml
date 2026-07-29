@@ -2,14 +2,17 @@ version: incident/v1
 id: q2kg8n613kr3
 name: Elevated errors across all models
 impact: critical
-systems:
-    - rwppv331jlwc
-    - k8w3r06qmzrp
-    - yyzkbfz2thpt
-    - bpp5gb3hpjcl
+systems: []
 timeline:
     - ts: "2026-07-29 19:49:45"
       description: We are currently investigating this issue.
       investigating: true
     - ts: "2026-07-29 20:33:45"
       description: We have identified an issue resulting in elevated errors across multiple models, and are working to resolve this. We will provide an update as soon as possible.
+    - ts: "2026-07-29 21:38:34"
+      description: We are continuing to work to fully resolve issues resulting in elevated requests and latency to Claude models. At this time, we are seeing recovery across most models. We will provide an additional update as soon as possible.
+    - ts: "2026-07-29 22:20:16"
+      description: From 12:45 PT / 19:45 UTC through to 1:26 PT / 21:26 UTC, we saw elevated rates of errors across Claude models. We have seen recovery in success rates across all models and are monitoring closely to ensure no further issues.
+    - ts: "2026-07-29 22:36:20"
+      description: This issue has been resolved.
+      resolved: true

@@ -1,0 +1,13 @@
+version: incident/v1
+id: mbqs14vz2l29
+name: IRM Performance Degradation in EU Region
+impact: minor
+systems:
+    - 1mxpk7q1bkb6
+timeline:
+    - ts: "2026-07-29 21:46:43"
+      description: |-
+        We are currently investigating an issue affecting Grafana IRM in our EU region. Users may experience a degraded or unresponsive IRM UI, reduced availability of the public API, and delays in notifications.
+
+        Our engineering team is actively investigating the issue and working to restore normal service. We will provide another update as more information becomes available.
+      investigating: true

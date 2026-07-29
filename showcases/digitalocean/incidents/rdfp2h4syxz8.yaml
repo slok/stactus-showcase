@@ -1,10 +1,16 @@
 version: incident/v1
 id: rdfp2h4syxz8
-name: Gradient AI Model Kimi K3 Responses Issues
+name: Response Degradation Impacting Kimi-K3
 impact: minor
 systems:
     - pmy8cw253ck9
 timeline:
     - ts: "2026-07-29 17:56:51"
       description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-07-29 21:41:12"
+      description: |-
+        Our Engineering team is investigating reports of empty or broken responses impacting Kimi-K3.
+        At this point, users may experience degraded response quality, specifically empty or broken outputs (including repeated characters), when querying the Kimi-K3 service.
+        We apologize for the inconvenience and will share an update once we have more information.
       investigating: true

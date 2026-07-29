@@ -11,3 +11,6 @@ timeline:
     - ts: "2026-07-29 21:27:10"
       description: We are investigating a small number of Send & Wait for Reply widgets in studio are failing to take the no reply transition, also a small number of add Twiml redirect widgets in studio are failing to take the timeout transition.. We expect to provide another update in 1 hour or as soon as more information becomes available
       investigating: true
+    - ts: "2026-07-29 22:28:50"
+      description: The issu about Studio Timers failing to schedule causing workflow failure has been resolved and it is operating normally at this time.
+      resolved: true
