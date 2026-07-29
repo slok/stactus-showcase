@@ -10,3 +10,8 @@ timeline:
       investigating: true
     - ts: "2026-07-29 19:06:25"
       description: We have identified the root cause and are rolling out a configuration change to remediate the delayed cluster configuration changes.
+    - ts: "2026-07-29 19:31:02"
+      description: We have seen errors subsiding and cluster configurations for free and flex customers should be operating normally again.
+    - ts: "2026-07-29 19:37:20"
+      description: This incident has been resolved.
+      resolved: true

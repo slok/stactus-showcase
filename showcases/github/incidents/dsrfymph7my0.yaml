@@ -1,0 +1,16 @@
+version: incident/v1
+id: dsrfymph7my0
+name: Incident with Copilot AI Model Providers
+impact: minor
+systems:
+    - cnnb39dkkk82
+timeline:
+    - ts: "2026-07-29 20:07:08"
+      description: We are investigating reports of degraded performance for Copilot AI Model Providers
+      investigating: true
+    - ts: "2026-07-29 20:07:43"
+      description: We are seeing increased error rates with requests to specific model providers.
+      investigating: true
+    - ts: "2026-07-29 20:18:18"
+      description: We are investigating increased error rates affecting GitHub Copilot requests to external AI model providers. Some users may experience failures or degraded performance when using Copilot features.
+      investigating: true

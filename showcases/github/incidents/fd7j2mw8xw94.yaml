@@ -21,5 +21,5 @@ timeline:
       description: We are seeing signs of sustained recovery from the upstream provider for GPT 5.3 Codex requests. Requests  are succeeding as expected. We are awaiting confirmation from the provider that the issue is fully mitigated before resolving this incident.
       investigating: true
     - ts: "2026-07-20 18:37:08"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: Between 06:39 and 18:11 UTC on July 20, 2026, the Copilot service experienced a degradation of the GPT 5.3 model due to an issue with our upstream provider. The upstream model provider returned intermittent errors for GPT 5.3 Codex requests, which caused some responses to fail. Auto mode requests that had selected GPT 5.3 Codex were also impacted. On average about 2% of GPT 5.3 Codex requests failed during this window. Copilot automatically routed eligible traffic away from the impacted provider to reduce customer impact. No other models were impacted.<br /><br />We worked with the upstream provider throughout the incident and confirmed sustained recovery before resolving.
       resolved: true
