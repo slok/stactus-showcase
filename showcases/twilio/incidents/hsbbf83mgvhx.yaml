@@ -1,0 +1,12 @@
+version: incident/v1
+id: hsbbf83mgvhx
+name: SMS Delivery Delays from Twilio to Fastweb SpA Italy
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-07-29 13:51:32"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Fastweb network subscribers in Italy. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-29 14:41:52"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Fastweb SpA network subscribers in Italy. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.

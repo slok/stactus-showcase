@@ -1,0 +1,17 @@
+version: incident/v1
+id: z2993n6vrsdb
+name: Increased API latency
+impact: minor
+systems:
+    - 66r6rhq3hn9n
+    - 80ykv2p95qgy
+    - 49yq6v65b33l
+timeline:
+    - ts: "2026-07-29 12:41:43"
+      description: |-
+        We are investigating some database issues causing high latency on some API endpoints and dashboard operations. You may experience intermittent "503 service unavailable" errors at this time.
+        Currently deployed apps continue to run.
+      investigating: true
+    - ts: "2026-07-29 13:26:08"
+      description: This incident has been resolved.
+      resolved: true
