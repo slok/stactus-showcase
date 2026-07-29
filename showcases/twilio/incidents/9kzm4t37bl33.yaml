@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9kzm4t37bl33
+name: Unable to save Phone Numbers with Studio Flow
+impact: minor
+systems:
+    - 7c6yv3vctfqv
+timeline:
+    - ts: "2026-07-29 06:42:36"
+      description: We are investigating a service interruption with Console when saving phone number configurations assigned to a Studio Flow. As a temporary workaround, please ensure a valid Status Callback URL is populated when setting your Voice URL to a Studio Flow. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
