@@ -1,0 +1,12 @@
+version: incident/v1
+id: rhj2h4scwdhk
+name: Delayed cluster configuration affecting free and flex users
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-07-29 18:55:32"
+      description: We are investigating an issue with cluster configuration updates getting delayed for a subset of users on free and flex tiers.  Cluster access is unaffected.
+      investigating: true
+    - ts: "2026-07-29 19:06:25"
+      description: We have identified the root cause and are rolling out a configuration change to remediate the delayed cluster configuration changes.

@@ -1,0 +1,46 @@
+version: incident/v1
+id: 6mdfbztbzctw
+name: Grafana Cloud non-billing usage metrics gaps in select regions
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-07-29 18:49:19"
+      description: |-
+        Impact period: April 1 – July 29, 2026
+
+        Summary:
+        During this period, some customers in a subset of regions may have experienced gaps in select ruler/recording rule metrics within their Grafana Cloud instances. Not all customers or environments in the listed regions were affected.
+
+        Affected regions:
+        A subset of environments across the following regions may have been impacted:
+        ap-south-1
+        au-southeast-1
+        ca-east-0
+        eu-central-0
+        eu-west-2
+        eu-west-7
+        us-west-0
+
+        Affected values:
+        grafanacloud_instance_queries_per_second
+        grafanacloud_instance_rule_config_last_reload_successful
+        grafanacloud_instance_rule_evaluations_total:rate5m
+        grafanacloud_instance_rule_evaluation_failures_total:rate5m
+        grafanacloud_instance_rule_group_interval_seconds
+        grafanacloud_instance_rule_group_last_duration_seconds
+        grafanacloud_instance_rule_group_iterations_total:rate5m
+        grafanacloud_instance_rule_group_iterations_missed_total:rate5m
+        grafanacloud_instance_rule_group_last_evaluation_timestamp_seconds
+        grafanacloud_instance_rule_group_rules
+        grafanacloud_instance_ruler_queries_failed_total:rate5m
+        grafanacloud_instance_ruler_queries_zero_fetched_series_total:rate5m
+        grafanacloud_instance_ruler_notifications_sent_total:rate5m
+        grafanacloud_instance_ruler_notifications_errors_total:rate5m
+        grafanacloud_instance_ruler_notifications_queue_capacity
+        grafanacloud_instance_ruler_notifications_queue_length
+        grafanacloud_instance_ruler_notifications_latency_seconds:99quantile
+        grafanacloud_instance_ruler_notifications_latency_seconds:50quantile
+
+        Current status:
+        This issue has been resolved. No further action is required from customers. If you continue to notice gaps in the metrics described above, please reach out to support and reference this incident.
+      resolved: true
