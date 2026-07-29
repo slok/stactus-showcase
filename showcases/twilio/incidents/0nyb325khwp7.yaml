@@ -1,0 +1,11 @@
+version: incident/v1
+id: 0nyb325khwp7
+name: SMS Delivery Delays from Twilio to Metfone Cambodia
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-07-29 00:06:07"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from Twilio to Metfone network subscribers in Cambodia. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-07-29 00:27:51"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Metfone network subscribers in Cambodia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
