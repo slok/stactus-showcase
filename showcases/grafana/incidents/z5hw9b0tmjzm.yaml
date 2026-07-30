@@ -1,0 +1,19 @@
+version: incident/v1
+id: z5hw9b0tmjzm
+name: PDC Authentication Issues
+impact: major
+systems:
+    - hmyx8mtn3tjq
+    - r4t5cjg79lkv
+    - y081wmnk39py
+    - xb8m6tjchkht
+timeline:
+    - ts: "2026-07-30 14:45:31"
+      description: We are currently investigating an issue impacting PDC authentication. We will provide additional updates as they become available.
+      investigating: true
+    - ts: "2026-07-30 14:51:00"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-07-30 15:11:34"
+      description: We are continuing to investigate this issue.
+      investigating: true
