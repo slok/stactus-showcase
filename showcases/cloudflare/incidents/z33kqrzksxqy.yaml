@@ -8,3 +8,7 @@ timeline:
     - ts: "2026-07-30 05:48:27"
       description: "Cloudflare is observing possible network congestion in the North America region. Customers may see elevated latency and connectivity issues. \n\nWe are working to mitigate impact to Internet users in this region."
       investigating: true
+    - ts: "2026-07-30 07:51:11"
+      description: Cloudflare identified that the Network degradation was due to maintenance conducted by fiber providers. The congestion has been alleviated by rerouting traffic. We are currently monitoring the situation and will follow up with more updates shortly.
+    - ts: "2026-07-30 07:57:42"
+      description: We are continuing to monitor for any further issues.

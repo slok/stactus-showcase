@@ -1,0 +1,13 @@
+version: incident/v1
+id: 9tpgqq1h4bs7
+name: Copilot model Anthropic Fable experiencing elevated errors
+impact: minor
+systems:
+    - cnnb39dkkk82
+timeline:
+    - ts: "2026-07-30 09:07:42"
+      description: We are investigating reports of degraded performance for Copilot AI Model Providers
+      investigating: true
+    - ts: "2026-07-30 09:17:26"
+      description: We are experiencing degraded availability for the Claude Fable 5 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.
+      investigating: true
