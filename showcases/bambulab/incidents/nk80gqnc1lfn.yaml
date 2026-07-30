@@ -17,3 +17,31 @@ timeline:
     - ts: "2026-07-21 02:58:48"
       description: The incident is now fully resolved. We will publish a detailed post-mortem later this week. Thank you for your patience.
       resolved: true
+    - ts: "2026-07-30 10:04:22"
+      description: |-
+        #### Summary
+
+        On 2026-07-20, our MQTT device-connectivity service experienced two connection disruptions originating from the same root cause. A single node in the service cluster developed intermittent network failures, which disrupted communication with the rest of the cluster and led to a backlog in connection handling. As a result, some devices were disconnected, reconnections were delayed, and the number of online connections dropped.
+
+        The first phase fully recovered by 16:00 UTC. The issue recurred around 17:00 and was fully resolved by 18:30, after the faulty node was removed and replaced.
+
+        #### Customer impact
+
+        * Device disconnections and slower reconnections;
+        * A drop in online connections and a corresponding rise in offline connections;
+        * The cluster retained partial serving capacity throughout, but connection handling was noticeably delayed.
+
+        #### Root cause
+
+        A single cluster node developed intermittent network failures, disrupting its communication with the other nodes in the cluster. This blocked data synchronization across the cluster and led to a backlog in connection handling. The issue recurred because the faulty node remained in the cluster; it was fully resolved once the node was removed and replaced \(17:53\).
+
+        #### Why it happened twice
+
+        The first round of mitigation cleared the accumulated backlog but did not eliminate the underlying network fault on the node itself, so the cluster appeared healthy after 16:00. When the same node faulted again around 17:00, the identical failure pattern was re-triggered. Restarting nodes at 17:27 released the backlog a second time, but with the faulty node still in the cluster the problem returned around 17:47. Isolating the fault source by replacing the node was what ultimately brought the incident to an end. These were therefore two recurrences of the same intermittent fault, not two unrelated incidents.
+
+        #### Follow-up actions
+
+        1. Strengthen monitoring, alerting, and automatic isolation for inter-node communication anomalies;
+        2. Improve timeout handling, graceful degradation, and backlog protection during abnormal conditions;
+        3. Add dedicated failure drills covering intermittent network faults, partially unreachable nodes, reconnection surges, and faulty-node replacement;
+        4. Over the coming months, roll out **multi-region deployment** of the service to reduce the blast radius of any single point of failure.

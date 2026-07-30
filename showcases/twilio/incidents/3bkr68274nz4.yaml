@@ -1,0 +1,9 @@
+version: incident/v1
+id: 3bkr68274nz4
+name: Degraded Invocations in US1 Region
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-30 10:02:31"
+      description: Twilio Invocations was degraded for 14 minutes between 02:14 and 02:28 Pacific Time on 07/30/2026. During this period of time, customers may have experienced failing invocations in the US1 region. The issue has now been resolved.
+      resolved: true
