@@ -2,9 +2,14 @@ version: incident/v1
 id: h9xdjtznf0lb
 name: Delay in Message Redactions
 impact: minor
-systems:
-    - y0thq9hlt5m8
+systems: []
 timeline:
     - ts: "2026-07-30 14:41:44"
       description: We are currently investigating an issue with stuck events regarding Bulk Export API. We expect to provide another update in 1 hour or as soon as more information becomes available
+      investigating: true
+    - ts: "2026-07-30 16:19:31"
+      description: We are contiuning to investigate this issue.
+      investigating: true
+    - ts: "2026-07-30 16:25:12"
+      description: We are continuing to investigate this issue.
       investigating: true
