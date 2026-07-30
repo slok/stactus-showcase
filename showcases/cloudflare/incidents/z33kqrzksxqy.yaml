@@ -1,0 +1,10 @@
+version: incident/v1
+id: z33kqrzksxqy
+name: Possible Network Congestion in North America region
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-07-30 05:48:27"
+      description: "Cloudflare is observing possible network congestion in the North America region. Customers may see elevated latency and connectivity issues. \n\nWe are working to mitigate impact to Internet users in this region."
+      investigating: true

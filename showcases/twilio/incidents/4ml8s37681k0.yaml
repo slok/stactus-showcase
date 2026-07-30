@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4ml8s37681k0
+name: 503 Errors and Latency on Verify
+impact: minor
+systems:
+    - whldrk77jnm4
+timeline:
+    - ts: "2026-07-30 06:59:28"
+      description: We are currently investigating an issue causing a spike in 503 errors and increased latency with the Verify service. As a result, customers may experience errors or delays when creating and checking verifications. Our engineering teams are actively working to isolate the root cause. We will provide another update in 30 minutes or as soon as more information becomes available.
+      investigating: true
