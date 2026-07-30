@@ -1,0 +1,11 @@
+version: incident/v1
+id: qwd9dhqbcg0g
+name: Page Shield Email Notification Issues
+impact: minor
+systems:
+    - 5xvn0m7tthlf
+    - hk5dqm69klkp
+timeline:
+    - ts: "2026-07-30 13:16:03"
+      description: We are investigating an issue where Page Shield email notifications are not containing the correct data for some customers. Our engineering team is currently working on a fix to restore accurate alert delivery. We will provide updates as soon as more information is available.
+      investigating: true
