@@ -1,0 +1,12 @@
+version: incident/v1
+id: bq8dhxj55g7g
+name: Partial Read Outage for Loki in prod-us-east-4
+impact: none
+systems: []
+timeline:
+    - ts: "2026-07-31 20:33:40"
+      description: |-
+        We are investigating a partial read outage affecting Loki in prod-us-east-4. Between 19:41 UTC and 19:50 UTC, a significant portion of read queries may have failed or returned errors.
+
+        The issue has been identified and service has been restored. We are continuing to investigate the underlying cause and will provide additional information as it becomes available.
+      resolved: true
