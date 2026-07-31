@@ -1,0 +1,12 @@
+version: incident/v1
+id: t0tmqjsyyzv0
+name: Voice Call Failures and Dialing Delays from a Subset of Twilio Phone Numbers to Multiple Networks in Brazil
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2026-07-30 23:22:57"
+      description: Twilio customers may be experiencing voice call failures from Twilio Phone Numbers to network subscribers on multiple networks in Brazil. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-07-30 23:42:35"
+      description: Twilio customers may be experiencing voice call failures and high post dial delay from a subset of Twilio Phone Numbers to network subscribers on multiple networks in Brazil. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
