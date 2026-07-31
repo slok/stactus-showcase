@@ -1,0 +1,10 @@
+version: incident/v1
+id: rq02l8c4v6cl
+name: Capacity issues in CDG
+impact: none
+systems:
+    - 266zqs63006k
+timeline:
+    - ts: "2026-07-31 16:44:41"
+      description: Creating machines in CDG region may fail at this time with an "no capacity available in cdg" message. Existing apps continue to run.
+      investigating: true
