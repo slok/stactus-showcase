@@ -1,0 +1,13 @@
+version: incident/v1
+id: gxb577ll1b7x
+name: 'Degraded Performance: Stack Provisioning Failures within certain reigons (PDC Setup)'
+impact: minor
+systems:
+    - 6wgslg1s3bzr
+    - hbqgpzmf8h9k
+    - qqj6ssvvsqmq
+    - 2yn7w8rnphcp
+timeline:
+    - ts: "2026-07-31 10:51:29"
+      description: We are currently investigating an issue impacting stack provisioning. Attempting to set up PDC on newly created stacks will currently fail across several regions. We are currently looking into the cause of this.
+      investigating: true

@@ -1,0 +1,10 @@
+version: incident/v1
+id: pgcdxsjxkl0q
+name: Cloudflare Analytics API Availability Reduced
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-07-31 11:51:07"
+      description: Cloudflare is aware that the Analytics API Availability is experiencing reduced availability . This affects timely delivery of customer data.
+      investigating: true
