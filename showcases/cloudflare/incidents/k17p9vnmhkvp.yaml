@@ -1,0 +1,11 @@
+version: incident/v1
+id: k17p9vnmhkvp
+name: Increased HTTP Errors in London
+impact: minor
+systems:
+    - shcqh0p22750
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2026-07-31 19:06:19"
+      description: Cloudflare is investigating an increased level of HTTP errors affecting a subset of customers. We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
