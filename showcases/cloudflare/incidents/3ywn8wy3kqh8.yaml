@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3ywn8wy3kqh8
+name: Network Performance Issues in Hamburg, Germany
+impact: minor
+systems:
+    - dwmgwrxg7cx3
+timeline:
+    - ts: "2026-07-31 15:20:20"
+      description: |-
+        Cloudflare is investigating issues with network performance in
+        Hamburg, Germany (HAM). Customers routing through this location may
+        experience request errors or failures. We have identified the problem and are working on a fix.
