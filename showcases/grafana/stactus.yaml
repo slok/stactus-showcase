@@ -332,6 +332,9 @@ systems:
       name: Grafana Assistant / AWS US East - prod-us-east-2
     - id: c325hr67bhtb
       name: Logs / AWS Switzerland - prod-eu-central-0
+    - id: z5ysrlvblv9t
+      name: Integrations
+      description: 'Former Grafana Cloud: Integrations, Grafana Cloud: AWS Logs, Grafana Cloud: AWS Metrics'
     - id: 0b71ln6v71cl
       name: OpenTelemetry Ingest Endpoint / Azure Netherlands - prod-eu-west-3
     - id: fkc5ms404dsj
@@ -356,6 +359,8 @@ systems:
       name: Grafana / AWS Australia - prod-au-southeast-1
     - id: 8bpfp6sdks03
       name: Grafana Assistant / AWS US West - prod-us-west-0
+    - id: 0s4n2mv9hwv9
+      name: Cost Management and Billing
     - id: tpk4cdhtsm82
       name: Logs / Azure US Central - us-central2
     - id: h6c5t69fh0lr
@@ -398,6 +403,9 @@ systems:
       name: 'Alerting and SLO / AWS India - prod-ap-south-1: Rule Evaluation'
     - id: ffzvv723s0q8
       name: 'Traces / AWS Japan - prod-ap-northeast-0: Querying'
+    - id: 3jbh6nyxv692
+      name: Fleet Management
+      description: Grafana Fleet Management is a Grafana Cloud feature that enables you to manage collector deployments at scale.
     - id: 2gj2jt684k11
       name: Logs / Azure US Central - us-central7
       description: Loki - prod-us-central-7
@@ -425,6 +433,9 @@ systems:
       name: Private Datasource Connect (PDC) / GCP Australia - prod-au-southeast-0
     - id: zljxmjgrpj4q
       name: 'Alerting and SLO / AWS India - prod-ap-south-1: Alertmanager and Rules Configuration API'
+    - id: 1mxpk7q1bkb6
+      name: Incident Management and Response (IRM)
+      description: Former Grafana Incident and Grafana OnCall
     - id: lby6cltd7c4s
       name: 'Traces / AWS Japan - prod-ap-northeast-0: Ingestion'
     - id: wnvpx2hglsns
@@ -453,11 +464,12 @@ systems:
       name: Grafana Assistant / Azure US Central - us-central2
     - id: h1t1253xs6k9
       name: Grafana / AWS Switzerland - prod-eu-central-0
+    - id: xg0b9bhwcfvv
+      name: Knowledge Graph
+    - id: d8n320b96n2x
+      name: Public Snapshots
     - id: 1mnpb5g27m21
       name: Grafana / Azure Netherlands - prod-eu-west-3
-    - id: z5ysrlvblv9t
-      name: Integrations
-      description: 'Former Grafana Cloud: Integrations, Grafana Cloud: AWS Logs, Grafana Cloud: AWS Metrics'
     - id: 5270kl9kd6l2
       name: 'Metrics / AWS US East - prod-us-east-0: Querying'
     - id: 6nknf1p91ddp
@@ -482,8 +494,6 @@ systems:
       name: Grafana Assistant / GCP Australia - prod-au-southeast-0
     - id: sc8qqdx6j1h5
       name: Grafana / GCP Australia - prod-au-southeast-0
-    - id: 0s4n2mv9hwv9
-      name: Cost Management and Billing
     - id: zqsjp5p0d8n7
       name: 'Metrics / AWS US East - prod-us-east-0: Ingestion'
     - id: 4bj7nh0h2pbw
@@ -550,9 +560,6 @@ systems:
       name: Frontend Observability / GCP US Central - prod-us-central-0
     - id: fd85rg7yrqww
       name: Private Datasource Connect (PDC) / GCP Singapore - prod-ap-southeast-0
-    - id: 3jbh6nyxv692
-      name: Fleet Management
-      description: Grafana Fleet Management is a Grafana Cloud feature that enables you to manage collector deployments at scale.
     - id: 2nmddqjqhm20
       name: Grafana Assistant / GCP India - prod-ap-south-0
     - id: l72f5c7651n5
@@ -569,9 +576,6 @@ systems:
       name: 'Synthetic Monitoring / Azure Netherlands - prod-eu-west-3: API'
     - id: 22lqyzyw46nj
       name: Private Datasource Connect (PDC) / GCP UK - prod-gb-south-0
-    - id: 1mxpk7q1bkb6
-      name: Incident Management and Response (IRM)
-      description: Former Grafana Incident and Grafana OnCall
     - id: nsdmlzxxdxg4
       name: Grafana Assistant / GCP Singapore - prod-ap-southeast-0
     - id: 4q64w13s0jdr
@@ -641,8 +645,6 @@ systems:
       name: Grafana Assistant / GCP US Central - prod-us-central-4
     - id: sgft09lzyyy2
       name: Private Datasource Connect (PDC) / AWS Switzerland - prod-eu-central-0
-    - id: d8n320b96n2x
-      name: Public Snapshots
     - id: d1qqwsst6by9
       name: 'Metrics / Azure US Central - us-central2: Ingestion'
     - id: fgtp31zqpw8v

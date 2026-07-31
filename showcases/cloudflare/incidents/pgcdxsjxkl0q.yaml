@@ -1,10 +1,27 @@
 version: incident/v1
 id: pgcdxsjxkl0q
-name: Cloudflare Analytics API Availability Reduced
+name: Cloudflare API Availability Reduced Availability
 impact: minor
 systems:
     - 4c231tkdlpcl
+    - g4tb35rs9yw7
+    - 3sq3s4d20ywk
+    - vgxj684rcw7t
+    - 57srcl8zcn7c
 timeline:
     - ts: "2026-07-31 11:51:07"
-      description: Cloudflare is aware that the Analytics API Availability is experiencing reduced availability . This affects timely delivery of customer data.
+      description: Cloudflare is investigating reduced availability with Cloudflare Dashboard and related APIs. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed.
       investigating: true
+    - ts: "2026-07-31 12:25:44"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-07-31 12:37:35"
+      description: Cloudflare is aware that this is also impacting on Pages and Worker builds. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-07-31 12:43:57"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-07-31 12:46:20"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-07-31 13:01:59"
+      description: This incident has been resolved.
+      resolved: true
