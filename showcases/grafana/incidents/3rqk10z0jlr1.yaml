@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-08-01 07:25:38"
       description: We are currently investigating an issue which is resulting in some test runs to abort and metrics data to be incomplete for a subset of tests
       investigating: true
+    - ts: "2026-08-01 08:06:19"
+      description: A critical piece of infrastructure behaved poorly after a reboot. It has now been properly recovered
+    - ts: "2026-08-01 08:31:37"
+      description: This incident has been resolved.
+      resolved: true
