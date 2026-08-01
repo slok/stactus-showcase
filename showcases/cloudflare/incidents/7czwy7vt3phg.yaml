@@ -1,0 +1,9 @@
+version: incident/v1
+id: 7czwy7vt3phg
+name: RealtimeKit socket connection slowness and failed meeting joins
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-08-01 14:44:30"
+      description: "We have identified and mitigated an issue affecting RealtimeKit socket connections, which caused slowness and meeting join failures for some users. \n\nCustomers were impacted from 13:10 UTC to 14:15 UTC\n\nAll services have been restored, and we are continuing to monitor system performance to ensure stability."
+      resolved: true
