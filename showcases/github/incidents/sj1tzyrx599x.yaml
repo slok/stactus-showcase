@@ -1,0 +1,20 @@
+version: incident/v1
+id: sj1tzyrx599x
+name: Incident with Copilot AI Model Providers
+impact: minor
+systems:
+    - cnnb39dkkk82
+timeline:
+    - ts: "2026-08-01 18:03:05"
+      description: We are investigating reports of degraded performance for Copilot AI Model Providers
+      investigating: true
+    - ts: "2026-08-01 18:03:15"
+      description: We are seeing increased error rates from specific upstream AI Model Providers
+      investigating: true
+    - ts: "2026-08-01 18:20:20"
+      description: We are experiencing degraded availability for the Fable 5 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.
+      investigating: true
+    - ts: "2026-08-01 18:20:48"
+      description: The degradation affecting Copilot AI Model Providers has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-08-01 18:23:40"
+      description: The issues with our upstream model provider have been resolved, and Fable 5 is once again available in Copilot products and IDE surfaces.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.

@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-08-01 17:01:50"
       description: We are investigating an issue with the control plane for Managed Postgres v2 in the IAD region. Creating new v2 clusters in the IAD region may fail at this time. Existing clusters continue to run, but may experience lagging backups.
       investigating: true
+    - ts: "2026-08-01 17:26:13"
+      description: A fix has been implemented and we are monitoring the results.
