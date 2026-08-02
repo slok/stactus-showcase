@@ -1,0 +1,15 @@
+version: incident/v1
+id: 59w0q6tv7v9j
+name: Service Degradation Affecting Zoom Meeting Quality in the US Region
+impact: none
+systems:
+    - 3z7b6jks10hm
+timeline:
+    - ts: "2026-08-02 16:26:29"
+      description: |-
+        On August 2, between 15:28 UTC - 15:38 UTC, a subset of users experienced degraded Zoom meeting quality. The issue has been successfully resolved.
+
+        Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-08-02 16:38:02"
+      description: This incident has been resolved and the affected service have been restored.
+      resolved: true
