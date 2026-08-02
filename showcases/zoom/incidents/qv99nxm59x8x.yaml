@@ -1,0 +1,13 @@
+version: incident/v1
+id: qv99nxm59x8x
+name: Service Degradation Affecting Zoom Marketplace and AI Companion Services
+impact: none
+systems:
+    - rmphw6f34qk9
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2026-08-02 01:45:25"
+      description: "On Aug 2, Between 00:00 UTC - 01:16 UTC, users experiencing service degradation affecting Zoom Marketplace and AI Companion Services has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
+    - ts: "2026-08-02 02:01:09"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
