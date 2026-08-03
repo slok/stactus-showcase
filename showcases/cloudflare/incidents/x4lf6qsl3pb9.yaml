@@ -1,0 +1,19 @@
+version: incident/v1
+id: x4lf6qsl3pb9
+name: Cloudflare Workers build failures
+impact: minor
+systems:
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2026-08-03 14:20:37"
+      description: Cloudflare is aware of and investigating an issue with Cloudflare Workers build failures which potentially impacts multiple customers. Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2026-08-03 15:22:13"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-08-03 15:38:14"
+      description: Wrokers builds are no longer failing, users may experience delays with builds.
+    - ts: "2026-08-03 16:02:45"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-08-03 16:12:08"
+      description: This incident has been resolved.
+      resolved: true

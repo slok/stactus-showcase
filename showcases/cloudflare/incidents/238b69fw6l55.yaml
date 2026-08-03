@@ -1,0 +1,17 @@
+version: incident/v1
+id: 238b69fw6l55
+name: Cloudflare Workers Runtime API issues
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-08-03 15:13:33"
+      description: Cloudflare is aware of an issue with the latest Workers Runtime API release that exposes native Temporal with clock stuck at epoch 0.  Updates to follow.
+      investigating: true
+    - ts: "2026-08-03 15:21:54"
+      description: |-
+        Workers runtime: Temporal global exposed with an incorrect clock
+
+        Since 2026-07-30, the Workers runtime has exposed a global Temporal object that was not intended to be available. Its clock is wrong: Temporal.Now reports 1970-01-01 rather than the current time. Date and Date.now() are unaffected and report the correct time.
+
+        This can affect Workers that install a Temporal polyfill only when no native Temporal is detected. On those Workers, the polyfill stopped being installed and time-dependent logic began computing against 1970 — for example, tokens minted with an issue time of 0 and an expiry in 1970, incorrect TTLs, or incorrect date arithmetic. No error is raised when this happens.

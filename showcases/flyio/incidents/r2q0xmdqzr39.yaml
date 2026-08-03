@@ -1,0 +1,9 @@
+version: incident/v1
+id: r2q0xmdqzr39
+name: Inbound connection failure to Fly Apps
+impact: critical
+systems: []
+timeline:
+    - ts: "2026-08-03 15:16:18"
+      description: A BGP misconfiguration while provisioning new edge capacity caused most traffic from Europe endpoints to be dropped, between 14:50 UTC and 15:02 UTC. The misconfiguration has been fixed and we are implementing safeguards against this kind of issue in the future.
+      resolved: true

@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3nt69xj3wkk9
+name: Cloud Control Panel Access
+impact: minor
+systems:
+    - czck17wcspr5
+timeline:
+    - ts: "2026-08-03 13:58:04"
+      description: "Beginning at 09:36 UTC on August 3, some customers may experience intermittent errors when accessing the DigitalOcean Cloud Control Panel, including an \"mTLS verification failed\" message. Our engineering team is actively investigating. \n\nWe apologise for the inconvenience this may have caused. We will provide another update as soon as more information is available.\n\nIf you have any questions related to this issue, please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket"
+      investigating: true
