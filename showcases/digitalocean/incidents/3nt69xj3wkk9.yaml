@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-08-03 13:58:04"
       description: "Beginning at 09:36 UTC on August 3, some customers may experience intermittent errors when accessing the DigitalOcean Cloud Control Panel, including an \"mTLS verification failed\" message. Our engineering team is actively investigating. \n\nWe apologise for the inconvenience this may have caused. We will provide another update as soon as more information is available.\n\nIf you have any questions related to this issue, please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket"
       investigating: true
+    - ts: "2026-08-03 16:39:40"
+      description: We have implemented mitigation for the issue causing some customers to experience intermittent errors when accessing the DigitalOcean Cloud Control Panel. We are seeing recovery and are monitoring the service closely. We will provide another update once we have confirmed the issue is fully resolved
+    - ts: "2026-08-03 17:59:42"
+      description: Between 09:36 and 13:30 UTC on August 3, some customers experienced intermittent errors while accessing the DigitalOcean Cloud Control Panel. We renewed the affected internal certificates and restored access. The issue is resolved, and the Cloud Control Panel is operating normally. We apologize for the disruption.
+      resolved: true
