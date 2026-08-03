@@ -1,0 +1,12 @@
+version: incident/v1
+id: yj7xzby95nbj
+name: User Authentication Identity SNA Failure Increase for Telkomsel in Indonesia
+impact: minor
+systems:
+    - trrz5ztt7pl8
+timeline:
+    - ts: "2026-08-03 13:32:15"
+      description: Twilio customers may be experiencing User Authentication Identity SNA failure increase for Telkomsel in Indonesia. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-03 13:37:59"
+      description: Twilio customers may be experiencing User Authentication Identity SNA failure increase for Telkomsel in Indonesia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
