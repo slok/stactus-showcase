@@ -2,8 +2,16 @@ version: incident/v1
 id: 1kc7ykjynf85
 name: AI Terms Page Presented When Using Twilio Conversations
 impact: minor
-systems: []
+systems:
+    - 8j15n81jrlbn
+    - xqxxnl8rsmlc
+    - qphgn531prd5
+    - 68slck3djwv7
+    - m8vfg5ddymxk
 timeline:
     - ts: "2026-08-03 22:02:09"
       description: Our monitoring systems have detected a potential issue with AI Terms page presented when using Twilio Conversations, even after accepted it previously. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
       investigating: true
+    - ts: "2026-08-03 23:44:15"
+      description: The issue with AI Terms page presented when using Twilio Conversations has been resolved and Conversations is operating normally at this time.
+      resolved: true

@@ -12,5 +12,5 @@ timeline:
       description: We are experiencing degraded availability for the Claude Fable 5 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.
       investigating: true
     - ts: "2026-07-16 22:04:49"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On July 16, 2026, GitHub Copilot users experienced elevated errors when using Claude Fable 5 from 17:33 UTC until mitigation at 22:04 UTC. The average error rate was 1.4%, with a maximum error rate of 30.85%. The issue was caused by degradation at an upstream model provider; other Copilot models were not significantly affected, and users could avoid the impact by selecting another model or Auto. Service recovered after the provider mitigated the degradation.
       resolved: true
