@@ -1,0 +1,13 @@
+version: incident/v1
+id: 6w65b11rs8z7
+name: SMS Delivery Delays from Twilio to Econet Burundi
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-08-03 06:01:29"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Econet network subscribers in Burundi. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-03 07:01:50"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Econet network subscribers in Burundi. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
