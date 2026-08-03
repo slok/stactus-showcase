@@ -16,3 +16,10 @@ timeline:
       investigating: true
     - ts: "2026-08-03 17:39:18"
       description: Engineering has identified the issue. Customers using Deepgram speech models nova-2 and nova-3 for Conversation Relay are hard down. Customers using Deepgram speech model flux or Google speech models are not impacted. Engineering teams are working closely with Deepgram to investigate and remediate the issue.
+    - ts: "2026-08-03 18:38:37"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-08-03 18:45:29"
+      description: We are observing recovery for customers using Deepgram speech models nova-2 and nova-3 for Conversation Relay. Engineering teams will continue to monitor closely with Deepgram to ensure recovery is sustained. We will provide another update in 2 hours or as sooner.
+    - ts: "2026-08-03 19:30:59"
+      description: The issue with Deepgram speech models nova-2 and nova-3 for Conversation Relay has been resolved and it is operating normally at this time.
+      resolved: true

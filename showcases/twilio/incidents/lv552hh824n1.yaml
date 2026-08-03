@@ -1,0 +1,14 @@
+version: incident/v1
+id: lv552hh824n1
+name: SMS Delivery Delays from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to MTN Zambia
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-08-03 18:52:29"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric and Long Codes to MTN network subscribers in Zambia. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-03 18:53:27"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric and Long Codes to MTN network subscribers in Zambia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-08-03 19:54:13"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Alphanumeric Sender IDs and Long Codes to MTN network subscribers in Zambia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.

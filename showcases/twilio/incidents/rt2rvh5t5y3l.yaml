@@ -1,0 +1,18 @@
+version: incident/v1
+id: rt2rvh5t5y3l
+name: SMS Delivery Delays From Twilio Short Codes, Long Codes, and Toll-Free Numbers to Bell Canada
+impact: minor
+systems:
+    - 7d8w22hqrh6s
+    - qj606bzkg4s8
+    - 39mb8cmw8y2v
+    - k7rg1rqk2nwk
+    - 32f2bm54nkvv
+timeline:
+    - ts: "2026-08-03 19:32:24"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Short Codes and Long Codes to Bell network subscribers in Canada. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-03 19:38:16"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Short Codes and Long Codes to Bell network subscribers in Canada. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-08-03 20:07:11"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Short Codes, Long Codes, and Toll-Free Numbers to Bell network subscribers in Canada. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
