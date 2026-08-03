@@ -1,0 +1,21 @@
+version: incident/v1
+id: 7s119p1yxttr
+name: Incident with Copilot
+impact: minor
+systems:
+    - pjmpxvq2cmr2
+timeline:
+    - ts: "2026-08-03 09:53:27"
+      description: We are investigating reports of degraded performance for Copilot
+      investigating: true
+    - ts: "2026-08-03 09:54:22"
+      description: We are experiencing degraded availability for chat & agent models in Copilot. Multiple models are impacted and customers may experience requests failing. We are investigating and will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-08-03 10:35:19"
+      description: We are still seeing intermittent errors with Copilot, and are continuing to investigate and consider mitigations.
+      investigating: true
+    - ts: "2026-08-03 11:19:04"
+      description: The degradation affecting Copilot has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-08-03 11:25:12"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

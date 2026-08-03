@@ -1,0 +1,12 @@
+version: incident/v1
+id: 7qgzmv42jp2s
+name: Issues loading Alerts and Activity page
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-08-03 09:58:55"
+      description: We are investigating an issue where some customers in the EU and US regions may experience delays or errors when viewing the alerts and activity page.
+      investigating: true
+    - ts: "2026-08-03 10:15:58"
+      description: Between 08:13 and 9:30 UTC on August 3rd, customers in the EU and US regions may have experienced an issue when trying to load the Alerts and Issues page in the New Relic UI. The issue is now resolved, and the impacted services have returned to normal service. Please close and re-open the Alerts page to resolve the issue.
+      resolved: true

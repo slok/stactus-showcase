@@ -1,0 +1,12 @@
+version: incident/v1
+id: 7dk3g4k188ky
+name: Cloudflare Dedicated Egress in London
+impact: minor
+systems:
+    - gyx2yygg7lmd
+timeline:
+    - ts: "2026-08-03 11:05:13"
+      description: Cloudflare is aware of, and investigating, reports that customers who have dedicated IPv4 egress IPs homed in London may be unable to reach out to the public Internet.
+      investigating: true
+    - ts: "2026-08-03 11:25:29"
+      description: The issue has been identified and a fix is being implemented.
