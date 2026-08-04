@@ -1,0 +1,15 @@
+version: incident/v1
+id: qtn3z0pny08n
+name: Cloudflare Workers deployment Issues
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-08-04 01:56:19"
+      description: |-
+        Cloudflare is aware that deploying Workers that the nodejs_compat compatibility flag and a compatibility date on or after 2026-08-04 is being disallowed. This is impacting Workers and Workers for Platforms.
+
+        We are working on relaxing this assertion. To avoid this error, remove the nodejs_compat compatibility flag from your Worker.
+      investigating: true
+    - ts: "2026-08-04 02:30:22"
+      description: The issue has been identified and a fix is being implemented.
