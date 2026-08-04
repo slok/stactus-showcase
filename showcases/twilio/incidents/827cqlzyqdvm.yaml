@@ -1,0 +1,14 @@
+version: incident/v1
+id: 827cqlzyqdvm
+name: SMS Delivery Delays and Failures from Twilio to Lancelot BV Netherlands
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-08-04 03:30:54"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Lancelot BV network subscribers in the Netherlands. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-04 03:32:49"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Lancelot BV network subscribers in the Netherlands. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-08-04 04:33:07"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Lancelot BV network subscribers in the Netherlands. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.

@@ -1,6 +1,6 @@
 version: incident/v1
 id: p49tj2rtg4jj
-name: SMS Delivery Delays from Twilio Phone Numbers to Claro Brazil
+name: SMS Delivery Delays from Twilio to Claro Brazil
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -14,3 +14,8 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays from Twilio Phone Numbers to Claro network subscribers in Brazil. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-08-04 02:44:10"
       description: We have observed a recovery in SMS delivery from Twilio Phone Numbers to Claro network subscribers in Brazil and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-08-04 04:51:27"
+      description: We have observed a recovery in SMS delivery from Twilio Phone Numbers to Claro network subscribers in Brazil and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-08-04 05:21:05"
+      description: The incident has been resolved and SMS delivery from Twilio to Claro network subscribers in Brazil is operating normally.
+      resolved: true
