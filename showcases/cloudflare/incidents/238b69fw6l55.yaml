@@ -15,3 +15,8 @@ timeline:
         Since 2026-07-30, the Workers runtime has exposed a global Temporal object that was not intended to be available. Its clock is wrong: Temporal.Now reports 1970-01-01 rather than the current time. Date and Date.now() are unaffected and report the correct time.
 
         This can affect Workers that install a Temporal polyfill only when no native Temporal is detected. On those Workers, the polyfill stopped being installed and time-dependent logic began computing against 1970 — for example, tokens minted with an issue time of 0 and an expiry in 1970, incorrect TTLs, or incorrect date arithmetic. No error is raised when this happens.
+    - ts: "2026-08-04 07:00:12"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-08-04 07:12:40"
+      description: This incident has been resolved.
+      resolved: true
