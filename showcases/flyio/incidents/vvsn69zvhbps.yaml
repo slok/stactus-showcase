@@ -1,0 +1,10 @@
+version: incident/v1
+id: vvsn69zvhbps
+name: Certificate issuance delays
+impact: minor
+systems:
+    - mvnft391hph6
+timeline:
+    - ts: "2026-08-04 14:53:40"
+      description: We're currently investigating issues related to certificate issuance. Certificates may be delayed for new custom domains.
+      investigating: true
