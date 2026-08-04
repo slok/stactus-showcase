@@ -14,3 +14,11 @@ timeline:
       investigating: true
     - ts: "2026-08-04 18:52:27"
       description: Our Engineering team has identified the issue affecting Spaces Cold Storage billing. The team is actively working on a fix to resolve the issue. We apologize for the inconvenience and will provide another update as soon as more information becomes available.
+    - ts: "2026-08-04 20:44:49"
+      description: Our Engineering team has implemented a fix for the issue affecting Spaces Cold Storage billing and is currently monitoring the situation. Customers with cold storage buckets should no longer see incorrect values reflected in their daily usage and current invoices. We will post an update as soon as the issue is fully resolved.
+    - ts: "2026-08-04 21:42:43"
+      description: |-
+        As of 21:06 UTC, our Engineering team has resolved the issue affecting Spaces Cold Storage billing. An error in our billing processing system caused incorrect values to be reflected in daily usage and current invoices for customers with cold storage buckets.
+
+        Our team identified and corrected an issue with the billing data sync, ensuring accurate usage reporting. If you continue to experience any issues, please open a ticket with our Support team. We apologize for any inconvenience this may have caused.
+      resolved: true

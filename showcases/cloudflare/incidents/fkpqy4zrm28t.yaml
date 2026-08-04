@@ -1,0 +1,10 @@
+version: incident/v1
+id: fkpqy4zrm28t
+name: Elevated R2 error rates and latency
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-08-04 20:51:47"
+      description: Cloudflare is aware of, and investigating an issue with elevated R2 error rates and latency for R2 buckets located in Oceania
+      investigating: true
