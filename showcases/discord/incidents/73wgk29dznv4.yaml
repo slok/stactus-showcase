@@ -6,6 +6,15 @@ systems:
     - rhznvxg4v7yh
 timeline:
     - ts: "2026-08-04 18:49:50"
-      description: We are currently investigating an issue that is impacting users' ability to send direct messages.
+      description: We are currently investigating an issue that is impacting users' ability to send direct messages. Other functionality including interactions, shop, and SDK integrations are also affected.
     - ts: "2026-08-04 18:50:03"
       description: We are continuing to work on a fix for this issue.
+    - ts: "2026-08-04 19:36:19"
+      description: We are actively working toward system recovery and will post another update in 10 minutes.
+    - ts: "2026-08-04 19:53:43"
+      description: We have a fix in place are seeing recovery, although some users may still be seeing impact.
+    - ts: "2026-08-04 19:59:24"
+      description: We're seeing significant positive impact from our earlier fix; nearly all users should be recovered at this point. We are monitoring closely.
+    - ts: "2026-08-04 20:17:15"
+      description: This incident has been resolved.
+      resolved: true

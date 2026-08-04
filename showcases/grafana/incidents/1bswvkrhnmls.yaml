@@ -1,0 +1,15 @@
+version: incident/v1
+id: 1bswvkrhnmls
+name: Some Grafana Instances Unavailable
+impact: critical
+systems:
+    - qqj6ssvvsqmq
+    - m7cr9xxllhpn
+    - jky8f03q6zfj
+timeline:
+    - ts: "2026-08-04 19:11:09"
+      description: We are currently investigating an issue that causing some Grafana deployments in prod-us-central-0 and prod-us-central-3 to become unavailable.
+      investigating: true
+    - ts: "2026-08-04 20:12:51"
+      description: We are continuing to investigate this issue.
+      investigating: true
