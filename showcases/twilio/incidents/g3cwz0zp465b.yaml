@@ -1,0 +1,12 @@
+version: incident/v1
+id: g3cwz0zp465b
+name: 'Retroactive Incident: Verify Settings in Twilio Console Degraded'
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-04 18:15:16"
+      description: |-
+        On Jul 28th, from 02:03:40 UTC to 02:13:30 UTC, Verify settings in the Twilio Console were degraded. Actions related with template management, webhooks management, geopermissions and fraud guard configuration were unavailable in the US1 region.
+
+        This incident is now resolved.
+      resolved: true

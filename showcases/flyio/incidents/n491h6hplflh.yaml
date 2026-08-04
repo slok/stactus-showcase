@@ -1,0 +1,9 @@
+version: incident/v1
+id: n491h6hplflh
+name: MPG creation is failing in GRU due to lack of capacity
+impact: major
+systems:
+    - vnhk0y6jtn3q
+timeline:
+    - ts: "2026-08-04 19:03:41"
+      description: New MPG clusters may fail to create in GRU because we lack capacity.

@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2fqjvjdq32dy
+name: 502 errors observed around Singapore, Jakarta and Bangkok
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2026-08-04 18:38:43"
+      description: Cloudflare is investigating elevated 502 errors around Singapore, Jakarta and Bangkok. Further detail will be provided as more information becomes available.
+      investigating: true

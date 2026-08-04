@@ -1,0 +1,9 @@
+version: incident/v1
+id: 18tgvg90gg6h
+name: Retroactive Incident - Legacy Marketing Campaign Delays
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-04 18:01:41"
+      description: Retroactive Incident - Our engineers have investigated and resolved the issues with delays with Legacy API marketing campaigns. On Friday July 31, 2026 from 9:52 AM PT to 10:12 AM PT a subset of customers may have experienced delays sending Legacy Marketing campaigns when using the API or SendGrid UI.  There was no data loss during this incident. The issue has been resolved and all impacted services are operating normally.
+      resolved: true
