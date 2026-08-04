@@ -13,3 +13,6 @@ timeline:
     - ts: "2026-08-04 20:12:51"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2026-08-04 22:58:57"
+      description: 'We have identified the cause: our cloud provider has exhausted compute capacity in the affected region. We are working directly with them and are moving affected workloads to alternative capacity to restore service.'
+      investigating: true

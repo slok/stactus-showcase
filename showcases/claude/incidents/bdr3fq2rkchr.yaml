@@ -2,11 +2,7 @@ version: incident/v1
 id: bdr3fq2rkchr
 name: Elevated errors across many models
 impact: major
-systems:
-    - rwppv331jlwc
-    - k8w3r06qmzrp
-    - yyzkbfz2thpt
-    - bpp5gb3hpjcl
+systems: []
 timeline:
     - ts: "2026-08-04 20:48:20"
       description: We are currently investigating this issue.
@@ -14,3 +10,6 @@ timeline:
     - ts: "2026-08-04 21:04:57"
       description: We have identified an issue which resulted in some users experiencing issues when attempting to log into Anthropic services, including Claude.ai and Claude Code via oAuth. Additionally, some users saw errors when making requests to models. At this time, we have seen success rates recover and are monitoring closely to ensure there are no further issues.
       investigating: true
+    - ts: "2026-08-04 21:59:29"
+      description: This issue has been resolved.
+      resolved: true
