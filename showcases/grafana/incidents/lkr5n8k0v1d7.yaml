@@ -8,3 +8,6 @@ timeline:
     - ts: "2026-08-04 10:34:13"
       description: We have identified minor latency increases in write endpoints within the prod-eu-west-3. Our team is currently monitoring and investigating this.
       investigating: true
+    - ts: "2026-08-04 12:46:22"
+      description: There's still a minor latency increase in this cell however we have identified that it is improving although not back to normal as of yet. We will continue to look into this.
+      investigating: true
