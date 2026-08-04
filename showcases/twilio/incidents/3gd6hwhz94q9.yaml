@@ -1,0 +1,16 @@
+version: incident/v1
+id: 3gd6hwhz94q9
+name: Elevated 500 Errors on Multiple Twilio APIs
+impact: minor
+systems:
+    - x3z86l06nvl7
+timeline:
+    - ts: "2026-08-04 16:45:48"
+      description: |-
+        As of 16:13 UTC, we're seeing an increase in API failures on multiple Twilio APIs. The failures have tapered down to pre-event levels at 16:20 UTC. We're still monitoring our services and finding the root cause for the elevated failures.
+
+        We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-04 17:02:28"
+      description: We are no longer seeing an increase in API failures on multiple Twilio APIs. This incident has been resolved.
+      investigating: true

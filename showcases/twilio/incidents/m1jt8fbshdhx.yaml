@@ -1,0 +1,9 @@
+version: incident/v1
+id: m1jt8fbshdhx
+name: 'Retroactive Incident: Deepgram connection Timeouts Impacting Speech to Text'
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-04 15:36:38"
+      description: During a period between 7:30-8:16 AM PST customers using Deepgram as the speech-to-text provider may have seen degraded performance in speech recognition and realtime transcriptions for voice and video applications. This issue is now resolved.
+      resolved: true

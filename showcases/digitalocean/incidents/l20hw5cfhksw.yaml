@@ -1,0 +1,14 @@
+version: incident/v1
+id: l20hw5cfhksw
+name: Spaces Cold Storage Billing
+impact: minor
+systems:
+    - nkx0nmdx9vrs
+    - xbsdwfbb4xx0
+timeline:
+    - ts: "2026-08-04 16:13:35"
+      description: |-
+        Our Engineering team is investigating an issue affecting Spaces Cold Storage billing. During this time, customers with cold storage buckets may see incorrect values reflected in their daily usage and current invoices.
+
+        We apologize for the inconvenience and are actively working to resolve the issue. We will provide an update as soon as more information becomes available.
+      investigating: true
