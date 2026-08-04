@@ -1,0 +1,10 @@
+version: incident/v1
+id: lkr5n8k0v1d7
+name: Logs latency increase within prod-eu-west-3
+impact: minor
+systems:
+    - hqf81r9207h6
+timeline:
+    - ts: "2026-08-04 10:34:13"
+      description: We have identified minor latency increases in write endpoints within the prod-eu-west-3. Our team is currently monitoring and investigating this.
+      investigating: true
