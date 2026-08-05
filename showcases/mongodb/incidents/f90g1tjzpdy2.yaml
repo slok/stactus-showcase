@@ -1,0 +1,19 @@
+version: incident/v1
+id: f90g1tjzpdy2
+name: GCP capacity constraints affecting Atlas deployments
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-08-05 05:17:26"
+      description: |-
+        We are investigating an issue with Google Cloud Platform (GCP) capacity that is affecting some MongoDB Atlas customers across multiple GCP regions and geographies. We expect the scope of this issue to continue to expand as our investigation progresses. It currently includes, but is not limited to, multiple GCP regions across North America, Europe, and Asia Pacific/Australia, as well as M50 and S70L instance types.
+
+        Customers may experience errors or delays when creating or modifying Atlas clusters, particularly deployments with search nodes. Some customers may also see host-down alerts while this issue is ongoing.
+
+        MongoDB is working with GCP to understand the scope of the issue and restore capacity.
+
+        Customers encountering provisioning issues may retry later or consider using a different GCP region, cloud provider, or instance size. If you are experiencing a time-sensitive production impact, please contact MongoDB Support through the Support Portal or the in-product support chat.
+
+        We will provide another update as more information becomes available.
+      investigating: true

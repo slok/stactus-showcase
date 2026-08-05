@@ -1,0 +1,24 @@
+version: incident/v1
+id: 56mr50t39z2g
+name: Managed Challenge Issues for China Network
+impact: minor
+systems:
+    - x0tkn0hzrtw7
+    - d1r0plwsl5qb
+timeline:
+    - ts: "2026-08-05 04:17:11"
+      description: |-
+        Cloudflare is investigating an increased Managed Challenge errors for China Network.
+
+        We are working to analyse and mitigate this problem.  More updates to follow shortly.
+      investigating: true
+    - ts: "2026-08-05 04:34:05"
+      description: We are continuing to investigate this issue. This may impact customers using China Network outside of China.
+      investigating: true
+    - ts: "2026-08-05 04:51:55"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-08-05 05:54:25"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-08-05 06:06:08"
+      description: This incident has been resolved.
+      resolved: true
