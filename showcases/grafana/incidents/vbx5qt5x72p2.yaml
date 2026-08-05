@@ -1,0 +1,12 @@
+version: incident/v1
+id: vbx5qt5x72p2
+name: Some Cloud Test Runs Terminated
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-05 17:57:15"
+      description: |-
+        Between approximately 13:40 and 15:05 UTC today, a subset of cloud test runs were unexpectedly terminated and marked Aborted (by system). This affected runs that were in progress during three short windows in that period; test results and metrics for completed runs were not impacted.
+
+        We have identified the cause and no further occurrences have been observed since 15:05 UTC. A fix is in place. The platform is currently operating normally and test runs are executing as expected
+      resolved: true

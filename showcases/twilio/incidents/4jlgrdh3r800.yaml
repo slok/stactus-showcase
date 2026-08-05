@@ -1,0 +1,9 @@
+version: incident/v1
+id: 4jlgrdh3r800
+name: Retroactive Incident - Issues with encoded Special Characters in email From headers
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-05 18:48:08"
+      description: Starting on July 16th 2026, to July 31st 2026, customers may have encountered errors when sending emails via SMTP with encoded special characters in the From header. Our engineers noticed the issue and apply a fix to correct it. There is no data loss. The issue has been resolved, and all impacted services are operating normally.
+      resolved: true
