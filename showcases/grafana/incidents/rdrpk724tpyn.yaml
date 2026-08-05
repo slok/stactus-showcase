@@ -1,0 +1,15 @@
+version: incident/v1
+id: rdrpk724tpyn
+name: o11y requests too large for nods in the prod-eu-west-2 region.
+impact: minor
+systems:
+    - hcj5p68bp2kc
+    - 95tmjrzs9h1f
+    - kckd7qfk2gql
+timeline:
+    - ts: "2026-08-05 11:41:35"
+      description: We are currently investigating an issue with critical o11y requests being too large for nods in the prod-eu-west-2 region. This is leading to issues in scaling up services, and may may lead increased errors in requests.
+      investigating: true
+    - ts: "2026-08-05 11:44:35"
+      description: This incident has been resolved.
+      resolved: true

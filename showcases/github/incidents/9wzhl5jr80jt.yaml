@@ -1,0 +1,16 @@
+version: incident/v1
+id: 9wzhl5jr80jt
+name: Some Copilot Cloud Agent jobs not starting
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-08-05 11:38:57"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-08-05 12:01:29"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-08-05 12:10:46"
+      description: Copilot cloud agent jobs have recovered and the backlog of delayed jobs is being processed.
+    - ts: "2026-08-05 13:00:25"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
