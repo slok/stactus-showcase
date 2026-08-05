@@ -1,6 +1,6 @@
 version: incident/v1
 id: xzps8r06btt0
-name: Issues Connecting to Video Rooms in in1 region
+name: Issues Connecting to Video Rooms in the IN1 region
 impact: minor
 systems:
     - ys1jhy2ys04z
@@ -8,11 +8,14 @@ systems:
     - by1b8ylwwgs6
 timeline:
     - ts: "2026-08-05 06:22:38"
-      description: Our monitoring systems have detected a potential issue with connections to Video Rooms in in1 region. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      description: Our monitoring systems have detected a potential issue with connections to Video Rooms in IN1 region. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
       investigating: true
     - ts: "2026-08-05 06:51:46"
-      description: We are currently investigating an issue impacting Video Rooms in the in1 region. Customers may experience failures or delays when attempting to connect to rooms in this area. Our engineering team is actively looking into the root cause, and we will provide another update in 1 hour or as soon as more information becomes available.
+      description: We are currently investigating an issue impacting Video Rooms in the IN1 region. Customers may experience failures or delays when attempting to connect to rooms in this area. Our engineering team is actively looking into the root cause, and we will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
     - ts: "2026-08-05 07:35:56"
-      description: We are still investigating an issue impacting Video Rooms in the in1 region. Customers may experience failures or delays when attempting to connect to rooms in this area. Our engineering team is actively looking into the root cause, and we will provide another update in 2 hours or as soon as more information becomes available.
+      description: We are still investigating an issue impacting Video Rooms in the IN1 region. Customers may experience failures or delays when attempting to connect to rooms in this area. Our engineering team is actively looking into the root cause, and we will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-05 09:34:31"
+      description: We are still investigating an issue impacting Video Rooms in the IN1 region. Customers may experience failures or delays when attempting to connect to rooms in this area. Our engineering team is actively looking into the root cause, and we will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true

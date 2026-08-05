@@ -1,6 +1,6 @@
 version: incident/v1
 id: f6gkkq6txl7z
-name: Degraded performance for Claude Mythos 5, Claude Fable 5, and Claude Opus 5
+name: Degraded performance of multiple models
 impact: minor
 systems:
     - rwppv331jlwc
@@ -9,4 +9,6 @@ systems:
     - bpp5gb3hpjcl
 timeline:
     - ts: "2026-08-05 07:05:54"
-      description: We have identified the cause of elevated errors on requests to Claude Mythos 5, Claude Fable 5, and Claude Opus 5 and are working on a fix. We will provide an update as soon as possible.
+      description: We have identified the cause of elevated errors on requests to Claude Mythos 5, Claude Fable 5, and Claude Opus 5, Claude Sonnet 5 and are working on a fix. We will provide an update as soon as possible.
+    - ts: "2026-08-05 09:13:49"
+      description: We are continuing to work on a fix for this issue.
