@@ -1,0 +1,14 @@
+version: incident/v1
+id: 13pnklm9gf62
+name: SMS Delivery Delays and Failures from Twilio to C+W Sure United Kingdom
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-08-05 00:59:13"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to C+W Sure network subscribers in the United Kingdom. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-05 01:51:26"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to C+W Sure network subscribers in the United Kingdom. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-08-05 02:52:08"
+      description: Twilio customers may be experiencing SMS delivery delays and delivery failures from Twilio to C+W Sure network subscribers in the United Kingdom. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.

@@ -16,3 +16,8 @@ timeline:
     - ts: "2026-08-04 22:58:57"
       description: 'We have identified the cause: our cloud provider has exhausted compute capacity in the affected region. We are working directly with them and are moving affected workloads to alternative capacity to restore service.'
       investigating: true
+    - ts: "2026-08-05 00:54:52"
+      description: We have rolled out a change to the affected regions to restore services.
+    - ts: "2026-08-05 01:32:01"
+      description: We are observing a continued period of stability and at this point, we are marking the incident resolved.
+      resolved: true
