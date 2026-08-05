@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2026-08-05 20:26:01"
       description: High CPU pressure on a shared etcd instance is causing lags on MPG creation in the IAD region
+    - ts: "2026-08-05 20:41:05"
+      description: Etcd is stable. Services are back to normal.
+      resolved: true
