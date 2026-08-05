@@ -1,0 +1,17 @@
+version: incident/v1
+id: kf6qktrf2gc1
+name: Cloudflare Gateway Email List policy issues
+impact: minor
+systems:
+    - gyx2yygg7lmd
+timeline:
+    - ts: "2026-08-05 14:28:14"
+      description: Cloudflare is aware of and investigating an issue whereby customers using Gateway email lists in their DNS policies are not being enforced.  No other impact is implied. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-08-05 14:28:31"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-08-05 15:24:30"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-08-05 15:36:16"
+      description: A fix has been implemented and we are monitoring the results.

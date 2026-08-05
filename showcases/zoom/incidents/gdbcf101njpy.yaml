@@ -1,0 +1,12 @@
+version: incident/v1
+id: gdbcf101njpy
+name: Service degradation affecting Contact Center Analytics Dashboard for Voice Engagements in US Region.
+impact: minor
+systems:
+    - 33vmdfk84f1d
+timeline:
+    - ts: "2026-08-05 14:53:38"
+      description: "We are currently investigating a service degradation affecting Contact Center Analytics Dashboard for Voice Engagements in US Region. \n\nOur team is actively working on the resolution and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience."
+      investigating: true
+    - ts: "2026-08-05 15:15:43"
+      description: "We have successfully identified the root cause affecting Contact Center Analytics Dashboard for Voice Engagements in US Region. \n \nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience."

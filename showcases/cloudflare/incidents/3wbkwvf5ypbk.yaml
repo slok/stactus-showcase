@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3wbkwvf5ypbk
+name: Web Analytics Configuration issues
+impact: minor
+systems:
+    - qt59p3cr1grx
+timeline:
+    - ts: "2026-08-05 15:09:59"
+      description: Cloudflare is investigating issues with configuration changes for Cloudflare Web Analytics and rum beacon not taking effect or showing errors. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+      investigating: true
