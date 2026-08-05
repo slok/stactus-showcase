@@ -1,0 +1,9 @@
+version: incident/v1
+id: 8j5t987mm6b4
+name: MPG IAD data plane degraded for new clusters
+impact: minor
+systems:
+    - nv3vps27z635
+timeline:
+    - ts: "2026-08-05 20:26:01"
+      description: High CPU pressure on a shared etcd instance is causing lags on MPG creation in the IAD region
