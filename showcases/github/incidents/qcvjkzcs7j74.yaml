@@ -63,3 +63,15 @@ timeline:
     - ts: "2026-08-07 00:01:26"
       description: System-wide queues have been drained, and new jobs are being processed as expected. The fix for self-hosted runners not picking up jobs has been fully rolled out.<br /><br />Webhook-triggered Actions workflows have been restored to full throughput. GitHub Pages, Copilot code review, and Copilot coding agent are showing recovery. Migrations using GitHub Enterprise Importer remain paused as a precaution.<br /><br />We are monitoring all affected services for sustained recovery and will provide another update shortly.
       investigating: true
+    - ts: "2026-08-07 00:05:05"
+      description: The degradation affecting Actions and Pages has been mitigated. We are monitoring to ensure stability.
+      investigating: true
+    - ts: "2026-08-07 00:06:24"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-08-07 00:59:01"
+      description: We’re investigating reports that some Actions Runner Controller runners are taking longer than expected to recover. We’ll provide an update as our investigation progresses.
+    - ts: "2026-08-07 02:03:41"
+      description: During the incident, some Actions Runner Controller (ARC) runner pods became stuck in an idle state. Affected users can delete those pods using kubectl or redeploy their Actions Runner Controller application. ARC will automatically create replacement runners.<br /><br />The next releases of Actions Runner and Actions Runner Controller will include an automatic recovery mechanism, preventing the need for these manual steps in the future.<br /><br />Some workflow-triggering events, including push and pull request events, were not processed during the incident and cannot be replayed automatically. Customers may need to repeat the triggering action by pushing a new commit, updating the pull request, or manually re-running the workflow where applicable.
+    - ts: "2026-08-07 02:04:44"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
