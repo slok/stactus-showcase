@@ -1,0 +1,13 @@
+version: incident/v1
+id: pcg3nsfq6l2y
+name: Issues sending messages for bots and users
+impact: critical
+systems:
+    - rhznvxg4v7yh
+timeline:
+    - ts: "2026-08-07 22:21:42"
+      description: We're aware of an issue preventing users and bots from sending messages, we're working on fully restoring service
+    - ts: "2026-08-07 22:26:32"
+      description: This issue has expanded and is now affecting all Discord interactions. We're continuing to work towards mitigating the issue.
+    - ts: "2026-08-07 22:42:09"
+      description: We've recovered service and are continuing to monitor for recovery.

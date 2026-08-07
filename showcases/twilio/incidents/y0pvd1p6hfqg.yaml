@@ -1,6 +1,6 @@
 version: incident/v1
 id: y0pvd1p6hfqg
-name: SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Orange Guinea
+name: SMS Delivery Failures from a Subset of Twilio Alphanumeric Senders and Long Codes to Orange Guinea
 impact: minor
 systems:
     - 9z5gsqyjs4rl
@@ -16,3 +16,6 @@ timeline:
       description: We have observed a recovery in SMS delivery from a subset of Twilio Alphanumeric Sender IDs and Long Codes to Orange network subscribers in Guinea and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-08-07 20:26:07"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Alphanumeric Sender IDs and Long Codes to Orange network subscribers in Guinea and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-08-07 22:12:51"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Alphanumeric Senders and Long Codes to Orange network subscribers in Guinea is operating normally.
+      resolved: true
