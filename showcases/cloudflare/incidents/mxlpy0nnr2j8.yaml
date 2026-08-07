@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2026-08-07 17:10:28"
       description: "We have identified the root cause and reverted the impacted change. However, for the fix to apply to existing Workers utilizing Gradual Deployments, affected Workers must have their deployment traffic percentages adjusted or redeployed. \n\nAs a workaround, if you are currently impacted, you can immediately resolve the issue for your service by modifying the traffic weights of your Gradual Deployment (for example, shifting your active deployment weights from 50%/50% to 40%/60%, or redeploying your Worker).\n\nWe are actively working on an automated fix for all remaining affected customers and will provide another update once resolved."
+    - ts: "2026-08-07 17:42:14"
+      description: This incident has been resolved.
+      resolved: true
