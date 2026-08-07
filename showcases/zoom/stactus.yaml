@@ -92,7 +92,7 @@ systems:
     - id: jpbprc44q8dm
       name: Zoom Phone - Global / Third Party Contact Center Integration (Five9/Twilio/Talkdesk/inContact/Genesys)
     - id: qfc0730q37d7
-      name: 'Zoom Chat / Chat Messaging: Peer To Peer Messaging, History, Channels, Push Notifications'
+      name: 'Zoom Chat / Chat Messaging: Peer To Peer Messaging, History, Channels, Mobile Push Notifications'
     - id: 5848skqwjh49
       name: Zoom Rooms / Zoom Rooms Digital Signage
     - id: 9fjtsz4n4syv
@@ -202,13 +202,11 @@ systems:
     - id: qmwgsb4jbrst
       name: Zoom Rooms / Zoom Workspace Reservation
     - id: t7f6gfs4yh8l
-      name: Zoom Revenue Accelerator / Conversation Analytics
+      name: Zoom Revenue Accelerator / Conversations
     - id: cvfl2br01fsf
       name: Zoom CX - NORTH AMERICA / Chat (Inbound/Outbound)
     - id: 9mhsm7sbmhnr
       name: Zoom Support / Ticketing
-    - id: 6zdpxdsqsg56
-      name: Zoom Community
     - id: x63vf0zt5bxw
       name: Zoom Phone - Global / Cisco Rooms registered to Zoom Phone
     - id: 8bsg0rh42s31
@@ -295,6 +293,8 @@ systems:
       name: Zoom Chat / Search
     - id: 6r3mvdqx37b6
       name: Zoom Website / Zoom Rooms
+    - id: 6zdpxdsqsg56
+      name: Zoom Support / Zoom Community
     - id: dpqhcccldsxp
       name: Zoom Developer Platform / Zoom Video SDK
     - id: lj388xsd0lyh
@@ -344,7 +344,7 @@ systems:
     - id: jl5y2tlw4yqf
       name: Zoom Phone - Global / Zoom Phone Node Service
     - id: 07fc2bfpjgct
-      name: Zoom Chat / Zoom AIC
+      name: Zoom Chat / Zoom AI
     - id: gnzpmr12w06t
       name: Zoom CX - NORTH AMERICA / Email (Inbound/Outbound)
     - id: 01sbkdldqxqy
@@ -365,6 +365,8 @@ systems:
       name: Zoom Rooms / Translation
     - id: 1v9cn0m69cc1
       name: Apps by Zoom / Ellkay
+    - id: vvn0ww0dtxl0
+      name: Zoom Support / Chat Support
     - id: 1v74zmrq81fr
       name: Zoom Meetings / Archiving
     - id: 7t0r1gywtg50
@@ -401,6 +403,10 @@ systems:
       name: Zoom Phone - APAC / Hardware Phone
     - id: t3l1kpn3hwkh
       name: Zoom Rooms / Transcription
+    - id: 5m91ktys3kvz
+      name: Zoom Support / Zoom Support Portal
+    - id: rgvf2nl54gbk
+      name: Zoom Revenue Accelerator / Analytics
     - id: 8vtcg8np4n8c
       name: Zoom Meetings / Live Transcription
     - id: hz3fmmg26pty
@@ -433,6 +439,10 @@ systems:
       name: Zoom Phone - APAC / Native PSTN
     - id: 83xhyxw68qz5
       name: Zoom Phone - EMEA / Native PSTN
+    - id: 6mf5j0clgl2k
+      name: Zoom Support / Zoom Learning Center
+    - id: fbj9pcyz6l3k
+      name: Zoom Revenue Accelerator / Accounts
     - id: ytpvvb8n0s31
       name: Zoom Meetings / Closed Captioning
     - id: xsf368z0n054
@@ -455,6 +465,8 @@ systems:
       name: Zoom Phone - APAC / Carrier Platform
     - id: 9d00rmv58hq9
       name: Zoom Phone - EMEA / Carrier Platform
+    - id: pp5jzy36n7x4
+      name: Zoom Website / Zoom Homepage
     - id: r6dchcqc8zx6
       name: Zoom CX - NORTH AMERICA / Recording Service
     - id: y6v3zjwbhb12
@@ -469,6 +481,8 @@ systems:
       name: Zoom Phone - Global / Voicemail/Recording/Call Log
     - id: gt4whcvjvt8n
       name: Zoom CX - APAC / Voicemail
+    - id: 3ykc25ly91v3
+      name: Zoom Website / Zoom Products
     - id: rhmrtnvc7xrt
       name: Zoom Meetings / Live Streaming
     - id: 1z22tc2rdgdy
@@ -483,6 +497,8 @@ systems:
       name: Zoom CX - AUSTRALIA / SMS (Inbound/Outbound)
     - id: gv3hf58q5rwz
       name: Zoom CX - APAC / Transcription
+    - id: lvvzky5xjwht
+      name: Zoom Website / Contact Sales
     - id: ntdt65v1f9rv
       name: Zoom Meetings / Meeting Dial-in/Telephony
       description: Access to Telephony Services
@@ -527,8 +543,6 @@ systems:
       name: Zoom Meetings / Zoom for Intune
     - id: q0w0x5hdvymm
       name: Zoom CX - Global / PCI Integration
-    - id: gtf6dl08hrk1
-      name: Zoom Meetings / Zoom Whiteboard
     - id: 4t3x4vc5dxf1
       name: Zoom CX - Global / CX Insight
     - id: q4msk5dl4bhm
@@ -537,7 +551,7 @@ systems:
     - id: rgfwsk3p56gd
       name: Zoom CX - Global / Cobrowse
     - id: rsh1v3gbhtsy
-      name: Zoom Meetings / Zoom AIC
+      name: Zoom Meetings / Zoom AI
     - id: 398c07wcwfdw
       name: Zoom CX - Global / 3rd Party Messaging/Social (Inbound/Outbound)
     - id: 9qv6bp63zynp
@@ -550,6 +564,8 @@ systems:
       name: Zoom Meetings / AI Image Generation
     - id: y2j8tr9wxv49
       name: Zoom Meetings / Real Time Media Streams (RTMS)
+    - id: dsq3xl6t7s21
+      name: Zoom Meetings / Zoom Webinars Plus and Events
     - id: y9q5bf5pd4tm
       name: Zoom Subscriptions
     - id: 7lvp52xc051q
@@ -576,3 +592,5 @@ systems:
       name: ZoomMate
     - id: dvrth3dswrkz
       name: Zoom Node
+    - id: gtf6dl08hrk1
+      name: Zoom Whiteboard
