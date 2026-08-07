@@ -1,0 +1,10 @@
+version: incident/v1
+id: mxlpy0nnr2j8
+name: Worker's Observarbility Issues
+impact: minor
+systems:
+    - pqt7t1dwt0dz
+timeline:
+    - ts: "2026-08-07 16:04:27"
+      description: Cloudflare is aware, and investigating reports where a subset of customers are not seeing logs in the Workers Observability dashboard after deploying a new version of a Worker. Affected Workers continue to run and serve traffic normally. Metrics remain available.
+      investigating: true

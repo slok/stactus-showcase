@@ -7,3 +7,6 @@ timeline:
     - ts: "2026-08-07 14:54:14"
       description: Our monitoring systems have detected a potential issue with customers receiving errors when trying to access Twilio MCP Docs . Our engineers have been alerted and are investigating. We will provide an update when we have more details.
       investigating: true
+    - ts: "2026-08-07 16:05:46"
+      description: We have fully investigated the Twilio MCP Docs issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true
