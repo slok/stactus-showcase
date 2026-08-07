@@ -1,0 +1,22 @@
+version: incident/v1
+id: vbxl834x9l7q
+name: Delays delivering log drains
+impact: minor
+systems:
+    - r1xxpy1znh4j
+timeline:
+    - ts: "2026-08-06 16:37:10"
+      description: We've identified an issue causing delays in log drain delivery. We are investigating and will provide updates as they become available.
+      investigating: true
+    - ts: "2026-08-06 16:58:35"
+      description: We continue to investigate this issue and will provide updates as they become available.
+      investigating: true
+    - ts: "2026-08-06 17:06:01"
+      description: We've identified the issue and are working on a fix. We will provide updates as they become available.
+    - ts: "2026-08-06 17:48:17"
+      description: We are beginning to see recovery and continue to work on the issue. We will provide updates as they become available.
+    - ts: "2026-08-06 18:19:33"
+      description: Log drain delivery has recovered. We are monitoring while remaining delayed deliveries are processed.
+    - ts: "2026-08-06 18:29:45"
+      description: This incident has been resolved. Log drain delivery has recovered and remaining delayed deliveries have been processed.
+      resolved: true

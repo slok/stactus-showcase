@@ -12,5 +12,5 @@ timeline:
     - ts: "2026-08-05 12:10:46"
       description: Copilot cloud agent jobs have recovered and the backlog of delayed jobs is being processed.
     - ts: "2026-08-05 13:00:25"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On August 5, 2026, between 11:02 and 11:54 UTC, the GitHub Copilot cloud agent service was degraded and new cloud agent jobs were delayed from starting. During this period 100% of newly submitted agent jobs were affected. The incident was limited to delay of cloud agent jobs. No jobs were lost and the queued backlog was processed by 13:00 UTC. This was due to an internal rate limit used to protect service availability that was enabled more broadly than intended delaying more traffic than expected. <br /> <br />The service recovered when the rate limit window expired. We then tuned the control so it no longer affected unrelated coding agent traffic. <br /> <br />We are working to improve the control's scoping and our monitoring and alerting to reduce our time to detection and mitigation of similar issues in the future.
       resolved: true

@@ -1,0 +1,18 @@
+version: incident/v1
+id: 6j49hvfdxr47
+name: SMS Delivery Delays from Twilio to Tigo Honduras
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-08-06 14:34:14"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Tigo network subscribers in Honduras. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-06 15:34:43"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Tigo network subscribers in Honduras. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-06 17:32:03"
+      description: We have observed a recovery in SMS delivery from Twilio to Tigo network subscribers in Honduras and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-08-06 20:38:07"
+      description: The incident has been resolved and SMS delivery from Twilio to Tigo network subscribers in Honduras is operating normally.
+      resolved: true

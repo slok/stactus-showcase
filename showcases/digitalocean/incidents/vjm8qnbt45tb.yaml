@@ -1,0 +1,23 @@
+version: incident/v1
+id: vjm8qnbt45tb
+name: Multiple Services Availability
+impact: none
+systems:
+    - 558h1l1q0c2w
+    - mzkgffp35tq4
+    - ljktrzzffk6j
+    - g8rttgsgxr37
+    - nkx0nmdx9vrs
+    - pg9zc33244c7
+    - qdnryq0lymfk
+timeline:
+    - ts: "2026-08-06 16:33:14"
+      description: |-
+        Between Aug 6, 06:42 UTC and 09:08 UTC, customers experienced failures with write operations across multiple DigitalOcean services, including Managed Databases, DOKS, Cloud Firewalls, DNS, Spaces, Block Storage Volumes, and event processing.
+
+        Customers attempting to update Cloud Firewall rules, modify DNS records, manage object storage operations, provision or scale DOKS clusters and node pools, and make other infrastructure configuration changes experienced failures. These operations returned errors, preventing customers from managing their resources. Additionally, event processing was delayed or failed during this window, which may have impacted the timeliness of resource status updates and notifications.
+
+        The services have recovered and are now operating normally. Customers should no longer experience issues with write operations, configuration changes, or event processing.
+
+        We apologize for any inconvenience this may have caused. If you continue to experience issues with any of these services, please don't hesitate to open a support ticket. Our team will be happy to assist you.
+      resolved: true

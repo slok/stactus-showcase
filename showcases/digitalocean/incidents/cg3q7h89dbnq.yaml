@@ -1,0 +1,25 @@
+version: incident/v1
+id: cg3q7h89dbnq
+name: Functions on App Platform
+impact: minor
+systems:
+    - txysr8r0gn1n
+    - k96xfyczckzw
+timeline:
+    - ts: "2026-08-06 19:01:27"
+      description: |-
+        Our Engineering team is investigating an issue impacting Functions on App Platform. During this time, users may experience build/deploy failures for Functions components, and requests to Functions endpoints may fail with a 504 error, caused by an SSL error when App Platform attempts to forward requests to Functions. This issue currently appears to be isolated to Functions deployed within App Platform.
+
+        We apologize for the inconvenience and will share an update once we have more information.
+      investigating: true
+    - ts: "2026-08-06 20:02:03"
+      description: |-
+        Our Engineering team has implemented a fix for the issue affecting Functions on App Platform. Functions builds/deploys and requests to Functions endpoints should now be completing successfully. We are currently monitoring the situation to ensure the service has returned to normal operation and remains stable.
+
+        We apologize for the inconvenience and will provide a further update once the incident is confirmed resolved.
+    - ts: "2026-08-06 21:05:05"
+      description: |-
+        Our Engineering team has confirmed that the issue affecting Functions on App Platform has been fully resolved. Functions builds, deploys, and requests to Functions endpoints are all working as expected. The fix implemented earlier was successful, and we are no longer seeing any problems affecting Functions.
+
+        However, if you continue to experience any issues, please don't hesitate to raise a support ticket for further investigation.
+      resolved: true

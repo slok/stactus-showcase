@@ -1,0 +1,65 @@
+version: incident/v1
+id: qcvjkzcs7j74
+name: Incident with Actions
+impact: critical
+systems:
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2026-08-06 15:22:49"
+      description: We are investigating reports of degraded performance for Actions
+      investigating: true
+    - ts: "2026-08-06 15:41:10"
+      description: Actions is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-06 15:45:14"
+      description: We are investigating errors affecting GitHub Actions. Some workflow runs are failing to start or failing partway through, and some requests to the Actions REST API are returning errors. <br /><br />Some customers may also see unexpected rate limiting in their workflows. <br /><br />Engineers have identified the source of the disruption and are actively working on a mitigation
+      investigating: true
+    - ts: "2026-08-06 15:53:22"
+      description: Pages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-06 16:19:30"
+      description: Pages is operating normally.
+      investigating: true
+    - ts: "2026-08-06 16:27:01"
+      description: Pages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-06 16:27:47"
+      description: We are continuing to work on the issue affecting GitHub Actions. <br /><br />Some workflow runs are still delayed or failing to complete, and some requests to the Actions API are returning errors. <br /><br />Customers running migrations with GitHub Enterprise Importer may also see failures. <br /><br />Engineers are actively working towards full recovery.
+      investigating: true
+    - ts: "2026-08-06 16:33:31"
+      description: Actions and Pages are experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-06 17:02:43"
+      description: We are continuing to work on the issue affecting GitHub Actions. <br /><br />Workflow runs are still failing or delayed in starting, and some queued jobs may time out. <br /><br />Some requests to the Actions API are returning errors. Customers running migrations with GitHub Enterprise Importer may see failures. <br /><br />Our engineers have applied several mitigations and are rolling out a further fix now.
+      investigating: true
+    - ts: "2026-08-06 17:40:22"
+      description: We are continuing to work on an issue affecting multiple GitHub services.<br /><br />Workflow runs are failing or delayed in starting, and some queued jobs may time out. <br /><br />Copilot code review, Copilot coding agent, hosted runners, and migrations using GitHub Enterprise Importer might also affected. <br /><br />Webhook deliveries may be delayed. <br /><br />Engineers have applied a number of mitigations and are rolling out a further fix across all affected systems now.
+      investigating: true
+    - ts: "2026-08-06 18:11:41"
+      description: We are continuing to work on an issue affecting multiple GitHub services. <br /><br />Workflow runs are still failing or delayed in starting, and some queued jobs may time out. <br /><br />Customers using self-hosted runners may see errors or rate limiting when runners register. <br /><br />Copilot code review, Copilot coding agent, hosted runners, and migrations using GitHub Enterprise Importer may also be affected. <br /><br />Webhook deliveries may be delayed.<br /><br />Engineers have applied further mitigations and are continuing to work towards full recovery.
+      investigating: true
+    - ts: "2026-08-06 18:46:37"
+      description: We are continuing to work on an issue affecting multiple GitHub services. <br /><br />Workflow runs are still failing, and jobs may remain queued for an extended period before starting or may time out. Jobs using GitHub-hosted runners are particularly affected while capacity is constrained. <br /><br />Customers using self-hosted runners may see errors or rate limiting when runners register. <br /><br />Copilot code review, Copilot coding agent, and migrations using GitHub Enterprise Importer may also be affected. Webhook deliveries may be delayed. <br /><br />Recovery is taking longer than we expected, and engineers remain actively engaged.
+      investigating: true
+    - ts: "2026-08-06 19:43:21"
+      description: We are continuing to work on an issue affecting GitHub Actions. <br /><br />Capacity remains constrained and jobs may still be delayed or fail while it recovers gradually. Customers using self-hosted runners may see errors or rate limiting when runners register.  <br /><br />Copilot code review, Copilot coding agent, and migrations using GitHub Enterprise Importer may also be affected. Webhook deliveries may be delayed. <br /><br />Our engineers remain actively engaged.
+      investigating: true
+    - ts: "2026-08-06 20:34:17"
+      description: We are continuing to work on an issue affecting GitHub Actions. Webhook triggers are currently throttled to help with recovery and and we are processing approximately 15% of webhooks, so many events such as pushes and pull requests are not triggering workflow runs. Of jobs queued, approximately 65% are succeeding, improved from a low of 30 to 40% earlier in this incident.<br /><br />We have narrowed the remaining impact to runners that are stuck retrying jobs that are no longer available. Both GitHub-hosted and self-hosted runners are affected, and we are working to recover them.<br /><br />Copilot code review, Copilot coding agent, and migrations using GitHub Enterprise Importer may also be affected.
+      investigating: true
+    - ts: "2026-08-06 21:30:42"
+      description: We are continuing to work on an issue affecting GitHub Actions. Webhook triggers remain throttled to aid recovery, so many push and pull request events are not triggering new workflow runs.<br /><br />We identified runners being assigned jobs that are no longer valid and are deploying a change to address this issue. Both GitHub-hosted and self-hosted runners are affected.<br /><br />Copilot code review, Copilot coding agent, and GitHub Pages may experience failures or delays. Migrations using GitHub Enterprise Importer have been paused to support mitigation efforts.
+      investigating: true
+    - ts: "2026-08-06 22:18:09"
+      description: We continue to make progress on the issue affecting GitHub Actions. We have deployed a fix that addresses runners being assigned jobs that are no longer valid, and are seeing improvement in job completion rates. For workflow runs that are starting, success rates have increased significantly and are now at 97%. Standard and larger runners are now draining queued work. A change is also in progress to mitigate issues with existing self-hosted runners that are not picking up jobs.<br /><br />Webhook triggers remain throttled to support recovery. Many push and pull request events are not yet triggering new workflow runs, and we are working to safely restore full throughput.<br /><br />GitHub Pages, Copilot code review, and Copilot coding agent may still experience failures or delays. Migrations using GitHub Enterprise Importer remain paused.<br /><br />We are continuing to monitor recovery and will provide another update as conditions improve.
+      investigating: true
+    - ts: "2026-08-06 23:13:30"
+      description: We have deployed fixes that address runners being assigned invalid jobs and are taking additional steps to clear the backlog of affected jobs. Job completion rates for running workflows have improved significantly, with success rates now at 99%. Global queues for hosted runner assignment are nearly burned down and concurrency queues for customers are being processed. Another change was deployed to accelerate processing the backlog of job requests.<br /><br />We are gradually restoring throughput for webhook-triggered Actions workflows and monitoring system stability. We have deployed a fix for self-hosted runners that were not picking up jobs and are enabling it incrementally.<br /><br />GitHub Pages, Copilot code review, and Copilot coding agent may still experience intermittent failures or delays. Migrations using GitHub Enterprise Importer remain paused.<br /><br />We continue to monitor recovery across all affected services and will provide another update as conditions improve.
+      investigating: true
+    - ts: "2026-08-07 00:01:15"
+      description: <br />System-wide queues have been drained, and new jobs are being processed as expected. The fix for self-hosted runners not picking up jobs has been fully rolled out.<br /><br />Webhook-triggered Actions workflows have been restored to full throughput. GitHub Pages, Copilot code review, and Copilot coding agent are showing recovery. Migrations using GitHub Enterprise Importer remain paused as a precaution.<br /><br />We are monitoring all affected services for sustained recovery and will provide another update shortly.
+      investigating: true
+    - ts: "2026-08-07 00:01:26"
+      description: System-wide queues have been drained, and new jobs are being processed as expected. The fix for self-hosted runners not picking up jobs has been fully rolled out.<br /><br />Webhook-triggered Actions workflows have been restored to full throughput. GitHub Pages, Copilot code review, and Copilot coding agent are showing recovery. Migrations using GitHub Enterprise Importer remain paused as a precaution.<br /><br />We are monitoring all affected services for sustained recovery and will provide another update shortly.
+      investigating: true

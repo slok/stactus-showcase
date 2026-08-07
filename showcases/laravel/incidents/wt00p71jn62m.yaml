@@ -1,0 +1,15 @@
+version: incident/v1
+id: wt00p71jn62m
+name: Slow response times and timeouts in the Cloud Control Panel
+impact: minor
+systems:
+    - k648vlw65tzw
+timeline:
+    - ts: "2026-08-06 14:26:27"
+      description: We're seeing slow response times and intermittent 504 timeouts on some pages of the Cloud Control Panel. Your running apps, deployments and databases are not affected.
+      investigating: true
+    - ts: "2026-08-06 15:03:05"
+      description: The dashboard is loading normally again and we're monitoring to confirm it's stable.
+    - ts: "2026-08-06 15:13:35"
+      description: The dashboard is fully back up. Your running apps were unaffected throughout. We apologize for the disruption.
+      resolved: true

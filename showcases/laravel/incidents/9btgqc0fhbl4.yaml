@@ -1,0 +1,19 @@
+version: incident/v1
+id: 9btgqc0fhbl4
+name: Intermittent errors in the Cloud Control Panel
+impact: minor
+systems:
+    - k648vlw65tzw
+timeline:
+    - ts: "2026-08-06 22:22:51"
+      description: |-
+        Some requests to the Cloud Control Panel are returning errors. Your apps, deployments and databases are running normally and are not affected.
+        We're investigating and will post an update shortly.
+      investigating: true
+    - ts: "2026-08-06 22:23:47"
+      description: We've identified the cause of the errors and a fix is being rolled out.
+    - ts: "2026-08-06 22:25:35"
+      description: The dashboard is loading normally again and we're monitoring to confirm it's stable.
+    - ts: "2026-08-06 23:03:58"
+      description: The dashboard is fully back up. Your running apps were unaffected throughout. We apologize for the disruption.
+      resolved: true
