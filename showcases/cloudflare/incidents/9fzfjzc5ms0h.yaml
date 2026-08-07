@@ -1,0 +1,10 @@
+version: incident/v1
+id: 9fzfjzc5ms0h
+name: R2 Availability Issues
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-08-07 18:42:26"
+      description: Cloudflare is aware, and investigating an issue affecting availability for a small number of R2 buckets
+      investigating: true
