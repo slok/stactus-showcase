@@ -8,3 +8,7 @@ timeline:
     - ts: "2026-08-07 18:42:26"
       description: Cloudflare is aware, and investigating an issue affecting availability in ENAM for a small number of R2 buckets.
       investigating: true
+    - ts: "2026-08-07 22:54:11"
+      description: We have identified the cause and mitigated further impact. Writes to a small set of buckets in ENAM were impacted between 14:52-17:02 UTC. We are continuing to work to restore normal availability for these buckets.
+    - ts: "2026-08-07 23:05:19"
+      description: We are continuing to work on a fix for this issue.
