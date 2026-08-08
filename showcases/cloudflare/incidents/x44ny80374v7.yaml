@@ -1,0 +1,13 @@
+version: incident/v1
+id: x44ny80374v7
+name: Network Performance Issues in Istanbul
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-08-08 08:25:15"
+      description: |-
+        We have lost dark fiber in the Istanbul region, we are working to follow up with our vendors to restore connectivity.
+
+        More updates to follow shortly.
+      investigating: true
