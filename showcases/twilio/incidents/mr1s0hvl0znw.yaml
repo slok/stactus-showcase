@@ -1,0 +1,12 @@
+version: incident/v1
+id: mr1s0hvl0znw
+name: SMS Delivery Receipt Delays from a Subset of Twilio Phone Numbers to Tigo and Empresa de Telecomunicaciones de Bogota Colombia
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-08-08 16:15:44"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Phone Numbers to Tigo and Empresa de Telecomunicaciones de Bogota network subscribers in Colombia. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-08 16:23:13"
+      description: We have observed a recovery in SMS delivery receipts from a subset of Twilio Phone Numbers to Tigo and Empresa de Telecomunicaciones de Bogota network subscribers in Colombia and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
