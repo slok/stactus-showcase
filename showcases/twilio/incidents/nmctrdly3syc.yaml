@@ -1,6 +1,6 @@
 version: incident/v1
 id: nmctrdly3syc
-name: SMS Delivery Delays and Failures from Twilio to Multiple Networks in Portugal
+name: SMS Delivery Delays and Failures from Twilio Phone Numbers to Multiple Networks in Portugal
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -11,3 +11,7 @@ timeline:
     - ts: "2026-08-08 11:48:13"
       description: Twilio customers may be experiencing SMS delivery delays and  failures from Twilio to network subscribers on multiple networks in Portugal. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be failing. We will provide another update in 2 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-08-08 12:23:58"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio Phone Numbers to network subscribers on multiple networks in Portugal. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-08-08 13:24:30"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio Phone Numbers to network subscribers on multiple networks in Portugal. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
