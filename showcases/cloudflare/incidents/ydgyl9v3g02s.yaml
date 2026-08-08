@@ -1,6 +1,6 @@
 version: incident/v1
 id: ydgyl9v3g02s
-name: Connectivity Issues in Egypt
+name: Connectivity issues affecting access to some website from certain networks in Egypt
 impact: minor
 systems:
     - 4n0gb0kh02gf
@@ -10,3 +10,5 @@ timeline:
         Cloudflare is aware of, and investigating a connectivity issue which potentially impacts end-user connectivity in Egypt.
         More updates to follow shortly.
       investigating: true
+    - ts: "2026-08-08 15:52:21"
+      description: Cloudflare has identified a connectivity issue affecting access to some websites from certain networks in Egypt. We are working with external parties to restore network availability. More updates will follow.
