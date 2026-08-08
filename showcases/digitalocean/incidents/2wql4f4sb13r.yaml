@@ -1,0 +1,18 @@
+version: incident/v1
+id: 2wql4f4sb13r
+name: Account Registration, Droplets, and Related Services
+impact: minor
+systems:
+    - dkbfnt2ghbw4
+    - mzkgffp35tq4
+    - ljktrzzffk6j
+    - yvh4g97h7mk7
+timeline:
+    - ts: "2026-08-08 18:57:49"
+      description: |-
+        Our Engineering team is currently investigating reports of an issue affecting new account registration, Reserved IPs, Snapshots, Droplets and Droplet-based services across multiple regions.
+
+        During this time, customers may be unable to create new accounts, create Droplets, allocate Reserved IPs, or perform Automated Backups and Snapshots operations. Droplet Autoscale scaling operations and DOKS cluster operations are also affected.
+
+        Our Engineering team is actively investigating the issue and we will provide another update as soon as more information becomes available.
+      investigating: true
