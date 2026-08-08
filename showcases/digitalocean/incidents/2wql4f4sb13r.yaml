@@ -26,3 +26,20 @@ timeline:
 
         Our Engineering team is actively investigating the issue and we will provide another update as soon as more information becomes available.
       investigating: true
+    - ts: "2026-08-08 20:02:35"
+      description: |-
+        Our Engineering team has identified the root cause of the issue affecting new account registration, Droplets, Reserved IPs, Snapshots, and DOKS clusters across multiple regions.
+
+        Customers may experience the following:
+
+        Unable to create new accounts
+        Unable to create Droplets
+        Unable to allocate Reserved IPs
+        Failures with Automated Backups and Snapshots operations
+        Droplet Autoscale scaling operations not working as expected
+        DOKS cluster operations failing
+        GenAI services impacted
+        Unable to access the Droplet console
+        Database clusters stuck in a "Creating" state
+
+        Our Engineering team is working on implementing a fix and we will provide another update as soon as more information becomes available.
