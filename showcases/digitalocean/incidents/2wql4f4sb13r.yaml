@@ -16,3 +16,13 @@ timeline:
 
         Our Engineering team is actively investigating the issue and we will provide another update as soon as more information becomes available.
       investigating: true
+    - ts: "2026-08-08 19:38:23"
+      description: |-
+        Our Engineering team is continuing to investigate reports of an issue affecting new account registration, Reserved IPs, Snapshots, Droplets and Droplet-based services across multiple regions.
+
+        During this time, customers may be unable to create new accounts, create Droplets, allocate Reserved IPs, or perform Automated Backups and Snapshots operations. Droplet Autoscale scaling operations and DOKS cluster operations are also affected.
+
+        Further investigation has found that GenAI services are also affected due to this issue, customers may also be unable to access the Droplet console, and Database clusters may be stuck in a "Creating" state.
+
+        Our Engineering team is actively investigating the issue and we will provide another update as soon as more information becomes available.
+      investigating: true
