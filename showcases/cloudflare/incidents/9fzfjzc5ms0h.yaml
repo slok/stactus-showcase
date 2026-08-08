@@ -14,3 +14,5 @@ timeline:
       description: We are continuing to work on a fix for this issue.
     - ts: "2026-08-08 10:52:56"
       description: We are continuing to restore availability for impacted R2 buckets in ENAM. Recovery is progressing well, and we will provide status updates as they becomes available
+    - ts: "2026-08-08 23:28:09"
+      description: Availability has been restored for nearly all impacted R2 buckets. A small number of objects uploaded through multipart uploads in ENAM between 14:52 and 17:02 UTC on August 7 remain unavailable. We are continuing to restore access and expect to be able to provide another update soon.
