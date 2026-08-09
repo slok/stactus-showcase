@@ -1,6 +1,6 @@
 version: incident/v1
 id: 91n3xb2prbgx
-name: Voice Call Post Dial Delay from a Subset of Twilio Mobile Numbers to Verizon United States
+name: Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to Verizon United States
 impact: minor
 systems:
     - 2v3v92mz2m4h
@@ -16,3 +16,6 @@ timeline:
       description: We have observed a recovery in voice calls from a subset of Twilio Mobile Numbers to Verizon network subscribers in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-08-09 00:19:24"
       description: We have observed a recovery in voice calls from a subset of Twilio Mobile Numbers to Verizon network subscribers in the United States and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-08-09 04:00:37"
+      description: The incident has been resolved and voice calls from a subset of Twilio Phone Numbers to Verizon network subscribers in the United States are operating normally.
+      resolved: true

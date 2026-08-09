@@ -1,0 +1,12 @@
+version: incident/v1
+id: smh0bkbsqnr8
+name: Increased app-not-found errors
+impact: major
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2026-08-09 02:50:05"
+      description: We are currently investigating app-not-found errors returned by Machines API calls made shortly after creating new applications.
+      investigating: true
+    - ts: "2026-08-09 03:50:17"
+      description: We have identified the issue as failed insertions in a subset of Corrosion batches. These failures trigger retries, which can cause timeouts for other batches.
