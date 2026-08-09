@@ -10,3 +10,5 @@ timeline:
       investigating: true
     - ts: "2026-08-09 03:50:17"
       description: We have identified the issue as failed insertions in a subset of Corrosion batches. These failures trigger retries, which can cause timeouts for other batches.
+    - ts: "2026-08-09 04:58:53"
+      description: We’ve applied a mitigation to reduce the impact from Corrosion batch insertion retries and are continuing to monitor while affected nodes catch up.
