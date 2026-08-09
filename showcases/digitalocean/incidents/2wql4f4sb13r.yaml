@@ -48,3 +48,24 @@ timeline:
         Our Engineering team continues to work on implementing and rolling out a fix for the issue affecting multiple services across multiple regions, including new account registration, Droplets, Reserved IPs, Automated Backups and Snapshots, Droplet Autoscale, DOKS clusters, GenAI services, the Droplet console, and Database cluster creation.
 
         Customers may continue to experience the previously reported service disruptions while remediation efforts remain in progress. We will provide another update as soon as more information becomes available.
+    - ts: "2026-08-09 00:31:29"
+      description: |-
+        Our Engineering team has implemented a fix for the issue affecting new account registration, Droplets, Reserved IPs, Snapshots, and DOKS clusters across multiple regions, and is currently monitoring the situation. At this time, customers should no longer experience errors with:
+
+        New account registration
+        Droplet creation
+        Reserved IP allocation
+        Automated Backups and Snapshots operations
+        Droplet Autoscale scaling operations
+        DOKS cluster operations
+        GenAI services
+        Access to the Droplet console
+        Database cluster creation
+
+        We will continue to monitor the situation to ensure that all services are stable and functioning as expected. We will post an update as soon as the issue is fully resolved.
+    - ts: "2026-08-09 01:01:02"
+      description: |-
+        Our Engineering team confirms the full resolution of the issue affecting all impacted services, including new account registration, Droplet Creation, Reserved IPs, Automated Backups and Snapshots, Droplet Autoscale, DOKS clusters, GenAI services, the Droplet Console, and Database cluster creation.
+
+        We apologize for the inconvenience. If you continue to experience any issues, please open a support ticket from within your account.
+      resolved: true
