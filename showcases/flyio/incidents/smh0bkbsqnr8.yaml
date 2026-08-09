@@ -14,3 +14,8 @@ timeline:
       description: We’ve applied a mitigation to reduce the impact from Corrosion batch insertion retries and are continuing to monitor while affected nodes catch up.
     - ts: "2026-08-09 06:03:58"
       description: We’ve deployed an additional mitigation to further reduce Corrosion retry pressure and are seeing improvement; we’re continuing to monitor while remaining affected nodes catch up.
+    - ts: "2026-08-09 06:42:05"
+      description: A fix has been implemented and we are monitoring the results
+    - ts: "2026-08-09 07:10:08"
+      description: This incident has been resolved.
+      resolved: true
