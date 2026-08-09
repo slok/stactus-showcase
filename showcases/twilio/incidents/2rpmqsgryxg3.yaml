@@ -1,0 +1,12 @@
+version: incident/v1
+id: 2rpmqsgryxg3
+name: SMS Delivery Delays and Failures from Twilio to Rakuten Japan
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-08-09 09:21:34"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Rakuten network subscribers in Japan. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-09 09:25:29"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Rakuten network subscribers in Japan. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
