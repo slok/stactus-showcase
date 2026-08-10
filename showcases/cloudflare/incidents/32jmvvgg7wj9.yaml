@@ -1,0 +1,10 @@
+version: incident/v1
+id: 32jmvvgg7wj9
+name: Issues with 1.1.1.1 public resolver in Tel Aviv (TLV)
+impact: minor
+systems:
+    - 8w536gxk7dvq
+timeline:
+    - ts: "2026-08-10 10:15:40"
+      description: Cloudflare is aware of, and investigating, an issue which potentially impacts multiple users in Tel Aviv that use 1.1.1.1 public resolver. Further detail will be provided as more information becomes available.
+      investigating: true
