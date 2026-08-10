@@ -6,3 +6,5 @@ systems: []
 timeline:
     - ts: "2026-08-10 16:21:12"
       description: Our engineers have identified the issue (identified at 9:58 AM PDT) and are working toward a fix. Customers attempting to cancel or downgrade a SendGrid plan that has a dedicated IP are currently receiving a 400 error. If you need to downgrade or cancel, the current workaround is to reach out to Support to request an IP removal. We will provide another update in 1 hour or as soon as more information becomes available. Mail sending is not impacted, and any downgrades or cancellations currently in progress remain unaffected.
+    - ts: "2026-08-10 17:04:36"
+      description: Our engineers have implemented a fix and are monitoring system performance. Customers with a dedicated IP should now be able to successfully cancel or downgrade their plan without encountering a 400 error. We will provide another update in 1 hour or as soon as more information becomes available.
