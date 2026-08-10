@@ -1,0 +1,9 @@
+version: incident/v1
+id: d9l78m4jbtrv
+name: Cloudflare Realtimekit API had reduced availability
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-08-10 11:39:23"
+      description: Cloudflare became aware of a brief period of reduced availability of the Realtimekit API, between the times 11:07 UTC and 11:13 UTC.  This issue has recovered, and no further impact expected.
+      resolved: true
