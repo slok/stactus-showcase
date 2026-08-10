@@ -13,3 +13,8 @@ timeline:
       description: The degradation has been mitigated. We are monitoring to ensure stability.
     - ts: "2026-08-10 21:19:06"
       description: The issue has been mitigated across all affected environments. We are currently deploying on a fix to prevent reoccurrence. We will provide another update once the fix has been deployed.
+    - ts: "2026-08-10 21:50:40"
+      description: We have deployed and validated the fix to prevent immediate reoccurrence. We will be performing additional work to limit these kinds of failures in the future.
+    - ts: "2026-08-10 21:50:43"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
