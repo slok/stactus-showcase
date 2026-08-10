@@ -1,0 +1,9 @@
+version: incident/v1
+id: 4d2yvpdh9v3n
+name: 'Metrics: Elevated Error Rates Reads/Writes'
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-08-10 13:30:09"
+      description: Between 12:20 and 13:15 UTC, we experienced elevated error rates for metrics reads and writes due to a networking issue. Impact was limited to a subset of deployments in the prod-us-central-0 region. A fix has been applied and error rates have since recovered.
+      resolved: true
