@@ -1,0 +1,15 @@
+version: incident/v1
+id: 1t7x65n7kvt1
+name: Disruption with Copilot for access to some models
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-08-10 20:27:19"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-08-10 20:39:11"
+      description: We are currently investigating reports of some Copilot users experiencing issues accessing certain models. Affected users may see errors or degraded functionality when attempting to use specific models. We are actively working on a fix and will provide updates as we have more information.
+    - ts: "2026-08-10 20:49:46"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-08-10 21:19:06"
+      description: The issue has been mitigated across all affected environments. We are currently deploying on a fix to prevent reoccurrence. We will provide another update once the fix has been deployed.
