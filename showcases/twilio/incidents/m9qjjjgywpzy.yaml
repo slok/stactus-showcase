@@ -1,0 +1,13 @@
+version: incident/v1
+id: m9qjjjgywpzy
+name: Dialogflow Virtual Agent Degraded
+impact: minor
+systems:
+    - s91kksd3hqjp
+timeline:
+    - ts: "2026-08-10 17:59:28"
+      description: We are currently invetigating an issue observing elevated latency, error rates for integrations using <Connect><VirtualAgent> to bridge to Dialogflow CX agents. We will provide updates in an hour or as soon as more information becomes avalible.
+      investigating: true
+    - ts: "2026-08-10 18:01:12"
+      description: We are continuing to investigate this issue.
+      investigating: true

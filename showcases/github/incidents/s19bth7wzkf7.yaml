@@ -1,0 +1,16 @@
+version: incident/v1
+id: s19bth7wzkf7
+name: Disruption with creation of fine grained personal access tokens
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-08-10 18:02:04"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-08-10 18:09:36"
+      description: We are investigating reports of users being unable to create fine-grained Personal Access Tokens. Attempting to create a new token redirects the user back to the token overview page without an error message, but the token was not created.
+      investigating: true
+    - ts: "2026-08-10 18:21:41"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-08-10 18:22:18"
+      description: We identified the source of the issue affecting creation of fine-grained personal access tokens and have applied a mitigation. Users should now be able to create new fine-grained tokens successfully. We are continuing to monitor to confirm full recovery.
