@@ -1,0 +1,9 @@
+version: incident/v1
+id: rfrm4fr82w2x
+name: Increase in Connectivity errors in London, UK
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-11 14:04:21"
+      description: "Cloudflare is aware of, and has resolved, an issue within our London datacenter where some traffic may have seen reduced connectivity for a short time. \nThis potential impact window for this was 12:58 UTC to 13:25 UTC.\nThere is no ongoing impact."
+      resolved: true

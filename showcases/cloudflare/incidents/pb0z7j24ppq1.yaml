@@ -1,0 +1,10 @@
+version: incident/v1
+id: pb0z7j24ppq1
+name: Cloudflare Analytics Delays
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-08-11 14:22:00"
+      description: Reporting and analytics for the HttpRequestsAdaptiveGroups node is delayed. This will result in failures on dashboard for analytics. We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true

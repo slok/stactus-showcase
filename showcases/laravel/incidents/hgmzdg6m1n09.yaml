@@ -1,10 +1,23 @@
 version: incident/v1
 id: hgmzdg6m1n09
-name: Elevated error rates in EUC2
+name: Elevated error rates in EUW2
 impact: major
 systems:
     - jmw0wwg6553f
 timeline:
     - ts: "2026-08-11 13:22:57"
-      description: We're seeing an increase in errors affecting applications in the EUC2 region and we're actively looking into it right now. We apologize for the disruption and we'll update you as soon as we have more.
+      description: We're seeing an increase in errors affecting applications in the EUW2 region and we're actively looking into it right now. We apologize for the disruption and we'll update you as soon as we have more.
       investigating: true
+    - ts: "2026-08-11 13:48:52"
+      description: |-
+        The errors have subsided and we're seeing healthy traffic ingress to affected applications.
+
+        We continue to work closely with our Edge Network provider to confirm the cause of this event and monitoring our network closely for further issue.
+
+        If you are still experiencing any issues accessing your applications, we ask that you contact our Support Team who will be pleased to assist you.
+    - ts: "2026-08-11 14:14:54"
+      description: |-
+        This disruption was caused by an upstream network incident affecting Cloudflare's London datacenter, which Cloudflare has since published on their status page: https://new.cloudflarestatus.com/incidents/rfrm4fr82w2x
+
+        We're sorry for the disruption and thank you for your patience.
+      resolved: true
