@@ -797,21 +797,34 @@ systems:
       description: Page Shield simplifies external script management by tracking loaded resources like scripts and providing alerts when it detects new resources or malicious scripts. Page Shield also tracks the connections made by scripts on your domain’s pages and checks if they are malicious based on their destination.
     - id: vgxj684rcw7t
       name: Cloudflare Sites and Services / Pages
+    - id: xr712w0ly7nr
+      name: Cloudflare Sites and Services / Pipelines
+      description: Managed streaming data pipeline service that ingests events, applies SQL transformations, and delivers them to R2 as Apache Iceberg tables or Parquet/JSON files.
+    - id: wyq8p07mvlkf
+      name: Asia / Cagayan de Oro, Philippines - (CGY)
     - id: 3z7cmdfch5kb
       name: Cloudflare Sites and Services / Queues
       description: Send and receive messages with guaranteed delivery and no charges for egress bandwidth.
+    - id: ytbzfqk2y4k6
+      name: Europe / Ljubljana, Slovenia - (LJU)
     - id: hb7g5sq2zz0h
       name: Cloudflare Sites and Services / R2
       description: High-performance storage for files and objects with zero egress charges
-    - id: wyq8p07mvlkf
-      name: Asia / Cagayan de Oro, Philippines - (CGY)
-    - id: ytbzfqk2y4k6
-      name: Europe / Ljubljana, Slovenia - (LJU)
+    - id: dxptl93m53d7
+      name: Cloudflare Sites and Services / R2 Data Catalog
+      description: Managed Apache Iceberg data catalog built directly into R2 buckets, enabling data warehouse and lakehouse workloads across multiple query engines.
+    - id: 4mhr088g84gz
+      name: Cloudflare Sites and Services / R2 SQL
+      description: Serverless distributed SQL query engine for running analytics queries against Apache Iceberg tables stored in R2 Data Catalog.
     - id: 0fw91jq1bzxx
       name: Cloudflare Sites and Services / Radar
     - id: yd553hxj8dbj
       name: Cloudflare Sites and Services / Randomness Beacon
       description: Distributed service for randomness - https://developers.cloudflare.com/randomness-beacon/
+    - id: h75hprrmg1wd
+      name: Asia / Kochi, India - (COK)
+    - id: hq55hw1x6yb2
+      name: Latin America & the Caribbean / Cuiaba, Brazil - (CGB)
     - id: z4wlt5jx9szq
       name: Cloudflare Sites and Services / Realtime SFU
       description: Cloudflare Realtime is infrastructure for real-time audio/video/data applications. It allows you to build real-time apps without worrying about scaling or regions. It can act as a selective forwarding unit (WebRTC SFU), as a fanout delivery system for broadcasting (WebRTC CDN) or anything in between.
@@ -824,22 +837,18 @@ systems:
     - id: 8w536gxk7dvq
       name: Cloudflare Sites and Services / Recursive DNS
       description: Free recursive DNS service at 1.1.1.1 and 1.0.0.1
-    - id: h75hprrmg1wd
-      name: Asia / Kochi, India - (COK)
-    - id: hq55hw1x6yb2
-      name: Latin America & the Caribbean / Cuiaba, Brazil - (CGB)
+    - id: n332jkf8s56z
+      name: Asia / Denpasar, Indonesia - (DPS)
     - id: kn2xkt469vyh
       name: Cloudflare Sites and Services / Registrar
       description: Cloudflare Registrar securely registers and manages customer domain names
+    - id: bn06brrnz2n2
+      name: Asia / Kannur, India - (CNN)
     - id: vsj8h17tq59r
       name: Cloudflare Sites and Services / Registration Data Access Protocol (RDAP)
-    - id: n332jkf8s56z
-      name: Asia / Denpasar, Indonesia - (DPS)
     - id: fvgfcmy66tdr
       name: Cloudflare Sites and Services / Replicate
       description: Replicate runs and fine-tunes open-source models.
-    - id: bn06brrnz2n2
-      name: Asia / Kannur, India - (CNN)
     - id: ch3mwx0hr4k6
       name: Cloudflare Sites and Services / Rules
       description: This component includes WAF Rules, Transform Rules, Configuration Rules, Origin Rules, Compression Rules, Redirect Rules, Cache Rules, Waiting Room Bypass Rules, URL Normalization, DDoS L4/L7 Rules, Super Bot Fight Mode Rules, Rate Limiting Rules and others
@@ -870,22 +879,22 @@ systems:
     - id: jzcwkvrc4w4q
       name: Cloudflare Sites and Services / Support Site
       description: Knowledge base and support ticket portal at https://support.cloudflare.com
+    - id: s0xwzmmmmv3l
+      name: Latin America & the Caribbean / Cali, Colombia - (CLO)
     - id: ggcvp9h5v6rv
       name: Cloudflare Sites and Services / Time Services
       description: Time Services provided in NTP, NTS & Roughtime - https://developers.cloudflare.com/time-services/
+    - id: 7g58rb9tl036
+      name: Latin America & the Caribbean / San Pedro Sula, Honduras - (SAP)
     - id: f0jjgwcxtmk8
       name: Cloudflare Sites and Services / Trace
       description: Cloudflare Trace follows an HTTP/S request through Cloudflare’s reverse proxy to your origin. Use this tool to understand how different Cloudflare configurations interact with an HTTP/S request for one of your proxied hostnames.
     - id: y98zlwj1d7zh
       name: Cloudflare Sites and Services / Tunnel
       description: Cloudflare Tunnel provides you with a secure way to connect your resources to Cloudflare without a publicly routable IP address
-    - id: s0xwzmmmmv3l
-      name: Latin America & the Caribbean / Cali, Colombia - (CLO)
     - id: m4jywscr0n0k
       name: Cloudflare Sites and Services / Turnstile
       description: Turnstile is a user-friendly, privacy-preserving alternative to CAPTCHA.
-    - id: 7g58rb9tl036
-      name: Latin America & the Caribbean / San Pedro Sula, Honduras - (SAP)
     - id: b92xct6jm48g
       name: Cloudflare Sites and Services / User Profiles
       description: Changes to the My Profile area of the Cloudflare Dashboard or New Sign Ups
