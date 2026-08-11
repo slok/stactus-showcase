@@ -16,3 +16,8 @@ timeline:
       investigating: true
     - ts: "2026-08-11 16:49:34"
       description: The degradation affecting API Requests has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-08-11 20:06:50"
+      description: We have identified and mitigated increased error rates affecting GraphQL API requests. A fix to increase service capacity has been deployed and error rates have returned to normal levels. We are resolving this incident.
+    - ts: "2026-08-11 20:06:56"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
