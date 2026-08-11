@@ -1,6 +1,6 @@
 version: incident/v1
 id: s4nrsqx9qrkw
-name: Voice Call Audio Quality Degradation from a Subset of Twilio Phone Numbers to Multiple Countries in Europe
+name: Voice Call Audio Quality Degradation From a Subset of Twilio Phone Numbers to Multiple Countries in Europe
 impact: minor
 systems:
     - bnzggd37p61w
@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2026-08-11 20:12:41"
       description: We have observed a recovery in voice calls from a subset of Twilio Phone Numbers to network subscribers in multiple countries in Europe and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-08-11 22:15:38"
+      description: The incident has been resolved and voice calls from a subset of Twilio Phone Numbers to network subscribers in affected countries in Europe are operating normally.
+      resolved: true
