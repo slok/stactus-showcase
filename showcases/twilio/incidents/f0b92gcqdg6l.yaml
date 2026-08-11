@@ -1,6 +1,6 @@
 version: incident/v1
 id: f0b92gcqdg6l
-name: Voice Call Failures From a Subset of Twilio Phone Numbers to Multiple Networks in Germany
+name: Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Germany
 impact: minor
 systems:
     - bnzggd37p61w
@@ -16,3 +16,6 @@ timeline:
       description: We have observed a recovery in voice calls from a subset of Twilio Phone Numbers to Telefonica network subscribers in Germany, and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-08-11 16:13:46"
       description: We have observed a recovery in voice calls from a subset of Twilio Phone Numbers to network subscribers in Germany, and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-08-11 21:43:14"
+      description: The incident has been resolved and voice calls from a subset of Twilio Phone Numbers to network subscribers in Germany are operating normally.
+      resolved: true
