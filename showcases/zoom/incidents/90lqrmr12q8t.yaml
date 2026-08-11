@@ -1,0 +1,14 @@
+version: incident/v1
+id: 90lqrmr12q8t
+name: Service degradation with Zoom Contact Center smart note generation impacting a subset of users.
+impact: none
+systems:
+    - jmnt9sm0q4b2
+timeline:
+    - ts: "2026-08-11 14:48:58"
+      description: |-
+        On 08/11/2026, Between 13:05 UTC to 14:30 UTC, A subset of users may have experienced issues with Zoom Contact Center smart note generation.
+        This incident has been resolved and the affected services have been restored.
+    - ts: "2026-08-11 15:13:39"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true

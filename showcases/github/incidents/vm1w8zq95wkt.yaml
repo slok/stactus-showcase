@@ -1,0 +1,13 @@
+version: incident/v1
+id: vm1w8zq95wkt
+name: Incident with GraphQL API Requests
+impact: minor
+systems:
+    - brv1bkgrwx7q
+timeline:
+    - ts: "2026-08-11 14:50:40"
+      description: We are investigating reports of degraded performance for API Requests
+      investigating: true
+    - ts: "2026-08-11 15:28:44"
+      description: We are investigating reports of a small increase in error rates affecting GraphQL API requests. We are working on increasing capacity and continue to investigate the increased errors. We will provide another update when we have more information
+      investigating: true

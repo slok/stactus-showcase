@@ -1,6 +1,6 @@
 version: incident/v1
 id: x00kgnb21yfr
-name: SMS Delivery Delays From a Subset of Twilio Long Codes to France
+name: SMS Delivery Delays from a Subset of Twilio Long Codes to Lebara France
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -8,3 +8,7 @@ timeline:
     - ts: "2026-08-11 14:30:19"
       description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to France. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-08-11 14:59:49"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to France. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-08-11 15:31:29"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to Lebara network subscribers in France. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
