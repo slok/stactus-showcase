@@ -1,0 +1,22 @@
+version: incident/v1
+id: hp2nx7zbtcgl
+name: Service Degradation Affecting CX Analytics
+impact: minor
+systems:
+    - 33vmdfk84f1d
+timeline:
+    - ts: "2026-08-11 18:00:52"
+      description: |-
+        We are currently investigating a service degradation with CX Analytics.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-08-11 18:01:38"
+      description: "We have successfully identified the root cause affecting CX Analytics.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+    - ts: "2026-08-11 18:04:47"
+      description: "The service degradation with CX Analytics that occurred from 15:05 UTC to 17:27 UTC has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
+    - ts: "2026-08-11 18:27:06"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
