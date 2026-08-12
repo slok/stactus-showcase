@@ -1,12 +1,55 @@
 version: stactus/v1
 name: Figma
-url: https://status.figma.com
+url: http://status.figma.com
 systems:
+    - id: 2908hq6p9syq
+      name: Admin, Billing & AI credits
+      description: The admin console, plan and seat management, billing, and AI credit allocation.
+    - id: l1rxyg394j7z
+      name: Community & Forum
+      description: Browsing and publishing on Figma Community, and access to the Figma Community Forum.
+    - id: dxx798px4nsg
+      name: Dev Mode
+      description: Inspecting designs for implementation, measurements, generated code, and Code Connect.
+    - id: kxfxzz366mlk
+      name: Email & Notifications
+      description: Delivery of email and in-product notifications; invites, comment mentions, and digests.
+    - id: m29llqngdb9f
+      name: File Browser & Search
+      description: Browsing, searching, and organizing your files and folders, including the home and recents views.
+    - id: nwrqc1cqgt21
+      name: Figma agent
+      description: Prompting the Figma agent on the canvas in Figma Design, FigJam, and Slides.
+    - id: 99pvgc89pmqy
+      name: Figma Design
+      description: Designing, editing, and prototyping in design files; including comments, libraries, and Draw.
+    - id: sh20yv82q2nb
+      name: FigJam
+      description: Creating and collaborating on FigJam whiteboard files.
+    - id: 6t88v9qpkz5v
+      name: Figma Make
+      description: Prompting, previewing, and publishing in Figma Make, and the availability of already-published Make apps.
+    - id: 791nhyk4ppzz
+      name: Figma Motion
+      description: Animating on the canvas; the timeline, keyframes, and motion exports.
+    - id: vd3ypm9j87p9
+      name: Figma Slides
+      description: Building, editing, and presenting Figma Slides decks.
+    - id: rhbh00nfdk6m
+      name: Figma Weave
+      description: AI workflows for generating and editing imagery, video, and audio.
+    - id: tkdcyy1s1dgt
+      name: MCP
+      description: The Figma MCP server, which supplies design context to IDEs and coding agents.
+    - id: vgmcylvtjvx4
+      name: Plugins & Widgets
+      description: Installing and running plugins and widgets, and the APIs they depend on.
     - id: pn57gvt7sjmx
       name: Real-time collaboration server
-      description: Allows users to see other people collaborating on files in real time.
+      description: Multiplayer; working in the same file as other people at the same time, with everyone's cursors and edits appearing live.
     - id: bcf4b8z76zqr
-      name: APIs & Web Application
-    - id: 2wghgbfmnn54
-      name: AWS Infrastructure
-      description: Figma services run on AWS. AWS outages can cause temporary unavailability of certain Figma services.
+      name: REST API
+      description: The Figma REST API, including webhooks, OAuth apps, SCIM provisioning, and activity logs.
+    - id: xf0flg39y90r
+      name: Sign-in & Account Access
+      description: Signing up and signing in to Figma, including SSO and SAML, staying signed in, and account recovery.
