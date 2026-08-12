@@ -1,0 +1,14 @@
+version: incident/v1
+id: fdyjr0t87mrb
+name: Email Security delivery impacted by Spamhaus listing
+impact: major
+systems:
+    - h9z388jfrjsm
+    - 8jjy5n5bfl9v
+timeline:
+    - ts: "2026-08-12 15:04:14"
+      description: We are currently investigating an issue where customers that use Spamhaus for additional filtering of email downstream from the Cloudflare Email Security service are rejecting emails from IPs in the 134.195.26.0/23 block. This IP block should be allowed for all customer downstream systems to avoid treating the Email Security service as an originator of mail. We recommend all Cloudflare Email Security customers disable Spamhaus filtering in downstream systems.
+      investigating: true
+    - ts: "2026-08-12 15:07:00"
+      description: We are continuing to investigate this issue.
+      investigating: true

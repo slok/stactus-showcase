@@ -1,0 +1,9 @@
+version: incident/v1
+id: 5pgtb5qnfg8t
+name: Twilio Flex Affected
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-12 14:14:15"
+      description: Twilio Flex authentication was degraded for approximately 180 minutes (3 hours) between 11:27 AM and 2:27 PM Pacific Time on 08/11/2026. During this period of time, customers may have experienced failed or interrupted single sign-on (SSO) login attempts when authenticating into Flex. The issue has now been resolved.
+      resolved: true

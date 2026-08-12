@@ -1,0 +1,12 @@
+version: incident/v1
+id: c43qy8xqstjz
+name: Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Peru
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2026-08-12 14:56:17"
+      description: Twilio customers may be experiencing voice call failures from a subset of Twilio Phone Numbers to network subscribers on multiple networks in Peru. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-12 15:01:25"
+      description: Twilio customers may be experiencing voice call failures from a subset of Twilio Phone Numbers to network subscribers on multiple networks in Peru. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
