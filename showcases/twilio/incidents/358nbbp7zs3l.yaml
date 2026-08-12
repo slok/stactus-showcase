@@ -1,0 +1,10 @@
+version: incident/v1
+id: 358nbbp7zs3l
+name: Phone Number Configuration Failures
+impact: minor
+systems:
+    - pv5w18vrltfl
+timeline:
+    - ts: "2026-08-12 16:10:43"
+      description: We are experiencing failures with Phone Number configuration. Users may experience increased latency and decreased availability when updating phone number configurations Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
