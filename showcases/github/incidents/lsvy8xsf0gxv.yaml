@@ -1,0 +1,12 @@
+version: incident/v1
+id: lsvy8xsf0gxv
+name: Disruption with Login and Release Asset downloads
+impact: major
+systems: []
+timeline:
+    - ts: "2026-08-12 21:39:05"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-08-12 21:43:25"
+      description: We are investigating issues with Login and when downloading Release Assets. We will continue to keep users updated on progress towards mitigation.
+      investigating: true

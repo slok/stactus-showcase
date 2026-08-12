@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3y4j5g4klqnv
+name: SMS Delivery Failures from a Subset of Toll Free Numbers to AT&T Network in the United States
+impact: none
+systems:
+    - 32f2bm54nkvv
+timeline:
+    - ts: "2026-08-12 22:00:48"
+      description: Twilio experienced SMS delivery failures from a subset of toll free numbers to AT&T Network in the United States for 219 minutes between 5:45 and 9:24 Pacific Time on 08/09/2026. The issue has now been resolved.
+      resolved: true
