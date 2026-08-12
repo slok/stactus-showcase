@@ -19,5 +19,5 @@ timeline:
     - ts: "2026-08-01 18:23:40"
       description: The issues with our upstream model provider have been resolved, and Fable 5 is once again available in Copilot products and IDE surfaces.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.
     - ts: "2026-08-01 18:44:28"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On August 1, 2026, between 17:47 UTC and 18:20 UTC, users of the Fable 5 model in GitHub Copilot experienced increased request failures and latency. The average failure rate across all Copilot requests was 0.007%, while failures for Fable 5 peaked at 5.6%. Other models remained available. This was caused by degradation of an upstream model provider.<br /><br />The affected endpoint recovered, and we monitored the service until error rates and latency returned to normal levels. We are working to add endpoint redundancy to mitigate similar provider issues in the future.
       resolved: true

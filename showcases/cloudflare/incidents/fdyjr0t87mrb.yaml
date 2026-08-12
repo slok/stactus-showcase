@@ -12,3 +12,13 @@ timeline:
     - ts: "2026-08-12 15:07:00"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2026-08-12 16:30:55"
+      description: |-
+        We are continuing to investigate this issue.
+
+        Customers using O365 will be impacted only if they have not completed the required setup. Please check your setup and ensure the connector includes all egress IPs:
+
+        https://developers.cloudflare.com/cloudflare-one/email-security/setup/pre-delivery-deployment/prerequisites/m365-email-security-mx/#2-configure-enhanced-filtering
+      investigating: true
+    - ts: "2026-08-12 16:48:03"
+      description: All IPs previously listed by Spamhaus are now clean. Monitoring the propagation of that change to downstream systems.

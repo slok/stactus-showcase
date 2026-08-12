@@ -1,0 +1,21 @@
+version: incident/v1
+id: 76t89hbfb09h
+name: Incident with Pull Requests and Issues
+impact: minor
+systems:
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2026-08-12 16:16:18"
+      description: We are investigating reports of degraded performance for Issues and Pull Requests
+      investigating: true
+    - ts: "2026-08-12 16:24:30"
+      description: We are investigating reports of errors affecting Pull Requests and Issues on GitHub.com. Some users may encounter 500 errors when loading pull request and issue pages. Our engineering teams are actively investigating the root cause, which appears to be related to a database infrastructure issue. We will provide an update as soon as we have more information.
+      investigating: true
+    - ts: "2026-08-12 16:35:40"
+      description: The degradation affecting Issues and Pull Requests has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-08-12 16:38:38"
+      description: We identified the source of errors affecting Pull Requests, Issues, and Search on GitHub.com and have applied a mitigation. A database index hint was referencing an index that had been removed by a recent migration, causing query failures for some users. We disabled the problematic configuration and are seeing recovery across affected services. We are continuing to monitor to confirm full resolution.
+    - ts: "2026-08-12 16:41:18"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
