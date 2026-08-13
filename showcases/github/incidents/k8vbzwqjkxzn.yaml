@@ -27,3 +27,10 @@ timeline:
     - ts: "2026-08-13 14:58:49"
       description: We are currently investigating a brief degradation of service for Git operations (specifically pushes), issues, pull requests, package registry, and webhooks between 14:32 and 14:46 UTC. We have identified the source of the degradation and are investigating mitigation strategies to prevent recurrence.
       investigating: true
+    - ts: "2026-08-13 15:33:02"
+      description: The degradation affecting Git Operations, Issues, Packages, Pull Requests and Webhooks has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-08-13 15:33:54"
+      description: We have temporarily disabled a background job which caused the impact. At this time the impact is fully mitigated.
+    - ts: "2026-08-13 15:36:34"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

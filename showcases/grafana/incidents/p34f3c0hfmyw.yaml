@@ -1,0 +1,13 @@
+version: incident/v1
+id: p34f3c0hfmyw
+name: K6 Test Outage
+impact: critical
+systems:
+    - m79yjv169r06
+    - wbhrnd130mb0
+timeline:
+    - ts: "2026-08-13 15:25:03"
+      description: |-
+        Telemetry push APIs went down at 15:06 UTC, causing tests to lose telemetry data, like metrics, logs, traces, and browser screenshots.
+
+        This issue has now been mitigated, and we are monitoring to determine root cause as well as full resolution.
