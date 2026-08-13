@@ -10,3 +10,9 @@ timeline:
     - ts: "2026-08-13 16:21:51"
       description: GHEC Team Sync is currently degraded for enterprises with personal accounts, causing delays when syncing teams to IdP groups. We have identified the cause of the delays and are working on a mitigation. We will provide an update on our progress at 20:00 UTC.
       investigating: true
+    - ts: "2026-08-13 18:27:38"
+      description: We have deployed a mitigation. At this time GHEC Team Sync has recovered for enterprises with personal accounts. Teams syncing to IdP groups have returned to their normal cadence.
+      investigating: true
+    - ts: "2026-08-13 18:27:54"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
