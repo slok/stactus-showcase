@@ -1,0 +1,13 @@
+version: incident/v1
+id: f3czlxddtrf1
+name: Increased  errors for Workers KV requests
+impact: minor
+systems:
+    - tmh50tx2nprs
+timeline:
+    - ts: "2026-08-13 17:31:16"
+      description: Some users may see increased errors when interacting with Workers KV
+      investigating: true
+    - ts: "2026-08-13 17:53:25"
+      description: This incident has been resolved.
+      resolved: true

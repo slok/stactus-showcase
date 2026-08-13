@@ -1,0 +1,15 @@
+version: incident/v1
+id: mq8k17gpg79h
+name: IPv6 Networking Issues
+impact: minor
+systems:
+    - 15knchzwl5np
+timeline:
+    - ts: "2026-08-13 17:45:09"
+      description: We are currently investigating degraded ipv6 networking on a subset of hosts
+      investigating: true
+    - ts: "2026-08-13 17:51:37"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-08-13 18:14:56"
+      description: The issue has been identified and a fix is being implemented.
