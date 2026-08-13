@@ -1,0 +1,10 @@
+version: incident/v1
+id: vt86k1gy6cpz
+name: Voice Call Failures from a Subset of Twilio Phone Numbers to Colombia
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2026-08-13 23:19:43"
+      description: Twilio customers may be experiencing voice call failures from a subset of Twilio Phone Numbers to network subscribers in Colombia. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
