@@ -1,0 +1,12 @@
+version: incident/v1
+id: br0y58121k86
+name: MCP Server Portal experiencing intermittent issues with user authentication
+impact: minor
+systems:
+    - gcnzpkhvnqs7
+timeline:
+    - ts: "2026-08-13 16:49:38"
+      description: Cloudflare is investigating an intermittent issue with MCP Server Portal authentication. Other Cloudflare Access services are fully functional and are not impacted.
+      investigating: true
+    - ts: "2026-08-13 17:08:30"
+      description: The issue has been identified and a fix is being implemented.
