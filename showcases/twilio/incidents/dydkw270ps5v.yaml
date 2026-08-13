@@ -1,10 +1,13 @@
 version: incident/v1
 id: dydkw270ps5v
 name: SendGrid product switcher signup unavailable
-impact: none
+impact: minor
 systems:
     - bdnyxg9w62zm
 timeline:
     - ts: "2026-08-13 19:34:55"
+      description: We are aware of an issue affecting the signup page for customers attempting to switch to SendGrid from Twilio. Customers may experience inability to complete the product switcher signup flow. Our team is actively investigating. We will provide another update as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-13 19:41:09"
       description: We are aware of an issue affecting the signup page for customers attempting to switch to SendGrid from Twilio. Customers may experience inability to complete the product switcher signup flow. Our team is actively investigating. We will provide another update as soon as more information becomes available.
       investigating: true

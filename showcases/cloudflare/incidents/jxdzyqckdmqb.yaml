@@ -1,0 +1,15 @@
+version: incident/v1
+id: jxdzyqckdmqb
+name: Increased 503s when making changes to Cloudflare dash and API for Magic Transit and Cloudflare WAN and CF1 Appliance
+impact: minor
+systems:
+    - bjlxcss20fsl
+    - qgnxz00j1f2v
+    - q3t6mnpmpgt8
+timeline:
+    - ts: "2026-08-13 19:51:55"
+      description: Increased 503s when making changes to Cloudflare dash and API for Magic Transit, Cloudflare WAN, CF1 Appliance. This is not impacting traffic, only configuration.
+      investigating: true
+    - ts: "2026-08-13 20:09:15"
+      description: Cloudflare One Appliance will be impacted as well, in that any CF1App config changes that do manage to succeed, may not be applied in a timely fashion.
+      investigating: true
