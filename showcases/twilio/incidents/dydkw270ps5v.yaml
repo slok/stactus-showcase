@@ -11,3 +11,8 @@ timeline:
     - ts: "2026-08-13 19:41:09"
       description: We are aware of an issue affecting the signup page for customers attempting to switch to SendGrid from Twilio. Customers may experience inability to complete the product switcher signup flow. Our team is actively investigating. We will provide another update as soon as more information becomes available.
       investigating: true
+    - ts: "2026-08-13 20:32:08"
+      description: We have identified the root cause of the issue affecting the signup page for customers attempting to switch to SendGrid from Twilio. Our engineering team is currently working on applying a fix. We will provide another update as soon as more information becomes available.
+    - ts: "2026-08-13 21:02:20"
+      description: We have deployed a fix to resolve the issue affecting customer signups when switching to SendGrid from Twilio. All signup flows have been verified and are functioning as expected. If you continue to experience issues, please contact support.
+      resolved: true
