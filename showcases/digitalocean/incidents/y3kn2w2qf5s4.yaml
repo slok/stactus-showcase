@@ -1,0 +1,17 @@
+version: incident/v1
+id: y3kn2w2qf5s4
+name: Volume Attach/Detach events in FRA1
+impact: none
+systems:
+    - 8zd85sg0nhnc
+timeline:
+    - ts: "2026-08-13 14:59:44"
+      description: |-
+        Between Aug 13, 09:50 UTC  and 14:30 UTC, customers in the FRA1 region experienced an issue affecting Block Storage Volumes attachment and detachment operations on Droplets and Managed Kubernetes clusters.
+
+        During this window, customers may have encountered delays or been unable to attach and detach Block Storage Volumes from their resources.
+
+        Block Storage Volumes attachment and detachment operations now appear to be functioning normally, and customers should no longer experience issues with these operations. For Managed Kubernetes clusters specifically, some residual cleanup of affected volume attachments may still be needed, and our team is actively working through this.
+
+        We apologize for any inconvenience this may have caused. If you continue to experience issues with Block Storage Volumes operations, please don't hesitate to open a support ticket for further investigation. Our team will be happy to assist you.
+      resolved: true

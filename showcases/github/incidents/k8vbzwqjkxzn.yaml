@@ -1,0 +1,29 @@
+version: incident/v1
+id: k8vbzwqjkxzn
+name: Incident with Webhooks
+impact: minor
+systems:
+    - 8l4ygp009s5s
+    - 4230lsnqdsld
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - st3j38cctv9l
+timeline:
+    - ts: "2026-08-13 14:45:40"
+      description: We are investigating reports of degraded performance for Webhooks
+      investigating: true
+    - ts: "2026-08-13 14:46:11"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-13 14:46:23"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-13 14:46:52"
+      description: Git Operations is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-13 14:56:45"
+      description: Packages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-13 14:58:49"
+      description: We are currently investigating a brief degradation of service for Git operations (specifically pushes), issues, pull requests, package registry, and webhooks between 14:32 and 14:46 UTC. We have identified the source of the degradation and are investigating mitigation strategies to prevent recurrence.
+      investigating: true
