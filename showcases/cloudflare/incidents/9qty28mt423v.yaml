@@ -1,0 +1,13 @@
+version: incident/v1
+id: 9qty28mt423v
+name: Increased network congestion in the Eastern US
+impact: minor
+systems:
+    - bty1yz6dhh0v
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-08-14 15:34:21"
+      description: We are investigating network issues between Cloudflare colocations located in the eastern United States. This may cause increased errors and latency reaching Cloudflare storage products like R2 and Durable Objects.
+    - ts: "2026-08-14 16:28:22"
+      description: This incident has been resolved.
+      resolved: true
