@@ -1,0 +1,12 @@
+version: incident/v1
+id: kmbpgrsszf72
+name: Issues reaching status.claude.com
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-14 07:58:11"
+      description: We are aware of issues with reaching status.claude.com, specifically regarding an invalid certificate issues. We are working to resolve these issues as soon as possible.
+      investigating: true
+    - ts: "2026-08-14 10:53:22"
+      description: The issue resulting in users being unable to reach status.claude.com has been resolved.
+      resolved: true

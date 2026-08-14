@@ -1,0 +1,13 @@
+version: incident/v1
+id: whnd2z49x3xf
+name: Service disruption on Claude Code on the web and related services
+impact: minor
+systems:
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-08-14 00:36:42"
+      description: We are investigating degraded performance in Claude Code on the Web sessions and related products (Cowork Remote, Routines, Claude Code Mobile)
+      investigating: true
+    - ts: "2026-08-14 00:51:24"
+      description: The issue affecting Claude services has been resolved. Impact occurred from 23:42 to 00:50 UTC.
+      resolved: true

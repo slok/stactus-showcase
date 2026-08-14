@@ -1,0 +1,15 @@
+version: incident/v1
+id: jb87g814jw6z
+name: Increased HTTP 5xx Errors in Kuwait, Bangkok, Jakarta and Dammam
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-08-14 04:55:25"
+      description: |-
+        Cloudflare is investigating an increased level of HTTP 5xx errors in Kuwait, Bangkok, Jakarta and Dammam locations.
+
+        We are working to analyse and mitigate this problem.  More updates to follow shortly.
+    - ts: "2026-08-14 05:37:17"
+      description: This incident has been resolved.
+      resolved: true
