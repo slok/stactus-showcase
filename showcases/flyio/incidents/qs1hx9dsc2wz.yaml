@@ -1,9 +1,11 @@
 version: incident/v1
 id: qs1hx9dsc2wz
-name: Secret service outage
+name: Secrets service outage
 impact: major
 systems:
     - 80ykv2p95qgy
 timeline:
     - ts: "2026-08-14 19:30:44"
       description: We are working to recover our secrets service after a failed deployment. Apps continue to run, but it is not possible to create new apps or update secrets at this time.
+    - ts: "2026-08-14 20:08:03"
+      description: We have failed over the secrets database to a replica, and the Machines API appears healthy now. We are monitoring for any further issues.
