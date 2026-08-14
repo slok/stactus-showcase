@@ -1,0 +1,9 @@
+version: incident/v1
+id: qs1hx9dsc2wz
+name: Secret service outage
+impact: major
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2026-08-14 19:30:44"
+      description: We are working to recover our secrets service after a failed deployment. Apps continue to run, but it is not possible to create new apps or update secrets at this time.
