@@ -1,0 +1,17 @@
+version: incident/v1
+id: ysczd6rxyl7z
+name: Dynamic API routes returned 404 errors for some deployments
+impact: none
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-08-14 13:08:12"
+      description: |-
+        This incident has been resolved. Between August 12, 17:12 UTC and August 13, 20:33 UTC, some Vercel deployments could return 404 errors from dynamic API routes.
+
+        Deployments built on Vercel during this period were affected only if they met all three conditions: used Next.js 16.2 or earlier, used the Pages Router with internationalization (i18n configured in next.config.js), and used dynamic API routes, such as pages/api/[slug].ts or pages/api/[...path].ts.
+
+        Deployments built outside Vercel (with vercel deploy --prebuilt) were not affected, and existing deployments not rebuilt during this period were not affected.
+
+        If your project matches the conditions above and you deployed during the impact window, redeploy your project. Affected deployments are not fixed automatically; a new deployment is required to restore the affected routes.
+      resolved: true
