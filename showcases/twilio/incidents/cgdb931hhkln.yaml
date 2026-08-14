@@ -1,6 +1,6 @@
 version: incident/v1
 id: cgdb931hhkln
-name: Voice Call Failures from Twilio Phone Numbers to Sky United Kingdom
+name: Voice Call Failures from Twilio Phone Numbers to United Kingdom
 impact: minor
 systems:
     - bnzggd37p61w
@@ -18,3 +18,6 @@ timeline:
       description: We have observed a recovery in voice calls from Twilio Phone Numbers to Sky network subscribers in the United Kingdom and are monitoring service stability. We will provide another update in 8 hours or as soon as more information becomes available.
     - ts: "2026-08-14 13:19:15"
       description: We have observed a recovery in voice calls from Twilio Phone Numbers to Sky network subscribers in the United Kingdom and are monitoring service stability. We will provide another update in 16 hours or as soon as more information becomes available.
+    - ts: "2026-08-14 15:15:22"
+      description: The incident has been resolved and voice calls from Twilio Phone Numbers to network subscribers in the United Kingdom are operating normally.
+      resolved: true
