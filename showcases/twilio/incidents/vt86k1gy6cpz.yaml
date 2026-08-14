@@ -1,6 +1,6 @@
 version: incident/v1
 id: vt86k1gy6cpz
-name: Voice Call Failures from a Subset of Twilio Phone Numbers to Colombia
+name: Voice Call Failures from a Subset of Twilio Phone Numbers to Multiple Networks in Colombia
 impact: minor
 systems:
     - fbtv2g9t3z25
@@ -22,3 +22,5 @@ timeline:
       description: We have observed a recovery in voice calls from a subset of Twilio Phone Numbers to network subscribers in Colombia and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
     - ts: "2026-08-14 13:41:54"
       description: We have observed a recovery in voice calls from a subset of Twilio Phone Numbers to network subscribers in Colombia and are monitoring service stability. We will provide another update in 8 hours or as soon as more information becomes available.
+    - ts: "2026-08-14 21:43:26"
+      description: We have observed a recovery in voice calls from a subset of Twilio Phone Numbers to network subscribers on multiple networks in Colombia and are monitoring service stability. We will provide another update in 16 hours or as soon as more information becomes available.
