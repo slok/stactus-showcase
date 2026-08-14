@@ -9,3 +9,6 @@ timeline:
       description: We are working to recover our secrets service after a failed deployment. Apps continue to run, but it is not possible to create new apps or update secrets at this time.
     - ts: "2026-08-14 20:08:03"
       description: We have failed over the secrets database to a replica, and the Machines API appears healthy now. We are monitoring for any further issues.
+    - ts: "2026-08-14 20:33:45"
+      description: This incident has been resolved.
+      resolved: true
