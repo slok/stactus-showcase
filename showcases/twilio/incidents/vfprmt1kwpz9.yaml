@@ -1,0 +1,12 @@
+version: incident/v1
+id: vfprmt1kwpz9
+name: SMS Delivery Delays from Twilio to KDDI Corporation Japan
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-08-15 06:58:01"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to KDDI Corporation network subscribers in Japan. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-15 06:59:02"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to KDDI Corporation network subscribers in Japan. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
