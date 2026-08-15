@@ -1,9 +1,10 @@
 version: incident/v1
 id: 00lh8f3zsvlx
-name: SMS Delivery Failures from Twilio to Multiple Networks in Multiple Countries
+name: SMS Delivery Failures from Twilio to Multiple Networks in Middle East & African Countries
 impact: minor
 systems:
     - 8qjql0kqnd33
+    - llgdln3dcs6p
     - 9z5gsqyjs4rl
 timeline:
     - ts: "2026-08-15 03:47:11"
@@ -19,3 +20,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery failures from Twilio to multiple networks in multiple countries. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
     - ts: "2026-08-15 08:47:13"
       description: Twilio customers may be experiencing SMS delivery failures from Twilio to network subscribers on multiple networks in multiple countries. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-08-15 10:53:53"
+      description: "Twilio customers may be experiencing SMS delivery failures from Twilio to network subscribers on multiple networks in Middle East & Africa. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nAffected Networks : \nMegacom-Kyrgyzstan\nTDCA-Afghanistan\nTelecom Cook Islands-Cook Islands\nBlue Sky Communications-American Samoa\nAnnatel-Israel"
