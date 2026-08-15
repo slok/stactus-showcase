@@ -1,0 +1,26 @@
+version: incident/v1
+id: r2gvsly2y5ty
+name: Elevated Microsoft 365 IP Blocks Causing Delivery Failures for Multiple Users
+impact: none
+systems:
+    - 4yft4fgnwyfh
+timeline:
+    - ts: "2026-08-15 14:16:43"
+      description: |-
+        Beginning Aug 14 2026, ~21:45 UTC, we have observed an increase of 10-15% in blocks from Microsoft 365 impacting all Twilio Sendgrid IPs. We have confirmed with other industry contacts that they are observing similar behavior. The blocks are being observed at many domains hosted by Microsoft 365 and are not confined to a specific subset of recipient domains.
+
+        Some users continue to see elevated blocks at Microsoft 365 domains. Microsoft has still not disclosed any outage with the service. The blocks are variation of the following:
+
+        550 5.7.511 Access denied, banned sender[x.x.x.x]. To request removal from this list please forward this message to delist@microsoft.com. For more information please go to  http://go.microsoft.com/fwlink/?LinkId=526653. AS(1410)
+
+        Users that are still experiencing these rejections should submit a delisting request per the instructions provided in the bounce message by sending an email with a copy of the error message, and the blocked IP address, to "delist@microsoft.com".
+
+        Delisting requests can also be made via the Office 365 Anti-Spam IP Delist Portal at https://sender.office.com/
+
+        Additionally, we have observed an increase in blocks at Microsoft Outlook Consumer ("OLC") domains (e.g. 'hotmail.com', 'outlook.com'), which is a separate service from Microsoft 365, with syntax similar to the following:
+
+        550 5.7.1 Unfortunately, messages from [x.x.x.x] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.aspx#errors.
+
+        Users experiencing these blocks should submit a delisting request to Microsoft here: https://olcsupport.office.com/
+
+        We have reached out to Microsoft to request an update on the status and we are still awaiting for a response. Until that time, we advise users to continue to escalate directly to Microsoft and request remediation.
