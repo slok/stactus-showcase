@@ -1,0 +1,14 @@
+version: incident/v1
+id: qzfvhfg85r6t
+name: Service disruption on Claude services
+impact: major
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-08-16 22:07:04"
+      description: We are investigating reports of degraded performance affecting claude.ai and platform.claude.com. We will provide an update as soon as possible.
+      investigating: true
