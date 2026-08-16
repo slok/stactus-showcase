@@ -1,0 +1,10 @@
+version: incident/v1
+id: clygbwj54wq0
+name: Elevated errors impacting Interconnect in Frankfurt Edge
+impact: minor
+systems:
+    - hjfntfyhnn4l
+timeline:
+    - ts: "2026-08-16 20:28:51"
+      description: We are investigating a service interruption with Interconnect in the Frankfurt edge. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
