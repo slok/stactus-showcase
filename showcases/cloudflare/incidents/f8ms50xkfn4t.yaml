@@ -1,0 +1,14 @@
+version: incident/v1
+id: f8ms50xkfn4t
+name: Network Performance Issues in Phoenix, Los Angeles
+impact: minor
+systems:
+    - 38w4zp21dlkc
+    - n05d51gmgf0f
+timeline:
+    - ts: "2026-08-17 19:34:15"
+      description: Cloudflare is investigating issues with network performance in Phoenix. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-08-17 19:37:13"
+      description: Cloudflare is investigating issues with network performance in our Phoenix and Los Angeles facilities. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
