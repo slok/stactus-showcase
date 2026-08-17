@@ -1,6 +1,6 @@
 version: incident/v1
 id: nxvrk1jk0zyb
-name: Partial disruption of Observability, Analytics, Firewall, and Usage in Dashboard
+name: Partial disruption of Observability, Analytics, Firewall, Usage, and Login in Dashboard
 impact: minor
 systems:
     - fk66q26xp7hh
@@ -14,4 +14,7 @@ timeline:
       investigating: true
     - ts: "2026-08-17 15:09:49"
       description: We are continuing to investigate this issue. We will share updates as they become available.
+      investigating: true
+    - ts: "2026-08-17 16:06:23"
+      description: We are also investigating an issue where some customers may be unable to sign in to Dashboard with time-based one-time passwords (TOTP). We will share updates as they become available.
       investigating: true

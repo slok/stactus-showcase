@@ -75,3 +75,9 @@ timeline:
     - ts: "2026-08-17 15:42:25"
       description: We are experiencing high error rates around 20% for web experiences and api traffic. Archive downloads and raw repository content downloads are experiencing an approximate 50% error rate. SAML and OIDC authentication, SCIM, and Team Sync are also impacted. We are currently performing mitigations and will post updates as we progress.
       investigating: true
+    - ts: "2026-08-17 16:16:13"
+      description: We are experiencing high error rates around 20% for web experiences and api traffic. Archive downloads and raw repository content downloads are experiencing an approximate 50% error rate. SAML and OIDC authentication, SCIM, and Team Sync are also impacted. We are still working to identify the root cause and will continue to post updates as we learn more and perform mitigation.
+      investigating: true
+    - ts: "2026-08-17 16:36:25"
+      description: We identified the problematic component and have taken corrective actions. There are strong signs of recovery but we are still working to completely restore service, with error rates still remaining slightly elevated. We will post further updates as recovery continues.
+      investigating: true
