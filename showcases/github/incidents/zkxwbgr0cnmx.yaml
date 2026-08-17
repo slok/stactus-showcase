@@ -84,3 +84,12 @@ timeline:
     - ts: "2026-08-17 16:59:38"
       description: The degradation affecting API Requests, Actions, Git Operations, Issues, Pages, Pull Requests and Webhooks has been mitigated. We are monitoring to ensure stability.
       investigating: true
+    - ts: "2026-08-17 17:30:49"
+      description: Git Operations is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 17:34:22"
+      description: We identified the problematic component and have taken corrective actions, but we are seeing residual impact across numerous services. We are continuing to apply additional mitigations and investigate the remaining impact.
+      investigating: true
+    - ts: "2026-08-17 17:36:29"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
