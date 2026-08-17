@@ -8,6 +8,7 @@ systems:
     - kr09ddfgbfsf
     - hhtssxt0f5v2
     - br0l2tvcx85d
+    - pjmpxvq2cmr2
 timeline:
     - ts: "2026-08-17 13:40:03"
       description: We are investigating reports of impacted performance for some GitHub services.
@@ -35,4 +36,28 @@ timeline:
       investigating: true
     - ts: "2026-08-17 14:24:53"
       description: We are experiencing high error rates around 20% for web experiences and api traffic. Archive downloads and raw repository content downloads are experiencing an approximate 50% error rate. SAML and OIDC authentication, SCIM, and Team Sync are also impacted. Investigations are on-going and we will continue to provide updates as we discover more information.
+      investigating: true
+    - ts: "2026-08-17 14:31:25"
+      description: Copilot is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 14:45:53"
+      description: Pull Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 14:49:24"
+      description: Issues is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 14:54:14"
+      description: Pull Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 14:58:09"
+      description: Actions is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 14:58:12"
+      description: We are experiencing high error rates around 20% for web experiences and api traffic. Archive downloads and raw repository content downloads are experiencing an approximate 50% error rate. SAML and OIDC authentication, SCIM, and Team Sync are also impacted. We are currently performing mitigations based on our investigation thus far and are monitoring for improvement.
+      investigating: true
+    - ts: "2026-08-17 14:58:17"
+      description: Webhooks is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 15:01:40"
+      description: API Requests is experiencing degraded availability. We are continuing to investigate.
       investigating: true

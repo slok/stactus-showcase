@@ -1,0 +1,12 @@
+version: incident/v1
+id: lcvdjp43cr6b
+name: Delay with transcript availability in Twilio Console
+impact: minor
+systems:
+    - qphgn531prd5
+timeline:
+    - ts: "2026-08-17 14:32:49"
+      description: Engineering is currently investigating issues regarding Twilio Console in Conversation Intelligence Classic. Customers may experiences delays seeing their transcripts become available for view.
+      investigating: true
+    - ts: "2026-08-17 14:54:01"
+      description: A fix has been implemented and we are monitoring the results.

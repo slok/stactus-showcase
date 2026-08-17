@@ -19,3 +19,13 @@ timeline:
     - ts: "2026-08-17 13:46:45"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2026-08-17 14:33:08"
+      description: |-
+        We've identified the cause of failing deployments in Laravel Cloud. These relate to a major outage with GitHubs APIs and web services.
+
+        This may also affect attempts to connect your Cloud account to a GitHub provider account.
+
+        Please follow https://www.githubstatus.com/incidents/zkxwbgr0cnmx for further information.
+
+        Unfortunately, our Support and Engineering Teams are unable to assist with this issue and must await GitHub to return to stable. Once GitHub becomes stable again, deployments should succeed as expected.
+      investigating: true
