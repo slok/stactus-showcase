@@ -1,0 +1,21 @@
+version: incident/v1
+id: z5q7zbn11fnd
+name: GitHub API is down, affecting logins and deployments
+impact: major
+systems:
+    - d4z7n3kvpgp0
+    - vhd4h127zqt5
+    - rnyz50rjb4p5
+    - nfc2yzmxzw4s
+    - r5wtfz1xy72b
+    - s3zm1t588bky
+    - 0d75ngbkyzz2
+    - 29r8t4n835qg
+    - sr7vs6x5c6cf
+timeline:
+    - ts: "2026-08-17 13:45:59"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-08-17 13:46:45"
+      description: We are continuing to investigate this issue.
+      investigating: true

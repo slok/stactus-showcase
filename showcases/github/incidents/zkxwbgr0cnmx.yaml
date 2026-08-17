@@ -1,0 +1,28 @@
+version: incident/v1
+id: zkxwbgr0cnmx
+name: Incident with GitHub.com
+impact: critical
+systems:
+    - 4230lsnqdsld
+    - brv1bkgrwx7q
+    - kr09ddfgbfsf
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-08-17 13:40:03"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-08-17 13:41:47"
+      description: API Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 13:42:42"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 13:44:02"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 13:45:45"
+      description: We are seeing an approximate 20% error rate across numerous experiences including Pull Requests, Issues, and others. Investigations are currently under way and we will be posting updates as they become available
+      investigating: true
+    - ts: "2026-08-17 13:46:37"
+      description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true

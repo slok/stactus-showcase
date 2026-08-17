@@ -1,6 +1,6 @@
 version: incident/v1
 id: xt68sd7mb8kw
-name: SMS Delivery Delays and Failures from Twilio to DiGi Malaysia
+name: SMS Delivery Delays and Failures from Twilio Phone Numbers to DiGi Malaysia
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -12,3 +12,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio Phone Numbers to DiGi network subscribers in Malaysia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
     - ts: "2026-08-17 11:19:55"
       description: We have observed a recovery in SMS delivery from Twilio to DiGi network subscribers in Malaysia and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-08-17 13:20:23"
+      description: We have observed a recovery in SMS delivery from Twilio Phone Numbers to DiGi network subscribers in Malaysia and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.

@@ -1,0 +1,10 @@
+version: incident/v1
+id: 7w6lfl2bxg3f
+name: No capacity in ARN
+impact: none
+systems:
+    - 49yq6v65b33l
+timeline:
+    - ts: "2026-08-17 13:19:35"
+      description: New machines may fail to create in ARN because we lack capacity.
+      investigating: true
