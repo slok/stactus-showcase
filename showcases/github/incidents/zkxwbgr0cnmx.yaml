@@ -6,6 +6,7 @@ systems:
     - 4230lsnqdsld
     - brv1bkgrwx7q
     - kr09ddfgbfsf
+    - hhtssxt0f5v2
     - br0l2tvcx85d
 timeline:
     - ts: "2026-08-17 13:40:03"
@@ -25,4 +26,13 @@ timeline:
       investigating: true
     - ts: "2026-08-17 13:46:37"
       description: Issues is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 13:58:14"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 14:04:45"
+      description: We are experiencing high error rates around 20% for web experiences and api traffic. Archive downloads and raw repository content downloads are experiencing an approximate 50% error rate. Investigations are on-going into the root cause, and updates will continue to be provided as we investigate.
+      investigating: true
+    - ts: "2026-08-17 14:24:53"
+      description: We are experiencing high error rates around 20% for web experiences and api traffic. Archive downloads and raw repository content downloads are experiencing an approximate 50% error rate. SAML and OIDC authentication, SCIM, and Team Sync are also impacted. Investigations are on-going and we will continue to provide updates as we discover more information.
       investigating: true

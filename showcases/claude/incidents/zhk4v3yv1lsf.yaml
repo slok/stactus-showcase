@@ -1,0 +1,16 @@
+version: incident/v1
+id: zhk4v3yv1lsf
+name: Degraded performance for Claude Opus 5, Claude Sonnet 5
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-08-17 13:56:41"
+      description: We are investigating elevated errors on requests to Claude Opus 5. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-08-17 14:25:27"
+      description: Claude Opus 5 is operational. Claude Sonnet 5 is degraded. We are investigating.
+      investigating: true
