@@ -8,3 +8,6 @@ timeline:
     - ts: "2026-08-17 13:19:35"
       description: New machines may fail to create in ARN because we lack capacity.
       investigating: true
+    - ts: "2026-08-17 15:41:29"
+      description: The capacity issue in the ARN region has been resolved.
+      resolved: true

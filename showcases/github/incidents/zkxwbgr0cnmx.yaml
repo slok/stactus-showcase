@@ -3,11 +3,13 @@ id: zkxwbgr0cnmx
 name: Incident with GitHub.com
 impact: critical
 systems:
+    - 8l4ygp009s5s
     - 4230lsnqdsld
     - brv1bkgrwx7q
     - kr09ddfgbfsf
     - hhtssxt0f5v2
     - br0l2tvcx85d
+    - vg70hn9s2tyj
     - pjmpxvq2cmr2
 timeline:
     - ts: "2026-08-17 13:40:03"
@@ -60,4 +62,13 @@ timeline:
       investigating: true
     - ts: "2026-08-17 15:01:40"
       description: API Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 15:10:00"
+      description: Pages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 15:21:36"
+      description: Git Operations is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 15:40:44"
+      description: Webhooks is experiencing degraded performance. We are continuing to investigate.
       investigating: true
