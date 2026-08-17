@@ -93,3 +93,9 @@ timeline:
     - ts: "2026-08-17 17:36:29"
       description: Issues is experiencing degraded performance. We are continuing to investigate.
       investigating: true
+    - ts: "2026-08-17 18:11:30"
+      description: We identified the problematic component and have taken corrective actions, but we are seeing residual impact in the form of sporadic authentication failures. We are continuing to apply additional mitigations and investigate the remaining impact.
+      investigating: true
+    - ts: "2026-08-17 18:23:47"
+      description: The degradation affecting Git Operations has been mitigated. We are monitoring to ensure stability.
+      investigating: true
