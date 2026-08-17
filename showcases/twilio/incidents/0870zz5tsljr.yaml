@@ -1,9 +1,12 @@
 version: incident/v1
 id: 0870zz5tsljr
-name: On Call Engineers are Investigating
-impact: none
+name: Elevated Rate of Http 503s When Sending Messages Using the Programmable Messaging Api
+impact: minor
 systems: []
 timeline:
     - ts: "2026-08-17 21:57:33"
       description: Our monitoring systems have detected a potential issue with Programmable messaging API returned 503s to customers. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
       investigating: true
+    - ts: "2026-08-17 22:07:22"
+      description: Between 13:25 PST and 13:27 PST, customers may have received an elevated rate of HTTP 503s when sending messages via the Programmable Messaging API. The issue has been resolved.
+      resolved: true
