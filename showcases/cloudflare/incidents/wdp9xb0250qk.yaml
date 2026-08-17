@@ -1,0 +1,9 @@
+version: incident/v1
+id: wdp9xb0250qk
+name: Lists Service Degraded
+impact: minor
+systems:
+    - tfnrx45s2b48
+timeline:
+    - ts: "2026-08-17 19:56:52"
+      description: Changes to URL Lists will experience delays before taking effect. Rulesets that contain lists may result in errors when editing them. Existing Lists continue to function normally.

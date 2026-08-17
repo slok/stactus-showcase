@@ -108,3 +108,9 @@ timeline:
     - ts: "2026-08-17 19:13:20"
       description: We are continuing to investigate sporadic authentication failures. We have partially disabled authentication token retries and have seen improvement, and we are monitoring impact before fully applying this mitigation.
       investigating: true
+    - ts: "2026-08-17 20:08:40"
+      description: We are continuing to investigate sporadic failures affecting Copilot authentication in some applications. Copilot usage via the GitHub CLI and GitHub App are unaffected.
+      investigating: true
+    - ts: "2026-08-17 20:22:28"
+      description: Issues is operating normally.
+      investigating: true

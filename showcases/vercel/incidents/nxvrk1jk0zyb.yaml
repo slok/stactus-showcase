@@ -1,7 +1,7 @@
 version: incident/v1
 id: nxvrk1jk0zyb
 name: Partial disruption of Observability, Analytics, Firewall, Usage, and Login in Dashboard
-impact: major
+impact: minor
 systems:
     - fk66q26xp7hh
     - 5d8svglj5s34
@@ -24,3 +24,5 @@ timeline:
       description: We are continuing to monitor for any further issues.
     - ts: "2026-08-17 17:51:57"
       description: Login with TOTP has completely recovered. We are still working to ingest missing observability data during this period. We will share more information as it becomes available.
+    - ts: "2026-08-17 20:13:29"
+      description: Services have recovered. We are still working to ingest missing observability data during this period.
