@@ -1,0 +1,10 @@
+version: incident/v1
+id: 2hxsrlmxlf5h
+name: Cloudflare Lists Bulk Actions failing
+impact: minor
+systems:
+    - tfnrx45s2b48
+timeline:
+    - ts: "2026-08-17 11:52:25"
+      description: Cloudflare is aware of, and investigating, an increase in the number of errors generated when attempting bulk actions against lists.  Further updates to follow.
+      investigating: true

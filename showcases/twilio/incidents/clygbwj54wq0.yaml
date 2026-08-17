@@ -1,9 +1,10 @@
 version: incident/v1
 id: clygbwj54wq0
-name: Elevated errors impacting Interconnect in Frankfurt Edge
+name: 'Service Disruption: Inbound Voice Calls to France Numbers and Frankfurt Interconnect'
 impact: minor
 systems:
     - hjfntfyhnn4l
+    - bnzggd37p61w
 timeline:
     - ts: "2026-08-16 20:28:51"
       description: We are investigating a service interruption with Interconnect in the Frankfurt edge. We expect to provide another update in 1 hour or as soon as more information becomes available.
@@ -16,3 +17,5 @@ timeline:
       description: We continue to monitor the issue related to elevated errors impacting Interconnect in Frankfurt Edge. We will provide an update as soon as more information becomes available.
     - ts: "2026-08-17 09:10:36"
       description: We continue to monitor the issue related to elevated errors impacting Interconnect in Frankfurt Edge. We will provide an update as soon as more information becomes available.
+    - ts: "2026-08-17 11:57:57"
+      description: We continue to monitor the issue related to elevated errors impacting Interconnect in the Frankfurt Edge. While investigating the current impact, we noticed that a subset of France numbers is affected. We will provide an update as soon as more information becomes available.
