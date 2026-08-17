@@ -99,3 +99,12 @@ timeline:
     - ts: "2026-08-17 18:23:47"
       description: The degradation affecting Git Operations has been mitigated. We are monitoring to ensure stability.
       investigating: true
+    - ts: "2026-08-17 18:48:19"
+      description: API Requests is experiencing degraded availability. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-17 19:01:45"
+      description: API Requests is operating normally.
+      investigating: true
+    - ts: "2026-08-17 19:13:20"
+      description: We are continuing to investigate sporadic authentication failures. We have partially disabled authentication token retries and have seen improvement, and we are monitoring impact before fully applying this mitigation.
+      investigating: true
