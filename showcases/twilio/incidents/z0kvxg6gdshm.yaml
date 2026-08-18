@@ -1,6 +1,6 @@
 version: incident/v1
 id: z0kvxg6gdshm
-name: Voice Call Failures From Network Subscribers to Twilio United States Phone Numbers
+name: Voice Call Failures from T-Mobile Network Subscribers to a Subset of Twilio United States Phone Numbers
 impact: minor
 systems:
     - 2v3v92mz2m4h
@@ -8,3 +8,7 @@ timeline:
     - ts: "2026-08-18 14:56:30"
       description: Twilio customers may be experiencing voice call failures from network subscribers to Twilio United States Phone Numbers. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-08-18 15:57:12"
+      description: Twilio customers may be experiencing voice call failures from T-Mobile network subscribers in the United States to a subset of Twilio United States Phone Numbers. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-08-18 15:58:20"
+      description: Twilio customers may be experiencing voice call failures from T-Mobile network subscribers in the United States to a subset of Twilio United States Phone Numbers. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
