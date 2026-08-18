@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8t1spyy2s5rl
+name: Atlas UI and API Periodic Unavailability
+impact: minor
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-08-18 14:10:56"
+      description: We are investigating an issue where customers periodically cannot access the Atlas UI or utilize the API.  Customer clusters are unaffected.
+      investigating: true
