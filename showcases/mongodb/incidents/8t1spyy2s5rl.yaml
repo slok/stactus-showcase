@@ -8,3 +8,7 @@ timeline:
     - ts: "2026-08-18 14:10:56"
       description: We are investigating an issue where customers periodically cannot access the Atlas UI or utilize the API.  Customer clusters are unaffected.
       investigating: true
+    - ts: "2026-08-18 14:57:05"
+      description: We have identified a new workload that was putting more load than expected on the backing system.  We are working on disabling it.  Customer clusters remain unaffected.
+    - ts: "2026-08-18 15:04:19"
+      description: We have disabled the workload and are monitoring the situation
