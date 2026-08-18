@@ -1,0 +1,9 @@
+version: incident/v1
+id: j0h67pnrf9cj
+name: Cloud Logs read path outage on eu-west-2
+impact: critical
+systems: []
+timeline:
+    - ts: "2026-08-18 22:53:27"
+      description: "We observed an issue which impacted the following service: reads of Cloud Logs in the eu-west-2 region. \n\nAffected services would include Explore, dashboards, alert evaluation when querying Logs.\n\nThe time of impact lasted from approximately 22h15 and 22h23 UTC, on loki-prod-012. This incident has since been resolved."
+      resolved: true
