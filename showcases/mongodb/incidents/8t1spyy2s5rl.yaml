@@ -12,3 +12,6 @@ timeline:
       description: We have identified a new workload that was putting more load than expected on the backing system.  We are working on disabling it.  Customer clusters remain unaffected.
     - ts: "2026-08-18 15:04:19"
       description: We have disabled the workload and are monitoring the situation
+    - ts: "2026-08-18 15:17:11"
+      description: This incident has been resolved.
+      resolved: true
