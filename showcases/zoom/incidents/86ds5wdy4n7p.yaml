@@ -1,0 +1,13 @@
+version: incident/v1
+id: 86ds5wdy4n7p
+name: Service Degradation Affecting File Uploads In Zoom Chat
+impact: none
+systems:
+    - t2jk6yrqbp4j
+    - 5nb7nq17c6g5
+timeline:
+    - ts: "2026-08-18 20:05:15"
+      description: "Between 2026-08-17 06:49 UTC and 2026-08-17 19:21 UTC , a subset of users experienced file upload issues in Zoom Chat. \nThis issue has been resolved."
+    - ts: "2026-08-18 20:06:22"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
