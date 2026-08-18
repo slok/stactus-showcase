@@ -6,7 +6,7 @@ systems:
     - 98lbmdz85yp0
 timeline:
     - ts: "2026-08-18 14:10:56"
-      description: We are investigating an issue where customers periodically cannot access the Atlas UI or utilize the API.  Customer clusters are unaffected.
+      description: We are investigating an issue where customers periodically cannot access the Atlas UI or utilize the API. Some internal Atlas jobs are also not to start as scheduled, resulting in delays to certain changes. Customer clusters are unaffected, the impact was limited to the timing of control-plane operations.
       investigating: true
     - ts: "2026-08-18 14:57:05"
       description: We have identified a new workload that was putting more load than expected on the backing system.  We are working on disabling it.  Customer clusters remain unaffected.
