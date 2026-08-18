@@ -1,0 +1,11 @@
+version: incident/v1
+id: bmpybhnrky3x
+name: Intermittent failures in runner group and runner-related permissions pages
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-08-18 07:40:35"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-08-18 07:40:42"
+      description: We are investigating reports of failure to load runner groups and runner-related permissions for customers using larger runners.
