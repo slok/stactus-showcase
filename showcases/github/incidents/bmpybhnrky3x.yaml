@@ -11,3 +11,5 @@ timeline:
       description: We are investigating reports of failure to load runner groups and runner-related permissions for customers using larger runners.
     - ts: "2026-08-18 10:41:40"
       description: We have identified the source of a communication issue between Actions services and are working toward mitigation. Customers may experience failure to load runner groups and runner-related permissions issues when using Larger Runners.
+    - ts: "2026-08-18 11:24:06"
+      description: We have applied a mitigation and are seeing recovery signals. We will continue monitoring recovery and providing updates.
