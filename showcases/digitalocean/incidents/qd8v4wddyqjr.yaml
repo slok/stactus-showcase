@@ -1,6 +1,6 @@
 version: incident/v1
 id: qd8v4wddyqjr
-name: Degraded Performance in MKC1
+name: Major Service Interruption in MKC1
 impact: minor
 systems:
     - dzzkx9qrqr9v
@@ -15,4 +15,6 @@ timeline:
         Our team is actively working to restore connectivity and bring impacted nodes back online. If you continue to experience issues, please open a support ticket from within your account.
       investigating: true
     - ts: "2026-08-19 12:22:47"
-      description: We have identified the root cause of the issue in the MKC1 region affecting multiple racks and nodes. Our Engineering team is actively implementing remediation steps to restore connectivity and bring the impacted nodes back online. During this time, customers may continue to experience disruptions to GPU workloads, degraded performance for Serverless Inference, and Kubernetes (DOKS) worker nodes may remain in a NotReady state and inability to reach Kubernetes API endpoints or perform cluster-management operations in affected clusters.  We will provide another update as soon as we have more information.
+      description: |-
+        We have identified the root cause of the issue in the MKC1 region affecting multiple racks and nodes. Our Engineering team is actively implementing remediation steps to restore connectivity and bring the impacted nodes back online.
+        During this time, customers may continue to experience disruptions to GPU workloads and Serverless Inference. Kubernetes (DOKS) worker nodes may also remain in a NotReady state, and customers may be unable to reach Kubernetes API endpoints or perform cluster-management operations in affected clusters. We will provide another update as soon as we have more information.
