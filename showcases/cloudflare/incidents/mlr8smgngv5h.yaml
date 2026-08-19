@@ -1,0 +1,18 @@
+version: incident/v1
+id: mlr8smgngv5h
+name: Increased Errors for Durable Objects in the Hong Kong region
+impact: minor
+systems:
+    - wf2gdmxg7cv3
+    - bty1yz6dhh0v
+    - z4wlt5jx9szq
+    - yxhtws7ltl9t
+timeline:
+    - ts: "2026-08-19 06:59:19"
+      description: Cloudflare is aware of, and investigating an issue with Durable Objects and related products which potentially impacts multiple customers in the Hong Kong region. Customers trying to use Durable Objects and some other reliant products such as RealtimeKit and Realtime SFU from aforementioned region may be experiencing an elevated level of overload errors. We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-08-19 07:06:33"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-08-19 07:20:23"
+      description: This incident has been resolved.
+      resolved: true
