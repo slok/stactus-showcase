@@ -24,3 +24,11 @@ timeline:
         We will provide another update as soon as we have more information.
     - ts: "2026-08-19 18:59:03"
       description: "At this time, the regional control plane is fully healthy. CPU Droplets, Managed databases, Load balancers, Block storage and Spaces are operating normally. Droplet create, resize and other management operations are working. Kubernetes (DOKS) control planes are reachable.\n\nOur teams are continuing to work with the facility to restore all equipment. GPU Droplets in MKC1 remain offline or unreachable. DOKS GPU worker nodes may remain NotReady, and GPU-backed inference endpoints in this region may be unavailable. \n\nWe will monitor the regional control plane for a short time and then resolve this incident. GPU customers will receive personalized updates with more information in lieu of this status page. \n\nIf you have questions about your affected resources, contact support and reference this incident."
+    - ts: "2026-08-19 19:34:54"
+      description: |-
+        Our Engineering team has confirmed the regional control plane is healthy and CPU Droplets, Managed databases, Load balancers, Block storage, Kubernetes (DOKS) and Spaces are operating normally.
+
+        GPU Droplets continue to be impacted and our teams are working to restore all nodes. We will communicate with GPU Droplet customers separately via Slack and email with more information and regular updates.
+
+        Thank you for your patience throughout this incident. If you continue to experience any issues, please open a support ticket from within your account.
+      resolved: true
