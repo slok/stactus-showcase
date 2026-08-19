@@ -1,0 +1,13 @@
+version: incident/v1
+id: yrhdbmp3g0h6
+name: Event Streams Delivery Stopped
+impact: minor
+systems:
+    - zxhmy448yyn3
+timeline:
+    - ts: "2026-08-19 22:45:27"
+      description: Our monitoring systems have detected a potential issue with Event Streams failing to deliver events. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-08-19 22:48:16"
+      description: We are aware of an issue affecting Event Streams delivery. Customers may experience interruptions in receiving events. Our team is actively investigating. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
