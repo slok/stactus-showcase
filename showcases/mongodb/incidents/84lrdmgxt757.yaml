@@ -1,9 +1,17 @@
 version: incident/v1
 id: 84lrdmgxt757
-name: Issues rotating certificates for groups containing only Atlas Free and Flex clusters
+name: Issues rotating certificates for projects containing only Atlas Free and Flex clusters
 impact: none
 systems:
     - 98lbmdz85yp0
 timeline:
     - ts: "2026-08-19 20:45:49"
-      description: We have identified an issue impacting groups containing only Flex or Free clusters. For those clusters, TLS certificates are incorrectly not being rotated. We are working on remediation steps.
+      description: We have identified an issue impacting certain projects containing only Free or Flex clusters. For those clusters, TLS certificates are not being rotated correctly. This could lead to an inability to connect to your Free or Flex cluster. We are working on remediation steps.
+    - ts: "2026-08-19 21:50:56"
+      description: We performed remediation steps on all impacted projects. We will continue to monitor for more occurrences of this issue.
+    - ts: "2026-08-19 21:57:54"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-08-19 21:58:51"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-08-19 22:00:16"
+      description: We are continuing to monitor for any further issues.
