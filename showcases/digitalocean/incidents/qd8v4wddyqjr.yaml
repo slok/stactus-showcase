@@ -1,7 +1,7 @@
 version: incident/v1
 id: qd8v4wddyqjr
 name: Major Service Interruption in MKC1
-impact: minor
+impact: critical
 systems:
     - dzzkx9qrqr9v
     - 20bc3d63817b
@@ -18,3 +18,7 @@ timeline:
       description: |-
         We have identified the root cause of the issue in the MKC1 region affecting multiple racks and nodes. Our Engineering team is actively implementing remediation steps to restore connectivity and bring the impacted nodes back online.
         During this time, customers may continue to experience disruptions to GPU workloads and Serverless Inference. Kubernetes (DOKS) worker nodes may also remain in a NotReady state, and customers may be unable to reach Kubernetes API endpoints or perform cluster-management operations in affected clusters. We will provide another update as soon as we have more information.
+    - ts: "2026-08-19 15:28:37"
+      description: |-
+        Our Engineering team continues to work on the issue affecting the MKC1 region. We are actively working to restore connectivity and bring the impacted nodes back online.
+        We will provide another update as soon as we have more information.
