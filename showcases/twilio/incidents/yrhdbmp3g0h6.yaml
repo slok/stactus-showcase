@@ -1,7 +1,7 @@
 version: incident/v1
 id: yrhdbmp3g0h6
 name: Event Streams Delivery Stopped
-impact: minor
+impact: major
 systems:
     - zxhmy448yyn3
 timeline:
@@ -11,3 +11,5 @@ timeline:
     - ts: "2026-08-19 22:48:16"
       description: We are aware of an issue affecting Event Streams delivery. Customers may experience interruptions in receiving events. Our team is actively investigating. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-08-19 23:36:51"
+      description: Our engineers have identified the issue affecting Event Streams delivery and are working to deploy a fix. Customers may continue to experience interruptions in receiving events. We expect to provide another update in 30 minutes or as soon as more information becomes available.
