@@ -1,0 +1,13 @@
+version: incident/v1
+id: 3gm14w22gjmp
+name: Increased Latency and Failures on Porting APIs
+impact: minor
+systems:
+    - pv5w18vrltfl
+timeline:
+    - ts: "2026-08-19 20:38:55"
+      description: Our monitoring systems have detected a potential issue with increased latency and failures on porting APIs. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-08-19 20:45:18"
+      description: We are investigating intermittent latency and failures on Porting APIs. At this time customers may see 500 errors when calling the Porting APIs. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

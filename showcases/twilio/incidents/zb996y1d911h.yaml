@@ -1,0 +1,12 @@
+version: incident/v1
+id: zb996y1d911h
+name: MMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in United States
+impact: minor
+systems:
+    - 8vdlvw3dsq8h
+timeline:
+    - ts: "2026-08-19 20:34:02"
+      description: Twilio customers may be experiencing MMS delivery delays from a subset of Twilio Long Codes to network subscribers on multiple networks in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-19 20:46:04"
+      description: Twilio customers may be experiencing MMS delivery delays from a subset of Twilio Long Codes to network subscribers on multiple networks in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
