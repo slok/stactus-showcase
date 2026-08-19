@@ -1,0 +1,10 @@
+version: incident/v1
+id: xdwbtz278bcq
+name: IncomingPhoneNumbers API Failures
+impact: minor
+systems:
+    - 4rv9xfxmdjg9
+timeline:
+    - ts: "2026-08-19 14:42:10"
+      description: We are experiencing 5xx errors for IncomingPhoneNumbers API affecting Hosted Numbers. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
