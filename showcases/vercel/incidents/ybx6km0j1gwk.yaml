@@ -1,0 +1,9 @@
+version: incident/v1
+id: ybx6km0j1gwk
+name: Elevated errors for Workflow streams
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-19 00:28:30"
+      description: From 10:57pm to 11:43pm UTC, a percentage of Workflows streams calls failed. Workflow steps that had a failing stream call would retry, and if the step hit the max retries, the workflow failed. Workflow streams have recovered and are working correctly now.
+      resolved: true

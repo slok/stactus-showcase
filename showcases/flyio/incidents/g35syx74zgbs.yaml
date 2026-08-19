@@ -1,0 +1,9 @@
+version: incident/v1
+id: g35syx74zgbs
+name: 6PN Networking issue in YYZ
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-19 01:15:37"
+      description: 6PN networking issues between some machines in YYZ during a rollout which was rolled back once we noticed errors. During this time some machines were unable to talk to internal resources like other DBs, other apps or MPG clusters.
+      resolved: true
