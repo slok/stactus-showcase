@@ -1,0 +1,16 @@
+version: incident/v1
+id: qd8v4wddyqjr
+name: Degraded Performance in MKC1
+impact: minor
+systems:
+    - dzzkx9qrqr9v
+    - 20bc3d63817b
+timeline:
+    - ts: "2026-08-19 11:10:06"
+      description: |-
+        Our Engineering team is currently investigating an issue in the MKC1 region affecting multiple racks and nodes.
+
+        During this time, customers may experience disruptions to GPU workloads, and Kubernetes (DOKS) worker nodes may enter a NotReady state.
+
+        Our team is actively working to restore connectivity and bring impacted nodes back online. If you continue to experience issues, please open a support ticket from within your account.
+      investigating: true
