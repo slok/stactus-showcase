@@ -1,0 +1,13 @@
+version: incident/v1
+id: c0ncxxm2wd9r
+name: Elevated errors on requests to multiple models
+impact: major
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-08-20 19:16:25"
+      description: We are investigating elevated errors on requests to some Claude models. We will provide additional updates as soon as possible.
+      investigating: true
