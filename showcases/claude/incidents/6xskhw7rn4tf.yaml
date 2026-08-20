@@ -1,0 +1,13 @@
+version: incident/v1
+id: 6xskhw7rn4tf
+name: Elevated errors on Google connectors
+impact: minor
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-08-20 18:32:13"
+      description: We are investigating elevated errors affecting Google connectors (Sheets, Docs, Slides, and Chat) and custom Google integrations on Claude.ai. Core functionality is not affected. We will provide an update as soon as possible.
+      investigating: true

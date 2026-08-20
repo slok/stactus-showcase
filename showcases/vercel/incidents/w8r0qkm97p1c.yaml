@@ -10,3 +10,8 @@ timeline:
         We've identified an issue where newly deployed container functions may return 5XX errors.
 
         Customers can use a previously working container function deployment as a temporary mitigation. We are working on a fix and will provide additional updates as they become available.
+    - ts: "2026-08-20 18:23:05"
+      description: We have deployed a fix. Newly deployed container functions are working as expected.
+    - ts: "2026-08-20 18:34:00"
+      description: This incident has been resolved.
+      resolved: true
