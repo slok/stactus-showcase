@@ -1,0 +1,9 @@
+version: incident/v1
+id: nvf5tfh8r5gy
+name: Temporary DNS resolution failure
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-08-20 20:07:52"
+      description: A BGP configuration error caused our Anycast DNS to route to some nodes without the proper DNS infrastructure. The issue was temporary and was resolved as soon as we removed that node from BGP.
+      resolved: true
