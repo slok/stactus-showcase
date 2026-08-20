@@ -6,5 +6,12 @@ systems:
     - 4wz65bpk3yld
 timeline:
     - ts: "2026-08-20 16:16:58"
-      description: Due to a Google Cloud Platform (GCP) network anomaly, you may experience slow responses, loading failures, or intermittent disruptions when accessing some sites/services. If you encounter any of these issues, we recommend refreshing the page or retrying after a moment. If access still fails after retrying, please be patient — we are working actively to resolve it.
+      description: |-
+        Due to a Google Cloud Platform (GCP) network anomaly, you may experience slow responses, loading failures, or intermittent disruptions when accessing some sites/services. If you encounter any of these issues, we recommend refreshing the page or retrying after a moment. If access still fails after retrying, please be patient — we are working actively to resolve it.
+
+        Incident details: https://status.cloud.google.com/incidents/utF3FMFdQfwBzJcGG6vf
       investigating: true
+    - ts: "2026-08-20 17:07:49"
+      description: GCP has implemented mitigation measures and the issue is being mitigated. We are continuing to monitor the service status to ensure full recovery.
+    - ts: "2026-08-20 17:13:08"
+      description: A fix has been implemented and we are monitoring the results.

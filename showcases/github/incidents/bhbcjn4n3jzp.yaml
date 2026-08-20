@@ -19,3 +19,6 @@ timeline:
     - ts: "2026-08-20 16:14:46"
       description: Users are experiencing delays when starting tasks using Copilot Cloud Agent and are not be able to see the status of these tasks. Copilot Cloud Agent tasks are still being completed. We have identified the cause of the issue and are putting mitigations in place to return service to normal levels. We will provide another update about the expected recovery time shortly.
       investigating: true
+    - ts: "2026-08-20 17:05:20"
+      description: We are seeing signs of recovery for Copilot Cloud Agent task status visibility, but this recovery is slower than anticipated. We are pursuing additional mitigating measures to accelerate recovery.
+      investigating: true
