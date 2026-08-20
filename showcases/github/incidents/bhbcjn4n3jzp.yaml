@@ -1,7 +1,7 @@
 version: incident/v1
 id: bhbcjn4n3jzp
 name: Intermittent failures creating agent tasks
-impact: minor
+impact: critical
 systems: []
 timeline:
     - ts: "2026-08-20 14:43:01"
@@ -12,4 +12,7 @@ timeline:
       investigating: true
     - ts: "2026-08-20 15:01:51"
       description: We have identified the problematic component and are working to fail over to a healthy instance. Further updates will be provided as we perform mitigations.
+      investigating: true
+    - ts: "2026-08-20 15:41:11"
+      description: We are experiencing issues with Copilot Cloud Agent tasks, resulting in newly started tasks not properly displaying on-going progress. These Copilot Cloud Agent tasks are still being completed correctly but lack proper visibility. We are actively investigating the issue and will provide updates as we learn more.
       investigating: true
