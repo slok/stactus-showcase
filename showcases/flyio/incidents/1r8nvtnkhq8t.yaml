@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1r8nvtnkhq8t
+name: Oauth/Macaroon Errors from flyctl
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-20 13:54:08"
+      description: "We have identified an issue causing authentication errors for some operations from `flyctl`. These operations are failing with an error like: `This endpoint no longer accepts legacy OAuth tokens (starting with `fo1_`). Please use a macaroon token (starting with `fm2_`) instead. \n\nWe have identified the issue and are rolling out a fix"
+    - ts: "2026-08-20 14:05:43"
+      description: A fix has been deployed and this error should no longer be occurring. We're monitoring to ensure full recovery.

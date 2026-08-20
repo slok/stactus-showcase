@@ -1,10 +1,20 @@
 version: incident/v1
 id: 76jq00tfhd4c
-name: Increased Errors for Durable Objects and Downstream Services in France
+name: Increased Errors for Durable Objects and Downstream Services in Indonesia
 impact: minor
 systems:
     - bty1yz6dhh0v
 timeline:
     - ts: "2026-08-20 13:10:35"
-      description: Cloudflare is investigating issues causing an increase of errors for Durable Objects and downstream services in France. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      description: Cloudflare is investigating issues causing an increase of errors for Durable Objects and downstream services in Indonesia. We are working to analyse and mitigate this problem. More updates to follow shortly.
       investigating: true
+    - ts: "2026-08-20 13:25:46"
+      description: Clients connecting to Jakarta datacentre are receiving disconnected exceptions when sending requests to Durable Objects.
+      investigating: true
+    - ts: "2026-08-20 13:38:05"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-08-20 13:49:08"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-08-20 14:00:10"
+      description: This incident has been resolved.
+      resolved: true
