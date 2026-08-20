@@ -1,0 +1,12 @@
+version: incident/v1
+id: w8r0qkm97p1c
+name: New container functions are failing
+impact: major
+systems:
+    - kgcsn9c73xzf
+timeline:
+    - ts: "2026-08-20 17:46:33"
+      description: |-
+        We've identified an issue where newly deployed container functions may return 5XX errors.
+
+        Customers can use a previously working container function deployment as a temporary mitigation. We are working on a fix and will provide additional updates as they become available.
