@@ -1,0 +1,10 @@
+version: incident/v1
+id: nv4zk6bjdc7j
+name: Some of our store sites are currently experiencing issues
+impact: minor
+systems:
+    - 4wz65bpk3yld
+timeline:
+    - ts: "2026-08-20 16:16:58"
+      description: Due to a Google Cloud Platform (GCP) network anomaly, you may experience slow responses, loading failures, or intermittent disruptions when accessing some sites/services. If you encounter any of these issues, we recommend refreshing the page or retrying after a moment. If access still fails after retrying, please be patient — we are working actively to resolve it.
+      investigating: true
