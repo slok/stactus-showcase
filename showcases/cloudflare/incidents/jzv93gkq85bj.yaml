@@ -1,0 +1,12 @@
+version: incident/v1
+id: jzv93gkq85bj
+name: MTLS Validation issues
+impact: none
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-08-21 00:05:23"
+      description: Cloudflare identified an issue causing mTLS validation failures for some customers. A fix has been implemented and we are monitoring the results.
+    - ts: "2026-08-21 00:13:54"
+      description: This incident has been resolved.
+      resolved: true
