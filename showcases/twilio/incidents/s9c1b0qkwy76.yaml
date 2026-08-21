@@ -10,3 +10,6 @@ timeline:
       investigating: true
     - ts: "2026-08-21 04:20:17"
       description: Twilio customers may be experiencing voice call failures between a subset of Twilio Phone Numbers and network subscribers on multiple networks in Japan. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-08-21 04:50:17"
+      description: Upon further investigation into reported voice call disruptions in Japan, our team verified that the impact is limited to a single account rather than a platform-wide issue. Consequently, we are closing this public status page entry. Our team has reached out directly to the impacted customer to deliver targeted support and resolution details.
+      resolved: true
