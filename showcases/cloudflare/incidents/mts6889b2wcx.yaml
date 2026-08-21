@@ -1,0 +1,12 @@
+version: incident/v1
+id: mts6889b2wcx
+name: Zero Trust Client Posture Failures
+impact: minor
+systems:
+    - kf0ktv29xrfy
+timeline:
+    - ts: "2026-08-21 20:43:30"
+      description: We are investigating an issue where posture checks are failing for some customer service provider configurations. This is resulting in delays when accessing resources protected by WARP posture rules.
+      investigating: true
+    - ts: "2026-08-21 20:49:48"
+      description: We have identified a customer configured provider that is timing out when sent posture check requests.
