@@ -1,0 +1,12 @@
+version: incident/v1
+id: 3zhddx2vbm8c
+name: Workload disruption in us-east-2 (Ohio)
+impact: minor
+systems:
+    - b3rrfdqndjm6
+timeline:
+    - ts: "2026-08-21 12:26:15"
+      description: We're investigating an issue affecting apps in us-east-2 (Ohio). Other regions are operating normally. We understand the impact and are treating this as a priority.
+      investigating: true
+    - ts: "2026-08-21 12:46:41"
+      description: We've identified the cause of the disruption and are working to restore service.
