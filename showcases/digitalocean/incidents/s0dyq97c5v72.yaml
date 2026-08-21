@@ -1,0 +1,18 @@
+version: incident/v1
+id: s0dyq97c5v72
+name: Container Registry and Spaces Accessibility
+impact: minor
+systems:
+    - nkx0nmdx9vrs
+    - 3xz669qnng8n
+timeline:
+    - ts: "2026-08-21 12:59:42"
+      description: |-
+        Our Engineering team is currently investigating reports of an issue affecting Container Registry and Spaces buckets in some regions.
+
+        During this time, customers may experience failures when pushing or pulling container images. Additionally, customers may experience issues accessing Spaces via the Cloud Control Panel, where the page may display "Looks like something went wrong…"
+
+        Our Engineering team is actively investigating the issue and treating it with priority. We will provide another update as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-21 13:06:06"
+      description: "Our Engineering team has identified the issue affecting Container Registry and Spaces buckets, and a fix has been applied.\n\nSpaces accessibility via the Cloud Control Panel should now be restored, and pushing and pulling container images should be back to normal. \n\nWe are continuing to monitor the results to ensure the issue has been fully resolved and will provide another update once we've confirmed normal service has been restored."
