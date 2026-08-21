@@ -1,0 +1,10 @@
+version: incident/v1
+id: 4xc060jmvmzc
+name: SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs to Viva Dominican Republic
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-08-21 19:39:27"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Alphanumeric Sender IDs to Viva network subscribers in the Dominican Republic. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
