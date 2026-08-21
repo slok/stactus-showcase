@@ -1,0 +1,13 @@
+version: incident/v1
+id: k6v45x988py7
+name: Cloudflare Access Browser-based RDP Issue
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-08-21 06:40:44"
+      description: |-
+        Cloudflare is investigating issues with Cloudflare Access Browser-based RDP. Some customers may be unable to connect to RDP servers.
+
+        We are working to understand the full impact and mitigate this problem.  More updates to follow shortly.
+      investigating: true
