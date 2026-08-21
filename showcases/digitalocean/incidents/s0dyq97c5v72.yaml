@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2026-08-21 13:06:06"
       description: "Our Engineering team has identified the issue affecting Container Registry and Spaces buckets, and a fix has been applied.\n\nSpaces accessibility via the Cloud Control Panel should now be restored, and pushing and pulling container images should be back to normal. \n\nWe are continuing to monitor the results to ensure the issue has been fully resolved and will provide another update once we've confirmed normal service has been restored."
+    - ts: "2026-08-21 14:52:40"
+      description: "Our Engineering team has confirmed that the issue impacting Container Registry and Spaces accessibility has been resolved. \n\nSpaces accessibility via the Cloud Control Panel is now restored, and pushing and pulling container images is succeeding as expected. Customers who previously encountered these issues should now be able to access Spaces and deploy their container images without further issues.\n\nIf you continue to experience any problems, please open a ticket with our support team. Thank you for your patience, and we apologize for any inconvenience."
+      resolved: true
