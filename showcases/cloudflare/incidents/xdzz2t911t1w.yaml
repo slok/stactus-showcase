@@ -1,12 +1,12 @@
 version: incident/v1
 id: xdzz2t911t1w
-name: Elevated R2 errors in Dubai (DXB)
+name: Network connectivity issues in Dubai (DXB)
 impact: minor
 systems:
     - hb7g5sq2zz0h
 timeline:
     - ts: "2026-08-22 02:31:34"
-      description: Customers in Dubai may see increased error rates for R2 requests.
+      description: Customers in Dubai may see increased error rates while connecting to Cloudflare services.
       investigating: true
     - ts: "2026-08-22 02:57:56"
       description: This incident has been resolved.

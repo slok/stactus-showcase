@@ -1,0 +1,12 @@
+version: incident/v1
+id: 9n0v2370n3gg
+name: SMS Delivery Delays from Twilio to Mobile Oman
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-08-22 05:15:25"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Mobile network subscribers in Oman. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-22 05:24:12"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Mobile network subscribers in Oman. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
