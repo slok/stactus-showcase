@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1m0n9nqgjxt7
+name: Network Issues in LAX Region
+impact: major
+systems:
+    - 15knchzwl5np
+timeline:
+    - ts: "2026-08-23 01:28:34"
+      description: We are investigating network issues in the Los Angeles region. Apps may experience higher latency or be unreachable at this time.
+      investigating: true
