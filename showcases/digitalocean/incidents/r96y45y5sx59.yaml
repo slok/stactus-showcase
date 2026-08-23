@@ -3,7 +3,8 @@ id: r96y45y5sx59
 name: Managed Databases Creation
 impact: minor
 systems:
-    - mzkgffp35tq4
+    - d2m7jh32j7z1
+    - gt78t0v1dx9k
 timeline:
     - ts: "2026-08-23 05:11:37"
       description: |-
@@ -19,3 +20,5 @@ timeline:
 
         Our engineering team is implementing a mitigation and working to restore normal provisioning. We will provide another update as soon as more information is available.
       investigating: true
+    - ts: "2026-08-23 11:30:34"
+      description: "Our Engineering team has implemented the necessary fixes affecting Managed Database cluster creation in the NYC3 and NYC1 regions. Users should now be able to create new Managed Database clusters.   \n\nWe are currently monitoring the situation to ensure that the service has returned to normal operation and remains stable. We appreciate your patience and will provide an update once the issue is fully confirmed as resolved."
