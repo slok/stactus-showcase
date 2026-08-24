@@ -7,13 +7,16 @@ systems:
 timeline:
     - ts: "2026-08-24 08:56:25"
       description: |-
-        We are currently investigating a service degradation affecting users ability use meeting chat.
+        We are currently investigating a service degradation affecting users ability to use meeting chat.
 
         Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
 
         We appreciate your patience as we work to resolve this issue.
       investigating: true
     - ts: "2026-08-24 09:06:39"
-      description: "We have successfully identified the root cause affecting users ability use meeting chat.\n@rachit\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+      description: "We have successfully identified the root cause affecting users ability to use meeting chat.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
     - ts: "2026-08-24 09:20:58"
       description: The issue affecting users' ability to use meeting chat has been successfully resolved. Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-08-24 09:37:28"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
