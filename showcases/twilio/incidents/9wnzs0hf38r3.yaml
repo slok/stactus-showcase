@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-08-24 05:30:07"
       description: We are currently investigating an issue causing elevated 5xx server errors within Flex Orchestration Services, which may result in intermittent errors or dropped voice calls for Flex users. Our engineering team is actively working to identify the root cause, and we will provide another update in 30 minutes or as soon as new information becomes available.
       investigating: true
+    - ts: "2026-08-24 05:56:10"
+      description: 5xx errors have subsided, and Flex Orchestration Services have returned to normal operation. Our engineering team is continuing to monitor system stability closely, and we will provide a final update in 30 minutes.
+    - ts: "2026-08-24 06:21:09"
+      description: Flex Orchestration Services have returned to normal operation, and 5xx errors affecting voice calls have fully subsided. Voice services are operating as expected, and this issue is now resolved.
+      resolved: true

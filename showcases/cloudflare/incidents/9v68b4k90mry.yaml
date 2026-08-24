@@ -1,0 +1,14 @@
+version: incident/v1
+id: 9v68b4k90mry
+name: Increased HTTP 5xx Errors in Chicago
+impact: minor
+systems:
+    - z9v8znl25w0f
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2026-08-24 05:47:34"
+      description: |-
+        Cloudflare is investigating an increased level of HTTP  5xx errors in Chicago.
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true
