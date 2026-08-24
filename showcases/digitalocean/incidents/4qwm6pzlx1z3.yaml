@@ -22,3 +22,11 @@ timeline:
         Our Engineering team has implemented mitigation measures to address the issue affecting the DigitalOcean public API and Cloud Control Panel. We are seeing requests succeed, and users should now be able to access the Cloud Control Panel and issue/receive API requests normally.
 
         We are currently monitoring the situation to ensure that the service has returned to normal operation and remains stable. We appreciate your patience and will provide an update once the issue is fully confirmed as resolved.
+    - ts: "2026-08-24 22:27:18"
+      description: |-
+        Our Engineering team is investigating a recurrence of the issue impacting the DigitalOcean public API and Cloud Control Panel. This issue does not impact our data plane (i.e. running droplets).
+
+        Users may experience difficulties accessing the Cloud Control Panel, along with elevated latency and intermittent errors when accessing the public API or Cloud Control Plane.
+
+        We are actively investigating the issue and working to restore normal service. We will continue to provide updates as more information becomes available. We apologize for the inconvenience and appreciate your patience.
+      investigating: true
