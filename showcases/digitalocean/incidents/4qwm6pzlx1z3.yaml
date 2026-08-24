@@ -9,3 +9,11 @@ timeline:
     - ts: "2026-08-24 17:14:43"
       description: "Our Engineering team is investigating an issue impacting the DigitalOcean public API and Cloud Control Panel. At this time, users will see elevated 5xx errors for all API requests, including things like creates for various products. Users may also be unable to access cloud.digitalocean.com. \n\nWe are actively investigating the root cause and will provide updates as soon as more information becomes available.\n\nWe apologize for the inconvenience and appreciate your patience."
       investigating: true
+    - ts: "2026-08-24 18:33:07"
+      description: |-
+        We are continuing to investigate the issue impacting the DigitalOcean public API and Cloud Control Panel. At this time, we are seeing some improvement in latency/error rates and some users may now be able to access the Cloud Control Panel.
+
+        Serverless Inference users may currently experience 403 and 503 errors when making API requests or accessing affected services.
+
+        We will continue to provide updates as more information becomes available. We apologize for the inconvenience and appreciate your patience.
+      investigating: true

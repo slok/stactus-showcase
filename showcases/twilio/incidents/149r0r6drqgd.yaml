@@ -1,0 +1,13 @@
+version: incident/v1
+id: 149r0r6drqgd
+name: WhatsApp Business API and RCS Send Failures
+impact: minor
+systems:
+    - t32hnkr2q793
+timeline:
+    - ts: "2026-08-24 18:37:30"
+      description: We are investigating an issue with outbound messaging for RCS and WhatsApp. Users may experience elevated HTTP 500 status codes and errors sending outbound messages. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-24 18:48:03"
+      description: We have investigated and resolved an issue with Messaging. From 11:10AM PDT to 11:15AM PDT on Monday, 8/24/26, customers may have experienced errors sending outbound WhatsApp and RCS messages. The issue has been resolved and all impacted services are operating normally.
+      resolved: true
