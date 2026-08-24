@@ -14,5 +14,5 @@ timeline:
       description: We have deployed a mitigation. At this time GHEC Team Sync has recovered for enterprises with personal accounts. Teams syncing to IdP groups have returned to their normal cadence.
       investigating: true
     - ts: "2026-08-13 18:27:54"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On August 13, 2026, from 15:31:21 UTC to 18:27:55 UTC, GitHub Enterprise Cloud team synchronization was degraded for enterprises using personal accounts. Organization teams experienced delays of up to 3 to 13 hours (median 8 hours) when syncing with IdP groups, resulting in delayed access grants or removals for enterprise users across 2.8% of teams. <br /><br />A temporary change introduced to address a previous issue due to increased usage of this feature remained active after it was intended to be removed, causing synchronization delays during periods of high volume. We removed the temporary change and provisioned additional resources to handle the increased volume.
       resolved: true
