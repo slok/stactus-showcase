@@ -1,0 +1,17 @@
+version: incident/v1
+id: 1krdmhdp1z07
+name: GitHub disruption
+impact: major
+systems:
+    - ffc2w3q5j6fx
+    - q8chffw359pz
+    - k7bvq41n41zs
+    - mf51szgphyxp
+    - 29lv3lp08fw1
+    - j7npqf9nr7qp
+    - 359qq1ltvtft
+    - z90jsvy9c3h1
+    - 7pp548h9j9k6
+timeline:
+    - ts: "2026-08-24 13:41:39"
+      description: We're seeing problems caused by an ongoing issue at GitHub that's affecting Laravel Cloud builds. Your running apps aren't impacted, this only affects actions that rely on GitHub. We're tracking their status alongside our own checks.
