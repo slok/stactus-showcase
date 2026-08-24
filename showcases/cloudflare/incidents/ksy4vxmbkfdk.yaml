@@ -1,0 +1,14 @@
+version: incident/v1
+id: ksy4vxmbkfdk
+name: DO and D1 are degraded in Hong Kong and Singapore
+impact: minor
+systems:
+    - wf2gdmxg7cv3
+    - z0yd3sxqjqdm
+    - bty1yz6dhh0v
+    - 18p6r93swmbl
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-08-24 03:53:58"
+      description: Some DOs and D1 databases may be experiencing issues in Hong Kong and Singapore. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
