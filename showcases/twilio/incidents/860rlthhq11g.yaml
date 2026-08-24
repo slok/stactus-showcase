@@ -1,0 +1,12 @@
+version: incident/v1
+id: 860rlthhq11g
+name: Voice Call Silent and One-Way Audio from Brazil to Twilio Phone Numbers
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2026-08-24 21:06:25"
+      description: Twilio customers may be experiencing voice call silent and one-way audio from network subscribers in Brazil to Twilio Brazil Phone Numbers. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-24 21:20:32"
+      description: Twilio customers may be experiencing voice call silent and one-way audio from network subscribers in Brazil to Twilio Phone Numbers. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
