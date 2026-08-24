@@ -1,0 +1,10 @@
+version: incident/v1
+id: d68x0kzjwhqf
+name: Increased Latency
+impact: minor
+systems:
+    - 5wnz34mhfhrk
+timeline:
+    - ts: "2026-08-24 20:38:27"
+      description: Cloudflare is investigating an issue which may result in latency increases for a subset of requests.
+      investigating: true

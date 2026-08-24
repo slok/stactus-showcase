@@ -1,0 +1,14 @@
+version: incident/v1
+id: n0rlp126qf8g
+name: Issues logging into Claude.ai
+impact: minor
+systems:
+    - rwppv331jlwc
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-08-24 20:11:24"
+      description: We have identified and resolved an issue which resulted in errors when attempting to access Claude.ai, including logging in via subscriptions for Claude Code. Errors occurred between 1:00pm (20:00 UTC) through 1:08pm PT (20:08 UTC). We are monitoring closely to ensure no further issues.
+    - ts: "2026-08-24 20:26:21"
+      description: This issue has been resolved.
+      resolved: true
