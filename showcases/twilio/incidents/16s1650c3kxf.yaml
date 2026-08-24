@@ -1,6 +1,6 @@
 version: incident/v1
 id: 16s1650c3kxf
-name: SMS Delivery Delays from a Subset of Twilio Phone Numbers to Telefonica El Salvador
+name: SMS Delivery Receipt Delays from a Subset of Twilio Phone Numbers to Telefonica El Salvador
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -32,3 +32,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Phone Numbers to Telefonica network subscribers in El Salvador. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
     - ts: "2026-08-24 14:11:52"
       description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Phone Numbers to Telefonica network subscribers in El Salvador. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+    - ts: "2026-08-24 23:18:23"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Phone Numbers to Telefonica network subscribers in El Salvador. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
