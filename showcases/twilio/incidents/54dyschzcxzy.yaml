@@ -1,0 +1,9 @@
+version: incident/v1
+id: 54dyschzcxzy
+name: Users Faced a Generic Error "Can Not Be the Same as Your Last Password." When Attempting to Reset Their Password.
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-24 19:38:16"
+      description: Users faced a generic error "can not be the same as your last password." when attempting to reset their password between 2026-08-20 21:59 UTC and 2026-08-24 17:15:05 UTC. During this period of time customers may have experienced issues resetting their passwords. The issue has now been resolved.
+      resolved: true
