@@ -17,3 +17,6 @@ timeline:
       description: We're seeing problems caused by an ongoing issue at GitHub that's affecting Laravel Cloud builds. Your running apps aren't impacted, this only affects actions that rely on GitHub. We're tracking their status alongside our own checks.
     - ts: "2026-08-24 14:37:39"
       description: GitHub has begun recovering and builds should start working again. We're keeping a close eye on things to make sure they stay stable.
+    - ts: "2026-08-24 15:22:42"
+      description: GitHub's incident is resolved and builds are back to normal. If a deploy failed during this window, a retry will now go through. Thanks for your patience.
+      resolved: true
