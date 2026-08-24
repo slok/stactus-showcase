@@ -1,0 +1,10 @@
+version: incident/v1
+id: sbp7m99k5kjl
+name: Metrics in some regions are lagging behind
+impact: minor
+systems:
+    - k2zhkw7wryv2
+timeline:
+    - ts: "2026-08-24 10:23:31"
+      description: We are currently experiencing some metrics lag on servers in some regions. We are provisioning more metric processing instances to accommodate the backlog and catch up.
+      investigating: true
