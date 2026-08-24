@@ -8,3 +8,5 @@ timeline:
     - ts: "2026-08-24 10:23:31"
       description: We are currently experiencing some metrics lag on servers in some regions. We are provisioning more metric processing instances to accommodate the backlog and catch up.
       investigating: true
+    - ts: "2026-08-24 12:47:42"
+      description: All hosts have caught up with metrics and we're monitoring the situation
