@@ -1,0 +1,12 @@
+version: incident/v1
+id: xk7z6n5qpbhh
+name: SMS Delivery Delays from a Subset of Twilio Phone Numbers to Drillisch 1&1 Germany
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-08-25 20:02:51"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Phone Numbers to Drillisch 1&1 network subscribers in Germany. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-25 20:11:56"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Phone Numbers to Drillisch 1&1 network subscribers in Germany. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.

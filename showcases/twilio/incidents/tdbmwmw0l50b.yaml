@@ -7,5 +7,5 @@ systems:
     - x3z86l06nvl7
 timeline:
     - ts: "2026-08-25 18:37:13"
-      description: Our engineers are currently investigating the customer impact of a retroactive issue. The incident involves elevated latencies on the Messaging Logs API. We will follow up and provide customer impact details within 2 hours or as soon as we have additional information.
+      description: Twilio Messaging Logs API was degraded intermittently between 07/25/2026 and 08/23/2026. During this period of time customers may have experienced intermittent elevated latency when trying to call the Messaging Logs API. The issue has now been resolved.
       resolved: true
