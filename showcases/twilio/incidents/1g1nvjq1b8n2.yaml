@@ -1,6 +1,6 @@
 version: incident/v1
 id: 1g1nvjq1b8n2
-name: SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Multiple Networks in Mexico
+name: SMS Delivery Receipt Delays From a Subset of Twilio Long Codes to Multiple Networks in Mexico
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -14,3 +14,6 @@ timeline:
       description: We have observed a recovery in SMS delivery receipts from a subset of Twilio Long Codes to multiple networks in Mexico and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-08-25 18:02:43"
       description: We have observed a recovery in SMS delivery receipts from a subset of Twilio Long Codes to network subscribers on multiple networks in Mexico and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-08-25 18:08:32"
+      description: The incident has been resolved and SMS delivery receipts from a subset of Twilio Long Codes to affected networks in Mexico are operating normally.
+      resolved: true

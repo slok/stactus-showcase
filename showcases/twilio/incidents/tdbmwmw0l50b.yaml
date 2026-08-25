@@ -1,0 +1,11 @@
+version: incident/v1
+id: tdbmwmw0l50b
+name: 'Retroactive Incident: Elevated Latencies on Messaging Logs API'
+impact: none
+systems:
+    - 4rv9xfxmdjg9
+    - x3z86l06nvl7
+timeline:
+    - ts: "2026-08-25 18:37:13"
+      description: Our engineers are currently investigating the customer impact of a retroactive issue. The incident involves elevated latencies on the Messaging Logs API. We will follow up and provide customer impact details within 2 hours or as soon as we have additional information.
+      resolved: true
