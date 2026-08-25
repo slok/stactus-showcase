@@ -32,3 +32,5 @@ timeline:
       investigating: true
     - ts: "2026-08-25 00:54:37"
       description: "Our Engineering team has implemented mitigation measures to address the issue impacting the DigitalOcean public API and Cloud Control Panel. We are seeing improvements, and users should now be able to access the Cloud Control Panel and use the public API normally. \n\nWe are continuing to monitor the service to ensure it remains stable and will provide further updates as more information becomes available. We appreciate your patience and understanding."
+    - ts: "2026-08-25 16:30:28"
+      description: Our Engineering team has continued to monitor the health of all services and has observed no recurrence of impact over the past 12+ hours. We will continue to monitor services for a short period to confirm stability before we mark this incident resolved. We understand the impact this incident had for DigitalOcean users and we will publish a postmortem on the status page to provide further details on root cause and mitigation.
