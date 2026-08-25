@@ -1,6 +1,6 @@
 version: incident/v1
 id: 860rlthhq11g
-name: Voice Call Failures, Post Dial Delay, and Silent and One-Way Audio Between a Subset of Twilio Phone Numbers and Brazil
+name: Voice Call Failures, Post Dial Delay, and Silent and One-Way Audio Between a Subset of Twilio Phone Numbers and Multiple Networks in Brazil
 impact: minor
 systems:
     - fbtv2g9t3z25
@@ -24,3 +24,5 @@ timeline:
       description: Our team has resolved the voice call failures and post dial delay (PDD) from Twilio phone numbers to Brazil network subscribers, restoring this service to normal operations. However, we are still investigating silent and one-way audio issues for calls from Brazil network subscribers to a subset of Twilio Phone Numbers. Our engineers are actively working to identify the root cause and resolve this remaining audio issue. We will provide another update in 4 hours or as soon as more information becomes available.
     - ts: "2026-08-25 04:12:45"
       description: Twilio customers may be experiencing voice call failures, post dial delay, and silent and one-way audio between a subset of Twilio Phone Numbers and network subscribers on multiple networks in Brazil. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-08-25 06:30:28"
+      description: We have observed a recovery in voice calls between a subset of Twilio Phone Numbers and network subscribers on multiple networks in Brazil and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
