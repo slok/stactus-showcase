@@ -1,0 +1,15 @@
+version: incident/v1
+id: hcmjsz6z2y4s
+name: Incident Management unavailable in US Central
+impact: minor
+systems:
+    - 1mxpk7q1bkb6
+timeline:
+    - ts: "2026-08-25 10:39:49"
+      description: |-
+        We are investigating an outage affecting Grafana Incident in the US Central region (prod-us-central-0). Customers are unable to create, view, or query Incidents, and requests to the Incident public API are timing out. All customers in this region are affected.
+
+        Grafana OnCall is not impacted — alert ingestion, alert group creation, and notification delivery are all operating normally.
+      investigating: true
+    - ts: "2026-08-25 10:49:56"
+      description: A fix has been applied and Incident Management in US Central is recovering. The Incident public API is responding normally, and customers can create, view, and query Incidents again. We are continuing to monitor the recovery to confirm the service is fully stable.
