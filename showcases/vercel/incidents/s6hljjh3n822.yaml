@@ -1,0 +1,12 @@
+version: incident/v1
+id: s6hljjh3n822
+name: Elevated build initialization times
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-08-25 19:27:23"
+      description: We're investigating elevated initialization times for some builds. We will provide updates as we learn more.
+      investigating: true
+    - ts: "2026-08-25 19:37:36"
+      description: The issue has been identified and a fix is being implemented.
