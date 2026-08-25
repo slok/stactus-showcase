@@ -1,0 +1,12 @@
+version: incident/v1
+id: b1t8c169ldlr
+name: SMS Delivery Delays from a Subset of Twilio Phone Numbers to Ufone Pakistan
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-08-25 23:18:57"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Phone Numbers to Ufone network subscribers in Pakistan. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-25 23:31:52"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Phone Numbers to Ufone network subscribers in Pakistan. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
