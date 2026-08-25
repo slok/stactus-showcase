@@ -13,3 +13,8 @@ timeline:
       investigating: true
     - ts: "2026-08-25 10:49:56"
       description: A fix has been applied and Incident Management in US Central is recovering. The Incident public API is responding normally, and customers can create, view, and query Incidents again. We are continuing to monitor the recovery to confirm the service is fully stable.
+    - ts: "2026-08-25 11:01:25"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-08-25 11:02:59"
+      description: This incident has been resolved. Incident Management in US Central is operating as normal. Customers can create, view, and query Incidents, and the Incident public API is fully available. Grafana OnCall was not affected at any point during this incident.
+      resolved: true
