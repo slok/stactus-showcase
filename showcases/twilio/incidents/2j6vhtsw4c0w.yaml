@@ -1,0 +1,14 @@
+version: incident/v1
+id: 2j6vhtsw4c0w
+name: SMS Delivery Receipt Delays from Twilio to Multiple Networks in Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-08-26 00:23:09"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from Twilio to network subscribers on multiple networks in Brazil. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-26 00:31:14"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from Twilio to network subscribers on multiple networks in Brazil. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-08-26 01:33:52"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from Twilio to network subscribers on multiple networks in Brazil. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 2 hours or as soon as more information becomes available.
