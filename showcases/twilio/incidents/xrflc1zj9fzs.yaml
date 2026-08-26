@@ -1,6 +1,6 @@
 version: incident/v1
 id: xrflc1zj9fzs
-name: SMS Delivery Delays from Twilio Phone Numbers to Telefonica Chile
+name: SMS Delivery Receipt Delays From Twilio Phone Numbers to Telefonica Chile
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -18,3 +18,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery receipt delays from Twilio Phone Numbers to Telefonica network subscribers in Chile. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 4 hours or as soon as more information becomes available.
     - ts: "2026-08-26 02:50:07"
       description: We have observed a recovery in SMS delivery from Twilio Phone Numbers to Telefonica network subscribers in Chile and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-08-26 04:52:06"
+      description: We have observed a recovery in SMS delivery receipts from Twilio Phone Numbers to Telefonica network subscribers in Chile and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.

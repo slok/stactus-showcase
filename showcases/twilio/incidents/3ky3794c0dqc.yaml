@@ -1,6 +1,6 @@
 version: incident/v1
 id: 3ky3794c0dqc
-name: SMS and MMS Delivery Delays From and To Twilio to Australia Network Subscribers
+name: SMS and MMS Delivery Delays From a Subset of Twilio Long Codes to Multiple Networks in Australia
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -13,3 +13,9 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays from Twilio to Australia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
     - ts: "2026-08-26 03:40:00"
       description: Twilio customers may be experiencing SMS and MMS delivery delays from Twilio to Australia network subscribers. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-08-26 04:46:50"
+      description: |-
+        Twilio customers may be experiencing SMS and MMS delivery delays from Twilio to Australia network subscribers. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+        Components: :pencil2: SMS, APAC
+    - ts: "2026-08-26 04:55:10"
+      description: Twilio customers may be experiencing SMS and MMS delivery delays from a subset of Twilio Long Codes to network subscribers on multiple networks in Australia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
