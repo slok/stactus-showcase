@@ -1,0 +1,12 @@
+version: incident/v1
+id: n35y68889vz3
+name: MMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Verizon and T-Mobile in United States
+impact: minor
+systems:
+    - h0fl7prwfhvm
+timeline:
+    - ts: "2026-08-26 19:51:24"
+      description: Twilio customers may be experiencing MMS delivery receipt delays from a subset of Twilio Short Codes to Verizon and T-Mobile network subscribers in the United States. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-26 19:53:55"
+      description: Twilio customers may be experiencing MMS delivery receipt delays from a subset of Twilio Short Codes to Verizon and T-Mobile network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.

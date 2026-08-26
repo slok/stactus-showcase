@@ -7,3 +7,10 @@ timeline:
     - ts: "2026-08-26 18:14:23"
       description: We are investigating issues with our WireGuard gateways. Some CLI commands like `flyctl ssh console` or `flyctl proxy` may not work at this time. Apps continue to run.
       investigating: true
+    - ts: "2026-08-26 18:27:43"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-08-26 18:33:48"
+      description: Our testing and monitoring indicates gateways should be back to normal; if you are still having problem using `flyctl ssh console`, try restarting the `flyctl` agent by `flyctl agent restart`.
+    - ts: "2026-08-26 18:43:07"
+      description: This incident has been resolved.
+      resolved: true
