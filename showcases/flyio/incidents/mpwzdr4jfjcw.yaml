@@ -1,0 +1,9 @@
+version: incident/v1
+id: mpwzdr4jfjcw
+name: WireGuard gateway issues
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-08-26 18:14:23"
+      description: We are investigating issues with our WireGuard gateways. Some CLI commands like `flyctl ssh console` or `flyctl proxy` may not work at this time. Apps continue to run.
+      investigating: true

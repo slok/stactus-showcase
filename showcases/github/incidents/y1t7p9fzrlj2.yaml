@@ -21,3 +21,19 @@ timeline:
     - ts: "2026-08-26 16:14:16"
       description: We believe we've identified and addressed the issue and are ramping traffic back up slowly to ensure it doesn't recur. Some customers will continue to see delays as we ramp up.
       investigating: true
+    - ts: "2026-08-26 16:49:07"
+      description: Pages is operating normally.
+      investigating: true
+    - ts: "2026-08-26 16:50:28"
+      description: We are continuing to observe recovery and delayed queues are burning down. Some customers will continue to see increased delays until all throttled work has been completed - we expect this within the next hour.
+      investigating: true
+    - ts: "2026-08-26 17:32:22"
+      description: We are continuing to observe recovery and expect actions inbound queues to be back to normal in <30min. Work will continue to flow through the system subject to per-customer concurrency limits.
+      investigating: true
+    - ts: "2026-08-26 17:54:33"
+      description: The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-08-26 18:00:48"
+      description: All inbound queues have recovered and Actions is operating as expected. 3.7% of jobs assigned to larger runners during the early stage of this incident are stuck waiting for runner assignment. Those will be canceled within the hour. Other runners are successfully processing all new jobs.
+    - ts: "2026-08-26 18:01:30"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
