@@ -1,0 +1,15 @@
+version: incident/v1
+id: gjw0tnhh4f3f
+name: Cloudflare MCP Portal tool invocation logging instability
+impact: minor
+systems:
+    - gcnzpkhvnqs7
+timeline:
+    - ts: "2026-08-26 14:59:16"
+      description: Cloudflare engineering is investigating an issue causing some tool call invocation logs to be dropped. This affects logpush and the dashboard. Portal connectivity and initial authentication logs are not impacted.
+      investigating: true
+    - ts: "2026-08-26 15:28:39"
+      description: After further investigation it was determined that the issue was isolated to internal accounts. There was no customer facing impact.
+    - ts: "2026-08-26 15:38:03"
+      description: This incident has been resolved.
+      resolved: true

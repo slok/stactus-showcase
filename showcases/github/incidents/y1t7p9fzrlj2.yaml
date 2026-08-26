@@ -1,0 +1,23 @@
+version: incident/v1
+id: y1t7p9fzrlj2
+name: Incident with Actions
+impact: critical
+systems:
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2026-08-26 15:11:58"
+      description: We are investigating reports of degraded availability for Actions
+      investigating: true
+    - ts: "2026-08-26 15:12:21"
+      description: Pages is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-26 15:23:10"
+      description: We've identified an issue with a database primary and are failing over to a replica immediately
+      investigating: true
+    - ts: "2026-08-26 15:48:07"
+      description: primary failover briefly improved performance but did not fully mitigate, we've throttled inbound traffic and are investigating upstream Vitess issues
+      investigating: true
+    - ts: "2026-08-26 16:14:16"
+      description: We believe we've identified and addressed the issue and are ramping traffic back up slowly to ensure it doesn't recur. Some customers will continue to see delays as we ramp up.
+      investigating: true
