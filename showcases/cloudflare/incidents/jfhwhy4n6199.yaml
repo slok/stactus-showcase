@@ -1,11 +1,11 @@
 version: incident/v1
 id: jfhwhy4n6199
-name: 'RETRO: Increased HTTP 520 Errors in WNAM'
+name: Network performance issues in Los Angeles
 impact: none
 systems: []
 timeline:
     - ts: "2026-08-26 01:50:08"
       description: |-
-        Cloudflare investigated an increased level of HTTP 520 errors from 21:35 - 21:45 UTC in WNAM.
+        Cloudflare investigated issues with network performance in Los Angeles from 21:33 - 21:45 UTC.
         The issue is currently resolved.
       resolved: true
