@@ -1,9 +1,13 @@
 version: incident/v1
 id: 75b4vyf7cm69
 name: Failures logging in with Vercel CLI
-impact: none
-systems: []
+impact: major
+systems:
+    - fk66q26xp7hh
 timeline:
     - ts: "2026-08-26 03:06:11"
+      description: We are investigating errors logging in with Vercel CLI (vc login).
+      investigating: true
+    - ts: "2026-08-26 03:15:37"
       description: We are investigating errors logging in with Vercel CLI (vc login).
       investigating: true
