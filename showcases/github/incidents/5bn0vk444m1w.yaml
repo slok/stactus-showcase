@@ -16,3 +16,15 @@ timeline:
     - ts: "2026-08-27 01:35:35"
       description: We are continuing to monitor the mitigation that we have applied for the billing page disruption.
       investigating: true
+    - ts: "2026-08-27 14:49:36"
+      description: Our mitigation is still holding as we continue to investigate to find the root cause.
+      investigating: true
+    - ts: "2026-08-27 16:20:23"
+      description: Our mitigation continues to hold, and service conditions remain stable. We are continuing to investigate the concentrated workload responsible for the issue and are preparing additional preventative improvements. We have not identified a material change in customer impact since the previous update. We will provide another update as the investigation progresses.
+      investigating: true
+    - ts: "2026-08-27 17:58:39"
+      description: No material change since the previous update. Service conditions remain stable following the mitigation, and we have not observed any further customer impact. We are actively monitoring the service while implementing targeted fixes to address the underlying root cause.
+      investigating: true
+    - ts: "2026-08-27 19:44:08"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

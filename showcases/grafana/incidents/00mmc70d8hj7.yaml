@@ -1,0 +1,15 @@
+version: incident/v1
+id: 00mmc70d8hj7
+name: Elevated error rates affecting metrics writes in prod-us-central-0
+impact: minor
+systems:
+    - 1tt4gx4t4q87
+timeline:
+    - ts: "2026-08-27 12:09:57"
+      description: We are investigating elevated error rates affecting metrics writes in prod-us-central-0. Customers in this region may see failed or delayed metrics ingestion, gaps in recent data on dashboards and queries, and alert rules that depend on the affected series may not evaluate as expected.
+      investigating: true
+    - ts: "2026-08-27 12:37:50"
+      description: A fix has been applied and metrics write error rates in prod-us-central-0 have returned to normal levels. Metrics ingestion is operating as expected. We are continuing to monitor the affected systems to confirm full recovery before marking this incident resolved.
+    - ts: "2026-08-27 13:06:35"
+      description: This incident has been resolved.
+      resolved: true

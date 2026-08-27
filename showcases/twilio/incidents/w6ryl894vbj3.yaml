@@ -1,0 +1,12 @@
+version: incident/v1
+id: w6ryl894vbj3
+name: Delivery Failures From Verify to China
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-27 15:06:25"
+      description: Our monitoring systems have detected a potential issue with delivery failures from Verify to China. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-08-27 15:39:34"
+      description: We have fully investigated this issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+      resolved: true

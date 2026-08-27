@@ -1,0 +1,15 @@
+version: incident/v1
+id: bthgp8mprw38
+name: Turnstile Challenge Issues
+impact: minor
+systems:
+    - m4jywscr0n0k
+timeline:
+    - ts: "2026-08-27 14:40:38"
+      description: |-
+        Cloudflare is investigating a potential issue with the Turnstile challenge platform. Users may experience failed challenges solve attempts.
+        Further details will be provided as more information becomes available.
+      investigating: true
+    - ts: "2026-08-27 19:29:35"
+      description: This incident has been resolved.
+      resolved: true

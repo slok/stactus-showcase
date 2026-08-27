@@ -8,3 +8,15 @@ timeline:
     - ts: "2026-08-27 10:04:52"
       description: We are investigating reports of degraded availability for Copilot AI Model Providers
       investigating: true
+    - ts: "2026-08-27 10:43:00"
+      description: We are experiencing degraded availability for the Kimi K3 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.
+      investigating: true
+    - ts: "2026-08-27 11:58:04"
+      description: Copilot AI Model Providers is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-08-27 12:12:47"
+      description: The issues with our upstream model provider have been mitigated, and Kimi K3 is once again available in Copilot products and IDE surfaces.<br />We will continue monitoring to ensure stability.
+      investigating: true
+    - ts: "2026-08-27 12:12:58"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

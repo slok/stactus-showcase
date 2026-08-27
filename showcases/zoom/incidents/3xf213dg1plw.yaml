@@ -1,0 +1,19 @@
+version: incident/v1
+id: 3xf213dg1plw
+name: Service Degradation Affecting Zoom Services in Hong Kong
+impact: minor
+systems:
+    - 3z7b6jks10hm
+    - rv3g5jwy5cdn
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2026-08-27 19:02:37"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Services in Hong Kong
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-08-27 19:07:22"
+      description: "We have successfully identified the root cause affecting Zoom Services in Hong Kong \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."

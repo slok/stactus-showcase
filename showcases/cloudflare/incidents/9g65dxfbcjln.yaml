@@ -1,0 +1,12 @@
+version: incident/v1
+id: 9g65dxfbcjln
+name: Incorrect geo location for some Cloudflare WARP users
+impact: minor
+systems:
+    - bjvy4v384csg
+timeline:
+    - ts: "2026-08-27 18:46:19"
+      description: Cloudflare is investigating issues with Cloudflare WARP and Cloudflare Zero Trust users being incorrectly geolocated by some third party services.
+      investigating: true
+    - ts: "2026-08-27 18:56:11"
+      description: The issue has been identified and a fix is being implemented.
