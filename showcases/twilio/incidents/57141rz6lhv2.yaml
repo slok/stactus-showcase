@@ -1,6 +1,6 @@
 version: incident/v1
 id: 57141rz6lhv2
-name: Voice Call Failures, Post Dial Delay, and Silent and One-Way Audio Between a Subset of Twilio Phone Numbers and Brazil
+name: Voice Call Failures, Post Dial Delay, and Silent and One-Way Audio between a Subset of Twilio Phone Numbers and Brazil
 impact: minor
 systems:
     - fbtv2g9t3z25
@@ -24,3 +24,5 @@ timeline:
       description: We have observed a recovery in voice calls between a subset of Twilio Phone Numbers and network subscribers on multiple networks in Brazil and are monitoring service stability. We will provide another update in 8 hours or as soon as more information becomes available.
     - ts: "2026-08-26 11:50:54"
       description: We have observed a recovery in voice calls between a subset of Twilio Phone Numbers and network subscribers in Brazil and are monitoring service stability. We will provide another update in 16 hours or as soon as more information becomes available.
+    - ts: "2026-08-27 03:52:55"
+      description: We have observed a recovery in voice calls between a subset of Twilio Phone Numbers and network subscribers in Brazil and are monitoring service stability. We will provide another update in 24 hours or as soon as more information becomes available.

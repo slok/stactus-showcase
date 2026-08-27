@@ -1,0 +1,9 @@
+version: incident/v1
+id: kv7g91gcddsn
+name: Realtimekit APIs failing due to breakage in DB connectivity
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-08-27 09:08:13"
+      description: APIs for Meeting creation/ Participant creation were all failing between UTC 08:42 to UTC 08:50. Running meetings/ Recordings and session participants not impacted.
+      resolved: true

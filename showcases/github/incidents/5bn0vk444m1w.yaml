@@ -10,3 +10,9 @@ timeline:
     - ts: "2026-08-26 23:42:06"
       description: We are currently investigating increased errors with billing services. Customers may observe failed billing budget page loads, and users of the Copilot CLI may observe failures starting or continuing sessions.
       investigating: true
+    - ts: "2026-08-27 00:31:22"
+      description: We've applied a mitigation to unblock Copilot usage and have observed recovery for this particular impact. We're continuing to investigate and apply mitigations for the billing page disruption while monitoring to ensure Copilot remains recovered.
+      investigating: true
+    - ts: "2026-08-27 01:35:35"
+      description: We are continuing to monitor the mitigation that we have applied for the billing page disruption.
+      investigating: true

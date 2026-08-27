@@ -1,0 +1,9 @@
+version: incident/v1
+id: 88dr951wbg3q
+name: Mimir Writes Incident in prod-us-central-0
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-27 01:54:08"
+      description: Mimir writes in the prod-us-central-0 region had elevated error rates for approximately 15 minutes from 1:05 to 1:20 UTC. The issue has been resolved and we are monitoring.
+      resolved: true

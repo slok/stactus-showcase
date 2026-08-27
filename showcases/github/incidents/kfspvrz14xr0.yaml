@@ -15,3 +15,11 @@ timeline:
     - ts: "2026-08-27 00:01:05"
       description: We've applied mitigations and are seeing recovery in Actions workflow runs and blocked pull request merges. We're continuing to monitor for sustained health of merge commit creates before resolving.
       investigating: true
+    - ts: "2026-08-27 00:25:58"
+      description: We confirmed full recovery beginning at 23:58 UTC. Actions workflow runs and pull request merges are operating normally. We will now resolve the incident while continuing to monitor service health.
+      investigating: true
+    - ts: "2026-08-27 00:26:05"
+      description: The degradation affecting Actions and Pull Requests has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-08-27 00:26:44"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
