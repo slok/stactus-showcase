@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5bn0vk444m1w
+name: Disruption with GitHub Billing
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-08-26 23:37:20"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-08-26 23:42:06"
+      description: We are currently investigating increased errors with billing services. Customers may observe failed billing budget page loads, and users of the Copilot CLI may observe failures starting or continuing sessions.
+      investigating: true

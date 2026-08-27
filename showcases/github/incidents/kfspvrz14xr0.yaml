@@ -1,0 +1,17 @@
+version: incident/v1
+id: kfspvrz14xr0
+name: Incident with Actions and Pull Requests
+impact: minor
+systems:
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+timeline:
+    - ts: "2026-08-26 22:56:31"
+      description: We are investigating reports of degraded performance for Actions and Pull Requests
+      investigating: true
+    - ts: "2026-08-26 22:57:08"
+      description: We are investigating elevated delays and timeouts affecting Actions workflow runs triggered by pull request events. 20% of actions runs have delayed starts of more than 5 minutes and up to 4% of runs failed to trigger. We are actively working on mitigation and will provide updates as we learn more.
+      investigating: true
+    - ts: "2026-08-27 00:01:05"
+      description: We've applied mitigations and are seeing recovery in Actions workflow runs and blocked pull request merges. We're continuing to monitor for sustained health of merge commit creates before resolving.
+      investigating: true

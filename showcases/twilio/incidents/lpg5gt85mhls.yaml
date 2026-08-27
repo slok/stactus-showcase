@@ -1,0 +1,15 @@
+version: incident/v1
+id: lpg5gt85mhls
+name: Voice Insights Returning Inaccurate Client Call Metrics Graphs
+impact: none
+systems:
+    - yf5px6tdl6yt
+    - 96h6xvxmcjhv
+    - k4rgq3b8f3pw
+timeline:
+    - ts: "2026-08-26 23:25:04"
+      description: Our monitoring systems have detected a potential issue with Voice Insights displaying skewed metrics in the Twilio Console. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-08-26 23:44:57"
+      description: Twilio Voice Insights Metrics page in Console was degraded between 08/24/2026 and 08/26/2026. During this period of time customers may have experienced skewed graphs when viewing the Client Call Metrics graphs. The issue has now been resolved.
+      resolved: true
