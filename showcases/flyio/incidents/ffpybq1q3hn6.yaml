@@ -1,0 +1,13 @@
+version: incident/v1
+id: ffpybq1q3hn6
+name: Increased packet loss
+impact: minor
+systems:
+    - 15knchzwl5np
+timeline:
+    - ts: "2026-08-28 08:09:03"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-08-28 10:22:35"
+      description: This incident has been resolved.
+      resolved: true
