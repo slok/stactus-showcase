@@ -1,0 +1,13 @@
+version: incident/v1
+id: yrc30bc0vv19
+name: Some Grafana UI features may be unavailable or reverting to legacy behaviour
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-08-28 00:58:03"
+      description: Some Grafana UI features may be unavailable or reverting to legacy behaviour
+    - ts: "2026-08-28 01:08:27"
+      description: a resolution is rolling out to resolve the issues
+    - ts: "2026-08-28 02:40:12"
+      description: This incident has been resolved.
+      resolved: true

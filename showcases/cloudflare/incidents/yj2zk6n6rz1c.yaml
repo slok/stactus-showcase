@@ -1,0 +1,15 @@
+version: incident/v1
+id: yj2zk6n6rz1c
+name: Workers Builds are Degraded
+impact: minor
+systems:
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2026-08-27 21:19:40"
+      description: We are currently investigating an issue where Workers Builds are not running. Our team is actively identifying the root cause, and we will share further updates as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-27 22:07:47"
+      description: We have identified the issue and builds are running. We are monitoring as the queue returns to normal levels.
+    - ts: "2026-08-27 22:58:12"
+      description: This incident has been resolved.
+      resolved: true
