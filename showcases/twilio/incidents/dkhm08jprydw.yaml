@@ -1,0 +1,17 @@
+version: incident/v1
+id: dkhm08jprydw
+name: SMS Delivery Delays from Twilio to Ooredoo Kuwait
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-08-28 21:56:19"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from Twilio to Ooredoo network subscribers in Kuwait. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-28 22:56:41"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from Twilio to Ooredoo network subscribers in Kuwait. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-28 23:45:19"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Ooredoo network subscribers in Kuwait. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-08-29 00:45:58"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Ooredoo network subscribers in Kuwait. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.

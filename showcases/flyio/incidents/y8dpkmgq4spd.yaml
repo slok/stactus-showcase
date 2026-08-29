@@ -1,0 +1,19 @@
+version: incident/v1
+id: y8dpkmgq4spd
+name: Networking Issues in GRU
+impact: minor
+systems:
+    - 5cmbhyzyb3lr
+timeline:
+    - ts: "2026-08-28 21:56:35"
+      description: We are investigating networking issues impacting some hosts in GRU (São Paulo, Brazil) region. Some apps in GRU  may experience increased latency or packet loss.
+      investigating: true
+    - ts: "2026-08-28 22:00:46"
+      description: Networking performance in GRU has normalized and we are no longer seeing issues. We are continuing to monitor to ensure a full recovery.
+    - ts: "2026-08-28 22:12:49"
+      description: We are seeing a recurrance in networking issues in GRU. Some apps in the region  may experience increased latency or packet loss. We are working with our upstream networking provider to resolve.
+    - ts: "2026-08-28 22:36:04"
+      description: Our upstream provider has implemented a fix. Network performance in GRU has normalized.
+    - ts: "2026-08-28 22:36:45"
+      description: This incident has been resolved.
+      resolved: true

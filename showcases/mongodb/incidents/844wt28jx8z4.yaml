@@ -1,0 +1,9 @@
+version: incident/v1
+id: 844wt28jx8z4
+name: MongoDB Atlas Log Integration service degraded
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-08-28 18:34:33"
+      description: Between approximately 14:29 UTC and 15:42 UTC on August 28, 2026, log delivery via Atlas Log Integration was impacted due to an internal service issue. Some users may have encountered delayed or missing logs during this window. Log delivery has since returned to normal. We are implementing measures to reduce the risk of this happening again.
+      resolved: true

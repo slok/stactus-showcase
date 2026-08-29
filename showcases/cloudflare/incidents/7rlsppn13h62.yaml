@@ -1,0 +1,19 @@
+version: incident/v1
+id: 7rlsppn13h62
+name: Increased HTTP 5xx Errors in Singapore
+impact: minor
+systems:
+    - 18p6r93swmbl
+timeline:
+    - ts: "2026-08-28 17:36:54"
+      description: Cloudflare is investigating an increased level of HTTP 5xx errors in Singapore. We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-08-28 17:39:04"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-08-28 17:40:33"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-08-28 17:58:41"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-08-29 00:43:53"
+      description: This incident has been resolved.
+      resolved: true

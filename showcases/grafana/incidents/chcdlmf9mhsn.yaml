@@ -1,0 +1,17 @@
+version: incident/v1
+id: chcdlmf9mhsn
+name: Partial Logs Write Outage
+impact: major
+systems:
+    - vgv3t5h3q1qy
+timeline:
+    - ts: "2026-08-28 17:12:42"
+      description: We’ve identified the cause of an issue impacting Log writes. Our team is currently implementing a fix.
+    - ts: "2026-08-28 17:55:04"
+      description: |-
+        This incident also had impact on Frontend Observability for the same region.
+
+        A fix has been deployed, and things have stablized. We will continue to monitor on our end.
+    - ts: "2026-08-28 18:42:09"
+      description: This incident has been resolved.
+      resolved: true

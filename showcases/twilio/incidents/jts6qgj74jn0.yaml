@@ -1,0 +1,13 @@
+version: incident/v1
+id: jts6qgj74jn0
+name: On Call Engineers are Investigating
+impact: none
+systems:
+    - zxhmy448yyn3
+timeline:
+    - ts: "2026-08-28 17:03:36"
+      description: Our monitoring systems have detected a potential issue with Event Streams. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-08-28 17:44:54"
+      description: We have fully investigated the Event Streams issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+      resolved: true

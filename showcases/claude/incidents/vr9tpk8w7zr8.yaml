@@ -1,0 +1,15 @@
+version: incident/v1
+id: vr9tpk8w7zr8
+name: Elevated errors on Claude Code and Claude Cowork
+impact: major
+systems:
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-08-28 17:22:02"
+      description: We have identified an issue with an upstream cloud provider affecting Claude Cowork and Claude Code on the web. Some sessions may fail to start or disconnect mid-task; affected sessions can be retried. We are in contact with the provider and will provide an update as soon as possible.
+    - ts: "2026-08-28 18:21:02"
+      description: A mitigation has been applied for the issue affecting Claude Cowork and Claude Code on the web, and we are monitoring for recovery. Sessions that disconnected earlier can be retried
+    - ts: "2026-08-28 20:21:18"
+      description: The issue affecting Claude Cowork and Claude Code on the web has been resolved.
+      resolved: true

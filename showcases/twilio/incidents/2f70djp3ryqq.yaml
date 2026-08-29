@@ -1,0 +1,15 @@
+version: incident/v1
+id: 2f70djp3ryqq
+name: Increased Latency In Console
+impact: minor
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2026-08-28 21:50:58"
+      description: We are investigating an issue with increased latency in Console. At this time customers may experience slow load times in the Account Settings and Usage pages in Console, and at the Usage API. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-28 22:47:13"
+      description: Console is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-08-28 23:14:48"
+      description: Console Latency has been resolved and Account Settings and Usage pages and API are operating normally at this time.
+      resolved: true
