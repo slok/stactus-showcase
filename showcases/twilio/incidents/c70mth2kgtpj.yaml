@@ -1,0 +1,15 @@
+version: incident/v1
+id: c70mth2kgtpj
+name: SMS Delivery Receipt Failures from Twilio to Multiple Networks in Brazil
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-08-29 19:42:12"
+      description: Twilio customers may be experiencing SMS delivery receipt failures from Twilio to Brazil. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be failing. We will provide another update in 15 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-29 19:52:40"
+      description: We have observed a recovery in SMS delivery receipts from Twilio to network subscribers on multiple networks in Brazil and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-08-29 19:55:08"
+      description: We have observed a recovery in SMS delivery receipts from Twilio to multiple networks in Brazil and are monitoring service stability.
+      resolved: true
