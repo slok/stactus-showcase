@@ -1,6 +1,6 @@
 version: incident/v1
 id: vckgmmsz2yzz
-name: SMS Delivery Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to LIME Cayman Islands
+name: SMS Delivery Failures from a Subset of Twilio Alphanumeric and Long Codes to LIME Cayman Islands
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -20,3 +20,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery failures from a subset of Twilio Alphanumeric Sender IDs and Long Codes to LIME network subscribers in Cayman Islands. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
     - ts: "2026-08-29 21:13:23"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Alphanumeric Sender IDs and Long Codes to LIME network subscribers in Cayman Islands and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-08-29 23:13:40"
+      description: We have observed a recovery in SMS delivery from a subset of Twilio Alphanumeric and Long Codes to LIME network subscribers in the Cayman Islands and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
