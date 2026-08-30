@@ -1,6 +1,6 @@
 version: incident/v1
 id: wlx2rc0dm0w2
-name: Voice Call Post Dial Delay and Failures From a Subset of Twilio Phone Numbers to United Kingdom
+name: Voice Call Failures and Post Dial Delay from a Subset of Twilio Phone Numbers to United Kingdom
 impact: minor
 systems:
     - bnzggd37p61w
@@ -28,3 +28,5 @@ timeline:
       description: We have observed a recovery in voice calls from a subset of Twilio Phone Numbers to network subscribers in the United Kingdom and are monitoring service stability. We will provide another update in 8 hours or as soon as more information becomes available.
     - ts: "2026-08-29 08:46:08"
       description: We have observed a recovery in voice calls from a subset of Twilio Phone Numbers to network subscribers in the United Kingdom and are monitoring service stability. We will provide another update in 16 hours or as soon as more information becomes available.
+    - ts: "2026-08-30 07:24:47"
+      description: We have observed a recovery in voice calls from a subset of Twilio Phone Numbers to network subscribers in the United Kingdom and are monitoring service stability. We will provide another update in 24 hours or as soon as more information becomes available.
