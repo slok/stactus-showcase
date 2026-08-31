@@ -1,0 +1,11 @@
+version: incident/v1
+id: r82kdk0m7vqh
+name: Degraded performance on claude.ai and Claude Code
+impact: minor
+systems:
+    - rwppv331jlwc
+    - yyzkbfz2thpt
+timeline:
+    - ts: "2026-08-31 19:21:32"
+      description: We are investigating reports of degraded performance affecting Claude in Slack, Claude Code on the web, and Code Review. We will provide an update as soon as possible.
+      investigating: true

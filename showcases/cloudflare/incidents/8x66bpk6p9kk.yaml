@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8x66bpk6p9kk
+name: HTTP/3 issue affecting R2 custom domains
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-08-31 18:47:05"
+      description: Some Firefox users may see delayed or failed asset loads on R2 custom domains due to an incorrect HTTP/3 advertisement. We are working on a fix.
+      investigating: true

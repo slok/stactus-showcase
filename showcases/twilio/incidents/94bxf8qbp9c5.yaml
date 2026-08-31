@@ -1,6 +1,6 @@
 version: incident/v1
 id: 94bxf8qbp9c5
-name: Voice Call Failures and Audio Quality Degradation between a Subset of Twilio Phone Numbers and Multiple Networks in Hong Kong
+name: Voice Call Failures and Audio Quality Degradation Between a Subset of Twilio Hong Kong Phone Numbers and Multiple Networks in Hong Kong
 impact: minor
 systems:
     - 50pr269zqrwj
@@ -30,3 +30,6 @@ timeline:
       description: Twilio customers may be experiencing voice call failures and audio quality degradation between a subset of Twilio Phone Numbers and network subscribers on multiple networks in Hong Kong. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
     - ts: "2026-08-31 07:55:58"
       description: We have observed a recovery in voice calls between a subset of Twilio Phone Numbers and network subscribers on multiple networks in Hong Kong and are monitoring service stability. We will provide another update in 24 hours or as soon as more information becomes available.
+    - ts: "2026-08-31 14:35:03"
+      description: The incident has been resolved and voice calls between a subset of Twilio Hong Kong Phone Numbers and network subscribers on affected networks in Hong Kong are operating normally.
+      resolved: true

@@ -1,0 +1,15 @@
+version: incident/v1
+id: 9jrp5rtyzrf6
+name: Degraded performance on claude.ai
+impact: minor
+systems:
+    - rwppv331jlwc
+timeline:
+    - ts: "2026-08-31 17:23:06"
+      description: We are investigating reports of elevated errors affecting chats on claude.ai. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-08-31 17:32:58"
+      description: We have seen success rates return to normal for requests on Claude.ai and are monitoring closely.
+    - ts: "2026-08-31 17:52:26"
+      description: This issue has been resolved.
+      resolved: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: tq6l18x2bh8j
+name: HTTP/2 traffic disruptions
+impact: none
+systems: []
+timeline:
+    - ts: "2026-08-31 15:42:23"
+      description: |-
+        A configuration update caused temporary failures for incoming HTTP/2 traffic for Fly Machines located on a subset of hosts for a few minutes. This incident has since been resolved.
+
+        Managed Postgres depends on HTTP/2 and some control plane ops may have been affected as well. However, downstream Postgres connections were unlikely to have been affected by this since they do not use the HTTP2 handler.
+      resolved: true
