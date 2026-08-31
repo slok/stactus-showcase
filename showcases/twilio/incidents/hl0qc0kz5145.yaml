@@ -1,0 +1,14 @@
+version: incident/v1
+id: hl0qc0kz5145
+name: SMS Delivery Delays From a Subset of Twilio Short Codes to C-Spire and Dish United States
+impact: minor
+systems:
+    - 39mb8cmw8y2v
+timeline:
+    - ts: "2026-08-31 20:30:40"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to C-Spire and Dish network subscribers in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-31 20:34:29"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to C-Spire and Dish network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-08-31 21:35:06"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Short Codes to C-Spire and Dish network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.

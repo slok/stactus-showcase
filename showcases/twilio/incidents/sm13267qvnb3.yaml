@@ -1,0 +1,20 @@
+version: incident/v1
+id: sm13267qvnb3
+name: Inconsistencies with Suppressions - Block Lists
+impact: minor
+systems:
+    - sqwjyy7x2sc6
+    - bdnyxg9w62zm
+timeline:
+    - ts: "2026-08-31 19:45:04"
+      description: Starting around 11:45 AM PDT, our engineers began investigating an issue where users may experience inconsistencies while viewing Suppression - Blocks list data via API (v3/suppression/blocks) and the dashboard. Mail send is not impacted. We will provide another update in an hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-31 20:42:00"
+      description: Our engineers are continuing to investigate the issue causing inconsistencies with Suppression - Blocks list data (v3/suppression/blocks). Mail send remains unaffected. We will provide another update in an hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-31 21:36:20"
+      description: Our engineers are continuing to investigate the issue causing inconsistencies with Suppression - Blocks list data (v3/suppression/blocks). Mail send remains unaffected. We will provide another update in an hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-31 22:33:08"
+      description: Our engineers are continuing to investigate the issue causing inconsistencies with Suppression - Blocks list data (v3/suppression/blocks). Mail send remains unaffected. We will provide another update in an hour or as soon as more information becomes available.
+      investigating: true

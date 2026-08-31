@@ -1,0 +1,12 @@
+version: incident/v1
+id: fvvmdv2sdlfh
+name: Voice Call Failures and Post Dial Delay from a Subset of Twilio Phone Numbers to Movistar Argentina
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2026-08-31 23:06:51"
+      description: Twilio customers may be experiencing voice call failures and post dial delay from Twilio Phone Numbers to Movistar network subscribers in Argentina. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-08-31 23:18:43"
+      description: Twilio customers may be experiencing voice call failures and post dial delay from a subset of Twilio Phone Numbers to Movistar network subscribers in Argentina. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.

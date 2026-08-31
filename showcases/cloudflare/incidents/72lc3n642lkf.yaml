@@ -1,0 +1,26 @@
+version: incident/v1
+id: 72lc3n642lkf
+name: Cloudflare Access one-time PIN emails blocked by certain email security gateways, including Proofpoint
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-08-31 20:16:29"
+      description: |-
+        Some customers using Proofpoint may experience delayed Cloudflare notifications and login codes. Proofpoint is temporarily deferring messages with an SMTP 421 4.7.0 response. Cloudflare will continue retrying delivery.
+
+        Affected customers should ask their Proofpoint administrator to allowlist notify.cloudflare.com and Cloudflare IPs 104.30.16.2,104.30.16.3,104.30.16.4,104.30.16.5,104.30.16.6, and 104.30.16.7. If this cannot be configured locally, contact Proofpoint for additional support.
+      investigating: true
+    - ts: "2026-08-31 20:47:07"
+      description: |-
+        Some customers using Proofpoint may experience delayed Cloudflare notifications and login codes. Proofpoint is temporarily deferring messages with an SMTP 421 4.7.0 response. Cloudflare will continue retrying delivery.
+
+        Affected customers should ask their Proofpoint administrator to allowlist notify.cloudflare.com and Cloudflare IPs 104.30.16.2,104.30.16.3,104.30.16.4,104.30.16.5,104.30.16.6, and 104.30.16.7. If this cannot be configured locally, contact Proofpoint for additional support.
+    - ts: "2026-08-31 20:49:07"
+      description: |-
+        Some customers using Proofpoint may experience delayed Cloudflare notifications and login codes. Proofpoint is temporarily deferring messages with an SMTP 421 4.7.0 response. Cloudflare will continue retrying delivery.
+
+        Affected customers should ask their Proofpoint administrator to allowlist notify.cloudflare.com and Cloudflare IPs 104.30.16.2,104.30.16.3,104.30.16.4,104.30.16.5,104.30.16.6, and 104.30.16.7. If this cannot be configured locally, contact Proofpoint for additional support.
+    - ts: "2026-08-31 22:02:59"
+      description: 'This incident has been resolved and the developer documentation has also been updated to reflect the same information: https://developers.cloudflare.com/cloudflare-one/integrations/identity-providers/one-time-pin/#allow-otp-emails-through-your-email-gateway'
+      resolved: true
