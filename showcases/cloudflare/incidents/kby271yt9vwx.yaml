@@ -1,0 +1,14 @@
+version: incident/v1
+id: kby271yt9vwx
+name: Workers KV experiencing elevated error rates in Western Europe Region
+impact: minor
+systems:
+    - tmh50tx2nprs
+timeline:
+    - ts: "2026-08-31 11:02:00"
+      description: We are investigating an issue affecting Workers KV in the Western Europe Region, which may result in elevated error rates for read requests. Writes are not affected. Our engineering team is currently working to identify and resolve the root cause. We will provide updates as more information becomes available.
+      investigating: true
+    - ts: "2026-08-31 12:40:48"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-08-31 12:40:56"
+      description: We are continuing to monitor for any further issues.

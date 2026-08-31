@@ -1,0 +1,25 @@
+version: incident/v1
+id: pgsblw7p5dd8
+name: GitHub disruption
+impact: minor
+systems:
+    - ffc2w3q5j6fx
+    - q8chffw359pz
+    - k7bvq41n41zs
+    - mf51szgphyxp
+    - 29lv3lp08fw1
+    - j7npqf9nr7qp
+    - 359qq1ltvtft
+    - z90jsvy9c3h1
+    - 7pp548h9j9k6
+timeline:
+    - ts: "2026-08-31 08:42:42"
+      description: We're seeing problems caused by an ongoing issue at GitHub that's affecting Laravel Cloud builds. Your running apps aren't impacted, this only affects actions that rely on GitHub. We're tracking their status alongside our own checks.
+      investigating: true
+    - ts: "2026-08-31 09:06:51"
+      description: This seems to trace back to an issue with codeload.github.com. We're monitoring progress closely.
+    - ts: "2026-08-31 09:21:15"
+      description: GitHub has begun recovering and builds should start working again. We're keeping a close eye on things to make sure they stay stable.
+    - ts: "2026-08-31 09:41:05"
+      description: Builds are back to normal. If a deploy failed during this window, a retry will now go through. Thanks for your patience.
+      resolved: true

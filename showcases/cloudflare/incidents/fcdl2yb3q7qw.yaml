@@ -1,0 +1,12 @@
+version: incident/v1
+id: fcdl2yb3q7qw
+name: Cloudflare Access bypass IP service experiencing availability issues
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-08-31 11:40:21"
+      description: We are investigating an issue affecting the Access IP List service, which may result in failures when bypassing users whose IPs are listed in them. Our engineering team is currently working to identify and resolve the root cause. We will provide updates as more information becomes available.
+      investigating: true
+    - ts: "2026-08-31 13:08:30"
+      description: The issue has been identified and a fix is being implemented.

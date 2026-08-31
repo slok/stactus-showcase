@@ -1,0 +1,15 @@
+version: incident/v1
+id: jtdxjfjvhqtn
+name: Packet loss in ORD
+impact: minor
+systems:
+    - vfq82tp9wp5r
+timeline:
+    - ts: "2026-08-31 06:26:25"
+      description: Due to an upstream provider, we are seeing ~50% packet loss on a subset of hosts in ORD. Some MPG clusters in ORD are slow to replicate as a result.
+      investigating: true
+    - ts: "2026-08-31 07:39:43"
+      description: Packet loss in ORD is improving and impacted services are recovering; we’re continuing to monitor for intermittent issues
+    - ts: "2026-08-31 08:10:37"
+      description: This incident has been resolved.
+      resolved: true
