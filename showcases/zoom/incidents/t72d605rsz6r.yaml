@@ -1,0 +1,22 @@
+version: incident/v1
+id: t72d605rsz6r
+name: Service Degradation Affecting Zoom Contact Center Billing and Reporting Service in EU
+impact: minor
+systems:
+    - cn1j8pttz0wy
+timeline:
+    - ts: "2026-08-31 04:18:18"
+      description: |-
+        We are currently investigating a service degradation affecting users using Zoom Contact Center Billing and Reporting Service in EU.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-08-31 04:21:59"
+      description: "We have successfully identified the root cause of issue affecting users using Zoom Contact Center Billing and Reporting Service in EU.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+    - ts: "2026-08-31 05:38:01"
+      description: The issue affecting users using Zoom Contact Center Billing and Reporting Service in EU has been successfully resolved. Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-08-31 05:51:25"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
