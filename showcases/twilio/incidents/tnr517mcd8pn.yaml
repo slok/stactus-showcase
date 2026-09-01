@@ -1,0 +1,52 @@
+version: incident/v1
+id: tnr517mcd8pn
+name: Firebase Outage Impacting Notification Delivery for Twilio Customers
+impact: minor
+systems:
+    - mq9q3ytpkyfz
+    - 6f5zbh4rqx3m
+    - 5bv1plmydbzf
+    - 2vs63pk0qq23
+timeline:
+    - ts: "2026-09-01 11:23:36"
+      description: |-
+        We are currently experiencing an active Firebase outage that is impacting notification delivery for some Twilio customers. Customers using Twilio products that rely on Firebase Cloud Messaging may experience disrupted or delayed notification delivery. Affected products may include:
+
+        Twilio Voice
+        Twilio Conversations
+        Twilio Notify
+        Authy
+
+        This issue is related to an upstream Firebase service disruption and may affect push notification delivery to end users. Our teams are actively monitoring the situation and we will provide an update in 1 hour or as more information becomes available.
+      investigating: true
+    - ts: "2026-09-01 11:41:45"
+      description: |-
+        We are still experiencing an active Firebase outage that is impacting notification delivery for some Twilio customers. Customers using Twilio products that rely on Firebase Cloud Messaging may experience disrupted or delayed notification delivery. Affected products may include:
+
+        Twilio Voice
+        Twilio Conversations
+        Twilio Notify
+        Authy
+
+        This issue is related to an upstream Firebase service disruption and may affect push notification delivery to end users. Our teams are actively monitoring the situation and we will provide an update in 1 hour or as more information becomes available.
+      investigating: true
+    - ts: "2026-09-01 12:08:12"
+      description: |-
+        We have started seeing recovery in an active Firebase outage that is impacting notification delivery for some Twilio customers. Customers using Twilio products that rely on Firebase Cloud Messaging may experience disrupted or delayed notification delivery. Affected products may include:
+
+        Twilio Voice
+        Twilio Conversations
+        Twilio Notify
+        Authy
+
+        This issue is related to an upstream Firebase service disruption and may affect push notification delivery to end users. Our teams are actively monitoring the situation and we will provide an update in 30 minutes or as more information becomes available.
+    - ts: "2026-09-01 12:38:02"
+      description: |-
+        We have still seeing recovery in an active Firebase outage that is impacting notification delivery for some Twilio customers. Customers using Twilio products that rely on Firebase Cloud Messaging may experience disrupted or delayed notification delivery. Affected products may include:
+
+        Twilio Voice
+        Twilio Conversations
+        Twilio Notify
+        Authy
+
+        This issue is related to an upstream Firebase service disruption and may affect push notification delivery to end users. Our teams are actively monitoring the situation and we will provide an update in another 30 minutes or as more information becomes available.

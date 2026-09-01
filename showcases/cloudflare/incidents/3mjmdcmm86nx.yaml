@@ -1,0 +1,19 @@
+version: incident/v1
+id: 3mjmdcmm86nx
+name: Requests from wrangler or other OAuth clients may experience elevated errors
+impact: minor
+systems:
+    - z0yd3sxqjqdm
+    - 5df6y9z3fsky
+timeline:
+    - ts: "2026-09-01 08:38:51"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-09-01 08:42:47"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-09-01 09:41:17"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-09-01 12:05:52"
+      description: This incident has been resolved.
+      resolved: true

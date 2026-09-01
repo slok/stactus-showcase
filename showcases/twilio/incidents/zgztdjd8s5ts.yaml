@@ -1,0 +1,18 @@
+version: incident/v1
+id: zgztdjd8s5ts
+name: Voice Call Failures between Twilio and Multiple Networks in Malaysia and Thailand
+impact: minor
+systems:
+    - 50pr269zqrwj
+timeline:
+    - ts: "2026-09-01 07:48:59"
+      description: Twilio customers may be experiencing voice call failures from Twilio Phone Numbers to network subscribers in multiple countries. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-01 07:49:47"
+      description: Twilio customers may be experiencing voice call failures from Twilio Phone Numbers to network subscribers in multiple countries. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-01 08:58:49"
+      description: Twilio customers may be experiencing voice call failures from Twilio Phone Numbers to network subscribers in multiple countries. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-01 09:29:03"
+      description: We have observed a recovery in voice calls between Twilio and Multiple Networks subscribers in Malaysia and Thailand and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-01 11:34:42"
+      description: We have observed a recovery in voice calls between Twilio and Multiple Networks subscribers in Malaysia and Thailand and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.

@@ -1,0 +1,14 @@
+version: incident/v1
+id: 3lj3xvh9hg3n
+name: SMS Delivery Delays from Twilio Long Codes to Multiple Networks in Netherlands
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-09-01 11:08:05"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Long Codes to network subscribers on multiple networks in the Netherlands. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-01 11:18:07"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Long Codes to network subscribers on multiple networks in the Netherlands. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-01 12:18:26"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio Long Codes to network subscribers on multiple networks in the Netherlands. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.

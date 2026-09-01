@@ -18,5 +18,5 @@ timeline:
       description: The issues with our upstream model provider have been mitigated, and Kimi K3 is once again available in Copilot products and IDE surfaces.<br />We will continue monitoring to ensure stability.
       investigating: true
     - ts: "2026-08-27 12:12:58"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On August 27th, 2026, between approximately 09:20 and 12:14 UTC, the Copilot service experienced a degradation of the Kimi K3 model due to an issue with our upstream provider. Users encountered elevated error rates when using Kimi K3. No other models were impacted. <br /><br />The issue was resolved by a mitigation put in place by our provider. GitHub is working with our provider to further improve the resiliency of the service to prevent similar incidents in the future.
       resolved: true
