@@ -35,3 +35,6 @@ timeline:
       investigating: true
     - ts: "2026-09-01 04:27:36"
       description: We are continuing to monitor the issue causing inconsistencies with Suppression - Blocks list data (v3/suppression/blocks). Mail delivery is fully operational. We will provide the next update tomorrow morning PDT or sooner if details change.
+    - ts: "2026-09-01 16:27:41"
+      description: Our engineers have monitored the fix and confirmed that the issue with Suppression Blocks List Data Inconsistencies has been resolved.  The previous impact where a subset of requests from certain regions may not have received timely updates on Block suppressions has been resolved for the SendGrid UI dashboard and for the API.  All services are now operating normally at this time.
+      resolved: true

@@ -1,0 +1,9 @@
+version: incident/v1
+id: tmcks20rmlsr
+name: Data Warehouse - Degraded Performance
+impact: minor
+systems:
+    - 21mphp99021l
+timeline:
+    - ts: "2026-09-01 16:23:02"
+      description: We are aware of degraded performance affecting the data warehouse (warehouse.mit.edu) and are investigating the issue. Users may experience slow response times, delays, or jobs that time out. We will provide an update when more information is available.

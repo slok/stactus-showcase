@@ -1,0 +1,13 @@
+version: incident/v1
+id: nr3h7bw8b3k3
+name: Degraded performance on Claude for Microsoft Office 365
+impact: minor
+systems:
+    - rwppv331jlwc
+timeline:
+    - ts: "2026-09-01 16:02:48"
+      description: We are investigating elevated errors affecting Claude for Microsoft Office 365. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-09-01 16:22:19"
+      description: This issue has been resolved.
+      resolved: true

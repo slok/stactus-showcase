@@ -1,0 +1,13 @@
+version: incident/v1
+id: 3txtvjthljkt
+name: Increase in 502 HTTP Responses for REST API and Console
+impact: minor
+systems:
+    - 4rv9xfxmdjg9
+timeline:
+    - ts: "2026-09-01 16:24:04"
+      description: Our monitoring systems have detected a potential issue with Increase in 502 HTTP responses for various Edge Config managed ingresses. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-09-01 16:44:04"
+      description: Our engineers have identified and issue where Customers may experience 502 Errors when accesing Console or making REST API Calls and are investigating. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

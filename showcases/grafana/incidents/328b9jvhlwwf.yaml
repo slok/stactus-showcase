@@ -1,0 +1,11 @@
+version: incident/v1
+id: 328b9jvhlwwf
+name: Investigating issues in US Central (prod-us-central-0, prod-us-central-5)
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-09-01 15:25:54"
+      description: We are investigating reports of errors affecting Grafana Cloud in US Central (prod-us-central-0, prod-us-central-5). Customers in this region may see timeouts or failed requests when writing or querying logs and metrics. We are looking into this and will post another update as soon as we have more information.
+      investigating: true
+    - ts: "2026-09-01 16:14:58"
+      description: We have identified the cause as an issue in our cloud provider’s US Central region. A mitigation is in place and recovery is in progress. Customers in prod-us-central-0 and prod-us-central-5 may still see errors or delays with metrics, logs, or Grafana while services come back. We will update this page as recovery continues.

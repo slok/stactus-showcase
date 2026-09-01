@@ -1,0 +1,19 @@
+version: incident/v1
+id: jk2dy5h9yp3m
+name: Delays in commit processing
+impact: minor
+systems:
+    - hhtssxt0f5v2
+timeline:
+    - ts: "2026-09-01 15:00:22"
+      description: We are investigating reports of degraded performance for Pull Requests
+      investigating: true
+    - ts: "2026-09-01 15:00:46"
+      description: Diffs in the PR view may be stale for several minutes. We are investigating and scaling up resources.
+      investigating: true
+    - ts: "2026-09-01 16:00:50"
+      description: Time to update pull request diffs have improved to normal thresholds.
+      investigating: true
+    - ts: "2026-09-01 16:01:21"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

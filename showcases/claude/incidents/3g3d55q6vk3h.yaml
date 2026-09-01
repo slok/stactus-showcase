@@ -1,0 +1,11 @@
+version: incident/v1
+id: 3g3d55q6vk3h
+name: Degraded performance on platform.claude.com and Claude for Microsoft Office 365
+impact: minor
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+timeline:
+    - ts: "2026-09-01 17:05:11"
+      description: We are investigating reports of degraded performance affecting some Claude services, including docs.claude.com. We are working to resolve these issues and will provide an update as soon as possible.
+      investigating: true

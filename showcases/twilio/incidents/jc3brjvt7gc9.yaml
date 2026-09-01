@@ -1,0 +1,15 @@
+version: incident/v1
+id: jc3brjvt7gc9
+name: Voice E2E Test failures
+impact: minor
+systems:
+    - mwcz6hw53t7c
+timeline:
+    - ts: "2026-09-01 16:48:03"
+      description: Our monitoring systems have detected a potential issue with Voice E2E Test failures. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-09-01 16:55:37"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-09-01 16:58:23"
+      description: Our engineers have identified the issue Voice E2E Test failures and are working to deploy a fix. We expect to provide another update in1 hour or as soon as more information becomes available.
