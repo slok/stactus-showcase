@@ -1,0 +1,12 @@
+version: incident/v1
+id: 1w42pbthkqjf
+name: Network Route Leak in Palmas, Brazil
+impact: major
+systems:
+    - m50pw1dxjp51
+timeline:
+    - ts: "2026-09-01 21:47:09"
+      description: One of Cloudflare's peers experienced a route leak, misdirecting some traffic to Palmas, Brazil. We are working to mitigate impact to Internet users in this region.
+    - ts: "2026-09-01 22:05:44"
+      description: This incident has been resolved.
+      resolved: true

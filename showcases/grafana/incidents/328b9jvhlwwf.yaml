@@ -9,3 +9,6 @@ timeline:
       investigating: true
     - ts: "2026-09-01 16:14:58"
       description: We have identified the cause as an issue in our cloud provider’s US Central region. A mitigation is in place and recovery is in progress. Customers in prod-us-central-0 and prod-us-central-5 may still see errors or delays with metrics, logs, or Grafana while services come back. We will update this page as recovery continues.
+    - ts: "2026-09-01 20:20:05"
+      description: This incident has been resolved.
+      resolved: true

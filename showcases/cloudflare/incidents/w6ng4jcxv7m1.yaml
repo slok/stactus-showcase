@@ -1,0 +1,10 @@
+version: incident/v1
+id: w6ng4jcxv7m1
+name: Pipelines Creation Issue
+impact: minor
+systems:
+    - xr712w0ly7nr
+timeline:
+    - ts: "2026-09-01 21:51:16"
+      description: Cloudflare is investigating an issue with creating new Pipeline resources, including Pipelines, Streams, and Sinks. Existing Pipelines are unaffected. More updates to follow shortly.
+      investigating: true

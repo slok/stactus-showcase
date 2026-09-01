@@ -1,0 +1,22 @@
+version: incident/v1
+id: 1z2qkcjgfx3y
+name: Increased deployment failures
+impact: major
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-09-01 19:59:37"
+      description: We've identified an issue where some deployments that use IAD1 Function regions or Routing Middleware are failing. We are investigating and will provide more information as it becomes available.
+      investigating: true
+    - ts: "2026-09-01 20:27:38"
+      description: We are actively working to fix an issue causing some deployments that use IAD1 Function regions or Routing Middleware to fail. We will provide additional updates as they become available.
+      investigating: true
+    - ts: "2026-09-01 20:37:48"
+      description: We have identified the issue and are working on a fix. We are seeing recovery as the fix is deployed. We will provide additional updates as they become available.
+    - ts: "2026-09-01 20:45:56"
+      description: We are seeing recovery in Builds and are continuing to monitor.
+    - ts: "2026-09-01 20:49:34"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-09-01 20:58:43"
+      description: This incident has been resolved. Builds have recovered.
+      resolved: true
