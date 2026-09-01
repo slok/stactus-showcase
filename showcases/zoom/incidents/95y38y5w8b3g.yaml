@@ -1,0 +1,17 @@
+version: incident/v1
+id: 95y38y5w8b3g
+name: Service Degradation Affecting Zoom Node.
+impact: minor
+systems:
+    - dvrth3dswrkz
+timeline:
+    - ts: "2026-09-01 00:11:57"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Node, where some users may experience issues with upgrading and provisioning new nodes.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-09-01 00:28:10"
+      description: The issue has been identified and a fix is being implemented.

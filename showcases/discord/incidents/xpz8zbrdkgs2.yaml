@@ -1,9 +1,20 @@
 version: incident/v1
 id: xpz8zbrdkgs2
-name: Some servers not available for some users
+name: Some servers and other services (voice calls, activities) not available for some users
 impact: major
 systems: []
 timeline:
     - ts: "2026-08-31 22:54:05"
       description: Some users may not be able to connect to some of their servers
       investigating: true
+    - ts: "2026-08-31 23:26:49"
+      description: some servers will appear unavailable for some users, and some other services may also be impacted (voice calls, activities)
+      investigating: true
+    - ts: "2026-08-31 23:38:47"
+      description: We are taking steps to remediate the issue
+      investigating: true
+    - ts: "2026-08-31 23:56:45"
+      description: We are taking steps to remediate the issue
+    - ts: "2026-09-01 00:49:17"
+      description: This incident has been resolved.
+      resolved: true
