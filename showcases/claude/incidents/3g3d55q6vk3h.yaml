@@ -9,3 +9,8 @@ timeline:
     - ts: "2026-09-01 17:05:11"
       description: We are investigating reports of degraded performance affecting some Claude services, including docs.claude.com. We are working to resolve these issues and will provide an update as soon as possible.
       investigating: true
+    - ts: "2026-09-01 17:52:17"
+      description: We are seeing success rates recover across affected services. Core inference and the API are not impacted.
+    - ts: "2026-09-01 18:07:03"
+      description: This issue has been resolved.
+      resolved: true

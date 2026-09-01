@@ -1,0 +1,15 @@
+version: incident/v1
+id: ptq9slypf8wy
+name: Service Degradation Affecting Zoom for Google Workspace add-on
+impact: minor
+systems:
+    - 08fp2rr1spx0
+timeline:
+    - ts: "2026-09-01 18:57:41"
+      description: |-
+        We are currently investigating a service degradation for a subset of users using Zoom for Google Workspace add-on
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
