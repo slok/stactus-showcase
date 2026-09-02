@@ -1,0 +1,15 @@
+version: incident/v1
+id: j5wc0tnswx48
+name: API background job queue failure
+impact: major
+systems:
+    - 80ykv2p95qgy
+timeline:
+    - ts: "2026-09-02 07:21:44"
+      description: We are investigating an issue with the background job runner for our API. Actions that require a background job, such as creating apps, assigning IP addresses, or creating/renewing certificates, may fail at this time.
+      investigating: true
+    - ts: "2026-09-02 07:31:52"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-02 07:44:39"
+      description: This incident has been resolved.
+      resolved: true
