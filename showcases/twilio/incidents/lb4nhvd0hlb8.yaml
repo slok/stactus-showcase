@@ -1,0 +1,10 @@
+version: incident/v1
+id: lb4nhvd0hlb8
+name: Live Chat Support Failing for Customers
+impact: minor
+systems:
+    - xv01vfp8wvs4
+timeline:
+    - ts: "2026-09-01 23:48:52"
+      description: We are investigating an issue affecting live chat support where Customers trying to engage with Twilio support via live Chat could fail. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
