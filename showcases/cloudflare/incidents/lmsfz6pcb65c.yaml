@@ -1,0 +1,19 @@
+version: incident/v1
+id: lmsfz6pcb65c
+name: Cloudflare Workers Issues in Narita
+impact: minor
+systems:
+    - rmjk2n758yzc
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-09-02 01:02:41"
+      description: |-
+        Cloudflare is investigating an increased level of errors for customers running Workers scripts in Narita.
+
+        We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-09-02 02:10:36"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-09-02 02:24:25"
+      description: This incident has been resolved.
+      resolved: true

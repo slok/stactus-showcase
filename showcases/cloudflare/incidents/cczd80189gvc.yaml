@@ -6,5 +6,5 @@ systems:
     - w4k8yvhfb3vp
 timeline:
     - ts: "2026-09-01 20:06:47"
-      description: Some customers using Proofpoint may experience delayed Cloudflare notifications and login codes. Proofpoint is temporarily deferring messages with an SMTP 421 4.7.0 response. Cloudflare will continue retrying delivery.
+      description: Some customers using email security gateway like Proofpoint may experience delayed Cloudflare notifications and login codes. Proofpoint is temporarily deferring messages with an SMTP 421 4.7.0 response. Cloudflare will continue retrying delivery.
       investigating: true

@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2026-09-01 23:26:49"
       description: We have identified and resolved an issue where users who reached a balance of zero usage credits saw delays in the availability of newly purchased credits, resulting in some requests to the Claude API receiving 'credit balance is too low' errors erroneously. This affected credits purchased from 05:10am PT / 12:10 UTC to 2:35pm PT / 21:35 UTC. At this time, newly purchased credits should be available as expected and we are working to resolve any remaining impact.
+    - ts: "2026-09-02 01:24:22"
+      description: This issue has been resolved.
+      resolved: true
