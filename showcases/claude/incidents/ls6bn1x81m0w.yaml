@@ -1,0 +1,16 @@
+version: incident/v1
+id: ls6bn1x81m0w
+name: Elevated errors for Claude Sonnet 5
+impact: major
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-09-02 21:17:58"
+      description: We are investigating elevated errors on requests to Claude Sonnet 5. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-09-02 21:44:28"
+      description: The issue affecting Claude Sonnet 5 has been resolved. Impact occurred from 2:05pm PT / 21:05 UTC to 2:19pm PT / 21:19 UTC.
+      resolved: true
