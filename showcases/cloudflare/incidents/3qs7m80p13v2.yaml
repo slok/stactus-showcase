@@ -1,0 +1,19 @@
+version: incident/v1
+id: 3qs7m80p13v2
+name: Durable Objects increased errors in Western North America
+impact: minor
+systems:
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2026-09-02 14:47:26"
+      description: |-
+        Cloudflare is aware of, and investigating, an increased number of errors for Durable Objects in Western North America.
+        The suspected cause is a reduction in routing capacity due to a fibre cut.  We are working to mitigate this issue, and update will follow.
+      investigating: true
+    - ts: "2026-09-02 14:48:27"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-09-02 15:35:24"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-02 15:51:23"
+      description: This incident has been resolved.
+      resolved: true

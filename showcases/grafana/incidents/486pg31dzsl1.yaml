@@ -1,0 +1,9 @@
+version: incident/v1
+id: 486pg31dzsl1
+name: Elevated Latency in Grafana Cloud Logs (prod-ap-south-1)
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-02 14:14:35"
+      description: We observed elevated latency in Grafana Cloud Logs between 08:00 and 11:00 UTC for a subset of deployments in prod-ap-south-1. The issue is now resolved.
+      resolved: true

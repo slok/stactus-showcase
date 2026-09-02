@@ -1,0 +1,19 @@
+version: incident/v1
+id: 200423xbd0kv
+name: Upstream network issues
+impact: minor
+systems:
+    - 4zqk2hwhfmvb
+    - 49qj4qjyzlzn
+timeline:
+    - ts: "2026-09-02 14:18:44"
+      description: We have observed an upstream network issue in LAX. Connections to some destinations may see elevated latency and packet loss. We're working with our upstream to resolve this issue.
+    - ts: "2026-09-02 14:48:48"
+      description: We have put in some temporary mitigations along with our providers. However since the root cause of this issue lies within a bigger upstream transit provider, you may continue to see some elevated latency and connection issues in/around affected regions. We're still working closely with them to resolve the root cause.
+    - ts: "2026-09-02 14:56:43"
+      description: We're updating the affected region list to also include SJC since this seems to be a wider upstream issue in US West Coast.
+    - ts: "2026-09-02 15:33:02"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-02 15:57:45"
+      description: This incident has been resolved.
+      resolved: true
