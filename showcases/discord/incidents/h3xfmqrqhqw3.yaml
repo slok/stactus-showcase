@@ -1,0 +1,14 @@
+version: incident/v1
+id: h3xfmqrqhqw3
+name: Voice endpoint selection issues
+impact: major
+systems: []
+timeline:
+    - ts: "2026-09-02 23:26:42"
+      description: We are investigating problems with voice endpoint selection. Your calls may fail to start or may fail to get an endpoint.
+      investigating: true
+    - ts: "2026-09-02 23:35:19"
+      description: We've identified an issue with our endpoint selection service and are applying a mitigation now. We are seeing recovery to endpoint selection now.
+    - ts: "2026-09-02 23:42:44"
+      description: This incident has been resolved.
+      resolved: true

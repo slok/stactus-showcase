@@ -1,6 +1,6 @@
 version: incident/v1
 id: k635gmn3505c
-name: RCS Sender Registration Issues
+name: RCS Registration Submission Issues in the United States
 impact: minor
 systems:
     - t32hnkr2q793
@@ -8,3 +8,7 @@ timeline:
     - ts: "2026-09-02 22:17:50"
       description: We are investigating an issue with RCS sender registration. Users may be unable to submit new RCS registrations in the United States, and the Submit Registration page may be unresponsive when creating an RCS sender. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-09-02 23:21:11"
+      description: We have identified the issue with RCS sender registration and are implementing a fix. Users may continue to be unable to submit new RCS registrations in the United States, and the Submit Registration page may be unresponsive when creating an RCS sender. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-03 00:35:30"
+      description: We have mitigated the issue and are monitoring system performance. Customers can now continue submitting RCS registrations in the Console.  We will provide another update in 2 hours or as soon as more information becomes available.

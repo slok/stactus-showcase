@@ -1,0 +1,15 @@
+version: incident/v1
+id: nnxl4s8dy3yf
+name: Sprites API Partial Outage
+impact: minor
+systems:
+    - gfjxlcdf8bf4
+timeline:
+    - ts: "2026-09-02 23:03:57"
+      description: We're aware of a problem affecting a subset of Sprites users. We are investigating the source of the issue.
+      investigating: true
+    - ts: "2026-09-02 23:33:59"
+      description: Error rates have decreased. We are continuing to monitor the API health.
+    - ts: "2026-09-03 00:41:41"
+      description: This incident has been resolved.
+      resolved: true
