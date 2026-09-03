@@ -1,0 +1,14 @@
+version: incident/v1
+id: fypk8gvjj87k
+name: Service degradation with In-Meeting summary for Indonesian language in the Singapore region
+impact: none
+systems:
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2026-09-03 05:39:07"
+      description: |-
+        On 09/03/2026, Between 01:00 UTC to 04:00 UTC, users in the Singapore region may have experienced degraded quality with the in-meeting summary for Indonesian language.
+        This incident has been resolved and the affected services have been restored.
+    - ts: "2026-09-03 05:49:05"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true

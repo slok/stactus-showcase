@@ -1,0 +1,17 @@
+version: incident/v1
+id: xvlj3p6mhl0v
+name: SMS Delivery Delays from Twilio to Cellcom Israel
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-09-03 06:35:05"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Cellcom network subscribers in Israel. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-03 06:38:38"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Cellcom network subscribers in Israel. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-03 06:41:18"
+      description: We have observed a recovery in SMS delivery from Twilio to Cellcom network subscribers in Israel and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-03 08:42:49"
+      description: The incident has been resolved and SMS delivery from Twilio to Cellcom network subscribers in Israel is operating normally.
+      resolved: true

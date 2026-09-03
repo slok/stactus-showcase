@@ -1,0 +1,9 @@
+version: incident/v1
+id: vp04n6xtv51r
+name: Increased HTTP 522 Errors  in Seattle (SEA)
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-09-03 08:59:26"
+      description: Some customers may have observed 522s from 06:30UTC to 07:38 UTC for traffic landing in Seattle (SEA).  Impact windows may vary by customer.  The issue has been resolved
+      resolved: true

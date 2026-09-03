@@ -1,0 +1,12 @@
+version: incident/v1
+id: hv0y80k98t9b
+name: Increased HTTP 5xx Errors in Hong Kong.
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-09-03 09:21:19"
+      description: We investigated an increased level of HTTP 5xx errors and latency affecting services in the Hong Kong region. The issue has now been resolved.
+    - ts: "2026-09-03 09:36:02"
+      description: This incident has been resolved.
+      resolved: true
