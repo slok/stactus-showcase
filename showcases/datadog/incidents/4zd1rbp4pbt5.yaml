@@ -1,0 +1,17 @@
+version: incident/v1
+id: 4zd1rbp4pbt5
+name: Delayed CICD Optimization, Code Coverage, Code Security, and DORA data
+impact: minor
+systems:
+    - kbbhp1p4g26q
+    - hsgh99wp1ykf
+timeline:
+    - ts: "2026-09-03 17:20:26"
+      description: |-
+        We are investigating increased latency processing CICD Optimization, Code Coverage, Code Security, and DORA data.
+        As a result of this issue, some users may see delays with test runs and pipeline executions.
+      investigating: true
+    - ts: "2026-09-03 17:27:58"
+      description: We identified the issue.
+    - ts: "2026-09-03 17:45:21"
+      description: We are monitoring the issue.

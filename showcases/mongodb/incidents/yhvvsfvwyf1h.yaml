@@ -1,0 +1,11 @@
+version: incident/v1
+id: yhvvsfvwyf1h
+name: Impaired Cluster operations in AWS me-central-1 and AWS me-south-1
+impact: major
+systems:
+    - 98lbmdz85yp0
+timeline:
+    - ts: "2026-09-03 16:44:43"
+      description: Please follow <a href="https://status.mongodb.com/incidents/7g5qmxgkc2y4">the original status post</a> for updates on AWS me-central-1 and AWS me-south-1 issues.
+    - ts: "2026-09-03 16:47:21"
+      description: We are continuing to monitor for any further issues.

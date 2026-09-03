@@ -15,3 +15,12 @@ timeline:
       description: We have identified the cause of elevated errors on requests to Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5 and are working on a fix. We will provide an update as soon as possible.
     - ts: "2026-09-03 13:50:26"
       description: 'An exhaustive list of affected models: Mythos/Fable 5.1, Mythos/Fable 5, Opus 5, Opus 4.8, Opus 4.6.'
+    - ts: "2026-09-03 14:49:48"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-09-03 15:25:20"
+      description: The only affected models right now are Opus 4.8 and Opus 5. The rest of the models have recovered to baseline error rate.
+    - ts: "2026-09-03 16:06:42"
+      description: A fix has been deployed for Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5 and we are monitoring for recovery.
+    - ts: "2026-09-03 16:23:12"
+      description: The issue affecting Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5 has been resolved. Impact has ended as of 9:16 PT / 16:16 UTC.
+      resolved: true

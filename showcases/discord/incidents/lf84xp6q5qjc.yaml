@@ -1,0 +1,16 @@
+version: incident/v1
+id: lf84xp6q5qjc
+name: Some servers unavailable
+impact: major
+systems: []
+timeline:
+    - ts: "2026-09-03 14:35:27"
+      description: Some servers may appear unavailable in the client. We are investigating
+      investigating: true
+    - ts: "2026-09-03 14:56:36"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-09-03 15:01:44"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-03 15:37:47"
+      description: This incident has been resolved.
+      resolved: true

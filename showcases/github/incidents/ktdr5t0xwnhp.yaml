@@ -1,0 +1,22 @@
+version: incident/v1
+id: ktdr5t0xwnhp
+name: Incident with Grok Copilot AI Model Provider
+impact: minor
+systems:
+    - cnnb39dkkk82
+timeline:
+    - ts: "2026-09-03 14:17:27"
+      description: We are investigating reports of degraded performance for Copilot AI Model Providers
+      investigating: true
+    - ts: "2026-09-03 14:20:35"
+      description: We are experiencing degraded availability for the Grok 4.6 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br />
+      investigating: true
+    - ts: "2026-09-03 14:22:44"
+      description: The Grok 4.5 model has degraded availability as well. We are working with the upstream provider to resolve the issue.
+      investigating: true
+    - ts: "2026-09-03 17:11:39"
+      description: The issues with our upstream model provider have been resolved, and Grok models are once again available in Copilot products and IDE surfaces.<br />We will continue monitoring to ensure stability, but mitigation is complete.
+      investigating: true
+    - ts: "2026-09-03 17:11:47"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
