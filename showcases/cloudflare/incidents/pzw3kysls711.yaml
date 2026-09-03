@@ -1,0 +1,10 @@
+version: incident/v1
+id: pzw3kysls711
+name: Elevated number of R2 503 errors in Western North America region
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-09-03 01:49:18"
+      description: Between 1:04-1:28 UTC customers reaching Western North America region R2 buckets may have experienced an elevated number of 503 errors.
+      resolved: true
