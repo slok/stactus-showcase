@@ -1,0 +1,15 @@
+version: incident/v1
+id: y4b9mvr00vgw
+name: Service Degradation Affecting Zoom Phone and Contact Center Audio in Europe Region
+impact: none
+systems:
+    - 773zkp1jzkgl
+    - kmldw5k76q3v
+timeline:
+    - ts: "2026-09-03 11:15:59"
+      description: "On September 03, between 10:15 UTC to 10:33 UTC, subset of users might have experienced Zoom Phone and Contact Center audio degradation in Europe. The issue has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
+    - ts: "2026-09-03 11:18:47"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-09-03 11:35:50"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true

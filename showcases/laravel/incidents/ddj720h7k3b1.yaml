@@ -1,0 +1,15 @@
+version: incident/v1
+id: ddj720h7k3b1
+name: Slow and timing out deployments in us-east-2
+impact: minor
+systems:
+    - d4z7n3kvpgp0
+timeline:
+    - ts: "2026-09-03 12:49:33"
+      description: We're aware of slow deployments and some deployment timeouts in the us-east-2 (Ohio) region. Running applications aren't affected.
+      investigating: true
+    - ts: "2026-09-03 13:07:26"
+      description: Deployments in us-east-2 (Ohio) are recovering. Deploy times are returning to normal, and success rates are climbing. You can safely retry any deploy that timed out during this window.
+    - ts: "2026-09-03 13:31:18"
+      description: Deployments in us-east-2 (Ohio) are back to normal and have been stable for the past 30 minutes. Any deployment that failed during this window can be retried.
+      resolved: true

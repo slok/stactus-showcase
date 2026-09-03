@@ -1,7 +1,7 @@
 version: incident/v1
 id: mdbl0xl76v3q
 name: High Latency in prod-ap-south-1
-impact: minor
+impact: major
 systems:
     - 2vj35rbpdr7s
     - 318npch70m7f
@@ -11,3 +11,8 @@ timeline:
     - ts: "2026-09-03 09:32:34"
       description: We are currently investigating an issue impacting deployments in prod-ap-south-1. Impacted customers may be experiencing increased latency and issues with ingestion.
       investigating: true
+    - ts: "2026-09-03 11:37:13"
+      description: A fix has been applied and we are seeing signs of recovery. We will continue to monitor the recovery.
+    - ts: "2026-09-03 12:49:37"
+      description: This incident has been resolved.
+      resolved: true
