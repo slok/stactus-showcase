@@ -1,0 +1,9 @@
+version: incident/v1
+id: d7br2wrsnvvy
+name: 'Retroactive Incident: Twilio Personalized Support Phone Line Affected'
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-03 18:20:58"
+      description: Intermittent dropped calls were reported on the Twilio personalized support hotline between 2026-08-24 08:10 AM PT and 2026-09-01 10:27 AM PT. The root cause was identified as a bug within Twilio Studio. A patch has been applied, and service has been fully restored.
+      resolved: true
