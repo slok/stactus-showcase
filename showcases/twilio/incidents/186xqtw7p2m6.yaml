@@ -1,0 +1,14 @@
+version: incident/v1
+id: 186xqtw7p2m6
+name: SMS Delivery Delays and Failures from Twilio to Africell and Qcell Gambia
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-09-04 03:35:16"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Africell and Qcell network subscribers in the Gambia. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-04 04:35:43"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Africell and Qcell network subscribers in the Gambia. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-04 04:44:40"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Africell and Qcell network subscribers in the Gambia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.

@@ -1,0 +1,15 @@
+version: incident/v1
+id: k4l03tnw5wwr
+name: Service Degradation Affecting Zoom Phone Audio in Japan
+impact: none
+systems:
+    - yrt9l9s4twjl
+timeline:
+    - ts: "2026-09-04 05:23:13"
+      description: |-
+        On September 04, between 02:54 AM UTC to 03:04 AM UTC, subset of users in Japan might have experienced Zoom Phone audio degradation due to an issue with our vendor.
+
+        Our team will continue to monitor the situation closely and keep you informed of any further developments.
+    - ts: "2026-09-04 05:35:57"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
