@@ -1,0 +1,16 @@
+version: incident/v1
+id: lv9wsn3ksb79
+name: Tempo and Mimir Read and Write Failures
+impact: minor
+systems:
+    - tfr4g652mxn5
+    - k8k4wprtwgz9
+    - ctqprgdj7scn
+    - l502n5x60s2m
+timeline:
+    - ts: "2026-09-03 22:13:28"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-09-03 22:31:39"
+      description: Cluster Metrics are healthy for the last 15 minutes
+    - ts: "2026-09-03 22:48:35"
+      description: Tempo recovered.

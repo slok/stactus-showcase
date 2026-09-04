@@ -1,0 +1,33 @@
+version: incident/v1
+id: ldwr50mzthnv
+name: Intermittent Delays and Failures in Message Delivery
+impact: minor
+systems:
+    - qj606bzkg4s8
+    - llqd4rmn8k8y
+    - k7rg1rqk2nwk
+    - 5cv0b6y86d2f
+timeline:
+    - ts: "2026-09-03 21:36:55"
+      description: Our monitoring systems have detected a potential issue with intermittent delays and failures in message delivery. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-09-03 21:49:32"
+      description: We are investigating an intermittent issue with delays and failures in outbound message delivery. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-03 22:06:47"
+      description: We are continuing to investigate an intermittent issue with delays and failures in outbound message delivery. We expect to provide another update in 15 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-03 22:21:11"
+      description: We are continuing to investigate an intermittent issue with delays and failures in outbound message delivery. We expect to provide another update in 15 minutes or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-03 22:36:08"
+      description: We are continuing to investigate an intermittent issue with delays and failures in outbound message delivery. We expect to provide another update in 15 minutes or as soon as more information becomes available.
+    - ts: "2026-09-03 22:51:30"
+      description: We are continuing to investigate an intermittent issue with delays and failures in outbound message delivery. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-09-03 23:12:30"
+      description: We are seeing recovery and message delivery is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-09-03 23:42:11"
+      description: We are seeing recovery and message delivery is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-09-04 00:10:45"
+      description: Delivery delays and failures have been resolved and message delivery is operating normally at this time.
+      resolved: true

@@ -1,0 +1,13 @@
+version: incident/v1
+id: nt3d1xvkb9q8
+name: Some Servers Unavailable
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-03 21:31:27"
+      description: We've identified an issue causing some servers to appear unavailable in the client
+    - ts: "2026-09-03 22:06:28"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-03 22:27:33"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,6 +1,6 @@
 version: incident/v1
 id: hl0qc0kz5145
-name: SMS Delivery Delays From a Subset of Twilio Short Codes to C-Spire and Dish United States
+name: SMS Delivery Delays from a Subset of Twilio Short Codes to C-Spire and Dish United States
 impact: minor
 systems:
     - 39mb8cmw8y2v
@@ -28,3 +28,6 @@ timeline:
       description: We have observed a recovery in SMS delivery from a subset of Twilio Short Codes to C-Spire and Dish network subscribers in the United States and are monitoring service stability. We will provide another update in 24 hours or as soon as more information becomes available.
     - ts: "2026-09-03 10:20:40"
       description: We have observed a recovery in SMS delivery from a subset of Twilio Short Codes to C-Spire and Dish network subscribers in the United States and are monitoring service stability. We will provide another update in 24 hours or as soon as more information becomes available.
+    - ts: "2026-09-03 22:13:01"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Short Codes to C-Spire and Dish network subscribers in the United States is operating normally.
+      resolved: true

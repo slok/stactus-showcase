@@ -1,0 +1,12 @@
+version: incident/v1
+id: jywjp357rlp8
+name: Service Degradation Affecting Zoom SMS delays in North America.
+impact: none
+systems:
+    - 5vvw5njz8qg5
+timeline:
+    - ts: "2026-09-03 22:11:31"
+      description: "On 09/03/2026, Between 21:30 UTC to 21:50 UTC, a subset of users may have experienced issues with SMS delay in North America. \nThis incident has been resolved, and the affected services have been restored."
+    - ts: "2026-09-03 22:19:07"
+      description: This incident has been resolved.
+      resolved: true

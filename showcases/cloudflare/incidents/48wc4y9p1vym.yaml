@@ -1,0 +1,12 @@
+version: incident/v1
+id: 48wc4y9p1vym
+name: Workers Builds elevated queue times
+impact: minor
+systems:
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2026-09-03 23:35:48"
+      description: Cloudflare is aware of and investigating an issue with delays running Cloudflare Workers builds which potentially impacts multiple customers.
+      investigating: true
+    - ts: "2026-09-03 23:43:20"
+      description: The issue has been identified and a fix is being implemented.

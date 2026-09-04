@@ -1,0 +1,20 @@
+version: incident/v1
+id: mgm4tmvbkjx8
+name: Elevated deployment times
+impact: minor
+systems:
+    - d4z7n3kvpgp0
+    - vhd4h127zqt5
+    - rnyz50rjb4p5
+    - nfc2yzmxzw4s
+    - r5wtfz1xy72b
+    - s3zm1t588bky
+    - 0d75ngbkyzz2
+    - 29r8t4n835qg
+    - sr7vs6x5c6cf
+timeline:
+    - ts: "2026-09-03 22:58:35"
+      description: We are currently investigating longer than usual deployment times. Deployments are still completing, just slower than normal. If your deployment times out, please try to deploy again.
+      investigating: true
+    - ts: "2026-09-04 00:21:24"
+      description: We've traced the slower deployments to npm. Package installs are timing out or taking much longer than usual, which extends the build step. If yours times out, please try again.
