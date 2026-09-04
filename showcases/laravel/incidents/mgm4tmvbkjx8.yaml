@@ -20,3 +20,5 @@ timeline:
       description: We've traced the slower deployments to npm. Package installs are timing out or taking much longer than usual, which extends the build step. If yours times out, please try again.
     - ts: "2026-09-04 03:48:05"
       description: We are continuing to monitor the situation, and will update once the upstream issue is resolved.
+    - ts: "2026-09-04 14:02:38"
+      description: The upstream npm issue has been resolved and we are seeing deployment times returning to normal levels. We will keep monitoring for any regressions.

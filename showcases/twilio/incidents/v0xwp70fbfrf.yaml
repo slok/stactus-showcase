@@ -1,0 +1,22 @@
+version: incident/v1
+id: v0xwp70fbfrf
+name: Multiple delivery failures when sending emails to Microsoft or MS based recipients
+impact: none
+systems:
+    - 4yft4fgnwyfh
+timeline:
+    - ts: "2026-09-04 11:40:07"
+      description: |-
+        Starting around 3:30 PST on September the 4th, our engineers began investigating an issue with all emails being delivered to Microsoft. Users may experience different 5XX errors such as:
+
+        Email was deferred due to the following reason(s): [IPs were throttled by recipient server:
+
+        Mail send is affected only when sending to Microsoft supported services We will provide another update in an hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-04 12:59:09"
+      description: "Our engineers have identified the cause of the incident to be a change in the delivery policies with Microsoft as it has been acknowledged on their status post here: https://x.com/MSFT365Status. \n\nWe encourage the customers to reach out to them directly for more information and updates including the affected IP and the exact message received.\n\nErrors such as \"IPs throttled by recipient server\" is a preemptive deferral in response to the \"Server too busy\" error, so we suggest that all errors should be read as literal and reach out Microsoft if you need more details on this: https://olcsupport.office.com/, and for Office 365 Anti-Spam IP delisting portal here: https://sender.office.com/ and their address for delisting is delist@microsoft.com.\n\nWe will provide another update in 2 hours or as soon as more information becomes available."
+    - ts: "2026-09-04 13:21:35"
+      description: |-
+        We are seeing a recovery in our services for customer sending to Microsoft and MS 365 supported recipients, and we'll continue to monitor. Microsoft has acknowledged this issue here: https://x.com/MSFT365Status and we kindly ask our customers to reach out to them for more updates
+
+        We'll provide more updates in 2 hours or as soon as they become available

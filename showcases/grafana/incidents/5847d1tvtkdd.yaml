@@ -1,0 +1,11 @@
+version: incident/v1
+id: 5847d1tvtkdd
+name: Alert rule creation, deletion, and update degradation in prod-us-east-2
+impact: minor
+systems:
+    - hzw0yd89s9ny
+    - fgtp31zqpw8v
+timeline:
+    - ts: "2026-09-04 13:36:42"
+      description: We’re currently investigating an issue affecting alert rule creation, deletion, and updates in prod-us-east-2. Our team is actively working to identify the cause. Thank you for your patience.
+      investigating: true
