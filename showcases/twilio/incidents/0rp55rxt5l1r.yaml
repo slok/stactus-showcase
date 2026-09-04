@@ -8,3 +8,10 @@ timeline:
     - ts: "2026-09-04 13:27:20"
       description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Short Codes to T-Mobile network subscribers in the United States. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-09-04 14:28:56"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Short Codes to T-Mobile network subscribers in the United States. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-04 15:10:18"
+      description: We have observed a recovery in SMS delivery receipts from a subset of Twilio Short Codes to T-Mobile network subscribers in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-04 17:17:37"
+      description: The incident has been resolved and SMS delivery receipts from a subset of Twilio Short Codes to T-Mobile network subscribers in the United States are operating normally.
+      resolved: true

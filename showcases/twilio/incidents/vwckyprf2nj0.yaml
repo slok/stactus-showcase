@@ -1,6 +1,6 @@
 version: incident/v1
 id: vwckyprf2nj0
-name: SMS Delivery Delays from Twilio to MobiFone Viet Nam
+name: SMS Delivery Delays from Twilio to MobiFone Vietnam
 impact: minor
 systems:
     - 8qjql0kqnd33
@@ -12,3 +12,6 @@ timeline:
       description: We have observed a recovery in SMS delivery from Twilio to MobiFone network subscribers in Vietnam and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-09-04 13:01:57"
       description: We have observed a recovery in SMS delivery from Twilio to MobiFone network subscribers in Viet Nam and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-09-04 14:55:25"
+      description: The incident has been resolved and SMS delivery from Twilio to MobiFone network subscribers in Vietnam is operating normally.
+      resolved: true

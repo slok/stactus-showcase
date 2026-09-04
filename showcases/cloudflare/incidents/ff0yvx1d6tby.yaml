@@ -1,0 +1,15 @@
+version: incident/v1
+id: ff0yvx1d6tby
+name: Cache Purging Errors
+impact: minor
+systems:
+    - fbvx0hxhhdj0
+timeline:
+    - ts: "2026-09-04 14:51:45"
+      description: Cloudflare cache purging called via the Dashboard or API is returning errors, with the message "unable to purge. internal error". We are working to resolve this issue as soon as possible. More updates to follow.
+      investigating: true
+    - ts: "2026-09-04 15:31:44"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-04 16:58:46"
+      description: This incident is now resolved.
+      resolved: true

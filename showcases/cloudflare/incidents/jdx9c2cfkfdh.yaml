@@ -1,0 +1,9 @@
+version: incident/v1
+id: jdx9c2cfkfdh
+name: Degradation Impacting Turnstile and Challenge Pages for AS15924
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-09-04 15:11:51"
+      description: Between 30 August at 06:00 UTC and 4 September at 12:00 UTC, visitors originating from AS15924 may have experienced intermittent issues when completing Cloudflare Turnstile verification and Challenge Pages.
+      resolved: true

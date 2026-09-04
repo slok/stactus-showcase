@@ -1,0 +1,11 @@
+version: incident/v1
+id: w1c8md3mnthx
+name: Degradation of Hosted Grafana in US Central Region
+impact: major
+systems:
+    - qqj6ssvvsqmq
+    - m7cr9xxllhpn
+    - jky8f03q6zfj
+timeline:
+    - ts: "2026-09-04 17:03:17"
+      description: We are aware of an issue causing some Grafana Cloud stacks in the US region to be unavailable or fail to load. The cause is reduced compute capacity in one of our cloud provider's availability zones, which is preventing affected stacks from starting. Other regions are unaffected. We are working with our cloud provider to restore capacity.
