@@ -15,3 +15,8 @@ systems:
 timeline:
     - ts: "2026-09-04 16:45:57"
       description: We’re currently investigating an issue affecting the us central region due to ongoing cloud provider incident. Multiple components impacted. Our team is actively working on this. Thank you for your patience.
+    - ts: "2026-09-04 18:58:27"
+      description: |-
+        The underlying cloud provider issue is not yet fully resolved, but our systems have recovered and affected Grafana Cloud stacks are loading normally again.
+
+        Some customers may still see brief intermittent slowness. We are continuing to monitor until our provider confirms resolution.

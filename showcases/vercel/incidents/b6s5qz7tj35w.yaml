@@ -1,0 +1,15 @@
+version: incident/v1
+id: b6s5qz7tj35w
+name: Elevated latency in VCR, Blob, and Sandbox API
+impact: minor
+systems:
+    - jhhn5y2phjx8
+    - d77dj4pvw5y8
+timeline:
+    - ts: "2026-09-04 19:11:44"
+      description: We've identified an issue where some customers may experience increased latency for API requests to VCR, Blob, and Sandbox. We are currently investigating this issue. We will provide additional updates as they become available.
+      investigating: true
+    - ts: "2026-09-04 19:33:06"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-09-04 19:33:18"
+      description: We are continuing to work on a fix for this issue.

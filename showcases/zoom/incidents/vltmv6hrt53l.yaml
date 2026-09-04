@@ -1,0 +1,13 @@
+version: incident/v1
+id: vltmv6hrt53l
+name: Service Degradation Affecting Email in Zoom Contact Center Services in North America
+impact: none
+systems:
+    - vttvjkwmdfps
+    - gnzpmr12w06t
+timeline:
+    - ts: "2026-09-04 17:46:02"
+      description: "On 09/04/2026, Between 15:15 UTC to 16:10 UTC, A subset of users may have experienced issues with Email in Zoom Contact Center. \nThis incident has been resolved and the affected services have been restored."
+    - ts: "2026-09-04 17:55:04"
+      description: This incident has been resolved.
+      resolved: true
