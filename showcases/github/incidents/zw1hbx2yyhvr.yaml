@@ -1,0 +1,15 @@
+version: incident/v1
+id: zw1hbx2yyhvr
+name: Disruption with Copilot Code Review
+impact: major
+systems: []
+timeline:
+    - ts: "2026-09-04 20:39:03"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-09-04 20:57:53"
+      description: Some users may be experiencing failures when using Copilot code review. We have identified the root cause and are working on a mitigation.
+      investigating: true
+    - ts: "2026-09-04 21:54:22"
+      description: We are applying the mitigation and expect recovery within approximately 30 minutes.
+      investigating: true

@@ -1,0 +1,12 @@
+version: incident/v1
+id: ftvf8c3m4mv5
+name: Elevated number of R2 503 errors in Eastern North America region
+impact: minor
+systems:
+    - hb7g5sq2zz0h
+timeline:
+    - ts: "2026-09-04 21:10:29"
+      description: Cloudflare is investigating issues with R2 buckets in Eastern North America.
+      investigating: true
+    - ts: "2026-09-04 21:27:22"
+      description: The cause of this issue has been identified and a fix is being implemented.

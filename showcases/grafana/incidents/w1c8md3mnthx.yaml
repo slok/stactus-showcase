@@ -11,3 +11,6 @@ timeline:
       description: We are aware of an issue causing some Grafana Cloud stacks in the US region to be unavailable or fail to load. The cause is reduced compute capacity in one of our cloud provider's availability zones, which is preventing affected stacks from starting. Other regions are unaffected. We are working with our cloud provider to restore capacity.
     - ts: "2026-09-04 18:24:30"
       description: We are currently observing minimal impact and continuing to monitor the situation.
+    - ts: "2026-09-04 20:42:21"
+      description: The US Central region is now fully operational and this incident is now resolved.
+      resolved: true
