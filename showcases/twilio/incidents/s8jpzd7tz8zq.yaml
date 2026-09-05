@@ -1,6 +1,6 @@
 version: incident/v1
 id: s8jpzd7tz8zq
-name: MMS Delivery Delays from a Subset of Australia Subscribers to Twilio Australia Phone Numbers
+name: MMS Delivery Failures from Telstra Australia to a Subset of Twilio Phone Numbers
 impact: minor
 systems:
     - 2nd0jdj36wpq
@@ -18,3 +18,6 @@ timeline:
       investigating: true
     - ts: "2026-09-05 02:20:06"
       description: Twilio customers may be experiencing MMS delivery delays from a Subset of network subscribers in Australia to Twilio Australia Phone Numbers. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+    - ts: "2026-09-05 18:23:41"
+      description: Twilio customers may be experiencing MMS delivery failures from Telstra network subscribers in Australia to a subset of Twilio Phone Numbers. Our team is actively investigating this issue. We will provide another update in 24 hours or as soon as more information becomes available.
+      investigating: true
