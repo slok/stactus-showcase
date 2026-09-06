@@ -1,0 +1,10 @@
+version: incident/v1
+id: 1ghtnh94pby6
+name: Purchased domains from registrar not appearing in Cloudflare Dashboard
+impact: minor
+systems:
+    - kn2xkt469vyh
+timeline:
+    - ts: "2026-09-06 17:06:53"
+      description: We are investigating reports of delays in the provisioning of newly purchased domains. Our engineering team is currently working to resolve these delays affecting domain registration.
+      investigating: true
