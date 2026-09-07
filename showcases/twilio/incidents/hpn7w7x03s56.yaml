@@ -1,6 +1,6 @@
 version: incident/v1
 id: hpn7w7x03s56
-name: MMS Delivery Delays and Failures From a Subset of Twilio Short Codes to Multiple Networks in United States
+name: MMS Delivery Delays and Failures from a Subset of Twilio Short Codes to Multiple Networks in United States
 impact: minor
 systems:
     - h0fl7prwfhvm
@@ -20,3 +20,7 @@ timeline:
       description: Twilio customers may be experiencing MMS delivery delays and failures from a subset of Twilio Short Codes to network subscribers on multiple networks in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-09-07 16:06:02"
       description: Twilio customers may be experiencing MMS delivery delays and failures from a subset of Twilio Short Codes to network subscribers on multiple networks in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-09-07 20:06:36"
+      description: Twilio customers may be experiencing MMS delivery delays and failures from a subset of Twilio Short Codes to network subscribers on multiple networks in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+    - ts: "2026-09-07 21:01:54"
+      description: We have observed a recovery and determined that this incident impacted delivery failures from US subscribers to a subset of Twilio shortcodes, as well as delivery receipt failures from a subset of Twilio shortcodes to US subscribers. We will provide another update in 2 hours or as soon as more information becomes available.
