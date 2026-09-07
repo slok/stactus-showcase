@@ -1,0 +1,18 @@
+version: incident/v1
+id: z16209cfb1xv
+name: Browser Isolation Session Initialization Failures
+impact: minor
+systems:
+    - q0dfbn0p6hyt
+    - gyx2yygg7lmd
+timeline:
+    - ts: "2026-09-07 14:25:18"
+      description: We are investigating reports of customers encountering a white screen when attempting to access websites behind Browser Isolation. This is caused by Browser Isolation session initialization failing to complete. Our engineering team is actively working to identify and resolve the root cause.
+      investigating: true
+    - ts: "2026-09-07 14:59:31"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-09-07 15:11:43"
+      description: |-
+        A fix has been implemented and we are monitoring the results.
+
+        Customers still experiencing the issue may attempt to close all their Browser Isolation tabs for 2 minutes before starting a new session.

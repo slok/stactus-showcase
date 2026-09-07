@@ -1,0 +1,18 @@
+version: incident/v1
+id: pgn7y7hgd25l
+name: Performance degradation affecting TURN service
+impact: minor
+systems:
+    - 5s616lljfwdz
+timeline:
+    - ts: "2026-09-07 13:02:52"
+      description: We are investigating reports of performance degradation affecting our TURN service since August 22nd. Currently, a significant portion of traffic is being relayed via TCP rather than the expected UDP. Customers using Chrome browsers or other services relying on WebRTC may experience increased latency and connection lag. Our engineering team has identified the cause and a mitigation is currently being deployed. We are monitoring the rollout to ensure performance returns to expected levels.
+      investigating: true
+    - ts: "2026-09-07 13:04:29"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-07 13:52:48"
+      description: |-
+        A fix was deployed for this issue and the impact is over for any new connections on Realtime TURN service.
+
+        Existing connection will continue to use TCP until the customers clients end and restart their connections.
+      resolved: true
