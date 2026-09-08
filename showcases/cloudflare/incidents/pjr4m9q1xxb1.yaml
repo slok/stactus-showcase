@@ -1,0 +1,10 @@
+version: incident/v1
+id: pjr4m9q1xxb1
+name: Cloudflare Account Member Invite Issue
+impact: minor
+systems:
+    - wq0b65msmwpb
+timeline:
+    - ts: "2026-09-08 00:35:28"
+      description: "Cloudflare customers may experience an issue when invited to a new account. An error message is displayed, \"Invaild redirect_url\". \n\nA workaround can be used:\n* Invited members create an account directly from the dashboard (not using the email link)\n* Admin resends invitation\n* Invited member clicks new link and signs into their Cloudflare account\n* Accepts invitation to join without issue\n\nWe are continuing to investigate this issue."
+      investigating: true
