@@ -802,11 +802,13 @@ systems:
       description: Managed streaming data pipeline service that ingests events, applies SQL transformations, and delivers them to R2 as Apache Iceberg tables or Parquet/JSON files.
     - id: wyq8p07mvlkf
       name: Asia / Cagayan de Oro, Philippines - (CGY)
+    - id: ytbzfqk2y4k6
+      name: Europe / Ljubljana, Slovenia - (LJU)
+    - id: 96gqgftyqk9s
+      name: Cloudflare Sites and Services / Precursor
     - id: 3z7cmdfch5kb
       name: Cloudflare Sites and Services / Queues
       description: Send and receive messages with guaranteed delivery and no charges for egress bandwidth.
-    - id: ytbzfqk2y4k6
-      name: Europe / Ljubljana, Slovenia - (LJU)
     - id: hb7g5sq2zz0h
       name: Cloudflare Sites and Services / R2
       description: High-performance storage for files and objects with zero egress charges
@@ -831,19 +833,19 @@ systems:
     - id: 5s616lljfwdz
       name: Cloudflare Sites and Services / Realtime TURN Service
       description: "Separately from the SFU, Realtime offers a managed TURN service. TURN acts as a relay point for traffic between WebRTC clients like the browser and SFUs, particularly in scenarios where direct communication is obstructed by NATs or firewalls. TURN maintains an allocation of public IP addresses and ports for each session, ensuring connectivity even in restrictive network environments.\r\n\r\nUsing Cloudflare Realtime TURN service is available free of charge when used together with the Realtime SFU. Otherwise, it costs $0.05/real-time GB outbound from Cloudflare to the TURN client."
+    - id: n332jkf8s56z
+      name: Asia / Denpasar, Indonesia - (DPS)
     - id: yxhtws7ltl9t
       name: Cloudflare Sites and Services / RealtimeKit
       description: "Build real-time serverless video, audio and data applications.\r\n\r\nCloudflare Realtime is infrastructure for real-time audio/video/data applications. It allows you to build real-time apps without worrying about scaling or regions. It can act as a selective forwarding unit (WebRTC SFU), as a fanout delivery system for broadcasting (WebRTC CDN) or anything in between."
     - id: 8w536gxk7dvq
       name: Cloudflare Sites and Services / Recursive DNS
       description: Free recursive DNS service at 1.1.1.1 and 1.0.0.1
-    - id: n332jkf8s56z
-      name: Asia / Denpasar, Indonesia - (DPS)
+    - id: bn06brrnz2n2
+      name: Asia / Kannur, India - (CNN)
     - id: kn2xkt469vyh
       name: Cloudflare Sites and Services / Registrar
       description: Cloudflare Registrar securely registers and manages customer domain names
-    - id: bn06brrnz2n2
-      name: Asia / Kannur, India - (CNN)
     - id: vsj8h17tq59r
       name: Cloudflare Sites and Services / Registration Data Access Protocol (RDAP)
     - id: fvgfcmy66tdr
@@ -876,16 +878,16 @@ systems:
     - id: 8m7bb706rh1c
       name: Cloudflare Sites and Services / Subscriptions
       description: Changes to subscriptions or placing new orders for service
+    - id: s0xwzmmmmv3l
+      name: Latin America & the Caribbean / Cali, Colombia - (CLO)
     - id: jzcwkvrc4w4q
       name: Cloudflare Sites and Services / Support Site
       description: Knowledge base and support ticket portal at https://support.cloudflare.com
-    - id: s0xwzmmmmv3l
-      name: Latin America & the Caribbean / Cali, Colombia - (CLO)
+    - id: 7g58rb9tl036
+      name: Latin America & the Caribbean / San Pedro Sula, Honduras - (SAP)
     - id: ggcvp9h5v6rv
       name: Cloudflare Sites and Services / Time Services
       description: Time Services provided in NTP, NTS & Roughtime - https://developers.cloudflare.com/time-services/
-    - id: 7g58rb9tl036
-      name: Latin America & the Caribbean / San Pedro Sula, Honduras - (SAP)
     - id: f0jjgwcxtmk8
       name: Cloudflare Sites and Services / Trace
       description: Cloudflare Trace follows an HTTP/S request through Cloudflare’s reverse proxy to your origin. Use this tool to understand how different Cloudflare configurations interact with an HTTP/S request for one of your proxied hostnames.

@@ -1,0 +1,18 @@
+version: incident/v1
+id: hy0gsndpkypz
+name: Intermittent issues accessing the Dashboard on Firefox and Safari
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-09-08 19:39:17"
+      description: Cloudflare is investigating intermittent issues accessing the Cloudflare Dashboard from Firefox and Safari browsers.
+      investigating: true
+    - ts: "2026-09-08 20:03:04"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-09-08 20:20:19"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-08 20:25:49"
+      description: This incident has been resolved.
+      resolved: true
