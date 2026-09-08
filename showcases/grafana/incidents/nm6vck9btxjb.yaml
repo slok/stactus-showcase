@@ -44,3 +44,6 @@ timeline:
         As a workaround, you can open the Geomap panel, navigate to the Map layers section, and change the Basemap layer from CARTO, or "Default base layer," to OpenStreetMap. The watermark should disappear immediately.
 
         Alternatively, if you would prefer to retain a dark-styled map similar to the current CARTO appearance, you can select MapLibre as the basemap and configure the URL as: https://tiles.openfreemap.org/styles/dark This option also renders without the watermark, does not require an API key, and provides a visual style similar to the dark CARTO basemap.
+    - ts: "2026-09-08 22:41:49"
+      description: This incident has been resolved.
+      resolved: true
