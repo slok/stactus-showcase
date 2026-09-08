@@ -1,0 +1,11 @@
+version: incident/v1
+id: 7pcthxw5f8gq
+name: Twilio Messaging Services Was Degraded
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-08 17:27:11"
+      description: Our engineers are currently investigating the customer impact of a retroactive issue with Messaging. We will follow up and provide customer impact details within 2 hours.
+    - ts: "2026-09-08 17:39:19"
+      description: Twilio Messaging Services was degraded for 46 days between July 21 2026 3:28 PM  and Sept 4 2026 6:00 PM Pacific Time . During this period of time, customers that sent messages with media url that contained a comma and added the messaging service sid parameter in their messages will have their messages messages incorrectly rejected with http 400 and Twilio error code 21620 .
+      resolved: true

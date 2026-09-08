@@ -1,0 +1,12 @@
+version: incident/v1
+id: 20y0bl1tryqv
+name: High Latency in prod-us-east-2
+impact: minor
+systems:
+    - t0592d5sxhgh
+timeline:
+    - ts: "2026-09-08 16:14:55"
+      description: We are currently investigating an issue causing high latency for deployments in the prod-us-east-2 cluster.
+      investigating: true
+    - ts: "2026-09-08 17:04:23"
+      description: We have observed latency return to normal levels, and we will continue to monitor this incident.

@@ -1,0 +1,9 @@
+version: incident/v1
+id: kq11rg5y66f2
+name: Errors in Unified Billing for some requests OpenAI models
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-08 18:43:39"
+      description: Customers using Unified Billing may have seen a low number of requests to OpenAI models result in errors from 18:01 to 18:34UTC on 8th of September 2026
+      resolved: true
