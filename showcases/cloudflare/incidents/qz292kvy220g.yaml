@@ -1,0 +1,19 @@
+version: incident/v1
+id: qz292kvy220g
+name: Cache Reserve Issue in Paris
+impact: minor
+systems:
+    - 3q1jnbdbn845
+    - w1br383gmlwj
+timeline:
+    - ts: "2026-09-08 03:25:59"
+      description: |-
+        Cloudflare is investigating an issue with Cache Reserve errors in Paris (CDG). Customers may see an elevated request volume to origin servers in the forementioned region.
+
+        We are working to analyse and mitigate this problem.  More updates to follow shortly.
+      investigating: true
+    - ts: "2026-09-08 04:42:58"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-09-08 05:22:41"
+      description: This incident has been resolved.
+      resolved: true

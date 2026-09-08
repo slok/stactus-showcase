@@ -1,9 +1,11 @@
 version: incident/v1
 id: 2mrcvlktjh2b
-name: SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Nex-Tech Wireless United States
+name: SMS Delivery Receipt Delays From a Subset of Twilio Long Codes to Nex-Tech Wireless LLC United States
 impact: minor
 systems:
-    - 39mb8cmw8y2v
+    - 7d8w22hqrh6s
+    - qj606bzkg4s8
+    - k7rg1rqk2nwk
 timeline:
     - ts: "2026-09-07 22:19:46"
       description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Short Codes to Nex-Tech Wireless network subscribers in the United States. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
@@ -17,3 +19,5 @@ timeline:
     - ts: "2026-09-08 01:20:38"
       description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Short Codes to Nex-Tech Wireless network subscribers in the United States. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-09-08 05:09:11"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Long Codes to Nex-Tech Wireless LLC network subscribers in the United States. Our team has identified the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 2 hours or as soon as more information becomes available.
