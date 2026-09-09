@@ -1,0 +1,12 @@
+version: incident/v1
+id: jsvvrtk5hvym
+name: Cloudflare Workers AI increased errors
+impact: minor
+systems:
+    - zvm7mqn92xzc
+timeline:
+    - ts: "2026-09-09 14:25:16"
+      description: Cloudflare is aware of, and investigating, increased Workers AI errors when attempting to use GLM 5.3. Updates to follow.
+      investigating: true
+    - ts: "2026-09-09 15:02:41"
+      description: The issue has been identified and a fix is being implemented.
