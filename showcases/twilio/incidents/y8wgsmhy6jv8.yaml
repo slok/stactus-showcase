@@ -1,0 +1,10 @@
+version: incident/v1
+id: y8wgsmhy6jv8
+name: Messaging Services Message Send Failures
+impact: none
+systems:
+    - 6cn0g627h62p
+timeline:
+    - ts: "2026-09-09 17:47:18"
+      description: Our engineers have investigated and resolved an issue with Messaging Services. From 10:28AM PDT on Tuesday, 7/21/26 to 6:00PM PDT on Friday, 9/4/26, customers may have experienced HTTP 400 responses with Twilio error code 21620 when sending messages through Messaging Services if the media URL parameter contained a comma. The issue has been resolved and all impacted services are operating normally.
+      resolved: true

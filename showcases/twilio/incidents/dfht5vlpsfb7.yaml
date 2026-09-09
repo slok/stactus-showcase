@@ -1,6 +1,6 @@
 version: incident/v1
 id: dfht5vlpsfb7
-name: SMS Delivery Delays From a Subset of Twilio Long Codes to Claro Brazil
+name: SMS Delivery Delays from a Subset of Twilio Long Codes to Claro Brazil
 impact: minor
 systems:
     - 42zx9w2kmtvf
@@ -8,3 +8,13 @@ timeline:
     - ts: "2026-09-09 15:40:01"
       description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to Claro network subscribers in Brazil. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-09-09 16:40:36"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to Claro network subscribers in Brazil. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-09 16:41:24"
+      description: Twilio customers may be experiencing SMS delivery delays from a subset of Twilio Long Codes to Claro network subscribers in Brazil. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-09 17:10:30"
+      description: We have observed a recovery in SMS delivery from a subset of Twilio Long Codes to Claro network subscribers in Brazil and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-09 19:13:05"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Long Codes to Claro network subscribers in Brazil is operating normally.
+      resolved: true

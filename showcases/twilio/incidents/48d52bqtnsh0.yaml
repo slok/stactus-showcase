@@ -1,0 +1,12 @@
+version: incident/v1
+id: 48d52bqtnsh0
+name: Provisioning Status Not Being Available for Branded Calling
+impact: minor
+systems:
+    - g4hs7h64k9fv
+timeline:
+    - ts: "2026-09-09 17:34:34"
+      description: We are experiencing provisioning status not being available for branded calling inside Twilio Console. Our engineers are working on identifying the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-09 18:34:05"
+      description: The issue causing provisioning status not being available for branded calling inside the Twilio Console has been identified. We are actively working with our Engineering Team to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.

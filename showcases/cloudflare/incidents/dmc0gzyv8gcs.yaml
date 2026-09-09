@@ -1,0 +1,9 @@
+version: incident/v1
+id: dmc0gzyv8gcs
+name: Increased HTTP Errors
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-09 18:48:47"
+      description: Between 16:40 and 16:54 UTC, Cloudflare experienced an elevated rate of HTTP errors affecting traffic passing through Philadelphia (PHL). The issue has been fully identified and resolved, and impact to the PHL location is completely mitigated. All systems are operating normally.
+      resolved: true

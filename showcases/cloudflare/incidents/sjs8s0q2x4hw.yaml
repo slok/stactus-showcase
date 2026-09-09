@@ -1,0 +1,12 @@
+version: incident/v1
+id: sjs8s0q2x4hw
+name: Workers Cron Triggers degraded
+impact: minor
+systems:
+    - 57srcl8zcn7c
+timeline:
+    - ts: "2026-09-09 19:17:26"
+      description: Workers Cron Triggers may not execute or may be delayed in executing. Updates to Workers Cron Triggers may take some time to take effect.
+      investigating: true
+    - ts: "2026-09-09 19:18:25"
+      description: The issue has been identified and a fix is being implemented.
