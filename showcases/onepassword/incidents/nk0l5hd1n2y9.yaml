@@ -1,0 +1,15 @@
+version: incident/v1
+id: nk0l5hd1n2y9
+name: Device Trust Service Disruption
+impact: major
+systems:
+    - v3gbkx6f1m94
+timeline:
+    - ts: "2026-09-09 20:43:50"
+      description: We are currently investigating reports of an incident affecting Device Trust. Some customers may experience delays in device posture checks or authentication failures. We will provide an update as soon as we have more information.
+      investigating: true
+    - ts: "2026-09-09 20:53:47"
+      description: We have identified the triggering change and have rolled it back. We are monitoring to confirm that this has completely resolved the issue.
+    - ts: "2026-09-09 21:11:08"
+      description: This incident has been resolved.
+      resolved: true
