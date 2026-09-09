@@ -1,0 +1,13 @@
+version: incident/v1
+id: 25953qg7xkdj
+name: Investigating elevated database load in AWS Germany
+impact: minor
+systems:
+    - wdcnfc3drb8s
+timeline:
+    - ts: "2026-09-09 11:27:34"
+      description: |-
+        We are investigating elevated database load affecting infrastructure supporting a subset of Grafana Cloud instances in the AWS Germany region (prod-eu-west-4).
+
+        Affected users may experience slow responses when accessing Grafana. We will provide an update as more information becomes available.
+      investigating: true

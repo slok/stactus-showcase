@@ -1,0 +1,20 @@
+version: incident/v1
+id: 1t16vfgq3zpx
+name: Power Degradation impacting GPU Performance in ATL1
+impact: minor
+systems:
+    - cxxt9nh9v10h
+timeline:
+    - ts: "2026-09-09 10:47:40"
+      description: |-
+        We are investigating a power issue affecting part of our ATL1 datacenter. Redundant power systems are keeping servers online, and we have not observed any server outages.
+
+        However, available power capacity is reduced, which may cause degraded performance for some GPU workloads, particularly during periods of high utilization.
+
+        Our datacenter and infrastructure teams are working to restore full power redundancy. We will provide an update as more information becomes available. We apologize for the inconvenience and appreciate your patience.
+      investigating: true
+    - ts: "2026-09-09 11:32:30"
+      description: |-
+        The power issue affecting part of our ATL1 datacenter has been fully resolved. Power redundancy has been restored, and any potential customer impact has been mitigated.
+
+        We will continue monitoring the environment to ensure continued stability.
