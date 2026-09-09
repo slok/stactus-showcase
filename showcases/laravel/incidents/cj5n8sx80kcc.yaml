@@ -1,0 +1,20 @@
+version: incident/v1
+id: cj5n8sx80kcc
+name: Notification emails not delivered
+impact: minor
+systems:
+    - k648vlw65tzw
+timeline:
+    - ts: "2026-09-09 03:00:40"
+      description: We are investigating an issue which may have caused email notifications to not be delivered
+      investigating: true
+    - ts: "2026-09-09 03:29:29"
+      description: Notification emails are now sending correctly. We are investigating the historic impact of this issue, and will continue to monitor the situation.
+    - ts: "2026-09-09 03:29:35"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-09-09 05:11:14"
+      description: |-
+        Over the last 48 hours an internal issue caused some notification emails to not be delivered correctly. This has now been rectified.
+
+        Other notification channels e.g. Slack, etc were unaffected.
+      resolved: true
