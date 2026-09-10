@@ -1,6 +1,6 @@
 version: incident/v1
 id: 2pt83vlkk7x7
-name: Degraded performance on the Claude API
+name: Elevated latency on the Claude API for some users
 impact: minor
 systems:
     - k8w3r06qmzrp
@@ -8,3 +8,6 @@ systems:
 timeline:
     - ts: "2026-09-10 21:43:40"
       description: We are experiencing slower than normal response times on the Claude API for some customers whose traffic enters through the US Midwest. Users may experience elevated latency and some request timeouts.
+    - ts: "2026-09-10 23:24:22"
+      description: The issue affecting Claude services has been mitigated.
+      resolved: true
