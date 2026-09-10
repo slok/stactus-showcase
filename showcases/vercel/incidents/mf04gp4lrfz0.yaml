@@ -1,0 +1,14 @@
+version: incident/v1
+id: mf04gp4lrfz0
+name: Elevated error rate on Connect and Passport
+impact: major
+systems: []
+timeline:
+    - ts: "2026-09-10 17:42:15"
+      description: We've identified an issue where some customers may experience increased errors from Connect and Passport. We are currently investigating this issue. We will provide additional updates as they become available.
+      investigating: true
+    - ts: "2026-09-10 18:13:20"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-09-10 19:16:06"
+      description: Connect and Passport have fully recovered. This incident has been resolved.
+      resolved: true

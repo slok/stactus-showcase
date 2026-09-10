@@ -1,0 +1,16 @@
+version: incident/v1
+id: 16ybxfmc0k5c
+name: Service degradation affecting Zoom Meeting summary, and Phone call summary in the US region.
+impact: none
+systems:
+    - 3z7b6jks10hm
+    - jh6w5p8b9yv9
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2026-09-10 18:22:50"
+      description: |-
+        On 09/08/2026, Between 17:57 UTC to 23:49 UTC, A subset of users may have experienced issues with Meeting Summary and Phone Call Summary.
+        This incident has been resolved and the affected services have been restored.
+    - ts: "2026-09-10 18:38:51"
+      description: This incident has been resolved.
+      resolved: true
