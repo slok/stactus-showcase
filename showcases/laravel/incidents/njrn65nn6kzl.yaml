@@ -1,0 +1,19 @@
+version: incident/v1
+id: njrn65nn6kzl
+name: Cloud dashboard slow to load
+impact: minor
+systems:
+    - k648vlw65tzw
+timeline:
+    - ts: "2026-09-10 14:50:57"
+      description: |-
+        We're investigating slow response times and intermittent timeouts in the Laravel Cloud dashboard.
+        Your running applications are not affected and continue to serve traffic normally.
+      investigating: true
+    - ts: "2026-09-10 15:14:05"
+      description: We've identified the cause and applied a mitigation. Response times in the Cloud dashboard are improving.
+    - ts: "2026-09-10 15:22:40"
+      description: The Cloud dashboard is responding normally again. We're continuing to monitor.
+    - ts: "2026-09-10 15:53:53"
+      description: The Cloud dashboard is responding normally again.
+      resolved: true

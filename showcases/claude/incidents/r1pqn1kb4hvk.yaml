@@ -1,0 +1,9 @@
+version: incident/v1
+id: r1pqn1kb4hvk
+name: Degraded functionality for Claude Cowork on Windows
+impact: minor
+systems:
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-09-10 15:54:10"
+      description: A Windows update released September 8 has caused Claude Cowork on Windows is unable to run local commands on your PC, because its workspace can no longer reach your computer’s drive. For most users, chat and reading or editing files still work. We have identified the cause as a change in Windows; Microsoft has developed a fix and is working on releasing it. There’s no in-app workaround yet, and restarting or reinstalling won’t help. We’ll post an update when we have more to share.

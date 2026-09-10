@@ -1,0 +1,21 @@
+version: incident/v1
+id: mccmbk9ldg23
+name: Service Degradation Affecting Zoom Phone, Zoom Contact Center and Zoom Meetings in Europe
+impact: none
+systems:
+    - 3z7b6jks10hm
+    - 773zkp1jzkgl
+    - kmldw5k76q3v
+    - ntdt65v1f9rv
+timeline:
+    - ts: "2026-09-10 15:53:26"
+      description: "On 09/10/2026, Between 14:58 UTC to 15:02 UTC, Subset of users may have experienced issues with Zoom Phone and Zoom Contact Center in Europe. \nThis incident has been resolved and the affected services have been restored."
+    - ts: "2026-09-10 15:57:16"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-09-10 16:06:05"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-09-10 16:29:01"
+      description: |-
+        The issue affecting Zoom Phone, Zoom Contact Center and Zoom Meetings has been resolved.
+
+        Our team will continue to monitor the situation closely with the Vendor and keep you informed of any further developments.

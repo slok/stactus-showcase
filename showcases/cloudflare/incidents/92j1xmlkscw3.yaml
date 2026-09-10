@@ -1,0 +1,15 @@
+version: incident/v1
+id: 92j1xmlkscw3
+name: Issues Editing Bulk Redirects
+impact: minor
+systems:
+    - 3sq3s4d20ywk
+timeline:
+    - ts: "2026-09-10 15:41:41"
+      description: Cloudflare is aware of and investigating an issue preventing users from adding new redirects to existing Bulk Redirects. Traffic processed by existing Bulk Redirects remains unaffected, and this issue is limited to the configuration of these rules. Further details will be provided as we investigate.
+      investigating: true
+    - ts: "2026-09-10 15:59:10"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-09-10 16:57:13"
+      description: This incident has been resolved.
+      resolved: true
