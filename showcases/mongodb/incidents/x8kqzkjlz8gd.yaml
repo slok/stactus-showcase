@@ -1,0 +1,16 @@
+version: incident/v1
+id: x8kqzkjlz8gd
+name: Atlas is experiencing issues with issuing certificates from Lets Encrypt
+impact: minor
+systems:
+    - 98lbmdz85yp0
+    - q57ng8brt2td
+timeline:
+    - ts: "2026-09-11 01:28:19"
+      description: We are currently investigating issues related to certificate issuing failures with Lets Encrypt. Free and Flex cluster provisioning may be delayed.
+      investigating: true
+    - ts: "2026-09-11 02:01:46"
+      description: Atlas is seeing elevated errors rates of certificate issuance due to a Let's Encrypt outage (https://letsencrypt.status.io/pages/incident/55957a99e800baa4470002da/6aa35c1d892d7304f2747e01). Free and flex tier cluster provisioning may be delayed.
+    - ts: "2026-09-11 03:51:19"
+      description: This incident has been resolved.
+      resolved: true
