@@ -1,0 +1,16 @@
+version: incident/v1
+id: 9mcdtk1lphgl
+name: Issues with Workers VPC hostname route resolution on 2026-09-11
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-11 10:24:35"
+      description: |-
+        An issue prevented Workers VPC from correctly resolving hostname routes for a small subset of accounts between 06:22 and 09:38 UTC on Friday, September 11th, 2026. This problem has been fully resolved, and all services are operating normally.
+
+        During this timeframe, affected accounts may have experienced connection failures, timeouts, or routing errors when Workers VPC attempted to fetch requests via hostname routes.
+
+        The issue was strictly limited to hostname route resolution within Workers VPC for the impacted accounts; direct IP-based and public routing, standard Workers executions, and all other services were not affected.
+
+        Our engineering team identified and deployed a fix for the root cause, and we are continuing to monitor service metrics to ensure stability. We sincerely apologize for any disruption this may have caused.
+      resolved: true

@@ -1,0 +1,13 @@
+version: incident/v1
+id: yx9nh7z8jzgw
+name: SMS Delivery Delays from Twilio to Multiple Networks in Multiple Countries Across Europe and Middle East & Africa
+impact: minor
+systems:
+    - llgdln3dcs6p
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-09-11 12:53:19"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Vodafone network subscribers in Egypt. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-11 13:34:18"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to network subscribers on multiple networks in multiple countries across Europe and the Middle East & Africa. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
