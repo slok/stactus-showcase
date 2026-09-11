@@ -1,0 +1,23 @@
+version: incident/v1
+id: 0vx51bx3b5cf
+name: TwiML Bins – Service Failures
+impact: minor
+systems:
+    - vyjjd8kdb7vq
+timeline:
+    - ts: "2026-09-11 13:39:45"
+      description: Beginning from 12:52 UTC and 13:54 UTC. Engineers began investigating issues regarding TwiML Bins. During this service disruption, customers may have experienced failures fetching TwiML for voice or messaging requests.
+      investigating: true
+    - ts: "2026-09-11 14:31:15"
+      description: A fix has been applied, and systems are recovering. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-11 14:32:49"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-09-11 14:49:40"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-09-11 14:53:43"
+      description: Our engineers are continuning to monitor systems for recovery. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-11 15:03:09"
+      description: Our engineer have applied the fix and we will provide an update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-09-11 15:42:46"
+      description: This incident has been resolved.
+      resolved: true

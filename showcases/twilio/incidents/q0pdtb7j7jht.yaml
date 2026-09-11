@@ -14,3 +14,10 @@ timeline:
     - ts: "2026-09-11 13:19:49"
       description: Twilio customers may be experiencing SMS delivery delays from Twilio to network subscribers on multiple networks in Ireland. Our team is actively investigating this issue. We will provide another update in 4 hours or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-09-11 14:54:56"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to network subscribers on multiple networks in Ireland. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-11 14:55:11"
+      description: We have observed a recovery in SMS delivery from Twilio to network subscribers on multiple networks in Ireland and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-11 14:55:31"
+      description: The incident has been resolved and SMS delivery from Twilio to affected networks in Ireland is operating normally.
+      resolved: true

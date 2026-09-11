@@ -1,0 +1,12 @@
+version: incident/v1
+id: 5sp34swnxkh0
+name: Media Proxy Latency High
+impact: minor
+systems:
+    - r3wq1zsx72bz
+timeline:
+    - ts: "2026-09-11 16:24:46"
+      description: We are currently investigating an issue involving high error-rates for image downloads.
+      investigating: true
+    - ts: "2026-09-11 16:27:41"
+      description: The issue has been identified and a fix is being implemented.
