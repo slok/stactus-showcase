@@ -1,0 +1,13 @@
+version: incident/v1
+id: 2njywrxj8qjf
+name: Network Performance Issues with Taiwan datacenter (TPE)
+impact: minor
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-09-11 19:35:42"
+      description: |-
+        Cloudflare is investigating issues with Network Performance in Taiwan datacenter (TPE)
+
+        We are working to analyze and mitigate this problem. More updates to follow shortly.
+      investigating: true

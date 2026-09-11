@@ -10,3 +10,12 @@ timeline:
       investigating: true
     - ts: "2026-09-11 14:34:20"
       description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-09-11 18:35:08"
+      description: We are continuing to work on a fix for this issue.
+    - ts: "2026-09-11 19:29:20"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-11 19:29:42"
+      description: We are continuing to monitor for any further issues.
+    - ts: "2026-09-11 19:40:15"
+      description: The root cause has been identified as an abnormality in a middleware service, which caused timeouts and related errors for some MakerWorld features. This incident affected users accessing MakerWorld through web browser. Access via Handy remained normal, and printing and other related services were not impacted.
+      resolved: true

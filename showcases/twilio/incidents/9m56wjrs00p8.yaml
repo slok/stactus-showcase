@@ -1,9 +1,15 @@
 version: incident/v1
 id: 9m56wjrs00p8
-name: Voice Insights Error
+name: Voice Insights Console Dashboard Error
 impact: minor
-systems: []
+systems:
+    - k4rgq3b8f3pw
 timeline:
     - ts: "2026-09-11 17:02:54"
-      description: Our engineers are currently investigating an issue regarding voice insights. We will provide more information as soon as possible.
+      description: Our engineers are currently investigating an issue regarding voice insights. Twilio customers affected are temporarily unable to access the Voice Insights Console Dashboard in IE1. There is no impact to Voice Insights Console Dashboard in the US1 and AU1 regions.
       investigating: true
+    - ts: "2026-09-11 17:34:02"
+      description: Our engineers have implemented a fix and are continuning to monitor systems for recovery. We will provide another update in 1 hour.
+    - ts: "2026-09-11 18:48:23"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,6 +1,6 @@
 version: incident/v1
 id: yx9nh7z8jzgw
-name: SMS Delivery Delays From Twilio to Multiple Networks in Multiple Countries Across Europe and Middle East & Africa
+name: SMS Delivery Delays from Twilio to Multiple Networks in Multiple Countries Across Europe and the Middle East
 impact: minor
 systems:
     - llgdln3dcs6p
@@ -17,3 +17,6 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays from Twilio to network subscribers on multiple networks in multiple countries across Europe and the Middle East & Africa. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
     - ts: "2026-09-11 16:55:29"
       description: We have observed a recovery in SMS delivery from Twilio to network subscribers on multiple networks in multiple countries across Europe and the Middle East & Africa and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-11 19:03:35"
+      description: The incident has been resolved and SMS delivery from Twilio to affected networks in multiple countries across Europe and the Middle East is operating normally.
+      resolved: true
