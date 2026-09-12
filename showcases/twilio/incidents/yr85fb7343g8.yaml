@@ -1,6 +1,6 @@
 version: incident/v1
 id: yr85fb7343g8
-name: Voice Call Failures from a Subset of Twilio Phone Numbers to Hong Kong
+name: Voice Call Failures From a Subset of Twilio Phone Numbers to Hong Kong
 impact: minor
 systems:
     - 50pr269zqrwj
@@ -10,3 +10,7 @@ timeline:
       investigating: true
     - ts: "2026-09-12 00:24:54"
       description: Twilio customers may be experiencing voice call failures from a subset of Twilio Phone Numbers to network subscribers in Hong Kong. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-12 01:25:08"
+      description: Twilio customers may be experiencing voice call failures from Twilio Phone Numbers to network subscribers in Hong Kong. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-12 03:25:26"
+      description: Twilio customers may be experiencing voice call failures from a subset of Twilio Phone Numbers to network subscribers in Hong Kong. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
