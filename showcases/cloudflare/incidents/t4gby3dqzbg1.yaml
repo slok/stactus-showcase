@@ -1,0 +1,12 @@
+version: incident/v1
+id: t4gby3dqzbg1
+name: Issues creating and updating Cloud Connector Rules
+impact: minor
+systems:
+    - 99thfnz1q9kr
+timeline:
+    - ts: "2026-09-12 08:06:38"
+      description: Cloudflare is investigating failures in updating and creating Cloud Connector Rules.  We are working to mitigate this problem. More updates to follow shortly.
+      investigating: true
+    - ts: "2026-09-12 08:11:00"
+      description: The issue has been identified and a fix is being implemented.
