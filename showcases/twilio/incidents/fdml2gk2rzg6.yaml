@@ -1,0 +1,14 @@
+version: incident/v1
+id: fdml2gk2rzg6
+name: Errors Impacting Real-Time Transcriptions, Conversation Relay, <Gather> Voice TwiML
+impact: minor
+systems:
+    - 361mb56zmf8z
+timeline:
+    - ts: "2026-09-12 21:25:01"
+      description: Our engineering team has observed an increase in error rates affecting our Real-Time Transcriptions, Conversation Relay, and <Gather> Voice TwiML products. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-12 21:27:21"
+      description: Our engineering team has observed an increase in error rates affecting our Real-Time Transcriptions, Conversation Relay, and <Gather> Voice TwiML products. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-12 22:12:20"
+      description: Our engineering team has observed an increase in error rates affecting our Real-Time Transcriptions, Conversation Relay, and <Gather> Voice TwiML products using the Deepgram model. Customers experiencing issues should use the Google model as a workaround. We will provide another update in 1 hour or as soon as more information becomes available.

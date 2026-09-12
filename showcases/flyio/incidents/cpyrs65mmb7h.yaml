@@ -1,0 +1,16 @@
+version: incident/v1
+id: cpyrs65mmb7h
+name: Network issues in US West Coast
+impact: minor
+systems:
+    - 4zqk2hwhfmvb
+    - 49qj4qjyzlzn
+timeline:
+    - ts: "2026-09-12 21:22:52"
+      description: We are investigating upstream network issues from US West Coast (SJC, LAX). Apps hosted in US West regions may experience higher latency or packet loss, and requests from clients physically located in US West may experience higher latency.
+      investigating: true
+    - ts: "2026-09-12 21:57:05"
+      description: Private networking between Fly Machines is resolved, and most outbound connections are healthy. We're continuing to monitor the network, and some issues will still be expected from clients physically located in US West until upstream transit issues are resolved.
+    - ts: "2026-09-12 22:12:29"
+      description: This incident has been resolved.
+      resolved: true
