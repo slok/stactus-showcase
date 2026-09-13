@@ -1,0 +1,29 @@
+version: incident/v1
+id: 0rn90wk115q9
+name: Incident with several GitHub Services
+impact: critical
+systems:
+    - brv1bkgrwx7q
+    - kr09ddfgbfsf
+    - hhtssxt0f5v2
+    - br0l2tvcx85d
+    - vg70hn9s2tyj
+timeline:
+    - ts: "2026-09-13 09:16:11"
+      description: We are investigating reports of degraded availability for API Requests, Issues, Pages and Pull Requests
+      investigating: true
+    - ts: "2026-09-13 09:25:56"
+      description: Actions is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-09-13 09:36:23"
+      description: We're seeing increased database replication delays on collab which is causing increased error rates in authorization endpoints and follow-on increased error rates across the system - we are investigating
+      investigating: true
+    - ts: "2026-09-13 10:26:55"
+      description: We have reduced load on this cluster with internal load-shedding and are seeing signs of recovery but continue to monitor
+      investigating: true
+    - ts: "2026-09-13 10:28:45"
+      description: Pull Requests is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-09-13 10:44:55"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
