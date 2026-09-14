@@ -1,0 +1,12 @@
+version: incident/v1
+id: jg705wgvd4bc
+name: CloudWatch request timeouts in prod-us-central-0
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-14 13:04:22"
+      description: |-
+        Some customers experienced timeouts affecting CloudWatch traffic in prod-us-central-0 for approximately one hour. Service has since been restored.
+
+        This incident did not affect all customers. We are publishing this update retrospectively and apologise for the disruption.
+      resolved: true

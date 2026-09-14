@@ -1,0 +1,9 @@
+version: incident/v1
+id: n1b3mc363979
+name: Failures Submitting Self-Serve Configuration Changes for Grafana Cloud Logs in AWS Sweden (prod-eu-north-0)
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-09-14 10:18:53"
+      description: Between approximately 23:00 UTC on September 12, 2026 and 09:12 UTC on September 14, 2026, some Grafana Cloud Logs customers in AWS Sweden (prod-eu-north-0) may have intermittently experienced errors when submitting configuration changes through the Cloud Portal. This has been resolved, and configuration change requests are being accepted normally.
+      resolved: true
