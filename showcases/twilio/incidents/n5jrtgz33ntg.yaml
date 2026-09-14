@@ -1,6 +1,6 @@
 version: incident/v1
 id: n5jrtgz33ntg
-name: Voice Call Failures from a Subset of Twilio United States Phone Numbers to Iraq
+name: Voice Call Failures from a Subset of Twilio United States Phone Numbers to Korek Iraq
 impact: minor
 systems:
     - 6ns22g89f6g9
@@ -13,3 +13,10 @@ timeline:
       investigating: true
     - ts: "2026-09-14 12:51:40"
       description: Twilio customers may be experiencing voice call failures from a subset of Twilio United States Phone Numbers to network subscribers in Iraq. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-14 15:22:36"
+      description: Twilio customers may be experiencing voice call failures from a subset of Twilio United States Phone Numbers to Korek Telecom network subscribers in Iraq. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-14 15:24:02"
+      description: We have observed a recovery in voice calls from a subset of Twilio United States Phone Numbers to Korek Telecom network subscribers in Iraq and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-14 17:27:01"
+      description: The incident has been resolved and voice calls from a subset of Twilio United States Phone Numbers to network subscribers in Iraq are operating normally.
+      resolved: true

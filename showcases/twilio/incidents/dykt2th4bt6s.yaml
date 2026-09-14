@@ -1,0 +1,14 @@
+version: incident/v1
+id: dykt2th4bt6s
+name: Voice Call Failures from a Subset of Twilio Phone Numbers to Argentina
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2026-09-14 16:00:22"
+      description: Twilio customers may be experiencing voice call failures from a subset of Twilio Phone Numbers to network subscribers in Argentina. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-14 16:12:10"
+      description: Twilio customers may be experiencing voice call failures from a subset of Twilio Phone Numbers to network subscribers in Argentina. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-14 17:13:03"
+      description: Twilio customers may be experiencing voice call failures from a subset of Twilio Phone Numbers to network subscribers in Argentina. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
