@@ -1,0 +1,11 @@
+version: incident/v1
+id: qwdwmtqghpk5
+name: Disruption with some GitHub services
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-09-15 09:47:15"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-09-15 09:48:04"
+      description: We are investigating degraded availability for Claude Fable 5.1, affecting some Copilot products and integrated development environments. The issue is caused by a problem with our upstream model provider. Customers can use another model or select Auto while we investigate.

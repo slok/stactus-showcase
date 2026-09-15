@@ -12,3 +12,6 @@ timeline:
       description: We have identified an issue with deploying via Depot for users connecting through our SYD and JNB regions. Affected customers in these regions can deploy successfully using the --depot=false or --buildkit arguments to flyctl.
     - ts: "2026-09-15 04:51:45"
       description: A fix has been implemented and we are monitoring builds. Standard flyctl builds should be working again for customers in all regions.
+    - ts: "2026-09-15 05:34:09"
+      description: This incident has been resolved.
+      resolved: true

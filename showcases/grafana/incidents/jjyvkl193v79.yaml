@@ -1,0 +1,9 @@
+version: incident/v1
+id: jjyvkl193v79
+name: Intermittent Metric Write Errors in GCP US Central (prod-us-central-0)
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-09-15 07:49:28"
+      description: Between 15:31 and 20:43 UTC on September 14, 2026 (approximately 5 hours 12 minutes), some customers in GCP US Central (prod-us-central-0) may have experienced intermittent errors or delays when writing metrics. This has been fully resolved and all services are operating normally.
+      resolved: true

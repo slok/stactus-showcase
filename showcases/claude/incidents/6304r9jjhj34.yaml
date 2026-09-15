@@ -1,0 +1,16 @@
+version: incident/v1
+id: 6304r9jjhj34
+name: Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1
+impact: major
+systems:
+    - rwppv331jlwc
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-09-15 09:48:23"
+      description: We are investigating elevated errors on requests to Claude Mythos 5.1 and Claude Fable 5.1. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-09-15 09:52:34"
+      description: We are investigating elevated errors on requests to Claude Mythos 5.1 and Claude Fable 5.1. We will provide an update as soon as possible.
+      investigating: true
