@@ -1,0 +1,12 @@
+version: incident/v1
+id: g4m0gcb6hq9f
+name: Service Degradation Affecting Zoom Whiteboard
+impact: none
+systems:
+    - gtf6dl08hrk1
+timeline:
+    - ts: "2026-09-15 18:22:01"
+      description: "On 09/15/2026, between 15:15 UTC to 15:38 UTC, users may have experienced Zoom whiteboard degradation in the US region.  The issue has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
+    - ts: "2026-09-15 18:36:33"
+      description: This incident has been resolved.
+      resolved: true

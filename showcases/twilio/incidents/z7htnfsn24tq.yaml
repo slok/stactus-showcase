@@ -1,6 +1,6 @@
 version: incident/v1
 id: z7htnfsn24tq
-name: Voice Call Failures between a Subset of Twilio Phone Numbers and Multiple Networks in Germany
+name: Voice Call Failures Between Twilio Germany Phone Numbers and Multiple Networks in Germany
 impact: minor
 systems:
     - bnzggd37p61w
@@ -16,3 +16,6 @@ timeline:
       investigating: true
     - ts: "2026-09-15 14:13:57"
       description: We have observed a recovery in voice calls between a subset of Twilio Phone Numbers and network subscribers on multiple networks in Germany and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-15 16:15:42"
+      description: The incident has been resolved and voice calls between Twilio Germany Phone Numbers and network subscribers on affected networks in Germany are operating normally.
+      resolved: true

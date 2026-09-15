@@ -1,0 +1,18 @@
+version: incident/v1
+id: mb7ppyycrmnp
+name: Video Room Settings Not Loading
+impact: minor
+systems:
+    - ys1jhy2ys04z
+timeline:
+    - ts: "2026-09-15 15:38:40"
+      description: We are currently investigating an issue where the Video Room Settings page is failing to load for users within the Console. Our engineering team is actively looking into the root cause. We will provide an update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-15 16:38:04"
+      description: We have identified the cause of the loading issue on the Video Room Settings page in Console and are currently working on deploying a fix. We'll provide an update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-15 16:40:18"
+      description: A fix has been deployed and we are currently monitoring the results. Users should now be able to load the Video Room Settings page in Console normally. We'll monitor this for 30 minutes.
+    - ts: "2026-09-15 17:06:25"
+      description: Users should now be able to load the Video Room Settings page in Console normally. Incident resolved.
+      resolved: true
