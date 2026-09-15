@@ -34,3 +34,10 @@ systems:
 timeline:
     - ts: "2026-09-15 10:00:19"
       description: Since September 9, 2026, some browser checks in Synthetic Monitoring may take longer to complete than usual, with impact varying by location. We have identified the cause and are actively working on a fix. Next update by 10:49 UTC.
+    - ts: "2026-09-15 10:51:30"
+      description: A fix has been merged and is now being rolled out across affected locations. We are monitoring deployment progress. Next update by 11:49 UTC.
+    - ts: "2026-09-15 10:58:36"
+      description: A fix has been deployed and CPU throttling is returning to normal. Check execution times should return to baseline shortly. We will continue monitoring recovery. Next update by 11:56 UTC.
+    - ts: "2026-09-15 11:17:10"
+      description: Between September 9 and September 15, 2026, some browser checks in Synthetic Monitoring experienced longer than usual execution times, with impact varying by location. This has been resolved and check execution times have returned to baseline. Thank you for your patience.
+      resolved: true

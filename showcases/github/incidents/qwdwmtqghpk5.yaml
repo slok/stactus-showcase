@@ -2,10 +2,26 @@ version: incident/v1
 id: qwdwmtqghpk5
 name: Disruption with some GitHub services
 impact: minor
-systems: []
+systems:
+    - cnnb39dkkk82
 timeline:
     - ts: "2026-09-15 09:47:15"
       description: We are investigating reports of impacted performance for some GitHub services.
       investigating: true
     - ts: "2026-09-15 09:48:04"
       description: We are investigating degraded availability for Claude Fable 5.1, affecting some Copilot products and integrated development environments. The issue is caused by a problem with our upstream model provider. Customers can use another model or select Auto while we investigate.
+    - ts: "2026-09-15 10:20:13"
+      description: Copilot AI Model Providers is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
+    - ts: "2026-09-15 10:32:25"
+      description: We continue to investigate intermittent errors affecting Claude Fable 5.1 in some Copilot products and integrated development environments. Customers can use another model or select Auto while we monitor the situation.
+      investigating: true
+    - ts: "2026-09-15 11:09:33"
+      description: We continue to monitor intermittent errors affecting Claude Fable 5.1 in some Copilot products and integrated development environments. Customer-facing metrics have recovered, and we are awaiting confirmation from our upstream provider that the issue will not recur. Customers can select another model or Auto in the meantime.
+      investigating: true
+    - ts: "2026-09-15 11:17:13"
+      description: The issues with our upstream model provider have been resolved, and Claude Fable 5.1 is once again available in Copilot products and IDE surfaces.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.
+      investigating: true
+    - ts: "2026-09-15 11:17:22"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
