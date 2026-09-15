@@ -37,3 +37,49 @@ timeline:
     - ts: "2026-08-25 19:04:33"
       description: "Our Engineering team has confirmed all services remain stable and we will now resolve this incident. Further details on root cause and mitigation will be provided in a postmortem via this status page for users interested in learning more. \n\nThank you for your patience throughout this incident. If you continue to experience any issues, please reach out to Support from within your account"
       resolved: true
+    - ts: "2026-09-15 18:44:45"
+      description: |-
+        ## 1. What happened
+
+        Between 16:56 UTC and 23:09 UTC on August 24, 2026, customers using DigitalOcean’s Cloud Control Panel, Public API, and dependent product management systems experienced elevated request error rates, peaking at 25%, in two distinct windows totaling 3.5 hours of active degradation within a 6-hour span. Running Droplets, network routing, and block storage \(Volumes\) remained fully functional and unaffected throughout the event. No customer data loss occurred.
+
+        The event was initiated during a planned infrastructure migration of the database layer supporting identity, authentication, and authorization services. The migration introduced increased execution latency for a critical authorization query. In response to the elevated query latency, multiple upstream services initiated automated hedged retries. This secondary request amplification led to queue buildup in excess of the authentication service pool's processing throughput, resulting in cascading request timeouts across the authorization path.
+
+        To mitigate the initial degradation, engineering teams rerouted authorization traffic onto a single healthy processing path and temporarily disabled hedging for primary callers, successfully restoring service availability. However, upon returning traffic to the standard multipath routing configuration, lingering query latency combined with retry behavior from unhedged callers caused recurrent queue saturation, leading to the second window of degradation.
+
+        ## 2. Impact
+
+        * Active customer accounts \(<2%\) experienced one or more API or Control Panel request failures during the event windows.
+        * Aggregate failure rates across both impact windows averaged approximately 10% of authenticated requests, with a peak error rate of 25% during the second window.
+        * Affected management control planes included the Cloud Control Panel, Public API, Kubernetes cluster authentication, Container Registry, and Serverless / AI Inference endpoints.
+        * Data plane components—including active Droplets, network routing, and block storage volumes—maintained 100% availability, as established connections do not depend on the affected authorization control path. There was zero data loss.
+
+        ## 3. Current state
+
+        All impacted control plane services have been restored to nominal operational capacity. The database infrastructure migration has been completed. Remediation controls have been validated to ensure system stability against similar query latency scenarios.
+
+        ## 4. Preventing recurrence
+
+        To prevent future occurrences and enhance systemic resilience, DigitalOcean has implemented the following technical enhancements:
+
+        1. Automated Request Throttling and Circuit Breaking:
+
+        Deployed automated circuit breakers across upstream services to detect downstream dependency degradation and automatically suppress hedged/retry amplification. Completed a broad architecture audit to ensure retry suppression and circuit breaking are uniformly enforced across all control plane services.
+
+        1. Queue Management and Load Shedding:
+
+        Implemented fast-fail load-shedding mechanisms to prevent request queue saturation during dependency slowness, accompanied by proactive telemetry alerts to identify queue backing prior to customer impact.
+
+        1. Graceful Service Degradation:
+
+        Configured critical authorization components to operate in degraded execution modes utilizing asynchronous, eventually-consistent data replicas during primary database latency events.
+
+        ## 5. Timeline
+
+        | **Time UTC** | **Event** |
+        | --- | --- |
+        | 16:56 | A specific authorization query began running significantly slower than its historical baseline. |
+        | 16:58 | Automated monitoring detected abnormal error rates and latency; detected within 5 minutes of impact starting. |
+        | 17:05–18:52 | Operators tuned retry configuration and consolidated requests to a healthy service instance \(first unavailability window closed\). |
+        | 21:30 | Shifting traffic back to the production pattern caused the same saturation problem \(second unavailability window begins\). |
+        | 21:30–23:09 | Teams disabled the retry/amplification behavior across the remaining affected services and added additional read capacity for the slow query. Service was restored to a stable state. |

@@ -1,0 +1,11 @@
+version: incident/v1
+id: ct3yzydxq076
+name: Inbound SIP Calls With OPUS Codec Only Blocked
+impact: none
+systems:
+    - w7nxj548smhd
+timeline:
+    - ts: "2026-09-15 20:09:02"
+      description: We have identified an issue with some calls made to Twilio using Programmable Voice SIP interfaces and OPUS codec may unexpectedly be rejected. Customers would see a SIP 488 responses for those requests. Our engineering team is working on a fix. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-15 21:54:58"
+      description: Our engineers have implemented a fix and are monitoring system performance. We will provide another update in 2 hours or as soon as more information becomes available.
