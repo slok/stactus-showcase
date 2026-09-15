@@ -1,0 +1,12 @@
+version: incident/v1
+id: rnmq02lhv5w1
+name: Load Balancing Analytics and Notification Delays
+impact: minor
+systems:
+    - 8sn2w5kyxfnp
+timeline:
+    - ts: "2026-09-14 23:03:54"
+      description: Cloudflare is investigating delays affecting analytics and notifications for Load Balancing health monitoring events. Load Balancing steering remains fully operational and is not impacted. We are working to resolve the issue.
+      investigating: true
+    - ts: "2026-09-15 00:37:08"
+      description: Load Balancing health events analytics and notifications are now up to date. Events and notifications between 22:02 and 22:45 UTC were skipped.

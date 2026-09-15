@@ -1,0 +1,12 @@
+version: incident/v1
+id: 19g1m7tsvncw
+name: Some Replicate models are failing to start
+impact: minor
+systems:
+    - fvgfcmy66tdr
+timeline:
+    - ts: "2026-09-14 22:25:50"
+      description: We are investigating an issue which is preventing Replicate models from failing to start new replicas.
+      investigating: true
+    - ts: "2026-09-15 00:03:02"
+      description: Some third party models as well as https://replicate.com/qwen/qwen-edit-multiangle are affected and are unable to scale out. Please use alternate models while we work with providers to publish fixed versions.
