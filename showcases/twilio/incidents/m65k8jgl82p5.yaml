@@ -1,0 +1,20 @@
+version: incident/v1
+id: m65k8jgl82p5
+name: Missing Data in Voice Insights / Console Subaccount Rollup
+impact: minor
+systems:
+    - yf5px6tdl6yt
+timeline:
+    - ts: "2026-09-15 03:51:19"
+      description: Our monitoring systems have detected a potential issue with missing data in voice insights. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-09-15 04:01:28"
+      description: |-
+        We are currently investigating an issue where the Subaccount rollup view in the Voice Insights Console is missing data.
+        Customers may experience incomplete metrics or empty dashboards when viewing aggregated subaccount data.
+        Our engineering team is actively looking into the root cause, and we will provide our next update by next 1 hour.
+      investigating: true
+    - ts: "2026-09-15 04:13:18"
+      description: Our engineering team has identified the root cause of the issue where the Subaccount rollup view in the Voice Insights Console is missing data. Customers may continue to experience incomplete metrics or empty dashboards when viewing aggregated subaccount data while we work toward a resolution. We are actively implementing a fix and will provide our next update within the next 1 hour.
+    - ts: "2026-09-15 05:13:09"
+      description: The Subaccount rollup view in the Voice Insights Console is now displaying new aggregated subaccount data as expected. Our engineering team is actively working on backfilling the historical data that was missing during the incident. An update on the progress of the data backfill will be provided within 2 hours.

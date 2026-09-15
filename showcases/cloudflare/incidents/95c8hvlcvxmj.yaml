@@ -1,0 +1,9 @@
+version: incident/v1
+id: 95c8hvlcvxmj
+name: Increased 5xx errors and latency for Los Angeles (LAX) Sept 14 22:15 - Sept 14 23:10 UTC
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-15 00:52:14"
+      description: We’re receiving reports of network related issues/congestion in Los Angeles between Sept 14 22:15 - Sept 14 23:10 UTC. This issue is now resolved.
+      resolved: true
