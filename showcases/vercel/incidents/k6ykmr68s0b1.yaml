@@ -1,0 +1,12 @@
+version: incident/v1
+id: k6ykmr68s0b1
+name: Invoice Generation Paused
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-16 23:15:40"
+      description: |-
+        We've temporarily paused invoice generation. Invoices may arrive later than usual. Product availability and usage are unaffected, and no further action is required.
+
+        We're working on an update to re-enable invoice generation and we'll provide another update when invoicing resumes.
+      resolved: true
