@@ -1,0 +1,18 @@
+version: incident/v1
+id: zlyf7lvpp05s
+name: Support Helpdesk Availability Issues
+impact: minor
+systems:
+    - jzcwkvrc4w4q
+timeline:
+    - ts: "2026-09-16 08:31:12"
+      description: Our helpdesk provider is currently experiencing issues, and as such customers might encounter errors while submitting or viewing tickets. Responses on customer inquiries may be delayed during this time.
+      investigating: true
+    - ts: "2026-09-16 08:32:48"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-09-16 09:11:29"
+      description: |-
+        Support portal and live chat support are still unavailable due to the ongoing helpdesk provider outage. Customers may still experience issues submitting or viewing tickets/chats, and overall response times may be delayed.
+
+        Phone support remains fully operational for urgent inquiries.

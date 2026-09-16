@@ -1,0 +1,13 @@
+version: incident/v1
+id: d4kgs6xmq9tl
+name: Email Notifications Delayed
+impact: minor
+systems:
+    - 5xvn0m7tthlf
+timeline:
+    - ts: "2026-09-16 08:33:30"
+      description: Cloudflare is investigating delays with dispatching of notification emails for some customers. Webhooks and PagerDuty notifications are not affected.
+      investigating: true
+    - ts: "2026-09-16 08:50:45"
+      description: This incident has been resolved.
+      resolved: true

@@ -1,0 +1,15 @@
+version: incident/v1
+id: grb2v0td1nq5
+name: Support Portal Service Disruption
+impact: minor
+systems:
+    - hklgsphcrjq4
+timeline:
+    - ts: "2026-09-16 09:48:19"
+      description: |-
+        Our Support Portal is currently experiencing issues due to a third-party service disruption impacting our systems. During this time, customers may be unable to access the Support Portal or create new support tickets for their concerns. Existing support requests may also experience delayed responses from our Support team.
+
+        As a workaround if you're unable to access the Support Portal or need to create a new support ticket, please submit your request via Support Contact form: https://www.digitalocean.com/company/contact/support.
+
+        We apologize for the inconvenience and appreciate your patience while we work to resolve the issue. We'll provide another update as soon as we have more information.
+      investigating: true

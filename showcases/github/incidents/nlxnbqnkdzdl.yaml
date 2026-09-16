@@ -1,0 +1,13 @@
+version: incident/v1
+id: nlxnbqnkdzdl
+name: Degradation with Gemini 3.8 Flash
+impact: major
+systems:
+    - cnnb39dkkk82
+timeline:
+    - ts: "2026-09-16 07:21:00"
+      description: We are investigating reports of degraded availability for Copilot AI Model Providers
+      investigating: true
+    - ts: "2026-09-16 08:28:57"
+      description: Copilot AI Model Providers is experiencing degraded performance. We are continuing to investigate.
+      investigating: true
