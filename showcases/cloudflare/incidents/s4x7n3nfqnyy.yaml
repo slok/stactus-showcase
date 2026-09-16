@@ -12,3 +12,6 @@ timeline:
       description: We are investigating an issue where messages published to some queues are not being delivered to their consumers, resulting in delivery delays. Publishing to queues is unaffected, and messages are being received and safely retained — no messages are being lost. We have identified the root cause and are actively working on a fix. Affected messages will be delivered automatically once the issue is resolved.
     - ts: "2026-09-15 15:14:25"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-15 22:31:10"
+      description: This incident has been resolved.
+      resolved: true

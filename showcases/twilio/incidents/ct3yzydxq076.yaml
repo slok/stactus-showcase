@@ -9,3 +9,6 @@ timeline:
       description: We have identified an issue with some calls made to Twilio using Programmable Voice SIP interfaces and OPUS codec may unexpectedly be rejected. Customers would see a SIP 488 responses for those requests. Our engineering team is working on a fix. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-09-15 21:54:58"
       description: Our engineers have implemented a fix and are monitoring system performance. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-15 23:00:25"
+      description: Our engineers have monitored the fix and confirmed the issue with Twilio Programmable Voice SIP interfaces and OPUS code has been resolved. All services are now operating normally at this time.
+      resolved: true
