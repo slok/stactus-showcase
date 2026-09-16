@@ -1,0 +1,17 @@
+version: incident/v1
+id: 9tgkg3ww89kf
+name: Issues with 1.1.1.1 public resolver on .tn queries
+impact: minor
+systems:
+    - 8w536gxk7dvq
+timeline:
+    - ts: "2026-09-16 15:08:18"
+      description: |-
+        Cloudflare is investigating an issue that potentially impacts users resolving queries for .tn TLD domains via the 1.1.1.1 public resolver.
+        Further detail will be provided as more information becomes available.
+      investigating: true
+    - ts: "2026-09-16 15:23:16"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-09-16 18:19:43"
+      description: This incident has been resolved.
+      resolved: true

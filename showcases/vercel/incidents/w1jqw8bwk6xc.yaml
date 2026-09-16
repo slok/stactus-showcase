@@ -1,0 +1,12 @@
+version: incident/v1
+id: w1jqw8bwk6xc
+name: Missing Web Analytics and Speed Insights data
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-09-16 16:58:36"
+      description: |-
+        Between 14:00 UTC and 15:40 UTC, Web Analytics and Speed Insights were degraded, resulting in some missing data in the dashboard during the affected time period.
+
+        We identified the issue and landed a fix, and Web Analytics and Speed Insights have recovered. No additional actions are required.
+      resolved: true

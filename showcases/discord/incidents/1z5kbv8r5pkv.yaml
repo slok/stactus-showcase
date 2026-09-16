@@ -1,0 +1,17 @@
+version: incident/v1
+id: 1z5kbv8r5pkv
+name: Google Pay Outage
+impact: major
+systems: []
+timeline:
+    - ts: "2026-09-16 16:15:33"
+      description: |-
+        We're currently experiencing an issue that prevents users from completing purchases (including Nitro subscriptions and Shop items) through the Android app. This is caused by an ongoing outage with Google Play.
+
+        Purchases on other platforms (iOS, web, and desktop) are unaffected, and existing subscriptions remain active.
+
+        We're monitoring Google's status and will post an update as soon as service is restored. No action is needed on your part — please try again later.
+        https://pay.google.com/status/incidents/gQJsjf662F7KwPyiNqav
+    - ts: "2026-09-16 16:43:18"
+      description: This incident has been resolved.
+      resolved: true

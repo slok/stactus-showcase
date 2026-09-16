@@ -6,8 +6,18 @@ systems:
     - kb8k7qml7npt
 timeline:
     - ts: "2026-09-16 09:06:55"
-      description: "MongoDB customers are currently experiencing degraded or limited access to the MongoDB Customer Support Portal (https://support.mongodb.com/).\n\nIf you require assistance with a critical MongoDB Technical Support issue and are unable to access the Customer Support Portal, please contact us using one of the numbers listed below:\n\nNorth America: \nNew York: +1 646 201 9247\nEMEA: \nLondon, UK: +44 808 281 2632\nBarcelona, Spain: +(34) 931227636 \nMilan, Italy: +(39) 0294756824\nFrankfurt, Germany: +(49) 6977044487\nParis, France: +(33) 1 77513208\nSouth Africa: +27 87 550 8991\nTurkey: +(90) 850 390 7547\nIsrael:  +972 (0)3 376 8802\n\nAPAC: \nAustralia: +61 2 4022 8861\nIndia: 000-800-100-7387 (for calls originating in India only, please include initial '000' when dialing)\nJapan: +(81)5031989417\nChina: +86-400-120-9258\nHong Kong: +852 3008 3632\nTaiwan: 0-2-2656 3464 (for calls originating in Taiwan only, please include initial '0' when dialing) \nSingapore:  +65 8003211470 (for calls originating in Singapore only)\n\nWe appreciate your patience."
+      description: |-
+        MongoDB customers are currently experiencing degraded or limited access to the MongoDB Customer Support Portal (https://support.mongodb.com/).
+
+        If you require assistance with a critical MongoDB Technical Support issue and are unable to access the Customer Support Portal, please contact us using one of the numbers listed below:
+
+        [These numbers have been removed. Active MongoDB customers can access them at the support portal.]
+
+        We appreciate your patience.
       investigating: true
     - ts: "2026-09-16 09:09:18"
       description: We are continuing to investigate this issue.
       investigating: true
+    - ts: "2026-09-16 15:31:51"
+      description: "The MongoDB Support Portal experienced service degradation issues between approximately 2026-09-16 09:00 UTC and 2026-09-16 15:15 UTC.  These platform issues have been resolved.\n\nWe apologize for the service interruption and greatly appreciate your patience. \n\nRegards, \nThe MongoDB Team"
+      resolved: true
