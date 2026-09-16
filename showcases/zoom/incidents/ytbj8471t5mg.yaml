@@ -1,0 +1,22 @@
+version: incident/v1
+id: ytbj8471t5mg
+name: Service Degradation Affecting Zoom Phone Outbound Calls in China Region
+impact: minor
+systems:
+    - ck8c8cm0yhrd
+timeline:
+    - ts: "2026-09-16 04:00:15"
+      description: |-
+        We are currently investigating a service degradation affecting Zoom Phone outbound calls for users with phone numbers that have the +8621 prefix in China. Inbound calls not impacted.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-09-16 04:15:30"
+      description: "We have successfully identified the root cause affecting Zoom Phone outbound calls for users with phone numbers that have the +8621 prefix in China. Inbound calls not impacted.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience."
+    - ts: "2026-09-16 04:29:50"
+      description: "The issue affecting Zoom Phone outbound calls has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."
+    - ts: "2026-09-16 04:35:49"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true

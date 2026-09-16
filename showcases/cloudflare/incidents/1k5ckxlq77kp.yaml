@@ -1,0 +1,9 @@
+version: incident/v1
+id: 1k5ckxlq77kp
+name: Network Performance Issues in Ashburn
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-16 01:09:29"
+      description: Between 20:55-21:52 UTC on 2026-09-15, Cloudflare experienced an elevated rate of 5xx HTTP errors affecting traffic passing through Ashburn (IAD). The issue has been  resolved, and impact to the IAD location is mitigated.
+      resolved: true
