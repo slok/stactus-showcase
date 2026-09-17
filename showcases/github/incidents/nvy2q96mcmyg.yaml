@@ -1,0 +1,10 @@
+version: incident/v1
+id: nvy2q96mcmyg
+name: Elevated rate of errors for OpenAI models provided by Copilot
+impact: minor
+systems:
+    - cnnb39dkkk82
+timeline:
+    - ts: "2026-09-17 20:59:02"
+      description: We are investigating reports of degraded performance for Copilot AI Model Providers
+      investigating: true

@@ -1,0 +1,15 @@
+version: incident/v1
+id: rhmpng7klcqw
+name: Network Performance Issues in Ashburn, VA, United States
+impact: minor
+systems:
+    - 3t0npclljyyg
+timeline:
+    - ts: "2026-09-17 18:29:43"
+      description: Cloudflare identified an issue affecting network performance in Ashburn, VA, United States. A fix has been implemented, and we are monitoring the results.
+      investigating: true
+    - ts: "2026-09-17 18:32:36"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-17 19:58:13"
+      description: This incident has been resolved.
+      resolved: true

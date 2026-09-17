@@ -1,0 +1,9 @@
+version: incident/v1
+id: k4crxsx8xk36
+name: Hyperdrive Elevated Origin Connection Failure Rates
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-17 20:06:00"
+      description: "Some Hyperdrives experienced elevated failure rates when connecting to origin databases between 2026-09-16 22:45 UTC and 2026-09-17 00:45 UTC due to a misconfigured release. Hyperdrives connecting through Workers VPC or Cloudflare Access tunnels were not affected. \n\nThis incident has been resolved."
+      resolved: true
