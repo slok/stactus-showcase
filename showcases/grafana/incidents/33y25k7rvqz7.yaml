@@ -1,0 +1,9 @@
+version: incident/v1
+id: 33y25k7rvqz7
+name: Elevated Latency Managing Cloud Provider Integrations in GCP US Central
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-09-17 12:34:43"
+      description: Between 03:30 UTC on September 14, 2026 and 10:50 UTC on September 17, 2026 (approximately 3 days), customers managing cloud provider integrations in GCP US Central may have experienced elevated latency when creating, viewing, or removing integrations. This has been fully resolved and all services are operating normally.
+      resolved: true
