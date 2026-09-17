@@ -1,0 +1,12 @@
+version: incident/v1
+id: ttqhd2v8dq3p
+name: Failures delivering Logs to Drains
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-17 08:20:17"
+      description: |-
+        Between September 16, 2026 11:06 UTC and September 17, 2026 07:11 UTC, some customers experienced failed drain deliveries.
+
+        An update caused larger payloads to exceed a 5 MB delivery-size limit at some Drain destinations. We have implemented a fix that splits larger payloads into smaller payloads before delivery. Affected Drains data could not be redelivered.
+      resolved: true
