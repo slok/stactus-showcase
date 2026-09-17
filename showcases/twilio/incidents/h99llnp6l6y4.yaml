@@ -1,0 +1,10 @@
+version: incident/v1
+id: h99llnp6l6y4
+name: 503 Errors When Calling Comms-API
+impact: none
+systems:
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2026-09-17 15:57:22"
+      description: Starting on 2026-09-16 ~19:00 UTC customers were experiencing 503 errors while calling comms-api messages endpoints. 128 requests took 1 minute and eventually got failed by the timeout. After 19:30 there were no 503 errors observed anymore but the root cause of the issue is unclear.
+      resolved: true
