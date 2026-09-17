@@ -1,0 +1,9 @@
+version: incident/v1
+id: 823rbdm2k25x
+name: Replicate Pruna issue
+impact: minor
+systems:
+    - fvgfcmy66tdr
+timeline:
+    - ts: "2026-09-17 01:09:40"
+      description: Some Pruna models may not be able to scale up and are therefore either experiencing long queue times or entirely unavailable. We are working with Pruna to resolve the issue.
