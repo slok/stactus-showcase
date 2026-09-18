@@ -1,6 +1,6 @@
 version: incident/v1
 id: z6d582w9kh93
-name: SMS Delivery Failures from Twilio Long Codes to Orange and Tigo Congo D.R
+name: SMS Delivery Failures from a Subset of Twilio Long Codes to Orange and Tigo Democratic Republic of the Congo
 impact: minor
 systems:
     - 9z5gsqyjs4rl
@@ -18,3 +18,6 @@ timeline:
       description: We have observed a recovery in SMS delivery from a subset of Twilio Long Codes to Orange and Tigo network subscribers in Democratic Republic of the Congo and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-09-18 00:37:53"
       description: We have observed a recovery in SMS delivery from Twilio Long Codes to Orange and Tigo network subscribers in the Congo and are monitoring service stability. We will provide another update in 4 hours or as soon as more information becomes available.
+    - ts: "2026-09-18 04:39:14"
+      description: The incident has been resolved and SMS delivery from a subset of Twilio Long Codes to Orange and Tigo network subscribers in the Democratic Republic of the Congo is operating normally.
+      resolved: true

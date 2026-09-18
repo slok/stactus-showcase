@@ -1,0 +1,18 @@
+version: incident/v1
+id: 8803swmhkfk0
+name: User Authentication Identity Gateway API Failure Increase to Rogers Network in Canada
+impact: minor
+systems:
+    - fsxs9n9yf4m7
+    - q0hp6vfr4vvh
+    - qt4vzyg2g7b4
+timeline:
+    - ts: "2026-09-18 01:45:02"
+      description: Twilio customers may be experiencing User Authentication Identity gateway API failure increase in Canada. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-18 02:27:31"
+      description: Twilio customers may be experiencing User Authentication Identity Gateway API failure increase to Rogers network in Canada. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-18 03:28:24"
+      description: Twilio customers may be experiencing User Authentication Identity gateway API failure increase to Rogers network in Canada. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-18 05:36:49"
+      description: We have observed a recovery in User Authentication Identity Gateway API failure increase to Rogers network in Canada and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
