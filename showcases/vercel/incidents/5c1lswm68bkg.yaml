@@ -1,0 +1,10 @@
+version: incident/v1
+id: 5c1lswm68bkg
+name: Deployment stuck in initializing state
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-09-18 21:36:09"
+      description: We are currently investigating an issue causing an elevated rate of deployments getting stuck in an initializing state. We will provide additional updates as they become available.
+      investigating: true

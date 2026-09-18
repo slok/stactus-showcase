@@ -1,0 +1,19 @@
+version: incident/v1
+id: 4wyqzcy4d7m6
+name: Delays with Phone Number Registration to A2P 10DLC
+impact: minor
+systems:
+    - gk7b1lwzf93x
+    - pv5w18vrltfl
+timeline:
+    - ts: "2026-09-18 19:21:19"
+      description: Our monitoring systems have detected a potential issue with delays with phone number provisioning. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-09-18 19:31:46"
+      description: We are aware of an issue affecting phone number registration to A2P 10DLC campaigns. At this time customers may experience delays in adding, deleting, or updating number registration to A2P 10DLC campaigns. Our team is actively investigating and we will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-18 20:01:44"
+      description: We are investigating an issue affecting phone number registration to A2P 10DLC campaigns. At this time customers may experience delays in adding, deleting, or updating number registration to A2P 10DLC campaigns. We recommend customers to not move North American phone numbers between Messaging Services. A remove or an add of a phone number would distrust the traffic on that number. This does not impact North American Toll Free numbers. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-18 21:01:40"
+      description: Our engineers have identified the issue impacting phone number registration to A2P 10DLC campaigns, and are working with our carrier partners to deploy a fix. At this time customers may experience delays in adding, deleting, or updating number registration to A2P 10DLC campaigns. We recommend customers to not move North American phone numbers between Messaging Services. A remove or an add of a phone number would distrust the traffic on that number. This does not impact North American Toll Free numbers. We will provide another update in 1 hour or as soon as more information becomes available.
