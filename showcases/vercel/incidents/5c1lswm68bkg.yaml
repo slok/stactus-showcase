@@ -8,3 +8,8 @@ timeline:
     - ts: "2026-09-18 21:36:09"
       description: We are currently investigating an issue causing an elevated rate of deployments getting stuck in an initializing state. We will provide additional updates as they become available.
       investigating: true
+    - ts: "2026-09-18 22:14:37"
+      description: We have identified an issue causing deployments to get stuck in an initialized state, applied a fix, and are seeing signs of recovery for new deployments. We are continuing to monitor.
+    - ts: "2026-09-18 22:31:22"
+      description: This incident has been resolved.
+      resolved: true

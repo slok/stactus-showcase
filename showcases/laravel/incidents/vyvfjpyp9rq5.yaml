@@ -1,0 +1,20 @@
+version: incident/v1
+id: vyvfjpyp9rq5
+name: Cloud Control Panel unavailable
+impact: major
+systems:
+    - k648vlw65tzw
+timeline:
+    - ts: "2026-09-18 22:54:35"
+      description: We're aware the Cloud dashboard is currently unavailable for some users. Your running apps and servers are unaffected.
+      investigating: true
+    - ts: "2026-09-18 22:57:10"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-09-18 23:04:32"
+      description: We've identified the issue.
+    - ts: "2026-09-18 23:19:14"
+      description: The dashboard is loading normally again and we're monitoring to confirm it's stable.
+    - ts: "2026-09-18 23:35:09"
+      description: The dashboard is fully back up. Your running apps were unaffected throughout. We apologize for the disruption.
+      resolved: true
