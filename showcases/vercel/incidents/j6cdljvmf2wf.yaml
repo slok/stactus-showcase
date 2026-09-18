@@ -1,0 +1,9 @@
+version: incident/v1
+id: j6cdljvmf2wf
+name: Elevated Vercel KMS and Connect Errors
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-18 15:14:45"
+      description: Customers using Vercel KMS, Connect, Passport, or the Snowflake V0 Integration may have experienced elevated errors. We have resolved the incident and are continuing to monitor.
+      resolved: true
