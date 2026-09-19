@@ -1,0 +1,10 @@
+version: incident/v1
+id: 3rjsfq4q663b
+name: Elevated errors in Ashburn, VA (IAD)
+impact: none
+systems:
+    - 4n0gb0kh02gf
+timeline:
+    - ts: "2026-09-19 01:36:49"
+      description: Between 22:00 and 01:00 UTC on September 18, 2026, customers reaching Cloudflare's Ashburn, VA (IAD) data center may have experienced an elevated number of errors, including 499 and 522 responses, due to a network hardware issue. The issue has been resolved.
+      resolved: true

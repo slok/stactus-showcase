@@ -21,3 +21,6 @@ timeline:
       description: Our engineers have identified the issue impacting phone number registration to A2P 10DLC campaigns, and we have deployed a fix. At this time we are seeing recovery, but customers may still experience delays in adding, deleting, or updating number registration to A2P 10DLC campaigns. We recommend customers to not move North American phone numbers between Messaging Services. A remove or an add of a phone number would distrust the traffic on that number. This does not impact North American Toll Free numbers. We will provide another update in 2 hours or as soon as more information becomes available.
     - ts: "2026-09-18 23:00:49"
       description: Phone number registration to A2P 10DLC campaigns is now operating normally. We will continue to monitor for system stability. We'll provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-19 00:00:27"
+      description: The delays have been resolved and phone number registration to A2P 10DLC campaigns is operating normally at this time.
+      resolved: true
