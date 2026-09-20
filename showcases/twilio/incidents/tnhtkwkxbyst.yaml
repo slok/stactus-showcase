@@ -1,6 +1,6 @@
 version: incident/v1
 id: tnhtkwkxbyst
-name: SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric Sender IDs and Long Codes to Tigo Democratic Republic of the Congo
+name: SMS Delivery Delays and Failures from a Subset of Twilio Alphanumeric and Long Codes to Tigo and Orange Democratic Republic of the Congo
 impact: minor
 systems:
     - 9z5gsqyjs4rl
@@ -22,3 +22,5 @@ timeline:
       description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Alphanumeric Sender IDs and Long Codes to Tigo network subscribers in the Democratic Republic of the Congo. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
     - ts: "2026-09-20 02:41:25"
       description: Twilio customers may be experiencing SMS delivery delays and failures from a subset of Twilio Alphanumeric Sender IDs and Long Codes to Tigo network subscribers in the Democratic Republic of the Congo. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+    - ts: "2026-09-20 15:23:05"
+      description: We have observed a recovery in SMS delivery from a subset of Twilio Alphanumeric and Long Codes to Tigo and Orange network subscribers in Democratic Republic of the Congo and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
