@@ -1,0 +1,13 @@
+version: incident/v1
+id: fsrqsbtpkp06
+name: Delayed events triggered by emails
+impact: minor
+systems:
+    - nypxbf5kxblr
+timeline:
+    - ts: "2026-09-20 05:17:14"
+      description: We are investigating increased latency processing Events coming from inbound emails. As a result of this issue, some users may see delays or gaps in the event stream or for event queries on dashboards and for events based workflows such as on-call notifications
+      investigating: true
+    - ts: "2026-09-20 06:53:02"
+      description: The issue is now resolved. All events from emails are being timely processed and we went through the backfill.
+      resolved: true
