@@ -1,0 +1,15 @@
+version: incident/v1
+id: lb5514cvngd7
+name: Unable to register certain domains
+impact: minor
+systems:
+    - kn2xkt469vyh
+timeline:
+    - ts: "2026-09-21 09:37:56"
+      description: |-
+        Cloudflare is aware of an issue affecting the registration of the following top-level domains (TLDs):
+
+        "audio", "baby", "build", "cam", "ceo", "christmas", "college", "dealer", "diet", "fans", "flowers", "fm", "game", "guitars", "help", "hosting", "icu", "inc", "lol", "mom", "monster", "pics", "protection", "rent", "security", "storage", "theatre", "xyz"
+    - ts: "2026-09-21 09:49:13"
+      description: This incident has been resolved.
+      resolved: true
