@@ -1,0 +1,22 @@
+version: incident/v1
+id: yhlks5wxh1xv
+name: API Errors Affecting Multiple Services
+impact: none
+systems:
+    - 7c6yv3vctfqv
+    - ys1jhy2ys04z
+    - whldrk77jnm4
+    - qf1ppcsw1jvh
+    - vxjqr22fbl36
+    - d1j2nx64rpq3
+    - yvvy3vlp4djf
+    - pv5w18vrltfl
+    - 2vs63pk0qq23
+    - 6cn0g627h62p
+timeline:
+    - ts: "2026-09-21 14:45:48"
+      description: Our monitoring systems have detected a potential issue with Programmable Message API Errors. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-09-21 15:09:15"
+      description: "Starting on 09/21/26 14:27 UTC Twilio customers experienced API errors affecting multiple services. Affected Components: \nPhone Numbers\nAccount Management\nAuthy > Verify\nProgrammable Messaging > SMS\nProgrammable Messaging > Messaging Services\nProgrammable Messaging > MMS\nProgrammable Messaging > Conversations\nProgrammable Video > Group Rooms\nServerless > Studio\nServerless > Sync\nFlex > TaskRouter.  The issue was resolved on 09/21/26 14:28 UTC"
+      resolved: true
