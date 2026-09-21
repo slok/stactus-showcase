@@ -1,0 +1,9 @@
+version: incident/v1
+id: mrqb4d6q0y26
+name: Increased Cache Failures
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-21 18:15:16"
+      description: Cloudflare investigated an elevated rate of PUT request failures to R2 within the WNAM and ENAM regions. As a result, storing assets in Cache Reserve failed for some requests. This impact was from 15:25 - 18:00 UTC.
+      resolved: true

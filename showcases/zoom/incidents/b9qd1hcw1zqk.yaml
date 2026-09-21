@@ -1,0 +1,15 @@
+version: incident/v1
+id: b9qd1hcw1zqk
+name: Service Degradation Affecting Apple Login for Zoom Sign-in.
+impact: minor
+systems:
+    - 3z7b6jks10hm
+timeline:
+    - ts: "2026-09-21 18:17:47"
+      description: |-
+        We are currently investigating a service degradation affecting a subset of users with Apple Login for Zoom Sign-in.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true

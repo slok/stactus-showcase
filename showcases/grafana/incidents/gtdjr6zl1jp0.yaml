@@ -1,0 +1,9 @@
+version: incident/v1
+id: gtdjr6zl1jp0
+name: Mimir write request errors
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-21 19:16:18"
+      description: There was an impact of increased 5xx on writes with metrics. The error rates have returned back to normal, and our team is continuing to investigate the cause.
+      resolved: true

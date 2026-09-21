@@ -1,6 +1,6 @@
 version: incident/v1
 id: szjrlr56008q
-name: Voice Call Failures from Multiple Networks to a Subset of Twilio Israel Phone Numbers
+name: Voice Call Failures from Network Subscribers to a Subset of Twilio Israel Phone Numbers
 impact: minor
 systems:
     - 6ns22g89f6g9
@@ -13,4 +13,7 @@ timeline:
       investigating: true
     - ts: "2026-09-21 12:52:39"
       description: Twilio customers may be experiencing voice call failures from network subscribers to a subset of Twilio Israel Phone Numbers. Our team is actively investigating this issue. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-21 16:53:20"
+      description: Twilio customers may be experiencing voice call failures from network subscribers to a subset of Twilio Israel Phone Numbers. Our team is actively investigating this issue. We will provide another update in 8 hours or as soon as more information becomes available.
       investigating: true

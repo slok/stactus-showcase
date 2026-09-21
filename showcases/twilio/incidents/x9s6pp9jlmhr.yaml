@@ -1,0 +1,10 @@
+version: incident/v1
+id: x9s6pp9jlmhr
+name: Verify Voice Traffic Failures to Japan
+impact: none
+systems:
+    - mwcz6hw53t7c
+timeline:
+    - ts: "2026-09-21 17:25:50"
+      description: On September 20th, Starting 15:30 UTC, Twilio customers may have experienced issues where Voice Verifications to Japan failed. This issue was resolved 9/20 17:52 UTC.
+      resolved: true
