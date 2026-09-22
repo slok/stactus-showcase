@@ -1,0 +1,15 @@
+version: incident/v1
+id: 39w9n3xqzsx0
+name: Messaging Webhook Delays in US1
+impact: minor
+systems:
+    - m5b6twz4h52d
+timeline:
+    - ts: "2026-09-22 19:23:02"
+      description: We are investigating an issue with Messaging webhooks. Users may experience delays of up to 10 minutes receiving message status webhooks. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-22 19:33:55"
+      description: We have resolved the issue causing delayed Messaging webhooks for message status updates. Delivery status callbacks are processing as expected. We are continuing to monitor.
+    - ts: "2026-09-22 20:14:45"
+      description: Messaging webhooks have returned to normal processing times in US1.
+      resolved: true

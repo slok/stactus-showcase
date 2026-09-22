@@ -1,0 +1,9 @@
+version: incident/v1
+id: f93df70676p9
+name: Phone Number APIs and Console Were Returning Incorrect 404 Responses
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-22 19:23:20"
+      description: 'Due to an incorrect configuration, customers experienced a burst of invalid 404 Not Found response when communicating with Phone Number APIs: AvailablePhoneNumbers and IncomingPhoneNumbers. They might have also experienced degraded console behavior relating to Phone Number operations.'
+      resolved: true

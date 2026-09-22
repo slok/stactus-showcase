@@ -1,0 +1,10 @@
+version: incident/v1
+id: tl0vrgjy99r0
+name: Cloudflare One Clients are incorrectly challenged on some sites
+impact: minor
+systems:
+    - k04jkcpzxn94
+timeline:
+    - ts: "2026-09-22 19:23:17"
+      description: Cloudflare is investigating an issue where Cloudflare One Client customers are incorrectly challenged while visiting some websites.
+      investigating: true
