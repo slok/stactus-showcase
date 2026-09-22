@@ -1,0 +1,14 @@
+version: incident/v1
+id: vc8dbf0jf1ds
+name: IRM Access Issues for a Small Group of Users
+impact: major
+systems:
+    - 1mxpk7q1bkb6
+timeline:
+    - ts: "2026-09-22 14:57:11"
+      description: We are currently investigating an issue that may cause a small group of users to experience unexpected IRM access issues, or undelivered pages. Most users should not be affected.
+      investigating: true
+    - ts: "2026-09-22 15:55:06"
+      description: The issue has been identified, and we are working on a fix.
+    - ts: "2026-09-22 17:19:10"
+      description: A fix is currently being rolled out and will be deployed progressively over the next few hours. We appreciate your patience as this reaches all affected customers.

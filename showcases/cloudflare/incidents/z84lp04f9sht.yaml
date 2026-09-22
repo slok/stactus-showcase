@@ -1,0 +1,9 @@
+version: incident/v1
+id: z84lp04f9sht
+name: Connectivity issues in Los Angeles (LAX)
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-09-22 15:22:24"
+      description: We investigated and resolved reports of connectivity issues in Los Angeles. Traffic congestion between in our Los Angeles (LAX) colo, which resulted in intermittent packet drops between 13:37 UTC and 14:49 UTC today. The capacity constraint has been addressed and traffic flow has returned to normal.
+      resolved: true

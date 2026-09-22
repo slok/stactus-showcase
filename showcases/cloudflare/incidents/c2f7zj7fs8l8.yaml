@@ -1,0 +1,13 @@
+version: incident/v1
+id: c2f7zj7fs8l8
+name: Bot Management Configuration Propagation Issues
+impact: minor
+systems:
+    - s0991jwsqllx
+timeline:
+    - ts: "2026-09-22 15:31:39"
+      description: We are currently investigating an issue where Bot Management configuration updates are not propagating to the edge. Our engineering team is aware of the issue and is actively working on a resolution. The running Bot Configuration at the Edge is not impacted. We will provide further updates as soon as we have more information.
+      investigating: true
+    - ts: "2026-09-22 16:35:19"
+      description: We have identified and applied an effective fix for this issue. This incident is now resolved.
+      resolved: true

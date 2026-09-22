@@ -1,0 +1,15 @@
+version: incident/v1
+id: pvvq3811tpyq
+name: Elevated error rates for Stream Live LL-HLS
+impact: minor
+systems:
+    - 47xg28c02lnk
+timeline:
+    - ts: "2026-09-22 14:37:45"
+      description: We are investigating an issue where some Stream Live customers are receiving errors when playing back live broadcasts with LL-HLS enabled.
+      investigating: true
+    - ts: "2026-09-22 14:44:18"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-22 15:38:50"
+      description: This incident has been resolved.
+      resolved: true
