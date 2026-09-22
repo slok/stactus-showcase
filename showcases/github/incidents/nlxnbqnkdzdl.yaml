@@ -17,5 +17,5 @@ timeline:
     - ts: "2026-09-16 11:45:34"
       description: The degradation affecting Copilot AI Model Providers has been mitigated. We are monitoring to ensure stability.
     - ts: "2026-09-16 17:48:49"
-      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      description: On September 16, 2026, between 04:40 and 11:45 UTC, the Gemini 3.8 Flash model in GitHub Copilot experienced degraded availability. Requests to this model failed at an average rate of 6.4%, and the impact was highest during peak traffic hours. Other Copilot models were not affected. Users could continue to work with a different model or with 'Auto'.<br /><br />The degradation was caused due to a capacity issue with an upstream model provider. Failure rates returned to normal as the daily traffic peak passed. We monitored the model until it was healthy and resolved the incident at 17:48 UTC. We are working to make our systems resilient to cover peak demand for all the Copilot models.
       resolved: true

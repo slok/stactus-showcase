@@ -1,0 +1,12 @@
+version: incident/v1
+id: 854yt9ds2bf6
+name: Test Incident - Public Status Page -ImpactIQ
+impact: major
+systems: []
+timeline:
+    - ts: "2026-09-22 08:55:00"
+      description: Test message - after fix
+      investigating: true
+    - ts: "2026-09-22 08:55:53"
+      description: Test message -resolved
+      resolved: true

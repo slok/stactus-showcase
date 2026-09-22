@@ -1,0 +1,11 @@
+version: incident/v1
+id: dcmwvjwfyhjg
+name: Partial visibility of Workers and Durable Objects analytics for Fedramp High customers
+impact: minor
+systems:
+    - 4c231tkdlpcl
+timeline:
+    - ts: "2026-09-22 09:36:11"
+      description: Cloudflare is monitoring the restoration of Workers and Durable Objects analytics visibility for all Fedramp High customers. While the underlying data remains intact, affected datasets were not being correctly returned by our analytics dashboard and GraphQL API since June 11th. Services are currently recovering as we propagate the fix.
+    - ts: "2026-09-22 10:08:10"
+      description: A fix has been implemented and we are monitoring the results.

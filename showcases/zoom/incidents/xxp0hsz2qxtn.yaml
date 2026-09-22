@@ -1,0 +1,15 @@
+version: incident/v1
+id: xxp0hsz2qxtn
+name: Service degradation affecting comment and attachment features in Zoom Canvas in US region.
+impact: none
+systems:
+    - 576m25cw4prj
+timeline:
+    - ts: "2026-09-22 10:19:04"
+      description: |-
+        On 09/22/2026, Between 09:31 UTC to 09:55 UTC, Users may have experienced issues with comment and attachment features in Zoom Canvas.
+
+        This incident has been resolved and the affected services have been restored.
+    - ts: "2026-09-22 10:32:10"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
