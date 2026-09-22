@@ -1,0 +1,19 @@
+version: incident/v1
+id: 9xvq4cwyz31m
+name: Flex UI Realtime Statistics Showing Inaccurate Longest Waiting Task Data
+impact: minor
+systems:
+    - lv1md8v28lhr
+timeline:
+    - ts: "2026-09-22 20:44:07"
+      description: We are investigating an issue where a subset of Flex customers may see inaccurate real-time statistics data in the Flex UI. Specifically, the “longest waiting task” metric may display inflated values. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-22 21:38:26"
+      description: We are still investigating an issue where a subset of Flex customers may see inaccurate real-time statistics data in the Flex UI. Specifically, the “longest waiting task” metric may display inflated values. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-22 21:39:14"
+      description: We are still investigating an issue where a subset of Flex customers may see inaccurate real-time statistics data in the Flex UI. Specifically, the “longest waiting task” metric may display inflated values. Our engineers are working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-22 21:39:48"
+      description: We are aware of inaccurate data being returned from Flex Queue Stats page, particularly for longest waiting task metrics. Our team has identified the cause and is actively working to fix the data discrepancy. If you are continuing to experience this issue, please contact support with your account SID and queue ID to expedite resolution. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-22 22:39:50"
+      description: Our team has identified the cause and has fixed the data discrepancy.  If you are continuing to experience this issue, please contact support with your account SID and queue ID to expedite resolution. We will provide another update in 2 hours or as soon as more information becomes available.
