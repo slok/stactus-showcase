@@ -1,0 +1,16 @@
+version: incident/v1
+id: kz26pxy9qsds
+name: SMS Delivery Delays from Twilio to Izzi Mexico
+impact: minor
+systems:
+    - 42zx9w2kmtvf
+timeline:
+    - ts: "2026-09-22 04:20:13"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Izzi network subscribers in Mexico. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-22 04:39:05"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Izzi network subscribers in Mexico. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-22 05:39:26"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Izzi network subscribers in Mexico. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-22 06:06:49"
+      description: We have observed a recovery in SMS delivery from Twilio to Izzi network subscribers in Mexico and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
