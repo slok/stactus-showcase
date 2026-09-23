@@ -7,3 +7,6 @@ systems:
 timeline:
     - ts: "2026-09-23 15:54:28"
       description: "We have identified an issue causing unexpected errors when creating or updating configurations using any or all expressions in the http_response_cache_settings. \nThis issue strictly affects API operations; existing active configurations and live traffic are not impacted. A fix is currently being deployed, and we will provide an update once the rollout is complete."
+    - ts: "2026-09-23 18:08:18"
+      description: This incident has been resolved.
+      resolved: true
