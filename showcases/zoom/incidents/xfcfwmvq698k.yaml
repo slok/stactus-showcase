@@ -1,0 +1,15 @@
+version: incident/v1
+id: xfcfwmvq698k
+name: Service Degradation Affecting Zoom Tasks in US Region.
+impact: none
+systems:
+    - 40fjc1kq1jcb
+timeline:
+    - ts: "2026-09-23 01:55:36"
+      description: |-
+        On 09/23/2026, Between 00:42 UTC- 01:22 UTC,  users may have experienced issues with Zoom Tasks in US Region. We have mitigated the issue and we will continue to monitor the situation closely and keep you informed of any further developments.
+
+        Thank you for your patience.
+    - ts: "2026-09-23 02:16:38"
+      description: This incident has been resolved and the affected services have been restored.
+      resolved: true
