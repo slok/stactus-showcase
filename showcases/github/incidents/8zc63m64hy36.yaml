@@ -1,6 +1,6 @@
 version: incident/v1
 id: 8zc63m64hy36
-name: Incident with API Requests and Projects
+name: Incident across several services
 impact: minor
 systems:
     - brv1bkgrwx7q
@@ -19,4 +19,10 @@ timeline:
       investigating: true
     - ts: "2026-09-23 11:38:30"
       description: We are seeing recovery for Projects. Users may experience stale search results for Projects while indexing catches up.
+      investigating: true
+    - ts: "2026-09-23 13:35:44"
+      description: Users may experience stale Project search results. We are working to increase indexing speed. All other services are available.
+      investigating: true
+    - ts: "2026-09-23 17:01:27"
+      description: Updates to issue labels may be delayed in being reflected in Projects by about ~10 minutes. We have added some capacity to work through the backlog more quickly, but it'll likely be a few hours to complete processing the full backlog of messages. All other services are available.
       investigating: true

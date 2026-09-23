@@ -1,0 +1,17 @@
+version: incident/v1
+id: 9855z4sdljbr
+name: Upstash unavailability in FRA region
+impact: major
+systems:
+    - 1d32j80lw7xs
+timeline:
+    - ts: "2026-09-23 12:42:21"
+      description: |-
+        We are investigating an issue affecting Upstash services in the fra region. Customers may experience connection failures or service unavailability.
+        We are working with Upstash to identify the cause and restore service. We’ll provide an update as soon as we have more information.
+      investigating: true
+    - ts: "2026-09-23 13:08:18"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-23 14:03:56"
+      description: This incident has been resolved.
+      resolved: true

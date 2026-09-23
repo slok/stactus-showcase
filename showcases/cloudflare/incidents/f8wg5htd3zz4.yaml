@@ -1,0 +1,9 @@
+version: incident/v1
+id: f8wg5htd3zz4
+name: Elevated Errors with any / all in http_response_cache_settings
+impact: minor
+systems:
+    - ch3mwx0hr4k6
+timeline:
+    - ts: "2026-09-23 15:54:28"
+      description: "We have identified an issue causing unexpected errors when creating or updating configurations using any or all expressions in the http_response_cache_settings. \nThis issue strictly affects API operations; existing active configurations and live traffic are not impacted. A fix is currently being deployed, and we will provide an update once the rollout is complete."

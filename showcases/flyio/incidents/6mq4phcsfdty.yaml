@@ -1,0 +1,15 @@
+version: incident/v1
+id: 6mq4phcsfdty
+name: Elevated private networking errors
+impact: major
+systems:
+    - 15knchzwl5np
+timeline:
+    - ts: "2026-09-23 14:47:37"
+      description: We are investigating elevated errors with private networking between machines in some regions.
+      investigating: true
+    - ts: "2026-09-23 14:56:06"
+      description: A fix has been implemented are we are monitoring to ensure recovery.
+    - ts: "2026-09-23 15:23:19"
+      description: This incident has been resolved.
+      resolved: true
