@@ -1,0 +1,17 @@
+version: incident/v1
+id: 78c19w4xw4z2
+name: Increased Errors for Durable Objects
+impact: minor
+systems:
+    - bty1yz6dhh0v
+timeline:
+    - ts: "2026-09-23 08:09:23"
+      description: Cloudflare is aware of, and investigating an issue with Durable Objects which potentially impacts a subset of customers. Durable Objects are experiencing an elevated level of errors. We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-09-23 08:35:32"
+      description: The issue has been identified and a fix is being implemented.
+    - ts: "2026-09-23 09:20:17"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-23 10:00:09"
+      description: This incident has been resolved.
+      resolved: true

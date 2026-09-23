@@ -1,0 +1,22 @@
+version: incident/v1
+id: 8zc63m64hy36
+name: Incident with API Requests and Projects
+impact: minor
+systems:
+    - brv1bkgrwx7q
+timeline:
+    - ts: "2026-09-23 10:11:12"
+      description: We are investigating reports of degraded performance for API Requests
+      investigating: true
+    - ts: "2026-09-23 10:20:06"
+      description: Database replicas have detached. We're working to restore the database replicas. Users may experience issues beyond creating organizations and a degraded experience with the GitHub API and Projects.
+      investigating: true
+    - ts: "2026-09-23 10:57:57"
+      description: Database replicas have been restored. Org creation and the GitHub API are no longer degraded.
+      investigating: true
+    - ts: "2026-09-23 10:58:27"
+      description: The degradation affecting API Requests has been mitigated. We are monitoring to ensure stability.
+      investigating: true
+    - ts: "2026-09-23 11:38:30"
+      description: We are seeing recovery for Projects. Users may experience stale search results for Projects while indexing catches up.
+      investigating: true
