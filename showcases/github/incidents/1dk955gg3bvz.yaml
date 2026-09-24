@@ -1,0 +1,12 @@
+version: incident/v1
+id: 1dk955gg3bvz
+name: Disruption with billing information updates
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-09-24 16:51:32"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-09-24 16:51:48"
+      description: We are investigating failures on billing information updates. Customers may be unable to create or update their billing information in the meantime.
+      investigating: true

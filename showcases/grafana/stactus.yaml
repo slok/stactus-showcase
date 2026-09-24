@@ -979,17 +979,25 @@ systems:
       description: The API gateway that allows programmatic access to managing configuration of rules and Alertmanager configuration.
     - id: 9xz0880z67zl
       name: 'Traces / GCP US Central - prod-us-central-0: Querying'
+    - id: q88twf02jwxz
+      name: 'Synthetic Monitoring / AWS US East - prod-us-east-2: API'
     - id: x2sf2zvf07cy
       name: 'Alerting and SLO / GCP US Central - prod-us-central-0: Alertmanager'
       description: Prometheus-based Alertmanager responsible for reception of alerts and notification delivery.
     - id: t7pbglh025rz
       name: 'Traces / GCP US Central - prod-us-central-0: Ingestion'
+    - id: nqnp5qhjq5fq
+      name: 'Synthetic Monitoring / AWS US East - prod-us-east-2: Public Probes'
     - id: p1qsknnnbdqn
       name: 'Traces / GCP US Central - prod-us-central-0: Metrics Generator'
     - id: lv9z30y5w7lm
       name: Alerting and SLO / Federal Cloud - AWS US Gov West
+    - id: 81l67dt1v07b
+      name: 'Synthetic Monitoring / AWS EU West - prod-eu-west-4: API'
     - id: 6prz8xx323ym
       name: 'Traces / AWS US East - prod-us-east-2: Querying'
+    - id: zm5nv8zjlgz2
+      name: 'Synthetic Monitoring / AWS EU West - prod-eu-west-4: Public Probes'
     - id: bgpplfx1cz4r
       name: 'Traces / AWS US East - prod-us-east-2: Ingestion'
     - id: cmzwpyr8bqq1

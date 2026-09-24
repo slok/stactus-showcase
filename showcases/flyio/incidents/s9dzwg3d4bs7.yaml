@@ -1,0 +1,12 @@
+version: incident/v1
+id: s9dzwg3d4bs7
+name: State database issues in GRU
+impact: major
+systems:
+    - 5cmbhyzyb3lr
+timeline:
+    - ts: "2026-09-24 16:31:23"
+      description: We are investigating issues in GRU related to a migration of our distributed state database. Apps continue to run, but creating or updating machines in GRU region may fail. Connections to apps in GRU, or connections from clients near GRU region, may fail at this time
+      investigating: true
+    - ts: "2026-09-24 16:58:02"
+      description: We have identified a bug and are working on a fix.

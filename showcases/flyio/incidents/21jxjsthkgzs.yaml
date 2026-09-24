@@ -1,0 +1,15 @@
+version: incident/v1
+id: 21jxjsthkgzs
+name: Private Networking issues (6PN)
+impact: major
+systems:
+    - 15knchzwl5np
+timeline:
+    - ts: "2026-09-24 14:51:49"
+      description: We are currently investigating this issue.
+      investigating: true
+    - ts: "2026-09-24 15:01:35"
+      description: A fix has been implemented and we are seeing private networking error rates return to normal. We are continuing to monitor to ensure full recovery.
+    - ts: "2026-09-24 15:37:54"
+      description: This incident has been resolved
+      resolved: true

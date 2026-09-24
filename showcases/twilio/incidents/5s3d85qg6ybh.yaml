@@ -1,0 +1,9 @@
+version: incident/v1
+id: 5s3d85qg6ybh
+name: Link Branding Creation Fails with HTTP 500 Internal Server Error (Auto SSL Enabled)
+impact: minor
+systems:
+    - bdnyxg9w62zm
+timeline:
+    - ts: "2026-09-24 16:22:58"
+      description: Starting at approximately 8:40am Pacific time on Sept 24th, our engineers have identified an issue causing HTTP 5xx errors during Link Branding creation with Auto SSL enabled and are working to deploy a fix. We expect to provide another update in 2 hours or as soon as more information becomes available.

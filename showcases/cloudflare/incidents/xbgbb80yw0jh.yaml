@@ -1,0 +1,12 @@
+version: incident/v1
+id: xbgbb80yw0jh
+name: Cloudflare Access updates delayed
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-09-24 15:20:39"
+      description: Cloudflare engineering is investigating an issue causing a delay in configuration updates. This includes applications and policy updates. Authentication and policy enforcement are not impacted.
+      investigating: true
+    - ts: "2026-09-24 15:31:57"
+      description: We have applied a fix and are actively monitoring.
