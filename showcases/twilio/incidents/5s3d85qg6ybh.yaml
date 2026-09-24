@@ -7,3 +7,8 @@ systems:
 timeline:
     - ts: "2026-09-24 16:22:58"
       description: Starting at approximately 8:40am Pacific time on Sept 24th, our engineers have identified an issue causing HTTP 5xx errors during Link Branding creation with Auto SSL enabled and are working to deploy a fix. We expect to provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-24 18:02:53"
+      description: Our engineers have implemented a fix and are monitoring system performance. Link Branding creation with Auto SSL selected has recovered and functionality has improved. We will provide another update in 30 minutes or as soon as more information becomes available.
+    - ts: "2026-09-24 18:26:30"
+      description: Our engineers have monitored the fix and confirmed the issue with Link Branding (Auto SSL Enabled) has been resolved. All services are now operating normally at this time.
+      resolved: true

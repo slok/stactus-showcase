@@ -10,3 +10,14 @@ timeline:
     - ts: "2026-09-24 16:51:48"
       description: We are investigating failures on billing information updates. Customers may be unable to create or update their billing information in the meantime.
       investigating: true
+    - ts: "2026-09-24 17:40:15"
+      description: We have identified the problem and are actively working on mitigation.
+      investigating: true
+    - ts: "2026-09-24 18:22:35"
+      description: We are continuing to work on mitigation. We will post another update in approximately one hour.
+      investigating: true
+    - ts: "2026-09-24 20:10:12"
+      description: We have applied the mitigation and are seeing signs of recovery. We are continuing to monitor the system closely.
+      investigating: true
+    - ts: "2026-09-24 20:24:57"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.

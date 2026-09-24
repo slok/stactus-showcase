@@ -1,0 +1,11 @@
+version: incident/v1
+id: dwfzz0bwhmsq
+name: Delays Starting Cloudflare Workers Builds
+impact: minor
+systems:
+    - vcpsk0w6g86k
+timeline:
+    - ts: "2026-09-24 17:33:57"
+      description: Customers may experience delays starting Cloudflare Workers builds.
+    - ts: "2026-09-24 19:54:48"
+      description: Queue levels & latency are returning to normal

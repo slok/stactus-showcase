@@ -1,0 +1,27 @@
+version: incident/v1
+id: n2wqxr0lr0rm
+name: Some Transfer Calls in Elastic SIP Trunking Failing With Error Code 32204
+impact: minor
+systems:
+    - f7f727f39kx3
+    - hq07c8303pt1
+    - zw99v7rdwjf6
+    - mn1wpm35k4s4
+    - 7543zz3gkd1w
+    - prh5xth8b524
+timeline:
+    - ts: "2026-09-24 17:19:40"
+      description: Our monitoring systems have detected a potential issue with Voice. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-09-24 17:36:02"
+      description: Transfer calls done via SIP REFER  in Elastic SIP Trunking is Failing With Error Code 32204, our engineers are actively working on this and will provide an update in 1 hour or as soon as more information is available.
+      investigating: true
+    - ts: "2026-09-24 17:38:11"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-09-24 17:56:00"
+      description: Transfer calls done via SIP REFER  in Elastic SIP Trunking are no longer Failing With Error Code 32204, we'll monitor for 30 minutes and will share more info if it becomes available.
+      investigating: true
+    - ts: "2026-09-24 18:02:44"
+      description: This incident has been resolved.
+      resolved: true

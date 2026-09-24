@@ -1,0 +1,14 @@
+version: incident/v1
+id: 6sqx2z3rqdy9
+name: SMS Delivery Receipt Delays from a Subset of Twilio Alphanumeric Sender IDs to Ooredoo Algeria
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-09-24 17:55:33"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Alphanumeric Sender IDs to Ooredoo network subscribers in Algeria. Our team is actively investigating this issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-24 18:09:12"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Alphanumeric Sender IDs to Ooredoo network subscribers in Algeria. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-24 19:15:02"
+      description: Twilio customers may be experiencing SMS delivery receipt delays from a subset of Twilio Alphanumeric Sender IDs to Ooredoo network subscribers in Algeria. Our team has identified the cause, and is working to resolve the issue. Message delivery may succeed, but delivery receipts may be delayed. We will provide another update in 2 hours or as soon as more information becomes available.

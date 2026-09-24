@@ -1,0 +1,11 @@
+version: incident/v1
+id: mltthh0jxxpz
+name: Browser isolation session data sync issues
+impact: minor
+systems:
+    - q0dfbn0p6hyt
+timeline:
+    - ts: "2026-09-24 17:26:03"
+      description: Cloudflare is investigating issues with Browser Isolation's session data sync. Customers that use Browser Isolation may observe errors on acquiring a browser stating that browser storage is unavailable, and they will need to sign into web apps again. They will continue to be able to use browsers during this time.
+    - ts: "2026-09-24 17:28:20"
+      description: A fix has been implemented and we are monitoring the results.
