@@ -1,0 +1,13 @@
+version: incident/v1
+id: 2x4qt2q2ds9x
+name: Intermittent 500 errors for backend services on Replicate
+impact: minor
+systems:
+    - fvgfcmy66tdr
+timeline:
+    - ts: "2026-09-24 20:40:47"
+      description: We have a backend component that entered an unexpected reboot, causing issues for services downstream.
+      investigating: true
+    - ts: "2026-09-24 22:34:56"
+      description: The impacted backend has been redeployed, and all related services should now be back up and running. There may be some increased latency as they continue to come online.
+      resolved: true

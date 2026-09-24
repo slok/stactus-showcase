@@ -1,0 +1,18 @@
+version: incident/v1
+id: hpwx3sl7kbz0
+name: Event Streams Service Disruption
+impact: minor
+systems:
+    - 7vctcn0bhhn2
+    - vp66l5zb77p5
+    - mn4033fd3lft
+    - r769mtd3rkhv
+timeline:
+    - ts: "2026-09-24 20:40:23"
+      description: We are investigating a service interruption with Event Streams. Customers may experience event data loss or delays in event delivery. Our team is actively investigating the scope of impact and data recovery options. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-24 20:44:12"
+      description: Our engineers are continuing to investigate the issue causing inconsistencies with Event Streams. We expect to provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-24 22:13:09"
+      description: Our engineers have identified the issue and are working on restoring delayed events. A subset of mail-send related events (such as Delivered, Deferred, Bounces, Spam Reports) for Email Activity, Marketing Campaigns, Group Unsubscribes, and Event Webhook are delayed for a specific time window (TBD). Email stats for new mail recieved after 12:15 PM PT is not impacted and no event data was lost. We will provide an update in 1 hour or as soon as more information becomes available.
