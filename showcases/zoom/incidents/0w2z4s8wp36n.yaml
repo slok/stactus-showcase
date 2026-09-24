@@ -1,0 +1,20 @@
+version: incident/v1
+id: 0w2z4s8wp36n
+name: Service Degradation Affecting Live Transcription Services.
+impact: minor
+systems:
+    - 8vtcg8np4n8c
+timeline:
+    - ts: "2026-09-23 23:43:00"
+      description: |-
+        We are currently investigating a service degradation with Live Transcription Services.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-09-24 00:32:02"
+      description: |-
+        We have identified the service degradation affecting Live Transcription Services.
+
+        Our team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.
