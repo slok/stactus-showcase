@@ -1,0 +1,13 @@
+version: incident/v1
+id: gwrzznc9f642
+name: Customers using BYOIP can have issues updating their BGP prefixes, including advertising or withdrawing prefixes.
+impact: minor
+systems:
+    - 4msl4k5wdcbv
+timeline:
+    - ts: "2026-09-24 10:22:34"
+      description: We are currently investigating an issue where customers with BYOIP addresses will be unable to update their BGP prefixes, including advertising or withdrawing prefixes.
+      investigating: true
+    - ts: "2026-09-24 10:25:52"
+      description: This incident has now been resolved - Customers with BYOIP addresses were unable to update their BGP prefixes, including advertising or withdrawing prefixes. Customers making changes to their address maps may also have experienced delays.
+      resolved: true

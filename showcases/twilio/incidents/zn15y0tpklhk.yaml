@@ -1,0 +1,10 @@
+version: incident/v1
+id: zn15y0tpklhk
+name: SMS Delivery Delays and Failures from Twilio to MTS Belarus
+impact: minor
+systems:
+    - llgdln3dcs6p
+timeline:
+    - ts: "2026-09-24 11:52:04"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to MTS network subscribers in Belarus. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
