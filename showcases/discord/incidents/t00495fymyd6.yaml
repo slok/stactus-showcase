@@ -1,0 +1,21 @@
+version: incident/v1
+id: t00495fymyd6
+name: Age group status mismatch across devices
+impact: major
+systems:
+    - 8r4xqnt9jslk
+timeline:
+    - ts: "2026-09-24 02:08:27"
+      description: We’re aware of an issue where users are seeing mismatched age group statuses across devices. For example, appearing as “unconfirmed” on an older mobile app version, but "adult" on web/desktop. We’re aware of the issue and actively working on a fix.
+      investigating: true
+    - ts: "2026-09-24 02:10:16"
+      description: We’re aware of an issue where users are seeing mismatched age group statuses across devices. For example, appearing as “unconfirmed” on an older mobile app version, but "adult" on web/desktop. We’re aware of the issue and actively working on a fix.
+    - ts: "2026-09-24 03:05:18"
+      description: |-
+        A fix has been implemented and we are monitoring results.
+        Please close and refresh your app to get the fix for adult status.
+    - ts: "2026-09-24 03:32:10"
+      description: |-
+        This incident has been resolved.
+        https://x.com/discord/status/2102964092189475028?s=20
+      resolved: true

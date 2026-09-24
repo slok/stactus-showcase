@@ -41,3 +41,14 @@ timeline:
     - ts: "2026-09-24 00:16:49"
       description: We've deployed a change intended to accelerate processing of the backlog of issue label updates in Projects. A sizable backlog still remains and we continue working through it. All other services are operating normally. We will provide another update within the next hour.
       investigating: true
+    - ts: "2026-09-24 02:00:37"
+      description: We are continuing to process the backlog of issue label updates for Projects. Users may still see delays before label changes are reflected in Projects. All other services are operating normally.
+      investigating: true
+    - ts: "2026-09-24 03:14:15"
+      description: We are continuing to process the backlog of issue label updates for Projects. Label changes may still be delayed. All other services are operating normally.
+      investigating: true
+    - ts: "2026-09-24 04:55:27"
+      description: The degradation has been mitigated. We are monitoring to ensure stability.
+    - ts: "2026-09-24 04:55:33"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true
