@@ -16,3 +16,7 @@ timeline:
       investigating: true
     - ts: "2026-09-24 22:13:09"
       description: Our engineers have identified the issue and are working on restoring delayed events. A subset of mail-send related events (such as Delivered, Deferred, Bounces, Spam Reports) for Email Activity, Marketing Campaigns, Group Unsubscribes, and Event Webhook are delayed for a specific time window (TBD). Email stats for new mail recieved after 12:15 PM PT is not impacted and no event data was lost. We will provide an update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-24 23:45:29"
+      description: Our team is continuing to work on restoring a small subset of events that are delayed from 12:12 PM PT and customers may see some duplicate events happened for a few minutes around 12:13 PM PT. We expect to provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-25 01:03:13"
+      description: Our team is continuing to work on restoring a small subset of events that are delayed from 12:12 PM PT and customers may see some duplicate events happened for a few minutes around 12:13 PM PT. We expect to provide another update in 1 hour or as soon as more information becomes available.
