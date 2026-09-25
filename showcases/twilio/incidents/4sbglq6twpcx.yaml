@@ -1,0 +1,13 @@
+version: incident/v1
+id: 4sbglq6twpcx
+name: Voice Call Post Dial Delay From a Subset of Twilio Phone Numbers to Brazil
+impact: minor
+systems:
+    - fbtv2g9t3z25
+timeline:
+    - ts: "2026-09-25 15:01:02"
+      description: Twilio customers may be experiencing voice call post dial delay from a subset of Twilio Phone Numbers to network subscribers in Brazil. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-25 16:07:24"
+      description: Twilio customers may be experiencing voice call post dial delay from a subset of Twilio Phone Numbers to network subscribers in Brazil. Our team is actively investigating this issue. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true

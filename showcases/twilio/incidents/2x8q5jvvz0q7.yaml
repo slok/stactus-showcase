@@ -1,0 +1,14 @@
+version: incident/v1
+id: 2x8q5jvvz0q7
+name: SMS Delivery Delays from Twilio to Etisalat United Arab Emirates
+impact: minor
+systems:
+    - 9z5gsqyjs4rl
+timeline:
+    - ts: "2026-09-25 15:27:37"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Etisalat network subscribers in the United Arab Emirates. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-25 15:35:09"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Etisalat network subscribers in the United Arab Emirates. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-25 16:35:34"
+      description: Twilio customers may be experiencing SMS delivery delays from Twilio to Etisalat network subscribers in the United Arab Emirates. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.

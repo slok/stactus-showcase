@@ -1,0 +1,20 @@
+version: incident/v1
+id: cqxdntdk4c7d
+name: Users are unable to acknowledge, escalate, or resolve On-Call Pages
+impact: minor
+systems:
+    - nypxbf5kxblr
+timeline:
+    - ts: "2026-09-25 15:11:50"
+      description: We are investigating an issue with users unable to acknowledge on call pages
+      investigating: true
+    - ts: "2026-09-25 15:17:33"
+      description: We are investigating an issue with users unable to acknowledge, escalate, or resolve On-Call Pages.
+      investigating: true
+    - ts: "2026-09-25 15:23:23"
+      description: We have identified the issue with pages and are applying mitigations.
+    - ts: "2026-09-25 15:29:27"
+      description: We are monitoring the issue.
+    - ts: "2026-09-25 15:38:57"
+      description: The issue is now resolved.
+      resolved: true
