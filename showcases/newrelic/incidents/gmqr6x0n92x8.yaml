@@ -1,0 +1,9 @@
+version: incident/v1
+id: gmqr6x0n92x8
+name: New Relic UI errors
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-25 03:56:00"
+      description: Between 01:10 UTC and 03:33 UTC on September 25th, some customers in the US, EU, and JP regions may have experienced intermittent UI errors while navigating the New Relic UI. Data ingest and alert notifications were not impacted. We have resolved this issue and impacted services have returned to normal operations.
+      resolved: true

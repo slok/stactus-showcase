@@ -1,12 +1,15 @@
 version: incident/v1
 id: gv29fd076q2t
-name: Workflows stuck in Queued state
+name: Issues with Durable Objects
 impact: minor
 systems:
-    - 5df6y9z3fsky
+    - bty1yz6dhh0v
 timeline:
     - ts: "2026-09-25 00:03:24"
       description: Cloudflare is aware of and investigating an issue impacting some customers where new Workflows instances may be stuck in a Queued state. More updates to follow shortly.
       investigating: true
     - ts: "2026-09-25 01:31:54"
       description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-25 02:32:19"
+      description: Cloudflare is investigating issues causing an increase of errors for Durable Objects .We are working to analyse and mitigate this problem. More updates to follow shortly.
+      investigating: true
