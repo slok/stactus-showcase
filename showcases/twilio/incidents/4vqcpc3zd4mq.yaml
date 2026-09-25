@@ -1,6 +1,6 @@
 version: incident/v1
 id: 4vqcpc3zd4mq
-name: User Authentication Identity Gateway API Failure Increase and High Latency for Verizon in United States
+name: User Authentication Identity Gateway API Failure Increase and Gateway API High Latency for Verizon in United States
 impact: minor
 systems:
     - q0hp6vfr4vvh
@@ -9,3 +9,12 @@ timeline:
     - ts: "2026-09-25 06:34:12"
       description: Twilio customers may be experiencing User Authentication Identity Gateway API failure increase and Gateway API high latency for Verizon in the United States. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
       investigating: true
+    - ts: "2026-09-25 07:35:44"
+      description: Twilio customers may be experiencing User Authentication Identity Gateway API failure increase and Gateway API high latency for Verizon in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-25 08:38:43"
+      description: Twilio customers may be experiencing User Authentication Identity Gateway API failure increase and Gateway API high latency for Verizon in the United States. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-25 10:42:05"
+      description: We have observed a recovery in User Authentication Identity Gateway API failure increase and Gateway API high latency for Verizon in the United States and are monitoring service stability. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-25 12:45:17"
+      description: The incident has been resolved and User Authentication Identity Gateway API failure increase and Gateway API high latency for Verizon in the United States is operating normally.
+      resolved: true

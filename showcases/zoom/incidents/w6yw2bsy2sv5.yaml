@@ -1,0 +1,13 @@
+version: incident/v1
+id: w6yw2bsy2sv5
+name: An unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature
+impact: none
+systems:
+    - rsh1v3gbhtsy
+timeline:
+    - ts: "2026-09-25 09:20:34"
+      description: "We are currently investigating an unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature in Zoom Meetings. \n\nAt this time, Catch Me Up service itself remains fully functional.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue."
+      investigating: true
+    - ts: "2026-09-25 11:03:35"
+      description: "We continue to investigate an unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature in Zoom Meetings. \n\nAt this time, Catch Me Up service itself remains fully functional.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue."
+      investigating: true

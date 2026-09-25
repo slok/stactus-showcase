@@ -1,0 +1,9 @@
+version: incident/v1
+id: 7dt6f0chnclh
+name: Secondary DNS Update Delays
+impact: minor
+systems: []
+timeline:
+    - ts: "2026-09-25 10:10:32"
+      description: Cloudflare observed and resolved delays with Secondary DNS zone transfers. Customers may have experienced delays when record updates made on primary nameservers propagate to Cloudflare Secondary DNS as well as in the other direction. DNS resolution and edge proxying remain unaffected and continue to function normally. Impact on DNS transfers may have been observed today, from 00:05:10 UTC to 01:52:54.
+      resolved: true
