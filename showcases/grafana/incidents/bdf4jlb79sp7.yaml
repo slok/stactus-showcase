@@ -1,0 +1,15 @@
+version: incident/v1
+id: bdf4jlb79sp7
+name: Cloud Provider Observability - Hosted Azure metrics issues
+impact: minor
+systems:
+    - z5ysrlvblv9t
+timeline:
+    - ts: "2026-09-26 02:11:42"
+      description: "Since approximately 00:19Z there has been an increase in errors returning metrics from Azure's germanywestcentral. \n\nWe are currently investigating this issue."
+      investigating: true
+    - ts: "2026-09-26 02:33:31"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-26 03:00:31"
+      description: This incident has been resolved.
+      resolved: true
