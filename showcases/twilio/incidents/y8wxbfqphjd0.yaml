@@ -1,0 +1,13 @@
+version: incident/v1
+id: y8wxbfqphjd0
+name: Intermittent Trial Unit Errors for Verify 'Try it out' Feature
+impact: minor
+systems:
+    - whldrk77jnm4
+timeline:
+    - ts: "2026-09-25 23:51:41"
+      description: Our monitoring systems have detected a potential issue with the Twilio Verify 'Try it out' feature for trial accounts. Our engineers have been alerted and are investigating. We will provide an update when we have more details.
+      investigating: true
+    - ts: "2026-09-26 00:00:05"
+      description: We are investigating intermittent "Trial units expired" errors when creating verifications using the Twilio Verify 'Try it out' feature in trial accounts. We expect to provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true

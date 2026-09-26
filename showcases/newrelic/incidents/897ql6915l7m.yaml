@@ -32,3 +32,10 @@ timeline:
     - ts: "2026-09-25 20:39:02"
       description: We are seeing recovery from some impacted services as we continue investigating a service interruption where a subset of customers in the US region may be experiencing delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data. Affected alerts are currently being suppressed.
       investigating: true
+    - ts: "2026-09-25 21:27:03"
+      description: We continue seeing recovery for impacted services as we work to resolve this service interruption where a subset of customers in the US region may be experiencing delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data. Alerts are no longer suppressed.
+    - ts: "2026-09-25 22:18:31"
+      description: At this time, we are seeing increased recovery of impacted services related to delayed data in queries, charts, and dashboards as well as delayed or missing alert notifications for related data in the US region.
+    - ts: "2026-09-25 22:33:40"
+      description: Between 19:24 UTC and 22:04 UTC, a subset of customers in the US region may have experienced delayed data in queries, charts, and dashboards as well as delayed, missing or suppressed alert notifications for related data. We have investigated and resolved this service interruption and impacted services have returned to normal operations.
+      resolved: true
