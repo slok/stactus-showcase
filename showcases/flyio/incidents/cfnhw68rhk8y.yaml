@@ -1,0 +1,14 @@
+version: incident/v1
+id: cfnhw68rhk8y
+name: Network outage in AMS region
+impact: critical
+systems:
+    - 70nsqsjrthwf
+timeline:
+    - ts: "2026-09-26 19:31:19"
+      description: We are working with our upstream providers to restore connectivity to the AMS region.
+    - ts: "2026-09-26 19:46:11"
+      description: Connectivity is restored and the network is recovering.
+    - ts: "2026-09-26 19:53:03"
+      description: This incident has been resolved.
+      resolved: true
