@@ -1,0 +1,18 @@
+version: incident/v1
+id: 39dzwkhzcvv5
+name: Cloudflare Cloud Access Security Broker (CASB) Issues
+impact: minor
+systems:
+    - h2p0jj4ltvcq
+timeline:
+    - ts: "2026-09-26 10:20:37"
+      description: Cloudflare is investigating degraded availability impacting Cloudflare CASB and policy sharing between accounts in Cloudflare Organizations. CASB findings may be delayed, and changes to shared policies may take longer to propagate to destination accounts.
+      investigating: true
+    - ts: "2026-09-26 10:44:49"
+      description: We are continuing to investigate this issue.
+      investigating: true
+    - ts: "2026-09-26 10:47:41"
+      description: A fix has been implemented and we are monitoring the results.
+    - ts: "2026-09-26 10:58:05"
+      description: This incident has been resolved.
+      resolved: true
