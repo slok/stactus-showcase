@@ -1,0 +1,12 @@
+version: incident/v1
+id: c6bsq4tbvz6h
+name: Intermittent timeouts affecting printing services due to AWS regional network instability
+impact: none
+systems: []
+timeline:
+    - ts: "2026-09-27 04:18:51"
+      description: |-
+        Between 00:30 and 01:07 UTC on September 27, 2026, network instability in an AWS region caused intermittent timeouts for printing and certain related operations.
+
+        This issue was limited in scope—only a small fraction of requests experienced delays, and all other services functioned normally. Provider network conditions stabilized at 01:07 UTC, and printing services have fully recovered.
+      resolved: true
