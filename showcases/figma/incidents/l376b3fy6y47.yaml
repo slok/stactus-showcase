@@ -1,0 +1,28 @@
+version: incident/v1
+id: l376b3fy6y47
+name: Service disruption
+impact: critical
+systems:
+    - 2908hq6p9syq
+    - l1rxyg394j7z
+    - dxx798px4nsg
+    - kxfxzz366mlk
+    - m29llqngdb9f
+    - nwrqc1cqgt21
+    - 99pvgc89pmqy
+    - sh20yv82q2nb
+    - 6t88v9qpkz5v
+    - 791nhyk4ppzz
+    - vd3ypm9j87p9
+    - rhbh00nfdk6m
+    - tkdcyy1s1dgt
+    - vgmcylvtjvx4
+    - pn57gvt7sjmx
+    - bcf4b8z76zqr
+    - xf0flg39y90r
+timeline:
+    - ts: "2026-09-27 01:04:19"
+      description: We are currently investigating an issue where Figma Services are degraded or unavailable because of failures with AWS and other dependencies.
+      investigating: true
+    - ts: "2026-09-27 01:18:57"
+      description: Figma should now be operational. We are continuing to monitor.
