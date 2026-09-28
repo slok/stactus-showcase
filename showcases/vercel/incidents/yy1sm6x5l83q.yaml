@@ -1,0 +1,12 @@
+version: incident/v1
+id: yy1sm6x5l83q
+name: Build failures and 500 errors for functions using Edge runtime
+impact: minor
+systems:
+    - 7ckq6xr6nsbv
+timeline:
+    - ts: "2026-09-28 13:44:30"
+      description: A small number of customers who built or deployed functions using Edge runtime between 13:01 and 13:11 UTC experienced elevated rates of build failures due to unexpected error. Some builds succeeded but resulted in 500 errors from functions using Edge runtime. Re-deploy functions using Edge runtime to accelerate remediation.
+    - ts: "2026-09-28 14:11:29"
+      description: This incident has been resolved.
+      resolved: true

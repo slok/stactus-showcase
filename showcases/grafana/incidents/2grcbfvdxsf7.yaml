@@ -1,0 +1,13 @@
+version: incident/v1
+id: 2grcbfvdxsf7
+name: Grafana Access Issues
+impact: critical
+systems:
+    - hy0247hvwzry
+timeline:
+    - ts: "2026-09-28 17:32:41"
+      description: We are currently investigating an issue causing issues accessing the platform.
+      investigating: true
+    - ts: "2026-09-28 18:00:45"
+      description: We are continuing to investigate the issue, and will provide updates once we have more to share.
+      investigating: true

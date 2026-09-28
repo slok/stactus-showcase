@@ -1,0 +1,10 @@
+version: incident/v1
+id: zz75y4xkqrk1
+name: Elevated Log Ingestion Errors for Grafana Cloud Logs in Azure Netherlands (EU)
+impact: none
+systems:
+    - hqf81r9207h6
+timeline:
+    - ts: "2026-09-28 12:02:17"
+      description: Between 09:39 and 10:03 UTC on September 28, 2026, some Grafana Cloud Logs customers in Azure Netherlands (EU) experienced intermittent errors sending log data, in two brief periods totaling approximately 14 minutes. This has been fully resolved and log ingestion is operating normally.
+      resolved: true
