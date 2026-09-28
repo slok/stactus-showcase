@@ -1,0 +1,10 @@
+version: incident/v1
+id: 8r7kqg1rzmmv
+name: Bulk Messaging API Errors
+impact: none
+systems:
+    - 7pyswrs5pfd6
+timeline:
+    - ts: "2026-09-28 21:12:52"
+      description: Our engineers have investigated and resolved an issue with the Bulk Messaging API. From 12:00PM PDT to 12:30PM PDT on Wednesday, 9/16/26, customers may have experienced elevated HTTP 503 status codes and request timeouts when calling Bulk Messaging API endpoints. The issue has been resolved and all impacted services are operating normally.
+      resolved: true

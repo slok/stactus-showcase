@@ -1,0 +1,20 @@
+version: incident/v1
+id: 8jrvd62hmxl2
+name: Service Degradation Affecting Zoom Canvas, My Notes, Sheets, In App Purchases, Billing Hub, and Clips.
+impact: minor
+systems:
+    - zhgjct3grx1z
+    - 576m25cw4prj
+    - tvtkg7hq9qdd
+    - 8214506690ws
+timeline:
+    - ts: "2026-09-28 22:15:44"
+      description: |-
+        We are currently investigating a service degradation with Zoom Canvas, My Notes, Sheets, In App Purchases, Billing Hub, and Clips.
+
+        Our team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.
+
+        We appreciate your patience as we work to resolve this issue.
+      investigating: true
+    - ts: "2026-09-28 23:23:30"
+      description: "The service degradation affecting Zoom Canvas, My Notes, Sheets, In App Purchases, Billing Hub, and Clips has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments."

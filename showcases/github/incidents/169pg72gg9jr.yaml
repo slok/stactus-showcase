@@ -1,0 +1,18 @@
+version: incident/v1
+id: 169pg72gg9jr
+name: Copilot Code Review is unable to complete reviews
+impact: critical
+systems: []
+timeline:
+    - ts: "2026-09-28 21:16:39"
+      description: We are investigating reports of impacted performance for some GitHub services.
+      investigating: true
+    - ts: "2026-09-28 21:23:59"
+      description: Revert of the impacted change is in flight, expect full recovery once the deployment is done.
+      investigating: true
+    - ts: "2026-09-28 22:08:12"
+      description: Copilot Code review has recovered, for reviews that were previously not successful you can re-request review from your PR.
+      investigating: true
+    - ts: "2026-09-28 22:08:20"
+      description: This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+      resolved: true

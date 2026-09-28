@@ -1,0 +1,13 @@
+version: incident/v1
+id: smn1d93zd3hr
+name: Replicate Flux Hotswap Models Stuck
+impact: minor
+systems:
+    - fvgfcmy66tdr
+timeline:
+    - ts: "2026-09-28 20:11:05"
+      description: We are investigating Flux hotswap models that haven't made progress since last Thursday, 2026-09-24.
+      investigating: true
+    - ts: "2026-09-28 20:28:58"
+      description: This incident has been resolved.
+      resolved: true
