@@ -1,0 +1,11 @@
+version: incident/v1
+id: bwpzcr4qnzcm
+name: Flex Plugins CLI Is Degraded
+impact: minor
+systems:
+    - z6wf7g459vzh
+timeline:
+    - ts: "2026-09-29 13:56:33"
+      description: Flex Plugins CLI is degraded and is unable to publish plugins. Engineering teams have figured out the issue and are actively working to have a patch out. We expect to provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-29 14:52:00"
+      description: Flex Plugins CLI is degraded and is unable to publish plugins. Engineering teams have figured out the issue and are actively working to have a patch out. We expect to provide another update in 2 hour(s) or as soon as more information becomes available.

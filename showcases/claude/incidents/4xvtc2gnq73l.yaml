@@ -1,0 +1,30 @@
+version: incident/v1
+id: 4xvtc2gnq73l
+name: Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API
+impact: major
+systems:
+    - rwppv331jlwc
+    - 0qbwn08sd68x
+    - k8w3r06qmzrp
+    - yyzkbfz2thpt
+    - bpp5gb3hpjcl
+timeline:
+    - ts: "2026-09-29 14:21:37"
+      description: We are investigating elevated error rates affecting Claude.ai (including the desktop and mobile apps), Claude Code and Claude Cowork. Users may see failed requests, errors loading or sending conversations, or be asked to sign in again; retrying may succeed. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-09-29 14:28:49"
+      description: We are investigating elevated error rates affecting Claude.ai (including the desktop and mobile apps), Claude Code and Claude Cowork. Some requests to the Claude API are also returning errors. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-09-29 14:30:19"
+      description: We are investigating reports of degraded performance affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork. We will provide an update as soon as possible.
+      investigating: true
+    - ts: "2026-09-29 14:41:08"
+      description: We have applied a mitigation and error rates have dropped substantially. Some sign-in attempts, account actions and Claude Code and Cowork sessions are still failing. We are continuing to work on a full fix.
+      investigating: true
+    - ts: "2026-09-29 15:00:14"
+      description: The errors that began at 14:00 UTC were mitigated at 14:36 UTC, and existing conversations are mostly working again. A second issue is preventing many users from signing in (single sign-on and Sign in with Apple are unavailable), starting new chats, voice conversations and Claude Code or Cowork sessions, making purchases, and uploading files. If you're signed in, please don't sign out. We're working on a fix and will post another update within 30 minutes.
+      investigating: true
+    - ts: "2026-09-29 15:11:27"
+      description: Most services have recovered as of 14:59 UTC. Signing in, starting new chats, voice conversations, Claude Code and Cowork sessions, purchases and file uploads are working again. Some messages sent between 14:00 and 14:59 UTC may not have been saved. We are monitoring closely and will post another update within 30 minutes.
+    - ts: "2026-09-29 15:30:44"
+      description: All services have been operating normally since 14:59 UTC. We are continuing to monitor.
