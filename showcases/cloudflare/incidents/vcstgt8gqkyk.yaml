@@ -8,3 +8,6 @@ timeline:
     - ts: "2026-09-29 20:11:20"
       description: We are investigating an issue causing a high percentage of Access One Time Pin emails to fail. All other authentication methods are operating as normal.
       investigating: true
+    - ts: "2026-09-29 20:50:35"
+      description: Cloudflare engineering determined that customers didn't actually experience elevated levels of OTP failures. The rise in failures was an isolated incident without widespread impact.
+      resolved: true
