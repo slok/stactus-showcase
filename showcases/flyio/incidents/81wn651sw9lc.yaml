@@ -1,0 +1,9 @@
+version: incident/v1
+id: 81wn651sw9lc
+name: GRU Networking Issues
+impact: major
+systems: []
+timeline:
+    - ts: "2026-09-29 20:15:31"
+      description: We observed networking issues affecting a subset of our hosts in GRU from 19:37 UTC through 19:59 UTC. This affected platform operations requiring leases, private networking, and internet connectivity to some endpoints.
+      resolved: true

@@ -1,0 +1,10 @@
+version: incident/v1
+id: vcstgt8gqkyk
+name: OTP Deliverability Errors
+impact: minor
+systems:
+    - w4k8yvhfb3vp
+timeline:
+    - ts: "2026-09-29 20:11:20"
+      description: We are investigating an issue causing a high percentage of Access One Time Pin emails to fail. All other authentication methods are operating as normal.
+      investigating: true
