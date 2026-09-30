@@ -1,0 +1,16 @@
+version: incident/v1
+id: 5xcd1035bxmw
+name: Service Degradation Affecting Zoom Phone in the EU01 cluster.
+impact: none
+systems:
+    - 773zkp1jzkgl
+    - hx06zxqdrsxl
+timeline:
+    - ts: "2026-09-30 01:07:06"
+      description: |-
+        On 09/29/2026 - 09/30/2026, Between 21:08 UTC to 00:44 UTC, A subset of users may have experienced issues with Zoom Phone in the EU01 cluster.
+
+        This incident has been resolved and the affected services have been restored.
+    - ts: "2026-09-30 01:20:41"
+      description: This incident has been resolved.
+      resolved: true
