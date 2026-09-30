@@ -1,0 +1,16 @@
+version: incident/v1
+id: k3pyqrtbn8vz
+name: SMS Delivery Delays and Failures from Twilio to Metfone, Viettel, Beeline, and Sotelco Cambodia
+impact: minor
+systems:
+    - 8qjql0kqnd33
+timeline:
+    - ts: "2026-09-30 07:18:29"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Metfone / Viettel / Beeline / Sotelco network subscribers in Cambodia. Our team is actively investigating this issue. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-30 07:32:28"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Metfone, Viettel, Beeline, and Sotelco network subscribers in Cambodia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+    - ts: "2026-09-30 08:32:45"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Metfone, Viettel, Beeline, and Sotelco network subscribers in Cambodia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+    - ts: "2026-09-30 10:33:09"
+      description: Twilio customers may be experiencing SMS delivery delays and failures from Twilio to Metfone, Viettel, Beeline, and Sotelco network subscribers in Cambodia. Our team has identified the cause, and is working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.

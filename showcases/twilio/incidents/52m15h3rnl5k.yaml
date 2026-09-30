@@ -1,0 +1,16 @@
+version: incident/v1
+id: 52m15h3rnl5k
+name: Messaging Logs API Latency & Errors
+impact: minor
+systems:
+    - yvvy3vlp4djf
+timeline:
+    - ts: "2026-09-30 06:12:12"
+      description: We are investigating an issue with the Messaging Logs API. Users may experience higher latency than normal and errors fetching and listing Messaging Logs. We will provide another update in 1 hour or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-30 07:24:12"
+      description: We are still investigating an issue with the Messaging Logs API. Users may experience higher latency than normal and errors fetching and listing Messaging Logs. We will provide another update in 2 hours or as soon as more information becomes available.
+      investigating: true
+    - ts: "2026-09-30 09:27:41"
+      description: We are still investigating an issue with the Messaging Logs API. Users may experience higher latency than normal and errors fetching and listing Messaging Logs. We will provide another update in 4 hours or as soon as more information becomes available.
+      investigating: true
